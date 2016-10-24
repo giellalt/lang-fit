@@ -4,8 +4,8 @@ LEXICON n1
 
 LEXICON x1
 +Sg+Nom: K ;
-+Sg+Gen:%>n K ;
-
++Sg+Gen:^WG%>n K ;
++Sg+Ine:%>ss^A K ;
 
 
 
