@@ -1,0 +1,7 @@
+LEXICON Numeral
+yksi num ;
+kaksi num ;
+kolme num ;
+
+LEXICON num
++Num # ;
