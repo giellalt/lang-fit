@@ -1,0 +1,31 @@
+Alphabet
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
+%^WG:0 %>:0
+%^A:ä %^O:ö %^U:y ;
+
+
+Sets
+
+Cns = b c d f g h j k l m n p q r s t v w x z ;
+FrontVowel = e i y ä ö ü æ ø ;            !!= * @CODE@ 
+BackVowel = a o u å ;                                       !!= * @CODE@ 
+ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@ 
+SomeVowel = %^V ;                                           !!= * @CODE@ 
+NeutralVowel = e i ;                                        !!= * @CODE@ 
+Vow   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@ 
+NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
+
+
+Rules 
+
+"ppttkk Gradation"
+Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
+     where Cx in ( p t k ) ;
+
+"Back harmony"
+!! __@RULENAME@__ 
+ Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
+         where Vx in ( %^A %^O %^U )
+               Vy in (   a   o   u )
+         matched ;
