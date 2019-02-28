@@ -23,7 +23,8 @@ Multichar_Symbols
 +Pron    !!≈ * __@CODE@__ = Pronomen
 +V       !!≈ * __@CODE@__ = Verb
 
-+Prop     !!= * __@CODE@__ = Propernoun
++Prop    !!= * __@CODE@__ = Propernoun
++Symbol  !!≈ * __@CODE@__ = independent symbols in the text stream, like £, €, ©
 
 !!  !!Tags for grammar
 
