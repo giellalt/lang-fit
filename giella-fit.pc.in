@@ -7,5 +7,5 @@ srcdir=${datadir}/giella/${gtlang}
 
 Name: giella-fit
 Description: Finite-state language processing tools for Tornedalen Finnish
-URL: http://divvun.no/doc/index.html
+URL: https://giellalt.uit.no/index.html
 Version: @VERSION@
