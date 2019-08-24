@@ -1,8 +1,9 @@
 Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
-%^WG:0 %>:0
-%^A:ä %^O:ö %^U:y ;
+%^WG:0 %^E2I:0 
+%>:0 
+%^A:ä %^O:ö %^U:y %^V:0 ;
 
 
 Sets
@@ -30,21 +31,34 @@ Rules
 
 !! !!Gradation
 "ppttkk Gradation"
-Cx:0 <=> [Vow|l|n|r] Cx _ RoundedVow %^WG: ;
+Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
      where Cx in ( p t k ) ;
+
+"h gradation"
+h:0 <=> Vow [t|t|k] _ e %^WG: ;
 
 !! !!Qualitative gradation
 "p:v"
 p:v <=> Vow _ Vow:  %^WG: ;
 
-"k:v"
-k:v <=> Vow _ Vow:  %^WG: ;
+"k:0"
+k:0 <=> Vow _ Vow:  %^WG: ;
 
 "k:j"
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 
 "Final e to i"
-e:i <=> _ [.#.|#] ;
+e:i <=> _ %^E2I: ;
+
+"Gemination"
+0:Cx <=> [.#.|Cns] Vow Cx _ Vow %>: Vow ;
+where Cx in ( n m l j ) ;
+
+!"j insertion before long"
+!0:j <=> [.#.|Cns] i: _ Vow %>: Vow ;
+!
+!"i to j before j insertion before long"
+!i:j <=> [.#.|Cns] _ :j Vow %>: Vow ;
 
 "a:o when nonrounded root vowel and before i"
 a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ (%^WG:) %>: [i|j] ;
@@ -70,3 +84,7 @@ a:0 <=> [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:) %>: [i|j] ;
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
+         
+"Vow copy
+^V:Vx <=> Vx %>: _ ;
+where Vx in Vow ;         
