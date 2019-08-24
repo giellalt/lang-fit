@@ -33,6 +33,7 @@ Rules
 !! !Quantitative Gradation
 "ppttkk Gradation"
 Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
+         Vow Cx _ e: h %> e ;
      where Cx in ( p t k ) ;
 
 "h gradation"
@@ -52,7 +53,7 @@ k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 "Gemination"
 0:Cx <=> [.#.|Cns] Vow Cx _ :Vow (Dummy:) %>: (h) :Vow ;
          [.#.|Cns] Vow Cx _ Vow: (Dummy:) %>: h :Vow ;
-where Cx in ( n m l j ) ;
+where Cx in ( n m l j v ) ;
 
 
 !! !!Vowel rules
@@ -60,6 +61,11 @@ where Cx in ( n m l j ) ;
 !! !Vowel change rules
 "Final e to i"
 e:i <=> _ %^E2I: ;
+
+"Suffix i to j"
+i2:j <=> :Vow (Dummy:) %>: _ :Vow ;
+!!€ sana>i2^A
+!!€ sano0ja
 
 
 !"j insertion before long"
@@ -71,7 +77,7 @@ e:i <=> _ %^E2I: ;
 "a:o when nonrounded root vowel and before i"
 a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ;
         [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; ! see fkv
-        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
+        [.#.|#] Cns:* RoundedVowel    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
 !!€ san0a>iss^A
 !!€ sanno0issa
 !!€ san0a^HMETA>h^Vin
@@ -89,6 +95,9 @@ a:0 <=>                                    _ %^HMETA: %>: ;  ! before metathesis
 !!€ kuva>iss^A
 !!€ kuv00issa
 
+!!€ kuva>^HMETAh^V^Vn
+!!€ kuv000haan
+
 "ä:0"
 ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %>: [i2:|j] ; ! before i
                                   _ %^HMETA: ; ! before metathesis h"
@@ -96,7 +105,7 @@ a:0 <=>                                    _ %^HMETA: %>: ;  ! before metathesis
 !!€ päiv00issä
 
 "e deletion before h in e stems"
-e:0 <=> _ %>: h e ; ! säkheen
+e:0 <=> _ h %>: e ; ! säkheen
         _ %^HMETA: ;
 
 "o deletion before metathesis h"
@@ -119,14 +128,30 @@ i:0 <=> _ %^HMETA: ;
 !! !Vowel copying rules
 "Vowel copying for h metathesis 1"
 %^V:Vx <=> Vx: %^HMETA: %>: h _ [%^V:|i2:] ;
-	where Vx in ( o u ä ö y e i ) ;
+	where Vx in (a o u ä ö y e i ) ;
 	
 "Vowel copying for h metathesis 2"
 %^V:Vx <=> Vx: %^HMETA: %>: h %^V: _ ;	
-	where Vx in ( o u ä ö y e i ) ;
+	where Vx in (a o u ä ö y e i ) ;
 
-"a to o copying for h metathesis"
-%^V:o <=> a: %^HMETA: %>: h _ i ;
+
+"i copying for h metathesis"
+%^V:i <=> i: %^HMETA: %>: h _ i ;
+
+"ä copying for h metathesis"
+%^V:ä <=> ä: %^HMETA: %>: h _ i ;
+
+"ö copying for h metathesis"
+%^V:ö <=> ö: %^HMETA: %>: h _ i ;
+
+"y copying for h metathesis"
+%^V:y <=> y: %^HMETA: %>: h _ i ;
+
+"u copying for h metathesis"
+%^V:u <=> u: %^HMETA: %>: h _ i ;
+
+"o copying for h metathesis"
+%^V:o <=> [a:|o:] %^HMETA: %>: h _ i ;
 	
 	
 "Back harmony"
