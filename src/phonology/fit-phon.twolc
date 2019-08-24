@@ -1,10 +1,10 @@
 Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
-%^WG:0 %^E2I:0 
+%^WG:0 %^E2I:0 %^HMETA:0
 %>:0 
-%^A:ä %^O:ö %^U:y %^V:0 ;
-
+%^A:ä %^O:ö %^U:y %^V
+i2:i i3:i i4:i ;
 
 Sets
 
@@ -29,7 +29,8 @@ NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!=
 !! !!!Rules 
 Rules 
 
-!! !!Gradation
+!! !!Consonant rules
+!! !Quantitative Gradation
 "ppttkk Gradation"
 Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
      where Cx in ( p t k ) ;
@@ -37,7 +38,7 @@ Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
 "h gradation"
 h:0 <=> Vow [t|t|k] _ e %^WG: ;
 
-!! !!Qualitative gradation
+!! !Qualitative gradation
 "p:v"
 p:v <=> Vow _ Vow:  %^WG: ;
 
@@ -47,12 +48,19 @@ k:0 <=> Vow _ Vow:  %^WG: ;
 "k:j"
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 
+!! !Gemination rules
+"Gemination"
+0:Cx <=> [.#.|Cns] Vow Cx _ :Vow (Dummy:) %>: (h) :Vow ;
+         [.#.|Cns] Vow Cx _ Vow: (Dummy:) %>: h :Vow ;
+where Cx in ( n m l j ) ;
+
+
+!! !!Vowel rules
+
+!! !Vowel change rules
 "Final e to i"
 e:i <=> _ %^E2I: ;
 
-"Gemination"
-0:Cx <=> [.#.|Cns] Vow Cx _ Vow %>: Vow ;
-where Cx in ( n m l j ) ;
 
 !"j insertion before long"
 !0:j <=> [.#.|Cns] i: _ Vow %>: Vow ;
@@ -61,23 +69,66 @@ where Cx in ( n m l j ) ;
 !i:j <=> [.#.|Cns] _ :j Vow %>: Vow ;
 
 "a:o when nonrounded root vowel and before i"
-a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ (%^WG:) %>: [i|j] ;
-        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ (%^WG:) %>: [i|j] ; ! see fkv
-        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ (%^WG:) %>: [i|j] ; 
-!!€ sana>iss^A
-!!€ sano>iss^A
+a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ;
+        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; ! see fkv
+        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
+!!€ san0a>iss^A
+!!€ sanno0issa
+!!€ san0a^HMETA>h^Vin
+!!€ sann000hoin
 
-"a:0 when nrounded root vowel and before i"
-a:0 <=> [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:) %>: [i|j] ;
+
+!! !Vowel deletion rules
+
+"a:0"
+a:0 <=>                                    _ %^HMETA: %>: ;  ! before metathesis h
+         [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:)  %>: [i2:|j] ;
+!        [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ %^HMETA: %>: h %^V: i ;
+!        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ %^HMETA: %>: h %^V: i ; ! see fkv
+!        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ %^HMETA: %>: h %^V: i ; 
 !!€ kuva>iss^A
-!!€ kuv0>iss^A
+!!€ kuv00issa
 
-"ä:0 before i"
-ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %>: [i|j] ;
-!!€ kuva>iss^A
-!!€ kuv0>iss^A
+"ä:0"
+ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %>: [i2:|j] ; ! before i
+                                  _ %^HMETA: ; ! before metathesis h"
+!!€ päivä>iss^A
+!!€ päiv00issä
 
+"e deletion before h in e stems"
+e:0 <=> _ %>: h e ; ! säkheen
+        _ %^HMETA: ;
 
+"o deletion before metathesis h"
+o:0 <=> _ %^HMETA: ;
+!!€ poro^HMETA>h^V^Vn
+!!€ por000hoon
+
+"u deletion before metathesis h"
+u:0 <=> _ %^HMETA: ;
+
+"ö deletion before metathesis h"
+ö:0 <=> _ %^HMETA: ;
+
+"y deletion before metathesis h"
+y:0 <=> _ %^HMETA: ;
+
+"i deletion before metathesis h"
+i:0 <=> _ %^HMETA: ;
+
+!! !Vowel copying rules
+"Vowel copying for h metathesis 1"
+%^V:Vx <=> Vx: %^HMETA: %>: h _ [%^V:|i2:] ;
+	where Vx in ( o u ä ö y e i ) ;
+	
+"Vowel copying for h metathesis 2"
+%^V:Vx <=> Vx: %^HMETA: %>: h %^V: _ ;	
+	where Vx in ( o u ä ö y e i ) ;
+
+"a to o copying for h metathesis"
+%^V:o <=> a: %^HMETA: %>: h _ i ;
+	
+	
 "Back harmony"
 !! __@RULENAME@__ 
  Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
@@ -85,6 +136,6 @@ a:0 <=> [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:) %>: [i|j] ;
                Vy in (   a   o   u )
          matched ;
          
-"Vow copy
-^V:Vx <=> Vx %>: _ ;
-where Vx in Vow ;         
+!"Vow copy"
+!%^V:Vx <=> Vx %>: _ ;
+!	where Vx in Vow ;         

@@ -6,13 +6,15 @@ LEXICON x1
  +Sg+Nom:^E2I       K ;
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>^A K ;
- +Sg+Ill:%>^Vn K ;
+ +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
  +Sg+Ade:^WG%>l^A K ;
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>jen K ;
  +Pl+Par:%>j^A K ;
  +Pl+Ine:^WG%>iss^A K ;
+ +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ade:^WG%>i2l^A K ;
 
 LEXICON n2
  +N: x2 ;
@@ -21,11 +23,16 @@ LEXICON x2
  +Sg+Nom:^WG       K ;
  +Sg+Gen:h%>en      K ; ! liikheen, säkheen
  +Sg+Par:^WG%>tt^A K ; ! liikettä, säettä
- +Sg+Ill:%>en   K ;    ! liikheen, säkheen
+ +Sg+Ill:h%>en   K ;    ! liikheen, säkheen
  +Sg+Ine:%>ess^A   K ; ! liikheessä, säkheessä
  +Sg+Ade:%>el^A    K ; ! liikheelä, säkheelä
  +Sg+Abl:%>elt^A   K ; ! liikheeltä, säkheeltä
-
+ +Pl+Nom:h%>et K ;
+ +Pl+Gen:h%>ejen K ;
+ +Pl+Par:h%>ej^A K ;
+ +Pl+Ill:%>en   K ;    ! liikheen, säkheen
+ +Pl+Ine:%>ess^A   K ; ! liikheessä, säkheessä
+ +Pl+Ade:%>el^A    K ; ! liikheelä, säkheelä
 
 LEXICON nen
  +N: xnen ;
