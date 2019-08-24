@@ -5,8 +5,23 @@ LEXICON n1
 LEXICON x1
  +Sg+Nom:       K ;
  +Sg+Gen:^WG%>n K ;
- +Sg+Ine:%>ss^A K ;
+ +Sg+Par:%>^A K ;
+ +Sg+Ine:^WG%>ss^A K ;
+ +Pl+Nom:^WG%>t K ;
+ +Pl+Gen:%>jen K ;
+ +Pl+Par:%>j^A K ;
+ +Pl+Ine:^WG%>iss^A K ;
+ 
+LEXICON n3
+ +N: x3 ;
 
+LEXICON x3
+ +Sg+Nom:       K ;
+ +Sg+Gen:^WG%>n K ;
+ +Sg+Par:%>t^A K ;
+ +Sg+Ine:^WG%>ss^A K ;
+ 
+ 
 
 
 !! !Sublexica for possessive suffixes
