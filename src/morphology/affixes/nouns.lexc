@@ -3,19 +3,63 @@ LEXICON n1
  +N: x1 ;
 
 LEXICON x1
- +Sg+Nom:       K ;
+ +Sg+Nom:^E2I       K ;
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>^A K ;
+ +Sg+Ill:%>^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
+ +Sg+Ade:^WG%>l^A K ;
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>jen K ;
  +Pl+Par:%>j^A K ;
  +Pl+Ine:^WG%>iss^A K ;
- 
+
+LEXICON n2
+ +N: x2 ;
+
+LEXICON x2
+ +Sg+Nom:^WG       K ;
+ +Sg+Gen:h%>en      K ; ! liikheen, säkheen
+ +Sg+Par:^WG%>tt^A K ; ! liikettä, säettä
+ +Sg+Ill:%>en   K ;    ! liikheen, säkheen
+ +Sg+Ine:%>ess^A   K ; ! liikheessä, säkheessä
+ +Sg+Ade:%>el^A    K ; ! liikheelä, säkheelä
+ +Sg+Abl:%>elt^A   K ; ! liikheeltä, säkheeltä
+
+
+LEXICON nen
+ +N: xnen ;
+
+LEXICON xnen
+ +Sg+Nom:nen       K ;
+ +Sg+Gen:se^WG%>n K ;
+ +Sg+Par:s%>t^A K ;
+ +Sg+Ine:se^WG%>ss^A K ;
+ +Sg+Ade:se^WG%>ll^A K ;
+ +Pl+Nom:se^WG%>t K ;
+ +Pl+Gen:s%>Ten K ;
+ +Pl+Par:t%>i^A K ;
+ +Pl+Ine:s^WG%>iss^A K ;
+
 LEXICON n3
  +N: x3 ;
 
 LEXICON x3
+ +Sg+Nom:^E2I       K ;
+ +Sg+Gen:^WG%>n K ;
+ +Sg+Par:%>^A K ;
+ +Sg+Ine:^WG%>ss^A K ;
+ +Sg+Ade:^WG%>l^A K ;
+ +Pl+Nom:^WG%>t K ;
+ +Pl+Gen:%>jen K ;
+ +Pl+Par:%>j^A K ;
+ +Pl+Ine:^WG%>iss^A K ;
+
+  
+LEXICON n4
+ +N: x4 ;
+
+LEXICON x4
  +Sg+Nom:       K ;
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>t^A K ;
