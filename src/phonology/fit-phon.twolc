@@ -13,6 +13,8 @@ ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@
 SomeVowel = %^V ;                                           !!= * @CODE@ 
 NeutralVowel = e i ;                                        !!= * @CODE@ 
 Vow   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@ 
+RoundedVowel = y ö o u å ;                                       !!= * @CODE@ 
+UnroundedVowel = e ä a i ;                                 !!= * @CODE@ 
 Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
 DummyBorder = Dummy %> ;          !!= * @CODE@
 LNRM     = l n r m ;
@@ -23,11 +25,44 @@ Segment = Vowel Cns ;                                       !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
+!! !!!Rules 
 Rules 
 
+!! !!Gradation
 "ppttkk Gradation"
-Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
+Cx:0 <=> [Vow|l|n|r] Cx _ RoundedVow %^WG: ;
      where Cx in ( p t k ) ;
+
+!! !!Qualitative gradation
+"p:v"
+p:v <=> Vow _ Vow:  %^WG: ;
+
+"k:v"
+k:v <=> Vow _ Vow:  %^WG: ;
+
+"k:j"
+k:j <=> Vow [l|r] _ Vow:  %^WG: ;
+
+"Final e to i"
+e:i <=> _ [.#.|#] ;
+
+"a:o when nonrounded root vowel and before i"
+a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ (%^WG:) %>: [i|j] ;
+        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ (%^WG:) %>: [i|j] ; ! see fkv
+        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ (%^WG:) %>: [i|j] ; 
+!!€ sana>iss^A
+!!€ sano>iss^A
+
+"a:0 when nrounded root vowel and before i"
+a:0 <=> [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:) %>: [i|j] ;
+!!€ kuva>iss^A
+!!€ kuv0>iss^A
+
+"ä:0 before i"
+ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %>: [i|j] ;
+!!€ kuva>iss^A
+!!€ kuv0>iss^A
+
 
 "Back harmony"
 !! __@RULENAME@__ 
