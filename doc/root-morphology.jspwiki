@@ -57,19 +57,33 @@ Take nothing at face value!
  * __+Com__ = Comitative
  * __+Par__ = Partitive
 
+!Possessive suffixes
+ * __+PxPl1__ = 
+ * __+PxPl2__ = 
+ * __+PxPl3__ = 
+ * __+PxSg1__ = 
+ * __+PxSg2__ = 
+ * __+PxSg3__ = 
+
 
 !Comparatives
  * __+Comp__ = 
  * __+Superl__ = 
 
 !Finite verbs
- * __+Pass__ = 
+ * __+Pass__ =
  * __+Ind__ = 
  * __+Prs__ = 
  * __+Prt__ = 
  * __+Imprt__ = 
  * __+Cond__ = 
  * __+Pot__ = Potential
+
+
+ * __+Sg1__ = 
+ * __+Sg3__ = 
+ * __+Pl1__ = 
+ * __+Pl3__ = 
 
 !Infinite verbs
  * __+Inf__ = 
@@ -85,10 +99,13 @@ Take nothing at face value!
 
 
 !Speller tags
-  +Err/Orth    only in desc, not in norm.
+ *  +Err/Orth    only in desc, not in norm.
  * __+Use/-Spell__ = Excluded in speller
  * __+Use/SpellNoSugg__ = recognized but not suggested in speller
-  +Use/Circ   for numerals, copied from sme
+ *  +Use/Circ   for numerals, copied from sme
+ *  +Use/NG   do not generate
+
+
 !Compounds
  * __+Cmp__ = 
 
@@ -132,18 +149,18 @@ Take nothing at face value!
  * __%^A 		__ = Vowel harmony a/ä
  * __%^O		__ = Vowel harmony o/ö
  * __%^U		__ = Vowel harmony u/y
- * __%^V 				__ = Vowel copying
- * __%^N 				__ = tulˆNut, kävel^N^Ut
- * __%^E2I 			__ = for e to i change
- * __%^HMETA 			__ = for h metathesis syksy - sykshyyn
- * __%^AO 			__ = a:o rannoissa
- * __%^WG 			__ = Weak grade matto - maton
- * __%^TES				__ =  in use?
+ * __%^V 		__ = Vowel copying
+ * __%^N 		__ = tulˆNut, kävel^N^Ut
+ * __%^E2I 	__ = for e to i change
+ * __%^HMETA 	__ = for h metathesis syksy - sykshyyn
+ * __%^AO 	__ = a:o rannoissa
+ * __%^WG 	__ = Weak grade matto - maton
+ * __%^TES		__ =  in use?
  * __%^VDEL__ = Deleting long vowel in rakkaa- > rakas
  * __%^EDEL__ = Deleting e in front of consonant
  * __%^AE__ = for a to e change
  * __%^M2N__ = for m to n in lumi lunta
- * __%^¤					__ = potecting against e:i word-finally (nalle, liike)
+ * __%^¤		__ = potecting against e:i word-finally (nalle, liike)
 
 
 
