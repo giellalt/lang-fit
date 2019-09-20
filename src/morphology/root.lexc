@@ -60,19 +60,33 @@ Multichar_Symbols
 +Com  !!≈ * __@CODE@__ = Comitative
 +Par  !!≈ * __@CODE@__ = Partitive
 
+!! !Possessive suffixes
++PxPl1      !!≈ * __@CODE@__ = 
++PxPl2      !!≈ * __@CODE@__ = 
++PxPl3      !!≈ * __@CODE@__ = 
++PxSg1      !!≈ * __@CODE@__ = 
++PxSg2      !!≈ * __@CODE@__ = 
++PxSg3      !!≈ * __@CODE@__ = 
+
 
 !! !Comparatives
 +Comp      !!≈ * __@CODE@__ = 
 +Superl    !!≈ * __@CODE@__ = 
 
 !! !Finite verbs
-+Pass     !!≈ * __@CODE@__ = 
++Pass     !!≈ * __@CODE@__ =
 +Ind      !!≈ * __@CODE@__ = 
 +Prs      !!≈ * __@CODE@__ = 
 +Prt      !!≈ * __@CODE@__ = 
 +Imprt    !!≈ * __@CODE@__ = 
 +Cond     !!≈ * __@CODE@__ = 
 +Pot      !!≈ * __@CODE@__ = Potential
+
+
++Sg1     !!≈ * __@CODE@__ = 
++Sg3     !!≈ * __@CODE@__ = 
++Pl1     !!≈ * __@CODE@__ = 
++Pl3     !!≈ * __@CODE@__ = 
 
 !! !Infinite verbs
 +Inf     !!≈ * __@CODE@__ = 
@@ -88,10 +102,13 @@ Multichar_Symbols
 
 
 !! !Speller tags
- +Err/Orth   !!= @CODE@ only in desc, not in norm.
+ +Err/Orth   !!= * @CODE@ only in desc, not in norm.
  +Use/-Spell   !!≈ * __@CODE@__ = Excluded in speller
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
- +Use/Circ  !!= @CODE@ for numerals, copied from sme
+ +Use/Circ  !!= * @CODE@ for numerals, copied from sme
+ +Use/NG  !!= * @CODE@ do not generate
+
+
 !! !Compounds
  +Cmp  !!≈ * __@CODE@__ = 
 
