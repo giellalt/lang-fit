@@ -1,25 +1,42 @@
 LEXICON NounRoot
 sana n1 ;
 kala n1 ;
-poro n1 ;
-kuru n1 ;
-leppä n1 ;
+taakka n1 ;
+rieska n1 ;
 sakka n1 ;
-keppi n1 ;
 mustikka n3 ;
 uppura n1 ; ! uppuroissa
 kuva n1 ;
 luokka n1 ;
+kissa n1 ;
+
+poro n1 ;
+
+kuru n1 ;
+
+leppä n1 ;
+päivä n1 ;
+
 liike:liikke n2 ; ! liikettä
 säe:säke n2 ;
-kissa n1 ;
-päivä n1 ;
+
 käpy n1 ;
 häpy n1 ;
+
 joki:joke n1 ;
 jälki:jälke n1 ;
-väri n1 ;
 veri:vere n4 ;
 varsi:varte n1 ;
+
+siili n1 ;
+silli n1 ;
+keppi n1 ;
+väri n1 ;
+vesi:vete n1 ;
+varsi:varte n1 ;
+
 hevonen:hevo nen ;
+
+keskus:keskukse nks ;
+tehas:tehtas nas ;
 
