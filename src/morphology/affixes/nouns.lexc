@@ -21,16 +21,16 @@ LEXICON n2
 
 LEXICON x2
  +Sg+Nom:^WG       K ;
- +Sg+Gen:h%>en      K ; ! liikheen, säkheen
+ +Sg+Gen:h%>en     K ; ! liikheen, säkheen
  +Sg+Par:^WG%>tt^A K ; ! liikettä, säettä
- +Sg+Ill:h%>en   K ;    ! liikheen, säkheen
+ +Sg+Ill:h%>en     K ; ! liikheen, säkheen
  +Sg+Ine:%>ess^A   K ; ! liikheessä, säkheessä
  +Sg+Ade:%>el^A    K ; ! liikheelä, säkheelä
  +Sg+Abl:%>elt^A   K ; ! liikheeltä, säkheeltä
- +Pl+Nom:h%>et K ;
- +Pl+Gen:h%>ejen K ;
- +Pl+Par:h%>ej^A K ;
- +Pl+Ill:%>en   K ;    ! liikheen, säkheen
+ +Pl+Nom:h%>et     K ;
+ +Pl+Gen:h%>ejen   K ;
+ +Pl+Par:h%>ej^A   K ;
+ +Pl+Ill:%>en      K ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   K ; ! liikheessä, säkheessä
  +Pl+Ade:%>el^A    K ; ! liikheelä, säkheelä
 
@@ -41,12 +41,15 @@ LEXICON xnen
  +Sg+Nom:nen       K ;
  +Sg+Gen:se^WG%>n K ;
  +Sg+Par:s%>t^A K ;
+ +Sg+Ill:sheen   K ;    ! liikheen, säkheen
  +Sg+Ine:se^WG%>ss^A K ;
  +Sg+Ade:se^WG%>ll^A K ;
  +Pl+Nom:se^WG%>t K ;
  +Pl+Gen:s%>ten K ;
- +Pl+Par:t%>i2^A K ;
+ +Pl+Par:s%>i^A K ;
  +Pl+Ine:s^WG%>i2ss^A K ;
+ +Pl+Ill:shiin   K ;    !
+ +Pl+Ade:s%>i2ll^A    K ;  ! evt se>i2ll^A
 
 LEXICON n3
  +N: x3 ;
@@ -70,13 +73,54 @@ LEXICON x3
 LEXICON n4
  +N: x4 ;
 
-LEXICON x4
- +Sg+Nom:       K ;
- +Sg+Gen:^WG%>n K ;
- +Sg+Par:%>t^A K ;
+LEXICON x4 ! veri
+ +Sg+Nom:^E2I       K ; ! veri
+ +Sg+Gen:^WG%>n     K ; ! veren
+ +Sg+Par:%>t^A      K ; ! verta
+ +Sg+Ine:^WG%>ss^A  K ; ! veressä
+ +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
- 
- 
+ +Sg+Ade:^WG%>l^A K ;
+ +Pl+Nom:^WG%>t K ;
+ +Pl+Gen:%>i2en K ;
+ +Pl+Par:%>i2^A K ;
+ +Pl+Ine:^WG%>i2ss^A K ;
+ +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ade:^WG%>i2l^A K ;
+
+
+LEXICON nks
+ +Sg+Nom:       K ;
+ +Sg+Gen:%>n K ;
+ +Sg+Par:%>t^A K ;
+ +Sg+Ill:^HMETA%>h^V^Vn K ;
+ +Sg+Ine:%>ss^A K ;
+ +Sg+Ade:%>ll^A K ;
+ +Pl+Nom:%>t K ;
+ +Pl+Gen:%>ten K ;
+ +Pl+Par:%>i2^A K ;
+ +Pl+Ine:%>i2ss^A K ;
+ +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ade:%>i2ll^A K ;
+
+
+LEXICON nas
+ +Sg+Nom:^WG       K ;
+ +Sg+Gen:a%>n K ;
+ +Sg+Par:^WG%>t^A K ;
+ +Sg+Ill:^HMETA%>h^V^Vn K ;
+ +Sg+Ine:a%>ss^A K ;
+ +Sg+Ade:a%>ll^A K ;
+ +Pl+Nom:a%>t K ;
+ +Pl+Gen:a%>i2den K ;
+ +Pl+Par:a%>i2t^A K ;
+ +Pl+Ine:a%>i2ss^A K ;
+ +Pl+Ill:a^HMETA%>h^Vin K ;
+ +Pl+Ade:a%>i2ll^A K ;
+
+
+
+
 
 
 !! !Sublexica for possessive suffixes

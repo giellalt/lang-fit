@@ -31,20 +31,37 @@ Rules
 
 !! !!Consonant rules
 !! !Quantitative Gradation
-"ppttkk Gradation"
-Cx:0 <=> [Vow|l|n|r] Cx _ Vow %^WG: ;
-         Vow Cx _ e: h %> e ;
-     where Cx in ( p t k ) ;
+"p Gradation"
+p:0 <=> [Vow|l|n|r] p _ Vow %^WG: ; ! Quant Grad
+         Vow p _ e: h %> e ;
+
+"t Gradation"
+t:0 <=> [Vow|l|n|r] t _ Vow %^WG: ; ! Quant Grad
+         Vow t _ e: h %> e ;
+
+"k Gradation"
+k:0 <=> [Vow|l|n|r] k _ Vow  %^WG: ;    ! Quant Grad
+                  Vow _ Vow: %^WG: ;  ! Qual Grad
+                Vow k _ e: h %>: e ;    ! kkh > kh
+                  u   _ s e: [.#.|%>: t] ; ! -us
 
 "h gradation"
-h:0 <=> Vow [t|t|k] _ e %^WG: ;
+h:0 <=>     Vow [p|t|k]                  _ e %^WG: ;
+        Vow Vow :h Cns Vow: %^HMETA: %>: _ ;
+
+"h insertion after long root vowel"
+0:h <=> Vow Vow _ Cns Vow: %^HMETA: ;
+!!€ päi0vä^HMETA>h^V^Vn
+!!€ päihv0000ään
+!!€ päi0vä^HMETA>h^Vin
+!!€ päihv0000iin
+
+
 
 !! !Qualitative gradation
 "p:v"
 p:v <=> Vow _ Vow:  %^WG: ;
 
-"k:0"
-k:0 <=> Vow _ Vow:  %^WG: ;
 
 "k:j"
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
@@ -54,6 +71,19 @@ k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 0:Cx <=> [.#.|Cns] Vow Cx _ :Vow (Dummy:) %>: (h) :Vow ;
          [.#.|Cns] Vow Cx _ Vow: (Dummy:) %>: h :Vow ;
 where Cx in ( n m l j v ) ;
+
+!! !Other consonant changes
+"ti:si"
+t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %>: i2: ;
+        Vow ([l|n|r]) _ :i %^E2I: .#. ;
+
+!!€ vete
+!!€ vesi
+!!€ vere
+!!€ veri
+!!€ varte
+!!€ varsi
+
 
 
 !! !!Vowel rules
@@ -67,6 +97,8 @@ i2:j <=> :Vow (Dummy:) %>: _ :Vow ;
 !!€ sana>i2^A
 !!€ sano0ja
 
+"i to e in plural"
+i:e <=> _ (Dummy:) %> i2: ;
 
 !"j insertion before long"
 !0:j <=> [.#.|Cns] i: _ Vow %>: Vow ;
@@ -78,7 +110,7 @@ i2:j <=> :Vow (Dummy:) %>: _ :Vow ;
 a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ;
         [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; ! see fkv
         [.#.|#] Cns:* RoundedVowel    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
-!!€ san0a>iss^A
+!!€ san0a>i2ss^A
 !!€ sanno0issa
 !!€ san0a^HMETA>h^Vin
 !!€ sann000hoin
@@ -88,25 +120,30 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2
 
 "a:0"
 a:0 <=>                                    _ %^HMETA: %>: ;  ! before metathesis h
-         [.#.|#] Cns:* RoundedVowel+ Cns:+ _ (%^WG:)  %>: [i2:|j] ;
+         [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %>: [i2:|j] ;
 !        [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ %^HMETA: %>: h %^V: i ;
 !        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ %^HMETA: %>: h %^V: i ; ! see fkv
 !        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ %^HMETA: %>: h %^V: i ; 
-!!€ kuva>iss^A
+!!€ kuva>i2ss^A
 !!€ kuv00issa
-
-!!€ kuva>^HMETAh^V^Vn
-!!€ kuv000haan
+!!€ kuv0a^HMETA>h^V^Vn
+!!€ kuvv000haan
+!!€ kuv0a^HMETA>h^Vin
+!!€ kuvv000hiin
 
 "ä:0"
 ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %>: [i2:|j] ; ! before i
                                   _ %^HMETA: ; ! before metathesis h"
-!!€ päivä>iss^A
+!!€ päivä>i2ss^A
 !!€ päiv00issä
 
 "e deletion before h in e stems"
-e:0 <=> _ h %>: e ; ! säkheen
-        _ %^HMETA: ;
+e:0 <=>      _ h %>: e ; ! säkheen
+             _ %^HMETA: ;
+	k: s _ [.#.|t] ;
+ Vow [l|n|r] _ %>: t ;
+!!€ keskukse
+!!€ kesku0s0
 
 "o deletion before metathesis h"
 o:0 <=> _ %^HMETA: ;
@@ -114,44 +151,51 @@ o:0 <=> _ %^HMETA: ;
 !!€ por000hoon
 
 "u deletion before metathesis h"
-u:0 <=> _ %^HMETA: ;
+u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
 
 "ö deletion before metathesis h"
-ö:0 <=> _ %^HMETA: ;
+ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
 
 "y deletion before metathesis h"
-y:0 <=> _ %^HMETA: ;
+y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
 
 "i deletion before metathesis h"
-i:0 <=> _ %^HMETA: ;
+i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
+         ![Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
+!!€ sii0li^HMETA>h^V^Vn
+!!€ siihl0000iin
+
 
 !! !Vowel copying rules
-"Vowel copying for h metathesis 1"
-%^V:Vx <=> Vx: %^HMETA: %>: h _ [%^V:|i2:] ;
+"Vowel copying for h: metathesis 1"
+%^V:Vx <=> Vx: %^HMETA: %>: h: _ [%^V:|i2:|i] ;
 	where Vx in (a o u ä ö y e i ) ;
 	
 "Vowel copying for h metathesis 2"
-%^V:Vx <=> Vx: %^HMETA: %>: h %^V: _ ;	
+%^V:Vx <=> Vx: %^HMETA: %>: h: %^V: _ ;	
 	where Vx in (a o u ä ö y e i ) ;
 
 
 "i copying for h metathesis"
-%^V:i <=> i: %^HMETA: %>: h _ i ;
+%^V:i <=> i: %^HMETA: %>: h: _ :i ;
+!!€ silli^HMETA>h^V^Vn
+!!€ sill000hiin
+
 
 "ä copying for h metathesis"
-%^V:ä <=> ä: %^HMETA: %>: h _ i ;
+%^V:i <=> ä: %^HMETA: %>: h: _ :i ;
 
 "ö copying for h metathesis"
-%^V:ö <=> ö: %^HMETA: %>: h _ i ;
+%^V:ö <=> ö: %^HMETA: %>: h: _ :i ;
 
 "y copying for h metathesis"
-%^V:y <=> y: %^HMETA: %>: h _ i ;
+%^V:y <=> y: %^HMETA: %>: h: _ :i ;
 
 "u copying for h metathesis"
-%^V:u <=> u: %^HMETA: %>: h _ i ;
+%^V:u <=> u: %^HMETA: %>: h: _ :i ;
 
 "o copying for h metathesis"
-%^V:o <=> [a:|o:] %^HMETA: %>: h _ i ;
+%^V:o <=> [a:|o:] %^HMETA: %>: h: _ :i ;
 	
 	
 "Back harmony"
