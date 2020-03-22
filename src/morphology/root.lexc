@@ -1,10 +1,10 @@
 
 ! ========================================================================
-!!               !!!Kven morphological transducer
+!!               !!!Meänkieli morphological transducer
 ! ========================================================================
 
 
-!! Beware of remnants from the Finnish file.
+!! Beware of remnants from the Finnish and Kven files.
 !! Take nothing at face value!
 
 Multichar_Symbols  
@@ -259,4 +259,5 @@ LEXICON Root    !!=  __@CODE@__
 
 LEXICON K
 # ;
++Qst:%>k^O # ;
 +Foc:%>kin # ;

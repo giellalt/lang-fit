@@ -1,4 +1,13 @@
 
+! n1 = talo, basic paradigm
+! n2 = liike, säe
+! n3 = kanava
+! n4 = veri
+
+! nen = nainen paradigm
+! nks = keskus - keskuksen
+! nas = tehas - tehtaan
+
 LEXICON n1
  +N: x1 ;
 
@@ -34,23 +43,6 @@ LEXICON x2
  +Pl+Ine:%>ess^A   K ; ! liikheessä, säkheessä
  +Pl+Ade:%>el^A    K ; ! liikheelä, säkheelä
 
-LEXICON nen
- +N: xnen ;
-
-LEXICON xnen
- +Sg+Nom:nen       K ;
- +Sg+Gen:se^WG%>n K ;
- +Sg+Par:s%>t^A K ;
- +Sg+Ill:sheen   K ;    ! liikheen, säkheen
- +Sg+Ine:se^WG%>ss^A K ;
- +Sg+Ade:se^WG%>ll^A K ;
- +Pl+Nom:se^WG%>t K ;
- +Pl+Gen:s%>ten K ;
- +Pl+Par:s%>i^A K ;
- +Pl+Ine:s^WG%>i2ss^A K ;
- +Pl+Ill:shiin   K ;    !
- +Pl+Ade:s%>i2ll^A    K ;  ! evt se>i2ll^A
-
 LEXICON n3
  +N: x3 ;
 
@@ -60,14 +52,20 @@ LEXICON x3
  +Sg+Par:%>^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
+ +Sg+Ela:^WG%>st^A K ;
+ +Sg+All:^WG%>lle K ;
  +Sg+Ade:^WG%>ll^A K ;
- +Pl+Nom:^WG%>t K ;
- +Pl+Gen:%>i2en K ;
- +Pl+Par:%>i2^A K ;
- +Pl+Ine:^WG%>i2ss^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;
- +Pl+Ade:^WG%>i2ll^A K ;
+ +Sg+Abl:^WG%>lt^A K ;
 
+ +Pl+Nom:^WG%>t K ;
+ +Pl+Gen:%>i2tten K ;
+ +Pl+Par:%>i2t^A K ;
+ +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ine:^WG%>i2ss^A K ;
+ +Pl+Ela:^WG%>i2st^A K ;
+ +Pl+Ade:^WG%>i2ll^A K ;
+ +Pl+Ade:^WG%>i2ll^A K ;
+ +Pl+Abl:^WG%>i2lt^A K ;
 
   
 LEXICON n4
@@ -87,6 +85,25 @@ LEXICON x4 ! veri
  +Pl+Ine:^WG%>i2ss^A K ;
  +Pl+Ill:^HMETA%>h^Vin K ;
  +Pl+Ade:^WG%>i2l^A K ;
+
+
+
+LEXICON nen
+ +N: xnen ;
+
+LEXICON xnen
+ +Sg+Nom:nen       K ;
+ +Sg+Gen:se^WG%>n K ;
+ +Sg+Par:s%>t^A K ;
+ +Sg+Ill:sheen   K ;    ! liikheen, säkheen
+ +Sg+Ine:se^WG%>ss^A K ;
+ +Sg+Ade:se^WG%>ll^A K ;
+ +Pl+Nom:se^WG%>t K ;
+ +Pl+Gen:s%>ten K ;
+ +Pl+Par:s%>i^A K ;
+ +Pl+Ine:s^WG%>i2ss^A K ;
+ +Pl+Ill:shiin   K ;    !
+ +Pl+Ade:s%>i2ll^A    K ;  ! evt se>i2ll^A
 
 
 LEXICON nks
@@ -119,7 +136,12 @@ LEXICON nas
  +Pl+Ade:a%>i2ll^A K ;
 
 
+LEXICON ime
++N: xime ;
 
+LEXICON xime
++Sg+Nom: K ;
++Sg+Gen:%>n K ;
 
 
 

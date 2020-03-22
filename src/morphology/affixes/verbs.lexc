@@ -1,9 +1,132 @@
-LEXICON v1
-+Inf:%>^A K ;
-+Ind+Prs+Sg1:^WG%>n K ;
-+Ind+Prs+Sg1:^WG%>t K ;
-+Ind+Prs+Sg3:%>^V K ;
-+Ind+Prs+Pl1:^WG%>mme K ;
-+Ind+Prs+Pl1:^WG%>tte K ;
-+Ind+Prs+Pl3:%>t K ;
 
+!! !! Irregular verbs
+
+LEXICON OLLA
++V+Inf:olla K ;
++V+Act+Ind+Prs+Sg1:olen K ;
++V+Act+Ind+Prs+Sg2:olet K ;
++V+Act+Ind+Prs+Sg3:oon K ;
++V+Act+Ind+Prs+Pl1:olema K ;
++V+Act+Ind+Prs+Pl2:oletta K ;
++V+Act+Ind+Prs+Pl3:oon K ;
+
++V+Act+Ind+Prt+Sg1:olin K ;
++V+Act+Ind+Prt+Sg2:olit K ;
++V+Act+Ind+Prt+Sg3:oli K ;
++V+Act+Ind+Prt+Pl1:olima K ;
++V+Act+Ind+Prt+Pl2:olitta K ;
++V+Act+Ind+Prt+Pl3:oli K ;
+
+! tsekkaa loput olla-muodot, ne on ottetu fkv-tiedostosta.
++V+Pass+Ind+Prs:olhaan K ;
++V+Pass+Ind+Prt:olthiin K ;  
++V+Act+PrfPrc+Sg+Nom:ollu K ;
++V+Act+Ind+Prt+ConNeg+Sg:ollu K ;
++V+Pass+PrfPrc+Sg+Nom:oltu K ;
++V+Pass+PrfPrc+Pl+Nom:oltut K ; 
++V+Act+PrfPrc+Pl+Nom:olheet K ;
++V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
++V+Act+PrsPrc+Der/A+A:olleeva x3 ;
++V+Pass+PrsPrc+Der/A+A:oltava x3 ;
++V+Act+Ind+Prs+ConNeg:ole K ;
+
+! These are standard Finnish forms marked as Err/Orth.
++V+Act+Ind+Prs+Sg3+Err/Orth:on K ;
++V+Act+Ind+Prs+Pl1+Err/Orth:olemme K ;
++V+Act+Ind+Prs+Pl2+Err/Orth:olette K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:ollut K ;
++V+Act+Ind+Prt+ConNeg+Sg+Err/Orth:ollut K ;
++V+Act+PrfPrc+Pl+Nom+Err/Orth:olleet K ;
++V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
+
+LEXICON NEG
++V+Act+Ind+Prs+Sg1:en K ;
++V+Act+Ind+Prs+Sg2:en K ;
++V+Act+Ind+Prs+Sg3:ei K ;
++V+Act+Ind+Prs+Pl1:emmä K ;
++V+Act+Ind+Prs+Pl2:että K ;
++V+Act+Ind+Prs+Pl3:ei K ;
+
++V+Imp+Sg2:älä K ;
+
+!! !! Regular verbs
+
+LEXICON v1 ! sanoa, lukea
++V+Inf:%>^A K ;
++V+Act+Ind+Prs+ConNeg:^WG K ;
+
++V+Act+Ind+Prs+Sg1:^WG%>n K ;
++V+Act+Ind+Prs+Sg2:^WG%>t K ;
++V+Act+Ind+Prs+Sg3:%>^V K ;
++V+Act+Ind+Prs+Pl1:^WG%>m^A K ;
++V+Act+Ind+Prs+Pl2:^WG%>tt^A K ;
++V+Act+Ind+Prs+Pl3:%>v^At K ;
+
++V+Act+Ind+Prt+Sg1:^WG%>in K ;
++V+Act+Ind+Prt+Sg2:^WG%>it K ;
++V+Act+Ind+Prt+Sg3:%>i K ;
++V+Act+Ind+Prt+Pl1:^WG%>im^A K ;
++V+Act+Ind+Prt+Pl2:^WG%>itt^A K ;
++V+Act+Ind+Prt+Pl3:%>it K ;
+
+LEXICON v2
++V+Inf:%>d^A K ;
++V+Act+Ind+Prs+ConNeg: K ;
+
++V+Act+Ind+Prs+Sg1:%>n K ;
++V+Act+Ind+Prs+Sg2:%>t K ;
++V+Act+Ind+Prs+Sg3: K ;
++V+Act+Ind+Prs+Pl1:%>m^A K ;
++V+Act+Ind+Prs+Pl2:%>tt^A K ;
++V+Act+Ind+Prs+Pl3:%>v^At K ;
+
++V+Act+Ind+Prt+Sg1:%>in K ;
++V+Act+Ind+Prt+Sg2:%>it K ;
++V+Act+Ind+Prt+Sg3:%>i K ;
++V+Act+Ind+Prt+Pl1:%>im^A K ;
++V+Act+Ind+Prt+Pl2:%>itt^A K ;
++V+Act+Ind+Prt+Pl3:%>it K ;
+
+LEXICON v4
++V+Inf:^WG%>t^A K ;
++V+Act+Ind+Prs+ConNeg:%>^A K ;
+
++V+Act+Ind+Prs+Sg1:%>^An K ;
++V+Act+Ind+Prs+Sg2:%>^At K ;
++V+Act+Ind+Prs+Sg3:%>^A K ;
++V+Act+Ind+Prs+Pl1:%>^Amme K ;
++V+Act+Ind+Prs+Pl2:%>^Atte K ;
++V+Act+Ind+Prs+Pl3:%>^At K ;
+
+LEXICON v3
++V+Inf:%>^N^A K ;
++V+Act+Ind+Prs+ConNeg: K ;
+
++V+Act+Ind+Prs+Sg1:%>n K ;
++V+Act+Ind+Prs+Sg2:%>t K ;
++V+Act+Ind+Prs+Sg3:%>e K ;
++V+Act+Ind+Prs+Pl1:%>m^A K ;
++V+Act+Ind+Prs+Pl2:%>tt^A K ;
++V+Act+Ind+Prs+Pl3:%>v^At K ;
+
++V+Act+Ind+Prt+Sg1:%>in K ;
++V+Act+Ind+Prt+Sg2:%>it K ;
++V+Act+Ind+Prt+Sg3:%>i K ;
++V+Act+Ind+Prt+Pl1:%>im^A K ;
++V+Act+Ind+Prt+Pl2:%>itt^A K ;
++V+Act+Ind+Prt+Pl3:%>it K ;
+
+LEXICON v5
++V+Inf:^WG%>^A K ;
++V+Act+Ind+Prs+ConNeg:%>^A K ;
+
++V+Act+Ind+Prs+Sg1:%>^An K ;
++V+Act+Ind+Prs+Sg2:%>^At K ;
++V+Act+Ind+Prs+Sg3:%>^A K ;
++V+Act+Ind+Prs+Pl1:%>^Amme K ;
++V+Act+Ind+Prs+Pl2:%>^Atte K ;
++V+Act+Ind+Prs+Pl3:%>^At K ;
+
+LEXICON v6
++V+Inf:t^A K ;

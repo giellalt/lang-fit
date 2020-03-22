@@ -1,5 +1,36 @@
+!! !!!Meänkieli verbs
+
+
 LEXICON VerbRoot
 
+!! !! Irregular verbs
+olla: OLLA ;
+
+
+!! !! v1 sanoa, lukea
 sanoa:sano v1 ;
 hukkua:hukku v1 ;
 syyttää:syyttä v1 ;
+freistaa:freista v1 ;
+
+
+!! !! v2 syödä, juoda
+syödä:syö v2 ;
+juoda:juo v2 ;
+viedä:vie v2 ;
+saada:saa v2 ;
+
+
+!! !! v3 tulla, mennä
+tulla:tule v3 ;
+
+
+!! !! v4 tryykätä
+tryykätä:trykkä v4 ;
+
+!! !! v5 tarvita
+tarvita:tarvit v5 ;
+
+!! !! v6 paeta
+paeta:pake v6 ;
+

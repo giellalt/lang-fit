@@ -4,11 +4,9 @@ LEXICON Pronoun
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg:mi         12pronsg   ; !!= * @CODE@ 
-mie+Pron+Pers+Sg+Use/NG:m         12pronsg_short   ; !!= * @CODE@ 
-sie+Pron+Pers+Sg:si         12pronsg   ; !!  * ...
-sie+Pron+Pers+Sg+Use/NG:s         12pronsg_short   ; !!= * @CODE@ 
-hän+Pron+Pers+Sg:hän        han_pron   ;
+mie+Pron+Pers+Sg:m         12pronsg   ; !!= * @CODE@ 
+sie+Pron+Pers+Sg:s         12pronsg   ; !!  * ...
+hän+Pron+Pers+Sg:          han_pron   ;
 se+Pron+Pers+Sg:            se_pron  ;
 met+Pron+Pers+Pl:me         123pronpl   ;
 tet+Pron+Pers+Pl:te         123pronpl   ;
