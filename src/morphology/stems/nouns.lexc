@@ -1,42 +1,69 @@
+
+
 LEXICON NounRoot
-sana n1 ;
+
+nimi:nime n1 ;
+häpy n1 ;
+joki:joke n1 ;
+jälki:jälke n1 ;
 kala n1 ;
-taakka n1 ;
+keppi n1 ;
+kissa n1 ;
+klanni n1 ;
+klimppi n1 ;
+kläppi n1 ;
+krouvi n1 ;
+kuru n1 ;
+kuva n1 ;
+käpy n1 ;
+leppä n1 ;
+luokka n1 ;
+poro n1 ;
+päivä n1 ;
 rieska n1 ;
 sakka n1 ;
-mustikka n3 ;
-uppura n1 ; ! uppuroissa
-kuva n1 ;
-luokka n1 ;
-kissa n1 ;
+sana n1 ;
+siili n1 ;
+silli n1 ;
+skuutteri n1 ;
+taakka n1 ;
+talo n1 ;
+tooli n1 ;
+väri n1 ;
+hinta n1 ;
+kello n1 ;
+pullo n1 ;
 
-poro n1 ;
-
-kuru n1 ;
-
-leppä n1 ;
-päivä n1 ;
+! n2 e-nouns
 
 liike:liikke n2 ; ! liikettä
 säe:säke n2 ;
+puhe:puhe n2 ;
 
-käpy n1 ;
-häpy n1 ;
 
-joki:joke n1 ;
-jälki:jälke n1 ;
+! n3 odd syllable
+
+uppura n3 ; ! uppuroissa
+mustikka n3 ;
+laatia n3 ;
+tynnyri n3 ;
+
+!! n4 nouns
+kieli:kiele n4 ;
+meänkieli:meän#kiele n4 ;
+tuli:tule n4 ;
+varsi:varte n4 ;
+vesi:vete n4 ;
 veri:vere n4 ;
-varsi:varte n1 ;
 
-siili n1 ;
-silli n1 ;
-keppi n1 ;
-väri n1 ;
-vesi:vete n1 ;
-varsi:varte n1 ;
+!! Consonant stems
 
 hevonen:hevo nen ;
+nainen:nai nen ;
 
 keskus:keskukse nks ;
 tehas:tehtas nas ;
+
+puhelin:puhelime ime ;
+
 
