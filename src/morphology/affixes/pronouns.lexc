@@ -5,23 +5,10 @@
 !! Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
 LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
-+Nom:e K ;
-+Gen:nun K ;
-+Ill:nhuun K ;
-+Par:nnuu K ;
-+Ess:nuna    K ;
-+Tra:nuksi   K ;
-+Ine:nussa   K ;
-+Ela:nusta   K ;
-+All:nule   K ;
-+Ade:nula    K ;
-+Abl:nulta   K ;
-+Abe:nutta	K ;
-
-LEXICON 12pronsg_short !!= @CODE@ on 1., 2. p. yksikkö
-+Gen:un K ;
++Nom:ie K ;
++Gen:inun K ;
 +Ill:inhuun K ;
-+Par:innuu K ;
++Par:inua K ;
 +Ess:inuna    K ;
 +Tra:inuksi   K ;
 +Ine:inussa   K ;
@@ -33,24 +20,24 @@ LEXICON 12pronsg_short !!= @CODE@ on 1., 2. p. yksikkö
 
 
 LEXICON han_pron
-+Nom: K ;
-+Gen:en K ;
-+Ill:heen K ;
-+Par:tä K ;
-+Ess:enä    K ;
-+Tra:eksi   K ;
-+Ine:essä   K ;
-+Ela:estä   K ;
-+All:ele   K ;
-+Ade:elä    K ;
-+Abl:eltä   K ;
-+Abe:että	K ;
++Nom:hään K ;
++Gen:hänen K ;
++Ill:hänheen K ;
++Par:häntä K ;
++Ess:hänenä    K ;
++Tra:häneksi   K ;
++Ine:hänessä   K ;
++Ela:hänestä   K ;
++All:hälle   K ;
++Ade:hällä    K ;
++Abl:hältä   K ;
++Abe:hänettä	K ;
 
 
 LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
-+Acc:iđät 	K ;
-+Gen:iđän K ; !!đ 
++Acc:iät 	K ;
++Gen:iän K ; !!đ 
 +Gen+Err/Orth:än K ; ! ?? meän, heän, ...
 +Ill:ihiin K ;
 +Par:itä K ;

@@ -72,17 +72,44 @@ k:j <=> Vow [l|r] _ Vow:  %^WG: ;
          [.#.|Cns] Vow Cx _ Vow: (Dummy:) %>: h :Vow ;
 where Cx in ( n m l j v ) ;
 
+!! !Assimilation rules
+
+
+"Alveolar assimilation for consonant stem l"
+!! __@RULENAME@__
+ %^N:l <=> l: %> _ ;
+!!€ tul>^N^U
+!!€ tul>lu
+
+"Alveolar assimilation for consonant stem r"
+!! __@RULENAME@__
+%^N:r <=> r: %> _ ;
+
+"Alveolar assimilation for consonant stem s"
+!! __@RULENAME@__
+%^N:s <=> s: %> _ \%^A: ; ! kussut, kusta, pessyt, pestä
+
+"j:0 in front of i"
+!! __@RULENAME@__
+j:0 <=> l _ e: %^E2I:0 ;
+
+
+
+
+
 !! !Other consonant changes
 "ti:si"
 t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %>: i2: ;
         Vow ([l|n|r]) _ :i %^E2I: .#. ;
 
-!!€ vete
-!!€ vesi
-!!€ vere
-!!€ veri
-!!€ varte
-!!€ varsi
+!!€ vete^E2I
+!!€ vesi0
+!!€ vere^E2I
+!!€ veri0
+!!€ varte^E2I
+!!€ varsi0
+
+
 
 
 
@@ -107,13 +134,16 @@ i:e <=> _ (Dummy:) %> i2: ;
 !i:j <=> [.#.|Cns] _ :j Vow %>: Vow ;
 
 "a:o when nonrounded root vowel and before i"
-a:o <=> [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ;
-        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; ! see fkv
-        [.#.|#] Cns:* RoundedVowel    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
+a:o <=> [.#.|#] Cns:* UnroundedVowel:+  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ;
+        [.#.|#] Cns:* UnroundedVowel:+  (o|u)       Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; ! see fkv
+        [.#.|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %>: [i2:|j] ; 
 !!€ san0a>i2ss^A
 !!€ sanno0issa
 !!€ san0a^HMETA>h^Vin
 !!€ sann000hoin
+!!€ laatia>i2tten
+!!€ laatio>itten
+
 
 
 !! !Vowel deletion rules
@@ -200,11 +230,11 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
 	
 "Back harmony"
 !! __@RULENAME@__ 
- Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* _ ;  
+ Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %>: NonFront:* ([ NonFront: | :NonFront ]) NonFront:* (%>:) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
          
-!"Vow copy"
-!%^V:Vx <=> Vx %>: _ ;
-!	where Vx in Vow ;         
+"Vow copy"
+%^V:Vx <=> Vx %>: _ ;
+	where Vx in ( a e i o u y ä ö ) ;
