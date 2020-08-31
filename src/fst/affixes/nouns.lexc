@@ -107,6 +107,9 @@ LEXICON xnen
 
 
 LEXICON nks
++N: xnks ;
+
+LEXICON xnks
  +Sg+Nom:       K ;
  +Sg+Gen:%>n K ;
  +Sg+Par:%>t^A K ;
@@ -122,6 +125,9 @@ LEXICON nks
 
 
 LEXICON nas
++N: xnas ;
+
+LEXICON xnas
  +Sg+Nom:^WG       K ;
  +Sg+Gen:a%>n K ;
  +Sg+Par:^WG%>t^A K ;
