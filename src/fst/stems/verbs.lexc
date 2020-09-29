@@ -22,11 +22,11 @@ saada:saa v2 ;
 
 
 !! !! v3 tulla, mennä
-tulla:tule v3 ;
+tulla:tul v3 ;
 
 
 !! !! v4 tryykätä
-tryykätä:trykkä v4 ;
+tryykätä:tryykkä v4 ;
 
 !! !! v5 tarvita
 tarvita:tarvit v5 ;
