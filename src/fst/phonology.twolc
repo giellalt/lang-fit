@@ -67,10 +67,45 @@ p:v <=> Vow _ Vow:  %^WG: ;
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 
 !! !Gemination rules
-"Gemination"
-0:Cx <=> [.#.|Cns] Vow Cx _ :Vow (Dummy:) %>: (h) :Vow ;
-         [.#.|Cns] Vow Cx _ Vow: (Dummy:) %>: h :Vow ;
-where Cx in ( n m l j v ) ;
+"Gemination a"
+0:Cx <=> [.#.|Cns] Vow Cx _ :a (Dummy:) %>: (h) :a ;
+         [.#.|Cns] Vow Cx _ a: (Dummy:) %>: h :a ;
+where Cx in ( n m l j v );
+
+"Gemination e"
+0:Cx <=> [.#.|Cns] Vow Cx _ :e (Dummy:) %>: (h) :e ;
+         [.#.|Cns] Vow Cx _ e: (Dummy:) %>: h :e ;
+where Cx in ( n m l j v );
+
+"Gemination i"
+0:Cx <=> [.#.|Cns] Vow Cx _ :i (Dummy:) %>: (h) :i ;
+         [.#.|Cns] Vow Cx _ i: (Dummy:) %>: h :i ;
+where Cx in ( n m l j v );
+
+"Gemination o"
+0:Cx <=> [.#.|Cns] Vow Cx _ :o (Dummy:) %>: (h) :o ;
+         [.#.|Cns] Vow Cx _ o: (Dummy:) %>: h :o ;
+where Cx in ( n m l j v );
+
+"Gemination u"
+0:Cx <=> [.#.|Cns] Vow Cx _ :u (Dummy:) %>: (h) :u ;
+         [.#.|Cns] Vow Cx _ u: (Dummy:) %>: h :u ;
+where Cx in ( n m l j v );
+
+"Gemination y"
+0:Cx <=> [.#.|Cns] Vow Cx _ :y (Dummy:) %>: (h) :y ;
+         [.#.|Cns] Vow Cx _ y: (Dummy:) %>: h :y ;
+where Cx in ( n m l j v );
+
+"Gemination ä"
+0:Cx <=> [.#.|Cns] Vow Cx _ :ä (Dummy:) %>: (h) :ä ;
+         [.#.|Cns] Vow Cx _ ä: (Dummy:) %>: h :ä ;
+where Cx in ( n m l j v );
+
+"Gemination ö"
+0:Cx <=> [.#.|Cns] Vow Cx _ :ö (Dummy:) %>: (h) :ö ;
+         [.#.|Cns] Vow Cx _ ö: (Dummy:) %>: h :ö ;
+where Cx in ( n m l j v );
 
 !! !Assimilation rules
 
