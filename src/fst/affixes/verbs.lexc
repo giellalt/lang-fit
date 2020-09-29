@@ -129,4 +129,19 @@ LEXICON v5
 +V+Act+Ind+Prs+Pl3:%>^At K ;
 
 LEXICON v6
-+V+Inf:t^A K ;
++V+Inf:^WG%>t^A K ;
++V+Act+Ind+Prs+ConNeg:^WG K ;
+
++V+Act+Ind+Prs+Sg1:ne%>n K ;
++V+Act+Ind+Prs+Sg2:ne%>t K ;
++V+Act+Ind+Prs+Sg3:ne%>e K ;
++V+Act+Ind+Prs+Pl1:ne%>m^A K ;
++V+Act+Ind+Prs+Pl2:ne%>tt^A K ;
++V+Act+Ind+Prs+Pl3:ne%>v^At K ;
+
++V+Act+Ind+Prt+Sg1:n%>in K ;
++V+Act+Ind+Prt+Sg2:n%>it K ;
++V+Act+Ind+Prt+Sg3:n%>i K ;
++V+Act+Ind+Prt+Pl1:n%>im^A K ;
++V+Act+Ind+Prt+Pl2:n%>itt^A K ;
++V+Act+Ind+Prt+Pl3:n%>it K ;
