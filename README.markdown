@@ -1,7 +1,7 @@
-The Tornedalen Finnish (Meänkieli) morphology and tools
+The Meänkieli (Tornedalen Finnish) morphology and tools
 ==========================================
 
-This repository contains finite state source files for the Tornedalen Finnish language,
+This repository contains finite state source files for Meänkieli
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
@@ -13,7 +13,7 @@ choices.
  [![Build Status](https://github.com/giellalt/lang-fit/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-fit/actions)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-fit)
-for the Tornedalen Finnish language by using the [Divvun Installer](http://divvun.no)
+for Meänkieli by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
 Documentation
@@ -27,7 +27,7 @@ Documentation can be found at:
 Core dependencies
 -----------------
 
-In order to compile and use Tornedalen Finnish language morphology and
+In order to compile and use Meänkieli language morphology and
 dictionaries, you need:
 
 - an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)
