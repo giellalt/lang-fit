@@ -232,7 +232,11 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 
  *  AdjectiveRoot ;  
+ *  Adverb ;		  
+ *  Conjunction ;	  
  *  NounRoot ;		  
+ *  Postposition ;	  
+ *  Preposition ;	  
  *  Pronoun ;		  
  *  Punctuation ;	  
  *  Symbols     ;	  
