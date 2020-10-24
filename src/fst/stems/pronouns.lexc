@@ -6,7 +6,7 @@ LEXICON Pronoun
 
 mie+Pron+Pers+Sg:m         12pronsg   ; !!= * @CODE@ 
 sie+Pron+Pers+Sg:s         12pronsg   ; !!  * ...
-hän+Pron+Pers+Sg:          han_pron   ;
+hään+Pron+Pers+Sg:          haan_pron   ;
 se+Pron+Pers+Sg:            se_pron  ;
 met+Pron+Pers+Pl:me         123pronpl   ;
 tet+Pron+Pers+Pl:te         123pronpl   ;
