@@ -4,5 +4,10 @@ LEXICON a1
 +A+Comp:mpe x3 ;
 +A+Superl:ime ;
 
+LEXICON a2 
++A: x2 ;
++A+Comp:mpe x3 ;
++A+Superl:ime ;
+
 LEXICON a4
 +A: x4 ;

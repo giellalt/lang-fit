@@ -1,9 +1,24 @@
+
+! a1 = kaksitavuiset
+! a2 = kolmitavuiset
+! a4 = kaksitavuiset, vartalo -e
+
 LEXICON AdjectiveRoot
 
 !! a1
+tuttu a1 ;
+selvä a1 ;
 kuiva a1 ;
 pruuni a1 ;
 kleini a1 ;
+iso a1 ;
+kova a1 ;
+pitkä a1 ;
+fiini a1 ;
+paksu a1 ;
+
+komea a2 ;
+muikea a2 ;
 
 !! a4
 pieni a4 ;
