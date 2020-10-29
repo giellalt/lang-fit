@@ -5,7 +5,8 @@
 ! n4 = veri
 
 ! nen = nainen paradigm
-! nks = keskus - keskuksen
+! 3nen = hevonen paradigm
+! 3nks = keskus - keskuksen
 ! nas = tehas - tehtaan
 
 LEXICON n1
@@ -88,22 +89,50 @@ LEXICON x4 ! veri
 
 
 
+!! The nainen (nen) and hevonen (3nen) family
+
 LEXICON nen
- +N: xnen ;
++N: xnen ; 
 
 LEXICON xnen
++Sg:se%> 2cases ; ! Ade, All, Ess lla, lle, nna
++Pl:se%>i2%> 2cases ;  
+ xnen_common ; ! all other cases
+
+LEXICON 3nen
++N: x3nen ;
+
+LEXICON x3nen
++Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
++Pl:se%>i2%> 3cases ;  
+ xnen_common ; ! all other cases
+
+LEXICON xnen_common
  +Sg+Nom:nen       K ;
  +Sg+Gen:se^WG%>n K ;
  +Sg+Par:s%>t^A K ;
+
  +Sg+Ill:sheen   K ;    ! liikheen, säkheen
- +Sg+Ine:se^WG%>ss^A K ;
- +Sg+Ade:se^WG%>ll^A K ;
+ +Sg+Ine:se%>ss^A K ;
+ +Sg+Ela:se%>st^A K ;
+ +Sg+Abl:se%>lt^A K ;
+ +Sg+Abe:se%>tt^A K ;
+
  +Pl+Nom:se^WG%>t K ;
  +Pl+Gen:s%>ten K ;
  +Pl+Par:s%>i^A K ;
  +Pl+Ine:s^WG%>i2ss^A K ;
  +Pl+Ill:shiin   K ;    !
- +Pl+Ade:s%>i2ll^A    K ;  ! evt se>i2ll^A
+
+LEXICON 3cases
++Ade:%>ll^A K ;
++All:%>lle K ;
++Ess:%>nn^A K ;
+
+LEXICON 2cases
++Ade:%>l^A K ;
++All:%>le K ;
++Ess:%>n^A K ;
 
 
 LEXICON nks
