@@ -2,37 +2,37 @@
 
 LEXICON NounRoot
 
-nimi:nime n1 ;
+hinta n1 ;
 häpy n1 ;
-joki:joke n1 ;
-jälki:jälke n1 ;
 kala n1 ;
+kello n1 ;
 keppi n1 ;
 kissa n1 ;
 klanni n1 ;
 klimppi n1 ;
 kläppi n1 ;
 krouvi n1 ;
+kuri:kuri n1 ;
 kuru n1 ;
 kuva n1 ;
 käpy n1 ;
 leppä n1 ;
+loova n1 ;
 luokka n1 ;
 poro n1 ;
+pullo n1 ;
+pyörä:pyörä n1 ;
 päivä n1 ;
 rieska n1 ;
 sakka n1 ;
 sana n1 ;
 siili n1 ;
 silli n1 ;
-skuutteri n1 ;
+suola:suola n1 ;
 taakka n1 ;
 talo n1 ;
 tooli n1 ;
 väri n1 ;
-hinta n1 ;
-kello n1 ;
-pullo n1 ;
 
 ! n2 e-nouns
 
@@ -43,18 +43,23 @@ puhe:puhe n2 ;
 
 ! n3 odd syllable
 
+skuutteri n3 ;
 uppura n3 ; ! uppuroissa
 mustikka n3 ;
 laatia n3 ;
 tynnyri n3 ;
 
 !! n4 nouns
+joki:joke n1 ;
+jälki:jälke n1 ;
 kieli:kiele n4 ;
 meänkieli:meän#kiele n4 ;
+nimi:nime n1 ;
 tuli:tule n4 ;
 varsi:varte n4 ;
-vesi:vete n4 ;
 veri:vere n4 ;
+vesi:vete n4 ;
+käsi:käte n4 ;
 
 !! Consonant stems
 
@@ -64,6 +69,6 @@ nainen:nai nen ;
 keskus:keskukse nks ;
 tehas:tehtas nas ;
 
-puhelin:puhelime ime ;
+puhelin:puheli ime ;
 
 
