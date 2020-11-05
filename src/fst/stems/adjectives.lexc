@@ -1,6 +1,6 @@
 
 ! a1 = kaksitavuiset
-! a2 = kolmitavuiset
+! a3 = kolmitavuiset
 ! a4 = kaksitavuiset, vartalo -e
 
 LEXICON AdjectiveRoot
@@ -17,8 +17,9 @@ pitkä a1 ;
 fiini a1 ;
 paksu a1 ;
 
-komea a2 ;
-muikea a2 ;
+!! a3
+komea a3 ;
+muikea a3 ;
 
 !! a4
 pieni a4 ;
