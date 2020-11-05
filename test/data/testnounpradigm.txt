@@ -8,6 +8,7 @@
 +N+Sg+Ade
 +N+Sg+Abl
 +N+Sg+Ess
++N+Sg+Tra
 +N+Pl+Nom
 +N+Pl+Gen
 +N+Pl+Par
@@ -18,4 +19,4 @@
 +N+Pl+Ade
 +N+Pl+Abl
 +N+Pl+Ess
-
++N+Pl+Tra
