@@ -3,7 +3,7 @@ Alphabet
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
 %^WG:0 %^E2I:0 %^HMETA:0
 %>
-%^A:ä %^O:ö %^U:y %^V
+%^A:ä %^O:ö %^U:y %^V %^N:n
 i2:i ! plural of nouns
 i3:i ! past tense of verbs
 i4:i ! i in conditional of isi
@@ -16,13 +16,13 @@ FrontVowel = e i y ä ö ü æ ø ;            !!= * @CODE@
 BackVowel = a o u å ;                                       !!= * @CODE@ 
 ArchiVowel =  %^A %^O %^U ;                                 !!= * @CODE@ 
 SomeVowel = %^V ;                                           !!= * @CODE@ 
-NeutralVowel = e i ;                                        !!= * @CODE@ 
-Vow   = FrontVowel BackVowel ArchiVowel SomeVowel ;       !!= * @CODE@ 
-RoundedVowel = y ö o u å ;                                       !!= * @CODE@ 
-UnroundedVowel = e ä a i ;                                 !!= * @CODE@ 
-Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ;  !!= * @CODE@
-DummyBorder = Dummy %> ;          !!= * @CODE@
-LNRM     = l n r m ;
+NeutralVowel = e i i2 i3 i4 i5 ;                            !!= * @CODE@ 
+Vow   = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE@ 
+RoundedVowel = y ö o u å ;                                  !!= * @CODE@ 
+UnroundedVowel = e ä a i ;                                  !!= * @CODE@ 
+Dummy = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ; !!= * @CODE@
+DummyBorder = Dummy %> ;                                    !!= * @CODE@
+LNRM     = l n r m ;                                        !!= * @CODE@
 ArchiCns = %^N ;                                            !!= * @CODE@
 SurfaceCns = b c d đ f g h j k l m n p q r s š t v w x z ;  !!= * @CODE@
 Cns = SurfaceCns ArchiCns p2 t2 k2 ;                        !!= * @CODE@
@@ -40,14 +40,14 @@ p:0 <=> [Vow|l|n|r] p _ Vow %^WG: ; ! Quant Grad
          Vow p _ e: h %> e ;
 
 !!€ appi^WG
-!!$ ap0i0
+!!€ ap0i0
 
 "t Gradation"
 t:0 <=> [Vow|l|n|r] t _ Vow %^WG: ; ! Quant Grad
-         Vow t _ e: h %> e ;
+                Vow t _ e: h %> e ;
 
 !!€ motti^WG
-!!$ mot0i0
+!!€ mot0i0
 
 
 "k Gradation"
@@ -62,13 +62,10 @@ k:0 <=> [Vow|l|n|r] k _ Vow  %^WG: ;    ! Quant Grad
 "h gradation"
 h:0 <=>     Vow [p|t|k]                  _ e %^WG: ;
         Vow Vow :h Cns Vow: %^HMETA: %> _ ;
-
-"h insertion after long root vowel"
-0:h <=> Vow Vow _ Cns Vow: %^HMETA: ;
-!!€ päi0vä^HMETA>h^V^Vn
-!!€ päihv0000ään
-!!€ päi0vä^HMETA>h^Vin
-!!€ päihv0000iin
+	[.#.|Cns] Vow Cns :Cns Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
+	
+!!€ is0o^HMETA>h^V^Vn
+!!€ iss00>0oon
 
 
 
@@ -83,45 +80,201 @@ p:v <=> Vow _ Vow:  %^WG: ;
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
 
 !! !Gemination rules
-"Gemination a"
-0:Cx <=> [.#.|Cns] Vow Cx _ :a (Dummy:) %> (h) :a ;
-         [.#.|Cns] Vow Cx _ a: (Dummy:) %> h :a ;
-where Cx in ( n m l j v );
 
-"Gemination e"
-0:Cx <=> [.#.|Cns] Vow Cx _ :e (Dummy:) %> (h) :e ;
-         [.#.|Cns] Vow Cx _ e: (Dummy:) %> h :e ;
-where Cx in ( n m l j v );
+"Gemination 0:h"
+0:h <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+                    Vow Vow _ Cns Vow: %^HMETA: ;
 
-"Gemination i"
-0:Cx <=> [.#.|Cns] Vow Cx _ :i (Dummy:) %> (h) :i ;
-         [.#.|Cns] Vow Cx _ i: (Dummy:) %> h :i ;
-where Cx in ( n m l j v );
+!!€ päi0vä^HMETA>h^V^Vn
+!!€ päihv00>0ään
+!!€ päi0vä^HMETA>h^Vin
+!!€ päihv00>0iin
 
-"Gemination o"
-0:Cx <=> [.#.|Cns] Vow Cx _ :o (Dummy:) %> (h) :o ;
-         [.#.|Cns] Vow Cx _ o: (Dummy:) %> h :o ;
-where Cx in ( n m l j v );
+"Gemination 0:j"
+0:j <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
 
-"Gemination u"
-0:Cx <=> [.#.|Cns] Vow Cx _ :u (Dummy:) %> (h) :u ;
-         [.#.|Cns] Vow Cx _ u: (Dummy:) %> h :u ;
-where Cx in ( n m l j v );
+"Gemination 0:k"
+0:k <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
 
-"Gemination y"
-0:Cx <=> [.#.|Cns] Vow Cx _ :y (Dummy:) %> (h) :y ;
-         [.#.|Cns] Vow Cx _ y: (Dummy:) %> h :y ;
-where Cx in ( n m l j v );
+"Gemination 0:l"
+0:l <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
 
-"Gemination ä"
-0:Cx <=> [.#.|Cns] Vow Cx _ :ä (Dummy:) %> (h) :ä ;
-         [.#.|Cns] Vow Cx _ ä: (Dummy:) %> h :ä ;
-where Cx in ( n m l j v );
+"Gemination 0:m"
+0:m <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
 
-"Gemination ö"
-0:Cx <=> [.#.|Cns] Vow Cx _ :ö (Dummy:) %> (h) :ö ;
-         [.#.|Cns] Vow Cx _ ö: (Dummy:) %> h :ö ;
-where Cx in ( n m l j v );
+"Gemination 0:n"
+0:n <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+
+"Gemination 0:p"
+0:p <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+
+"Gemination 0:s"
+0:s <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+
+"Gemination 0:t"
+0:t <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+
+"Gemination 0:v"
+0:v <=> [.#.|#|:Cns] Vow Cx _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#|:Cns] Vow Cx _  :e (Dummy:) %> (h) :e ;
+        [.#.|#|:Cns] Vow Cx _ e:  (Dummy:) %> h :e ;
+        [.#.|#|:Cns] Vow Cx _  :i (Dummy:) %> (h) :i ;
+        [.#.|#|:Cns] Vow Cx _ i:  (Dummy:) %> h :i ;
+        [.#.|#|:Cns] Vow Cx _ o   (Dummy:) %> (h) :o ;
+        [.#.|#|:Cns] Vow Cx _ o:  %^HMETA: %> h :o :o ;
+        [.#.|#|:Cns] Vow Cx _  :u (Dummy:) %> (h) :u ;
+        [.#.|#|:Cns] Vow Cx _ u:  (Dummy:) %> h :u ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+        [.#.|#|:Cns] Vow Cx _  :y (Dummy:) %> (h) :y ;
+        [.#.|#|:Cns] Vow Cx _ y:  (Dummy:) %> h :y ;
+        [.#.|#|:Cns] Vow Cx _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#|:Cns] Vow Cx _ ä:  (Dummy:) %> h :ä ;
+        [.#.|#|:Cns] Vow Cx _  :ö (Dummy:) %> (h) :ö ;
+        [.#.|#|:Cns] Vow Cx _ ö:  (Dummy:) %> h :ö ;
+
+
+
 
 !! !Assimilation rules
 
@@ -151,7 +304,7 @@ j:0 <=> l _ e: %^E2I:0 ;
 !! !Other consonant changes
 "ti:si"
 t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> i2: ;
-        Vow ([l|n|r]) _ :i %^E2I: .#. ;
+        Vow ([l|n|r]) _  :i %^E2I: .#. ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -173,25 +326,24 @@ e:i <=> _ %^E2I: ;
 "Suffix i to j"
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 !!€ sana>i2^A
-!!€ sano0ja
+!!€ sano>ja
 
 "i to e in plural"
-i:e <=> _ (Dummy:) %> i2: ;
+i:e <=> _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !"j insertion before long"
-!0:j <=> [.#.|Cns] i: _ Vow %> Vow ;
+!0:j <=> [.#.|#|Cns] i: _ Vow %> Vow ;
 !
 !"i to j before j insertion before long"
-!i:j <=> [.#.|Cns] _ :j Vow %> Vow ;
+!i:j <=> [.#.|#|Cns] _ :j Vow %> Vow ;
 
 "a:o when nonrounded root vowel and before i"
-a:o <=> [.#.|#] Cns:* UnroundedVowel:+  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
-        [.#.|#] Cns:* UnroundedVowel:+  (o|u)       Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
-        [.#.|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
-!!€ san0a>i2ss^A
-!!€ sanno0issa
-!!€ san0a^HMETA>h^Vin
-!!€ sann000hoin
+!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
+!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
+!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
+a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
+        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
+        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
 !!€ laatia>i2tten
 !!€ laatio>itten
 
@@ -201,37 +353,40 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+  ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i
 
 "a:0"
 a:0 <=>                                    _ %^HMETA: %> ;  ! before metathesis h
-         [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|j] ;
-!        [.#.|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ %^HMETA: %> h %^V: i ;
-!        [.#.|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ %^HMETA: %> h %^V: i ; ! see fkv
-!        [.#.|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ %^HMETA: %> h %^V: i ; 
+         [.#.|#|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|j] ;
+!        [.#.|#|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ %^HMETA: %> h %^V: i ;
+!        [.#.|#|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ %^HMETA: %> h %^V: i ; ! see fkv
+!        [.#.|#|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ %^HMETA: %> h %^V: i ; 
 !!€ kuva>i2ss^A
-!!€ kuv00issa
+!!€ kuv0>issa
 !!€ kuv0a^HMETA>h^V^Vn
-!!€ kuvv000haan
+!!€ kuvv00>haan
 !!€ kuv0a^HMETA>h^Vin
-!!€ kuvv000hiin
+!!€ kuvv00>hiin
 
 "ä:0"
-ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %> [i2:|j] ; ! before i
+ä:0 <=> [.#.|#|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %> [i2:|j] ; ! before i
                                   _ %^HMETA: ; ! before metathesis h
 !!€ päivä>i2ss^A
-!!€ päiv00issä
+!!€ päiv0>issä
 
 "e deletion before h in e stems"
 e:0 <=>      _ h %> e ; ! säkheen
              _ %^HMETA: ;
-	k: s _ [.#.|t] ;
+	k: s _ [.#.|#|t] ;
  Vow [l|n|r] _ %> t ;
-        Cns: _ %> [i2:|i3:] ;
+        Cns: _ (%^WG:) %> [i2:|i3:] ;
  
 !!€ keskukse>
-!!€ kesku0s0>i
+!!€ kesku0s0>
+
+!!€ tule^WG>i2ss^A
+!!€ tul00>issa
 
 "o deletion before metathesis h"
 o:0 <=> _ %^HMETA: ;
 !!€ poro^HMETA>h^V^Vn
-!!€ por000hoon
+!!€ por00>hoon
 
 "u deletion before metathesis h"
 u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
@@ -246,40 +401,59 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
 i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
          ![Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
 !!€ sii0li^HMETA>h^V^Vn
-!!€ siihl0000iin
+!!€ siihl00>0iin
 
 
 !! !Vowel copying rules
-"Vowel copying for h: metathesis 1"
-%^V:Vx <=> Vx: %^HMETA: %> h: _ [%^V:|i2:|i] ;
-	where Vx in (a o u ä ö y e i ) ;
-	
-"Vowel copying for h metathesis 2"
-%^V:Vx <=> Vx: %^HMETA: %> h: %^V: _ ;	
-	where Vx in (a o u ä ö y e i ) ;
+!"Vowel copying for h: metathesis 1"
+!%^V:Vx <=> Vx: %^HMETA: %> h: _ %^V: ;
+!	where Vx in (a o u ä ö y e i ) ;
+!"Vowel copying for h: metathesis 2"
+!%^V:Vx <=> Vx: %^HMETA: %> h: %^V: _ ;	
+!	where Vx in (a o u ä ö y e i ) ;
+!!€ talo^HMETA>h^V^Vn
+!!€ tal00>hoon
 
+"Vow copy"
+%^V:Vx <=> Vx %> _ :\Vow ;
+	where Vx in ( a e i o u y ä ö ) ;
+
+"a copying for h metathesis"
+%^V:a <=> a: %^HMETA: %> h:    _ :a ;
+          a: %^HMETA: %> h: :a _    ;
+          
+"o copying for h metathesis"
+%^V:o <=> :o %^HMETA: %> h: _ [:i|:o] ;
+          :o %^HMETA: %> h: :o _  ;
 
 "i copying for h metathesis"
-%^V:i <=> i: %^HMETA: %> h: _ :i ;
+%^V:i <=> i: %^HMETA: %> h:    _ :i ;
+          i: %^HMETA: %> h: :i _    ;
 !!€ silli^HMETA>h^V^Vn
-!!€ sill000hiin
-
+!!€ sill00>hiin
 
 "ä copying for h metathesis"
-%^V:i <=> ä: %^HMETA: %> h: _ :i ;
-
+%^V:i <=> ä: %^HMETA: %> h:    _ :ä ;
+          ä: %^HMETA: %> h: :ä _    ;
+          
+"e copying for h metathesis"
+%^V:e <=> e: %^HMETA: %> h:    _ :e ;
+          e: %^HMETA: %> h: :e _    ;
+          
 "ö copying for h metathesis"
-%^V:ö <=> ö: %^HMETA: %> h: _ :i ;
-
+%^V:ö <=> ö: %^HMETA: %> h:    _ :ö ;
+          ö: %^HMETA: %> h: :ö _    ;
+          
 "y copying for h metathesis"
-%^V:y <=> y: %^HMETA: %> h: _ :i ;
-
+%^V:y <=> y: %^HMETA: %> h:    _ :y ;
+          y: %^HMETA: %> h: :y _    ;
+          
 "u copying for h metathesis"
-%^V:u <=> u: %^HMETA: %> h: _ :i ;
+%^V:u <=> u: %^HMETA: %> h:    _ :u ;
+          u: %^HMETA: %> h: :u _    ;
 
-"o copying for h metathesis"
-%^V:o <=> [a:|o:] %^HMETA: %> h: _ :i ;
-	
+
+
 	
 "Back harmony"
 !! __@RULENAME@__ 
@@ -287,7 +461,17 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
          matched ;
-         
-"Vow copy"
-%^V:Vx <=> Vx %> _ ;
-	where Vx in ( a e i o u y ä ö ) ;
+
+!!€ nais>i2lt^A
+!!€ nais>ilta
+!!€ puhu>^A
+!!€ puhu>a
+
+
+
+
+
+! san0a>i2ss^A
+! sanno>issa ! hmm
+! san0a^HMETA>h^Vin
+! sann00>hoin
