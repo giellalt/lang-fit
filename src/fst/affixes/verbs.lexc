@@ -118,12 +118,12 @@ LEXICON v3
 +V+Inf:%>^N^A K ;
 +V+Act+Ind+Prs+ConNeg: K ;
 
-+V+Act+Ind+Prs+Sg1:%>n K ;
-+V+Act+Ind+Prs+Sg2:%>t K ;
-+V+Act+Ind+Prs+Sg3:%>e K ;
-+V+Act+Ind+Prs+Pl1:%>m^A K ;
-+V+Act+Ind+Prs+Pl2:%>tt^A K ;
-+V+Act+Ind+Prs+Pl3:%>v^A K ; ! K&P p. 95.  without -t
++V+Act+Ind+Prs+Sg1:e%>n K ;
++V+Act+Ind+Prs+Sg2:e%>t K ;
++V+Act+Ind+Prs+Sg3:e%>e K ;
++V+Act+Ind+Prs+Pl1:e%>m^A K ;
++V+Act+Ind+Prs+Pl2:e%>tt^A K ;
++V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
 
 +V+Act+Ind+Prt+Sg1:%>in K ;
 +V+Act+Ind+Prt+Sg2:%>it K ;
@@ -133,7 +133,8 @@ LEXICON v3
 +V+Act+Ind+Prt+Pl3:%>it K ;
 
 LEXICON v5
-+V+Inf:^WG%>^A K ;
++V+Inf:vit%>^A K ;
++V+Ind+Prs+Sg3:ttee K ; ! fix
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
 
 +V+Act+Ind+Prs+Sg1:%>^An K ;
