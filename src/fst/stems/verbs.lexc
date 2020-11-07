@@ -6,6 +6,9 @@ LEXICON VerbRoot
 !! !! Irregular verbs
 olla: OLLA ;
 
+!tehdä
+!nähdä
+!käydä
 
 !! !! v1 sanoa, lukea
 sanoa:sano v1 ;
@@ -37,7 +40,7 @@ tryykätä:tryykkä v4 ;
 hourata:houra v4 ;
 
 !! !! v5 tarvita
-tarvita:tarvit v5 ;
+tarvita:tar v5 ;
 
 !! !! v6 paeta
 paeta:pake v6 ;

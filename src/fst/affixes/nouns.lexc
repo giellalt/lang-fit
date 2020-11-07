@@ -174,32 +174,32 @@ LEXICON 2cases
 +Ess:%>n^A K ;
 
 
-LEXICON nks
+LEXICON 3nks
 +N: xnks ;
 
 LEXICON xnks
- +Sg+Nom:       K ;
- +Sg+Gen:%>n K ;
- +Sg+Par:%>t^A K ;
- +Sg+Ill:^HMETA%>h^V^Vn K ;
- +Sg+Ine:%>ss^A K ;
- +Sg+Ade:%>ll^A K ;
- +Pl+Nom:%>t K ;
- +Pl+Gen:%>ten K ;
- +Pl+Par:%>i2^A K ;
- +Pl+Ine:%>i2ss^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;
- +Pl+Ade:%>i2ll^A K ;
+ +Sg+Nom:s       K ;
+ +Sg+Gen:kse%>n K ;
+ +Sg+Par:s%>t^A K ;
+ +Sg+Ill:kse^HMETA%>h^V^Vn K ;
+ +Sg+Ine:kse%>ss^A K ;
+ +Sg+Ade:kse%>ll^A K ;
+ +Pl+Nom:kse%>t K ;
+ +Pl+Gen:s%>ten K ;
+ +Pl+Par:kse%>i2^A K ;
+ +Pl+Ine:kse%>i2ss^A K ;
+ +Pl+Ill:kse^HMETA%>h^Vin K ;
+ +Pl+Ade:kse%>i2ll^A K ;
 
 
 LEXICON nas
 +N: xnas ;
 
 LEXICON xnas
- +Sg+Nom:^WG       K ;
+ +Sg+Nom:^WGs       K ;
  +Sg+Gen:a%>n K ;
- +Sg+Par:^WG%>t^A K ;
- +Sg+Ill:^HMETA%>h^V^Vn K ;
+ +Sg+Par:^WGs%>t^A K ;
+ +Sg+Ill:as^HMETA%>h^V^Vn K ;
  +Sg+Ine:a%>ss^A K ;
  +Sg+Ade:a%>ll^A K ;
  +Pl+Nom:a%>t K ;
