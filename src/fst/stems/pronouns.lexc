@@ -1,7 +1,6 @@
 
 LEXICON Pronoun
 
-
 !! Persoonapronominit
 
 mie+Pron+Pers+Sg:m         12pronsg   ; !!= * @CODE@ 
@@ -13,3 +12,15 @@ tet+Pron+Pers+Pl:te         123pronpl   ;
 het+Pron+Pers+Pl:he         123pronpl   ;
 net+Pron+Pers+Pl+Nom:net    K   ; ! e>i
 net+Pron+Pers+Pl:ni         netpronpl   ; ! e>i
+
+tämä+Pron+Dem:tä tama ;
+tuo+Pron+Dem:tuo tuo ;
+nämä+Pron+Dem+Pl+Nom:nämä K ;
+nämä+Pron+Dem+Pl:näi namaobl ;
+
+mikä+Pron+Rel+Sg:mi relkys ;
+mikä+Pron+Rel+Sg:mi mi_rel ;
+joka+Pron+Rel+Pl:joi joi_relkyspl ;
+kuka+Pron+Rel:ke kuka_relkys_obl ;
+kumpi+Pron+Interr+Sg:kum kumpi ;
+toinen+Pron: toi toisen ;
