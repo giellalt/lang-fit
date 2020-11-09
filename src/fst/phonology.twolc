@@ -1,3 +1,6 @@
+
+! Meänkieli twolc file
+
 Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
@@ -36,29 +39,31 @@ Rules
 !! !!Consonant rules
 !! !Quantitative Gradation
 "p Gradation"
-p:0 <=> [Vow|l|n|r] p _ Vow %^WG: ; ! Quant Grad
+p:0 <=> [Vow|l|n|r] p _ Vow %^WG: ; 
          Vow p _ e: h %> e ;
 
 !!€ appi^WG
 !!€ ap0i0
 
 "t Gradation"
-t:0 <=> [Vow|l|n|r] t _ Vow %^WG: ; ! Quant Grad
-                Vow t _ e: h %> e ;
+t:0 <=> [Vow|l|n|r]  t  _ Vow %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
+                Vow  t  _ e: h %> e ;
+                Vow (h) _ Vow %^WG: ; 
 
 !!€ motti^WG
 !!€ mot0i0
-
+!!€ tehta^WGs
+!!€ teh0a0s
 
 "k Gradation"
-k:0 <=> [Vow|l|n|r] k _ Vow  %^WG: ;    ! Quant Grad
-                  Vow _ Vow: %^WG: ;  ! Qual Grad
-                Vow k _ e: h %> e ;    ! kkh > kh
+k:0 <=> [Vow|l|n|r] k _ Vow  %^WG:      ;  ! Quant Grad
+                Vow   _ Vow: %^WG:      ;  ! Qual Grad
+                Vow k _ e:   h     %> e ;  ! kkh > kh
 
 !!€ takki^WG
 !!€ tak0i0
-!!€ keskus>t^a
-!!€ keskus>ta
+!!€ keskus>t^A
+!!€ keskus>ta	
 
 
 
@@ -331,6 +336,13 @@ t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> i2: ;
 "Final e to i"
 e:i <=> _ %^E2I: ;
 
+!!€ ove^E2I
+!!€ ovi0
+
+
+
+
+
 "Suffix i to j"
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 !!€ sana>i2^A
@@ -360,51 +372,75 @@ a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) 
 !! !Vowel deletion rules
 
 "a:0"
-a:0 <=>                                    _ %^HMETA: %> ;  ! before metathesis h
-         [.#.|#|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|j] ;
-!        [.#.|#|#] Cns:* UnroundedVowel  ([u|i|e|a]) Cns:+ _ %^HMETA: %> h %^V: i ;
-!        [.#.|#|#] Cns:* UnroundedVowel  (o|u)       Cns:+ _ %^HMETA: %> h %^V: i ; ! see fkv
-!        [.#.|#|#] Cns:* RoundedVowel      Cns:+ Vow Cns:+ _ %^HMETA: %> h %^V: i ; 
+a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
+        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|j] ;
+        [.#.|#] Cns    a                         _          %> [i2:|i3:|i4:] ; ! saada, maa
 !!€ kuva>i2ss^A
 !!€ kuv0>issa
 !!€ kuv0a^HMETA>h^V^Vn
 !!€ kuvv00>haan
+!!€ saa>i3t
+!!€ sa0>it
+
 
 "ä:0"
-ä:0 <=> [.#.|#|#] Cns:* Vow:+ Cns:+ _ (%^WG:) %> [i2:|j] ; ! before i
-                                  _ %^HMETA: ; ! before metathesis h
+ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:)  %> [i2:|j] ; ! before i
+                                  _ %^HMETA:            ; ! before metathesis h
+	 [.#.|#] Cns    ä         _          %> [i2:|i3:|i4:]     ; ! jäädä : jäi
+
 !!€ päivä>i2ss^A
 !!€ päiv0>issä
 
-"e deletion before h in e stems"
-e:0 <=>      _ h %> e ; ! säkheen
+!!€ jää>i3n
+!!€ jä0>in
+
+"e:0"
+e:0 <=>      _ h %> e ; ! säkheen  deletion before h in e stems
              _ %^HMETA: ;
 	k: s _ [.#.|#|t] ;
- Vow [l|n|r] _ %> t ;
-        Cns: _ (%^WG:) %> [i2:|i3:] ;
+ Vow [l|n|r] _ %> t [%^A:|%^U:]; ! tulta, tultu
+        Cns: _ (%^WG:) %> [i2:|i3:|i4:] ;
  
 !!€ tule^WG>i2ss^A
 !!€ tul00>issa
 
-"o deletion before metathesis h"
-o:0 <=> _ %^HMETA: ;
+"o:0"
+o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
 !!€ poro^HMETA>h^V^Vn
 !!€ por00>hoon
 
-"u deletion before metathesis h"
-u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
+"u:0"
+u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
+        [Cns|.#.|#] (Cns)         _ [o|u] %> [i2:|i4:] ; ! tuoda : toi, luu : luissa
 
-"ö deletion before metathesis h"
-ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
+!!€ tuo>i3n
+!!€ t0o>in
 
-"y deletion before metathesis h"
-y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
+"ö:0"
+ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ; !  deletion before metathesis h
 
-"i deletion before metathesis h"
-i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
-         ![Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;
+"y:0"
+y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
+        [Cns|.#.|#] y             _ %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
+
+!!€ syy>i2ss^A
+!!€ sy0>issä
+
+"i:0"
+i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
+                  Cns   _ [e|i] %> [i2:|i3:|i4:] ; !tie, pii, viedä
+          Cns [a|o|ö|ä] _  [i2:|i3:|i4:] ;         ! hai, koi, naida, puida, vasikoida, käpelöidä
 !!€ sii0li^HMETA>h^V^Vn
 !!€ siihl00>0iin
+
+!!€ hai>i2t
+!!€ ha0>it
+
+!!€ vasikoi>i3n
+!!€ vasiko0>in
+
+!!€ vie>i3n
+!!€ v0e>in
 
 
 !! !Vowel copying rules
@@ -480,7 +516,8 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;
 !!€ nais>ilta
 !!€ puhu>^A
 !!€ puhu>a
-
+!!€ controlx
+!!$ testpair
 
 
 
