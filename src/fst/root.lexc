@@ -94,8 +94,8 @@ Multichar_Symbols
 
 !! !Infinite verbs
 +Inf     !!≈ * __@CODE@__ = tA Infinitive
-+Inf2    !!≈ * __@CODE@__ = e Infinite
-+Inf3    !!≈ * __@CODE@__ = mA Infinite
++InfE    !!≈ * __@CODE@__ = e Infinite
++InfMa   !!≈ * __@CODE@__ = mA Infinite
 +PrsPrc  !!≈ * __@CODE@__ = 
 +PrfPrc  !!≈ * __@CODE@__ = 
 +ConNeg
