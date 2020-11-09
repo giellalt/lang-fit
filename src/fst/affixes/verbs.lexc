@@ -52,14 +52,14 @@ LEXICON OLLA
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
 LEXICON NEG
-+V+Act+Ind+Prs+Sg1:en K ;
-+V+Act+Ind+Prs+Sg2:en K ;
-+V+Act+Ind+Prs+Sg3:ei K ;
-+V+Act+Ind+Prs+Pl1:emmä K ;
-+V+Act+Ind+Prs+Pl2:että K ;
-+V+Act+Ind+Prs+Pl3:ei K ;
++V+Neg+Act+Prs+Sg1:en K ;
++V+Neg+Act+Prs+Sg2:en K ;
++V+Neg+Act+Prs+Sg3:ei K ;
++V+Neg+Act+Prs+Pl1:emmä K ;
++V+Neg+Act+Prs+Pl2:että K ;
++V+Neg+Act+Prs+Pl3:ei K ;
 
-+V+Imprt+Sg2:älä K ;
++V+Neg+Act+Imprt+Sg2:älä K ;
 
 !! !! Regular verbs
 
