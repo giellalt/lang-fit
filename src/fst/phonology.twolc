@@ -6,7 +6,9 @@ Alphabet
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
 %^WG:0 %^E2I:0 %^HMETA:0
 %>
-%^A:ä %^O:ö %^U:y %^V %^N:n
+%^A:ä %^O:ö %^U:y
+%^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö
+%^N:n
 i2:i ! plural of nouns
 i3:i ! past tense of verbs
 i4:i ! i in conditional of isi
@@ -54,6 +56,10 @@ t:0 <=> [Vow|l|n|r]  t  _ Vow %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
 !!€ mot0i0
 !!€ tehta^WGs
 !!€ teh0a0s
+
+"t:r Gradation"
+t:Cx <=> Vow Cx _ Vow %^WG: ;
+     where Cx in (l n r );
 
 "k Gradation"
 k:0 <=> [Vow|l|n|r] k _ Vow  %^WG:      ;  ! Quant Grad
@@ -411,7 +417,7 @@ o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
 
 "u:0"
 u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
-        [Cns|.#.|#] (Cns)         _ [o|u] %> [i2:|i4:] ; ! tuoda : toi, luu : luissa
+        [Cns|.#.|#]               _ [o|u] %> [i2:|i3:|i4:] ; ! tuoda : toi, luu : luissa
 
 !!€ tuo>i3n
 !!€ t0o>in
@@ -421,15 +427,18 @@ u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
 
 "y:0"
 y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
-        [Cns|.#.|#] y             _ %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
+        [Cns|.#.|#]               _ [y|ö]    %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
+                                  _ %^HMETA: ;
 
 !!€ syy>i2ss^A
 !!€ sy0>issä
 
 "i:0"
 i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
-                  Cns   _ [e|i] %> [i2:|i3:|i4:] ; !tie, pii, viedä
-          Cns [a|o|ö|ä] _  [i2:|i3:|i4:] ;         ! hai, koi, naida, puida, vasikoida, käpelöidä
+                  Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
+          Cns [a|o|ö|ä] _          [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
+             _ %^HMETA: ;
+
 !!€ sii0li^HMETA>h^V^Vn
 !!€ siihl00>0iin
 
@@ -461,6 +470,9 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 %^V:a <=> a: %^HMETA: %> h:    _ :a ;
           a: %^HMETA: %> h: :a _    ;
           a           %>       _ [n|%>|.#.] ;
+
+!!€ hinta^HMETA>h^V^Vn
+!!€ hint00>haan
 
 "o copying for h metathesis"
 %^V:o <=> o: %^HMETA: %> h: _ [:i|:o] ;
