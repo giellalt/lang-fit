@@ -9,9 +9,6 @@
 
 LEXICON VerbRoot
 
-!! !! Irregular verbs
-olla: OLLA ;
-ei: NEG ;
 
 !tehdä
 !nähdä
@@ -43,6 +40,7 @@ mennä:men v3 ;
 purra:pur v3 ;
 
 !! !! v4 tryykätä
+hypätä:hyppä v4 ;
 tryykätä:tryykkä v4 ;
 hourata:houra v4 ;
 
@@ -52,3 +50,6 @@ tarvita:tar v5 ;
 !! !! v6 paeta
 paeta:pake v6 ;
 
+!! !! Irregular verbs
+olla: OLLA ;
+ei: NEG ;
