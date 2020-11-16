@@ -237,11 +237,11 @@ LEXICON Root    !!=  __@CODE@__
 
  AdjectiveRoot ;  !!= * @CODE@
 ! Adverb ;		  !!= * @CODE@
-! Conjunction ;	  !!= * @CODE@
-! Interjection ;	  !!= * @CODE@
+Conjunction ;	  !!= * @CODE@
+Interjection ;	  !!= * @CODE@
 ! Numeral ;			  !!= * @CODE@
  NounRoot ;		  !!= * @CODE@
-! Particle ;		  !!= * @CODE@
+Particle ;		  !!= * @CODE@
 ! Postposition ;	  !!= * @CODE@
 ! Preposition ;	  !!= * @CODE@
  Pronoun ;		  !!= * @CODE@
@@ -249,7 +249,7 @@ LEXICON Root    !!=  __@CODE@__
  Punctuation ;	  !!= * @CODE@
  Symbols     ;	  !!= * @CODE@
  VerbRoot ;		  !!= * @CODE@
-! Subjunction ;	  !!= * @CODE@
+ Subjunction ;	  !!= * @CODE@
 
 
 
