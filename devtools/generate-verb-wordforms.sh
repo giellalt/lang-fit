@@ -22,6 +22,10 @@ fi
 morf_codes="+V+Inf \
             +V+Act+Ind+Prs+Sg1 \
             +V+Act+Ind+Prs+Sg3 \
+            +V+Act+Ind+Prs+Pl1 \
+            +V+Act+Ind+Prs+Pl3 \
+            +V+Act+Ind+Prt+Sg1 \
+            +V+Act+Ind+Prt+Sg3 \
             +V+Act+Ind+Prt+Pl1 \
             +V+Act+Ind+Prt+Pl3 \
             +V+Act+Ind+Prs+ConNeg \
