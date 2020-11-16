@@ -74,6 +74,7 @@ Multichar_Symbols
 +Superl    !!≈ * __@CODE@__ = 
 
 !! !Finite verbs
++Act
 +Pass     !!≈ * __@CODE@__ =
 +Ind      !!≈ * __@CODE@__ = 
 +Prs      !!≈ * __@CODE@__ = 
@@ -84,15 +85,20 @@ Multichar_Symbols
 
 
 +Sg1     !!≈ * __@CODE@__ = 
++Sg2
 +Sg3     !!≈ * __@CODE@__ = 
 +Pl1     !!≈ * __@CODE@__ = 
++Pl2
 +Pl3     !!≈ * __@CODE@__ = 
 
+
 !! !Infinite verbs
-+Inf     !!≈ * __@CODE@__ = 
++Inf     !!≈ * __@CODE@__ = tA Infinitive
++InfE    !!≈ * __@CODE@__ = e Infinite
++InfMa   !!≈ * __@CODE@__ = mA Infinite
 +PrsPrc  !!≈ * __@CODE@__ = 
 +PrfPrc  !!≈ * __@CODE@__ = 
-+Inf3    !!≈ * __@CODE@__ = Infinite verbs
++ConNeg
 
 !! !Punctuation
 +CLB    !!≈ * __@CODE@__ = Clause boundary
@@ -114,7 +120,8 @@ Multichar_Symbols
 
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ = 
- 
+ +Der/A
+
  !! !!Clitic tags
  +Clt	    !!≈ * __@CODE@__ = 
  +Qst	    !!≈ * __@CODE@__ = 
@@ -236,20 +243,20 @@ LEXICON Root    !!=  __@CODE@__
 
 
  AdjectiveRoot ;  !!= * @CODE@
-! Adverb ;		  !!= * @CODE@
-Conjunction ;	  !!= * @CODE@
-Interjection ;	  !!= * @CODE@
-! Numeral ;			  !!= * @CODE@
+ Adverb ;		  !!= * @CODE@
+ Conjunction ;	  !!= * @CODE@
+! Interjection ;	  !!= * @CODE@
+ Numeral ;			  !!= * @CODE@
  NounRoot ;		  !!= * @CODE@
-Particle ;		  !!= * @CODE@
-! Postposition ;	  !!= * @CODE@
-! Preposition ;	  !!= * @CODE@
+! Particle ;		  !!= * @CODE@
+ Postposition ;	  !!= * @CODE@
+ Preposition ;	  !!= * @CODE@
  Pronoun ;		  !!= * @CODE@
 ! ProperNoun ;	  !!= * @CODE@
  Punctuation ;	  !!= * @CODE@
  Symbols     ;	  !!= * @CODE@
  VerbRoot ;		  !!= * @CODE@
- Subjunction ;	  !!= * @CODE@
+! Subjunction ;	  !!= * @CODE@
 
 
 

@@ -23,8 +23,9 @@ morf_codes="+V+Inf \
             +V+Act+Ind+Prs+Sg1 \
             +V+Act+Ind+Prs+Sg3 \
             +V+Act+Ind+Prt+Pl1 \
+            +V+Act+Ind+Prt+Pl3 \
             +V+Act+Ind+Prs+ConNeg \
-            +V+PrfPrc"
+            +V+Act+PrfPrc+Sg+Nom"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/verbs.lexc
