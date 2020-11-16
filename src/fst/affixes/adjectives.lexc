@@ -1,8 +1,102 @@
 
 LEXICON a1 
 +A: x1 ;
-+A+Comp:mpe x3 ;
-+A+Superl:ime ;
++A+Comp: 3comp ;
++A+Superl:ime 3sup ;
+
+LEXICON a3 
++A: x3 ;
++A+Comp: 4comp ;
++A+Superl:ime 4sup;
 
 LEXICON a4
 +A: x4 ;
+
+
+!! Comparative inflection
+!  ----------------------
+
+LEXICON 3comp ! 2syll adj, 3syll comparative
++Sg+Ess:%>mp^Ann^A K ;
++Sg+All:%>m^Alle K ;
++Sg+Ade:%>m^All^A K ;
++Pl+Ess:%>mpinn^A K ;
++Pl+All:%>mille K ;
++Pl+Ade:%>mill^A K ;
+xcomp ; ! common cases from here
+
+LEXICON 4comp ! 3syll adj, 4syll comparative
++Sg+Ess:%>mp^An^A K ;
++Sg+All:%>m^Ale K ;
++Sg+Ade:%>m^Al^A K ;
++Pl+Ess:%>mpin^A K ;
++Pl+All:%>mile K ;
++Pl+Ade:%>mil^A K ;
+xcomp ; ! common cases from here
+
+
+
+
+LEXICON xcomp ! common for 2syll and 3syll
++Sg+Nom:%>mpi # ;
++Sg+Gen:%>ma%>n K ;
++Sg+Par:%>mp^A^A K ;
++Sg+Tra:%>m^Aksi K ;
++Sg+Ill:%>mph^A^An K ;
++Sg+Ine:%>m^Ass^A K ;
++Sg+Ela:%>m^Ast^A K ;
++Sg+Abl:%>m^Alt^A K ;
++Pl+Nom:%>m^At # ;
++Pl+Gen:%>mitten K ;
++Pl+Par:%>mpi^A K ;
++Pl+Tra:%>miksi K ;
++Pl+Ill:%>mphiin K ;
++Pl+Ine:%>miss^A K ;
++Pl+Ela:%>mist^A K ;
++Sg+Abl:%>milt^A K ;
+
+
+
+
+
+!! Superlative inflection
+!  ----------------------
+
+LEXICON 3sup ! 2syll adj, 3syll superlative
++Sg+Ess:%>i5i5mp^Ann^A K ;
++Sg+All:%>i5m^Alle K ;
++Sg+Ade:%>i5m^All^A K ;
++Pl+Ess:%>i5mpinn^A K ;
++Pl+All:%>i5mille K ;
++Pl+Ade:%>i5mill^A K ;
+xsup ; ! common cases from here
+
+LEXICON 4sup ! 3syll adj, 4syll superlative
++Sg+Ess:%>i5mp^An^A K ;
++Sg+All:%>i5m^Ale K ;
++Sg+Ade:%>i5m^Al^A K ;
++Pl+Ess:%>i5mpin^A K ;
++Pl+All:%>i5mile K ;
++Pl+Ade:%>i5mil^A K ;
+xsup ; ! common cases from here
+
+
+
+
+LEXICON xsup ! common for 2syll and 3syll
++Sg+Nom:%>i5mpi # ;
++Sg+Gen:%>i5man K ;
++Sg+Par:%>i5mp^A^A K ;
++Sg+Tra:%>i5m^Aksi K ;
++Sg+Ill:%>i5mph^A^An K ;
++Sg+Ine:%>i5m^Ass^A K ;
++Sg+Ela:%>i5m^Ast^A K ;
++Sg+Abl:%>i5m^Alt^A K ;
++Pl+Nom:%>i5m^At # ;
++Pl+Gen:%>i5mitten K ;
++Pl+Par:%>i5mpi^A K ;
++Pl+Tra:%>i5miksi K ;
++Pl+Ill:%>i5mphiin K ;
++Pl+Ine:%>i5miss^A K ;
++Pl+Ela:%>i5mist^A K ;
++Sg+Abl:%>i5milt^A K ;

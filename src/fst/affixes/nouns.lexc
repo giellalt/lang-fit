@@ -5,7 +5,8 @@
 ! n4 = veri
 
 ! nen = nainen paradigm
-! nks = keskus - keskuksen
+! 3nen = hevonen paradigm
+! 3nks = keskus - keskuksen
 ! nas = tehas - tehtaan
 
 LEXICON n1
@@ -17,13 +18,26 @@ LEXICON x1
  +Sg+Par:%>^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
+ +Sg+Ela:^WG%>st^A K ;
+ +Sg+All:^WG%>le K ;
  +Sg+Ade:^WG%>l^A K ;
+ +Sg+Abl:^WG%>lt^A K ;
+ +Sg+Tra:^WG%>ksi K ;
+ +Sg+Ess:%>n^A K ;
+ +Sg+Abe:^WG%>tt^A K ;
+
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>i2en K ;
  +Pl+Par:%>i2^A K ;
+ +Pl+Ill:^HMETA%>hiin K ;
  +Pl+Ine:^WG%>i2ss^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ela:^WG%>i2st^A K ;
+ +Pl+All:^WG%>i2le K ;
  +Pl+Ade:^WG%>i2l^A K ;
+ +Pl+Abl:^WG%>i2lt^A K ;
+ +Pl+Tra:^WG%>i2ksi K ;
+ +Pl+Ess:%>i2n^A K ;
+ +Pl+Abe:^WG%>i2tt^A K ;
 
 LEXICON n2
  +N: x2 ;
@@ -34,14 +48,22 @@ LEXICON x2
  +Sg+Par:^WG%>tt^A K ; ! liikettä, säettä
  +Sg+Ill:h%>en     K ; ! liikheen, säkheen
  +Sg+Ine:%>ess^A   K ; ! liikheessä, säkheessä
+ +Sg+Ela:%>est^A   K ; ! liikheessä, säkheessä
+ +Sg+All:%>ele    K ; ! liikheelä, säkheelä
  +Sg+Ade:%>el^A    K ; ! liikheelä, säkheelä
  +Sg+Abl:%>elt^A   K ; ! liikheeltä, säkheeltä
+ +Sg+Tra:%>eksi K ;
+ +Sg+Ess:%>en^A K ;
+ +Sg+Abe:%>ett^A K ;
  +Pl+Nom:h%>et     K ;
  +Pl+Gen:h%>ejen   K ;
  +Pl+Par:h%>ej^A   K ;
  +Pl+Ill:%>en      K ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   K ; ! liikheessä, säkheessä
- +Pl+Ade:%>el^A    K ; ! liikheelä, säkheelä
+ +Pl+Ade:%>ei2l^A    K ; ! liikheelä, säkheelä
+ +Pl+Tra:%>ei2ksi K ;
+ +Pl+Ess:%>ei2n^A K ;
+ +Pl+Abe:%>ei2tt^A K ;
 
 LEXICON n3
  +N: x3 ;
@@ -56,7 +78,10 @@ LEXICON x3
  +Sg+All:^WG%>lle K ;
  +Sg+Ade:^WG%>ll^A K ;
  +Sg+Abl:^WG%>lt^A K ;
-
+ +Sg+Ess:%>nn^A K ;
+ +Sg+Tra:^WG%>ksi K ;
+ +Sg+Abe:^WG%>tt^A K ;
+ 
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>i2tten K ;
  +Pl+Par:%>i2t^A K ;
@@ -66,6 +91,9 @@ LEXICON x3
  +Pl+Ade:^WG%>i2ll^A K ;
  +Pl+Ade:^WG%>i2ll^A K ;
  +Pl+Abl:^WG%>i2lt^A K ;
+ +Pl+Tra:%>ei2ksi K ;
+ +Pl+Ess:%>ei2n^A K ;
+ +Pl+Abe:%>ei2tt^A K ;
 
   
 LEXICON n4
@@ -75,63 +103,103 @@ LEXICON x4 ! veri
  +Sg+Nom:^E2I       K ; ! veri
  +Sg+Gen:^WG%>n     K ; ! veren
  +Sg+Par:%>t^A      K ; ! verta
- +Sg+Ine:^WG%>ss^A  K ; ! veressä
  +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
+ +Sg+Ela:^WG%>st^A K ;
+ +Sg+All:^WG%>le K ;
  +Sg+Ade:^WG%>l^A K ;
+ +Sg+Abl:^WG%>lt^A K ;
+ +Sg+Ess:%>n^A K ;
+ +Sg+Tra:^WG%>ksi K ;
+ 
  +Pl+Nom:^WG%>t K ;
- +Pl+Gen:%>i2en K ;
- +Pl+Par:%>i2^A K ;
+ +Pl+Gen:%>ten K ;
+ +Pl+Par:%>j^A K ;
+ +Pl+Ill:^HMETA%>hiin K ;
  +Pl+Ine:^WG%>i2ss^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;
+ +Pl+Ela:^WG%>i2st^A K ;
+ +Pl+All:^WG%>i2le K ;
  +Pl+Ade:^WG%>i2l^A K ;
+ +Pl+Abl:^WG%>i2lt^A K ;
+ +Pl+Ess:%>i2n^A K ;
+ +Pl+Tra:^WG%>i2ksi K ;
 
 
+
+!! The nainen (nen) and hevonen (3nen) family
 
 LEXICON nen
- +N: xnen ;
++N: xnen ; 
 
 LEXICON xnen
++Sg:se%> 2cases ; ! Ade, All, Ess lla, lle, nna
++Pl:se%>i2%> 2cases ;  
+ xnen_common ; ! all other cases
+
+LEXICON 3nen
++N: x3nen ;
+
+LEXICON x3nen
++Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
++Pl:se%>i2%> 3cases ;  
+ xnen_common ; ! all other cases
+
+LEXICON xnen_common
  +Sg+Nom:nen       K ;
  +Sg+Gen:se^WG%>n K ;
  +Sg+Par:s%>t^A K ;
  +Sg+Ill:sheen   K ;    ! liikheen, säkheen
- +Sg+Ine:se^WG%>ss^A K ;
- +Sg+Ade:se^WG%>ll^A K ;
+ +Sg+Ine:se%>ss^A K ;
+ +Sg+Ela:se%>st^A K ;
+ +Sg+Abl:se%>lt^A K ;
+ +Sg+Abe:se%>tt^A K ;
+
  +Pl+Nom:se^WG%>t K ;
  +Pl+Gen:s%>ten K ;
  +Pl+Par:s%>i^A K ;
- +Pl+Ine:s^WG%>i2ss^A K ;
  +Pl+Ill:shiin   K ;    !
- +Pl+Ade:s%>i2ll^A    K ;  ! evt se>i2ll^A
+ +Pl+Ine:s^WG%>i2ss^A K ;
+ +Pl+Ela:s%>i2st^A K ;
+ +Pl+Abl:s%>i2lt^A K ;
+ +Pl+Abe:s%>i2tt^A K ;
+
+LEXICON 3cases
++Ade:%>ll^A K ;
++All:%>lle K ;
++Ess:%>nn^A K ;
+
+LEXICON 2cases
++Ade:%>l^A K ;
++All:%>le K ;
++Ess:%>n^A K ;
 
 
-LEXICON nks
+LEXICON 3nks
 +N: xnks ;
 
 LEXICON xnks
- +Sg+Nom:       K ;
- +Sg+Gen:%>n K ;
- +Sg+Par:%>t^A K ;
- +Sg+Ill:^HMETA%>h^V^Vn K ;
- +Sg+Ine:%>ss^A K ;
- +Sg+Ade:%>ll^A K ;
- +Pl+Nom:%>t K ;
- +Pl+Gen:%>ten K ;
- +Pl+Par:%>i2^A K ;
- +Pl+Ine:%>i2ss^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;
- +Pl+Ade:%>i2ll^A K ;
+ +Sg+Nom:s       K ;
+ +Sg+Gen:kse%>n K ;
+ +Sg+Par:s%>t^A K ;
+ +Sg+Ill:kse^HMETA%>h^V^Vn K ;
+ +Sg+Ine:kse%>ss^A K ;
+ +Sg+Ade:kse%>ll^A K ;
+ +Pl+Nom:kse%>t K ;
+ +Pl+Gen:s%>ten K ;
+ +Pl+Par:kse%>i2^A K ;
+ +Pl+Ine:kse%>i2ss^A K ;
+ +Pl+Ill:kse^HMETA%>h^Vin K ;
+ +Pl+Ade:kse%>i2ll^A K ;
 
 
 LEXICON nas
 +N: xnas ;
 
 LEXICON xnas
- +Sg+Nom:^WG       K ;
+ +Sg+Nom:^WGs       K ;
  +Sg+Gen:a%>n K ;
- +Sg+Par:^WG%>t^A K ;
- +Sg+Ill:^HMETA%>h^V^Vn K ;
+ +Sg+Par:^WGs%>t^A K ;
+ +Sg+Ill:as^HMETA%>h^V^Vn K ;
  +Sg+Ine:a%>ss^A K ;
  +Sg+Ade:a%>ll^A K ;
  +Pl+Nom:a%>t K ;
@@ -146,8 +214,18 @@ LEXICON ime
 +N: xime ;
 
 LEXICON xime
-+Sg+Nom: K ;
-+Sg+Gen:%>n K ;
+ +Sg+Nom:n K ;
+ +Sg+Gen:me%>n K ;
+ +Sg+Par:n%>t^A K ;
+ +Sg+Ill:m^HMETA%>heen K ;
+ +Sg+Ine:me%>ss^A K ;
+ +Sg+Ade:me%>ll^A K ;
+ +Pl+Nom:me%>t K ;
+ +Pl+Gen:me%>i2den K ;
+ +Pl+Par:me%>i2t^A K ;
+ +Pl+Ine:me%>i2ss^A K ;
+ +Pl+Ill:me^HMETA%>h^Vin K ;
+ +Pl+Ade:me%>i2ll^A K ;
 
 
 
@@ -166,16 +244,16 @@ LEXICON i_PxK  !!= @CODE@ Tra: -i or -e and goes to Px
 
 LEXICON PxK !!= @CODE@ has only -nsA, and is currently not in use. Check
    K  ;
-!  Px ;
+  Px ;
 
 LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
    K     ;
 !  Px    ;
 !  Px-Vn ;
 
-LEXICON Pxx
-  Px    ;
-  Px-Vn ;
+!LEXICON Pxx ! nsA and Vn
+!  Px    ;
+!  Px-Vn ;
 
 LEXICON Px
  +PxSg1:%>ni    K ;

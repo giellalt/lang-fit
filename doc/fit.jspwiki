@@ -96,11 +96,13 @@ Take nothing at face value!
  * __+Pl1__ = 
  * __+Pl3__ = 
 
+
 !Infinite verbs
- * __+Inf__ = 
+ * __+Inf__ = tA Infinitive
+ * __+InfE__ = e Infinite
+ * __+InfMa__ = mA Infinite
  * __+PrsPrc__ = 
  * __+PrfPrc__ = 
- * __+Inf3__ = Infinite verbs
 
 !Punctuation
  * __+CLB__ = Clause boundary
@@ -232,7 +234,11 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 
  *  AdjectiveRoot ;  
+ *  Adverb ;		  
+ *  Conjunction ;	  
  *  NounRoot ;		  
+ *  Postposition ;	  
+ *  Preposition ;	  
  *  Pronoun ;		  
  *  Punctuation ;	  
  *  Symbols     ;	  
