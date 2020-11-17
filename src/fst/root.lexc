@@ -98,7 +98,8 @@ Multichar_Symbols
 +InfMa   !!≈ * __@CODE@__ = mA Infinite
 +PrsPrc  !!≈ * __@CODE@__ = 
 +PrfPrc  !!≈ * __@CODE@__ = 
-+ConNeg
++ConNeg  !!≈ * __@CODE@__ = 
++Neg     !!≈ * __@CODE@__ =
 
 !! !Punctuation
 +CLB    !!≈ * __@CODE@__ = Clause boundary
