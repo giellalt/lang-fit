@@ -105,11 +105,6 @@ k:j <=> Vow [l|r] _ Vow:  %^WG: ;
         [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %> h :ö :ö ;
                     Vow Vow _ Cns Vow: %^HMETA: ;
 
-!!€ päi0vä^HMETA>h^V^Vn
-!!€ päihv00>0ään
-!!€ päi0vä^HMETA>h^Vin
-!!€ päihv00>0iin
-
 "Gemination 0:j"
 0:j <=> [.#.|#] Cns:* Vow j _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow j _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
@@ -351,11 +346,12 @@ e:i <=> _ %^E2I: ;
 
 "Suffix i to j"
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
+
 !!€ sana>i2^A
 !!€ sano>ja
 
 "i to e in plural"
-i:e <=> _ ([Dummy: - %^HMETA:]) %> i2: ;
+i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !"j insertion before long"
 !0:j <=> [.#.|#|Cns] i: _ Vow %> Vow ;
@@ -436,12 +432,12 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
                                   _ %^HMETA: ;
 
 !!€ syy>i2ss^A
-!!€ sy0>issä
+!!€ s0y>issä
 
 "i:0"
 i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
-          Cns [a|o|ö|ä] _          [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
+          Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
 	           Cns: _ (%^WG:)   %>       i3: ;           ! sopia : sopi, oppia : oppi
 
@@ -498,6 +494,7 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 !!€ silli^HMETA>h^V^Vn
 !!€ sill00>hiin
 
+
 "ä copying for h metathesis"
 %^V:ä <=> ä: %^HMETA: %> h:    _ :ä ;
           ä: %^HMETA: %> h: :ä _    ;
@@ -537,8 +534,12 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 !!€ nais>ilta
 !!€ puhu>^A
 !!€ puhu>a
-!!€ controlx
+
+!!$ controlx
 !!$ testpair
+
+!!€ controlx
+!!€ testpair
 
 
 
