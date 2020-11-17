@@ -70,6 +70,9 @@ LEXICON n3
 
 LEXICON x3
  +Sg+Nom:^E2I       K ;
+ x3_oblique ;
+
+LEXICON x3_oblique
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ;
