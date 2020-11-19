@@ -246,7 +246,7 @@ LEXICON Root    !!=  __@CODE@__
  AdjectiveRoot ;  !!= * @CODE@
  Adverb ;		  !!= * @CODE@
  Conjunction ;	  !!= * @CODE@
-! Interjection ;	  !!= * @CODE@
+ Interjection ;	  !!= * @CODE@
  Numeral ;			  !!= * @CODE@
  NounRoot ;		  !!= * @CODE@
 ! Particle ;		  !!= * @CODE@
@@ -257,7 +257,7 @@ LEXICON Root    !!=  __@CODE@__
  Punctuation ;	  !!= * @CODE@
  Symbols     ;	  !!= * @CODE@
  VerbRoot ;		  !!= * @CODE@
-! Subjunction ;	  !!= * @CODE@
+ Subjunction ;	  !!= * @CODE@
 
 
 

@@ -1,3 +1,5 @@
+!! Meänkieli pronouns
+
 
 LEXICON Pronoun
 
@@ -18,9 +20,55 @@ tuo+Pron+Dem:tuo tuo ;
 nämä+Pron+Dem+Pl+Nom:nämä K ;
 nämä+Pron+Dem+Pl:näi namaobl ;
 
-mikä+Pron+Rel+Sg:mi relkys ;
-mikä+Pron+Rel+Sg:mi mi_rel ;
-joka+Pron+Rel+Pl:joi joi_relkyspl ;
+mikä+Pron+Rel:mi mi_rel ;
+joka+Pron+Rel:jo jo_rel ;
+joka+Pron+Rel+Pl:joi joi_relkyspl ; ! ota pois (?)
 kuka+Pron+Rel:ke kuka_relkys_obl ;
 kumpi+Pron+Interr+Sg:kum kumpi ;
 toinen+Pron: toi toisen ;
+
+
+usea pronx ;
+joka pronx ;
+kuka pronx ;
+muuàlla pronx ;
+oma pronx ;
+mutta pronx ;
+kua pronx ;
+harva pronx ;
+mie pronx ;
+sie pronx ;
+minne pronx ;
+se pronx ;
+itte pronx ;
+teh pronx ;
+kullaki pronx ;
+kumpiki pronx ;
+kaikki pronx ;
+kuki pronx ;
+moni pronx ;
+ken pronx ;
+jokhainen pronx ;
+jokaikinen pronx ;
+meikäläinen pronx ;
+hän pronx ;
+hään pronx ;
+mikhään pronx ;
+kumpiko pronx ;
+tuo pronx ;
+molemat pronx ;
+het pronx ;
+met pronx ;
+net pronx ;
+tet pronx ;
+nuot pronx ;
+muut pronx ;
+nämät pronx ;
+joku pronx ;
+muu pronx ;
+mikä pronx ;
+sillä pronx ;
+mä pronx ;
+tämä pronx ;
+mitä pronx ;
+sitä pronx ;

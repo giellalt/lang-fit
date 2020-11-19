@@ -8,12 +8,17 @@
 ! v4 = tryykätä:tryykkä
 ! v5 = tarvita:tar
 ! v6 = paeta:pake
+! vx = unassigned
 
+LEXICON vx
+v1 ; ! vx
 
 !! !! Irregular verbs
 
 LEXICON OLLA
 +V+Inf:olla K ;
++V+InfMa:ole 3infcase ;
+
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
 +V+Act+Ind+Prs+Sg3:oon K ;
@@ -140,6 +145,7 @@ LEXICON v2
 +V+Act+Ind+Prs+Sg1:%>n K ;
 +V+Act+Ind+Prs+Sg2:%>t K ;
 +V+Act+Ind+Prs+Sg3: K ;
++V+Act+Ind+Prs+Sg3:%>pi K ;
 +V+Act+Ind+Prs+Pl1:%>m^A K ;
 +V+Act+Ind+Prs+Pl2:%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
