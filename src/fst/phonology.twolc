@@ -39,29 +39,27 @@ NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!=
 Rules 
 
 !! !!Consonant rules
-!! !Quantitative Gradation
-"p Gradation"
+
+!! !Gradation rules
+!! p rules
+
+"p:0"
 p:0 <=> [Vow|l|n|r] p _ Vow: %^WG: ; 
          Vow p _ e: h %> e ;
 
 !!€ appi^WG
 !!€ ap0i0
 
-"t Gradation"
-t:0 <=> [Vow|l|n|r]  t  _ Vow: %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
-                Vow  t  _ e: h %> e ;
-                Vow (h) _ Vow %^WG: ; 
+"p:v"
+p:v <=> Vow _ Vow:  %^WG: ;
 
-!!€ motti^WG
-!!€ mot0i0
-!!€ tehta^WGs
-!!€ teh0a0s
+!!€ papu^WG>n
+!!€ pavu0>n
 
-"t:r Gradation"
-t:Cx <=> Vow Cx _ Vow: %^WG: (%>) [\i2:|\i3:] ;
-     where Cx in (l n r );
 
-"k Gradation"
+!! k rules
+
+"k:0"
 k:0 <=> [Vow|l|n|r] k _ Vow: %^WG:      ;  ! Quant Grad
                 Vow   _ Vow: %^WG:      ;  ! Qual Grad
                 Vow k _ e:   h     %> e ;  ! kkh > kh
@@ -71,18 +69,45 @@ k:0 <=> [Vow|l|n|r] k _ Vow: %^WG:      ;  ! Quant Grad
 !!€ keskus>t^A
 !!€ keskus>ta	
 
-
-
-
-!! !Qualitative gradation
-"p:v"
-p:v <=> Vow _ Vow:  %^WG: ;
-
-!!€ papu^WG>n
-!!€ pavu0>n
-
 "k:j"
 k:j <=> Vow [l|r] _ Vow:  %^WG: ;
+
+
+!! t rules
+
+"t:0"
+t:0 <=> [Vow|l|n|r]  t  _ Vow: %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
+                Vow  t  _ e: h %> e ;
+                Vow (h) _ Vow %^WG: ; 
+
+!!€ motti^WG
+!!€ mot0i0
+!!€ tehta^WGs
+!!€ teh0a0s
+
+"t:r"
+t:r <=> Vow r _ :Vow %^WG: %> [\i2:i|i3:i] ;
+
+"t:l"
+t:l <=> Vow l _ :Vow %^WG: %> [\i2:i|\i3:i] ;
+
+"t:n"
+t:n <=> Vow n _ :Vow %^WG: %> [\i2:i|\i3:i] ;
+
+"t:s"
+t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> [i2:|i3:] ;
+        Vow ([l|n|r]) _  :i %^E2I: .#. ;
+
+!!€ vete^E2I
+!!€ vesi0
+!!€ vere^E2I
+!!€ veri0
+!!€ varte^E2I
+!!€ varsi0
+
+"t:j"
+t:j <=> i _ i     %^WG: ;
+        i _ Vow:0 %^WG: %> :i ;
 
 !! !Gemination rules
 
@@ -313,19 +338,6 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 
 
-
-
-!! !Other consonant changes
-"ti:si"
-t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> [i2:|i3:] ;
-        Vow ([l|n|r]) _  :i %^E2I: .#. ;
-
-!!€ vete^E2I
-!!€ vesi0
-!!€ vere^E2I
-!!€ veri0
-!!€ varte^E2I
-!!€ varsi0
 
 
 
