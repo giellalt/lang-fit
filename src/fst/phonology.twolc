@@ -62,7 +62,7 @@ t:Cx <=> Vow Cx _ Vow: %^WG: (%>) [\i2:|\i3:] ;
      where Cx in (l n r );
 
 "k Gradation"
-k:0 <=> [Vow|l|n|r] k _ Vow:  %^WG:      ;  ! Quant Grad
+k:0 <=> [Vow|l|n|r] k _ Vow: %^WG:      ;  ! Quant Grad
                 Vow   _ Vow: %^WG:      ;  ! Qual Grad
                 Vow k _ e:   h     %> e ;  ! kkh > kh
 
@@ -389,7 +389,7 @@ a:0 <=>                                          _ %^HMETA: %> ;  ! before metat
 "ä:0"
 ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:)  %> [i2:|i3:|j] ; ! before i
                                   _ %^HMETA:            ; ! before metathesis h
-	 [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
+         [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
 
 !!€ päivä>i2ss^A
 !!€ päiv0>issä
@@ -480,7 +480,7 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 !!€ hint00>haan
 
 "o copying for h metathesis"
-%^V:o <=> o: %^HMETA: %> h: _ [:i|:o] ;
+%^V:o <=> o: %^HMETA: %> h:    _ [:i|:o] ;
           o: %^HMETA: %> h: :o _  ;
           o           %>       _ [n|%>|.#.] ;
 
