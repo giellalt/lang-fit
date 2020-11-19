@@ -1,3 +1,5 @@
+!! Meänkieli noun morphology
+
 
 ! n1 = talo, basic paradigm
 ! n2 = liike, säe
@@ -8,6 +10,10 @@
 ! 3nen = hevonen paradigm
 ! 3nks = keskus - keskuksen
 ! nas = tehas - tehtaan
+
+
+LEXICON nx
+n1 ; ! nx
 
 LEXICON n1
  +N: x1 ;
@@ -23,6 +29,7 @@ LEXICON x1
  +Sg+Ade:^WG%>l^A K ;       ! talola
  +Sg+Abl:^WG%>lt^A K ;      ! talolta
  +Sg+Tra:^WG%>ksi K ;       ! taloksi
+ +Sg+Tra:^WG%>ks K ;       ! taloksi
  +Sg+Ess:%>n^A K ;          ! talona
  +Sg+Abe:^WG%>tt^A K ;      ! talotta
 
@@ -36,6 +43,7 @@ LEXICON x1
  +Pl+Ade:^WG%>i2l^A K ;
  +Pl+Abl:^WG%>i2lt^A K ;
  +Pl+Tra:^WG%>i2ksi K ;
+ +Pl+Tra:^WG%>i2ks K ;
  +Pl+Ess:%>i2n^A K ;
  +Pl+Abe:^WG%>i2tt^A K ;
 
@@ -53,6 +61,7 @@ LEXICON x2
  +Sg+Ade:%>el^A    K ; ! liikheelä, säkheelä
  +Sg+Abl:%>elt^A   K ; ! liikheeltä, säkheeltä
  +Sg+Tra:%>eksi K ;
+ +Sg+Tra:%>eks K ;
  +Sg+Ess:%>en^A K ;
  +Sg+Abe:%>ett^A K ;
  +Pl+Nom:h%>et     K ;
@@ -62,6 +71,7 @@ LEXICON x2
  +Pl+Ine:%>ess^A   K ; ! liikheessä, säkheessä
  +Pl+Ade:%>ei2l^A    K ; ! liikheelä, säkheelä
  +Pl+Tra:%>ei2ksi K ;
+ +Pl+Tra:%>ei2ks K ;
  +Pl+Ess:%>ei2n^A K ;
  +Pl+Abe:%>ei2tt^A K ;
 
@@ -83,6 +93,7 @@ LEXICON x3_oblique
  +Sg+Abl:^WG%>lt^A K ;
  +Sg+Ess:%>nn^A K ;
  +Sg+Tra:^WG%>ksi K ;
+ +Sg+Tra:^WG%>ks K ;
  +Sg+Abe:^WG%>tt^A K ;
  
  +Pl+Nom:^WG%>t K ;
@@ -95,6 +106,7 @@ LEXICON x3_oblique
  +Pl+Ade:^WG%>i2ll^A K ;
  +Pl+Abl:^WG%>i2lt^A K ;
  +Pl+Tra:%>ei2ksi K ;
+ +Pl+Tra:%>ei2ks K ;
  +Pl+Ess:%>ei2n^A K ;
  +Pl+Abe:%>ei2tt^A K ;
 
@@ -114,6 +126,7 @@ LEXICON x4 ! veri
  +Sg+Abl:^WG%>lt^A K ;
  +Sg+Ess:%>n^A K ;
  +Sg+Tra:^WG%>ksi K ;
+ +Sg+Tra:^WG%>ks K ;
  
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>ten K ;
@@ -126,6 +139,7 @@ LEXICON x4 ! veri
  +Pl+Abl:^WG%>i2lt^A K ;
  +Pl+Ess:%>i2n^A K ;
  +Pl+Tra:^WG%>i2ksi K ;
+ +Pl+Tra:^WG%>i2ks K ;
 
 
 

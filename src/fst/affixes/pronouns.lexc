@@ -1,6 +1,9 @@
-    
+!! Meänkieli pronoun morphology
 
 !! !!!Pronominien morfologia
+
+LEXICON pronx
++Pron: # ; ! pronx
 
 !! Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
@@ -168,8 +171,34 @@ LEXICON mi_rel
 +Pl+Ade:llä    K ;
 +Pl+Abl:ltä   K ;
 
+LEXICON jo_rel
++Sg+Nom:ka K ;
++Sg+Gen:nka K ;
++Sg+Ill:hin K ;
++Sg+Ill:hinka K ;
++Sg+Par:ta K ;
++Sg+Par+Clt:tas K ;
++Sg+Ess:na    K ;
++Sg+Tra:ksi   K ;
++Sg+Ine:ssa   K ;
++Sg+Ela:sta   K ;
++Sg+All:lle   K ;
++Sg+Ade:lla    K ;
++Sg+Abl:lta   K ;
 
-
++Pl+Nom:kka K ;
++Pl+Nom:tka K ;
++Pl+Gen:nka K ;
++Pl+Par:ta K ;
++Pl+Ill:hin K ;
++Pl+Ill:hinka K ;
++Pl+Ess:na    K ;
++Pl+Tra:ksi   K ;
++Pl+Ine:ssa   K ;
++Pl+Ela:sta   K ;
++Pl+All:lle   K ;
++Pl+Ade:lla    K ;
++Pl+Abl:lta   K ;
 
 LEXICON joi_relkyspl
 +Gen:%>tten K ;

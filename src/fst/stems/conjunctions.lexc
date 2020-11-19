@@ -1,5 +1,10 @@
+!! Meänkieli conjunctions
+
+LEXICON conjx
++CC: # ; ! conjx
+
 LEXICON cc
-+CC # ;
++CC: # ;
 
 LEXICON Conjunction
 ja cc ;
@@ -8,3 +13,21 @@ sekä cc ;
 ette cc ;
 eli cc ;
 taikka cc ;
+ja conjx ;
+vaikka conjx ;
+koska conjx ;
+jopa conjx ;
+nopa conjx ;
+mutta conjx ;
+sese conjx ;
+vai conjx ;
+eli conjx ;
+sati conjx ;
+silti conjx ;
+paitti conjx ;
+niin conjx ;
+siis conjx ;
+jos conjx ;
+niinku conjx ;
+elikkä conjx ;
+että conjx ;
