@@ -84,7 +84,7 @@ LEXICON x3
 
 LEXICON x3_oblique
  +Sg+Gen:^WG%>n K ;
- +Sg+Par:%>^A K ;
+ +Sg+Par:%>t^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ;
  +Sg+Ine:^WG%>ss^A K ;
  +Sg+Ela:^WG%>st^A K ;
