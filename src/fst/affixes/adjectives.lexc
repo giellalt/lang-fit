@@ -19,6 +19,40 @@ LEXICON a4
 LEXICON anen
 +A: xnen ;
 
+LEXICON a1_ton
+x1_ton ;
+
+LEXICON x1_ton
+ +Sg+Nom:%>^On       K ;
+ +Sg+Gen:%>t^Om^An K ;
+ +Sg+Par:%>^Ont^A K ;
+ +Sg+Ill:t%>h^V^Vn K ; ! talhoon
+ +Sg+Ine:^WG%>ss^A K ;      ! talossa
+ +Sg+Ela:^WG%>st^A K ;      ! talosta
+ +Sg+All:^WG%>le K ;        ! talole
+ +Sg+Ade:^WG%>l^A K ;       ! talola
+ +Sg+Abl:^WG%>lt^A K ;      ! talolta
+ +Sg+Tra:^WG%>ksi K ;       ! taloksi
+ +Sg+Tra:^WG%>ks K ;       ! taloksi
+ +Sg+Ess:%>n^A K ;          ! talona
+ +Sg+Abe:^WG%>tt^A K ;      ! talotta
+
+ +Pl+Nom:^WG%>t K ;
+ +Pl+Gen:%>i2en K ;
+ +Pl+Par:%>i2^A K ;
+ +Pl+Ill:^HMETA%>h^Vin K ;  ! talhoin
+ +Pl+Ine:^WG%>i2ss^A K ;
+ +Pl+Ela:^WG%>i2st^A K ;
+ +Pl+All:^WG%>i2le K ;
+ +Pl+Ade:^WG%>i2l^A K ;
+ +Pl+Abl:^WG%>i2lt^A K ;
+ +Pl+Tra:^WG%>i2ksi K ;
+ +Pl+Tra:^WG%>i2ks K ;
+ +Pl+Ess:%>i2n^A K ;
+ +Pl+Abe:^WG%>i2tt^A K ;
+
+
+
 
 !! Comparative inflection
 !  ----------------------
