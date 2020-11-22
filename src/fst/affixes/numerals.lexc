@@ -1,0 +1,727 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ############################## !
+!! !!!Kven numerals 
+! ############################## !
+
+!! !!!Numeral inflection
+!! Numeral inflection is like nominal, except that numerals compound in all
+!! forms which requires great amount of care in the inflection patterns.
+! FIXME: compounding
+
+! nominatives
+LEXICON NUM_BACK_NOMINATIVE
+!!€gt-norm: Numeral nominative back
+!!€ kaksi: kaksi+Num+Sg+Nom # two
+!!€ kaks: kaksi+Num+Sg+Nom
++Sg+Nom:0   NUM_BACK_CLIT_OPT  ;
+
+LEXICON NUM_FRONT_NOMINATIVE
+!!€gt-norm: Numeral nominative front
+!!€ yksi: yksi+Num+Sg+Nom # one
+!!€ yks: yksi+Num+Sg+Nom # one
++Sg+Nom:0   NUM_FRONT_CLIT_OPT  ;
+
+LEXICON NUM_BACK_PLNOM_CLIT
+!!€gt-norm: Numeral nominative plural back
+!!€ kahđet: kaksi+Num+Pl+Nom
++Pl+Nom:%>t     NUM_BACK_CLIT_OPT  ;
+
+LEXICON NUM_FRONT_PLNOM_CLIT
+!!€gt-norm: Numeral nominative plural front
+!!€ yhđet: yksi+Num+Pl+Nom
++Pl+Nom:%>t     NUM_FRONT_CLIT_OPT  ;
+
+! basic cases
+LEXICON NUM_BACK_WEAK_SINGULARS
+!!€gt-norm: Numeral weak singular back
+!!€ kahđen: kaksi+Num+Sg+Gen
+!!€ kahđela: kaksi+Num+Sg+Ade
+!!€ kahđelta: kaksi+Num+Sg+Abl
+!!€ kahđele: kaksi+Num+Sg+All
+!!€ kahđessa: kaksi+Num+Sg+Ine
+!!€ kahđesta: kaksi+Num+Sg+Ela
+!!€ kahđeksi: kaksi+Num+Sg+Tra
+!!€ kahđetta: kaksi+Num+Sg+Abe
+0    NUM_BACK_PLNOM_CLIT   ;
++Sg+Gen:%>n     NUM_BACK_CLIT_OPT   ;
++Sg+Abe:%>tta   NUM_BACK_POSS_AN_OPT      ;
++Sg+Abl:%>lta   NUM_BACK_POSS_AN_OPT      ;
+!+Sg+Ade:%>la   NUM_BACK_POSS_AN_OPT      ;
+!+Sg+All:%>le   NUM_BACK_POSS_EN_OPT      ;
+!+Sg+Ade+Err/Orth:%>lla   NUM_BACK_POSS_AN_OPT      ;
+!+Sg+All+Err/Orth:%>lle   NUM_BACK_POSS_EN_OPT      ;
++Sg+Ela:%>sta   NUM_BACK_POSS_AN_OPT      ;
++Sg+Ine:%>ssa   NUM_BACK_POSS_AN_OPT      ;
++Sg+Tra:%>kse   NUM_BACK_POSS_EN_OBL       ;
++Sg+Tra:%>ksi   NUM_BACK_CLIT_OPT     ;
++Sg+Tra:%>ksi   NUM_BACK_CLIT_OPT     ;
+
+LEXICON NUM_BACK_SINGULARS_L
++Sg+Ade:%>la   NUM_BACK_POSS_AN_OPT      ;
++Sg+All:%>le   NUM_BACK_POSS_EN_OPT      ;
+
+LEXICON NUM_BACK_SINGULARS_LL
++Sg+Ade:%>lla   NUM_BACK_POSS_AN_OPT      ;
++Sg+All:%>lle   NUM_BACK_POSS_EN_OPT      ;
+
+LEXICON NUM_FRONT_WEAK_SINGULARS
+!!€gt-norm: Numeral weak singular front
+!!€ yhđen: yksi+Num+Sg+Gen
+!!€ yhđelä: yksi+Num+Sg+Ade
+!!€ yhđeltä: yksi+Num+Sg+Abl
+!!€ yhđele: yksi+Num+Sg+All
+!!€ yhđessä: yksi+Num+Sg+Ine
+!!€ yhđestä: yksi+Num+Sg+Ela
+!!€ yhđeksi: yksi+Num+Sg+Tra
+!!€ yhđettä: yksi+Num+Sg+Abe
+0    NUM_FRONT_PLNOM_CLIT   ;
++Sg+Gen:%>n     NUM_FRONT_CLIT_OPT   ;
++Sg+Abe:%>ttä   NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+Abl:%>ltä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Sg+Ade:%>lä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Sg+All:%>le   NUM_FRONT_POSS_EN_OPT      ;
+!+Sg+Ade+Err/Orth:%>llä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Sg+All+Err/Orth:%>lle   NUM_FRONT_POSS_EN_OPT      ;
++Sg+Ela:%>stä   NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+Ine:%>ssä   NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+Tra:%>kse   NUM_FRONT_POSS_EN_OBL       ;
++Sg+Tra:%>ksi   NUM_FRONT_CLIT_OPT     ;
++Sg+Tra:%>ksi   NUM_FRONT_CLIT_OPT     ;
+
+LEXICON NUM_FRONT_SINGULARS_L
++Sg+Ade:%>lä   NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+All:%>le   NUM_FRONT_POSS_EN_OPT      ;
+
+LEXICON NUM_FRONT_SINGULARS_LL
++Sg+Ade:%>llä   NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+All:%>lle   NUM_FRONT_POSS_EN_OPT      ;
+
+LEXICON NUM_BACK_STRONG_SINGULARS
+!!€gt-norm: Numeral strong singular back
+!!€ kahtena: kaksi+Num+Sg+Ess
+!+Sg+Ess:%>na NUM_BACK_POSS_AN_OPT      ;
++Sg+Nom:0  NUM_BACK_POSS   ;
++Sg+Gen:0  NUM_BACK_POSS   ;
++Pl+Nom:0  NUM_BACK_POSS   ;
+
+LEXICON NUM_BACK_STRONG_SINGULARS_NA
++Sg+Ess:%>na NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_STRONG_SINGULARS_NNA
++Sg+Ess:%>nna NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_FRONT_STRONG_SINGULARS
+!!€gt-norm: Numeral strong singular front
+!!€ yhtenä: yksi+Num+Sg+Ess
+!+Sg+Ess:%>nä NUM_FRONT_POSS_ÄN_OPT      ;
++Sg+Nom:0  NUM_FRONT_POSS   ;
++Sg+Gen:0  NUM_FRONT_POSS   ;
++Pl+Nom:0  NUM_FRONT_POSS   ;
+
+LEXICON NUM_FRONT_STRONG_SINGULARS_NA
++Sg+Ess:%>nä NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_STRONG_SINGULARS_NNA
++Sg+Ess:%>nnä NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_BACK_WEAK_PLURALS
+!!€gt-norm: Numeral weak plural back
+!!€ kaksila: kaksi+Num+Pl+Ade
+!!€ kaksilta: kaksi+Num+Pl+Abl
+!!€ kaksile: kaksi+Num+Pl+All
+!!€ kaksissa: kaksi+Num+Pl+Ine
+!!€ kaksista: kaksi+Num+Pl+Ela
+!!€ kaksiksi: kaksi+Num+Pl+Tra
+!!€ kaksitta: kaksi+Num+Pl+Abe
++Pl+Abe:%>i%>tta   NUM_BACK_POSS_AN_OPT      ;
++Pl+Abl:%>i%>lta   NUM_BACK_POSS_AN_OPT      ;
+!+Pl+Ade:%>i%>la   NUM_BACK_POSS_AN_OPT      ;
+!+Pl+All:%>i%>le  NUM_BACK_POSS_AN_OPT      ;
+!+Pl+Ade+Err/Orth:%>i%>lla   NUM_BACK_POSS_AN_OPT      ;
+!+Pl+All+Err/Orth:%>i%>lle  NUM_BACK_POSS_AN_OPT      ;
++Pl+Ela:%>i%>sta   NUM_BACK_POSS_AN_OPT      ;
++Pl+Ine:%>i%>ssa   NUM_BACK_POSS_AN_OPT      ;
++Pl+Ins:%>i%>n    NUM_BACK_CLIT_OPT     ;
++Pl+Tra:%>i%>kse  NUM_BACK_POSS_EN_OBL        ;
++Pl+Tra:%>i%>ksi  NUM_BACK_CLIT_OPT     ;
+
+LEXICON NUM_BACK_WEAK_PLURALS_L
++Pl+Ade:%>i%>la   NUM_BACK_POSS_AN_OPT      ;
++Pl+All:%>i%>le  NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_WEAK_PLURALS_LL
++Pl+Ade:%>i%>lla   NUM_BACK_POSS_AN_OPT      ;
++Pl+All:%>i%>lle  NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_FRONT_WEAK_PLURALS
+!!€gt-norm: Numeral weak plural front
+!!€ yksilä: yksi+Num+Pl+Ade
+!!€ yksiltä: yksi+Num+Pl+Abl
+!!€ yksile: yksi+Num+Pl+All
+!!€ yksissä: yksi+Num+Pl+Ine
+!!€ yksistä: yksi+Num+Pl+Ela
+!!€ yksiksi: yksi+Num+Pl+Tra
+!!€ yksittä: yksi+Num+Pl+Abe
++Pl+Abe:%>i%>ttä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Abl:%>i%>ltä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Pl+Ade:%>i%>lä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Pl+All:%>i%>le  NUM_FRONT_POSS_ÄN_OPT      ;
+!+Pl+Ade+Err/Orth:%>i%>llä   NUM_FRONT_POSS_ÄN_OPT      ;
+!+Pl+All+Err/Orth:%>i%>lle  NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Ela:%>i%>stä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Ine:%>i%>ssä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Ins:%>i%>n    NUM_FRONT_CLIT_OPT     ;
++Pl+Tra:%>i%>kse  NUM_FRONT_POSS_EN_OBL        ;
++Pl+Tra:%>i%>ksi  NUM_FRONT_CLIT_OPT     ;
+
+LEXICON NUM_FRONT_WEAK_PLURALS_L
++Pl+Ade:%>i%>lä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+All:%>i%>le  NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_WEAK_PLURALS_LL
++Pl+Ade:%>i%>llä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+All:%>i%>lle  NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_STRONG_PLURALS_N
+!!€gt-norm: Numeral weak plural back strong
+!!€ kaksina: kaksi+Num+Pl+Ess
+!!€ kaksine: kaksi+Num+Pl+Com
++Pl+Ess:%>i%>nä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Com:%>i%>ne        NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_STRONG_PLURALS_NN
+!!€gt-norm: Numeral weak plural back strong
+!!€ kaksina: kaksi+Num+Pl+Ess
+!!€ kaksine: kaksi+Num+Pl+Com
++Pl+Ess:%>i%>nnä   NUM_FRONT_POSS_ÄN_OPT      ;
++Pl+Com:%>i%>nne        NUM_FRONT_POSS_ÄN_OPT      ; ! Pituusreekeli on voimassa myös komitatiivissa
+
+LEXICON NUM_BACK_STRONG_PLURALS_N
+!!€gt-norm: Numeral weak plural front strong
+!!€ yksinä: yksi+Num+Pl+Ess
+!!€ yksine: yksi+Num+Pl+Com
++Pl+Ess:^Por%>i%>na   NUM_BACK_POSS_AN_OPT      ;
++Pl+Com:^Por%>i%>ne   NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_STRONG_PLURALS_NN
+!!€gt-norm: Numeral weak plural front strong
+!!€ yksinä: yksi+Num+Pl+Ess
+!!€ yksine: yksi+Num+Pl+Com
++Pl+Ess:%>i%>nna   NUM_BACK_POSS_AN_OPT      ;
++Pl+Com:%>i%>nne   NUM_BACK_POSS_AN_OPT      ;  ! Pituusreekeli on voimassa myös komitatiivissa
+
+
+
+! allomorphs
+LEXICON NUM_BACK_PARTITIVE_A
+!!€gt-norm: Numeral singular partitive a
+!!€ kahđeksee: kahđeksen+Num+Sg+Par !eight
++Sg+Par:%>a      NUM_BACK_POSS_OPT      ;
+
+LEXICON NUM_BACK_PARTITIVE_E
++Sg+Par:%>e      NUM_BACK_POSS_OPT      ;
+
+!LEXICON NUM_BACK_PARTITIVE_A_AN
+!!€gt-norm: Numeral singular partitive a poss aan
+!!€ kolmee: kolme+Num+Sg+Par !three
+!+Sg+Par:%>a      NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_PARTITIVE_TA
+!!€gt-norm: Numeral singular partitive ta
+!!€ kuutta: kuusi+Num+Sg+Par !six
++Sg+Par:%>ta     NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_FRONT_PARTITIVE_TÄ
+!!€gt-norm: Numeral singular partitive tä
+!!€ viittä: viisi+Num+Sg+Par !five
++Sg+Par:%>tä     NUM_FRONT_POSS_ÄN_OPT      ;
+
+
+LEXICON NUM_FRONT_PARTITIVE_E
++Sg+Par:%>e      NUM_FRONT_POSS_OPT      ;
+
+LEXICON NUM_BACK_ILLATIVE_AN
+!!€gt-norm: Numeral singular illative an
+!!€ kahđeksheen: kahđeksen+Num+Sg+Ill
++Sg+Ill:%>an     #         ;
++Sg+Ill:%>a      NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_HEEN
+!!€gt-norm: Numeral singular illative en back
+!!€ kolmheen: kolme+Num+Sg+Ill
++Sg+Ill:%>he%>en    #     ;
++Sg+Ill:%>he%>e     NUM_BACK_POSS     ;
+
+LEXICON NUM_FRONT_ILLATIVE_HEEN
+!!€gt-norm: Numeral singular illative en front
+!!€ viitheen: viisi+Num+Sg+Ill
++Sg+Ill:%>he%>en    #     ;
++Sg+Ill:%>he%>e     NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_IN
+!!€gt-norm: Numeral singular illative in back
+!!€ miljardhiin: miljardi+Num+Sg+Ill !billion
++Sg+Ill:%>in     #         ;
++Sg+Ill:%>i      NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_PARTITIVE_II_Sg
++Sg+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_ILLATIVE_HIIN_Sg
++Sg+Ill:%>hi%>in    #     ;
++Sg+Ill:%>hi%>i     NUM_BACK_POSS     ;
+
+!LEXICON NUM_BACK_PARTITIVE_IA
+!!€gt-norm: Numeral plural partitive ia
+!!€ kaksii: kaksi+Num+Pl+Par
+!+Pl+Par:%>i%>a    NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_PARTITIVE_II
++Pl+Par:%>i%>i    NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_PARTITIVE_III
++Pl+Par:%>i%>i%>t%>a    NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_PARTITIVE_OI
++Pl+Par:%>i    NUM_BACK_POSS_AN_OPT      ;
+
+
+LEXICON NUM_FRONT_PARTITIVE_II
++Pl+Par:%>i%>i    NUM_FRONT_POSS_ÄN_OPT      ;
+
+LEXICON NUM_FRONT_PARTITIVE_III
++Pl+Par:%>i%>i%>t%>ä    NUM_FRONT_POSS_ÄN_OPT      ;
+
+
+LEXICON NUM_BACK_PARTITIVE_JA
+!!€gt-norm: Numeral plural partitive ja
+!!€ miljardii: miljardi+Num+Pl+Par
++Pl+Par:%>j%>a     NUM_BACK_POSS_AN_OPT      ;
+
+LEXICON NUM_BACK_GENITIVE_IEN
+!!€gt-norm: Numeral plural genitive ien back
+!!€ kaksiin: kaksi+Num+Pl+Gen
++Pl+Gen:%>i%>en   #     ;
++Pl+Gen:%>i%>e    NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_IIN
++Pl+Gen:%>i%>in   #     ;
++Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
+
+
+LEXICON NUM_FRONT_GENITIVE_IIN
++Pl+Gen:%>i%>in   #     ;
++Pl+Gen:%>i%>i    NUM_FRONT_POSS     ;
+
+LEXICON NUM_FRONT_GENITIVE_IITTEN
++Pl+Gen:%>i%>itten   #     ;
++Pl+Gen:%>i%>i    NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_IITTEN
++Pl+Gen:%>i%>itten   #     ;
++Pl+Gen:%>i%>i    NUM_BACK_POSS     ;
+
+!LEXICON NUM_BACK_GENITIVE_JEN
+!+Pl+Gen:%>j%>en    #     ;
+!+Pl+Gen:%>j%>e     NUM_BACK_POSS     ;
+
+!LEXICON NUM_BACK_GENITIVE_IN
+!+Pl+Gen:%>i%>n    #     ;
+!+Pl+Gen:%>i     NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_TEN
+!!€gt-norm: Numeral plural genitive ten back
+!!€ kuussiin: kuusi+Num+Pl+Gen
+!!€ kuutten: kuusi+Num+Pl+Gen !kuussiin on tärkeämpi
++Pl+Gen:%>ten    #     ;
++Pl+Gen:%>te     NUM_BACK_POSS     ;
+
+LEXICON NUM_FRONT_GENITIVE_TEN
+!!€gt-norm: Numeral plural genitive ten front
+!!€ viissiin: viisi+Num+Pl+Gen 
+!!€ viitten: viisi+Num+Pl+Gen !viissiin on tärkeämpi
++Pl+Gen:%>ten    #     ;
++Pl+Gen:%>te     NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_GENITIVE_IN
+!!€gt-norm: Numeral plural genitive in back
++Pl+Gen:%>in    #     ;
++Pl+Gen:%>i     NUM_BACK_POSS     ;
+
+LEXICON NUM_FRONT_GENITIVE_IN
+!!€gt-norm: Numeral plural genitive in front
++Pl+Gen:%>in    #     ;
++Pl+Gen:%>i     NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_IHIN
+!!€gt-norm: Numeral plural illaive ihin bavk
+!!€ miljardhiin: miljardi+Num+Pl+Ill
++Pl+Ill:%>i%>hin   #    ;
++Pl+Ill:%>i%>hi    NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_IIN
+!!€gt-norm: Numeral plural illaive iin back
+!!€ kakshiin: kaksi+Num+Pl+Ill
++Pl+Ill:%>i%>in    #     ;
++Pl+Ill:%>i%>i     NUM_BACK_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_HIIN
++Pl+Ill:%>hi%>in    #     ;
++Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
+
+LEXICON NUM_FRONT_ILLATIVE_HIIN
++Pl+Ill:%>hi%>in    #     ;
++Pl+Ill:%>hi%>i     NUM_FRONT_POSS     ;
+
+LEXICON NUM_BACK_ILLATIVE_HOIN
++Pl+Ill:%>ho%>in    #     ;
++Pl+Ill:%>ho%>i     NUM_BACK_POSS     ;
+
+! possessives
+LEXICON NUM_BACK_POSS
+!!€gt-norm: Numeral possessive back
+!!€ kahteni: kaksi+Num+Sg+Nom+PxSg1 !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.
++PxSg1:%>ni  NUM_BACK_CLIT_OPT        ;
++PxSg2:%>si  NUM_BACK_CLIT_OPT        ;
++PxSg3:%>nsa NUM_BACK_CLIT_OPT        ;
++PxPl1:%>mme NUM_BACK_CLIT_OPT        ;
++PxPl2:%>nne NUM_BACK_CLIT_OPT        ;
++PxPl3:%>nsa NUM_BACK_CLIT_OPT        ;
+
+LEXICON NUM_FRONT_POSS
+!!€gt-norm: Numeral possessive front
+!!€ yhteni: yksi+Num+Sg+Nom+PxSg1
++PxSg1:%>ni  NUM_FRONT_CLIT_OPT        ;
++PxSg2:%>si  NUM_FRONT_CLIT_OPT        ;
++PxSg3:%>nsä NUM_FRONT_CLIT_OPT        ;
++PxPl1:%>mme NUM_FRONT_CLIT_OPT        ;
++PxPl2:%>nne NUM_FRONT_CLIT_OPT        ;
++PxPl3:%>nsä NUM_FRONT_CLIT_OPT        ;
+
+LEXICON NUM_BACK_POSS_AN
+!!€gt-norm: Numeral possessive back aan
+!!€ kolmeensa: kolme+Num+Sg+Par+PxSg3
++PxSg3:%>an    NUM_BACK_CLIT_OPT     ;
++PxPl3:%>an    NUM_BACK_CLIT_OPT     ;
+
+LEXICON NUM_BACK_POSS_EN
+!!€gt-norm: Numeral possessive back eenback
+!!€ kahđeksensa: kaksi+Num+Sg+Tra+PxSg3
+!!€ kahđekseen: kaksi+Num+Sg+Tra+PxSg3
++PxSg3:%>en    NUM_BACK_CLIT_OPT     ;
++PxPl3:%>en    NUM_BACK_CLIT_OPT     ;
+
+LEXICON NUM_FRONT_POSS_EN
+!!€gt-norm: Numeral possessive back een front
+!!€ neljeksensä: nelje+Num+Sg+Tra+PxSg3
+!!€ neljekseen: nelje+Num+Sg+Tra+PxSg3
++PxSg3:%>en    NUM_FRONT_CLIT_OPT     ;
++PxPl3:%>en    NUM_FRONT_CLIT_OPT     ;
+
+LEXICON NUM_FRONT_POSS_ÄN
+!!€gt-norm: Numeral possessive back ään
+!!€ viittänsä: viisi+Num+Sg+Par+PxSg3
+!!€ viittään: viisi+Num+Sg+Par+PxSg3
++PxSg3:%>än    NUM_FRONT_CLIT_OPT     ;
++PxPl3:%>än    NUM_FRONT_CLIT_OPT     ;
+
+LEXICON NUM_BACK_CLIT
+!!€gt-norm: Numeral clitic back
+!!€ kaksihan: kaksi+Num+Sg+Nom+Foc/han
+!!€ kakshan: kaksi+Num+Sg+Nom+Foc/han
++Foc/han:%>han   #        ;
++Foc/han+Foc/kaan:%>han%>khaan  #        ;
++Foc/han+Qst:%>han%>ko #        ;
++Foc/han+Foc/pa:%>han%>pa #        ;
++Qst:%>ko #        ;
++Qst+Foc/han:%>ko%>han #        ;
++Qst+Foc/kaan:%>ko%>khaan    #        ;
++Qst+Foc/kin:%>ko%>ki    #        ;
++Qst+Foc/pa:%>ko%>pa   #        ;
++Qst+Foc/s:%>ko%>s    #        ;
++Foc/pa:%>pa #        ;
++Foc/pa+Foc/han:%>pa%>han #        ;
++Foc/pa+Foc/kaan:%>pa%>khaan    #        ;
++Foc/pa+Foc/kin:%>pa%>ki    #        ;
++Foc/pa+Qst:%>pa%>ko   #        ;
++Foc/pa+Foc/s:%>pa%>s    #        ;
++Foc/kin:%>ki  #        ;
++Foc/kin+Foc/han:%>ki%>han  #        ;
++Foc/kin+Foc/kaan:%>ki%>khaan #        ;
++Foc/kin+Qst:%>ki%>ko    #        ;
++Foc/kin+Foc/pa:%>ki%>pa    #        ;
++Foc/kaan:%>khaan  #        ;
++Foc/kaan+Foc/han:%>khaan%>han  #        ;
++Foc/kaan+Foc/kin:%>khaan%>ki #        ;
++Foc/kaan+Qst:%>khaan%>ko    #        ;
++Foc/kaan+Foc/pa:%>khaan%>pa    #        ;
+
+LEXICON NUM_FRONT_CLIT
+!!€gt-norm: Numeral clitic front
+!!€ yksihän: yksi+Num+Sg+Nom+Foc/han
+!!€ ykshän: yksi+Num+Sg+Nom+Foc/han
++Foc/han:%>hän   #        ;
++Foc/han+Foc/kaan:%>hän%>khään  #        ;
++Foc/han+Qst:%>hän%>kö #        ;
++Foc/han+Foc/pa:%>hän%>pä #        ;
++Qst:%>kö #        ;
++Qst+Foc/han:%>kö%>hän #        ;
++Qst+Foc/kaan:%>kö%>khään    #        ;
++Qst+Foc/kin:%>kö%>ki    #        ;
++Qst+Foc/pa:%>kö%>pä   #        ;
++Qst+Foc/s:%>kö%>s    #        ;
++Foc/pa:%>pä #        ;
++Foc/pa+Foc/han:%>pä%>hän #        ;
++Foc/pa+Foc/kaan:%>pä%>khään    #        ;
++Foc/pa+Foc/kin:%>pä%>ki    #        ;
++Foc/pa+Qst:%>pä%>kö   #        ;
++Foc/pa+Foc/s:%>pä%>s    #        ;
++Foc/kin:%>ki  #        ;
++Foc/kin+Foc/han:%>ki%>hän  #        ;
++Foc/kin+Foc/kaan:%>ki%>khään #        ;
++Foc/kin+Qst:%>ki%>kö    #        ;
++Foc/kin+Foc/pa:%>ki%>pä    #        ;
++Foc/kaan:%>khään  #        ;
++Foc/kaan+Foc/han:%>khään%>hän  #        ;
++Foc/kaan+Foc/kin:%>khään%>ki #        ;
++Foc/kaan+Qst:%>khään%>kö    #        ;
++Foc/kaan+Foc/pa:%>khään%>pä    #        ;
+
+
+! shorthands
+
+LEXICON NUM_BACK_CLIT_OPT
+0    #   ;
+0   NUM_BACK_CLIT    ;
+0   NUM_COMPOUND ;
+
+LEXICON NUM_FRONT_CLIT_OPT
+0    #   ;
+0   NUM_FRONT_CLIT    ;
+0   NUM_COMPOUND ;
+
+LEXICON NUM_BACK_SINGULARS
+0    NUM_BACK_STRONG_SINGULARS ;
+0    NUM_BACK_WEAK_SINGULARS   ;
+
+LEXICON NUM_FRONT_SINGULARS
+0    NUM_FRONT_STRONG_SINGULARS ;
+0    NUM_FRONT_WEAK_SINGULARS   ;
+
+LEXICON NUM_FRONT_PLURALS
+!0   NUM_FRONT_STRONG_PLURALS ;
+0   NUM_FRONT_WEAK_PLURALS ;
+
+LEXICON NUM_BACK_PLURALS
+0   NUM_BACK_WEAK_PLURALS ;
+
+
+LEXICON NUM_BACK_POSS_AN_OPT
+0    NUM_BACK_POSS   ;
+0    NUM_BACK_POSS_AN ;
+0    NUM_BACK_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_FRONT_POSS_ÄN_OPT
+0    NUM_FRONT_POSS   ;
+0    NUM_FRONT_POSS_ÄN  ;
+0    NUM_FRONT_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_BACK_POSS_EN_OPT
+0    NUM_BACK_POSS   ;
+0    NUM_BACK_POSS_EN ;
+0    NUM_BACK_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_FRONT_POSS_EN_OPT
+0    NUM_FRONT_POSS   ;
+0    NUM_FRONT_POSS_EN  ;
+0    NUM_FRONT_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_BACK_POSS_OPT
+0    NUM_BACK_POSS   ;
+0    NUM_BACK_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_FRONT_POSS_OPT
+0    NUM_FRONT_POSS   ;
+0    NUM_FRONT_CLIT ;
+0   NUM_COMPOUND ;
+0    #    ;
+
+LEXICON NUM_BACK_POSS_EN_OBL
+0   NUM_BACK_POSS  ;
+0   NUM_BACK_POSS_EN   ;
+
+LEXICON NUM_FRONT_POSS_EN_OBL
+0   NUM_FRONT_POSS  ;
+0   NUM_FRONT_POSS_EN   ;
+
+LEXICON NUM_COMPOUND
++Use/Circ#:0#   NUM   ;
++Use/Circ#:0#   NUM_ORD_SUFFIX  ;
++Use/Circ#:0#   NUM_CARD_SUFFIX ;
+
+
+
+
+
+
+!  Collection numbers
+! ---------------
+
+
+!LEXICON COLLTAG
+!          +N+Coll+Pl+Nom:%>%^DISIMPh       # ;
+!          +N+Coll+Pl+Acc:%>idie            # ;
+!          +N+Coll+Pl+Gen:%>%^DISIMPi       # ;
+!          +N+Coll+Pl+Ill:%>idie            # ;
+!          +N+Coll+Pl+Ine:%>inie            # ;
+!          +N+Coll+Pl+Ela:%>ijstie          # ;
+!          +N+Coll+Pl+Com:%>%^DISIMPigujmie # ;
+! +N+Coll+Pl+Com+Err/Orth:%>%^DISIMPigyjmie # ;
+!             +N+Coll+Ess:%>inie            # ;
+
+LEXICON dateyearcase_nullsuff_w_dot
+          +Sg+Nom: MARKDOT ;
+          +Sg+Gen: MARKDOT ;
+          +Sg+Acc: MARKDOT ;
+
+
+LEXICON dateyearcase_fullsuff
+          +Sg+Gen:%:n  #      ;
+ +Err/Orth+Sg+Gen:n  #      ;
+          +Sg+Ine:%:ssa  #      ;
+ +Err/Orth+Sg+Ine:ssa   #      ;
+          +Sg+Ela:%:sta  #      ;
+ +Err/Orth+Sg+Ela:sta   #      ;
+          +Sg+Ill:%:iin  #      ;
+ +Err/Orth+Sg+Ill:iin    #      ;
+      +Cmp/SplitR:%-   ENDLEX ;
+      +Cmp/SplitR:%–   ENDLEX ;
+
+
+
+
+!LEXICON ARABICCASES   !!≈ * __@CODE@__  to distinguish between 0 and oblique
+!  ARABICCASE0 ;
+!  ARABICCASE  ;
+
+LEXICON ARABICCASES   !!≈ * __@CODE@__  adds +Arab
++Arab: DIGITCASES ;
+
+LEXICON ARABICCASE   !!≈ * __@CODE@__  adds +Arab
+ +Arab:  DIGITCASE ;
+
+LEXICON ARABICCASE0   !!≈ * __@CODE@__  adds +Arab
+ +Arab:  DIGITCASE0 ;
+
+LEXICON DIGITCASES
+ DIGITCASES ;
+ DIGITCASE0 ;
+
+
+LEXICON DIGITCASE0
+       +Sg+Nom: # ;
+  +Cmp/SplitR:%:%- ENDLEX ;
+
+
+LEXICON DIGITCASE
+         +Sg+Gen:n       # ;
+         +Sg+Ill:iin      # ;
+         +Sg+Ine:ssa     # ; ! NRK:sne
+         +Sg+Ela:sta     # ; ! NRK:ste
+         +Sg+All:lla     # ; ! NRK:sne
+         +Sg+Abl:lta     # ; ! NRK:ste
+            +Ess:ina     # ; ! NBR:ine
+         +Pl+Nom:t       # ;
+         +Pl+Gen:ien       # ;
+         +Pl+Ill:ihin     # ;
+         +Pl+Ine:issa    # ;
+         +Pl+Ela:ista    # ;
+         +Pl+All:illa    # ;
+         +Pl+Abl:ilta    # ;
+         +Pl+Com:ine     # ;
+!ordinals
+
+LEXICON ARABICCASEORD
+       +Sg+Nom:%>s       # ;
+       +Sg+Gen:%>nnen      # ;
+       +Sg+Ill:%>nteen    # ;
+       +Sg+Ine:%>nnessa   # ;
+       +Sg+Ela:%>nnesta   # ;
+       +Sg+Ess:%>ntena    # ;
+       +Pl+Nom:%>nnet       # ;
+       +Pl+Gen:%>nsien       # ;
+       +Pl+Ill:%>nsiin    # ;
+       +Pl+Ine:%>nsissa    # ;
+       +Pl+Ela:%>nsista  # ;
+       +Pl+Com:%>nnine # ;
+
+LEXICON ARABICCASECOLL
+  +Pl+Nom:%>t       # ;
+! +Arab+Pl+Acc:%>sidie    # ;
+! +Arab+Pl+Gen:%>si       # ;
+! +Arab+Pl+Ill:%>sidie    # ;
+! +Arab+Pl+Ine:%>sinie    # ;
+! +Arab+Pl+Ela:%>sijstie  # ;
+! +Arab+Pl+Com:%>sigujmie # ;
+!    +Arab+Ess:%>sinie    # ;
+
+LEXICON ARABICCASEORD-ERR
+ARABICCASEORD ; ! XXX look at this
+      
+
+
+
+
+
+LEXICON yeartagpl
+          +Num+Sem/Year+Pl+Nom:        # ;
+          +Num+Sem/Year+Pl+Gen:        # ;
+! +Num+Sem/Year+Err/Orth+Pl+Ine:%:dinie # ;
+
+LEXICON dateyearcase
+      +Sg+Nom:        #      ;
+      +Sg+Gen:n       #      ;
+      +Sg+Ill:iin      #      ;
+      +Sg+Ine:ssa     #      ; ! NRK:sne
+      +Sg+Ela:sta     #      ; ! NRK:ste
+         +Ess:ine     #      ; ! NBR:ine
+      +Pl+Nom:t       #      ;
+      +Pl+Gen:ien       #      ;
+      +Pl+Ill:isiin     #      ;
+      +Pl+Ine:issa     #      ;
+      +Pl+Ela:ista    #      ;
+      +Pl+Com:ine #      ;
+  +Cmp/SplitR:%-      ENDLEX ;
+  +Cmp/SplitR:%–      ENDLEX ;
+
+
+LEXICON ROMNUMTAGOBL !
+      +Rom+Sg+Gen:n   # ; ! But here 123a 123
+      +Rom+Sg+Ill:iin  # ;
+      +Rom+Sg+Ine:ssa # ;
+      +Rom+Sg+Ela:sta # ;
+      +Rom+Sg+Com:ine # ;
+      +Rom+Sg+Ess:ina # ;
