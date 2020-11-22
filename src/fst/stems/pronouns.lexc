@@ -15,60 +15,67 @@ het+Pron+Pers+Pl:he         123pronpl   ;
 net+Pron+Pers+Pl+Nom:net    K   ; ! e>i
 net+Pron+Pers+Pl:ni         netpronpl   ; ! e>i
 
+
+!! Demonstratiivipronominit
+
+se+Pron+Dem+Sg:             se_pron ;
+
 tämä+Pron+Dem:tä tama ;
 tuo+Pron+Dem:tuo tuo ;
 nämä+Pron+Dem+Pl+Nom:nämä K ;
 nämä+Pron+Dem+Pl:näi namaobl ;
 
-mikä+Pron+Rel:mi mi_rel ;
-joka+Pron+Rel:jo jo_rel ;
-joka+Pron+Rel+Pl:joi joi_relkyspl ; ! ota pois (?)
+mikä+Pron+Rel+Sg:mi relkys ;
+joka+Pron+Rel+Sg:jo relkys ;
+mikä+Pron+Interr+Sg:mi relkys ;
+joka+Pron+Interr+Sg:jo relkys ;
+
+mikä+Pron+Rel+Pl:mi mi_rel_pl ;
+joka+Pron+Rel+Pl:jo jo_rel_pl ;
+mikä+Pron+Interr+Pl:mi mi_rel_pl ;
+joka+Pron+Interr+Pl:jo jo_rel_pl ;
+
+kuka+Pron+Prel+Sg+Nom:kuka # ;
 kuka+Pron+Rel:ke kuka_relkys_obl ;
+
 kumpi+Pron+Interr+Sg:kum kumpi ;
 toinen+Pron: toi toisen ;
+joku:jo joku_indef ;
 
+sama+Pron+Indef:sama x1 ;
+yksi+Pron+Indef: yh_indef ;
+
+itte+Pron+Refl:itt  itte_refl ;
+itte+Pron+Refl+Err/Orth:its  itte_refl ;
+
+jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
+jokainen+Pron+Qu:jokai                jokai_kvant ;
+minkälainen+Pron+Qu:minkälai         minkalai_kvant ; 
+
+yksi+Pron+Indef:                        yh_indef ;
+kaikki+Pron+Qu:                     kaik_kvant ;
+
+doublecasepronouns ;
 
 !! Sanakirjasta
 
-usea pronx ;
-joka pronx ;
-kuka pronx ;
-muuàlla pronx ;
-oma pronx ;
-mutta pronx ;
-kua pronx ;
-harva pronx ;
-mie pronx ;
-sie pronx ;
-minne pronx ;
-se pronx ;
-itte pronx ;
-teh pronx ;
+usea+Pron:usea pron_x3 ;
+harva+Pron:pron pron_x1 ;
+
 kullaki pronx ;
 kumpiki pronx ;
 kaikki pronx ;
 kuki pronx ;
 moni pronx ;
 ken pronx ;
-jokhainen pronx ;
-jokaikinen pronx ;
 meikäläinen pronx ;
-hän pronx ;
-hään pronx ;
 mikhään pronx ;
 kumpiko pronx ;
 tuo pronx ;
 molemat pronx ;
-het pronx ;
-met pronx ;
-net pronx ;
-tet pronx ;
 nuot pronx ;
 muut pronx ;
-nämät pronx ;
-joku pronx ;
 muu pronx ;
-mikä pronx ;
 sillä pronx ;
 mä pronx ;
 tämä pronx ;
