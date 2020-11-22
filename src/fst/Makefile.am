@@ -28,6 +28,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adjectives.lexc  \
 			 affixes/nouns.lexc       \
 			 affixes/pronouns.lexc \
+			 affixes/propernouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc       \
 			 stems/adverbs.lexc    \
@@ -39,6 +40,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/postpositions.lexc      \
 			 stems/prepositions.lexc      \
 			 stems/pronouns.lexc      \
+			 stems/fit-propernouns.lexc      \
 			 stems/subjunctions.lexc      \
 			 stems/verbs.lexc
 
