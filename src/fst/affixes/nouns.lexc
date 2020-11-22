@@ -8,7 +8,10 @@
 
 ! nen = nainen paradigm
 ! 3nen = hevonen paradigm
-! 3nks = keskus - keskuksen
+! 3n_ks = keskus - keskuksen
+! 3n_ude = lakeus - lakeude
+! 3n_ime = puhelin - puhelime
+! 3n_lnr = taival, taimen, manner
 ! nas = tehas - tehtaan
 
 
@@ -19,6 +22,10 @@ LEXICON n1
  +N: x1 ;
 
 LEXICON x1
+x1_sg ;
+x1_pl ;
+
+LEXICON x1_sg 
  +Sg+Nom:^E2I       K ;
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>^A K ;
@@ -29,12 +36,14 @@ LEXICON x1
  +Sg+Ade:^WG%>l^A K ;       ! talola
  +Sg+Abl:^WG%>lt^A K ;      ! talolta
  +Sg+Tra:^WG%>ksi K ;       ! taloksi
- +Sg+Tra:^WG%>ks K ;       ! taloksi
+ +Sg+Tra:^WG%>ks K ;        ! taloksi
  +Sg+Ess:%>n^A K ;          ! talona
  +Sg+Abe:^WG%>tt^A K ;      ! talotta
 
+LEXICON x1_pl 
  +Pl+Nom:^WG%>t K ;
- +Pl+Gen:%>i2en K ;
+ +Pl+Gen:%>i2tten K ;
+ +Pl+Gen+Err/Orth:%>i2en K ;
  +Pl+Par:%>i2^A K ;
  +Pl+Ill:^HMETA%>h^Vin K ;  ! talhoin
  +Pl+Ine:^WG%>i2ss^A K ;
@@ -51,6 +60,10 @@ LEXICON n2
  +N: x2 ;
 
 LEXICON x2
+ x2_sg ;
+ x2_pl ;
+
+LEXICON x2_sg 
  +Sg+Nom:^WG       K ;
  +Sg+Gen:h%>en     K ; ! liikheen, säkheen
  +Sg+Par:^WG%>tt^A K ; ! liikettä, säettä
@@ -64,7 +77,10 @@ LEXICON x2
  +Sg+Tra:%>eks K ;
  +Sg+Ess:%>en^A K ;
  +Sg+Abe:%>ett^A K ;
+
+LEXICON x2_pl 
  +Pl+Nom:h%>et     K ;
+ +Pl+Gen:h%>eitten   K ;
  +Pl+Gen:h%>ejen   K ;
  +Pl+Par:h%>ej^A   K ;
  +Pl+Ill:%>en      K ; ! liikheen, säkheen
@@ -79,10 +95,14 @@ LEXICON n3
  +N: x3 ;
 
 LEXICON x3
- +Sg+Nom:^E2I       K ;
- x3_oblique ;
+ x3_sg ;
+ x3_pl ;
 
-LEXICON x3_oblique
+LEXICON x3_sg 
+ +Sg+Nom:^E2I       K ;
+ x3_oblique_sg ;
+
+LEXICON x3_oblique_sg
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>t^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ;
@@ -95,7 +115,8 @@ LEXICON x3_oblique
  +Sg+Tra:^WG%>ksi K ;
  +Sg+Tra:^WG%>ks K ;
  +Sg+Abe:^WG%>tt^A K ;
- 
+
+LEXICON x3_pl
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>i2tten K ;
  +Pl+Par:%>i2t^A K ;
@@ -110,11 +131,16 @@ LEXICON x3_oblique
  +Pl+Ess:%>ei2n^A K ;
  +Pl+Abe:%>ei2tt^A K ;
 
-  
+
+
 LEXICON n4
  +N: x4 ;
 
 LEXICON x4 ! veri
+x4_sg ;
+x4_pl ;
+
+LEXICON x4_sg
  +Sg+Nom:^E2I       K ; ! veri
  +Sg+Gen:^WG%>n     K ; ! veren
  +Sg+Par:%>t^A      K ; ! verta
@@ -127,7 +153,8 @@ LEXICON x4 ! veri
  +Sg+Ess:%>n^A K ;
  +Sg+Tra:^WG%>ksi K ;
  +Sg+Tra:^WG%>ks K ;
- 
+
+LEXICON x4_pl
  +Pl+Nom:^WG%>t K ;
  +Pl+Gen:%>ten K ;
  +Pl+Par:%>j^A K ;
@@ -142,6 +169,34 @@ LEXICON x4 ! veri
  +Pl+Tra:^WG%>i2ks K ;
 
 
+LEXICON n4_lapsi
+ +Sg+Nom:psi       K ; ! veri
+ +Sg+Gen:pse%>n     K ; ! veren
+ +Sg+Par:s%>t^A      K ; ! verta
+ +Sg+Ill:ps%>heen K ;
+ +Sg+Ine:pse%>ss^A K ;
+ +Sg+Ela:pse%>st^A K ;
+ +Sg+All:pse%>le K ;
+ +Sg+Ade:pse%>l^A K ;
+ +Sg+Abl:pse%>lt^A K ;
+ +Sg+Ess:pse%>n^A K ;
+ +Sg+Tra:pse%>ksi K ;
+ +Sg+Tra:pse%>ks K ;
+ 
+ +Pl+Nom:pse%>t K ;
+ +Pl+Gen:s%>ten K ;
+ +Pl+Par:ps%>i^A K ;
+ +Pl+Ill:ps%>hiin K ;
+ +Pl+Ine:%>i2ss^A K ;
+ +Pl+Ela:ps%>ist^A K ;
+ +Pl+All:ps%>ile K ;
+ +Pl+Ade:ps%>il^A K ;
+ +Pl+Abl:ps%>ilt^A K ;
+ +Pl+Ess:ps%>in^A K ;
+ +Pl+Tra:ps%>iksi K ;
+ +Pl+Tra:ps%>iks K ;
+
+
 
 !! The nainen (nen) and hevonen (3nen) family
 
@@ -149,19 +204,33 @@ LEXICON nen
 +N: xnen ; 
 
 LEXICON xnen
+xnen_sg ;
+xnen_pl ;
+
+LEXICON xnen_sg
 +Sg:se%> 2cases ; ! Ade, All, Ess lla, lle, nna
+xnen_common_sg ;
+
+LEXICON xnen_pl
 +Pl:se%>i2%> 2cases ;  
- xnen_common ; ! all other cases
+ xnen_common_pl ; ! all other cases
 
 LEXICON 3nen
 +N: x3nen ;
 
 LEXICON x3nen
-+Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
-+Pl:se%>i2%> 3cases ;  
- xnen_common ; ! all other cases
+x3nen_sg ;
+x3nen_pl ;
 
-LEXICON xnen_common
+LEXICON x3nen_sg
++Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
+xnen_common_sg ;
+
+LEXICON x3nen_pl
++Pl:se%>i2%> 3cases ;  
+ xnen_common_pl ; ! all other cases
+
+LEXICON xnen_common_sg
  +Sg+Nom:nen       K ;
  +Sg+Gen:se^WG%>n K ;
  +Sg+Par:s%>t^A K ;
@@ -171,6 +240,7 @@ LEXICON xnen_common
  +Sg+Abl:se%>lt^A K ;
  +Sg+Abe:se%>tt^A K ;
 
+LEXICON xnen_common_pl
  +Pl+Nom:se^WG%>t K ;
  +Pl+Gen:s%>ten K ;
  +Pl+Par:s%>i^A K ;
@@ -191,22 +261,98 @@ LEXICON 2cases
 +Ess:%>n^A K ;
 
 
-LEXICON 3nks
-+N: xnks ;
+LEXICON 3n_ks
++N: xn_ks ;
 
-LEXICON xnks
+LEXICON xn_ks
+xn_ks_sg ;
+xn_ks_pl ;
+
+LEXICON xn_ks_sg
  +Sg+Nom:s       K ;
  +Sg+Gen:kse%>n K ;
  +Sg+Par:s%>t^A K ;
  +Sg+Ill:kse^HMETA%>h^V^Vn K ;
  +Sg+Ine:kse%>ss^A K ;
+ +Sg+Ela:kse%>st^A K ;
+ +Sg+All:kse%>lle K ;
  +Sg+Ade:kse%>ll^A K ;
+ +Sg+Abl:kse%>lt^A K ;
+ +Sg+Abe:kse%>tt^A K ;
+ +Sg+Tra:kse%>ksi K ;
+ +Sg+Ess:kse%>n^A K ;
+
+LEXICON xn_ks_pl
  +Pl+Nom:kse%>t K ;
  +Pl+Gen:s%>ten K ;
  +Pl+Par:kse%>i2^A K ;
  +Pl+Ine:kse%>i2ss^A K ;
  +Pl+Ill:kse^HMETA%>h^Vin K ;
  +Pl+Ade:kse%>i2ll^A K ;
+
+LEXICON 3n_ude
+3x_ude ;
+
+LEXICON 3x_ude
+3x_ude_sg ;
+3x_ude_pl ;
+
+LEXICON 3x_ude_sg
+ +N+Sg+Nom:s K ;
+ +N+Sg+Gen:de%>n K ;
+ +N+Sg+Par:t%>t^A K ;
+ +N+Sg+Ill:t%>heen K ;
+ +N+Sg+Ine:de%>ss^A K ;
+ +N+Sg+Ela:de%>st^A K ;
+ +N+Sg+All:de%>lle K ;
+ +N+Sg+Ade:de%>ll^A K ;
+ +N+Sg+Abl:de%>ll^A K ;
+ +N+Sg+Abe:de%>tt^A K ;
+ +N+Sg+Ess:te%>n^A K ;
+ +N+Sg+Tra:de%>ksi K ;
+
+LEXICON 3x_ude_pl
+ +N+Pl+Nom:de%>t K ;
+ +N+Pl+Gen:t%>ten K ;
+ +N+Pl+Par:ks%>i^A K ;
+ +N+Pl+Ill:t%>hiin K ;
+ +N+Pl+Ine:d%>i2ss^A K ;
+ +N+Pl+Ela:d%>i2st^A K ;
+ +N+Pl+All:d%>i2lle K ;
+ +N+Pl+Ade:d%>i2ll^A K ;
+ +N+Pl+Abl:d%>i2lt^A K ;
+ +N+Pl+Abe:d%>i2tt^A K ;
+ +N+Pl+Tra:d%>i2ksi K ;
+ +N+Pl+Ess:d%>i2n^A K ;
+ 
+LEXICON 3n_ime
+3n_ime_sg ;
+3n_ime_pl ;
+
+LEXICON 3n_ime_sg 
+ +N+Sg+Nom:^WGn       K ;
+ +N+Sg+Gen:me%>n K ;
+ +N+Sg+Par:^WGn%>t^A K ;
+ +N+Sg+Ill:im%>heen K ;
+ +N+Sg+Ine:me%>ss^A K ;
+ +N+Sg+Ela:me%>st^A K ;
+ +N+Sg+All:me%>lle K ;
+ +N+Sg+Ade:me%>ll^A K ;
+ +N+Sg+Abl:me%>ll^A K ;
+ +N+Sg+Abe:me%>tt^A K ;
+ +N+Sg+Ess:me%>n^A K ;
+ +N+Sg+Tra:me%>ksi K ;
+
+LEXICON 3n_ime_pl
+ +N+Pl+Nom:me%>t K ;
+ +N+Pl+Gen:n%>ten K ;
+ +N+Pl+Par:m%>i^A K ;
+ +N+Pl+Ill:m%>hiin K ;
+ +N+Pl+Ine:m%>i2ss^A K ;
+ +N+Pl+Ela:m%>i2st^A K ;
+ +N+Pl+Ade:m%>i2lle K ;
+ +N+Pl+Ade:m%>i2ll^A K ;
+ +N+Pl+Abl:m%>i2lt^A K ;
 
 
 LEXICON nas
@@ -218,14 +364,78 @@ LEXICON xnas
  +Sg+Par:^WGs%>t^A K ;
  +Sg+Ill:as^HMETA%>h^V^Vn K ;
  +Sg+Ine:a%>ss^A K ;
+ +Sg+Ela:a%>st^A K ;
+ +Sg+All:a%>lle K ;
  +Sg+Ade:a%>ll^A K ;
+ +Sg+Abl:a%>ll^A K ;
+ +Sg+Abe:a%>tt^A K ;
+ +Sg+Ess:a%>n^A K ;
+ +Sg+Tra:a%>ksi K ;
+
  +Pl+Nom:a%>t K ;
  +Pl+Gen:a%>i2den K ;
  +Pl+Par:a%>i2t^A K ;
- +Pl+Ine:a%>i2ss^A K ;
  +Pl+Ill:a^HMETA%>h^Vin K ;
+ +Pl+Ine:a%>i2ss^A K ;
+ +Pl+Ela:a%>i2st^A K ;
+ +Pl+Ade:a%>i2lle K ;
  +Pl+Ade:a%>i2ll^A K ;
+ +Pl+Abl:a%>i2lt^A K ;
+ 
+LEXICON n_uus
+ +N+Sg+Nom:uus     K ;
+ +N+Sg+Gen:uude%>n K ;
+ +N+Sg+Par:uut%>t^A K ;
+ +N+Sg+Ill:uuy^HMETA%>h^V^Vn K ;
+ +N+Sg+Ine:uud%>ess^A K ;
+ +N+Sg+Ela:uud%>est^A K ;
+ +N+Sg+All:uud%>elle K ;
+ +N+Sg+Ade:uud%>ell^A K ;
+ +N+Sg+Abl:uud%>ell^A K ;
+ +N+Sg+Abe:uud%>ett^A K ;
+ +N+Sg+Ess:uut%>en^A K ;
+ +N+Sg+Tra:uud%>eksi K ;
 
+ +N+Pl+Nom:uud%>et K ;
+ +N+Pl+Gen:uuks%>i2en K ;
+ +N+Pl+Par:uuks%>i2^A K ;
+ +N+Pl+Ill:uuks%>hiin K ;
+ +N+Pl+Ine:uuks%>i2ss^A K ;
+ +N+Pl+Ela:uuks%>i2st^A K ;
+ +N+Pl+Ade:uuks%>i2lle K ;
+ +N+Pl+Ade:uuks%>i2ll^A K ;
+ +N+Pl+Abl:uuks%>i2lt^A K ;
+ +N+Pl+Abe:uuks%>i2tt^A K ;
+ +N+Pl+Tra:uuks%>i2ksi K ;
+ +N+Pl+Ess:uuks%>i2n^A K ;
+ 
+LEXICON 3n_lnr
+ +N+Sg+Nom:^WG     K ;
+ +N+Sg+Gen:e%>n K ;
+ +N+Sg+Par:^WG%>t^A K ;
+ +N+Sg+Ill:%>heen K ;
+ +N+Sg+Ine:%>ess^A K ;
+ +N+Sg+Ela:%>est^A K ;
+ +N+Sg+All:%>elle K ;
+ +N+Sg+Ade:%>ell^A K ;
+ +N+Sg+Abl:%>ell^A K ;
+ +N+Sg+Abe:%>ett^A K ;
+ +N+Sg+Ess:%>en^A K ;
+ +N+Sg+Tra:%>eksi K ;
+
+ +N+Pl+Nom:e%>t K ;
+ +N+Pl+Gen:^WG%>ten K ;
+ +N+Pl+Par:e%>it^A K ;
+ +N+Pl+Ill:%>hiin K ;
+ +N+Pl+Ine:%>iss^A K ;
+ +N+Pl+Ela:%>ist^A K ;
+ +N+Pl+Ade:%>ille K ;
+ +N+Pl+Ade:%>ill^A K ;
+ +N+Pl+Abl:%>ilt^A K ;
+ +N+Pl+Abe:%>itt^A K ;
+ +N+Pl+Tra:%>iksi K ;
+ +N+Pl+Ess:%>in^A K ;
+ 
 
 LEXICON ime
 +N: xime ;
@@ -236,13 +446,27 @@ LEXICON xime
  +Sg+Par:n%>t^A K ;
  +Sg+Ill:m^HMETA%>heen K ;
  +Sg+Ine:me%>ss^A K ;
+ +Sg+Ela:me%>st^A K ;
+ +Sg+All:me%>lle K ;
  +Sg+Ade:me%>ll^A K ;
+ +Sg+Abl:me%>lt^A K ;
+ +Sg+Abe:me%>tt^A K ;
+ +Sg+Tra:me%>ksi K ;
+ +Sg+Ess:me%>n^A K ;
+ 
  +Pl+Nom:me%>t K ;
  +Pl+Gen:me%>i2den K ;
  +Pl+Par:me%>i2t^A K ;
- +Pl+Ine:me%>i2ss^A K ;
  +Pl+Ill:me^HMETA%>h^Vin K ;
+ +Pl+Ine:me%>i2ss^A K ;
+ +Pl+Ela:me%>i2ss^A K ;
+ +Pl+All:me%>i2lle K ;
  +Pl+Ade:me%>i2ll^A K ;
+ +Pl+Abl:me%>i2lt^A K ;
+ +Pl+Tra:me%>i2ksi K ;
+ +Pl+Ess:me%>n^A K ;
+
+
 
 
 
