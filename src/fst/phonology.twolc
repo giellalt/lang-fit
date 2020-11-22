@@ -1,20 +1,26 @@
 
-! Meänkieli twolc file
+!! Meänkieli twolc file
 
+!! !!!Alphabet
 Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
-%^WG:0 %^E2I:0 %^HMETA:0
-%>
-%^A:ä %^O:ö %^U:y
+%^WG:0    ! weak grade
+%^E2I:0   ! kiele- > kieli
+%^HMETA:0 ! vow metathesis for ill
+%^AE:0    ! a to e in otta- > otethaan
+%>        ! suffix boundary
+%^A:ä %^O:ö %^U:y ! vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö
-%^N:n
-i2:i ! plural of nouns
-i3:i ! past tense of verbs
-i4:i ! i in conditional of isi
-i5:i ! superlative i of adjectives
+%^N:n ! participle -nut
+i2:i  ! plural of nouns
+i3:i  ! past tense of verbs
+i4:i  ! i in conditional of isi
+i5:i  ! superlative i of adjectives
+p2:p t2:t k2:k ! always p t k.
 ;
 
+!! !!!Sets
 Sets
 
 FrontVowel = e i y ä ö ü æ ø ;            !!= * @CODE@ 
@@ -35,6 +41,12 @@ Segment = Vowel Cns ;                                       !!= * @CODE@
 NonFront = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
+!! !!!Definitions
+Definitions
+
+WeakGrade = (%^AE:) %^WG: ;
+
+
 !! !!!Rules 
 Rules 
 
@@ -44,14 +56,14 @@ Rules
 !! p rules
 
 "p:0"
-p:0 <=> [Vow|l|n|r] p _ Vow: %^WG: ; 
+p:0 <=> [Vow|l|n|r] p _ Vow: WeakGrade ; 
          Vow p _ e: h %> e ;
 
 !!€ appi^WG
 !!€ ap0i0
 
 "p:v"
-p:v <=> Vow _ Vow:  %^WG: ;
+p:v <=> Vow _ Vow:  WeakGrade ;
 
 !!€ papu^WG>n
 !!€ pavu0>n
@@ -60,8 +72,8 @@ p:v <=> Vow _ Vow:  %^WG: ;
 !! k rules
 
 "k:0"
-k:0 <=> [Vow|l|n|r] k _ Vow: %^WG:      ;  ! Quant Grad
-                Vow   _ Vow: %^WG:      ;  ! Qual Grad
+k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;  ! Quant Grad
+                Vow   _ Vow: WeakGrade      ;  ! Qual Grad
                 Vow k _ e:   h     %> e ;  ! kkh > kh
 
 !!€ takki^WG
@@ -70,15 +82,15 @@ k:0 <=> [Vow|l|n|r] k _ Vow: %^WG:      ;  ! Quant Grad
 !!€ keskus>ta	
 
 "k:j"
-k:j <=> Vow [l|r] _ Vow:  %^WG: ;
+k:j <=> Vow [l|r] _ Vow:  WeakGrade ;
 
 
 !! t rules
 
 "t:0"
-t:0 <=> [Vow|l|n|r]  t  _ Vow: %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
+t:0 <=> [Vow|l|n|r]  t  _ Vow: WeakGrade ; ! Quant Grad ! Quant Grad. Note the h!
                 Vow  t  _ e: h %> e ;
-                Vow (h) _ Vow %^WG: ; 
+                Vow (h) _ Vow WeakGrade ; 
 
 !!€ motti^WG
 !!€ mot0i0
@@ -86,16 +98,16 @@ t:0 <=> [Vow|l|n|r]  t  _ Vow: %^WG: ; ! Quant Grad ! Quant Grad. Note the h!
 !!€ teh0a0s
 
 "t:r"
-t:r <=> Vow r _ :Vow %^WG: %> [\i2:i|i3:i] ;
+t:r <=> Vow r _ :Vow WeakGrade %> [\i2:i|i3:i] ;
 
 "t:l"
-t:l <=> Vow l _ :Vow %^WG: %> [\i2:i|\i3:i] ;
+t:l <=> Vow l _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 
 "t:n"
-t:n <=> Vow n _ :Vow %^WG: %> [\i2:i|\i3:i] ;
+t:n <=> Vow n _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 
 "t:s"
-t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> [i2:|i3:] ;
+t:s <=> Vow ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
         Vow ([l|n|r]) _  :i %^E2I: .#. ;
 
 !!€ vete^E2I
@@ -106,8 +118,8 @@ t:s <=> Vow ([l|n|r]) _ e:0 (%^WG:) %> [i2:|i3:] ;
 !!€ varsi0
 
 "t:j"
-t:j <=> i _ i     %^WG: ;
-        i _ Vow:0 %^WG: %> :i ;
+t:j <=> i _ i     WeakGrade ;
+        i _ Vow:0 WeakGrade ;
 
 !! !Gemination rules
 
@@ -263,7 +275,7 @@ t:j <=> i _ i     %^WG: ;
 !!€ iss00>0oon
 
 "h gradation"
-h:0 <=>     Vow [p|t|k]                  _ e %^WG: ;
+h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
         Vow Vow :h Cns Vow: %^HMETA: %> _ ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
 ! issoon, sillhoon <== check this.
@@ -353,7 +365,9 @@ e:i <=> _ %^E2I: ;
 !!€ ovi0
 
 
-
+!!
+"a:e"
+a:e <=> _ %^AE ;
 
 
 "Suffix i to j"
@@ -372,12 +386,12 @@ i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 !i:j <=> [.#.|#|Cns] _ :j Vow %> Vow ;
 
 "a:o when nonrounded root vowel and before i"
-!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
-!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
-!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
-a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
-        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
-        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
+!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ;
+!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ; ! see fkv
+!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ; 
+a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ;
+        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ; ! see fkv
+        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ; 
 !!€ laatia>i2tten
 !!€ laatio>itten
 
@@ -387,7 +401,7 @@ a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) 
 
 "a:0"
 a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
-        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|i3:|j] ;
+        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (WeakGrade)  %> [i2:|i3:|j] ;
         [.#.|#] Cns    a                         _          %> [i2:|i3:|i4:] ; ! saada, maa
 
 !!€ kuva>i2ss^A
@@ -399,7 +413,7 @@ a:0 <=>                                          _ %^HMETA: %> ;  ! before metat
 
 
 "ä:0"
-ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (%^WG:)  %> [i2:|i3:|j] ; ! before i
+ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
                                   _ %^HMETA:            ; ! before metathesis h
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
 
@@ -414,11 +428,12 @@ a:0 <=>                                          _ %^HMETA: %> ;  ! before metat
 
 
 "e:0"
-e:0 <=>      _ h %> e ; ! säkheen  deletion before h in e stems
-             _ %^HMETA: ;
-	k: s _ [.#.|#|t] ;
- Vow [l|n|r] _ %> t [%^A:|%^U:]; ! tulta, tultu
-        Cns: _ (%^WG:) %> [i2:|i3:|i4:] ;
+e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
+              _ %^HMETA: ;
+         k: s _ [.#.|#|t] ;
+Vow [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
+Vow [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
+         Cns: _ (WeakGrade) %> [i2:|i3:|i4:] ;
  
 !!€ tule^WG>i2ss^A
 !!€ tul00>issa
@@ -451,7 +466,7 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
-	           Cns: _ (%^WG:)   %>       i3: ;           ! sopia : sopi, oppia : oppi
+	           Cns: _ (WeakGrade)   %>       i3: ;           ! sopia : sopi, oppia : oppi
 
 !!€ sii0li^HMETA>h^V^Vn
 !!€ siihl00>0iin
