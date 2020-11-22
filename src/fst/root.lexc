@@ -224,6 +224,12 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 @D.compound.block@ !!≈ | @CODE@ | tbw
 
 
+
+@P.Pmatch.Loc@
+@P.Pmatch.Backtrack@
++Use/PMatch
+
+
 ! For Finnish, not in use. Keep in mind:
 ! Y2 a:0 koira - koiria
 ! Y3 a:o kala - kaloja
@@ -258,7 +264,9 @@ LEXICON Root    !!=  __@CODE@__
  Symbols     ;	  !!= * @CODE@
  VerbRoot ;		  !!= * @CODE@
  Subjunction ;	  !!= * @CODE@
-
+ Symbols ;
+ Abbreviation ;
+ Acronym ;
 
 
 ! Then to the next lexica.
@@ -269,3 +277,14 @@ LEXICON K
 # ;
 +Qst:%>k^O # ;
 +Foc:%>kin # ;
+
+
+
+LEXICON ENDLEX # ; 
+LEXICON NUM # ; 
+LEXICON NUM_CARD_SUFFIX # ; 
+LEXICON NUM_ORD_SUFFIX # ; 
+LEXICON R # ; 
+LEXICON RHyph # ; 
+LEXICON RNum # ;
+LEXICON ARABICCOMPOUNDS # ;
