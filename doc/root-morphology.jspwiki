@@ -217,6 +217,9 @@ given the proper use of these flags.
 
 
 
+
+
+
 !!Basic lexica, pointing to the other lexicon files
 
 Here is the Root lexicon, pointing to all the parts of speech:
@@ -233,10 +236,13 @@ Here is the Root lexicon, pointing to all the parts of speech:
  *  Postposition ;	  
  *  Preposition ;	  
  *  Pronoun ;		  
+ *  ProperNoun ;	  
  *  Punctuation ;	  
  *  Symbols     ;	  
  *  VerbRoot ;		  
  *  Subjunction ;	  
+
+
 
 
 
