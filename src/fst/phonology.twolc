@@ -88,9 +88,9 @@ k:j <=> Vow [l|r] _ Vow:  WeakGrade ;
 !! t rules
 
 "t:0"
-t:0 <=> [Vow|l|n|r]  t  _ Vow: WeakGrade ; ! Quant Grad ! Quant Grad. Note the h!
-                Vow  t  _ e: h %> e ;
-                Vow (h) _ Vow WeakGrade ; 
+t:0 <=> [Vow -i|l|n|r]  t  _ Vow: WeakGrade ; ! Quant Grad ! Quant Grad. Note the h!
+             [Vow -i ]  t  _ e: h %> e ;
+             [Vow - i] (h) _ Vow WeakGrade ; 
 
 !!€ motti^WG
 !!€ mot0i0
@@ -107,8 +107,8 @@ t:l <=> Vow l _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 t:n <=> Vow n _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 
 "t:s"
-t:s <=> Vow ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
-        Vow ([l|n|r]) _  :i %^E2I: .#. ;
+t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
+        [Vow - i] ([l|n|r]) _  :i %^E2I: .#. ;
 
 !!€ vete^E2I
 !!€ vesi0
@@ -119,7 +119,10 @@ t:s <=> Vow ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 "t:j"
 t:j <=> i _ i     WeakGrade ;
-        i _ Vow:0 WeakGrade ;
+        i _ Vow: WeakGrade ;
+
+!!€ hoito^WG>n
+!!€ hoijo0>n
 
 !! !Gemination rules
 
@@ -367,7 +370,7 @@ e:i <=> _ %^E2I: ;
 
 !!
 "a:e"
-a:e <=> _ %^AE ;
+a:e <=> _ %^AE: ;
 
 
 "Suffix i to j"
@@ -386,12 +389,12 @@ i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 !i:j <=> [.#.|#|Cns] _ :j Vow %> Vow ;
 
 "a:o when nonrounded root vowel and before i"
-!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ;
-!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ; ! see fkv
-!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (WeakGrade) %> [i2:|j] ; 
-a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ;
-        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ; ! see fkv
-        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (WeakGrade) %> [i2:|j] ; 
+!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
+!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
+!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
+a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
+        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
+        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
 !!€ laatia>i2tten
 !!€ laatio>itten
 
@@ -401,7 +404,7 @@ a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (WeakGra
 
 "a:0"
 a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
-        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (WeakGrade)  %> [i2:|i3:|j] ;
+        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|i3:|j] ;
         [.#.|#] Cns    a                         _          %> [i2:|i3:|i4:] ; ! saada, maa
 
 !!€ kuva>i2ss^A
