@@ -116,8 +116,14 @@ Multichar_Symbols
  +Use/NG  !!= * @CODE@ do not generate
 
 
+
 !! !Compounds
- +Cmp  !!≈ * __@CODE@__ = 
+ +Cmp  !!≈ * __@CODE@__ =
+ +Cmp/SplitR !!≈ * __@CODE@__ =
+ +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
+ +CmpNP/First  !!≈ * __@CODE@__ - ... only be first part in a compound or alone
+ +CmpNP/None !!≈ * __@CODE@__ =
+
 
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ = 
@@ -199,6 +205,8 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
+
+
 !! 
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -207,8 +215,10 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+@R.ErrOrth.ON@	   !!≈ | @CODE@ | tbw
 @U.pron.nom@	   !!≈ | @CODE@ | tbw
 @U.pron.gen@	   !!≈ | @CODE@ | tbw
+@U.pron.gen2@	   !!≈ | @CODE@ | tbw
 @U.pron.ill@	   !!≈ | @CODE@ | tbw
 @U.pron.par@	   !!≈ | @CODE@ | tbw
 @U.pron.par2@	   !!≈ | @CODE@ | tbw
@@ -276,6 +286,7 @@ LEXICON Root    !!=  __@CODE@__
 LEXICON K
 # ;
 +Qst:%>k^O # ;
++Foc:%>ki # ;
 +Foc:%>kin # ;
 
 
@@ -284,7 +295,4 @@ LEXICON ENDLEX # ;
 LEXICON NUM # ; 
 LEXICON NUM_CARD_SUFFIX # ; 
 LEXICON NUM_ORD_SUFFIX # ; 
-LEXICON R # ; 
-LEXICON RHyph # ; 
-LEXICON RNum # ;
 LEXICON ARABICCOMPOUNDS # ;
