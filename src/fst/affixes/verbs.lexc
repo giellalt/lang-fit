@@ -103,6 +103,7 @@ LEXICON v1 ! sanoa, lukea
 +V+Act+Ind+Prs+Pl1:^WG%>m^A K ;
 +V+Act+Ind+Prs+Pl2:^WG%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
 +V+Act+Ind+Prt+Sg1:^WG%>i3n K ;
 +V+Act+Ind+Prt+Sg2:^WG%>i3t K ;
@@ -126,6 +127,7 @@ LEXICON v1 ! sanoa, lukea
 LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Inf:y%>đ^A K ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
+
 +V+Act+Ind+Prs:y^WG v12pers_short ;
 +V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
@@ -133,6 +135,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+Pl3:y%>thiin K ;
+
 +V+Pass+Ind+Prs:y%>đhään K ; ! đ
 +V+Pass+Ind+Prt:y%>thiin K ; 
 +V+Act+PrfPrc+Der/A:y%>n^U K ;
@@ -288,6 +291,7 @@ LEXICON v2
 +V+Act+Ind+Prs+Pl1:%>m^A K ;
 +V+Act+Ind+Prs+Pl2:%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 
 +V+Act+Ind+Prt+Sg1:%>i3n K ;
 +V+Act+Ind+Prt+Sg2:%>i3t K ;
@@ -333,6 +337,7 @@ LEXICON v3
 +V+Act+Ind+Prs+Pl1:e%>m^A K ;
 +V+Act+Ind+Prs+Pl2:e%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
++V+Act+Ind+Prs+Pl3+Err/Orth:e%>v^At K ; ! K&P p. 95.  without -t
 
 +V+Act+Ind+Prt+Sg1:%>i3n K ;
 +V+Act+Ind+Prt+Sg2:%>i3t K ;
@@ -371,6 +376,7 @@ LEXICON v4
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
++V+Act+Ind+Prs+Pl3+Er/Orth:%>^Av^At K ;
 
 
 +V+Act+Ind+Prt+Sg1:%>sin K ;
@@ -420,7 +426,8 @@ LEXICON v5
 +V+Act+Ind+Prs+Sg3:vit%>^A K ;
 +V+Act+Ind+Prs+Pl1:vit%>^Amme K ;
 +V+Act+Ind+Prs+Pl2:vit%>^Atte K ;
-+V+Act+Ind+Prs+Pl3:vit%>^At K ;
++V+Act+Ind+Prs+Pl3:vit%>^Av^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:vit%>^Av^At K ;
 
 +V+Act+Ind+Prt+Sg1:vit%>in K ;
 +V+Act+Ind+Prt+Sg2:vit%>it K ;
@@ -454,7 +461,8 @@ LEXICON v6
 +V+Act+Ind+Prs+Sg3:ne%>e K ;
 +V+Act+Ind+Prs+Pl1:ne%>m^A K ;
 +V+Act+Ind+Prs+Pl2:ne%>tt^A K ;
-+V+Act+Ind+Prs+Pl3:ne%>v^At K ;
++V+Act+Ind+Prs+Pl3:ne%>v^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:ne%>v^At K ;
 
 +V+Act+Ind+Prt+Sg1:n%>in K ;
 +V+Act+Ind+Prt+Sg2:n%>it K ;
