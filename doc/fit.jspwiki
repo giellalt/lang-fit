@@ -121,8 +121,14 @@ Take nothing at face value!
  *  +Use/NG   do not generate
 
 
+
 !Compounds
- * __+Cmp__ = 
+ * __+Cmp__ =
+ * __+Cmp/SplitR__ =
+ * __+Cmp/Hyph__ - on dynamic compounds that have a hyphen (in use?)
+ * __+CmpNP/First__ - ... only be first part in a compound or alone
+ * __+CmpNP/None__ =
+
 
 !Derivation
  * __+Der/minen__ = 
@@ -203,6 +209,8 @@ do no harm.
  | @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
  | @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
+
+
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
@@ -210,8 +218,10 @@ given the proper use of these flags.
  | @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+ | @R.ErrOrth.ON@	 | tbw
  | @U.pron.nom@	 | tbw
  | @U.pron.gen@	 | tbw
+ | @U.pron.gen2@	 | tbw
  | @U.pron.ill@	 | tbw
  | @U.pron.par@	 | tbw
  | @U.pron.par2@	 | tbw
