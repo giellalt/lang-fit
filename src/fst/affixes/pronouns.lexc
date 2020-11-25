@@ -72,6 +72,8 @@ LEXICON se_pron
 +Ade:sillä    K ;
 +Abl:siltä     K ;
 
+LEXICON MUU
++Pron+Indef+Pl: netpronpl ;
 
 LEXICON netpronpl
 +Gen:itten K ; !!nii
