@@ -38,6 +38,23 @@ Multichar_Symbols
 +Indef     !!≈ * __@CODE@__ = Indefinitue
 +Qu        !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
 
+
++ABBR
++ACR
++Abbr
++Arab
++Dyn
++Err/Lex
++Gram/TAbbr
++IV
++OLang/FIN
++OLang/SWE
++OLang/UND
++Prel
++Rom
++Sem/Year
++TV
+
 !! !Number
 +Sg   !!≈ * __@CODE@__ = Singular
 +Pl   !!≈ * __@CODE@__ = Plural
@@ -239,6 +256,7 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 @P.Pmatch.Loc@
 @P.Pmatch.Backtrack@
 +Use/PMatch
++Use/-PMatch
 
 
 ! For Finnish, not in use. Keep in mind:

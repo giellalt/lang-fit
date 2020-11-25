@@ -204,7 +204,7 @@ LEXICON n4_lapsi
 LEXICON nen
 +N: xnen ; 
 +N+Sg+Nom:s K ;
-+N+Sg+gen:s K ;
++N+Sg+Gen:s K ;
 
 LEXICON xnen
 xnen_sg ;
