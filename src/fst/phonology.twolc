@@ -71,6 +71,10 @@ p:v <=> Vow _ Vow:  WeakGrade ;
 
 !! k rules
 
+"k:g"
+k:g <=> Vow n _ Vow WeakGrade ;
+
+
 "k:0"
 k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;  ! Quant Grad
                 Vow   _ Vow: WeakGrade      ;  ! Qual Grad
@@ -370,7 +374,8 @@ e:i <=> _ %^E2I: ;
 
 !!
 "a:e"
-a:e <=> _ %^AE: ;
+Vx:e <=> _ %^AE: ;
+     where Vx in ( a ä ) ;
 
 
 "Suffix i to j"
