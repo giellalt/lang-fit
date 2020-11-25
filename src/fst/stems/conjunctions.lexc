@@ -6,11 +6,20 @@ LEXICON conjx
 LEXICON cc
 +CC: # ;
 
+LEXICON cc_agr
++CC: # ;
++Sg1:n # ;
++Sg2:t # ;
++Sg3:i # ;
++Pl1:mä # ;
++Pl2:tä # ;
++Pl3:ivä # ;
+
 LEXICON Conjunction
 ja cc ;
 ynnä cc ;
 sekä cc ;
-ette cc ;
+ette cc_agr ;
 eli cc ;
 taikka cc ;
 ja conjx ;
