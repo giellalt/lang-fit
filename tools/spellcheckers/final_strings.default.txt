@@ -1,13 +1,10 @@
-\:esne:\:sne	-5
-'esne:\:sne	-5
--esne:\:sne	-5
-
-\:en:\:n	-5
-'n:\:n	-5
--n:\:n	-5
-
-esnie:esne	-5
-ese:asse	-5
-htasse:htse	-5
-htse:htese	-5
-htse:hts	-1
+oja:oi	5
+o:oi	3
+rhe:ret	3
+y:yi	3
+u:ui	3
+eää:eetä	3
+eaa:eeta	3
+uoi:oi	3
+e:ee	3
+den:tten	3
