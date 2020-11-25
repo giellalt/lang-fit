@@ -234,6 +234,7 @@ i7	 !!≈ * __@CODE@__ = i in conditional of contract verbs (with gemination)
 @D.compound.block@ !!≈ | @CODE@ | tbw
 
 
+@C.ErrOrth@
 
 @P.Pmatch.Loc@
 @P.Pmatch.Backtrack@
@@ -277,7 +278,7 @@ LEXICON Root    !!=  __@CODE@__
  Symbols ;
  Abbreviation ;
  Acronym ;
-
+ ARABICS ;
 
 ! Then to the next lexica.
 
@@ -286,8 +287,8 @@ LEXICON Root    !!=  __@CODE@__
 LEXICON K
 # ;
 +Qst:%>k^O # ;
-+Foc:%>ki # ;
-+Foc:%>kin # ;
++Foc/kin:%>ki # ;
++Foc/kin:%>kin # ;
 
 
 
