@@ -2,6 +2,8 @@
 
 LEXICON ProperNoun
 
+Isof:Isof 3p_org_1C ;
+Matarinki:Matarinki p_plc_1 ;
 Lääninhallitus:Lääninhallitu 3p_org_ks ;
 Hallitus:Hallitu 3p_org_ks ;
 Ruotti:Ruott2i p_plc_1 ;
@@ -9627,7 +9629,6 @@ Abraham+Err/Orth:Abrahaam 3p_mal_C ;
 Varenki+N+Prop+Sem/Plc+Gen+Err/Orth:Varenk2in K ; 
 Törmänen+Err/Orth:Dørmænen p_sur_nen ;
 Koutokeino+Err/Orth:Koutukeino 3p_plc_1 ; 
-Tornionlakso+Err/Orth:Tornionlaakso 3p_plc_1 ;
 Amazonas+Err/Orth:Amatsoona p_plc_1_oi_AO ; 
 Amazonas+Err/Orth:Amazoona p_plc_1_oi_AO ; 
 Pykeijä+Err/Orth:Pykejä 3p_plc_1 ;
@@ -20660,7 +20661,7 @@ Savilaakso 3p_sur_1 ;
 Pöytälaakso 3p_sur_1 ;
 Kottilakso:Kottilakso 3p_x ;
 Saskilanjoenlakso:Saskilanjoenlakso 3p_x ;
-Tornionlakso 3p_plc_1 ;
+Tornionlakso:Tornion#laakso p_plc_1 ;
 Ala-Raakkaslakso:Ala-Raakkaslakso 3p_x ;
 Päälimäinen%_Raakkaslakso:Päälimäinen%_Raakkaslakso 3p_x ;
 Askaslakso:Askaslakso 3p_x ;
