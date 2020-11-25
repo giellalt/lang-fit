@@ -382,7 +382,7 @@ LEXICON v4
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
-+V+Act+Ind+Prs+Pl3+Er/Orth:%>^Av^At K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ;
 
 
 +V+Act+Ind+Prt+Sg1:%>sin K ;

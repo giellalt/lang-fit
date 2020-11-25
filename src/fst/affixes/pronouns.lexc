@@ -45,8 +45,8 @@ LEXICON haan_pron
 LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
 +Acc:iät 	K ;
-+Gen:iän K ; !!đ 
-+Gen+Err/Orth:än K ; ! ?? meän, heän, ...
++Gen+Err/Orth:iän K ; ! meiän, heiän
++Gen:än K ; !  meän, heän, ...
 +Ill:ihiin K ;
 +Par:itä K ;
 +Ess:inä    K ;
