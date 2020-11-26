@@ -502,7 +502,7 @@ u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
 !! ! y rules
 "y:0"
 y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
-        [Cns|.#.|#]               _ [y|ö]    %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
+        [Cns|.#.|#]               _ [y|ö]  (%^WG:) %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
                                   _ %^HMETA: ;
 
 !!€ syy>i2ss^A
