@@ -13,7 +13,7 @@
 ! 3n_ime = puhelin - puhelime
 ! 3n_lnr = taival, taimen, manner
 ! nas = tehas - tehtaan
-
+! 3mies = mies
 
 LEXICON nx
 n1 ; ! nx
@@ -388,10 +388,37 @@ LEXICON xnas
  +Pl+Ill:a^HMETA%>h^Vin K ;
  +Pl+Ine:a%>i2ss^A K ;
  +Pl+Ela:a%>i2st^A K ;
- +Pl+Ade:a%>i2lle K ;
+ +Pl+All:a%>i2lle K ;
  +Pl+Ade:a%>i2ll^A K ;
  +Pl+Abl:a%>i2lt^A K ;
- 
+
+
+LEXICON 3mies
+ +N+Sg+Nom:s       K ;
+ +N+Sg+Gen:he%>n K ;
+ +N+Sg+Par:s%>t^A K ;
+ +N+Sg+Ill:he%>en K ;
+ +N+Sg+Ine:he%>ss^A K ;
+ +N+Sg+Ela:he%>st^A K ;
+ +N+Sg+All:he%>lle K ;
+ +N+Sg+Ade:he%>ll^A K ;
+ +N+Sg+Abl:he%>ll^A K ;
+ +N+Sg+Abe:he%>tt^A K ;
+ +N+Sg+Ess:he%>n^A K ;
+ +N+Sg+Tra:he TRA ;
+
+ +N+Pl+Nom:he%>t K ;
+ +N+Pl+Gen:he%>i2den K ;
+ +N+Pl+Par:he%>i2t^A K ;
+ +N+Pl+Ill:hiin K ;
+ +N+Pl+Ine:he%>i2ss^A K ;
+ +N+Pl+Ela:he%>i2st^A K ;
+ +N+Pl+All:he%>i2lle K ;
+ +N+Pl+Ade:he%>i2ll^A K ;
+ +N+Pl+Abe:he%>i2tt^A K ;
+ +N+Pl+Ess:he%>i2n^A K ;
+ +N+Pl+Tra:he TRA ;
+
 LEXICON n_uus
  +N+Sg+Nom:uus     R ;
  +N+Sg+Gen:uue%>n R ;
