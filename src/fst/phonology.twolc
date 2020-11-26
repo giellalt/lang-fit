@@ -93,8 +93,9 @@ k:j <=> Vow [l|r] _ Vow:  WeakGrade ;
 
 "t:0"
 t:0 <=> [Vow -i|l|n|r]  t  _ Vow: WeakGrade ; ! Quant Grad ! Quant Grad. Note the h!
-             [Vow -i ]  t  _ e: h %> e ;
-             [Vow - i] (h) _ Vow WeakGrade ; 
+             [Vow - i ] t  _ e: h %> e ;
+             [Vow - i] (h) _ [a|e|o|u] WeakGrade ;
+	     [ä|e]         _ i WeakGrade ;
 
 !!€ motti^WG
 !!€ mot0i0
@@ -123,7 +124,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 "t:j"
 t:j <=> i _ i     WeakGrade ;
-        i _ Vow: WeakGrade ;
+        i _ [a|o|u] WeakGrade ;
 
 !!€ hoito^WG>n
 !!€ hoijo0>n
@@ -362,50 +363,9 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 
 
-!! !!Vowel rules
+!! !!Vowel change rules: a - ä - e - i - o - ö - u - y
 
-!! !Vowel change rules
-"Final e to i"
-e:i <=> _ %^E2I: ;
-
-!!€ ove^E2I
-!!€ ovi0
-
-
-!!
-"a:e"
-Vx:e <=> _ %^AE: ;
-     where Vx in ( a ä ) ;
-
-
-"Suffix i to j"
-i2:j <=> :Vow (Dummy:) %> _ :Vow ;
-
-!!€ sana>i2^A
-!!€ sano>ja
-
-"i to e in plural"
-i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
-
-!"j insertion before long"
-!0:j <=> [.#.|#|Cns] i: _ Vow %> Vow ;
-!
-!"i to j before j insertion before long"
-!i:j <=> [.#.|#|Cns] _ :j Vow %> Vow ;
-
-"a:o when nonrounded root vowel and before i"
-!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
-!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
-!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
-a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
-        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
-        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
-!!€ laatia>i2tten
-!!€ laatio>itten
-
-
-
-!! !Vowel deletion rules
+!! ! a rules
 
 "a:0"
 a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
@@ -419,6 +379,23 @@ a:0 <=>                                          _ %^HMETA: %> ;  ! before metat
 !!€ saa>i3t
 !!€ sa0>it
 
+"a:e"
+a:e <=> _ %^AE: Cns: ;
+
+
+"a:o when nonrounded root vowel and before i"
+!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
+!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
+!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
+a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
+        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
+        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
+!!€ laatia>i2tten
+!!€ laatio>itten
+
+
+
+!! ! ä rules
 
 "ä:0"
 ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
@@ -434,6 +411,12 @@ a:0 <=>                                          _ %^HMETA: %> ;  ! before metat
 !!€ jää>i3n
 !!€ jä0>in
 
+"ä:e"
+ä:e <=> _ %^AE: Cns: ;
+
+
+
+!! ! e rules
 
 "e:0"
 e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
@@ -446,35 +429,25 @@ Vow [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
 !!€ tule^WG>i2ss^A
 !!€ tul00>issa
 
-"o:0"
-o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
-!!€ poro^HMETA>h^V^Vn
-!!€ por00>hoon
 
-"u:0"
-u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
-        [Cns|.#.|#]               _ [o|u] %> [i2:|i3:|i4:] ; ! tuoda : toi, luu : luissa
+"e:i"
+e:i <=> _ %^E2I: ;
 
-!!€ tuo>i3n
-!!€ t0o>in
+!!€ ove^E2I
+!!€ ovi0
 
-"ö:0"
-ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ; !  deletion before metathesis h
 
-"y:0"
-y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
-        [Cns|.#.|#]               _ [y|ö]    %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
-                                  _ %^HMETA: ;
 
-!!€ syy>i2ss^A
-!!€ s0y>issä
+!! ! i rules
 
 "i:0"
 i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
-	           Cns: _ (WeakGrade)   %>       i3: ;           ! sopia : sopi, oppia : oppi
+	           Cns: _ (WeakGrade) %>  [i2:|i3:] ; ! sopia : sopi, oppia : oppi 
+                   ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
+
 
 !!€ sii0li^HMETA>h^V^Vn
 !!€ siihl00>0iin
@@ -492,19 +465,54 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 !!€ opp0>i
 
 
+"Suffix i to j"
+i2:j <=> :Vow (Dummy:) %> _ :Vow ;
+
+!!€ sana>i2^A
+!!€ sano>ja
+
+
+
+
+!! ! o rules
+
+"o:0"
+o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
+!!€ poro^HMETA>h^V^Vn
+!!€ por00>hoon
+
+!! ! ö rules
+"ö:0"
+ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ; !  deletion before metathesis h
+
+
+
+!! ! u rules
+
+"u:0"
+u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
+        [Cns|.#.|#]               _ [o|u] %> [i2:|i3:|i4:] ; ! tuoda : toi, luu : luissa
+
+!!€ tuo>i3n
+!!€ t0o>in
+
+
+
+!! ! y rules
+"y:0"
+y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
+        [Cns|.#.|#]               _ [y|ö]    %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
+                                  _ %^HMETA: ;
+
+!!€ syy>i2ss^A
+!!€ s0y>issä
+
+
+
+
+
 !! !Vowel copying rules
-!"Vowel copying for h: metathesis 1"
-!%^V:Vx <=> Vx: %^HMETA: %> h: _ %^V: ;
-!	where Vx in (a o u ä ö y e i ) ;
-!"Vowel copying for h: metathesis 2"
-!%^V:Vx <=> Vx: %^HMETA: %> h: %^V: _ ;	
-!	where Vx in (a o u ä ö y e i ) ;
 
-
-
-!"Vow copy"
-!%^V:Vx <=> Vx %> _ [n|%>|.#.] ; ! Ill for nouns and Sg3 for verbs
-!	where Vx in ( a e i o u y ä ö ) ;
 
 "a copying for h metathesis"
 %^V:a <=> a: %^HMETA: %> h:    _ :a ;
@@ -557,6 +565,8 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 
 
 
+
+!! ! Vowel harmony rule
 	
 "Back harmony"
 !! __@RULENAME@__ 
