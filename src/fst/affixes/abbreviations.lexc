@@ -8,8 +8,8 @@
 !           ©+N+ABBR:©  #               ;
 
 
-LEXICON Abbreviation
-+Abbr: # ;
+!LEXICON Abbreviation
+!+Abbr: # ;
 
 ! Now splitting according to POS, and according to dot or not
 ! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
