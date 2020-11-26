@@ -12,11 +12,8 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-LEXICON Acronym-fkv
-
-
-
-XXX ACRO ; ! to be replaced with fkv
+LEXICON Acronym-fit
+XXX Acronym-fit-suf ; ! to be replaced with fit content
 
 
 
