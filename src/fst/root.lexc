@@ -300,6 +300,13 @@ LEXICON Root    !!=  __@CODE@__
 
 ! Then to the next lexica.
 
+LEXICON Abbreviation
+Abbreviation-fit ;
+Abbreviation-smi ;
+
+LEXICON Acronym
+Acronym-fit ;
+Acronym-smi ;
 
 
 LEXICON K
