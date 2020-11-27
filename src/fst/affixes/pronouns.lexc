@@ -349,7 +349,7 @@ LEXICON jokuinf
 
 
 LEXICON yh_indef
-j+Nom:yksi       K ;
++Nom:yksi       K ;
 +Gen:yhen     K ; !đ
 +Ill:yhtheen   K ;
 +Par:yhtä    K ;
@@ -401,17 +401,9 @@ LEXICON kaik_kvant
 +Pl+Abl:kaikilta   K ;
 
 
-LEXICON koko_kvant
-+Nom:       K ;
-
-
-LEXICON joka_kvant
-+Nom:       K ;
-
-
 LEXICON jokhai_kvant
-+Nom:       K ;
-+Gen:nen    K ;
++Nom:nen    K ;
++Gen:sen    K ;
 +Ill:heen  K ;
 +Par:esta   K ;
 +Ess:ena    K ;
@@ -421,50 +413,6 @@ LEXICON jokhai_kvant
 +All:ele    K ;
 +Ade:ela    K ;
 +Abl:elta   K ;
-
-
-LEXICON jokai_kvant
-+Nom:       K ;
-+Gen:nen    K ;
-+Ill:heen  K ;
-+Par:esta   K ;
-+Ess:ena    K ;
-+Tra:eksi   K ;
-+Ine:essa   K ;
-+Ela:esta   K ;
-+All:ele    K ;
-+Ade:ela    K ;
-+Abl:elta   K ;
-
-
-!LEXICON jokainu_kvant
-! +Nom:       # ;
- 
-LEXICON ainut_kvant
- +Nom:a       K ;
- +Gen:an     K ;
- +Ill:aan    K ;
- +Par:asta   K ;
- +Ess:ana    K ;
- +Tra:aksi   K ;
- +Ine:assa   K ;
- +Ela:asta   K ;
- +All:ale    K ;
- +Ade:ala    K ;
- +Abl:alta   K ;
-
-LEXICON plainut_kvant
- +Nom:at       K ;
- +Gen:oin     K ;
- +Ill:oihin    K ;
- +Par:oista   K ;
- +Ess:aina    K ;
- +Tra:aiksi   K ;
- +Ine:oissa   K ;
- +Ela:oista   K ;
- +All:oile    K ;
- +Ade:oila    K ;
- +Abl:oilta   K ;
 
 LEXICON itte_refl
 +Attr:e     PxK ;
@@ -595,7 +543,7 @@ LEXICON kielto
 
 
 LEXICON mi_kielto
-+Nom: K ;
++Nom:khään K ;
 +Gen:nkhään K ;
 +Ill:hinkhään K ;
 +Par:thään K ;
