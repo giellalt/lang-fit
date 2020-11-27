@@ -220,7 +220,8 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
 
 
 LEXICON v1tehda !!= @CODE@ tehđä:te from fkv
-+V+Inf:h%>h^A K ; ! đ
++V+Inf:h%>h^A K ; ! xxx
++V+Inf:h%>^A K ;  ! xxx 
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>d^ K ; ! d
 +V+InfE+Ins:h%>en K ;
