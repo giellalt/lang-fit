@@ -11,7 +11,6 @@
 
 LEXICON VerbRoot
 
-
 !tehdä
 !nähdä
 !käydä
@@ -34,7 +33,6 @@ ottaa:otta v1 ;
 käyttää:käyttä v1 ;
 
 
-
 !! !! v2 syödä, juoda
 syödä:syö v2 ;
 juoda:juo v2 ;
@@ -50,7 +48,6 @@ tuoda:tuo v2 ;
 myydä:vyö v2 ;
 jäädä:jää v2 ;
 lyödä:lyö v2 ;
-
 
 
 !! !! v3 tulla, mennä
@@ -2738,6 +2735,7 @@ maarata:maara v4 ;
 karata:kara v4 ;
 parata:para v4 ;
 varata:vara v4 ;
+komyniseerata:komyniseera v4 ;
 domineerata:domineera v4 ;
 informeerata:informeera v4 ;
 organiseerata:organiseera v4 ;
