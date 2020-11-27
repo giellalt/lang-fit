@@ -5,20 +5,20 @@ LEXICON Pronoun
 
 !! Persoonapronominit
 
-mie+Pron+Pers+Sg:m         12pronsg   ; !!= * @CODE@ 
-sie+Pron+Pers+Sg:s         12pronsg   ; !!  * ...
-hään+Pron+Pers+Sg:          haan_pron   ;
-se+Pron+Pers+Sg:            se_pron  ;
-met+Pron+Pers+Pl:me         123pronpl   ;
-tet+Pron+Pers+Pl:te         123pronpl   ;
-het+Pron+Pers+Pl:he         123pronpl   ;
-net+Pron+Pers+Pl+Nom:net    K   ; ! e>i
-net+Pron+Pers+Pl:ni         netpronpl   ; ! e>i
+mie+Pron+Pers+Sg:m 12pronsg ; !!= * @CODE@ 
+sie+Pron+Pers+Sg:s 12pronsg ; !!  * ...
+hään+Pron+Pers+Sg:  haan_pron ;
+se+Pron+Pers+Sg:  se_pron  ;
+met+Pron+Pers+Pl:me 123pronpl ;
+tet+Pron+Pers+Pl:te 123pronpl ;
+het+Pron+Pers+Pl:he 123pronpl ;
+net+Pron+Pers+Pl+Nom:net  K ; ! e>i
+net+Pron+Pers+Pl:ni netpronpl ; ! e>i
 
 
 !! Demonstratiivipronominit
 
-se+Pron+Dem+Sg:             se_pron ;
+se+Pron+Dem+Sg:   se_pron ;
 
 tämä+Pron+Dem:tä tama ;
 tuo+Pron+Dem:tuo tuo ;
@@ -48,13 +48,18 @@ yksi+Pron+Indef: yh_indef ;
 itte+Pron+Refl:itt  itte_refl ;
 itte+Pron+Refl+Err/Orth:its  itte_refl ;
 
-jokhainen+Pron+Qu:jokhai                jokhai_kvant ;
-jokainen+Pron+Qu:jokai                jokai_kvant ;
-minkälainen+Pron+Qu:minkälai         minkalai_kvant ; 
+jokhainen+Pron+Qu:jokhai  jokhai_kvant ;
+jokainen+Pron+Qu:jokai  jokhai_kvant ;
+minkälainen+Pron+Qu:minkälai  minkalai_kvant ; 
 
-yksi+Pron+Indef:                        yh_indef ;
-kaikki+Pron+Qu:                     kaik_kvant ;
+yksi+Pron+Indef:   yh_indef ;
+kaikki+Pron+Qu:  kaik_kvant ;
 
+
+mihkään+Pron+Indef:mi mi_kielto ;
+
+
+!mikhään:mi 
 doublecasepronouns ;
 
 !! Sanakirjasta
