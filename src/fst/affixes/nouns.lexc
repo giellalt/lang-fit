@@ -37,7 +37,7 @@ LEXICON x1_sg
  +Sg+All:^WG%>le K ;        ! talole
  +Sg+Ade:^WG%>l^A K ;       ! talola
  +Sg+Abl:^WG%>lt^A K ;      ! talolta
- +Sg+Tra:^WG TRA ;       ! taloksi
+ +Sg+Tra:^WG TRA ;          ! taloksi
  +Sg+Ess:%>n^A K ;          ! talona
  +Sg+Abe:^WG%>tt^A K ;      ! talotta
 
@@ -99,6 +99,10 @@ LEXICON n3
 LEXICON x3
  x3_sg ;
  x3_pl ;
+
+LEXICON x3_oblique
+x3_oblique_sg ;
+x3_pl ;
 
 LEXICON x3_sg 
  +Sg+Nom:^E2I       K ;

@@ -312,9 +312,10 @@ Acronym-smi ;
 LEXICON K
 # ;
 +Qst:%>k^O # ;
++Qst:%>ks # ;
 +Foc/kin:%>ki # ;
 +Foc/kin:%>kin # ;
-
++Fok/kaan:%>k^A^An # ;
 
 
 LEXICON ENDLEX # ; 

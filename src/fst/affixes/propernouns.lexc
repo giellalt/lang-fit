@@ -258,8 +258,6 @@ LEXICON vanha_nocmp_prop_surplc_1
 LEXICON vanha_nocmp_prop_surplc_C 
 +N+Prop: p_adhoc ;
 
-LEXICON x3_oblique 
-+N+Prop: p_adhoc ;
 
 LEXICON p_adhoc
 +Sg+Nom: K ;
