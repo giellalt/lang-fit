@@ -467,20 +467,20 @@ LEXICON plainut_kvant
  +Abl:oilta   K ;
 
 LEXICON itte_refl
-+Attr:e     K ;
-+Nom:e      K ;
-+Gen:en     K ;
-+Ill:heen   K ;
-+Par:ee     K ;
-+Par:eä     K ;
-+Par:iä     K ;
-+Ess:enä    K ;
-+Tra:eksi   K ;
-+Ine:essä   K ;
-+Ela:estä   K ;
-+All:ele    K ;
-+Ade:elä    K ;
-+Abl:eltä   K ;
++Attr:e     PxK ;
++Nom:e      PxK ;
++Gen:en     PxK ;
++Ill:heen   PxK ;
++Par:ee     PxK ;
++Par:eä     PxK ;
++Par:iä     PxK ;
++Ess:enä    PxK ;
++Tra:eksi   PxK ;
++Ine:essä   PxK ;
++Ela:estä   PxK ;
++All:ele    PxK ;
++Ade:elä    PxK ;
++Abl:eltä   PxK ;
 
 LEXICON kukin_kvant
 +Nom:ki         K ;
