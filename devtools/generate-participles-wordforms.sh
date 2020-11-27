@@ -20,21 +20,33 @@ fi
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+V+Inf \
-            +V+Act+Ind+Prs+Sg1 \
-            +V+Act+Ind+Prs+Sg3 \
-            +V+Act+Ind+Prs+Pl1 \
-            +V+Act+Ind+Prs+Pl3 \
-            +V+Act+Ind+Prt+Sg1 \
-            +V+Act+Ind+Prt+Sg3 \
-            +V+Act+Ind+Prt+Pl1 \
-            +V+Act+Ind+Prt+Pl3 \
-            +V+Act+Ind+Prs+ConNeg \
-            +V+Imprt+Sg2 \
-            +V+Imprt+Sg3 \
-            +V+Imprt+Pl2 \
-            +V+Cond+Sg1 \
-            +V+Cond+Sg3"
+            +V+Act+PrfPrc+Sg+Nom \
+            +V+Act+PrfPrc+Sg+Gen \
+            +V+Act+PrfPrc+Sg+Par \
+            +V+Act+PrfPrc+Sg+Ill \
+            +V+Act+PrfPrc+Sg+Ine \
+            +V+Act+PrfPrc+Sg+Ade \
 
+            +V+Act+PrsPrc+Sg+Nom \
+            +V+Act+PrsPrc+Sg+Gen \
+            +V+Act+PrsPrc+Sg+Par \
+            +V+Act+PrsPrc+Sg+Ill \
+            +V+Act+PrsPrc+Sg+Ine \
+            +V+Act+PrsPrc+Sg+Ade \
+
+            +V+Pass+PrfPrc+Sg+Nom \
+            +V+Pass+PrfPrc+Sg+Gen \
+            +V+Pass+PrfPrc+Sg+Par \
+            +V+Pass+PrfPrc+Sg+Ill \
+            +V+Pass+PrfPrc+Sg+Ine \
+            +V+Pass+PrfPrc+Sg+Ade \
+
+            +V+Pass+PrsPrc+Sg+Nom \
+            +V+Pass+PrsPrc+Sg+Gen \
+            +V+Pass+PrsPrc+Sg+Par \
+            +V+Pass+PrsPrc+Sg+Ill \
+            +V+Pass+PrsPrc+Sg+Ine \
+            +V+Pass+PrsPrc+Sg+Ade"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/verbs.lexc
