@@ -21,7 +21,7 @@ n1 ; ! nx
 LEXICON n1
  +N: x1 ;
  +N+Nom: R ;
- +N+Gen:^WG%>n R ;
+ +N+Sg+Gen:^WG%>n R ;
  
 LEXICON x1
 x1_sg ;
@@ -205,6 +205,7 @@ LEXICON nen
 +N: xnen ; 
 +N+Sg+Nom:s K ;
 +N+Sg+Gen:s K ;
++N+Sg+Gen:s R ;
 
 LEXICON xnen
 xnen_sg ;
@@ -220,6 +221,7 @@ LEXICON xnen_pl
 
 LEXICON 3nen
 +N: x3nen ;
++N+Sg+Gen:s R ;
 
 LEXICON x3nen
 x3nen_sg ;
@@ -242,10 +244,11 @@ LEXICON xnen_common_sg
  +Sg+Ela:se%>st^A K ;
  +Sg+Abl:se%>lt^A K ;
  +Sg+Abe:se%>tt^A K ;
+ +Sg+Tra:se TRA ;
 
 LEXICON xnen_common_pl
  +Pl+Nom:se^WG%>t K ;
- +Pl+Gen:s%>ten K ;
+ +Pl+Gen:s%>itten K ;
  +Pl+Par:s%>i^A K ;
  +Pl+Ill:shiin   K ;    !
  +Pl+Ine:s^WG%>i2ss^A K ;
@@ -257,6 +260,7 @@ LEXICON 3cases
 +Ade:%>ll^A K ;
 +All:%>lle K ;
 +Ess:%>nn^A K ;
++Ess+Err/Orth:%>n^A K ;
 
 LEXICON 2cases
 +Ade:%>l^A K ;
