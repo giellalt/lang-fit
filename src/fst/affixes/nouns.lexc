@@ -18,6 +18,11 @@
 LEXICON nx
 n1 ; ! nx
 
+LEXICON nc ! romani chib
+ +N+Sg+Nom: K ;
+ +N:i  x1_sg_oblique ;
+ +N:i x1_pl ;
+
 LEXICON n1
  +N: x1 ;
  +N+Nom: R ;
@@ -29,6 +34,9 @@ x1_pl ;
 
 LEXICON x1_sg 
  +Sg+Nom:^E2I       K ;
+ x1_sg_oblique ;
+
+LEXICON x1_sg_oblique
  +Sg+Gen:^WG%>n K ;
  +Sg+Par:%>^A K ;
  +Sg+Ill:^HMETA%>h^V^Vn K ; ! talhoon
@@ -91,6 +99,11 @@ LEXICON x2_pl
  +Pl+Ess:%>ei2n^A K ;
  +Pl+Abe:%>ei2tt^A K ;
 
+LEXICON 3nc
+ +N+Sg+Nom: K ;      ! jiddisch
+ +N:i x3_oblique_sg ; ! jiddischin
+ +N:i x3_pl ;         ! jiddischit
+ 
 LEXICON n3
  +N: x3 ;
  +N+Nom:^E2I R ;
@@ -558,9 +571,9 @@ LEXICON Px
  +PxPl3:%>ns%^A K ;
 
 
-LEXICON Px-Vn
- +PxSg3:%>%^Vn K ;
- +PxPl3:%>%^Vn K ;
+!LEXICON Px-Vn
+! +PxSg3:%>%^Vn K ;
+! +PxPl3:%>%^Vn K ;
 
 
 
