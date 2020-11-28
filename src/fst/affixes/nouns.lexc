@@ -27,7 +27,10 @@ LEXICON n1
  +N: x1 ;
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
- 
+
+LEXICON n1_pl
+ +N: x1_pl ;
+
 LEXICON x1
 x1_sg ;
 x1_pl ;
