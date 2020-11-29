@@ -308,6 +308,13 @@ LEXICON Acronym
 Acronym-fit ;
 Acronym-smi ;
 
+LEXICON KK ! geminate clitics: selvästikki
+# ;
++Qst:%>kk^O # ;
++Qst:%>ks # ;
++Foc/kin:%>kki # ;
++Foc/kin:%>kkin # ;
++Fok/kaan:%>kh^A^An # ;
 
 LEXICON K
 # ;
@@ -315,7 +322,11 @@ LEXICON K
 +Qst:%>ks # ;
 +Foc/kin:%>ki # ;
 +Foc/kin:%>kin # ;
-+Fok/kaan:%>k^A^An # ;
++Foc/kaan:%>k^A^An # ;
 
+LEXICON NEGK
+# ;
++Qst:%>k^O # ;
++Foc/ka:%>k^A # ;
 
 LEXICON ENDLEX # ; 
