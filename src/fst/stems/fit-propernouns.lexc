@@ -2,8 +2,11 @@
 
 LEXICON ProperNoun
 
+Niila:Niila p_mal_1 ;
+Kiiruna:Kiiruna 3p_plc ;
 Tokholma:Tokholma p_plc_1 ;
 Luulaja:Luulaja 3p_plc ;
+Anders:Anders 3p_mal_1C ;
 Isof:Isof 3p_org_1C ;
 Matarinki:Matarinki p_plc_1 ;
 Lääninhallitus:Lääninhallitu 3p_org_ks ;
