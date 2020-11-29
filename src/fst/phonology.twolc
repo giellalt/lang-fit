@@ -31,7 +31,9 @@ FrontVowel     = e i y ä ö         ü  æ  ø     ;                     !!= * 
 BackVowel      =           a o u å             ;                     !!= * @CODE@ 
 RoundedVowel   =     y   ö   o u å             ;                     !!= * @CODE@ 
 UnroundedVowel = e i   ä   a                   ;                     !!= * @CODE@ 
+VowelNotUY     = e i   ä ö a o   å ü  æ  ø     ;                       !!= * @CODE@ 
 VowelNotI      = e   y ä ö a o u å ü  æ  ø     ;                       !!= * @CODE@ 
+VowelNotEI     =     y ä ö a o u å ü  æ  ø     ;                       !!= * @CODE@ 
 Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE@ 
 ArchiCns       = %^N ;                                               !!= * @CODE@
 LNRM           = l n r m ;                                           !!= * @CODE@
@@ -76,9 +78,12 @@ k:g <=> Vow n _ Vow WeakGrade ;
 
 
 "k:0"
-k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;  ! Quant Grad
-                Vow   _ Vow: WeakGrade      ;  ! Qual Grad
-                Vow k _ e:   h     %> e ;  ! kkh > kh
+k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;   ! Quant Grad
+                 o i: _ Vow: WeakGrade      ;   ! pojan
+         VowelNotUY   _ Vow: WeakGrade      ;   ! maun 
+	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
+                Vow k _ e:   h     %> e ;       ! kkh > kh
+            Vow [l|r] _ VowelNotEI WeakGrade ;
 
 !!€ takki^WG
 !!€ tak0i0
@@ -86,7 +91,14 @@ k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;  ! Quant Grad
 !!€ keskus>ta	
 
 "k:j"
-k:j <=> Vow [l|r] _ Vow:  WeakGrade ;
+k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
+        Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin, 
+
+"k:v"
+k:v <=> [u|y] _ [y|u] WeakGrade ;
+
+!!€ suku^WG>n
+!!€ suvu0>n
 
 !! t rules
 
@@ -380,9 +392,9 @@ a:e <=> _ %^AE: ;
 !a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
 !        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
 !        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
-a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
-        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! see fkv
-        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; 
+a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
+        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
+        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; 
 !!€ laatia>i2tten
 !!€ laatio>itten
 
@@ -457,8 +469,11 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
 !!€ oppi>i3
 !!€ opp0>i
 
+"i:j"
+i:j <=> Vow _ k:0 :Vow ; ! pojan
+        Vow _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
 
-"Suffix i to j"
+"i2:j"
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 !!€ sana>i2^A
