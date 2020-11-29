@@ -21,11 +21,12 @@ v1 ; ! vx
 !! !! Irregular verbs
 
 LEXICON OLLA
-+V+Inf:olla K ;
++V+Inf:olla KK ;
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
 +V+InfMa:ole 3infcase ;
 +V+Der/minen:ole#mis nen ;
+
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
 +V+Act+Ind+Prs+Sg3:oon K ;
@@ -39,6 +40,8 @@ LEXICON OLLA
 +V+Act+Ind+Prt+Pl1:olima K ;
 +V+Act+Ind+Prt+Pl2:olitta K ;
 +V+Act+Ind+Prt+Pl3:oli K ;
+
++V+Act+Cond:olis 2cond ;
 
 ! tsekkaa loput olla-muodot, ne on ottetu fkv-tiedostosta.
 +V+Pass+Ind+Prs:olhaan K ;
@@ -64,19 +67,19 @@ LEXICON OLLA
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
 LEXICON NEG
-+V+Neg+Act+Prs+Sg1:en K ;
-+V+Neg+Act+Prs+Sg2:en K ;
-+V+Neg+Act+Prs+Sg3:ei K ;
-+V+Neg+Act+Prs+Pl1:emmä K ;
-+V+Neg+Act+Prs+Pl2:että K ;
-+V+Neg+Act+Prs+Pl3:ei K ;
++V+Neg+Act+Prs+Sg1:en NEGK ;
++V+Neg+Act+Prs+Sg2:en NEGK ;
++V+Neg+Act+Prs+Sg3:ei NEGK ;
++V+Neg+Act+Prs+Pl1:emmä NEGK ;
++V+Neg+Act+Prs+Pl2:että NEGK ;
++V+Neg+Act+Prs+Pl3:ei NEGK ;
 
-+V+Neg+Act+Imprt+Sg2:älä K ;
++V+Neg+Act+Imprt+Sg2:älä # ;
 
 !! !! Regular verbs
 
 LEXICON v1 ! sanoa, lukea
-+V+Inf:%>^A K ;
++V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
@@ -124,7 +127,7 @@ LEXICON v1 ! sanoa, lukea
 +V+Der/minen: xnen ;
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
-+V+Inf:y%>^A K ; ! đ
++V+Inf:y%>^A KK ; ! đ
 +V+Inf+Tra:y%>^Akse PxK ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
 +V+InfE:y%>en K ;
@@ -152,14 +155,13 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Pass+PrsPrc+Pl+Nom:y%>t^A%>v^At K ;
 +V+Pass+PrsPrc+Sg+Nom:y%>t^A%>v^A K ;
 
-+V+Act+Cond+Sg1:v%>i4sin K ; ! kävisin
-+V+Act+Cond+Sg2:v%>i4sit K ;
-+V+Act+Cond+Sg3:v%>i4s K ;
-+V+Act+Cond+Sg3:v%>i4si K ;
-+V+Act+Cond+Pl1:v%>i4simm^A K ;
-+V+Act+Cond+Pl2:v%>i4sitt^A K ;
+
++V+Act+Cond:v%>i4s 2cond ;
+
 +V+Act+Cond+Pl3:y%>t^A%>i4s K ;
 +V+Pass+Cond:y%>t^A%>i4s K ;
+
+
 
 +V+Act+Imprt+Sg2:y K   ;
 +V+Act+Imprt+Pl2:y%>kk^A^A K ;
@@ -175,7 +177,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
-+V+Inf:h%>h^A K ; ! đ
++V+Inf:h%>h^A KK ; ! đ
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>h^A K ; ! d
 +V+InfE:h%>hen K ;
@@ -202,12 +204,8 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
 +V+Pass+PrsPrc+Pl+Nom:%>ht^A%>v^At K ;
 +V+Act+Ind+Prs+ConNeg:je K ;
 
-+V+Act+Cond+Sg1:%>kisin K ; ! näkisin
-+V+Act+Cond+Sg2:%>kisit K ;
-+V+Act+Cond+Sg3:%>kis K ;
-+V+Act+Cond+Sg3:%>kisi K ;
-+V+Act+Cond+Pl1:%>kisimm^A K ;
-+V+Act+Cond+Pl2:%>kisitt^A K ;
++V+Act+Cond+Sg1:%>kis 2cond ;
+
 +V+Act+Cond+Pl3:%>htäis K ;
 +V+Pass+Cond:%>htäis K ;
 
@@ -225,8 +223,8 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
 
 
 LEXICON v1tehda !!= @CODE@ tehđä:te from fkv
-+V+Inf:h%>h^A K ; ! xxx
-+V+Inf:h%>^A K ;  ! xxx 
++V+Inf:h%>h^A KK ; ! xxx
++V+Inf:h%>^A KK ;  ! xxx 
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>d^ K ; ! d
 +V+InfE+Ins:h%>en K ;
@@ -252,13 +250,8 @@ LEXICON v1tehda !!= @CODE@ tehđä:te from fkv
 +V+Pass+PrsPrc+Pl+Nom:h%>t^A%>v^At K ;
 +V+Act+Ind+Prs+ConNeg:he K ;
 
-+V+Act+Cond+Sg1:k%>i4sin K ; ! tekisin
-+V+Act+Cond+Sg2:k%>i4sit K ;
-+V+Act+Cond+Sg3:k%>i4s K ;
-+V+Act+Cond+Sg3:k%>i4si K ;
-+V+Act+Cond+Pl1:k%>i4simm^A K ;
-+V+Act+Cond+Pl2:k%>i4sitt^A K ;
-+V+Act+Cond+Pl3:htä%>i4s K ;
++V+Act+Cond+Sg1:k%>i4s 2cond ;
+
 +V+Pass+Cond:htä%>i4s K ;
 
 +V+Act+Imprt+Sg2:he K   ;
@@ -275,7 +268,7 @@ LEXICON v1tehda !!= @CODE@ tehđä:te from fkv
 
 
 LEXICON v2
-+V+Inf:%>d^A K ;
++V+Inf:%>d^A KK ;
 +V+Inf+Tra:%>d^Akse PxK ;
 +V+InfE+Ins:%>den K ;
 +V+InfE+Ine:%>dess^A K ;
@@ -326,7 +319,7 @@ LEXICON v2
 
 
 LEXICON v3_3la
-+V+Inf:%>^A K ;
++V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
@@ -381,7 +374,7 @@ LEXICON v3_4lla
 v3 ;
 
 LEXICON v3
-+V+Inf:%>^N^A K ;
++V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
@@ -472,7 +465,7 @@ LEXICON v4
 
 
 LEXICON v5
-+V+Inf:t%>^A K ;
++V+Inf:t%>^A KK ;
 +V+Inf+Tra:t%>^Akse PxK ;
 +V+InfE+Ins:t^A%>en K ;
 +V+InfE+Ine:t^A%>ess^A K ;
@@ -523,7 +516,7 @@ LEXICON v5
 +V+Der/minen:t%>^A xnen ;
 
 LEXICON v6
-+V+Inf:^WG%>t^A K ;
++V+Inf:^WG%>t^A KK ;
 +V+Inf+Tra:^WG%>t^Akse PxK ;
 +V+InfE+Ins:^WG%>t^Aen K ;
 +V+InfE+Ine:^WG%>t^Aess^A K ;
@@ -559,6 +552,22 @@ LEXICON v6
 +V+Act+Ind+Prt+Pl3:n%>it K ;
 
 +V+Der/minen:ne xnen ;
+
+
+
+!! Conditional forms
+
+LEXICON 2cond
++Sg1:v%>i4sin K ; ! kävisin
++Sg2:v%>i4sit K ;
++Sg3:v%>i4s K ;
++Sg3:v%>i4si K ;
++Pl1:v%>i4simm^A K ;
++Pl2:v%>i4sitt^A K ;
++Pl3:v%>i4siv^A K ;
+
+
+
 
 
 !! Infinitive paradigms
