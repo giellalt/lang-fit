@@ -71,6 +71,9 @@ LEXICON 3p_plc_1
 LEXICON 3p_plc_11_ae 
 +N+Prop+Sem/Plc: p_adhoc ;
 
+LEXICON 3p_mal_1C 
++N+Prop+Sem/Mal: p_adhoc ;
+
 LEXICON 3p_plc_1C 
 +N+Prop+Sem/Plc: p_adhoc ;
 
