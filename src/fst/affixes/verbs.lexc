@@ -66,6 +66,9 @@ LEXICON OLLA
 +V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
+! ! Derivation
++V+Der/minen:olemi xnen ;
+
 LEXICON NEG
 +V+Neg+Act+Prs+Sg1:en NEGK ;
 +V+Neg+Act+Prs+Sg2:en NEGK ;
@@ -94,15 +97,13 @@ LEXICON v1 ! sanoa, lukea
 +V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
-+V+Act+PrsPrc+Sg+Nom:%>v^A K ;
-+V+Act+PrsPrc:%>v^A x3_oblique ;
++V+Act+PrsPrc:%>v^A x3 ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>^Nee x3_oblique ;
 
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc:%>tee x3_oblique ;
-+V+Pass+PrsPrc+Sg+Nom:%>tt^Av^A K ;
-+V+Pass+PrsPrc:%>tt^Uv^A x3_oblique ;
++V+Pass+PrsPrc:%>tt^Av^A x3 ;
 
 +V+Imprt+Sg2:^WG # ;
 +V+Imprt+Sg:%>kh^O^On # ;
@@ -124,7 +125,9 @@ LEXICON v1 ! sanoa, lukea
 +V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen: xnen ;
+! ! Derivation
++V+Der/minen:mi xnen ;
+
 
 LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Inf:y%>^A KK ; ! đ
@@ -148,12 +151,10 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 
 +V+Act+PrfPrc+Sg+Nom:y%>^N^U K ;
 +V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
-+V+Act+PrsPrc+Pl+Nom:yv%>^At K ;
-+V+Act+PrsPrc+Sg+Nom:yp%>^A K ;
++V+Act+PrsPrc:yp%>^A x3 ;
 +V+Pass+PrfPrc+Pl+Nom:y%>n^U%>t K ; 
 +V+Pass+PrfPrc+Sg+Nom:y%>t^U K ;
-+V+Pass+PrsPrc+Pl+Nom:y%>t^A%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:y%>t^A%>v^A K ;
++V+Pass+PrsPrc:y%>t^A%>v^A x3 ;
 
 
 +V+Act+Cond:v%>i4s 2cond ;
@@ -173,7 +174,7 @@ LEXICON v1kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Act+InfMa+Abe:y%>m^Att^A K ;
 !+V+Act+InfMa:y%>m^A MATONodd ;
 
-+V+Der/minen:e xnen ;
++V+Der/minen:ymi xnen ;
 
 
 LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
@@ -198,10 +199,8 @@ LEXICON v1nahda !!= @CODE@ nähđä:nä = from fkv
 +V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ;
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>ht^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:%>ht^A%>v^At K ;
++V+Act+PrsPrc:kkee%>v^A x3 ;
++V+Pass+PrsPrc:%>ht^A%>v^A x3 ;
 +V+Act+Ind+Prs+ConNeg:je K ;
 
 +V+Act+Cond+Sg1:%>kis 2cond ;
@@ -238,16 +237,15 @@ LEXICON v1tehda !!= @CODE@ tehđä:te from fkv
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
-+V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
 +V+Act+Inf+Prt+ConNeg+Sg:h%>^n^U K ;
+
++V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
++V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ; 
-!+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
-+V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
-+V+Act+PrsPrc+Sg+Nom:kkee%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:kkee%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:h%>t^A%>v^A K ;
-+V+Pass+PrsPrc+Pl+Nom:h%>t^A%>v^At K ;
++V+Pass+PrfPrc:h%>y PRFPRC_OBL ; 
+
++V+Act+PrsPrc:kkee%>v^A x3 ;
++V+Pass+PrsPrc:h%>t^A%>v^A x3 ;
 +V+Act+Ind+Prs+ConNeg:he K ;
 
 +V+Act+Cond+Sg1:k%>i4s 2cond ;
@@ -284,10 +282,8 @@ LEXICON v2
 +V+Act+PrfPrc:%>^Nee x3_oblique ;
 +V+Pass+PrfPrc:%>tee x3_oblique ;
 
-+V+Act+PrsPrc+Sg+Nom:%>v^A K ;
-+V+Pass+PrsPrc+Sg+Nom:%>tt^Av^A K ;
-+V+Act+PrsPrc:%>v^A x3_oblique ;
-+V+Pass+PrsPrc:%>tt^Uv^A x3_oblique ;
++V+Act+PrsPrc:%>v^A x3 ;
++V+Pass+PrsPrc:%>tt^Uv^A x3 ;
 
 +V+Act+PrfPrc+Sg+Nom:%>n^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
@@ -315,10 +311,10 @@ LEXICON v2
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen: xnen ;
++V+Der/minen:mi xnen ;
 
 
-LEXICON v3_3la
+LEXICON v3_3la ! varjela:varjel
 +V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:en K ;
@@ -335,10 +331,8 @@ LEXICON v3_3la
 +V+Act+PrfPrc:%>ee x3_oblique ;
 +V+Pass+PrfPrc:%>t^U x3_oblique ;
 
-+V+Act+PrsPrc+Sg+Nom:%>c^A K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
-+V+Act+PrsPrc:%>v^A x3_oblique ;
-+V+Pass+PrsPrc:%>tt^Uv^A x3_oblique ;
++V+Act+PrsPrc+Sg+Nom:e%>v^A x3 ;
++V+Pass+PrsPrc+Sg+Nom:%>t^Av^A x3 ;
 
 +V+Pass+Cond:%>i4si K ;
 
@@ -363,7 +357,7 @@ LEXICON v3_3la
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:e xnen ;
++V+Der/minen:emi xnen ;
 
 
 
@@ -390,10 +384,8 @@ LEXICON v3
 +V+Act+PrfPrc:%>^Nee x3_oblique ;
 +V+Pass+PrfPrc:%>t^U x3_oblique ;
 
-+V+Act+PrsPrc+Sg+Nom:%>c^A K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
-+V+Act+PrsPrc:%>v^A x3_oblique ;
-+V+Pass+PrsPrc:%>tt^Uv^A x3_oblique ;
++V+Act+PrsPrc:e%>v^A x3 ;
++V+Pass+PrsPrc:%>t^Uv^A x3_oblique ;
 
 +V+Pass+Cond:%>i4si K ;
 
@@ -418,10 +410,10 @@ LEXICON v3
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:e xnen ;
++V+Der/minen:emi xnen ;
 
 
-LEXICON v4
+LEXICON v4 ! lämmetä:lämpe
 +V+Inf:^WG%>t^A K ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
@@ -461,10 +453,10 @@ LEXICON v4
 +V+Act+Ind+Prt+Pl2:%>sitt^A K ;
 +V+Act+Ind+Prt+Pl3:%>sit K ;
 
-+V+Der/minen:%>^A^A xnen ;
++V+Der/minen:%>^A^Ami xnen ;
 
 
-LEXICON v5
+LEXICON v5 ! kehitä:kehi
 +V+Inf:t%>^A KK ;
 +V+Inf+Tra:t%>^Akse PxK ;
 +V+InfE+Ins:t^A%>en K ;
@@ -482,10 +474,8 @@ LEXICON v5
 +V+Act+PrfPrc:%>^Nee x3_oblique ;
 +V+Pass+PrfPrc:t%>tee x3_oblique ;
 
-+V+Act+PrsPrc+Sg+Nom:%>tev^A K ;
-+V+Pass+PrsPrc+Sg+Nom:t%>tt^Av^A K ;
-+V+Act+PrsPrc:%>v^A x3_oblique ;
-+V+Pass+PrsPrc:t%>tt^Uv^A x3_oblique ;
++V+Act+PrsPrc:%>tev^A x3 ;
++V+Pass+PrsPrc:t%>tt^Uv^A x3 ;
 
 +V+Pass+Cond:t%>i4si K ;
 
@@ -513,9 +503,9 @@ LEXICON v5
 +V+Act+Ind+Prt+Pl2:t%>itt^A K ;
 +V+Act+Ind+Prt+Pl3:t%>it K ;
 
-+V+Der/minen:t%>^A xnen ;
++V+Der/minen:t%>^Ami xnen ;
 
-LEXICON v6
+LEXICON v6 ! paeta:pake
 +V+Inf:^WG%>t^A KK ;
 +V+Inf+Tra:^WG%>t^Akse PxK ;
 +V+InfE+Ins:^WG%>t^Aen K ;
@@ -527,9 +517,17 @@ LEXICON v6
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
 +V+Pass+Cond:%>ni4si K ;
+
+
++V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
++V+Act+PrfPrc:^WG%>^Nee x3_oblique ;
+!+V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
+!+V+Pass+PrfPrc:%>tee x3_oblique ;
+
++V+Act+PrsPrc:n%>ev^A x3 ;
++V+Pass+PrsPrc:^WGt%>t^Av^A x3 ;
+
 
 +V+Imprt+Sg2:^WG%>t^A # ;
 +V+Imprt+Sg:%>t^Akh^O^On # ;
@@ -551,7 +549,7 @@ LEXICON v6
 +V+Act+Ind+Prt+Pl2:n%>itt^A K ;
 +V+Act+Ind+Prt+Pl3:n%>it K ;
 
-+V+Der/minen:ne xnen ;
++V+Der/minen:nemi xnen ;
 
 
 
