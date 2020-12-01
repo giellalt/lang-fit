@@ -103,7 +103,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !! t rules
 
 "t:0"
-t:0 <=> i                  _  ä        %^WG:     ; ! pitä- : piän
+t:0 <=> i               (t)   _  [ä|a]        %^WG:     ; ! pitä- : piän, haitata
         VowelNotI        t _ e: h %> e           ;
        [VowelNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti ! Quant Grad. Note the h!
         VowelNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
@@ -361,8 +361,9 @@ h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
 
 "Alveolar assimilation for consonant stem s"
 !! __@RULENAME@__
-%^N:s <=> s: %> _ \%^A: ; ! kussut, kusta, pessyt, pestä
-
+%^N:t <=> s: %> _ \%^A:      ; ! kussut, kusta, pessyt, pestä
+          s  %> _ t     %^A: ; ! ehkästa
+	  
 "j:0 in front of i"
 !! __@RULENAME@__
 j:0 <=> l _ e: %^E2I:0 ;
@@ -588,9 +589,14 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !!€ puhu>^A
 !!€ puhu>a
 
+!!€ a
+!!€ b
+
 !!$ controlx
 !!$ testpair
 
+!!$ a
+!!$ a
 
 
 
