@@ -17,6 +17,7 @@ Multichar_Symbols
 +Interj  !!≈ * __@CODE@__ = Interjection
 +N       !!≈ * __@CODE@__ = Noun
 +Num     !!≈ * __@CODE@__ = Numerals
++Ord
 +Pcle    !!≈ * __@CODE@__ = Participle?
 +Po      !!≈ * __@CODE@__ = Postposition
 +Pr      !!≈ * __@CODE@__ = Preposition
@@ -145,6 +146,8 @@ Multichar_Symbols
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ = 
  +Der/A
++Der
++Der/s
 
  !! !!Clitic tags
  +Clt	    !!≈ * __@CODE@__ = 

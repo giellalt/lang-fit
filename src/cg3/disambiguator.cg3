@@ -323,6 +323,9 @@ SELECT:jälkhiin Adv IF (-1 Par)(0 ("jälkhiin"));
 
 SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);	
 
+REMOVE:ANotAdv Adv IF (0 A + $$CASE)(1 N + $$CASE) ;
+
+
 #!! !! Conjunctions
 
 REMOVE Prop IF (0 ("mutta"));
@@ -369,6 +372,8 @@ SELECT Inf IF (-1 AUX);
 #$ Hän sai kuula ette Jeesus oli tulemassa.
 
 #!! !!Present Sg3
+
+REMOVE:Sg3NotInf Inf IF (0 Sg3)(1 Inf);
 
 REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
@@ -535,17 +540,17 @@ REMOVE:errorth $$WORDLEMMA + (Err/Orth) (0 $$WORDLEMMA - (Err/Orth) ) ; #Removes
 AFTER-SECTIONS              #
 
 
-SUBSTITUTE (A) (A <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (N) (N <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Adv) (Adv <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (V) (V <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Num) (Num <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Interj) (Interj <fkv>) WORD ;  #RemoveFromApertium
-SUBSTITUTE (Po) (Po <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pr) (Pr <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pron) (Pron <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CC) (CC <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (CS) (CS <fkv>) WORD ; #RemoveFromApertium
-SUBSTITUTE (Pcle) (Pcle <fkv>) WORD ; #RemoveFromApertium
+SUBSTITUTE (A) (A <fit>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (N) (N <fit>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Adv) (Adv <fit>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (V) (V <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Num) (Num <fit>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Interj) (Interj <fit>) WORD ;  #RemoveFromApertium
+SUBSTITUTE (Po) (Po <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pr) (Pr <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pron) (Pron <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CC) (CC <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (CS) (CS <fit>) WORD ; #RemoveFromApertium
+SUBSTITUTE (Pcle) (Pcle <fit>) WORD ; #RemoveFromApertium
 
 
