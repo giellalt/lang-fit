@@ -31,9 +31,9 @@ FrontVowel     = e i y ä ö         ü  æ  ø     ;                     !!= * 
 BackVowel      =           a o u å             ;                     !!= * @CODE@ 
 RoundedVowel   =     y   ö   o u å             ;                     !!= * @CODE@ 
 UnroundedVowel = e i   ä   a                   ;                     !!= * @CODE@ 
-VowelNotUY     = e i   ä ö a o   å ü  æ  ø     ;                       !!= * @CODE@ 
-VowelNotI      = e   y ä ö a o u å ü  æ  ø     ;                       !!= * @CODE@ 
-VowelNotEI     =     y ä ö a o u å ü  æ  ø     ;                       !!= * @CODE@ 
+VowelNotUY     = e i   ä ö a o   å ü  æ  ø     ;                     !!= * @CODE@ 
+VowelNotI      = e   y ä ö a o u å ü  æ  ø     ;                     !!= * @CODE@ 
+VowelNotEI     =     y ä ö a o u å ü  æ  ø     ;                     !!= * @CODE@ 
 Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE@ 
 ArchiCns       = %^N ;                                               !!= * @CODE@
 LNRM           = l n r m ;                                           !!= * @CODE@
@@ -589,15 +589,9 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !!€ puhu>^A
 !!€ puhu>a
 
-!!€ a
-!!€ b
 
-!!$ controlx
-!!$ testpair
-
-!!$ a
-!!$ a
-
+!!$ katto^WG
+!!$ katto0
 
 
 
