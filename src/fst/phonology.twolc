@@ -103,7 +103,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !! t rules
 
 "t:0"
-t:0 <=> i               (t)   _  [ä|a]        %^WG:     ; ! pitä- : piän, haitata
+t:0 <=> i            (t)   _  [ä|a]        %^WG:     ; ! pitä- : piän, haitata
         VowelNotI        t _ e: h %> e           ;
        [VowelNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti ! Quant Grad. Note the h!
         VowelNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
@@ -135,6 +135,18 @@ t:n <=> Vow n _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 "t:s"
 t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
         [Vow - i] ([l|n|r]) _  :i %^E2I: .#. ;
+
+        Vow n  _        e:0                    %> i2: [.#.|%> Cns] ; ! fkv
+ Vow ([n|l|r]) _ (:s)   e:   %^E2I: ;                       ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+ Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
+ Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) *)
+ Vow ([n|l|r]) _        e:0 (%^AO:0) %^HMETA:0 %> h :i ;    ! jok uushiin
+ [i|u|y|ö] [e|u|y] _ (:s) Vow:0      (%^AO:0)  %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi)
+ Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
+ Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
+             i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
+! Vow [n|l|r]   _  :s   e:0                      %> i2:i %> %^V: ; ! hirssii
+!Vow [n|l|r]   _     Vow:0  (%^WG:0) (%^E2I:) %> i2: ; ! hirsiksi, hirsi (pl - gen par)
 
 !!€ vete^E2I
 !!€ vesi0
