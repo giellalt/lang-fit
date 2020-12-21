@@ -39,6 +39,53 @@ Multichar_Symbols
 +Indef     !!≈ * __@CODE@__ = Indefinitue
 +Qu        !!≈ * __@CODE@__ = Hmm, Question?? Interr? Check this.
 
++CLBfinal
++Coll
++Err/Hyph
++Err/SpaceCmp
++LEFT
++MWE
++OLang/NOB
++RIGHT
++Sem/Amount
++Sem/Build
++Sem/Build-room
++Sem/Cat
++Sem/Curr
++Sem/Date
++Sem/Domain
++Sem/Domain_Hum
++Sem/Dummytag
++Sem/Edu_Hum
++Sem/Event
++Sem/Food-med
++Sem/Group_Hum
++Sem/Hum
++Sem/ID
++Sem/Lang
++Sem/Mat
++Sem/Measr
++Sem/Money
++Sem/Obj-el
++Sem/Obj-ling
++Sem/Org_Prod-audio
++Sem/Org_Prod-vis
++Sem/Part
++Sem/Prod-vis
++Sem/Route
++Sem/Rule
++Sem/Sign
++Sem/State
++Sem/State-sick
++Sem/Substnc
++Sem/Time
++Sem/Time-clock
++Sem/Tool-it
++Sem/Txt
++Sem/Veh
+@D.ErrOrth.ON@
+@P.ErrOrth.ON@
+
 
 +ABBR
 +ACR
