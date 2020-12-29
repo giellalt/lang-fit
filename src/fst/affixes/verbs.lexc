@@ -175,17 +175,38 @@ LEXICON v2 ! huomata, ymmärtää
 +V+Der/minen:%>^A^Ami xnen ;
 
 
+LEXICON SYA ! syä, myä
++V+Inf:%>ä KK ;
++V+Inf:y%>ä KK ;
++V+Inf:y%>jä KK ;
++V+Inf+Tra:%>^Akse PxK ;
++V+InfE+Ins:ö%>en K ; ! xxx
++V+InfE+Ine:ö%>ess^A K ;
+:ö v3 ;
+
+LEXICON JUA
++V+Inf:%>a KK ;
++V+Inf:o%>a KK ;
++V+Inf:o%>ja KK ;
++V+Inf+Tra:%>j^Akse PxK ;
++V+InfE+Ins:%>jen K ;
++V+InfE+Ine:%>jess^A K ;
+:o v3 ;
+
+
+LEXICON v3_j
++V+Inf:%>j^A KK ;
++V+Inf+Tra:%>j^Akse PxK ;
++V+InfE+Ins:%>jen K ;
++V+InfE+Ine:%>jess^A K ;
+v3 ;
 
 LEXICON v3
-+V+Inf:%>d^A KK ;
-+V+Inf+Tra:%>d^Akse PxK ;
-+V+InfE+Ins:%>den K ;
-+V+InfE+Ine:%>dess^A K ;
 +V+InfMa: 3infcase ;
 
 +V+Pass+Ind+Prs:%^WG%>dh^A^An K ;
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
-+V+Pass+Ind+Prs+ConNeg:%>dt^A K ;
++V+Pass+Ind+Prs+ConNeg:%>^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
@@ -410,8 +431,8 @@ LEXICON v4
 
 
 LEXICON v4_3la ! varjela:varjel
-+V+Inf:%>^A KK ;
-+V+Inf+Tra:%>^Akse PxK ;
++V+Inf:^WG%>^A KK ;
++V+Inf+Tra:^WG%>^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
 +V+InfMa:e 3infcase ;
@@ -460,7 +481,51 @@ LEXICON v4_3la ! varjela:varjel
 
 
 LEXICON v4_4lla
-v4 ;
++V+Inf:^WG%>l^A KK ;
++V+Inf+Tra:^WG%>l^Akse PxK ;
++V+InfE+Ins:en K ;
++V+InfE+Ine:e%>ss^A K ;
++V+InfMa:e 3infcase ;
+
++V+Pass+Ind+Prs:%>%^Nh^A^An K ;
++V+Pass+Ind+Prt:%>thiin K ;
++V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
++V+Pass+Ind+Prt+ConNeg:%>t^U K ;
+
++V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
++V+Act+PrfPrc:%>^Nee x3_oblique ;
++V+Pass+PrfPrc:^WG%>t^U x3_oblique ;
+
++V+Act+PrsPrc:e%>v^A x3 ;
++V+Pass+PrsPrc:%>t^Uv^A x3_oblique ;
+
++V+Pass+Cond:%>i4si K ;
+
++V+Act+Ind+Prs+ConNeg:e K ;
++V+Imprt+Sg2:e # ;
++V+Imprt+Sg:%>kh^O^On # ;
++V+Imprt+Pl2:%>kh^A^A # ;
++V+Imprt+Pl3:%>kh^O^Ot # ;
+
++V+Act+Ind+Prs+Sg1:e%>n K ;
++V+Act+Ind+Prs+Sg2:e%>t K ;
++V+Act+Ind+Prs+Sg3:e%>e K ;
++V+Act+Ind+Prs+Pl1:e%>m^A K ;
++V+Act+Ind+Prs+Pl2:e%>tt^A K ;
++V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
++V+Act+Ind+Prs+Pl3+Err/Orth:e%>v^At K ; ! K&P p. 95.  without -t
+
++V+Act+Ind+Prt+Sg1:%>i3n K ;
++V+Act+Ind+Prt+Sg2:%>i3t K ;
++V+Act+Ind+Prt+Sg3:%>i3 K ;
++V+Act+Ind+Prt+Pl1:%>i3m^A K ;
++V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
++V+Act+Ind+Prt+Pl3:%>i3t K ;
+
++V+Der/minen:emi xnen ;
+
+
 
 
 
