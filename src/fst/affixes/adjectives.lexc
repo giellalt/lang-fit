@@ -8,6 +8,12 @@ LEXICON a1
 +A+Comp: 3comp ;
 +A+Superl:ime 3sup ;
 
+
+LEXICON a2
++A: x2 ;
++A+Comp: 4comp ;
++A+Superl:ime 4sup;
+
 LEXICON a3 
 +A: x3 ;
 +A+Comp: 4comp ;
