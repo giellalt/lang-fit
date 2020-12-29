@@ -127,17 +127,17 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i       WeakGrade ;
 !!€ hoijo0>n
 
 "t:r"
-t:r <=> Vow r _ :Vow WeakGrade %> [\i2:i|i3:i] ;
+t:r <=> Vow r _ :Vow WeakGrade [%> [\i2:i|i3:i]|.#.] ;
 
 "t:l"
-t:l <=> Vow l _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
+t:l <=> Vow l _ :Vow WeakGrade [%> [\i2:i|\i3:i]|.#.] ;
 
 "t:n"
-t:n <=> Vow n _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
+t:n <=> Vow n _ :Vow WeakGrade [%> [\i2:i|\i3:i]|.#.] ;
 
 "t:s"
 t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
-        [Vow - i] ([l|n|r]) _  :i %^E2I: .#. ;
+        [Vow - i] ([l|n|r]) _ e: %^E2I: .#. ;
 ! Rest of rule from fkv:
         Vow n  _        e:0                    %> i2: [.#.|%> Cns] ; ! fkv
  Vow ([n|l|r]) _ (:s)   e:   %^E2I: ; ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
@@ -148,8 +148,6 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
  Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
  Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
              i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
-! Vow [n|l|r]  _  :s   e:0                      %> i2:i %> %^V: ; ! hirssii
-!Vow [n|l|r]   _     Vow:0  (%^WG:0) (%^E2I:) %> i2: ; ! hirsiksi, hirsi (pl - gen par)
 
 !!€ vete^E2I
 !!€ vesi0
@@ -462,7 +460,7 @@ e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
 
 
 "e:i"
-e:i <=> _ %^E2I: ;
+e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ %^E2I: ;
 
 !!€ ove^E2I
 !!€ ovi0
