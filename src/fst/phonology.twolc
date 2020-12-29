@@ -46,7 +46,7 @@ NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy 
 !! !!!Definitions
 Definitions
 
-WeakGrade = (%^AE:) %^WG: ;
+WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
 
 
 !! !!!Rules 
@@ -58,8 +58,8 @@ Rules
 !! p rules
 
 "p:0"
-p:0 <=> [Vow|l|n|r] p _ Vow: WeakGrade ; 
-         Vow p _ e: h %> e ;
+p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; 
+                Vow p _ e: h %> e ;
 
 !!€ appi^WG
 !!€ ap0i0
@@ -103,22 +103,25 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !! t rules
 
 "t:0"
-t:0 <=> i            (t)   _  [ä|a]        %^WG:     ; ! pitä- : piän, haitata
+t:0 <=> i            (t)   _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
         VowelNotI        t _ e: h %> e           ;
-       [VowelNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti ! Quant Grad. Note the h!
+       [VowelNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti Quant Grad. Note h!
         VowelNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
-       [ä|e]               _  i        WeakGrade ; ! x
+       [ä|e]               _  i        WeakGrade ; !
+       Vow:+ Cns:+ i t     _ Vow:+ WeakGrade ; ! esitellä
 
 !!€ motti^WG
 !!€ mot0i0
+
 !!€ tehta^WGs
 !!€ teh0a0s
+
 !!€ pitä^WG>t
 !!€ pi0ä0>t
 
 "t:j"
-t:j <=> i _ i     WeakGrade ;
-        i _ [a|o|u] WeakGrade ;
+t:j <=> [.#.|#:] Cns:* Vow:* i _ i       WeakGrade ;
+        [.#.|#:] Cns:* Vow:* i _ [o|u] WeakGrade ;
 
 !!€ hoito^WG>n
 !!€ hoijo0>n
@@ -135,9 +138,9 @@ t:n <=> Vow n _ :Vow WeakGrade %> [\i2:i|\i3:i] ;
 "t:s"
 t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
         [Vow - i] ([l|n|r]) _  :i %^E2I: .#. ;
-
+! Rest of rule from fkv:
         Vow n  _        e:0                    %> i2: [.#.|%> Cns] ; ! fkv
- Vow ([n|l|r]) _ (:s)   e:   %^E2I: ;                       ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+ Vow ([n|l|r]) _ (:s)   e:   %^E2I: ; ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
  Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc. | vuossii(n) | uusia] ! uusine
  Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) *)
  Vow ([n|l|r]) _        e:0 (%^AO:0) %^HMETA:0 %> h :i ;    ! jok uushiin
@@ -145,7 +148,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
  Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
  Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
              i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
-! Vow [n|l|r]   _  :s   e:0                      %> i2:i %> %^V: ; ! hirssii
+! Vow [n|l|r]  _  :s   e:0                      %> i2:i %> %^V: ; ! hirssii
 !Vow [n|l|r]   _     Vow:0  (%^WG:0) (%^E2I:) %> i2: ; ! hirsiksi, hirsi (pl - gen par)
 
 !!€ vete^E2I
@@ -371,10 +374,18 @@ h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
 !! __@RULENAME@__
 %^N:r <=> r: %> _ ;
 
-"Alveolar assimilation for consonant stem s"
+"Alveolar assimilation for consonant stem s in infinitives"
 !! __@RULENAME@__
-%^N:t <=> s: %> _ \%^A:      ; ! kussut, kusta, pessyt, pestä
-          s  %> _ t     %^A: ; ! ehkästa
+%^N:t <=> s %> _ [%^A:|%^U: [.#.|%>]] ; ! kusta, pestä, kustu, pesty
+
+!!€ häris>^N^A
+!!€ häris>tä
+
+"Alveolar assimilation for consonant stem s in participles"
+!! __@RULENAME@__
+%^N:s <=> s %> _ %^U: t ; ! kussut, pessyt
+          s %> _ e ;      ! kusseet (?)
+
 	  
 "j:0 in front of i"
 !! __@RULENAME@__
@@ -405,13 +416,15 @@ a:e <=> _ %^AE: ;
 !a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
 !        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
 !        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
-a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
-        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
-        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; 
+a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
+        [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
+        [.#.|#] Cns:*            Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
+!        [.#.|#] Cns:* Vow:+             Cns:+  Vow Cns:+            _ (%^WG:) %> [i2:|i3:|j] ; 	
 !!€ laatia>i2tten
 !!€ laatio>itten
 
-
+!!€ fankila>i2ss^A
+!!€ fankilo>issa
 
 !! ! ä rules
 
@@ -439,9 +452,9 @@ a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) 
 "e:0"
 e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
               _ %^HMETA: ;
-         k: s _ [.#.|#|t] ;
-Vow [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
-Vow [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
+!     k: s _ [.#.|#|t] ; ! look at this
+[.#.|#:] Cns:* Vow:+ [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
+[.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
          Cns: _ (WeakGrade) %> [i2:|i3:|i4:] ;
  
 !!€ tule^WG>i2ss^A
@@ -601,6 +614,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !!€ puhu>^A
 !!€ puhu>a
 
+!!€ hinkka^WG>t^A
+!!€ hink0a0>ta
 
 !!$ katto^WG
 !!$ katto0
