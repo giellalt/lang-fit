@@ -19,8 +19,11 @@ LEXICON a4
 LEXICON anen
 +A: xnen ;
 
+LEXICON aas
++A: xnas ;
+
 LEXICON a1_ton
-x1_ton ;
++A: x1_ton ;
 
 LEXICON x1_ton
  +Sg+Nom:%>^On       K ;
