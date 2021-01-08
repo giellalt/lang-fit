@@ -28,7 +28,7 @@ LEXICON n1
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
-LEXICON n1_pl
+LEXICON n1_pl ! urut
  +N: x1_pl ;
 
 LEXICON x1
@@ -72,6 +72,9 @@ LEXICON n2 ! vene
  +N+Nom: R ;
  +N+Gen:he%>en R ;
 
+LEXICON n2_pl ! vehkheet
+ +N: x2_pl ;
+ 
 LEXICON x2
  x2_sg ;
  x2_pl ;
@@ -92,7 +95,8 @@ LEXICON x2_sg
  +Sg+Abe:%>ett^A PxK ;
 
 LEXICON x2_pl 
- +Pl+Nom:h%>et     PxK ;
+ +Pl+Nom:h%>eet     K ;
+ +Pl+Nom:h%>ee      Px ;
  +Pl+Gen:h%>eitten   PxK ;
  +Pl+Gen:h%>ejen   PxK ;
  +Pl+Par:h%>ej^A   PxK ;
@@ -111,11 +115,14 @@ LEXICON 3nc
  +N:i x3_oblique_sg ; ! jiddischin
  +N:i x3_pl ;         ! jiddischit
  
-LEXICON n3
+LEXICON n3 ! kanava
  +N: x3 ;
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
 
+LEXICON n3_pl ! haalarit
+ +N: x3_pl ;
+ 
 LEXICON x3
  x3_sg ;
  x3_pl ;
@@ -162,6 +169,9 @@ LEXICON n4
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
 
+LEXICON n4_pl
+ +N: x4_pl ;
+ 
 LEXICON x4 ! veri
 x4_sg ;
 x4_pl ;
@@ -505,35 +515,6 @@ LEXICON 3n_lnr
  +N+Pl+Tra: TRA ;
  +N+Pl+Ess:%>in^A PxK ;
  
-
-LEXICON ime
-+N: xime ;
- +N+Sg+Nom:n R ;
- +N+Sg+Gen:me%>n R ;
-
-LEXICON xime
- +Sg+Par:n%>t^A PxK ;
- +Sg+Ill:m^HMETA%>hee n_PxK ;
- +Sg+Ine:me%>ss^A PxK ;
- +Sg+Ela:me%>st^A PxK ;
- +Sg+All:me%>lle PxxK ;
- +Sg+Ade:me%>ll^A PxK ;
- +Sg+Abl:me%>lt^A PxK ;
- +Sg+Abe:me%>tt^A PxK ;
- +Sg+Tra:me TRA ;
- +Sg+Ess:me%>n^A PxK ;
- 
- +Pl+Nom:me%>t PxK ;
- +Pl+Gen:me%>i2den PxK ;
- +Pl+Par:me%>i2t^A PxK ;
- +Pl+Ill:me^HMETA%>h^Vi n_PxK ;
- +Pl+Ine:me%>i2ss^A PxK ;
- +Pl+Ela:me%>i2ss^A PxK ;
- +Pl+All:me%>i2lle PxxK ;
- +Pl+Ade:me%>i2ll^A PxK ;
- +Pl+Abl:me%>i2lt^A PxK ;
- +Pl+Tra:me TRA ;
- +Pl+Ess:me%>n^A PxK ;
 
 
 
