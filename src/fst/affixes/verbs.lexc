@@ -2,29 +2,29 @@
 
 !! This is the file for Meänkieli verb morphology.
 
-! Irregular verbs
-! Regular verbs
-! v1 = antaa; sanoa:sano
-! v2 = huomata
-! v3 = syö'ä:syö ! ', ’
-! v4 = nousta; tulla:tul
-! v4_3la = varjella, varjelee
-! v4_4lla = ajatella, ajattellee
-! v2 = tryykätä:tryykkä
-! v5 = tarvita:tarv
-! v6 = paeta:pake
-! v_vanheta = vanheta
-! vx = unassigned
+!! * Irregular verbs
+!! * Regular verbs
+!! * v1 = antaa; sanoa:sano
+!! * v2 = huomata
+!! * v3 = syö'ä:syö ! ', ’
+!! * v4 = nousta; tulla:tul
+!! * v4_3la = varjella, varjelee
+!! * v4_4lla = ajatella, ajattellee
+!! * v2 = tryykätä:tryykkä
+!! * v5 = tarvita:tarv
+!! * v6 = paeta:pake
+!! * v_vanheta = vanheta
+!! * vx = unassigned
 
-! v_tehha
-! v_nahha
+!! * v_tehha
+!! * v_nahha
 
 LEXICON vx
 v1 ; ! vx
 
 !! !! Irregular verbs
 
-LEXICON OLLA
+LEXICON OLLA !!= * __@CODE@__
 +V+Inf:olla KK ;
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
@@ -73,7 +73,7 @@ LEXICON OLLA
 ! ! Derivation
 +V+Der/minen:olemi xnen ;
 
-LEXICON NEG
+LEXICON NEG  !!= * __@CODE@__
 +V+Neg+Act+Prs+Sg1:en NEGK ;
 +V+Neg+Act+Prs+Sg2:en NEGK ;
 +V+Neg+Act+Prs+Sg3:ei NEGK ;
@@ -85,7 +85,7 @@ LEXICON NEG
 
 !! !! Regular verbs
 
-LEXICON v1 ! sanoa, lukea, antaa
+LEXICON v1  !!= * __@CODE@__ sanoa, lukea, antaa
 +V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
@@ -132,7 +132,7 @@ LEXICON v1 ! sanoa, lukea, antaa
 ! ! Derivation
 +V+Der/minen:mi xnen ;
 
-LEXICON v2 ! huomata, ymmärtää
+LEXICON v2  !!= * __@CODE@__ huomata, ymmärtää
 +V+Inf:^WG%>t^A K ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
@@ -175,35 +175,40 @@ LEXICON v2 ! huomata, ymmärtää
 +V+Der/minen:%>^A^Ami xnen ;
 
 
-LEXICON SYA ! syä, myä
+LEXICON SYA  !!= * __@CODE@__ syä, myä
 +V+Inf:%>ä KK ;
 +V+Inf:y%>ä KK ;
 +V+Inf:y%>jä KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:ö%>en K ; ! xxx
 +V+InfE+Ine:ö%>ess^A K ;
-:ö v3 ;
+:ö v3_other ;
 
-LEXICON JUA
+LEXICON JUA  !!= * __@CODE@__
 +V+Inf:%>a KK ;
 +V+Inf:o%>a KK ;
 +V+Inf:o%>ja KK ;
 +V+Inf+Tra:%>j^Akse PxK ;
 +V+InfE+Ins:%>jen K ;
 +V+InfE+Ine:%>jess^A K ;
-:o v3 ;
+:o v3_other ;
 
 
-LEXICON v3_j
+LEXICON v3_j  !!= * __@CODE@__
 +V+Inf:%>j^A KK ;
 +V+Inf+Tra:%>j^Akse PxK ;
 +V+InfE+Ins:%>jen K ;
 +V+InfE+Ine:%>jess^A K ;
-v3 ;
+v3_other ;
 
-LEXICON v3
+LEXICON v3  !!= * __@CODE@__
+v3_inf ;
+v3_other ;
+
+LEXICON v3_inf
 +V+InfMa: 3infcase ;
 
+LEXICON v3_other
 +V+Pass+Ind+Prs:%^WG%>dh^A^An K ;
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>^A K ;
@@ -383,7 +388,7 @@ LEXICON v3tehda !!= @CODE@ tehđä:te from fkv
 
 
 
-LEXICON v4
+LEXICON v4  !!= * __@CODE@__
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:en K ;
@@ -430,7 +435,7 @@ LEXICON v4
 
 
 
-LEXICON v4_3la ! varjela:varjel
+LEXICON v4_3la  !!= * __@CODE@__ varjela:varjel
 +V+Inf:^WG%>^A KK ;
 +V+Inf+Tra:^WG%>^Akse PxK ;
 +V+InfE+Ins:en K ;
@@ -480,7 +485,7 @@ LEXICON v4_3la ! varjela:varjel
 
 
 
-LEXICON v4_4lla
+LEXICON v4_4lla  !!= * __@CODE@__
 +V+Inf:^WG%>l^A KK ;
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:en K ;
@@ -531,7 +536,7 @@ LEXICON v4_4lla
 
 
 
-LEXICON v5 ! kehitä:kehi
+LEXICON v5 !!= * __@CODE@__  kehitä:kehi  
 +V+Inf:t%>^A KK ;
 +V+Inf+Tra:t%>^Akse PxK ;
 +V+InfE+Ins:t^A%>en K ;
@@ -629,10 +634,10 @@ LEXICON v6 !!= * __@CODE@__ =  paeta:pake
 +V+Der/minen:nemi xnen ;
 
 
-!! !Subparadigms
-!! Conditional forms
+!! !!Subparadigms
+!! !Conditional forms
 
-LEXICON 2cond
+LEXICON 2cond !!= __@CODE@__ kehitä:kehi  
 +Sg1:v%>i4sin K ; ! kävisin
 +Sg2:v%>i4sit K ;
 +Sg3:v%>i4s K ;
@@ -645,7 +650,7 @@ LEXICON 2cond
 
 
 
-!! Infinitive paradigms
+!! !Infinitive paradigms
 
 LEXICON 3infcase
 +Ill:%>hm^A^An K ; ! also mh if short preceeding vow
