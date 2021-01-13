@@ -42,6 +42,8 @@ LIST Pr = Pr ;  #!! * Pr = preposition
 LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
+LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ;
+
 LIST CLB = CLB ;
 LIST CLBfinal = CLBfinal ; # because common num
 LIST PUNCT = PUNCT ;
@@ -49,12 +51,14 @@ LIST Prs = Prs ;
 LIST Prt = Prt ;
 LIST Act = Act ;
 LIST Pass = Pass ;
+LIST Ind = Ind ;
 
 LIST Attr = Attr ; # ?
 
 #!! !Numerus
 LIST Sg = Sg ;   #!! * Sg = Singular
 LIST Pl = Pl ;   #!! * Pl = Plural
+LIST NUMBER = Sg Pl ;
 LIST Sg1 = Sg1 ;   #!! * Sg1 = Singular 1.p.
 LIST Sg2 = Sg2 ;   #!! * Sg2 = Singular 2.p.
 LIST Sg3 = Sg3 ;   #!! * Sg3 = Singular 3.p.
@@ -102,6 +106,7 @@ LIST Qu = Qu ;
 LIST Inf = Inf ; #!! * Inf = Infinitive
 LIST ConNeg = ConNeg ; #!! * ConNeg = Conjugated as Negative form
 LIST PrfPrc = PrfPrc ;  #!! * PrfPrc = Perfectum Particip
+LIST PrsPrc = PrsPrc ; #!! * PrsPrc = persent Participle
 LIST Imprt = Imprt ; #!! * Imprt = Imperative
 LIST Act = Act ; #!! * Act = Active
 LIST Neg = Neg ; #!! * Neg = Negation verb
@@ -260,6 +265,10 @@ MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 #!! !!Case rules
 
 #!! !Partitive
+
+REMOVE:SgPar Pl + Par IF (-1 Num + Sg)(0 Sg + Par);
+REMOVE:PlPar Sg + Par IF (-1C Pl + Par)(0 Pl + Par);
+
 REMOVE:vasthaan Nom IF (0 Par)(1 ("vasthaan"));
 #$ Eesau juoksi häntä vastaan.
 
@@ -326,6 +335,9 @@ SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);
 REMOVE:ANotAdv Adv IF (0 A + $$CASE)(1 N + $$CASE) ;
 
 
+#!! !! Adjectives
+
+REMOVE:AdjNotN N + $$NUMBER + $$CASE IF (0 A + $$NUMBER + $$CASE) (1 N + $$NUMBER + $$CASE);
 #!! !! Conjunctions
 
 REMOVE Prop IF (0 ("mutta"));
@@ -333,6 +345,8 @@ REMOVE Prop IF (0 ("mutta"));
 #!! !!Subjunctions
 REMOVE:CS CC IF (-1 BOS OR CC)(0 CS);
 #$ Jos mie nyt olen...
+
+REMOVE:CSnotCC CC IF (NOT -1 $$POS LINK 2 $$POS);
 
 #!! jos
 REMOVE:josNotCC CC IF (0 ("jos" CS));
@@ -358,6 +372,7 @@ REMOVE:Pers Dem IF (0 Pers)(NOT 1 NPMOD OR N);
 
 REMOVE:Rel Interr IF (0 Rel)(-1 N);
 REMOVE:Interr Rel IF (0 Interr)(-1 V);
+REMOVE:RelNotInterr Interr IF (0 Rel)(NOT *1 ("?" CLB));
 REMOVE:RelNotQu Qu IF (0 Rel)(1 V);
 
 SELECT:koko Pron IF (0 ("koko"))(1 N);
@@ -368,17 +383,21 @@ REMOVE Attr IF (NOT 1 N);
 
 #!! !Infinitive
 
-SELECT Inf IF (-1 AUX);
+SELECT:InfAfterInd Inf IF (-1C Ind);
 #$ Hän sai kuula ette Jeesus oli tulemassa.
 
 #!! !!Present Sg3
 
+REMOVE:InfNotSg3 Inf IF (-1C N + Sg + Nom OR Pron + Sg + Nom)(0 Prs + Sg3);
 REMOVE:Sg3NotInf Inf IF (0 Sg3)(1 Inf);
 
 REMOVE Imprt IF (-1 Sg + Nom)(0 Prs + Sg3) ;
 
 REMOVE N IF (-1 Sg + Nom)(0 ("vastata") + Sg3) ;
 
+#!! !!Present Pl3 or PrsPrc
+
+REMOVE:PrsPrcNotPl3 Pl3 IF (0 PrsPrc + Sg + Nom)(1 Sg + Nom);
 #!! !!Present Pl3 or Passive
 
 REMOVE:Pl3NotPass Pass IF (0  Pl3)(*0 Pl3 + Nom OR Pl + Nom);
@@ -430,6 +449,18 @@ SELECT:Sg3ollainpretandperf Sg3 IF (0 COPULAS LINK 1 Ade LINK *1 Nom OR Par BARR
 # ... mihin oon meininki lähteet?
 # Meilä oon vielä vaapa sija.
 
+
+#!! !!Past tense
+
+#!! !Prt Pl3 or Prt Sg2
+
+REMOVE:PrtPl3NotSg2 Sg2 IF (-1 (Pl Nom))(0 (Act Ind Prt Pl3));
+		    ## Net tulit.
+
+REMOVE:PrtSg2NotPl3 Pl3 IF (-1 ("sie"))(0 (Act Ind Prt Sg2));
+		    ## Sie tulit.
+
+#!! !!! Relative pronouns
 
 #!! * __Relpronandnotintterpron__ selects Rel Sg if Interr
 SELECT:Relpronandnotintterpron Relpronsg IF (0 Interr)(*-1 N + Sg OR Pron + Sg OR Pron + Sg3 BARRIER WORD - CC) (NEGATE *1 ("?") BARRIER S-BOUNDARY) ;
