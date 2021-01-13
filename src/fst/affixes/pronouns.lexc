@@ -320,8 +320,8 @@ LEXICON toisen
 
 
 LEXICON joku_indef
-sgjoku_indef ;
-pljoku_indef ;
++Pron+Sg: sgjoku_indef ;
++Pron+Pl: pljoku_indef ;
 
 LEXICON sgjoku_indef
 +Nom:ku K ;
