@@ -129,6 +129,7 @@ Take nothing at face value!
  * __+Clt	__ = 
  * __+Qst	__ = 
  * __+Foc/han__ = 
+ * __+Foc/ka__ = sjekk denne xxx
  * __+Foc/kaan__ = 
  * __+Foc/kin__ = 
  * __+Foc/pa__ = 
@@ -158,6 +159,7 @@ Take nothing at face value!
  * __p2 			__ = always p
  * __t2 			__ = always t, cf. katt2oma always tt, underlying -ts-
  * __t3 			__ = t participating in gradation, but not in t:s
+ * __t4 			__ = t alternating with 0 in lnr+t : lnr (imarella)
  * __k2 			__ = always k
  * __%^A 		__ = Vowel harmony a/ä
  * __%^O		__ = Vowel harmony o/ö
