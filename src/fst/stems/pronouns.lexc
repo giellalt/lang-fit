@@ -69,7 +69,6 @@ harva+Pron:pron pron_x1 ;
 
 kullaki pronx ;
 kumpiki pronx ;
-kaikki pronx ;
 kuki pronx ;
 moni pronx ;
 ken pronx ;
@@ -77,13 +76,8 @@ meikäläinen+Pron+Indef:meikäläi toisen ;
 sellainen+Pron+Indef:sellai toisen ;
 mikhään pronx ;
 kumpiko pronx ;
-tuo pronx ;
 molemat pronx ;
 nuot pronx ;
-muut pronx ;
 muu:mu MUU ;
-sillä pronx ;
 mä pronx ;
-tämä pronx ;
-mitä pronx ;
-sitä pronx ;
+
