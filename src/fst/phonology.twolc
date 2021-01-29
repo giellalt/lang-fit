@@ -480,9 +480,12 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 !! ! ä rules
 
 "ä:0"
-ä:0 <=> [.#.|#] Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
+ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
                                   _ %^HMETA:            ; ! before metathesis h
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
+
+!!€ sytyttä^WG>i3n
+!!€ sytyt000>in
 
 !!€ päivä>i2ss^A
 !!€ päiv0>issä
@@ -630,7 +633,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 "ä copying for h metathesis"
 %^V:ä <=> ä: %^HMETA: %> h:    _ :ä ;
           ä: %^HMETA: %> h: :ä _    ;
-          á           %>       _ [n|t|%>|.#.] ;
+          ä           %>       _ [n|t|%>|.#.] ;
           
 "e copying for h metathesis"
 %^V:e <=> e: %^HMETA: %> h:    _ :e ;
