@@ -817,6 +817,7 @@ MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 #!! !Partitive
 
 REMOVE:SgPar Pl + Par IF (-1 Num + Sg)(0 Sg + Par);
+REMOVE:SgParSub Pl + Par IF (-1/* Num + Sg)(0 Sg + Par);
 REMOVE:PlPar Sg + Par IF (-1C Pl + Par)(0 Pl + Par);
 
 
@@ -1166,6 +1167,12 @@ IFF:Imperativefromconneg ConNeg IF (0 Imprt)(*-1 Neg BARRIER WORD - Foc/kaan - A
 REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Adv) ;
 	#$ Ei yksikhään niistä jokka mie olin kuttunu.
 
+
+# NP structure
+
+# Attr
+SELECT:AttrAttr Attr IF (1 Attr)
+       ## P. A. Munch. ja E. N. Setälä
 
 #SELECT:congruencebetweennounandverb  IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
 #$ Mikä oon sinun meininki näissä kaikissa ihmissä tässä joukossa mikä oon sinun matkassa ...
