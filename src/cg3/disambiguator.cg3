@@ -1171,7 +1171,7 @@ REMOVE:ImperativeafterNeg Imprt IF (0 Pron)(*-1 Neg BARRIER WORD - Foc/kaan - Ad
 # NP structure
 
 # Attr
-SELECT:AttrAttr Attr IF (1 Attr)
+SELECT:AttrAttr Attr IF (1 Attr) ;
        ## P. A. Munch. ja E. N. Setälä
 
 #SELECT:congruencebetweennounandverb  IF (-1 N OR 1 N LINK V) (NEGATE -1 Dem) ;
