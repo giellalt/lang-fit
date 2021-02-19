@@ -65,6 +65,9 @@ LEXICON 3p_org_41
 LEXICON 3p_org_ks 
 +N+Prop+Sem/Org: xn_ks_sg ;
 
+LEXICON 3p_mal_ks 
++N+Prop+Sem/Mal: xn_ks_sg ;
+
 LEXICON 3p_plc_1 
 +N+Prop+Sem/Plc: p_adhoc ;
 
