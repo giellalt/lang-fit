@@ -1,9 +1,10 @@
-# cat fkvtext_analysed.txt | lookup2cg | vislcg3 -g disambiguation.cg3 -t
-# echo 'sentence' | preprocess | lookup -flags mbTT 1.fst | lookup2cg|vislcg3 -g ../../syntax/1_disambiguation.cg3
+# Usage:
+# cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3
 
-#   ============================ #
-#!! !!!Start making a syntactic disambiguator
-#   ============================ #
+
+#   ================================= #
+#!! !!! Disambiguator for Meänkieli
+#   ================================= #
 
 #!! !!Sets
 
@@ -57,7 +58,8 @@ LIST Ind = Ind ;
 LIST Act = Act ;
 LIST Pass = Pass Pss ;
 LIST ActPass = Act Pass Pss ;
-LIST Abbr = Abbr ;
+LIST ABBR = ABBR ;
+LIST Abbr = Abbr ABBR ;
 LIST Refl = Refl ;
 LIST PrsPrc = PrsPrc ;
 
@@ -123,6 +125,10 @@ LIST Tra = Tra ;   #!! * Tra
 LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
+
+LIST ADVLCASE = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;
+LIST ADVLCASEAdv = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com Adv ;
+LIST LOCCASE = Ine Ill Ela Ade All Abl ;
 
 LIST CASE = Nom Gen Acc Par Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;	
 LIST Pos = Pos ;	
@@ -312,9 +318,17 @@ LIST PX = PxSg1  PxSg2  PxSg3  PxPl1  PxPl2  PxPl3 ;
 LIST COMMA = "," ; #!! * COMMA = comma
 LIST COLON = ":" ;
 LIST Punct = Punct ;
+
 LIST Foc/han = Foc/han ;
 LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
-LIST Sem/Fem = Sem/Fem ; #!! * Sem/Fem = feminin propernoun
+LIST Foc/kin = Foc/kin ;
+LIST Foc/ka = Foc/ka ;
+LIST Foc/pa = Foc/pa ;
+LIST Foc/han = Foc/han ;
+LIST Foc/kaan = Foc/kaan ; #!! * Foc/kaan = focus clitic -kaan
+LIST Foc/s = Foc/s ;
+LIST Foc/pas = Foc/pas ;
+
 LIST @CVP = @CVP ; # !! * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 LIST @CNP = @CNP ; # !! * @CNP = Local conjunction or subjunction.
 
@@ -327,13 +341,18 @@ LIST QUO = "<">" ; # " (add for syntax colouring)
 LIST OM = >>> """ "“" ;
 LIST OMS = >>> """ ":" ";" "“" ;
 
+LIST Sem/Adr = Sem/Adr ;
 LIST Sem/ID = Sem/ID ;
-LIST Arab = Arab ;
-
+LIST Sem/Time = Sem/Time ;
 LIST Sem/Fem = Sem/Fem ;
 LIST Sem/Mal = Sem/Mal ;
 LIST Sem/Plc = Sem/Plc ;
-LIST Sem = Sem/ID Sem/Mal Sem/Fem Sem/Plc ;
+LIST Sem/Sign = Sem/Sign ;
+LIST Sem = Sem/ID Sem/Mal Sem/Fem Sem/Plc Sem/Sign ;
+
+
+LIST Arab = Arab ;
+
 
 LIST CURRENCY = "dinaari" "dollari" "euro" "kruunu" "kr" "rupla" "rubel" "¢" "€" "$";
 
@@ -703,6 +722,20 @@ SET PLAGR = VPl1 OR VPl2 OR VPl3 ;
 SET ALL_PLPRON = PLPRON OR SGAGR OR N + Pl ;
 
 
+# Coordinators
+# ------------
+SET Foc = Foc/han  OR Foc/kaan  OR Foc/kin  OR Foc/pa  OR Foc/s OR Foc/pas ;
+
+LIST NEGFOC = (Neg Foc/kaan) ;
+
+LIST XGO = "niinko" ;
+  # Compounds
+
+
+SET CRD = @CNP OR COMMA OR NEGFOC OR XGO OR ("/") OR ("-")  ;
+    # AFTER LCRD vs. GCRD disambiguation
+
+
 
 
 # Here come the rules
@@ -710,6 +743,9 @@ SET ALL_PLPRON = PLPRON OR SGAGR OR N + Pl ;
 BEFORE-SECTIONS
 
 REMOVE CLBfinal ;
+
+REMOVE:alphabet (".*alphabet"r) (NEGATE 0 (abbr)) ; #apertium
+REMOVE:initial ("[a-zäöå]"r) IF (0 ("[A-ZÄÖÅ]"r) + Abbr) ; # P. O. Gyllenhammer
 
 SELECT:Sem/ID Sem/ID IF (-1 ("§")) ; 
 REMOVE:Sem/ID Sem/ID IF (1 CURRENCY) ; 
@@ -1393,6 +1429,7 @@ MAP (@N<) TARGET Num IF (-1 N) ;
 MAP (@N<) TARGET ("itse") IF (-1 Pron) (0 $$ALLCASES) (-1 $$ALLCASES) ;
 
 MAP (@>N) TARGET N + Gen IF (-1C CS)(1 N);
+MAP (@>N) TARGET Sem/Sign IF (1 (N));
 
 # Mapping subjects and objects
 # ----------------------------
@@ -1702,6 +1739,62 @@ MAP:AllAdvl (@<ADVL) TARGET LOC-CASE IF (*-1 VFIN);
 MAP:AllAdvl (@ADVL>) TARGET LOC-CASE IF (*1 VFIN);
 
 
+
+# Stray NP HNOUN mapping
+
+#!! !!HNOUN MAPPING
+
+MAP:hnounNom (@HNOUN) TARGET NP-HEAD-NOM - A OR (Num Nom) 
+(NEGATE *0 V BARRIER (":"))(NEGATE *-1 PUNCT BARRIER (":") LINK -1 WORD) 
+;
+
+MAP:hnounNom (@HNOUN) TARGET A OR (Num Nom) (*-1 BOS BARRIER WORD)(*1 EOS BARRIER WORD) ;
+
+
+MAP:HNOUN<advl (@<SPRED) TARGET Sem/Adr (-1 (":") LINK -1 Nom) ;
+	#$ Fiskes, rukses, alit, ruoná ja muđui buotlágaš ivnnit.
+	#$ Bargolávdegotti bargu: Álgobargu lei čielggadit min mandáhta.
+
+MAP:hnounAdvl (@HNOUN) TARGET ADVLCASE OR Acc (NEGATE *0 REAL-V OR @HNOUN) ;
+	#$ Juoba ge dán áigodagas.
+MAP:hnounInterj (@HNOUN) TARGET Acc (*-1 Interj BARRIER NOT-NPMOD) ;
+
+#!!	* __ADVLheadliner__	
+MAP:ADVLheadliner (@ADVL>) TARGET ADVLCASE OR Sem/Time (*1 @HNOUN) ;	
+	#$ Vuosttaš geasi nissonolmmoš bajimusas.
+
+
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":") OR LEFT LINK NOT 0 Num OR Pron)(NEGATE 0 Sem/Plc + LOCCASE LINK -1 Superl) ;
+MAP:HNOUNn< (@N<) TARGET ADVLCASEAdv (-1 CRD LINK -1 @N<)(1 EOS) ;
+MAP:HNOUN<advl (@<ADVL) TARGET ADVLCASEAdv (*-1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:advl>HNOUN (@ADVL>) TARGET ADVLCASEAdv (*1 @HNOUN BARRIER CRD OR (":")) ;
+MAP:HNOUN<obj (@<OBJ) TARGET Acc (*-1 @HNOUN) ;
+	#% Birasgáhttenlihkadus ja álgoálbmogat - ovttasbargit vai vuostálágaid?
+MAP:obj>HNOUN (@OBJ>) TARGET Acc (*1 @HNOUN) ;
+MAP:HNOUN<spred1 (@<SPRED) TARGET (A Nom) (*-1 @HNOUN) ;
+	#$ Dii guoktilaččat!
+MAP:spred>HNOUN (@SPRED>) TARGET (A Nom) (*1 @HNOUN) ;
+MAP:HNOUN<spred2 (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LINK *-1 @HNOUN) ;
+	#$ Birasgáhttenlihkadus ja álgoálbmogat – ovttasbargit vai vuostálagaid?
+MAP:HNOUN<spred3 (@<SPRED) TARGET (N Ess) (*-1 Nom BARRIER V) ;
+	#$ Mu dárkileamos muittut internáhttaskuvllas leat dán áigodagas; 10 vuosttaš jagi álbmot- ja joatkkaskuvlla (framhaldskuvlla) oahpaheaddjin, ja muhtin áigodagaid internáhttahoavdan, 12 maŋimus jagi nuoraidskuvlla jođiheaddjin ja eanaš oahppit orro internáhtas.
+MAP:HNOUNcoor (@HNOUN) TARGET N (-1 @CNP LINK -1 @HNOUN) ;
+	#$ Oslos ja Londonis.
+
+MAP (@ADVL) TARGET Adv (-1 BOS) ;
+#!! * __@<ADVLcoor__ (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+MAP:@<ADVLcoor (@<ADVL) TARGET ADVLCASEAdv (-1 @CNP LINK -1 ADVLCASEAdv) ;
+	#$ Odne vai ihttin?
+
+	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
+
+
+
+
+
+
+
+
 # Currently this is tied to a subject and adverbial
 # Ideally it should be more about nonagreeing subjects
 # Also @EXIST(ENTIAL) is arguably more semantic than anything.
@@ -1884,7 +1977,9 @@ SECTION
 
 
 #!! * __X__ maps X everywhere
-#MAP (@X) TARGET WORD ;
+MAP (@X) TARGET WORD ;
+MAP:missingX (@X) TARGET (?) ;
+
 #SUBSTITUTE (@X) (*) TARGET WORD ;
 
 #!! * __REMOVE X__ removes X whenever there is any other tag.
