@@ -15,6 +15,7 @@ x3 ;
 LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
 +Nom:ie K ;
 +Gen:inun K ;
++Acc+Err/Orth:inut K ; ! minut Finnish
 +Ill:inhuun K ;
 +Par:inua K ;
 +Ess:inuna    K ;
@@ -30,6 +31,7 @@ LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
 LEXICON haan_pron
 +Nom:hään K ;
 +Gen:hänen K ;
++Acc+Err/Orth:hänet K ;
 +Ill:hänheen K ;
 +Par:häntä K ;
 +Ess:hänenä    K ;
@@ -44,7 +46,8 @@ LEXICON haan_pron
 
 LEXICON 123pronpl  !!= @CODE@ 
 +Nom:t K ;
-+Acc:iät 	K ;
++Acc:iät 	K ; ! todo: inkonsistent.
++Acc+Err/Orth:ät 	K ;
 +Gen+Err/Orth:iän K ; ! meiän, heiän
 +Gen:än K ; !  meän, heän, ...
 +Ill:ihiin K ;
@@ -62,8 +65,10 @@ LEXICON 123pronpl  !!= @CODE@
 LEXICON se_pron
 +Nom:se K ;
 +Gen:sen K ;
-+Ill:siiheen K ;
++Ill:siihen K ;
++Ill+Err/Orth:siiheen K ;
 +Ela:siittä   K ;
++Ela+Err/Orth:sieltä K ; ! Finnish
 +Ine:siinä K ;
 +Par:sitä K ;
 +Tra:siksi   K ;
@@ -136,10 +141,12 @@ LEXICON pronobl_2
 
 LEXICON relkys
 +Nom:%>k^A K ;
++Nom+Clt:%>k^As # ;
 +Gen:%>nk^A K ;
 +Ill:%>%>h^Vn K ;
 +Ill:%>%>h^Vnk^A K ;
 +Par:%>t^A K ;
++Par+Clt:%>t^As K ;
 +Ess:%>n^A    K ;
 +Tra:%>ksi   K ;
 +Ine:%>ss^A   K ;
@@ -154,6 +161,7 @@ LEXICON mi_rel_pl
 +Nom:tkä K ;
 +Gen:nkä K ;
 +Par:tä K ;
++Par+Clt:täs # ;
 +Ill:hin K ;
 +Ill:hinkä K ;
 +Ess:nä    K ;
