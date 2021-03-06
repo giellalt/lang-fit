@@ -183,18 +183,18 @@ Multichar_Symbols
 
 
 !! !Compounds
- +Cmp  !!≈ * __@CODE@__ =
- +Cmp/SplitR !!≈ * __@CODE@__ =
+ +Cmp          !!≈ * __@CODE@__ =
+ +Cmp/SplitR   !!≈ * __@CODE@__ =
  +Cmp/Hyph     !!≈ * __@CODE@__ - on dynamic compounds that have a hyphen (in use?)
  +CmpNP/First  !!≈ * __@CODE@__ - ... only be first part in a compound or alone
- +CmpNP/None !!≈ * __@CODE@__ =
+ +CmpNP/None   !!≈ * __@CODE@__ =
 
 
 !! !Derivation
  +Der/minen  !!≈ * __@CODE@__ = 
- +Der/A
-+Der
-+Der/s
+ +Der/A      !!≈ * __@CODE@__ = 
+ +Der        !!≈ * __@CODE@__ = 
+ +Der/s      !!≈ * __@CODE@__ = 
 
  !! !!Clitic tags
  +Clt	    !!≈ * __@CODE@__ = 
