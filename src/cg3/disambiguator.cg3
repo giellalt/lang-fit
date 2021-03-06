@@ -853,7 +853,7 @@ MAP:CNPifInf @CNP TARGET CC IF (-1 Inf)(1 Inf) ;
 #!! !Partitive
 
 REMOVE:SgPar Pl + Par IF (-1 Num + Sg)(0 Sg + Par);
-REMOVE:SgParSub Pl + Par IF (-1/* Num + Sg)(0 Sg + Par);
+REMOVE:SgParSub Pl + Par IF (-1 Num + Sg LINK 0/1 Sg + Par)(0 Sg + Par);
 REMOVE:PlPar Sg + Par IF (-1C Pl + Par)(0 Pl + Par);
 
 
