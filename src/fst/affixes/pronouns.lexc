@@ -397,9 +397,9 @@ LEXICON kaik_kvant
 +Sg+Abl:kaikelta   K ;
 
 +Pl+Nom:kaiket       K ; 
-+Pl+Gen:kaikien     K ;
++Pl+Gen:kaikkien     K ;
++Pl+Par:kaikkia    K ;
 +Pl+Ill:kaikkiin   K ;
-+Pl+Par:kaikista    K ;
 +Pl+Ess:kaikkina    K ;
 +Pl+Tra:kaikiksi   K ;
 +Pl+Ine:kaikissa   K ;

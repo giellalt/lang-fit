@@ -10,6 +10,9 @@ LEXICON advkk ! checked and with geminate clitic
 +Adv: KK ;
 
 LEXICON Adverb
+niin adv ;
+niinkö adv ;
+nimittäin adv ;
 liian adv ;
 piian adv ;
 siks adv ;
