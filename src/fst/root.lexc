@@ -198,7 +198,7 @@ Multichar_Symbols
  +Use/SpellNoSugg   !!≈ * __@CODE@__ = recognized but not suggested in speller
  +Use/Circ  !!= * @CODE@ for numerals, copied from sme
  +Use/NG  !!= * @CODE@ do not generate
-
+ +Use/GC
 
 
 !! !Compounds
@@ -385,7 +385,7 @@ LEXICON KK ! geminate clitics: selvästikki
 +Qst:%>ks # ;
 +Foc/kin:%>kki # ;
 +Foc/kin:%>kkin # ;
-+Fok/kaan:%>kh^A^An # ;
++Foc/kaan:%>kh^A^An # ;
 
 LEXICON K
 # ;
