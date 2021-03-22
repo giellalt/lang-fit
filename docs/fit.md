@@ -133,7 +133,6 @@ the sentence can be considered as true cases.
  *  +Use/NG   do not generate
 
 
-
 ### Compounds
  * **+Cmp** =
  * **+Cmp/SplitR** =
