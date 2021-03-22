@@ -29,7 +29,7 @@ LEXICON OLLA !!= * __@CODE@__
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
 +V+InfMa:ole 3infcase ;
-+V+Der/minen:ole#mis nen ;
++V+Der+Der/minen:ole#mis nen ;
 
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
@@ -56,8 +56,8 @@ LEXICON OLLA !!= * __@CODE@__
 +V+Pass+PrfPrc+Pl+Nom:ollut K ; 
 +V+Act+PrfPrc+Pl+Nom:olle x3_oblique ;
 +V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
-+V+Act+PrsPrc+Der/A+A:olleeva x3 ;
-+V+Pass+PrsPrc+Der/A+A:oltava x3 ;
++V+Act+PrsPrc+Der+Der/A+A:olleeva x3 ;
++V+Pass+PrsPrc+Der+Der/A+A:oltava x3 ;
 +V+Act+Ind+Prs+ConNeg:ole K ;
 
 ! These are standard Finnish forms marked as Err/Orth.
@@ -71,7 +71,7 @@ LEXICON OLLA !!= * __@CODE@__
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
 ! ! Derivation
-+V+Der/minen:olemi xnen ;
++V+Der+Der/minen:olemi nen ;
 
 LEXICON NEG  !!= * __@CODE@__
 +V+Neg+Act+Prs+Sg1:en NEGK ;
@@ -130,7 +130,7 @@ LEXICON v1  !!= * __@CODE@__ sanoa, lukea, antaa
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
 ! ! Derivation
-+V+Der/minen:mi xnen ;
++V+Der+Der/minen+N:mi xnen ;
 
 LEXICON v2  !!= * __@CODE@__ huomata, ymmärtää
 +V+Inf:^WG%>t^A K ;
@@ -172,7 +172,7 @@ LEXICON v2  !!= * __@CODE@__ huomata, ymmärtää
 +V+Act+Ind+Prt+Pl2:%>sitt^A K ;
 +V+Act+Ind+Prt+Pl3:%>sit K ;
 
-+V+Der/minen:%>^A^Ami xnen ;
++V+Der+Der/minen+N:%>^A^Ami xnen ;
 
 
 LEXICON SYA  !!= * __@CODE@__ syä, myä
@@ -248,7 +248,7 @@ LEXICON v3_other
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:mi xnen ;
++V+Der+Der/minen+N:mi xnen ;
 
 
 LEXICON v3kayda  !!= @CODE@ käyđä:kä from fkv
@@ -296,7 +296,7 @@ LEXICON v3kayda  !!= @CODE@ käyđä:kä from fkv
 +V+Act+InfMa+Abe:y%>m^Att^A K ;
 !+V+Act+InfMa:y%>m^A MATONodd ;
 
-+V+Der/minen:ymi xnen ;
++V+Der+Der/minen+N:ymi xnen ;
 
 
 LEXICON v3nahda !!= @CODE@ nähđä:nä = from fkv
@@ -340,7 +340,7 @@ LEXICON v3nahda !!= @CODE@ nähđä:nä = from fkv
 +V+Act+InfMa+Abe:ke%>m^Att^A K ;
 !+V+Act+InfMa:ke%>m^A MATONodd ;
 
-+V+Der/minen:kke xnen ;
++V+Der+Der/minen+N:kke xnen ;
 
 
 LEXICON v3tehda !!= @CODE@ tehđä:te from fkv
@@ -384,7 +384,7 @@ LEXICON v3tehda !!= @CODE@ tehđä:te from fkv
 +V+Act+InfMa+Abe:ke%>m^Att^A K ;
 !+V+Act+InfMa:ke%>m^A MATONodd ;
 
-+V+Der/minen:kke xnen ;
++V+Der+Der/minen+N:kke xnen ;
 
 
 
@@ -431,7 +431,7 @@ LEXICON v4  !!= * __@CODE@__
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:emi xnen ;
++V+Der+Der/minen+N:emi xnen ;
 
 
 
@@ -478,7 +478,7 @@ LEXICON v4_3la  !!= * __@CODE@__ varjela:varjel
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:emi xnen ;
++V+Der+Der/minen+N:emi xnen ;
 
 
 
@@ -528,7 +528,7 @@ LEXICON v4_4lla  !!= * __@CODE@__
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Der/minen:emi xnen ;
++V+Der+Der/minen+N:emi xnen ;
 
 
 
@@ -583,7 +583,7 @@ LEXICON v5 !!= * __@CODE@__  kehitä:kehi
 +V+Act+Ind+Prt+Pl2:t%>itt^A K ;
 +V+Act+Ind+Prt+Pl3:t%>it K ;
 
-+V+Der/minen:t%>^Ami xnen ;
++V+Der+Der/minen+N:t%>^Ami xnen ;
 
 
 
@@ -631,7 +631,7 @@ LEXICON v6 !!= * __@CODE@__ =  paeta:pake
 +V+Act+Ind+Prt+Pl2:n%>itt^A K ;
 +V+Act+Ind+Prt+Pl3:n%>it K ;
 
-+V+Der/minen:nemi xnen ;
++V+Der+Der/minen+N:nemi xnen ;
 
 
 !! !!Subparadigms
