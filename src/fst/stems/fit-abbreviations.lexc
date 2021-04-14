@@ -1,14 +1,17 @@
 ! ============================= !
-!! File containing abbreviations 
+!! !! File containing meänkieli abbreviations 
 ! ============================= !
 
-!! Tämä on saamenkielinen lyhennelista. Se pitää vaihtaa.
+!! The file contains 5-6 abbreviations, and is thus just a placeholder.
+!! Most fit abbreviations thus come from the common abbreviation file. 
+!! Here we should add meänkieli-specific ones.
 
-! Lexica for adding tags and periods
+
+!! Lexica for adding tags and periods
 ! ----------------------------------
 
-! Splitting in 3 groups, because of the preprocessor
-! - - - - - - - - - - - - - - - - - - - - - - - - -
+! Splitting in 3 groups
+! - - - - - - - - - - -
 
 LEXICON Abbreviation-fit
 ITRAB ;
@@ -21,12 +24,12 @@ TRAB ;
 
 
 ! =============================================== !
-!            Intransitive abbreviations           !
+!!            Intransitive abbreviations           !
 ! =============================================== !
 
-LEXICON ITRAB
+LEXICON ITRAB  !!= * @CODE@ 
 
-e.Kr+Adv:e.Kr	ab-dot-adv-itrab ;
+e.Kr+Adv:e.Kr	ab-dot-adv-itrab ;  !!= * @CODE@ 
 eKr+Adv:eKr	ab-dot-adv-itrab ;
 j.Kr+Adv:j.Kr	ab-dot-adv-itrab ;
 jKr+Adv:jKr	ab-dot-adv-itrab ;
@@ -36,25 +39,25 @@ ry+N:ry		ab-dot-noun-itrab ;
 
 
 ! ============================================================ !
-!      Abreviations who are transitive in front of numerals    !
+!!      Abreviations who are transitive in front of numerals    !
 ! ============================================================ !
 
-LEXICON TRNUMAB
+LEXICON TRNUMAB !!= * @CODE@ 
 ! For abbrs for which numerals are complements, but other
 ! words not necessarily are. This group treats arabic numerals as
 ! if it were transitive but letters as if it were intransitive.
 ! TODO: Bug the fact that these abbrs do not distinguish between
 ! cap and small letters, whereast he ITRAB ones do.
 
-nro+N:nro ab-noun-trnumab ;
+nro+N:nro ab-noun-trnumab ; !!= * @CODE@ 
 
 
 ! =============================================== !
-!              Transitive abbreviations           !
+!!              Transitive abbreviations           !
 ! =============================================== !
 
-LEXICON TRAB
+LEXICON TRAB !!= * @CODE@ 
 ! For abbrs that always have a constituent following it.
 
-esim+A:esim ab-dot-adj-trab ;
+esim+A:esim ab-dot-adj-trab ; !!= * @CODE@ 
 

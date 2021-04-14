@@ -1,10 +1,12 @@
-!! Meänkieli
+!! !!!Meänkieli propernouns
 
-LEXICON ProperNoun
+!! 32000 names
 
-Niila:Niila p_mal_1 ;
-Kiiruna:Kiiruna 3p_plc ;
-Tokholma:Tokholma p_plc_1 ;
+LEXICON ProperNoun !!= * @CODE@ 
+
+Niila:Niila p_mal_1 ; !!= * @CODE@ 
+Kiiruna:Kiiruna 3p_plc ; !!= * @CODE@ 
+Tokholma:Tokholma p_plc_1 ; !! * ...
 Luulaja:Luulaja 3p_plc ;
 Anders:Anders 3p_mal_1C ;
 Isof:Isof 3p_org_1C ;
