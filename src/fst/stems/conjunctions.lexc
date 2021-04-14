@@ -1,26 +1,32 @@
-!! Meänkieli conjunctions
+!! !!!Meänkieli conjunctions
 
-LEXICON conjx
-+CC: # ; ! conjx
 
-LEXICON cc
-+CC: # ;
+!! !!Adding tags
 
-LEXICON cc_agr
-+CC: # ;
-+Sg1:n # ;
-+Sg2:t # ;
-+Sg3:i # ;
-+Pl1:mä # ;
-+Pl2:tä # ;
-+Pl3:ivä # ;
+LEXICON conjx !!= * @CODE@ 
++CC: # ;      !!= * @CODE@ 
 
-LEXICON Conjunction
-ja cc ;
-ynnä cc ;
-sekä cc ;
-ette cc_agr ;
-eli cc ;
+LEXICON cc !!= * @CODE@ why two... 
++CC: # ; !!= * @CODE@ 
+
+LEXICON cc_agr !!= * @CODE@ 
++CC: # ; !!= * @CODE@ 
++Sg1:n # ; !!= * @CODE@ 
++Sg2:t # ; !!= * @CODE@ 
++Sg3:i # ; !!= * @CODE@ 
++Pl1:mä # ; !!= * @CODE@ 
++Pl2:tä # ; !!= * @CODE@ 
++Pl3:ivä # ; !!= * @CODE@ 
+
+
+!! !!The conjunctions themselves
+
+LEXICON Conjunction !!= * @CODE@ 
+ja cc ; !!= * @CODE@ 
+ynnä cc ; !!= * @CODE@ 
+sekä cc ; !!= * @CODE@ 
+ette cc_agr ; !!= * @CODE@ 
+eli cc ; !! ... and some 20 more
 taikka cc ;
 ja conjx ;
 vaikka conjx ;

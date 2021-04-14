@@ -12,8 +12,10 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-LEXICON Acronym-fit
-XXX Acronym-fit-suf ; ! to be replaced with fit content
+!! Fit-acronyms is a dummy file.
+
+LEXICON Acronym-fit  !!= * @CODE@ 
+XXX Acronym-fit-suf ; !!= * @CODE@  to be replaced with fit content
 
 
 

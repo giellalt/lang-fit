@@ -1,13 +1,15 @@
-!! Meänkieli interjections
+!! !!!Meänkieli interjections
 
-LEXICON ijx
-+Interj: K ; ! ijx
+!! !!Adding tag
 
-LEXICON Interjection
-äh ijx ;
-täh ijx ;
-pii ijx ;
-aivan ijx ;
+LEXICON ijx  !!= * __@CODE@__ \\
++Interj: K ; !!= @CODE@
+
+LEXICON Interjection   !!= * __@CODE@__ 
+äh ijx ;    !!= * @CODE@ 
+täh ijx ;  !!= * @CODE@ 
+pii ijx ;  !!= * @CODE@ 
+aivan ijx ;   !!= * ...
 hurtoo ijx ;
 rietas ijx ;
 tsö ijx ;

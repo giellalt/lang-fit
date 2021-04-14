@@ -1,16 +1,19 @@
-!! Meänkieli postpositions
+!! !!!Meänkieli postpositions
 
+!! !!Adding tags
 
-LEXICON pox
-+Po: K ; ! pox
+LEXICON pox  !!= * @CODE@ 
++Po: K ; !!= * @CODE@ 
 
-LEXICON po
-+Po: K ;
+LEXICON po !!= * @CODE@ 
++Po: K ; !!= * @CODE@ 
 
-LEXICON Postposition
-jälkheen po ;
-ympäri po ;
-yli po ;
+!! !!The list
+
+LEXICON Postposition !!= * @CODE@ 
+jälkheen po ; !!= * @CODE@ 
+ympäri po ; !!= * @CODE@ 
+yli po ;  !! ...
 kans po ;
 kohti po ;
 

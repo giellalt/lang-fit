@@ -1,12 +1,12 @@
-!! Meänkieli subjunctions
+!! !!!Meänkieli subjunctions
 
 
-LEXICON cs
-+CS: # ;
+LEXICON cs   !!= * @CODE@ 
++CS: # ;     !!= * @CODE@ 
 
-LEXICON Subjunction
-ette cs ;
-vaikka cs ;
+LEXICON Subjunction !!= * @CODE@ 
+ette cs ;           !!= * @CODE@ 
+vaikka cs ;         !!= * @CODE@ 
 koska cs ;
 mutta cs ;
 ko cs ;
