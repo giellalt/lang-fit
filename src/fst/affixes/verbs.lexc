@@ -1,23 +1,28 @@
 !! !!!Meänkieli verbs
 
-!! This is the file for Meänkieli verb morphology.
+!! !!!This is the file for Meänkieli verb morphology.
 
-!! * Irregular verbs
-!! * Regular verbs
-!! * v1 = antaa; sanoa:sano
-!! * v2 = huomata
-!! * v3 = syö'ä:syö ! ', ’
-!! * v4 = nousta; tulla:tul
-!! * v4_3la = varjella, varjelee
-!! * v4_4lla = ajatella, ajattellee
-!! * v2 = tryykätä:tryykkä
-!! * v5 = tarvita:tarv
-!! * v6 = paeta:pake
-!! * v_vanheta = vanheta
-!! * vx = unassigned
+!! !!Overview
 
-!! * v_tehha
-!! * v_nahha
+!!  !Regular verbs
+!!  * v1 = antaa; sanoa:sano
+!!  * v2 = huomata
+!!  * v3 = syö'ä:syö ! ', ’
+!!  * v4 = nousta; tulla:tul
+!!  * v4_3la = varjela, varjelee
+!!  * v4_4lla = ajatella, ajattellee
+!!  * v2 = tryykätä:tryykkä
+!!  * v5 = tarvita:tarv
+!!  * v6 = paeta:pake
+!!  * v_vanheta = vanheta
+!!  * vx = unassigned
+
+!!  !Irregular verbs
+!!  * v_tehha
+!!  * v_nahha
+
+!! !!The verb lexica
+
 
 LEXICON vx
 v1 ; ! vx
