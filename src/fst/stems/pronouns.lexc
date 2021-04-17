@@ -1,9 +1,9 @@
-!! !!!Meänkieli pronouns
+!! # Meänkieli pronouns
 
 
 LEXICON Pronoun  !!= * @CODE@ 
 
-!! !!Persoonapronominit
+!! ## Persoonapronominit
 
 mie+Pron+Pers+Sg:m 12pronsg ; !!= * @CODE@ 
 sie+Pron+Pers+Sg:s 12pronsg ; !!  * ...
@@ -16,7 +16,7 @@ net+Pron+Pers+Pl+Nom:net  K ; ! e>i
 net+Pron+Pers+Pl:ni netpronpl ; ! e>i
 
 
-!! !!Demonstratiivipronominit
+!! ## Demonstratiivipronominit
 
 se+Pron+Dem+Sg:   se_pron ;   !!= * @CODE@ 
 
@@ -62,7 +62,7 @@ mihkään+Pron+Indef:mi mi_kielto ;
 !mikhään:mi 
 doublecasepronouns ;
 
-!! !!Sanakirjasta
+!! ## Sanakirjasta
 
 usea+Pron:usea pron_x3 ; !!= * @CODE@ 
 harva+Pron:pron pron_x1 ; !!= * @CODE@ 

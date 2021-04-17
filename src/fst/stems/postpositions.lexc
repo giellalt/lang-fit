@@ -1,6 +1,6 @@
-!! !!!Meänkieli postpositions
+!! # Meänkieli postpositions
 
-!! !!Adding tags
+!! ## Adding tags
 
 LEXICON pox  !!= * @CODE@ 
 +Po: K ; !!= * @CODE@ 
@@ -8,7 +8,7 @@ LEXICON pox  !!= * @CODE@
 LEXICON po !!= * @CODE@ 
 +Po: K ; !!= * @CODE@ 
 
-!! !!The list
+!! ## The list
 
 LEXICON Postposition !!= * @CODE@ 
 jälkheen po ; !!= * @CODE@ 

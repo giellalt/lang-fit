@@ -1,10 +1,10 @@
-!! !!!Meänkieli verbs
+!! # Meänkieli verbs
 
-!! !!!This is the file for Meänkieli verb stems.
+!! # This is the file for Meänkieli verb stems.
 
-!! !!Overview
+!! ## Overview
 
-!!  !Regular verbs
+!! ### Regular verbs
 !!  * v1 = antaa; sanoa:sano
 !!  * v2 = huomata
 !!  * v3 = syö'ä:syö ! ', ’
@@ -17,23 +17,23 @@
 !!  * v_vanheta = vanheta
 !!  * vx = unassigned
 
-!!  !Irregular verbs
+!! ### Irregular verbs
 !!  * v_tehha
 !!  * v_nahha
 
-!! !!The verb lexica
+!! ## The verb lexica
 
-LEXICON VerbRoot !!= * __@CODE@__ = The verb list 
-
-
-!! !! Irregular verbs
-olla: OLLA ; !!= * __@CODE@__ 
-ei: NEG ;    !!= * __@CODE@__ 
+LEXICON VerbRoot !!= * **@CODE@** = The verb list 
 
 
-!! !! v1 sanoa, lukea
-sanoa:sano v1 ;  !!= * __@CODE@__ 
-hukkua:hukku v1 ;  !!= * __@CODE@__ 
+!! Irregular verbs
+olla: OLLA ; !!= * **@CODE@** 
+ei: NEG ;    !!= * **@CODE@** 
+
+
+!! v1 sanoa, lukea
+sanoa:sano v1 ;  !!= * **@CODE@** 
+hukkua:hukku v1 ;  !!= * **@CODE@** 
 syyttää:syyttä v1 ;
 freistaa:freista v1 ;
 sopia:sopi v1 ;
@@ -45,15 +45,15 @@ ottaa:otta v1 ;
 käyttää:käyttä v1 ;
 
 
-!! !! v2 tryykätä
-hypätä:hyppä v2 ;  !!= * __@CODE@__ 
-tryykätä:tryykkä v2 ;  !!= * __@CODE@__ 
+!! v2 tryykätä
+hypätä:hyppä v2 ;  !!= * **@CODE@** 
+tryykätä:tryykkä v2 ;  !!= * **@CODE@** 
 hourata:houra v2 ;
 
 
-!! !! v3 syödä, juoda
-syä:sy SYA ;  !!= * __@CODE@__ 
-jua:ju JUA ;   !!= * __@CODE@__ 
+!! v3 syödä, juoda
+syä:sy SYA ;  !!= * **@CODE@** 
+jua:ju JUA ;   !!= * **@CODE@** 
 viejä:vie v3_j ;
 saaja:saa v3_j ;
 voija:voi v3_j ;
@@ -73,26 +73,26 @@ laiminlyä:laiminly SYA ;
 uloslyä:ulosly SYA ;
 
 
-tehä:te v3tehda ;  !!= * __@CODE@__ 
-käyä:kä v3kayda ;  !!= * __@CODE@__  
-nähä:nä v3nahda ;  !!= * __@CODE@__ 
+tehä:te v3tehda ;  !!= * **@CODE@** 
+käyä:kä v3kayda ;  !!= * **@CODE@**  
+nähä:nä v3nahda ;  !!= * **@CODE@** 
 
-!! !! v4 tulla, mennä
-tulla:tul v4 ;  !!= * __@CODE@__ 
-mennä:men v4 ;  !!= * __@CODE@__ 
+!! v4 tulla, mennä
+tulla:tul v4 ;  !!= * **@CODE@** 
+mennä:men v4 ;  !!= * **@CODE@** 
 purra:pur v4 ;
 panna:pan v4 ;
 
-!! !! v5 tarvita
-tarvita:tarvi v5 ;  !!= * __@CODE@__ 
+!! v5 tarvita
+tarvita:tarvi v5 ;  !!= * **@CODE@** 
 
-!! !! v6 paeta
-paeta:pake v6 ;  !!= * __@CODE@__ 
+!! v6 paeta
+paeta:pake v6 ;  !!= * **@CODE@** 
 
 
-!! !!  Then comes the long list
-trukittaaa:trukittaa v1 ;  !!= * __@CODE@__ 
-lehathaa:lehatha v1 ;   !!= * __@CODE@__ 
+!!  Then comes the long list
+trukittaaa:trukittaa v1 ;  !!= * **@CODE@** 
+lehathaa:lehatha v1 ;   !!= * **@CODE@** 
 jauhaa:jauha v1 ;    !! * ...
 kutiaa:kutia v1 ;
 aijaa:aija v1 ;

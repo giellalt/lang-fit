@@ -1,7 +1,7 @@
-!! !!!Meänkieli adjectives
+!! # Meänkieli adjectives
 
 
-!! !!The continuation lexicon types
+!! ## The continuation lexicon types
 
 !! * a1 = kaksitavuiset
 !! * a3 = kolmitavuiset
@@ -9,7 +9,7 @@
 !! * aas = tarmokas
 !! * anen = nen-adjektiivit
 
-!! !! The lemma list
+!! The lemma list
 
 LEXICON AdjectiveRoot !!= @CODE@
 

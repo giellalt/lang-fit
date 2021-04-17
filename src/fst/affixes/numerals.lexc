@@ -13,13 +13,13 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ############################## !
-!! !!!Meänkieli numerals 
+!! # Meänkieli numerals 
 ! ############################## !
 
 !! From fin via fkv.
 
 
-!! !!!Numeral inflection
+!! # Numeral inflection
 !! Numeral inflection is like nominal, except that numerals compound in all
 !! forms which requires great amount of care in the inflection patterns.
 ! FIXME: compounding
@@ -630,13 +630,13 @@ LEXICON dateyearcase_fullsuff
 !  ARABICCASE0 ;
 !  ARABICCASE  ;
 
-LEXICON ARABICCASES   !!≈ * __@CODE@__  adds +Arab
+LEXICON ARABICCASES   !!≈ * **@CODE@**  adds +Arab
 +Arab: DIGITCASES ;
 
-LEXICON ARABICCASE   !!≈ * __@CODE@__  adds +Arab
+LEXICON ARABICCASE   !!≈ * **@CODE@**  adds +Arab
  +Arab:  DIGITCASE ;
 
-LEXICON ARABICCASE0   !!≈ * __@CODE@__  adds +Arab
+LEXICON ARABICCASE0   !!≈ * **@CODE@**  adds +Arab
  +Arab:  DIGITCASE0 ;
 
 LEXICON DIGITCASES
