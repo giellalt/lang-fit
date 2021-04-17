@@ -1,16 +1,20 @@
-!! Meänkieli prepositions
+!! !!!Meänkieli prepositions
 
 
 LEXICON prx
+!!= __@LEXNAME@__ tag +Pr for most prepositions, some of them wrong, should be Adv or Det, TODO: fix
 +Pr: K ; ! prx
 
 LEXICON pr
+!!= __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
 +Pr: K ;
 
 LEXICON Preposition
-yli:yli pr ;
+!!= __@LEXNAME@__  for 40 or so prepositions
+yli:yli pr ; 
 ennen pr ;
 ympäri pr ;
+
 jahka prx ;
 joka prx ;
 tuola prx ;
