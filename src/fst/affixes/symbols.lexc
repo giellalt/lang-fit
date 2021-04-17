@@ -12,7 +12,7 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! !!!Symbol affixes
+!! # Symbol affixes
 
 LEXICON Noun_symbols_possibly_inflected !!= * @CODE@ 
  +N+Symbol: SYMBOL_connector ; !!= * @CODE@ 
@@ -21,11 +21,11 @@ LEXICON Noun_symbols_never_inflected !!= * @CODE@
  +N+Symbol: # ; !!= * @CODE@ 
 
 LEXICON SYMBOL_connector !!= * @CODE@ 
-               SYMBOL_NO_suff ; !!= ** @CODE@ = §
-          :%:  SYMBOL_suff    ; !!= ** @CODE@ = §:
- +Err/Orth:    SYMBOL_suff    ; !!= ** @CODE@ = §ssa
- +Err/Orth:%-e SYMBOL_suff    ; !!= ** @CODE@ = §-essa
- +Err/Orth:%'e SYMBOL_suff    ; !!= ** @CODE@ = §'essä
+               SYMBOL_NO_suff ; !!=     - @CODE@ = §
+          :%:  SYMBOL_suff    ; !!=     - @CODE@ = §:
+ +Err/Orth:    SYMBOL_suff    ; !!=     - @CODE@ = §ssa
+ +Err/Orth:%-e SYMBOL_suff    ; !!=     - @CODE@ = §-essa
+ +Err/Orth:%'e SYMBOL_suff    ; !!=     - @CODE@ = §'essä
 
 LEXICON SYMBOL_NO_suff !!= * @CODE@ 
  +Sg+Nom: # ; !!= * @CODE@ 

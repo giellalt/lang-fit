@@ -1,7 +1,7 @@
-!! !!!Meänkieli numerals
+!! # Meänkieli numerals
 
 
-!! These are taken from fkv, but originally from fin, an FST with __very__ different ways of doing things.
+!! These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
 
 LEXICON Numeral 
 !! Numerals have been split in three sections, the compounding parts
@@ -308,7 +308,7 @@ kahđeksisen+Num#:kahđeksisen#  NUM_CARD_SUFFIX   ;
 yhđeksisen+Num#:yhđeksisen#    NUM_CARD_SUFFIX   ;
 pari+Num:par           NUM_PARI ;
 
-!! !!Numeral stem variation
+!! ## Numeral stem variation
 !! Numerals follow the same stem variation patterns as nouns, some of these
 !! being very rare to extinct for nouns. 
 LEXICON NUM_YKSI
@@ -828,7 +828,7 @@ LEXICON NUM_NELJÄS
 
 
 
-LEXICON ARABICCOMPOUNDS   !!≈ * __@CODE@__  ! arabic as first part, 
+LEXICON ARABICCOMPOUNDS   !!≈ * **@CODE@**  ! arabic as first part, 
 ! :-  NAMAT ;            ! 10-jienat, etc. NAMAT derivs are
                     ! treated as compounds and excluded from the nonrec
                     ! variants, otherwise the PLX lexicon size explodes

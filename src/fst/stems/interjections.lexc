@@ -1,11 +1,11 @@
-!! !!!Meänkieli interjections
+!! # Meänkieli interjections
 
-!! !!Adding tag
+!! ## Adding tag
 
-LEXICON ijx  !!= * __@CODE@__ \\
+LEXICON ijx  !!= * **@CODE@** \\
 +Interj: K ; !!= @CODE@
 
-LEXICON Interjection   !!= * __@CODE@__ 
+LEXICON Interjection   !!= * **@CODE@** 
 äh ijx ;    !!= * @CODE@ 
 täh ijx ;  !!= * @CODE@ 
 pii ijx ;  !!= * @CODE@ 

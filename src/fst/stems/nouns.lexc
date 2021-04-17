@@ -1,16 +1,16 @@
 
 
-!! !!!Noun stems for Meänkieli
+!! # Noun stems for Meänkieli
 
 !! This is an overview of the continuation lexicon types. 
 
-!! !!Vowel stems
+!! ## Vowel stems
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n3 = odd-syllabic: kanava
 !! * n4 = i:e nouns: veri
 
-!! !! Consonant stems
+!! Consonant stems
 
 !! * n_uus = vajavuus
 !! * nc = cvc
@@ -29,7 +29,7 @@
 
 
 !!! The lemma list 
-LEXICON NounRoot !!= * __@CODE@__
+LEXICON NounRoot !!= * **@CODE@**
 
 romani% chib:romani% chib nc ;
 jiddisch:jiddisch 3nc ;

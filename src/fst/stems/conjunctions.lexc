@@ -1,7 +1,7 @@
-!! !!!Meänkieli conjunctions
+!! # Meänkieli conjunctions
 
 
-!! !!Adding tags
+!! ## Adding tags
 
 LEXICON conjx !!= * @CODE@ 
 +CC: # ;      !!= * @CODE@ 
@@ -19,7 +19,7 @@ LEXICON cc_agr !!= * @CODE@
 +Pl3:ivä # ; !!= * @CODE@ 
 
 
-!! !!The conjunctions themselves
+!! ## The conjunctions themselves
 
 LEXICON Conjunction !!= * @CODE@ 
 ja cc ; !!= * @CODE@ 

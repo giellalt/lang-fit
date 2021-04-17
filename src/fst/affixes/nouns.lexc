@@ -1,15 +1,15 @@
-!! !!!Meänkieli noun morphology
+!! # Meänkieli noun morphology
 
 
 !! This is an overview of the continuation lexicon types. 
 
-!! !!Vowel stems
+!! ## Vowel stems
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n3 = odd-syllabic: kanava
 !! * n4 = i:e nouns: veri
 
-!! !! Consonant stems
+!! Consonant stems
 
 !! * n_uus = vajavuus
 !! * nc = cvc
@@ -531,13 +531,13 @@ LEXICON 3n_lnr
 
 
 
-!! !SuvlExica for cases
+!! ### SuvlExica for cases
 
 LEXICON TRA
 :%>ks K ;
 :%>ks i_PxK ; 
 
-!! !Sublexica for possessive suffixes
+!! ### Sublexica for possessive suffixes
 ! ---------------------------------
 
 !! Px is now not in use, with one exception, comitative.

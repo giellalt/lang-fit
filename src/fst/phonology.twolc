@@ -1,6 +1,6 @@
 !! Meänkieli twolc file
 
-!! !!!Alphabet
+!! # Alphabet
 Alphabet
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø
@@ -14,14 +14,14 @@ i3:i      ! past tense of verbs
 i4:i      ! i in conditional of isi
 i5:i      ! superlative i of adjectives
 p2:p t2:t k2:k    ! always p t k.
-t3:t  	  !!≈ * __@CODE@__ = t participating in gradation, but not in t:s
+t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 t4:t      ! t3 goes to 0 in imartelee : imarella
 %^A:ä %^O:ö %^U:y ! vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö
 %^N:n ! participle -nut
 ;
 
-!! !!!Sets
+!! # Sets
 Sets
 
 Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ; !!= * @CODE@
@@ -45,18 +45,18 @@ Segment        = Vowel Cns ;                                         !!= * @CODE
 NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
 
 
-!! !!!Definitions
+!! # Definitions
 Definitions
 
 WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
 
 
-!! !!!Rules 
+!! # Rules 
 Rules 
 
-!! !!Consonant rules
+!! ## Consonant rules
 
-!! !Gradation rules
+!! ### Gradation rules
 !! p rules
 
 "p:0"
@@ -201,7 +201,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 
 
-!! !Gemination rules
+!! ### Gemination rules
 
 "Gemination 0:h"
 0:h <=> [.#.|#] Cns:* Vow h _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
@@ -407,41 +407,41 @@ h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
 
 
 
-!! !Assimilation rules
+!! ### Assimilation rules
 
 "Alveolar assimilation for consonant stem l"
-!! __@RULENAME@__
+!! **@RULENAME@**
  %^N:l <=> l: %> _ ;
 
 !!€ tul>^N^U
 !!€ tul>lu
 
 "Alveolar assimilation for consonant stem r"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %^N:r <=> r: %> _ ;
 
 "Alveolar assimilation for consonant stem s in infinitives"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %^N:t <=> s %> _ [%^A:|%^U: [.#.|%>]] ; ! kusta, pestä, kustu, pesty
 
 !!€ häris>^N^A
 !!€ häris>tä
 
 "Alveolar assimilation for consonant stem s in participles"
-!! __@RULENAME@__
+!! **@RULENAME@**
 %^N:s <=> s %> _ %^U: t ; ! kussut, pessyt
           s %> _ e ;      ! kusseet (?)
 
 	  
 "j:0 in front of i"
-!! __@RULENAME@__
+!! **@RULENAME@**
 j:0 <=> l _ e: %^E2I:0 ;
 
 
 
-!! !!Vowel change rules: a - ä - e - i - o - ö - u - y
+!! ## Vowel change rules: a - ä - e - i - o - ö - u - y
 
-!! ! a rules
+!! ###  a rules
 
 "a:0"
 a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
@@ -477,7 +477,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 !!€ fankila>i2ss^A
 !!€ fankilo>issa
 
-!! ! ä rules
+!! ###  ä rules
 
 "ä:0"
 ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
@@ -501,7 +501,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 
 
 
-!! ! e rules
+!! ###  e rules
 
 "e:0"
 e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
@@ -523,7 +523,7 @@ e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ %^E2I: ;
 
 
 
-!! ! i rules
+!! ###  i rules
 
 "i:0"
 i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
@@ -562,7 +562,7 @@ i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 
 
-!! ! o rules
+!! ###  o rules
 
 "o:0"
 o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
@@ -570,7 +570,7 @@ o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
 !!€ poro^HMETA>h^V^Vn
 !!€ por00>hoon
 
-!! ! ö rules
+!! ###  ö rules
 "ö:0"
 ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ; !  deletion before metathesis h
 
@@ -578,7 +578,7 @@ o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
 !!€ hölm00>höön
 
 
-!! ! u rules
+!! ###  u rules
 
 "u:0"
 u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
@@ -589,7 +589,7 @@ u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
 
 
 
-!! ! y rules
+!! ###  y rules
 "y:0"
 y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathesis h"
         [Cns|.#.|#]               _ [y|ö]  (%^WG:) %> [i2:|i3:|i4:] ; ! x syy, myydä, syödä,
@@ -602,7 +602,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 
 
-!! !Vowel copying rules
+!! ### Vowel copying rules
 
 
 "a copying for h metathesis"
@@ -658,10 +658,10 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 
 
-!! ! Vowel harmony rule
+!! ###  Vowel harmony rule
 	
 "Back harmony"
-!! __@RULENAME@__ 
+!! **@RULENAME@** 
  Vx:Vy <=> BackVowel: NonFront:* (:NonFront) NonFront:* %> NonFront:* ([ NonFront: | :NonFront ]) NonFront:* (%>) NonFront:* _ ;  
          where Vx in ( %^A %^O %^U )
                Vy in (   a   o   u )
