@@ -9,8 +9,8 @@ directory. The authors named in the AUTHORS file are available to grant
 other licencing choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
-[![Build Status](https://github.com/giellalt/lang-fit/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-fit/actions)
-[![License](https://img.shields.io/github/license/giellalt/template-lang-fit)](https://raw.githubusercontent.com/giellalt/lang-fit/develop/LICENSE)
+[![Build Status](https://github.com/giellalt/lang-fit/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fit/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://raw.githubusercontent.com/giellalt/lang-fit/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-fit)
 for the Tornedalen Finnish (Meänkieli) language by using the [Divvun Installer](http://divvun.no)
