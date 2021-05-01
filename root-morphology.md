@@ -153,14 +153,14 @@ the sentence can be considered as true cases.
 
 
 ## Clitic tags
- * **+Clt	** = 
- * **+Qst	** = 
+ * **+Clt** = 
+ * **+Qst** = 
  * **+Foc/han** = 
  * **+Foc/ka** = sjekk denne xxx
  * **+Foc/kaan** = 
  * **+Foc/kin** = 
  * **+Foc/pa** = 
- * **+Foc/s	** = 
+ * **+Foc/s** = 
  * **+Foc/pas** = 
 
 ## Semantic tags
@@ -181,28 +181,28 @@ the sentence can be considered as true cases.
  * **i4** = i in conditional isi of most verbs (without gemination)
  * **i5** = superlative i of adjectives
  * **i6** = i:j in poika:pojan
- * **i7	** = i in conditional of contract verbs (with gemination)
+ * **i7** = i in conditional of contract verbs (with gemination)
 
- * **p2 			** = always p
- * **t2 			** = always t, cf. katt2oma always tt, underlying -ts-
- * **t3 			** = t participating in gradation, but not in t:s
- * **t4 			** = t alternating with 0 in lnr+t : lnr (imarella)
- * **k2 			** = always k
- * **%^A 		** = Vowel harmony a/ä
- * **%^O		** = Vowel harmony o/ö
- * **%^U		** = Vowel harmony u/y
- * **%^V 		** = Vowel copying
- * **%^N 		** = tulˆNut, kävel^N^Ut
- * **%^E2I 	** = for e to i change
- * **%^HMETA 	** = for h metathesis syksy - sykshyyn
- * **%^AO 	** = a:o rannoissa
- * **%^WG 	** = Weak grade matto - maton
- * **%^TES		** =  in use?
+ * **p2** = always p
+ * **t2** = always t, cf. katt2oma always tt, underlying -ts-
+ * **t3** = t participating in gradation, but not in t:s
+ * **t4** = t alternating with 0 in lnr+t : lnr (imarella)
+ * **k2** = always k
+ * **%^A** = Vowel harmony a/ä
+ * **%^O** = Vowel harmony o/ö
+ * **%^U** = Vowel harmony u/y
+ * **%^V** = Vowel copying
+ * **%^N** = tulˆNut, kävel^N^Ut
+ * **%^E2I** = for e to i change
+ * **%^HMETA** = for h metathesis syksy - sykshyyn
+ * **%^AO** = a:o rannoissa
+ * **%^WG** = Weak grade matto - maton
+ * **%^TES** =  in use?
  * **%^VDEL** = Deleting long vowel in rakkaa- > rakas
  * **%^EDEL** = Deleting e in front of consonant
  * **%^AE** = for a to e change
  * **%^M2N** = for m to n in lumi lunta
- * **%^¤		** = potecting against e:i word-finally (nalle, liike)
+ * **%^¤** = potecting against e:i word-finally (nalle, liike)
 
 
 
@@ -239,21 +239,21 @@ given the proper use of these flags.
  |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
- |  @R.ErrOrth.ON@	 | tbw
- |  @U.pron.nom@	 | tbw
- |  @U.pron.gen@	 | tbw
- |  @U.pron.gen2@	 | tbw
- |  @U.pron.ill@	 | tbw
- |  @U.pron.par@	 | tbw
- |  @U.pron.par2@	 | tbw
- |  @U.pron.par3@	 | tbw
- |  @U.pron.ess@	 | tbw
- |  @U.pron.tra@	 | tbw
- |  @U.pron.ine@	 | tbw
- |  @U.pron.ela@	 | tbw
- |  @U.pron.all@	 | tbw
- |  @U.pron.ade@	 | tbw
- |  @U.pron.abl@	 | tbw
+ |  @R.ErrOrth.ON@ | tbw
+ |  @U.pron.nom@ | tbw
+ |  @U.pron.gen@ | tbw
+ |  @U.pron.gen2@ | tbw
+ |  @U.pron.ill@ | tbw
+ |  @U.pron.par@ | tbw
+ |  @U.pron.par2@ | tbw
+ |  @U.pron.par3@ | tbw
+ |  @U.pron.ess@ | tbw
+ |  @U.pron.tra@ | tbw
+ |  @U.pron.ine@ | tbw
+ |  @U.pron.ela@ | tbw
+ |  @U.pron.all@ | tbw
+ |  @U.pron.ade@ | tbw
+ |  @U.pron.abl@ | tbw
  |  @P.compound.block@ | tbw
  |  @D.compound.block@ | tbw
 
