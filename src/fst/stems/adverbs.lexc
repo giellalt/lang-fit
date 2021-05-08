@@ -3,23 +3,23 @@
 
 !! ## The tags
 
-LEXICON advx !!= * @CODE@ Still not checked, hence the x
-+Adv: K ; !!= * @CODE@ 
+LEXICON advx !!≈ * @CODE@ Still not checked, hence the x
++Adv: K ; !!≈ * @CODE@ 
 
-LEXICON adv !!= * @CODE@  checked
-+Adv: K ; !!= * @CODE@ 
+LEXICON adv !!≈ * @CODE@  checked
++Adv: K ; !!≈ * @CODE@ 
 
 
-LEXICON advkk !!= * @CODE@  checked and with geminate clitic
+LEXICON advkk !!≈ * @CODE@  checked and with geminate clitic
 +Adv: KK ;
 
 !! ## The adverbs themselves (some 1200)
 
-LEXICON Adverb  !!= * @CODE@ 
-niin adv ; !!= * @CODE@ 
-niinkö adv ; !!= * @CODE@ 
-nimittäin adv ; !!= * @CODE@ 
-liian adv ; !!= * @CODE@ 
+LEXICON Adverb  !!≈ * @CODE@ 
+niin adv ; !!≈ * @CODE@ 
+niinkö adv ; !!≈ * @CODE@ 
+nimittäin adv ; !!≈ * @CODE@ 
+liian adv ; !!≈ * @CODE@ 
 piian adv ; !! ...
 siks adv ;
 takapäin adv ;

@@ -1,11 +1,12 @@
 !! # Meänkieli pronouns
 
+!! This file documents the `stems/pronouns.lexc` file.
 
-LEXICON Pronoun  !!= * @CODE@ 
+LEXICON Pronoun  !!≈ * @CODE@ 
 
 !! ## Persoonapronominit
 
-mie+Pron+Pers+Sg:m 12pronsg ; !!= * @CODE@ 
+mie+Pron+Pers+Sg:m 12pronsg ; !!≈ * @CODE@ 
 sie+Pron+Pers+Sg:s 12pronsg ; !!  * ...
 hään+Pron+Pers+Sg:  haan_pron ;
 se+Pron+Pers+Sg:  se_pron  ;
@@ -18,19 +19,19 @@ net+Pron+Pers+Pl:ni netpronpl ; ! e>i
 
 !! ## Demonstratiivipronominit
 
-se+Pron+Dem+Sg:   se_pron ;   !!= * @CODE@ 
+se+Pron+Dem+Sg:   se_pron ;   !!≈ * @CODE@ 
 
-tämä+Pron+Dem:tä tama ; !!= * @CODE@ 
-tuo+Pron+Dem:tuo tuo ; !!= * @CODE@ 
-nämä+Pron+Dem+Pl+Nom:nämä K ; !!= * @CODE@ 
-nämä+Pron+Dem+Pl:näi namaobl ; !!= * @CODE@ 
+tämä+Pron+Dem:tä tama ; !!≈ * @CODE@ 
+tuo+Pron+Dem:tuo tuo ; !!≈ * @CODE@ 
+nämä+Pron+Dem+Pl+Nom:nämä K ; !!≈ * @CODE@ 
+nämä+Pron+Dem+Pl:näi namaobl ; !!≈ * @CODE@ 
 
-mikä+Pron+Rel+Sg:mi relkys ; !!= * @CODE@ 
-joka+Pron+Rel+Sg:jo relkys ; !!= * @CODE@ 
-mikä+Pron+Interr+Sg:mi relkys ; !!= * @CODE@ 
-joka+Pron+Interr+Sg:jo relkys ; !!= * @CODE@ 
+mikä+Pron+Rel+Sg:mi relkys ; !!≈ * @CODE@ 
+joka+Pron+Rel+Sg:jo relkys ; !!≈ * @CODE@ 
+mikä+Pron+Interr+Sg:mi relkys ; !!≈ * @CODE@ 
+joka+Pron+Interr+Sg:jo relkys ; !!≈ * @CODE@ 
 
-mikä+Pron+Rel+Pl:mi mi_rel_pl ; !!= * @CODE@  
+mikä+Pron+Rel+Pl:mi mi_rel_pl ; !!≈ * @CODE@  
 joka+Pron+Rel+Pl:jo jo_rel_pl ;
 mikä+Pron+Interr+Pl:mi mi_rel_pl ;
 joka+Pron+Interr+Pl:jo jo_rel_pl ;
@@ -64,20 +65,20 @@ doublecasepronouns ;
 
 !! ## Sanakirjasta
 
-usea+Pron:usea pron_x3 ; !!= * @CODE@ 
-harva+Pron:pron pron_x1 ; !!= * @CODE@ 
+usea+Pron:usea pron_x3 ; !!≈ * @CODE@ 
+harva+Pron:pron pron_x1 ; !!≈ * @CODE@ 
 
-kullaki pronx ; !!= * @CODE@ 
-kumpiki pronx ; !!= * @CODE@ 
-kuki pronx ; !!= * @CODE@ 
-moni pronx ; !!= * @CODE@ 
-ken pronx ; !!= * @CODE@ 
-meikäläinen+Pron+Indef:meikäläi toisen ; !!= * @CODE@ 
-sellainen+Pron+Indef:sellai toisen ; !!= * @CODE@ 
-mikhään pronx ; !!= * @CODE@ 
-kumpiko pronx ; !!= * @CODE@ 
-molemat pronx ; !!= * @CODE@ 
-nuot pronx ; !!= * @CODE@ 
-muu:mu MUU ; !!= * @CODE@ 
-mä pronx ; !!= * @CODE@ 
+kullaki pronx ; !!≈ * @CODE@ 
+kumpiki pronx ; !!≈ * @CODE@ 
+kuki pronx ; !!≈ * @CODE@ 
+moni pronx ; !!≈ * @CODE@ 
+ken pronx ; !!≈ * @CODE@ 
+meikäläinen+Pron+Indef:meikäläi toisen ; !!≈ * @CODE@ 
+sellainen+Pron+Indef:sellai toisen ; !!≈ * @CODE@ 
+mikhään pronx ; !!≈ * @CODE@ 
+kumpiko pronx ; !!≈ * @CODE@ 
+molemat pronx ; !!≈ * @CODE@ 
+nuot pronx ; !!≈ * @CODE@ 
+muu:mu MUU ; !!≈ * @CODE@ 
+mä pronx ; !!≈ * @CODE@ 
 

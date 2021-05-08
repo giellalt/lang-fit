@@ -1,13 +1,18 @@
-
-
 !! # Noun stems for Meänkieli
+
+!! This file documents the file `stems/nouns.lexc`, the nouns stem file.
+
+!! ## Vowel stems
 
 !! This is an overview of the continuation lexicon types. 
 
-!! ## Vowel stems
+!! * nx = unassigned
+
+!! Vowel stems
+
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
-!! * n3 = odd-syllabic: kanava
+!! * n3 = odd-syllabTic: kanava
 !! * n4 = i:e nouns: veri
 
 !! Consonant stems
@@ -15,7 +20,6 @@
 !! * n_uus = vajavuus
 !! * nc = cvc
 !! * 3nc = cvcvc, jiddish
-
 !! * nen = nainen paradigm
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
@@ -25,18 +29,18 @@
 !! * nas = tehas - tehtaan
 !! * 3mies = mies
 
-!! * nx = unassigned
 
+!! ## The lexica themselves
 
-!!! The lemma list 
-LEXICON NounRoot !!= * **@CODE@**
+!! The lemma list 
+LEXICON NounRoot !!≈ * **@CODE@**
 
 romani% chib:romani% chib nc ;
 jiddisch:jiddisch 3nc ;
 kieliraati:kieli#raati n1 ;
-kvääni n1 ;
-hinta n1 ;
-häpy n1 ;
+kvääni n1 ; !!≈ * @CODE@ 
+hinta n1 ; !!≈ * @CODE@ 
+häpy n1 ; !!≈ * @CODE@ 
 kala n1 ;
 kello n1 ;
 keppi n1 ;
@@ -67,12 +71,12 @@ talo n1 ;
 tooli n1 ;
 väri n1 ;
 
-rypriikki:rypriikki n3 ;
+rypriikki:rypriikki n3 ; !!≈ * @CODE@ 
 veppi:veppi n1 ;
 teema:teema n1 ;
 saame:saame n1 ;
 ruotti:ruotti n1 ;
-asfaltti:asfaltti n3 ;
+asfaltti:asfaltti n3 ; !!≈ * @CODE@ 
 abortti:abortti n1 ;
 mumentti:mumentti n1 ;
 terhveys:terhvey 3n_ue ;
@@ -84,10 +88,10 @@ siukkahoito:siukka#hoito n1 ;
 rukkous:rukkou 3n_ks ;
 tutkimus:tutkimu 3n_ks ;
 maakäräjä:maa#käräjä n3 ;
-hammashoitoavustus:hammashoitoavustu 3n_ks ;
+hammashoitoavustus:hammashoitoavustu 3n_ks ; !!≈ * @CODE@ 
 prupleemi:prupleemi n1 ;
 jumala:jumala n3 ;
-vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ;
+vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; !!≈ * @CODE@ 
 hammashoito:hammas#hoito n1 ;
 hormooni:hormooni n1 ;
 hammaslääkäri:hammas#lääkäri n3 ;

@@ -14,24 +14,24 @@
 
 !! # Symbol affixes
 
-LEXICON Noun_symbols_possibly_inflected !!= * @CODE@ 
- +N+Symbol: SYMBOL_connector ; !!= * @CODE@ 
+LEXICON Noun_symbols_possibly_inflected !!≈ * @CODE@ 
+ +N+Symbol: SYMBOL_connector ; !!≈ * @CODE@ 
 
-LEXICON Noun_symbols_never_inflected !!= * @CODE@ 
- +N+Symbol: # ; !!= * @CODE@ 
+LEXICON Noun_symbols_never_inflected !!≈ * @CODE@ 
+ +N+Symbol: # ; !!≈ * @CODE@ 
 
-LEXICON SYMBOL_connector !!= * @CODE@ 
-               SYMBOL_NO_suff ; !!=     - @CODE@ = §
-          :%:  SYMBOL_suff    ; !!=     - @CODE@ = §:
- +Err/Orth:    SYMBOL_suff    ; !!=     - @CODE@ = §ssa
- +Err/Orth:%-e SYMBOL_suff    ; !!=     - @CODE@ = §-essa
- +Err/Orth:%'e SYMBOL_suff    ; !!=     - @CODE@ = §'essä
+LEXICON SYMBOL_connector !!≈ * @CODE@ 
+               SYMBOL_NO_suff ; !!≈     - @CODE@ = §
+          :%:  SYMBOL_suff    ; !!≈     - @CODE@ = §:
+ +Err/Orth:    SYMBOL_suff    ; !!≈     - @CODE@ = §ssa
+ +Err/Orth:%-e SYMBOL_suff    ; !!≈     - @CODE@ = §-essa
+ +Err/Orth:%'e SYMBOL_suff    ; !!≈     - @CODE@ = §'essä
 
-LEXICON SYMBOL_NO_suff !!= * @CODE@ 
- +Sg+Nom: # ; !!= * @CODE@ 
+LEXICON SYMBOL_NO_suff !!≈ * @CODE@ 
+ +Sg+Nom: # ; !!≈ * @CODE@ 
 
-LEXICON SYMBOL_suff !!= * @CODE@ 
- +Sg+Gen:n       # ; !!= * @CODE@ cases need work
+LEXICON SYMBOL_suff !!≈ * @CODE@ 
+ +Sg+Gen:n       # ; !!≈ * @CODE@ cases need work
  +Sg+Ill:hin      # ;
  +Sg+Ine:ssa     # ;
  +Sg+Ela:sta     # ;

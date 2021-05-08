@@ -12,10 +12,13 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! Fit-acronyms is a dummy file.
 
-LEXICON Acronym-fit  !!= * @CODE@ 
-XXX Acronym-fit-suf ; !!= * @CODE@  to be replaced with fit content
+!! * Meänkieli aacronyms 
+
+!! The file `stems/fit-acronyms.lexc` is a dummy file, with this comtent only:
+
+LEXICON Acronym-fit  !!≈ * @CODE@ 
+XXX Acronym-fit-suf ; !!≈ * @CODE@  to be replaced with fit content
 
 
 

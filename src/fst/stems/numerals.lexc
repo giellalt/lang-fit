@@ -4,7 +4,7 @@
 !! These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
 
 LEXICON Numeral 
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !! Numerals have been split in three sections, the compounding parts
 !! of cardinals and ordinals, and the non-compounding ones:
@@ -24,7 +24,7 @@ LEXICON Numeral
  +Use/Circ: ISOLATED-NUMEXP ; ! for ½ etc.                     !
 
 LEXICON NUM_CARD_ALL
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !! The compounding parts of cardinals are the number multiplier words.
 !!€gt-norm: cardinal
@@ -159,7 +159,7 @@ yhdeksättä      #    ;
 kymmenettä      #    ;
 
 LEXICON NUM_ORD_ALL
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !! The compounding parts of ordinals are the number multiplier words.
 !!€gt-norm: Ordinal numerals
@@ -226,7 +226,7 @@ piljoonas+A+Ord:piljoona  NUM_KOLMAS ;
 piljardis+A+Ord:piljardi  NUM_KOLMAS   ;
 
 LEXICON NUM_ORD_SUFFIX
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Ordinal multiplicants
@@ -299,7 +299,7 @@ yhdeksättä # ;
 kymmenettä # ;
 
 LEXICON NUM_OTHERS
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !! There is a set of numbers or corresponding expressions that work like them,
 !! but are not basic cardinals or ordinals:
@@ -322,7 +322,7 @@ pari+Num:par           NUM_PARI ;
 !! Numerals follow the same stem variation patterns as nouns, some of these
 !! being very rare to extinct for nouns. 
 LEXICON NUM_YKSI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 31
 !!€ yksi: yksi+Num+Sg+Nom
@@ -353,7 +353,7 @@ LEXICON NUM_YKSI
 0:ks    NUM_FRONT_WEAK_PLURALS_L ;
 
 LEXICON NUM_KAKSI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 31 back§
 !!€ kaksi: kaksi+Num+Sg+Nom
 !!€ kaks: kaksi+Num+Sg+Nom !sallima puhekieliset haamut ko "yks" ja "kaks"
@@ -383,7 +383,7 @@ LEXICON NUM_KAKSI
 0:ks    NUM_BACK_WEAK_PLURALS_L ;
 
 LEXICON NUM_KOLME
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 8~5
 !!€ kolme: kolme+Num+Sg+Nom
 !!€ kolmheen: kolme+Num+Sg+Ill
@@ -410,7 +410,7 @@ LEXICON NUM_KOLME
 0       NUM_BACK_WEAK_PLURALS_L ;
 
 LEXICON NUM_NELJÄ
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 10
 !!€ nelje: nelje+Num+Sg+Nom
 !!€ neljee: nelje+Num+Sg+Par
@@ -440,7 +440,7 @@ LEXICON NUM_NELJÄ
 0    NUM_FRONT_WEAK_PLURALS_L ;
 
 LEXICON NUM_VIISI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 27 front
 !!€ viisi: viisi+Num+Sg+Nom
 !!€ viis: viisi+Num+Sg+Nom
@@ -472,7 +472,7 @@ LEXICON NUM_VIISI
 0:s     NUM_FRONT_ILLATIVE_HIIN  ;
 
 LEXICON NUM_KUUSI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 27 back
 !!€ kuusi: kuusi+Num+Sg+Nom
 !!€ kuus: kuusi+Num+Sg+Nom
@@ -504,7 +504,7 @@ LEXICON NUM_KUUSI
 
 
 LEXICON NUM_KAHDEKSAN
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 10n
 !!€ kahđeksen: kahđeksen+Num+Sg+Nom
 !!€ kahđeksee: kahđeksen+Num+Sg+Par
@@ -534,7 +534,7 @@ LEXICON NUM_KAHDEKSAN
 0       NUM_BACK_WEAK_PLURALS_LL ;
 
 LEXICON NUM_YHDEKSÄN
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 10n front
 !!€ yhđeksen: yhđeksen+Num+Sg+Nom
 !!€ yhđeksee: yhđeksen+Num+Sg+Par
@@ -564,7 +564,7 @@ LEXICON NUM_YHDEKSÄN
 0       NUM_FRONT_WEAK_PLURALS_LL ;
 
 LEXICON NUM_KYMMENEN
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 32
 !!€ kymmenen: kymmenen+Num+Sg+Nom
 !!€ kymmenheen: kymmenen+Num+Sg+Ill
@@ -593,7 +593,7 @@ LEXICON NUM_KYMMENEN
 0       NUM_FRONT_WEAK_PLURALS_LL ;
 
 LEXICON NUM_SATA
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 9
 !!€ sata: sata+Num+Sg+Nom
@@ -620,7 +620,7 @@ LEXICON NUM_SATA
 0:t     NUM_BACK_ILLATIVE_HOIN  ;
 
 LEXICON NUM_TUHAT
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 46
 !!€ tuhat: tuhat+Num+Sg+Nom
@@ -650,7 +650,7 @@ LEXICON NUM_TUHAT
 0:ns    NUM_BACK_WEAK_PLURALS_LL  ; 
 
 LEXICON NUM_MILJOONA
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 10 miljoona
 !!€ miljoona: miljoona+Num+Sg+Nom
@@ -679,7 +679,7 @@ LEXICON NUM_MILJOONA
 
 
 LEXICON NUM_MILJARDI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 5
 !!€ miljardi: miljardi+Num+Sg+Nom
@@ -707,7 +707,7 @@ LEXICON NUM_MILJARDI
 
 
 LEXICON NUM_GOOGOL
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 5 more
 !!€ Googol: Googol+Num+Sg+Nom
@@ -723,7 +723,7 @@ o:i NUM_BACK_STRONG_SINGULARS_NA ;
 0   NUM_BACK_GENITIVE_IEN   ;
 
 LEXICON NUM_PARI
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 
 !!€gt-norm: Numerals 5 moremore
 !!€ pari: pari+Num+Sg+Nom
@@ -751,7 +751,7 @@ LEXICON NUM_PARI
 
 
 LEXICON NUM_ENSIMMÄINEN
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 38
 !!€ ensimäinen: ensimäinen+A+Ord+Sg+Nom
 !!€ ensimäisenä: ensimäinen+A+Ord+Sg+Ess
@@ -777,7 +777,7 @@ LEXICON NUM_ENSIMMÄINEN
 +Der+Der/s:s    R ; !new PoS is missing
 
 LEXICON NUM_TOINEN
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 38 back
 !!€ toinen: toinen+A+Ord+Sg+Nom
 !!€ toisheen: toinen+A+Ord+Sg+Ill
@@ -807,7 +807,7 @@ LEXICON NUM_TOINEN
 +Der+Der/s:s    R ; !new PoS is missing
 
 LEXICON NUM_KOLMAS
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 45
 !!€ kolmas: kolmas+A+Ord+Sg+Nom
 !!€ kolmantenna: kolmas+A+Ord+Sg+Ess
@@ -834,7 +834,7 @@ LEXICON NUM_KOLMAS
 0:ns    NUM_BACK_STRONG_PLURALS_NN ;
 
 LEXICON NUM_NELJÄS
-!!= __@LEXNAME@__ 
+!!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 45 fron
 !!€ neljes: neljes+A+Ord+Sg+Nom
 !!€ neljentheen: neljes+A+Ord+Sg+Ill

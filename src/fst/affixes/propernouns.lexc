@@ -1,34 +1,44 @@
 !! Meänkieli propernoun morphology
 
-!! Propernoun morphology
+!! # Propernoun morphology
 !! p stands for proper noun
 !! even stems unmarked, odd stems marked 3
 !! x referring to common affixes/noun.lexc file
 !! We do not use _pl for names
 
 LEXICON 3p_1 
+!! **LEXICON @LEXNAME@**
 +N+Prop: x3_sg ;
 
 LEXICON 3p_21ie 
+!! **LEXICON @LEXNAME@**
 +N+Prop: x4_sg ;
 
 LEXICON 3p_22oi 
+!! **LEXICON @LEXNAME@**
 +N+Prop: x3_sg ;
 
 LEXICON 3p_nen 
+!! **LEXICON @LEXNAME@**
 +N+Prop: xnen_sg ;
 
 LEXICON 3p_C 
+!! **LEXICON @LEXNAME@**
 +N+Prop: p_adhoc ;
 
 LEXICON 3p_ani_1 
+!! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Ani: p_adhoc ;
 
 LEXICON 3p_ani_41 
+!! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Ani: p_adhoc ;
 
 LEXICON 3p_fem_1 
+!! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Fem: p_adhoc ;
+
+!! ... and many more.
 
 LEXICON 3p_fem_41 
 +N+Prop+Sem/Fem: p_adhoc ;

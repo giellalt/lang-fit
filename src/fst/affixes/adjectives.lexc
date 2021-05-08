@@ -1,37 +1,53 @@
-!! Meänkieli adjective morphology
+!! # Documenting Meänkieli adjective morphology
+
+
+!! Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
+!! corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
+!! In addition, it also points to comparative and superlative lexica.
+
+!! ## Unassigned
 
 LEXICON ax
+!! **LEXICON @LEXNAME@** pointing to **a1**
 a1 ; ! ax
 
 LEXICON a1 
-+A: x1 ;
-+A+Comp: 3comp ;
-+A+Superl:ime 3sup ;
+!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
++A: x1 ; !!≈ * @CODE@
++A+Comp: 3comp ; !!≈ * @CODE@
++A+Superl:ime 3sup ; !!≈ * @CODE@
 
 
 LEXICON a2
-+A: x2 ;
-+A+Comp: 4comp ;
-+A+Superl:ime 4sup;
+!! **LEXICON @LEXNAME@** gets +A and goes to x2.
++A: x2 ; !!≈ * @CODE@
++A+Comp: 4comp ; !!≈ * @CODE@
++A+Superl:ime 4sup; !!≈ * @CODE@
 
 LEXICON a3 
-+A: x3 ;
-+A+Comp: 4comp ;
-+A+Superl:ime 4sup;
+!! **LEXICON @LEXNAME@** 
++A: x3 ;  !!≈ * @CODE@
++A+Comp: 4comp ; !!≈ * @CODE@
++A+Superl:ime 4sup; !!≈ * @CODE@
 
 LEXICON a4
-+A: x4 ;
+!! **LEXICON @LEXNAME@** 
++A: x4 ; !!≈ * @CODE@
 
 LEXICON anen
-+A: xnen ;
+!! **LEXICON @LEXNAME@** 
++A: xnen ; !!≈ * @CODE@
 
 LEXICON aas
+!! **LEXICON @LEXNAME@** 
 +A: xnas ;
 
 LEXICON a1_ton
+!! **LEXICON @LEXNAME@** 
 +A: x1_ton ;
 
 LEXICON x1_ton
+!! **LEXICON @LEXNAME@** 
  +Sg+Nom:%>^On       K ;
  +Sg+Gen:%>t^Om^An K ;
  +Sg+Par:%>^Ont^A K ;
@@ -63,10 +79,10 @@ LEXICON x1_ton
 
 
 
-!! Comparative inflection
+!! ## Comparative inflection
 !  ----------------------
 
-LEXICON 3comp ! 2syll adj, 3syll comparative
+LEXICON 3comp  !!≈ * @CODE@ 2syll adj, 3syll comparative
 +Sg+Ess:%>mp^Ann^A K ;
 +Sg+All:%>m^Alle K ;
 +Sg+Ade:%>m^All^A K ;
@@ -75,7 +91,7 @@ LEXICON 3comp ! 2syll adj, 3syll comparative
 +Pl+Ade:%>mill^A K ;
 xcomp ; ! common cases from here
 
-LEXICON 4comp ! 3syll adj, 4syll comparative
+LEXICON 4comp  !!≈ * @CODE@ 3syll adj, 4syll comparative
 +Sg+Ess:%>mp^An^A K ;
 +Sg+All:%>m^Ale K ;
 +Sg+Ade:%>m^Al^A K ;
@@ -87,7 +103,7 @@ xcomp ; ! common cases from here
 
 
 
-LEXICON xcomp ! common for 2syll and 3syll
+LEXICON xcomp  !!≈ * @CODE@ common for 2syll and 3syll
 +Sg+Nom:%>mpi # ;
 +Sg+Gen:%>ma%>n K ;
 +Sg+Par:%>mp^A^A K ;
@@ -109,10 +125,10 @@ LEXICON xcomp ! common for 2syll and 3syll
 
 
 
-!! Superlative inflection
+!! ### Superlative inflection
 !  ----------------------
 
-LEXICON 3sup ! 2syll adj, 3syll superlative
+LEXICON 3sup  !!≈ * @CODE@ 2syll adj, 3syll superlative
 +Sg+Ess:%>i5i5mp^Ann^A K ;
 +Sg+All:%>i5m^Alle K ;
 +Sg+Ade:%>i5m^All^A K ;
@@ -121,7 +137,7 @@ LEXICON 3sup ! 2syll adj, 3syll superlative
 +Pl+Ade:%>i5mill^A K ;
 xsup ; ! common cases from here
 
-LEXICON 4sup ! 3syll adj, 4syll superlative
+LEXICON 4sup  !!≈ * @CODE@ 3syll adj, 4syll superlative
 +Sg+Ess:%>i5mp^An^A K ;
 +Sg+All:%>i5m^Ale K ;
 +Sg+Ade:%>i5m^Al^A K ;
@@ -133,7 +149,7 @@ xsup ; ! common cases from here
 
 
 
-LEXICON xsup ! common for 2syll and 3syll
+LEXICON xsup  !!≈ * @CODE@ common for 2syll and 3syll
 +Sg+Nom:%>i5mpi # ;
 +Sg+Gen:%>i5man K ;
 +Sg+Par:%>i5mp^A^A K ;

@@ -2,10 +2,10 @@
 
 !! 32000 names
 
-LEXICON ProperNoun !!= * @CODE@ 
+LEXICON ProperNoun !!≈ * @CODE@ 
 
-Niila:Niila p_mal_1 ; !!= * @CODE@ 
-Kiiruna:Kiiruna 3p_plc ; !!= * @CODE@ 
+Niila:Niila p_mal_1 ; !!≈ * @CODE@ 
+Kiiruna:Kiiruna 3p_plc ; !!≈ * @CODE@ 
 Tokholma:Tokholma p_plc_1 ; !! * ...
 Luulaja:Luulaja 3p_plc ;
 Anders:Anders 3p_mal_1C ;
