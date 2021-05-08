@@ -2,9 +2,9 @@
 
 # This is the file for Meänkieli verb morphology.
 
-## Overview
+## Overview over the continuation classes
 
-### Regular verbs
+### Overview over the Regular verbs
  * v1 = antaa; sanoa:sano
  * v2 = huomata
  * v3 = syö'ä:syö ! ', ’
@@ -17,17 +17,18 @@
  * v_vanheta = vanheta
  * vx = unassigned
 
-### Irregular verbs
+### Overview over the Irregular verbs
  * v_tehha
  * v_nahha
 
-## The verb lexica
+## The verb lexica themselves
 
 
+**LEXICON vx**
 
 Irregular verbs
 
- * **LEXICON OLLA **
+ * **LEXICON OLLA**
 
 
 
@@ -35,12 +36,12 @@ Irregular verbs
 
 
 
- * **LEXICON NEG  **
+ * **LEXICON NEG**
 
 
 Regular verbs
 
- * **LEXICON v1  ** sanoa, lukea, antaa
+ * **LEXICON v1** sanoa, lukea, antaa
 
 
 
@@ -50,7 +51,7 @@ Regular verbs
 
 
 
- * **LEXICON v2  ** huomata, ymmärtää
+ * **LEXICON v2** huomata, ymmärtää
 
 
 
@@ -62,14 +63,14 @@ Regular verbs
 
 
 
- * **LEXICON SYA  ** syä, myä
+ * **LEXICON SYA** syä, myä
 
- * **LEXICON JUA  **
+ * **LEXICON JUA**
 
 
- * **LEXICON v3_j  **
+ * **LEXICON v3_j**
 
- * **LEXICON v3  **
+ * **LEXICON v3**
 
 
 
@@ -81,7 +82,7 @@ Regular verbs
 
 
 
- LEXICON v3kayda   käyđä:kä from fkv
+ LEXICON v3kayda käyđä:kä from fkv
 
 
 
@@ -96,7 +97,7 @@ Regular verbs
 
 
 
- LEXICON v3nahda  nähđä:nä = from fkv
+ LEXICON v3nahda nähđä:nä = from fkv
 
 
 
@@ -105,7 +106,7 @@ Regular verbs
 
 
 
- LEXICON v3tehda  tehđä:te from fkv
+ LEXICON v3tehda tehđä:te from fkv
 
 
 
@@ -117,7 +118,7 @@ Regular verbs
 
 
 
- * **LEXICON v4  **
+ * **LEXICON v4**
 
 
 
@@ -129,7 +130,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_3la  ** varjela:varjel
+ * **LEXICON v4_3la** varjela:varjel
 
 
 
@@ -144,7 +145,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_4lla  **
+ * **LEXICON v4_4lla**
 
 
 
@@ -160,7 +161,7 @@ Regular verbs
 
 
 
- * **LEXICON v5 **  kehitä:kehi  
+ * **LEXICON v5**  kehitä:kehi  
 
 
 
@@ -174,7 +175,7 @@ Regular verbs
 
 
 
- * **LEXICON v6 ** =  paeta:pake
+ * **LEXICON v6** =  paeta:pake
 
 
 
@@ -189,7 +190,7 @@ Regular verbs
 ## Subparadigms
 ### Conditional forms
 
- **LEXICON 2cond ** kehitä:kehi  
+ **LEXICON 2cond** kehitä:kehi  
 
 
 
@@ -205,11 +206,11 @@ from fkv
 
 
 
- LEXICON v12pers  Only sg12, pl12 so far
+ LEXICON v12pers Only sg12, pl12 so far
 
 
 
- LEXICON PRFPRC_OBL  is without nom sg from fkv
+ LEXICON PRFPRC_OBL is without nom sg from fkv
 
 
 

@@ -1,70 +1,76 @@
+# Documenting the morphological tags for Meänkieli abbreviations
 
 
 
 
+Now splitting according to POS, and according to dot or not
 
- * **LEXICON ab-noun   **
+**LEXICON ab-noun-itrab** 
+**LEXICON ab-noun-trab** 
+**LEXICON ab-noun-trnumab** 
+
+ * **LEXICON ab-noun**
 
 
- * **LEXICON ab-adj   **
+ * **LEXICON ab-adj**
 
 
- * **LEXICON ab-adv   **
+ * **LEXICON ab-adv**
 
 
- * **LEXICON ab-num   **
+ * **LEXICON ab-num**
 
 ### Lexicons without final period
 
 
- * **LEXICON ab-nodot-noun   **  The bulk
+ * **LEXICON ab-nodot-noun**  The bulk
 
 
- * **LEXICON ab-nodot-adj   **
+ * **LEXICON ab-nodot-adj**
 
 
- * **LEXICON ab-nodot-adv   **
+ * **LEXICON ab-nodot-adv**
 
- * **LEXICON ab-nodot-num   **
+ * **LEXICON ab-nodot-num**
 
 ### Lexicons with final period
 
 
- * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
 
 
- * **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adv**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-num**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-cc   **
-
-
-
- * **LEXICON ab-dot-verb   **
+ * **LEXICON ab-dot-cc**
 
 
 
+ * **LEXICON ab-dot-verb**
 
 
 
- * **LEXICON nodot-attrnomaccgen-infl   **
-
- * **LEXICON nodot-attr-infl   **
-
- * **LEXICON nodot-nomaccgen-infl   **
 
 
- * **LEXICON dot-attrnomaccgen-infl   **
 
- * **LEXICON dot-attr   **
+ * **LEXICON nodot-attrnomaccgen-infl**
 
- * **LEXICON dot-nomaccgen-infl   **
+ * **LEXICON nodot-attr-infl**
+
+ * **LEXICON nodot-nomaccgen-infl**
 
 
- * **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
+ * **LEXICON dot-attrnomaccgen-infl**
+
+ * **LEXICON dot-attr**
+
+ * **LEXICON dot-nomaccgen-infl**
+
+
+ * **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
 
 

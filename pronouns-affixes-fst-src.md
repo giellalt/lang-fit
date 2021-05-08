@@ -6,12 +6,12 @@ Meänkieli pronoun morphology
 
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
- LEXICON 12pronsg  on 1., 2. p. yksikkö
+ LEXICON 12pronsg on 1., 2. p. yksikkö
 
 
 
 
- LEXICON 123pronpl   
+ LEXICON 123pronpl 
 
 
 

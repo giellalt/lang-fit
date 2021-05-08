@@ -11,22 +11,22 @@
 
 The lemma list
 
- LEXICON AdjectiveRoot 
+ LEXICON AdjectiveRoot
 
 a1
- * tuttu a1 ;  
- * selvä a1 ; 
- * kuiva a1 ; 
+ * tuttu a1 ;
+ * selvä a1 ;
+ * kuiva a1 ;
 ...
 
 a3 
- * komea a3 ;  
- * muikea a3 ;  
- * privaatti a3 ;   xxx a1?
+ * komea a3 ;
+ * muikea a3 ;
+ * privaatti a3 ; xxx a1?
 
 a4
- * pieni:piene a4 ;  
- * vanhaa:vanhaa ax ;  
+ * pieni:piene a4 ;
+ * vanhaa:vanhaa ax ;
 
 
 

@@ -13,6 +13,7 @@
 * [adjectives-stems-fst-src.md](adjectives-stems-fst-src.md)
 * [pronouns-stems-fst-src.md](pronouns-stems-fst-src.md)
 * [phonology-fst-src.md](phonology-fst-src.md)
+* [acronyms-affixes-fst-src.md](acronyms-affixes-fst-src.md)
 * [symbols-affixes-fst-src.md](symbols-affixes-fst-src.md)
 * [abbreviations-affixes-fst-src.md](abbreviations-affixes-fst-src.md)
 * [nouns-affixes-fst-src.md](nouns-affixes-fst-src.md)

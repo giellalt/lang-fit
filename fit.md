@@ -3,44 +3,47 @@
 
 ## Adding tags
 
- * LEXICON conjx  
- * +CC: # ;       
+ * LEXICON conjx 
+ * +CC: # ; 
 
- * LEXICON cc  why two... 
- * +CC: # ;  
+ * LEXICON cc why two... 
+ * +CC: # ; 
 
- * LEXICON cc_agr  
- * +CC: # ;  
- * +Sg1:n # ;  
- * +Sg2:t # ;  
- * +Sg3:i # ;  
- * +Pl1:mä # ;  
- * +Pl2:tä # ;  
- * +Pl3:ivä # ;  
+ * LEXICON cc_agr 
+ * +CC: # ; 
+ * +Sg1:n # ; 
+ * +Sg2:t # ; 
+ * +Sg3:i # ; 
+ * +Pl1:mä # ; 
+ * +Pl2:tä # ; 
+ * +Pl3:ivä # ; 
 
 
 ## The conjunctions themselves
 
- * LEXICON Conjunction  
- * ja cc ;  
- * ynnä cc ;  
- * sekä cc ;  
- * ette cc_agr ;  
+ * LEXICON Conjunction 
+ * ja cc ; 
+ * ynnä cc ; 
+ * sekä cc ; 
+ * ette cc_agr ; 
 ... and some 20 more
 # Meänkieli subjunctions
 
 
- * LEXICON cs    
- * +CS: # ;      
+ * **LEXICON cs** 
+ * +CS: # ; 
 
- * LEXICON Subjunction  
- * ette cs ;            
- * vaikka cs ;          
+ * **LEXICON Subjunction** 
+ * ette cs ; 
+ * vaikka cs ; 
 
-Fit-acronyms is a dummy file.
 
- * LEXICON Acronym-fit   
- * XXX Acronym-fit-suf ;   to be replaced with fit content
+* Meänkieli aacronyms 
+
+The file `stems/fit-acronyms.lexc` is a dummy file, with this comtent only:
+
+ * LEXICON Acronym-fit 
+ * XXX Acronym-fit-suf ;  to be replaced with fit content
 
 
 
@@ -51,64 +54,73 @@ Fit-acronyms is a dummy file.
 
 ## Adding tags
 
- * LEXICON pox   
- * +Po: K ;  
+ * LEXICON pox 
+ * +Po: K ; 
 
- * LEXICON po  
- * +Po: K ;  
+ * LEXICON po 
+ * +Po: K ; 
 
-## The list
+## The list of 40 or so postpositions.
 
- * LEXICON Postposition  
- * jälkheen po ;  
- * ympäri po ;  
+ * LEXICON Postposition 
+ * jälkheen po ; 
+ * ympäri po ; 
 ...
 
-File containing meänkieli abbreviations 
+# File containing meänkieli abbreviations 
 
 The file contains 5-6 abbreviations, and is thus just a placeholder.
 Most fit abbreviations thus come from the common abbreviation file. 
 Here we should add meänkieli-specific ones.
 
 
-Lexica for adding tags and periods
+## Lexica for adding tags and periods
+
+
+ 1. ITRAB ; 
+ 1. TRNUMAB ; 
+ 1. TRAB ; 
+
+
+## The abbreviation lexicon itself
+
+
+###           Intransitive abbreviations           
+
+ * LEXICON ITRAB 
+
+ * e.Kr+Adv:e.Kr ab-dot-adv-itrab ; 
 
 
 
+###     Abreviations who are transitive in front of numerals    
+
+ * LEXICON TRNUMAB 
+
+ * nro+N:nro ab-noun-trnumab ; 
 
 
+###             Transitive abbreviations           
 
-           Intransitive abbreviations           !
+ * LEXICON TRAB 
 
- * LEXICON ITRAB   
-
- * e.Kr+Adv:e.Kr	ab-dot-adv-itrab ;   
-
-
-
-     Abreviations who are transitive in front of numerals    !
-
- * LEXICON TRNUMAB  
-
- * nro+N:nro ab-noun-trnumab ;  
-
-
-             Transitive abbreviations           !
-
- * LEXICON TRAB  
-
- * esim+A:esim ab-dot-adj-trab ;  
-
-
+ * esim+A:esim ab-dot-adj-trab ; 
 
 # Noun stems for Meänkieli
 
-This is an overview of the continuation lexicon types. 
+This file documents the file `stems/nouns.lexc`, the nouns stem file.
 
 ## Vowel stems
+
+This is an overview of the continuation lexicon types. 
+
+* nx = unassigned
+
+Vowel stems
+
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
-* n3 = odd-syllabic: kanava
+* n3 = odd-syllabTic: kanava
 * n4 = i:e nouns: veri
 
 Consonant stems
@@ -116,7 +128,6 @@ Consonant stems
 * n_uus = vajavuus
 * nc = cvc
 * 3nc = cvcvc, jiddish
-
 * nen = nainen paradigm
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
@@ -126,12 +137,20 @@ Consonant stems
 * nas = tehas - tehtaan
 * 3mies = mies
 
-* nx = unassigned
 
+## The lexica themselves
 
- * **LEXICON NounRoot **
+The lemma list 
+ * **LEXICON NounRoot**
 
+ * kvääni n1 ; 
+ * hinta n1 ; 
+ * häpy n1 ; 
 
+ * rypriikki:rypriikki n3 ; 
+ * asfaltti:asfaltti n3 ; 
+ * hammashoitoavustus:hammashoitoavustu 3n_ks ; 
+ * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
 
 
 
@@ -146,12 +165,19 @@ Consonant stems
 
 
 
-!!!Meänkieli prepositions
+# Meänkieli prepositions
 
 
+ * +Pr: K ;  prx
 
+ * +Pr: K ; 
 
-
+ * yli:yli pr ; 
+ * ennen pr ; 
+ * ympäri pr ; 
+ * jahka prx ; 
+ * joka prx ; 
+..
 # Meänkieli numerals
 
 
@@ -493,103 +519,109 @@ being very rare to extinct for nouns.
 
 ## The tags
 
- * LEXICON advx  Still not checked, hence the x
- * +Adv: K ;  
+ * LEXICON advx Still not checked, hence the x
+ * +Adv: K ; 
 
- * LEXICON adv   checked
- * +Adv: K ;  
+ * LEXICON adv  checked
+ * +Adv: K ; 
 
 
- * LEXICON advkk   checked and with geminate clitic
+ * LEXICON advkk  checked and with geminate clitic
 
 ## The adverbs themselves (some 1200)
 
- * LEXICON Adverb   
- * niin adv ;  
- * niinkö adv ;  
- * nimittäin adv ;  
- * liian adv ;  
+ * LEXICON Adverb 
+ * niin adv ; 
+ * niinkö adv ; 
+ * nimittäin adv ; 
+ * liian adv ; 
 ...
 # Meänkieli interjections
 
 ## Adding tag
 
- * **LEXICON ijx  ** \\
- +Interj: K ; 
+ * **LEXICON ijx** \\
+ +Interj: K ;
 
- * **LEXICON Interjection   ** 
- * äh ijx ;     
- * täh ijx ;   
- * pii ijx ;   
-aivan ijx ;     * ...
-# Meänkieli verbs
+ * **LEXICON Interjection** 
+ * äh ijx ; 
+ * täh ijx ; 
+ * pii ijx ; 
+aivan ijx ; aivan ijx ;     * ...
+# Documenting the file for meänkieli verbs
 
-# This is the file for Meänkieli verb stems.
+This file documents the file for Meänkieli verb stems.
+First, it an overvieš of the continuation lexica, and thereafter it sketches their actual content.
 
-## Overview
+## Overview over the continuation lexica
 
-### Regular verbs
- * v1 = antaa; sanoa:sano
- * v2 = huomata
- * v3 = syö'ä:syö ! ', ’
- * v4 = nousta; tulla:tul
- * v4_3la = varjela, varjelee
- * v4_4lla = ajatella, ajattellee
- * v2 = tryykätä:tryykkä
- * v5 = tarvita:tarv
- * v6 = paeta:pake
- * v_vanheta = vanheta
- * vx = unassigned
+### Continuation lexica for regular verbs
+ * **v1** = antaa; sanoa:sano
+ * **v2** = huomata
+ * **v3** = syö'ä:syö ! ', ’
+ * **v4** = nousta; tulla:tul
+ * **v4_3la** = varjela, varjelee
+ * **v4_4lla** = ajatella, ajattellee
+ * **v2** = tryykätä:tryykkä
+ * **v5** = tarvita:tarv
+ * **v6** = paeta:pake
+ * **v_vanheta** = vanheta
+ * **vx** = unassigned
 
-### Irregular verbs
- * v_tehha
- * v_nahha
+### Continuation lexica for irregular verbs
+ * **v_tehha**
+ * **v_nahha**
+ * **OLLA**
+ * **NEG**
+ * **JUA**
+ * **SYA**
 
-## The verb lexica
 
- * **LEXICON VerbRoot ** = The verb list 
+## The verb lexica themselves
+
+ * **LEXICON VerbRoot** = The verb list 
 
 
 Irregular verbs
- * **olla: OLLA ; ** 
- * **ei: NEG ;    ** 
+ * **olla: OLLA ;** 
+ * **ei: NEG ;** 
 
 
 v1 sanoa, lukea
- * **sanoa:sano v1 ;  ** 
- * **hukkua:hukku v1 ;  ** 
+ * **sanoa:sano v1 ;** 
+ * **hukkua:hukku v1 ;** 
 
 
 v2 tryykätä
- * **hypätä:hyppä v2 ;  ** 
- * **tryykätä:tryykkä v2 ;  ** 
+ * **hypätä:hyppä v2 ;** 
+ * **tryykätä:tryykkä v2 ;** 
 
 
 v3 syödä, juoda
- * **syä:sy SYA ;  ** 
- * **jua:ju JUA ;   ** 
+ * **syä:sy SYA ;** 
+ * **jua:ju JUA ;** 
 
 
 
 
- * **tehä:te v3tehda ;  ** 
- * **käyä:kä v3kayda ;  **  
- * **nähä:nä v3nahda ;  ** 
+ * **tehä:te v3tehda ;** 
+ * **käyä:kä v3kayda ;**  
+ * **nähä:nä v3nahda ;** 
 
 v4 tulla, mennä
- * **tulla:tul v4 ;  ** 
- * **mennä:men v4 ;  ** 
+ * **tulla:tul v4 ;** 
+ * **mennä:men v4 ;** 
 
 v5 tarvita
- * **tarvita:tarvi v5 ;  ** 
+ * **tarvita:tarvi v5 ;** 
 
 v6 paeta
- * **paeta:pake v6 ;  ** 
+ * **paeta:pake v6 ;** 
 
 
  Then comes the long list
- * **trukittaaa:trukittaa v1 ;  ** 
- * **lehathaa:lehatha v1 ;   ** 
+ * **trukittaaa:trukittaa v1 ;** 
+ * **lehathaa:lehatha v1 ;** 
 * ...
 
 
@@ -597,10 +629,10 @@ v6 paeta
 
 32000 names
 
- * LEXICON ProperNoun  
+ * LEXICON ProperNoun 
 
- * Niila:Niila p_mal_1 ;  
- * Kiiruna:Kiiruna 3p_plc ;  
+ * Niila:Niila p_mal_1 ; 
+ * Kiiruna:Kiiruna 3p_plc ; 
 * ...
 ERVASTI?
 # Meänkieli adjectives
@@ -616,51 +648,52 @@ ERVASTI?
 
 The lemma list
 
- LEXICON AdjectiveRoot 
+ LEXICON AdjectiveRoot
 
 a1
- * tuttu a1 ;  
- * selvä a1 ; 
- * kuiva a1 ; 
+ * tuttu a1 ;
+ * selvä a1 ;
+ * kuiva a1 ;
 ...
 
 a3 
- * komea a3 ;  
- * muikea a3 ;  
- * privaatti a3 ;   xxx a1?
+ * komea a3 ;
+ * muikea a3 ;
+ * privaatti a3 ; xxx a1?
 
 a4
- * pieni:piene a4 ;  
- * vanhaa:vanhaa ax ;  
+ * pieni:piene a4 ;
+ * vanhaa:vanhaa ax ;
 
 
 
 # Meänkieli pronouns
 
+This file documents the `stems/pronouns.lexc` file.
 
- * LEXICON Pronoun   
+ * LEXICON Pronoun 
 
 ## Persoonapronominit
 
- * mie+Pron+Pers+Sg:m 12pronsg ;  
+ * mie+Pron+Pers+Sg:m 12pronsg ; 
  * ...
 
 
 ## Demonstratiivipronominit
 
- * se+Pron+Dem+Sg:   se_pron ;    
+ * se+Pron+Dem+Sg: se_pron ; 
 
- * tämä+Pron+Dem:tä tama ;  
- * tuo+Pron+Dem:tuo tuo ;  
- * nämä+Pron+Dem+Pl+Nom:nämä K ;  
- * nämä+Pron+Dem+Pl:näi namaobl ;  
+ * tämä+Pron+Dem:tä tama ; 
+ * tuo+Pron+Dem:tuo tuo ; 
+ * nämä+Pron+Dem+Pl+Nom:nämä K ; 
+ * nämä+Pron+Dem+Pl:näi namaobl ; 
 
- * mikä+Pron+Rel+Sg:mi relkys ;  
- * joka+Pron+Rel+Sg:jo relkys ;  
- * mikä+Pron+Interr+Sg:mi relkys ;  
- * joka+Pron+Interr+Sg:jo relkys ;  
+ * mikä+Pron+Rel+Sg:mi relkys ; 
+ * joka+Pron+Rel+Sg:jo relkys ; 
+ * mikä+Pron+Interr+Sg:mi relkys ; 
+ * joka+Pron+Interr+Sg:jo relkys ; 
 
- * mikä+Pron+Rel+Pl:mi mi_rel_pl ;   
+ * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
 
 
 
@@ -674,22 +707,22 @@ a4
 
 ## Sanakirjasta
 
- * usea+Pron:usea pron_x3 ;  
- * harva+Pron:pron pron_x1 ;  
+ * usea+Pron:usea pron_x3 ; 
+ * harva+Pron:pron pron_x1 ; 
 
- * kullaki pronx ;  
- * kumpiki pronx ;  
- * kuki pronx ;  
- * moni pronx ;  
- * ken pronx ;  
- * meikäläinen+Pron+Indef:meikäläi toisen ;  
- * sellainen+Pron+Indef:sellai toisen ;  
- * mikhään pronx ;  
- * kumpiko pronx ;  
- * molemat pronx ;  
- * nuot pronx ;  
- * muu:mu MUU ;  
- * mä pronx ;  
+ * kullaki pronx ; 
+ * kumpiki pronx ; 
+ * kuki pronx ; 
+ * moni pronx ; 
+ * ken pronx ; 
+ * meikäläinen+Pron+Indef:meikäläi toisen ; 
+ * sellainen+Pron+Indef:sellai toisen ; 
+ * mikhään pronx ; 
+ * kumpiko pronx ; 
+ * molemat pronx ; 
+ * nuot pronx ; 
+ * muu:mu MUU ; 
+ * mä pronx ; 
 
 Meänkieli twolc file
 
@@ -1024,93 +1057,133 @@ t rules
 
 
 
+# Documenting Meänkieli acronym morphology
+
+**LEXICON Acronym-fit-suf** for adding +ACR tag
+
+**LEXICON ACRONOUN_cons**
+
+**LEXICON ACRONOUN_vow**
+
+ * **LEXICON UNIT**  As acro, but without paradigm
+
+ * **LEXICON ACRO_ACCRA** 
+
+**LEXICON ACRO_BERN**
+
+**LEXICON ACRO_LONDON**
+
+**LEXICON ACRO_NYSTØ**
+
+**LEXICON ACRO_cons**
+
+**LEXICON ACRO_vow**
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Symbol affixes
 
- * LEXICON Noun_symbols_possibly_inflected  
- *  +N+Symbol: SYMBOL_connector ;  
+ * LEXICON Noun_symbols_possibly_inflected 
+ * +N+Symbol: SYMBOL_connector ; 
 
- * LEXICON Noun_symbols_never_inflected  
- *  +N+Symbol: # ;  
+ * LEXICON Noun_symbols_never_inflected 
+ * +N+Symbol: # ; 
 
- * LEXICON SYMBOL_connector  
-     -                SYMBOL_NO_suff ;  = §
-     -           :%:  SYMBOL_suff    ;  = §:
-     -  +Err/Orth:    SYMBOL_suff    ;  = §ssa
-     -  +Err/Orth:%-e SYMBOL_suff    ;  = §-essa
-     -  +Err/Orth:%'e SYMBOL_suff    ;  = §'essä
+ * LEXICON SYMBOL_connector 
+     - SYMBOL_NO_suff ; = §
+     - :%: SYMBOL_suff ; = §:
+     - +Err/Orth: SYMBOL_suff ; = §ssa
+     - +Err/Orth:%-e SYMBOL_suff ; = §-essa
+     - +Err/Orth:%'e SYMBOL_suff ; = §'essä
 
- * LEXICON SYMBOL_NO_suff  
- *  +Sg+Nom: # ;  
+ * LEXICON SYMBOL_NO_suff 
+ * +Sg+Nom: # ; 
 
- * LEXICON SYMBOL_suff  
- *  +Sg+Gen:n       # ;  cases need work
-
-
-
+ * LEXICON SYMBOL_suff 
+ * +Sg+Gen:n # ; cases need work
+# Documenting the morphological tags for Meänkieli abbreviations
 
 
- * **LEXICON ab-noun   **
 
 
- * **LEXICON ab-adj   **
+Now splitting according to POS, and according to dot or not
+
+**LEXICON ab-noun-itrab** 
+**LEXICON ab-noun-trab** 
+**LEXICON ab-noun-trnumab** 
+
+ * **LEXICON ab-noun**
 
 
- * **LEXICON ab-adv   **
+ * **LEXICON ab-adj**
 
 
- * **LEXICON ab-num   **
+ * **LEXICON ab-adv**
+
+
+ * **LEXICON ab-num**
 
 ### Lexicons without final period
 
 
- * **LEXICON ab-nodot-noun   **  The bulk
+ * **LEXICON ab-nodot-noun**  The bulk
 
 
- * **LEXICON ab-nodot-adj   **
+ * **LEXICON ab-nodot-adj**
 
 
- * **LEXICON ab-nodot-adv   **
+ * **LEXICON ab-nodot-adv**
 
- * **LEXICON ab-nodot-num   **
+ * **LEXICON ab-nodot-num**
 
 ### Lexicons with final period
 
 
- * **LEXICON ab-dot-noun   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
 
 
- * **LEXICON ab-dot-adj   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-adv   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-adv**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-num   **  This is the lexicon for abbrs that must have a period.
+ * **LEXICON ab-dot-num**  This is the lexicon for abbrs that must have a period.
 
- * **LEXICON ab-dot-cc   **
-
-
-
- * **LEXICON ab-dot-verb   **
+ * **LEXICON ab-dot-cc**
 
 
 
+ * **LEXICON ab-dot-verb**
 
 
 
- * **LEXICON nodot-attrnomaccgen-infl   **
-
- * **LEXICON nodot-attr-infl   **
-
- * **LEXICON nodot-nomaccgen-infl   **
 
 
- * **LEXICON dot-attrnomaccgen-infl   **
 
- * **LEXICON dot-attr   **
+ * **LEXICON nodot-attrnomaccgen-infl**
 
- * **LEXICON dot-nomaccgen-infl   **
+ * **LEXICON nodot-attr-infl**
+
+ * **LEXICON nodot-nomaccgen-infl**
 
 
- * **LEXICON DOT   ** - Adds the dot to dotted abbreviations.
+ * **LEXICON dot-attrnomaccgen-infl**
+
+ * **LEXICON dot-attr**
+
+ * **LEXICON dot-nomaccgen-infl**
+
+
+ * **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
 
 
@@ -1121,20 +1194,19 @@ t rules
 # Meänkieli noun morphology
 
 
-This is an overview of the continuation lexicon types. 
+## This is an overview of the continuation lexicon types. 
 
-## Vowel stems
+### Vowel stems
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabic: kanava
 * n4 = i:e nouns: veri
 
-Consonant stems
+### Consonant stems
 
 * n_uus = vajavuus
 * nc = cvc
 * 3nc = cvcvc, jiddish
-
 * nen = nainen paradigm
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
@@ -1144,17 +1216,26 @@ Consonant stems
 * nas = tehas - tehtaan
 * 3mies = mies
 
+### Unassigned
 * nx = unassigned
 
 
 
+**LEXICON nx**
 
+**LEXICON nc**
 
+**LEXICON n1**
 
+**LEXICON n1_pl**
 
+**LEXICON x1**
 
+**LEXICON x1_sg**
 
+**LEXICON x1_sg_oblique**
 
+**LEXICON x1_pl**
 
 
 
@@ -1184,9 +1265,14 @@ Consonant stems
 
 The nainen (nen) and hevonen (3nen) family
 
+**LEXICON nen**
 
+**LEXICON xnen**
 
+**LEXICON xnen_sg**
+ +Sg:se%> 2cases ; for  Ade, All, Ess lla, lle, nna
 
+**LEXICON xnen_pl**
 
 
 
@@ -1230,13 +1316,13 @@ The nainen (nen) and hevonen (3nen) family
 
 Px is now not in use, with one exception, comitative.
 
- LEXICON n_PxK   has either -n or goes to Px
+ LEXICON n_PxK has either -n or goes to Px
 
- LEXICON i_PxK   Tra: -i or -e and goes to Px
+ LEXICON i_PxK Tra: -i or -e and goes to Px
 
- LEXICON PxK  has only -nsA, and is currently not in use. Check
+ LEXICON PxK has only -nsA, and is currently not in use. Check
 
- LEXICON PxxK   has also -Vn, thus both .. llensa and ..lleen.
+ LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
 
 
@@ -1540,19 +1626,29 @@ forms which requires great amount of care in the inflection patterns.
 
 Meänkieli propernoun morphology
 
-Propernoun morphology
+# Propernoun morphology
 p stands for proper noun
 even stems unmarked, odd stems marked 3
 x referring to common affixes/noun.lexc file
 We do not use _pl for names
 
+**LEXICON 3p_1**
 
+**LEXICON 3p_21ie**
 
+**LEXICON 3p_22oi**
 
+**LEXICON 3p_nen**
 
+**LEXICON 3p_C**
 
+**LEXICON 3p_ani_1**
 
+**LEXICON 3p_ani_41**
 
+**LEXICON 3p_fem_1**
+
+... and many more.
 
 
 
@@ -1662,9 +1758,9 @@ Consonant stems, odd and even stems
 
 # This is the file for Meänkieli verb morphology.
 
-## Overview
+## Overview over the continuation classes
 
-### Regular verbs
+### Overview over the Regular verbs
  * v1 = antaa; sanoa:sano
  * v2 = huomata
  * v3 = syö'ä:syö ! ', ’
@@ -1677,17 +1773,18 @@ Consonant stems, odd and even stems
  * v_vanheta = vanheta
  * vx = unassigned
 
-### Irregular verbs
+### Overview over the Irregular verbs
  * v_tehha
  * v_nahha
 
-## The verb lexica
+## The verb lexica themselves
 
 
+**LEXICON vx**
 
 Irregular verbs
 
- * **LEXICON OLLA **
+ * **LEXICON OLLA**
 
 
 
@@ -1695,12 +1792,12 @@ Irregular verbs
 
 
 
- * **LEXICON NEG  **
+ * **LEXICON NEG**
 
 
 Regular verbs
 
- * **LEXICON v1  ** sanoa, lukea, antaa
+ * **LEXICON v1** sanoa, lukea, antaa
 
 
 
@@ -1710,7 +1807,7 @@ Regular verbs
 
 
 
- * **LEXICON v2  ** huomata, ymmärtää
+ * **LEXICON v2** huomata, ymmärtää
 
 
 
@@ -1722,14 +1819,14 @@ Regular verbs
 
 
 
- * **LEXICON SYA  ** syä, myä
+ * **LEXICON SYA** syä, myä
 
- * **LEXICON JUA  **
+ * **LEXICON JUA**
 
 
- * **LEXICON v3_j  **
+ * **LEXICON v3_j**
 
- * **LEXICON v3  **
+ * **LEXICON v3**
 
 
 
@@ -1741,7 +1838,7 @@ Regular verbs
 
 
 
- LEXICON v3kayda   käyđä:kä from fkv
+ LEXICON v3kayda käyđä:kä from fkv
 
 
 
@@ -1756,7 +1853,7 @@ Regular verbs
 
 
 
- LEXICON v3nahda  nähđä:nä = from fkv
+ LEXICON v3nahda nähđä:nä = from fkv
 
 
 
@@ -1765,7 +1862,7 @@ Regular verbs
 
 
 
- LEXICON v3tehda  tehđä:te from fkv
+ LEXICON v3tehda tehđä:te from fkv
 
 
 
@@ -1777,7 +1874,7 @@ Regular verbs
 
 
 
- * **LEXICON v4  **
+ * **LEXICON v4**
 
 
 
@@ -1789,7 +1886,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_3la  ** varjela:varjel
+ * **LEXICON v4_3la** varjela:varjel
 
 
 
@@ -1804,7 +1901,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_4lla  **
+ * **LEXICON v4_4lla**
 
 
 
@@ -1820,7 +1917,7 @@ Regular verbs
 
 
 
- * **LEXICON v5 **  kehitä:kehi  
+ * **LEXICON v5**  kehitä:kehi  
 
 
 
@@ -1834,7 +1931,7 @@ Regular verbs
 
 
 
- * **LEXICON v6 ** =  paeta:pake
+ * **LEXICON v6** =  paeta:pake
 
 
 
@@ -1849,7 +1946,7 @@ Regular verbs
 ## Subparadigms
 ### Conditional forms
 
- **LEXICON 2cond ** kehitä:kehi  
+ **LEXICON 2cond** kehitä:kehi  
 
 
 
@@ -1865,50 +1962,83 @@ from fkv
 
 
 
- LEXICON v12pers  Only sg12, pl12 so far
+ LEXICON v12pers Only sg12, pl12 so far
 
 
 
- LEXICON PRFPRC_OBL  is without nom sg from fkv
-
-
-
-
-Meänkieli adjective morphology
+ LEXICON PRFPRC_OBL is without nom sg from fkv
 
 
 
 
+# Documenting Meänkieli adjective morphology
+
+
+Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
+corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
+In addition, it also points to comparative and superlative lexica.
+
+## Unassigned
+
+**LEXICON ax** pointing to **a1**
+
+**LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+ * +A: x1 ;
+ * +A+Comp: 3comp ;
+ * +A+Superl:ime 3sup ;
+
+
+**LEXICON a2** gets +A and goes to x2.
+ * +A: x2 ;
+ * +A+Comp: 4comp ;
+ * +A+Superl:ime 4sup;
+
+**LEXICON a3** 
+ * +A: x3 ;
+ * +A+Comp: 4comp ;
+ * +A+Superl:ime 4sup;
+
+**LEXICON a4** 
+ * +A: x4 ;
+
+**LEXICON anen** 
+ * +A: xnen ;
+
+**LEXICON aas** 
+
+**LEXICON a1_ton** 
+
+**LEXICON x1_ton** 
 
 
 
 
 
+## Comparative inflection
+
+ * LEXICON 3comp 2syll adj, 3syll comparative
+
+ * LEXICON 4comp 3syll adj, 4syll comparative
+
+
+
+
+ * LEXICON xcomp common for 2syll and 3syll
 
 
 
 
 
+### Superlative inflection
 
-Comparative inflection
+ * LEXICON 3sup 2syll adj, 3syll superlative
 
-
-
-
-
+ * LEXICON 4sup 3syll adj, 4syll superlative
 
 
 
 
-
-
-Superlative inflection
-
-
-
-
-
-
+ * LEXICON xsup common for 2syll and 3syll
 Meänkieli pronoun morphology
 
 # Pronominien morfologia
@@ -1917,12 +2047,12 @@ Meänkieli pronoun morphology
 
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
- LEXICON 12pronsg  on 1., 2. p. yksikkö
+ LEXICON 12pronsg on 1., 2. p. yksikkö
 
 
 
 
- LEXICON 123pronpl   
+ LEXICON 123pronpl 
 
 
 
