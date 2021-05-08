@@ -1,20 +1,19 @@
 !! # Meänkieli noun morphology
 
 
-!! This is an overview of the continuation lexicon types. 
+!! ## This is an overview of the continuation lexicon types. 
 
-!! ## Vowel stems
+!! ### Vowel stems
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n3 = odd-syllabic: kanava
 !! * n4 = i:e nouns: veri
 
-!! Consonant stems
+!! ### Consonant stems
 
 !! * n_uus = vajavuus
 !! * nc = cvc
 !! * 3nc = cvcvc, jiddish
-
 !! * nen = nainen paradigm
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
@@ -24,35 +23,43 @@
 !! * nas = tehas - tehtaan
 !! * 3mies = mies
 
+!! ### Unassigned
 !! * nx = unassigned
 
 
 
 LEXICON nx
+!! **LEXICON @LEXNAME@**
 n1 ; ! nx
 
 LEXICON nc ! romani chib
+!! **LEXICON @LEXNAME@**
  +N+Sg+Nom: K ;
  +N:i  x1_sg_oblique ;
  +N:i x1_pl ;
 
 LEXICON n1
+!! **LEXICON @LEXNAME@**
  +N: x1 ;
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
 LEXICON n1_pl ! urut
+!! **LEXICON @LEXNAME@**
  +N: x1_pl ;
 
 LEXICON x1
+!! **LEXICON @LEXNAME@**
 x1_sg ;
 x1_pl ;
 
 LEXICON x1_sg 
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:^E2I       PxK ;
  x1_sg_oblique ;
 
 LEXICON x1_sg_oblique
+!! **LEXICON @LEXNAME@**
  +Sg+Gen:^WG%>n PxK ;
  +Sg+Par:%>^A PxK ;
  +Sg+Ill:^HMETA%>h^V^V n_PxK ; ! talhoon
@@ -66,6 +73,7 @@ LEXICON x1_sg_oblique
  +Sg+Abe:^WG%>tt^A PxK ;      ! talotta
 
 LEXICON x1_pl 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>i2tten PxK ;
  +Pl+Gen+Err/Orth:%>i2en PxK ;
@@ -249,20 +257,24 @@ LEXICON n4_lapsi
 !! The nainen (nen) and hevonen (3nen) family
 
 LEXICON nen
+!! **LEXICON @LEXNAME@**
 +N: xnen ; 
 +N+Sg+Nom:s PxK ;
 +N+Sg+Gen:s PxK ;
 +N+Sg+Gen:s R ;
 
 LEXICON xnen
+!! **LEXICON @LEXNAME@**
 xnen_sg ;
 xnen_pl ;
 
 LEXICON xnen_sg
-+Sg:se%> 2cases ; ! Ade, All, Ess lla, lle, nna
+!! **LEXICON @LEXNAME@**
++Sg:se%> 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON xnen_pl
+!! **LEXICON @LEXNAME@**
 +Pl:se%>i2%> 2cases ;  
  xnen_common_pl ; ! all other cases
 
@@ -542,19 +554,19 @@ LEXICON TRA
 
 !! Px is now not in use, with one exception, comitative.
 
-LEXICON n_PxK  !!= @CODE@ has either -n or goes to Px
+LEXICON n_PxK  !!≈ @CODE@ has either -n or goes to Px
   :n K  ;
      Px ;
 
-LEXICON i_PxK  !!= @CODE@ Tra: -i or -e and goes to Px
+LEXICON i_PxK  !!≈ @CODE@ Tra: -i or -e and goes to Px
   :i K  ;
   :e Px ;
 
-LEXICON PxK !!= @CODE@ has only -nsA, and is currently not in use. Check
+LEXICON PxK !!≈ @CODE@ has only -nsA, and is currently not in use. Check
    K  ;
   Px ;
 
-LEXICON PxxK  !!= @CODE@ has also -Vn, thus both .. llensa and ..lleen.
+LEXICON PxxK  !!≈ @CODE@ has also -Vn, thus both .. llensa and ..lleen.
   KK    ; ! All, so KK not K
   Px    ;
   Px-Vn ;

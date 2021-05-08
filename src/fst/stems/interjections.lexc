@@ -2,14 +2,14 @@
 
 !! ## Adding tag
 
-LEXICON ijx  !!= * **@CODE@** \\
-+Interj: K ; !!= @CODE@
+LEXICON ijx  !!≈ * **@CODE@** \\
++Interj: K ; !!≈ @CODE@
 
-LEXICON Interjection   !!= * **@CODE@** 
-äh ijx ;    !!= * @CODE@ 
-täh ijx ;  !!= * @CODE@ 
-pii ijx ;  !!= * @CODE@ 
-aivan ijx ;   !!= * ...
+LEXICON Interjection   !!≈ * **@CODE@** 
+äh ijx ;    !!≈ * @CODE@ 
+täh ijx ;  !!≈ * @CODE@ 
+pii ijx ;  !!≈ * @CODE@ 
+aivan ijx ;   !!≈ * ...
 hurtoo ijx ;
 rietas ijx ;
 tsö ijx ;

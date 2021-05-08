@@ -12,7 +12,7 @@ x3 ;
 
 !! Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
-LEXICON 12pronsg !!= @CODE@ on 1., 2. p. yksikkö
+LEXICON 12pronsg !!≈ @CODE@ on 1., 2. p. yksikkö
 +Nom:ie K ;
 +Gen:inun K ;
 +Acc+Err/Orth:inut K ; ! minut Finnish
@@ -44,7 +44,7 @@ LEXICON haan_pron
 +Abe:hänettä	K ;
 
 
-LEXICON 123pronpl  !!= @CODE@ 
+LEXICON 123pronpl  !!≈ @CODE@ 
 +Nom:t K ;
 +Acc:iät 	K ; ! todo: inkonsistent.
 +Acc+Err/Orth:ät 	K ;

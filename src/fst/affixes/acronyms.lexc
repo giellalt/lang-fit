@@ -12,39 +12,49 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
+!! # Documenting Meänkieli acronym morphology
+
 LEXICON Acronym-fit-suf
+!! **LEXICON @LEXNAME@** for adding +ACR tag
 +ACR: # ;
 
 LEXICON ACRONOUN_cons  
+!! **LEXICON @LEXNAME@**
  ACRONOUN ;
 
 LEXICON ACRONOUN_vow  
+!! **LEXICON @LEXNAME@**
  ACRONOUN ;
 
-LEXICON UNIT   !!= * **@CODE@**  As acro, but without paradigm
+LEXICON UNIT   !!≈ * **@CODE@**  As acro, but without paradigm
 +N+ABBR: ENDLEX ;
 
-LEXICON ACRO_ACCRA  !!= * **@CODE@** 
+LEXICON ACRO_ACCRA  !!≈ * **@CODE@** 
 +N+Prop+ACR: acroconnector ;
 !+N+Prop:%> ACCRADECL ;
 
 LEXICON ACRO_BERN
+!! **LEXICON @LEXNAME@**
 +N+Prop+ACR: acroconnector ;
 !+N+Prop:%> BERN-UCASE ;
 
 LEXICON ACRO_LONDON
+!! **LEXICON @LEXNAME@**
 +N+Prop+ACR: acroconnector ;
 !+N+Prop:%> LONDON-UCASE ;
 
 LEXICON ACRO_NYSTØ
+!! **LEXICON @LEXNAME@**
 +N+Prop+ACR: acroconnector ;
 !+N+Prop:%> NYSTØ-OBL ;
 
 LEXICON ACRO_cons 
+!! **LEXICON @LEXNAME@**
  ACRO ;    
 
 LEXICON ACRO_vow 
- ACRO ;    
+!! **LEXICON @LEXNAME@**
+  ACRO ;    
 
 
 LEXICON ACRO 

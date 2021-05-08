@@ -1,23 +1,22 @@
-!! !!!Meänkieli prepositions
+!! # Meänkieli prepositions
 
 
 LEXICON prx
-!!= __@LEXNAME@__ tag +Pr for most prepositions, some of them wrong, should be Adv or Det, TODO: fix
-+Pr: K ; ! prx
+!!≈ __@LEXNAME@__ tag +Pr for most prepositions, some of them wrong, should be Adv or Det, TODO: fix
++Pr: K ;  !!≈ * @CODE@  prx
 
 LEXICON pr
-!!= __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
-+Pr: K ;
+!!≈ __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
++Pr: K ; !!≈ * @CODE@ 
 
 LEXICON Preposition
-!!= __@LEXNAME@__  for 40 or so prepositions
-yli:yli pr ; 
-ennen pr ;
-ympäri pr ;
-
-jahka prx ;
-joka prx ;
-tuola prx ;
+!!≈ __@LEXNAME@__  for 40 or so prepositions
+yli:yli pr ; !!≈ * @CODE@ 
+ennen pr ; !!≈ * @CODE@ 
+ympäri pr ; !!≈ * @CODE@ 
+jahka prx ;  !!≈ * @CODE@ 
+joka prx ; !!≈ * @CODE@ 
+tuola prx ; !! ..
 luoa prx ;
 jopa prx ;
 justhinsa prx ;

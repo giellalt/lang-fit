@@ -2,17 +2,17 @@
 
 !! ## Adding tags
 
-LEXICON pox  !!= * @CODE@ 
-+Po: K ; !!= * @CODE@ 
+LEXICON pox  !!≈ * @CODE@ 
++Po: K ; !!≈ * @CODE@ 
 
-LEXICON po !!= * @CODE@ 
-+Po: K ; !!= * @CODE@ 
+LEXICON po !!≈ * @CODE@ 
++Po: K ; !!≈ * @CODE@ 
 
-!! ## The list
+!! ## The list of 40 or so postpositions.
 
-LEXICON Postposition !!= * @CODE@ 
-jälkheen po ; !!= * @CODE@ 
-ympäri po ; !!= * @CODE@ 
+LEXICON Postposition !!≈ * @CODE@ 
+jälkheen po ; !!≈ * @CODE@ 
+ympäri po ; !!≈ * @CODE@ 
 yli po ;  !! ...
 kans po ;
 kohti po ;
