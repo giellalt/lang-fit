@@ -1,3 +1,6 @@
+* [dependency-cg3-src.md](dependency-cg3-src.md)
+* [disambiguator-cg3-src.md](disambiguator-cg3-src.md)
+* [functions-cg3-src.md](functions-cg3-src.md)
 * [conjunctions-stems-fst-src.md](conjunctions-stems-fst-src.md)
 * [subjunctions-stems-fst-src.md](subjunctions-stems-fst-src.md)
 * [fit-acronyms-stems-fst-src.md](fit-acronyms-stems-fst-src.md)
@@ -25,3 +28,4 @@
 * [root-fst-src.md](root-fst-src.md)
 * [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
 * [transcriptor-numbers-digit2text-transcriptions-src.md](transcriptor-numbers-digit2text-transcriptions-src.md)
+* [grammarchecker-grammarcheckers-tools.md](grammarchecker-grammarcheckers-tools.md)
