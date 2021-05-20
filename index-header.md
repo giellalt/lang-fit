@@ -1,15 +1,16 @@
-# Meänkieli (Tornedalen Finnish) documentation
+# Meänkieli documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://raw.githubusercontent.com/giellalt/lang-fit/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
 [![Build status](https://github.com/giellalt/lang-fit/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fit/actions)
 
-These pages document the work on the [Meänkieli language model](https//github.com/giellalt/lang-fit).
+These pages document the work on the [Meänkieli (Tornedalen Finnish) language model](https//github.com/giellalt/lang-fit).
 
 ## Resources
 
 * [Meänkieli tools based upon the language model](https://giellatekno.uit.no/cgi/index.fit.eng.html)
+* [Experimental Meänkieli spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose **Tornedalen Finnish** from the menu *Languages*)
 
 ## Project documentation
 
