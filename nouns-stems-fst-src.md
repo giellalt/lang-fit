@@ -41,7 +41,7 @@ The lemma list
 
  * rypriikki:rypriikki n3 ; 
  * asfaltti:asfaltti n3 ; 
- * hammashoitoavustus:hammashoitoavustu 3n_ks ; 
+ * hammashoitoavustus:hammashoitoavustu 4n_ks ; 
  * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
 
 
