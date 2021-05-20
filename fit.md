@@ -3394,7 +3394,7 @@ Px is now not in use, with one exception, comitative.
  * +Sg+Gen:n # ; cases need work
 # Meänkieli twolc file
 
-This file documents the [Meänkieli twolc file](../src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
+This file documents the [Meänkieli twolc file](http://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
 
 # Declaring the alphabet, sets and definitions
 
