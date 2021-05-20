@@ -539,11 +539,50 @@ LEXICON 3n_lnr
  +N+Pl+Abe:%>itt^A PxK ;
  +N+Pl+Tra: TRA ;
  +N+Pl+Ess:%>in^A PxK ;
- 
 
 
 
-!! ### SuvlExica for cases
+
+LEXICON 4n_ks
++N: x4n_ks ;
++N+Sg+Nom:s R ;
++N+Sg+Gen:kse%>n R ;
+
+LEXICON x4n_ks
+x4n_ks_sg ;
+x4n_ks_pl ;
+
+LEXICON x4n_ks_sg
+ +Sg+Nom:s       PxK ;
+ +Sg+Gen:kse%>n PxK ;
+ +Sg+Par:s%>t^A PxK ;
+ +Sg+Ill:kse^HMETA%>h^V^V n_PxK ;
+ +Sg+Ine:kse%>ss^A PxK ;
+ +Sg+Ela:kse%>st^A PxK ;
+ +Sg+All:kse%>le PxxK ;
+ +Sg+Ade:kse%>l^A PxK ;
+ +Sg+Abl:kse%>lt^A PxK ;
+ +Sg+Abe:kse%>tt^A PxK ;
+ +Sg+Tra:kse TRA ;
+
+
+LEXICON x4n_ks_pl
+ +Pl+Nom:kse%>t PxK ;
+ +Pl+Gen:s%>ten PxK ;
+ +Pl+Par:kse%>i2^A PxK ;
+ +Pl+Ine:kse%>i2ss^A PxK ;
+ +Pl+Ill:kse^HMETA%>h^Vi n_PxK ;
+ +Pl+Ela:kse%>i2st^A PxK ;
+ +Pl+All:kse%>i2le PxxK ;
+ +Pl+Ade:kse%>i2l^A PxK ;
+ +Pl+Abl:kse%>i2lt^A PxK ;
+ +Pl+Abe:kse%>i2tt^A PxK ;
+
+
+
+
+
+!! ### Sublexica for cases
 
 LEXICON TRA
 :%>ks K ;
