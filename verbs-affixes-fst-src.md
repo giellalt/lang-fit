@@ -1,6 +1,7 @@
 # Meänkieli verbs
 
-# This is the file for Meänkieli verb morphology.
+This file documents [the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
+
 
 ## Overview over the continuation classes
 

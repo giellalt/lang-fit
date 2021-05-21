@@ -1,8 +1,14 @@
 
 
-Disambiguator for Meänkieli
+# Disambiguator for Meänkieli
 
-## Sets
+Usage:
+
+`cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3`
+
+This file documents the [Meänkieli disambiguator file](http://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3) .
+
+## Delimiters, tags and sets
 
 
 
@@ -27,14 +33,38 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-
-
-
-
-
+ * LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; # 
+ * LIST CLB = CLB ; # 
+ * LIST CLBfinal = CLBfinal ; # because common num # 
+ * LIST PUNCT = PUNCT ; # 
+ * LIST Prs = Prs ; # 
+ * LIST Prt = Prt ; # 
+ * LIST Ind = Ind ; # 
+ * LIST Act = Act ; # 
+ * LIST Pass = Pass Pss ; # 
+ * LIST ActPass = Act Pass Pss ; # 
+ * LIST ABBR = ABBR ; # 
+ * LIST Abbr = Abbr ABBR ; # 
+ * LIST Refl = Refl ; # 
+ * LIST PrsPrc = PrsPrc ; # 
+ * LIST NUMS = "yksi" Num; # 
+ * LIST Ord = Ord ; # 
+ * LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; # 
+ * LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; # 
+ * LIST CS = CS ; # 
+ * LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ; # 
+ * LIST Attr = Attr ; # 
+ * LIST Rel = Rel ; # 
+ * LIST Interr = Interr ; # 
+ * LIST Card = Card ; # 
+ * LIST Cmp = Cmp ; # 
+ * LIST Cmp/Hyph = Cmp/Hyph ; # 
+ * LIST Cmp/SgGen = Cmp/SgGen ; # 
+ * LIST Cmp/Attr = Cmp/Attr ; # 
+ * LIST Cmp/SgNom = Cmp/SgNom ; # 
 
 ### Numerus
-
+ * LIST Pers = Pers ; # 
 * Sg = Singular
 * Pl = Plural
 * Sg1 = Singular 1.p.
@@ -44,11 +74,17 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl2 = Plural 2.p.
 * Pl3 = Plural 3.p.
 
-
-
-
-
-
+### Person
+ * LIST Pers1 = Sg1 Pl1 ; # 
+ * LIST Pers2 = Sg2 Pl2 ; # 
+ * LIST SGa = Sg Sg1 Sg2 Sg3 ; # 
+ * LIST PLa = Pl Pl1 Pl2 Pl3 ; # 
+ * LIST NUMBER = Sg Pl ; # 
+ * SET SGPRON = Pron + SGa; # 
+ * SET PLPRON = Pron + PLa; # 
+ * SET ME = PLPRON + ("me") ; # 
+ * SET TE = PLPRON + ("te") ; # 
+ * SET HE = PLPRON + ("he") ; # 
 
 
 
@@ -69,7 +105,6 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Ins
 * Com
 * SUBJ-CASE = Nom Par
-
 
 
 
@@ -2283,7 +2318,8 @@ Correction rules
 
 # Meänkieli verbs
 
-# This is the file for Meänkieli verb morphology.
+This file documents [the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
+
 
 ## Overview over the continuation classes
 
