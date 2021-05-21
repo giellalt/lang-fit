@@ -3,12 +3,7 @@
 
 
 Beware of remnants from the Finnish and Kven files.
-Take nothing at face value!
 
-
- * **+Ex/N	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
- * **+Ex/A	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
- * **+Ex/V	** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 ## Tags for POS
  * **+A** = Adjective
@@ -18,18 +13,19 @@ Take nothing at face value!
  * **+Interj** = Interjection
  * **+N** = Noun
  * **+Num** = Numerals
+ * **+Ord** = Ordinals
  * **+Pcle** = Participle?
  * **+Po** = Postposition
  * **+Pr** = Preposition
  * **+Pron** = Pronomen
  * **+V** = Verb
-
- * **+Prop    ** = Propernoun
+ * **+Prop** = Propernoun
  * **+Symbol** = independent symbols in the text stream, like £, €, ©
 
 ## Tags for grammar
 
 ### Pronoun types
+
  * **+Pers** = Personal
  * **+Dem** = Demonstrative
  * **+Interr** = Interrogative
@@ -39,27 +35,20 @@ Take nothing at face value!
  * **+Indef** = Indefinitue
  * **+Qu** = Hmm, Question?? Interr? Check this.
 
+### Other tags
 
-
-
- * **+Gram/TAbbr**:  Transitive abbreviation (it needs an argument)
- * **+Gram/NoAbbr**:  Intransitive abbreviations that are homonymous
-   with more frequent words. They should only be considered
-   abbreviations in the middle of a sentence.
- * **+Gram/TNumAbbr**:  Transitive abbreviation if the following
-            constituent is numeric
- * **+Gram/NumNoAbbr**:  Transitive abbreviations for which numerals
-are complements and normal words. The abbreviation usage
-is less common and thus only the occurences in the middle of
-the sentence can be considered as true cases.
- * **+Gram/TIAbbr**:  Both transitive and intransitive abbreviation
- * **+Gram/IAbbr**:  Intransitive abbreviation (it takes no argument)
- * **+Gram/3syll**: trisyllabic verbs
- ; +Gram/Superl 
- ; +Gram/Comp 
-
-
-
+ * **+CLBfinal** =
+ * **+Coll** =
+ * **+MWE** =
+ * **+LEFT** =
+ * **+RIGHT** =
+ * **+ABBR**
+ * **+ACR**
+ * **+Abbr**
+ * **+Arab**
+ * **+Dyn**
+ * **+Prel** 
+ * **+Rom** 
 
 
 ### Number
@@ -98,6 +87,7 @@ the sentence can be considered as true cases.
  * **+Superl** = 
 
 ### Finite verbs
+ * **+Act** =
  * **+Pass** =
  * **+Ind** = 
  * **+Prs** = 
@@ -106,11 +96,17 @@ the sentence can be considered as true cases.
  * **+Cond** = 
  * **+Pot** = Potential
 
-
+### Verb person tags
  * **+Sg1** = 
+ * **+Sg2** = 
  * **+Sg3** = 
  * **+Pl1** = 
+ * **+Pl2** = 
  * **+Pl3** = 
+
+### Verb transitivity
+ * **+TV** transitive
+ * **+IV** intransitive
 
 
 ### Infinite verbs
@@ -128,13 +124,23 @@ the sentence can be considered as true cases.
  * **+HYPH** = Hyphenation mark
  * **+Attr** = Attributive form, hmm, check, for names?
 
+### Language tags
+ * **+OLang/NOB** = language code for names from common name source
+ * **+OLang/FIN** 
+ * **+OLang/SWE** 
+ * **+OLang/UND** 
+
 
 ### Speller tags
- *  +Err/Orth    only in desc, not in norm.
+ * +Err/Orth only in desc, not in norm.
  * **+Use/-Spell** = Excluded in speller
  * **+Use/SpellNoSugg** = recognized but not suggested in speller
- *  +Use/Circ   for numerals, copied from sme
- *  +Use/NG   do not generate
+ * +Use/Circ for numerals, copied from sme
+ * +Use/NG do not generate
+ * +Use/GC 
+ * **+Err/Hyph** =
+ * **+Err/SpaceCmp** =
+ * **+Err/Lex**
 
 
 ### Compounds
@@ -150,6 +156,11 @@ the sentence can be considered as true cases.
  * **+Der/A** = 
  * **+Der** = 
  * **+Der/s** = 
+
+These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/N** 
+ * **+Ex/A** 
+ * **+Ex/V** 
 
 
 ## Clitic tags
@@ -182,7 +193,6 @@ the sentence can be considered as true cases.
  * **i5** = superlative i of adjectives
  * **i6** = i:j in poika:pojan
  * **i7** = i in conditional of contract verbs (with gemination)
-
  * **p2** = always p
  * **t2** = always t, cf. katt2oma always tt, underlying -ts-
  * **t3** = t participating in gradation, but not in t:s
@@ -211,6 +221,9 @@ the sentence can be considered as true cases.
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation | 
+|----- |-----------  |
  |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
  |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
@@ -219,6 +232,9 @@ For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
+
+| Flag | Explanation | 
+|----- |-----------  |
  |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
  |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
  |  @P.CmpPref.FALSE@ | Block these words from making further compounds
@@ -236,10 +252,27 @@ Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
+
+| Flag | Explanation | 
+|----- |-----------  |
  |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
  |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+
+
+These tags are for handling errorneous forms
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @D.ErrOrth.ON@ | tbw
+ |  @P.ErrOrth.ON@ | tbw
+ |  @C.ErrOrth@ | tbw
  |  @R.ErrOrth.ON@ | tbw
+
+
+This is for pronouns with multiple case suffixes (*jommallekummalle*)
+
+| Flag | Explanation | 
+|----- |-----------  |
  |  @U.pron.nom@ | tbw
  |  @U.pron.gen@ | tbw
  |  @U.pron.gen2@ | tbw
@@ -258,6 +291,64 @@ given the proper use of these flags.
  |  @D.compound.block@ | tbw
 
 
+These are for preprocessing
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @P.Pmatch.Loc@ | 
+ |  @P.Pmatch.Backtrack@ | 
+ |  +Use/PMatch | 
+ |  +Use/-PMatch | 
+ | +Gram/TAbbr|  Transitive abbreviation (it needs an argument)
+ | +Gram/NoAbbr|  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
+ | +Gram/TNumAbbr|  Transitive abbreviation if the following   constituent is numeric
+ | +Gram/NumNoAbbr|  Transitive abbreviations for which numerals  are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
+ | +Gram/TIAbbr|  Both transitive and intransitive abbreviation
+ | +Gram/IAbbr|  Intransitive abbreviation (it takes no argument)
+ | +Gram/3syll| trisyllabic verbs
+ | +Gram/Superl| superlative
+ | +Gram/Comp| comparative
+
+
+### Semantic tags
+
+ * **+Sem/Amount**
+ * **+Sem/Build**
+ * **+Sem/Build-room**
+ * **+Sem/Cat**
+ * **+Sem/Curr**
+ * **+Sem/Date**
+ * **+Sem/Domain**
+ * **+Sem/Domain_Hum**
+ * **+Sem/Dummytag**
+ * **+Sem/Edu_Hum**
+ * **+Sem/Event**
+ * **+Sem/Food-med**
+ * **+Sem/Group_Hum**
+ * **+Sem/Hum**
+ * **+Sem/ID**
+ * **+Sem/Lang**
+ * **+Sem/Mat**
+ * **+Sem/Measr**
+ * **+Sem/Money**
+ * **+Sem/Obj-el**
+ * **+Sem/Obj-ling**
+ * **+Sem/Org_Prod-audio**
+ * **+Sem/Org_Prod-vis**
+ * **+Sem/Part**
+ * **+Sem/Prod-vis**
+ * **+Sem/Route**
+ * **+Sem/Rule**
+ * **+Sem/Sign**
+ * **+Sem/State**
+ * **+Sem/State-sick**
+ * **+Sem/Substnc**
+ * **+Sem/Time**
+ * **+Sem/Time-clock**
+ * **+Sem/Tool-it**
+ * **+Sem/Txt**
+ * **+Sem/Veh**
+ * **+Sem/Year**
 
 
 
@@ -266,23 +357,23 @@ given the proper use of these flags.
 
 Here is the Root lexicon, pointing to all the parts of speech:
 
-  **LEXICON Root    **
+  **LEXICON Root**
 
 
- *  AdjectiveRoot ;  
- *  Adverb ;		  
- *  Conjunction ;	  
- *  Interjection ;	  
- *  Numeral ;			  
- *  NounRoot ;		  
- *  Postposition ;	  
- *  Preposition ;	  
- *  Pronoun ;		  
- *  ProperNoun ;	  
- *  Punctuation ;	  
- *  Symbols     ;	  
- *  VerbRoot ;		  
- *  Subjunction ;	  
+ * AdjectiveRoot ;
+ * Adverb ;
+ * Conjunction ;
+ * Interjection ;
+ * Numeral ;
+ * NounRoot ;
+ * Postposition ;
+ * Preposition ;
+ * Pronoun ;
+ * ProperNoun ;
+ * Punctuation ;
+ * Symbols ;
+ * VerbRoot ;
+ * Subjunction ;
 
 
 
