@@ -5,13 +5,8 @@
 
 
 !! Beware of remnants from the Finnish and Kven files.
-!! Take nothing at face value!
 
 Multichar_Symbols  
-
-+Ex/N	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/A	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
-+Ex/V	!!= * **@CODE@** - This tag is not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 
 !! ## Tags for POS
 +A       !!≈ * **@CODE@** = Adjective
@@ -21,19 +16,19 @@ Multichar_Symbols
 +Interj  !!≈ * **@CODE@** = Interjection
 +N       !!≈ * **@CODE@** = Noun
 +Num     !!≈ * **@CODE@** = Numerals
-+Ord
++Ord     !!≈ * **@CODE@** = Ordinals
 +Pcle    !!≈ * **@CODE@** = Participle?
 +Po      !!≈ * **@CODE@** = Postposition
 +Pr      !!≈ * **@CODE@** = Preposition
 +Pron    !!≈ * **@CODE@** = Pronomen
 +V       !!≈ * **@CODE@** = Verb
-
-+Prop    !!= * **@CODE@** = Propernoun
++Prop    !!≈ * **@CODE@** = Propernoun
 +Symbol  !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 
 !! ## Tags for grammar
 
 !! ### Pronoun types
+
 +Pers      !!≈ * **@CODE@** = Personal
 +Dem       !!≈ * **@CODE@** = Demonstrative
 +Interr    !!≈ * **@CODE@** = Interrogative
@@ -43,88 +38,21 @@ Multichar_Symbols
 +Indef     !!≈ * **@CODE@** = Indefinitue
 +Qu        !!≈ * **@CODE@** = Hmm, Question?? Interr? Check this.
 
-+CLBfinal
-+Coll
-+Err/Hyph
-+Err/SpaceCmp
-+LEFT
-+MWE
-+OLang/NOB
-+RIGHT
-+Sem/Amount
-+Sem/Build
-+Sem/Build-room
-+Sem/Cat
-+Sem/Curr
-+Sem/Date
-+Sem/Domain
-+Sem/Domain_Hum
-+Sem/Dummytag
-+Sem/Edu_Hum
-+Sem/Event
-+Sem/Food-med
-+Sem/Group_Hum
-+Sem/Hum
-+Sem/ID
-+Sem/Lang
-+Sem/Mat
-+Sem/Measr
-+Sem/Money
-+Sem/Obj-el
-+Sem/Obj-ling
-+Sem/Org_Prod-audio
-+Sem/Org_Prod-vis
-+Sem/Part
-+Sem/Prod-vis
-+Sem/Route
-+Sem/Rule
-+Sem/Sign
-+Sem/State
-+Sem/State-sick
-+Sem/Substnc
-+Sem/Time
-+Sem/Time-clock
-+Sem/Tool-it
-+Sem/Txt
-+Sem/Veh
-@D.ErrOrth.ON@
-@P.ErrOrth.ON@
+!! ### Other tags
 
++CLBfinal     !!≈ * **@CODE@** =
++Coll     !!≈ * **@CODE@** =
++MWE     !!≈ * **@CODE@** =
++LEFT     !!≈ * **@CODE@** =
++RIGHT     !!≈ * **@CODE@** =
++ABBR	  !!≈ * **@CODE@**
++ACR	  !!≈ * **@CODE@**
++Abbr	  !!≈ * **@CODE@**
++Arab	  !!≈ * **@CODE@**
++Dyn	  !!≈ * **@CODE@**
++Prel  !!≈ * **@CODE@** 
++Rom  !!≈ * **@CODE@** 
 
-+ABBR
-+ACR
-+Abbr
-+Arab
-+Dyn
-+Err/Lex
-
-  +Gram/TAbbr    !!≈ * **@CODE@**:  Transitive abbreviation (it needs an argument)
-  +Gram/NoAbbr   !!≈ * **@CODE@**:  Intransitive abbreviations that are homonymous
-                 !!    with more frequent words. They should only be considered
-                 !!    abbreviations in the middle of a sentence.
-  +Gram/TNumAbbr !!≈ * **@CODE@**:  Transitive abbreviation if the following
-                 !!             constituent is numeric
- +Gram/NumNoAbbr !!≈ * **@CODE@**:  Transitive abbreviations for which numerals
-                 !! are complements and normal words. The abbreviation usage
-                 !! is less common and thus only the occurences in the middle of
-                 !! the sentence can be considered as true cases.
-  +Gram/TIAbbr   !!≈ * **@CODE@**:  Both transitive and intransitive abbreviation
-  +Gram/IAbbr    !!≈ * **@CODE@**:  Intransitive abbreviation (it takes no argument)
-  +Gram/3syll    !!≈ * **@CODE@**: trisyllabic verbs
-  +Gram/Superl    !!≈ ; @CODE@ 
-  +Gram/Comp    !!≈ ; @CODE@ 
-
-
-
-
-+IV
-+OLang/FIN
-+OLang/SWE
-+OLang/UND
-+Prel
-+Rom
-+Sem/Year
-+TV
 
 !! ### Number
 +Sg   !!≈ * **@CODE@** = Singular
@@ -162,7 +90,7 @@ Multichar_Symbols
 +Superl    !!≈ * **@CODE@** = 
 
 !! ### Finite verbs
-+Act
++Act     !!≈ * **@CODE@** =
 +Pass     !!≈ * **@CODE@** =
 +Ind      !!≈ * **@CODE@** = 
 +Prs      !!≈ * **@CODE@** = 
@@ -171,13 +99,17 @@ Multichar_Symbols
 +Cond     !!≈ * **@CODE@** = 
 +Pot      !!≈ * **@CODE@** = Potential
 
-
+!! ### Verb person tags
 +Sg1     !!≈ * **@CODE@** = 
-+Sg2
++Sg2  !!≈ * **@CODE@** = 
 +Sg3     !!≈ * **@CODE@** = 
 +Pl1     !!≈ * **@CODE@** = 
-+Pl2
++Pl2  !!≈ * **@CODE@** = 
 +Pl3     !!≈ * **@CODE@** = 
+
+!! ### Verb transitivity
++TV  !!≈ * **@CODE@** transitive
++IV  !!≈ * **@CODE@** intransitive
 
 
 !! ### Infinite verbs
@@ -195,14 +127,23 @@ Multichar_Symbols
 +HYPH   !!≈ * **@CODE@** = Hyphenation mark
 +Attr   !!≈ * **@CODE@** = Attributive form, hmm, check, for names?
 
+!! ### Language tags
++OLang/NOB     !!≈ * **@CODE@** = language code for names from common name source
++OLang/FIN  !!≈ * **@CODE@** 
++OLang/SWE  !!≈ * **@CODE@** 
++OLang/UND  !!≈ * **@CODE@** 
+
 
 !! ### Speller tags
- +Err/Orth   !!= * @CODE@ only in desc, not in norm.
+ +Err/Orth   !!≈ * @CODE@ only in desc, not in norm.
  +Use/-Spell   !!≈ * **@CODE@** = Excluded in speller
  +Use/SpellNoSugg   !!≈ * **@CODE@** = recognized but not suggested in speller
- +Use/Circ  !!= * @CODE@ for numerals, copied from sme
- +Use/NG  !!= * @CODE@ do not generate
- +Use/GC
+ +Use/Circ  !!≈ * @CODE@ for numerals, copied from sme
+ +Use/NG  !!≈ * @CODE@ do not generate
+ +Use/GC !!≈ * @CODE@ 
++Err/Hyph     !!≈ * **@CODE@** =
++Err/SpaceCmp     !!≈ * **@CODE@** =
++Err/Lex  !!≈ * **@CODE@**
 
 
 !! ### Compounds
@@ -218,6 +159,11 @@ Multichar_Symbols
  +Der/A      !!≈ * **@CODE@** = 
  +Der        !!≈ * **@CODE@** = 
  +Der/s      !!≈ * **@CODE@** = 
+
+!! These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
++Ex/N	!!≈ * **@CODE@** 
++Ex/A	!!≈ * **@CODE@** 
++Ex/V	!!≈ * **@CODE@** 
 
 
  !! ## Clitic tags
@@ -251,7 +197,6 @@ i4  !!≈ * **@CODE@** = i in conditional isi of most verbs (without gemination)
 i5  !!≈ * **@CODE@** = superlative i of adjectives
 i6  !!≈ * **@CODE@** = i:j in poika:pojan
 i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
-
  p2  			 !!≈ * **@CODE@** = always p
  t2  			 !!≈ * **@CODE@** = always t, cf. katt2oma always tt, underlying -ts-
  t3  			 !!≈ * **@CODE@** = t participating in gradation, but not in t:s
@@ -280,14 +225,20 @@ i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! | Flag | Explanation | 
+!! |----- |-----------  |
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
+
+!! | Flag | Explanation | 
+!! |----- |-----------  |
  @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
@@ -305,10 +256,27 @@ i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flag | Explanation | 
+!! |----- |-----------  |
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+
+
+!! These tags are for handling errorneous forms
+!! | Flag | Explanation | 
+!! |----- |-----------  |
+@D.ErrOrth.ON@   !!≈ |  @CODE@ | tbw
+@P.ErrOrth.ON@   !!≈ |  @CODE@ | tbw
+@C.ErrOrth@   !!≈ |  @CODE@ | tbw
 @R.ErrOrth.ON@	   !!≈ |  @CODE@ | tbw
+
+
+!! This is for pronouns with multiple case suffixes (*jommallekummalle*)
+
+!! | Flag | Explanation | 
+!! |----- |-----------  |
 @U.pron.nom@	   !!≈ |  @CODE@ | tbw
 @U.pron.gen@	   !!≈ |  @CODE@ | tbw
 @U.pron.gen2@	   !!≈ |  @CODE@ | tbw
@@ -327,12 +295,65 @@ i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 @D.compound.block@ !!≈ |  @CODE@ | tbw
 
 
-@C.ErrOrth@
+!! These are for preprocessing
 
-@P.Pmatch.Loc@
-@P.Pmatch.Backtrack@
-+Use/PMatch
-+Use/-PMatch
+!! | Flag | Explanation | 
+!! |----- |-----------  |
+@P.Pmatch.Loc@ !!≈ |  @CODE@ | 
+@P.Pmatch.Backtrack@ !!≈ |  @CODE@ | 
++Use/PMatch !!≈ |  @CODE@ | 
++Use/-PMatch !!≈ |  @CODE@ | 
+  +Gram/TAbbr    !!≈ | @CODE@|  Transitive abbreviation (it needs an argument)
+  +Gram/NoAbbr   !!≈ | @CODE@|  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
+  +Gram/TNumAbbr !!≈ | @CODE@|  Transitive abbreviation if the following   constituent is numeric
+ +Gram/NumNoAbbr !!≈ | @CODE@|  Transitive abbreviations for which numerals  are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
+  +Gram/TIAbbr   !!≈ | @CODE@|  Both transitive and intransitive abbreviation
+  +Gram/IAbbr    !!≈ | @CODE@|  Intransitive abbreviation (it takes no argument)
+  +Gram/3syll    !!≈ | @CODE@| trisyllabic verbs
+  +Gram/Superl   !!≈ | @CODE@| superlative
+  +Gram/Comp     !!≈ | @CODE@| comparative
+
+
+!! ### Semantic tags
+
++Sem/Amount		      !!≈ * **@CODE@**
++Sem/Build		      !!≈ * **@CODE@**
++Sem/Build-room	      !!≈ * **@CODE@**
++Sem/Cat		      !!≈ * **@CODE@**
++Sem/Curr		      !!≈ * **@CODE@**
++Sem/Date		      !!≈ * **@CODE@**
++Sem/Domain		      !!≈ * **@CODE@**
++Sem/Domain_Hum	      !!≈ * **@CODE@**
++Sem/Dummytag	      !!≈ * **@CODE@**
++Sem/Edu_Hum	      !!≈ * **@CODE@**
++Sem/Event		      !!≈ * **@CODE@**
++Sem/Food-med	      !!≈ * **@CODE@**
++Sem/Group_Hum	      !!≈ * **@CODE@**
++Sem/Hum		      !!≈ * **@CODE@**
++Sem/ID			      !!≈ * **@CODE@**
++Sem/Lang		      !!≈ * **@CODE@**
++Sem/Mat		      !!≈ * **@CODE@**
++Sem/Measr		      !!≈ * **@CODE@**
++Sem/Money		      !!≈ * **@CODE@**
++Sem/Obj-el		      !!≈ * **@CODE@**
++Sem/Obj-ling	      !!≈ * **@CODE@**
++Sem/Org_Prod-audio   !!≈ * **@CODE@**
++Sem/Org_Prod-vis     !!≈ * **@CODE@**
++Sem/Part		      !!≈ * **@CODE@**
++Sem/Prod-vis	      !!≈ * **@CODE@**
++Sem/Route		      !!≈ * **@CODE@**
++Sem/Rule		      !!≈ * **@CODE@**
++Sem/Sign		      !!≈ * **@CODE@**
++Sem/State		      !!≈ * **@CODE@**
++Sem/State-sick	      !!≈ * **@CODE@**
++Sem/Substnc	      !!≈ * **@CODE@**
++Sem/Time		      !!≈ * **@CODE@**
++Sem/Time-clock	      !!≈ * **@CODE@**
++Sem/Tool-it	      !!≈ * **@CODE@**
++Sem/Txt		      !!≈ * **@CODE@**
++Sem/Veh		      !!≈ * **@CODE@**
++Sem/Year	      !!≈ * **@CODE@**
+
 
 
 ! For Finnish, not in use. Keep in mind:
@@ -351,24 +372,24 @@ i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
 
 !! Here is the Root lexicon, pointing to all the parts of speech:
 
-LEXICON Root    !!=  **@CODE@**
+LEXICON Root    !!≈  **@CODE@**
 
 
- AdjectiveRoot ;  !!= * @CODE@
- Adverb ;		  !!= * @CODE@
- Conjunction ;	  !!= * @CODE@
- Interjection ;	  !!= * @CODE@
- Numeral ;			  !!= * @CODE@
- NounRoot ;		  !!= * @CODE@
-! Particle ;		  !!= * @CODE@
- Postposition ;	  !!= * @CODE@
- Preposition ;	  !!= * @CODE@
- Pronoun ;		  !!= * @CODE@
- ProperNoun ;	  !!= * @CODE@
- Punctuation ;	  !!= * @CODE@
- Symbols     ;	  !!= * @CODE@
- VerbRoot ;		  !!= * @CODE@
- Subjunction ;	  !!= * @CODE@
+ AdjectiveRoot ;  !!≈ * @CODE@
+ Adverb ;		  !!≈ * @CODE@
+ Conjunction ;	  !!≈ * @CODE@
+ Interjection ;	  !!≈ * @CODE@
+ Numeral ;			  !!≈ * @CODE@
+ NounRoot ;		  !!≈ * @CODE@
+! Particle ;		  !!≈ * @CODE@
+ Postposition ;	  !!≈ * @CODE@
+ Preposition ;	  !!≈ * @CODE@
+ Pronoun ;		  !!≈ * @CODE@
+ ProperNoun ;	  !!≈ * @CODE@
+ Punctuation ;	  !!≈ * @CODE@
+ Symbols     ;	  !!≈ * @CODE@
+ VerbRoot ;		  !!≈ * @CODE@
+ Subjunction ;	  !!≈ * @CODE@
  Symbols ;
  Abbreviation ;
  Acronym ;
