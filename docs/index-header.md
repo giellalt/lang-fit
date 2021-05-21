@@ -7,7 +7,7 @@
 
 These pages document the work on the [Meänkieli (Tornedalen Finnish) language model](https//github.com/giellalt/lang-fit).
 
-## Resources  based uen this Meänkieli language model
+## Resources  based upon this Meänkieli language model
 
 * [Meänkieli linguistic tools](https://giellatekno.uit.no/cgi/index.fit.eng.html)
 * [Experimental Meänkieli spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose **Tornedalen Finnish** from the menu *Languages*)
