@@ -1,15 +1,19 @@
-# Usage:
-# cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3
 
 
 #   ================================= #
-#!! Disambiguator for Meänkieli
+#!! # Disambiguator for Meänkieli
 #   ================================= #
 
-#!! ## Sets
+#!! Usage:
+
+#!! `cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3`
+
+#!! This file documents the [Meänkieli disambiguator file](http://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3) .
+
+#!! ## Delimiters, tags and sets
 
 # ========== #
-# Delimiters #
+# Delimiters 
 # ========== #
 
 
@@ -20,7 +24,7 @@ DELIMITERS = "<.>" "<...>" "<!>" "<?>" "<¶>" ;
 
 
 # ============= #
-# Tags and sets #
+# Tags and sets 
 # ============= #
 
 
@@ -47,44 +51,38 @@ LIST Po = Po ;  #!! * Po = postposition
 LIST Pron = Pron ; #!! * Pron = pronoun
 LIST Interj = Interj ; #!! * Interj = interjection
 
-LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ;
-
-LIST CLB = CLB ;
-LIST CLBfinal = CLBfinal ; # because common num
-LIST PUNCT = PUNCT ;
-LIST Prs = Prs ;
-LIST Prt = Prt ;
-LIST Ind = Ind ;
-LIST Act = Act ;
-LIST Pass = Pass Pss ;
-LIST ActPass = Act Pass Pss ;
-LIST ABBR = ABBR ;
-LIST Abbr = Abbr ABBR ;
-LIST Refl = Refl ;
-LIST PrsPrc = PrsPrc ;
-
-LIST NUMS = "yksi" Num;
-LIST Ord = Ord ;
-
-LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 
-LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; 
-LIST CS = CS ; 
-LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ;
-
-
-LIST Attr = Attr ; # ?
-LIST Rel = Rel ;
-LIST Interr = Interr ;
-LIST Card = Card ;
-LIST Cmp = Cmp ;
-LIST Cmp/Hyph = Cmp/Hyph ;
-LIST Cmp/SgGen = Cmp/SgGen ;
-LIST Cmp/Attr = Cmp/Attr ;
-LIST Cmp/SgNom = Cmp/SgNom ;
+LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; #!!≈ * @CODE@ 
+LIST CLB = CLB ; #!!≈ * @CODE@ 
+LIST CLBfinal = CLBfinal ; # because common num #!!≈ * @CODE@ 
+LIST PUNCT = PUNCT ;		   #!!≈ * @CODE@ 
+LIST Prs = Prs ;			   #!!≈ * @CODE@ 
+LIST Prt = Prt ;			   #!!≈ * @CODE@ 
+LIST Ind = Ind ;			   #!!≈ * @CODE@ 
+LIST Act = Act ;			   #!!≈ * @CODE@ 
+LIST Pass = Pass Pss ;		   #!!≈ * @CODE@ 
+LIST ActPass = Act Pass Pss ;  #!!≈ * @CODE@ 
+LIST ABBR = ABBR ;			   #!!≈ * @CODE@ 
+LIST Abbr = Abbr ABBR ;		   #!!≈ * @CODE@ 
+LIST Refl = Refl ;			   #!!≈ * @CODE@ 
+LIST PrsPrc = PrsPrc ;		   #!!≈ * @CODE@ 
+LIST NUMS = "yksi" Num;		   #!!≈ * @CODE@ 
+LIST Ord = Ord ;			   #!!≈ * @CODE@ 
+LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 	  #!!≈ * @CODE@ 
+LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ;  #!!≈ * @CODE@ 
+LIST CS = CS ; 																						  #!!≈ * @CODE@ 
+LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ;	  #!!≈ * @CODE@ 
+LIST Attr = Attr ; 			  #!!≈ * @CODE@ 
+LIST Rel = Rel ;			  #!!≈ * @CODE@ 
+LIST Interr = Interr ;		  #!!≈ * @CODE@ 
+LIST Card = Card ;			  #!!≈ * @CODE@ 
+LIST Cmp = Cmp ;			  #!!≈ * @CODE@ 
+LIST Cmp/Hyph = Cmp/Hyph ;	  #!!≈ * @CODE@ 
+LIST Cmp/SgGen = Cmp/SgGen ;  #!!≈ * @CODE@ 
+LIST Cmp/Attr = Cmp/Attr ;	  #!!≈ * @CODE@ 
+LIST Cmp/SgNom = Cmp/SgNom ;  #!!≈ * @CODE@ 
 
 #!! ### Numerus
-LIST Pers = Pers ;
-
+LIST Pers = Pers ; #!!≈ * @CODE@ 
 LIST Sg = Sg ;   #!! * Sg = Singular
 LIST Pl = Pl ;   #!! * Pl = Plural
 LIST Sg1 = Sg1 ;   #!! * Sg1 = Singular 1.p.
@@ -94,21 +92,17 @@ LIST Pl1 = Pl1 ;   #!! * Pl1 = Plural 1.p.
 LIST Pl2 = Pl2 ;   #!! * Pl2 = Plural 2.p.
 LIST Pl3 = Pl3 ;   #!! * Pl3 = Plural 3.p.
 
-LIST Pers1 = Sg1 Pl1 ;
-LIST Pers2 = Sg2 Pl2 ;
-LIST SGa = Sg Sg1 Sg2 Sg3 ;
-LIST PLa = Pl Pl1 Pl2 Pl3 ;
-
-LIST NUMBER = Sg Pl ;
-
-SET SGPRON = Pron + SGa;
-SET PLPRON = Pron + PLa;
-
-
-
-SET ME = PLPRON + ("me") ;
-SET TE = PLPRON + ("te") ;
-SET HE = PLPRON + ("he") ; 
+#!! ### Person
+LIST Pers1 = Sg1 Pl1 ;	     #!!≈ * @CODE@ 
+LIST Pers2 = Sg2 Pl2 ;	     #!!≈ * @CODE@ 
+LIST SGa = Sg Sg1 Sg2 Sg3 ;  #!!≈ * @CODE@ 
+LIST PLa = Pl Pl1 Pl2 Pl3 ;  #!!≈ * @CODE@ 
+LIST NUMBER = Sg Pl ;	     #!!≈ * @CODE@ 
+SET SGPRON = Pron + SGa;     #!!≈ * @CODE@ 
+SET PLPRON = Pron + PLa;     #!!≈ * @CODE@ 
+SET ME = PLPRON + ("me") ;   #!!≈ * @CODE@ 
+SET TE = PLPRON + ("te") ;   #!!≈ * @CODE@ 
+SET HE = PLPRON + ("he") ;   #!!≈ * @CODE@ 
 
 
 
@@ -129,7 +123,6 @@ LIST Tra = Tra ;   #!! * Tra
 LIST Ins = Ins ;   #!! * Ins
 LIST Com = Com ;   #!! * Com
 LIST SUBJ-CASE = Nom Par ;   #!! * SUBJ-CASE = Nom Par
-
 LIST ADVLCASE = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com ;
 LIST ADVLCASEAdv = Ine Ill Ela Ade Abe All Abl Ess Tra Ins Com Adv ;
 LIST LOCCASE = Ine Ill Ela Ade All Abl ;
