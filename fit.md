@@ -345,39 +345,44 @@ Verbs
 
 * __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
 
-* **PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+* **Rule: PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 
-* **PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
 
 Possessive suffixes
 
+First we put rules to choose Px forms... (forthcomong)
 
+Then we remove the remaining Px
+* **Rule: NpPx** removes all Px. Thus, as long as no select rules for Px are done, they are removed.
 
 
 Numeral phrases
 
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
 
 ### Preposition/postposition/adverb rules
 
 
 
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
-* **Prifgenpar** selects  preposition to the left of Gen or Par
+* **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 
-* **Poifgenpar** selects  postposition to the right of Gen or Par
+* **Rule: Poifgenpar** selects  postposition to the right of Gen or Par
 
-* **vasthaan**
+* **Rule: vasthaan** not vasta if -1 Par
 
 
 ## Rules for mapping @CVP and @CNP on the CC and CS
 
-* **CVP** maps @CVP to CS and mutta
+* **Rule: CVP** maps @CVP to CS and mutta
 
-* **CNPifN** maps @CNP to CC between two N
+* **Rule: CNPifN** maps @CNP to CC between two N
 
-* **CNPifInf** maps @CNP to CC between two Inf
+* **Rule: CNPifInf** maps @CNP to CC between two Inf
 
 
 ## Case rules
@@ -403,7 +408,7 @@ Genitive
 
 
 ## More disambiguation rules
-* **SgNotPl**
+* **Rule: SgNotPl**
 
 
 ### Elative
@@ -517,41 +522,41 @@ Relative pronouns
 
 
 
-* **Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
+* **Rule: Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
 
-* **Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
+* **Rule: Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
 
-* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
 
-* **Sg3ollainpretandperf** selects Sg3 if COPULAS
+* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
 
 
 
-* **Relpronandnotintterpron** selects Rel Sg if Interr
+* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
 
-* **Relpronandnotintterpron** selects Rel Sg if Interr
+* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
 
-* **interrpron** selects Interr if ? in the end
+* **Rule: interrpron** selects Interr if ? in the end
 
-* **DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+* **Rule: DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 
 
-* **paljonadvandnotpaljonoun** selects Adv if paljon
+* **Rule: paljonadvandnotpaljonoun** selects Adv if paljon
 
-* **Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
+* **Rule: Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
 
 
-* **annaimperativeandnotannaname** removes Prop if Anna se
+* **Rule: annaimperativeandnotannaname** removes Prop if Anna se
 
-* **tulinounfromtuliprtsg3** selects V Sg
+* **Rule: tulinounfromtuliprtsg3** selects V Sg
 
 
 
-* **dempronandnotpronpers** selects Den if A of N to the right
+* **Rule: dempronandnotpronpers** selects Den if A of N to the right
 
-* **Imperativefromconneg** selects and removes ConNeg
+* **Rule: Imperativefromconneg** selects and removes ConNeg
 
-* **ImperativeafterNeg** removes Imprt if pronoun
+* **Rule: ImperativeafterNeg** removes Imprt if pronoun
 
 
 
@@ -560,7 +565,7 @@ Relative pronouns
 
 
 
-* **interrel** selects Interr of Rel if CS to the right
+* **Rule: interrel** selects Interr of Rel if CS to the right
 
 
 
@@ -700,7 +705,7 @@ Relative pronouns
 
 
 
-* **+FMAINV**  to the remaining finite verbs which are not AUX    
+* **Rule: +FMAINV**  to the remaining finite verbs which are not AUX    
 
 
 
@@ -771,7 +776,7 @@ Relative pronouns
 
 
 
-* **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+* **Rule: @<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
 
 
@@ -796,10 +801,10 @@ Relative pronouns
 
 
 
-* **X** maps X everywhere
+* **Rule: X** maps X everywhere
 
 
-* **REMOVE X** removes X whenever there is any other tag.
+* **Rule: REMOVE X** removes X whenever there is any other tag.
 
 
 
@@ -838,7 +843,7 @@ Relative pronouns
 
 * WORDLEMMA = regex giving the lemma in question
 
-* **errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+* **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 
 
