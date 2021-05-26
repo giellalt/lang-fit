@@ -1,5 +1,8 @@
 !! # Meänkieli prepositions
 
+!! This file documents [`stems/prepositions.lexc`, the file for Meänkieli prepositions](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/prepositions.lexc)  
+
+!! ## The tags
 
 LEXICON prx
 !!≈ __@LEXNAME@__ tag +Pr for most prepositions, some of them wrong, should be Adv or Det, TODO: fix
@@ -8,6 +11,8 @@ LEXICON prx
 LEXICON pr
 !!≈ __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
 +Pr: K ; !!≈ * @CODE@ 
+
+!! ## The prepositons
 
 LEXICON Preposition
 !!≈ __@LEXNAME@__  for 40 or so prepositions

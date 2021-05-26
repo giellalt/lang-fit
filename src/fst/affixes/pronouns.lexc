@@ -1,5 +1,7 @@
 !! Meänkieli pronoun morphology
 
+!! This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)  
+
 !! # Pronominien morfologia
 
 LEXICON pronx

@@ -1,11 +1,13 @@
 !! # Meänkieli interjections
 
+!! This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
+
 !! ## Adding tag
 
-LEXICON ijx  !!≈ * **@CODE@** \\
+LEXICON ijx  !!≈ * **@CODE@** 
 +Interj: K ; !!≈ @CODE@
 
-LEXICON Interjection   !!≈ * **@CODE@** 
+LEXICON Interjection   !!≈ * **@CODE@** is the list of 90 or so interjections
 äh ijx ;    !!≈ * @CODE@ 
 täh ijx ;  !!≈ * @CODE@ 
 pii ijx ;  !!≈ * @CODE@ 

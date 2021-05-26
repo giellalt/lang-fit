@@ -1,5 +1,7 @@
 !! # Meänkieli adjectives
 
+!! This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
+
 
 !! ## The continuation lexicon types
 
@@ -9,7 +11,8 @@
 !! * aas = tarmokas
 !! * anen = nen-adjektiivit
 
-!! The lemma list
+
+!! ## The lemma list itself
 
 LEXICON AdjectiveRoot !!≈ @CODE@
 

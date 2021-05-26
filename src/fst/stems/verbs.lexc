@@ -1,7 +1,8 @@
 !! # Documenting the file for meänkieli verbs
 
-!! This file documents the file for Meänkieli verb stems.
-!! First, it an overvieš of the continuation lexica, and thereafter it sketches their actual content.
+!! This file documents [the file for Meänkieli verb stems](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc).
+
+!! First, it gives an nverview of the continuation lexica, and thereafter it sketches their actual content.
 
 !! ## Overview over the continuation lexica
 
@@ -28,6 +29,8 @@
 
 
 !! ## The verb lexica themselves
+
+!! The rest of the file contains some 5500 verbs.
 
 LEXICON VerbRoot !!≈ * **@CODE@** = The verb list 
 
