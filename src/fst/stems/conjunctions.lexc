@@ -1,5 +1,8 @@
 !! # Meänkieli conjunctions
 
+!! This file documents [the file for Meänkieli conjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc).
+
+!! It contains two parts, one for adding tags, and one for listing conjunctions.
 
 !! ## Adding tags
 

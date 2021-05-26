@@ -1,10 +1,13 @@
-!! Meänkieli propernoun morphology
+!! # Meänkieli propernoun morphology
 
-!! # Propernoun morphology
-!! p stands for proper noun
-!! even stems unmarked, odd stems marked 3
-!! x referring to common affixes/noun.lexc file
-!! We do not use _pl for names
+
+!! This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+
+!! In the lexica,
+!! **p** in lexicon names stands for proper noun.
+!! Even-syllable stems are unmarked, odd stems are marked **3**.
+!! **x** in lexicon names referring to the common `affixes/noun.lexc` file.
+!! We do not use **_pl** for names
 
 LEXICON 3p_1 
 !! **LEXICON @LEXNAME@**

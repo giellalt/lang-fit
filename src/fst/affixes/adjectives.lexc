@@ -1,5 +1,7 @@
 !! # Documenting Meänkieli adjective morphology
 
+!! This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
+
 
 !! Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
 !! corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
