@@ -2,6 +2,8 @@
 
 This file documents the [Meänkieli twolc file](http://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
 
+The first part of the file contains definitions, the second part contains rules.
+
 # Declaring the alphabet, sets and definitions
 
 ## Alphabet

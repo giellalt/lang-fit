@@ -1,5 +1,7 @@
 # Meänkieli numerals
 
+This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
+
 
 These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
 

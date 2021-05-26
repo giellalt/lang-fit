@@ -1,6 +1,9 @@
 
 # Documenting Meänkieli acronym morphology
 
+This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
+
+
 **LEXICON Acronym-fit-suf** for adding +ACR tag
 
 **LEXICON ACRONOUN_cons**

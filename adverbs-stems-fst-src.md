@@ -1,5 +1,8 @@
 # Meänkieli adverbs
 
+This file documents [the file for Meänkieli adverbs](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc).
+
+The first part of the file adds tags, and the second lists the adverbs.
 
 ## The tags
 

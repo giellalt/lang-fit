@@ -1,5 +1,7 @@
 # Meänkieli noun morphology
 
+This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
+
 
 ## This is an overview of the continuation lexicon types. 
 
@@ -28,7 +30,7 @@
 
 
 
-**LEXICON nx**
+**LEXICON nx** 
 
 **LEXICON nc**
 

@@ -1,6 +1,7 @@
 # Meänkieli pronouns
 
-This file documents the `stems/pronouns.lexc` file.
+This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
+
 
  * LEXICON Pronoun 
 
@@ -25,6 +26,7 @@ This file documents the `stems/pronouns.lexc` file.
  * joka+Pron+Interr+Sg:jo relkys ; 
 
  * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
+... etc.
 
 
 

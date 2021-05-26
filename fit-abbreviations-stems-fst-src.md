@@ -1,5 +1,8 @@
 # File containing meänkieli abbreviations 
 
+
+This file documents [the file for Meänkieli abbreviations](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc).
+
 The file contains 5-6 abbreviations, and is thus just a placeholder.
 Most fit abbreviations thus come from the common abbreviation file. 
 Here we should add meänkieli-specific ones.

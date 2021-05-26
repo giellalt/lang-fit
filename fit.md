@@ -2323,7 +2323,7 @@ Correction rules
 
 # Meänkieli verbs
 
-This file documents [the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
+This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
 
 
 ## Overview over the continuation classes
@@ -2541,6 +2541,9 @@ from fkv
 
 # Documenting the morphological tags for Meänkieli abbreviations
 
+This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
+
+
 
 
 
@@ -2619,13 +2622,16 @@ Now splitting according to POS, and according to dot or not
 
 
 
-Meänkieli propernoun morphology
+# Meänkieli propernoun morphology
 
-# Propernoun morphology
-p stands for proper noun
-even stems unmarked, odd stems marked 3
-x referring to common affixes/noun.lexc file
-We do not use _pl for names
+
+This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+
+In the lexica,
+**p** in lexicon names stands for proper noun.
+Even-syllable stems are unmarked, odd stems are marked **3**.
+**x** in lexicon names referring to the common `affixes/noun.lexc` file.
+We do not use **_pl** for names
 
 **LEXICON 3p_1**
 
@@ -2750,6 +2756,8 @@ Consonant stems, odd and even stems
 
 
 Meänkieli pronoun morphology
+
+This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)  
 
 # Pronominien morfologia
 
@@ -3165,6 +3173,9 @@ forms which requires great amount of care in the inflection patterns.
 
 # Documenting Meänkieli acronym morphology
 
+This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
+
+
 **LEXICON Acronym-fit-suf** for adding +ACR tag
 
 **LEXICON ACRONOUN_cons**
@@ -3197,6 +3208,8 @@ forms which requires great amount of care in the inflection patterns.
 
 
 # Documenting Meänkieli adjective morphology
+
+This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
 
 
 Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
@@ -3266,6 +3279,8 @@ In addition, it also points to comparative and superlative lexica.
  * LEXICON xsup common for 2syll and 3syll
 # Meänkieli noun morphology
 
+This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
+
 
 ## This is an overview of the continuation lexicon types. 
 
@@ -3294,7 +3309,7 @@ In addition, it also points to comparative and superlative lexica.
 
 
 
-**LEXICON nx**
+**LEXICON nx** 
 
 **LEXICON nc**
 
@@ -3415,6 +3430,9 @@ Px is now not in use, with one exception, comitative.
 
 # Symbol affixes
 
+This file documents [`affixes/synbols.lexc`, the file for the affixes added to language-independent symbols](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)  
+
+
  * LEXICON Noun_symbols_possibly_inflected 
  * +N+Symbol: SYMBOL_connector ; 
 
@@ -3436,6 +3454,8 @@ Px is now not in use, with one exception, comitative.
 # Meänkieli twolc file
 
 This file documents the [Meänkieli twolc file](http://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
+
+The first part of the file contains definitions, the second part contains rules.
 
 # Declaring the alphabet, sets and definitions
 
@@ -3912,8 +3932,9 @@ All vowel harmony is taken care of with one rule.
 
 # Documenting the file for meänkieli verbs
 
-This file documents the file for Meänkieli verb stems.
-First, it an overvieš of the continuation lexica, and thereafter it sketches their actual content.
+This file documents [the file for Meänkieli verb stems](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc).
+
+First, it gives an nverview of the continuation lexica, and thereafter it sketches their actual content.
 
 ## Overview over the continuation lexica
 
@@ -3940,6 +3961,8 @@ First, it an overvieš of the continuation lexica, and thereafter it sketches th
 
 
 ## The verb lexica themselves
+
+The rest of the file contains some 5500 verbs.
 
  * **LEXICON VerbRoot** = The verb list 
 
@@ -3989,6 +4012,9 @@ v6 paeta
 
 # File containing meänkieli abbreviations 
 
+
+This file documents [the file for Meänkieli abbreviations](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc).
+
 The file contains 5-6 abbreviations, and is thus just a placeholder.
 Most fit abbreviations thus come from the common abbreviation file. 
 Here we should add meänkieli-specific ones.
@@ -4028,6 +4054,10 @@ Here we should add meänkieli-specific ones.
 
 # Meänkieli propernouns
 
+This file documents [the file for Meänkieli propernouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc).
+
+Contrary to other GiellaLT languages, the Meänkieli FST is not set up to use the language-independent name base found in the infrastructure.
+
 32000 names
 
  * LEXICON ProperNoun 
@@ -4038,10 +4068,15 @@ Here we should add meänkieli-specific ones.
 ERVASTI?
 # Meänkieli prepositions
 
+This file documents [`stems/prepositions.lexc`, the file for Meänkieli prepositions](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/prepositions.lexc)  
+
+## The tags
 
  * +Pr: K ;  prx
 
  * +Pr: K ; 
+
+## The prepositons
 
  * yli:yli pr ; 
  * ennen pr ; 
@@ -4051,7 +4086,8 @@ ERVASTI?
 ..
 # Meänkieli pronouns
 
-This file documents the `stems/pronouns.lexc` file.
+This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
+
 
  * LEXICON Pronoun 
 
@@ -4076,6 +4112,7 @@ This file documents the `stems/pronouns.lexc` file.
  * joka+Pron+Interr+Sg:jo relkys ; 
 
  * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
+... etc.
 
 
 
@@ -4108,17 +4145,21 @@ This file documents the `stems/pronouns.lexc` file.
 
 # Meänkieli interjections
 
+This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
+
 ## Adding tag
 
- * **LEXICON ijx** \\
+ * **LEXICON ijx** 
  +Interj: K ;
 
- * **LEXICON Interjection** 
+ * **LEXICON Interjection** is the list of 90 or so interjections
  * äh ijx ; 
  * täh ijx ; 
  * pii ijx ; 
 aivan ijx ; aivan ijx ;     * ...
 # Meänkieli numerals
+
+This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
 
 
 These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
@@ -4456,6 +4497,9 @@ being very rare to extinct for nouns.
 
 # Meänkieli conjunctions
 
+This file documents [the file for Meänkieli conjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc).
+
+It contains two parts, one for adding tags, and one for listing conjunctions.
 
 ## Adding tags
 
@@ -4485,6 +4529,8 @@ being very rare to extinct for nouns.
 ... and some 20 more
 # Meänkieli postpositions
 
+This file documents [the file for Meänkieli postpositions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc).
+
 ## Adding tags
 
  * LEXICON pox 
@@ -4502,9 +4548,11 @@ being very rare to extinct for nouns.
 
 
 
-* Meänkieli aacronyms 
+# Meänkieli aacronyms 
 
-The file `stems/fit-acronyms.lexc` is a dummy file, with this comtent only:
+The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc) is a dummy file, with this comtent only:
+
+
 
  * LEXICON Acronym-fit 
  * XXX Acronym-fit-suf ;  to be replaced with fit content
@@ -4516,6 +4564,8 @@ The file `stems/fit-acronyms.lexc` is a dummy file, with this comtent only:
 
 # Meänkieli adjectives
 
+This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
+
 
 ## The continuation lexicon types
 
@@ -4525,7 +4575,8 @@ The file `stems/fit-acronyms.lexc` is a dummy file, with this comtent only:
 * aas = tarmokas
 * anen = nen-adjektiivit
 
-The lemma list
+
+## The lemma list itself
 
  LEXICON AdjectiveRoot
 
@@ -4548,6 +4599,9 @@ a4
 
 # Meänkieli adverbs
 
+This file documents [the file for Meänkieli adverbs](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc).
+
+The first part of the file adds tags, and the second lists the adverbs.
 
 ## The tags
 
@@ -4570,7 +4624,7 @@ a4
 ...
 # Noun stems for Meänkieli
 
-This file documents the file `stems/nouns.lexc`, the nouns stem file.
+This file documents [the file for Meänkieli nouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc).
 
 ## Vowel stems
 
@@ -4629,11 +4683,12 @@ Consonant stems
 
 # Meänkieli subjunctions
 
+This file documents [the file for Meänkieli subjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc).
 
- * **LEXICON cs** 
+ * **LEXICON cs** is the lexicon giving the **+CS** tag to subjunctions.
  * +CS: # ; 
 
- * **LEXICON Subjunction** 
+ * **LEXICON Subjunction** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
  * ette cs ; 
  * vaikka cs ; 
 

@@ -1,5 +1,8 @@
 # Documenting the morphological tags for Meänkieli abbreviations
 
+This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
+
+
 
 
 
