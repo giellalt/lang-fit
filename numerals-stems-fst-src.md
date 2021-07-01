@@ -336,3 +336,5 @@ being very rare to extinct for nouns.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/numerals.lexc)</small>

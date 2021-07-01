@@ -22,3 +22,5 @@ This file documents [`affixes/synbols.lexc`, the file for the affixes added to l
 
  * LEXICON SYMBOL_suff 
  * +Sg+Gen:n # ; cases need work
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/symbols.lexc)</small>

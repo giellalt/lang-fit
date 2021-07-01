@@ -7,25 +7,25 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 ## Overview over the continuation lexica
 
 ### Continuation lexica for regular verbs
- * **v1** = antaa; sanoa:sano
- * **v2** = huomata
- * **v3** = syö'ä:syö ! ', ’
- * **v4** = nousta; tulla:tul
- * **v4_3la** = varjela, varjelee
- * **v4_4lla** = ajatella, ajattellee
- * **v2** = tryykätä:tryykkä
- * **v5** = tarvita:tarv
- * **v6** = paeta:pake
- * **v_vanheta** = vanheta
- * **vx** = unassigned
+* **v1** = antaa; sanoa:sano
+* **v2** = huomata
+* **v3** = syö'ä:syö ! ', ’
+* **v4** = nousta; tulla:tul
+* **v4_3la** = varjela, varjelee
+* **v4_4lla** = ajatella, ajattellee
+* **v2** = tryykätä:tryykkä
+* **v5** = tarvita:tarv
+* **v6** = paeta:pake
+* **v_vanheta** = vanheta
+* **vx** = unassigned
 
 ### Continuation lexica for irregular verbs
- * **v_tehha**
- * **v_nahha**
- * **OLLA**
- * **NEG**
- * **JUA**
- * **SYA**
+* **v_tehha**
+* **v_nahha**
+* **OLLA**
+* **NEG**
+* **JUA**
+* **SYA**
 
 
 ## The verb lexica themselves
@@ -72,9 +72,11 @@ v6 paeta
  * **paeta:pake v6 ;** 
 
 
- Then comes the long list
+Then comes the long list
  * **trukittaaa:trukittaa v1 ;** 
  * **lehathaa:lehatha v1 ;** 
 * ...
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/verbs.lexc)</small>

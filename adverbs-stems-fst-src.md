@@ -23,3 +23,5 @@ The first part of the file adds tags, and the second lists the adverbs.
  * nimittäin adv ; 
  * liian adv ; 
 ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adverbs.lexc)</small>

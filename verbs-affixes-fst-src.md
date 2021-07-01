@@ -6,21 +6,21 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ## Overview over the continuation classes
 
 ### Overview over the Regular verbs
- * v1 = antaa; sanoa:sano
- * v2 = huomata
- * v3 = syö'ä:syö ! ', ’
- * v4 = nousta; tulla:tul
- * v4_3la = varjela, varjelee
- * v4_4lla = ajatella, ajattellee
- * v2 = tryykätä:tryykkä
- * v5 = tarvita:tarv
- * v6 = paeta:pake
- * v_vanheta = vanheta
- * vx = unassigned
+* v1 = antaa; sanoa:sano
+* v2 = huomata
+* v3 = syö'ä:syö ! ', ’
+* v4 = nousta; tulla:tul
+* v4_3la = varjela, varjelee
+* v4_4lla = ajatella, ajattellee
+* v2 = tryykätä:tryykkä
+* v5 = tarvita:tarv
+* v6 = paeta:pake
+* v_vanheta = vanheta
+* vx = unassigned
 
 ### Overview over the Irregular verbs
- * v_tehha
- * v_nahha
+* v_tehha
+* v_nahha
 
 ## The verb lexica themselves
 
@@ -216,3 +216,5 @@ from fkv
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/verbs.lexc)</small>

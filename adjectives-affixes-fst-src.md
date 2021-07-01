@@ -68,3 +68,5 @@ In addition, it also points to comparative and superlative lexica.
 
 
  * LEXICON xsup common for 2syll and 3syll
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small>

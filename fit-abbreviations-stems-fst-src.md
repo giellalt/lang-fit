@@ -40,3 +40,5 @@ Here we should add meänkieli-specific ones.
 
  * esim+A:esim ab-dot-adj-trab ; 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/fit-abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-abbreviations.lexc)</small>

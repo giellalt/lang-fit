@@ -381,3 +381,5 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/root.lexc)</small>
