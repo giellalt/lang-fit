@@ -117,11 +117,11 @@ k:g <=> Vow n _ Vow WeakGrade ;
 k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;   ! Quant Grad
                  o i: _ Vow: WeakGrade      ;   ! pojan
          VowelNotUY   _ Vow: WeakGrade      ;   ! maun 
-	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
+	        [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
                 Vow k _ e:   h     %> e ;       ! kkh > kh
             Vow [l|r] _ VowelNotEI WeakGrade ;
-	      Vow h k _ Vow WeakGrade ;
-	  [Vow - e] h _ [Vow - e:] WeakGrade ;
+	          Vow h k _ Vow WeakGrade ;
+	      [Vow - e] h _ [Vow - e:] WeakGrade ;
 
 !! **Tests:**
 
