@@ -7,7 +7,7 @@ The Tornedalen Finnish (Meänkieli) morphology and tools
 
 This directory contains source files for the Tornedalen Finnish language
 morphology and dictionary. The data and implementation are licenced
-under __LICENCE__ licence, also detailed in the
+under __LICENSE__ licence, also detailed in the
 [LICENSE](https://github.com/giellalt/lang-fit/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
