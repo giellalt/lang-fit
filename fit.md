@@ -1,4 +1,1297 @@
 
+# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
+
+This dep file is for sma, sme, smj, sje.
+
+# DELIMITERS
+
+Sentence delimiters are the following: <.> <!> <?> <...> <¶>
+
+
+# TAGS AND SETS
+
+
+N
+V
+A
+Adv
+CC
+CS
+Inf
+Sup
+Neg
+Num
+Po
+Pr
+
+Pcle
+Prop
+
+Pron
+IV
+TV
+COMMA
+DASH
+CITATION to keep colouring we add a "
+HYPHEN
+QMARK
+PUNCT
+LEFT
+RIGHT
+CLB
+Ind
+Pot
+Impr
+ImprtII
+Cond
+ConNeg
+Caus causative eus
+VGen
+Interj
+ABBR
+ACR
+Prs
+Prt
+Cmpnd
+RCmpnd
+PrfPrc
+PrsPrc
+Actor
+Actio
+Ger
+Indef
+Nom
+Acc
+Ill
+Com
+Gen
+Ess
+
+IM For fao
+
+## POS sub-categories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Syntactic tags and sets
+
+### Syntactic tags in input to this file
+
+
+### Syntactic tags added in this file
+
+* @FMV : finite main verb
+- oaidná: Son oaidná ollislaš gova. - She sees the whole picture
+* infinite main verb
+* @FAUX : finite auxiliary verb
+- ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
+* @FMVdic : finite main verb introducing direct speech
+* @IMVdic : infinite main verb introducing direct speech
+* @FS-IMV : infinite main verb of subclause 
+* @FS-IAUX : infinite auxiliary verb in subclause
+* @FS-N<IAUX : infinite auxiliary verb of a relative subclause
+* @FS-N<IMV : infinite main verb of a relative subclause
+* @FS-OBJ : finite verb in subclause functioning as object
+* @FS-OBJ> : finite verb in subclause functioning as object
+* @FS-<OBJ : finite verb in subclause functioning as object
+* @FS-SUBJ : finite verb in subclause functioning as subject
+* @FS-SUBJ> : finite verb in subclause functioning as subject
+* @FS-<SUBJ : finite verb in subclause functioning as subject
+* @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
+* @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
+* @FS-ACC>> : finite verb in subclause, object of speechact verb
+* @S< : a clause modifying a sentence to the right of it
+* @FS-ADVL : finite verb in subclause ...
+* @-FS-<ADVL : infinite subclause - eus
+* @-FS-ADVL> : infinite subclause - eus
+* @FS-N< : relative clause to N
+* @FS->N : relative clause to N to the left side of it - eus
+* @FS-VFIN< : finite verb in sentence, statement
+- eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
+* @FS-<APP : finite subclause functioning as an apposition
+* @ICL-ADVL : non-finite subclause ...
+* @ICL-AUX< : "right" argument of auxiliary (?)
+* @ICL-OBJ : infinitival clause object
+* @ICL-SUBJ : infinitival clause subject
+* @ICL-P< : infinitival clause complement of preprosition
+* @IAUX : non-finite auxiliary
+* <mv> : main verb. A temporarily tag omitted in the end of the file.
+* <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
+
+
+### fao syntags
+
+* @>V
+
+### kal syntags
+
+* @INS :
+* @<INS :
+* @INS> :
+
+### eus syntags
+
+* @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
+
+### Syntactic set definitions
+
+
+
+
+
+
+
+
+
+
+
+
+# Dep grammar
+
+
+
+Correction rules
+
+
+
+* **muitalit**
+
+
+* **XX**
+
+* **XX**
+
+* **XX**
+
+
+
+* **faoSumId=Rel**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Mapping rules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/dependency.cg3)</small>
+
+# Disambiguator for Meänkieli
+
+Usage:
+
+`cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3`
+
+This file documents the [Meänkieli disambiguator file](http://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3) .
+
+## Delimiters, tags and sets
+
+
+
+Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
+
+
+
+
+
+
+
+
+### Part-of-Speech
+* N = noun
+* A = adjective
+* Num = numeral
+* V = verb
+* Adv = adverb
+* Pcle = particle
+* Pr = preposition
+* Po = postposition
+* Pron = pronoun
+* Interj = interjection
+
+ * LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; # 
+ * LIST CLB = CLB ; # 
+ * LIST CLBfinal = CLBfinal ; # because common num # 
+ * LIST PUNCT = PUNCT ; # 
+ * LIST Prs = Prs ; # 
+ * LIST Prt = Prt ; # 
+ * LIST Ind = Ind ; # 
+ * LIST Act = Act ; # 
+ * LIST Pass = Pass Pss ; # 
+ * LIST ActPass = Act Pass Pss ; # 
+ * LIST ABBR = ABBR ; # 
+ * LIST Abbr = Abbr ABBR ; # 
+ * LIST Refl = Refl ; # 
+ * LIST PrsPrc = PrsPrc ; # 
+ * LIST NUMS = "yksi" Num; # 
+ * LIST Ord = Ord ; # 
+ * LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; # 
+ * LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; # 
+ * LIST CS = CS ; # 
+ * LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ; # 
+ * LIST Attr = Attr ; # 
+ * LIST Rel = Rel ; # 
+ * LIST Interr = Interr ; # 
+ * LIST Card = Card ; # 
+ * LIST Cmp = Cmp ; # 
+ * LIST Cmp/Hyph = Cmp/Hyph ; # 
+ * LIST Cmp/SgGen = Cmp/SgGen ; # 
+ * LIST Cmp/Attr = Cmp/Attr ; # 
+ * LIST Cmp/SgNom = Cmp/SgNom ; # 
+
+### Numerus
+ * LIST Pers = Pers ; # 
+* Sg = Singular
+* Pl = Plural
+* Sg1 = Singular 1.p.
+* Sg2 = Singular 2.p.
+* Sg3 = Singular 3.p.
+* Pl1 = Plural 1.p.
+* Pl2 = Plural 2.p.
+* Pl3 = Plural 3.p.
+
+### Person
+ * LIST Pers1 = Sg1 Pl1 ; # 
+ * LIST Pers2 = Sg2 Pl2 ; # 
+ * LIST SGa = Sg Sg1 Sg2 Sg3 ; # 
+ * LIST PLa = Pl Pl1 Pl2 Pl3 ; # 
+ * LIST NUMBER = Sg Pl ; # 
+ * SET SGPRON = Pron + SGa; # 
+ * SET PLPRON = Pron + PLa; # 
+ * SET ME = PLPRON + ("me") ; # 
+ * SET TE = PLPRON + ("te") ; # 
+ * SET HE = PLPRON + ("he") ; # 
+
+
+
+### Cases
+* Nom
+* Gen
+* Acc
+* Par
+* Ine
+* Ill
+* Ela
+* Ade
+* Abe
+* All
+* Abl
+* Ess
+* Tra
+* Ins
+* Com
+* SUBJ-CASE = Nom Par
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Types
+* Prop = Proper noun
+* Interr = Interrogative
+* Dem = demonstrative pron
+* Rel = Relative pron
+Relpronpl "mikkä ja "jokka"
+Relpronsg "mikä" ja "joka"
+Interrpronpl "kuka" ja "mikä"
+* Pers = Personal pron
+* Indef = Indef pron
+
+* Inf = Infinitive
+* ConNeg = Conjugated as Negative form
+* PrfPrc = Perfectum Particip
+* Imprt = Imperative
+* Act = Active
+* Neg = Negation verb
+
+
+
+
+
+
+
+* COMMA = comma
+
+* Foc/kaan = focus clitic -kaan
+* Foc/kaan = focus clitic -kaan
+
+* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
+* @CNP = Local conjunction or subjunction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Sets with more members
+
+* WORD = all PoS
+
+* NPMOD = these can modify a noun
+* NPMODADV = NPMOD plus adverb
+
+* NOT-NPMOD = these cannot modify a noun
+
+* NOT-NPMODADV = these cannot modify a noun, and is not adverb
+
+* QVANT-ADV = e.g. paljon, vähän
+* KUNKA = e.g. kunka missä (adverbs that start a sentence)
+
+
+
+
+
+
+Boundaries
+
+
+
+* S-BOUNDARY = words that start a sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verbs
+
+
+
+
+
+
+
+
+
+
+
+* MOD-ASP = auxilaries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* SV-BOUNDARY = words that start a sentence and finite verb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Disambiguation rules
+
+### Dialects
+
+
+### Early rules
+
+
+
+* __person_test__ selects finite verb if there is a Pron Pers to the left
+
+
+* __adv_after_V__ selects adverb if there is a verb to the right
+
+
+* __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
+
+* **Rule: PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
+
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
+
+Possessive suffixes
+
+First we put rules to choose Px forms... (forthcomong)
+
+Then we remove the remaining Px
+* **Rule: NpPx** removes all Px. Thus, as long as no select rules for Px are done, they are removed.
+
+
+Numeral phrases
+
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
+
+### Preposition/postposition/adverb rules
+
+
+
+* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
+* **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
+
+* **Rule: Poifgenpar** selects  postposition to the right of Gen or Par
+
+* **Rule: vasthaan** not vasta if -1 Par
+
+
+## Rules for mapping @CVP and @CNP on the CC and CS
+
+* **Rule: CVP** maps @CVP to CS and mutta
+
+* **Rule: CNPifN** maps @CNP to CC between two N
+
+* **Rule: CNPifInf** maps @CNP to CC between two Inf
+
+
+## Case rules
+
+### Partitive
+
+
+
+
+
+
+
+
+
+Genitive
+
+
+### Illative
+
+
+## Number rules
+
+
+
+## More disambiguation rules
+* **Rule: SgNotPl**
+
+
+### Elative
+
+## Propernouns
+
+
+## Verbs
+
+
+### Specific verbs	
+
+
+ei negation verb
+
+
+eli
+
+
+
+
+
+
+
+
+## Adverbs
+
+
+### paljon
+
+### kerran
+
+### jälkhiin
+
+
+
+
+## Adjectives
+
+
+
+
+
+Conjunctions
+
+
+
+
+## Subjunctions
+
+
+että
+
+
+jos
+
+ko	
+
+sillä	
+
+
+
+## Pronouns
+
+
+
+
+
+
+
+
+## Verb rules, Verbs
+
+### Infinitive
+
+
+
+
+## Present Sg3
+
+
+
+
+
+
+
+## Present Pl3 or PrsPrc
+
+
+
+## Present Pl3 or Passive
+
+
+
+
+
+
+
+
+Imperative
+
+
+
+## Past tense
+
+### Prt Pl3 or Prt Sg2
+
+
+
+Relative pronouns
+
+
+
+* **Rule: Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
+
+* **Rule: Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
+
+* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
+
+
+
+* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
+
+* **Rule: interrpron** selects Interr if ? in the end
+
+* **Rule: DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
+
+
+* **Rule: paljonadvandnotpaljonoun** selects Adv if paljon
+
+* **Rule: Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
+
+
+* **Rule: annaimperativeandnotannaname** removes Prop if Anna se
+
+* **Rule: tulinounfromtuliprtsg3** selects V Sg
+
+
+
+* **Rule: dempronandnotpronpers** selects Den if A of N to the right
+
+* **Rule: Imperativefromconneg** selects and removes ConNeg
+
+* **Rule: ImperativeafterNeg** removes Imprt if pronoun
+
+
+
+
+
+
+
+
+* **Rule: interrel** selects Interr of Rel if CS to the right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **Rule: +FMAINV**  to the remaining finite verbs which are not AUX    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## HNOUN MAPPING
+
+
+
+
+
+
+
+
+
+* **Rule: @<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* **Rule: X** maps X everywhere
+
+
+* **Rule: REMOVE X** removes X whenever there is any other tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* WORDLEMMA = regex giving the lemma in question
+
+* **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/disambiguator.cg3)</small>
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
@@ -1031,2459 +2324,7 @@ The analysis give double analysis because of optional semtags. We go for the one
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/functions.cg3)</small>
-
-# Disambiguator for Meänkieli
-
-Usage:
-
-`cat text.txt|hfst-tokenize -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3`
-
-This file documents the [Meänkieli disambiguator file](http://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3) .
-
-## Delimiters, tags and sets
-
-
-
-Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
-
-
-
-
-
-
-
-
-### Part-of-Speech
-* N = noun
-* A = adjective
-* Num = numeral
-* V = verb
-* Adv = adverb
-* Pcle = particle
-* Pr = preposition
-* Po = postposition
-* Pron = pronoun
-* Interj = interjection
-
- * LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; # 
- * LIST CLB = CLB ; # 
- * LIST CLBfinal = CLBfinal ; # because common num # 
- * LIST PUNCT = PUNCT ; # 
- * LIST Prs = Prs ; # 
- * LIST Prt = Prt ; # 
- * LIST Ind = Ind ; # 
- * LIST Act = Act ; # 
- * LIST Pass = Pass Pss ; # 
- * LIST ActPass = Act Pass Pss ; # 
- * LIST ABBR = ABBR ; # 
- * LIST Abbr = Abbr ABBR ; # 
- * LIST Refl = Refl ; # 
- * LIST PrsPrc = PrsPrc ; # 
- * LIST NUMS = "yksi" Num; # 
- * LIST Ord = Ord ; # 
- * LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; # 
- * LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; # 
- * LIST CS = CS ; # 
- * LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ; # 
- * LIST Attr = Attr ; # 
- * LIST Rel = Rel ; # 
- * LIST Interr = Interr ; # 
- * LIST Card = Card ; # 
- * LIST Cmp = Cmp ; # 
- * LIST Cmp/Hyph = Cmp/Hyph ; # 
- * LIST Cmp/SgGen = Cmp/SgGen ; # 
- * LIST Cmp/Attr = Cmp/Attr ; # 
- * LIST Cmp/SgNom = Cmp/SgNom ; # 
-
-### Numerus
- * LIST Pers = Pers ; # 
-* Sg = Singular
-* Pl = Plural
-* Sg1 = Singular 1.p.
-* Sg2 = Singular 2.p.
-* Sg3 = Singular 3.p.
-* Pl1 = Plural 1.p.
-* Pl2 = Plural 2.p.
-* Pl3 = Plural 3.p.
-
-### Person
- * LIST Pers1 = Sg1 Pl1 ; # 
- * LIST Pers2 = Sg2 Pl2 ; # 
- * LIST SGa = Sg Sg1 Sg2 Sg3 ; # 
- * LIST PLa = Pl Pl1 Pl2 Pl3 ; # 
- * LIST NUMBER = Sg Pl ; # 
- * SET SGPRON = Pron + SGa; # 
- * SET PLPRON = Pron + PLa; # 
- * SET ME = PLPRON + ("me") ; # 
- * SET TE = PLPRON + ("te") ; # 
- * SET HE = PLPRON + ("he") ; # 
-
-
-
-### Cases
-* Nom
-* Gen
-* Acc
-* Par
-* Ine
-* Ill
-* Ela
-* Ade
-* Abe
-* All
-* Abl
-* Ess
-* Tra
-* Ins
-* Com
-* SUBJ-CASE = Nom Par
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Types
-* Prop = Proper noun
-* Interr = Interrogative
-* Dem = demonstrative pron
-* Rel = Relative pron
-Relpronpl "mikkä ja "jokka"
-Relpronsg "mikä" ja "joka"
-Interrpronpl "kuka" ja "mikä"
-* Pers = Personal pron
-* Indef = Indef pron
-
-* Inf = Infinitive
-* ConNeg = Conjugated as Negative form
-* PrfPrc = Perfectum Particip
-* Imprt = Imperative
-* Act = Active
-* Neg = Negation verb
-
-
-
-
-
-
-
-* COMMA = comma
-
-* Foc/kaan = focus clitic -kaan
-* Foc/kaan = focus clitic -kaan
-
-* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
-* @CNP = Local conjunction or subjunction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Sets with more members
-
-* WORD = all PoS
-
-* NPMOD = these can modify a noun
-* NPMODADV = NPMOD plus adverb
-
-* NOT-NPMOD = these cannot modify a noun
-
-* NOT-NPMODADV = these cannot modify a noun, and is not adverb
-
-* QVANT-ADV = e.g. paljon, vähän
-* KUNKA = e.g. kunka missä (adverbs that start a sentence)
-
-
-
-
-
-
-Boundaries
-
-
-
-* S-BOUNDARY = words that start a sentence
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Verbs
-
-
-
-
-
-
-
-
-
-
-
-* MOD-ASP = auxilaries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* SV-BOUNDARY = words that start a sentence and finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Disambiguation rules
-
-### Dialects
-
-
-### Early rules
-
-
-
-* __person_test__ selects finite verb if there is a Pron Pers to the left
-
-
-* __adv_after_V__ selects adverb if there is a verb to the right
-
-
-* __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
-
-* **Rule: PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
-
-* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
-
-Possessive suffixes
-
-First we put rules to choose Px forms... (forthcomong)
-
-Then we remove the remaining Px
-* **Rule: NpPx** removes all Px. Thus, as long as no select rules for Px are done, they are removed.
-
-
-Numeral phrases
-
-* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
-
-### Preposition/postposition/adverb rules
-
-
-
-* **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
-* **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
-
-* **Rule: Poifgenpar** selects  postposition to the right of Gen or Par
-
-* **Rule: vasthaan** not vasta if -1 Par
-
-
-## Rules for mapping @CVP and @CNP on the CC and CS
-
-* **Rule: CVP** maps @CVP to CS and mutta
-
-* **Rule: CNPifN** maps @CNP to CC between two N
-
-* **Rule: CNPifInf** maps @CNP to CC between two Inf
-
-
-## Case rules
-
-### Partitive
-
-
-
-
-
-
-
-
-
-Genitive
-
-
-### Illative
-
-
-## Number rules
-
-
-
-## More disambiguation rules
-* **Rule: SgNotPl**
-
-
-### Elative
-
-## Propernouns
-
-
-## Verbs
-
-
-### Specific verbs	
-
-
-ei negation verb
-
-
-eli
-
-
-
-
-
-
-
-
-## Adverbs
-
-
-### paljon
-
-### kerran
-
-### jälkhiin
-
-
-
-
-## Adjectives
-
-
-
-
-
-Conjunctions
-
-
-
-
-## Subjunctions
-
-
-että
-
-
-jos
-
-ko	
-
-sillä	
-
-
-
-## Pronouns
-
-
-
-
-
-
-
-
-## Verb rules, Verbs
-
-### Infinitive
-
-
-
-
-## Present Sg3
-
-
-
-
-
-
-
-## Present Pl3 or PrsPrc
-
-
-
-## Present Pl3 or Passive
-
-
-
-
-
-
-
-
-Imperative
-
-
-
-## Past tense
-
-### Prt Pl3 or Prt Sg2
-
-
-
-Relative pronouns
-
-
-
-* **Rule: Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
-
-* **Rule: Sg3ollaifplrelpronandplinterrpron** selects Sg3 if olla
-
-* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
-
-* **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
-
-
-
-* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
-
-* **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
-
-* **Rule: interrpron** selects Interr if ? in the end
-
-* **Rule: DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
-
-
-* **Rule: paljonadvandnotpaljonoun** selects Adv if paljon
-
-* **Rule: Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
-
-
-* **Rule: annaimperativeandnotannaname** removes Prop if Anna se
-
-* **Rule: tulinounfromtuliprtsg3** selects V Sg
-
-
-
-* **Rule: dempronandnotpronpers** selects Den if A of N to the right
-
-* **Rule: Imperativefromconneg** selects and removes ConNeg
-
-* **Rule: ImperativeafterNeg** removes Imprt if pronoun
-
-
-
-
-
-
-
-
-* **Rule: interrel** selects Interr of Rel if CS to the right
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **Rule: +FMAINV**  to the remaining finite verbs which are not AUX    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## HNOUN MAPPING
-
-
-
-
-
-
-
-
-
-* **Rule: @<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* **Rule: X** maps X everywhere
-
-
-* **Rule: REMOVE X** removes X whenever there is any other tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* WORDLEMMA = regex giving the lemma in question
-
-* **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/disambiguator.cg3)</small>
-# C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
-
-This dep file is for sma, sme, smj, sje.
-
-# DELIMITERS
-
-Sentence delimiters are the following: <.> <!> <?> <...> <¶>
-
-
-# TAGS AND SETS
-
-
-N
-V
-A
-Adv
-CC
-CS
-Inf
-Sup
-Neg
-Num
-Po
-Pr
-
-Pcle
-Prop
-
-Pron
-IV
-TV
-COMMA
-DASH
-CITATION to keep colouring we add a "
-HYPHEN
-QMARK
-PUNCT
-LEFT
-RIGHT
-CLB
-Ind
-Pot
-Impr
-ImprtII
-Cond
-ConNeg
-Caus causative eus
-VGen
-Interj
-ABBR
-ACR
-Prs
-Prt
-Cmpnd
-RCmpnd
-PrfPrc
-PrsPrc
-Actor
-Actio
-Ger
-Indef
-Nom
-Acc
-Ill
-Com
-Gen
-Ess
-
-IM For fao
-
-## POS sub-categories
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Syntactic tags and sets
-
-### Syntactic tags in input to this file
-
-
-### Syntactic tags added in this file
-
-* @FMV : finite main verb
-- oaidná: Son oaidná ollislaš gova. - She sees the whole picture
-* infinite main verb
-* @FAUX : finite auxiliary verb
-- ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture. 
-* @FMVdic : finite main verb introducing direct speech
-* @IMVdic : infinite main verb introducing direct speech
-* @FS-IMV : infinite main verb of subclause 
-* @FS-IAUX : infinite auxiliary verb in subclause
-* @FS-N<IAUX : infinite auxiliary verb of a relative subclause
-* @FS-N<IMV : infinite main verb of a relative subclause
-* @FS-OBJ : finite verb in subclause functioning as object
-* @FS-OBJ> : finite verb in subclause functioning as object
-* @FS-<OBJ : finite verb in subclause functioning as object
-* @FS-SUBJ : finite verb in subclause functioning as subject
-* @FS-SUBJ> : finite verb in subclause functioning as subject
-* @FS-<SUBJ : finite verb in subclause functioning as subject
-* @FS-ADVL> : finite verb in subclause functioning as adverbial to the left of the main clause
-* @FS-<ADVL : finite verb in subclause functioning as adverbial to the right of the main clause
-* @FS-ACC>> : finite verb in subclause, object of speechact verb
-* @S< : a clause modifying a sentence to the right of it
-* @FS-ADVL : finite verb in subclause ...
-* @-FS-<ADVL : infinite subclause - eus
-* @-FS-ADVL> : infinite subclause - eus
-* @FS-N< : relative clause to N
-* @FS->N : relative clause to N to the left side of it - eus
-* @FS-VFIN< : finite verb in sentence, statement
-- eai: Idja ii leat šat, eai ge sii dárbbaš lámppá dahje beaivváža čuovgga, dasgo Hearrá Ipmil lea sin čuovga. - The night is not anymore, they do not need the lamp- or day- light either, because God the Lord is their light.
-* @FS-<APP : finite subclause functioning as an apposition
-* @ICL-ADVL : non-finite subclause ...
-* @ICL-AUX< : "right" argument of auxiliary (?)
-* @ICL-OBJ : infinitival clause object
-* @ICL-SUBJ : infinitival clause subject
-* @ICL-P< : infinitival clause complement of preprosition
-* @IAUX : non-finite auxiliary
-* <mv> : main verb. A temporarily tag omitted in the end of the file.
-* <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
-
-
-### fao syntags
-
-* @>V
-
-### kal syntags
-
-* @INS :
-* @<INS :
-* @INS> :
-
-### eus syntags
-
-* @FS-SPRED : finite verb in subclause functioning as a subject predicate - eus, but not sure if in use
-
-### Syntactic set definitions
-
-
-
-
-
-
-
-
-
-
-
-
-# Dep grammar
-
-
-
-Correction rules
-
-
-
-* **muitalit**
-
-
-* **XX**
-
-* **XX**
-
-* **XX**
-
-
-
-* **faoSumId=Rel**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## The finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Mapping rules
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/dependency.cg3)</small># Meänkieli conjunctions
-
-This file documents [the file for Meänkieli conjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc).
-
-It contains two parts, one for adding tags, and one for listing conjunctions.
-
-## Adding tags
-
- * LEXICON conjx 
- * +CC: # ; 
-
- * LEXICON cc why two... 
- * +CC: # ; 
-
- * LEXICON cc_agr 
- * +CC: # ; 
- * +Sg1:n # ; 
- * +Sg2:t # ; 
- * +Sg3:i # ; 
- * +Pl1:mä # ; 
- * +Pl2:tä # ; 
- * +Pl3:ivä # ; 
-
-
-## The conjunctions themselves
-
- * LEXICON Conjunction 
- * ja cc ; 
- * ynnä cc ; 
- * sekä cc ; 
- * ette cc_agr ; 
-... and some 20 more
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/conjunctions.lexc)</small># Meänkieli adverbs
-
-This file documents [the file for Meänkieli adverbs](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc).
-
-The first part of the file adds tags, and the second lists the adverbs.
-
-## The tags
-
- * LEXICON advx Still not checked, hence the x
- * +Adv: K ; 
-
- * LEXICON adv  checked
- * +Adv: K ; 
-
-
- * LEXICON advkk  checked and with geminate clitic
-
-## The adverbs themselves (some 1200)
-
- * LEXICON Adverb 
- * niin adv ; 
- * niinkö adv ; 
- * nimittäin adv ; 
- * liian adv ; 
-...
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adverbs.lexc)</small># Documenting the file for meänkieli verbs
-
-This file documents [the file for Meänkieli verb stems](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc).
-
-First, it gives an nverview of the continuation lexica, and thereafter it sketches their actual content.
-
-## Overview over the continuation lexica
-
-### Continuation lexica for regular verbs
-* **v1** = antaa; sanoa:sano
-* **v2** = huomata
-* **v3** = syö'ä:syö ! ', ’
-* **v4** = nousta; tulla:tul
-* **v4_3la** = varjela, varjelee
-* **v4_4lla** = ajatella, ajattellee
-* **v2** = tryykätä:tryykkä
-* **v5** = tarvita:tarv
-* **v6** = paeta:pake
-* **v_vanheta** = vanheta
-* **vx** = unassigned
-
-### Continuation lexica for irregular verbs
-* **v_tehha**
-* **v_nahha**
-* **OLLA**
-* **NEG**
-* **JUA**
-* **SYA**
-
-
-## The verb lexica themselves
-
-The rest of the file contains some 5500 verbs.
-
- * **LEXICON VerbRoot** = The verb list 
-
-
-Irregular verbs
- * **olla: OLLA ;** 
- * **ei: NEG ;** 
-
-
-v1 sanoa, lukea
- * **sanoa:sano v1 ;** 
- * **hukkua:hukku v1 ;** 
-
-
-v2 tryykätä
- * **hypätä:hyppä v2 ;** 
- * **tryykätä:tryykkä v2 ;** 
-
-
-v3 syödä, juoda
- * **syä:sy SYA ;** 
- * **jua:ju JUA ;** 
-
-
-
-
- * **tehä:te v3tehda ;** 
- * **käyä:kä v3kayda ;**  
- * **nähä:nä v3nahda ;** 
-
-v4 tulla, mennä
- * **tulla:tul v4 ;** 
- * **mennä:men v4 ;** 
-
-v5 tarvita
- * **tarvita:tarvi v5 ;** 
-
-v6 paeta
- * **paeta:pake v6 ;** 
-
-
-Then comes the long list
- * **trukittaaa:trukittaa v1 ;** 
- * **lehathaa:lehatha v1 ;** 
-* ...
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/verbs.lexc)</small># Meänkieli subjunctions
-
-This file documents [the file for Meänkieli subjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc).
-
- * **LEXICON cs** is the lexicon giving the **+CS** tag to subjunctions.
- * +CS: # ; 
-
- * **LEXICON Subjunction** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
- * ette cs ; 
- * vaikka cs ; 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/subjunctions.lexc)</small># File containing meänkieli abbreviations 
-
-
-This file documents [the file for Meänkieli abbreviations](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc).
-
-The file contains 5-6 abbreviations, and is thus just a placeholder.
-Most fit abbreviations thus come from the common abbreviation file. 
-Here we should add meänkieli-specific ones.
-
-
-## Lexica for adding tags and periods
-
-
- 1. ITRAB ; 
- 1. TRNUMAB ; 
- 1. TRAB ; 
-
-
-## The abbreviation lexicon itself
-
-
-###           Intransitive abbreviations           
-
- * LEXICON ITRAB 
-
- * e.Kr+Adv:e.Kr ab-dot-adv-itrab ; 
-
-
-
-###     Abreviations who are transitive in front of numerals    
-
- * LEXICON TRNUMAB 
-
- * nro+N:nro ab-noun-trnumab ; 
-
-
-###             Transitive abbreviations           
-
- * LEXICON TRAB 
-
- * esim+A:esim ab-dot-adj-trab ; 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-abbreviations.lexc)</small># Meänkieli numerals
-
-This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
-
-
-These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
-
-
-Numerals have been split in three sections, the compounding parts
-of cardinals and ordinals, and the non-compounding ones:
-
-*Numeral examples:*
-* *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
-* *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
-* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
-* *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
-
-
-
-
-The compounding parts of cardinals are the number multiplier words.
-
-*cardinal examples:*
-* *yksi:* `yksi+Num+Sg+Nom` (Eng. !one)
-* *yks:* `yksi+Num+Sg+Nom`
-* *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
-* *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
-
-The suffixes only appear after cardinal multipliers
-
-*Cardinal multiplicants examples:*
-* *viisikymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
-
-
-The compounding parts of ordinals are the number multiplier words.
-
-*Ordinal numerals examples:*
-* *neljes:* `neljes+A+Ord+Sg+Nom`
-* *viiđenelle:* `viiđes+A+Ord+Sg+All`
-* *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
-
-
-The suffixes only appear after cardinal multipliers
-
-*Ordinal multiplicants examples:*
-* *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
-* *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
-
-
-There is a set of numbers or corresponding expressions that work like them,
-but are not basic cardinals or ordinals:
-
-*Numeral others examples:*
-* *viitisenkymmentä:* `viitisen+Num#kymmentä`
-
-## Numeral stem variation
-Numerals follow the same stem variation patterns as nouns, some of these
-being very rare to extinct for nouns. 
-
-
-*Numerals 31 examples:*
-* *yksi:* `yksi+Num+Sg+Nom`
-* *yks:* `yksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
-* *yhtheen:* `yksi+Num+Sg+Ill`
-* *yhtenä:* `yksi+Num+Sg+Ess`
-* *yhđessä:* `yksi+Num+Sg+Ine`
-* *yhđelä:* `yksi+Num+Sg+Ade`
-* *yhtä:* `yksi+Num+Sg+Par`
-* *yksii:* `yksi+Num+Pl+Par`
-* *yksiin:* `yksi+Num+Pl+Gen`
-* *ykshiin:* `yksi+Num+Pl+Ill`
-* *yksinä:* `yksi+Num+Pl+Ess`
-* *yksissä:* `yksi+Num+Pl+Ine`
-
-
-*Numerals 31 back§ examples:*
-* *kaksi:* `kaksi+Num+Sg+Nom`
-* *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
-* *kahtheen:* `kaksi+Num+Sg+Ill`
-* *kahtena:* `kaksi+Num+Sg+Ess`
-* *kahđessa:* `kaksi+Num+Sg+Ine`
-* *kahđela:* `kaksi+Num+Sg+Ade`
-* *kahta:* `kaksi+Num+Sg+Par`
-* *kaksii:* `kaksi+Num+Pl+Par`
-* *kaksiin:* `kaksi+Num+Pl+Gen`
-* *kakshiin:* `kaksi+Num+Pl+Ill`
-* *kaksina:* `kaksi+Num+Pl+Ess`
-* *kaksissa:* `kaksi+Num+Pl+Ine`
-
-
-*Numerals 8~5 examples:*
-* *kolme:* `kolme+Num+Sg+Nom`
-* *kolmheen:* `kolme+Num+Sg+Ill`
-* *kolmena:* `kolme+Num+Sg+Ess`
-* *kolmessa:* `kolme+Num+Sg+Ine`
-* *kolmela:* `kolme+Num+Sg+Ade`
-* *kolmee:* `kolme+Num+Sg+Par`
-* *kolmii:* `kolme+Num+Pl+Par`
-* *kolmiin:* `kolme+Num+Pl+Gen`
-* *kolmhiin:* `kolme+Num+Pl+Ill`
-* *kolmina:* `kolme+Num+Pl+Ess`
-* *kolmissa:* `kolme+Num+Pl+Ine`
-
-
-*Numerals 10 examples:*
-* *nelje:* `nelje+Num+Sg+Nom`
-* *neljee:* `nelje+Num+Sg+Par`
-* *neljheen:* `nelje+Num+Sg+Ill`
-* *neljenä:* `nelje+Num+Sg+Ess`
-* *neljessä:* `nelje+Num+Sg+Ine`
-* *neljelä:* `nelje+Num+Sg+Ade`
-* *neljii:* `nelje+Num+Pl+Par`
-* *neljiin:* `nelje+Num+Pl+Gen`
-* *neljein:* `nelje+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *neljhiin:* `nelje+Num+Pl+Ill`
-* *neljinä:* `nelje+Num+Pl+Ess`
-* *neljissä:* `nelje+Num+Pl+Ine`
-
-
-*Numerals 27 front examples:*
-* *viisi:* `viisi+Num+Sg+Nom`
-* *viis:* `viisi+Num+Sg+Nom`
-* *viitheen:* `viisi+Num+Sg+Ill`
-* *viittä:* `viisi+Num+Sg+Par`
-* *viiđessä:* `viisi+Num+Sg+Ine`
-* *viiđelä:* `viisi+Num+Sg+Ade`
-* *viitenä:* `viisi+Num+Sg+Ess`
-* *viisissä:* `viisi+Num+Pl+Ine`
-* *viissii:* `viisi+Num+Pl+Par`
-* *viissiin:* `viisi+Num+Pl+Gen`
-* *viitten:* `viisi+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *viishiin:* `viisi+Num+Pl+Ill`
-* *viisinä:* `viisi+Num+Pl+Ess`
-
-
-*Numerals 27 back examples:*
-* *kuusi:* `kuusi+Num+Sg+Nom`
-* *kuus:* `kuusi+Num+Sg+Nom`
-* *kuutta:* `kuusi+Num+Sg+Par`
-* *kuutena:* `kuusi+Num+Sg+Ess`
-* *kuuđessa:* `kuusi+Num+Sg+Ine`
-* *kuuđela:* `kuusi+Num+Sg+Ade`
-* *kuusina:* `kuusi+Num+Pl+Ess`
-* *kuusissa:* `kuusi+Num+Pl+Ine`
-* *kuussii:* `kuusi+Num+Pl+Par`
-* *kuussiin:* `kuusi+Num+Pl+Gen`
-* *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *kuushiin:* `kuusi+Num+Pl+Ill`
-
-
-
-*Numerals 10n examples:*
-* *kahđeksen:* `kahđeksen+Num+Sg+Nom`
-* *kahđeksee:* `kahđeksen+Num+Sg+Par`
-* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
-* *kahđeksessa:* `kahđeksen+Num+Sg+Ine`
-* *kahđeksella:* `kahđeksen+Num+Sg+Ade`
-* *kahđeksenna:* `kahđeksen+Num+Sg+Ess`
-* *kahđeksii:* `kahđeksen+Num+Pl+Par`
-* *kahđeksiita:* `kahđeksen+Num+Pl+Par`
-* *kahđeksiitten:* `kahđeksen+Num+Pl+Gen`
-* *kahđekshiin:* `kahđeksen+Num+Pl+Ill`
-* *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
-* *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
-
-
-*Numerals 10n front examples:*
-* *yhđeksen:* `yhđeksen+Num+Sg+Nom`
-* *yhđeksee:* `yhđeksen+Num+Sg+Par`
-* *yhđeksheen:* `yhđeksen+Num+Sg+Ill`
-* *yhđeksessä:* `yhđeksen+Num+Sg+Ine`
-* *yhđeksellä:* `yhđeksen+Num+Sg+Ade`
-* *yhđeksennä:* `yhđeksen+Num+Sg+Ess`
-* *yhđeksii:* `yhđeksen+Num+Pl+Par`
-* *yhđeksiitä:* `yhđeksen+Num+Pl+Par`
-* *yhđeksiitten:* `yhđeksen+Num+Pl+Gen`
-* *yhđekshiin:* `yhđeksen+Num+Pl+Ill`
-* *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
-* *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
-
-
-*Numerals 32 examples:*
-* *kymmenen:* `kymmenen+Num+Sg+Nom`
-* *kymmenheen:* `kymmenen+Num+Sg+Ill`
-* *kymmenennä:* `kymmenen+Num+Sg+Ess`
-* *kymmenessä:* `kymmenen+Num+Sg+Ine`
-* *kymmenellä:* `kymmenen+Num+Sg+Ade`
-* *kymmentä:* `kymmenen+Num+Sg+Par`
-* *kymmenten:* `kymmenen+Num+Pl+Gen`
-* *kymmeniitten:* `kymmenen+Num+Pl+Gen`
-* *kymmenhiin:* `kymmenen+Num+Pl+Ill`
-* *kymmenissä:* `kymmenen+Num+Pl+Ine`
-* *kymmeninnä:* `kymmenen+Num+Pl+Ess`
-
-
-
-*Numerals 9 examples:*
-* *sata:* `sata+Num+Sg+Nom`
-* *satana:* `sata+Num+Sg+Ess`
-* *sađassa:* `sata+Num+Sg+Ine`
-* *sathaan:* `sata+Num+Sg+Ill`
-* *sattaa:* `sata+Num+Sg+Par`
-* *sattoin:* `sata+Num+Pl+Gen`
-* *sathoin:* `sata+Num+Pl+Ill`
-* *sađoissa:* `sata+Num+Pl+Ine`
-* *satoina:* `sata+Num+Pl+Ess`
-
-
-
-*Numerals 46 examples:*
-* *tuhat:* `tuhat+Num+Sg+Nom`
-* *tuhantheen:* `tuhat+Num+Sg+Ill`
-* *tuhantenna:* `tuhat+Num+Sg+Ess`
-* *tuhanessa:* `tuhat+Num+Sg+Ine`
-* *tuhatta:* `tuhat+Num+Sg+Par`
-* *tuhanssii:* `tuhat+Num+Pl+Par`
-* *tuhanssiitten:* `tuhat+Num+Pl+Gen`
-* *tuhantten:* `tuhat+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *tuhanshiin:* `tuhat+Num+Pl+Ill`
-* *tuhansinna:* `tuhat+Num+Pl+Ess`
-* *tuhansissa:* `tuhat+Num+Pl+Ine`
-
-
-
-*Numerals 10 miljoona examples:*
-* *miljoona:* `miljoona+Num+Sg+Nom`
-* *miljoonanna:* `miljoona+Num+Sg+Ess`
-* *miljoonassa:* `miljoona+Num+Sg+Ine`
-* *miljoonaa:* `miljoona+Num+Sg+Par`
-* *miljoonhaan:* `miljoona+Num+Sg+Ill`
-* *miljoonii:* `miljoona+Num+Pl+Par`
-* *miljooniitten:* `miljoona+Num+Pl+Gen`
-* *miljoonhiin:* `miljoona+Num+Pl+Ill`
-* *miljoonissa:* `miljoona+Num+Pl+Ine`
-* *miljooninna:* `miljoona+Num+Pl+Ess`
-
-
-
-
-*Numerals 5 examples:*
-* *miljardi:* `miljardi+Num+Sg+Nom`
-* *miljardhiin:* `miljardi+Num+Sg+Ill`
-* *miljardii:* `miljardi+Num+Sg+Par`
-* *miljardissa:* `miljardi+Num+Sg+Ine`
-* *miljardinna:* `miljardi+Num+Sg+Ess`
-* *miljardhiin:* `miljardi+Num+Pl+Ill`
-* *miljardii:* `miljardi+Num+Pl+Par`
-* *miljardiissa:* `miljardi+Num+Pl+Ine`
-* *miljardiitten:* `miljardi+Num+Pl+Gen`
-* *miljardiina:* `miljardi+Num+Pl+Ess`
-
-
-
-
-*Numerals 5 more examples:*
-* *Googol:* `Googol+Num+Sg+Nom`
-
-
-
-*Numerals 5 moremore examples:*
-* *pari:* `pari+Num+Sg+Nom`
-* *parhiin:* `pari+Num+Sg+Ill`
-* *parrii:* `pari+Num+Sg+Par`
-* *parina:* `pari+Num+Sg+Ess`
-* *parissa:* `pari+Num+Sg+Ine`
-* *pariissa:* `pari+Num+Pl+Ine`
-* *pariina:* `pari+Num+Pl+Ess`
-* *parrii:* `pari+Num+Pl+Par`
-* *parriin:* `pari+Num+Pl+Gen`
-* *parhiin:* `pari+Num+Pl+Ill`
-
-
-
-*Numerals 38 examples:*
-* *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
-* *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
-* *ensimäisessä:* `ensimäinen+A+Ord+Sg+Ine`
-* *ensimäistä:* `ensimäinen+A+Ord+Sg+Par`
-* *ensimäisten:* `ensimäinen+A+Ord+Pl+Gen`
-* *ensimäissiitten:* `ensimäinen+A+Ord+Pl+Gen`
-* *ensimäissii:* `ensimäinen+A+Ord+Pl+Par`
-* *ensimäishiin:* `ensimäinen+A+Ord+Pl+Ill`
-* *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
-* *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
-
-
-*Numerals 38 back examples:*
-* *toinen:* `toinen+A+Ord+Sg+Nom`
-* *toisheen:* `toinen+A+Ord+Sg+Ill`
-* *toista:* `toinen+A+Ord+Sg+Par`
-* *toisessa:* `toinen+A+Ord+Sg+Ine`
-* *toisela:* `toinen+A+Ord+Sg+Ade`
-* *toisena:* `toinen+A+Ord+Sg+Ess`
-* *toisten:* `toinen+A+Ord+Pl+Gen`
-* *toissiin:* `toinen+A+Ord+Pl+Gen`
-* *toissii:* `toinen+A+Ord+Pl+Par`
-* *toishiin:* `toinen+A+Ord+Pl+Ill`
-* *toisissa:* `toinen+A+Ord+Pl+Ine`
-* *toisina:* `toinen+A+Ord+Pl+Ess`
-
-
-*Numerals 45 examples:*
-* *kolmas:* `kolmas+A+Ord+Sg+Nom`
-* *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
-* *kolmanessa:* `kolmas+A+Ord+Sg+Ine`
-* *kolmanella:* `kolmas+A+Ord+Sg+Ade`
-* *kolmantheen:* `kolmas+A+Ord+Sg+Ill`
-* *kolmatta:* `kolmas+A+Ord+Sg+Par`
-* *kolmanssii:* `kolmas+A+Ord+Pl+Par`
-* *kolmanssiitten:* `kolmas+A+Ord+Pl+Gen`
-* *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
-* *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
-
-
-*Numerals 45 fron examples:*
-* *neljes:* `neljes+A+Ord+Sg+Nom`
-* *neljentheen:* `neljes+A+Ord+Sg+Ill`
-* *neljentennä:* `neljes+A+Ord+Sg+Ess`
-* *neljenessä:* `neljes+A+Ord+Sg+Ine`
-* *neljenellä:* `neljes+A+Ord+Sg+Ade`
-* *neljettä:* `neljes+A+Ord+Sg+Par`
-* *neljenssii:* `neljes+A+Ord+Pl+Par`
-* *neljenssiitten:* `neljes+A+Ord+Pl+Gen`
-* *neljenshiin:* `neljes+A+Ord+Pl+Ill`
-* *neljensissä:* `neljes+A+Ord+Pl+Ine`
-* *neljensinnä:* `neljes+A+Ord+Pl+Ess`
-
-
-
-
- * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/numerals.lexc)</small># Meänkieli prepositions
-
-This file documents [`stems/prepositions.lexc`, the file for Meänkieli prepositions](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/prepositions.lexc)  
-
-## The tags
-
- * +Pr: K ;  prx
-
- * +Pr: K ; 
-
-## The prepositons
-
- * yli:yli pr ; 
- * ennen pr ; 
- * ympäri pr ; 
- * jahka prx ; 
- * joka prx ; 
-..
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/prepositions.lexc)</small>
-
-# Meänkieli aacronyms 
-
-The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc) is a dummy file, with this comtent only:
-
-
-
- * LEXICON Acronym-fit 
- * XXX Acronym-fit-suf ;  to be replaced with fit content
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-acronyms.lexc)</small># Meänkieli pronouns
-
-This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
-
-
- * LEXICON Pronoun 
-
-## Persoonapronominit
-
- * mie+Pron+Pers+Sg:m 12pronsg ; 
-* ...
-
-
-## Demonstratiivipronominit
-
- * se+Pron+Dem+Sg: se_pron ; 
-
- * tämä+Pron+Dem:tä tama ; 
- * tuo+Pron+Dem:tuo tuo ; 
- * nämä+Pron+Dem+Pl+Nom:nämä K ; 
- * nämä+Pron+Dem+Pl:näi namaobl ; 
-
- * mikä+Pron+Rel+Sg:mi relkys ; 
- * joka+Pron+Rel+Sg:jo relkys ; 
- * mikä+Pron+Interr+Sg:mi relkys ; 
- * joka+Pron+Interr+Sg:jo relkys ; 
-
- * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
-... etc.
-
-
-
-
-
-
-
-
-
-
-
-## Sanakirjasta
-
- * usea+Pron:usea pron_x3 ; 
- * harva+Pron:pron pron_x1 ; 
-
- * kullaki pronx ; 
- * kumpiki pronx ; 
- * kuki pronx ; 
- * moni pronx ; 
- * ken pronx ; 
- * meikäläinen+Pron+Indef:meikäläi toisen ; 
- * sellainen+Pron+Indef:sellai toisen ; 
- * mikhään pronx ; 
- * kumpiko pronx ; 
- * molemat pronx ; 
- * nuot pronx ; 
- * muu:mu MUU ; 
- * mä pronx ; 
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/pronouns.lexc)</small># Meänkieli postpositions
-
-This file documents [the file for Meänkieli postpositions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc).
-
-## Adding tags
-
- * LEXICON pox 
- * +Po: K ; 
-
- * LEXICON po 
- * +Po: K ; 
-
-## The list of 40 or so postpositions.
-
- * LEXICON Postposition 
- * jälkheen po ; 
- * ympäri po ; 
-...
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/postpositions.lexc)</small># Meänkieli propernouns
-
-This file documents [the file for Meänkieli propernouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc).
-
-Contrary to other GiellaLT languages, the Meänkieli FST is not set up to use the language-independent name base found in the infrastructure.
-
-32000 names
-
- * LEXICON ProperNoun 
-
- * Niila:Niila p_mal_1 ; 
- * Kiiruna:Kiiruna 3p_plc ; 
-* ...
-ERVASTI?
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-propernouns.lexc)</small># Meänkieli adjectives
-
-This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
-
-
-## The continuation lexicon types
-
-* a1 = kaksitavuiset
-* a3 = kolmitavuiset
-* a4 = kaksitavuiset, vartalo -e
-* aas = tarmokas
-* anen = nen-adjektiivit
-
-
-## The lemma list itself
-
- LEXICON AdjectiveRoot
-
-a1
- * tuttu a1 ;
- * selvä a1 ;
- * kuiva a1 ;
-...
-
-a3 
- * komea a3 ;
- * muikea a3 ;
- * privaatti a3 ; xxx a1?
-
-a4
- * pieni:piene a4 ;
- * vanhaa:vanhaa ax ;
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adjectives.lexc)</small># Noun stems for Meänkieli
-
-This file documents [the file for Meänkieli nouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc).
-
-## Vowel stems
-
-This is an overview of the continuation lexicon types. 
-
-* nx = unassigned
-
-Vowel stems
-
-* n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns: liike, säe
-* n3 = odd-syllabTic: kanava
-* n4 = i:e nouns: veri
-
-Consonant stems
-
-* n_uus = vajavuus
-* nc = cvc
-* 3nc = cvcvc, jiddish
-* nen = nainen paradigm
-* 3nen = hevonen paradigm
-* 3n_ks = keskus - keskuksen
-* 3n_ue = lakeus - lakeude
-* 3n_ime = puhelin - puhelime
-* 3n_lnr = taival, taimen, manner
-* nas = tehas - tehtaan
-* 3mies = mies
-
-
-## The lexica themselves
-
-The lemma list 
- * **LEXICON NounRoot**
-
- * kvääni n1 ; 
- * hinta n1 ; 
- * häpy n1 ; 
-
- * rypriikki:rypriikki n3 ; 
- * asfaltti:asfaltti n3 ; 
- * hammashoitoavustus:hammashoitoavustu 4n_ks ; 
- * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
-
-
-
-
-
-
-
-n4 nouns
-
-Consonant stems
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/nouns.lexc)</small># Meänkieli interjections
-
-This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
-
-## Adding tag
-
- * **LEXICON ijx** 
- +Interj: K ;
-
- * **LEXICON Interjection** is the list of 90 or so interjections
- * äh ijx ; 
- * täh ijx ; 
- * pii ijx ; 
-aivan ijx ; aivan ijx ;     * ...
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/interjections.lexc)</small>
-# Meänkieli morphological transducer
-
-
-Beware of remnants from the Finnish and Kven files.
-
-
-## Tags for POS
- * **+A** = Adjective
- * **+Adv** = Adverb
- * **+CC** = Conjunction
- * **+CS** = Subjunction
- * **+Interj** = Interjection
- * **+N** = Noun
- * **+Num** = Numerals
- * **+Ord** = Ordinals
- * **+Pcle** = Participle?
- * **+Po** = Postposition
- * **+Pr** = Preposition
- * **+Pron** = Pronomen
- * **+V** = Verb
- * **+Prop** = Propernoun
- * **+Symbol** = independent symbols in the text stream, like £, €, ©
-
-## Tags for grammar
-
-### Pronoun types
-
- * **+Pers** = Personal
- * **+Dem** = Demonstrative
- * **+Interr** = Interrogative
- * **+Refl** = Reflexive
- * **+Recipr** = Reciprocal
- * **+Rel** = Relative
- * **+Indef** = Indefinitue
- * **+Qu** = Hmm, Question?? Interr? Check this.
-
-### Other tags
-
- * **+CLBfinal** =
- * **+Coll** =
- * **+MWE** =
- * **+LEFT** =
- * **+RIGHT** =
- * **+ABBR**
- * **+ACR**
- * **+Abbr**
- * **+Arab**
- * **+Dyn**
- * **+Prel** 
- * **+Rom** 
-
-
-### Number
- * **+Sg** = Singular
- * **+Pl** = Plural
-
-### Case
-
- * **+Nom** = Nominative
- * **+Gen** = Genitive
- * **+Acc** = Accusative, for pronouns, but is it correct?
- * **+Ine** = Inessive
- * **+Ill** = Illative
- * **+Ela** = Elative
- * **+Ade** = Adessive
- * **+Abe** = Abessive
- * **+All** = Allative
- * **+Abl** = Ablative
- * **+Ess** = Essive
- * **+Tra** = Translaive
- * **+Ins** = Instructive
- * **+Com** = Comitative
- * **+Par** = Partitive
-
-### Possessive suffixes
- * **+PxPl1** = 
- * **+PxPl2** = 
- * **+PxPl3** = 
- * **+PxSg1** = 
- * **+PxSg2** = 
- * **+PxSg3** = 
-
-
-### Comparatives
- * **+Comp** = 
- * **+Superl** = 
-
-### Finite verbs
- * **+Act** =
- * **+Pass** =
- * **+Ind** = 
- * **+Prs** = 
- * **+Prt** = 
- * **+Imprt** = 
- * **+Cond** = 
- * **+Pot** = Potential
-
-### Verb person tags
- * **+Sg1** = 
- * **+Sg2** = 
- * **+Sg3** = 
- * **+Pl1** = 
- * **+Pl2** = 
- * **+Pl3** = 
-
-### Verb transitivity
- * **+TV** transitive
- * **+IV** intransitive
-
-
-### Infinite verbs
- * **+Inf** = tA Infinitive
- * **+InfE** = e Infinite
- * **+InfMa** = mA Infinite
- * **+PrsPrc** = 
- * **+PrfPrc** = 
- * **+ConNeg** = 
- * **+Neg** =
-
-### Punctuation
- * **+CLB** = Clause boundary
- * **+PUNCT** = Punctuation mark
- * **+HYPH** = Hyphenation mark
- * **+Attr** = Attributive form, hmm, check, for names?
-
-### Language tags
- * **+OLang/NOB** = language code for names from common name source
- * **+OLang/FIN** 
- * **+OLang/SWE** 
- * **+OLang/UND** 
-
-
-### Speller tags
- * +Err/Orth only in desc, not in norm.
- * **+Use/-Spell** = Excluded in speller
- * **+Use/SpellNoSugg** = recognized but not suggested in speller
- * +Use/Circ for numerals, copied from sme
- * +Use/NG do not generate
- * +Use/GC 
- * **+Err/Hyph** =
- * **+Err/SpaceCmp** =
- * **+Err/Lex**
-
-
-### Compounds
- * **+Cmp** =
- * **+Cmp/SplitR** =
- * **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
- * **+CmpNP/First** - ... only be first part in a compound or alone
- * **+CmpNP/None** =
-
-
-### Derivation
- * **+Der/minen** = 
- * **+Der/A** = 
- * **+Der** = 
- * **+Der/s** = 
-
-These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
- * **+Ex/N** 
- * **+Ex/A** 
- * **+Ex/V** 
-
-
-## Clitic tags
- * **+Clt** = 
- * **+Qst** = 
- * **+Foc/han** = 
- * **+Foc/ka** = sjekk denne xxx
- * **+Foc/kaan** = 
- * **+Foc/kin** = 
- * **+Foc/pa** = 
- * **+Foc/s** = 
- * **+Foc/pas** = 
-
-## Semantic tags
-
- * **+Sem/Ani** = Animal names
- * **+Sem/Fem** = Female names
- * **+Sem/Mal** = Male names
- * **+Sem/Obj** = Names of objects
- * **+Sem/Org** = Names of organisations
- * **+Sem/Plc** = Place names
- * **+Sem/Sur** = Surnames
-
-
-## Phonological symbols
-
- * **i2** = plural i of nouns
- * **i3** = past tense i of verbs
- * **i4** = i in conditional isi of most verbs (without gemination)
- * **i5** = superlative i of adjectives
- * **i6** = i:j in poika:pojan
- * **i7** = i in conditional of contract verbs (with gemination)
- * **p2** = always p
- * **t2** = always t, cf. katt2oma always tt, underlying -ts-
- * **t3** = t participating in gradation, but not in t:s
- * **t4** = t alternating with 0 in lnr+t : lnr (imarella)
- * **k2** = always k
- * **%^A** = Vowel harmony a/ä
- * **%^O** = Vowel harmony o/ö
- * **%^U** = Vowel harmony u/y
- * **%^V** = Vowel copying
- * **%^N** = tulˆNut, kävel^N^Ut
- * **%^E2I** = for e to i change
- * **%^HMETA** = for h metathesis syksy - sykshyyn
- * **%^AO** = a:o rannoissa
- * **%^WG** = Weak grade matto - maton
- * **%^TES** =  in use?
- * **%^VDEL** = Deleting long vowel in rakkaa- > rakas
- * **%^EDEL** = Deleting e in front of consonant
- * **%^AE** = for a to e change
- * **%^M2N** = for m to n in lumi lunta
- * **%^¤** = potecting against e:i word-finally (nalle, liike)
-
-
-
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-
-| Flag | Explanation | 
-|----- |-----------  |
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-
-| Flag | Explanation | 
-|----- |-----------  |
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpSuff.TRUE@ | Block such words from entering R
- |  @P.CmpSuff.TRUE@ | Mark that we have passed R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-
-| Flag | Explanation | 
-|----- |-----------  |
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-
-These tags are for handling errorneous forms
-| Flag | Explanation | 
-|----- |-----------  |
- |  @D.ErrOrth.ON@ | tbw
- |  @P.ErrOrth.ON@ | tbw
- |  @C.ErrOrth@ | tbw
- |  @R.ErrOrth.ON@ | tbw
-
-
-This is for pronouns with multiple case suffixes (*jommallekummalle*)
-
-| Flag | Explanation | 
-|----- |-----------  |
- |  @U.pron.nom@ | tbw
- |  @U.pron.gen@ | tbw
- |  @U.pron.gen2@ | tbw
- |  @U.pron.ill@ | tbw
- |  @U.pron.par@ | tbw
- |  @U.pron.par2@ | tbw
- |  @U.pron.par3@ | tbw
- |  @U.pron.ess@ | tbw
- |  @U.pron.tra@ | tbw
- |  @U.pron.ine@ | tbw
- |  @U.pron.ela@ | tbw
- |  @U.pron.all@ | tbw
- |  @U.pron.ade@ | tbw
- |  @U.pron.abl@ | tbw
- |  @P.compound.block@ | tbw
- |  @D.compound.block@ | tbw
-
-
-These are for preprocessing
-
-| Flag | Explanation | 
-|----- |-----------  |
- |  @P.Pmatch.Loc@ | 
- |  @P.Pmatch.Backtrack@ | 
- |  +Use/PMatch | 
- |  +Use/-PMatch | 
- | +Gram/TAbbr|  Transitive abbreviation (it needs an argument)
- | +Gram/NoAbbr|  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
- | +Gram/TNumAbbr|  Transitive abbreviation if the following   constituent is numeric
- | +Gram/NumNoAbbr|  Transitive abbreviations for which numerals  are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
- | +Gram/TIAbbr|  Both transitive and intransitive abbreviation
- | +Gram/IAbbr|  Intransitive abbreviation (it takes no argument)
- | +Gram/3syll| trisyllabic verbs
- | +Gram/Superl| superlative
- | +Gram/Comp| comparative
-
-
-### Semantic tags
-
- * **+Sem/Amount**
- * **+Sem/Build**
- * **+Sem/Build-room**
- * **+Sem/Cat**
- * **+Sem/Curr**
- * **+Sem/Date**
- * **+Sem/Domain**
- * **+Sem/Domain_Hum**
- * **+Sem/Dummytag**
- * **+Sem/Edu_Hum**
- * **+Sem/Event**
- * **+Sem/Food-med**
- * **+Sem/Group_Hum**
- * **+Sem/Hum**
- * **+Sem/ID**
- * **+Sem/Lang**
- * **+Sem/Mat**
- * **+Sem/Measr**
- * **+Sem/Money**
- * **+Sem/Obj-el**
- * **+Sem/Obj-ling**
- * **+Sem/Org_Prod-audio**
- * **+Sem/Org_Prod-vis**
- * **+Sem/Part**
- * **+Sem/Prod-vis**
- * **+Sem/Route**
- * **+Sem/Rule**
- * **+Sem/Sign**
- * **+Sem/State**
- * **+Sem/State-sick**
- * **+Sem/Substnc**
- * **+Sem/Time**
- * **+Sem/Time-clock**
- * **+Sem/Tool-it**
- * **+Sem/Txt**
- * **+Sem/Veh**
- * **+Sem/Year**
-
-
-
-
-## Basic lexica, pointing to the other lexicon files
-
-Here is the Root lexicon, pointing to all the parts of speech:
-
-  **LEXICON Root**
-
-
- * AdjectiveRoot ;
- * Adverb ;
- * Conjunction ;
- * Interjection ;
- * Numeral ;
- * NounRoot ;
- * Postposition ;
- * Preposition ;
- * Pronoun ;
- * ProperNoun ;
- * Punctuation ;
- * Symbols ;
- * VerbRoot ;
- * Subjunction ;
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/root.lexc)</small># Meänkieli twolc file
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/functions.cg3)</small># Meänkieli twolc file
 
 This file documents the [Meänkieli twolc file](http://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
 
@@ -3963,7 +2804,330 @@ All vowel harmony is taken care of with one rule.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/phonology.twolc)</small># Meänkieli verbs
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/phonology.twolc)</small># Meänkieli noun morphology
+
+This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
+
+
+## This is an overview of the continuation lexicon types. 
+
+### Vowel stems
+* n1 = 2syll ordinary nouns: talo
+* n2 = e-nouns: liike, säe
+* n3 = odd-syllabic: kanava
+* n4 = i:e nouns: veri
+
+### Consonant stems
+
+* n_uus = vajavuus
+* nc = cvc
+* 3nc = cvcvc, jiddish
+* nen = nainen paradigm
+* 3nen = hevonen paradigm
+* 3n_ks = keskus - keskuksen
+* 3n_ue = lakeus - lakeude
+* 3n_ime = puhelin - puhelime
+* 3n_lnr = taival, taimen, manner
+* nas = tehas - tehtaan
+* 3mies = mies
+
+### Unassigned
+* nx = unassigned
+
+
+
+**LEXICON nx** 
+
+**LEXICON nc**
+
+**LEXICON n1**
+
+**LEXICON n1_pl**
+
+**LEXICON x1**
+
+**LEXICON x1_sg**
+
+**LEXICON x1_sg_oblique**
+
+**LEXICON x1_pl**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The nainen (nen) and hevonen (3nen) family
+
+**LEXICON nen**
+
+**LEXICON xnen**
+
+**LEXICON xnen_sg**
+ +Sg:se%> 2cases ; for  Ade, All, Ess lla, lle, nna
+
+**LEXICON xnen_pl**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Sublexica for cases
+
+
+### Sublexica for possessive suffixes
+
+Px is now not in use, with one exception, comitative.
+
+ LEXICON n_PxK has either -n or goes to Px
+
+ LEXICON i_PxK Tra: -i or -e and goes to Px
+
+ LEXICON PxK has only -nsA, and is currently not in use. Check
+
+ LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/nouns.lexc)</small># Meänkieli propernoun morphology
+
+
+This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+
+In the lexica,
+**p** in lexicon names stands for proper noun.
+Even-syllable stems are unmarked, odd stems are marked **3**.
+**x** in lexicon names referring to the common `affixes/noun.lexc` file.
+We do not use **_pl** for names
+
+**LEXICON 3p_1**
+
+**LEXICON 3p_21ie**
+
+**LEXICON 3p_22oi**
+
+**LEXICON 3p_nen**
+
+**LEXICON 3p_C**
+
+**LEXICON 3p_ani_1**
+
+**LEXICON 3p_ani_41**
+
+**LEXICON 3p_fem_1**
+
+... and many more.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vowel stems, odd and even stems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consonant stems, odd and even stems
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+# Documenting Meänkieli acronym morphology
+
+This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
+
+
+**LEXICON Acronym-fit-suf** for adding +ACR tag
+
+**LEXICON ACRONOUN_cons**
+
+**LEXICON ACRONOUN_vow**
+
+ * **LEXICON UNIT**  As acro, but without paradigm
+
+ * **LEXICON ACRO_ACCRA** 
+
+**LEXICON ACRO_BERN**
+
+**LEXICON ACRO_LONDON**
+
+**LEXICON ACRO_NYSTØ**
+
+**LEXICON ACRO_cons**
+
+**LEXICON ACRO_vow**
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/acronyms.lexc)</small># Meänkieli verbs
 
 This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
 
@@ -4182,7 +3346,78 @@ from fkv
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/verbs.lexc)</small># Documenting the morphological tags for Meänkieli abbreviations
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/verbs.lexc)</small># Documenting Meänkieli adjective morphology
+
+This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
+
+
+Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
+corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
+In addition, it also points to comparative and superlative lexica.
+
+## Unassigned
+
+**LEXICON ax** pointing to **a1**
+
+**LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+ * +A: x1 ;
+ * +A+Comp: 3comp ;
+ * +A+Superl:ime 3sup ;
+
+
+**LEXICON a2** gets +A and goes to x2.
+ * +A: x2 ;
+ * +A+Comp: 4comp ;
+ * +A+Superl:ime 4sup;
+
+**LEXICON a3** 
+ * +A: x3 ;
+ * +A+Comp: 4comp ;
+ * +A+Superl:ime 4sup;
+
+**LEXICON a4** 
+ * +A: x4 ;
+
+**LEXICON anen** 
+ * +A: xnen ;
+
+**LEXICON aas** 
+
+**LEXICON a1_ton** 
+
+**LEXICON x1_ton** 
+
+
+
+
+
+## Comparative inflection
+
+ * LEXICON 3comp 2syll adj, 3syll comparative
+
+ * LEXICON 4comp 3syll adj, 4syll comparative
+
+
+
+
+ * LEXICON xcomp common for 2syll and 3syll
+
+
+
+
+
+### Superlative inflection
+
+ * LEXICON 3sup 2syll adj, 3syll superlative
+
+ * LEXICON 4sup 3syll adj, 4syll superlative
+
+
+
+
+ * LEXICON xsup common for 2syll and 3syll
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small># Documenting the morphological tags for Meänkieli abbreviations
 
 This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
 
@@ -4267,31 +3502,6 @@ Now splitting according to POS, and according to dot or not
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/abbreviations.lexc)</small>
-# Symbol affixes
-
-This file documents [`affixes/synbols.lexc`, the file for the affixes added to language-independent symbols](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)  
-
-
- * LEXICON Noun_symbols_possibly_inflected 
- * +N+Symbol: SYMBOL_connector ; 
-
- * LEXICON Noun_symbols_never_inflected 
- * +N+Symbol: # ; 
-
- * LEXICON SYMBOL_connector 
-     - SYMBOL_NO_suff ; = §
-     - :%: SYMBOL_suff ; = §:
-     - +Err/Orth: SYMBOL_suff ; = §ssa
-     - +Err/Orth:%-e SYMBOL_suff ; = §-essa
-     - +Err/Orth:%'e SYMBOL_suff ; = §'essä
-
- * LEXICON SYMBOL_NO_suff 
- * +Sg+Nom: # ; 
-
- * LEXICON SYMBOL_suff 
- * +Sg+Gen:n # ; cases need work
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/symbols.lexc)</small>
 # Meänkieli numerals 
 
 From fin via fkv.
@@ -4586,7 +3796,32 @@ forms which requires great amount of care in the inflection patterns.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/numerals.lexc)</small>Meänkieli pronoun morphology
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/numerals.lexc)</small>
+# Symbol affixes
+
+This file documents [`affixes/synbols.lexc`, the file for the affixes added to language-independent symbols](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)  
+
+
+ * LEXICON Noun_symbols_possibly_inflected 
+ * +N+Symbol: SYMBOL_connector ; 
+
+ * LEXICON Noun_symbols_never_inflected 
+ * +N+Symbol: # ; 
+
+ * LEXICON SYMBOL_connector 
+     - SYMBOL_NO_suff ; = §
+     - :%: SYMBOL_suff ; = §:
+     - +Err/Orth: SYMBOL_suff ; = §ssa
+     - +Err/Orth:%-e SYMBOL_suff ; = §-essa
+     - +Err/Orth:%'e SYMBOL_suff ; = §'essä
+
+ * LEXICON SYMBOL_NO_suff 
+ * +Sg+Nom: # ; 
+
+ * LEXICON SYMBOL_suff 
+ * +Sg+Gen:n # ; cases need work
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/symbols.lexc)</small>Meänkieli pronoun morphology
 
 This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)  
 
@@ -4709,35 +3944,381 @@ tuotä
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/pronouns.lexc)</small>
-# Documenting Meänkieli acronym morphology
-
-This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
+# Meänkieli morphological transducer
 
 
-**LEXICON Acronym-fit-suf** for adding +ACR tag
-
-**LEXICON ACRONOUN_cons**
-
-**LEXICON ACRONOUN_vow**
-
- * **LEXICON UNIT**  As acro, but without paradigm
-
- * **LEXICON ACRO_ACCRA** 
-
-**LEXICON ACRO_BERN**
-
-**LEXICON ACRO_LONDON**
-
-**LEXICON ACRO_NYSTØ**
-
-**LEXICON ACRO_cons**
-
-**LEXICON ACRO_vow**
+Beware of remnants from the Finnish and Kven files.
 
 
+## Tags for POS
+ * **+A** = Adjective
+ * **+Adv** = Adverb
+ * **+CC** = Conjunction
+ * **+CS** = Subjunction
+ * **+Interj** = Interjection
+ * **+N** = Noun
+ * **+Num** = Numerals
+ * **+Ord** = Ordinals
+ * **+Pcle** = Participle?
+ * **+Po** = Postposition
+ * **+Pr** = Preposition
+ * **+Pron** = Pronomen
+ * **+V** = Verb
+ * **+Prop** = Propernoun
+ * **+Symbol** = independent symbols in the text stream, like £, €, ©
+
+## Tags for grammar
+
+### Pronoun types
+
+ * **+Pers** = Personal
+ * **+Dem** = Demonstrative
+ * **+Interr** = Interrogative
+ * **+Refl** = Reflexive
+ * **+Recipr** = Reciprocal
+ * **+Rel** = Relative
+ * **+Indef** = Indefinitue
+ * **+Qu** = Hmm, Question?? Interr? Check this.
+
+### Other tags
+
+ * **+CLBfinal** =
+ * **+Coll** =
+ * **+MWE** =
+ * **+LEFT** =
+ * **+RIGHT** =
+ * **+ABBR**
+ * **+ACR**
+ * **+Abbr**
+ * **+Arab**
+ * **+Dyn**
+ * **+Prel** 
+ * **+Rom** 
+
+
+### Number
+ * **+Sg** = Singular
+ * **+Pl** = Plural
+
+### Case
+
+ * **+Nom** = Nominative
+ * **+Gen** = Genitive
+ * **+Acc** = Accusative, for pronouns, but is it correct?
+ * **+Ine** = Inessive
+ * **+Ill** = Illative
+ * **+Ela** = Elative
+ * **+Ade** = Adessive
+ * **+Abe** = Abessive
+ * **+All** = Allative
+ * **+Abl** = Ablative
+ * **+Ess** = Essive
+ * **+Tra** = Translaive
+ * **+Ins** = Instructive
+ * **+Com** = Comitative
+ * **+Par** = Partitive
+
+### Possessive suffixes
+ * **+PxPl1** = 
+ * **+PxPl2** = 
+ * **+PxPl3** = 
+ * **+PxSg1** = 
+ * **+PxSg2** = 
+ * **+PxSg3** = 
+
+
+### Comparatives
+ * **+Comp** = 
+ * **+Superl** = 
+
+### Finite verbs
+ * **+Act** =
+ * **+Pass** =
+ * **+Ind** = 
+ * **+Prs** = 
+ * **+Prt** = 
+ * **+Imprt** = 
+ * **+Cond** = 
+ * **+Pot** = Potential
+
+### Verb person tags
+ * **+Sg1** = 
+ * **+Sg2** = 
+ * **+Sg3** = 
+ * **+Pl1** = 
+ * **+Pl2** = 
+ * **+Pl3** = 
+
+### Verb transitivity
+ * **+TV** transitive
+ * **+IV** intransitive
+
+
+### Infinite verbs
+ * **+Inf** = tA Infinitive
+ * **+InfE** = e Infinite
+ * **+InfMa** = mA Infinite
+ * **+PrsPrc** = 
+ * **+PrfPrc** = 
+ * **+ConNeg** = 
+ * **+Neg** =
+
+### Punctuation
+ * **+CLB** = Clause boundary
+ * **+PUNCT** = Punctuation mark
+ * **+HYPH** = Hyphenation mark
+ * **+Attr** = Attributive form, hmm, check, for names?
+
+### Language tags
+ * **+OLang/NOB** = language code for names from common name source
+ * **+OLang/FIN** 
+ * **+OLang/SWE** 
+ * **+OLang/UND** 
+
+
+### Speller tags
+ * +Err/Orth only in desc, not in norm.
+ * **+Use/-Spell** = Excluded in speller
+ * **+Use/SpellNoSugg** = recognized but not suggested in speller
+ * +Use/Circ for numerals, copied from sme
+ * +Use/NG do not generate
+ * +Use/GC 
+ * **+Err/Hyph** =
+ * **+Err/SpaceCmp** =
+ * **+Err/Lex**
+
+
+### Compounds
+ * **+Cmp** =
+ * **+Cmp/SplitR** =
+ * **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
+ * **+CmpNP/First** - ... only be first part in a compound or alone
+ * **+CmpNP/None** =
+
+
+### Derivation
+ * **+Der/minen** = 
+ * **+Der/A** = 
+ * **+Der** = 
+ * **+Der/s** = 
+
+These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+ * **+Ex/N** 
+ * **+Ex/A** 
+ * **+Ex/V** 
+
+
+## Clitic tags
+ * **+Clt** = 
+ * **+Qst** = 
+ * **+Foc/han** = 
+ * **+Foc/ka** = sjekk denne xxx
+ * **+Foc/kaan** = 
+ * **+Foc/kin** = 
+ * **+Foc/pa** = 
+ * **+Foc/s** = 
+ * **+Foc/pas** = 
+
+## Semantic tags
+
+ * **+Sem/Ani** = Animal names
+ * **+Sem/Fem** = Female names
+ * **+Sem/Mal** = Male names
+ * **+Sem/Obj** = Names of objects
+ * **+Sem/Org** = Names of organisations
+ * **+Sem/Plc** = Place names
+ * **+Sem/Sur** = Surnames
+
+
+## Phonological symbols
+
+ * **i2** = plural i of nouns
+ * **i3** = past tense i of verbs
+ * **i4** = i in conditional isi of most verbs (without gemination)
+ * **i5** = superlative i of adjectives
+ * **i6** = i:j in poika:pojan
+ * **i7** = i in conditional of contract verbs (with gemination)
+ * **p2** = always p
+ * **t2** = always t, cf. katt2oma always tt, underlying -ts-
+ * **t3** = t participating in gradation, but not in t:s
+ * **t4** = t alternating with 0 in lnr+t : lnr (imarella)
+ * **k2** = always k
+ * **%^A** = Vowel harmony a/ä
+ * **%^O** = Vowel harmony o/ö
+ * **%^U** = Vowel harmony u/y
+ * **%^V** = Vowel copying
+ * **%^N** = tulˆNut, kävel^N^Ut
+ * **%^E2I** = for e to i change
+ * **%^HMETA** = for h metathesis syksy - sykshyyn
+ * **%^AO** = a:o rannoissa
+ * **%^WG** = Weak grade matto - maton
+ * **%^TES** =  in use?
+ * **%^VDEL** = Deleting long vowel in rakkaa- > rakas
+ * **%^EDEL** = Deleting e in front of consonant
+ * **%^AE** = for a to e change
+ * **%^M2N** = for m to n in lumi lunta
+ * **%^¤** = potecting against e:i word-finally (nalle, liike)
 
 
 
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+ |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+ |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+ |  @P.CmpPref.FALSE@ | Block these words from making further compounds
+ |  @D.CmpLast.TRUE@ | Block such words from entering R
+ |  @D.CmpSuff.TRUE@ | Block such words from entering R
+ |  @P.CmpSuff.TRUE@ | Mark that we have passed R
+ |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+ |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+ |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+ |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+ |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+
+
+These tags are for handling errorneous forms
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @D.ErrOrth.ON@ | tbw
+ |  @P.ErrOrth.ON@ | tbw
+ |  @C.ErrOrth@ | tbw
+ |  @R.ErrOrth.ON@ | tbw
+
+
+This is for pronouns with multiple case suffixes (*jommallekummalle*)
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @U.pron.nom@ | tbw
+ |  @U.pron.gen@ | tbw
+ |  @U.pron.gen2@ | tbw
+ |  @U.pron.ill@ | tbw
+ |  @U.pron.par@ | tbw
+ |  @U.pron.par2@ | tbw
+ |  @U.pron.par3@ | tbw
+ |  @U.pron.ess@ | tbw
+ |  @U.pron.tra@ | tbw
+ |  @U.pron.ine@ | tbw
+ |  @U.pron.ela@ | tbw
+ |  @U.pron.all@ | tbw
+ |  @U.pron.ade@ | tbw
+ |  @U.pron.abl@ | tbw
+ |  @P.compound.block@ | tbw
+ |  @D.compound.block@ | tbw
+
+
+These are for preprocessing
+
+| Flag | Explanation | 
+|----- |-----------  |
+ |  @P.Pmatch.Loc@ | 
+ |  @P.Pmatch.Backtrack@ | 
+ |  +Use/PMatch | 
+ |  +Use/-PMatch | 
+ | +Gram/TAbbr|  Transitive abbreviation (it needs an argument)
+ | +Gram/NoAbbr|  Intransitive abbreviations that are homonymous with more frequent words. They should only be considered abbreviations in the middle of a sentence.
+ | +Gram/TNumAbbr|  Transitive abbreviation if the following   constituent is numeric
+ | +Gram/NumNoAbbr|  Transitive abbreviations for which numerals  are complements and normal words. The abbreviation usage is less common and thus only the occurences in the middle of the sentence can be considered as true cases.
+ | +Gram/TIAbbr|  Both transitive and intransitive abbreviation
+ | +Gram/IAbbr|  Intransitive abbreviation (it takes no argument)
+ | +Gram/3syll| trisyllabic verbs
+ | +Gram/Superl| superlative
+ | +Gram/Comp| comparative
+
+
+### Semantic tags
+
+ * **+Sem/Amount**
+ * **+Sem/Build**
+ * **+Sem/Build-room**
+ * **+Sem/Cat**
+ * **+Sem/Curr**
+ * **+Sem/Date**
+ * **+Sem/Domain**
+ * **+Sem/Domain_Hum**
+ * **+Sem/Dummytag**
+ * **+Sem/Edu_Hum**
+ * **+Sem/Event**
+ * **+Sem/Food-med**
+ * **+Sem/Group_Hum**
+ * **+Sem/Hum**
+ * **+Sem/ID**
+ * **+Sem/Lang**
+ * **+Sem/Mat**
+ * **+Sem/Measr**
+ * **+Sem/Money**
+ * **+Sem/Obj-el**
+ * **+Sem/Obj-ling**
+ * **+Sem/Org_Prod-audio**
+ * **+Sem/Org_Prod-vis**
+ * **+Sem/Part**
+ * **+Sem/Prod-vis**
+ * **+Sem/Route**
+ * **+Sem/Rule**
+ * **+Sem/Sign**
+ * **+Sem/State**
+ * **+Sem/State-sick**
+ * **+Sem/Substnc**
+ * **+Sem/Time**
+ * **+Sem/Time-clock**
+ * **+Sem/Tool-it**
+ * **+Sem/Txt**
+ * **+Sem/Veh**
+ * **+Sem/Year**
+
+
+
+
+## Basic lexica, pointing to the other lexicon files
+
+Here is the Root lexicon, pointing to all the parts of speech:
+
+  **LEXICON Root**
+
+
+ * AdjectiveRoot ;
+ * Adverb ;
+ * Conjunction ;
+ * Interjection ;
+ * Numeral ;
+ * NounRoot ;
+ * Postposition ;
+ * Preposition ;
+ * Pronoun ;
+ * ProperNoun ;
+ * Punctuation ;
+ * Symbols ;
+ * VerbRoot ;
+ * Subjunction ;
 
 
 
@@ -4746,225 +4327,50 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/acronyms.lexc)</small># Meänkieli propernoun morphology
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/root.lexc)</small># Meänkieli adverbs
 
+This file documents [the file for Meänkieli adverbs](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc).
 
-This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+The first part of the file adds tags, and the second lists the adverbs.
 
-In the lexica,
-**p** in lexicon names stands for proper noun.
-Even-syllable stems are unmarked, odd stems are marked **3**.
-**x** in lexicon names referring to the common `affixes/noun.lexc` file.
-We do not use **_pl** for names
+## The tags
 
-**LEXICON 3p_1**
+ * LEXICON advx Still not checked, hence the x
+ * +Adv: K ; 
 
-**LEXICON 3p_21ie**
+ * LEXICON adv  checked
+ * +Adv: K ; 
 
-**LEXICON 3p_22oi**
 
-**LEXICON 3p_nen**
+ * LEXICON advkk  checked and with geminate clitic
 
-**LEXICON 3p_C**
+## The adverbs themselves (some 1200)
 
-**LEXICON 3p_ani_1**
-
-**LEXICON 3p_ani_41**
-
-**LEXICON 3p_fem_1**
-
-... and many more.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Vowel stems, odd and even stems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Consonant stems, odd and even stems
-
-
-
-
-
-
-
-
-
-
-
+ * LEXICON Adverb 
+ * niin adv ; 
+ * niinkö adv ; 
+ * nimittäin adv ; 
+ * liian adv ; 
+...
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/propernouns.lexc)</small># Documenting Meänkieli adjective morphology
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adverbs.lexc)</small># Noun stems for Meänkieli
 
-This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
+This file documents [the file for Meänkieli nouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc).
 
+## Vowel stems
 
-Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
-corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
-In addition, it also points to comparative and superlative lexica.
+This is an overview of the continuation lexicon types. 
 
-## Unassigned
+* nx = unassigned
 
-**LEXICON ax** pointing to **a1**
+Vowel stems
 
-**LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
- * +A: x1 ;
- * +A+Comp: 3comp ;
- * +A+Superl:ime 3sup ;
-
-
-**LEXICON a2** gets +A and goes to x2.
- * +A: x2 ;
- * +A+Comp: 4comp ;
- * +A+Superl:ime 4sup;
-
-**LEXICON a3** 
- * +A: x3 ;
- * +A+Comp: 4comp ;
- * +A+Superl:ime 4sup;
-
-**LEXICON a4** 
- * +A: x4 ;
-
-**LEXICON anen** 
- * +A: xnen ;
-
-**LEXICON aas** 
-
-**LEXICON a1_ton** 
-
-**LEXICON x1_ton** 
-
-
-
-
-
-## Comparative inflection
-
- * LEXICON 3comp 2syll adj, 3syll comparative
-
- * LEXICON 4comp 3syll adj, 4syll comparative
-
-
-
-
- * LEXICON xcomp common for 2syll and 3syll
-
-
-
-
-
-### Superlative inflection
-
- * LEXICON 3sup 2syll adj, 3syll superlative
-
- * LEXICON 4sup 3syll adj, 4syll superlative
-
-
-
-
- * LEXICON xsup common for 2syll and 3syll
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small># Meänkieli noun morphology
-
-This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
-
-
-## This is an overview of the continuation lexicon types. 
-
-### Vowel stems
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
-* n3 = odd-syllabic: kanava
+* n3 = odd-syllabTic: kanava
 * n4 = i:e nouns: veri
 
-### Consonant stems
+Consonant stems
 
 * n_uus = vajavuus
 * nc = cvc
@@ -4978,123 +4384,71 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * nas = tehas - tehtaan
 * 3mies = mies
 
-### Unassigned
-* nx = unassigned
 
+## The lexica themselves
 
+The lemma list 
+ * **LEXICON NounRoot**
 
-**LEXICON nx** 
+ * kvääni n1 ; 
+ * hinta n1 ; 
+ * häpy n1 ; 
 
-**LEXICON nc**
+ * rypriikki:rypriikki n3 ; 
+ * asfaltti:asfaltti n3 ; 
+ * hammashoitoavustus:hammashoitoavustu 4n_ks ; 
+ * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
 
-**LEXICON n1**
 
-**LEXICON n1_pl**
 
-**LEXICON x1**
 
-**LEXICON x1_sg**
 
-**LEXICON x1_sg_oblique**
 
-**LEXICON x1_pl**
 
+n4 nouns
 
+Consonant stems
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/nouns.lexc)</small># Meänkieli subjunctions
 
+This file documents [the file for Meänkieli subjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc).
 
+ * **LEXICON cs** is the lexicon giving the **+CS** tag to subjunctions.
+ * +CS: # ; 
 
+ * **LEXICON Subjunction** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
+ * ette cs ; 
+ * vaikka cs ; 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/subjunctions.lexc)</small># Meänkieli interjections
 
+This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
 
+## Adding tag
 
+ * **LEXICON ijx** 
+ +Interj: K ;
 
+ * **LEXICON Interjection** is the list of 90 or so interjections
+ * äh ijx ; 
+ * täh ijx ; 
+ * pii ijx ; 
+aivan ijx ; aivan ijx ;     * ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/interjections.lexc)</small>
 
+# Meänkieli aacronyms 
 
+The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc) is a dummy file, with this comtent only:
 
 
 
-
-
-
-
-
-
-
-
-
-The nainen (nen) and hevonen (3nen) family
-
-**LEXICON nen**
-
-**LEXICON xnen**
-
-**LEXICON xnen_sg**
- +Sg:se%> 2cases ; for  Ade, All, Ess lla, lle, nna
-
-**LEXICON xnen_pl**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Sublexica for cases
-
-
-### Sublexica for possessive suffixes
-
-Px is now not in use, with one exception, comitative.
-
- LEXICON n_PxK has either -n or goes to Px
-
- LEXICON i_PxK Tra: -i or -e and goes to Px
-
- LEXICON PxK has only -nsA, and is currently not in use. Check
-
- LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
-
+ * LEXICON Acronym-fit 
+ * XXX Acronym-fit-suf ;  to be replaced with fit content
 
 
 
@@ -5102,7 +4456,653 @@ Px is now not in use, with one exception, comitative.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/fit-acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-acronyms.lexc)</small># File containing meänkieli abbreviations 
+
+
+This file documents [the file for Meänkieli abbreviations](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc).
+
+The file contains 5-6 abbreviations, and is thus just a placeholder.
+Most fit abbreviations thus come from the common abbreviation file. 
+Here we should add meänkieli-specific ones.
+
+
+## Lexica for adding tags and periods
+
+
+ 1. ITRAB ; 
+ 1. TRNUMAB ; 
+ 1. TRAB ; 
+
+
+## The abbreviation lexicon itself
+
+
+###           Intransitive abbreviations           
+
+ * LEXICON ITRAB 
+
+ * e.Kr+Adv:e.Kr ab-dot-adv-itrab ; 
+
+
+
+###     Abreviations who are transitive in front of numerals    
+
+ * LEXICON TRNUMAB 
+
+ * nro+N:nro ab-noun-trnumab ; 
+
+
+###             Transitive abbreviations           
+
+ * LEXICON TRAB 
+
+ * esim+A:esim ab-dot-adj-trab ; 
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/fit-abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-abbreviations.lexc)</small># Documenting the file for meänkieli verbs
+
+This file documents [the file for Meänkieli verb stems](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc).
+
+First, it gives an nverview of the continuation lexica, and thereafter it sketches their actual content.
+
+## Overview over the continuation lexica
+
+### Continuation lexica for regular verbs
+* **v1** = antaa; sanoa:sano
+* **v2** = huomata
+* **v3** = syö'ä:syö ! ', ’
+* **v4** = nousta; tulla:tul
+* **v4_3la** = varjela, varjelee
+* **v4_4lla** = ajatella, ajattellee
+* **v2** = tryykätä:tryykkä
+* **v5** = tarvita:tarv
+* **v6** = paeta:pake
+* **v_vanheta** = vanheta
+* **vx** = unassigned
+
+### Continuation lexica for irregular verbs
+* **v_tehha**
+* **v_nahha**
+* **OLLA**
+* **NEG**
+* **JUA**
+* **SYA**
+
+
+## The verb lexica themselves
+
+The rest of the file contains some 5500 verbs.
+
+ * **LEXICON VerbRoot** = The verb list 
+
+
+Irregular verbs
+ * **olla: OLLA ;** 
+ * **ei: NEG ;** 
+
+
+v1 sanoa, lukea
+ * **sanoa:sano v1 ;** 
+ * **hukkua:hukku v1 ;** 
+
+
+v2 tryykätä
+ * **hypätä:hyppä v2 ;** 
+ * **tryykätä:tryykkä v2 ;** 
+
+
+v3 syödä, juoda
+ * **syä:sy SYA ;** 
+ * **jua:ju JUA ;** 
+
+
+
+
+ * **tehä:te v3tehda ;** 
+ * **käyä:kä v3kayda ;**  
+ * **nähä:nä v3nahda ;** 
+
+v4 tulla, mennä
+ * **tulla:tul v4 ;** 
+ * **mennä:men v4 ;** 
+
+v5 tarvita
+ * **tarvita:tarvi v5 ;** 
+
+v6 paeta
+ * **paeta:pake v6 ;** 
+
+
+Then comes the long list
+ * **trukittaaa:trukittaa v1 ;** 
+ * **lehathaa:lehatha v1 ;** 
+* ...
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/verbs.lexc)</small># Meänkieli adjectives
+
+This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
+
+
+## The continuation lexicon types
+
+* a1 = kaksitavuiset
+* a3 = kolmitavuiset
+* a4 = kaksitavuiset, vartalo -e
+* aas = tarmokas
+* anen = nen-adjektiivit
+
+
+## The lemma list itself
+
+ LEXICON AdjectiveRoot
+
+a1
+ * tuttu a1 ;
+ * selvä a1 ;
+ * kuiva a1 ;
+...
+
+a3 
+ * komea a3 ;
+ * muikea a3 ;
+ * privaatti a3 ; xxx a1?
+
+a4
+ * pieni:piene a4 ;
+ * vanhaa:vanhaa ax ;
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adjectives.lexc)</small># Meänkieli propernouns
+
+This file documents [the file for Meänkieli propernouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc).
+
+Contrary to other GiellaLT languages, the Meänkieli FST is not set up to use the language-independent name base found in the infrastructure.
+
+32000 names
+
+ * LEXICON ProperNoun 
+
+ * Niila:Niila p_mal_1 ; 
+ * Kiiruna:Kiiruna 3p_plc ; 
+* ...
+ERVASTI?
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/fit-propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-propernouns.lexc)</small># Meänkieli prepositions
+
+This file documents [`stems/prepositions.lexc`, the file for Meänkieli prepositions](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/prepositions.lexc)  
+
+## The tags
+
+ * +Pr: K ;  prx
+
+ * +Pr: K ; 
+
+## The prepositons
+
+ * yli:yli pr ; 
+ * ennen pr ; 
+ * ympäri pr ; 
+ * jahka prx ; 
+ * joka prx ; 
+..
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/prepositions.lexc)</small># Meänkieli conjunctions
+
+This file documents [the file for Meänkieli conjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc).
+
+It contains two parts, one for adding tags, and one for listing conjunctions.
+
+## Adding tags
+
+ * LEXICON conjx 
+ * +CC: # ; 
+
+ * LEXICON cc why two... 
+ * +CC: # ; 
+
+ * LEXICON cc_agr 
+ * +CC: # ; 
+ * +Sg1:n # ; 
+ * +Sg2:t # ; 
+ * +Sg3:i # ; 
+ * +Pl1:mä # ; 
+ * +Pl2:tä # ; 
+ * +Pl3:ivä # ; 
+
+
+## The conjunctions themselves
+
+ * LEXICON Conjunction 
+ * ja cc ; 
+ * ynnä cc ; 
+ * sekä cc ; 
+ * ette cc_agr ; 
+... and some 20 more
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/conjunctions.lexc)</small># Meänkieli numerals
+
+This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
+
+
+These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
+
+
+Numerals have been split in three sections, the compounding parts
+of cardinals and ordinals, and the non-compounding ones:
+
+*Numeral examples:*
+* *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
+* *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
+* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
+* *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
+
+
+
+
+The compounding parts of cardinals are the number multiplier words.
+
+*cardinal examples:*
+* *yksi:* `yksi+Num+Sg+Nom` (Eng. !one)
+* *yks:* `yksi+Num+Sg+Nom`
+* *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
+* *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
+
+The suffixes only appear after cardinal multipliers
+
+*Cardinal multiplicants examples:*
+* *viisikymmentä:* `viisi+Num+Sg+Nom#kymmentä`
+* *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
+* *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
+
+
+The compounding parts of ordinals are the number multiplier words.
+
+*Ordinal numerals examples:*
+* *neljes:* `neljes+A+Ord+Sg+Nom`
+* *viiđenelle:* `viiđes+A+Ord+Sg+All`
+* *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
+
+
+The suffixes only appear after cardinal multipliers
+
+*Ordinal multiplicants examples:*
+* *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
+* *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
+
+
+There is a set of numbers or corresponding expressions that work like them,
+but are not basic cardinals or ordinals:
+
+*Numeral others examples:*
+* *viitisenkymmentä:* `viitisen+Num#kymmentä`
+
+## Numeral stem variation
+Numerals follow the same stem variation patterns as nouns, some of these
+being very rare to extinct for nouns. 
+
+
+*Numerals 31 examples:*
+* *yksi:* `yksi+Num+Sg+Nom`
+* *yks:* `yksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
+* *yhtheen:* `yksi+Num+Sg+Ill`
+* *yhtenä:* `yksi+Num+Sg+Ess`
+* *yhđessä:* `yksi+Num+Sg+Ine`
+* *yhđelä:* `yksi+Num+Sg+Ade`
+* *yhtä:* `yksi+Num+Sg+Par`
+* *yksii:* `yksi+Num+Pl+Par`
+* *yksiin:* `yksi+Num+Pl+Gen`
+* *ykshiin:* `yksi+Num+Pl+Ill`
+* *yksinä:* `yksi+Num+Pl+Ess`
+* *yksissä:* `yksi+Num+Pl+Ine`
+
+
+*Numerals 31 back§ examples:*
+* *kaksi:* `kaksi+Num+Sg+Nom`
+* *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
+* *kahtheen:* `kaksi+Num+Sg+Ill`
+* *kahtena:* `kaksi+Num+Sg+Ess`
+* *kahđessa:* `kaksi+Num+Sg+Ine`
+* *kahđela:* `kaksi+Num+Sg+Ade`
+* *kahta:* `kaksi+Num+Sg+Par`
+* *kaksii:* `kaksi+Num+Pl+Par`
+* *kaksiin:* `kaksi+Num+Pl+Gen`
+* *kakshiin:* `kaksi+Num+Pl+Ill`
+* *kaksina:* `kaksi+Num+Pl+Ess`
+* *kaksissa:* `kaksi+Num+Pl+Ine`
+
+
+*Numerals 8~5 examples:*
+* *kolme:* `kolme+Num+Sg+Nom`
+* *kolmheen:* `kolme+Num+Sg+Ill`
+* *kolmena:* `kolme+Num+Sg+Ess`
+* *kolmessa:* `kolme+Num+Sg+Ine`
+* *kolmela:* `kolme+Num+Sg+Ade`
+* *kolmee:* `kolme+Num+Sg+Par`
+* *kolmii:* `kolme+Num+Pl+Par`
+* *kolmiin:* `kolme+Num+Pl+Gen`
+* *kolmhiin:* `kolme+Num+Pl+Ill`
+* *kolmina:* `kolme+Num+Pl+Ess`
+* *kolmissa:* `kolme+Num+Pl+Ine`
+
+
+*Numerals 10 examples:*
+* *nelje:* `nelje+Num+Sg+Nom`
+* *neljee:* `nelje+Num+Sg+Par`
+* *neljheen:* `nelje+Num+Sg+Ill`
+* *neljenä:* `nelje+Num+Sg+Ess`
+* *neljessä:* `nelje+Num+Sg+Ine`
+* *neljelä:* `nelje+Num+Sg+Ade`
+* *neljii:* `nelje+Num+Pl+Par`
+* *neljiin:* `nelje+Num+Pl+Gen`
+* *neljein:* `nelje+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *neljhiin:* `nelje+Num+Pl+Ill`
+* *neljinä:* `nelje+Num+Pl+Ess`
+* *neljissä:* `nelje+Num+Pl+Ine`
+
+
+*Numerals 27 front examples:*
+* *viisi:* `viisi+Num+Sg+Nom`
+* *viis:* `viisi+Num+Sg+Nom`
+* *viitheen:* `viisi+Num+Sg+Ill`
+* *viittä:* `viisi+Num+Sg+Par`
+* *viiđessä:* `viisi+Num+Sg+Ine`
+* *viiđelä:* `viisi+Num+Sg+Ade`
+* *viitenä:* `viisi+Num+Sg+Ess`
+* *viisissä:* `viisi+Num+Pl+Ine`
+* *viissii:* `viisi+Num+Pl+Par`
+* *viissiin:* `viisi+Num+Pl+Gen`
+* *viitten:* `viisi+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *viishiin:* `viisi+Num+Pl+Ill`
+* *viisinä:* `viisi+Num+Pl+Ess`
+
+
+*Numerals 27 back examples:*
+* *kuusi:* `kuusi+Num+Sg+Nom`
+* *kuus:* `kuusi+Num+Sg+Nom`
+* *kuutta:* `kuusi+Num+Sg+Par`
+* *kuutena:* `kuusi+Num+Sg+Ess`
+* *kuuđessa:* `kuusi+Num+Sg+Ine`
+* *kuuđela:* `kuusi+Num+Sg+Ade`
+* *kuusina:* `kuusi+Num+Pl+Ess`
+* *kuusissa:* `kuusi+Num+Pl+Ine`
+* *kuussii:* `kuusi+Num+Pl+Par`
+* *kuussiin:* `kuusi+Num+Pl+Gen`
+* *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *kuushiin:* `kuusi+Num+Pl+Ill`
+
+
+
+*Numerals 10n examples:*
+* *kahđeksen:* `kahđeksen+Num+Sg+Nom`
+* *kahđeksee:* `kahđeksen+Num+Sg+Par`
+* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
+* *kahđeksessa:* `kahđeksen+Num+Sg+Ine`
+* *kahđeksella:* `kahđeksen+Num+Sg+Ade`
+* *kahđeksenna:* `kahđeksen+Num+Sg+Ess`
+* *kahđeksii:* `kahđeksen+Num+Pl+Par`
+* *kahđeksiita:* `kahđeksen+Num+Pl+Par`
+* *kahđeksiitten:* `kahđeksen+Num+Pl+Gen`
+* *kahđekshiin:* `kahđeksen+Num+Pl+Ill`
+* *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
+* *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
+
+
+*Numerals 10n front examples:*
+* *yhđeksen:* `yhđeksen+Num+Sg+Nom`
+* *yhđeksee:* `yhđeksen+Num+Sg+Par`
+* *yhđeksheen:* `yhđeksen+Num+Sg+Ill`
+* *yhđeksessä:* `yhđeksen+Num+Sg+Ine`
+* *yhđeksellä:* `yhđeksen+Num+Sg+Ade`
+* *yhđeksennä:* `yhđeksen+Num+Sg+Ess`
+* *yhđeksii:* `yhđeksen+Num+Pl+Par`
+* *yhđeksiitä:* `yhđeksen+Num+Pl+Par`
+* *yhđeksiitten:* `yhđeksen+Num+Pl+Gen`
+* *yhđekshiin:* `yhđeksen+Num+Pl+Ill`
+* *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
+* *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
+
+
+*Numerals 32 examples:*
+* *kymmenen:* `kymmenen+Num+Sg+Nom`
+* *kymmenheen:* `kymmenen+Num+Sg+Ill`
+* *kymmenennä:* `kymmenen+Num+Sg+Ess`
+* *kymmenessä:* `kymmenen+Num+Sg+Ine`
+* *kymmenellä:* `kymmenen+Num+Sg+Ade`
+* *kymmentä:* `kymmenen+Num+Sg+Par`
+* *kymmenten:* `kymmenen+Num+Pl+Gen`
+* *kymmeniitten:* `kymmenen+Num+Pl+Gen`
+* *kymmenhiin:* `kymmenen+Num+Pl+Ill`
+* *kymmenissä:* `kymmenen+Num+Pl+Ine`
+* *kymmeninnä:* `kymmenen+Num+Pl+Ess`
+
+
+
+*Numerals 9 examples:*
+* *sata:* `sata+Num+Sg+Nom`
+* *satana:* `sata+Num+Sg+Ess`
+* *sađassa:* `sata+Num+Sg+Ine`
+* *sathaan:* `sata+Num+Sg+Ill`
+* *sattaa:* `sata+Num+Sg+Par`
+* *sattoin:* `sata+Num+Pl+Gen`
+* *sathoin:* `sata+Num+Pl+Ill`
+* *sađoissa:* `sata+Num+Pl+Ine`
+* *satoina:* `sata+Num+Pl+Ess`
+
+
+
+*Numerals 46 examples:*
+* *tuhat:* `tuhat+Num+Sg+Nom`
+* *tuhantheen:* `tuhat+Num+Sg+Ill`
+* *tuhantenna:* `tuhat+Num+Sg+Ess`
+* *tuhanessa:* `tuhat+Num+Sg+Ine`
+* *tuhatta:* `tuhat+Num+Sg+Par`
+* *tuhanssii:* `tuhat+Num+Pl+Par`
+* *tuhanssiitten:* `tuhat+Num+Pl+Gen`
+* *tuhantten:* `tuhat+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *tuhanshiin:* `tuhat+Num+Pl+Ill`
+* *tuhansinna:* `tuhat+Num+Pl+Ess`
+* *tuhansissa:* `tuhat+Num+Pl+Ine`
+
+
+
+*Numerals 10 miljoona examples:*
+* *miljoona:* `miljoona+Num+Sg+Nom`
+* *miljoonanna:* `miljoona+Num+Sg+Ess`
+* *miljoonassa:* `miljoona+Num+Sg+Ine`
+* *miljoonaa:* `miljoona+Num+Sg+Par`
+* *miljoonhaan:* `miljoona+Num+Sg+Ill`
+* *miljoonii:* `miljoona+Num+Pl+Par`
+* *miljooniitten:* `miljoona+Num+Pl+Gen`
+* *miljoonhiin:* `miljoona+Num+Pl+Ill`
+* *miljoonissa:* `miljoona+Num+Pl+Ine`
+* *miljooninna:* `miljoona+Num+Pl+Ess`
+
+
+
+
+*Numerals 5 examples:*
+* *miljardi:* `miljardi+Num+Sg+Nom`
+* *miljardhiin:* `miljardi+Num+Sg+Ill`
+* *miljardii:* `miljardi+Num+Sg+Par`
+* *miljardissa:* `miljardi+Num+Sg+Ine`
+* *miljardinna:* `miljardi+Num+Sg+Ess`
+* *miljardhiin:* `miljardi+Num+Pl+Ill`
+* *miljardii:* `miljardi+Num+Pl+Par`
+* *miljardiissa:* `miljardi+Num+Pl+Ine`
+* *miljardiitten:* `miljardi+Num+Pl+Gen`
+* *miljardiina:* `miljardi+Num+Pl+Ess`
+
+
+
+
+*Numerals 5 more examples:*
+* *Googol:* `Googol+Num+Sg+Nom`
+
+
+
+*Numerals 5 moremore examples:*
+* *pari:* `pari+Num+Sg+Nom`
+* *parhiin:* `pari+Num+Sg+Ill`
+* *parrii:* `pari+Num+Sg+Par`
+* *parina:* `pari+Num+Sg+Ess`
+* *parissa:* `pari+Num+Sg+Ine`
+* *pariissa:* `pari+Num+Pl+Ine`
+* *pariina:* `pari+Num+Pl+Ess`
+* *parrii:* `pari+Num+Pl+Par`
+* *parriin:* `pari+Num+Pl+Gen`
+* *parhiin:* `pari+Num+Pl+Ill`
+
+
+
+*Numerals 38 examples:*
+* *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
+* *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
+* *ensimäisessä:* `ensimäinen+A+Ord+Sg+Ine`
+* *ensimäistä:* `ensimäinen+A+Ord+Sg+Par`
+* *ensimäisten:* `ensimäinen+A+Ord+Pl+Gen`
+* *ensimäissiitten:* `ensimäinen+A+Ord+Pl+Gen`
+* *ensimäissii:* `ensimäinen+A+Ord+Pl+Par`
+* *ensimäishiin:* `ensimäinen+A+Ord+Pl+Ill`
+* *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
+* *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
+
+
+*Numerals 38 back examples:*
+* *toinen:* `toinen+A+Ord+Sg+Nom`
+* *toisheen:* `toinen+A+Ord+Sg+Ill`
+* *toista:* `toinen+A+Ord+Sg+Par`
+* *toisessa:* `toinen+A+Ord+Sg+Ine`
+* *toisela:* `toinen+A+Ord+Sg+Ade`
+* *toisena:* `toinen+A+Ord+Sg+Ess`
+* *toisten:* `toinen+A+Ord+Pl+Gen`
+* *toissiin:* `toinen+A+Ord+Pl+Gen`
+* *toissii:* `toinen+A+Ord+Pl+Par`
+* *toishiin:* `toinen+A+Ord+Pl+Ill`
+* *toisissa:* `toinen+A+Ord+Pl+Ine`
+* *toisina:* `toinen+A+Ord+Pl+Ess`
+
+
+*Numerals 45 examples:*
+* *kolmas:* `kolmas+A+Ord+Sg+Nom`
+* *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
+* *kolmanessa:* `kolmas+A+Ord+Sg+Ine`
+* *kolmanella:* `kolmas+A+Ord+Sg+Ade`
+* *kolmantheen:* `kolmas+A+Ord+Sg+Ill`
+* *kolmatta:* `kolmas+A+Ord+Sg+Par`
+* *kolmanssii:* `kolmas+A+Ord+Pl+Par`
+* *kolmanssiitten:* `kolmas+A+Ord+Pl+Gen`
+* *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
+* *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
+
+
+*Numerals 45 fron examples:*
+* *neljes:* `neljes+A+Ord+Sg+Nom`
+* *neljentheen:* `neljes+A+Ord+Sg+Ill`
+* *neljentennä:* `neljes+A+Ord+Sg+Ess`
+* *neljenessä:* `neljes+A+Ord+Sg+Ine`
+* *neljenellä:* `neljes+A+Ord+Sg+Ade`
+* *neljettä:* `neljes+A+Ord+Sg+Par`
+* *neljenssii:* `neljes+A+Ord+Pl+Par`
+* *neljenssiitten:* `neljes+A+Ord+Pl+Gen`
+* *neljenshiin:* `neljes+A+Ord+Pl+Ill`
+* *neljensissä:* `neljes+A+Ord+Pl+Ine`
+* *neljensinnä:* `neljes+A+Ord+Pl+Ess`
+
+
+
+
+ * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/numerals.lexc)</small># Meänkieli postpositions
+
+This file documents [the file for Meänkieli postpositions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc).
+
+## Adding tags
+
+ * LEXICON pox 
+ * +Po: K ; 
+
+ * LEXICON po 
+ * +Po: K ; 
+
+## The list of 40 or so postpositions.
+
+ * LEXICON Postposition 
+ * jälkheen po ; 
+ * ympäri po ; 
+...
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/postpositions.lexc)</small># Meänkieli pronouns
+
+This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
+
+
+ * LEXICON Pronoun 
+
+## Persoonapronominit
+
+ * mie+Pron+Pers+Sg:m 12pronsg ; 
+* ...
+
+
+## Demonstratiivipronominit
+
+ * se+Pron+Dem+Sg: se_pron ; 
+
+ * tämä+Pron+Dem:tä tama ; 
+ * tuo+Pron+Dem:tuo tuo ; 
+ * nämä+Pron+Dem+Pl+Nom:nämä K ; 
+ * nämä+Pron+Dem+Pl:näi namaobl ; 
+
+ * mikä+Pron+Rel+Sg:mi relkys ; 
+ * joka+Pron+Rel+Sg:jo relkys ; 
+ * mikä+Pron+Interr+Sg:mi relkys ; 
+ * joka+Pron+Interr+Sg:jo relkys ; 
+
+ * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
+... etc.
+
+
+
+
+
+
+
+
+
+
+
+## Sanakirjasta
+
+ * usea+Pron:usea pron_x3 ; 
+ * harva+Pron:pron pron_x1 ; 
+
+ * kullaki pronx ; 
+ * kumpiki pronx ; 
+ * kuki pronx ; 
+ * moni pronx ; 
+ * ken pronx ; 
+ * meikäläinen+Pron+Indef:meikäläi toisen ; 
+ * sellainen+Pron+Indef:sellai toisen ; 
+ * mikhään pronx ; 
+ * kumpiko pronx ; 
+ * molemat pronx ; 
+ * nuot pronx ; 
+ * muu:mu MUU ; 
+ * mä pronx ; 
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 
