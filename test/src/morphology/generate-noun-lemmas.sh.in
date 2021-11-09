@@ -29,6 +29,8 @@ analyser_file=./../../../src/analyser-gt-norm
 ### out ###
 # Temporary files:
 lemmas=./filtered-${POS}.txt
+lemmas_plural=./filtered-plural-${POS}.txt
+all_nouns=./filtered-all-${POS}.txt
 # Result files, will get filename suffix programmatically further down:
 generated_lemmas=./generated-${POS}
 result_file=missing_${POS}_lemmas
@@ -62,8 +64,16 @@ EXTEDITOR=@SEE@
 ##### Extract lemmas - add additional egrep pattern as parameters: #####
 ##### --include "(pattern1|pattern2|...)"                          #####
 ##### --exclude "(pattern1|pattern2|...)"                          #####
+
+# 1. singular lemmas
 @GTCORE@/scripts/extract-lemmas.sh \
+    --exclude "(n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
     $source_file > $lemmas
+
+# 2. plural lemmas
+@GTCORE@/scripts/extract-lemmas.sh \
+    --include "(n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
+    $source_file > $lemmas_plural
 
 ###### Start testing: #######
 transducer_found=0
@@ -93,23 +103,35 @@ for f in $fsttype; do
         let "transducer_found += 1"
 
 ###### Test non-compounds: #######
-        # generate nouns in Singular, extract the resulting generated lemma,
+        # 1. generate nouns in singular, extract the resulting generated lemma,
         # store it:
         sed 's/$/+N+Sg+Nom/' $lemmas | $lookup_tool $generator_file.$suffix \
             | fgrep -v "+?" | grep -v "^$" | cut -f2 | sort -u \
             > $generated_lemmas.$f.txt 
-        # Generate nouns, extract those that do not generate in singular,
-        # generate the rest in plural:
-        sed 's/$/+N+Sg+Nom/' $lemmas | $lookup_tool $generator_file.$suffix \
-            | fgrep "+?" | cut -d "+" -f1 | sed 's/$/+N+Pl+Nom/' \
-            | $lookup_tool $generator_file.$suffix | cut -f2 \
-            | grep -v "^$" >> $generated_lemmas.$f.txt 
+
+        # 2. generate nouns in plural, extract the resulting generated lemma,
+        # store it:
+        sed 's/$/+N+Pl+Nom/' $lemmas_plural | $lookup_tool $generator_file.$suffix \
+            | fgrep -v "+?" | grep -v "^$" | cut -f2 | sort -u \
+            >> $generated_lemmas.$f.txt 
+
+        # Old version:
+        # # Generate nouns, extract those that do not generate in singular,
+        # # generate the rest in plural:
+        # sed 's/$/+N+Sg+Nom/' $lemmas | $lookup_tool $generator_file.$suffix \
+        #     | fgrep "+?" | cut -d "+" -f1 | sed 's/$/+N+Pl+Nom/' \
+        #     | $lookup_tool $generator_file.$suffix | cut -f2 \
+        #     | grep -v "^$" >> $generated_lemmas.$f.txt 
 
 ###### Collect results, and generate debug info if FAIL: #######
+        # Collect lemmas
+        cat $lemmas $lemmas_plural > $all_nouns
+        
         # Sort and compare original input with resulting output - the diff is
         # used to generate lemmas which are opened in SEE:
-        sort -u -o $generated_lemmas.$f.txt $generated_lemmas.$f.txt 
-        comm -23 $lemmas $generated_lemmas.$f.txt > $result_file.$f.txt
+        LC_ALL=no_NO.UTF-8 sort -u -o $all_nouns $all_nouns
+        LC_ALL=no_NO.UTF-8 sort -u -o $generated_lemmas.$f.txt $generated_lemmas.$f.txt 
+        LC_ALL=no_NO.UTF-8 comm -23 $all_nouns $generated_lemmas.$f.txt > $result_file.$f.txt
 
         # Open the diff file in SubEthaEdit (if there is a diff):
         if [ -s $result_file.$f.txt ]; then
