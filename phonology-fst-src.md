@@ -116,7 +116,7 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylke^WG>n*
 * *sylje0>n*
 * *kehke^WG>t^A*
-* *kehje0>ta*
+* *kehje0>tä*
 
 
 **RULE: k:v**
@@ -427,6 +427,10 @@ and also deleted in the stem (cf. *talo : talhoon*)
 
 * *hinta^HMETA>h^V^Vn*
 * *hint00>haan*
+
+* *maa>h^Vn*
+* *maa>han*
+
 
 **RULE: o copying for h metathesis**
 

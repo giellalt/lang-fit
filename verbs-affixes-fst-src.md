@@ -52,8 +52,8 @@ Regular verbs
 
 
 
- * **LEXICON v2** huomata, ymmärtää
 
+ * **LEXICON v2** huomata, ymmärtää
 
 
 
@@ -83,9 +83,8 @@ Regular verbs
 
 
 
+
  LEXICON v3kayda käyđä:kä from fkv
-
-
 
 
 
@@ -131,7 +130,9 @@ Regular verbs
 
 
 
+
  * **LEXICON v4_3la** varjela:varjel
+
 
 
 
@@ -162,6 +163,7 @@ Regular verbs
 
 
 
+
  * **LEXICON v5**  kehitä:kehi  
 
 
@@ -175,8 +177,8 @@ Regular verbs
 
 
 
-
  * **LEXICON v6** =  paeta:pake
+
 
 
 
