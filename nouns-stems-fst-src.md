@@ -10,6 +10,7 @@ This is an overview of the continuation lexicon types.
 
 Vowel stems
 
+* n0 = 1syll noun: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabTic: kanava

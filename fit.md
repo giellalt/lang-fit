@@ -3435,6 +3435,7 @@ This is an overview of the continuation lexicon types.
 
 Vowel stems
 
+* n0 = 1syll noun: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabTic: kanava
@@ -4285,6 +4286,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ## This is an overview of the continuation lexicon types. 
 
 ### Vowel stems
+* n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabic: kanava
@@ -4313,9 +4315,24 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON nc**
 
+**LEXICON n0**
+
+**LEXICON n0_pl**
+
 **LEXICON n1**
 
 **LEXICON n1_pl**
+
+**LEXICON x0**
+
+**LEXICON x0_sg**
+
+**LEXICON x0_sg_oblique**
+
+**LEXICON x0_pl**
+
+
+
 
 **LEXICON x1**
 
