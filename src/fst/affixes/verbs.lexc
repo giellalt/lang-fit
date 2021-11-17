@@ -44,6 +44,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Pl1:olema K ;
 +V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;
++V+Act+Ind+Prs+Pl3+Use/NG:ovva K ; ! xxx check
 
 +V+Act+Ind+Prt+Sg1:olin K ;
 +V+Act+Ind+Prt+Sg2:olit K ;

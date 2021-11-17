@@ -6,6 +6,7 @@
 !! ## This is an overview of the continuation lexicon types. 
 
 !! ### Vowel stems
+!! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n3 = odd-syllabic: kanava
@@ -40,6 +41,16 @@ LEXICON nc ! romani chib
  +N:i  x1_sg_oblique ;
  +N:i x1_pl ;
 
+LEXICON n0
+!! **LEXICON @LEXNAME@**
+ +N: x0 ;
+ +N+Nom: R ;
+ +N+Sg+Gen:%>n R ;
+
+LEXICON n0_pl ! häät
+!! **LEXICON @LEXNAME@**
+ +N: x1_pl ;
+
 LEXICON n1
 !! **LEXICON @LEXNAME@**
  +N: x1 ;
@@ -49,6 +60,48 @@ LEXICON n1
 LEXICON n1_pl ! urut
 !! **LEXICON @LEXNAME@**
  +N: x1_pl ;
+
+LEXICON x0
+!! **LEXICON @LEXNAME@**
+x0_sg ;
+x0_pl ;
+
+LEXICON x0_sg 
+!! **LEXICON @LEXNAME@**
+ +Sg+Nom:       PxK ;
+ x0_sg_oblique ;
+
+LEXICON x0_sg_oblique
+!! **LEXICON @LEXNAME@**
+ +Sg+Gen:%>n PxK ;
+ +Sg+Par:%>t^A PxK ;
+ +Sg+Ill:%>h^V n_PxK ; ! maahan
+ +Sg+Ine:%>ss^A PxK ;      ! maassa
+ +Sg+Ela:%>st^A PxK ;      ! maasta
+ +Sg+All:%>le PxxK ;        ! maale
+ +Sg+Ade:%>l^A PxK ;       ! maala
+ +Sg+Abl:%>lt^A PxK ;      ! maalta
+ +Sg+Tra: TRA ;          ! maaksi
+ +Sg+Ess:%>n^A PxK ;          ! maana
+ +Sg+Abe:%>tt^A PxK ;      ! maatta
+
+LEXICON x0_pl 
+!! **LEXICON @LEXNAME@**
+ +Pl+Nom:%>t PxK ;
+ +Pl+Gen:%>i2tten PxK ;
+ +Pl+Par:%>i2t^A PxK ;
+ +Pl+Ill:%>i2hii n_PxK ;  ! talhoin
+ +Pl+Ine:%>i2ss^A PxK ;
+ +Pl+Ela:%>i2st^A PxK ;
+ +Pl+All:%>i2le PxxK ;
+ +Pl+Ade:%>i2l^A PxK ;
+ +Pl+Abl:%>i2lt^A PxK ;
+ +Pl+Tra:%>i2 TRA ;
+ +Pl+Ess:%>i2n^A PxK ;
+ +Pl+Abe:%>i2tt^A PxK ;
+
+
+
 
 LEXICON x1
 !! **LEXICON @LEXNAME@**

@@ -2374,6 +2374,7 @@ neuvoa:neuvo v1 ;
 !kilpa:kilpa vx ; ! ajaa kilpaa
 trookisa:trookisa vx ;
 testata:testa v2 ;
+logata:loga v2 ;
 vanhaata:vanhaa v2 ;
 jaata:jaka v2 ;
 maata:maka v2 ;
