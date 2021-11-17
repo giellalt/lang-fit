@@ -114,14 +114,14 @@ k:g <=> Vow n _ Vow WeakGrade ;
 
 "k:0"
 !! **RULE: @RULENAME@**
-k:0 <=> [Vow|l|n|r] k _ Vow: WeakGrade      ;   ! Quant Grad
-                 o i: _ Vow: WeakGrade      ;   ! pojan
-         VowelNotUY   _ Vow: WeakGrade      ;   ! maun 
-	        [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
-                Vow k _ e:   h     %> e ;       ! kkh > kh
-            Vow [l|r] _ VowelNotEI WeakGrade ;
-	          Vow h k _ Vow WeakGrade ;
-	      [Vow - e] h _ [Vow - e:] WeakGrade ;
+k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
+                 o i: _ Vow:        WeakGrade ; ! pojan
+         VowelNotUY   _ Vow:        WeakGrade ; ! maun 
+	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
+                Vow k _ e:   h     %> e       ; ! kkh > kh
+            Vow [l|r] _ VowelNotEI  WeakGrade ;
+              Vow h k _ Vow         WeakGrade ;
+          [Vow - e] h _ Vow         WeakGrade ;
 
 !! **Tests:**
 
@@ -142,7 +142,7 @@ k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
 !!€ sylke^WG>n
 !!€ sylje0>n
 !!€ kehke^WG>t^A
-!!€ kehje0>ta
+!!€ kehje0>tä
 
 
 "k:v"
@@ -724,20 +724,24 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=> a: %^HMETA: %> h:    _ :a ;
-          a: %^HMETA: %> h: :a _    ;
-          a           %>       _ [n|t|%>|.#.] ;
+%^V:a <=> a: %^HMETA: %> h:     _ :a ;
+          a: %^HMETA: %> h:  :a _    ;
+          a           %> (h)    _ [n|t|%>|.#.] ;
 
 !! **Tests:**
 
 !!€ hinta^HMETA>h^V^Vn
 !!€ hint00>haan
 
+!!€ maa>h^Vn
+!!€ maa>han
+
+
 "o copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:o <=> o: %^HMETA: %> h:    _ [:i|:o] ;
           o: %^HMETA: %> h: :o _  ;
-          o           %>       _ [n|t|%>|.#.] ;
+          o           %> (h)   _ [n|t|%>|.#.] ;
 
 !! **Tests:**
 
@@ -748,7 +752,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:i <=> i: %^HMETA: %> h:    _ :i ;
           i: %^HMETA: %> h: :i _    ;
-         :i           %>       _ [n|t|%>|.#.] ;
+         :i           %> (h)   _ [n|t|%>|.#.] ;
 
 !! **Tests:**
 
@@ -760,7 +764,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:ä <=> ä: %^HMETA: %> h:    _ :ä ;
           ä: %^HMETA: %> h: :ä _    ;
-          ä           %>       _ [n|t|%>|.#.] ;
+          ä           %> (h)   _ [n|t|%>|.#.] ;
           
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
@@ -772,19 +776,19 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:ö <=> ö: %^HMETA: %> h:    _ :ö ;
           ö: %^HMETA: %> h: :ö _    ;
-          ö           %>       _ [n|t|%>|.#.] ;
+          ö           %> (h)   _ [n|t|%>|.#.] ;
           
 "y copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:y <=> y: %^HMETA: %> h:    _ :y ;
           y: %^HMETA: %> h: :y _    ;
-          y           %>       _ [n|t|%>|.#.] ;
+          y           %> (h)   _ [n|t|%>|.#.] ;
           
 "u copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:u <=> u: %^HMETA: %> h:    _ :u ;
           u: %^HMETA: %> h: :u _    ;
-          u           %>       _ [n|t|%>|.#.] ;
+          u           %> (h)   _ [n|t|%>|.#.] ;
 
 
 

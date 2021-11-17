@@ -90,7 +90,7 @@ LEXICON x0_pl
  +Pl+Nom:%>t PxK ;
  +Pl+Gen:%>i2tten PxK ;
  +Pl+Par:%>i2t^A PxK ;
- +Pl+Ill:%>i2hii n_PxK ;  ! talhoin
+ +Pl+Ill:%>i2hi n_PxK ;  ! maihin
  +Pl+Ine:%>i2ss^A PxK ;
  +Pl+Ela:%>i2st^A PxK ;
  +Pl+All:%>i2le PxxK ;
@@ -363,6 +363,7 @@ LEXICON xnen_common_sg
 LEXICON xnen_common_pl
  +Pl+Nom:se^WG%>t PxK ;
  +Pl+Gen:s%>itten PxK ;
+ +Pl+Gen+Err/Orth:s%>ten PxK ;
  +Pl+Par:s%>i^A PxK ;
  +Pl+Ill:shii   n_PxK ;    !
  +Pl+Ine:s^WG%>i2ss^A PxK ;
