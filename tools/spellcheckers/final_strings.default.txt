@@ -7,5 +7,6 @@ eää:eetä	3
 eaa:eeta	3
 uoi:oi	3
 e:ee	3
-den:tten	3
-ojen:oitten	2
+den:tten	1
+ojen:oitten	1
+ien:itten 1
