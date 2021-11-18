@@ -3455,6 +3455,12 @@ Even-syllable stems are unmarked, odd stems are marked **3**.
 **x** in lexicon names referring to the common `affixes/noun.lexc` file.
 We do not use **_pl** for names
 
+**LEXICON 3p_0**
+
+**LEXICON 3p_mal_0**
+
+**LEXICON 3p_sur_0**
+
 **LEXICON 3p_1**
 
 **LEXICON 3p_21ie**
@@ -3550,7 +3556,11 @@ We do not use **_pl** for names
 
 
 
+
+
 Vowel stems, odd and even stems
+
+
 
 
 
