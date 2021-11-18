@@ -59,11 +59,9 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Pass+Ind+Prs:olhaan K ;
 +V+Pass+Ind+Prt:olthiin K ;  
 +V+Act+PrfPrc+Sg+Nom:ollu K ;
-+V+Act+PrfPrc:ollee ptc_obl ;
++V+Act+PrfPrc:olhee ptc_obl ;
 +V+Act+Ind+Prt+ConNeg+Sg:ollu K ;
 +V+Pass+PrfPrc+Sg+Nom:oltu K ;
-+V+Pass+PrfPrc+Pl+Nom:ollut K ; 
-+V+Act+PrfPrc+Pl+Nom:olle x3_oblique ;
 +V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
 +V+Act+PrsPrc+Der+Der/A+A:olleeva x3 ;
 +V+Pass+PrsPrc+Der+Der/A+A:oltava x3 ;
@@ -114,10 +112,10 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 
 +V+Act+PrsPrc:%>v^A x3 ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc:%>^Nee x3_oblique ;
++V+Act+PrfPrc:%>^Nhee x3_oblique ;
 
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Pass+PrfPrc:%>tee x3_oblique ;
++V+Pass+PrfPrc:%>thee x3_oblique ;
 +V+Pass+PrsPrc:%>tt^Av^A x3 ;
 
 +V+Imprt+Sg2:^WG # ;
@@ -160,7 +158,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>hnee ptc_obl ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
++V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
 +V+Pass+Cond:%>i4si K ;
 
 +V+Imprt+Sg2:^WG # ;
@@ -253,8 +251,8 @@ LEXICON v3_other
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc:%>^Nee x3_oblique ;
-+V+Pass+PrfPrc:%>tee x3_oblique ;
++V+Act+PrfPrc:%>h^Nee x3_oblique ;
++V+Pass+PrfPrc:%>thvee x3_oblique ;
 
 +V+Act+PrsPrc:%>v^A x3 ;
 +V+Pass+PrsPrc:%>tt^Uv^A x3 ;
@@ -439,7 +437,7 @@ LEXICON v4  !!≈ * **@CODE@**
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc:%>^Nee x3_oblique ;
++V+Act+PrfPrc:%>^Nhee x3_oblique ;
 +V+Pass+PrfPrc:%>t^U x3_oblique ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
@@ -488,7 +486,7 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 
 +V+Act+PrfPrc+Sg+Nom:%>^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc:%>ee x3_oblique ;
++V+Act+PrfPrc:%>hee x3_oblique ;
 +V+Pass+PrfPrc:%>t^U x3_oblique ;
 
 +V+Act+PrsPrc+Sg+Nom:e%>v^A x3 ;
@@ -594,7 +592,7 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
-+V+Act+PrfPrc:%>^Nee x3_oblique ;
++V+Act+PrfPrc:%>^Nhee x3_oblique ;
 +V+Pass+PrfPrc:t%>tee x3_oblique ;
 
 +V+Act+PrsPrc:%>tev^A x3 ;
@@ -646,9 +644,7 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
-+V+Act+PrfPrc:^WG%>^Nee x3_oblique ;
-!+V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
-!+V+Pass+PrfPrc:%>tee x3_oblique ;
++V+Act+PrfPrc:^WG%>^Nhee x3_oblique ;
 
 +V+Act+PrsPrc:n%>ev^A x3 ;
 +V+Pass+PrsPrc:^WGt%>t^Av^A x3 ;

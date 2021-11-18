@@ -533,9 +533,10 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 "a:0"
 !! **RULE: @RULENAME@**
-a:0 <=>                                          _ %^HMETA: %> ;  ! before metathesis h
-        [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) _ (%^WG:)  %> [i2:|i3:|j] ;
-        [.#.|#] Cns    a                         _          %> [i2:|i3:|i4:] ; ! saada, maa
+a:0 <=>                                              _ %^HMETA: %> ;  ! before metathesis h
+    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;
+    [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saada, maa
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! 
 
 !! **Tests:**
 
@@ -555,12 +556,8 @@ a:e <=> _ %^AE: ;
 !! **RULE: @RULENAME@**
 a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
-      [.#.|#] Cns:*            Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
+        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
 
-!      [.#.|#] Cns:* Vow:+             Cns:+  Vow Cns:+            _ (%^WG:) %> [i2:|i3:|j] ; 	
-!a:o <=> [.#.|#|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ;
-!        [.#.|#|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; ! see fkv
-!        [.#.|#|#] Cns:* RoundedVowel:+    Cns:+  Vow Cns:+ (:Cns) _ (%^WG:) %> [i2:|j] ; 
 
 !! **Tests:**
 

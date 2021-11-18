@@ -519,21 +519,21 @@ LEXICON 3mies
  +N+Sg+Ill:he%>e n_PxK ;
  +N+Sg+Ine:he%>ss^A PxK ;
  +N+Sg+Ela:he%>st^A PxK ;
- +N+Sg+All:he%>lle PxxK ;
- +N+Sg+Ade:he%>ll^A PxK ;
- +N+Sg+Abl:he%>ll^A PxK ;
+ +N+Sg+All:he%>le PxxK ;
+ +N+Sg+Ade:he%>l^A PxK ;
+ +N+Sg+Abl:he%>lt^A PxK ;
  +N+Sg+Abe:he%>tt^A PxK ;
  +N+Sg+Ess:he%>n^A PxK ;
  +N+Sg+Tra:he TRA ;
 
  +N+Pl+Nom:he%>t PxK ;
  +N+Pl+Gen:he%>i2den PxK ;
- +N+Pl+Par:he%>i2t^A PxK ;
+ +N+Pl+Par:he%>i2^A PxK ;
  +N+Pl+Ill:hii n_PxK ;
  +N+Pl+Ine:he%>i2ss^A PxK ;
  +N+Pl+Ela:he%>i2st^A PxK ;
- +N+Pl+All:he%>i2lle PxxK ;
- +N+Pl+Ade:he%>i2ll^A PxK ;
+ +N+Pl+All:he%>i2le PxxK ;
+ +N+Pl+Ade:he%>i2lt^A PxK ;
  +N+Pl+Abe:he%>i2tt^A PxK ;
  +N+Pl+Ess:he%>i2n^A PxK ;
  +N+Pl+Tra:he TRA ;
@@ -627,7 +627,7 @@ LEXICON x4n_ks_pl
  +Pl+Gen:s%>ten PxK ;
  +Pl+Par:kse%>i2^A PxK ;
  +Pl+Ine:kse%>i2ss^A PxK ;
- +Pl+Ill:kse^HMETA%>h^Vi n_PxK ;
+ +Pl+Ill:ks%>hii n_PxK ;
  +Pl+Ela:kse%>i2st^A PxK ;
  +Pl+All:kse%>i2le PxxK ;
  +Pl+Ade:kse%>i2l^A PxK ;

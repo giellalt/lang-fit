@@ -51,32 +51,32 @@ LEXICON a1_ton
 LEXICON x1_ton
 !! **LEXICON @LEXNAME@** 
  +Sg+Nom:%>^On       K ;
- +Sg+Gen:%>t^Om^An K ;
+ +Sg+Gen:t%>^Om^An K ;
  +Sg+Par:%>^Ont^A K ;
- +Sg+Ill:t%>h^V^Vn K ; ! talhoon
- +Sg+Ine:^WG%>ss^A K ;      ! talossa
- +Sg+Ela:^WG%>st^A K ;      ! talosta
- +Sg+All:^WG%>le K ;        ! talole
- +Sg+Ade:^WG%>l^A K ;       ! talola
- +Sg+Abl:^WG%>lt^A K ;      ! talolta
- +Sg+Tra:^WG%>ksi K ;       ! taloksi
- +Sg+Tra:^WG%>ks K ;       ! taloksi
- +Sg+Ess:%>n^A K ;          ! talona
- +Sg+Abe:^WG%>tt^A K ;      ! talotta
+ +Sg+Ill:t%>h^Om^A^An K ; ! talhoon
+ +Sg+Ine:t%>^Om^Ass^A K ;      ! talossa
+ +Sg+Ela:t%>^Om^Ast^A K ;      ! talosta
+ +Sg+All:t%>^Om^Ale K ;        ! talole
+ +Sg+Ade:t%>^Om^Al^A K ;       ! talola
+ +Sg+Abl:t%>^Om^Alt^A K ;      ! talolta
+ +Sg+Tra:t%>^Om^Aksi K ;       ! taloksi
+ +Sg+Tra:t%>^Om^Aks K ;       ! taloksi
+ +Sg+Ess:t%>^Om^An^A K ;          ! talona
+ +Sg+Abe:t%>^Om^Att^A K ;      ! talotta
 
- +Pl+Nom:^WG%>t K ;
- +Pl+Gen:%>i2en K ;
- +Pl+Par:%>i2^A K ;
- +Pl+Ill:^HMETA%>h^Vin K ;  ! talhoin
- +Pl+Ine:^WG%>i2ss^A K ;
- +Pl+Ela:^WG%>i2st^A K ;
- +Pl+All:^WG%>i2le K ;
- +Pl+Ade:^WG%>i2l^A K ;
- +Pl+Abl:^WG%>i2lt^A K ;
- +Pl+Tra:^WG%>i2ksi K ;
- +Pl+Tra:^WG%>i2ks K ;
- +Pl+Ess:%>i2n^A K ;
- +Pl+Abe:^WG%>i2tt^A K ;
+ +Pl+Nom:t%>^Om^At K ;
+ +Pl+Gen:t%>^Omitten K ;
+ +Pl+Par:t%>^Omi2^A K ;
+ +Pl+Ill:t%>^Omhiin K ;  ! talhoin
+ +Sg+Ine:t%>^Omi2ss^A K ;      ! talossa
+ +Sg+Ela:t%>^Omi2st^A K ;      ! talosta
+ +Sg+All:t%>^Omi2le K ;        ! talole
+ +Sg+Ade:t%>^Omi2l^A K ;       ! talola
+ +Sg+Abl:t%>^Omi2lt^A K ;      ! talolta
+ +Sg+Tra:t%>^Omi2ksi K ;       ! taloksi
+ +Sg+Tra:t%>^Omi2ks K ;       ! taloksi
+ +Sg+Ess:t%>^Omi2n^A K ;          ! talona
+ +Sg+Abe:t%>^Omi2tt^A K ;      ! talotta
 
 
 
