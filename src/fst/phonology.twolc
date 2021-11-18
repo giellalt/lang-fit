@@ -39,14 +39,14 @@ Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ; !!= * @COD
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
-NeutralVowel   = e i               i2 i3 i4 i5 ;                     !!= * @CODE@ 
-FrontVowel     = e i y ä ö         ü  æ  ø     ;                     !!= * @CODE@ 
-BackVowel      =           a o u å             ;                     !!= * @CODE@ 
-RoundedVowel   =     y   ö   o u å             ;                     !!= * @CODE@ 
-UnroundedVowel = e i   ä   a                   ;                     !!= * @CODE@ 
-VowelNotUY     = e i   ä ö a o   å ü  æ  ø     ;                     !!= * @CODE@ 
-VowelNotI      = e   y ä ö a o u å ü  æ  ø     ;                     !!= * @CODE@ 
-VowelNotEI     =     y ä ö a o u å ü  æ  ø     ;                     !!= * @CODE@ 
+NeutralVowel   = e i               i2 i3 i4 i5 E I ;                 !!= * @CODE@ 
+FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ; !!= * @CODE@ 
+BackVowel      =           a o u å                       A O U Å   ; !!= * @CODE@ 
+RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ; !!= * @CODE@ 
+UnroundedVowel = e i   ä   a                   E I   Ä   A         ; !!= * @CODE@ 
+VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ; !!= * @CODE@ 
+VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ; !!= * @CODE@ 
+VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ; !!= * @CODE@ 
 Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE@ 
 ArchiCns       = %^N ;                                               !!= * @CODE@
 LNRM           = l n r m ;                                           !!= * @CODE@
@@ -100,6 +100,11 @@ p:v <=> Vow   _ Vow:  WeakGrade ;
 !!€ pavu0>n
 !!€ varpa^WGs
 !!€ varva0s
+
+"p:m"
+!! **RULE: @RULENAME@**
+p:m <=> Vow m _ Vow: WeakGrade ;
+
 
 !! **k rules**
 
@@ -531,15 +536,18 @@ j:0 <=> l _ e: %^E2I:0 ;
 
 !! ###  a rules
 
+"a:e"
+!! **RULE: @RULENAME@**
+a:e <=> _ %^AE: ;
+
 "a:0"
 !! **RULE: @RULENAME@**
-a:0 <=>                                              _ %^HMETA: %> ;  ! before metathesis h
-    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;
-    [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saada, maa
-    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ; ! 
+a:0 <=>                                              _ %^HMETA: %> ;        ! before metathesis h
+    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
+    [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>     [i3:|j] ;   ! ??? 
 
 !! **Tests:**
-
 !!€ kuva>i2ss^A
 !!€ kuv0>issa
 !!€ kuv0a^HMETA>h^V^Vn
@@ -547,20 +555,13 @@ a:0 <=>                                              _ %^HMETA: %> ;  ! before m
 !!€ saa>i3t
 !!€ sa0>it
 
-"a:e"
-!! **RULE: @RULENAME@**
-a:e <=> _ %^AE: ;
-
-
 "a:o when nonrounded root vowel and before i"
 !! **RULE: @RULENAME@**
 a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
-        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j] ;
-
+        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ;
 
 !! **Tests:**
-
 !!€ laatia>i2tten
 !!€ laatio>itten
 !!€ fankila>i2ss^A
@@ -575,7 +576,6 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
 
 !! **Tests:**
-
 !!€ sytyttä^WG>i3n
 !!€ sytyt000>in
 !!€ päivä>i2ss^A
