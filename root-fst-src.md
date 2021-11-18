@@ -162,6 +162,9 @@ These three tags are not added in lexc. The POS tag before derivation is convert
  * **+Ex/A** 
  * **+Ex/V** 
 
+Tag
+ * **+v1** 
+ * **+v2** 
 
 ## Clitic tags
  * **+Clt** = 
@@ -177,6 +180,7 @@ These three tags are not added in lexc. The POS tag before derivation is convert
 ## Semantic tags
 
  * **+Sem/Ani** = Animal names
+ * **+Sem/Edu** = Education institution
  * **+Sem/Fem** = Female names
  * **+Sem/Mal** = Male names
  * **+Sem/Obj** = Names of objects

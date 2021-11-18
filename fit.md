@@ -2362,14 +2362,14 @@ Here we group the symbols in convenient sets.
  * DummyBorder    = Dummy %> ;                                          
  * ArchiVowel     = %^A %^O %^U ;                                        
  * SomeVowel      = %^V ;                                                
- * NeutralVowel   = e i               i2 i3 i4 i5 ;                      
- * FrontVowel     = e i y ä ö         ü  æ  ø     ;                      
- * BackVowel      =           a o u å             ;                      
- * RoundedVowel   =     y   ö   o u å             ;                      
- * UnroundedVowel = e i   ä   a                   ;                      
- * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     ;                      
- * VowelNotI      = e   y ä ö a o u å ü  æ  ø     ;                      
- * VowelNotEI     =     y ä ö a o u å ü  æ  ø     ;                      
+ * NeutralVowel   = e i               i2 i3 i4 i5 E I ;                  
+ * FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
+ * BackVowel      =           a o u å                       A O U Å   ;  
+ * RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
+ * UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
+ * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
+ * VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
+ * VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
  * Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
  * ArchiCns       = %^N ;                                               
  * LNRM           = l n r m ;                                           
@@ -2415,6 +2415,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *pavu0>n*
 * *varpa^WGs*
 * *varva0s*
+
+**RULE: p:m**
+
 
 **k rules**
 
@@ -2608,10 +2611,11 @@ There are also some other vowel change rules.
 
 ###  a rules
 
+**RULE: a:e**
+
 **RULE: a:0**
 
 **Tests:**
-
 * *kuva>i2ss^A*
 * *kuv0>issa*
 * *kuv0a^HMETA>h^V^Vn*
@@ -2619,14 +2623,9 @@ There are also some other vowel change rules.
 * *saa>i3t*
 * *sa0>it*
 
-**RULE: a:e**
-
-
 **RULE: a:o when nonrounded root vowel and before i**
 
-
 **Tests:**
-
 * *laatia>i2tten*
 * *laatio>itten*
 * *fankila>i2ss^A*
@@ -2637,7 +2636,6 @@ There are also some other vowel change rules.
 **RULE: ä:0**
 
 **Tests:**
-
 * *sytyttä^WG>i3n*
 * *sytyt000>in*
 * *päivä>i2ss^A*
@@ -4904,6 +4902,9 @@ These three tags are not added in lexc. The POS tag before derivation is convert
  * **+Ex/A** 
  * **+Ex/V** 
 
+Tag
+ * **+v1** 
+ * **+v2** 
 
 ## Clitic tags
  * **+Clt** = 
@@ -4919,6 +4920,7 @@ These three tags are not added in lexc. The POS tag before derivation is convert
 ## Semantic tags
 
  * **+Sem/Ani** = Animal names
+ * **+Sem/Edu** = Education institution
  * **+Sem/Fem** = Female names
  * **+Sem/Mal** = Male names
  * **+Sem/Obj** = Names of objects
