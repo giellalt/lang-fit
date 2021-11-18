@@ -165,6 +165,9 @@ Multichar_Symbols
 +Ex/A	!!≈ * **@CODE@** 
 +Ex/V	!!≈ * **@CODE@** 
 
+!! Tag
++v1	!!≈ * **@CODE@** 
++v2	!!≈ * **@CODE@** 
 
  !! ## Clitic tags
  +Clt	    !!≈ * **@CODE@** = 
@@ -180,6 +183,7 @@ Multichar_Symbols
 !! ## Semantic tags
 
 +Sem/Ani  !!≈ * **@CODE@** = Animal names
++Sem/Edu  !!≈ * **@CODE@** = Education institution
 +Sem/Fem  !!≈ * **@CODE@** = Female names
 +Sem/Mal  !!≈ * **@CODE@** = Male names
 +Sem/Obj  !!≈ * **@CODE@** = Names of objects
