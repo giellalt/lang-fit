@@ -681,7 +681,7 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 LEXICON 2cond !!≈ **@CODE@** kehitä:kehi  
 +Sg1:%>in K ; ! kävisin
 +Sg2:%>it K ;
-+Sg3:%> K ;
++Sg3: K ;
 +Sg3:%>i K ;
 +Pl1:%>imm^A K ;
 +Pl2:%>itt^A K ;

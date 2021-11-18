@@ -8,6 +8,10 @@
 
 LEXICON ProperNoun !!≈ * @CODE@ 
 
+Härje:Härje p_mal_1 ;
+Kaspo:Kaspo p_mal_1 ;
+Aarean:Aarean p_mal_1;
+Siiku:Siiku p_mal_2 ;
 Niila:Niila p_mal_1 ; !!≈ * @CODE@ 
 Kiiruna:Kiiruna 3p_plc ; !!≈ * @CODE@ 
 Tokholma:Tokholma p_plc_1 ; !! * ...
@@ -21,92 +25,92 @@ Jeesus:Jeesu 3p_mal_ks ;
 Hannes:Hanne 3p_mal_ks ;
 Ruotti:Ruott2i p_plc_1 ;
 Sosiaalihallitus:Sosiaalihallitu 3p_org_ks ;
-Ojamaa:Oja#maa 3p_sur ;
+Ojamaa:Oja#maa 3p_sur_0;
 Meänmaa:Meän#maa 3p_plc ;
-Majamaa:Maja#maa 3p_sur ;
-Pihlajamaa:Pihlaja#maa 3p_sur ;
+Majamaa:Maja#maa 3p_sur_0;
+Pihlajamaa:Pihlaja#maa 3p_sur_0;
 Siljamaa:Silja#maa 3p_plc_31 ;
-Viljamaa:Vilja#maa 3p_sur ;
-Marjamaa:Marja#maa 3p_sur ;
-Hakamaa:Haka#maa 3p_sur ;
-Takamaa:Taka#maa 3p_sur ;
+Viljamaa:Vilja#maa 3p_sur_0;
+Marjamaa:Marja#maa 3p_sur_0;
+Hakamaa:Haka#maa 3p_sur_0;
+Takamaa:Taka#maa 3p_sur_0;
 Liikamaa:Liika#maa 3p_plc_31 ;
 Mustikkamaa:Mustikka#maa 3p_plc_31 ;
-Hallamaa:Halla#maa 3p_sur ;
-Liinamaa:Liina#maa 3p_sur ;
-Ansamaa:Ansa#maa 3p_sur ;
-Ohtamaa:Ohta#maa 3p_sur ;
-Huhtamaa:Huhta#maa 3p_sur ;
-Rantamaa:Ranta#maa 3p_sur ;
-Rintamaa:Rinta#maa 3p_sur ;
+Hallamaa:Halla#maa 3p_sur_0;
+Liinamaa:Liina#maa 3p_sur_0;
+Ansamaa:Ansa#maa 3p_sur_0;
+Ohtamaa:Ohta#maa 3p_sur_0;
+Huhtamaa:Huhta#maa 3p_sur_0;
+Rantamaa:Ranta#maa 3p_sur_0;
+Rintamaa:Rinta#maa 3p_sur_0;
 Hautamaa:Hauta#maa 3p_surplc_31 ;
-Saaremaa:Saare#maa 3p_sur ;
+Saaremaa:Saare#maa 3p_sur_0;
 Vehmaa:Veh#maa 3p_plc_31 ;
-Riihimaa:Riihi#maa 3p_sur ;
-Tuohimaa:Tuohi#maa 3p_sur ;
-Koskimaa:Koski#maa 3p_sur ;
-Mäkimaa:Mäki#maa 3p_sur ;
+Riihimaa:Riihi#maa 3p_sur_0;
+Tuohimaa:Tuohi#maa 3p_sur_0;
+Koskimaa:Koski#maa 3p_sur_0;
+Mäkimaa:Mäki#maa 3p_sur_0;
 Ylimaa:Yli#maa 3p_plc_31 ;
 Välimaa:Väli#maa 3p_surplc_31 ;
-Niemimaa:Niemi#maa 3p_sur ;
-Niinimaa:Niini#maa 3p_sur ;
-Kilpimaa:Kilpi#maa 3p_sur ;
+Niemimaa:Niemi#maa 3p_sur_0;
+Niinimaa:Niini#maa 3p_sur_0;
+Kilpimaa:Kilpi#maa 3p_sur_0;
 Saarimaa:Saari#niemi 3p_sur_3;
-Merimaa:Meri#maa 3p_sur ;
-Vierimaa:Vieri#maa 3p_sur ;
-Vuorimaa:Vuori#maa 3p_sur ;
-Paasimaa:Paasi#maa 3p_sur ;
+Merimaa:Meri#maa 3p_sur_0;
+Vierimaa:Vieri#maa 3p_sur_0;
+Vuorimaa:Vuori#maa 3p_sur_0;
+Paasimaa:Paasi#maa 3p_sur_0;
 Uusimaa:Uusi#maa 3p_plc_31 ;
-Lehtimaa:Lehti#maa 3p_sur ;
-Yrttimaa:Yrtti#maa 3p_sur ;
-Parttimaa:Partti#maa 3p_sur ;
-Pirttimaa:Pirtti#maa 3p_sur ;
-Kivimaa:Kivi#maa 3p_sur ;
-Viljanmaa:Vilja#maa 3p_sur ;
-Karjanmaa:Karjan#maa 3p_sur ;
-Vaaranmaa:Vaaran#maa 3p_sur ;
-Lähteenmaa:Lähteen#maa 3p_sur ;
-Niemenmaa:Niemen#maa 3p_sur ;
+Lehtimaa:Lehti#maa 3p_sur_0;
+Yrttimaa:Yrtti#maa 3p_sur_0;
+Parttimaa:Partti#maa 3p_sur_0;
+Pirttimaa:Pirtti#maa 3p_sur_0;
+Kivimaa:Kivi#maa 3p_sur_0;
+Viljanmaa:Vilja#maa 3p_sur_0;
+Karjanmaa:Karjan#maa 3p_sur_0;
+Vaaranmaa:Vaaran#maa 3p_sur_0;
+Lähteenmaa:Lähteen#maa 3p_sur_0;
+Niemenmaa:Niemen#maa 3p_sur_0;
 Saarenmaa:Saaren#maa 3p_plc_31 ;
-Vuorenmaa:Vuoren#maa 3p_sur ;
-Orrenmaa:Orren#maa 3p_sur ;
+Vuorenmaa:Vuoren#maa 3p_sur_0;
+Orrenmaa:Orren#maa 3p_sur_0;
 Keminmaa:Kemin#maa 3p_plc_31 ;
 Piera%_Jouninmaa:Piera%_Jouninmaa 3p_plc_31 ;
 Kvääninmaa 3p_plc ;
 Lapinmaa:Lapin#maa 3p_plc_31 ;
 Inkerinmaa:Inkerin#maa 3p_plc_31 ;
-Voionmaa:Voion#maa 3p_sur ;
-Asunmaa:Asun#maa 3p_sur ;
+Voionmaa:Voion#maa 3p_sur_0;
+Asunmaa:Asun#maa 3p_sur_0;
 Kainhuunmaa 3p_plc ;
-Sydänmaa:Syđänmaa 3p_sur ;
+Sydänmaa:Syđänmaa 3p_sur_0;
 Ruohomaa:Ruoho#maa 3p_plc_31 ;
 Kalliomaa:Kallio#maa 3p_surplc_31 ;
-Marjomaa:Marjo#maa 3p_sur ;
-Elomaa:Elo#maa 3p_sur ;
-Palomaa:Palo#maa 3p_sur ;
-Salomaa:Salo#maa 3p_sur ;
-Aromaa:Aro#maa 3p_sur ;
-Isomaa:Iso#maa 3p_sur ;
-Satomaa:Sato#maa 3p_sur ;
-Lehtomaa:Lehto#maa 3p_sur ;
+Marjomaa:Marjo#maa 3p_sur_0;
+Elomaa:Elo#maa 3p_sur_0;
+Palomaa:Palo#maa 3p_sur_0;
+Salomaa:Salo#maa 3p_sur_0;
+Aromaa:Aro#maa 3p_sur_0;
+Isomaa:Iso#maa 3p_sur_0;
+Satomaa:Sato#maa 3p_sur_0;
+Lehtomaa:Lehto#maa 3p_sur_0;
 Peltomaa:Peltomaa 3p_surplc_31 ;
-Mannermaa:Manner#maa 3p_sur ;
-Hangasmaa:Hangas#maa 3p_sur ;
-Kangasmaa:Kangas#maa 3p_sur ;
-Kortesmaa:Kortes#maa 3p_sur ;
-Palismaa:Palis#maa 3p_sur ;
-Tyynismaa:Tyynis#maa 3p_sur ;
-Kehusmaa:Kehus#maa 3p_sur ;
-Karhumaa:Karhu#maa 3p_sur ;
+Mannermaa:Manner#maa 3p_sur_0;
+Hangasmaa:Hangas#maa 3p_sur_0;
+Kangasmaa:Kangas#maa 3p_sur_0;
+Kortesmaa:Kortes#maa 3p_sur_0;
+Palismaa:Palis#maa 3p_sur_0;
+Tyynismaa:Tyynis#maa 3p_sur_0;
+Kehusmaa:Kehus#maa 3p_sur_0;
+Karhumaa:Karhu#maa 3p_sur_0;
 Hiiumaa:Hiiu#maa 3p_plc_31 ;
-Laulumaa:Laulu#maa 3p_sur ;
-Koivumaa:Koivu#maa 3p_sur ;
-Myllymaa:Mylly#maa 3p_sur ;
-Mäntymaa:Mänty#maa 3p_sur ;
-Niittymaa:Niitty#maa 3p_sur ;
-Vähämaa:Vähä#maa 3p_sur ;
-Kylmämaa:Kylmä#maa 3p_sur ;
-Perämaa:Perä#maa 3p_sur ;
+Laulumaa:Laulu#maa 3p_sur_0;
+Koivumaa:Koivu#maa 3p_sur_0;
+Myllymaa:Mylly#maa 3p_sur_0;
+Mäntymaa:Mänty#maa 3p_sur_0;
+Niittymaa:Niitty#maa 3p_sur_0;
+Vähämaa:Vähä#maa 3p_sur_0;
+Kylmämaa:Kylmä#maa 3p_sur_0;
+Perämaa:Perä#maa 3p_sur_0;
 Sanaa p_plc_1 ;
 Vantaa p_plc_1 ;
 Kustaa p_mal_1 ;
@@ -27730,11 +27734,11 @@ Airi+OLang/FIN:Airi p_fem_1 ;
 Airikka+OLang/FIN:Airikka p_sur_1 ;
 Airisto+OLang/FIN:Airisto p_sur_1 ;
 Airola+OLang/FIN:Airola p_sur_1 ;
-Aitola+OLang/FIN:Aitol 3p_sur ; ! ERVASTI?
+Aitola+OLang/FIN:Aitol 3p_sur_0; ! ERVASTI?
 Aittajärvi+OLang/FIN:Aitta^järve p4_plc ;
 Aittalahti+OLang/FIN:Aitta^lahti p_plc_1 ;
 Aittamäki+OLang/FIN:Aitta^mäke p4_plc ;
-Aittola+OLang/FIN:Aittol 3p_sur ; ! ERVASTI?
+Aittola+OLang/FIN:Aittol 3p_sur_0; ! ERVASTI?
 Aittomäki+OLang/FIN:Aitto^mäke p4_sur ;
 Aittoniemi+OLang/FIN:Aitto^niem p_plc_1 ;
 Ajos+OLang/FIN:Ajos 3p_org_C ;
@@ -27743,7 +27747,7 @@ Akkila+OLang/FIN:Akkila p_sur_1 ;
 Akujärvi+OLang/FIN:Aku^järve p4_plc ;
 Akvila+OLang/FIN:Akvila p_plc_1 ;
 Ala-Heikkilä+OLang/FIN:Ala-Heikkilä p_sur_1 ;
-Ala-Nikkola+OLang/FIN:Ala-Nikkol 3p_sur ; ! ERVASTI?
+Ala-Nikkola+OLang/FIN:Ala-Nikkol 3p_sur_0; ! ERVASTI?
 Ala-Outinen+OLang/FIN:Ala-Outi p_sur_nen ;
 Ala-Riesto+OLang/FIN:Ala-Riesto p_sur_1 ;
 Alahäivälä+OLang/FIN:Ala^häivälä p_plc_1 ;
@@ -27771,13 +27775,13 @@ Alavuoma+OLang/FIN:Ala^vuoma p_plc_1 ;
 Aleksanteri+OLang/FIN:Aleksanteri p_mal_1 ;
 Alestalo+OLang/FIN:Ales^talo p_sur_1 ;
 Alhainen+OLang/FIN:Alhai p_plc_nen ;
-Alhola+OLang/FIN:Alhol 3p_sur ; ! ERVASTI?
+Alhola+OLang/FIN:Alhol 3p_sur_0; ! ERVASTI?
 Alhonen+OLang/FIN:Alho p_sur_nen ;
 Alikoski+OLang/FIN:Ali^koski p_plc_1 ;
 Alila+OLang/FIN:Alila p_plc_1 ;
 Alinen+OLang/FIN:Ali p_sur_nen ;
 Alitalo+OLang/FIN:Ali^talo p_sur_1 ;
-Alkula+OLang/FIN:Alkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Alkula+OLang/FIN:Alkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Allinen+OLang/FIN:Alli p_sur_nen ;
 Allonen+OLang/FIN:Allo p_sur_nen ;
 Alonen+OLang/FIN:Alo p_sur_nen ;
@@ -27789,7 +27793,7 @@ Angelintie+OLang/FIN:Angelin^tie p_plc_1 ;
 Angola+OLang/FIN:Angola p_plc_1 ;
 Anjala+OLang/FIN:Anjala p_plc_1 ;
 Annala+OLang/FIN:Annala p_sur_1 ;
-Annola+OLang/FIN:Annol 3p_sur ; ! ERVASTI?
+Annola+OLang/FIN:Annol 3p_sur_0; ! ERVASTI?
 Annukka+OLang/FIN:Annukka p_fem_1 ;
 Annunen+OLang/FIN:Annu p_sur_nen ;
 Ansamaa+OLang/FIN:Ansa^maa p_sur_1 ;
@@ -27821,7 +27825,7 @@ Arponen+OLang/FIN:Arpo p_sur_nen ;
 Arvela+OLang/FIN:Arvela p_sur_1 ;
 Arvila+OLang/FIN:Arvila p_sur_1 ;
 Arvinen+OLang/FIN:Arvi p_sur_nen ;
-Arvola+OLang/FIN:Arvol 3p_sur ; ! ERVASTI?
+Arvola+OLang/FIN:Arvol 3p_sur_0; ! ERVASTI?
 Arvonen+OLang/FIN:Arvo p_sur_nen ;
 Vammavaara+OLang/FIN:Vamma^vaara p_plc_1 ;
 Sailas+OLang/FIN:Sailas 3p_sur_C ;
@@ -27861,9 +27865,9 @@ Coca-cola+OLang/FIN:Coca-cola p_org_1 ;
 Dalila+OLang/FIN:Dalila p_plc_1 ;
 Delila+OLang/FIN:Delila p_plc_1 ;
 Denebola+OLang/FIN:Denebola p_plc_1 ;
-Dervola+OLang/FIN:Dervol 3p_sur ; ! ERVASTI?
+Dervola+OLang/FIN:Dervol 3p_sur_0; ! ERVASTI?
 Dongala+OLang/FIN:Dongala p_plc_1 ;
-Dracula+OLang/FIN:Dracul 3p_sur ; ! ERVASTI elelr annen ODD? Draculasse- Draculisnie
+Dracula+OLang/FIN:Dracul 3p_sur_0; ! ERVASTI elelr annen ODD? Draculasse- Draculisnie
 Ebola+OLang/FIN:Ebola p_obj_1 ;
 Eerikkilä+OLang/FIN:Eerikkilä p_plc_1 ;
 Eerikäinen+OLang/FIN:Eerikäi p_sur_nen ;
@@ -27913,7 +27917,7 @@ Etyk+OLang/FIN:Etyk 3p_org_C ;
 Eveliina+OLang/FIN:Eveliina p_fem_1 ;
 Fanuela+OLang/FIN:Fanuela p_plc_1 ;
 Feininki+OLang/FIN:Feininki p_org_1 ;
-Filppula+OLang/FIN:Filppul 3p_sur ; ! ERVASTI elelr annen ODD?
+Filppula+OLang/FIN:Filppul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Finnilä+OLang/FIN:Finnilä p_sur_1 ;
 Formula+OLang/FIN:Formula p_obj_1 ;
 Franssila+OLang/FIN:Franssila p_sur_1 ;
@@ -27964,8 +27968,8 @@ Hakanen+OLang/FIN:Haka p_sur_nen ;
 Hakanpää+OLang/FIN:Hakan^pää p_plc_1 ;
 Hakasalo+OLang/FIN:Haka^salo p_plc_1 ;
 Hakkarainen+OLang/FIN:Hakkarai p_sur_nen ;
-Hakkola+OLang/FIN:Hakkol 3p_sur ; ! ERVASTI?
-Hakola+OLang/FIN:Hakol 3p_sur ; ! ERVASTI?
+Hakkola+OLang/FIN:Hakkol 3p_sur_0; ! ERVASTI?
+Hakola+OLang/FIN:Hakol 3p_sur_0; ! ERVASTI?
 Hakomäki+OLang/FIN:Hako^mäke p4_sur ;
 Hakonen+OLang/FIN:Hako p_sur_nen ;
 Hakoniemi+OLang/FIN:Hako^niem p_plc_1 ;
@@ -27973,7 +27977,7 @@ Hakula+OLang/FIN:Hakula p_sur_1 ;
 Hakulinen+OLang/FIN:Hakuli p_sur_nen ;
 Hala+OLang/FIN:Hala p_plc_1 ;
 Halinen+OLang/FIN:Hali p_sur_nen ;
-Halkola+OLang/FIN:Halkol 3p_sur ; ! ERVASTI?
+Halkola+OLang/FIN:Halkol 3p_sur_0; ! ERVASTI?
 Halkosaari+OLang/FIN:Halko^saari p_plc_1 ;
 Halla-aho+OLang/FIN:Halla-aho p_sur_1 ;
 Hallamaa+OLang/FIN:Hallamaa p_sur_1 ;
@@ -28005,20 +28009,20 @@ Hankonen+OLang/FIN:Hanko p_sur_nen ;
 Hannikainen+OLang/FIN:Hannikai p_sur_nen ;
 Hannila+OLang/FIN:Hannila p_sur_1 ;
 Hanninen+OLang/FIN:Hanni p_sur_nen ;
-Hannola+OLang/FIN:Hannol 3p_sur ; ! ERVASTI?
+Hannola+OLang/FIN:Hannol 3p_sur_0; ! ERVASTI?
 Hannonen+OLang/FIN:Hanno p_sur_nen ;
 Hannukainen+OLang/FIN:Hannukai p_sur_nen ;
-Hannula+OLang/FIN:Hannul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hannula+OLang/FIN:Hannul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Hannunen+OLang/FIN:Hannu p_sur_nen ;
 Hannuniemi+OLang/FIN:Hannu^niem p_plc_1 ;
 Hanste+OLang/FIN:Hanste p_sur_1 ;
-Hantula+OLang/FIN:Hantul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hantula+OLang/FIN:Hantul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Happonen+OLang/FIN:Happo p_sur_nen ;
 Harakka+OLang/FIN:Harakka p_sur_1 ;
 Harala+OLang/FIN:Harala p_sur_1 ;
 Harila+OLang/FIN:Harila p_sur_1 ;
 Harinen+OLang/FIN:Hari p_sur_nen ;
-Harjula+OLang/FIN:Harjul 3p_sur ; ! ERVASTI elelr annen ODD?
+Harjula+OLang/FIN:Harjul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Harjunen+OLang/FIN:Harju p_sur_nen ;
 Harjunharja+OLang/FIN:Harjun^harja p_sur_1 ;
 Harjuniemi+OLang/FIN:Harju^niem p_plc_1 ;
@@ -28072,15 +28076,15 @@ Heikka+OLang/FIN:Heikka p_sur_1 ;
 Heikkala+OLang/FIN:Heikkala p_sur_1 ;
 Heikkilä+OLang/FIN:Heikkilä p_sur_1 ;
 Heikkinen+OLang/FIN:Heikki p_sur_nen ;
-Heikkola+OLang/FIN:Heikkol 3p_sur ; ! ERVASTI?
+Heikkola+OLang/FIN:Heikkol 3p_sur_0; ! ERVASTI?
 Heikkonen+OLang/FIN:Heikko p_sur_nen ;
 Heikkuri+OLang/FIN:Heikkuri p_sur_1 ;
 Heikkurinen+OLang/FIN:Heikkuri p_sur_nen ;
-Heikola+OLang/FIN:Heikol 3p_sur ; ! ERVASTI?
+Heikola+OLang/FIN:Heikol 3p_sur_0; ! ERVASTI?
 Heikurainen+OLang/FIN:Heikurai p_sur_nen ;
 Heilala+OLang/FIN:Heilala p_sur_1 ;
 Heimala+OLang/FIN:Heimala p_sur_1 ;
-Heimola+OLang/FIN:Heimol 3p_sur ; ! ERVASTI?
+Heimola+OLang/FIN:Heimol 3p_sur_0; ! ERVASTI?
 Heimonen+OLang/FIN:Heimo p_sur_nen ;
 Heinikainen+OLang/FIN:Heinikai p_sur_nen ;
 Heinikoski+OLang/FIN:Heini^koski p_plc_1 ;
@@ -28096,7 +28100,7 @@ Heinämäki+OLang/FIN:Heinä^mäke p4_plc ;
 Heinänen+OLang/FIN:Heinä p_sur_nen ;
 Heiskala+OLang/FIN:Heiskala p_sur_1 ;
 Heiskanen+OLang/FIN:Heiska p_sur_nen ;
-Heittola+OLang/FIN:Heittol 3p_sur ; !! ERVASTI?
+Heittola+OLang/FIN:Heittol 3p_sur_0; !! ERVASTI?
 Hekkala+OLang/FIN:Hekkala p_sur_1 ;
 Helanen+OLang/FIN:Hela p_sur_nen ;
 Helkala+OLang/FIN:Helkala p_sur_1 ;
@@ -28113,7 +28117,7 @@ Hentilä+OLang/FIN:Hentilä p_sur_1 ;
 Henttinen+OLang/FIN:Hentti p_sur_nen ;
 Henttonen+OLang/FIN:Hentto p_sur_nen ;
 Henttunen+OLang/FIN:Henttu p_sur_nen ;
-Hentula+OLang/FIN:Hentul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hentula+OLang/FIN:Hentul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Hentunen+OLang/FIN:Hentu p_sur_nen ;
 Herala+OLang/FIN:Herala p_sur_1 ;
 Hermunen+OLang/FIN:Hermu p_sur_nen ;
@@ -28124,7 +28128,7 @@ Herranen+OLang/FIN:Herra p_sur_nen ;
 Herronen+OLang/FIN:Herro p_sur_nen ;
 Herttuainen+OLang/FIN:Herttu^ai p_sur_nen ;
 Hessulainen+OLang/FIN:Hessulai p_sur_nen ;
-Hettula+OLang/FIN:Hettul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hettula+OLang/FIN:Hettul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Heusala+OLang/FIN:Heusala p_sur_1 ;
 Hevonkoski+OLang/FIN:Hevon^koski p_plc_1 ;
 Hevosmaa+OLang/FIN:Hevos^maa p_plc_1 ;
@@ -28153,7 +28157,7 @@ Hillajänkä+OLang/FIN:Hillajänkä p_plc_1 ;
 Hillilä+OLang/FIN:Hillilä p_plc_1 ;
 Hilonen+OLang/FIN:Hilo p_sur_nen ;
 Hilpinen+OLang/FIN:Hilpi p_sur_nen ;
-Hiltula+OLang/FIN:Hiltul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hiltula+OLang/FIN:Hiltul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Hiltunen+OLang/FIN:Hiltu p_sur_nen ;
 Himanen+OLang/FIN:Hima p_sur_nen ;
 Himmanen+OLang/FIN:Himma p_sur_nen ;
@@ -28195,11 +28199,11 @@ Honkaniemi+OLang/FIN:Honka^niem p_plc_1 ;
 Honkaranta+OLang/FIN:Honka^ranta p_plc_1 ;
 Honkasalo+OLang/FIN:Honka^salo p_sur_1 ;
 Honkavaara+OLang/FIN:Honka^vaara p_plc_1 ;
-Honkola+OLang/FIN:Honkol 3p_sur ; ! ERVASTI?
+Honkola+OLang/FIN:Honkol 3p_sur_0; ! ERVASTI?
 Honkonen+OLang/FIN:Honko p_sur_nen ;
 Hopiavuori+OLang/FIN:Hopia^vuori p_plc_1 ;
 Hopponen+OLang/FIN:Hoppo p_sur_nen ;
-Hoppula+OLang/FIN:Hoppul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hoppula+OLang/FIN:Hoppul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Horttanainen+OLang/FIN:Horttanai p_sur_nen ;
 Hoskonen+OLang/FIN:Hosko p_sur_nen ;
 Hostikka+OLang/FIN:Hostikka p_sur_1 ;
@@ -28207,7 +28211,7 @@ Hotakainen+OLang/FIN:Hotakai p_sur_nen ;
 Hotelli+OLang/FIN:Hotelli p_obj_1 ;
 Hotokka+OLang/FIN:Hotokka p_sur_1 ;
 Hottinen+OLang/FIN:Hotti p_sur_nen ;
-Hourula+OLang/FIN:Hourul 3p_sur ; ! ERVASTI elelr annen ODD?
+Hourula+OLang/FIN:Hourul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Hovila+OLang/FIN:Hovila p_sur_1 ;
 Hovilainen+OLang/FIN:Hovilai p_sur_nen ;
 Hovinen+OLang/FIN:Hovi p_sur_nen ;
@@ -28317,7 +28321,7 @@ Iijärvi+OLang/FIN:Ii^järve p4_plc ;
 Iisakka+OLang/FIN:Iisakka p_sur_1 ;
 Iisakki+OLang/FIN:Iisakki p_mal_1 ;
 Iisalmi+OLang/FIN:Ii^salmi p_plc_1 ;
-Iiskola+OLang/FIN:Iiskol 3p_sur ; ! ERVASTI?
+Iiskola+OLang/FIN:Iiskol 3p_sur_0; ! ERVASTI?
 Iittu+OLang/FIN:Iittu p_plc_1 ;
 Iivanainen+OLang/FIN:Iivanai p_sur_nen ;
 Iivarinen+OLang/FIN:Iivari p_sur_nen ;
@@ -28333,7 +28337,7 @@ Illukka+OLang/FIN:Illukka p_sur_1 ;
 Ilmanen+OLang/FIN:Ilma p_sur_nen ;
 Ilmarinen+OLang/FIN:Ilmari p_sur_nen ;
 Ilmavirta+OLang/FIN:Ilma^virta p_sur_1 ;
-Ilmola+OLang/FIN:Ilmol 3p_sur ; ! ERVASTI?
+Ilmola+OLang/FIN:Ilmol 3p_sur_0; ! ERVASTI?
 Ilmonen+OLang/FIN:Ilmo p_sur_nen ;
 Ilola+OLang/FIN:Ilola p_plc_1 ;
 Ilomantsi+OLang/FIN:Ilomantsi p_plc_1 ;
@@ -28342,7 +28346,7 @@ Ilonen+OLang/FIN:Ilo p_sur_nen ;
 Iltanen+OLang/FIN:Ilta p_sur_nen ;
 Ilvonen+OLang/FIN:Ilvo p_sur_nen ;
 Immonen+OLang/FIN:Immo p_sur_nen ;
-Impola+OLang/FIN:Impol 3p_sur ; ! ERVASTI?
+Impola+OLang/FIN:Impol 3p_sur_0; ! ERVASTI?
 Imponen+OLang/FIN:Impo p_sur_nen ;
 Inarijoki+OLang/FIN:Inari^jok p_plc_1 ;
 Inarijärvi+OLang/FIN:Inari^järve p4_plc ;
@@ -28386,9 +28390,9 @@ Itkonen+OLang/FIN:Itko p_sur_nen ;
 Itälä+OLang/FIN:Itälä p_plc_1 ;
 Ivalojoki+OLang/FIN:Ivalo^joki p_plc_1 ;
 Jaakko+OLang/FIN:Jaakko p_mal_1 ;
-Jaakkola+OLang/FIN:Jaakkol 3p_sur ; ! ERVASTI? Ihvertfall ODD på sma: Jaakkolasse -Jaakkolisnie
+Jaakkola+OLang/FIN:Jaakkol 3p_sur_0; ! ERVASTI? Ihvertfall ODD på sma: Jaakkolasse -Jaakkolisnie
 Jaakkonen+OLang/FIN:Jaakko p_sur_nen ;
-Jaakola+OLang/FIN:Jaakol 3p_sur ; ! ERVASTI?
+Jaakola+OLang/FIN:Jaakol 3p_sur_0; ! ERVASTI?
 Jaakonaho+OLang/FIN:Jaakon^aho p_sur_1 ;
 Jaakonsaari+OLang/FIN:Jaakon^saari p_sur_1 ;
 Jaala+OLang/FIN:Jaala p_plc_1 ;
@@ -28397,7 +28401,7 @@ Jaara+OLang/FIN:Jaara p_sur_1 ;
 Jaaranen+OLang/FIN:Jaara p_sur_nen ;
 Jaatinen+OLang/FIN:Jaati p_sur_nen ;
 Helsingin% Sanomat+MWE+CmpNP/None+OLang/FIN:Helsingin% Sanomat 3p_org_C ;
-Jakola+OLang/FIN:Jakol 3p_sur ; ! ERVASTI?
+Jakola+OLang/FIN:Jakol 3p_sur_0; ! ERVASTI?
 Jakonen+OLang/FIN:Jako p_sur_nen ;
 Jalkanen+OLang/FIN:Jalka p_sur_nen ;
 Jalonen+OLang/FIN:Jalo p_sur_nen ;
@@ -28410,9 +28414,9 @@ Jankkila+OLang/FIN:Jankkila p_sur_1 ;
 Jantar+OLang/UND:Jantar 3p_plc_C ; !FIN
 Jantunen+OLang/FIN:Jantu p_sur_nen ;
 Jarveläinen+Err/Lex+OLang/FIN:Jarveläi p_sur_nen ;
-Jatkola+OLang/FIN:Jatkol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Jatkola+OLang/FIN:Jatkol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Jauhiainen+OLang/FIN:Jauhi^ai p_sur_nen ;
-Jauhola+OLang/FIN:Jauhol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Jauhola+OLang/FIN:Jauhol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Jauli+OLang/FIN:Jauli p_plc_1 ;
 Jaulintie+OLang/FIN:Jaulintie p_sur_1 ;
 Jaurujoki+OLang/FIN:Jauru^joki p_plc_1 ;
@@ -28457,11 +28461,11 @@ Jousmäki+OLang/FIN:Jous^mäke p4_sur ;
 Jouste+OLang/FIN:Jouste p_sur_1 ;
 Juhala+OLang/FIN:Juhala p_sur_1 ;
 Juhana+OLang/FIN:Juhana p_mal_1 ;
-Juhola+OLang/FIN:Juhol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Juhola+OLang/FIN:Juhol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Jukarainen+OLang/FIN:Jukarai p_sur_nen ;
 Jukka+OLang/FIN:Jukka p_mal_1 ;
 Jukkala+OLang/FIN:Jukkala p_sur_1 ;
-Jukkola+OLang/FIN:Jukkol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Jukkola+OLang/FIN:Jukkol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Jukola+OLang/FIN:Jukol 3p_plc ; ! ERVASTI? eller annen ODD? -
 Julkunen+OLang/FIN:Julku p_sur_nen ;
 Jumppanen+OLang/FIN:Jumppa p_sur_nen ;
@@ -28497,7 +28501,7 @@ Juurikka+OLang/FIN:Juurikka p_sur_1 ;
 Juurinen+OLang/FIN:Juuri p_sur_nen ;
 Juusela+OLang/FIN:Juusela p_sur_1 ;
 Juuso+OLang/FIN:Juuso p_sur_1 ;
-Juusola+OLang/FIN:Juusol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Juusola+OLang/FIN:Juusol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Juutila+OLang/FIN:Juutila p_sur_1 ;
 Juutilainen+OLang/FIN:Juutilai p_sur_nen ;
 Juutinen+OLang/FIN:Juuti p_sur_nen ;
@@ -28536,7 +28540,7 @@ Jûrmala+OLang/FIN:Jûrmala p_plc_1 ;
 K-Kuukkeli+OLang/FIN:K-Kuukkeli p_org_1 ;
 Kaakinen+OLang/FIN:Kaaki p_sur_nen ;
 Kaamasentie+OLang/FIN:Kaamasentie p_plc_1 ;
-Kaappola+OLang/FIN:Kaappol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kaappola+OLang/FIN:Kaappol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kaarakainen+OLang/FIN:Kaarakai p_sur_nen ;
 Kaarela+OLang/FIN:Kaarela p_sur_1 ;
 Kaarlela+OLang/FIN:Kaarlela p_plc_1 ;
@@ -28567,7 +28571,7 @@ Kaitajärvi+OLang/FIN:Kaita^järve p4_plc ;
 Kaitala+OLang/FIN:Kaitala p_sur_1 ;
 Kaitanen+OLang/FIN:Kaita p_sur_nen ;
 Kaitila+OLang/FIN:Kaitila p_sur_1 ;
-Kaivola+OLang/FIN:Kaivol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kaivola+OLang/FIN:Kaivol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kaivonen+OLang/FIN:Kaivo p_sur_nen ;
 Kaivosoja+OLang/FIN:Kaivos^oja p_sur_1 ;
 Kajaani+OLang/FIN:Kajaani p_plc_1 ;
@@ -28608,7 +28612,7 @@ Kampala+OLang/FIN:Kampala p_plc_1 ;
 Kamppila+OLang/FIN:Kamppila p_sur_1 ;
 Kamppinen+OLang/FIN:Kamppi p_sur_nen ;
 Kamsula+OLang/FIN:Kamsul 3p_plc ; ! ERVASTI elelr annen ODD?
-Kamula+OLang/FIN:Kamul 3p_sur ; ! ERVASTI elelr annen ODD?
+Kamula+OLang/FIN:Kamul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Kamunen+OLang/FIN:Kamu p_sur_nen ;
 Kanala+OLang/FIN:Kanala p_sur_1 ;
 Kananen+OLang/FIN:Kana p_sur_nen ;
@@ -28641,7 +28645,7 @@ Kantala+OLang/FIN:Kantala p_sur_1 ;
 Kantanen+OLang/FIN:Kanta p_sur_nen ;
 Kantelinen+OLang/FIN:Kanteli p_sur_nen ;
 Kantojärvi+OLang/FIN:Kanto^järve p4_plc ;
-Kantola+OLang/FIN:Kantol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kantola+OLang/FIN:Kantol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kantoluoto+OLang/FIN:Kanto^luoto p_sur_1 ;
 Kantonen+OLang/FIN:Kanto p_sur_nen ;
 Kantoniemi+OLang/FIN:Kanto^niem p_plc_1 ;
@@ -28676,7 +28680,7 @@ Karjanmaa+OLang/FIN:Karjan^maa p_sur_1 ;
 Karjula+OLang/FIN:Karjula p_sur_1 ;
 Karjunen+OLang/FIN:Karju p_sur_nen ;
 Karkiainen+OLang/FIN:Karki^ai p_sur_nen ;
-Karkkola+OLang/FIN:Karkkol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Karkkola+OLang/FIN:Karkkol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Karkulahti+OLang/FIN:Karku^lahti p_sur_1 ;
 Karola+OLang/FIN:Karola p_fem_1 ;
 Karoliina+OLang/FIN:Karoliina p_fem_1 ;
@@ -28737,7 +28741,7 @@ Keitele+OLang/FIN:Keitele p_plc_1 ; ! ACCRA? Keitelisnie, it seems to be ODD
 Kejonen+OLang/FIN:Kejo p_sur_nen ;
 Kekarainen+OLang/FIN:Kekarai p_sur_nen ;
 Kekkonen+OLang/FIN:Kekko p_sur_nen ;
-Kekola+OLang/FIN:Kekol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kekola+OLang/FIN:Kekol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kekäläinen+OLang/FIN:Kekäläi p_sur_nen ;
 Kela+OLang/FIN:Kela p_sur_1 ; ! Also org
 Kelahaara+OLang/FIN:Kelahaara p_sur_1 ;
@@ -28767,7 +28771,7 @@ Kerkkänen+OLang/FIN:Kerkkä p_sur_nen ;
 Kerminen+OLang/FIN:Kermi p_sur_nen ;
 Kerola+OLang/FIN:Kerola p_sur_1 ;
 Keronen+OLang/FIN:Kero p_sur_nen ;
-Kerttula+OLang/FIN:Kerttul 3p_sur ; ! ERVASTI elelr annen ODD?
+Kerttula+OLang/FIN:Kerttul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Kervinen+OLang/FIN:Kervi p_sur_nen ;
 Keränen+OLang/FIN:Kerä p_sur_nen ;
 Kes+OLang/FIN:Kes p_plc_C ;
@@ -28789,7 +28793,7 @@ Ketolainen+OLang/FIN:Ketolai p_sur_nen ;
 Ketomäki+OLang/FIN:Keto^mäke p4_sur ;
 Ketonen+OLang/FIN:Keto p_sur_nen ;
 Kettinen+OLang/FIN:Ketti p_sur_nen ;
-Kettula+OLang/FIN:Kettul 3p_sur ; ! ERVASTI elelr annen ODD?
+Kettula+OLang/FIN:Kettul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Kettunen+OLang/FIN:Kettu p_sur_nen ;
 Kettuniemi+OLang/FIN:Kettu^niem p_plc_1 ;
 Keurulainen+OLang/FIN:Keurulai p_sur_nen ;
@@ -28832,7 +28836,7 @@ Kinnula+OLang/FIN:Kinnul 3p_plc ; ! sma: kanskje ODD ! ERVASTI elelr annen ODD?
 Kinnunen+OLang/FIN:Kinnu p_sur_nen ;
 Kiparijoki+OLang/FIN:Kipari^joki p_plc_1 ;
 Kipinoinen+OLang/FIN:Kipinoi p_sur_nen ;
-Kippola+OLang/FIN:Kippol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kippola+OLang/FIN:Kippol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kirjalainen+OLang/FIN:Kirjalai p_sur_nen ;
 Kirjallisuuden% Seuran% toimituksia+MWE+CmpNP/None+OLang/FIN:Kirjallisuuden% Seuran% toimituksia p_obj_1 ;
 Kirjapaino+OLang/FIN:Kirjapaino p_org_1 ;
@@ -28917,7 +28921,7 @@ Koivuniemi+OLang/FIN:Koivu^niem p_plc_1 ;
 Koivuranta+OLang/FIN:Koivu^ranta p_sur_1 ;
 Koivusaari+OLang/FIN:Koivu^saari p_plc_1 ;
 Koivusalo+OLang/FIN:Koivu^salo p_sur_1 ;
-Kojola+OLang/FIN:Kojol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kojola+OLang/FIN:Kojol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kojonen+OLang/FIN:Kojo p_sur_nen ;
 Kokkala+OLang/FIN:Kokkala p_sur_1 ;
 Kokkarinen+OLang/FIN:Kokkari p_sur_nen ;
@@ -28949,7 +28953,7 @@ Kononen+OLang/FIN:Kono p_sur_nen ;
 Kontiainen+OLang/FIN:Konti^ai p_sur_nen ;
 Kontinen+OLang/FIN:Konti p_sur_nen ;
 Kontkanen+OLang/FIN:Kontka p_sur_nen ;
-Kontola+OLang/FIN:Kontol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kontola+OLang/FIN:Kontol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kontoniemi+OLang/FIN:Konto^niem p_plc_1 ;
 Kontostunturi+OLang/FIN:Kontostunturi p_plc_1 ;
 Konttaniemi+OLang/FIN:Kontta^niem p_plc_1 ;
@@ -28959,7 +28963,7 @@ Kontula+OLang/FIN:Kontula p_plc_1 ;
 Kontulainen+OLang/FIN:Kontulai p_sur_nen ;
 Kontunen+OLang/FIN:Kontu p_sur_nen ;
 Kopakkala+OLang/FIN:Kopakkala p_sur_1 ;
-Kopola+OLang/FIN:Kopol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kopola+OLang/FIN:Kopol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Koponen+OLang/FIN:Kopo p_sur_nen ;
 Koppanen+OLang/FIN:Koppa p_sur_nen ;
 Koppinen+OLang/FIN:Koppi p_sur_nen ;
@@ -29030,7 +29034,7 @@ Koskiniemi+OLang/FIN:Koski^niem p_plc_1 ;
 Koskiranta+OLang/FIN:Koski^ranta p_sur_1 ;
 Koskivaara+OLang/FIN:Koski^vaara p_sur_1 ;
 Koskivirta+OLang/FIN:Koski^virta p_sur_1 ;
-Kosola+OLang/FIN:Kosol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kosola+OLang/FIN:Kosol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kosonen+OLang/FIN:Koso p_sur_nen ;
 Kossila+OLang/FIN:Kossila p_sur_1 ;
 Kostiainen+OLang/FIN:Kosti^ai p_sur_nen ;
@@ -29049,13 +29053,13 @@ Kotiniemi+OLang/FIN:Koti^niem p_plc_1 ;
 Kotiranta+OLang/FIN:Koti^ranta p_sur_1 ;
 Kotisaari+OLang/FIN:Koti^saari p_plc_1 ;
 Kotiteollisuusjärjestöjen% keskusliitto+MWE+CmpNP/None+OLang/FIN:Koti^teollisuus^järjestöjen% keskus^liitto p_org_1 ;
-Kotola+OLang/FIN:Kotol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kotola+OLang/FIN:Kotol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kotonen+OLang/FIN:Koto p_sur_nen ;
 Kottila+OLang/FIN:Kottila p_sur_1 ;
 Kottonen+OLang/FIN:Kotto p_sur_nen ;
 Kotus+OLang/FIN:Kotus 3p_org_C ;
 Koukka+OLang/FIN:Koukka p_sur_1 ;
-Koukkula+OLang/FIN:Koukkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Koukkula+OLang/FIN:Koukkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Koukkunen+OLang/FIN:Koukku p_sur_nen ;
 Koukonen+OLang/FIN:Kouko p_sur_nen ;
 Kourula+OLang/FIN:Kourula p_plc_1 ;
@@ -29071,7 +29075,7 @@ Koverolampi+OLang/FIN:Kovero^lampi p_plc_1 ;
 Kovienpoikienlampi+OLang/FIN:Kovienpoikien^lampi p_plc_1 ;
 Kristiina+OLang/FIN:Kristiina p_fem_1 ;
 Kristo+OLang/FIN:Kristo p_plc_1 ;
-Kristola+OLang/FIN:Kristol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kristola+OLang/FIN:Kristol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kuertunturi+OLang/FIN:Kuertunturi p_plc_1 ;
 Kuhanen+OLang/FIN:Kuha p_sur_nen ;
 Kuhmonen+OLang/FIN:Kuhmo p_sur_nen ;
@@ -29141,13 +29145,13 @@ Kurikkala+OLang/FIN:Kurikkala p_sur_1 ;
 Kurjolampi+OLang/FIN:Kurjo^lampi p_plc_1 ;
 Kurkela+OLang/FIN:Kurkela p_sur_1 ;
 Kurkinen+OLang/FIN:Kurki p_sur_nen ;
-Kurola+OLang/FIN:Kurol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Kurola+OLang/FIN:Kurol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Kuronen+OLang/FIN:Kuro p_sur_nen ;
 Kurronen+OLang/FIN:Kurro p_sur_nen ;
 Kurttila+OLang/FIN:Kurttila p_sur_1 ;
 Kurula+OLang/FIN:Kurula p_sur_1 ;
 Kurunsaari+OLang/FIN:Kurun^saari p_sur_1 ;
-Kustaa+OLang/FIN:Kustaa 3p_mal ;
+Kustaa+OLang/FIN:Kustaa 3p_mal_0;
 Kustula+OLang/FIN:Kustula p_sur_1 ;
 Kutila+OLang/FIN:Kutila p_sur_1 ;
 Kuttainen+OLang/FIN:Kuttai p_sur_nen ;
@@ -29300,7 +29304,7 @@ Lampila+OLang/FIN:Lampila p_sur_1 ;
 Lampimäki+OLang/FIN:Lampi^mäke p4_sur ;
 Lampinen+OLang/FIN:Lampi p_sur_nen ;
 Lampivaara+OLang/FIN:Lampivaara p_plc_1 ;
-Lampola+OLang/FIN:Lampol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Lampola+OLang/FIN:Lampol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Lamponen+OLang/FIN:Lampo p_sur_nen ;
 Lankila+OLang/FIN:Lankila p_plc_1 ;
 Lankinen+OLang/FIN:Lanki p_sur_nen ;
@@ -29376,7 +29380,7 @@ Lehtiniemi+OLang/FIN:Lehti^niem p_plc_1 ;
 Lehtiranta+OLang/FIN:Lehti^ranta p_sur_1 ;
 Lehtisaari+OLang/FIN:Lehti^saari p_plc_1 ;
 Lehtisalo+OLang/FIN:Lehti^salo p_sur_1 ;
-Lehtola+OLang/FIN:Lehtol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Lehtola+OLang/FIN:Lehtol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Lehtolainen+OLang/FIN:Lehtolai p_sur_nen ;
 Lehtomaa+OLang/FIN:Lehto^maa p_sur_1 ;
 Lehtomäki+OLang/FIN:Lehto^mäke p4_sur ;
@@ -29400,7 +29404,7 @@ Lemetyinen+OLang/FIN:Lemetyi p_sur_nen ;
 Leminen+OLang/FIN:Lemi p_sur_nen ;
 Lemmenjoki+OLang/FIN:Lemmenjoki p_plc_1 ;
 Lemmetyinen+OLang/FIN:Lemmetyi p_sur_nen ;
-Lemola+OLang/FIN:Lemol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Lemola+OLang/FIN:Lemol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Lempinen+OLang/FIN:Lempi p_sur_nen ;
 Lempiäinen+OLang/FIN:Lempiäi p_sur_nen ;
 Lemponen+OLang/FIN:Lempo p_sur_nen ;
@@ -29449,7 +29453,7 @@ Liinahamari+OLang/FIN:Liinahamari p_plc_1 ;
 Liinamaa+OLang/FIN:Liina^maa p_sur_1 ;
 Likssjuo+OLang/FIN:Liks^sjuo p_plc_1 ;
 Linjamäki+OLang/FIN:Linja^mäke p4_plc ;
-Linkola+OLang/FIN:Linkol 3p_sur ;
+Linkola+OLang/FIN:Linkol 3p_sur_0;
 Linnala+OLang/FIN:Linnala p_sur_1 ;
 Linnanen+OLang/FIN:Linna p_sur_nen ;
 Linnanmäki+OLang/FIN:Linnan^mäke p4_plc ;
@@ -29526,7 +29530,7 @@ Luostarinen+OLang/FIN:Luostari p_sur_nen ;
 Luosto+OLang/FIN:Luosto p_plc_1 ;
 Luosujärvi+OLang/FIN:Luosu^järve p4_plc ;
 Luoto+OLang/FIN:Luoto p_plc_1 ;
-Luotola+OLang/FIN:Luotol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Luotola+OLang/FIN:Luotol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Luotonen+OLang/FIN:Luoto p_sur_nen ;
 Luttinen+OLang/FIN:Lutti p_sur_nen ;
 Luttojoki+OLang/FIN:Lutto^joki p_plc_1 ;
@@ -29566,7 +29570,7 @@ Maaranen+OLang/FIN:Maara p_sur_nen ;
 Maaret+OLang/FIN:Maaret 3p_fem_C ;
 Maari+OLang/FIN:Maari p_fem_1 ;
 Maaria+OLang/FIN:Maaria p_fem_1 ;
-Maaskola+OLang/FIN:Maaskol 3p_sur ; ! ERVASTI? eller annen ODD? -
+Maaskola+OLang/FIN:Maaskol 3p_sur_0; ! ERVASTI? eller annen ODD? -
 Maattivuono+OLang/FIN:Maatti^vuono p_plc_1 ;
 Mahkonen+OLang/FIN:Mahko p_sur_nen ;
 Mahlad+OLang/FIN:Mahlad 3p_plc_C ;
@@ -29575,7 +29579,7 @@ Mahlanen+OLang/FIN:Mahla p_sur_nen ;
 Maijala+OLang/FIN:Maijala p_sur_1 ;
 Maijanen+OLang/FIN:Maija p_sur_nen ;
 Maijukka+OLang/FIN:Maijukka p_fem_1 ;
-Maikola+OLang/FIN:Maikol 3p_sur ; ! ERVASTI ELLER ODD?
+Maikola+OLang/FIN:Maikol 3p_sur_0; ! ERVASTI ELLER ODD?
 Maisala+OLang/FIN:Maisala p_sur_1 ;
 Majala+OLang/FIN:Majala p_sur_1 ;
 Majalahti+OLang/FIN:Maja^lahti p_plc_1 ;
@@ -29586,7 +29590,7 @@ Majaniemi+OLang/FIN:Maja^niem p_plc_1 ;
 Majoinen+OLang/FIN:Majoi p_sur_nen ;
 Makhatsjkala+OLang/FIN:Makhatsjkala p_plc_1 ;
 Makkonen+OLang/FIN:Makko p_sur_nen ;
-Makkula+OLang/FIN:Makkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Makkula+OLang/FIN:Makkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Makpela+OLang/FIN:Makpela p_plc_1 ;
 Maksimainen+OLang/FIN:Maksimai p_sur_nen ;
 Malakka+OLang/FIN:Malakka p_plc_1 ;
@@ -29636,10 +29640,10 @@ Marjut+OLang/FIN:Marjut 3p_fem_C ;
 Markkanen+OLang/FIN:Markka p_sur_nen ;
 Markkinajärvi+OLang/FIN:Markkina^järve p4_plc ;
 Markkinen+OLang/FIN:Markki p_sur_nen ;
-Markkola+OLang/FIN:Markkol 3p_sur ; ! ERVASTI ELLER ODD?
-Markkula+OLang/FIN:Markkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Markkola+OLang/FIN:Markkol 3p_sur_0; ! ERVASTI ELLER ODD?
+Markkula+OLang/FIN:Markkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Markuksela+OLang/FIN:Markuksela p_sur_1 ;
-Markula+OLang/FIN:Markul 3p_sur ; ! ERVASTI elelr annen ODD?
+Markula+OLang/FIN:Markul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Marsala+OLang/FIN:Marsala p_plc_1 ;
 Martela+OLang/FIN:Martela p_sur_1 ;
 Martikainen+OLang/FIN:Martikai p_sur_nen ;
@@ -29683,7 +29687,7 @@ Mela+OLang/FIN:Mela p_plc_1 ;
 Melanen+OLang/FIN:Mela p_sur_nen ;
 Mellanen+OLang/FIN:Mella p_sur_nen ;
 Mensonen+OLang/FIN:Menso p_sur_nen ;
-Mentula+OLang/FIN:Mentul 3p_sur ; ! ERVASTI elelr annen ODD?
+Mentula+OLang/FIN:Mentul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Mentyjärvi+OLang/FIN:Menty^järve p4_plc ;
 Merikoski+OLang/FIN:Meri^koski p_plc_1 ;
 Meriluoto+OLang/FIN:Meri^luoto p_sur_1 ;
@@ -29702,7 +29706,7 @@ Mertaniemi+OLang/FIN:Merta^niem p_plc_1 ;
 Mervi+OLang/FIN:Mervi p_fem_1 ;
 Mesiäinen+OLang/FIN:Mesiäi p_sur_nen ;
 Meskanen+OLang/FIN:Meska p_sur_nen ;
-Metsola+OLang/FIN:Metsol 3p_sur ; ! ERVASTI ELLER ODD?
+Metsola+OLang/FIN:Metsol 3p_sur_0; ! ERVASTI ELLER ODD?
 Metsälä+OLang/FIN:Metsälä p_plc_1 ;
 Metsämäki+OLang/FIN:Metsä^mäke p4_plc ;
 Metsänen+OLang/FIN:Metsä p_sur_nen ;
@@ -29737,7 +29741,7 @@ Mikkolainen+OLang/FIN:Mikkolai p_sur_nen ;
 Mikkonen+OLang/FIN:Mikko p_sur_nen ;
 Mikkonen-Brännkärr+OLang/FIN:Mikkonen-Brännkärr p_sur_C ;
 Miko+OLang/FIN:Miko p_mal_1 ;
-Mikola+OLang/FIN:Mikol 3p_sur ; ! ERVASTI ELLER ODD?
+Mikola+OLang/FIN:Mikol 3p_sur_0; ! ERVASTI ELLER ODD?
 Mikä+OLang/FIN:Mikä p_mal_1 ;
 Milla+OLang/FIN:Milla p_fem_1 ;
 Minkkinen+OLang/FIN:Minkki p_sur_nen ;
@@ -29754,7 +29758,7 @@ Moitakuru+OLang/FIN:Moitakuru p_plc_1 ;
 Molkoköngäs+OLang/FIN:Molko^köngäs 3p_plc_C ;
 Moloslehto+OLang/FIN:Moloslehto p_plc_1 ;
 Monni+OLang/FIN:Monni p_sur_1 ;
-Monola+OLang/FIN:Monol 3p_sur ; ! ERVASTI ELLER ODD?
+Monola+OLang/FIN:Monol 3p_sur_0; ! ERVASTI ELLER ODD?
 Mononen+OLang/FIN:Mono p_sur_nen ;
 Montella+OLang/FIN:Montella p_plc_1 ;
 Montonen+OLang/FIN:Monto p_sur_nen ;
@@ -29780,7 +29784,7 @@ Muorravaarakkajoki+OLang/FIN:Muorra^vaarakka^joki p_plc_1 ;
 Muotkajärvi+OLang/FIN:Muotka^järve p4_plc ; !FIN
 Muotkavaara+OLang/FIN:Muotkavaara p_plc_1 ;
 Muranen+OLang/FIN:Mura p_sur_nen ;
-Murtola+OLang/FIN:Murtol 3p_sur ; ! ERVASTI ELLER ODD?
+Murtola+OLang/FIN:Murtol 3p_sur_0; ! ERVASTI ELLER ODD?
 Murtomäki+OLang/FIN:Murto^mäke p4_plc ;
 Murtonen+OLang/FIN:Murto p_sur_nen ;
 Murtoniemi+OLang/FIN:Murto^niem p_plc_1 ;
@@ -29800,7 +29804,7 @@ Mustaparta+OLang/FIN:Mustaparta p_sur_1 ;
 Mustapää+OLang/FIN:Mustapää p_plc_1 ;
 Mustavaara+OLang/FIN:Mustavaara p_plc_1 ;
 Mustikkamaa+OLang/FIN:Mustikka^maa p_plc_1 ;
-Mustola+OLang/FIN:Mustol 3p_sur ; ! ERVASTI ELLER ODD?
+Mustola+OLang/FIN:Mustol 3p_sur_0; ! ERVASTI ELLER ODD?
 Mustonen+OLang/FIN:Musto p_sur_nen ;
 Mutanen+OLang/FIN:Muta p_sur_nen ;
 Mutenia+OLang/FIN:Mutenia p_plc_1 ;
@@ -29892,7 +29896,7 @@ Nahkiaisoja+OLang/FIN:Nahki^ais^oja p_sur_1 ;
 Nahkiaspolku+OLang/FIN:Nahkiaspolku p_plc_1 ;
 Nalka-Aava+OLang/FIN:Nalka-Aava p_plc_1 ;
 Nammalakuru+OLang/FIN:Nammalakuru p_plc_1 ;
-Nampula+OLang/FIN:Nampul 3p_sur ; ! ERVASTI elelr annen ODD?
+Nampula+OLang/FIN:Nampul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Narinen+OLang/FIN:Nari p_sur_nen ;
 Nattanen+OLang/FIN:Natta p_plc_nen ;
 Nattavaara+OLang/FIN:Natta^vaara p_plc_1 ;
@@ -29919,7 +29923,7 @@ Niemistö+OLang/FIN:Niemistö p_plc_1 ;
 Niemitalo+OLang/FIN:Niemi^talo p_sur_1 ;
 Niemitukia-Sole+OLang/FIN:Niemitukia-Sole p_sur_1 ;
 Niemonen+OLang/FIN:Niemo p_sur_nen ;
-Nietula+OLang/FIN:Nietul 3p_sur ; ! ERVASTI elelr annen ODD?
+Nietula+OLang/FIN:Nietul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Nihtilä+OLang/FIN:Nihtilä p_sur_1 ;
 Niili+OLang/FIN:Niili p_plc_1 ;
 Niilola+OLang/FIN:Niilola p_sur_1 ;
@@ -29949,10 +29953,10 @@ Nikkanen+OLang/FIN:Nikka p_sur_nen ;
 Nikkarinen+OLang/FIN:Nikkari p_sur_nen ;
 Nikkilä+OLang/FIN:Nikkilä p_plc_1 ;
 Nikkinen+OLang/FIN:Nikki p_sur_nen ;
-Nikkola+OLang/FIN:Nikkol 3p_sur ; ! ERVASTI ELLER ODD?
+Nikkola+OLang/FIN:Nikkol 3p_sur_0; ! ERVASTI ELLER ODD?
 Nikkonen+OLang/FIN:Nikko p_sur_nen ;
-Nikola+OLang/FIN:Nikol 3p_sur ; ! ERVASTI ELLER ODD?
-Nikula+OLang/FIN:Nikul 3p_sur ; ! ERVASTI elelr annen ODD?
+Nikola+OLang/FIN:Nikol 3p_sur_0; ! ERVASTI ELLER ODD?
+Nikula+OLang/FIN:Nikul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Nikulainen+OLang/FIN:Nikulai p_sur_nen ;
 Nikunen+OLang/FIN:Niku p_sur_nen ;
 Nila+OLang/FIN:Nila p_mal_1 ;
@@ -29991,7 +29995,7 @@ Notkola+OLang/FIN:Notkola p_plc_1 ; !
 Nousiainen+OLang/FIN:Nousi^ai p_plc_nen ;
 Nousuniemi+OLang/FIN:Nousu^niem p_plc_1 ;
 Nuikka+OLang/FIN:Nuikka p_sur_1 ;
-Nukari+OLang/FIN:Nukar 3p_sur ;
+Nukari+OLang/FIN:Nukar 3p_sur_0;
 Nukarinen+OLang/FIN:Nukari p_sur_nen ;
 Nummela+OLang/FIN:Nummela p_plc_1 ;
 Nummenpää+OLang/FIN:Nummen^pää p_plc_1 ;
@@ -30005,7 +30009,7 @@ Nuorala+OLang/FIN:Nuorala p_sur_1 ;
 Nuortijoki+OLang/FIN:Nuorti^joki p_plc_1 ;
 Nuorttanaste+OLang/FIN:Nuortta^naste p_obj_1 ;
 Nuotio+OLang/FIN:Nuotio p_sur_1 ;
-Nuppola+OLang/FIN:Nuppol 3p_sur ; ! ERVASTI eller annen ODD?
+Nuppola+OLang/FIN:Nuppol 3p_sur_0; ! ERVASTI eller annen ODD?
 Nupponen+OLang/FIN:Nuppo p_sur_nen ;
 Nupurintie+OLang/FIN:Nupurin^tie p_plc_1 ;
 Nurhonen+OLang/FIN:Nurho p_sur_nen ;
@@ -30041,7 +30045,7 @@ Näsijärvi+OLang/FIN:Näsi^järve p4_plc ;
 Näsänen+OLang/FIN:Näsä p_sur_nen ;
 Nättinen+OLang/FIN:Nätti p_sur_nen ;
 Nätynki+OLang/FIN:Nätynki p_sur_1 ;
-Näveri+OLang/FIN:Näver 3p_sur ; !
+Näveri+OLang/FIN:Näver 3p_sur_0; !
 Näytämö+OLang/FIN:Näytämö p_plc_1 ;
 Näätänen+OLang/FIN:Näätä p_sur_nen ;
 Ohenoja+OLang/FIN:Ohen^oja p_sur_1 ;
@@ -30049,7 +30053,7 @@ Ohra-aho+OLang/FIN:Ohra-aho p_sur_1 ;
 Ohtamaa+OLang/FIN:Ohta^maa p_sur_1 ;
 Ohtonen+OLang/FIN:Ohto p_sur_nen ;
 Oikarainen+OLang/FIN:Oikarai p_plc_nen ;
-Oikari+OLang/FIN:Oikar 3p_sur ; !
+Oikari+OLang/FIN:Oikar 3p_sur_0; !
 Oikarinen+OLang/FIN:Oikari p_sur_nen ;
 Oikkonen+OLang/FIN:Oikko p_sur_nen ;
 Oinonen+OLang/FIN:Oino p_sur_nen ;
@@ -30068,14 +30072,14 @@ Ojaniemi+OLang/FIN:Oja^niem p_plc_1 ;
 Ojansuu+OLang/FIN:Ojan^suu p_sur_1 ;
 Ojaranta+OLang/FIN:Oja^ranta p_plc_1 ;
 Ojutkangas+OLang/FIN:Ojut^kangas 3p_sur_C ;
-Okkola+OLang/FIN:Okkol 3p_sur ; ! ERVASTI eller annen ODD?
+Okkola+OLang/FIN:Okkol 3p_sur_0; ! ERVASTI eller annen ODD?
 Okkonen+OLang/FIN:Okko p_sur_nen ;
 Okkonen-Sotka+OLang/FIN:Okkonen-Sotka p_sur_1 ;
 Oksala+OLang/FIN:Oksala p_sur_1 ;
 Oksanen+OLang/FIN:Oksa p_sur_nen ;
-Olavi+OLang/FIN:Olav 3p_mal ; !
+Olavi+OLang/FIN:Olav 3p_mal_0; !
 Olkinuora+OLang/FIN:Olki^nuora p_sur_1 ;
-Olkkola+OLang/FIN:Olkkol 3p_sur ; ! ERVASTI eller annen ODD?
+Olkkola+OLang/FIN:Olkkol 3p_sur_0; ! ERVASTI eller annen ODD?
 Olkkonen+OLang/FIN:Olkko p_sur_nen ;
 Ollakka+OLang/FIN:Ollakka p_sur_1 ;
 Ollikainen+OLang/FIN:Ollikai p_sur_nen ;
@@ -30114,9 +30118,9 @@ Outinen+OLang/FIN:Outi p_sur_nen ;
 PaPaNa+OLang/FIN:PaPaNa p_org_1 ;
 Paajanen+OLang/FIN:Paaja p_sur_nen ;
 Paakkanen+OLang/FIN:Paakka p_sur_nen ;
-Paakkari+OLang/FIN:Paakkar 3p_sur ;
+Paakkari+OLang/FIN:Paakkar 3p_sur_0;
 Paakkinen+OLang/FIN:Paakki p_sur_nen ;
-Paakkola+OLang/FIN:Paakkol 3p_sur ; ! ERVASTI eller annen ODD?
+Paakkola+OLang/FIN:Paakkol 3p_sur_0; ! ERVASTI eller annen ODD?
 Paakkonen+OLang/FIN:Paakko p_sur_nen ;
 Paakkunainen+OLang/FIN:Paakkunai p_sur_nen ;
 Paakulainen+OLang/FIN:Paakulai p_sur_nen ;
@@ -30134,7 +30138,7 @@ Paatelainen+OLang/FIN:Paatelai p_sur_nen ;
 Paavalniemi+OLang/FIN:Paaval^niem p_plc_1 ;
 Paavilainen+OLang/FIN:Paavilai p_sur_nen ;
 Paavisjärvi+OLang/FIN:Paavis^järve p4_plc ;
-Paavola+OLang/FIN:Paavol 3p_sur ; ! ERVASTI eller annen ODD?
+Paavola+OLang/FIN:Paavol 3p_sur_0; ! ERVASTI eller annen ODD?
 Paavolainen+OLang/FIN:Paavolai p_sur_nen ;
 Paavosaari+OLang/FIN:Paavo^saari p_plc_1 ;
 Pahakero+OLang/FIN:Pahakero p_plc_1 ;
@@ -30169,7 +30173,7 @@ Pakkala+OLang/FIN:Pakkala p_plc_1 ;
 Pakkanen+OLang/FIN:Pakka p_sur_nen ;
 Pakkulakangas+OLang/FIN:Pakkula^kangas 3p_plc_C ;
 Pakkulankangas+OLang/FIN:Pakkulan^kangas 3p_plc_C ;
-Pakola+OLang/FIN:Pakol 3p_sur ; ! ERVASTI eller annen ODD?
+Pakola+OLang/FIN:Pakol 3p_sur_0; ! ERVASTI eller annen ODD?
 Pakonen+OLang/FIN:Pako p_sur_nen ;
 Paksuniemi+OLang/FIN:Paksu^niem p_plc_1 ;
 Palho+OLang/FIN:Palho p_sur_1 ;
@@ -30177,7 +30181,7 @@ Palismaa+OLang/FIN:Palis^maa p_sur_1 ;
 Paljakka+OLang/FIN:Paljakka p_plc_1 ;
 Palkeinen+OLang/FIN:Palkei p_sur_nen ;
 Palkisoja+OLang/FIN:Palkis^oja p_plc_1 ;
-Pallari+OLang/FIN:Pallar 3p_sur ;
+Pallari+OLang/FIN:Pallar 3p_sur_0;
 Pallas+OLang/FIN:Pallas 3p_org_C ;
 Pallonen+OLang/FIN:Pallo p_sur_nen ;
 Palmunen+OLang/FIN:Palmu p_sur_nen ;
@@ -30197,7 +30201,7 @@ Paltojärvi+OLang/FIN:Palto^järve p4_plc ;
 Palttala+OLang/FIN:Palttala p_sur_1 ;
 Palviainen+OLang/FIN:Palvi^ai p_sur_nen ;
 Pankka+OLang/FIN:Pankka p_sur_1 ;
-Pannula+OLang/FIN:Pannul 3p_sur ; ! ERVASTI elelr annen ODD?
+Pannula+OLang/FIN:Pannul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Panttila+OLang/FIN:Panttila p_sur_1 ;
 Panula+OLang/FIN:Panula 3p_sur_C ;
 Papinaho+OLang/FIN:Papin^aho p_sur_1 ;
@@ -30209,7 +30213,7 @@ Parantainen+OLang/FIN:Parantai p_sur_nen ;
 Parikka+OLang/FIN:Parikka p_sur_1 ;
 Parjanen+OLang/FIN:Parja p_sur_nen ;
 Parkano+OLang/FIN:Parkano p_plc_1 ;
-Parkkari+OLang/FIN:Parkkar 3p_sur ;
+Parkkari+OLang/FIN:Parkkar 3p_sur_0;
 Parkkila+OLang/FIN:Parkkila p_plc_1 ;
 Parkkinen+OLang/FIN:Parkki p_sur_nen ;
 Parkkisenniemi+OLang/FIN:Parkkisen^niem p_plc_1 ;
@@ -30236,8 +30240,8 @@ Patrakka+OLang/FIN:Patrakka p_sur_1 ;
 Patrikainen+OLang/FIN:Patrikai p_sur_nen ;
 Patronen+OLang/FIN:Patro p_sur_nen ;
 Patsjoki+OLang/FIN:Pats^joki p_plc_1 ;
-Patteri+OLang/FIN:Patter 3p_sur ;
-Paukkeri+OLang/FIN:Paukker 3p_sur ;
+Patteri+OLang/FIN:Patter 3p_sur_0;
+Paukkeri+OLang/FIN:Paukker 3p_sur_0;
 Paukkonen+OLang/FIN:Paukko p_sur_nen ;
 Paukkunen+OLang/FIN:Paukku p_sur_nen ;
 Paula+OLang/FIN:Paula p_fem_1 ;
@@ -30255,11 +30259,11 @@ Pekkala+OLang/FIN:Pekkala p_sur_1 ;
 Pekkanen+OLang/FIN:Pekka p_sur_nen ;
 Pekkarinen+OLang/FIN:Pekkari p_sur_nen ;
 Pekkinen+OLang/FIN:Pekki p_sur_nen ;
-Pekkola+OLang/FIN:Pekkol 3p_sur ; ! ERVASTI eller annen ODD?
+Pekkola+OLang/FIN:Pekkol 3p_sur_0; ! ERVASTI eller annen ODD?
 Pekkonen+OLang/FIN:Pekko p_sur_nen ;
-Pekola+OLang/FIN:Pekol 3p_sur ; ! ERVASTI eller annen ODD?
+Pekola+OLang/FIN:Pekol 3p_sur_0; ! ERVASTI eller annen ODD?
 Pekonen+OLang/FIN:Peko p_sur_nen ;
-Pekuri+OLang/FIN:Pekur 3p_sur ;
+Pekuri+OLang/FIN:Pekur 3p_sur_0;
 Pekurinen+OLang/FIN:Pekuri p_sur_nen ;
 Peldojärvi+OLang/FIN:Peldo^järve p4_plc ;
 Pelkonen+OLang/FIN:Pelko p_sur_nen ;
@@ -30271,12 +30275,12 @@ Pellinen+OLang/FIN:Pelli p_sur_nen ;
 Pellonpää+OLang/FIN:Pellon^pää p_plc_1 ;
 Peltokangas+OLang/FIN:Pelto^kangas 3p_plc_C ;
 Peltokoski+OLang/FIN:Pelto^koski p_plc_1 ;
-Peltola+OLang/FIN:Peltol 3p_sur ; ! ERVASTI eller annen ODD?
+Peltola+OLang/FIN:Peltol 3p_sur_0; ! ERVASTI eller annen ODD?
 Peltomaa+OLang/FIN:Pelto^maa p_plc_1 ;
 Peltomäki+OLang/FIN:Pelto^mäke p4_plc ;
 Peltonen+OLang/FIN:Pelto p_sur_nen ;
 Peltoniemi+OLang/FIN:Pelto^niem p_plc_1 ;
-Pelttari+OLang/FIN:Pelttar 3p_sur ;
+Pelttari+OLang/FIN:Pelttar 3p_sur_0;
 Pennala+OLang/FIN:Pennala p_sur_1 ;
 Pennanen+OLang/FIN:Penna p_sur_nen ;
 Pentikäinen+OLang/FIN:Pentikäi p_sur_nen ;
@@ -30285,12 +30289,12 @@ Penttilä+OLang/FIN:Penttilä p_sur_1 ;
 Penttinen+OLang/FIN:Pentti p_sur_nen ;
 Penttonen+OLang/FIN:Pentto p_sur_nen ;
 Perkiömäki+OLang/FIN:Perkiö^mäke p4_plc ;
-Perkola+OLang/FIN:Perkol 3p_sur ; ! ERVASTI eller annen ODD?
+Perkola+OLang/FIN:Perkol 3p_sur_0; ! ERVASTI eller annen ODD?
 Pernaa+OLang/FIN:Pernaa p_plc_1 ;
 Perttala+OLang/FIN:Perttala p_sur_1 ;
 Perttilä+OLang/FIN:Perttilä p_sur_1 ;
-Perttola+OLang/FIN:Perttol 3p_sur ; ! ERVASTI eller annen ODD?
-Perttula+OLang/FIN:Perttul 3p_sur ; ! ERVASTI elelr annen ODD?
+Perttola+OLang/FIN:Perttol 3p_sur_0; ! ERVASTI eller annen ODD?
+Perttula+OLang/FIN:Perttul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Perttunen+OLang/FIN:Perttu p_sur_nen ;
 Perä-Pohjola+OLang/FIN:Perä-Pohjola p_plc_1 ;
 Peräaho+OLang/FIN:Perä^aho p_sur_1 ;
@@ -30304,7 +30308,7 @@ Peräpohjola+OLang/FIN:Peräpohjola p_plc_1 ;
 Peräsalo+OLang/FIN:Perä^salo p_sur_1 ;
 Perätalo+OLang/FIN:Perä^talo p_sur_1 ;
 Peskihaara+OLang/FIN:Peski^haara p_plc_1 ;
-Pesola+OLang/FIN:Pesol 3p_sur ; ! ERVASTI eller annen ODD?
+Pesola+OLang/FIN:Pesol 3p_sur_0; ! ERVASTI eller annen ODD?
 Pesonen+OLang/FIN:Peso p_sur_nen ;
 Pessala+OLang/FIN:Pessala p_sur_1 ;
 Pessinen+OLang/FIN:Pessi p_sur_nen ;
@@ -30337,7 +30341,7 @@ Pietilä+OLang/FIN:Pietilä p_sur_1 ;
 Pietiläinen+OLang/FIN:Pietiläi p_sur_nen ;
 Pietinen+OLang/FIN:Pieti p_sur_nen ;
 Pietiäinen+OLang/FIN:Pietiäi p_sur_nen ;
-Pietola+OLang/FIN:Pietol 3p_sur ; ! ERVASTI elelr annen ODD?
+Pietola+OLang/FIN:Pietol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Pieviläinen+OLang/FIN:Pieviläi p_sur_nen ;
 Pihala+OLang/FIN:Pihala p_sur_1 ;
 Pihkala+OLang/FIN:Pihkala p_sur_1 ;
@@ -30348,11 +30352,11 @@ Pihlajamäki+OLang/FIN:Pihlaja^mäke p4_plc ;
 Pihlajaniemi+OLang/FIN:Pihlaja^niem p_plc_1 ;
 Piia+OLang/FIN:Piia p_fem_1 ;
 Piikkilä+OLang/FIN:Piikkilä p_plc_1 ;
-Piilola+OLang/FIN:Piilol 3p_sur ; ! ERVASTI elelr annen ODD?
+Piilola+OLang/FIN:Piilol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Piilolaporten+OLang/FIN:Piilolaporten 3p_plc_C ;
 Piilonen+OLang/FIN:Piilo p_sur_nen ;
 Piiparinen+OLang/FIN:Piipari p_sur_nen ;
-Piippola+OLang/FIN:Piippol 3p_sur ; ! ERVASTI elelr annen ODD?
+Piippola+OLang/FIN:Piippol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Piipponen+OLang/FIN:Piippo p_sur_nen ;
 Piirainen+OLang/FIN:Piirai p_sur_nen ;
 Piirala+OLang/FIN:Piirala p_sur_1 ;
@@ -30375,7 +30379,7 @@ Pinokkio+OLang/FIN:Pinokkio p_mal_1 ;
 Pinola+OLang/FIN:Pinola p_sur_1 ;
 Pinomäki+OLang/FIN:Pino^mäke p4_plc ;
 Pipinen+OLang/FIN:Pipi p_sur_nen ;
-Pippola+OLang/FIN:Pippol 3p_sur ; ! ERVASTI elelr annen ODD?
+Pippola+OLang/FIN:Pippol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Pippovuoma+OLang/FIN:Pippovuoma p_plc_1 ;
 Pirhonen+OLang/FIN:Pirho p_sur_nen ;
 Pirilä+OLang/FIN:Pirilä p_sur_1 ;
@@ -30385,7 +30389,7 @@ Pirkanmaa+OLang/FIN:Pirkanmaa p_plc_1 ;
 Pirkkala+OLang/FIN:Pirkkala p_plc_1 ;
 Pirkkalainen+OLang/FIN:Pirkkalai p_sur_nen ;
 Pirkkanen+OLang/FIN:Pirkka p_sur_nen ;
-Pirkola+OLang/FIN:Pirkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Pirkola+OLang/FIN:Pirkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Pirskanen+OLang/FIN:Pirska p_sur_nen ;
 Pirttiaho+OLang/FIN:Pirtti^aho p_sur_1 ;
 Pirttijärvi+OLang/FIN:Pirtti^järve p4_plc ;
@@ -30429,7 +30433,7 @@ Poikajärvi+OLang/FIN:Poika^järve p4_plc ;
 Poikela+OLang/FIN:Poikela p_sur_1 ;
 Poikelu+OLang/FIN:Poikelu p_plc_1 ;
 Poikkimäki+OLang/FIN:Poikki^mäke p4_sur ;
-Poikola+OLang/FIN:Poikol 3p_sur ; ! ERVASTI elelr annen ODD?
+Poikola+OLang/FIN:Poikol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Poikolainen+OLang/FIN:Poikolai p_sur_nen ;
 Poikonen+OLang/FIN:Poiko p_sur_nen ;
 Poikulainen+OLang/FIN:Poikulai p_sur_nen ;
@@ -30506,7 +30510,7 @@ Puuperä+OLang/FIN:Puu^perä p_plc_1 ;
 Puupponen+OLang/FIN:Puuppo p_sur_nen ;
 Puuronen+OLang/FIN:Puuro p_sur_nen ;
 Puurtinen+OLang/FIN:Puurti p_sur_nen ;
-Puurula+OLang/FIN:Puurul 3p_sur ; ! ERVASTI elelr annen ODD?
+Puurula+OLang/FIN:Puurul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Puurunen+OLang/FIN:Puuru p_sur_nen ;
 Puusaari+OLang/FIN:Puu^saari p_sur_1 ;
 Puustinen+OLang/FIN:Puusti p_sur_nen ;
@@ -30579,7 +30583,7 @@ Rahikainen+OLang/FIN:Rahikai p_sur_nen ;
 Rahikka+OLang/FIN:Rahikka p_sur_1 ;
 Rahikkala+OLang/FIN:Rahikkala p_sur_1 ;
 Rahkala+OLang/FIN:Rahkala p_sur_1 ;
-Rahkola+OLang/FIN:Rahkol 3p_sur ; ! ERVASTI elelr annen ODD? Rahkele..
+Rahkola+OLang/FIN:Rahkol 3p_sur_0; ! ERVASTI elelr annen ODD? Rahkele..
 Rahkonen+OLang/FIN:Rahko p_sur_nen ;
 Rahnasto+OLang/FIN:Rahnasto p_sur_1 ;
 Rahunen+OLang/FIN:Rahu p_sur_nen ;
@@ -30599,7 +30603,7 @@ Rajamäki+OLang/FIN:Raja^mäke p4_plc ;
 Rajanen+OLang/FIN:Raja p_sur_nen ;
 Rajaniemi+OLang/FIN:Raja^niem p_plc_1 ;
 Rajasalo+OLang/FIN:Raja^salo p_sur_1 ;
-Rakkola+OLang/FIN:Rakkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Rakkola+OLang/FIN:Rakkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Rakkolainen+OLang/FIN:Rakkolai p_sur_nen ;
 Raninen+OLang/FIN:Rani p_sur_nen ;
 Rankinen+OLang/FIN:Ranki p_sur_nen ;
@@ -30631,7 +30635,7 @@ Rauhala+OLang/FIN:Rauhala p_sur_1 ;
 Rauhamäki+OLang/FIN:Rauha^mäke p4_sur ;
 Rauhanen+OLang/FIN:Rauha p_sur_nen ;
 Rauhaniemi+OLang/FIN:Rauha^niem p_plc_1 ;
-Raukola+OLang/FIN:Raukol 3p_sur ; ! ERVASTI elelr annen ODD?
+Raukola+OLang/FIN:Raukol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Raula+OLang/FIN:Raula p_plc_1 ;
 Rautajoki+OLang/FIN:Rauta^joki p_plc_1 ;
 Rautakoski+OLang/FIN:Rauta^koski p_plc_1 ;
@@ -30647,7 +30651,7 @@ Rautiainen+OLang/FIN:Rauti^ai p_sur_nen ;
 Rautjärvi+OLang/FIN:Raut^järve p4_plc ;
 Rautulampi+OLang/FIN:Rautu^lampi p_plc_1 ;
 Rauvala+OLang/FIN:Rauvala p_sur_1 ;
-Rauvola+OLang/FIN:Rauvol 3p_sur ; ! ERVASTI elelr annen ODD?
+Rauvola+OLang/FIN:Rauvol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Rauvoskoski+OLang/FIN:Rauvos^koski p_plc_1 ;
 Ravattinen+OLang/FIN:Ravatti p_sur_nen ;
 Ravila+OLang/FIN:Ravila p_sur_1 ;
@@ -30658,17 +30662,17 @@ Reinikainen+OLang/FIN:Reinikai p_sur_nen ;
 Reinikka+OLang/FIN:Reinikka p_sur_1 ;
 Reinilä+OLang/FIN:Reinilä p_sur_1 ;
 Rekilä+OLang/FIN:Rekilä p_sur_1 ;
-Rekola+OLang/FIN:Rekol 3p_sur ; ! ERVASTI elelr annen ODD?
+Rekola+OLang/FIN:Rekol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Rekonen+OLang/FIN:Reko p_sur_nen ;
-Rentola+OLang/FIN:Rentol 3p_sur ; ! ERVASTI elelr annen ODD?
-Repola+OLang/FIN:Repol 3p_sur ; ! ERVASTI elelr annen ODD?
+Rentola+OLang/FIN:Rentol 3p_sur_0; ! ERVASTI elelr annen ODD?
+Repola+OLang/FIN:Repol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Reponen+OLang/FIN:Repo p_sur_nen ;
 Reunanen+OLang/FIN:Reuna p_sur_nen ;
 Ridanpää+OLang/FIN:Ridan^pää p_plc_1 ;
 Riekkinen+OLang/FIN:Riekki p_sur_nen ;
-Riekkola+OLang/FIN:Riekkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Riekkola+OLang/FIN:Riekkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Riepponen+OLang/FIN:Rieppo p_sur_nen ;
-Riepula+OLang/FIN:Riepul 3p_sur ; ! ERVASTI elelr annen ODD?
+Riepula+OLang/FIN:Riepul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Riesto+OLang/FIN:Riesto p_sur_1 ;
 Rigasjärvi+OLang/FIN:Rigas^järve p4_plc ;
 Riihelä+OLang/FIN:Riihelä p_sur_1 ;
@@ -30682,7 +30686,7 @@ Riihinen+OLang/FIN:Riihi p_sur_nen ;
 Riihioja+OLang/FIN:Riihi^oja p_sur_1 ;
 Riihonen+OLang/FIN:Riiho p_sur_nen ;
 Riikka+OLang/FIN:Riikka p_fem_1 ;
-Riikola+OLang/FIN:Riikol 3p_sur ; ! ERVASTI elelr annen ODD?
+Riikola+OLang/FIN:Riikol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Riikonen+OLang/FIN:Riiko p_sur_nen ;
 Riina+OLang/FIN:Riina p_sur_1 ;
 Riionheimo+OLang/FIN:Riion^heimo p_sur_1 ;
@@ -30693,7 +30697,7 @@ Riittinen+OLang/FIN:Riitti p_sur_nen ;
 Rikala+OLang/FIN:Rikala p_plc_1 ;
 Rikkilä+OLang/FIN:Rikkilä p_sur_1 ;
 Rikkinen+OLang/FIN:Rikki p_sur_nen ;
-Rikkola+OLang/FIN:Rikkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Rikkola+OLang/FIN:Rikkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Rikkonen+OLang/FIN:Rikko p_sur_nen ;
 Rimpeläinen+OLang/FIN:Rimpeläi p_sur_nen ;
 Rimpilä+OLang/FIN:Rimpilä p_sur_1 ;
@@ -30719,11 +30723,11 @@ Ristilä+OLang/FIN:Ristilä p_sur_1 ;
 Ristimäki+OLang/FIN:Risti^mäke p4_sur ;
 Ristiniemi+OLang/FIN:Risti^niem p_plc_1 ;
 Risto+OLang/FIN:Risto p_mal_1 ;
-Ristola+OLang/FIN:Ristol 3p_sur ; ! ERVASTI elelr annen ODD?
+Ristola+OLang/FIN:Ristol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ristolainen+OLang/FIN:Ristolai p_sur_nen ;
 Ritala+OLang/FIN:Ritala p_sur_1 ;
 Ritamäki+OLang/FIN:Rita^mäke p4_plc ;
-Ritola+OLang/FIN:Ritol 3p_sur ; ! ERVASTI elelr annen ODD?
+Ritola+OLang/FIN:Ritol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ritvanen+OLang/FIN:Ritva p_sur_nen ;
 Riuhtala+OLang/FIN:Riuhtala p_sur_1 ;
 Riuttala+OLang/FIN:Riuttala p_plc_1 ;
@@ -30745,7 +30749,7 @@ Ronkainen+OLang/FIN:Ronkai p_sur_nen ;
 Ronkanen+OLang/FIN:Ronka p_sur_nen ;
 Roope+OLang/FIN:Roope p_mal_1 ;
 Roponen+OLang/FIN:Ropo p_sur_nen ;
-Roppola+OLang/FIN:Roppol 3p_sur ; ! ERVASTI elelr annen ODD?
+Roppola+OLang/FIN:Roppol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ropponen+OLang/FIN:Roppo p_sur_nen ;
 Rossinen+OLang/FIN:Rossi p_sur_nen ;
 Rotaaimo+OLang/FIN:Rotaaimo p_org_1 ;
@@ -30769,14 +30773,14 @@ Rummukainen+OLang/FIN:Rummukai p_sur_nen ;
 Rumpunen+OLang/FIN:Rumpu p_sur_nen ;
 Ruoho+OLang/FIN:Ruoho p_sur_1 ;
 Ruohojärvi+OLang/FIN:Ruoho^järve p4_plc ;
-Ruohola+OLang/FIN:Ruohol 3p_sur ; ! ERVASTI elelr annen ODD?
+Ruohola+OLang/FIN:Ruohol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ruohomaa+OLang/FIN:Ruoho^maa p_plc_1 ;
 Ruohomäki+OLang/FIN:Ruoho^mäke p4_sur ;
 Ruohonen+OLang/FIN:Ruoho p_sur_nen ;
 Ruohoniemi+OLang/FIN:Ruoho^niem p_plc_1 ;
 Ruokamo+OLang/FIN:Ruokamo p_sur_1 ;
 Ruokanen+OLang/FIN:Ruoka p_sur_nen ;
-Ruokola+OLang/FIN:Ruokol 3p_sur ; ! ERVASTI elelr annen ODD?
+Ruokola+OLang/FIN:Ruokol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ruokolainen+OLang/FIN:Ruokolai p_sur_nen ;
 Ruokonen+OLang/FIN:Ruoko p_sur_nen ;
 Ruokoniemi+OLang/FIN:Ruoko^niem p_plc_1 ;
@@ -30899,12 +30903,12 @@ Saloranta+OLang/FIN:Salo^ranta p_sur_1 ;
 Salovaara+OLang/FIN:Salo^vaara p_sur_1 ;
 Sammalisto+OLang/FIN:Sammalisto p_plc_1 ;
 Sammallahti+OLang/FIN:Sammal^lahti p_sur_1 ;
-Sammeli+OLang/FIN:Sammeli 3p_mal ;
+Sammeli+OLang/FIN:Sammeli 3p_mal_0;
 Samppala+OLang/FIN:Samppala p_sur_1 ;
 Sanaa+OLang/FIN:Sanaa p_plc_1 ;
 Sanaksenaho+OLang/FIN:Sanaksen^aho p_sur_1 ;
 Sanila+OLang/FIN:Sanila p_sur_1 ;
-Saniola+OLang/FIN:Saniol 3p_sur ; ! ERVASTI elelr annen ODD?
+Saniola+OLang/FIN:Saniol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sankala+OLang/FIN:Sankala p_sur_1 ;
 Sankilampi+OLang/FIN:Sanki^lampi p_sur_1 ;
 Sanoma+OLang/FIN:Sanoma p_org_1 ;
@@ -30926,20 +30930,20 @@ Sarivaara+OLang/FIN:Sari^vaara p_sur_1 ;
 Sarjanen+OLang/FIN:Sarja p_sur_nen ;
 Sarkanen+OLang/FIN:Sarka p_sur_nen ;
 Sarkkinen+OLang/FIN:Sarkki p_sur_nen ;
-Sarkola+OLang/FIN:Sarkol 3p_sur ; ! ERVASTI elelr annen ODD?
-Sarmela+OLang/FIN:Sarmel 3p_sur ; ! ERVASTI elelr annen ODD?
-Sarpola+OLang/FIN:Sarpol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sarkola+OLang/FIN:Sarkol 3p_sur_0; ! ERVASTI elelr annen ODD?
+Sarmela+OLang/FIN:Sarmel 3p_sur_0; ! ERVASTI elelr annen ODD?
+Sarpola+OLang/FIN:Sarpol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sarsa+OLang/FIN:Sarsa p_sur_1 ;
 Sarvela+OLang/FIN:Sarvela p_plc_1 ;
 Sarvijärvi+OLang/FIN:Sarvi^järve p4_plc ;
 Satokangas+OLang/FIN:Sato^kangas 3p_plc_C ;
-Satola+OLang/FIN:Satol 3p_sur ; ! ERVASTI elelr annen ODD?
+Satola+OLang/FIN:Satol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Satomaa+OLang/FIN:Sato^maa p_sur_1 ;
 Sattajärvi+OLang/FIN:Satta^järve p4_plc ;
 Sattasniemi+OLang/FIN:Sattas^niem p_plc_1 ;
 Satu-Marjut+OLang/FIN:Satu-Marjut 3p_fem_C ;
 Saukko+OLang/FIN:Saukko p_sur_1 ;
-Saukkola+OLang/FIN:Saukkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Saukkola+OLang/FIN:Saukkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Saukkonen+OLang/FIN:Saukko p_sur_nen ;
 Saukkoriipi+OLang/FIN:Saukko^riipi p_sur_1 ;
 Saukkuvuoma+OLang/FIN:Saukku^vuoma p_plc_1 ;
@@ -30949,7 +30953,7 @@ Sauna-aho+OLang/FIN:Sauna-aho p_sur_1 ;
 Saunakoski+OLang/FIN:Sauna^koski p_plc_1 ;
 Saunamäki+OLang/FIN:Sauna^mäke p4_sur ;
 Sauvala+OLang/FIN:Sauvala p_sur_1 ;
-Sauvola+OLang/FIN:Sauvol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sauvola+OLang/FIN:Sauvol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Savela+OLang/FIN:Savela p_sur_1 ;
 Savikurki+OLang/FIN:Savi^kurki p_sur_1 ;
 Savilahti+OLang/FIN:Savi^lahti p_plc_1 ;
@@ -30961,17 +30965,17 @@ Savinen+OLang/FIN:Savi p_sur_nen ;
 Saviniemi+OLang/FIN:Savi^niem p_plc_1 ;
 Savioja+OLang/FIN:Savi^oja p_sur_1 ;
 Saviranta+OLang/FIN:Savi^ranta p_sur_1 ;
-Savola+OLang/FIN:Savol 3p_sur ; ! ERVASTI elelr annen ODD?
+Savola+OLang/FIN:Savol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Savolainen+OLang/FIN:Savolai p_sur_nen ;
 Savonen+OLang/FIN:Savo p_sur_nen ;
 Savonlinna+OLang/FIN:Savon^linna p_plc_1 ;
 Savotta+OLang/FIN:Savotta p_org_1 ;
 Savukoski+OLang/FIN:Savu^koski p_plc_1 ;
 Savunen+OLang/FIN:Savu p_sur_nen ;
-Scaevola+OLang/FIN:Scaevol 3p_sur ; ! ERVASTI elelr annen ODD?
+Scaevola+OLang/FIN:Scaevol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Scala+OLang/FIN:Scala p_plc_1 ;
 Scævola+OLang/FIN:Scævola p_plc_1 ;
-Seikkula+OLang/FIN:Seikkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Seikkula+OLang/FIN:Seikkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Seilonen+OLang/FIN:Seilo p_sur_nen ;
 Seipiharju+OLang/FIN:Seipi^harju p_sur_1 ;
 Seiseminen+OLang/FIN:Seisemi p_plc_nen ;
@@ -30981,7 +30985,7 @@ Selkäinaho+OLang/FIN:Selkäin^aho p_sur_1 ;
 Selkälä+OLang/FIN:Selkälä p_plc_1 ;
 Selonen+OLang/FIN:Selo p_sur_nen ;
 Seppinen+OLang/FIN:Seppi p_sur_nen ;
-Seppola+OLang/FIN:Seppol 3p_sur ; ! ERVASTI elelr annen ODD?
+Seppola+OLang/FIN:Seppol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sepponen+OLang/FIN:Seppo p_sur_nen ;
 Seppälä+OLang/FIN:Seppälä p_plc_1 ;
 Seppäläinen+OLang/FIN:Seppäläi p_sur_nen ;
@@ -31000,7 +31004,7 @@ Siekkinen+OLang/FIN:Siekki p_sur_nen ;
 Siermala+OLang/FIN:Siermala p_sur_1 ;
 Sievinen+OLang/FIN:Sievi p_sur_nen ;
 Sievänen+OLang/FIN:Sievä p_sur_nen ;
-Sihvola+OLang/FIN:Sihvol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sihvola+OLang/FIN:Sihvol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sihvonen+OLang/FIN:Sihvo p_sur_nen ;
 Siikajärvi+OLang/FIN:Siika^järve p4_plc ;
 Siikala+OLang/FIN:Siikala p_sur_1 ;
@@ -31009,15 +31013,15 @@ Siikaniemi+OLang/FIN:Siika^niem p_plc_1 ;
 Siikaranta+OLang/FIN:Siika^ranta p_plc_1 ;
 Siikasaari+OLang/FIN:Siika^saari p_sur_1 ;
 Siikavirta+OLang/FIN:Siika^virta p_sur_1 ;
-Siipola+OLang/FIN:Siipol 3p_sur ; ! ERVASTI elelr annen ODD?
+Siipola+OLang/FIN:Siipol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Siippainen+OLang/FIN:Siippai p_sur_nen ;
 Siirilä+OLang/FIN:Siirilä p_sur_1 ;
 Siiriäinen+OLang/FIN:Siiriäi p_sur_nen ;
 Siironen+OLang/FIN:Siiro p_sur_nen ;
-Siirtola+OLang/FIN:Siirtol 3p_sur ; ! ERVASTI elelr annen ODD?
+Siirtola+OLang/FIN:Siirtol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Siiskonen+OLang/FIN:Siisko p_sur_nen ;
 Siitonen+OLang/FIN:Siito p_sur_nen ;
-Siivola+OLang/FIN:Siivol 3p_sur ; ! ERVASTI elelr annen ODD?
+Siivola+OLang/FIN:Siivol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Siivonen+OLang/FIN:Siivo p_sur_nen ;
 Sikala+OLang/FIN:Sikala p_sur_1 ;
 Sikanen+OLang/FIN:Sika p_sur_nen ;
@@ -31031,12 +31035,12 @@ Siltala+OLang/FIN:Siltala p_sur_1 ;
 Siltanen+OLang/FIN:Silta p_sur_nen ;
 Silvennoinen+OLang/FIN:Silvennoi p_sur_nen ;
 Silventoinen+OLang/FIN:Silventoi p_sur_nen ;
-Silvola+OLang/FIN:Silvol 3p_sur ; ! ERVASTI elelr annen ODD?
+Silvola+OLang/FIN:Silvol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Silvonen+OLang/FIN:Silvo p_sur_nen ;
 Simanainen+OLang/FIN:Simanai p_sur_nen ;
 Similä+OLang/FIN:Similä p_sur_1 ;
 Simojoki+OLang/FIN:Simo^joki p_plc_1 ;
-Simola+OLang/FIN:Simol 3p_sur ; ! ERVASTI elelr annen ODD?
+Simola+OLang/FIN:Simol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Simonaho+OLang/FIN:Simon^aho p_sur_1 ;
 Simonen+OLang/FIN:Simo p_sur_nen ;
 Simoniva+OLang/FIN:Simo^niva p_fem_1 ;
@@ -31054,16 +31058,16 @@ Sinuhe+OLang/FIN:Sinuhe p_mal_1 ;
 Sipilä+OLang/FIN:Sipilä p_sur_1 ;
 Sipiläinen+OLang/FIN:Sipiläi p_sur_nen ;
 Sipinen+OLang/FIN:Sipi p_sur_nen ;
-Sipola+OLang/FIN:Sipol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sipola+OLang/FIN:Sipol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Siponen+OLang/FIN:Sipo p_sur_nen ;
 Sippala+OLang/FIN:Sippala p_sur_1 ;
-Sippola+OLang/FIN:Sippol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sippola+OLang/FIN:Sippol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sipponen+OLang/FIN:Sippo p_sur_nen ;
 Sirainen+OLang/FIN:Sirai p_sur_nen ;
 Siraste+OLang/FIN:Siraste p_sur_1 ;
 Sirkka+OLang/FIN:Sirkka p_fem_1 ;
 Sirkkaoja+OLang/FIN:Sirkka^oja p_plc_1 ;
-Sirola+OLang/FIN:Sirol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sirola+OLang/FIN:Sirol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Sironen+OLang/FIN:Siro p_sur_nen ;
 Sirpa+OLang/FIN:Sirpa p_fem_1 ;
 Sisko+OLang/FIN:Sisko p_fem_1 ;
@@ -31071,7 +31075,7 @@ Sissala+OLang/FIN:Sissala p_sur_1 ;
 Sissonen+OLang/FIN:Sisso p_sur_nen ;
 Sistonen+OLang/FIN:Sisto p_sur_nen ;
 Sisätö+OLang/FIN:Sisätö p_plc_1 ;
-Siukola+OLang/FIN:Siukol 3p_sur ; ! ERVASTI elelr annen ODD?
+Siukola+OLang/FIN:Siukol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Siukonen+OLang/FIN:Siuko p_sur_nen ;
 Siula+OLang/FIN:Siula p_plc_1 ;
 Siuruainen+OLang/FIN:Siuru^ai p_sur_nen ;
@@ -31104,7 +31108,7 @@ Sopanen+OLang/FIN:Sopa p_sur_nen ;
 Soppela+OLang/FIN:Soppela p_plc_1 ;
 Sorjonen+OLang/FIN:Sorjo p_sur_nen ;
 Sormunen+OLang/FIN:Sormu p_sur_nen ;
-Sorola+OLang/FIN:Sorol 3p_sur ; ! ERVASTI elelr annen ODD?
+Sorola+OLang/FIN:Sorol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Soronen+OLang/FIN:Soro p_sur_nen ;
 Sorvisto+OLang/FIN:Sorvisto p_sur_1 ;
 Sotaniemi+OLang/FIN:Sota^niem p_plc_1 ;
@@ -31176,7 +31180,7 @@ Suutarinen+OLang/FIN:Suutari p_sur_nen ;
 Suvanto+OLang/FIN:Suvanto p_plc_1 ;
 Suvela+OLang/FIN:Suvela p_plc_1 ;
 Suvinen+OLang/FIN:Suvi p_sur_nen ;
-Suvitie+Err/Orth+OLang/FIN:Suvitie 3p_sur ;
+Suvitie+Err/Orth+OLang/FIN:Suvitie 3p_sur_0;
 Suvitie+OLang/FIN:Suvitie p_sur_1 ;
 Svappavaara+OLang/FIN:Svappa^vaara p_plc_1 ;
 Svela+OLang/FIN:Svela p_plc_1 ;
@@ -31215,7 +31219,7 @@ Säävälä+OLang/FIN:Säävälä p_plc_1 ;
 Taajoslaavu+OLang/FIN:Taajoslaavu p_plc_1 ;
 Taalikka+OLang/FIN:Taalikka p_sur_1 ;
 Taanila+OLang/FIN:Taanila p_sur_1 ;
-Taattola+OLang/FIN:Taattol 3p_sur ; ! ERVASTI elelr annen ODD?
+Taattola+OLang/FIN:Taattol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Taavila+OLang/FIN:Taavila p_sur_1 ;
 Taavitsainen+OLang/FIN:Taavitsai p_sur_nen ;
 Tahkokuru+OLang/FIN:Tahkokuru p_plc_1 ;
@@ -31242,12 +31246,12 @@ Takamaa+OLang/FIN:Taka^maa p_sur_1 ;
 Takamäki+OLang/FIN:Taka^mäke p4_sur ;
 Takanen+OLang/FIN:Taka p_sur_nen ;
 Takkinen+OLang/FIN:Takki p_sur_nen ;
-Takkula+OLang/FIN:Takkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Takkula+OLang/FIN:Takkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Takkunen+OLang/FIN:Takku p_sur_nen ;
 Tala+OLang/FIN:Tala p_sur_1 ;
 Talikka+OLang/FIN:Talikka p_sur_1 ;
 Tallinna+OLang/FIN:Tallinna p_plc_1 ;
-Talola+OLang/FIN:Talol 3p_sur ; ! ERVASTI elelr annen ODD?
+Talola+OLang/FIN:Talol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Talonen+OLang/FIN:Talo p_sur_nen ;
 Talvensaari+OLang/FIN:Talven^saari p_sur_1 ;
 Talvinen+OLang/FIN:Talvi p_sur_nen ;
@@ -31271,7 +31275,7 @@ Tapanainen+OLang/FIN:Tapanai p_sur_nen ;
 Tapanila+OLang/FIN:Tapanila p_plc_1 ;
 Tapaninaho+OLang/FIN:Tapanin^aho p_sur_1 ;
 Tapaninen+OLang/FIN:Tapani p_sur_nen ;
-Tapola+OLang/FIN:Tapol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tapola+OLang/FIN:Tapol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Taponen+OLang/FIN:Tapo p_sur_nen ;
 Tarhanen+OLang/FIN:Tarha p_sur_nen ;
 Tarkka+OLang/FIN:Tarkka p_sur_1 ;
@@ -31285,10 +31289,10 @@ Tasala+OLang/FIN:Tasala p_sur_1 ;
 Tasanen+OLang/FIN:Tasa p_sur_nen ;
 Taskila+OLang/FIN:Taskila p_plc_1 ;
 Taskinen+OLang/FIN:Taski p_sur_nen ;
-Taskula+OLang/FIN:Taskul 3p_sur ; ! ERVASTI elelr annen ODD?
+Taskula+OLang/FIN:Taskul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tastula+OLang/FIN:Tastula p_sur_1 ;
 Tauriainen+OLang/FIN:Tauri^ai p_sur_nen ;
-Tavola+OLang/FIN:Tavol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tavola+OLang/FIN:Tavol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Teerimäki+OLang/FIN:Teeri^mäke p4_sur ;
 Teho+OLang/FIN:Teho p_fem_1 ;
 Teinilä+OLang/FIN:Teinilä p_sur_1 ;
@@ -31303,7 +31307,7 @@ Tenkanen+OLang/FIN:Tenka p_sur_nen ;
 Tenkula+OLang/FIN:Tenkula p_sur_1 ;
 Tennilä+OLang/FIN:Tennilä p_sur_1 ;
 Tepasto+OLang/FIN:Tepasto p_plc_1 ;
-Teppola+OLang/FIN:Teppol 3p_sur ; ! ERVASTI elelr annen ODD?
+Teppola+OLang/FIN:Teppol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tepponen+OLang/FIN:Teppo p_sur_nen ;
 Terhi+OLang/FIN:Terhi p_fem_1 ;
 Termonen+OLang/FIN:Termo p_sur_nen ;
@@ -31318,7 +31322,7 @@ Tervamäki+OLang/FIN:Terva^mäke p4_sur ;
 Tervanen+OLang/FIN:Terva p_sur_nen ;
 Tervaniemi+OLang/FIN:Terva^nieme p_plc_1 ;
 Tervasmäki+OLang/FIN:Tervas^mäke p4_plc ;
-Tervola+OLang/FIN:Tervol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tervola+OLang/FIN:Tervol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tervonen+OLang/FIN:Tervo p_sur_nen ;
 Teräväinen+OLang/FIN:Teräväi p_sur_nen ;
 Tiainen+OLang/FIN:Ti^ai p_sur_nen ;
@@ -31336,9 +31340,9 @@ Tiilikainen+OLang/FIN:Tiilikai p_sur_nen ;
 Tiilikka+OLang/FIN:Tiilikka p_plc_1 ;
 Tiina+OLang/FIN:Tiina p_fem_1 ;
 Tiirikainen+OLang/FIN:Tiirikai p_sur_nen ;
-Tiirola+OLang/FIN:Tiirol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tiirola+OLang/FIN:Tiirol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tiitinen+OLang/FIN:Tiiti p_sur_nen ;
-Tiitola+OLang/FIN:Tiitol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tiitola+OLang/FIN:Tiitol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tiittanen+OLang/FIN:Tiitta p_sur_nen ;
 Tikanoja+OLang/FIN:Tikan^oja p_sur_1 ;
 Tikka+OLang/FIN:Tikka p_sur_1 ;
@@ -31369,10 +31373,10 @@ Toivainen+OLang/FIN:Toivai p_sur_nen ;
 Toivakka+OLang/FIN:Toivakka p_plc_1 ;
 Toivanen+OLang/FIN:Toiva p_sur_nen ;
 Toiviainen+OLang/FIN:Toivi^ai p_sur_nen ;
-Toivola+OLang/FIN:Toivol 3p_sur ; ! ERVASTI elelr annen ODD?
+Toivola+OLang/FIN:Toivol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Toivonen+OLang/FIN:Toivo p_sur_nen ;
 Toivoniemi+OLang/FIN:Toivo^nieme p_plc_1 ;
-Tokola+OLang/FIN:Tokol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tokola+OLang/FIN:Tokol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tola+OLang/FIN:Tola p_plc_1 ;
 Tolkkinen+OLang/FIN:Tolkki p_sur_nen ;
 Tolonen+OLang/FIN:Tolo p_sur_nen ;
@@ -31380,27 +31384,27 @@ Tolppanen+OLang/FIN:Tolppa p_sur_nen ;
 Tolvanen+OLang/FIN:Tolva p_sur_nen ;
 Tommila+OLang/FIN:Tommila p_sur_1 ;
 Tomminen+OLang/FIN:Tommi p_sur_nen ;
-Tommola+OLang/FIN:Tommol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tommola+OLang/FIN:Tommol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tonava+OLang/FIN:Tonava p_plc_1 ;
 Tonkijärvi+OLang/FIN:Tonki^järve p4_plc ;
 Tonttila+OLang/FIN:Tonttila p_sur_1 ;
 Toppila+OLang/FIN:Toppila p_sur_1 ;
 Toppinen+OLang/FIN:Toppi p_sur_nen ;
 Torikka+OLang/FIN:Torikka p_sur_1 ;
-Torkkola+OLang/FIN:Torkkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Torkkola+OLang/FIN:Torkkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Torniainen+OLang/FIN:Torni^ai p_sur_nen ;
 Tornikoski+OLang/FIN:Torni^koski p_plc_1 ;
 Toropainen+OLang/FIN:Toropai p_sur_nen ;
 Toroskainen+OLang/FIN:Toroskai p_sur_nen ;
 Torssonen+OLang/FIN:Torsso p_sur_nen ;
 Torste+OLang/FIN:Torste p_plc_1 ;
-Tortola+OLang/FIN:Tortol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tortola+OLang/FIN:Tortol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Torvela+OLang/FIN:Torvela p_sur_1 ;
 Torvikoski+OLang/FIN:Tor^vi^koski p_sur_1 ;
 Torvinen+OLang/FIN:Torvi p_sur_nen ;
 Tossavainen+OLang/FIN:Tossavai p_sur_nen ;
 Totovaara+OLang/FIN:Totovaara p_plc_1 ;
-Toukola+OLang/FIN:Toukol 3p_sur ; ! ERVASTI elelr annen ODD?
+Toukola+OLang/FIN:Toukol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Toukonen+OLang/FIN:Touko p_sur_nen ;
 Tourunen+OLang/FIN:Touru p_sur_nen ;
 Truhponen+OLang/FIN:Truhpo p_sur_nen ;
@@ -31414,7 +31418,7 @@ Tuikkala+OLang/FIN:Tuikkala p_sur_1 ;
 Tuikkanen+OLang/FIN:Tuikka p_sur_nen ;
 Tuimala+OLang/FIN:Tuimala p_sur_1 ;
 Tuiskukuru+OLang/FIN:Tuiskukuru p_plc_1 ;
-Tujula+OLang/FIN:Tujul 3p_sur ; ! ERVASTI elelr annen ODD?
+Tujula+OLang/FIN:Tujul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tujunen+OLang/FIN:Tuju p_sur_nen ;
 Tukholma+OLang/FIN:Tukholma p_plc_1 ;
 Tukiainen+OLang/FIN:Tuki^ai p_sur_nen ;
@@ -31430,7 +31434,7 @@ Tuohimaa+OLang/FIN:Tuohi^maa p_sur_1 ;
 Tuohimäki+OLang/FIN:Tuohi^mäke p4_sur ;
 Tuohino+OLang/FIN:Tuohino p_sur_1 ;
 Tuokko+OLang/FIN:Tuokko p_sur_1 ;
-Tuokkola+OLang/FIN:Tuokkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tuokkola+OLang/FIN:Tuokkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tuoma+OLang/FIN:Tuoma p_plc_1 ;
 Tuomaala+OLang/FIN:Tuomaala p_sur_1 ;
 Tuomainen+OLang/FIN:Tuomai p_sur_nen ;
@@ -31447,7 +31451,7 @@ Tuomisalo+OLang/FIN:Tuomi^salo p_sur_1 ;
 Tuomisto+OLang/FIN:Tuomisto p_sur_1 ;
 Tuomivaara+OLang/FIN:Tuomi^vaara p_plc_1 ;
 Tuomo+OLang/FIN:Tuomo p_mal_1 ;
-Tuomola+OLang/FIN:Tuomol 3p_sur ; ! ERVASTI elelr annen ODD?
+Tuomola+OLang/FIN:Tuomol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Tuononen+OLang/FIN:Tuono p_sur_nen ;
 Tuoremaa+OLang/FIN:Tuoremaa p_sur_1 ;
 Tuorila+OLang/FIN:Tuorila p_plc_1 ;
@@ -31514,7 +31518,7 @@ Töyrylä+OLang/FIN:Töyrylä p_plc_1 ;
 Uikujärvi+OLang/FIN:Uiku^järve p4_plc ;
 Uimonen+OLang/FIN:Uimo p_sur_nen ;
 Ukko+OLang/FIN:Ukko p_ani_1 ;
-Ukkola+OLang/FIN:Ukkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Ukkola+OLang/FIN:Ukkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Ukkonen+OLang/FIN:Ukko p_sur_nen ;
 Uko-Luosto+OLang/FIN:Uko-Luosto p_plc_1 ;
 Ukonaho+OLang/FIN:Ukon^aho p_sur_1 ;
@@ -31539,7 +31543,7 @@ Urpalainen+OLang/FIN:Urpalai p_sur_nen ;
 Urpilainen+OLang/FIN:Urpilai p_sur_nen ;
 Urpo+OLang/FIN:Urpo p_mal_1 ;
 Urriaava+OLang/FIN:Urria^ava p_plc_1 ;
-Ursula+OLang/FIN:Ursul 3p_sur ; ! ERVASTI elelr annen ODD? Kanskje..nei..
+Ursula+OLang/FIN:Ursul 3p_sur_0; ! ERVASTI elelr annen ODD? Kanskje..nei..
 Utriainen+OLang/FIN:Utri^ai p_sur_nen ;
 Utsjoki+OLang/FIN:Uts^jok p_plc_1 ;
 Utunen+OLang/FIN:Utu p_sur_nen ;
@@ -31564,7 +31568,7 @@ Vaaranmaa+OLang/FIN:Vaaran^maa p_sur_1 ;
 Vaattovaara+OLang/FIN:Vaatto^vaara p_sur_1 ;
 Vahala+OLang/FIN:Vahala p_sur_1 ;
 Vahteristo+OLang/FIN:Vahteristo p_sur_1 ;
-Vahtola+OLang/FIN:Vahtol 3p_sur ; ! ERVASTI elelr annen ODD?
+Vahtola+OLang/FIN:Vahtol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Vahvanen+OLang/FIN:Vahva p_sur_nen ;
 Vahvelainen+OLang/FIN:Vahvelai p_sur_nen ;
 Vainikainen+OLang/FIN:Vainikai p_sur_nen ;
@@ -31591,7 +31595,7 @@ Valkola+OLang/FIN:Valkola p_plc_1 ; ! ERVASTI elelr annen ODD?
 Valkonen+OLang/FIN:Valko p_sur_nen ;
 Valonen+OLang/FIN:Valo p_sur_nen ;
 Valtanen+OLang/FIN:Valta p_sur_nen ;
-Valtola+OLang/FIN:Valtol 3p_sur ; ! ERVASTI elelr annen ODD?
+Valtola+OLang/FIN:Valtol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Valtonen+OLang/FIN:Valto p_sur_nen ;
 Vanhala+OLang/FIN:Vanhala p_sur_1 ;
 Vanhalakka+OLang/FIN:Vanhalakka p_sur_1 ;
@@ -31606,17 +31610,17 @@ Vantaa+OLang/FIN:Vantaa p_plc_1 ;
 Vanttausjärvi+OLang/FIN:Vanttaus^järve p4_plc ;
 Vapaavuori+OLang/FIN:Vapaa^vuori p_sur_1 ;
 Vapalahti+OLang/FIN:Vapa^lahti p_sur_1 ;
-Vapola+OLang/FIN:Vapol 3p_sur ; ! ERVASTI elelr annen ODD?
-Vappula+OLang/FIN:Vappul 3p_sur ; ! ERVASTI elelr annen ODD?
+Vapola+OLang/FIN:Vapol 3p_sur_0; ! ERVASTI elelr annen ODD?
+Vappula+OLang/FIN:Vappul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Varila+OLang/FIN:Varila p_plc_1 ;
-Varjola+OLang/FIN:Varjol 3p_sur ; ! ERVASTI elelr annen ODD?
+Varjola+OLang/FIN:Varjol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Varjonen+OLang/FIN:Varjo p_sur_nen ;
 Varjoranta+OLang/FIN:Varjo^ranta p_sur_1 ;
 Varkaanjärvi+OLang/FIN:Varkaan^järve p4_plc ;
 Varkaankuru+OLang/FIN:Varkaankuru p_plc_1 ;
 Varonen+OLang/FIN:Varo p_sur_nen ;
 Varpu+OLang/FIN:Varpu p_fem_1 ;
-Varpula+OLang/FIN:Varpul 3p_sur ; ! ERVASTI elelr annen ODD?
+Varpula+OLang/FIN:Varpul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Vartiainen+OLang/FIN:Varti^ai p_sur_nen ;
 Vasajängänoja+OLang/FIN:Vasa^jängän^oja p_plc_1 ;
 Vasarainen+OLang/FIN:Vasarai p_plc_nen ;
@@ -31695,7 +31699,7 @@ Viinamäki+OLang/FIN:Viina^mäke p4_plc ;
 Viinanen+OLang/FIN:Viina p_sur_nen ;
 Viinikainen+OLang/FIN:Viinikai p_sur_nen ;
 Viinikka+OLang/FIN:Viinikka p_plc_1 ;
-Viippola+OLang/FIN:Viippol 3p_sur ; ! ERVASTI elelr annen ODD?
+Viippola+OLang/FIN:Viippol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Viisanen+OLang/FIN:Viisa p_sur_nen ;
 Viita-aho+OLang/FIN:Viita-aho p_sur_1 ;
 Viitaharju+OLang/FIN:Viita^harju p_sur_1 ;
@@ -31711,21 +31715,21 @@ Vilhunen+OLang/FIN:Vilhu p_sur_nen ;
 Viljakainen+OLang/FIN:Viljakai p_sur_nen ;
 Viljamaa+OLang/FIN:Vilja^maa p_sur_1 ;
 Viljanmaa+OLang/FIN:Viljan^maa p_sur_1 ;
-Vilkula+OLang/FIN:Vilkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Vilkula+OLang/FIN:Vilkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Villanen+OLang/FIN:Villa p_sur_nen ;
 Villat+OLang/FIN:Villat 3p_org_C ;
 Vilmunen+OLang/FIN:Vilmu p_sur_nen ;
 Vilokkinen+OLang/FIN:Vilokki p_sur_nen ;
 Vilonen+OLang/FIN:Vilo p_sur_nen ;
 Vilponen+OLang/FIN:Vilpo p_sur_nen ;
-Vilppola+OLang/FIN:Vilppol 3p_sur ; ! ERVASTI elelr annen ODD?
+Vilppola+OLang/FIN:Vilppol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Vilpponen+OLang/FIN:Vilppo p_sur_nen ;
-Vilppula+OLang/FIN:Vilppul 3p_sur ; ! ERVASTI elelr annen ODD?
+Vilppula+OLang/FIN:Vilppul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Vindela+OLang/FIN:Vindela p_plc_1 ;
 Vinikka+OLang/FIN:Vinikka p_sur_1 ;
 Virkajärvi+OLang/FIN:Virka^järve p4_plc ;
 Virkkala+OLang/FIN:Virkkala p_plc_1 ;
-Virkkula+OLang/FIN:Virkkul 3p_sur ; ! ERVASTI elelr annen ODD?
+Virkkula+OLang/FIN:Virkkul 3p_sur_0; ! ERVASTI elelr annen ODD?
 Virkkunen+OLang/FIN:Virkku p_sur_nen ;
 Virola+OLang/FIN:Virola p_sur_1 ;
 Virolainen+OLang/FIN:Virolai p_sur_nen ;
@@ -31830,8 +31834,8 @@ Waddisjärvi+OLang/FIN:Waddis^järve p4_plc ;
 Walkeapää+OLang/FIN:Walkea^pää p_sur_1 ; ! Nils Walkeapää
 Waronen+OLang/FIN:Waro p_sur_nen ;
 Wille-Akseli+OLang/FIN:Wille-Akseli p_mal_1 ;
-Wirkkala+OLang/FIN:Wirkkal 3p_sur ;
-Wirkola+OLang/FIN:Wirkol 3p_sur ; ! ERVASTI elelr annen ODD?
+Wirkkala+OLang/FIN:Wirkkal 3p_sur_0;
+Wirkola+OLang/FIN:Wirkol 3p_sur_0; ! ERVASTI elelr annen ODD?
 Wirtanen+OLang/FIN:Wirta p_sur_nen ;
 Wuolijoki+OLang/FIN:Wuoli^joki p_plc_1 ;
 Yala+OLang/FIN:Yala p_plc_1 ;

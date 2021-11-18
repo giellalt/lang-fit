@@ -9,6 +9,18 @@
 !! **x** in lexicon names referring to the common `affixes/noun.lexc` file.
 !! We do not use **_pl** for names
 
+LEXICON 3p_0 
+!! **LEXICON @LEXNAME@**
++N+Prop: x0_sg ;
+
+LEXICON 3p_mal_0 
+!! **LEXICON @LEXNAME@**
++N+Prop+Mal: x0_sg ;
+
+LEXICON 3p_sur_0 
+!! **LEXICON @LEXNAME@**
++N+Prop+Sur: x0_sg ;
+
 LEXICON 3p_1 
 !! **LEXICON @LEXNAME@**
 +N+Prop: x3_sg ;
@@ -48,6 +60,10 @@ LEXICON 3p_fem_41
 
 LEXICON 3p_mal_1 
 +N+Prop+Sem/Mal: p_adhoc ;
+
+LEXICON p_mal_2
++N+Prop+Sem/Mal: x2_sg ;
+
 
 LEXICON 3p_mal_21_odd_i 
 +N+Prop+Sem/Mal: p_adhoc ;
@@ -286,6 +302,9 @@ LEXICON p_adhoc
 !! Vowel stems, odd and even stems
 
 ! Saba, Elba
+
+LEXICON p_mal_0 +N+Prop+Sem/Mal: x0_sg ;
+
 LEXICON p_plc_1 +N+Prop+Sem/Plc: x1_sg ;
 LEXICON p_sur_1 +N+Prop+Sem/Sur: x1_sg ;
 LEXICON p_mal_1 +N+Prop+Sem/Mal: x1_sg ;
