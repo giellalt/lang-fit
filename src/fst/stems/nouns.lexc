@@ -154,7 +154,7 @@ keskus:kesku 3n_ks ;
 tehas:tehta nas ;
 lahkeus:lahkeu 3n_ue ;
 puhelin:puheli 3n_ime ;
-
+syän:syä 3n_ime ; ! xxx sjekk
 
 talovvanhaa:talovvanhaa nx ;
 tarhaa:tarhaa nx ;
@@ -479,6 +479,7 @@ veenhaltia:veenhaltia n3 ;
 kirkonhaltia:kirkonhaltia n3 ;
 mettähaltia:mettähaltia n3 ;
 valtia:valtia n3 ;
+meetia:meetia n3 ;
 hartia:hartia n3 ;
 vartia:vartia n3 ;
 astia:astia n3 ;
@@ -11354,6 +11355,7 @@ kaivos:kaivo 3n_ks ;
 leivos:leivo 3n_ks ;
 liuvos:liuvo 3n_ks ;
 puu'us:puu'u 3n_ks ;
+mobbaus:mobbau 4n_ks ;
 kuvvaus:kuvvau 4n_ks ;
 hautaus:hautau 4n_ks ;
 vertaaus:vertaau 4n_ks ;
