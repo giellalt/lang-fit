@@ -9,4 +9,4 @@ uoi:oi	3
 e:ee	3
 den:tten	1
 ojen:oitten	1
-ien:itten 1
+ien:itten	1
