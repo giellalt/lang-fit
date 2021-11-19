@@ -24,6 +24,8 @@ i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
+!m4:m      !!= * @CODE@ = mh to hm after short vowel
+!h4:h      !!= * @CODE@ = mh to hm after short vowel
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
@@ -430,12 +432,34 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 !!€ is0o^HMETA>h^V^Vn
 !!€ iss00>0oon
 
+
+
 "h gradation"
 !! **RULE: @RULENAME@**
 h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
         Vow Vow :h Cns Vow: %^HMETA: %> _ ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
 ! issoon, sillhoon <== check this.
+
+
+"hm to mh for InfMa Ill after short vowel 1"
+!! **RULE: @RULENAME@**
+h:m <=> Cns Vow %> _ m: %^A: %^A: ;
+
+"mh to hm for InfMa Ill after short vowel 2"
+!! **RULE: @RULENAME@**
+m:h <=> Cns Vow %> h: _ %^A: %^A: ;
+
+!!€ kasva>hm^A^An
+!!€ kasva>mhaan
+
+!!€ saarna>^A>hm^A^An
+!!€ saarna>a>hmaan
+
+!!€ tule>hm^A^An
+!!€ tule>mhaan
+
+!! ## Gemination rules
 
 "Gemination 0:t"
 !! **RULE: @RULENAME@**
@@ -545,7 +569,7 @@ a:e <=> _ %^AE: ;
 a:0 <=>                                              _ %^HMETA: %> ;        ! before metathesis h
     [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
-    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>     [i3:|j] ;   ! ??? 
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   ! ??? 
 
 !! **Tests:**
 !!€ kuva>i2ss^A
@@ -820,3 +844,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 ! sanno>issa ! hmm
 ! san0a^HMETA>h^Vin
 ! sann00>hoin
+
+! Test that deliberately fails.
+
+!!€ a
+!!€ b

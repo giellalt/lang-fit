@@ -148,7 +148,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
-+V+InfMa: 3infcase ;
++V+InfMa:%>^A 3infcase ;
 
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
 
