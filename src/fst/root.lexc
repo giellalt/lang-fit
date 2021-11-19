@@ -173,6 +173,7 @@ Multichar_Symbols
  +Clt	    !!≈ * **@CODE@** = 
  +Qst	    !!≈ * **@CODE@** = 
  +Foc/han   !!≈ * **@CODE@** = 
+ +Foc/haan   !!≈ * **@CODE@** = 
  +Foc/ka   !!≈ * **@CODE@** = sjekk denne xxx
 +Foc/kaan  !!≈ * **@CODE@** = 
  +Foc/kin   !!≈ * **@CODE@** = 
@@ -424,6 +425,8 @@ LEXICON K
 +Foc/kin:%>ki # ;
 +Foc/kin:%>kin # ;
 +Foc/kaan:%>kh^A^An # ;
++Foc/haan:%>h^A^An # ; ! koirathaan
++Foc/han:%>h^An # ;   ! koirathan
 
 LEXICON NEGK
 # ;
