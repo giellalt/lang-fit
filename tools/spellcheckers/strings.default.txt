@@ -47,3 +47,21 @@ nkh:nk	9
 ia:ija	4
 ai:aji	4
 ue:uoe	4
+
+aa:haa	2
+ee:hee	2
+ii:hii	2
+oo:hoo	2
+uu:huu	2
+yy:hyy	2
+ää:hää	2
+öö:höö	2
+
+maa:hmaa	2
+mee:hmee	2
+mii:hmii	2
+moo:hmoo	2
+muu:hmuu	2
+myy:hmyy	2
+mää:hmää	2
+möö:hmöö	2
