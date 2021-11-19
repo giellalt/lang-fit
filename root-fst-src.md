@@ -170,6 +170,7 @@ Tag
  * **+Clt** = 
  * **+Qst** = 
  * **+Foc/han** = 
+ * **+Foc/haan** = 
  * **+Foc/ka** = sjekk denne xxx
  * **+Foc/kaan** = 
  * **+Foc/kin** = 

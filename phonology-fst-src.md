@@ -229,7 +229,25 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *is0o^HMETA>h^V^Vn*
 * *iss00>0oon*
 
+
+
 **RULE: h gradation**
+
+
+**RULE: hm to mh for InfMa Ill after short vowel 1**
+
+**RULE: mh to hm for InfMa Ill after short vowel 2**
+
+* *kasva>hm^A^An*
+* *kasva>mhaan*
+
+* *saarna>^A>hm^A^An*
+* *saarna>a>hmaan*
+
+* *tule>hm^A^An*
+* *tule>mhaan*
+
+## Gemination rules
 
 **RULE: Gemination 0:t**
 
@@ -479,5 +497,9 @@ All vowel harmony is taken care of with one rule.
 
 
 
+
+
+* *a*
+* *b*
 * * *
 <small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/phonology.twolc)</small>
