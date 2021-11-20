@@ -2342,6 +2342,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
  * %^E2I:0    = kiele- > kieli
  * %^HMETA:0  = vow metathesis for ill
  * %^AE:0     = a to e in otta- > otethaan
+ * %^IDEL:0   = trigger to delete i
  * %>         = suffix boundary
  * i2:i       = plural of nouns
  * i3:i       = past tense of verbs
@@ -2358,7 +2359,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 Here we group the symbols in convenient sets.
 
 
- * Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ; 
+ * Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
  * DummyBorder    = Dummy %> ;                                          
  * ArchiVowel     = %^A %^O %^U ;                                        
  * SomeVowel      = %^V ;                                                
@@ -2666,7 +2667,6 @@ There are also some other vowel change rules.
 **RULE: ä:e**
 
 
-
 ###  e rules
 
 **RULE: e:0** deletes *-e-* in LNR stems as well as before -i-
@@ -2712,7 +2712,10 @@ There are also some other vowel change rules.
 * *sana>i2^A*
 * *sano>ja*
 
+**RULE: i:e**
 
+* *tukki>i2^A*
+* *tukke>ja*
 
 
 ###  o rules
@@ -4985,6 +4988,7 @@ Tag
  * **%^TES** =  in use?
  * **%^VDEL** = Deleting long vowel in rakkaa- > rakas
  * **%^EDEL** = Deleting e in front of consonant
+ * **%^IDEL** = Deleting i in front of i
  * **%^AE** = for a to e change
  * **%^M2N** = for m to n in lumi lunta
  * **%^¤** = potecting against e:i word-finally (nalle, liike)

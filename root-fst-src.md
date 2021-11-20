@@ -215,6 +215,7 @@ Tag
  * **%^TES** =  in use?
  * **%^VDEL** = Deleting long vowel in rakkaa- > rakas
  * **%^EDEL** = Deleting e in front of consonant
+ * **%^IDEL** = Deleting i in front of i
  * **%^AE** = for a to e change
  * **%^M2N** = for m to n in lumi lunta
  * **%^¤** = potecting against e:i word-finally (nalle, liike)
