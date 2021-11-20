@@ -680,6 +680,9 @@ i:j <=> Vow _ k:0 :Vow ; ! pojan
 !! **RULE: @RULENAME@**
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
+"i3:0"
+i3:0 <=> a:o %> _ ;
+
 !! **Tests:**
 
 !!€ sana>i2^A
