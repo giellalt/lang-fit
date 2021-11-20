@@ -17,6 +17,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø  !!= * @CODE@
 %^E2I:0   !!= * @CODE@ = kiele- > kieli
 %^HMETA:0 !!= * @CODE@ = vow metathesis for ill
 %^AE:0    !!= * @CODE@ = a to e in otta- > otethaan
+%^IDEL:0  !!= * @CODE@ = trigger to delete i
 %>        !!= * @CODE@ = suffix boundary
 i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
@@ -37,7 +38,7 @@ t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 
 Sets
 
-Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ ; !!= * @CODE@
+Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; !!= * @CODE@
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
@@ -614,17 +615,19 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 ä:e <=> _ %^AE: %^WG: %> t h  ;
 
 
-
 !! ###  e rules
 
 "e:0"
 !! **RULE: @RULENAME@** deletes *-e-* in LNR stems as well as before -i-
-e:0 <=>       _ h %> e ; ! säkheen  deletion before h in e stems
-              _ %^HMETA: ;
+e:0 <=>                                                   _ h %> e ; ! säkheen del before h in e stems
+                                                          _ %^HMETA: ;
+                           [.#.|#:] Cns:* Vow:+ [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
+                           [.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
+                              [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
+                              [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
+[.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
+                                                     Cns: _ (WeakGrade) %> [i2:|i3:|i4:] ;
 !     k: s _ [.#.|#|t] ; ! look at this
-[.#.|#:] Cns:* Vow:+ [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
-[.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
-         Cns: _ (WeakGrade) %> [i2:|i3:|i4:] ;
 
 !! **Tests:**
 
@@ -651,7 +654,8 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
-	           Cns: _ (WeakGrade) %>  [i2:|i3:] ; ! sopia : sopi, oppia : oppi 
+	           Cns: _ (WeakGrade) %>  [i2:|i3:] ; ! sopia : sopi, oppia : oppi
+		   Cns: _ %^IDEL: %> i2: ; ! tukki : tukkitten
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !! **Tests:**
@@ -681,7 +685,12 @@ i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 !!€ sana>i2^A
 !!€ sano>ja
 
+"i:e"
+!! **RULE: @RULENAME@**
+i:e <=> Cns _ %> i2: ;
 
+!!€ tukki>i2^A
+!!€ tukke>ja
 
 
 !! ###  o rules
