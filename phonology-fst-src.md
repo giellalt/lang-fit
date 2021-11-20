@@ -381,6 +381,7 @@ There are also some other vowel change rules.
 
 **RULE: i2:j**
 
+
 **Tests:**
 
 * *sana>i2^A*
