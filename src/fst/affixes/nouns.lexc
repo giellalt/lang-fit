@@ -130,7 +130,7 @@ LEXICON x1_sg_oblique
 LEXICON x1_pl 
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
- +Pl+Gen:%>i2tten PxK ;
+ +Pl+Gen:^IDEL%>i2tten PxK ;
  +Pl+Gen+Err/Orth:%>i2en PxK ;
  +Pl+Par:%>i2^A PxK ;
  +Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
@@ -213,7 +213,7 @@ LEXICON x3_sg
 
 LEXICON x3_oblique_sg
  +Sg+Gen:^WG%>n PxK ;
- +Sg+Par:%>t^A PxK ;
+ +Sg+Par:%>^A PxK ;
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
  +Sg+Ela:^WG%>st^A PxK ;
@@ -227,7 +227,7 @@ LEXICON x3_oblique_sg
 LEXICON x3_pl
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>i2tten PxK ;
- +Pl+Par:%>i2t^A PxK ;
+ +Pl+Par:%>j^A PxK ;
  +Pl+Ill:^HMETA%>h^Vi n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
@@ -487,7 +487,7 @@ LEXICON 3n_ime_pl
  +Pl+Abl:m%>i2lt^A PxK ;
 
 
-LEXICON nas
+LEXICON nas ! tehas
 +N: xnas ;
  +N+Sg+Nom:^WGs R ;
  +N+Sg+Gen:a%>n R ;
@@ -532,8 +532,8 @@ LEXICON 3mies
  +N+Sg+Tra:he TRA ;
 
  +N+Pl+Nom:he%>t PxK ;
- +N+Pl+Gen:he%>i2den PxK ;
- +N+Pl+Par:he%>i2^A PxK ;
+ +N+Pl+Gen:h%>ien PxK ;
+ +N+Pl+Par:h%>i^A PxK ;
  +N+Pl+Ill:hii n_PxK ;
  +N+Pl+Ine:he%>i2ss^A PxK ;
  +N+Pl+Ela:he%>i2st^A PxK ;
@@ -550,7 +550,7 @@ LEXICON n_uus
  +N+Sg+Nom:uus     PxK ;
  +N+Sg+Gen:uue%>n PxK ;
  +N+Sg+Par:uut%>t^A PxK ;
- +N+Sg+Ill:uuy^HMETA%>h^V^V n_PxK ;
+ +N+Sg+Ill:uut^HMETA%>h^V^V n_PxK ;
  +N+Sg+Ine:uu%>ess^A PxK ;
  +N+Sg+Ela:uu%>est^A PxK ;
  +N+Sg+All:uu%>elle PxxK ;
