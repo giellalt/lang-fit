@@ -219,6 +219,7 @@ i7	 !!≈ * **@CODE@** = i in conditional of contract verbs (with gemination)
  %^TES		 !!≈ * **@CODE@** =  in use?
  %^VDEL          !!≈ * **@CODE@** = Deleting long vowel in rakkaa- > rakas
  %^EDEL          !!≈ * **@CODE@** = Deleting e in front of consonant
+ %^IDEL          !!≈ * **@CODE@** = Deleting i in front of i
  %^AE            !!≈ * **@CODE@** = for a to e change
  %^M2N           !!≈ * **@CODE@** = for m to n in lumi lunta
  %^¤		 !!≈ * **@CODE@** = potecting against e:i word-finally (nalle, liike)
