@@ -7,6 +7,13 @@
 
 These pages document the work on the [Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit).
 
+## Meänkielen korjausohjelma (LibreOffice)
+
+- Hae [LibreOffice](https://www.libreoffice.org/download/download/)
+- Hae [korjausohjelman Macile ja Windowsille](fit_LO-voikko-5.0.oxt)
+- Instalasuuni: Kaksoisklikkaa **fit_LO-voikko-5.0.oxt**-fiiliä
+- Käyttö: 
+
 ## Resources  based upon this Meänkieli language model
 
 * [Meänkieli linguistic tools](https://giellatekno.uit.no/cgi/index.fit.eng.html)
