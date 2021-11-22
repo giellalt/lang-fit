@@ -196,7 +196,8 @@ LEXICON kuka_relkys_obl
 
 LEXICON kuka_relkys_sgpl
 +Gen:nen   K ;
-+Gen:nenkä   K ;
++Gen+Foc/ka:nenkä   K ;
++Gen+Foc/kas:nenkäs   K ;
 +Ill:nheen  K ;
 +Par:tä  K ;
 +Ess:nenä    K ;
