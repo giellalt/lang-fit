@@ -366,8 +366,8 @@ Numeral phrases
 ### Preposition/postposition/adverb rules
 
 
-
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
 
 * **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 
@@ -448,6 +448,9 @@ eli
 
 ## Adjectives
 
+### toinen
+
+
 
 
 
@@ -467,12 +470,18 @@ jos
 
 ko	
 
+mutta
+
 sillä	
 
 
 
 ## Pronouns
 
+### sie
+
+
+### tet
 
 
 
@@ -483,6 +492,7 @@ sillä
 ## Verb rules, Verbs
 
 ### Infinitive
+
 
 
 

@@ -172,6 +172,7 @@ Tag
  * **+Foc/han** = 
  * **+Foc/haan** = 
  * **+Foc/ka** = sjekk denne xxx
+ * **+Foc/kas** = sjekk denne xxx
  * **+Foc/kaan** = 
  * **+Foc/kin** = 
  * **+Foc/pa** = 

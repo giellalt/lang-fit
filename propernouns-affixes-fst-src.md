@@ -4,14 +4,16 @@
 This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
 
 In the lexica,
-**p** in lexicon names stands for proper noun.
-Even-syllable stems are unmarked, odd stems are marked **3**.
-**x** in lexicon names referring to the common `affixes/noun.lexc` file.
+**p** in lexicon names = proper noun.
+Even stems are unmarked, odd stems are marked **3**.
+**x** in lexicon names points to the common `affixes/noun.lexc` file.
 We do not use **_pl** for names
 
 **LEXICON 3p_0**
 
 **LEXICON 3p_mal_0**
+
+**LEXICON 3p_plc_0**
 
 **LEXICON 3p_sur_0**
 
@@ -32,6 +34,7 @@ We do not use **_pl** for names
 **LEXICON 3p_fem_1**
 
 ... and many more.
+
 
 
 

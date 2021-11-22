@@ -366,8 +366,8 @@ Numeral phrases
 ### Preposition/postposition/adverb rules
 
 
-
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
+
 
 * **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 
@@ -448,6 +448,9 @@ eli
 
 ## Adjectives
 
+### toinen
+
+
 
 
 
@@ -467,12 +470,18 @@ jos
 
 ko	
 
+mutta
+
 sillä	
 
 
 
 ## Pronouns
 
+### sie
+
+
+### tet
 
 
 
@@ -483,6 +492,7 @@ sillä
 ## Verb rules, Verbs
 
 ### Infinitive
+
 
 
 
@@ -2708,6 +2718,12 @@ There are also some other vowel change rules.
 **RULE: i2:j**
 
 
+* *sano>i3*
+* *sano>0*
+
+* *alka>i3*
+* *alko>0*
+
 **Tests:**
 
 * *sana>i2^A*
@@ -3476,14 +3492,16 @@ from fkv
 This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
 
 In the lexica,
-**p** in lexicon names stands for proper noun.
-Even-syllable stems are unmarked, odd stems are marked **3**.
-**x** in lexicon names referring to the common `affixes/noun.lexc` file.
+**p** in lexicon names = proper noun.
+Even stems are unmarked, odd stems are marked **3**.
+**x** in lexicon names points to the common `affixes/noun.lexc` file.
 We do not use **_pl** for names
 
 **LEXICON 3p_0**
 
 **LEXICON 3p_mal_0**
+
+**LEXICON 3p_plc_0**
 
 **LEXICON 3p_sur_0**
 
@@ -3504,6 +3522,7 @@ We do not use **_pl** for names
 **LEXICON 3p_fem_1**
 
 ... and many more.
+
 
 
 
@@ -4062,7 +4081,7 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
  * tämä+Pron+Dem:tä tama ; 
  * tuo+Pron+Dem:tuo tuo ; 
- * nämä+Pron+Dem+Pl+Nom:nämä K ; 
+ * nämä+Pron+Dem+Pl+Nom:nämät K ; 
  * nämä+Pron+Dem+Pl:näi namaobl ; 
 
  * mikä+Pron+Rel+Sg:mi relkys ; 
@@ -4640,6 +4659,7 @@ Consonant stems
 
 
 
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/nouns.lexc)</small>
 
@@ -4663,6 +4683,12 @@ The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/mai
 This file documents [the file for Meänkieli propernouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc).
 
 Contrary to other GiellaLT languages, the Meänkieli FST is not set up to use the language-independent name base found in the infrastructure.
+
+In the lexica,
+**p** in lexicon names = proper noun.
+Even stems are unmarked, odd stems are marked **3**.
+**x** in lexicon names points to the common `affixes/noun.lexc` file.
+We do not use **_pl** for names
 
 32000 names
 
@@ -4946,6 +4972,7 @@ Tag
  * **+Foc/han** = 
  * **+Foc/haan** = 
  * **+Foc/ka** = sjekk denne xxx
+ * **+Foc/kas** = sjekk denne xxx
  * **+Foc/kaan** = 
  * **+Foc/kin** = 
  * **+Foc/pa** = 
