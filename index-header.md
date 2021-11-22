@@ -11,7 +11,8 @@ These pages document the work on the [Meänkieli (Tornedalen Finnish) language m
 
 - Hae [LibreOffice](https://www.libreoffice.org/download/download/)
 - Hae [korjausohjelman Macile ja Windowsille](fit_LO-voikko-5.0.oxt)
-- Instalasuuni: Kaksoisklikkaa **fit_LO-voikko-5.0.oxt**-fiiliä
+- Instalasuuni: Kaksoisklikkaa **fit_LO-voikko-5.0.oxt**-fiiliä ja klikkaa **OK** 
+- Ava Libreoffice toisti
 - Käyttö: Valitte kieleks **{fit}**
 
 ## Resources  based upon this Meänkieli language model
