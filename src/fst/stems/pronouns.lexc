@@ -24,7 +24,7 @@ se+Pron+Dem+Sg:   se_pron ;   !!≈ * @CODE@
 
 tämä+Pron+Dem:tä tama ; !!≈ * @CODE@ 
 tuo+Pron+Dem:tuo tuo ; !!≈ * @CODE@ 
-nämä+Pron+Dem+Pl+Nom:nämä K ; !!≈ * @CODE@ 
+nämä+Pron+Dem+Pl+Nom:nämät K ; !!≈ * @CODE@ 
 nämä+Pron+Dem+Pl:näi namaobl ; !!≈ * @CODE@ 
 
 mikä+Pron+Rel+Sg:mi relkys ; !!≈ * @CODE@ 
@@ -37,7 +37,7 @@ joka+Pron+Rel+Pl:jo jo_rel_pl ;  !! ... etc.
 mikä+Pron+Interr+Pl:mi mi_rel_pl ;
 joka+Pron+Interr+Pl:jo jo_rel_pl ;
 
-kuka+Pron+Prel+Sg+Nom:kuka # ;
+kuka+Pron+Prel+Sg+Nom:kuka K ;
 kuka+Pron+Rel:ke kuka_relkys_obl ;
 
 kumpi+Pron+Interr+Sg:kum kumpi ;
