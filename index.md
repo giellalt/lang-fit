@@ -12,12 +12,11 @@ These pages document the work on the [Meänkieli (Tornedalen Finnish) language m
 - Hae [LibreOffice](https://www.libreoffice.org/download/download/)
 - Hae [korjausohjelman Macile ja Windowsille](fit_LO-voikko-5.0.oxt)
 - Instalasuuni: Kaksoisklikkaa **fit_LO-voikko-5.0.oxt**-fiiliä
-- Käyttö: 
+- Käyttö: Valitte kieleks **{fit}**
 
 ## Resources  based upon this Meänkieli language model
 
 * [Meänkieli linguistic tools](https://giellatekno.uit.no/cgi/index.fit.eng.html)
-* [Experimental Meänkieli spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose **Tornedalen Finnish** from the menu *Languages*)
 
 ## Project documentation
 
