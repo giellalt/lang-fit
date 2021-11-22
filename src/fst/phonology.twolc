@@ -681,7 +681,13 @@ i:j <=> Vow _ k:0 :Vow ; ! pojan
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 "i3:0"
-i3:0 <=> a:o %> _ ;
+i3:0 <=> :o %> _ ;
+
+!!€ sano>i3
+!!€ sano>0
+
+!!€ alka>i3
+!!€ alko>0
 
 !! **Tests:**
 
