@@ -814,13 +814,12 @@ REMOVE:NomParNum Gen IF (0 Num + Nom)(1 Par);
 
 #!! ### Preposition/postposition/adverb rules
 
-REMOVE Po IF (NOT -1 Gen);
-
-#% Met panema  oven ja klasireijät kiini.
 
 #!! * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 REMOVE:PoNeedsGen Po IF (NOT -1 Gen);
 #% Met panema  oven ja klasireijät kiini.
+
+REMOVE:PronPo Dem IF (0 Pers + Gen)(1C Po);
 
 #!! * **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 SELECT:Prifgenpar Pr IF (1 Gen OR Par);
@@ -949,6 +948,10 @@ SELECT:miksi Adv IF (0 ("miksi"))(NOT 1  Tra);
 
 #!! ## Adjectives
 
+#!! ### toinen
+SELECT:Atoinen A IF (0 ("toinen") + $$NUMBER + $$CASE)(1 A + $$NUMBER + $$CASE OR N + $$NUMBER + $$CASE); 
+
+
 REMOVE:AdjNotN N + $$NUMBER + $$CASE IF (0 A + $$NUMBER + $$CASE) (1 N + $$NUMBER + $$CASE);
 
 SELECT:eriNom A + Nom IF (0 ("eri") + Sg + Nom)(1 N + Sg + Nom);
@@ -984,6 +987,10 @@ REMOVE:josNotProp Prop IF (0 ("jos" CS));
 REMOVE:koNotCC CC IF (0 ("ko" CS));
 # Awaiting exaples with CC.
 	
+#!! mutta
+REMOVE:muttaCS Prop IF (-1 BOS)(0 ("mutta"));
+	       #$ Mutta se meni hyvin.
+
 #!! sillä	
 SELECT CS IF (-1 BOS OR CLB)(0 ("sillä"))(NOT 1 V);
 #$ , sillä tarkoitus oli tulla.
@@ -994,8 +1001,14 @@ REMOVE CC IF (-1 V)(0 CS)(1 N OR A OR Pron);
 
 #!! ## Pronouns
 
+#!! ### sie
 SELECT:sie Pron IF (0 ("sie"))(*0 Sg2);
 
+
+#!! ### tet
+REMOVE:tetAll ("tie") IF (*-1 Ref-VERB)(0 ("tet"));
+	      #$ Mie sanon sen teile.
+ 
 REMOVE:Pers Dem IF (0 Pers)(NOT 1 NPMOD OR N);
 
 REMOVE:Rel Interr IF (0 Rel)(-1 N);
@@ -1017,6 +1030,8 @@ SELECT Inf IF (-1 AUX);
 #$ Hän sai kuula ette Jeesus oli tulemassa.
 
 SELECT:InfAfterInd Inf IF (-1C Ind);
+
+REMOVE:GenInfE InfE IF (NOT -1 Gen);
 
 
 #!! ## Present Sg3
