@@ -3,31 +3,19 @@
 
 !! This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
 
-!! In the lexica,
-!! **p** in lexicon names = proper noun.
-!! Even stems are unmarked, odd stems are marked **3**.
-!! **x** in lexicon names points to the common `affixes/noun.lexc` file.
+!! The lexicon napes have 3 parts, divided by "_"
+!! In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
+!! The first part gives the semantic tag. Names that can be both plc and sur are marked plc.
+!! The third part is identical to the number in the `affixes/noun.lexc` file. Thus, **_1** points to the lexicon **x1**, etc.
 !! We do not use **_pl** for names
 
-LEXICON 3p_0 
+LEXICON p_plc_0 
 !! **LEXICON @LEXNAME@**
-+N+Prop: x0_sg ;
++N+Prop+Sem/Mal: x0_sg ;
 
-LEXICON 3p_mal_0 
+LEXICON p_sur_0 
 !! **LEXICON @LEXNAME@**
-+N+Prop+Mal: x0_sg ;
-
-LEXICON 3p_plc_0 
-!! **LEXICON @LEXNAME@**
-+N+Prop+Mal: x0_sg ;
-
-LEXICON 3p_sur_0 
-!! **LEXICON @LEXNAME@**
-+N+Prop+Sur: x0_sg ;
-
-LEXICON 3p_1 
-!! **LEXICON @LEXNAME@**
-+N+Prop: x3_sg ;
++N+Prop+Sem/Sur: x0_sg ;
 
 LEXICON 3p_21ie 
 !! **LEXICON @LEXNAME@**
@@ -43,27 +31,20 @@ LEXICON 3p_nen
 
 LEXICON 3p_C 
 !! **LEXICON @LEXNAME@**
-+N+Prop: p_adhoc ;
++N+Prop: xnc ;
 
 LEXICON 3p_ani_1 
 !! **LEXICON @LEXNAME@**
-+N+Prop+Sem/Ani: p_adhoc ;
++N+Prop+Sem/Ani: x1_sg ;
 
 LEXICON 3p_ani_41 
 !! **LEXICON @LEXNAME@**
-+N+Prop+Sem/Ani: p_adhoc ;
-
-LEXICON 3p_fem_1 
-!! **LEXICON @LEXNAME@**
-+N+Prop+Sem/Fem: p_adhoc ;
++N+Prop+Sem/Ani: xn_ks ;
 
 !! ... and many more.
 
 LEXICON 3p_fem_41 
-+N+Prop+Sem/Fem: p_adhoc ;
-
-LEXICON 3p_mal_1 
-+N+Prop+Sem/Mal: p_adhoc ;
++N+Prop+Sem/Fem: xn_ks ;
 
 LEXICON p_mal_2
 +N+Prop+Sem/Mal: x2_sg ;
@@ -73,15 +54,15 @@ LEXICON 3p_mal_21_odd_i
 +N+Prop+Sem/Mal: p_adhoc ;
 
 LEXICON 3p_mal_41 
-+N+Prop+Sem/Mal: p_adhoc ;
++N+Prop+Sem/Mal: xn_ks ;
 
 LEXICON 3p_malfem_1 
-+N+Prop+Sem/Mal: p_adhoc ;
-+N+Prop+Sem/Fem: p_adhoc ;
++N+Prop+Sem/Mal: x1 ;
++N+Prop+Sem/Fem: x1 ;
 
 LEXICON 3p_malfem_C 
-+N+Prop+Sem/Mal: p_adhoc ;
-+N+Prop+Sem/Fem: p_adhoc ;
++N+Prop+Sem/Mal: xnc ;
++N+Prop+Sem/Fem: xnc ;
 
 LEXICON 3p_obj_1 
 +N+Prop+Sem/Obj: p_adhoc ;
@@ -102,7 +83,7 @@ LEXICON 3p_mal_ks
 +N+Prop+Sem/Mal: xn_ks_sg ;
 
 LEXICON 3p_plc_1 
-+N+Prop+Sem/Plc: x3_pl ;
++N+Prop+Sem/Plc: x3_sg ;
 
 LEXICON 3p_plc_11_ae 
 +N+Prop+Sem/Plc: p_adhoc ;
@@ -153,39 +134,39 @@ LEXICON 3p_sur_1
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON 3p_sur_21ie 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: x1 ;
 
 LEXICON 3p_sur_21ta 
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON 3p_sur_3 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: x3 ;
 
 LEXICON 3p_sur_41 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: xn_ks ;
 
 LEXICON 3p_sur_Cv 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: xnc ;
 
 LEXICON 3p_surmal_1 
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Mal: p_adhoc ;
 
 LEXICON 3p_surmal_41 
-+N+Prop+Sem/Sur: p_adhoc ;
-+N+Prop+Sem/Mal: p_adhoc ;
++N+Prop+Sem/Sur: xn_ks ;
++N+Prop+Sem/Mal: xn_ks ;
 
 LEXICON 3p_surmal_C 
-+N+Prop+Sem/Sur: p_adhoc ;
-+N+Prop+Sem/Mal: p_adhoc ;
++N+Prop+Sem/Sur: xnc ;
++N+Prop+Sem/Mal: xnc ;
 
 LEXICON 3p_surplc_1 
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON 3p_surplc_21ie 
-+N+Prop+Sem/Sur: p_adhoc ;
-+N+Prop+Sem/Plc: p_adhoc ;
++N+Prop+Sem/Sur: x1 ;
++N+Prop+Sem/Plc: x1 ;
 
 LEXICON 3p_surplc_21ta 
 +N+Prop+Sem/Sur: p_adhoc ;
@@ -201,13 +182,13 @@ LEXICON 3p_surplc_nen
 +N+Prop+Sem/Plc: xnen_sg ;
 
 LEXICON 3p_surplc_C 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: xnc ;
 
 LEXICON 3p_x 
-+N+Prop: p_adhoc ;
++N+Prop: nx ;
 
 LEXICON p_1 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON p_22oi 
 +N+Prop: p_adhoc ;
@@ -216,25 +197,25 @@ LEXICON p_nen
 +N+Prop: xnen_sg ;
 
 LEXICON p_ani_41 
-+N+Prop: p_adhoc ;
++N+Prop+Ani: xn_ks ;
 
 LEXICON p_fem_21_oi_AO 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Fem: p_adhoc ;
 
 LEXICON p_fem_31ia 
 +N+Prop: p_adhoc ;
 
 LEXICON p_fem_41 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Fem: xn_ks ;
 
 LEXICON p_mal_41 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Mal: xn_ks ;
 
 LEXICON p_obj_41 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Obj: xn_ks ;
 
 LEXICON p_org_41 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Org: xn_ks ;
 
 LEXICON p_plc_11_AO 
 +N+Prop: p_adhoc ;
@@ -252,7 +233,7 @@ LEXICON p_plc_31ea
 +N+Prop: p_adhoc ;
 
 LEXICON p_plc_41 
-+N+Prop: p_adhoc ;
++N+Prop+Sem/Plc: xn_ks ;
 
 LEXICON p_sur_11_AO_A2I 
 +N+Prop+Sem/Sur: p_adhoc ;
@@ -261,44 +242,47 @@ LEXICON p_sur_41
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_surfem_1 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: x1 ;
++N+Prop+Sem/Fem: x1 ;
 
 LEXICON p_malsur_1 
-+N+Prop+Sem/Mal: p_adhoc ;
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Mal: x1 ;
++N+Prop+Sem/Sur: x1 ;
 
 LEXICON p_surplc_1 
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: x1 ;
++N+Prop+Sem/Plc: x1 ;
 
 LEXICON p_surplc_11_AO_A2I 
 +N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_x 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON vanha_nocmp_prop_1 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON vanha_nocmp_prop_mal_1 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON vanha_nocmp_prop_org_C 
-+N+Prop: p_adhoc ;
++N+Prop: xnc ;
 
 LEXICON vanha_nocmp_prop_plc_1 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON vanha_nocmp_prop_plc_1C 
-+N+Prop: p_adhoc ;
++N+Prop: xnc ;
 
 LEXICON vanha_nocmp_prop_sur_C 
-+N+Prop: p_adhoc ;
++N+Prop: xnc ;
 
 LEXICON vanha_nocmp_prop_surplc_1 
-+N+Prop: p_adhoc ;
++N+Prop: x1 ;
 
 LEXICON vanha_nocmp_prop_surplc_C 
-+N+Prop: p_adhoc ;
++N+Prop: xnc ;
 
 
 LEXICON p_adhoc
@@ -376,14 +360,14 @@ LEXICON 3p_obj_C +N+Prop+Sem/Obj: 3p_sg ;
 
 
 LEXICON p_sg ! Bern
-+All:%>ile K ;
-+Ade:%>il^A K ;
-p_common ;
++Sg+All:%>ile K ;
++Sg+Ade:%>il^A K ;
++Sg: p_common ;
 
 LEXICON 3p_sg ! London
-+All:%>ille K ;
-+Ade:%>ill^A K ;
-p_common ;
++Sg+All:%>ille K ;
++Sg+Ade:%>ill^A K ;
++Sg: p_common ;
 
 LEXICON p_common 
 +Nom: K ; ! London
