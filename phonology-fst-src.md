@@ -388,6 +388,9 @@ There are also some other vowel change rules.
 * *alka>i3*
 * *alko>0*
 
+* *juo>i3*
+* *j0o>i*
+
 **Tests:**
 
 * *sana>i2^A*

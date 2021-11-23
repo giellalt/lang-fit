@@ -15,6 +15,7 @@ The first part of the file adds tags, and the second lists the adverbs.
 
  * LEXICON advkk  checked and with geminate clitic
 
+
 ## The adverbs themselves (some 1200)
 
  * LEXICON Adverb 

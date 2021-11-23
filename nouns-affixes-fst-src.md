@@ -88,6 +88,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 
 
+
 The nainen (nen) and hevonen (3nen) family
 
 **LEXICON nen**

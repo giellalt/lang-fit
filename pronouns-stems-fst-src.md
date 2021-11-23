@@ -18,6 +18,7 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
  * tämä+Pron+Dem:tä tama ; 
  * tuo+Pron+Dem:tuo tuo ; 
  * nämä+Pron+Dem+Pl+Nom:nämät K ; 
+ * nämä+Pron+Dem+Pl+Nom+Err/Orth:nämä K ; 
  * nämä+Pron+Dem+Pl:näi namaobl ; 
 
  * mikä+Pron+Rel+Sg:mi relkys ; 
