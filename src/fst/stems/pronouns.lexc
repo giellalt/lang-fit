@@ -25,6 +25,7 @@ se+Pron+Dem+Sg:   se_pron ;   !!≈ * @CODE@
 tämä+Pron+Dem:tä tama ; !!≈ * @CODE@ 
 tuo+Pron+Dem:tuo tuo ; !!≈ * @CODE@ 
 nämä+Pron+Dem+Pl+Nom:nämät K ; !!≈ * @CODE@ 
+nämä+Pron+Dem+Pl+Nom+Err/Orth:nämä K ; !!≈ * @CODE@ 
 nämä+Pron+Dem+Pl:näi namaobl ; !!≈ * @CODE@ 
 
 mikä+Pron+Rel+Sg:mi relkys ; !!≈ * @CODE@ 
