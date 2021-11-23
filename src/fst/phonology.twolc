@@ -170,6 +170,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
+                      t _ Vow: %^HMETA: %> h [i i|%^V: %^V:] ;
 !        [.#.|#:] Cns:* Vow:+ Cns:+ Vow:+ [l|n|r] _ Vow:+ WeakGrade ; ! imarela : imartelen
 !       Vow:+ Cns:+ i t     _ Vow:+     WeakGrade ; ! esitellä
 !       VowelNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
@@ -681,13 +682,16 @@ i:j <=> Vow _ k:0 :Vow ; ! pojan
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 "i3:0"
-i3:0 <=> :o %> _ ;
+i3:0 <=> :Vow Cns:+ :o %> _ [.#.|%>]m;
 
 !!€ sano>i3
 !!€ sano>0
 
 !!€ alka>i3
 !!€ alko>0
+
+!!€ juo>i3
+!!€ j0o>i
 
 !! **Tests:**
 
