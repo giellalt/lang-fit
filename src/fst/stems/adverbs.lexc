@@ -16,6 +16,10 @@ LEXICON adv !!≈ * @CODE@  checked
 LEXICON advkk !!≈ * @CODE@  checked and with geminate clitic
 +Adv: KK ;
 
+LEXICON advpx
++Adv: K ;
++Adv+PxSg3:%>ns^A K ;
+
 !! ## The adverbs themselves (some 1200)
 
 LEXICON Adverb  !!≈ * @CODE@ 
@@ -1056,7 +1060,7 @@ liikheelä advx ;
 lentheelä advx ;
 lähelä advx ;
 sielä advx ;
-vielä advx ;
+vielä adv ;
 jäljelä advx ;
 järjelä advx ;
 keskelä advx ;
@@ -1111,8 +1115,8 @@ lähimpänä advx ;
 tääpänä advx ;
 toissapäivänä advx ;
 ikipäivänä advx ;
-tykönä advx ;
-vieläpä advx ;
+tykönä adv ;
+tykösti adv ;
 tuliterä advx ;
 ylheensä advx ;
 yhtheensä advx ;
@@ -1232,7 +1236,8 @@ hätänäppää advx ;
 hätänäppää advx ;
 lissää advx ;
 vastapäifhäää advx ;
-tykö advx ;
+tykö advpx ;
+tyköä adv ;
 ypö advx ;
 typö advx ;
 tavalisesti advkk ;
