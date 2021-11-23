@@ -187,9 +187,12 @@ LEXICON x2_pl
  +Pl+Abe:%>ei2tt^A PxK ;
 
 LEXICON 3nc
- +N+Sg+Nom: PxK ;      ! jiddisch
- +N:i x3_oblique_sg ; ! jiddischin
- +N:i x3_pl ;         ! jiddischit
++N: xnc ;
+
+LEXICON xnc
+ +Sg+Nom: PxK ;      ! jiddisch
+ :i x3_oblique_sg ; ! jiddischin
+ :i x3_pl ;         ! jiddischit
  
 LEXICON n3 ! kanava
  +N: x3 ;
@@ -496,7 +499,7 @@ LEXICON xnas
  +Sg+Nom:^WGs       PxK ;
  +Sg+Gen:a%>n PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
- +Sg+Ill:as^HMETA%>h^V^V n_PxK ;
+ +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ine:a%>ss^A PxK ;
  +Sg+Ela:a%>st^A PxK ;
  +Sg+All:a%>lle PxxK ;
