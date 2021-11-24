@@ -769,7 +769,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:a <=> a: %^HMETA: %> h:     _ :a ;
           a: %^HMETA: %> h:  :a _    ;
-          a           %> (h)    _ [n|t|%>|.#.] ;
+          a           %> (h)    _ [n|t|s|l|%>|.#.] ;
 
 !! **Tests:**
 
@@ -784,7 +784,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:o <=> o: %^HMETA: %> h:    _ [:i|:o] ;
           o: %^HMETA: %> h: :o _  ;
-          o           %> (h)   _ [n|t|%>|.#.] ;
+          o           %> (h)   _ [n|t|s|l|%>|.#.] ;
 
 !! **Tests:**
 
@@ -795,7 +795,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:i <=> i: %^HMETA: %> h:    _ :i ;
           i: %^HMETA: %> h: :i _    ;
-         :i           %> (h)   _ [n|t|%>|.#.] ;
+         :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
 
 !! **Tests:**
 
@@ -807,31 +807,31 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:ä <=> ä: %^HMETA: %> h:    _ :ä ;
           ä: %^HMETA: %> h: :ä _    ;
-          ä           %> (h)   _ [n|t|%>|.#.] ;
+          ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:e <=> e: %^HMETA: %> h:    _ :e ;
           e: %^HMETA: %> h: :e _    ;
-           :e         %>       _ [n|t|%>|.#.] ;
+           :e         %>       _ [n|t|s|l|%>|.#.] ;
           
 "ö copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:ö <=> ö: %^HMETA: %> h:    _ :ö ;
           ö: %^HMETA: %> h: :ö _    ;
-          ö           %> (h)   _ [n|t|%>|.#.] ;
+          ö           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "y copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:y <=> y: %^HMETA: %> h:    _ :y ;
           y: %^HMETA: %> h: :y _    ;
-          y           %> (h)   _ [n|t|%>|.#.] ;
+          y           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "u copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:u <=> u: %^HMETA: %> h:    _ :u ;
           u: %^HMETA: %> h: :u _    ;
-          u           %> (h)   _ [n|t|%>|.#.] ;
+          u           %> (h)   _ [n|t|s|l|%>|.#.] ;
 
 
 
