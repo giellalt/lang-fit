@@ -493,31 +493,31 @@ LEXICON 3n_ime_pl
 LEXICON nas ! tehas
 +N: xnas ;
  +N+Sg+Nom:^WGs R ;
- +N+Sg+Gen:a%>n R ;
+ +N+Sg+Gen:%>^Vn R ;
 
 LEXICON xnas
  +Sg+Nom:^WGs       PxK ;
- +Sg+Gen:a%>n PxK ;
+ +Sg+Gen:%>^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
- +Sg+Ine:a%>ss^A PxK ;
- +Sg+Ela:a%>st^A PxK ;
- +Sg+All:a%>lle PxxK ;
- +Sg+Ade:a%>ll^A PxK ;
- +Sg+Abl:a%>ll^A PxK ;
- +Sg+Abe:a%>tt^A PxK ;
- +Sg+Ess:a%>n^A PxK ;
- +Sg+Tra:a TRA ;
+ +Sg+Ine:%>^Vss^A PxK ;
+ +Sg+Ela:%>^Vst^A PxK ;
+ +Sg+All:%>^Vlle PxxK ;
+ +Sg+Ade:%>^Vll^A PxK ;
+ +Sg+Abl:%>^Vll^A PxK ;
+ +Sg+Abe:%>^Vtt^A PxK ;
+ +Sg+Ess:%>^Vn^A PxK ;
+ +Sg+Tra:%>^V TRA ;
 
- +Pl+Nom:a%>t PxK ;
- +Pl+Gen:a%>i2den PxK ;
- +Pl+Par:a%>i2t^A PxK ;
- +Pl+Ill:a^HMETA%>h^Vi n_PxK ;
- +Pl+Ine:a%>i2ss^A PxK ;
- +Pl+Ela:a%>i2st^A PxK ;
- +Pl+All:a%>i2lle PxxK ;
- +Pl+Ade:a%>i2ll^A PxK ;
- +Pl+Abl:a%>i2lt^A PxK ;
+ +Pl+Nom:%>^Vt PxK ;
+ +Pl+Gen:%>^Vi2den PxK ;
+ +Pl+Par:%>^Vi2t^A PxK ;
+ +Pl+Ill:%>^V^HMETA%>h^Vi n_PxK ;
+ +Pl+Ine:%>^Vi2ss^A PxK ;
+ +Pl+Ela:%>^Vi2st^A PxK ;
+ +Pl+All:%>^Vi2lle PxxK ;
+ +Pl+Ade:%>^Vi2ll^A PxK ;
+ +Pl+Abl:%>^Vi2lt^A PxK ;
 
 
 LEXICON 3mies
