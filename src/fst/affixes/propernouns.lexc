@@ -197,7 +197,7 @@ LEXICON p_nen
 +N+Prop: xnen_sg ;
 
 LEXICON p_ani_41 
-+N+Prop+Ani: xn_ks ;
++N+Prop+Sem/Ani: xn_ks ;
 
 LEXICON p_fem_21_oi_AO 
 +N+Prop+Sem/Fem: p_adhoc ;
