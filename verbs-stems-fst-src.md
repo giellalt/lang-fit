@@ -58,8 +58,9 @@ v3 syödä, juoda
 
 
  * **tehä:te v3tehda ;** 
+ * **tehhä:te v3tehda ;** 
  * **käyä:kä v3kayda ;**  
- * **nähä:nä v3nahda ;** 
+ * **nähhä:nä v3nahda ;** 
 
 v4 tulla, mennä
  * **tulla:tul v4 ;** 
