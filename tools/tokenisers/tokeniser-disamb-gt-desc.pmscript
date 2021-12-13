@@ -33,7 +33,7 @@ Define inputmark    [ 0:"@PMATCH_INPUT_MARK@" | 0:"@PMATCH_BACKTRACKING@" ];
 !! * The symbol following {•} is byte-order-mark / zero-width no-break space
 !!   `U+FEFF`.
 Define incondform      Punct|
-                       {„}|{“}|{”}|{…}|{‚}|{‘}|{’}|
+                       {„}|{“}|{”}|{…}|{‚}|{‘}|
                        {–}|{—}|{­}|{_}|{<}|{>}|{«}|{»}|
                        {@}|{'}|{‹}|{›}|{➤}|{•}|{﻿} ;
 
@@ -82,7 +82,7 @@ Define alphabet "a-z" !! * lower-case ASCII
                | {}
                ;
 
-Define alphamiddle {'}|{-}|{:} ; ! Treat foo-bar as one big unknown, but -foo (or bar-) as two tokens
+Define alphamiddle {’}|{'}|{-}|{:} ; ! Treat foo-bar as one big unknown, but -foo (or bar-) as two tokens
 Define alphaword alphabet+ ( alphamiddle alphabet+ );
 ! TODO: Could use something like this, but built-in's don't include šžđčŋ:
 ! Define MixCase(X) [OptCap(X) | UpCase(X)];
