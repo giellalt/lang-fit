@@ -14,22 +14,22 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 
 ## The lemma list itself
 
- LEXICON AdjectiveRoot
+LEXICON AdjectiveRoot@CODE@
 
 a1
- * tuttu a1 ;
- * selvä a1 ;
- * kuiva a1 ;
+* tuttu a1 ;@CODE@
+* selvä a1 ;@CODE@
+* kuiva a1 ;@CODE@
 ...
 
 a3 
- * komea a3 ;
- * muikea a3 ;
- * privaatti a3 ; xxx a1?
+* komea a3 ;@CODE@
+* muikea a3 ;@CODE@
+* privaatti a3 ;a1? xxx a1?
 
 a4
- * pieni:piene a4 ;
- * vanhaa:vanhaa ax ;
+* pieni:piene a4 ;@CODE@
+* vanhaa:vanhaa ax ;@CODE@
 
 
 

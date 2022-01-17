@@ -32,50 +32,50 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 
 The rest of the file contains some 5500 verbs.
 
- * **LEXICON VerbRoot** = The verb list 
+* **LEXICON VerbRoot** = The verb list 
 
 
 Irregular verbs
- * **olla: OLLA ;** 
- * **ei: NEG ;** 
+* **olla: OLLA ;** 
+* **ei: NEG ;** 
 
 
 v1 sanoa, lukea
- * **sanoa:sano v1 ;** 
- * **hukkua:hukku v1 ;** 
+* **sanoa:sano v1 ;** 
+* **hukkua:hukku v1 ;** 
 
 
 v2 tryykätä
- * **hypätä:hyppä v2 ;** 
- * **tryykätä:tryykkä v2 ;** 
+* **hypätä:hyppä v2 ;** 
+* **tryykätä:tryykkä v2 ;** 
 
 
 v3 syödä, juoda
- * **syä:sy SYA ;** 
- * **jua:ju JUA ;** 
+* **syä:sy SYA ;** 
+* **jua:ju JUA ;** 
 
 
 
 
- * **tehä:te v3tehda ;** 
- * **tehhä:te v3tehda ;** 
- * **käyä:kä v3kayda ;**  
- * **nähhä:nä v3nahda ;** 
+* **tehä:te v3tehda ;** 
+* **tehhä:te v3tehda ;** 
+* **käyä:kä v3kayda ;**  
+* **nähhä:nä v3nahda ;** 
 
 v4 tulla, mennä
- * **tulla:tul v4 ;** 
- * **mennä:men v4 ;** 
+* **tulla:tul v4 ;** 
+* **mennä:men v4 ;** 
 
 v5 tarvita
- * **tarvita:tarvi v5 ;** 
+* **tarvita:tarvi v5 ;** 
 
 v6 paeta
- * **paeta:pake v6 ;** 
+* **paeta:pake v6 ;** 
 
 
 Then comes the long list
- * **trukittaaa:trukittaa v1 ;** 
- * **lehathaa:lehatha v1 ;** 
+* **trukittaaa:trukittaa v1 ;** 
+* **lehathaa:lehatha v1 ;** 
 * ...
 
 * * *

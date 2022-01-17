@@ -23,7 +23,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
  * i4:i       = i in conditional of isi
  * i5:i       = superlative i of adjectives
  * p2:p t2:t k2:k     = always p t k.
- * **t3:t** = t participating in gradation, but not in t:s
+* **t3:tt:s** = t participating in gradation, but not in t:s
  * t4:t        goes to 0 in imartelee : imarella
  * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
  * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
@@ -58,7 +58,7 @@ Here we group the symbols in convenient sets.
 This defines strings used often in rules.
 
 
- WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
+WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;@CODE@
 
 
 # Rules 

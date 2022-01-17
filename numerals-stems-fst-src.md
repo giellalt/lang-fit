@@ -330,7 +330,7 @@ being very rare to extinct for nouns.
 
 
 
- * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
+* **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
 
 
 

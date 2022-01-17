@@ -29,7 +29,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 Irregular verbs
 
- * **LEXICON OLLA**
+* **LEXICON OLLA**@CODE@****
 
 
 
@@ -37,12 +37,12 @@ Irregular verbs
 
 
 
- * **LEXICON NEG**
+* **LEXICON NEG**@CODE@****
 
 
 Regular verbs
 
- * **LEXICON v1** sanoa, lukea, antaa
+* **LEXICON v1antaa** sanoa, lukea, antaa
 
 
 
@@ -53,7 +53,7 @@ Regular verbs
 
 
 
- * **LEXICON v2** huomata, ymmärtää
+* **LEXICON v2ymmärtää** huomata, ymmärtää
 
 
 
@@ -64,14 +64,14 @@ Regular verbs
 
 
 
- * **LEXICON SYA** syä, myä
+* **LEXICON SYAmyä** syä, myä
 
- * **LEXICON JUA**
+* **LEXICON JUA**@CODE@****
 
 
- * **LEXICON v3_j**
+* **LEXICON v3_j**@CODE@****
 
- * **LEXICON v3**
+* **LEXICON v3**@CODE@****
 
 
 
@@ -84,7 +84,7 @@ Regular verbs
 
 
 
- LEXICON v3kayda käyđä:kä from fkv
+LEXICON v3kaydafkv käyđä:kä from fkv
 
 
 
@@ -97,7 +97,7 @@ Regular verbs
 
 
 
- LEXICON v3nahda nähđä:nä = from fkv
+LEXICON v3nahdafkv nähđä:nä = from fkv
 
 
 
@@ -106,7 +106,7 @@ Regular verbs
 
 
 
- LEXICON v3tehda tehđä:te from fkv
+LEXICON v3tehdafkv tehđä:te from fkv
 
 
 
@@ -118,7 +118,7 @@ Regular verbs
 
 
 
- * **LEXICON v4**
+* **LEXICON v4**@CODE@****
 
 
 
@@ -131,7 +131,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_3la** varjela:varjel
+* **LEXICON v4_3lavarjela:varjel** varjela:varjel
 
 
 
@@ -147,7 +147,7 @@ Regular verbs
 
 
 
- * **LEXICON v4_4lla**
+* **LEXICON v4_4lla**@CODE@****
 
 
 
@@ -164,7 +164,7 @@ Regular verbs
 
 
 
- * **LEXICON v5**  kehitä:kehi  
+* **LEXICON v5**  kehitä:kehi  
 
 
 
@@ -177,7 +177,7 @@ Regular verbs
 
 
 
- * **LEXICON v6** =  paeta:pake
+* **LEXICON v6paeta:pake** =  paeta:pake
 
 
 
@@ -193,7 +193,7 @@ Regular verbs
 ## Subparadigms
 ### Conditional forms
 
- **LEXICON 2cond** kehitä:kehi  
+**LEXICON 2cond** kehitä:kehi  
 
 
 
@@ -209,11 +209,11 @@ from fkv
 
 
 
- LEXICON v12pers Only sg12, pl12 so far
+LEXICON v12persfar Only sg12, pl12 so far
 
 
 
- LEXICON PRFPRC_OBL is without nom sg from fkv
+LEXICON PRFPRC_OBLfkv is without nom sg from fkv
 
 
 

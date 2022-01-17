@@ -270,11 +270,11 @@ forms which requires great amount of care in the inflection patterns.
 
 
 
- * **LEXICON ARABICCASES**  adds +Arab
+* **LEXICON ARABICCASES+Arab**  adds +Arab
 
- * **LEXICON ARABICCASE**  adds +Arab
+* **LEXICON ARABICCASE+Arab**  adds +Arab
 
- * **LEXICON ARABICCASE0**  adds +Arab
+* **LEXICON ARABICCASE0+Arab**  adds +Arab
 
 
 

@@ -4,17 +4,17 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 
 ## The tags
 
- * +Pr: K ;  prx
+* +Pr: K ;prx  prx
 
- * +Pr: K ; 
+* +Pr: K ; 
 
 ## The prepositons
 
- * yli:yli pr ; 
- * ennen pr ; 
- * ympäri pr ; 
- * jahka prx ; 
- * joka prx ; 
+* yli:yli pr ; 
+* ennen pr ; 
+* ympäri pr ; 
+* jahka prx ; 
+* joka prx ; 
 ..
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/prepositions.lexc)</small>
