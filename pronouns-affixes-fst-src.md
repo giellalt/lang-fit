@@ -8,7 +8,7 @@ This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morph
 
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
-LEXICON 12pronsgyksikkö on 1., 2. p. yksikkö
+LEXICON 12pronsg on 1., 2. p. yksikkö
 
 
 

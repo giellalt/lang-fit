@@ -12,26 +12,26 @@ In addition, it also points to comparative and superlative lexica.
 **LEXICON ax** pointing to **a1**
 
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-* +A: x1 ;@CODE@
-* +A+Comp: 3comp ;@CODE@
-* +A+Superl:ime 3sup ;@CODE@
+* +A: x1 ;
+* +A+Comp: 3comp ;
+* +A+Superl:ime 3sup ;
 
 
 **LEXICON a2** gets +A and goes to x2.
-* +A: x2 ;@CODE@
-* +A+Comp: 4comp ;@CODE@
-* +A+Superl:ime 4sup;@CODE@
+* +A: x2 ;
+* +A+Comp: 4comp ;
+* +A+Superl:ime 4sup;
 
 **LEXICON a3** 
-* +A: x3 ;@CODE@
-* +A+Comp: 4comp ;@CODE@
-* +A+Superl:ime 4sup;@CODE@
+* +A: x3 ;
+* +A+Comp: 4comp ;
+* +A+Superl:ime 4sup;
 
 **LEXICON a4** 
-* +A: x4 ;@CODE@
+* +A: x4 ;
 
 **LEXICON anen** 
-* +A: xnen ;@CODE@
+* +A: xnen ;
 
 **LEXICON aas** 
 
@@ -45,14 +45,14 @@ In addition, it also points to comparative and superlative lexica.
 
 ## Comparative inflection
 
-* LEXICON 3compcomparative 2syll adj, 3syll comparative
+* LEXICON 3comp 2syll adj, 3syll comparative
 
-* LEXICON 4compcomparative 3syll adj, 4syll comparative
-
-
+* LEXICON 4comp 3syll adj, 4syll comparative
 
 
-* LEXICON xcomp3syll common for 2syll and 3syll
+
+
+* LEXICON xcomp common for 2syll and 3syll
 
 
 
@@ -60,13 +60,13 @@ In addition, it also points to comparative and superlative lexica.
 
 ### Superlative inflection
 
-* LEXICON 3supsuperlative 2syll adj, 3syll superlative
+* LEXICON 3sup 2syll adj, 3syll superlative
 
-* LEXICON 4supsuperlative 3syll adj, 4syll superlative
-
-
+* LEXICON 4sup 3syll adj, 4syll superlative
 
 
-* LEXICON xsup3syll common for 2syll and 3syll
+
+
+* LEXICON xsup common for 2syll and 3syll
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small>

@@ -96,7 +96,7 @@ The nainen (nen) and hevonen (3nen) family
 **LEXICON xnen**
 
 **LEXICON xnen_sg**
-+Sg:se%> 2cases ;nna for  Ade, All, Ess lla, lle, nna
++Sg:se%> 2cases ; for  Ade, All, Ess lla, lle, nna
 
 **LEXICON xnen_pl**
 
@@ -151,13 +151,13 @@ The nainen (nen) and hevonen (3nen) family
 
 Px is now not in use, with one exception, comitative.
 
-LEXICON n_PxKPx has either -n or goes to Px
+LEXICON n_PxK has either -n or goes to Px
 
-LEXICON i_PxKPx Tra: -i or -e and goes to Px
+LEXICON i_PxK Tra: -i or -e and goes to Px
 
-LEXICON PxKCheck has only -nsA, and is currently not in use. Check
+LEXICON PxK has only -nsA, and is currently not in use. Check
 
-LEXICON PxxK..lleen. has also -Vn, thus both .. llensa and ..lleen.
+LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
 
 

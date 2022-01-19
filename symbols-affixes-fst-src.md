@@ -11,16 +11,16 @@ This file documents [`affixes/synbols.lexc`, the file for the affixes added to l
 * +N+Symbol: # ; 
 
 * LEXICON SYMBOL_connector 
-    - SYMBOL_NO_suff ;§ = §
-    - :%: SYMBOL_suff ;§: = §:
-    - +Err/Orth: SYMBOL_suff ;§ssa = §ssa
-    - +Err/Orth:%-e SYMBOL_suff ;§-essa = §-essa
-    - +Err/Orth:%'e SYMBOL_suff ;§'essä = §'essä
+    - SYMBOL_NO_suff ; = §
+    - :%: SYMBOL_suff ; = §:
+    - +Err/Orth: SYMBOL_suff ; = §ssa
+    - +Err/Orth:%-e SYMBOL_suff ; = §-essa
+    - +Err/Orth:%'e SYMBOL_suff ; = §'essä
 
 * LEXICON SYMBOL_NO_suff 
 * +Sg+Nom: # ; 
 
 * LEXICON SYMBOL_suff 
-* +Sg+Gen:n # ;work cases need work
+* +Sg+Gen:n # ; cases need work
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/symbols.lexc)</small>

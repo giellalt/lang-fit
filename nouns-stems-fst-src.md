@@ -34,7 +34,7 @@ Consonant stems
 ## The lexica themselves
 
 The lemma list 
-* **LEXICON NounRoot**@CODE@****
+* **LEXICON NounRoot**
 
 * kvääni n1 ; 
 * hinta n1 ; 

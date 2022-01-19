@@ -7,7 +7,7 @@ The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/mai
 
 
 * LEXICON Acronym-fit 
-* XXX Acronym-fit-suf ;content  to be replaced with fit content
+* XXX Acronym-fit-suf ;  to be replaced with fit content
 
 
 

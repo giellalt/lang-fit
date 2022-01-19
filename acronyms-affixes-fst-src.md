@@ -10,7 +10,7 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 **LEXICON ACRONOUN_vow**
 
-* **LEXICON UNITparadigm**  As acro, but without paradigm
+* **LEXICON UNIT**  As acro, but without paradigm
 
 * **LEXICON ACRO_ACCRA** 
 

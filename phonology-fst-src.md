@@ -11,54 +11,54 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 
 
 
- * a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø   = the letters
- * %^WG:0     = weak grade
- * %^E2I:0    = kiele- > kieli
- * %^HMETA:0  = vow metathesis for ill
- * %^AE:0     = a to e in otta- > otethaan
- * %^IDEL:0   = trigger to delete i
- * %>         = suffix boundary
- * i2:i       = plural of nouns
- * i3:i       = past tense of verbs
- * i4:i       = i in conditional of isi
- * i5:i       = superlative i of adjectives
- * p2:p t2:t k2:k     = always p t k.
-* **t3:tt:s** = t participating in gradation, but not in t:s
- * t4:t        goes to 0 in imartelee : imarella
- * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
- * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
- * %^N:n  for  participle -nut
+* a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø   = the letters
+* %^WG:0     = weak grade
+* %^E2I:0    = kiele- > kieli
+* %^HMETA:0  = vow metathesis for ill
+* %^AE:0     = a to e in otta- > otethaan
+* %^IDEL:0   = trigger to delete i
+* %>         = suffix boundary
+* i2:i       = plural of nouns
+* i3:i       = past tense of verbs
+* i4:i       = i in conditional of isi
+* i5:i       = superlative i of adjectives
+* p2:p t2:t k2:k     = always p t k.
+* **t3:t** = t participating in gradation, but not in t:s
+* t4:t        goes to 0 in imartelee : imarella
+* %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
+* %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
+* %^N:n  for  participle -nut
 
 ## Sets
 Here we group the symbols in convenient sets.
 
 
- * Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
- * DummyBorder    = Dummy %> ;                                          
- * ArchiVowel     = %^A %^O %^U ;                                        
- * SomeVowel      = %^V ;                                                
- * NeutralVowel   = e i               i2 i3 i4 i5 E I ;                  
- * FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
- * BackVowel      =           a o u å                       A O U Å   ;  
- * RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
- * UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
- * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
- * VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
- * VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
- * Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
- * ArchiCns       = %^N ;                                               
- * LNRM           = l n r m ;                                           
- * SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       
- * Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ;                
- * Segment        = Vowel Cns ;                                         
- * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
+* Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
+* DummyBorder    = Dummy %> ;                                          
+* ArchiVowel     = %^A %^O %^U ;                                        
+* SomeVowel      = %^V ;                                                
+* NeutralVowel   = e i               i2 i3 i4 i5 E I ;                  
+* FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
+* BackVowel      =           a o u å                       A O U Å   ;  
+* RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
+* UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
+* VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
+* VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
+* VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
+* Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
+* ArchiCns       = %^N ;                                               
+* LNRM           = l n r m ;                                           
+* SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       
+* Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ;                
+* Segment        = Vowel Cns ;                                         
+* NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
 
 ## Definitions
 This defines strings used often in rules.
 
 
-WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;@CODE@
+WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
 
 
 # Rules 

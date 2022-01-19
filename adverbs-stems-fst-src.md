@@ -6,14 +6,14 @@ The first part of the file adds tags, and the second lists the adverbs.
 
 ## The tags
 
-* LEXICON advxx Still not checked, hence the x
+* LEXICON advx Still not checked, hence the x
 * +Adv: K ; 
 
-* LEXICON advchecked  checked
+* LEXICON adv  checked
 * +Adv: K ; 
 
 
-* LEXICON advkkclitic  checked and with geminate clitic
+* LEXICON advkk  checked and with geminate clitic
 
 
 ## The adverbs themselves (some 1200)

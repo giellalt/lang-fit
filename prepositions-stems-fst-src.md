@@ -4,7 +4,7 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 
 ## The tags
 
-* +Pr: K ;prx  prx
+* +Pr: K ;  prx
 
 * +Pr: K ; 
 
