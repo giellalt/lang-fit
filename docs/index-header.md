@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
 [![Build status](https://github.com/giellalt/lang-fit/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fit/actions)
 
-These pages document the work on the [Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit).
+These pages document the work on the **[Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit)**.
 
 ## Meänkielen korjausohjelma (LibreOffice)
 
@@ -22,6 +22,7 @@ These pages document the work on the [Meänkieli (Tornedalen Finnish) language m
 ## Project documentation
 
 * Trosterud, Trond 2020: [Språkteknologi for meänkieli](rapport.pdf)
+* [H inserrtion](HInsertion.md)
 
 ## In-source documentation
 
