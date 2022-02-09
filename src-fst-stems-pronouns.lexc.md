@@ -2,14 +2,12 @@
 
 This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
 
-
 * LEXICON Pronoun 
 
 ## Persoonapronominit
 
 * mie+Pron+Pers+Sg:m 12pronsg ; 
 * ...
-
 
 ## Demonstratiivipronominit
 
@@ -28,16 +26,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
 * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
 ... etc.
-
-
-
-
-
-
-
-
-
-
 
 ## Sanakirjasta
 
@@ -59,4 +47,8 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * mä pronx ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+

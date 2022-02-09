@@ -1,3 +1,7 @@
+# Tornedalen Finnish description 
+
+All documents in one file
+
 
 
 # Disambiguator for Meänkieli
@@ -10,16 +14,7 @@ This file documents the [Meänkieli disambiguator file](http://github.com/giella
 
 ## Delimiters, tags and sets
 
-
-
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
-
-
-
-
-
-
-
 
 ### Part-of-Speech
 * N = noun
@@ -86,8 +81,6 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * SET TE = PLPRON + ("te") ; # 
 * SET HE = PLPRON + ("he") ; # 
 
-
-
 ### Cases
 * Nom
 * Gen
@@ -105,40 +98,6 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Ins
 * Com
 * SUBJ-CASE = Nom Par
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Types
 * Prop = Proper noun
@@ -158,12 +117,6 @@ Interrpronpl "kuka" ja "mikä"
 * Act = Active
 * Neg = Negation verb
 
-
-
-
-
-
-
 * COMMA = comma
 
 * Foc/kaan = focus clitic -kaan
@@ -171,27 +124,6 @@ Interrpronpl "kuka" ja "mikä"
 
 * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 * @CNP = Local conjunction or subjunction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Sets with more members
 
@@ -207,148 +139,31 @@ Interrpronpl "kuka" ja "mikä"
 * QVANT-ADV = e.g. paljon, vähän
 * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
-
-
-
-
-
 Boundaries
-
-
 
 * S-BOUNDARY = words that start a sentence
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Verbs
-
-
-
-
-
-
-
-
-
-
 
 * MOD-ASP = auxilaries
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * SV-BOUNDARY = words that start a sentence and finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Disambiguation rules
 
 ### Dialects
 
-
 ### Early rules
-
-
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
-
 * __adv_after_V__ selects adverb if there is a verb to the right
-
 
 * __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
 
 * **Rule: PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
 
 Possessive suffixes
 
@@ -357,24 +172,19 @@ First we put rules to choose Px forms... (forthcomong)
 Then we remove the remaining Px
 * **Rule: NpPx** removes all Px. Thus, as long as no select rules for Px are done, they are removed.
 
-
 Numeral phrases
 
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
-
 ### Preposition/postposition/adverb rules
 
-
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
 
 * **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 
 * **Rule: Poifgenpar** selects  postposition to the right of Gen or Par
 
 * **Rule: vasthaan** not vasta if -1 Par
-
 
 ## Rules for mapping @CVP and @CNP on the CC and CS
 
@@ -384,58 +194,32 @@ Numeral phrases
 
 * **Rule: CNPifInf** maps @CNP to CC between two Inf
 
-
 ## Case rules
 
 ### Partitive
 
-
-
-
-
-
-
-
-
 Genitive
-
 
 ### Illative
 
-
 ## Number rules
-
-
 
 ## More disambiguation rules
 * **Rule: SgNotPl**
-
 
 ### Elative
 
 ## Propernouns
 
-
 ## Verbs
-
 
 ### Specific verbs	
 
-
 ei negation verb
-
 
 eli
 
-
-
-
-
-
-
-
 ## Adverbs
-
 
 ### paljon
 
@@ -443,28 +227,15 @@ eli
 
 ### jälkhiin
 
-
-
-
 ## Adjectives
 
 ### toinen
 
-
-
-
-
-
 Conjunctions
-
-
-
 
 ## Subjunctions
 
-
 että
-
 
 jos
 
@@ -474,63 +245,29 @@ mutta
 
 sillä	
 
-
-
 ## Pronouns
 
 ### sie
 
-
 ### tet
-
-
-
-
-
-
 
 ## Verb rules, Verbs
 
 ### Infinitive
 
-
-
-
-
 ## Present Sg3
-
-
-
-
-
-
 
 ## Present Pl3 or PrsPrc
 
-
-
 ## Present Pl3 or Passive
 
-
-
-
-
-
-
-
 Imperative
-
-
 
 ## Past tense
 
 ### Prt Pl3 or Prt Sg2
 
-
-
 Relative pronouns
-
-
 
 * **Rule: Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
 
@@ -540,8 +277,6 @@ Relative pronouns
 
 * **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
 
-
-
 * **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
 
 * **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
@@ -550,17 +285,13 @@ Relative pronouns
 
 * **Rule: DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 
-
 * **Rule: paljonadvandnotpaljonoun** selects Adv if paljon
 
 * **Rule: Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
 
-
 * **Rule: annaimperativeandnotannaname** removes Prop if Anna se
 
 * **Rule: tulinounfromtuliprtsg3** selects V Sg
-
-
 
 * **Rule: dempronandnotpronpers** selects Den if A of N to the right
 
@@ -568,374 +299,42 @@ Relative pronouns
 
 * **Rule: ImperativeafterNeg** removes Imprt if pronoun
 
-
-
-
-
-
-
-
 * **Rule: interrel** selects Interr of Rel if CS to the right
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **Rule: +FMAINV**  to the remaining finite verbs which are not AUX    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## HNOUN MAPPING
-
-
-
-
-
-
-
-
 
 * **Rule: @<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **Rule: X** maps X everywhere
 
-
 * **Rule: REMOVE X** removes X whenever there is any other tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * WORDLEMMA = regex giving the lemma in question
 
 * **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
 
 This file adds syntactic functions. It is common for all the Saami
 
-
-
-
-
-
-
-
-
-
-
-
-
 LEFT RIGHT because of apertium
-
-
 
 * Sets for POS sub-categories
 
-
-
-
-
 * Sets for Semantic tags
 
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for Morphosyntactic properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Syntactic tags
 
@@ -1040,139 +439,17 @@ LEFT RIGHT because of apertium
 * @CMPND
 * @X : The function is unknown, e.g. because of that the word is unknown
 
-
-
-
-
-
-
-
-
-
-
 ## Tag sets
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for verbs
-
 
 - V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
-
-
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -1180,98 +457,30 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
 * Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Border sets and their complements
 
-
-
-
-
-
-
-
-
-
-
 ADLVCASE
-
-
-
 
 * Syntactic sets
 
-
-
-
-
 These were the set types.
-
-
-
-
 
 ## Numeral outside the sentence
 
-
-
-
 ## HABITIVE MAPPING
-
-
-
-
-
 
 * **hab1** hab aux leat
 
 * __hab_numo1__ hab copula comma comma N+Nom
 
 * __hab_numo2__ copula nu mo/go hab
-
 
 * **leahab** copula nu mo/go hab
 
@@ -1285,12 +494,7 @@ These were the set types.
 
 * **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 
-
-
-
-
 * __hab_main__ (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
-
 
 * **habInf** hab lea inf
 
@@ -1299,8 +503,6 @@ These were the set types.
 * **habAdvl** Ii han ovttasge du sogas leat dat namma.
 
 * **hab4** hab cc hab leat
-
-
 
 * **hab6** lea go hab -- leago hab
 
@@ -1316,7 +518,6 @@ These were the set types.
 * **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
 * **habDain2** 
 
-
 * **habRel** # before relative clause
 
 * **habEllipse** Buot gánddain lea dreassa, nieiddain fas gákti.
@@ -1325,39 +526,11 @@ These were the set types.
 
 * **habGenQst** (<hab> @<ADVL) hab for Gen; in a question sentence. Gen is located sentence initially and SUBJ is found to the right. To the right of SUBJ is copulas
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **n<titel1** (@N<) for ("jr") or ("sr"); if first one to the left is Prop
-
-
 
 * **n<titel2** (@N<) for INITIAL; if first one to the left is a noun, or if to the left of you is a single letter which is part of a noun conjunction *bustávas e ja f gáibiduvvo*
 
-
 * **n<:com** (@N<) for (Sg Com); if first one to the left is Coll
-
-
-
-
-
-
-
-
-
 
 * **>nAttr** (@>N) for Attr; if there is a noun to your right
 
@@ -1365,43 +538,21 @@ These were the set types.
 
 * **n>Indef** (Pron Indef Com); if eará is to the right
 
-
 * **>nNum** (@>N) for numerals if; there is a noun to your right. You are not allowed to be (Sg Nom), (Sg Acc) or (Sem/Date)
-
-
-
 
 * **noun>n** (@>N) for Gen; if there is a noun to your right. Restrictions: Not if you are: a time related word. Not if you are OKTA with Pl Loc to your right. Not if CC is to your right followed by another Gen and then Po. Not if you are HUMAN and to your right is Actio Nom folloed by a noun.
 
-
-
-
-
-
-
-
-
-
 * **>nTime** (@>N) for Gen TIME-N; if timenoun to your right. Restrictions: Not if you are a OKTA Nom with Pl Loc to your right. Not if CC followed by Gen, followed by Po to your right. Not if COMMA to your right
-
-
-
 
 * **>ntittel** (@>N) for (Sg Nom TIME-N) or (Nom Der/NomAg); if to your right is Sem/Mal, Sem/Fem, Sem/Sur
 
 * **>nplc** (@>N) for (Sg Nom Prop Sem/Plc), if to your right is Sem/Plc
 
-
 * **>nALU** (@>N) for Sg Acc numerals; when a measure-noun to the right
-
-
 
 * **>NTime** (@>N) for Gen; if you are TIME-N with BOC to your left, and PREGEN to your right
 
-
-
 * **n<:Refl** (@N<) for (Refl Nom); if to the left is (N Nom), or if first one to the left is a finite mainverb with a (N Nom) to the left
-
 
 * **>pron1** (@>Pron) for GRADE-ADV, DUSSE, BUOT if; first one to the right is Pron
 
@@ -1419,80 +570,17 @@ These were the set types.
 
 * **adv>advl** (@>ADVL) 
 
-
-
-
-
-
 * **BOSvoc** (@VOC) for HUMAN Nom; if sentence initial. To the right is comma. No nom-cased HUMAN followed by comma or CC is allowed to the right. There should not be a relative clause to the right, because then you are likely to be SUBJ
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **voc** (@VOC) for Nom HUMAN; if comma to the left and an second person verb or pronoun to the left. To the right is the end of the sentence
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **Particle<subj** (@PCLE)
-
 
 * **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
 
-
-
-
-
-
 * **Hab<subj** (<ext> @<SUBJ) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 
-
-
 * **Hab<subj** (<ext> @<SUBJ) with relative clause in between
-
 
 * **Hab>Advlcase<subj** (<ext> @<SUBJ) for Nom; it allows adverbials with Ill/Loc/Com/Ess to be found inbetween HAB and <ext>.
 
@@ -1502,19 +590,15 @@ These were the set types.
 
 * **<extSubj** (<ext> @<SUBJ) for sma Nom; if some kind of adverb to the left, N Loc, time related word or Po to the left of it. 
 
-
 * **<extSubjA** (<ext> @<SUBJ) for A - TEST WITHOUT THIS ONE
 
 * **<extSubj** (<ext> @<SUBJ) for Nom; if leat to the left and sentenceboundary
-
-
 
 * **<extSubj** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
 
 * **loc<extSubj** (<ext> @<SUBJ) for Nom
 
 * **<spred** (@<SPRED) for Nom; if Nom to the left, copulas to the left of Nom, and a time related word to the left of it.
-
 
 * **<extQst1** (<ext> @<SUBJ) for Nom; in an existential sentence. To your left is hab, some kind of place or time-word or Po. This is a Qst-sentence so the qst-pcle is attached to leat or following leat
 
@@ -1524,17 +608,9 @@ These were the set types.
 
 * **extQst3>** (<ext> @SUBJ>) for Nom; if habitive first one to the left, followed by copulas.
 
-
 * **<extsubjcoor** (<ext> @<SUBJ) for Nom. Coordination
 
 * Sem/Year
-
-
-
-
-
-
-
 
 * **<spredQst** (@<SPRED) for Nom; in a typically question sentence; You are not allowed to be Pers or human. The special part is that Nom is not allowed to your right
 
@@ -1572,38 +648,20 @@ These were the set types.
 
 * **spredšaddat>** (@SPRED>)
 
-
 * **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
-
-
 * **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
-
-
-
-
 
 * **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
 * **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
 
-
-
-
-
-
-
-
-
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left)
-
-
 
 * **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right.
 * **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
-
 
 * **subj>Sg** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
@@ -1615,120 +673,27 @@ These were the set types.
 
 * **copPl3<subj** (@<SUBJ) for Nom Pl; you don't to be a noun, only Nom Pl. To the left is copulas and first one to the right is @<SPRED
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **-fsubj>** (@-FSUBJ>) for HUMAN Gen; in a NP-clause. To your right is Actio Nom followed by a noun
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
 
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
-
-
-
-
-
-
-
-
-
 
 * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-boundaries. Mainverb to the right.
 
-
-
-
-
 * **diibmuadvl>** (@ADVL>) for (diibmu Nom) if first one to the right is Num
 
-
 * **-fsubj** (@-FSUBJ>) for HUMAN Acc after DADJAT verbs
-
-
 
 * **-fobj>** (@-FOBJ>) for Acc if front of abessive, gerundium, actio locative, perfectum participle or infinitive. First one to the right not allowed to be Acc though
 
 * **-fobj>** (@-FOBJ>) for Acc if human with ADVL-case to the left and transitive infinitive OBJ to the right. First one to the right not allowed to be Acc though
 
-
-
-
-
-
-
-
-
-
-
-
 * **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **V<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
 
-
-
-
-
 * **advl>v** (@ADVL>) if; you are ADVL, time-noun or Sem/Route and there is a finite verb to the right in the clause, or if to your right is: de followed by a finite verb. OR: if you are a time-nound and to your right is: go or sentenceboundary followed by a finite verb
-
-
 
 * **<advlPoPr** (@<ADVL) for Po or Pr; if mainverb to the left.
 * **advlPoPr>** (@<ADVL) for Po or Pr; if mainverb to the right.
@@ -1739,39 +704,25 @@ These were the set types.
 
 * **<advlEOS** (@<ADVL) for Po or Pr or Loc; if you are found at the very end of a sentence. A mainverb is needed to the left though.
 
-
 * **<advlGen** (@<ADVL) for (N Gen) if mainverb to the left and no noun to the right
-
 
 * **<opredgohcodit** (@<OPRED) for Ess
 
-
 * **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
 
-
-
-
 * **comma<advlEOS** (@<ADVL) for Adv if; mainverb is to the left. Comma to the left and mainverb to the right in the same clause is not allowed
-
 
 * **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
 
 * **comma<advlEOS** (@<ADVL) for Adv if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
 
-
-
 * **BOSadvl>** (@ADVL>) if; you are N Loc or N Ill and found sentence initially and there is a main verb somewhere to the right. No barrier for the mainverb; based on the thought that first one to your right is probably a sentenceboundary.
 
 * **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
 
-
-
 * **cleanupPo** (@ADVL) for Po: This rule tags all Po:s as ADVL if they haven't gotten a tag somewhere along the way.
 
 * **cleanupPr** (@ADVL) for Po: This rule tags all Pr:s as ADVL if they haven't gotten a tag somewhere along the way.
-
-
-
 
 * **-fsubj>asAcc** (@-FSUBJ>) for HUMAN Acc; if there is a verb @-F<OBJ to your left
 
@@ -1785,20 +736,11 @@ These were the set types.
 
 * **f<subj** (@-F<SUBJ) for Nom if; (V @-F<OBJ) to the left.
 
-
-
-
-
-
-
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
 * **TV<obj** (@<OBJ) for Acc; if there is a transitive mainverb to the left in the clause. Not for Rel. Not if you are a numeral followed by a measure-noun
 
-
-
 ### sma object
-
 
 * **<advlMeasr** (@<ADVL) for (Num Acc); if finite IV-mainverb to the left, measure-noun to the right
 
@@ -1808,18 +750,11 @@ These were the set types.
 
 * **advlMeasr>** (@ADVL>) for Num Acc;
 
-
 * **Obj>** (@OBJ>) for Acc; if there is a finite mainverb to the right in the clause. A really simple rule with no other restrictions..
 
 * **s-boun<obj** (@<OBJ) for Acc; if sentenceboundary to your left and a transitive mainverb to the left futher to the left
 
 * **<objIV** (@<OBJ) for Acc; if there is an intransitive mainverb in the clause. Not for Rel or Num. Not if you are a numeral followed by a measure-noun
-
-
-
-
-
-
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 
@@ -1833,67 +768,34 @@ These were the set types.
 
 * **onlyV<opred2** (@<OPRED) for (N Ess) if;
 
-
-
-
-
-
-
-
-
-
-
 ## SUBJ MAPPING - leftovers
 
 * **subj>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON or (Num Nom) if; a finite mainverb is found to the right. This is a cleanup rule for subjects
 
 * **hnoun>ifV** (@SUBJ>) for NP-HEAD-NOM, DUPRON if. The counterpart of subj>ifV. You are HNOUN if there is a finite verb to your right, but NOT if there is a finite verb after a relative clause
 
-
 ## OBJ MAPPING - leftovers
 
 ## <logo> MAPPING for MT - experimental
 
-
 ## HNOUN MAPPING
-
-
-
-
-
-
-
-
 
 * **@<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
-
-
-
 ###  **missingX** adds @X to all missings
 
-
-
-
-
 ###  **therestX** adds @X to all what is left, often errouneus disambiguated forms
-
-
-
-
-
 
 ## For Apertium:
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/functions.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+
 # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
 
 This dep file is for sma, sme, smj, sje.
@@ -1902,9 +804,7 @@ This dep file is for sma, sme, smj, sje.
 
 Sentence delimiters are the following: <.> <!> <?> <...> <¶>
 
-
 # TAGS AND SETS
-
 
 N
 V
@@ -1966,91 +866,9 @@ IM For fao
 
 ## POS sub-categories
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Syntactic tags and sets
 
 ### Syntactic tags in input to this file
-
 
 ### Syntactic tags added in this file
 
@@ -2092,7 +910,6 @@ IM For fao
 * <mv> : main verb. A temporarily tag omitted in the end of the file.
 * <aux> : auxilary verb. A temporarily tag omitted in the end of the file.
 
-
 ### fao syntags
 
 * @>V
@@ -2109,232 +926,33 @@ IM For fao
 
 ### Syntactic set definitions
 
-
-
-
-
-
-
-
-
-
-
-
 # Dep grammar
-
-
 
 Correction rules
 
-
-
 * **muitalit**
 
-
 * **XX**
 
 * **XX**
 
 * **XX**
-
-
 
 * **faoSumId=Rel**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## The finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Mapping rules
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/dependency.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/dependency.cg3)</small># Meänkieli twolc file
+
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
+# Meänkieli twolc file
 
 This file documents the [Meänkieli twolc file](http://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc) (the file governing gradation, gemination, vowel harmony and other morphophonological processes).
 
@@ -2344,8 +962,6 @@ The first part of the file contains definitions, the second part contains rules.
 
 ## Alphabet
 This defines all symbols (letters, archiphonemes, triggers) to be used.
-
-
 
 * a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø   = the letters
 * %^WG:0     = weak grade
@@ -2368,7 +984,6 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 ## Sets
 Here we group the symbols in convenient sets.
 
-
 * Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
@@ -2389,17 +1004,13 @@ Here we group the symbols in convenient sets.
 * Segment        = Vowel Cns ;                                         
 * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
-
 ## Definitions
 This defines strings used often in rules.
 
-
 WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
-
 
 # Rules 
 This chapter gives the rules themselves.
-
 
 ## Consonant rules
 
@@ -2429,7 +1040,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **RULE: p:m**
 
-
 **k rules**
 
 **RULE: k:g**
@@ -2448,7 +1058,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *johke^WG*
 * *joh0e0*
 
-
 **RULE: k:j**
 
 **Tests:**
@@ -2457,7 +1066,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylje0>n*
 * *kehke^WG>t^A*
 * *kehje0>tä*
-
 
 **RULE: k:v**
 
@@ -2516,7 +1124,6 @@ t rules
 * *jukertel^WG>l^A*
 * *jukerrel0>la*
 
-
 **RULE: t:s**
 
 **Tests:**
@@ -2527,8 +1134,6 @@ t rules
 * *veri0*
 * *varte^E2I*
 * *varsi0*
-
-
 
 ### Gemination rules
 
@@ -2566,10 +1171,7 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *is0o^HMETA>h^V^Vn*
 * *iss00>0oon*
 
-
-
 **RULE: h gradation**
-
 
 **RULE: hm to mh for InfMa Ill after short vowel 1**
 
@@ -2600,15 +1202,12 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *kuv0a^HMETA>hiin*
 * *kuvv00>hiin*
 
-
-
 ### Assimilation rules
 
 These are assimilation rules for *n* on suffix borders of LNRS consonant stems.
 There is also a rule **j:0** avoiding a *lji* sequence.
 
 **RULE: Alveolar assimilation for consonant stem l**
-
 
 **Tests:**
 
@@ -2626,10 +1225,7 @@ There is also a rule **j:0** avoiding a *lji* sequence.
 
 **RULE: Alveolar assimilation for consonant stem s in participles**
 
-
 **RULE: j:0 in front of i**
-
-
 
 ## Vowel change rules: a - ä - e - i - o - ö - u - y
 
@@ -2676,7 +1272,6 @@ There are also some other vowel change rules.
 
 **RULE: ä:e**
 
-
 ###  e rules
 
 **RULE: e:0** deletes *-e-* in LNR stems as well as before -i-
@@ -2686,15 +1281,12 @@ There are also some other vowel change rules.
 * *tule^WG>i2ss^A*
 * *tul00>issa*
 
-
 **RULE: e:i**
 
 **Tests:**
 
 * *ove^E2I*
 * *ovi0*
-
-
 
 ###  i rules
 
@@ -2717,7 +1309,6 @@ There are also some other vowel change rules.
 
 **RULE: i2:j**
 
-
 * *sano>i3*
 * *sano>0*
 
@@ -2737,7 +1328,6 @@ There are also some other vowel change rules.
 * *tukki>i2^A*
 * *tukke>ja*
 
-
 ###  o rules
 
 **RULE: o:0**
@@ -2755,7 +1345,6 @@ There are also some other vowel change rules.
 * *hölmö^HMETA>h^V^Vn*
 * *hölm00>höön*
 
-
 ###  u rules
 
 **RULE: u:0**
@@ -2765,8 +1354,6 @@ There are also some other vowel change rules.
 * *tuo>i3n*
 * *t0o>in*
 
-
-
 ###  y rules
 
 **RULE: y:0**
@@ -2775,10 +1362,6 @@ There are also some other vowel change rules.
 
 * *syy>i2ss^A*
 * *s0y>issä*
-
-
-
-
 
 ### Vowel copying rules
 
@@ -2796,7 +1379,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 * *maa>h^Vn*
 * *maa>han*
 
-
 **RULE: o copying for h metathesis**
 
 **Tests:**
@@ -2811,7 +1393,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 * *silli^HMETA>h^V^Vn*
 * *sill00>hiin*
 
-
 **RULE: ä copying for h metathesis**
 
 **RULE: e copying for h metathesis**
@@ -2821,9 +1402,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 **RULE: y copying for h metathesis**
 
 **RULE: u copying for h metathesis**
-
-
-
 
 ###  Vowel harmony rule
 
@@ -2844,14 +1422,16 @@ All vowel harmony is taken care of with one rule.
 * *keskus>t^A*
 * *keskus>ta*
 
-
-
-
-
 * *a*
 * *b*
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/phonology.twolc)</small># Noun stems for Meänkieli
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+# Noun stems for Meänkieli
 
 This file documents [the file for Meänkieli nouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc).
 
@@ -2883,7 +1463,6 @@ Consonant stems
 * nas = tehas - tehtaan
 * 3mies = mies
 
-
 ## The lexica themselves
 
 The lemma list 
@@ -2898,21 +1477,17 @@ The lemma list
 * hammashoitoavustus:hammashoitoavustu 4n_ks ; 
 * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
 
-
-
-
-
-
-
 n4 nouns
 
 Consonant stems
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/nouns.lexc)</small># Meänkieli adverbs
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+
+# Meänkieli adverbs
 
 This file documents [the file for Meänkieli adverbs](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc).
 
@@ -2926,9 +1501,7 @@ The first part of the file adds tags, and the second lists the adverbs.
 * LEXICON adv  checked
 * +Adv: K ; 
 
-
 * LEXICON advkk  checked and with geminate clitic
-
 
 ## The adverbs themselves (some 1200)
 
@@ -2938,9 +1511,14 @@ The first part of the file adds tags, and the second lists the adverbs.
 * nimittäin adv ; 
 * liian adv ; 
 ...
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adverbs.lexc)</small># File containing meänkieli abbreviations 
 
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc)</small>
+
+---
+
+# File containing meänkieli abbreviations 
 
 This file documents [the file for Meänkieli abbreviations](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc).
 
@@ -2948,17 +1526,13 @@ The file contains 5-6 abbreviations, and is thus just a placeholder.
 Most fit abbreviations thus come from the common abbreviation file. 
 Here we should add meänkieli-specific ones.
 
-
 ## Lexica for adding tags and periods
-
 
 1. ITRAB ; 
 1. TRNUMAB ; 
 1. TRAB ; 
 
-
 ## The abbreviation lexicon itself
-
 
 ###           Intransitive abbreviations           
 
@@ -2966,14 +1540,11 @@ Here we should add meänkieli-specific ones.
 
 * e.Kr+Adv:e.Kr ab-dot-adv-itrab ; 
 
-
-
 ###     Abreviations who are transitive in front of numerals    
 
 * LEXICON TRNUMAB 
 
 * nro+N:nro ab-noun-trnumab ; 
-
 
 ###             Transitive abbreviations           
 
@@ -2982,7 +1553,12 @@ Here we should add meänkieli-specific ones.
 * esim+A:esim ab-dot-adj-trab ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-abbreviations.lexc)</small># Meänkieli propernouns
+
+<small>This (part of) documentation was generated from [src/fst/stems/fit-abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc)</small>
+
+---
+
+# Meänkieli propernouns
 
 This file documents [the file for Meänkieli propernouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc).
 
@@ -3002,8 +1578,14 @@ ERVASTI?
 * Kiiruna:Kiiruna 3p_plc ; 
 * Niila:Niila p_mal_1 ; 
 * ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-propernouns.lexc)</small># Meänkieli prepositions
+
+<small>This (part of) documentation was generated from [src/fst/stems/fit-propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc)</small>
+
+---
+
+# Meänkieli prepositions
 
 This file documents [`stems/prepositions.lexc`, the file for Meänkieli prepositions](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/prepositions.lexc)  
 
@@ -3021,8 +1603,14 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 * jahka prx ; 
 * joka prx ; 
 ..
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prepositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/prepositions.lexc)</small># Meänkieli interjections
+
+<small>This (part of) documentation was generated from [src/fst/stems/prepositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/prepositions.lexc)</small>
+
+---
+
+# Meänkieli interjections
 
 This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
 
@@ -3036,11 +1624,16 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 * täh ijx ; 
 * pii ijx ; 
 aivan ijx ; aivan ijx ;    * ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/interjections.lexc)</small># Meänkieli pronouns
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+
+# Meänkieli pronouns
 
 This file documents [the file for Meänkieli pronouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc).
-
 
 * LEXICON Pronoun 
 
@@ -3048,7 +1641,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
 * mie+Pron+Pers+Sg:m 12pronsg ; 
 * ...
-
 
 ## Demonstratiivipronominit
 
@@ -3067,16 +1659,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
 * mikä+Pron+Rel+Pl:mi mi_rel_pl ;  
 ... etc.
-
-
-
-
-
-
-
-
-
-
 
 ## Sanakirjasta
 
@@ -3098,7 +1680,12 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * mä pronx ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/pronouns.lexc)</small># Meänkieli subjunctions
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+
+# Meänkieli subjunctions
 
 This file documents [the file for Meänkieli subjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc).
 
@@ -3108,14 +1695,18 @@ This file documents [the file for Meänkieli subjunctions](https://github.com/gi
 * **LEXICON Subjunction** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
 * ette cs ; 
 * vaikka cs ; 
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/subjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/subjunctions.lexc)</small># Meänkieli numerals
+
+<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc)</small>
+
+---
+
+# Meänkieli numerals
 
 This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
 
-
 These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
-
 
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
@@ -3125,9 +1716,6 @@ of cardinals and ordinals, and the non-compounding ones:
 * *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
 * *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
 * *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
-
-
-
 
 The compounding parts of cardinals are the number multiplier words.
 
@@ -3144,7 +1732,6 @@ The suffixes only appear after cardinal multipliers
 * *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
 * *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
 
-
 The compounding parts of ordinals are the number multiplier words.
 
 *Ordinal numerals examples:*
@@ -3152,13 +1739,11 @@ The compounding parts of ordinals are the number multiplier words.
 * *viiđenelle:* `viiđes+A+Ord+Sg+All`
 * *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
 
-
 The suffixes only appear after cardinal multipliers
 
 *Ordinal multiplicants examples:*
 * *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
 * *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
-
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
@@ -3169,7 +1754,6 @@ but are not basic cardinals or ordinals:
 ## Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
-
 
 *Numerals 31 examples:*
 * *yksi:* `yksi+Num+Sg+Nom`
@@ -3185,7 +1769,6 @@ being very rare to extinct for nouns.
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksissä:* `yksi+Num+Pl+Ine`
 
-
 *Numerals 31 back§ examples:*
 * *kaksi:* `kaksi+Num+Sg+Nom`
 * *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
@@ -3200,7 +1783,6 @@ being very rare to extinct for nouns.
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksissa:* `kaksi+Num+Pl+Ine`
 
-
 *Numerals 8~5 examples:*
 * *kolme:* `kolme+Num+Sg+Nom`
 * *kolmheen:* `kolme+Num+Sg+Ill`
@@ -3213,7 +1795,6 @@ being very rare to extinct for nouns.
 * *kolmhiin:* `kolme+Num+Pl+Ill`
 * *kolmina:* `kolme+Num+Pl+Ess`
 * *kolmissa:* `kolme+Num+Pl+Ine`
-
 
 *Numerals 10 examples:*
 * *nelje:* `nelje+Num+Sg+Nom`
@@ -3228,7 +1809,6 @@ being very rare to extinct for nouns.
 * *neljhiin:* `nelje+Num+Pl+Ill`
 * *neljinä:* `nelje+Num+Pl+Ess`
 * *neljissä:* `nelje+Num+Pl+Ine`
-
 
 *Numerals 27 front examples:*
 * *viisi:* `viisi+Num+Sg+Nom`
@@ -3245,7 +1825,6 @@ being very rare to extinct for nouns.
 * *viishiin:* `viisi+Num+Pl+Ill`
 * *viisinä:* `viisi+Num+Pl+Ess`
 
-
 *Numerals 27 back examples:*
 * *kuusi:* `kuusi+Num+Sg+Nom`
 * *kuus:* `kuusi+Num+Sg+Nom`
@@ -3259,8 +1838,6 @@ being very rare to extinct for nouns.
 * *kuussiin:* `kuusi+Num+Pl+Gen`
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
 * *kuushiin:* `kuusi+Num+Pl+Ill`
-
-
 
 *Numerals 10n examples:*
 * *kahđeksen:* `kahđeksen+Num+Sg+Nom`
@@ -3276,7 +1853,6 @@ being very rare to extinct for nouns.
 * *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
 * *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
 
-
 *Numerals 10n front examples:*
 * *yhđeksen:* `yhđeksen+Num+Sg+Nom`
 * *yhđeksee:* `yhđeksen+Num+Sg+Par`
@@ -3291,7 +1867,6 @@ being very rare to extinct for nouns.
 * *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
 * *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
 
-
 *Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
 * *kymmenheen:* `kymmenen+Num+Sg+Ill`
@@ -3305,8 +1880,6 @@ being very rare to extinct for nouns.
 * *kymmenissä:* `kymmenen+Num+Pl+Ine`
 * *kymmeninnä:* `kymmenen+Num+Pl+Ess`
 
-
-
 *Numerals 9 examples:*
 * *sata:* `sata+Num+Sg+Nom`
 * *satana:* `sata+Num+Sg+Ess`
@@ -3317,8 +1890,6 @@ being very rare to extinct for nouns.
 * *sathoin:* `sata+Num+Pl+Ill`
 * *sađoissa:* `sata+Num+Pl+Ine`
 * *satoina:* `sata+Num+Pl+Ess`
-
-
 
 *Numerals 46 examples:*
 * *tuhat:* `tuhat+Num+Sg+Nom`
@@ -3333,8 +1904,6 @@ being very rare to extinct for nouns.
 * *tuhansinna:* `tuhat+Num+Pl+Ess`
 * *tuhansissa:* `tuhat+Num+Pl+Ine`
 
-
-
 *Numerals 10 miljoona examples:*
 * *miljoona:* `miljoona+Num+Sg+Nom`
 * *miljoonanna:* `miljoona+Num+Sg+Ess`
@@ -3346,9 +1915,6 @@ being very rare to extinct for nouns.
 * *miljoonhiin:* `miljoona+Num+Pl+Ill`
 * *miljoonissa:* `miljoona+Num+Pl+Ine`
 * *miljooninna:* `miljoona+Num+Pl+Ess`
-
-
-
 
 *Numerals 5 examples:*
 * *miljardi:* `miljardi+Num+Sg+Nom`
@@ -3362,13 +1928,8 @@ being very rare to extinct for nouns.
 * *miljardiitten:* `miljardi+Num+Pl+Gen`
 * *miljardiina:* `miljardi+Num+Pl+Ess`
 
-
-
-
 *Numerals 5 more examples:*
 * *Googol:* `Googol+Num+Sg+Nom`
-
-
 
 *Numerals 5 moremore examples:*
 * *pari:* `pari+Num+Sg+Nom`
@@ -3382,8 +1943,6 @@ being very rare to extinct for nouns.
 * *parriin:* `pari+Num+Pl+Gen`
 * *parhiin:* `pari+Num+Pl+Ill`
 
-
-
 *Numerals 38 examples:*
 * *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
 * *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
@@ -3395,7 +1954,6 @@ being very rare to extinct for nouns.
 * *ensimäishiin:* `ensimäinen+A+Ord+Pl+Ill`
 * *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
 * *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
-
 
 *Numerals 38 back examples:*
 * *toinen:* `toinen+A+Ord+Sg+Nom`
@@ -3411,7 +1969,6 @@ being very rare to extinct for nouns.
 * *toisissa:* `toinen+A+Ord+Pl+Ine`
 * *toisina:* `toinen+A+Ord+Pl+Ess`
 
-
 *Numerals 45 examples:*
 * *kolmas:* `kolmas+A+Ord+Sg+Nom`
 * *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
@@ -3423,7 +1980,6 @@ being very rare to extinct for nouns.
 * *kolmanssiitten:* `kolmas+A+Ord+Pl+Gen`
 * *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
 * *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
-
 
 *Numerals 45 fron examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
@@ -3438,17 +1994,15 @@ being very rare to extinct for nouns.
 * *neljensissä:* `neljes+A+Ord+Pl+Ine`
 * *neljensinnä:* `neljes+A+Ord+Pl+Ess`
 
-
-
-
 * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/numerals.lexc)</small># Meänkieli postpositions
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+
+# Meänkieli postpositions
 
 This file documents [the file for Meänkieli postpositions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc).
 
@@ -3468,10 +2022,14 @@ This file documents [the file for Meänkieli postpositions](https://github.com/g
 ...
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/postpositions.lexc)</small># Meänkieli adjectives
+
+<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc)</small>
+
+---
+
+# Meänkieli adjectives
 
 This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
-
 
 ## The continuation lexicon types
 
@@ -3480,7 +2038,6 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 * a4 = kaksitavuiset, vartalo -e
 * aas = tarmokas
 * anen = nen-adjektiivit
-
 
 ## The lemma list itself
 
@@ -3501,10 +2058,13 @@ a4
 * pieni:piene a4 ;
 * vanhaa:vanhaa ax ;
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adjectives.lexc)</small># Documenting the file for meänkieli verbs
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+
+# Documenting the file for meänkieli verbs
 
 This file documents [the file for Meänkieli verb stems](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc).
 
@@ -3533,35 +2093,27 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **JUA**
 * **SYA**
 
-
 ## The verb lexica themselves
 
 The rest of the file contains some 5500 verbs.
 
 * **LEXICON VerbRoot** = The verb list 
 
-
 Irregular verbs
 * **olla: OLLA ;** 
 * **ei: NEG ;** 
-
 
 v1 sanoa, lukea
 * **sanoa:sano v1 ;** 
 * **hukkua:hukku v1 ;** 
 
-
 v2 tryykätä
 * **hypätä:hyppä v2 ;** 
 * **tryykätä:tryykkä v2 ;** 
 
-
 v3 syödä, juoda
 * **syä:sy SYA ;** 
 * **jua:ju JUA ;** 
-
-
-
 
 * **tehä:te v3tehda ;** 
 * **tehhä:te v3tehda ;** 
@@ -3578,31 +2130,33 @@ v5 tarvita
 v6 paeta
 * **paeta:pake v6 ;** 
 
-
 Then comes the long list
 * **trukittaaa:trukittaa v1 ;** 
 * **lehathaa:lehatha v1 ;** 
 * ...
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+
+
 
 # Meänkieli aacronyms 
 
 The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc) is a dummy file, with this comtent only:
 
-
-
 * LEXICON Acronym-fit 
 * XXX Acronym-fit-suf ;  to be replaced with fit content
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-acronyms.lexc)</small># Meänkieli conjunctions
+
+<small>This (part of) documentation was generated from [src/fst/stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-acronyms.lexc)</small>
+
+---
+
+# Meänkieli conjunctions
 
 This file documents [the file for Meänkieli conjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc).
 
@@ -3625,7 +2179,6 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 * +Pl2:tä # ; 
 * +Pl3:ivä # ; 
 
-
 ## The conjunctions themselves
 
 * LEXICON Conjunction 
@@ -3634,11 +2187,16 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 * sekä cc ; 
 * ette cc_agr ; 
 ... and some 20 more
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/conjunctions.lexc)</small># Meänkieli noun morphology
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+
+# Meänkieli noun morphology
 
 This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
-
 
 ## This is an overview of the continuation lexicon types. 
 
@@ -3666,8 +2224,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### Unassigned
 * nx = unassigned
 
-
-
 **LEXICON nx** 
 
 **LEXICON nc**
@@ -3688,9 +2244,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x0_pl**
 
-
-
-
 **LEXICON x1**
 
 **LEXICON x1_sg**
@@ -3698,33 +2251,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x1_sg_oblique**
 
 **LEXICON x1_pl**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 The nainen (nen) and hevonen (3nen) family
 
@@ -3737,52 +2263,7 @@ The nainen (nen) and hevonen (3nen) family
 
 **LEXICON xnen_pl**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Sublexica for cases
-
 
 ### Sublexica for possessive suffixes
 
@@ -3796,18 +2277,16 @@ LEXICON PxK has only -nsA, and is currently not in use. Check
 
 LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+
 # Documenting Meänkieli acronym morphology
 
 This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
-
 
 **LEXICON Acronym-fit-suf** for adding +ACR tag
 
@@ -3829,167 +2308,56 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 **LEXICON ACRO_vow**
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/acronyms.lexc)</small>Meänkieli pronoun morphology
+
+<small>This (part of) documentation was generated from [src/fst/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)</small>
+
+---
+
+Meänkieli pronoun morphology
 
 This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)  
 
 # Pronominien morfologia
 
-
-
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
 LEXICON 12pronsg on 1., 2. p. yksikkö
 
-
-
-
 LEXICON 123pronpl 
-
-
-
-
-
-
-
-
-
 
 nuoitä
 
-
 tuotä
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
+
 # Meänkieli numerals 
 
 From fin via fkv.
-
 
 # Numeral inflection
 Numeral inflection is like nominal, except that numerals compound in all
 forms which requires great amount of care in the inflection patterns.
 
-
 *Numeral nominative back examples:*
 * *kaksi:* `kaksi+Num+Sg+Nom` (Eng. # two)
 * *kaks:* `kaksi+Num+Sg+Nom`
-
 
 *Numeral nominative front examples:*
 * *yksi:* `yksi+Num+Sg+Nom` (Eng. # one)
 * *yks:* `yksi+Num+Sg+Nom` (Eng. # one)
 
-
 *Numeral nominative plural back examples:*
 * *kahđet:* `kaksi+Num+Pl+Nom`
 
-
 *Numeral nominative plural front examples:*
 * *yhđet:* `yksi+Num+Pl+Nom`
-
 
 *Numeral weak singular back examples:*
 * *kahđen:* `kaksi+Num+Sg+Gen`
@@ -4001,9 +2369,6 @@ forms which requires great amount of care in the inflection patterns.
 * *kahđeksi:* `kaksi+Num+Sg+Tra`
 * *kahđetta:* `kaksi+Num+Sg+Abe`
 
-
-
-
 *Numeral weak singular front examples:*
 * *yhđen:* `yksi+Num+Sg+Gen`
 * *yhđelä:* `yksi+Num+Sg+Ade`
@@ -4014,20 +2379,11 @@ forms which requires great amount of care in the inflection patterns.
 * *yhđeksi:* `yksi+Num+Sg+Tra`
 * *yhđettä:* `yksi+Num+Sg+Abe`
 
-
-
-
 *Numeral strong singular back examples:*
 * *kahtena:* `kaksi+Num+Sg+Ess`
 
-
-
-
 *Numeral strong singular front examples:*
 * *yhtenä:* `yksi+Num+Sg+Ess`
-
-
-
 
 *Numeral weak plural back examples:*
 * *kaksila:* `kaksi+Num+Pl+Ade`
@@ -4038,9 +2394,6 @@ forms which requires great amount of care in the inflection patterns.
 * *kaksiksi:* `kaksi+Num+Pl+Tra`
 * *kaksitta:* `kaksi+Num+Pl+Abe`
 
-
-
-
 *Numeral weak plural front examples:*
 * *yksilä:* `yksi+Num+Pl+Ade`
 * *yksiltä:* `yksi+Num+Pl+Abl`
@@ -4050,189 +2403,101 @@ forms which requires great amount of care in the inflection patterns.
 * *yksiksi:* `yksi+Num+Pl+Tra`
 * *yksittä:* `yksi+Num+Pl+Abe`
 
-
-
+*Numeral weak plural back strong examples:*
+* *kaksina:* `kaksi+Num+Pl+Ess`
+* *kaksine:* `kaksi+Num+Pl+Com`
 
 *Numeral weak plural back strong examples:*
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksine:* `kaksi+Num+Pl+Com`
 
-
-*Numeral weak plural back strong examples:*
-* *kaksina:* `kaksi+Num+Pl+Ess`
-* *kaksine:* `kaksi+Num+Pl+Com`
-
-
 *Numeral weak plural front strong examples:*
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksine:* `yksi+Num+Pl+Com`
 
-
 *Numeral weak plural front strong examples:*
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksine:* `yksi+Num+Pl+Com`
-
-
-
 
 *Numeral singular partitive a examples:*
 * *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
 
-
-
 *Numeral singular partitive a poss aan examples:*
 * *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
-
 
 *Numeral singular partitive ta examples:*
 * *kuutta:* `kuusi+Num+Sg+Par` (Eng. !six)
 
-
 *Numeral singular partitive tä examples:*
 * *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
-
-
-
 
 *Numeral singular illative an examples:*
 * *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
 
-
 *Numeral singular illative en back examples:*
 * *kolmheen:* `kolme+Num+Sg+Ill`
-
 
 *Numeral singular illative en front examples:*
 * *viitheen:* `viisi+Num+Sg+Ill`
 
-
 *Numeral singular illative in back examples:*
 * *miljardhiin:* `miljardi+Num+Sg+Ill` (Eng. !billion)
-
-
-
 
 *Numeral plural partitive ia examples:*
 * *kaksii:* `kaksi+Num+Pl+Par`
 
-
-
-
-
-
-
-
-
 *Numeral plural partitive ja examples:*
 * *miljardii:* `miljardi+Num+Pl+Par`
 
-
 *Numeral plural genitive ien back examples:*
 * *kaksiin:* `kaksi+Num+Pl+Gen`
-
-
-
-
-
-
-
-
 
 *Numeral plural genitive ten back examples:*
 * *kuussiin:* `kuusi+Num+Pl+Gen`
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !kuussiin on tärkeämpi)
 
-
 *Numeral plural genitive ten front examples:*
 * *viissiin:* `viisi+Num+Pl+Gen`
 * *viitten:* `viisi+Num+Pl+Gen` (Eng. !viissiin on tärkeämpi)
 
-
 *Numeral plural genitive in back examples:*
 
-
 *Numeral plural genitive in front examples:*
-
 
 *Numeral plural illaive ihin bavk examples:*
 * *miljardhiin:* `miljardi+Num+Pl+Ill`
 
-
 *Numeral plural illaive iin back examples:*
 * *kakshiin:* `kaksi+Num+Pl+Ill`
-
-
-
-
 
 *Numeral possessive back examples:*
 * *kahteni:* `kaksi+Num+Sg+Nom+PxSg1` (Eng. !Kainun kielessä possessiivisuffiksiita käytethään aika vähän. Annamme niiden olla täällä toistaiseksi.)
 
-
 *Numeral possessive front examples:*
 * *yhteni:* `yksi+Num+Sg+Nom+PxSg1`
 
-
 *Numeral possessive back aan examples:*
 * *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
-
 
 *Numeral possessive back eenback examples:*
 * *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
 * *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
 
-
 *Numeral possessive back een front examples:*
 * *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
 * *neljekseen:* `nelje+Num+Sg+Tra+PxSg3`
-
 
 *Numeral possessive back ään examples:*
 * *viittänsä:* `viisi+Num+Sg+Par+PxSg3`
 * *viittään:* `viisi+Num+Sg+Par+PxSg3`
 
-
 *Numeral clitic back examples:*
 * *kaksihan:* `kaksi+Num+Sg+Nom+Foc/han`
 * *kakshan:* `kaksi+Num+Sg+Nom+Foc/han`
 
-
 *Numeral clitic front examples:*
 * *yksihän:* `yksi+Num+Sg+Nom+Foc/han`
 * *ykshän:* `yksi+Num+Sg+Nom+Foc/han`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON ARABICCASES**  adds +Arab
 
@@ -4240,25 +2505,13 @@ forms which requires great amount of care in the inflection patterns.
 
 * **LEXICON ARABICCASE0**  adds +Arab
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/numerals.lexc)</small># Meänkieli propernoun morphology
 
+<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/numerals.lexc)</small>
+
+---
+
+# Meänkieli propernoun morphology
 
 This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
 
@@ -4286,119 +2539,19 @@ We do not use **_pl** for names
 
 ... and many more.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Vowel stems, odd and even stems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Consonant stems, odd and even stems
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/propernouns.lexc)</small># Documenting Meänkieli adjective morphology
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+# Documenting Meänkieli adjective morphology
 
 This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
-
 
 Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
 corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
@@ -4412,7 +2565,6 @@ In addition, it also points to comparative and superlative lexica.
 * +A: x1 ;
 * +A+Comp: 3comp ;
 * +A+Superl:ime 3sup ;
-
 
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
@@ -4436,24 +2588,13 @@ In addition, it also points to comparative and superlative lexica.
 
 **LEXICON x1_ton** 
 
-
-
-
-
 ## Comparative inflection
 
 * LEXICON 3comp 2syll adj, 3syll comparative
 
 * LEXICON 4comp 3syll adj, 4syll comparative
 
-
-
-
 * LEXICON xcomp common for 2syll and 3syll
-
-
-
-
 
 ### Superlative inflection
 
@@ -4461,15 +2602,17 @@ In addition, it also points to comparative and superlative lexica.
 
 * LEXICON 4sup 3syll adj, 4syll superlative
 
-
-
-
 * LEXICON xsup common for 2syll and 3syll
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small># Meänkieli verbs
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+# Meänkieli verbs
 
 This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
-
 
 ## Overview over the continuation classes
 
@@ -4492,206 +2635,67 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ## The verb lexica themselves
 
-
 **LEXICON vx**
 
 Irregular verbs
 
 * **LEXICON OLLA**
 
-
-
-
-
-
-
 * **LEXICON NEG**
-
 
 Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa
 
-
-
-
-
-
-
-
-
-
 * **LEXICON v2** huomata, ymmärtää
-
-
-
-
-
-
-
-
-
 
 * **LEXICON SYA** syä, myä
 
 * **LEXICON JUA**
 
-
 * **LEXICON v3_j**
 
 * **LEXICON v3**
 
-
-
-
-
-
-
-
-
-
-
-
 LEXICON v3kayda käyđä:kä from fkv
-
-
-
-
-
-
-
-
-
-
-
 
 LEXICON v3nahda nähđä:nä = from fkv
 
-
-
-
-
-
-
-
 LEXICON v3tehda tehđä:te from fkv
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON v4**
 
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON v4_3la** varjela:varjel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **LEXICON v4_4lla**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON v5**  kehitä:kehi  
 
-
-
-
-
-
-
-
-
-
-
-
 * **LEXICON v6** =  paeta:pake
-
-
-
-
-
-
-
-
-
-
-
 
 ## Subparadigms
 ### Conditional forms
 
 **LEXICON 2cond** kehitä:kehi  
 
-
-
-
-
 ### Infinitive paradigms
-
-
 
 from fkv
 
-
-
-
-
 LEXICON v12pers Only sg12, pl12 so far
-
-
 
 LEXICON PRFPRC_OBL is without nom sg from fkv
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
 This file documents [`affixes/synbols.lexc`, the file for the affixes added to language-independent symbols](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)  
-
 
 * LEXICON Noun_symbols_possibly_inflected 
 * +N+Symbol: SYMBOL_connector ; 
@@ -4711,14 +2715,16 @@ This file documents [`affixes/synbols.lexc`, the file for the affixes added to l
 
 * LEXICON SYMBOL_suff 
 * +Sg+Gen:n # ; cases need work
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/symbols.lexc)</small># Documenting the morphological tags for Meänkieli abbreviations
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+# Documenting the morphological tags for Meänkieli abbreviations
 
 This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
-
-
-
-
 
 Now splitting according to POS, and according to dot or not
 
@@ -4728,23 +2734,17 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON ab-noun**
 
-
 * **LEXICON ab-adj**
 
-
 * **LEXICON ab-adv**
-
 
 * **LEXICON ab-num**
 
 ### Lexicons without final period
 
-
 * **LEXICON ab-nodot-noun**  The bulk
 
-
 * **LEXICON ab-nodot-adj**
-
 
 * **LEXICON ab-nodot-adv**
 
@@ -4752,9 +2752,7 @@ Now splitting according to POS, and according to dot or not
 
 ### Lexicons with final period
 
-
 * **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
-
 
 * **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
@@ -4764,14 +2762,7 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON ab-dot-cc**
 
-
-
 * **LEXICON ab-dot-verb**
-
-
-
-
-
 
 * **LEXICON nodot-attrnomaccgen-infl**
 
@@ -4779,29 +2770,24 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON nodot-nomaccgen-infl**
 
-
 * **LEXICON dot-attrnomaccgen-infl**
 
 * **LEXICON dot-attr**
 
 * **LEXICON dot-nomaccgen-infl**
 
-
 * **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/abbreviations.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)</small>
+
+---
+
+
 # Meänkieli morphological transducer
 
-
 Beware of remnants from the Finnish and Kven files.
-
 
 ## Tags for POS
 * **+A** = Adjective
@@ -4848,7 +2834,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+Prel** 
 * **+Rom** 
 
-
 ### Number
 * **+Sg** = Singular
 * **+Pl** = Plural
@@ -4879,7 +2864,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+PxSg2** = 
 * **+PxSg3** = 
 
-
 ### Comparatives
 * **+Comp** = 
 * **+Superl** = 
@@ -4906,7 +2890,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+TV** transitive
 * **+IV** intransitive
 
-
 ### Infinite verbs
 * **+Inf** = tA Infinitive
 * **+InfE** = e Infinite
@@ -4928,7 +2911,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+OLang/SWE** 
 * **+OLang/UND** 
 
-
 ### Speller tags
 * +Err/Orth only in desc, not in norm.
 * **+Use/-Spell** = Excluded in speller
@@ -4940,14 +2922,12 @@ Beware of remnants from the Finnish and Kven files.
 * **+Err/SpaceCmp** =
 * **+Err/Lex**
 
-
 ### Compounds
 * **+Cmp** =
 * **+Cmp/SplitR** =
 * **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
 * **+CmpNP/First** - ... only be first part in a compound or alone
 * **+CmpNP/None** =
-
 
 ### Derivation
 * **+Der/minen** = 
@@ -4988,7 +2968,6 @@ Tag
 * **+Sem/Plc** = Place names
 * **+Sem/Sur** = Surnames
 
-
 ## Phonological symbols
 
 * **i2** = plural i of nouns
@@ -5019,9 +2998,6 @@ Tag
 * **%^M2N** = for m to n in lumi lunta
 * **%^¤** = potecting against e:i word-finally (nalle, liike)
 
-
-
-
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -5051,8 +3027,6 @@ do no harm.
 |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
 |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
-
-
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
@@ -5063,8 +3037,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
 These tags are for handling errorneous forms
 | Flag | Explanation | 
 |----- |-----------  |
@@ -5072,7 +3044,6 @@ These tags are for handling errorneous forms
 |  @P.ErrOrth.ON@ | tbw
 |  @C.ErrOrth@ | tbw
 |  @R.ErrOrth.ON@ | tbw
-
 
 This is for pronouns with multiple case suffixes (*jommallekummalle*)
 
@@ -5095,7 +3066,6 @@ This is for pronouns with multiple case suffixes (*jommallekummalle*)
 |  @P.compound.block@ | tbw
 |  @D.compound.block@ | tbw
 
-
 These are for preprocessing
 
 | Flag | Explanation | 
@@ -5113,7 +3083,6 @@ These are for preprocessing
 | +Gram/3syll| trisyllabic verbs
 | +Gram/Superl| superlative
 | +Gram/Comp| comparative
-
 
 ### Semantic tags
 
@@ -5155,15 +3124,11 @@ These are for preprocessing
 * **+Sem/Veh**
 * **+Sem/Year**
 
-
-
-
 ## Basic lexica, pointing to the other lexicon files
 
 Here is the Root lexicon, pointing to all the parts of speech:
 
  **LEXICON Root**
-
 
 * AdjectiveRoot ;
 * Adverb ;
@@ -5180,76 +3145,11 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * VerbRoot ;
 * Subjunction ;
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -5411,52 +3311,12 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-fit/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-fit/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -5467,7 +3327,11 @@ retracted tongue root			_q
 % násti% :%*     Root ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Tornedalen Finnish are read out, e.g.
@@ -5482,41 +3346,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -5546,8 +3397,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -5563,7 +3412,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -5626,11 +3474,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -5663,14 +3507,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -5742,22 +3582,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -5765,7 +3598,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -5780,7 +3612,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -5790,7 +3621,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -5804,49 +3634,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -5854,86 +3650,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-fit/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fit/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for fit
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -5948,9 +3692,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -5964,14 +3705,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -5980,7 +3718,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-fit/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for fit
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-fit/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for fit
 
 Usage:
 ```
@@ -5992,12 +3735,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -6012,9 +3750,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -6032,16 +3767,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -6050,4 +3781,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-fit/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-fit/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

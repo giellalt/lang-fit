@@ -27,35 +27,27 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **JUA**
 * **SYA**
 
-
 ## The verb lexica themselves
 
 The rest of the file contains some 5500 verbs.
 
 * **LEXICON VerbRoot** = The verb list 
 
-
 Irregular verbs
 * **olla: OLLA ;** 
 * **ei: NEG ;** 
-
 
 v1 sanoa, lukea
 * **sanoa:sano v1 ;** 
 * **hukkua:hukku v1 ;** 
 
-
 v2 tryykätä
 * **hypätä:hyppä v2 ;** 
 * **tryykätä:tryykkä v2 ;** 
 
-
 v3 syödä, juoda
 * **syä:sy SYA ;** 
 * **jua:ju JUA ;** 
-
-
-
 
 * **tehä:te v3tehda ;** 
 * **tehhä:te v3tehda ;** 
@@ -72,11 +64,14 @@ v5 tarvita
 v6 paeta
 * **paeta:pake v6 ;** 
 
-
 Then comes the long list
 * **trukittaaa:trukittaa v1 ;** 
 * **lehathaa:lehatha v1 ;** 
 * ...
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+

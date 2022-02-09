@@ -2,7 +2,6 @@
 
 This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
 
-
 ## This is an overview of the continuation lexicon types. 
 
 ### Vowel stems
@@ -29,8 +28,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### Unassigned
 * nx = unassigned
 
-
-
 **LEXICON nx** 
 
 **LEXICON nc**
@@ -51,9 +48,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x0_pl**
 
-
-
-
 **LEXICON x1**
 
 **LEXICON x1_sg**
@@ -61,33 +55,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x1_sg_oblique**
 
 **LEXICON x1_pl**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 The nainen (nen) and hevonen (3nen) family
 
@@ -100,52 +67,7 @@ The nainen (nen) and hevonen (3nen) family
 
 **LEXICON xnen_pl**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Sublexica for cases
-
 
 ### Sublexica for possessive suffixes
 
@@ -159,11 +81,9 @@ LEXICON PxK has only -nsA, and is currently not in use. Check
 
 LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

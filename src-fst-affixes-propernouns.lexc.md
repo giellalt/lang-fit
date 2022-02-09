@@ -1,6 +1,5 @@
 # Meänkieli propernoun morphology
 
-
 This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
 
 The lexicon napes have 3 parts, divided by "_"
@@ -27,113 +26,13 @@ We do not use **_pl** for names
 
 ... and many more.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Vowel stems, odd and even stems
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Consonant stems, odd and even stems
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+

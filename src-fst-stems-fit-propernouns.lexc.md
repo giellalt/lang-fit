@@ -18,5 +18,10 @@ ERVASTI?
 * Kiiruna:Kiiruna 3p_plc ; 
 * Niila:Niila p_mal_1 ; 
 * ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/fit-propernouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/fit-propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/fit-propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc)</small>
+
+---
+

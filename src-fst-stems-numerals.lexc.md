@@ -2,9 +2,7 @@
 
 This file documents [the file for Meänkieli numerals](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc).
 
-
 These are taken from fkv, but originally from fin, an FST with **very** different ways of doing things.
-
 
 Numerals have been split in three sections, the compounding parts
 of cardinals and ordinals, and the non-compounding ones:
@@ -14,9 +12,6 @@ of cardinals and ordinals, and the non-compounding ones:
 * *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
 * *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
 * *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
-
-
-
 
 The compounding parts of cardinals are the number multiplier words.
 
@@ -33,7 +28,6 @@ The suffixes only appear after cardinal multipliers
 * *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
 * *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
 
-
 The compounding parts of ordinals are the number multiplier words.
 
 *Ordinal numerals examples:*
@@ -41,13 +35,11 @@ The compounding parts of ordinals are the number multiplier words.
 * *viiđenelle:* `viiđes+A+Ord+Sg+All`
 * *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
 
-
 The suffixes only appear after cardinal multipliers
 
 *Ordinal multiplicants examples:*
 * *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
 * *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
-
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
@@ -58,7 +50,6 @@ but are not basic cardinals or ordinals:
 ## Numeral stem variation
 Numerals follow the same stem variation patterns as nouns, some of these
 being very rare to extinct for nouns. 
-
 
 *Numerals 31 examples:*
 * *yksi:* `yksi+Num+Sg+Nom`
@@ -74,7 +65,6 @@ being very rare to extinct for nouns.
 * *yksinä:* `yksi+Num+Pl+Ess`
 * *yksissä:* `yksi+Num+Pl+Ine`
 
-
 *Numerals 31 back§ examples:*
 * *kaksi:* `kaksi+Num+Sg+Nom`
 * *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
@@ -89,7 +79,6 @@ being very rare to extinct for nouns.
 * *kaksina:* `kaksi+Num+Pl+Ess`
 * *kaksissa:* `kaksi+Num+Pl+Ine`
 
-
 *Numerals 8~5 examples:*
 * *kolme:* `kolme+Num+Sg+Nom`
 * *kolmheen:* `kolme+Num+Sg+Ill`
@@ -102,7 +91,6 @@ being very rare to extinct for nouns.
 * *kolmhiin:* `kolme+Num+Pl+Ill`
 * *kolmina:* `kolme+Num+Pl+Ess`
 * *kolmissa:* `kolme+Num+Pl+Ine`
-
 
 *Numerals 10 examples:*
 * *nelje:* `nelje+Num+Sg+Nom`
@@ -117,7 +105,6 @@ being very rare to extinct for nouns.
 * *neljhiin:* `nelje+Num+Pl+Ill`
 * *neljinä:* `nelje+Num+Pl+Ess`
 * *neljissä:* `nelje+Num+Pl+Ine`
-
 
 *Numerals 27 front examples:*
 * *viisi:* `viisi+Num+Sg+Nom`
@@ -134,7 +121,6 @@ being very rare to extinct for nouns.
 * *viishiin:* `viisi+Num+Pl+Ill`
 * *viisinä:* `viisi+Num+Pl+Ess`
 
-
 *Numerals 27 back examples:*
 * *kuusi:* `kuusi+Num+Sg+Nom`
 * *kuus:* `kuusi+Num+Sg+Nom`
@@ -148,8 +134,6 @@ being very rare to extinct for nouns.
 * *kuussiin:* `kuusi+Num+Pl+Gen`
 * *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
 * *kuushiin:* `kuusi+Num+Pl+Ill`
-
-
 
 *Numerals 10n examples:*
 * *kahđeksen:* `kahđeksen+Num+Sg+Nom`
@@ -165,7 +149,6 @@ being very rare to extinct for nouns.
 * *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
 * *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
 
-
 *Numerals 10n front examples:*
 * *yhđeksen:* `yhđeksen+Num+Sg+Nom`
 * *yhđeksee:* `yhđeksen+Num+Sg+Par`
@@ -180,7 +163,6 @@ being very rare to extinct for nouns.
 * *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
 * *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
 
-
 *Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
 * *kymmenheen:* `kymmenen+Num+Sg+Ill`
@@ -194,8 +176,6 @@ being very rare to extinct for nouns.
 * *kymmenissä:* `kymmenen+Num+Pl+Ine`
 * *kymmeninnä:* `kymmenen+Num+Pl+Ess`
 
-
-
 *Numerals 9 examples:*
 * *sata:* `sata+Num+Sg+Nom`
 * *satana:* `sata+Num+Sg+Ess`
@@ -206,8 +186,6 @@ being very rare to extinct for nouns.
 * *sathoin:* `sata+Num+Pl+Ill`
 * *sađoissa:* `sata+Num+Pl+Ine`
 * *satoina:* `sata+Num+Pl+Ess`
-
-
 
 *Numerals 46 examples:*
 * *tuhat:* `tuhat+Num+Sg+Nom`
@@ -222,8 +200,6 @@ being very rare to extinct for nouns.
 * *tuhansinna:* `tuhat+Num+Pl+Ess`
 * *tuhansissa:* `tuhat+Num+Pl+Ine`
 
-
-
 *Numerals 10 miljoona examples:*
 * *miljoona:* `miljoona+Num+Sg+Nom`
 * *miljoonanna:* `miljoona+Num+Sg+Ess`
@@ -235,9 +211,6 @@ being very rare to extinct for nouns.
 * *miljoonhiin:* `miljoona+Num+Pl+Ill`
 * *miljoonissa:* `miljoona+Num+Pl+Ine`
 * *miljooninna:* `miljoona+Num+Pl+Ess`
-
-
-
 
 *Numerals 5 examples:*
 * *miljardi:* `miljardi+Num+Sg+Nom`
@@ -251,13 +224,8 @@ being very rare to extinct for nouns.
 * *miljardiitten:* `miljardi+Num+Pl+Gen`
 * *miljardiina:* `miljardi+Num+Pl+Ess`
 
-
-
-
 *Numerals 5 more examples:*
 * *Googol:* `Googol+Num+Sg+Nom`
-
-
 
 *Numerals 5 moremore examples:*
 * *pari:* `pari+Num+Sg+Nom`
@@ -271,8 +239,6 @@ being very rare to extinct for nouns.
 * *parriin:* `pari+Num+Pl+Gen`
 * *parhiin:* `pari+Num+Pl+Ill`
 
-
-
 *Numerals 38 examples:*
 * *ensimäinen:* `ensimäinen+A+Ord+Sg+Nom`
 * *ensimäisenä:* `ensimäinen+A+Ord+Sg+Ess`
@@ -284,7 +250,6 @@ being very rare to extinct for nouns.
 * *ensimäishiin:* `ensimäinen+A+Ord+Pl+Ill`
 * *ensimäisinä:* `ensimäinen+A+Ord+Pl+Ess`
 * *ensimäisissä:* `ensimäinen+A+Ord+Pl+Ine`
-
 
 *Numerals 38 back examples:*
 * *toinen:* `toinen+A+Ord+Sg+Nom`
@@ -300,7 +265,6 @@ being very rare to extinct for nouns.
 * *toisissa:* `toinen+A+Ord+Pl+Ine`
 * *toisina:* `toinen+A+Ord+Pl+Ess`
 
-
 *Numerals 45 examples:*
 * *kolmas:* `kolmas+A+Ord+Sg+Nom`
 * *kolmantenna:* `kolmas+A+Ord+Sg+Ess`
@@ -312,7 +276,6 @@ being very rare to extinct for nouns.
 * *kolmanssiitten:* `kolmas+A+Ord+Pl+Gen`
 * *kolmansissa:* `kolmas+A+Ord+Pl+Ine`
 * *kolmansinna:* `kolmas+A+Ord+Pl+Ess`
-
 
 *Numerals 45 fron examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
@@ -327,14 +290,11 @@ being very rare to extinct for nouns.
 * *neljensissä:* `neljes+A+Ord+Pl+Ine`
 * *neljensinnä:* `neljes+A+Ord+Pl+Ess`
 
-
-
-
 * **LEXICON ARABICCOMPOUNDS**  ! arabic as first part, 
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/numerals.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc)</small>
+
+---
+

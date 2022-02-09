@@ -12,5 +12,10 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 * täh ijx ; 
 * pii ijx ; 
 aivan ijx ; aivan ijx ;    * ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/interjections.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc)</small>
+
+---
+

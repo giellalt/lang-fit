@@ -3,7 +3,6 @@
 
 This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)  
 
-
 **LEXICON Acronym-fit-suf** for adding +ACR tag
 
 **LEXICON ACRONOUN_cons**
@@ -24,15 +23,9 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 **LEXICON ACRO_vow**
 
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/acronyms.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/acronyms.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)</small>
+
+---
+

@@ -30,7 +30,6 @@ Consonant stems
 * nas = tehas - tehtaan
 * 3mies = mies
 
-
 ## The lexica themselves
 
 The lemma list 
@@ -45,18 +44,13 @@ The lemma list
 * hammashoitoavustus:hammashoitoavustu 4n_ks ; 
 * vaitiolovelvolisuus:vaitiolovelvolisu 3n_ue ; 
 
-
-
-
-
-
-
 n4 nouns
 
 Consonant stems
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc)</small>
+
+---
+

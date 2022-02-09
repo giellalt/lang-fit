@@ -1,9 +1,7 @@
 
 # Meänkieli morphological transducer
 
-
 Beware of remnants from the Finnish and Kven files.
-
 
 ## Tags for POS
 * **+A** = Adjective
@@ -50,7 +48,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+Prel** 
 * **+Rom** 
 
-
 ### Number
 * **+Sg** = Singular
 * **+Pl** = Plural
@@ -81,7 +78,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+PxSg2** = 
 * **+PxSg3** = 
 
-
 ### Comparatives
 * **+Comp** = 
 * **+Superl** = 
@@ -108,7 +104,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+TV** transitive
 * **+IV** intransitive
 
-
 ### Infinite verbs
 * **+Inf** = tA Infinitive
 * **+InfE** = e Infinite
@@ -130,7 +125,6 @@ Beware of remnants from the Finnish and Kven files.
 * **+OLang/SWE** 
 * **+OLang/UND** 
 
-
 ### Speller tags
 * +Err/Orth only in desc, not in norm.
 * **+Use/-Spell** = Excluded in speller
@@ -142,14 +136,12 @@ Beware of remnants from the Finnish and Kven files.
 * **+Err/SpaceCmp** =
 * **+Err/Lex**
 
-
 ### Compounds
 * **+Cmp** =
 * **+Cmp/SplitR** =
 * **+Cmp/Hyph** - on dynamic compounds that have a hyphen (in use?)
 * **+CmpNP/First** - ... only be first part in a compound or alone
 * **+CmpNP/None** =
-
 
 ### Derivation
 * **+Der/minen** = 
@@ -190,7 +182,6 @@ Tag
 * **+Sem/Plc** = Place names
 * **+Sem/Sur** = Surnames
 
-
 ## Phonological symbols
 
 * **i2** = plural i of nouns
@@ -221,9 +212,6 @@ Tag
 * **%^M2N** = for m to n in lumi lunta
 * **%^¤** = potecting against e:i word-finally (nalle, liike)
 
-
-
-
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -253,8 +241,6 @@ do no harm.
 |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
 |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
-
-
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
@@ -265,8 +251,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
 These tags are for handling errorneous forms
 | Flag | Explanation | 
 |----- |-----------  |
@@ -274,7 +258,6 @@ These tags are for handling errorneous forms
 |  @P.ErrOrth.ON@ | tbw
 |  @C.ErrOrth@ | tbw
 |  @R.ErrOrth.ON@ | tbw
-
 
 This is for pronouns with multiple case suffixes (*jommallekummalle*)
 
@@ -297,7 +280,6 @@ This is for pronouns with multiple case suffixes (*jommallekummalle*)
 |  @P.compound.block@ | tbw
 |  @D.compound.block@ | tbw
 
-
 These are for preprocessing
 
 | Flag | Explanation | 
@@ -315,7 +297,6 @@ These are for preprocessing
 | +Gram/3syll| trisyllabic verbs
 | +Gram/Superl| superlative
 | +Gram/Comp| comparative
-
 
 ### Semantic tags
 
@@ -357,15 +338,11 @@ These are for preprocessing
 * **+Sem/Veh**
 * **+Sem/Year**
 
-
-
-
 ## Basic lexica, pointing to the other lexicon files
 
 Here is the Root lexicon, pointing to all the parts of speech:
 
  **LEXICON Root**
-
 
 * AdjectiveRoot ;
 * Adverb ;
@@ -382,11 +359,9 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * VerbRoot ;
 * Subjunction ;
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/root.lexc)</small>
+
+---
+

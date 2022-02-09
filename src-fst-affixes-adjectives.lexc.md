@@ -2,7 +2,6 @@
 
 This file documents [`affixes/adjectives.lexc`, the file for Meänkieli adjective morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjective.lexc)  
 
-
 Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
 corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
 In addition, it also points to comparative and superlative lexica.
@@ -15,7 +14,6 @@ In addition, it also points to comparative and superlative lexica.
 * +A: x1 ;
 * +A+Comp: 3comp ;
 * +A+Superl:ime 3sup ;
-
 
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
@@ -39,24 +37,13 @@ In addition, it also points to comparative and superlative lexica.
 
 **LEXICON x1_ton** 
 
-
-
-
-
 ## Comparative inflection
 
 * LEXICON 3comp 2syll adj, 3syll comparative
 
 * LEXICON 4comp 3syll adj, 4syll comparative
 
-
-
-
 * LEXICON xcomp common for 2syll and 3syll
-
-
-
-
 
 ### Superlative inflection
 
@@ -64,9 +51,11 @@ In addition, it also points to comparative and superlative lexica.
 
 * LEXICON 4sup 3syll adj, 4syll superlative
 
-
-
-
 * LEXICON xsup common for 2syll and 3syll
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+

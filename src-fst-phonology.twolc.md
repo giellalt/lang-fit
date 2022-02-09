@@ -9,8 +9,6 @@ The first part of the file contains definitions, the second part contains rules.
 ## Alphabet
 This defines all symbols (letters, archiphonemes, triggers) to be used.
 
-
-
 * a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø   = the letters
 * %^WG:0     = weak grade
 * %^E2I:0    = kiele- > kieli
@@ -32,7 +30,6 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 ## Sets
 Here we group the symbols in convenient sets.
 
-
 * Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
@@ -53,17 +50,13 @@ Here we group the symbols in convenient sets.
 * Segment        = Vowel Cns ;                                         
 * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
-
 ## Definitions
 This defines strings used often in rules.
 
-
 WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
-
 
 # Rules 
 This chapter gives the rules themselves.
-
 
 ## Consonant rules
 
@@ -93,7 +86,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **RULE: p:m**
 
-
 **k rules**
 
 **RULE: k:g**
@@ -112,7 +104,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *johke^WG*
 * *joh0e0*
 
-
 **RULE: k:j**
 
 **Tests:**
@@ -121,7 +112,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylje0>n*
 * *kehke^WG>t^A*
 * *kehje0>tä*
-
 
 **RULE: k:v**
 
@@ -180,7 +170,6 @@ t rules
 * *jukertel^WG>l^A*
 * *jukerrel0>la*
 
-
 **RULE: t:s**
 
 **Tests:**
@@ -191,8 +180,6 @@ t rules
 * *veri0*
 * *varte^E2I*
 * *varsi0*
-
-
 
 ### Gemination rules
 
@@ -230,10 +217,7 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *is0o^HMETA>h^V^Vn*
 * *iss00>0oon*
 
-
-
 **RULE: h gradation**
-
 
 **RULE: hm to mh for InfMa Ill after short vowel 1**
 
@@ -264,15 +248,12 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *kuv0a^HMETA>hiin*
 * *kuvv00>hiin*
 
-
-
 ### Assimilation rules
 
 These are assimilation rules for *n* on suffix borders of LNRS consonant stems.
 There is also a rule **j:0** avoiding a *lji* sequence.
 
 **RULE: Alveolar assimilation for consonant stem l**
-
 
 **Tests:**
 
@@ -290,10 +271,7 @@ There is also a rule **j:0** avoiding a *lji* sequence.
 
 **RULE: Alveolar assimilation for consonant stem s in participles**
 
-
 **RULE: j:0 in front of i**
-
-
 
 ## Vowel change rules: a - ä - e - i - o - ö - u - y
 
@@ -340,7 +318,6 @@ There are also some other vowel change rules.
 
 **RULE: ä:e**
 
-
 ###  e rules
 
 **RULE: e:0** deletes *-e-* in LNR stems as well as before -i-
@@ -350,15 +327,12 @@ There are also some other vowel change rules.
 * *tule^WG>i2ss^A*
 * *tul00>issa*
 
-
 **RULE: e:i**
 
 **Tests:**
 
 * *ove^E2I*
 * *ovi0*
-
-
 
 ###  i rules
 
@@ -381,7 +355,6 @@ There are also some other vowel change rules.
 
 **RULE: i2:j**
 
-
 * *sano>i3*
 * *sano>0*
 
@@ -401,7 +374,6 @@ There are also some other vowel change rules.
 * *tukki>i2^A*
 * *tukke>ja*
 
-
 ###  o rules
 
 **RULE: o:0**
@@ -419,7 +391,6 @@ There are also some other vowel change rules.
 * *hölmö^HMETA>h^V^Vn*
 * *hölm00>höön*
 
-
 ###  u rules
 
 **RULE: u:0**
@@ -429,8 +400,6 @@ There are also some other vowel change rules.
 * *tuo>i3n*
 * *t0o>in*
 
-
-
 ###  y rules
 
 **RULE: y:0**
@@ -439,10 +408,6 @@ There are also some other vowel change rules.
 
 * *syy>i2ss^A*
 * *s0y>issä*
-
-
-
-
 
 ### Vowel copying rules
 
@@ -460,7 +425,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 * *maa>h^Vn*
 * *maa>han*
 
-
 **RULE: o copying for h metathesis**
 
 **Tests:**
@@ -475,7 +439,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 * *silli^HMETA>h^V^Vn*
 * *sill00>hiin*
 
-
 **RULE: ä copying for h metathesis**
 
 **RULE: e copying for h metathesis**
@@ -485,9 +448,6 @@ and also deleted in the stem (cf. *talo : talhoon*)
 **RULE: y copying for h metathesis**
 
 **RULE: u copying for h metathesis**
-
-
-
 
 ###  Vowel harmony rule
 
@@ -508,11 +468,12 @@ All vowel harmony is taken care of with one rule.
 * *keskus>t^A*
 * *keskus>ta*
 
-
-
-
-
 * *a*
 * *b*
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

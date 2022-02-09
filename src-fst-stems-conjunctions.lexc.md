@@ -21,7 +21,6 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 * +Pl2:tä # ; 
 * +Pl3:ivä # ; 
 
-
 ## The conjunctions themselves
 
 * LEXICON Conjunction 
@@ -30,5 +29,10 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 * sekä cc ; 
 * ette cc_agr ; 
 ... and some 20 more
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc)</small>
+
+---
+

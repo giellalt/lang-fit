@@ -10,16 +10,7 @@ This file documents the [Meänkieli disambiguator file](http://github.com/giella
 
 ## Delimiters, tags and sets
 
-
-
 Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
-
-
-
-
-
-
-
 
 ### Part-of-Speech
 * N = noun
@@ -86,8 +77,6 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * SET TE = PLPRON + ("te") ; # 
 * SET HE = PLPRON + ("he") ; # 
 
-
-
 ### Cases
 * Nom
 * Gen
@@ -105,40 +94,6 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Ins
 * Com
 * SUBJ-CASE = Nom Par
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Types
 * Prop = Proper noun
@@ -158,12 +113,6 @@ Interrpronpl "kuka" ja "mikä"
 * Act = Active
 * Neg = Negation verb
 
-
-
-
-
-
-
 * COMMA = comma
 
 * Foc/kaan = focus clitic -kaan
@@ -171,27 +120,6 @@ Interrpronpl "kuka" ja "mikä"
 
 * @CVP = Conjunction or subjunction that conjoins finite verb phrases.
 * @CNP = Local conjunction or subjunction.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Sets with more members
 
@@ -207,148 +135,31 @@ Interrpronpl "kuka" ja "mikä"
 * QVANT-ADV = e.g. paljon, vähän
 * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
-
-
-
-
-
 Boundaries
-
-
 
 * S-BOUNDARY = words that start a sentence
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Verbs
-
-
-
-
-
-
-
-
-
-
 
 * MOD-ASP = auxilaries
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * SV-BOUNDARY = words that start a sentence and finite verb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Disambiguation rules
 
 ### Dialects
 
-
 ### Early rules
-
-
 
 * __person_test__ selects finite verb if there is a Pron Pers to the left
 
-
 * __adv_after_V__ selects adverb if there is a verb to the right
-
 
 * __prop_infrontof_kieli__ removes propernoun in fron of kieli, if it kan be something else, e.g. Kainun kieli
 
 * **Rule: PropInit** removes  propernoun in the beginning of a sentence if it kan be a CC or a Pr (e.g. Mutta)
 
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
 
 Possessive suffixes
 
@@ -357,24 +168,19 @@ First we put rules to choose Px forms... (forthcomong)
 Then we remove the remaining Px
 * **Rule: NpPx** removes all Px. Thus, as long as no select rules for Px are done, they are removed.
 
-
 Numeral phrases
 
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
 
-
 ### Preposition/postposition/adverb rules
 
-
 * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-
 
 * **Rule: Prifgenpar** selects  preposition to the left of Gen or Par
 
 * **Rule: Poifgenpar** selects  postposition to the right of Gen or Par
 
 * **Rule: vasthaan** not vasta if -1 Par
-
 
 ## Rules for mapping @CVP and @CNP on the CC and CS
 
@@ -384,58 +190,32 @@ Numeral phrases
 
 * **Rule: CNPifInf** maps @CNP to CC between two Inf
 
-
 ## Case rules
 
 ### Partitive
 
-
-
-
-
-
-
-
-
 Genitive
-
 
 ### Illative
 
-
 ## Number rules
-
-
 
 ## More disambiguation rules
 * **Rule: SgNotPl**
-
 
 ### Elative
 
 ## Propernouns
 
-
 ## Verbs
-
 
 ### Specific verbs	
 
-
 ei negation verb
-
 
 eli
 
-
-
-
-
-
-
-
 ## Adverbs
-
 
 ### paljon
 
@@ -443,28 +223,15 @@ eli
 
 ### jälkhiin
 
-
-
-
 ## Adjectives
 
 ### toinen
 
-
-
-
-
-
 Conjunctions
-
-
-
 
 ## Subjunctions
 
-
 että
-
 
 jos
 
@@ -474,63 +241,29 @@ mutta
 
 sillä	
 
-
-
 ## Pronouns
 
 ### sie
 
-
 ### tet
-
-
-
-
-
-
 
 ## Verb rules, Verbs
 
 ### Infinitive
 
-
-
-
-
 ## Present Sg3
-
-
-
-
-
-
 
 ## Present Pl3 or PrsPrc
 
-
-
 ## Present Pl3 or Passive
 
-
-
-
-
-
-
-
 Imperative
-
-
 
 ## Past tense
 
 ### Prt Pl3 or Prt Sg2
 
-
-
 Relative pronouns
-
-
 
 * **Rule: Pl3ollaifplrelpronandplinterrpron** selects Pl3 if olla
 
@@ -540,8 +273,6 @@ Relative pronouns
 
 * **Rule: Sg3ollainpretandperf** selects Sg3 if COPULAS
 
-
-
 * **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
 
 * **Rule: Relpronandnotintterpron** selects Rel Sg if Interr
@@ -550,17 +281,13 @@ Relative pronouns
 
 * **Rule: DifferenceBetweenNiitäImprtAndNiitäDemAndPersIfSubj** selects Pron Dem Pl or Pron Pers Pl3 when finite verb to the right
 
-
 * **Rule: paljonadvandnotpaljonoun** selects Adv if paljon
 
 * **Rule: Relpronifitsanounoracommabeforeit** selects Rel Pl if N to the left
 
-
 * **Rule: annaimperativeandnotannaname** removes Prop if Anna se
 
 * **Rule: tulinounfromtuliprtsg3** selects V Sg
-
-
 
 * **Rule: dempronandnotpronpers** selects Den if A of N to the right
 
@@ -568,296 +295,25 @@ Relative pronouns
 
 * **Rule: ImperativeafterNeg** removes Imprt if pronoun
 
-
-
-
-
-
-
-
 * **Rule: interrel** selects Interr of Rel if CS to the right
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * **Rule: +FMAINV**  to the remaining finite verbs which are not AUX    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## HNOUN MAPPING
-
-
-
-
-
-
-
-
 
 * **Rule: @<ADVLcoor** (@<ADVL) for ADVLCASEAdv if @CNP to the left and ADVL to the left of it
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **Rule: X** maps X everywhere
 
-
 * **Rule: REMOVE X** removes X whenever there is any other tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * WORDLEMMA = regex giving the lemma in question
 
 * **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-fit/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+

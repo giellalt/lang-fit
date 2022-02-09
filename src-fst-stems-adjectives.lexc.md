@@ -2,7 +2,6 @@
 
 This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
 
-
 ## The continuation lexicon types
 
 * a1 = kaksitavuiset
@@ -10,7 +9,6 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 * a4 = kaksitavuiset, vartalo -e
 * aas = tarmokas
 * anen = nen-adjektiivit
-
 
 ## The lemma list itself
 
@@ -31,7 +29,9 @@ a4
 * pieni:piene a4 ;
 * vanhaa:vanhaa ax ;
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/stems/adjectives.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc)</small>
+
+---
+

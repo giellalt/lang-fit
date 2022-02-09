@@ -2,10 +2,6 @@
 
 This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
 
-
-
-
-
 Now splitting according to POS, and according to dot or not
 
 **LEXICON ab-noun-itrab** 
@@ -14,23 +10,17 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON ab-noun**
 
-
 * **LEXICON ab-adj**
 
-
 * **LEXICON ab-adv**
-
 
 * **LEXICON ab-num**
 
 ### Lexicons without final period
 
-
 * **LEXICON ab-nodot-noun**  The bulk
 
-
 * **LEXICON ab-nodot-adj**
-
 
 * **LEXICON ab-nodot-adv**
 
@@ -38,9 +28,7 @@ Now splitting according to POS, and according to dot or not
 
 ### Lexicons with final period
 
-
 * **LEXICON ab-dot-noun**  This is the lexicon for abbrs that must have a period.
-
 
 * **LEXICON ab-dot-adj**  This is the lexicon for abbrs that must have a period.
 
@@ -50,14 +38,7 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON ab-dot-cc**
 
-
-
 * **LEXICON ab-dot-verb**
-
-
-
-
-
 
 * **LEXICON nodot-attrnomaccgen-infl**
 
@@ -65,21 +46,17 @@ Now splitting according to POS, and according to dot or not
 
 * **LEXICON nodot-nomaccgen-infl**
 
-
 * **LEXICON dot-attrnomaccgen-infl**
 
 * **LEXICON dot-attr**
 
 * **LEXICON dot-nomaccgen-infl**
 
-
 * **LEXICON DOT** - Adds the dot to dotted abbreviations.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/abbreviations.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/abbreviations.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)</small>
+
+---
+

@@ -4,120 +4,19 @@ This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morph
 
 # Pronominien morfologia
 
-
-
 Pronominit ovat edelleen vaan kokeiluvaiheessa.
 
 LEXICON 12pronsg on 1., 2. p. yksikkö
 
-
-
-
 LEXICON 123pronpl 
-
-
-
-
-
-
-
-
-
 
 nuoitä
 
-
 tuotä
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-fit/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
