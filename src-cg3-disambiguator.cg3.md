@@ -24,38 +24,38 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pron = pronoun
 * Interj = interjection
 
-* LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; # 
-* LIST CLB = CLB ; # 
-* LIST CLBfinal = CLBfinal ; # because common num # 
-* LIST PUNCT = PUNCT ; # 
-* LIST Prs = Prs ; # 
-* LIST Prt = Prt ; # 
-* LIST Ind = Ind ; # 
-* LIST Act = Act ; # 
-* LIST Pass = Pass Pss ; # 
-* LIST ActPass = Act Pass Pss ; # 
-* LIST ABBR = ABBR ; # 
-* LIST Abbr = Abbr ABBR ; # 
-* LIST Refl = Refl ; # 
-* LIST PrsPrc = PrsPrc ; # 
-* LIST NUMS = "yksi" Num; # 
-* LIST Ord = Ord ; # 
-* LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; # 
-* LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; # 
-* LIST CS = CS ; # 
-* LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ; # 
-* LIST Attr = Attr ; # 
-* LIST Rel = Rel ; # 
-* LIST Interr = Interr ; # 
-* LIST Card = Card ; # 
-* LIST Cmp = Cmp ; # 
-* LIST Cmp/Hyph = Cmp/Hyph ; # 
-* LIST Cmp/SgGen = Cmp/SgGen ; # 
-* LIST Cmp/Attr = Cmp/Attr ; # 
-* LIST Cmp/SgNom = Cmp/SgNom ; # 
+* LIST POS = N A Num V CC CS Adv Pr Po Pron Interj ; 
+* LIST CLB = CLB ; 
+* LIST CLBfinal = CLBfinal ; # because common num 
+* LIST PUNCT = PUNCT ; 
+* LIST Prs = Prs ; 
+* LIST Prt = Prt ; 
+* LIST Ind = Ind ; 
+* LIST Act = Act ; 
+* LIST Pass = Pass Pss ; 
+* LIST ActPass = Act Pass Pss ; 
+* LIST ABBR = ABBR ; 
+* LIST Abbr = Abbr ABBR ; 
+* LIST Refl = Refl ; 
+* LIST PrsPrc = PrsPrc ; 
+* LIST NUMS = "yksi" Num; 
+* LIST Ord = Ord ; 
+* LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 
+* LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ; 
+* LIST CS = CS ; 
+* LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ; 
+* LIST Attr = Attr ; 
+* LIST Rel = Rel ; 
+* LIST Interr = Interr ; 
+* LIST Card = Card ; 
+* LIST Cmp = Cmp ; 
+* LIST Cmp/Hyph = Cmp/Hyph ; 
+* LIST Cmp/SgGen = Cmp/SgGen ; 
+* LIST Cmp/Attr = Cmp/Attr ; 
+* LIST Cmp/SgNom = Cmp/SgNom ; 
 
 ### Numerus
-* LIST Pers = Pers ; # 
+* LIST Pers = Pers ; 
 * Sg = Singular
 * Pl = Plural
 * Sg1 = Singular 1.p.
@@ -66,16 +66,16 @@ Sentence delimiters are the following: "<.>" "<...>" "<!>" "<?>" "<¶>"
 * Pl3 = Plural 3.p.
 
 ### Person
-* LIST Pers1 = Sg1 Pl1 ; # 
-* LIST Pers2 = Sg2 Pl2 ; # 
-* LIST SGa = Sg Sg1 Sg2 Sg3 ; # 
-* LIST PLa = Pl Pl1 Pl2 Pl3 ; # 
-* LIST NUMBER = Sg Pl ; # 
-* SET SGPRON = Pron + SGa; # 
-* SET PLPRON = Pron + PLa; # 
-* SET ME = PLPRON + ("me") ; # 
-* SET TE = PLPRON + ("te") ; # 
-* SET HE = PLPRON + ("he") ; # 
+* LIST Pers1 = Sg1 Pl1 ; 
+* LIST Pers2 = Sg2 Pl2 ; 
+* LIST SGa = Sg Sg1 Sg2 Sg3 ; 
+* LIST PLa = Pl Pl1 Pl2 Pl3 ; 
+* LIST NUMBER = Sg Pl ; 
+* SET SGPRON = Pron + SGa; 
+* SET PLPRON = Pron + PLa; 
+* SET ME = PLPRON + ("me") ; 
+* SET TE = PLPRON + ("te") ; 
+* SET HE = PLPRON + ("he") ; 
 
 ### Cases
 * Nom
@@ -118,9 +118,6 @@ Interrpronpl "kuka" ja "mikä"
 * Foc/kaan = focus clitic -kaan
 * Foc/kaan = focus clitic -kaan
 
-* @CVP = Conjunction or subjunction that conjoins finite verb phrases.
-* @CNP = Local conjunction or subjunction.
-
 ## Sets with more members
 
 * WORD = all PoS
@@ -140,8 +137,6 @@ Boundaries
 * S-BOUNDARY = words that start a sentence
 
 Verbs
-
-* MOD-ASP = auxilaries
 
 * SV-BOUNDARY = words that start a sentence and finite verb
 
@@ -312,8 +307,4 @@ Relative pronouns
 * **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3)</small>
-
----
-
