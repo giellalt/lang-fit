@@ -46,6 +46,9 @@ LEXICON 3p_ani_41
 LEXICON 3p_fem_41 
 +N+Prop+Sem/Fem: xn_ks ;
 
+LEXICON 3p_fem_3 
++N+Prop+Sem/Fem: x3 ;
+
 LEXICON p_mal_2
 +N+Prop+Sem/Mal: x2_sg ;
 
