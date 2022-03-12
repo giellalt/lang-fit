@@ -2,7 +2,7 @@ The Tornedalen Finnish (Meänkieli) morphology and tools
 =======================================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
-[![Build Status](https://github.com/giellalt/lang-fit/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-fit/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-fit/main/badge.svg)](https://github.com/giellalt/lang-fit/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/blob/main/LICENSE)
 
 This directory contains source files for the Tornedalen Finnish language
