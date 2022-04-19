@@ -11,7 +11,7 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 * äh ijx ; 
 * täh ijx ; 
 * pii ijx ; 
-aivan ijx ; aivan ijx ;    * ...
+* ...
 
 * * *
 
