@@ -12,10 +12,9 @@ Oversikt over kurset
 
 ## Timeplan
 
-|  måndag | tysdag | onsdag | torsdag | fredag |
+| måndag | tysdag | onsdag | torsdag | fredag |
 | ------| ------| ------| ------| ------| ------|
 | Introduksjon | svensk | leksikon | testing | arbeid framover
 | lexc | romani |
-| lunsj | lunsj | lunsj | lunsj | lunsj | 
-| twolc | meänkieli | stavekontroll
-
+| lunsj | lunsj | lunsj | lunsj | lunsj |
+| twolc | meänkieli | stavekontroll |
