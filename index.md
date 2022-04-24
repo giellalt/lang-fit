@@ -23,6 +23,7 @@ These pages document the work on the **[Meänkieli (Tornedalen Finnish) language
 
 * Trosterud, Trond 2020: [Språkteknologi for meänkieli](rapport.pdf)
 * [H inserrtion](HInsertion.md)
+* [Kurs på ISOF april 2022](isof/index.md)
 
 ## In-source documentation
 
