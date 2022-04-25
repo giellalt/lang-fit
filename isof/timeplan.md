@@ -18,3 +18,4 @@ Oversikt over kurset
 | lexc | romani |
 | lunsj | lunsj | lunsj | lunsj | lunsj |
 | twolc | meänkieli | stavekontroll |
+|   x   | x | x |  middag |  
