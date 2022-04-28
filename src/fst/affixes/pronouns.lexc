@@ -31,6 +31,7 @@ LEXICON 12pronsg !!≈ @CODE@ on 1., 2. p. yksikkö
 
 
 LEXICON haan_pron
++Nom+Err/Orth:hän K ;
 +Nom:hään K ;
 +Gen:hänen K ;
 +Acc+Err/Orth:hänet K ;
