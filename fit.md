@@ -2686,7 +2686,7 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 
 This file documents [the file for Meänkieli nouns](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc).
 
-## Vowel stems
+# Vowel stems
 
 This is an overview of the continuation lexicon types. 
 
@@ -2714,7 +2714,7 @@ Consonant stems
 * nas = tehas - tehtaan
 * 3mies = mies
 
-## The lexica themselves
+# The lexica themselves
 
 The lemma list 
 * **LEXICON NounRoot**
