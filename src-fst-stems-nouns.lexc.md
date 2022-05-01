@@ -4,7 +4,7 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 
 # Vowel stems
 
-This is an overview of the continuation lexicon types. 
+This is an overview of the continuation lexicon types.
 
 * nx = unassigned
 
@@ -32,17 +32,17 @@ Consonant stems
 
 # The lexica themselves
 
-The lemma list 
+The lemma list
 * **LEXICON NounRoot**
 
-* kvääni n1 ; 
-* hinta n1 ; 
-* häpy n1 ; 
+* kvääni n1 ;
+* hinta n1 ;
+* häpy n1 ;
 
-* rypriikki:rypriikki n3 ; 
-* asfaltti:asfaltti n3 ; 
-* hammashoitoavustus:hammashoitoavustu 4n_ks ; 
-* vaitiolovelvolisuus:vaitiolo#velvolis n_uus ; 
+* rypriikki:rypriikki n3 ;
+* asfaltti:asfaltti n3 ;
+* hammashoitoavustus:hammashoitoavustu 4n_ks ;
+* vaitiolovelvolisuus:vaitiolo#velvolis n_uus ;
 
 n4 nouns
 

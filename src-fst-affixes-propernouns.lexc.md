@@ -1,6 +1,6 @@
 # Meänkieli propernoun morphology
 
-This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)
 
 The lexicon napes have 3 parts, divided by "_"
 In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
@@ -12,17 +12,21 @@ We do not use **_pl** for names
 
 **LEXICON p_sur_0**
 
-**LEXICON 3p_21ie**
+**LEXICON p_surplc_0**
 
-**LEXICON 3p_22oi**
+**LEXICON p_surplc_4**
 
-**LEXICON 3p_nen**
+**LEXICON p_21ie**
 
-**LEXICON 3p_C**
+**LEXICON p_22oi**
 
-**LEXICON 3p_ani_1**
+**LEXICON p_nen**
 
-**LEXICON 3p_ani_41**
+**LEXICON p_C**
+
+**LEXICON p_ani_1**
+
+**LEXICON p_ani_41**
 
 ... and many more.
 

@@ -1110,9 +1110,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 # Meänkieli noun morphology
 
-This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
+This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)
 
-## This is an overview of the continuation lexicon types. 
+## This is an overview of the continuation lexicon types.
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
@@ -1147,29 +1147,29 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n0_pl** for plurals of the same: *häät*
 
-**LEXICON n1** for 2-syll ordinary nouns (*talo*)
+**LEXICON n0_pl** splitting to sg and pl
 
-**LEXICON n1_pl** for the same plural words (*urut*)
-
-**LEXICON x0** splitting to sg and pl
-
-**LEXICON x0_sg** sg forms x0 point here
+**LEXICON n0_pl** sg forms x0 point here
 * +Sg+Nom: PxK ; points to Px for noun
 *  x0_sg_oblique ; points to oblique
 
-**LEXICON x0_sg_oblique** for oblique case forms in sg
+**LEXICON n0_pl** for oblique case forms in sg
 
-**LEXICON x0_pl** for plural case forms
+**LEXICON n0_pl** for plural case forms
+
+**LEXICON n1** for 2-syll ordinary nouns (*talo*)
+* +N+Sg+Nom: PxK ; Px separate
+
+**LEXICON n1_pl** for the same plural words (*urut*)
 
 **LEXICON x1** for the bisyallbic, pointing to sg, pl
 
 **LEXICON x1_sg** bisyllabic sg
-* +Sg+Nom:^E2I PxK ; nominative separate
 * x1_sg_oblique ;  the rest
 
 **LEXICON x1_sg_oblique** gives the rest
-* +Sg+Gen:^WG%>n PxK ; 
-* +Sg+Par:%>^A PxK ; 
+* +Sg+Gen:^WG%>n PxK ;
+* +Sg+Par:%>^A PxK ;
 * +Sg+Ill:^HMETA%>h^V^V n_PxK ; talhoon
 * +Sg+Ine:^WG%>ss^A PxK ;  etc.
 
@@ -1185,33 +1185,33 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x2_pl** the pl
 
-**LEXICON 3nc** 
+**LEXICON 3nc**
 
-**LEXICON xnc** 
+**LEXICON xnc**
 
 **LEXICON n3**  kanava
 
 **LEXICON n3_pl**  haalarit
 
-**LEXICON x3** 
+**LEXICON x3**
 
-**LEXICON x3_oblique** 
+**LEXICON x3_oblique**
 
-**LEXICON x3_sg** 
+**LEXICON x3_sg**
 
-**LEXICON x3_oblique_sg** 
+**LEXICON x3_oblique_sg**
 
-**LEXICON x3_pl** 
+**LEXICON x3_pl**
 
-**LEXICON n4** 
+**LEXICON n4**
 
-**LEXICON n4_pl** 
+**LEXICON n4_pl**
 
 **LEXICON x4**  veri
 
-**LEXICON x4_pl** 
+**LEXICON x4_pl**
 
-**LEXICON n4_lapsi** 
+**LEXICON n4_lapsi**
 
 #### The nainen (nen) and hevonen (3nen) family
 
@@ -1224,41 +1224,41 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON xnen_pl**
 
-**LEXICON 3nen** 
+**LEXICON 3nen**
 
-**LEXICON x3nen** 
+**LEXICON x3nen**
 
-**LEXICON x3nen_sg** 
+**LEXICON x3nen_sg**
 
-**LEXICON x3nen_pl** 
+**LEXICON x3nen_pl**
 
-**LEXICON xnen_common_sg** 
+**LEXICON xnen_common_sg**
 
-**LEXICON xnen_common_pl** 
+**LEXICON xnen_common_pl**
 
-**LEXICON 3cases** 
+**LEXICON 3cases**
 
-**LEXICON 2cases** 
+**LEXICON 2cases**
 
-**LEXICON 3n_ks** 
+**LEXICON 3n_ks**
 
-**LEXICON xn_ks** 
+**LEXICON xn_ks**
 
-**LEXICON xn_ks_sg** 
+**LEXICON xn_ks_sg**
 
-**LEXICON xn_ks_pl** 
+**LEXICON xn_ks_pl**
 
-**LEXICON 3n_ue** 
+**LEXICON 3n_ue**
 
-**LEXICON 3x_ue** 
+**LEXICON 3x_ue**
 
-**LEXICON 3x_ue_sg** 
+**LEXICON 3x_ue_sg**
 
-**LEXICON 3x_ue_pl** 
+**LEXICON 3x_ue_pl**
 
-**LEXICON 3n_ime** 
+**LEXICON 3n_ime**
 
-**LEXICON 3n_ime_sg** 
+**LEXICON 3n_ime_sg**
 
 ### Sublexica for cases
 
@@ -1479,7 +1479,7 @@ tuotä
 
 # Meänkieli propernoun morphology
 
-This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)
 
 The lexicon napes have 3 parts, divided by "_"
 In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
@@ -1491,17 +1491,21 @@ We do not use **_pl** for names
 
 **LEXICON p_sur_0**
 
-**LEXICON 3p_21ie**
+**LEXICON p_surplc_0**
 
-**LEXICON 3p_22oi**
+**LEXICON p_surplc_4**
 
-**LEXICON 3p_nen**
+**LEXICON p_21ie**
 
-**LEXICON 3p_C**
+**LEXICON p_22oi**
 
-**LEXICON 3p_ani_1**
+**LEXICON p_nen**
 
-**LEXICON 3p_ani_41**
+**LEXICON p_C**
+
+**LEXICON p_ani_1**
+
+**LEXICON p_ani_41**
 
 ... and many more.
 
@@ -2648,12 +2652,11 @@ We do not use **_pl** for names
 
 32000 names
 
-* LEXICON ProperNoun 
-
-ERVASTI?
-* Kiiruna:Kiiruna 3p_plc ; 
-* Niila:Niila p_mal_1 ; 
+* LEXICON ProperNoun
+* Niila:Niila p_mal_1 ;
 * ...
+* Kiiruna:Kiiruna p_plc ;
+ERVASTI?
 
 * * *
 
@@ -2688,7 +2691,7 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 
 # Vowel stems
 
-This is an overview of the continuation lexicon types. 
+This is an overview of the continuation lexicon types.
 
 * nx = unassigned
 
@@ -2716,17 +2719,17 @@ Consonant stems
 
 # The lexica themselves
 
-The lemma list 
+The lemma list
 * **LEXICON NounRoot**
 
-* kvääni n1 ; 
-* hinta n1 ; 
-* häpy n1 ; 
+* kvääni n1 ;
+* hinta n1 ;
+* häpy n1 ;
 
-* rypriikki:rypriikki n3 ; 
-* asfaltti:asfaltti n3 ; 
-* hammashoitoavustus:hammashoitoavustu 4n_ks ; 
-* vaitiolovelvolisuus:vaitiolo#velvolis n_uus ; 
+* rypriikki:rypriikki n3 ;
+* asfaltti:asfaltti n3 ;
+* hammashoitoavustus:hammashoitoavustu 4n_ks ;
+* vaitiolovelvolisuus:vaitiolo#velvolis n_uus ;
 
 n4 nouns
 

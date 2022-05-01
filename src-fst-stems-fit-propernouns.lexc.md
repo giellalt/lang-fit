@@ -12,12 +12,11 @@ We do not use **_pl** for names
 
 32000 names
 
-* LEXICON ProperNoun 
-
-ERVASTI?
-* Kiiruna:Kiiruna 3p_plc ; 
-* Niila:Niila p_mal_1 ; 
+* LEXICON ProperNoun
+* Niila:Niila p_mal_1 ;
 * ...
+* Kiiruna:Kiiruna p_plc ;
+ERVASTI?
 
 * * *
 
