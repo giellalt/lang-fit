@@ -1,9 +1,9 @@
 !! # Meänkieli noun morphology
 
-!! This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)  
+!! This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)
 
 
-!! ## This is an overview of the continuation lexicon types. 
+!! ## This is an overview of the continuation lexicon types.
 
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
@@ -52,54 +52,57 @@ LEXICON n0_pl ! häät
 !! **LEXICON @LEXNAME@** for plurals of the same: *häät*
  +N: x1_pl ;
 
+ LEXICON x0
+ !! **LEXICON @LEXNAME@** splitting to sg and pl
+ x0_sg ;
+ x0_pl ;
+
+ LEXICON x0_sg
+ !! **LEXICON @LEXNAME@** sg forms x0 point here
+  +Sg+Nom:       PxK ; !!≈ * @CODE@ points to Px for noun
+  x0_sg_oblique ; !!≈ *  @CODE@ points to oblique
+
+ LEXICON x0_sg_oblique
+ !! **LEXICON @LEXNAME@** for oblique case forms in sg
+  +Sg+Gen:%>n PxK ;
+  +Sg+Par:%>t^A PxK ;
+  +Sg+Ill:%>h^V n_PxK ; ! maahan
+  +Sg+Ine:%>ss^A PxK ;      ! maassa
+  +Sg+Ela:%>st^A PxK ;      ! maasta
+  +Sg+All:%>le PxxK ;        ! maale
+  +Sg+Ade:%>l^A PxK ;       ! maala
+  +Sg+Abl:%>lt^A PxK ;      ! maalta
+  +Sg+Tra: TRA ;          ! maaksi
+  +Sg+Ess:%>n^A PxK ;          ! maana
+  +Sg+Abe:%>tt^A PxK ;      ! maatta
+
+ LEXICON x0_pl
+ !! **LEXICON @LEXNAME@** for plural case forms
+  +Pl+Nom:%>t PxK ;
+  +Pl+Gen:%>i2tten PxK ;
+  +Pl+Par:%>i2t^A PxK ;
+  +Pl+Ill:%>i2hi n_PxK ;  ! maihin
+  +Pl+Ine:%>i2ss^A PxK ;
+  +Pl+Ela:%>i2st^A PxK ;
+  +Pl+All:%>i2le PxxK ;
+  +Pl+Ade:%>i2l^A PxK ;
+  +Pl+Abl:%>i2lt^A PxK ;
+  +Pl+Tra:%>i2 TRA ;
+  +Pl+Ess:%>i2n^A PxK ;
+  +Pl+Abe:%>i2tt^A PxK ;
+
+
+
 LEXICON n1
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
  +N: x1 ;
+ +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
-LEXICON n1_pl ! 
+LEXICON n1_pl !
 !! **LEXICON @LEXNAME@** for the same plural words (*urut*)
  +N: x1_pl ;
-
-LEXICON x0
-!! **LEXICON @LEXNAME@** splitting to sg and pl
-x0_sg ;
-x0_pl ;
-
-LEXICON x0_sg 
-!! **LEXICON @LEXNAME@** sg forms x0 point here
- +Sg+Nom:       PxK ; !!≈ * @CODE@ points to Px for noun
- x0_sg_oblique ; !!≈ *  @CODE@ points to oblique
-
-LEXICON x0_sg_oblique
-!! **LEXICON @LEXNAME@** for oblique case forms in sg
- +Sg+Gen:%>n PxK ;
- +Sg+Par:%>t^A PxK ;
- +Sg+Ill:%>h^V n_PxK ; ! maahan
- +Sg+Ine:%>ss^A PxK ;      ! maassa
- +Sg+Ela:%>st^A PxK ;      ! maasta
- +Sg+All:%>le PxxK ;        ! maale
- +Sg+Ade:%>l^A PxK ;       ! maala
- +Sg+Abl:%>lt^A PxK ;      ! maalta
- +Sg+Tra: TRA ;          ! maaksi
- +Sg+Ess:%>n^A PxK ;          ! maana
- +Sg+Abe:%>tt^A PxK ;      ! maatta
-
-LEXICON x0_pl 
-!! **LEXICON @LEXNAME@** for plural case forms
- +Pl+Nom:%>t PxK ;
- +Pl+Gen:%>i2tten PxK ;
- +Pl+Par:%>i2t^A PxK ;
- +Pl+Ill:%>i2hi n_PxK ;  ! maihin
- +Pl+Ine:%>i2ss^A PxK ;
- +Pl+Ela:%>i2st^A PxK ;
- +Pl+All:%>i2le PxxK ;
- +Pl+Ade:%>i2l^A PxK ;
- +Pl+Abl:%>i2lt^A PxK ;
- +Pl+Tra:%>i2 TRA ;
- +Pl+Ess:%>i2n^A PxK ;
- +Pl+Abe:%>i2tt^A PxK ;
 
 
 
@@ -109,15 +112,15 @@ LEXICON x1
 x1_sg ;
 x1_pl ;
 
-LEXICON x1_sg 
+LEXICON x1_sg
 !! **LEXICON @LEXNAME@** bisyllabic sg
- +Sg+Nom:^E2I       PxK ; !!≈ * @CODE@ nominative separate
++Sg+Nom: K ;
  x1_sg_oblique ; !!≈ * @CODE@  the rest
 
 LEXICON x1_sg_oblique
 !! **LEXICON @LEXNAME@** gives the rest
- +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@ 
- +Sg+Par:%>^A PxK ; !!≈ * @CODE@ 
+ +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@
+ +Sg+Par:%>^A PxK ; !!≈ * @CODE@
  +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon
  +Sg+Ine:^WG%>ss^A PxK ;      !!≈ * @CODE@  etc.
  +Sg+Ela:^WG%>st^A PxK ;      ! talosta
@@ -128,7 +131,7 @@ LEXICON x1_sg_oblique
  +Sg+Ess:%>n^A PxK ;          ! talona
  +Sg+Abe:^WG%>tt^A PxK ;      ! talotta
 
-LEXICON x1_pl 
+LEXICON x1_pl
 !! **LEXICON @LEXNAME@** the pl forms
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:^IDEL%>i2tten PxK ;
@@ -144,22 +147,22 @@ LEXICON x1_pl
  +Pl+Ess:%>i2n^A PxK ;
  +Pl+Abe:^WG%>i2tt^A PxK ;
 
-LEXICON n2 
+LEXICON n2
 !! **LEXICON @LEXNAME@**  vene
  +N: x2 ;
  +N+Nom: R ;
  +N+Gen:he%>en R ;
 
-LEXICON n2_pl 
+LEXICON n2_pl
 !! **LEXICON @LEXNAME@**  vehkheet
  +N: x2_pl ;
- 
+
 LEXICON x2
 !! **LEXICON @LEXNAME@** splits in sg and pl
  x2_sg ;
  x2_pl ;
 
-LEXICON x2_sg 
+LEXICON x2_sg
 !! **LEXICON @LEXNAME@** the sg
  +Sg+Nom:^WG      KK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
@@ -175,7 +178,7 @@ LEXICON x2_sg
  +Sg+Ess:%>en^A PxK ;
  +Sg+Abe:%>ett^A PxK ;
 
-LEXICON x2_pl 
+LEXICON x2_pl
 !! **LEXICON @LEXNAME@** the pl
  +Pl+Nom:h%>eet     K ;
  +Pl+Nom:h%>ee      Px ;
@@ -193,42 +196,42 @@ LEXICON x2_pl
  +Pl+Abe:%>ei2tt^A PxK ;
 
 LEXICON 3nc
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +N: xnc ;
 
 LEXICON xnc
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Sg+Nom: PxK ;      ! jiddisch
  :i x3_oblique_sg ; ! jiddischin
  :i x3_pl ;         ! jiddischit
- 
-LEXICON n3 
+
+LEXICON n3
 !! **LEXICON @LEXNAME@**  kanava
  +N: x3 ;
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
 
-LEXICON n3_pl 
+LEXICON n3_pl
 !! **LEXICON @LEXNAME@**  haalarit
  +N: x3_pl ;
- 
+
 LEXICON x3
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  x3_sg ;
  x3_pl ;
 
 LEXICON x3_oblique
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 x3_oblique_sg ;
 x3_pl ;
 
-LEXICON x3_sg 
-!! **LEXICON @LEXNAME@** 
+LEXICON x3_sg
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:^E2I       PxK ;
  x3_oblique_sg ;
 
 LEXICON x3_oblique_sg
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Sg+Gen:^WG%>n PxK ;
  +Sg+Par:%>^A PxK ;
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
@@ -242,7 +245,7 @@ LEXICON x3_oblique_sg
  +Sg+Abe:^WG%>tt^A PxK ;
 
 LEXICON x3_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>i2tten PxK ;
  +Pl+Par:%>j^A PxK ;
@@ -259,16 +262,16 @@ LEXICON x3_pl
 
 
 LEXICON n4
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +N: x4 ;
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
 
 LEXICON n4_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +N: x4_pl ;
- 
-LEXICON x4 
+
+LEXICON x4
 !! **LEXICON @LEXNAME@**  veri
 x4_sg ;
 x4_pl ;
@@ -287,7 +290,7 @@ LEXICON x4_sg
  +Sg+Tra:^WG TRA ;
 
 LEXICON x4_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>ten PxK ;
  +Pl+Par:%>j^A PxK ;
@@ -302,7 +305,7 @@ LEXICON x4_pl
 
 
 LEXICON n4_lapsi
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +N+Sg+Nom:psi R ;
 +N+Sg+Gen:pse%>n R ;
 +N+Sg+Nom:psi       PxK ; ! veri
@@ -316,7 +319,7 @@ LEXICON n4_lapsi
 +N+Sg+Abl:pse%>lt^A PxK ;
 +N+Sg+Ess:pse%>n^A PxK ;
 +N+Sg+Tra:pse TRA ;
- 
+
 +N+Pl+Nom:pse%>t PxK ;
 +N+Pl+Gen:s%>ten PxK ;
 +N+Pl+Par:ps%>i^A PxK ;
@@ -336,7 +339,7 @@ LEXICON n4_lapsi
 
 LEXICON nen
 !! **LEXICON @LEXNAME@**
-+N: xnen ; 
++N: xnen ;
 +N+Sg+Nom:s PxK ;
 +N+Sg+Gen:s PxK ;
 +N+Sg+Gen:s R ;
@@ -353,31 +356,31 @@ xnen_common_sg ;
 
 LEXICON xnen_pl
 !! **LEXICON @LEXNAME@**
-+Pl:se%>i2%> 2cases ;  
++Pl:se%>i2%> 2cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON 3nen
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +N: x3nen ;
 +N+Sg+Gen:s R ;
 
 LEXICON x3nen
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 x3nen_sg ;
 x3nen_pl ;
 
 LEXICON x3nen_sg
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON x3nen_pl
-!! **LEXICON @LEXNAME@** 
-+Pl:se%>i2%> 3cases ;  
+!! **LEXICON @LEXNAME@**
++Pl:se%>i2%> 3cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON xnen_common_sg
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:nen       PxK ;
  +Sg+Gen:se^WG%>n PxK ;
  +Sg+Par:s%>t^A PxK ;
@@ -389,7 +392,7 @@ LEXICON xnen_common_sg
  +Sg+Tra:se TRA ;
 
 LEXICON xnen_common_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:se^WG%>t PxK ;
  +Pl+Gen:s%>itten PxK ;
  +Pl+Gen+Err/Orth:s%>ten PxK ;
@@ -401,32 +404,32 @@ LEXICON xnen_common_pl
  +Pl+Abe:s%>i2tt^A PxK ;
 
 LEXICON 3cases
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +Ade:%>ll^A PxK ;
 +All:%>lle PxxK ;
 +Ess:%>nn^A PxK ;
 +Ess+Err/Orth:%>n^A PxK ;
 
 LEXICON 2cases
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +Ade:%>l^A PxK ;
 +All:%>le PxxK ;
 +Ess:%>n^A PxK ;
 
 
 LEXICON 3n_ks
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +N: xn_ks ;
 +N+Sg+Nom:s R ;
 +N+Sg+Gen:kse%>n R ;
 
 LEXICON xn_ks
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 xn_ks_sg ;
 xn_ks_pl ;
 
 LEXICON xn_ks_sg
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:s       PxK ;
  +Sg+Gen:kse%>n PxK ;
  +Sg+Par:s%>t^A PxK ;
@@ -441,7 +444,7 @@ LEXICON xn_ks_sg
 
 
 LEXICON xn_ks_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:kse%>t PxK ;
  +Pl+Gen:s%>ten PxK ;
  +Pl+Par:kse%>i2^A PxK ;
@@ -455,18 +458,18 @@ LEXICON xn_ks_pl
  +Pl+Tra:ks%>i2 TRA ;
 
 LEXICON 3n_ue
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 3x_ue ;
 +N+Sg+Nom:s R ;
 +N+Sg+Nom:de%>n R ;
 
 LEXICON 3x_ue
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
 +N: 3x_ue_sg ;
 +N: 3x_ue_pl ;
 
 LEXICON 3x_ue_sg
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:s PxK ;
  +Sg+Gen:e%>n PxK ;
  +Sg+Par:t%>t^A PxK ;
@@ -481,7 +484,7 @@ LEXICON 3x_ue_sg
  +Sg+Tra:e TRA ;
 
 LEXICON 3x_ue_pl
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:e%>t PxK ;
  +Pl+Gen:t%>ten PxK ;
  +Pl+Par:ks%>i^A PxK ;
@@ -493,16 +496,16 @@ LEXICON 3x_ue_pl
  +Pl+Abl:%>i2lt^A PxK ;
  +Pl+Abe:%>i2tt^A PxK ;
  +Pl+Tra:%>i2 TRA ;
- 
+
 LEXICON 3n_ime
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
  +N+Sg+Nom:^WGn       R ;
  +N+Sg+Gen:me%>n R ;
  +N: 3n_ime_sg ;
  +N: 3n_ime_pl ;
 
-LEXICON 3n_ime_sg 
-!! **LEXICON @LEXNAME@** 
+LEXICON 3n_ime_sg
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGn       PxK ;
  +Sg+Gen:me%>n PxK ;
  +Sg+Par:^WGn%>t^A PxK ;
@@ -534,6 +537,10 @@ LEXICON nas ! tehas
  +N+Sg+Gen:%>^Vn R ;
 
 LEXICON xnas
+xnas_sg ;
+xnas_pl ;
+
+LEXICON xnas_sg
  +Sg+Nom:^WGs       PxK ;
  +Sg+Gen:%>^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
@@ -547,6 +554,7 @@ LEXICON xnas
  +Sg+Ess:%>^Vn^A PxK ;
  +Sg+Tra:%>^V TRA ;
 
+LEXICON xnas_pl
  +Pl+Nom:%>^Vt PxK ;
  +Pl+Gen:%>^Vi2den PxK ;
  +Pl+Par:%>^Vi2t^A PxK ;
@@ -613,7 +621,7 @@ LEXICON n_uus
  +N+Pl+Abe:uuks%>i2tt^A PxK ;
  +N+Pl+Tra:uuks TRA ;
  +N+Pl+Ess:uuks%>i2n^A PxK ;
- 
+
 LEXICON 3n_lnr
  +N+Sg+Nom:^WG  R ;
  +N+Sg+Gen:e%>n R ;
@@ -689,7 +697,7 @@ LEXICON x4n_ks_pl
 
 LEXICON TRA
 :%>ks K ;
-:%>ks i_PxK ; 
+:%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes
 ! ---------------------------------
@@ -729,6 +737,3 @@ LEXICON Px
 LEXICON Px-Vn
  +PxSg3:%>%^Vn K ;
  +PxPl3:%>%^Vn K ;
-
-
-

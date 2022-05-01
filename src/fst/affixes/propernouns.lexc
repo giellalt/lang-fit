@@ -1,7 +1,7 @@
 !! # Meänkieli propernoun morphology
 
 
-!! This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)  
+!! This file documents [`affixes/propernouns.lexc`, the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)
 
 !! The lexicon napes have 3 parts, divided by "_"
 !! In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
@@ -9,282 +9,256 @@
 !! The third part is identical to the number in the `affixes/noun.lexc` file. Thus, **_1** points to the lexicon **x1**, etc.
 !! We do not use **_pl** for names
 
-LEXICON p_plc_0 
+LEXICON p_plc_0
 !! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Mal: x0_sg ;
 
-LEXICON p_sur_0 
+LEXICON p_sur_0
 !! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Sur: x0_sg ;
 
-LEXICON 3p_21ie 
+LEXICON p_surplc_0
+!! **LEXICON @LEXNAME@**
++N+Prop+Sem/Sur: x0_sg ;
++N+Prop+Sem/Plc: x0_sg ;
+
+LEXICON p_surplc_4
+!! **LEXICON @LEXNAME@**
++N+Prop+Sem/Sur: x4_sg ;
++N+Prop+Sem/Plc: x4_sg ;
+
+
+LEXICON p_21ie
 !! **LEXICON @LEXNAME@**
 +N+Prop: x4_sg ;
 
-LEXICON 3p_22oi 
+LEXICON p_22oi
 !! **LEXICON @LEXNAME@**
 +N+Prop: x3_sg ;
 
-LEXICON 3p_nen 
+LEXICON p_nen
 !! **LEXICON @LEXNAME@**
 +N+Prop: xnen_sg ;
 
-LEXICON 3p_C 
+LEXICON p_C
 !! **LEXICON @LEXNAME@**
 +N+Prop: xnc ;
 
-LEXICON 3p_ani_1 
+LEXICON p_ani_1
 !! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Ani: x1_sg ;
 
-LEXICON 3p_ani_41 
+LEXICON p_ani_41
 !! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Ani: xn_ks ;
 
 !! ... and many more.
 
-LEXICON 3p_fem_41 
-+N+Prop+Sem/Fem: xn_ks ;
-
-LEXICON 3p_fem_3 
+LEXICON p_fem_3
 +N+Prop+Sem/Fem: x3 ;
+
+LEXICON p_mal_3
++N+Prop+Sem/Mal: x3 ;
 
 LEXICON p_mal_2
 +N+Prop+Sem/Mal: x2_sg ;
 
 
-LEXICON 3p_mal_21_odd_i 
+LEXICON p_mal_21_odd_i
 +N+Prop+Sem/Mal: p_adhoc ;
 
-LEXICON 3p_mal_41 
+LEXICON p_mal_41
 +N+Prop+Sem/Mal: xn_ks ;
 
-LEXICON 3p_malfem_1 
+LEXICON p_malfem_1
 +N+Prop+Sem/Mal: x1 ;
 +N+Prop+Sem/Fem: x1 ;
 
-LEXICON 3p_malfem_C 
+LEXICON p_malfem_C
 +N+Prop+Sem/Mal: xnc ;
 +N+Prop+Sem/Fem: xnc ;
 
-LEXICON 3p_obj_1 
-+N+Prop+Sem/Obj: p_adhoc ;
-
-LEXICON 3p_obj_41 
-+N+Prop+Sem/Obj: p_adhoc ;
-
-LEXICON 3p_org_1 
-+N+Prop+Sem/Org: p_adhoc ;
-
-LEXICON 3p_org_41 
-+N+Prop+Sem/Org: p_adhoc ;
-
-LEXICON 3p_org_ks 
+LEXICON p_org_ks
 +N+Prop+Sem/Org: xn_ks_sg ;
 
-LEXICON 3p_mal_ks 
+LEXICON p_mal_ks
 +N+Prop+Sem/Mal: xn_ks_sg ;
 
-LEXICON 3p_plc_1 
-+N+Prop+Sem/Plc: x3_sg ;
+LEXICON p_fem_ks
++N+Prop+Sem/Fem: xn_ks_sg ;
 
-LEXICON 3p_plc_11_ae 
+LEXICON p_plc_11_ae
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_mal_1C 
+LEXICON p_mal_1C
 +N+Prop+Sem/Mal: p_adhoc ;
 
-LEXICON 3p_plc_1C 
+LEXICON p_plc_1C
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_org_1C 
+LEXICON p_org_1C
 +N+Prop+Sem/Org: p_adhoc ;
 
-LEXICON 3p_plc_1Cv 
+LEXICON p_plc_1Cv
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_1_odd_i 
+LEXICON p_sur_3Cv
++N+Prop+Sem/Sur: p_adhoc ;
+
+LEXICON p_plc_1_odd_i
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_1ie 
+LEXICON p_plc_4
++N+Prop+Sem/Plc: x4_sg ;
+
+LEXICON p_plc_1ii
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_1ii 
+LEXICON p_plc_1ta
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_1ta 
+LEXICON p_plc_22odd
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_22odd 
-+N+Prop+Sem/Plc: p_adhoc ;
-
-LEXICON 3p_plc_3
+LEXICON p_plc_3
 +N+Prop+Sem/Plc: x3_sg ;
 
-LEXICON 3p_plc_31 
+LEXICON p_plc_31
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_31ea 
+LEXICON p_plc_31ea
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_31uu 
+LEXICON p_plc_31uu
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_plc_41 
-+N+Prop+Sem/Plc: p_adhoc ;
-
-LEXICON 3p_sur_1 
-+N+Prop+Sem/Sur: p_adhoc ;
-
-LEXICON 3p_sur_21ie 
+LEXICON p_sur_21ie
 +N+Prop+Sem/Sur: x1 ;
 
-LEXICON 3p_sur_21ta 
+LEXICON p_sur_21ta
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON 3p_sur_3 
+LEXICON p_sur_3
 +N+Prop+Sem/Sur: x3 ;
 
-LEXICON 3p_sur_41 
-+N+Prop+Sem/Sur: xn_ks ;
-
-LEXICON 3p_sur_Cv 
+LEXICON p_sur_Cv
 +N+Prop+Sem/Sur: xnc ;
 
-LEXICON 3p_surmal_1 
+LEXICON p_surmal_1
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Mal: p_adhoc ;
 
-LEXICON 3p_surmal_41 
+LEXICON p_surmal_41
 +N+Prop+Sem/Sur: xn_ks ;
 +N+Prop+Sem/Mal: xn_ks ;
 
-LEXICON 3p_surmal_C 
+LEXICON p_surmal_C
 +N+Prop+Sem/Sur: xnc ;
 +N+Prop+Sem/Mal: xnc ;
 
-LEXICON 3p_surplc_1 
+LEXICON p_surplc_1
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON 3p_surplc_21ie 
+LEXICON p_surplc_21ie
 +N+Prop+Sem/Sur: x1 ;
 +N+Prop+Sem/Plc: x1 ;
 
-LEXICON 3p_surplc_21ta 
+LEXICON p_surplc_21ta
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON 3p_surplc_31 
+LEXICON p_surplc_31
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON 3p_surplc_41 
+LEXICON p_surplc_41
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON 3p_surplc_nen 
+LEXICON p_surplc_nen
 +N+Prop+Sem/Sur: xnen_sg ;
 +N+Prop+Sem/Plc: xnen_sg ;
 
-LEXICON 3p_surplc_C 
+LEXICON p_surplc_C
 +N+Prop+Sem/Sur: xnc ;
 
-LEXICON 3p_x 
+LEXICON p_x
 +N+Prop: nx ;
 
-LEXICON p_1 
+LEXICON p_1
 +N+Prop: x1 ;
 
-LEXICON p_22oi 
-+N+Prop: p_adhoc ;
+LEXICON p_plc_nas
++N+Prop+Sem/Plc: xnas_sg ;
 
-LEXICON p_nen 
-+N+Prop: xnen_sg ;
+LEXICON p_sur_nas
++N+Prop+Sem/Sur: xnas_sg ;
 
-LEXICON p_ani_41 
-+N+Prop+Sem/Ani: xn_ks ;
-
-LEXICON p_fem_21_oi_AO 
+LEXICON p_fem_21_oi_AO
 +N+Prop+Sem/Fem: p_adhoc ;
 
-LEXICON p_fem_31ia 
+LEXICON p_fem_31ia
 +N+Prop: p_adhoc ;
 
-LEXICON p_fem_41 
+LEXICON p_fem_41
 +N+Prop+Sem/Fem: xn_ks ;
 
-LEXICON p_mal_41 
-+N+Prop+Sem/Mal: xn_ks ;
-
-LEXICON p_obj_41 
+LEXICON p_obj_41
 +N+Prop+Sem/Obj: xn_ks ;
 
-LEXICON p_org_41 
+LEXICON p_org_41
 +N+Prop+Sem/Org: xn_ks ;
 
-LEXICON p_plc_11_AO 
+LEXICON p_plc_11_AO
 +N+Prop: p_adhoc ;
 
-LEXICON p_plc_11_AO_A2I 
+LEXICON p_plc_11_AO_A2I
 +N+Prop: p_adhoc ;
 
-LEXICON p_plc_1_oi_AO 
+LEXICON p_plc_1_oi_AO
 +N+Prop: p_adhoc ;
 
-LEXICON p_plc_22odd 
-+N+Prop: p_adhoc ;
-
-LEXICON p_plc_31ea 
-+N+Prop: p_adhoc ;
-
-LEXICON p_plc_41 
+LEXICON p_plc_41
 +N+Prop+Sem/Plc: xn_ks ;
 
-LEXICON p_sur_11_AO_A2I 
+LEXICON p_sur_11_AO_A2I
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON p_sur_41 
+LEXICON p_sur_41
 +N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON p_surfem_1 
+LEXICON p_surfem_1
 +N+Prop+Sem/Sur: x1 ;
 +N+Prop+Sem/Fem: x1 ;
 
-LEXICON p_malsur_1 
+LEXICON p_malsur_1
 +N+Prop+Sem/Mal: x1 ;
 +N+Prop+Sem/Sur: x1 ;
 
-LEXICON p_surplc_1 
-+N+Prop+Sem/Sur: x1 ;
-+N+Prop+Sem/Plc: x1 ;
-
-LEXICON p_surplc_11_AO_A2I 
+LEXICON p_surplc_11_AO_A2I
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON p_x 
+LEXICON vanha_nocmp_prop_1
 +N+Prop: x1 ;
 
-LEXICON vanha_nocmp_prop_1 
+LEXICON vanha_nocmp_prop_mal_1
 +N+Prop: x1 ;
 
-LEXICON vanha_nocmp_prop_mal_1 
-+N+Prop: x1 ;
-
-LEXICON vanha_nocmp_prop_org_C 
+LEXICON vanha_nocmp_prop_org_C
 +N+Prop: xnc ;
 
-LEXICON vanha_nocmp_prop_plc_1 
+LEXICON vanha_nocmp_prop_plc_1
 +N+Prop: x1 ;
 
-LEXICON vanha_nocmp_prop_plc_1C 
+LEXICON vanha_nocmp_prop_plc_1C
 +N+Prop: xnc ;
 
-LEXICON vanha_nocmp_prop_sur_C 
+LEXICON vanha_nocmp_prop_sur_C
 +N+Prop: xnc ;
 
-LEXICON vanha_nocmp_prop_surplc_1 
+LEXICON vanha_nocmp_prop_surplc_1
 +N+Prop: x1 ;
 
-LEXICON vanha_nocmp_prop_surplc_C 
+LEXICON vanha_nocmp_prop_surplc_C
 +N+Prop: xnc ;
 
 
@@ -304,7 +278,6 @@ LEXICON p_sur_1 +N+Prop+Sem/Sur: x1_sg ;
 LEXICON p_mal_1 +N+Prop+Sem/Mal: x1_sg ;
 LEXICON p_fem_1 +N+Prop+Sem/Fem: x1_sg ;
 LEXICON p_org_1 +N+Prop+Sem/Org: x1_sg ;
-LEXICON p_ani_1 +N+Prop+Sem/Ani: x1_sg ;
 LEXICON p_obj_1 +N+Prop+Sem/Obj: x1_sg ;
 
 LEXICON p2_plc
@@ -312,13 +285,13 @@ LEXICON p2_plc
 
 
 ! Rinta#maa, Kanava, (odd stems = 3p)
-LEXICON 3p_plc +N+Prop+Sem/Plc: x3_sg ;
-LEXICON 3p_sur +N+Prop+Sem/Sur: x3_sg ;
-LEXICON 3p_mal +N+Prop+Sem/Mal: x3_sg ;
-LEXICON 3p_fem +N+Prop+Sem/Fem: x3_sg ;
-LEXICON 3p_org +N+Prop+Sem/Org: x3_sg ;
-LEXICON 3p_ani +N+Prop+Sem/Ani: x3_sg ;
-LEXICON 3p_obj +N+Prop+Sem/Obj: x3_sg ;
+LEXICON p_plc +N+Prop+Sem/Plc: x3_sg ;
+LEXICON p_sur +N+Prop+Sem/Sur: x3_sg ;
+LEXICON p_mal +N+Prop+Sem/Mal: x3_sg ;
+LEXICON p_fem +N+Prop+Sem/Fem: x3_sg ;
+LEXICON p_org +N+Prop+Sem/Org: x3_sg ;
+LEXICON p_ani +N+Prop+Sem/Ani: x3_sg ;
+LEXICON p_obj +N+Prop+Sem/Obj: x3_sg ;
 
 
 LEXICON p_malfem_3
@@ -330,8 +303,23 @@ LEXICON p_surfem_3
 +N+Prop+Sem/Fem: x3_sg ;
 
 
-LEXICON 3p_ks
+LEXICON p_ks
 +N+Prop: xn_ks_sg ;
+
+LEXICON p_sur_ks
++N+Prop+Sem/Sur: xn_ks_sg ;
+
+LEXICON p_surmal_ks
++N+Prop+Sem/Sur: xn_ks_sg ;
++N+Prop+Sem/Mal: xn_ks_sg ;
+
+LEXICON p_surplc_ks
++N+Prop+Sem/Sur: xn_ks_sg ;
++N+Prop+Sem/Plc: xn_ks_sg ;
+
+
+LEXICON p_plc_ks
++N+Prop+Sem/Plc: xn_ks_sg ;
 
 LEXICON p3
 x3_sg ;
@@ -344,35 +332,35 @@ LEXICON p4_plc
 !! Consonant stems, odd and even stems
 
 ! Bern (even stem Berni- = p)
-LEXICON p_plc_C +N+Prop+Sem/Plc: p_sg ;
-LEXICON p_sur_C +N+Prop+Sem/Sur: p_sg ;
-LEXICON p_mal_C +N+Prop+Sem/Mal: p_sg ;
-LEXICON p_fem_C +N+Prop+Sem/Fem: p_sg ;
-LEXICON p_org_C +N+Prop+Sem/Org: p_sg ;
-LEXICON p_ani_C +N+Prop+Sem/Ani: p_sg ;
-LEXICON p_obj_C +N+Prop+Sem/Obj: p_sg ;
+LEXICON p_plc_C +N+Prop+Sem/Plc: p_sg_1 ;
+LEXICON p_sur_C +N+Prop+Sem/Sur: p_sg_1 ;
+LEXICON p_mal_C +N+Prop+Sem/Mal: p_sg_1 ;
+LEXICON p_fem_C +N+Prop+Sem/Fem: p_sg_1 ;
+LEXICON p_org_C +N+Prop+Sem/Org: p_sg_1 ;
+LEXICON p_ani_C +N+Prop+Sem/Ani: p_sg_1 ;
+LEXICON p_obj_C +N+Prop+Sem/Obj: p_sg_1 ;
 
 ! London (odd stem Londoni- = 3p)
-LEXICON 3p_plc_C +N+Prop+Sem/Plc: 3p_sg ;
-LEXICON 3p_sur_C +N+Prop+Sem/Sur: 3p_sg ;
-LEXICON 3p_mal_C +N+Prop+Sem/Mal: 3p_sg ;
-LEXICON 3p_fem_C +N+Prop+Sem/Fem: 3p_sg ;
-LEXICON 3p_org_C +N+Prop+Sem/Org: 3p_sg ;
-LEXICON 3p_ani_C +N+Prop+Sem/Ani: 3p_sg ;
-LEXICON 3p_obj_C +N+Prop+Sem/Obj: 3p_sg ;
+LEXICON p_plc_3C +N+Prop+Sem/Plc: p_sg_3 ;
+LEXICON p_sur_3C +N+Prop+Sem/Sur: p_sg_3 ;
+LEXICON p_mal_3C +N+Prop+Sem/Mal: p_sg_3 ;
+LEXICON p_fem_3C +N+Prop+Sem/Fem: p_sg_3 ;
+LEXICON p_org_3C +N+Prop+Sem/Org: p_sg_3 ;
+LEXICON p_ani_3C +N+Prop+Sem/Ani: p_sg_3 ;
+LEXICON p_obj_3C +N+Prop+Sem/Obj: p_sg_3 ;
 
 
-LEXICON p_sg ! Bern
+LEXICON p_sg_1 ! Bern
 +Sg+All:%>ile K ;
 +Sg+Ade:%>il^A K ;
 +Sg: p_common ;
 
-LEXICON 3p_sg ! London
+LEXICON p_sg_3 ! London
 +Sg+All:%>ille K ;
 +Sg+Ade:%>ill^A K ;
 +Sg: p_common ;
 
-LEXICON p_common 
+LEXICON p_common
 +Nom: K ; ! London
 +Nom+Err/Orth:%>i K ; ! Beogradi
 +Gen:%>in K ;

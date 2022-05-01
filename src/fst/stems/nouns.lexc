@@ -4,7 +4,7 @@
 
 !! # Vowel stems
 
-!! This is an overview of the continuation lexicon types. 
+!! This is an overview of the continuation lexicon types.
 
 !! * nx = unassigned
 
@@ -33,16 +33,16 @@
 
 !! # The lexica themselves
 
-!! The lemma list 
+!! The lemma list
 LEXICON NounRoot !!≈ * **@CODE@**
 
 romani% chib:romani% chib nc ;
 jiddisch:jiddisch 3nc ;
 kieliraati:kieli#raat2i n1 ;
 raati:raat2i n1 ;
-kvääni n1 ; !!≈ * @CODE@ 
-hinta n1 ; !!≈ * @CODE@ 
-häpy n1 ; !!≈ * @CODE@ 
+kvääni n1 ; !!≈ * @CODE@
+hinta n1 ; !!≈ * @CODE@
+häpy n1 ; !!≈ * @CODE@
 kala n1 ;
 kello n1 ;
 keppi n1 ;
@@ -73,12 +73,12 @@ talo n1 ;
 tooli n1 ;
 väri n1 ;
 
-rypriikki:rypriikki n3 ; !!≈ * @CODE@ 
+rypriikki:rypriikki n3 ; !!≈ * @CODE@
 veppi:veppi n1 ;
 teema:teema n1 ;
 saame:saame n1 ;
 ruotti:ruotti n1 ;
-asfaltti:asfaltti n3 ; !!≈ * @CODE@ 
+asfaltti:asfaltti n3 ; !!≈ * @CODE@
 abortti:abortti n1 ;
 mumentti:mumentti n1 ;
 terhveys:terhvey 3n_ue ;
@@ -90,10 +90,10 @@ siukkahoito:siukka#hoito n1 ;
 rukkous:rukkou 4n_ks ;
 tutkimus:tutkimu 4n_ks ;
 maakäräjä:maa#käräjä n3 ;
-hammashoitoavustus:hammashoitoavustu 4n_ks ; !!≈ * @CODE@ 
+hammashoitoavustus:hammashoitoavustu 4n_ks ; !!≈ * @CODE@
 prupleemi:prupleemi n1 ;
 jumala:jumala n3 ;
-vaitiolovelvolisuus:vaitiolo#velvolis n_uus ; !!≈ * @CODE@ 
+vaitiolovelvolisuus:vaitiolo#velvolis n_uus ; !!≈ * @CODE@
 hammashoito:hammas#hoito n1 ;
 hormooni:hormooni n1 ;
 hammaslääkäri:hammas#lääkäri n3 ;
@@ -132,11 +132,10 @@ laatia n3 ;
 tynnyri n3 ;
 
 !! n4 nouns
-joki:joke n1 ;
 jälki:jälke n1 ;
 kieli:kiele n4 ;
 meänkieli:meän#kiele n4 ;
-nimi:nime n1 ;
+nimi:nime n4 ;
 suomi:suome n1 ;
 tuli:tule n4 ;
 varsi:varte n4 ;
@@ -352,7 +351,7 @@ tuumiliha:tuumi#liha n1 ;
 piiksiliha:piiksi#liha n1 ;
 paistiliha:paisti#liha n1 ;
 palviliha:palvi#liha n1 ;
-vasikalliha:vasikal#liha n1 ; 
+vasikalliha:vasikal#liha n1 ;
 porolliha:porol#liha n1 ;
 pirulliha:pirul#liha n1 ; ! l#l
 lamphaanliha:lamphaan#liha n1 ; ! n#l
@@ -7747,7 +7746,7 @@ jäniksenäiti:jäniksen#äit2i n1 ;
 vierasäiti:vieras#äit2i n1 ;
 pakti:pakti n1 ;
 kontakti:kontakti n3 ;
-atjunkti:atjunkti n3 ; 
+atjunkti:atjunkti n3 ;
 aspekti:aspekti n3 ;
 tialekti:tialekti n1 ;
 sekti:sekti n1 ;
@@ -14304,30 +14303,30 @@ hyysikkä:hyysikkä nx ;
 veivikkä:veivikkä nx ;
 livikkä:livikkä nx ;
 kevätlivikkä:kevätlivikkä nx ;
-räikkä:räikkä nx ;
-penkkä:penkkä nx ;
-jänkkä:jänkkä nx ;
-hillajänkkä:hillajänkkä nx ;
-rapajänkkä:rapajänkkä nx ;
-vesijänkkä:vesijänkkä nx ;
-kuivikkojänkkä:kuivikkojänkkä nx ;
-kulojänkkä:kulojänkkä nx ;
-vesitysjänkkä:vesitysjänkkä nx ;
-kevätjänkkä:kevätjänkkä nx ;
-utujänkkä:utujänkkä nx ;
-puujänkkä:puujänkkä nx ;
-heinäjänkkä:heinäjänkkä nx ;
-kränkkä:kränkkä nx ;
-pränkkä:pränkkä nx ;
-pönkkä:pönkkä nx ;
-äkkijyrkkä:äkkijyrkkä nx ;
+räikkä:räikkä n1 ;
+penkkä:penkkä n1 ;
+jänkkä:jänkkä n1 ;
+hillajänkkä:hillajänkkä n1 ;
+rapajänkkä:rapajänkkä n1 ;
+vesijänkkä:vesijänkkä n1 ;
+kuivikkojänkkä:kuivikkojänkkä n1 ;
+kulojänkkä:kulojänkkä n1 ;
+vesitysjänkkä:vesitysjänkkä n1 ;
+kevätjänkkä:kevätjänkkä n1 ;
+utujänkkä:utujänkkä n1 ;
+puujänkkä:puujänkkä n1 ;
+heinäjänkkä:heinäjänkkä n1 ;
+kränkkä:kränkkä n1 ;
+pränkkä:pränkkä n1 ;
+pönkkä:pönkkä n1 ;
+äkkijyrkkä:äkkijyrkkä n1 ;
 tyllykkä:tyllykkä nx ;
 töllykkä:töllykkä nx ;
-mykkä:mykkä nx ;
+mykkä:mykkä n1 ;
 nypykkä:nypykkä nx ;
 typykkä:typykkä nx ;
 köpykkä:köpykkä nx ;
-kyykkä:kyykkä nx ;
+kyykkä:kyykkä n1 ;
 väljäkkä:väljäkkä nx ;
 mäläkkä:mäläkkä nx ;
 lääppäkkä:lääppäkkä nx ;
@@ -14335,36 +14334,36 @@ tärräkkä:tärräkkä nx ;
 kesäkkä:kesäkkä nx ;
 lässäkkä:lässäkkä nx ;
 krässäkkä:krässäkkä nx ;
-täkkä:täkkä nx ;
-linnuntäkkä:linnuntäkkä nx ;
+täkkä:täkkä n1 ;
+linnuntäkkä:linnuntäkkä n1 ;
 pättäkkä:pättäkkä nx ;
-mötäkkä:mötäkkä nx ;
-ääkkä:ääkkä nx ;
-nyökkä:nyökkä nx ;
-selkä:selkä nx ;
-länkiselkä:länkiselkä nx ;
-maanselkä:maanselkä nx ;
-veltanselkä:veltanselkä nx ;
-kartanselkä:kartanselkä nx ;
-talvenselkä:talvenselkä nx ;
-puunselkä:puunselkä nx ;
-ruohoselkä:ruohoselkä nx ;
-notkoselkä:notkoselkä nx ;
-lupposelkä:lupposelkä nx ;
-patoselkä:patoselkä nx ;
-varrasselkä:varrasselkä nx ;
-koukkuselkä:koukkuselkä nx ;
-koukkuselkä:koukkuselkä nx ;
-kahtuselkä:kahtuselkä nx ;
-pitkäselkä:pitkäselkä nx ;
-kyttyräselkä:kyttyräselkä nx ;
-vyöselkä:vyöselkä nx ;
-nälkä:nälkä nx ;
-puunnälkä:puunnälkä nx ;
-sölkä:sölkä nx ;
-luokkasölkä:luokkasölkä nx ;
-kenkä:kenkä nx ;
-nauhakenkä:nauhakenkä nx ;
+mötäkkä:mötäkkä n1 ;
+ääkkä:ääkkä n1 ;
+nyökkä:nyökkä n1 ;
+selkä:selkä n1 ;
+länkiselkä:länkiselkä n1 ;
+maanselkä:maanselkä n1 ;
+veltanselkä:veltanselkä n1 ;
+kartanselkä:kartanselkä n1 ;
+talvenselkä:talvenselkä n1 ;
+puunselkä:puunselkä n1 ;
+ruohoselkä:ruohoselkä n1 ;
+notkoselkä:notkoselkä n1 ;
+lupposelkä:lupposelkä n1 ;
+patoselkä:patoselkä n1 ;
+varrasselkä:varrasselkä n1 ;
+koukkuselkä:koukkuselkä n1 ;
+koukkuselkä:koukkuselkä n1 ;
+kahtuselkä:kahtuselkä n1 ;
+pitkäselkä:pitkäselkä n1 ;
+kyttyräselkä:kyttyräselkä n1 ;
+vyöselkä:vyöselkä n1 ;
+nälkä:nälkä n1 ;
+puunnälkä:puunnälkä n1 ;
+sölkä:sölkä n1 ;
+luokkasölkä:luokkasölkä n1 ;
+kenkä:kenkä n1 ;
+nauhakenkä:nauhakenkä n1 ;
 kumakkakenkä:kumakkakenkä nx ;
 nilkkakenkä:nilkkakenkä nx ;
 puoskakenkä:puoskakenkä nx ;
