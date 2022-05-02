@@ -1217,6 +1217,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON nen**
 
+**LEXICON nen_sg**
+
 **LEXICON xnen**
 
 **LEXICON xnen_sg**
@@ -1258,7 +1260,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON 3n_ime**
 
-**LEXICON 3n_ime_sg**
+**LEXICON x_ime_sg**
 
 ### Sublexica for cases
 
@@ -1492,6 +1494,8 @@ We do not use **_pl** for names
 **LEXICON p_sur_0**
 
 **LEXICON p_surplc_0**
+
+**LEXICON p_sur_4**
 
 **LEXICON p_surplc_4**
 
