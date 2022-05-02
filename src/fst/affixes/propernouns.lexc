@@ -22,6 +22,10 @@ LEXICON p_surplc_0
 +N+Prop+Sem/Sur: x0_sg ;
 +N+Prop+Sem/Plc: x0_sg ;
 
+LEXICON p_sur_4
+!! **LEXICON @LEXNAME@**
++N+Prop+Sem/Sur: x4_sg ;
+
 LEXICON p_surplc_4
 !! **LEXICON @LEXNAME@**
 +N+Prop+Sem/Sur: x4_sg ;
@@ -80,6 +84,12 @@ LEXICON p_malfem_C
 
 LEXICON p_org_ks
 +N+Prop+Sem/Org: xn_ks_sg ;
+
+LEXICON p_obj_ks
++N+Prop+Sem/Obj: xn_ks_sg ;
+
+LEXICON p_ani_ks
++N+Prop+Sem/Ani: xn_ks_sg ;
 
 LEXICON p_mal_ks
 +N+Prop+Sem/Mal: xn_ks_sg ;
@@ -181,7 +191,7 @@ LEXICON p_surplc_C
 +N+Prop+Sem/Sur: xnc ;
 
 LEXICON p_x
-+N+Prop: nx ;
++N+Prop: x1 ;
 
 LEXICON p_1
 +N+Prop: x1 ;
@@ -248,6 +258,9 @@ LEXICON vanha_nocmp_prop_org_C
 
 LEXICON vanha_nocmp_prop_plc_1
 +N+Prop: x1 ;
+
+LEXICON vanha_nocmp_prop_plc_1pl
++N+Prop: x1_pl ;
 
 LEXICON vanha_nocmp_prop_plc_1C
 +N+Prop: xnc ;
