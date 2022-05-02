@@ -50,7 +50,7 @@ LEXICON n0
 
 LEXICON n0_pl ! häät
 !! **LEXICON @LEXNAME@** for plurals of the same: *häät*
- +N: x1_pl ;
+ +N: x0_pl ;
 
  LEXICON x0
  !! **LEXICON @LEXNAME@** splitting to sg and pl
@@ -339,10 +339,18 @@ LEXICON n4_lapsi
 
 LEXICON nen
 !! **LEXICON @LEXNAME@**
-+N: xnen ;
+nen_sg ;
+nen_pl ;
+
+LEXICON nen_sg
+!! **LEXICON @LEXNAME@**
++N: xnen_sg ;
 +N+Sg+Nom:s PxK ;
 +N+Sg+Gen:s PxK ;
 +N+Sg+Gen:s R ;
+
+LEXICON nen_pl
++N: xnen_pl ;
 
 LEXICON xnen
 !! **LEXICON @LEXNAME@**
@@ -504,7 +512,13 @@ LEXICON 3n_ime
  +N: 3n_ime_sg ;
  +N: 3n_ime_pl ;
 
-LEXICON 3n_ime_sg
+LEXICON 3n_ime_sg 
+x_ime_sg ;
+
+LEXICON 3n_ime_pl 
+x_ime_pl ;
+
+LEXICON x_ime_sg
 !! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGn       PxK ;
  +Sg+Gen:me%>n PxK ;
@@ -519,7 +533,7 @@ LEXICON 3n_ime_sg
  +Sg+Ess:me%>n^A PxK ;
  +Sg+Tra:me TRA ;
 
-LEXICON 3n_ime_pl
+LEXICON x_ime_pl
  +Pl+Nom:me%>t PxK ;
  +Pl+Gen:n%>ten PxK ;
  +Pl+Par:m%>i^A PxK ;
