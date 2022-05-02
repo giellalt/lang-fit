@@ -72,7 +72,7 @@ EXTEDITOR=@SEE@
 
 # 2. plural lemmas
 @GTCORE@/scripts/extract-lemmas.sh \
-    --include "(n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
+    --include "(n0_pl|n_pl|n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
     $source_file > $lemmas_plural
 
 ###### Start testing: #######
