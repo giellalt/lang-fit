@@ -35,18 +35,13 @@ Consonant stems
 The lemma list
 * **LEXICON NounRoot**
 
-* kvääni n1 ;
 * hinta n1 ;
-* häpy n1 ;
-
 * rypriikki:rypriikki n3 ;
+* kvääni n1 ;
 * asfaltti:asfaltti n3 ;
-* hammashoitoavustus:hammashoitoavustu 4n_ks ;
 * vaitiolovelvolisuus:vaitiolo#velvolis n_uus ;
-
-n4 nouns
-
-Consonant stems
+* hammashoitoavustus:hammashoitoavustu 4n_ks ;
+* häpy n1 ;
 
 * * *
 
