@@ -509,21 +509,21 @@ LEXICON 3n_ime
 !! **LEXICON @LEXNAME@**
  +N+Sg+Nom:^WGn       R ;
  +N+Sg+Gen:me%>n R ;
- +N: 3n_ime_sg ;
- +N: 3n_ime_pl ;
+  3n_ime_sg ;
+  3n_ime_pl ;
 
 LEXICON 3n_ime_sg 
-x_ime_sg ;
++N: x_ime_sg ;
 
 LEXICON 3n_ime_pl 
-x_ime_pl ;
++N: x_ime_pl ;
 
 LEXICON x_ime_sg
 !! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGn       PxK ;
  +Sg+Gen:me%>n PxK ;
  +Sg+Par:^WGn%>t^A PxK ;
- +Sg+Ill:im%>hee n_PxK ;
+ +Sg+Ill:m%>hee n_PxK ;
  +Sg+Ine:me%>ss^A PxK ;
  +Sg+Ela:me%>st^A PxK ;
  +Sg+All:me%>lle PxxK ;
