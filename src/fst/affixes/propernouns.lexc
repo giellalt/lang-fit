@@ -181,7 +181,7 @@ LEXICON p_surplc_31
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_surplc_41
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: xn_ks ;
 
 LEXICON p_surplc_nen
 +N+Prop+Sem/Sur: xnen_sg ;
@@ -233,7 +233,7 @@ LEXICON p_sur_11_AO_A2I
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_sur_41
-+N+Prop+Sem/Sur: p_adhoc ;
++N+Prop+Sem/Sur: xn_ks ;
 
 LEXICON p_surfem_1
 +N+Prop+Sem/Sur: x1 ;
