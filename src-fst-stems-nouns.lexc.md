@@ -25,7 +25,7 @@ Consonant stems
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
 * 3n_ue = lakeus - lakeude
-* 3n_ime = puhelin - puhelime
+*i 3n_ime = puhelin - puhelime
 * 3n_lnr = taival, taimen, manner
 * nas = tehas - tehtaan
 * 3mies = mies
