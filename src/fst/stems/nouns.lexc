@@ -25,7 +25,7 @@
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
 !! * 3n_ue = lakeus - lakeude
-!! * 3n_ime = puhelin - puhelime
+!! *i 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taival, taimen, manner
 !! * nas = tehas - tehtaan
 !! * 3mies = mies
@@ -1026,7 +1026,7 @@ kika:kika n1 ;
 lika:lika n1 ;
 pihalika:pihalika nx ;
 vesilika:vesilika nx ;
-niskanikamet:niskanika 3n_ime_pl ;
+niskanikamet:niskanikai 3n_ime_pl ;
 poika:poika n1 ;
 poikanen:poika 3nen ;
 vanhaapoika:vanhaa#poika n1 ;
@@ -5389,7 +5389,7 @@ pakkaslumi:pakkas#lume n4 ;
 mätälumi:mätä#lume n4 ;
 nätälumi:nätä#lume n4 ;
 höttölumi:höttö#lume n4 ;
-pahtumi:pahtume n4 ;
+pahtumi:pahtumi n3 ;
 keuhkokuume:keuhkokuume n2 ;
 maitokuume:maitokuume n2 ;
 lämpimänräme:lämpimänräme n2 ;
@@ -9034,19 +9034,19 @@ sopusointi:sopu#sointi nx ;
 vointi:vointi nx ;
 puinti:puinti nx ;
 kriistitsnämnti:kriistits#nämnti nx ;
-vasikankontit:vasikankonti n1_pl ;
-ronti:ronti nx ;
+vasikankontit:vasikankontti n1_pl ;
+ronti:ronti n1 ;
 juonti:juonti nx ;
 teenjuonti:teen#juonti nx ;
 punti:punti nx ;
 masunti:masunti nx ;
 tivunti:tivunti nx ;
-kynti:kynti nx ;
-synti:synti nx ;
-myynti:myynti nx ;
-liinanmyynti:liinan#myynti nx ;
+kynti:kynte n4 ;
+synti:synti n1 ;
+myynti:myynti n1 ;
+liinanmyynti:lii1nan#myynti nx ;
 pyynti:pyynti nx ;
-rauanpyynti:rauan#pyynti nx ;
+rauanpyynti:rauan#pyynti n1 ;
 linnunpyynti:linnun#pyynti nx ;
 käynti:käynti nx ;
 ilmankäynti:ilman#käynti nx ;
@@ -9068,7 +9068,7 @@ muoti:muoti nx ;
 puoti:puoti nx ;
 maantuoti:maan#tuoti nx ;
 kaarti:kaarti nx ;
-kaksvartinen:kaksvarti 3nen ;
+kaksvartinen:kaks#varti 3nen ;
 akoorti:akoorti nx ;
 poorti:poorti nx ;
 väärti:väärti nx ;
@@ -9089,7 +9089,7 @@ proasti:proasti nx ;
 rasti:rasti nx ;
 aarasti:aarasti nx ;
 merastin:merasti 3n_ime ;
-provasti:provasti nx ;
+provasti:provasti n3 ;
 nenäsiesti:nenä#siesti nx ;
 peräsiestin:peräsiesti 3n_ime ;
 viesti:viesti nx ;
@@ -11764,10 +11764,10 @@ tervet:tervet nx ;
 kasuvet:kasuvet nx ;
 kasuvet:kasuvet nx ;
 öljynyet:öljynyet nx ;
-kaihtimet:kaiht 3n_ime_pl ;
-hohtimet:hoht 3n_ime_pl ;
+kaihtimet:kaihti 3n_ime_pl ;
+hohtimet:hohti 3n_ime_pl ;
 kohtuus:koht n_uus ;
-pohtimet:poht 3n_ime_pl ;
+pohtimet:pohti 3n_ime_pl ;
 tiuhtuus:tiuht n_uus ;
 pummitiuhtuus:pummitiuht n_uus ;
 topingit:topingit nx ;
@@ -11777,7 +11777,7 @@ kasuot:kasuot nx ;
 valta-astuus:valta-ast n_uus ;
 pittuus:pitt n_uus ;
 pittuus:pitt n_uus ;
-kerittimet:keritt 3n_ime_pl ;
+kerittimet:keritti 3n_ime_pl ;
 tottuus:tott n_uus ;
 verkkoulut:verkkoulut n_pl ;
 kluutuus:kluut n_uus ;
@@ -15110,12 +15110,12 @@ läpikäytävä:läpi#käytävä nx ;
 läävä:läävä nx ;
 lammasläävä:lammas#läävä nx ;
 jyä:jyä nx ;
-syän:syä 3n_ime ;
-syän:syä 3n_ime ; ! xxx sjekk
-maasyän:maa#syä 3n_ime ;
-talisyän:tali#syä 3n_ime ;
-kynttilänsyän:kynttilän#syä 3n_ime ;
-vyösyän:vyö#syä 3n_ime ;
+syän:syäi 3n_ime ;
+syän:syäi 3n_ime ; ! xxx sjekk
+maasyän:maa#syäi 3n_ime ;
+talisyän:tali#syäi 3n_ime ;
+kynttilänsyän:kynttilän#syäi 3n_ime ;
+vyösyän:vyö#syäi 3n_ime ;
 lemmehtyä:lemmehtyä nx ;
 mettäintyä:mettäintyä nx ;
 vertyä:vertyä nx ;
