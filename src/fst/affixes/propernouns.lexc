@@ -125,7 +125,7 @@ LEXICON p_plc_1ii
 +N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_plc_1ta
-+N+Prop+Sem/Plc: p_adhoc ;
++N+Prop+Sem/Plc: x4_sg ;
 
 LEXICON p_plc_22odd
 +N+Prop+Sem/Plc: p_adhoc ;
