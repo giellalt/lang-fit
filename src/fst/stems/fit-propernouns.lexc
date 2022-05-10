@@ -133,8 +133,8 @@ Saimaa:Sai#maa p_plc_0 ;
 Paasimaa:Paasi#maa p_sur_0 ;
 Pirkanmaa:Pirkan#maa p_plc_0 ;
 Piera% Jouninmaa:Piera% Jounin#maa p_plc_0 ;
-Kväänin#maa p_plc_0 ;
-Kainhuun#maa p_plc_0 ;
+Kvääninmaa:Kväänin#maa p_plc_0 ;
+Kainhunmaa:Kainhun#maa p_plc_0 ;
 Sydänmaa:Syđän#maa p_sur_0 ;
 Peltomaa:Pelto#maa p_surplc_0 ;
 Hiiumaa:Hiiu#maa p_plc_0 ;
@@ -1815,7 +1815,7 @@ Pikku% Kottisokka:Pikku% Kotti#sokka p_plc_11_AO_A2I ;
 Kaitsifielmansokka:Kaitsifielman#sokka p_plc_11_AO_A2I ;
 Mađansokka:Mađan#sokka p_plc_11_AO_A2I ;
 Panniniemensokka:Panniniemen#sokka p_plc_11_AO_A2I ;
-Sappirjoensokka:Sappi#joen#sokka p_plc_11_AO_A2I ;
+Sappirjoensokka:Sappir#joen#sokka p_plc_11_AO_A2I ;
 Liikajoensokka:Liikajoen#sokka p_plc_11_AO_A2I ;
 Järvikkäisensokka:Järvikkäisen#sokka p_plc_11_AO_A2I ;
 Ankarilahđensokka:Ankari#lahđen#sokka p_plc_11_AO_A2I ;
@@ -2636,7 +2636,7 @@ Nurmela p_sur_1 ;
 Nurmela+OLang/FIN:Nurmela p_sur_1 ;
 Onnela p_sur_1 ;
 Onnela+OLang/FIN:Onnela p_sur_1 ;
-Mannela+OLang/FIN:Mannela p_fem_1 ;
+Mannela+OLang/FIN:Mannela p_sur_1 ;
 Blancornela+OLang/FIN:Blancornela p_sur_1 ;
 Lounela p_sur_1 ;
 Lounela+OLang/FIN:Lounela p_sur_1 ;
@@ -2992,10 +2992,9 @@ Ulla p_fem_1 ;
 Callas:Calla p_sur_ks ;
 Dallas:Dalla p_plc_ks ;
 Halla p_sur_1 ;
-Lalla p_plc_41 ;
+Lalla p_plc_1 ;
 Salla p_fem_1 ;
 Valla p_plc_1 ;
-Victoriafalla p_plc_1 ;
 Overhalla p_plc_1 ;
 Uddevalla p_plc_1 ;
 Solvalla+OLang/SWE:Solvalla p_plc_1 ;
@@ -6056,7 +6055,7 @@ Konrad p_mal_3C ;
 Monrad p_mal_3C ;
 Norad p_org_3C ;
 Härads:Härads p_plc_C ;
-Vagn#härad p_plc_1C ;
+Vagnhärad:Vagn#härad p_plc_1C ;
 Sjeherasad p_plc_1C ;
 Posad p_plc_1C ;
 Stad p_plc_1C ;
@@ -8588,7 +8587,7 @@ Liseleje p_plc_1 ;
 Kummeneje:Kumme#neje p_plc_1 ;
 Talgje p_sur_1 ;
 Logje p_sur_1 ;
-Muittalæggje:Muitta#lægje p_org_1 ;
+Muittalægje:Muitta#lægje p_org_1 ;
 Byrkiije p_plc_1 ;
 Byrkije p_plc_1 ;
 Rykkje p_sur_1 ;
@@ -8718,51 +8717,51 @@ Pinke p_sur_1 ;
 Loke p_mal_1 ;
 Pikku% Silmäreikäautsin% joki:Pikku% Silmäreikäautsin% #joke p_plc_4 ;
 Vanhajoki:Vanha#joke p_plc_4 ;
-Kauhajoki+OLang/FIN:Kauha#joke p_plc_1 ;
+Kauhajoki+OLang/FIN:Kauha#joke p_plc_4 ;
 Kauhajoki:Kauha#joke p_plc_4 ;
 Vaajajoki:Vaaja#joke p_plc_4 ;
 Liikajoki:Liika#joke p_plc_4 ;
-Muorravaarakkajoki+OLang/FIN:Muorra#vaarakka#joke p_plc_1 ;
-Alajoki+OLang/FIN:Ala#joke p_plc_1 ;
+Muorravaarakkajoki+OLang/FIN:Muorra#vaarakka#joke p_plc_4 ;
+Alajoki+OLang/FIN:Ala#joke p_plc_4 ;
 Alajoki:Ala#joke p_plc_4 ;
-Kalajoki+OLang/FIN:Kala#joke p_plc_1 ;
+Kalajoki+OLang/FIN:Kala#joke p_plc_4 ;
 Kalajoki:Kala#joke p_plc_4 ;
-Humalajoki+OLang/FIN:Humala#joke p_plc_1 ;
+Humalajoki+OLang/FIN:Humala#joke p_plc_4 ;
 Humalajoki:Humala#joke p_plc_4 ;
 Lallajoki:Lalla#joke p_plc_4 ;
 Hautamajoki:Hautama#joke p_plc_4 ;
-Luomajoki+OLang/FIN:Luoma#joke p_plc_1 ;
+Luomajoki+OLang/FIN:Luoma#joke p_plc_4 ;
 Luomajoki:Luoma#joke p_plc_4 ;
-Vuomajoki+OLang/FIN:Vuoma#joke p_plc_1 ;
+Vuomajoki+OLang/FIN:Vuoma#joke p_plc_4 ;
 Vuomajoki:Vuoma#joke p_plc_4 ;
 Lismajoki:Lisma#joke p_plc_4 ;
-Pakanajoki+OLang/FIN:Pakana#joke p_plc_1 ;
+Pakanajoki+OLang/FIN:Pakana#joke p_plc_4 ;
 Pakanajoki:Pakana#joke p_plc_4 ;
 Raunajoki:Rauna#joke p_plc_4 ;
 Saarajoki:Saara#joke p_plc_4 ;
 Laksajoki:Laksa#joke p_plc_4 ;
 Puksajoki:Puksa#joke p_plc_4 ;
-Mustajoki+OLang/FIN:Musta#joke p_plc_1 ;
+Mustajoki+OLang/FIN:Musta#joke p_plc_4 ;
 Mustajoki:Musta#joke p_plc_4 ;
-Kautajoki+OLang/FIN:Kauta#joke p_plc_1 ;
-Rautajoki+OLang/FIN:Rauta#joke p_plc_1 ;
+Kautajoki+OLang/FIN:Kauta#joke p_plc_4 ;
+Rautajoki+OLang/FIN:Rauta#joke p_plc_4 ;
 Rautajoki:Rauta#joke p_plc_4 ;
-Uutuajoki+OLang/FIN:Uutua#joke p_plc_1 ;
+Uutuajoki+OLang/FIN:Uutua#joke p_plc_4 ;
 Pernillejoki:Pernille#joke p_plc_4 ;
 Rokkijoki:Rokki#joke p_plc_4 ;
 Ala-Haskijoki:Ala-Haski#joke p_plc_4 ;
 Keski-Haskijoki:Keski-Haski#joke p_plc_4 ;
 Yli-Haskijoki:Yli-Haski#joke p_plc_4 ;
 Maskijoki:Maski#joke p_plc_4 ;
-Ylijoki+OLang/FIN:Yli#joke p_plc_1 ;
+Ylijoki+OLang/FIN:Yli#joke p_plc_4 ;
 Ylijoki:Yli#joke p_plc_4 ;
 Kaurelijoki:Kaureli#joke p_plc_4 ;
 Ellijoki:Elli#joke p_plc_4 ;
 Fallijoki:Falli#joke p_plc_4 ;
 Kallijoki:Kalli#joke p_plc_4 ;
-Pellijoki+OLang/FIN:Pelli#joke p_plc_1 ;
+Pellijoki+OLang/FIN:Pelli#joke p_plc_4 ;
 Pellijoki:Pelli#joke p_plc_4 ;
-Wuolijoki+OLang/FIN:Wuoli#joke p_plc_1 ;
+Wuolijoki+OLang/FIN:Wuoli#joke p_plc_4 ;
 Wuolijoki:Wuoli#joke p_plc_4 ;
 Vuoremijoki:Vuoremi#joke p_plc_4 ;
 Lemmijoki:Lemmi#joke p_plc_4 ;
@@ -8772,7 +8771,7 @@ Nipijoki:Nipi#joke p_plc_4 ;
 Rieppijoki:Rieppi#joke p_plc_4 ;
 Seippijoki:Seippi#joke p_plc_4 ;
 Inarijoki:Inari#joke p_plc_4 ;
-Kiparijoki+OLang/FIN:Kipari#joke p_plc_1 ;
+Kiparijoki+OLang/FIN:Kipari#joke p_plc_4 ;
 Kiparijoki:Kipari#joke p_plc_4 ;
 Kapperijoki:Kapperi#joke p_plc_4 ;
 Alainen% Tunturijoki:Alainen% Tunturi#joke p_plc_4 ;
@@ -8786,16 +8785,16 @@ Nuortijoki+OLang/FIN:Nuorti#joke p_plc_4 ;
 Luostijoki:Luosti#joke p_plc_4 ;
 Laattijoki:Laatti#joke p_plc_4 ;
 Samettijoki:Sametti#joke p_plc_4 ;
-Ainettijoki+OLang/FIN:Ainetti#joke p_plc_1 ;
+Ainettijoki+OLang/FIN:Ainetti#joke p_plc_4 ;
 Ainettijoki:Ainetti#joke p_plc_4 ;
 Evettijoki:Evetti#joke p_plc_4 ;
 Pikkovettijoki:Pikkovetti#joke p_plc_4 ;
 Louttijoki:Loutti#joke p_plc_4 ;
 Porhaanjoki:Porhaan#joke p_plc_4 ;
-Alaraudanjoki+OLang/FIN:Ala#raudan#joke p_plc_1 ;
+Alaraudanjoki+OLang/FIN:Ala#raudan#joke p_plc_4 ;
 Alaraudanjoki:Alaraudan#joke p_plc_4 ;
 Larspahanjoki:Larspahan#joke p_plc_4 ;
-Pakanjoki+OLang/FIN:Pakan#joke p_plc_1 ;
+Pakanjoki+OLang/FIN:Pakan#joke p_plc_4 ;
 Pakanjoki:Pakan#joke p_plc_4 ;
 Nuorttuvakanjoki:Nuorttuvakan#joke p_plc_4 ;
 Kuolpanvankanjoki:Kuolpanvankan#joke p_plc_4 ;
@@ -8841,15 +8840,15 @@ Aunaskurunjoki:Aunaskurun#joke p_plc_4 ;
 Yykeänperänjoki:Yykeänperän#joke p_plc_4 ;
 Sisäpäänjoki:Sisäpään#joke p_plc_4 ;
 Muonionjoki:Muonio#joke p_plc_4 ;
-Palojoki+OLang/FIN:Palo#joke p_plc_1 ;
+Palojoki+OLang/FIN:Palo#joke p_plc_4 ;
 Palojoki:Palo#joke p_plc_4 ;
-Ivalojoki+OLang/FIN:Ivalo#joke p_plc_1 ;
+Ivalojoki+OLang/FIN:Ivalo#joke p_plc_4 ;
 Ivalojoki:Ivalo#joke p_plc_4 ;
-Simojoki+OLang/FIN:Simo#joke p_plc_1 ;
+Simojoki+OLang/FIN:Simo#joke p_plc_4 ;
 Simojoki:Simo#joke p_plc_4 ;
-Luttojoki+OLang/FIN:Lutto#joke p_plc_1 ;
+Luttojoki+OLang/FIN:Lutto#joke p_plc_4 ;
 Luttojoki:Lutto#joke p_plc_4 ;
-Suojoki+OLang/FIN:Suo#joke p_plc_1 ;
+Suojoki+OLang/FIN:Suo#joke p_plc_4 ;
 Suojoki:Suo#joke p_plc_4 ;
 Äkäs-Kuerjoki:Äkäs-Kuer#joke p_plc_4 ;
 Sappirjoki:Sappir#joke p_plc_4 ;
@@ -8861,11 +8860,11 @@ Tuorisjoki:Tuoris#joke p_plc_4 ;
 Sarvisjoki:Sarvis#joke p_plc_4 ;
 Siosjoki:Sios#joke p_plc_4 ;
 Kolosjoki:Kalos#joke p_plc_4 ;
-Kolosjoki+OLang/FIN:Kolos#joke p_plc_1 ;
+Kolosjoki+OLang/FIN:Kolos#joke p_plc_4 ;
 Kolosjoki:Kolos#joke p_plc_4 ;
 Kaivosjoki:Kaivos#joke p_plc_4 ;
 Utsjoki:Uts#joke p_plc_4 ;
-Patsjoki+OLang/FIN:Pats#joke p_plc_1 ;
+Patsjoki+OLang/FIN:Pats#joke p_plc_4 ;
 Patsjoki:Pats#joke p_plc_4 ;
 Paatsjoki:Paats#joke p_plc_4 ;
 Kaitusjoki:Kaitus#joke p_plc_4 ;
@@ -8877,20 +8876,20 @@ Pikku% Karhujoki:Pikku% Karhu#joke p_plc_4 ;
 Pikkujoki:Pikku#joke p_plc_4 ;
 Kahlujoki:Kahlu#joke p_plc_4 ;
 Heilujoki:Heilu#joke p_plc_4 ;
-Oulujoki+OLang/FIN:Oulu#joke p_plc_1 ;
+Oulujoki+OLang/FIN:Oulu#joke p_plc_4 ;
 Oulujoki:Oulu#joke p_plc_4 ;
 Suoinujoki:Suoinu#joke p_plc_4 ;
-Jaurujoki+OLang/FIN:Jauru#joke p_plc_1 ;
+Jaurujoki+OLang/FIN:Jauru#joke p_plc_4 ;
 Syväkurujoki:Syväkuru#joke p_plc_4 ;
 Kuosujoki:Kuosu#joke p_plc_4 ;
 Nuorttujoki:Nuorttu#joke p_plc_4 ;
-Myllyjoki+OLang/FIN:Mylly#joke p_plc_1 ;
+Myllyjoki+OLang/FIN:Mylly#joke p_plc_4 ;
 Myllyjoki:Mylly#joke p_plc_4 ;
 Pyssyjoki:Pyssy#joke p_plc_4 ;
 Utzjoki:Utz#joke p_plc_4 ;
 Pyhäjoki:Pyhä#joke p_plc_4 ;
 Venhenjänkäjoki:Venhenjänkä#joke p_plc_4 ;
-Säynäjoki+OLang/FIN:Säynä#joke p_plc_1 ;
+Säynäjoki+OLang/FIN:Säynä#joke p_plc_4 ;
 Säynäjoki:Säynä#joke p_plc_4 ;
 Pikkuleppäjoki:Pikkuleppä#joke p_plc_4 ;
 Veneenkenttäjoki:Veneenkenttä#joke p_plc_4 ;
@@ -8898,9 +8897,9 @@ Jääjoki:Jää#joke p_plc_4 ;
 Luomajoke p_sur_1 ;
 Rautajoke p_sur_1 ;
 Ylijoke p_sur_1 ;
-Lemmenjoki+OLang/FIN:Lemmenjoke p_plc_1 ;
-Äkäs-Kuerjoki+OLang/FIN:Äkäs-Kuerjoke p_plc_1 ;
-Äkäsjoki+OLang/FIN:Äkäsjoke p_plc_1 ;
+Lemmenjoki+OLang/FIN:Lemmen#joke p_plc_4 ;
+Äkäs-Kuerjoki+OLang/FIN:Äkäs-Kuerjoke p_plc_4 ;
+Äkäsjoki+OLang/FIN:Äkäsjoke p_plc_4 ;
 Floke p_sur_1 ;
 Roanoke p_plc_1 ;
 Sherbrooke p_plc_1 ;
@@ -8969,173 +8968,173 @@ Klondyke p_org_1 ;
 Psyke p_fem_1 ;
 Syntyke p_plc_1 ;
 Åke p_mal_1 ;
-Korkeamäki+OLang/FIN:Korkea#mäke p4_plc ;
-Ihamäki+OLang/FIN:Iha#mäke p4_sur ;
-Vanhamäki+OLang/FIN:Vanha#mäke p4_plc ;
-Rauhamäki+OLang/FIN:Rauha#mäke p4_sur ;
-Ojamäki+OLang/FIN:Oja#mäke p4_sur ;
-Majamäki+OLang/FIN:Maja#mäke p4_plc ;
-Pajamäki+OLang/FIN:Paja#mäke p4_plc ;
-Rajamäki+OLang/FIN:Raja#mäke p4_plc ;
-Pihlajamäki+OLang/FIN:Pihlaja#mäke p4_plc ;
-Katajamäki+OLang/FIN:Kataja#mäke p4_plc ;
-Siljamäki+OLang/FIN:Silja#mäke p4_sur ;
-Linjamäki+OLang/FIN:Linja#mäke p4_plc ;
-Marjamäki+OLang/FIN:Marja#mäke p4_plc ;
-Kujamäki+OLang/FIN:Kuja#mäke p4_sur ;
-Hakamäki+OLang/FIN:Haka#mäke p4_plc ;
-Takamäki+OLang/FIN:Taka#mäke p4_sur ;
-Vehkamäki+OLang/FIN:Vehka#mäke p4_sur ;
-Tikkamäki+OLang/FIN:Tikka#mäke p4_plc ;
-Mansikkamäki+OLang/FIN:Mansikka#mäke p4_sur ;
-Kukkamäki+OLang/FIN:Kukka#mäke p4_sur ;
-Malkamäki+OLang/FIN:Malka#mäke p4_sur ;
-Honkamäki+OLang/FIN:Honka#mäke p4_plc ;
-Alamäki+OLang/FIN:Ala#mäke p4_sur ;
-Humalamäki+OLang/FIN:Humala#mäke p4_plc ;
-Matalamäki+OLang/FIN:Matala#mäke p4_sur ;
-Mahlamäki+OLang/FIN:Mahla#mäke p4_sur ;
-Puolamäki+OLang/FIN:Puola#mäke p4_sur ;
-Paulamäki+OLang/FIN:Paula#mäke p4_sur ;
-Ihanamäki+OLang/FIN:Ihana#mäke p4_sur ;
-Viinamäki+OLang/FIN:Viina#mäke p4_plc ;
-Saunamäki+OLang/FIN:Sauna#mäke p4_sur ;
-Haapamäki+OLang/FIN:Haapa#mäke p4_plc ;
-Kuoppamäki+OLang/FIN:Kuoppa#mäke p4_sur ;
-Tupamäki+OLang/FIN:Tupa#mäke p4_sur ;
-Saramäki+OLang/FIN:Sara#mäke p4_sur ;
-Kauramäki+OLang/FIN:Kaura#mäke p4_sur ;
-Vesamäki+OLang/FIN:Vesa#mäke p4_plc ;
-Hietamäki+OLang/FIN:Hieta#mäke p4_plc ;
-Kohtamäki+OLang/FIN:Kohta#mäke p4_sur ;
-Huhtamäki+OLang/FIN:Huhta#mäke p4_plc ;
-Ritamäki+OLang/FIN:Rita#mäke p4_plc ;
-Laitamäki+OLang/FIN:Laita#mäke p4_sur ;
-Viitamäki+OLang/FIN:Viita#mäke p4_sur ;
-Keltamäki+OLang/FIN:Kelta#mäke p4_sur ;
-Multamäki+OLang/FIN:Multa#mäke p4_plc ;
-Rantamäki+OLang/FIN:Ranta#mäke p4_sur ;
-Rintamäki+OLang/FIN:Rinta#mäke p4_sur ;
-Kotamäki+OLang/FIN:Kota#mäke p4_plc ;
-Vastamäki+OLang/FIN:Vasta#mäke p4_sur ;
-Mustamäki+OLang/FIN:Musta#mäke p4_plc ;
-Aittamäki+OLang/FIN:Aitta#mäke p4_plc ;
-Hautamäki+OLang/FIN:Hauta#mäke p4_sur ;
-Lautamäki+OLang/FIN:Lauta#mäke p4_sur ;
-Rautamäki+OLang/FIN:Rauta#mäke p4_sur ;
-Kuivamäki+OLang/FIN:Kuiva#mäke p4_sur ;
-Tervamäki+OLang/FIN:Terva#mäke p4_sur ;
-Lähdemäki+OLang/FIN:Lähde#mäke p4_sur ;
-Rinnemäki+OLang/FIN:Rinne#mäke p4_plc ;
-Riihimäki+OLang/FIN:Riihi#mäke p4_plc ;
-Hanhimäki+OLang/FIN:Hanhi#mäke p4_sur ;
-Tuohimäki+OLang/FIN:Tuohi#mäke p4_sur ;
-Poikkimäki+OLang/FIN:Poikki#mäke p4_sur ;
-Jokimäki+OLang/FIN:Joki#mäke p4_plc ;
-Keskimäki+OLang/FIN:Keski#mäke p4_plc ;
-Koskimäki+OLang/FIN:Koski#mäke p4_plc ;
-Ylimäki+OLang/FIN:Yli#mäke p4_sur ;
-Salimäki+OLang/FIN:Sali#mäke p4_plc ;
-Tuulimäki+OLang/FIN:Tuuli#mäke p4_plc ;
-Välimäki+OLang/FIN:Väli#mäke p4_sur ;
-Niemimäki+OLang/FIN:Niemi#mäke p4_sur ;
-Pienimäki+OLang/FIN:Pieni#mäke p4_sur ;
-Heinimäki+OLang/FIN:Heini#mäke p4_sur ;
-Niinimäki+OLang/FIN:Niini#mäke p4_sur ;
-Lampimäki+OLang/FIN:Lampi#mäke p4_sur ;
-Kimpimäki+OLang/FIN:Kimpi#mäke p4_sur ;
-Korpimäki+OLang/FIN:Korpi#mäke p4_plc ;
-Karimäki+OLang/FIN:Kari#mäke p4_sur ;
-Saarimäki+OLang/FIN:Saari#mäke p4_sur ;
-Teerimäki+OLang/FIN:Teeri#mäke p4_sur ;
-Muurimäki+OLang/FIN:Muuri#mäke p4_sur ;
-Länsimäki+OLang/FIN:Länsi#mäke p4_plc ;
-Hirsimäki+OLang/FIN:Hirsi#mäke p4_plc ;
-Uusimäki+OLang/FIN:Uusi#mäke p4_sur ;
-Kuusimäki+OLang/FIN:Kuusi#mäke p4_plc ;
-Lehtimäki+OLang/FIN:Lehti#mäke p4_plc ;
-Kotimäki+OLang/FIN:Koti#mäke p4_plc ;
-Ristimäki+OLang/FIN:Risti#mäke p4_sur ;
-Pirttimäki+OLang/FIN:Pirtti#mäke p4_plc ;
-Savimäki+OLang/FIN:Savi#mäke p4_sur ;
-Kivimäki+OLang/FIN:Kivi#mäke p4_plc ;
-Hirvimäki+OLang/FIN:Hirvi#mäke p4_sur ;
-Järvimäki+OLang/FIN:Järvi#mäke p4_sur ;
-Huhdanmäki+OLang/FIN:Huhdan#mäke p4_plc ;
-Sillanmäki+OLang/FIN:Sillan#mäke p4_sur ;
-Linnanmäki+OLang/FIN:Linnan#mäke p4_plc ;
-Lahdenmäki+OLang/FIN:Lahden#mäke p4_sur ;
-Taipaleenmäki+OLang/FIN:Taipaleen#mäke p4_sur ;
-Lähteenmäki+OLang/FIN:Lähteen#mäke p4_sur ;
-Koskenmäki+OLang/FIN:Kosken#mäke p4_plc ;
-Järvenmäki+OLang/FIN:Järven#mäke p4_sur ;
-Arhinmäki+OLang/FIN:Arhin#mäke p4_sur ;
-Lamminmäki+OLang/FIN:Lammin#mäke p4_sur ;
-Rasinmäki+OLang/FIN:Rasin#mäke p4_plc ;
-Pentinmäki+OLang/FIN:Pentin#mäke p4_plc ;
-Martinmäki+OLang/FIN:Martin#mäke p4_plc ;
-Ahomäki+OLang/FIN:Aho#mäke p4_sur ;
-Ruohomäki+OLang/FIN:Ruoho#mäke p4_sur ;
-Kalliomäki+OLang/FIN:Kallio#mäke p4_plc ;
-Vainiomäki+OLang/FIN:Vainio#mäke p4_sur ;
-Marjomäki+OLang/FIN:Marjo#mäke p4_sur ;
-Hakomäki+OLang/FIN:Hako#mäke p4_sur ;
-Lakomäki+OLang/FIN:Lako#mäke p4_sur ;
-Hankomäki+OLang/FIN:Hanko#mäke p4_sur ;
-Ilomäki+OLang/FIN:Ilo#mäke p4_sur ;
-Palomäki+OLang/FIN:Palo#mäke p4_sur ;
-Salomäki+OLang/FIN:Salo#mäke p4_sur ;
-Kulomäki+OLang/FIN:Kulo#mäke p4_plc ;
-Pinomäki+OLang/FIN:Pino#mäke p4_plc ;
-Lepomäki+OLang/FIN:Lepo#mäke p4_sur ;
-Aromäki+OLang/FIN:Aro#mäke p4_sur ;
-Isomäki+OLang/FIN:Iso#mäke p4_sur ;
-Latomäki+OLang/FIN:Lato#mäke p4_plc ;
-Matomäki+OLang/FIN:Mato#mäke p4_plc ;
-Ketomäki+OLang/FIN:Keto#mäke p4_sur ;
-Lehtomäki+OLang/FIN:Lehto#mäke p4_sur ;
-Peltomäki+OLang/FIN:Pelto#mäke p4_plc ;
-Murtomäki+OLang/FIN:Murto#mäke p4_plc ;
-Mastomäki+OLang/FIN:Masto#mäke p4_sur ;
-Aittomäki+OLang/FIN:Aitto#mäke p4_sur ;
-Suomäki+OLang/FIN:Suo#mäke p4_sur ;
-Levomäki+OLang/FIN:Levo#mäke p4_sur ;
-Kangasmäki+OLang/FIN:Kangas#mäke p4_sur ;
-Loukasmäki+OLang/FIN:Loukas#mäke p4_plc ;
-Tervasmäki+OLang/FIN:Tervas#mäke p4_plc ;
-Lähdesmäki+OLang/FIN:Lähdes#mäke p4_sur ;
-Halmesmäki+OLang/FIN:Halmes#mäke p4_sur ;
-Kortesmäki+OLang/FIN:Kortes#mäke p4_sur ;
-Kirvesmäki+OLang/FIN:Kirves#mäke p4_sur ;
-Kaunismäki+OLang/FIN:Kaunis#mäke p4_plc ;
-Ruismäki+OLang/FIN:Ruis#mäke p4_sur ;
-Jousmäki+OLang/FIN:Jous#mäke p4_sur ;
-Ylösmäki+OLang/FIN:Ylös#mäke p4_sur ;
-Karhumäki+OLang/FIN:Karhu#mäke p4_plc ;
-Pajumäki+OLang/FIN:Paju#mäke p4_plc ;
-Miilumäki+OLang/FIN:Miilu#mäke p4_plc ;
-Maunumäki+OLang/FIN:Maunu#mäke p4_plc ;
-Kumpumäki+OLang/FIN:Kumpu#mäke p4_plc ;
-Lintumäki+OLang/FIN:Lintu#mäke p4_sur ;
-Koivumäki+OLang/FIN:Koivu#mäke p4_plc ;
-Myllymäki+OLang/FIN:Mylly#mäke p4_plc ;
-Mäntymäki+OLang/FIN:Mänty#mäke p4_plc ;
-Niittymäki+OLang/FIN:Niitty#mäke p4_sur ;
-Pyymäki+OLang/FIN:Pyy#mäke p4_sur ;
-Vähämäki+OLang/FIN:Vähä#mäke p4_sur ;
-Syrjämäki+OLang/FIN:Syrjä#mäke p4_sur ;
-Petäjämäki+OLang/FIN:Petäjä#mäke p4_plc ;
-Pitkämäki+OLang/FIN:Pitkä#mäke p4_plc ;
-Ylämäki+OLang/FIN:Ylä#mäke p4_plc ;
-Etelämäki+OLang/FIN:Etelä#mäke p4_plc ;
-Heinämäki+OLang/FIN:Heinä#mäke p4_plc ;
-Leppämäki+OLang/FIN:Leppä#mäke p4_plc ;
-Perämäki+OLang/FIN:Perä#mäke p4_plc ;
-Pieksämäki+OLang/FIN:Pieksä#mäke p4_plc ;
-Metsämäki+OLang/FIN:Metsä#mäke p4_plc ;
-Perkiömäki+OLang/FIN:Perkiö#mäke p4_plc ;
-Kytömäki+OLang/FIN:Kytö#mäke p4_plc ;
-Jäätteenmäki+OLang/FIN:Jäätteenmäke p4_sur ;
+Korkeamäki+OLang/FIN:Korkea#mäke p_plc_4 ;
+Ihamäki+OLang/FIN:Iha#mäke p_sur_4 ;
+Vanhamäki+OLang/FIN:Vanha#mäke p_plc_4 ;
+Rauhamäki+OLang/FIN:Rauha#mäke p_sur_4 ;
+Ojamäki+OLang/FIN:Oja#mäke p_sur_4 ;
+Majamäki+OLang/FIN:Maja#mäke p_plc_4 ;
+Pajamäki+OLang/FIN:Paja#mäke p_plc_4 ;
+Rajamäki+OLang/FIN:Raja#mäke p_plc_4 ;
+Pihlajamäki+OLang/FIN:Pihlaja#mäke p_plc_4 ;
+Katajamäki+OLang/FIN:Kataja#mäke p_plc_4 ;
+Siljamäki+OLang/FIN:Silja#mäke p_sur_4 ;
+Linjamäki+OLang/FIN:Linja#mäke p_plc_4 ;
+Marjamäki+OLang/FIN:Marja#mäke p_plc_4 ;
+Kujamäki+OLang/FIN:Kuja#mäke p_sur_4 ;
+Hakamäki+OLang/FIN:Haka#mäke p_plc_4 ;
+Takamäki+OLang/FIN:Taka#mäke p_sur_4 ;
+Vehkamäki+OLang/FIN:Vehka#mäke p_sur_4 ;
+Tikkamäki+OLang/FIN:Tikka#mäke p_plc_4 ;
+Mansikkamäki+OLang/FIN:Mansikka#mäke p_sur_4 ;
+Kukkamäki+OLang/FIN:Kukka#mäke p_sur_4 ;
+Malkamäki+OLang/FIN:Malka#mäke p_sur_4 ;
+Honkamäki+OLang/FIN:Honka#mäke p_plc_4 ;
+Alamäki+OLang/FIN:Ala#mäke p_sur_4 ;
+Humalamäki+OLang/FIN:Humala#mäke p_plc_4 ;
+Matalamäki+OLang/FIN:Matala#mäke p_sur_4 ;
+Mahlamäki+OLang/FIN:Mahla#mäke p_sur_4 ;
+Puolamäki+OLang/FIN:Puola#mäke p_sur_4 ;
+Paulamäki+OLang/FIN:Paula#mäke p_sur_4 ;
+Ihanamäki+OLang/FIN:Ihana#mäke p_sur_4 ;
+Viinamäki+OLang/FIN:Viina#mäke p_plc_4 ;
+Saunamäki+OLang/FIN:Sauna#mäke p_sur_4 ;
+Haapamäki+OLang/FIN:Haapa#mäke p_plc_4 ;
+Kuoppamäki+OLang/FIN:Kuoppa#mäke p_sur_4 ;
+Tupamäki+OLang/FIN:Tupa#mäke p_sur_4 ;
+Saramäki+OLang/FIN:Sara#mäke p_sur_4 ;
+Kauramäki+OLang/FIN:Kaura#mäke p_sur_4 ;
+Vesamäki+OLang/FIN:Vesa#mäke p_plc_4 ;
+Hietamäki+OLang/FIN:Hieta#mäke p_plc_4 ;
+Kohtamäki+OLang/FIN:Kohta#mäke p_sur_4 ;
+Huhtamäki+OLang/FIN:Huhta#mäke p_plc_4 ;
+Ritamäki+OLang/FIN:Rita#mäke p_plc_4 ;
+Laitamäki+OLang/FIN:Laita#mäke p_sur_4 ;
+Viitamäki+OLang/FIN:Viita#mäke p_sur_4 ;
+Keltamäki+OLang/FIN:Kelta#mäke p_sur_4 ;
+Multamäki+OLang/FIN:Multa#mäke p_plc_4 ;
+Rantamäki+OLang/FIN:Ranta#mäke p_sur_4 ;
+Rintamäki+OLang/FIN:Rinta#mäke p_sur_4 ;
+Kotamäki+OLang/FIN:Kota#mäke p_plc_4 ;
+Vastamäki+OLang/FIN:Vasta#mäke p_sur_4 ;
+Mustamäki+OLang/FIN:Musta#mäke p_plc_4 ;
+Aittamäki+OLang/FIN:Aitta#mäke p_plc_4 ;
+Hautamäki+OLang/FIN:Hauta#mäke p_sur_4 ;
+Lautamäki+OLang/FIN:Lauta#mäke p_sur_4 ;
+Rautamäki+OLang/FIN:Rauta#mäke p_sur_4 ;
+Kuivamäki+OLang/FIN:Kuiva#mäke p_sur_4 ;
+Tervamäki+OLang/FIN:Terva#mäke p_sur_4 ;
+Lähdemäki+OLang/FIN:Lähde#mäke p_sur_4 ;
+Rinnemäki+OLang/FIN:Rinne#mäke p_plc_4 ;
+Riihimäki+OLang/FIN:Riihi#mäke p_plc_4 ;
+Hanhimäki+OLang/FIN:Hanhi#mäke p_sur_4 ;
+Tuohimäki+OLang/FIN:Tuohi#mäke p_sur_4 ;
+Poikkimäki+OLang/FIN:Poikki#mäke p_sur_4 ;
+Jokimäki+OLang/FIN:Joki#mäke p_plc_4 ;
+Keskimäki+OLang/FIN:Keski#mäke p_plc_4 ;
+Koskimäki+OLang/FIN:Koski#mäke p_plc_4 ;
+Ylimäki+OLang/FIN:Yli#mäke p_sur_4 ;
+Salimäki+OLang/FIN:Sali#mäke p_plc_4 ;
+Tuulimäki+OLang/FIN:Tuuli#mäke p_plc_4 ;
+Välimäki+OLang/FIN:Väli#mäke p_sur_4 ;
+Niemimäki+OLang/FIN:Niemi#mäke p_sur_4 ;
+Pienimäki+OLang/FIN:Pieni#mäke p_sur_4 ;
+Heinimäki+OLang/FIN:Heini#mäke p_sur_4 ;
+Niinimäki+OLang/FIN:Niini#mäke p_sur_4 ;
+Lampimäki+OLang/FIN:Lampi#mäke p_sur_4 ;
+Kimpimäki+OLang/FIN:Kimpi#mäke p_sur_4 ;
+Korpimäki+OLang/FIN:Korpi#mäke p_plc_4 ;
+Karimäki+OLang/FIN:Kari#mäke p_sur_4 ;
+Saarimäki+OLang/FIN:Saari#mäke p_sur_4 ;
+Teerimäki+OLang/FIN:Teeri#mäke p_sur_4 ;
+Muurimäki+OLang/FIN:Muuri#mäke p_sur_4 ;
+Länsimäki+OLang/FIN:Länsi#mäke p_plc_4 ;
+Hirsimäki+OLang/FIN:Hirsi#mäke p_plc_4 ;
+Uusimäki+OLang/FIN:Uusi#mäke p_sur_4 ;
+Kuusimäki+OLang/FIN:Kuusi#mäke p_plc_4 ;
+Lehtimäki+OLang/FIN:Lehti#mäke p_plc_4 ;
+Kotimäki+OLang/FIN:Koti#mäke p_plc_4 ;
+Ristimäki+OLang/FIN:Risti#mäke p_sur_4 ;
+Pirttimäki+OLang/FIN:Pirtti#mäke p_plc_4 ;
+Savimäki+OLang/FIN:Savi#mäke p_sur_4 ;
+Kivimäki+OLang/FIN:Kivi#mäke p_plc_4 ;
+Hirvimäki+OLang/FIN:Hirvi#mäke p_sur_4 ;
+Järvimäki+OLang/FIN:Järvi#mäke p_sur_4 ;
+Huhdanmäki+OLang/FIN:Huhdan#mäke p_plc_4 ;
+Sillanmäki+OLang/FIN:Sillan#mäke p_sur_4 ;
+Linnanmäki+OLang/FIN:Linnan#mäke p_plc_4 ;
+Lahdenmäki+OLang/FIN:Lahden#mäke p_sur_4 ;
+Taipaleenmäki+OLang/FIN:Taipaleen#mäke p_sur_4 ;
+Lähteenmäki+OLang/FIN:Lähteen#mäke p_sur_4 ;
+Koskenmäki+OLang/FIN:Kosken#mäke p_plc_4 ;
+Järvenmäki+OLang/FIN:Järven#mäke p_sur_4 ;
+Arhinmäki+OLang/FIN:Arhin#mäke p_sur_4 ;
+Lamminmäki+OLang/FIN:Lammin#mäke p_sur_4 ;
+Rasinmäki+OLang/FIN:Rasin#mäke p_plc_4 ;
+Pentinmäki+OLang/FIN:Pentin#mäke p_plc_4 ;
+Martinmäki+OLang/FIN:Martin#mäke p_plc_4 ;
+Ahomäki+OLang/FIN:Aho#mäke p_sur_4 ;
+Ruohomäki+OLang/FIN:Ruoho#mäke p_sur_4 ;
+Kalliomäki+OLang/FIN:Kallio#mäke p_plc_4 ;
+Vainiomäki+OLang/FIN:Vainio#mäke p_sur_4 ;
+Marjomäki+OLang/FIN:Marjo#mäke p_sur_4 ;
+Hakomäki+OLang/FIN:Hako#mäke p_sur_4 ;
+Lakomäki+OLang/FIN:Lako#mäke p_sur_4 ;
+Hankomäki+OLang/FIN:Hanko#mäke p_sur_4 ;
+Ilomäki+OLang/FIN:Ilo#mäke p_sur_4 ;
+Palomäki+OLang/FIN:Palo#mäke p_sur_4 ;
+Salomäki+OLang/FIN:Salo#mäke p_sur_4 ;
+Kulomäki+OLang/FIN:Kulo#mäke p_plc_4 ;
+Pinomäki+OLang/FIN:Pino#mäke p_plc_4 ;
+Lepomäki+OLang/FIN:Lepo#mäke p_sur_4 ;
+Aromäki+OLang/FIN:Aro#mäke p_sur_4 ;
+Isomäki+OLang/FIN:Iso#mäke p_sur_4 ;
+Latomäki+OLang/FIN:Lato#mäke p_plc_4 ;
+Matomäki+OLang/FIN:Mato#mäke p_plc_4 ;
+Ketomäki+OLang/FIN:Keto#mäke p_sur_4 ;
+Lehtomäki+OLang/FIN:Lehto#mäke p_sur_4 ;
+Peltomäki+OLang/FIN:Pelto#mäke p_plc_4 ;
+Murtomäki+OLang/FIN:Murto#mäke p_plc_4 ;
+Mastomäki+OLang/FIN:Masto#mäke p_sur_4 ;
+Aittomäki+OLang/FIN:Aitto#mäke p_sur_4 ;
+Suomäki+OLang/FIN:Suo#mäke p_sur_4 ;
+Levomäki+OLang/FIN:Levo#mäke p_sur_4 ;
+Kangasmäki+OLang/FIN:Kangas#mäke p_sur_4 ;
+Loukasmäki+OLang/FIN:Loukas#mäke p_plc_4 ;
+Tervasmäki+OLang/FIN:Tervas#mäke p_plc_4 ;
+Lähdesmäki+OLang/FIN:Lähdes#mäke p_sur_4 ;
+Halmesmäki+OLang/FIN:Halmes#mäke p_sur_4 ;
+Kortesmäki+OLang/FIN:Kortes#mäke p_sur_4 ;
+Kirvesmäki+OLang/FIN:Kirves#mäke p_sur_4 ;
+Kaunismäki+OLang/FIN:Kaunis#mäke p_plc_4 ;
+Ruismäki+OLang/FIN:Ruis#mäke p_sur_4 ;
+Jousmäki+OLang/FIN:Jous#mäke p_sur_4 ;
+Ylösmäki+OLang/FIN:Ylös#mäke p_sur_4 ;
+Karhumäki+OLang/FIN:Karhu#mäke p_plc_4 ;
+Pajumäki+OLang/FIN:Paju#mäke p_plc_4 ;
+Miilumäki+OLang/FIN:Miilu#mäke p_plc_4 ;
+Maunumäki+OLang/FIN:Maunu#mäke p_plc_4 ;
+Kumpumäki+OLang/FIN:Kumpu#mäke p_plc_4 ;
+Lintumäki+OLang/FIN:Lintu#mäke p_sur_4 ;
+Koivumäki+OLang/FIN:Koivu#mäke p_plc_4 ;
+Myllymäki+OLang/FIN:Mylly#mäke p_plc_4 ;
+Mäntymäki+OLang/FIN:Mänty#mäke p_plc_4 ;
+Niittymäki+OLang/FIN:Niitty#mäke p_sur_4 ;
+Pyymäki+OLang/FIN:Pyy#mäke p_sur_4 ;
+Vähämäki+OLang/FIN:Vähä#mäke p_sur_4 ;
+Syrjämäki+OLang/FIN:Syrjä#mäke p_sur_4 ;
+Petäjämäki+OLang/FIN:Petäjä#mäke p_plc_4 ;
+Pitkämäki+OLang/FIN:Pitkä#mäke p_plc_4 ;
+Ylämäki+OLang/FIN:Ylä#mäke p_plc_4 ;
+Etelämäki+OLang/FIN:Etelä#mäke p_plc_4 ;
+Heinämäki+OLang/FIN:Heinä#mäke p_plc_4 ;
+Leppämäki+OLang/FIN:Leppä#mäke p_plc_4 ;
+Perämäki+OLang/FIN:Perä#mäke p_plc_4 ;
+Pieksämäki+OLang/FIN:Pieksä#mäke p_plc_4 ;
+Metsämäki+OLang/FIN:Metsä#mäke p_plc_4 ;
+Perkiömäki+OLang/FIN:Perkiö#mäke p_plc_4 ;
+Kytömäki+OLang/FIN:Kytö#mäke p_plc_4 ;
+Jäätteenmäki+OLang/FIN:Jäätteen#mäke p_sur_4 ;
 Eles:Ele p_sur_41 ;
 Ole p_mal_1 ;
 Dale p_plc_1 ;
@@ -9373,15 +9372,14 @@ Honkaniemi:Honka#nieme p_surplc_4 ;
 Salaniemi:Sala#nieme p_surplc_4 ;
 Poikilaniemi:Poikila#nieme p_surplc_4 ;
 Sulaniemi:Sula#nieme p_surplc_4 ;
-Tuulaniemi+OLang/FIN:Tuula#nieme p_plc_1 ;
+Tuulaniemi+OLang/FIN:Tuula#nieme p_plc_4 ;
 Tuulaniemi:Tuula#nieme p_sur_21ie ;
 Riimaniemi:Riima#nieme p_surplc_4 ;
 Ketsavonnaniemi:Ketsavonna#nieme p_surplc_4 ;
 Millionaniemi:Milliona#nieme p_surplc_4 ;
 Ruonaniemi+OLang/FIN:Ruona#nieme p_plc_4 ;
 Haapaniemi:Haapa#nieme p_surplc_4 ;
-Vaaraniemi+OLang/FIN:Vaara#nieme p_plc_1 ;
-Vaaraniemi:Vaara#nieme p_sur_21ie ;
+Vaaraniemi:Vaara#nieme p_surplc_4 ;
 Suoraniemi+OLang/FIN:Suora#nieme p_plc_4 ;
 Suoraniemi:Suora#nieme p_surplc_4 ;
 Peuraniemi+OLang/FIN:Peura#nieme p_plc_4 ;
@@ -9391,7 +9389,7 @@ Hietaniemi:Hieta#nieme p_surplc_4 ;
 Pahtaniemi+OLang/FIN:Pahta#nieme p_plc_4 ;
 Huhtaniemi:Huhta#nieme p_surplc_4 ;
 Ritaniemi:Rita#nieme p_surplc_4 ;
-Viitaniemi+OLang/FIN:Viita#nieme p_plc_1 ;
+Viitaniemi+OLang/FIN:Viita#nieme p_plc_4 ;
 Viitaniemi:Viita#nieme p_sur_21ie ;
 Rantaniemi+OLang/FIN:Ranta#nieme p_plc_4 ;
 Rantaniemi:Ranta#nieme p_sur_21ie ;
@@ -9401,11 +9399,11 @@ Sotaniemi+OLang/FIN:Sota#nieme p_plc_4 ;
 Sotaniemi:Sota#nieme p_sur_21ie ;
 Mertaniemi+OLang/FIN:Merta#nieme p_plc_4 ;
 Mertaniemi:Merta#nieme p_sur_21ie ;
-Virtaniemi+OLang/FIN:Virta#nieme p_plc_1 ;
+Virtaniemi+OLang/FIN:Virta#nieme p_plc_4 ;
 Hestaniemi:Hesta#nieme p_plc_4 ;
 Mustaniemi+OLang/FIN:Musta#nieme p_plc_4 ;
 Mustaniemi:Musta#nieme p_sur_21ie ;
-Vittaniemi+OLang/FIN:Vitta#nieme p_plc_1 ;
+Vittaniemi+OLang/FIN:Vitta#nieme p_plc_4 ;
 Vittaniemi:Vitta#nieme p_sur_21ie ;
 Konttaniemi+OLang/FIN:Kontta#nieme p_plc_4 ;
 Konttaniemi:Kontta#nieme p_sur_21ie ;
@@ -9414,7 +9412,7 @@ Hautaniemi:Hauta#nieme p_surplc_4 ;
 Kuivaniemi+OLang/FIN:Kuiva#nieme p_plc_4 ;
 Kuivaniemi:Kuiva#nieme p_surplc_4 ;
 Rovaniemi:Rova#nieme p_plc_4 ;
-Tervaniemi+OLang/FIN:Terva#nieme p_plc_1 ;
+Tervaniemi+OLang/FIN:Terva#nieme p_plc_4 ;
 Tervaniemi:Terva#nieme p_plc_4 ;
 Lähdeniemi+OLang/FIN:Lähde#nieme p_plc_4 ;
 Lähdeniemi:Lähde#nieme p_sur_21ie ;
@@ -9437,11 +9435,11 @@ Koskiniemi:Koski#nieme p_sur_21ie ;
 Köykiniemi:Köyki#nieme p_surplc_4 ;
 Mäkiniemi+OLang/FIN:Mäki#nieme p_plc_4 ;
 Mäkiniemi:Mäki#nieme p_sur_21ie ;
-Yliniemi+OLang/FIN:Yli#nieme p_plc_1 ;
+Yliniemi+OLang/FIN:Yli#nieme p_plc_4 ;
 Yliniemi:Yli#nieme p_sur_21ie ;
 Maliniemi+OLang/FIN:Mali#nieme p_plc_4 ;
 Elliniemi:Elli#nieme p_surplc_4 ;
-Tuliniemi+OLang/FIN:Tuli#nieme p_plc_1 ;
+Tuliniemi+OLang/FIN:Tuli#nieme p_plc_4 ;
 Tuliniemi:Tuli#nieme p_surplc_4 ;
 Tuominiemi:Tuomi#nieme p_sur_4 ;
 Pieniniemi+OLang/FIN:Pieni#nieme p_plc_4 ;
@@ -9457,7 +9455,7 @@ Saarimaa:Saari#nieme p_sur_3 ;
 Saariniemi+OLang/FIN:Saari#nieme p_plc_4 ;
 Saariniemi:Saari#nieme p_sur_21ie ;
 Ivariniemi:Ivari#nieme p_surplc_4 ;
-Tuoriniemi+OLang/FIN:Tuori#nieme p_plc_1 ;
+Tuoriniemi+OLang/FIN:Tuori#nieme p_plc_4 ;
 Tuoriniemi:Tuori#nieme p_sur_21ie ;
 Lauriniemi:Lauri#nieme p_surplc_4 ;
 Suuriniemi+OLang/FIN:Suuri#nieme p_plc_4 ;
@@ -9541,7 +9539,7 @@ Savioniemi:Savio#nieme p_surplc_4 ;
 Marjoniemi+OLang/FIN:Marjo#nieme p_plc_4 ;
 Marjoniemi:Marjo#nieme p_surplc_4 ;
 Hakoniemi:Hako#nieme p_surplc_4 ;
-Tekoniemi+OLang/FIN:Teko#nieme p_plc_1 ;
+Tekoniemi+OLang/FIN:Teko#nieme p_plc_4 ;
 Tekoniemi:Teko#nieme p_sur_21ie ;
 Kokkoniemi+OLang/FIN:Kokko#nieme p_plc_4 ;
 Kirkkoniemi:Kirkko#nieme p_plc_4 ;
@@ -9550,16 +9548,16 @@ Lankoniemi:Lanko#nieme p_surplc_4 ;
 Lenkoniemi:Lenko#nieme p_surplc_4 ;
 Ruokoniemi+OLang/FIN:Ruoko#nieme p_plc_4 ;
 Ruokoniemi:Ruoko#nieme p_surplc_4 ;
-Veskoniemi+OLang/FIN:Vesko#nieme p_plc_1 ;
+Veskoniemi+OLang/FIN:Vesko#nieme p_plc_4 ;
 Paloniemi+OLang/FIN:Palo#nieme p_plc_4 ;
 Paloniemi:Palo#nieme p_surplc_4 ;
 Saloniemi+OLang/FIN:Salo#nieme p_plc_4 ;
 Saloniemi:Salo#nieme p_sur_21ie ;
 Leponiemi+OLang/FIN:Lepo#nieme p_plc_4 ;
-Uus-Leponiemi+OLang/FIN:Uus-Lepo#nieme p_plc_1 ;
-Tirroniemi+OLang/FIN:Tirro#nieme p_plc_1 ;
+Uus-Leponiemi+OLang/FIN:Uus-Lepo#nieme p_plc_4 ;
+Tirroniemi+OLang/FIN:Tirro#nieme p_plc_4 ;
 Lehtoniemi+OLang/FIN:Lehto#nieme p_plc_4 ;
-Vuohtoniemi+OLang/FIN:Vuohto#nieme p_plc_1 ;
+Vuohtoniemi+OLang/FIN:Vuohto#nieme p_plc_4 ;
 Peltoniemi+OLang/FIN:Pelto#nieme p_plc_4 ;
 Peltoniemi:Pelto#nieme p_sur_21ie ;
 Kantoniemi:Kanto#nieme p_sur_21ie ;
@@ -9571,7 +9569,7 @@ Aittoniemi:Aitto#nieme p_surplc_4 ;
 Vastaanottoniemi:Vastaanotto#nieme p_surplc_4 ;
 Suoniemi+OLang/FIN:Suo#nieme p_plc_4 ;
 Suoniemi:Suo#nieme p_surplc_4 ;
-Toivoniemi+OLang/FIN:Toivo#nieme p_plc_1 ;
+Toivoniemi+OLang/FIN:Toivo#nieme p_plc_4 ;
 Toivoniemi:Toivo#nieme p_sur_21ie ;
 Huhmarniemi:Huhmar#nieme p_sur_21ie ;
 Karigasniemi:Karigas#nieme p_plc_4 ;
@@ -9605,7 +9603,7 @@ Pajuniemi:Paju#nieme p_surplc_4 ;
 Harjuniemi:Harju#nieme p_surplc_4 ;
 Rakkuniemi:Rakku#nieme p_surplc_4 ;
 Kalkkuniemi:Kalkku#nieme p_surplc_4 ;
-Ulkuniemi+OLang/FIN:Ulku#nieme p_plc_1 ;
+Ulkuniemi+OLang/FIN:Ulku#nieme p_plc_4 ;
 Ulkuniemi:Ulku#nieme p_surplc_4 ;
 Kalkuniemi:Kalku#nieme p_surplc_4 ;
 Heiluniemi:Heilu#nieme p_surplc_4 ;
@@ -10187,7 +10185,7 @@ Koutusaari:Koutu#saare p_surplc_4 ;
 Puusaari:Puu#saare p_sur_4 ;
 Koivusaari+OLang/FIN:Koivu#saare p_plc_4 ;
 Petäjäsaari:Petäjä#saare p_surplc_4 ;
-Vesisaari:Vesisaare p_plc_1ta ;
+Vesisaari:Vesi#saare p_plc_4 ;
 Shakespeare p_sur_1 ;
 Casiquiare p_mal_1 ;
 Skare p_sur_1 ;
@@ -10228,10 +10226,9 @@ Vualtjere p_plc_1 ;
 Pohjanmeri:Pohja#mere p_plc_1ta ;
 Kvääninmeri:Kvääni#mere p_plc_1ta ;
 Kainhuunmeri:Kainhuun#mere p_plc_1ta ;
-Jäämeri:Jää#mere p_plc_1ta ;
+Jäämeri:Jää#mere p_plc_4 ;
 Windermere p_plc_1 ;
-Tampere p_plc_1 ;
-Tampere+OLang/FIN:Tampere p2_plc ;
+Tampere p_plc_2 ;
 Mantere p_sur_1 ;
 Autere p_sur_1 ;
 Tevere p_plc_1 ;
@@ -10745,10 +10742,10 @@ Skjerve p_sur_1 ;
 Kirves:Kirve p_sur_41 ;
 Kohtla-Järve p_plc_1 ;
 Niemen% Ellin% järvi:Niemen% Ellin% #järve p_21ie ;
-Ojajärvi+OLang/FIN:Oja#järve p4_plc ;
+Ojajärvi+OLang/FIN:Oja#järve p_plc_4 ;
 Ojajärvi:Oja#järve p_21ie ;
-Siikajärvi+OLang/FIN:Siika#järve p4_plc ;
-Poikajärvi+OLang/FIN:Poika#järve p4_plc ;
+Siikajärvi+OLang/FIN:Siika#järve p_plc_4 ;
+Poikajärvi+OLang/FIN:Poika#järve p_plc_4 ;
 Poikajärvi:Poika#järve p_21ie ;
 Rakkajärvi:Rakka#järve p_21ie ;
 Mallu-Pekkajärvi:Mallu-Pekka#järve p_21ie ;
@@ -10757,14 +10754,14 @@ Surkkajärvi:Surkka#järve p_21ie ;
 Tammukkajärvi:Tammukka#järve p_21ie ;
 Muripukkajärvi:Muripukka#järve p_21ie ;
 Tampukkajärvi:Tampukka#järve p_21ie ;
-Jupukkajärvi+OLang/FIN:Jupukka#järve p4_plc ;
+Jupukkajärvi+OLang/FIN:Jupukka#järve p_plc_4 ;
 Jupukkajärvi:Jupukka#järve p_21ie ;
 Onkajärvi:Onka#järve p_21ie ;
-Virkajärvi+OLang/FIN:Virka#järve p4_plc ;
+Virkajärvi+OLang/FIN:Virka#järve p_plc_4 ;
 Virkajärvi:Virka#järve p_21ie ;
-Sotkajärvi+OLang/FIN:Sotka#järve p4_plc ;
-Muotkajärvi+OLang/FIN:Muotka#järve p4_plc ; !FIN
-Alajärvi+OLang/FIN:Ala#järve p4_plc ;
+Sotkajärvi+OLang/FIN:Sotka#järve p_plc_4 ;
+Muotkajärvi+OLang/FIN:Muotka#järve p_plc_4 ; !FIN
+Alajärvi+OLang/FIN:Ala#järve p_plc_4 ;
 Alajärvi:Ala#järve p_21ie ;
 Alimmainen% Kalajärvi:Alimmainen% Kala#järve p_21ie ;
 Keskimmäinen% Kalajärvi:Keskimmäinen% Kala#järve p_21ie ;
@@ -10774,153 +10771,153 @@ Baulajärvi:Baula#järve p_21ie ;
 Pyssytaitamajärvi:Pyssytaitama#järve p_21ie ;
 Suitsemajärvi:Suitsema#järve p_21ie ;
 Uimajärvi:Uima#järve p_21ie ;
-Kalattomajärvi+OLang/FIN:Kalattoma#järve p4_plc ;
+Kalattomajärvi+OLang/FIN:Kalattoma#järve p_plc_4 ;
 Kalattomajärvi:Kalattoma#järve p_21ie ;
 Pasmajärvi:Pasma#järve p_21ie ;
 Lismajärvi:Lisma#järve p_21ie ;
 Ainajärvi:Aina#järve p_21ie ;
-Markkinajärvi+OLang/FIN:Markkina#järve p4_plc ;
+Markkinajärvi+OLang/FIN:Markkina#järve p_plc_4 ;
 Markkinajärvi:Markkina#järve p_21ie ;
 Markinajärvi:Markina#järve p_21ie ;
-Suopajärvi+OLang/FIN:Suopa#järve p4_plc ;
+Suopajärvi+OLang/FIN:Suopa#järve p_plc_4 ;
 Suopajärvi:Suopa#järve p_21ie ;
-Lappajärvi+OLang/FIN:Lappa#järve p4_plc ;
+Lappajärvi+OLang/FIN:Lappa#järve p_plc_4 ;
 Goppajärvi:Goppa#järve p_21ie ;
-Kuoppajärvi+OLang/FIN:Kuoppa#järve p4_plc ;
+Kuoppajärvi+OLang/FIN:Kuoppa#järve p_plc_4 ;
 Arajärvi:Ara#järve p_21ie ;
-Orajärvi+OLang/FIN:Ora#järve p4_plc ;
+Orajärvi+OLang/FIN:Ora#järve p_plc_4 ;
 Orajärvi:Ora#järve p_21ie ;
-Sarajärvi+OLang/FIN:Sara#järve p4_plc ;
+Sarajärvi+OLang/FIN:Sara#järve p_plc_4 ;
 Sarajärvi:Sara#järve p_21ie ;
 Mustavaarajärvi:Mustavaara#järve p_21ie ;
 Pirivaarajärvi:Pirivaara#järve p_21ie ;
 Hernarajärvi:Hernara#järve p_21ie ;
 Skuorajärvi:Skuora#järve p_21ie ;
 Peurajärvi:Peura#järve p_21ie ;
-Seurajärvi+OLang/FIN:Seura#järve p4_plc ;
-Kuurajärvi+OLang/FIN:Kuura#järve p4_plc ;
+Seurajärvi+OLang/FIN:Seura#järve p_plc_4 ;
+Kuurajärvi+OLang/FIN:Kuura#järve p_plc_4 ;
 Laksajärvi:Laksa#järve p_21ie ;
 Pikku% Laksajärvi:Pikku% Laksa#järve p_21ie ;
 Puksajärvi:Puksa#järve p_21ie ;
 Jonkajossajärvi:Jonkajossa#järve p_21ie ;
 Utsajärvi:Utsa#järve p_21ie ;
-Kaitajärvi+OLang/FIN:Kaita#järve p4_plc ;
+Kaitajärvi+OLang/FIN:Kaita#järve p_plc_4 ;
 Kaitajärvi:Kaita#järve p_21ie ;
 Kolmikantajärvi:Kolmikanta#järve p_21ie ;
-Kotajärvi+OLang/FIN:Kota#järve p4_plc ;
+Kotajärvi+OLang/FIN:Kota#järve p_plc_4 ;
 Kotajärvi:Kota#järve p_21ie ;
 Kistajärvi:Kista#järve p_21ie ;
-Mustajärvi+OLang/FIN:Musta#järve p4_plc ;
+Mustajärvi+OLang/FIN:Musta#järve p_plc_4 ;
 Mustajärvi:Musta#järve p_21ie ;
-Sattajärvi+OLang/FIN:Satta#järve p4_plc ;
+Sattajärvi+OLang/FIN:Satta#järve p_plc_4 ;
 Sattajärvi:Satta#järve p_21ie ;
-Aittajärvi+OLang/FIN:Aitta#järve p4_plc ;
+Aittajärvi+OLang/FIN:Aitta#järve p_plc_4 ;
 Pikkumittajärvi:Pikkumitta#järve p_21ie ;
-Hautajärvi+OLang/FIN:Hauta#järve p4_plc ;
+Hautajärvi+OLang/FIN:Hauta#järve p_plc_4 ;
 Hautajärvi:Hauta#järve p_21ie ;
 Koutajärvi:Kouta#järve p_21ie ;
 Kajavajärvi:Kajava#järve p_21ie ;
-Latvajärvi+OLang/FIN:Latva#järve p4_plc ;
+Latvajärvi+OLang/FIN:Latva#järve p_plc_4 ;
 Madejärvi:Made#järve p_21ie ;
-Valkeejärvi+OLang/FIN:Valkee#järve p4_plc ;
+Valkeejärvi+OLang/FIN:Valkee#järve p_plc_4 ;
 Valkeejärvi:Valkee#järve p_21ie ;
 Homejärvi:Home#järve p_21ie ;
 Reppenejärvi:Reppene#järve p_21ie ;
-Kortejärvi+OLang/FIN:Korte#järve p4_plc ;
+Kortejärvi+OLang/FIN:Korte#järve p_plc_4 ;
 Turvejärvi:Turve#järve p_21ie ;
-Iijärvi+OLang/FIN:Ii#järve p4_plc ;
-Kilbijärvi+OLang/FIN:Kilbi#järve p4_plc ;
+Iijärvi+OLang/FIN:Ii#järve p_plc_4 ;
+Kilbijärvi+OLang/FIN:Kilbi#järve p_plc_4 ;
 Kilbijärvi:Kilbi#järve p_21ie ;
-Spolgijärvi+OLang/FIN:Spolgi#järve p4_plc ;
+Spolgijärvi+OLang/FIN:Spolgi#järve p_plc_4 ;
 Spolgijärvi:Spolgi#järve p_21ie ;
 Olangijärvi:Olangi#järve p_21ie ;
-Riihijärvi+OLang/FIN:Riihi#järve p4_plc ;
+Riihijärvi+OLang/FIN:Riihi#järve p_plc_4 ;
 Riihijärvi:Riihi#järve p_21ie ;
-Kiasvordiijärvi+OLang/FIN:Ki#asvordii#järve p4_plc ;
+Kiasvordiijärvi+OLang/FIN:Ki#asvordii#järve p_plc_4 ;
 Kiasvordiijärvi:Kiasvordii#järve p_21ie ;
 Nikkijärvi:Nikki#järve p_21ie ;
 Rokkijärvi:Rokki#järve p_21ie ;
 Käkkijärvi:Käkki#järve p_21ie ;
-Nuulankijärvi+OLang/FIN:Nuulanki#järve p4_plc ;
+Nuulankijärvi+OLang/FIN:Nuulanki#järve p_plc_4 ;
 Nuulankijärvi:Nuulanki#järve p_21ie ;
-Tonkijärvi+OLang/FIN:Tonki#järve p4_plc ;
+Tonkijärvi+OLang/FIN:Tonki#järve p_plc_4 ;
 Tonkijärvi:Tonki#järve p_21ie ;
-Kesänkijärvi+OLang/FIN:Kesänki#järve p4_plc ;
-Särkijärvi+OLang/FIN:Särki#järve p4_plc ;
+Kesänkijärvi+OLang/FIN:Kesänki#järve p_plc_4 ;
+Särkijärvi+OLang/FIN:Särki#järve p_plc_4 ;
 Särkijärvi:Särki#järve p_21ie ;
 Päskijärvi:Päski#järve p_21ie ;
-Haukijärvi+OLang/FIN:Hauki#järve p4_plc ;
+Haukijärvi+OLang/FIN:Hauki#järve p_plc_4 ;
 Haukijärvi:Hauki#järve p_21ie ;
 Ylijärvi:Yli#järve p_21ie ;
-Kalijärvi+OLang/FIN:Kali#järve p4_plc ;
+Kalijärvi+OLang/FIN:Kali#järve p_plc_4 ;
 Kalijärvi:Kali#järve p_21ie ;
 Kunnelijärvi:Kunneli#järve p_21ie ;
 Kaurelijärvi:Kaureli#järve p_21ie ;
 Hauglijärvi:Haugli#järve p_21ie ;
 Nilijärvi:Nili#järve p_21ie ;
 Ellijärvi:Elli#järve p_21ie ;
-Nuolijärvi+OLang/FIN:Nuoli#järve p4_plc ;
+Nuolijärvi+OLang/FIN:Nuoli#järve p_plc_4 ;
 Vuoremijärvi:Vuoremi#järve p_21ie ;
-Salmijärvi+OLang/FIN:Salmi#järve p4_plc ;
+Salmijärvi+OLang/FIN:Salmi#järve p_plc_4 ;
 Salmijärvi:Salmi#järve p_21ie ;
 Ala-Lemmijärvi:Ala-Lemmi#järve p_21ie ;
-Lumijärvi+OLang/FIN:Lumi#järve p4_plc ;
+Lumijärvi+OLang/FIN:Lumi#järve p_plc_4 ;
 Lumijärvi:Lumi#järve p_21ie ;
 Annijärvi:Anni#järve p_21ie ;
 Hermannijärvi:Hermanni#järve p_21ie ;
 Nipijärvi:Nipi#järve p_21ie ;
-Kilpijärvi+OLang/FIN:Kilpi#järve p4_plc ;
+Kilpijärvi+OLang/FIN:Kilpi#järve p_plc_4 ;
 Kilpijärvi:Kilpi#järve p_21ie ;
 Seippijärvi:Seippi#järve p_21ie ;
-Korpijärvi+OLang/FIN:Korpi#järve p4_plc ;
+Korpijärvi+OLang/FIN:Korpi#järve p_plc_4 ;
 Korpijärvi:Korpi#järve p_21ie ;
-Saarijärvi+OLang/FIN:Saari#järve p4_plc ;
+Saarijärvi+OLang/FIN:Saari#järve p_plc_4 ;
 Saarijärvi:Saari#järve p_21ie ;
 Palonojan% Saarijärvi:Palonojan% Saari#järve p_21ie ;
 Iso% Saarijärvi:Iso% Saari#järve p_21ie ;
 Pikku% Saarijärvi:Pikku% Saari#järve p_21ie ;
 Isosaarijärvi:Isosaari#järve p_21ie ;
-Inarijärvi+OLang/FIN:Inari#järve p4_plc ;
+Inarijärvi+OLang/FIN:Inari#järve p_plc_4 ;
 Inarijärvi:Inari#järve p_21ie ;
 Kapperijärvi:Kapperi#järve p_21ie ;
-Vuorijärvi+OLang/FIN:Vuori#järve p4_plc ;
+Vuorijärvi+OLang/FIN:Vuori#järve p_plc_4 ;
 Vuorijärvi:Vuori#järve p_21ie ;
 Kakkurijärvi:Kakkuri#järve p_21ie ;
-Tunturijärvi+OLang/FIN:Tunturi#järve p4_plc ;
+Tunturijärvi+OLang/FIN:Tunturi#järve p_plc_4 ;
 Puurijärvi:Puuri#järve p_21ie ;
 Ala% Rasijärvi:Ala% Rasi#järve p_21ie ;
 Yli% Rasijärvi:Yli% Rasi#järve p_21ie ;
-Liesijärvi+OLang/FIN:Liesi#järve p4_plc ;
-Kynsijärvi+OLang/FIN:Kynsi#järve p4_plc ;
+Liesijärvi+OLang/FIN:Liesi#järve p_plc_4 ;
+Kynsijärvi+OLang/FIN:Kynsi#järve p_plc_4 ;
 Kynsijärvi:Kynsi#järve p_21ie ;
 Pitkä% Porsijärvi:Pitkä% Porsi#järve p_21ie ;
-Kuusijärvi+OLang/FIN:Kuusi#järve p4_plc ;
+Kuusijärvi+OLang/FIN:Kuusi#järve p_plc_4 ;
 Kuusijärvi:Kuusi#järve p_21ie ;
-Näsijärvi+OLang/FIN:Näsi#järve p4_plc ;
+Näsijärvi+OLang/FIN:Näsi#järve p_plc_4 ;
 Siertijärvi:Sierti#järve p_21ie ;
 Gortijärvi:Gorti#järve p_21ie ;
 Laattijärvi:Laatti#järve p_21ie ;
 Yli-Laattijärvi:Yli-Laatti#järve p_21ie ;
-Marakattijärvi+OLang/FIN:Marakatti#järve p4_plc ;
+Marakattijärvi+OLang/FIN:Marakatti#järve p_plc_4 ;
 Evettijärvi:Evetti#järve p_21ie ;
 Pikkovettijärvi:Pikkovetti#järve p_21ie ;
-Kuittijärvi+OLang/FIN:Kuitti#järve p4_plc ;
+Kuittijärvi+OLang/FIN:Kuitti#järve p_plc_4 ;
 Kuittijärvi:Kuitti#järve p_21ie ;
 Salttijärvi:Saltti#järve p_21ie ;
-Kelottijärvi+OLang/FIN:Kelotti#järve p4_plc ;
-Pirttijärvi+OLang/FIN:Pirtti#järve p4_plc ;
+Kelottijärvi+OLang/FIN:Kelotti#järve p_plc_4 ;
+Pirttijärvi+OLang/FIN:Pirtti#järve p_plc_4 ;
 Pirttijärvi:Pirtti#järve p_21ie ;
-Kivijärvi+OLang/FIN:Kivi#järve p4_plc ;
+Kivijärvi+OLang/FIN:Kivi#järve p_plc_4 ;
 Kivijärvi:Kivi#järve p_21ie ;
 Skalvijärvi:Skalvi#järve p_21ie ;
-Sarvijärvi+OLang/FIN:Sarvi#järve p4_plc ;
-Hirvijärvi+OLang/FIN:Hirvi#järve p4_plc ;
+Sarvijärvi+OLang/FIN:Sarvi#järve p_plc_4 ;
+Hirvijärvi+OLang/FIN:Hirvi#järve p_plc_4 ;
 Hirvijärvi:Hirvi#järve p_21ie ;
-Valkjärvi+OLang/FIN:Valk#järve p4_plc ;
+Valkjärvi+OLang/FIN:Valk#järve p_plc_4 ;
 Valkjärvi:Valk#järve p_21ie ;
-Taivaljärvi+OLang/FIN:Taival#järve p4_plc ;
+Taivaljärvi+OLang/FIN:Taival#järve p_plc_4 ;
 Nikulhaanjärvi:Nikulhaan#järve p_21ie ;
-Varkaanjärvi+OLang/FIN:Varkaan#järve p4_plc ;
+Varkaanjärvi+OLang/FIN:Varkaan#järve p_plc_4 ;
 Bierganjärvi:Biergan#järve p_21ie ;
 Iso% Aslakanjärvi:Iso% Aslakan#järve p_21ie ;
 Kuoratakanjärvi:Kuoratakan#järve p_21ie ;
@@ -10947,7 +10944,7 @@ Ainikaisenjärvi:Ainikaisen#järve p_21ie ;
 Luonaksenjärvi:Luonaksen#järve p_21ie ;
 Karitsenjärvi:Karitsen#järve p_21ie ;
 Ahavenjärvi:Ahaven#järve p_21ie ;
-Ahvenjärvi+OLang/FIN:Ahven#järve p4_plc ;
+Ahvenjärvi+OLang/FIN:Ahven#järve p_plc_4 ;
 Ahvenjärvi:Ahven#järve p_21ie ;
 Isokivenjärvi:Isokiven#järve p_21ie ;
 Pystökivenjärvi:Pystökiven#järve p_21ie ;
@@ -10962,7 +10959,7 @@ Jouninjärvi:Jounin#järve p_21ie ;
 Anninjouninjärvi:Anninjounin#järve p_21ie ;
 Alainen% Rampinjärvi:Alainen% Rampin#järve p_21ie ;
 Ylinen% Rampinjärvi:Ylinen% Rampin#järve p_21ie ;
-Oskarinjärvi+OLang/FIN:Oskarin#järve p4_plc ;
+Oskarinjärvi+OLang/FIN:Oskarin#järve p_plc_4 ;
 Ullukapperinjärvi:Ullukapperin#järve p_21ie ;
 Ala-Fransinjärvi:Ala-Fransin#järve p_21ie ;
 Yli-Fransinjärvi:Yli-Fransin#järve p_21ie ;
@@ -10981,142 +10978,142 @@ Raasikurunjärvi:Raasikurun#järve p_21ie ;
 Keskitörmänjärvi:Keskitörmän#järve p_21ie ;
 Iso% Uojärvi:Iso% Uo#järve p_21ie ;
 Pikku% Uojärvi:Pikku% Uo#järve p_21ie ;
-Peldojärvi+OLang/FIN:Peldo#järve p4_plc ;
+Peldojärvi+OLang/FIN:Peldo#järve p_plc_4 ;
 Peldojärvi:Peldo#järve p_21ie ;
-Ruohojärvi+OLang/FIN:Ruoho#järve p4_plc ;
-Kalliojärvi+OLang/FIN:Kallio#järve p4_plc ;
+Ruohojärvi+OLang/FIN:Ruoho#järve p_plc_4 ;
+Kalliojärvi+OLang/FIN:Kallio#järve p_plc_4 ;
 Kalliojärvi:Kallio#järve p_21ie ;
 Sammakkojärvi:Sammakko#järve p_21ie ;
-Kirkkojärvi+OLang/FIN:Kirkko#järve p4_plc ;
+Kirkkojärvi+OLang/FIN:Kirkko#järve p_plc_4 ;
 Kirkkojärvi:Kirkko#järve p_21ie ;
-Lankojärvi+OLang/FIN:Lanko#järve p4_plc ;
+Lankojärvi+OLang/FIN:Lanko#järve p_plc_4 ;
 Girkojärvi:Girko#järve p_21ie ;
-Rukojärvi+OLang/FIN:Ruko#järve p4_plc ;
+Rukojärvi+OLang/FIN:Ruko#järve p_plc_4 ;
 Rukojärvi:Ruko#järve p_21ie ;
-Palojärvi+OLang/FIN:Palo#järve p4_plc ;
+Palojärvi+OLang/FIN:Palo#järve p_plc_4 ;
 Palojärvi:Palo#järve p_21ie ;
-Salojärvi+OLang/FIN:Salo#järve p4_plc ;
+Salojärvi+OLang/FIN:Salo#järve p_plc_4 ;
 Salojärvi:Salo#järve p_21ie ;
-Kelojärvi+OLang/FIN:Kelo#järve p4_plc ;
+Kelojärvi+OLang/FIN:Kelo#järve p_plc_4 ;
 Kelojärvi:Kelo#järve p_21ie ;
-Kallojärvi+OLang/FIN:Kallo#järve p4_plc ;
+Kallojärvi+OLang/FIN:Kallo#järve p_plc_4 ;
 Kallojärvi:Kallo#järve p_21ie ;
 Gellojärvi:Gello#järve p_21ie ;
 Pollojärvi:Pollo#järve p_21ie ;
-Polojärvi+OLang/FIN:Polo#järve p4_plc ;
+Polojärvi+OLang/FIN:Polo#järve p_plc_4 ;
 Polojärvi:Polo#järve p_21ie ;
-Enojärvi+OLang/FIN:Eno#järve p4_plc ;
+Enojärvi+OLang/FIN:Eno#järve p_plc_4 ;
 Enojärvi:Eno#järve p_21ie ;
-Isojärvi+OLang/FIN:Iso#järve p4_plc ;
+Isojärvi+OLang/FIN:Iso#järve p_plc_4 ;
 Isojärvi:Iso#järve p_21ie ;
-Paltojärvi+OLang/FIN:Palto#järve p4_plc ;
-Vieltojärvi+OLang/FIN:Vielto#järve p4_plc ;
-Kantojärvi+OLang/FIN:Kanto#järve p4_plc ;
+Paltojärvi+OLang/FIN:Palto#järve p_plc_4 ;
+Vieltojärvi+OLang/FIN:Vielto#järve p_plc_4 ;
+Kantojärvi+OLang/FIN:Kanto#järve p_plc_4 ;
 Kantojärvi:Kanto#järve p_21ie ;
 Rostojärvi:Rosto#järve p_21ie ;
-Korttojärvi+OLang/FIN:Kortto#järve p4_plc ;
+Korttojärvi+OLang/FIN:Kortto#järve p_plc_4 ;
 Korttojärvi:Kortto#järve p_21ie ;
-Suojärvi+OLang/FIN:Suo#järve p4_plc ;
+Suojärvi+OLang/FIN:Suo#järve p_plc_4 ;
 Suojärvi:Suo#järve p_21ie ;
-Vuojärvi+OLang/FIN:Vuo#järve p4_plc ;
+Vuojärvi+OLang/FIN:Vuo#järve p_plc_4 ;
 Vuojärvi:Vuo#järve p_21ie ;
-Seurjärvi+OLang/FIN:Seur#järve p4_plc ;
+Seurjärvi+OLang/FIN:Seur#järve p_plc_4 ;
 Seurjärvi:Seur#järve p_21ie ;
-Rigasjärvi+OLang/FIN:Rigas#järve p4_plc ;
+Rigasjärvi+OLang/FIN:Rigas#järve p_plc_4 ;
 Rigasjärvi:Rigas#järve p_21ie ;
 Nutukasjärvi:Nutukas#järve p_21ie ;
-Kuukasjärvi+OLang/FIN:Kuukas#järve p4_plc ;
+Kuukasjärvi+OLang/FIN:Kuukas#järve p_plc_4 ;
 Kuukasjärvi:Kuukas#järve p_21ie ;
 Sokkulasjärvi:Sokkulas#järve p_21ie ;
 Kaamasjärvi:Kaamas#järve p_21ie ;
-Somasjärvi+OLang/FIN:Somas#järve p4_plc ;
+Somasjärvi+OLang/FIN:Somas#järve p_plc_4 ;
 Somasjärvi:Somas#järve p_21ie ;
-Onnasjärvi+OLang/FIN:Onnas#järve p4_plc ;
+Onnasjärvi+OLang/FIN:Onnas#järve p_plc_4 ;
 Tohtasjärvi:Tohtas#järve p_21ie ;
-Vettasjärvi+OLang/FIN:Vettas#järve p4_plc ;
-Liesjärvi+OLang/FIN:Lies#järve p4_plc ;
-Waddisjärvi+OLang/FIN:Waddis#järve p4_plc ;
+Vettasjärvi+OLang/FIN:Vettas#järve p_plc_4 ;
+Liesjärvi+OLang/FIN:Lies#järve p_plc_4 ;
+Waddisjärvi+OLang/FIN:Waddis#järve p_plc_4 ;
 Waddisjärvi:Waddis#järve p_21ie ;
 Peisjärvi:Peis#järve p_21ie ;
 Lullisjärvi:Lullis#järve p_21ie ;
-Tsuolisjärvi+OLang/FIN:Tsuolis#järve p4_plc ;
+Tsuolisjärvi+OLang/FIN:Tsuolis#järve p_plc_4 ;
 Tsuolisjärvi:Tsuolis#järve p_21ie ;
-Iso-Seitsemisjärvi+OLang/FIN:Iso-Seitsemis#järve p4_plc ;
+Iso-Seitsemisjärvi+OLang/FIN:Iso-Seitsemis#järve p_plc_4 ;
 Kolmisjärvi:Kolmis#järve p_21ie ;
-Kinisjärvi+OLang/FIN:Kinis#järve p4_plc ;
+Kinisjärvi+OLang/FIN:Kinis#järve p_plc_4 ;
 Kinisjärvi:Kinis#järve p_21ie ;
 Kaunisjärvi:Kaunis#järve p_21ie ;
 Päälimäinen% Kaksoisjärvi:Päälimäinen% Kaksois#järve p_21ie ;
-Kilpisjärvi+OLang/FIN:Kilpis#järve p4_plc ;
-Jerisjärvi+OLang/FIN:Jeris#järve p4_plc ;
-Vuontisjärvi+OLang/FIN:Vuontis#järve p4_plc ;
-Piittisjärvi+OLang/FIN:Piittis#järve p4_plc ;
+Kilpisjärvi+OLang/FIN:Kilpis#järve p_plc_4 ;
+Jerisjärvi+OLang/FIN:Jeris#järve p_plc_4 ;
+Vuontisjärvi+OLang/FIN:Vuontis#järve p_plc_4 ;
+Piittisjärvi+OLang/FIN:Piittis#järve p_plc_4 ;
 Piittisjärvi:Piittis#järve p_21ie ;
-Paavisjärvi+OLang/FIN:Paavis#järve p4_plc ;
-Kangosjärvi+OLang/FIN:Kangos#järve p4_plc ;
+Paavisjärvi+OLang/FIN:Paavis#järve p_plc_4 ;
+Kangosjärvi+OLang/FIN:Kangos#järve p_plc_4 ;
 Kangosjärvi:Kangos#järve p_21ie ;
 Valkkeenvaarantausjärvi:Valkkeenvaarantaus#järve p_21ie ;
-Vanttausjärvi+OLang/FIN:Vanttaus#järve p4_plc ;
+Vanttausjärvi+OLang/FIN:Vanttaus#järve p_plc_4 ;
 Joumusjärvi:Joumus#järve p_21ie ;
-Aakenusjärvi+OLang/FIN:Aakenus#järve p4_plc ;
-Kopsusjärvi+OLang/FIN:Kopsus#järve p4_plc ;
+Aakenusjärvi+OLang/FIN:Aakenus#järve p_plc_4 ;
+Kopsusjärvi+OLang/FIN:Kopsus#järve p_plc_4 ;
 Vouvatusjärvi:Vouvatus#järve p_21ie ;
 Kertusjärvi:Kertus#järve p_21ie ;
 Rajakertusjärvi:Rajakertus#järve p_21ie ;
-Kuusjärvi+OLang/FIN:Kuus#järve p4_plc ;
+Kuusjärvi+OLang/FIN:Kuus#järve p_plc_4 ;
 Kuusjärvi:Kuus#järve p_21ie ;
-Rääpysjärvi+OLang/FIN:Rääpys#järve p4_plc ;
-Äkäsjärvi+OLang/FIN:Äkäs#järve p4_plc ;
-Ylläsjärvi+OLang/FIN:Ylläs#järve p4_plc ;
-Kyrösjärvi+OLang/FIN:Kyrös#järve p4_plc ;
+Rääpysjärvi+OLang/FIN:Rääpys#järve p_plc_4 ;
+Äkäsjärvi+OLang/FIN:Äkäs#järve p_plc_4 ;
+Ylläsjärvi+OLang/FIN:Ylläs#järve p_plc_4 ;
+Kyrösjärvi+OLang/FIN:Kyrös#järve p_plc_4 ;
 Kortetjärvi:Kortet#järve p_21ie ;
 Mađetjärvi:Mađet#järve p_21ie ;
-Rautjärvi+OLang/FIN:Raut#järve p4_plc ;
+Rautjärvi+OLang/FIN:Raut#järve p_plc_4 ;
 Rautjärvi:Raut#järve p_21ie ;
 Baskabutjärvi:Baskabut#järve p_21ie ;
 Joutjärvi:Jout#järve p_21ie ;
 Karhujärvi:Karhu#järve p_21ie ;
-Akujärvi+OLang/FIN:Aku#järve p4_plc ;
-Uikujärvi+OLang/FIN:Uiku#järve p4_plc ;
+Akujärvi+OLang/FIN:Aku#järve p_plc_4 ;
+Uikujärvi+OLang/FIN:Uiku#järve p_plc_4 ;
 Uikujärvi:Uiku#järve p_21ie ;
 Pikkujärvi:Pikku#järve p_21ie ;
 Heilujärvi:Heilu#järve p_21ie ;
 Sullujärvi:Sullu#järve p_21ie ;
 Suolujärvi:Suolu#järve p_21ie ;
-Seurujärvi+OLang/FIN:Seuru#järve p4_plc ;
+Seurujärvi+OLang/FIN:Seuru#järve p_plc_4 ;
 Seurujärvi:Seuru#järve p_21ie ;
 Viltunkurujärvi:Viltunkuru#järve p_21ie ;
-Mourujärvi+OLang/FIN:Mouru#järve p4_plc ;
+Mourujärvi+OLang/FIN:Mouru#järve p_plc_4 ;
 Mourujärvi:Mouru#järve p_21ie ;
 Kuosujärvi:Kuosu#järve p_21ie ;
-Luosujärvi+OLang/FIN:Luosu#järve p4_plc ;
+Luosujärvi+OLang/FIN:Luosu#järve p_plc_4 ;
 Luosujärvi:Luosu#järve p_21ie ;
-Huttujärvi+OLang/FIN:Huttu#järve p4_plc ;
-Juujärvi+OLang/FIN:Juu#järve p4_plc ;
+Huttujärvi+OLang/FIN:Huttu#järve p_plc_4 ;
+Juujärvi+OLang/FIN:Juu#järve p_plc_4 ;
 Juujärvi:Juu#järve p_21ie ;
 Kokonpuujärvi:Kokonpuu#järve p_21ie ;
 Kimmonpuujärvi:Kimmonpuu#järve p_21ie ;
-Mentyjärvi+OLang/FIN:Menty#järve p4_plc ;
-Pyhäjärvi+OLang/FIN:Pyhä#järve p4_plc ;
+Mentyjärvi+OLang/FIN:Menty#järve p_plc_4 ;
+Pyhäjärvi+OLang/FIN:Pyhä#järve p_plc_4 ;
 Pyhäjärvi:Pyhä#järve p_21ie ;
-Petäjäjärvi+OLang/FIN:Petäjä#järve p4_plc ;
+Petäjäjärvi+OLang/FIN:Petäjä#järve p_plc_4 ;
 Petäjäjärvi:Petäjä#järve p_21ie ;
 Röynikkäjärvi:Röynikkä#järve p_21ie ;
-Näkkäjärvi+OLang/FIN:Näkkä#järve p4_plc ;
-Pitkäjärvi+OLang/FIN:Pitkä#järve p4_plc ;
+Näkkäjärvi+OLang/FIN:Näkkä#järve p_plc_4 ;
+Pitkäjärvi+OLang/FIN:Pitkä#järve p_plc_4 ;
 Pitkäjärvi:Pitkä#järve p_21ie ;
 Aläjärvi:Alä#järve p_21ie ;
-Näkkäläjärvi+OLang/FIN:Näkkälä#järve p4_plc ;
+Näkkäläjärvi+OLang/FIN:Näkkälä#järve p_plc_4 ;
 Näkkäläjärvi:Näkkälä#järve p_21ie ;
-Leppäjärvi+OLang/FIN:Leppä#järve p4_plc ;
+Leppäjärvi+OLang/FIN:Leppä#järve p_plc_4 ;
 Leppäjärvi:Leppä#järve p_21ie ;
 Käyräjärvi:Käyrä#järve p_21ie ;
-Syväjärvi+OLang/FIN:Syvä#järve p4_plc ;
+Syväjärvi+OLang/FIN:Syvä#järve p_plc_4 ;
 Syväjärvi:Syvä#järve p_21ie ;
-Pääjärvi+OLang/FIN:Pää#järve p4_plc ;
+Pääjärvi+OLang/FIN:Pää#järve p_plc_4 ;
 Pääjärvi:Pää#järve p_21ie ;
 Rautopääjärvi:Rautopää#järve p_21ie ;
-Keimiöjärvi+OLang/FIN:Keimiö#järve p4_plc ;
+Keimiöjärvi+OLang/FIN:Keimiö#järve p_plc_4 ;
 Børve p_sur_1 ;
 Lauve p_sur_1 ;
 Buđeávve p_plc_1 ;
@@ -16735,8 +16732,8 @@ Lundmark:Lund#mark p_plc_1Cv ;
 Nordmark:Nord#mark p_plc_1Cv ;
 Fonnemark:Fonne#mark p_plc_1Cv ;
 Aremark:Are#mark p_plc_1Cv ;
-Telemark:Telemark#mark p_plc_1Cv ;
-Kyllingmark:Kyllingmark#mark p_plc_1Cv ;
+Telemark:Tele#mark p_plc_1Cv ;
+Kyllingmark:Kylling#mark p_plc_1Cv ;
 Heimark:Heimark#mark p_plc_1Cv ;
 Pilmark:Pil#mark p_plc_1Cv ;
 Danmark:Dan#mark p_plc_1Cv ;
@@ -17306,7 +17303,7 @@ Bajkal p_plc_1C ;
 Mihkkal p_mal_3C ;
 Matrihkkal p_obj_3C ;
 Mikkal p_mal_3C ;
-Wirkkala+OLang/FIN:Wirkkal p_sur_0 ;
+Wirkkala+OLang/FIN:Wirkkala p_sur_3 ;
 Oskal p_sur_3C ;
 Jamal p_mal_3C ;
 Kemal p_plc_1C ;
@@ -17488,7 +17485,7 @@ Memel p_mal_3C ;
 Hammel p_sur_3C ;
 Clonmel p_plc_1C ;
 Gomel p_plc_1C ;
-Sarmela+OLang/FIN:Sarmel p_sur_0 ; ! ERVASTI elelr annen ODD?
+Sarmela+OLang/FIN:Sarmela p_sur_1 ; 
 Myrmel p_sur_3C ;
 Salokannel p_sur_3C ;
 Chunnel p_plc_1C ;
@@ -17902,178 +17899,178 @@ Cobol p_obj_3C ;
 Puteol p_org_3C ;
 Jergol p_plc_1C ; !SUB
 Kaldhol p_sur_3C ;
-Alhola+OLang/FIN:Alhol p_sur_0 ; ! ERVASTI?
-Ruohola+OLang/FIN:Ruohol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Alhola+OLang/FIN:Alhola p_sur_3 ; ! ERVASTI?
+Ruohola+OLang/FIN:Ruohola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Schiphol p_plc_1C ;
 Mengshol p_sur_3C ;
 Garshol p_sur_3C ;
 Svarthol p_sur_3C ;
-Juhola+OLang/FIN:Juhol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Jauhola+OLang/FIN:Jauhol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Saniola+OLang/FIN:Saniol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Kojola+OLang/FIN:Kojol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Juhola+OLang/FIN:Juhola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Jauhola+OLang/FIN:Jauhola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Saniola+OLang/FIN:Saniola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Kojola+OLang/FIN:Kojola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Orjol p_plc_1C ;
-Varjola+OLang/FIN:Varjol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Hakola+OLang/FIN:Hakol p_sur_0 ; ! ERVASTI?
-Jakola+OLang/FIN:Jakol p_sur_0 ; ! ERVASTI?
-Pakola+OLang/FIN:Pakol p_sur_0 ; ! ERVASTI eller annen ODD?
-Jaakola+OLang/FIN:Jaakol p_sur_0 ; ! ERVASTI?
-Kekola+OLang/FIN:Kekol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Pekola+OLang/FIN:Pekol p_sur_0 ; ! ERVASTI eller annen ODD?
-Rekola+OLang/FIN:Rekol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Rahkola+OLang/FIN:Rahkol p_sur_0 ; ! ERVASTI elelr annen ODD? Rahkele..
+Varjola+OLang/FIN:Varjola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Hakola+OLang/FIN:Hakola p_sur_3 ; ! ERVASTI?
+Jakola+OLang/FIN:Jakola p_sur_3 ; ! ERVASTI?
+Pakola+OLang/FIN:Pakola p_sur_3 ; ! ERVASTI eller annen ODD?
+Jaakola+OLang/FIN:Jaakola p_sur_3 ; ! ERVASTI?
+Kekola+OLang/FIN:Kekola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Pekola+OLang/FIN:Pekola p_sur_3 ; ! ERVASTI eller annen ODD?
+Rekola+OLang/FIN:Rekola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Rahkola+OLang/FIN:Rahkola p_sur_3 ; ! ERVASTI elelr annen ODD? Rahkele..
 Mirtchkol p_plc_1C ;
 Náhkol p_mal_3C ;
-Mikola+OLang/FIN:Mikol p_sur_0 ; ! ERVASTI ELLER ODD?
-Nikola+OLang/FIN:Nikol p_sur_0 ; ! ERVASTI ELLER ODD?
+Mikola+OLang/FIN:Mikola p_sur_3 ; ! ERVASTI ELLER ODD?
+Nikola+OLang/FIN:Nikola p_sur_3 ; ! ERVASTI ELLER ODD?
 Pikol p_sur_3C ;
 Haikola+OLang/FIN:Haikol p_plc ; ! ERVASTI?
-Maikola+OLang/FIN:Maikol p_sur_0 ; ! ERVASTI ELLER ODD?
-Heikola+OLang/FIN:Heikol p_sur_0 ; ! ERVASTI?
-Riikola+OLang/FIN:Riikol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Poikola+OLang/FIN:Poikol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Okkola+OLang/FIN:Okkol p_sur_0 ; ! ERVASTI eller annen ODD?
-Ukkola+OLang/FIN:Ukkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Hakkola+OLang/FIN:Hakkol p_sur_0 ; ! ERVASTI?
-Rakkola+OLang/FIN:Rakkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Jaakkola+OLang/FIN:Jaakkol p_sur_0 ; ! ERVASTI? Ihvertfall ODD på sma: Jaakkolasse -Jaakkolisnie
-Paakkola+OLang/FIN:Paakkol p_sur_0 ; ! ERVASTI eller annen ODD?
-Pekkola+OLang/FIN:Pekkol p_sur_0 ; ! ERVASTI eller annen ODD?
-Riekkola+OLang/FIN:Riekkol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Maikola+OLang/FIN:Maikola p_sur_3 ; ! ERVASTI ELLER ODD?
+Heikola+OLang/FIN:Heikola p_sur_3 ; ! ERVASTI?
+Riikola+OLang/FIN:Riikola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Poikola+OLang/FIN:Poikola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Okkola+OLang/FIN:Okkola p_sur_3 ; ! ERVASTI eller annen ODD?
+Ukkola+OLang/FIN:Ukkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Hakkola+OLang/FIN:Hakkola p_sur_3 ; ! ERVASTI?
+Rakkola+OLang/FIN:Rakkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Jaakkola+OLang/FIN:Jaakkola p_sur_3 ; ! ERVASTI? Ihvertfall ODD på sma: Jaakkolasse -Jaakkolisnie
+Paakkola+OLang/FIN:Paakkola p_sur_3 ; ! ERVASTI eller annen ODD?
+Pekkola+OLang/FIN:Pekkola p_sur_3 ; ! ERVASTI eller annen ODD?
+Riekkola+OLang/FIN:Riekkola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Mikkol p_mal_3C ;
-Nikkola+OLang/FIN:Nikkol p_sur_0 ; ! ERVASTI ELLER ODD?
-Ala-Nikkola+OLang/FIN:Ala-Nikkol p_sur_0 ; ! ERVASTI?
-Rikkola+OLang/FIN:Rikkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Heikkola+OLang/FIN:Heikkol p_sur_0 ; ! ERVASTI?
+Nikkola+OLang/FIN:Nikkola p_sur_3 ; ! ERVASTI ELLER ODD?
+Ala-Nikkola+OLang/FIN:Ala-Nikkola p_sur_3 ; ! ERVASTI?
+Rikkola+OLang/FIN:Rikkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Heikkola+OLang/FIN:Heikkola p_sur_3 ; ! ERVASTI?
 Veikkola+OLang/FIN:Veikkol p_plc ; ! ERVASTI elelr annen ODD?
-Olkkola+OLang/FIN:Olkkol p_sur_0 ; ! ERVASTI eller annen ODD?
+Olkkola+OLang/FIN:Olkkola p_sur_3 ; ! ERVASTI eller annen ODD?
 Kokkola+OLang/FIN:Kokkol p_plc ; ! ERVASTI? eller annen ODD? -
-Tuokkola+OLang/FIN:Tuokkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Karkkola+OLang/FIN:Karkkol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Markkola+OLang/FIN:Markkol p_sur_0 ; ! ERVASTI ELLER ODD?
-Torkkola+OLang/FIN:Torkkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Jukkola+OLang/FIN:Jukkol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Tuokkola+OLang/FIN:Tuokkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Karkkola+OLang/FIN:Karkkola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Markkola+OLang/FIN:Markkola p_sur_3 ; ! ERVASTI ELLER ODD?
+Torkkola+OLang/FIN:Torkkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Jukkola+OLang/FIN:Jukkola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Kukkola+OLang/FIN:Kukkol p_plc ; ! ERVASTI? eller annen ODD? -
-Saukkola+OLang/FIN:Saukkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Halkola+OLang/FIN:Halkol p_sur_0 ; ! ERVASTI?
-Linkola+OLang/FIN:Linkol p_sur_0 ;
-Honkola+OLang/FIN:Honkol p_sur_0 ; ! ERVASTI?
-Tokola+OLang/FIN:Tokol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Ruokola+OLang/FIN:Ruokol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sarkola+OLang/FIN:Sarkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Perkola+OLang/FIN:Perkol p_sur_0 ; ! ERVASTI eller annen ODD?
-Pirkola+OLang/FIN:Pirkol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Wirkola+OLang/FIN:Wirkol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Saukkola+OLang/FIN:Saukkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Halkola+OLang/FIN:Halkola p_sur_3 ; ! ERVASTI?
+Linkola+OLang/FIN:Linkola p_sur_3 ;
+Honkola+OLang/FIN:Honkola p_sur_3 ; ! ERVASTI?
+Tokola+OLang/FIN:Tokola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Ruokola+OLang/FIN:Ruokola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sarkola+OLang/FIN:Sarkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Perkola+OLang/FIN:Perkola p_sur_3 ; ! ERVASTI eller annen ODD?
+Pirkola+OLang/FIN:Pirkola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Wirkola+OLang/FIN:Wirkola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Askola+OLang/FIN:Askol p_plc ; ! ERVASTI?
-Maaskola+OLang/FIN:Maaskol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Iiskola+OLang/FIN:Iiskol p_sur_0 ; ! ERVASTI?
-Jatkola+OLang/FIN:Jatkol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Maaskola+OLang/FIN:Maaskola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Iiskola+OLang/FIN:Iiskola p_sur_3 ; ! ERVASTI?
+Jatkola+OLang/FIN:Jatkola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Jukola+OLang/FIN:Jukol p_plc ; ! ERVASTI? eller annen ODD? -
 Kaukola+OLang/FIN:Kaukol p_plc ; ! ERVASTI? eller annen ODD? -
-Raukola+OLang/FIN:Raukol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Siukola+OLang/FIN:Siukol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Toukola+OLang/FIN:Toukol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Raukola+OLang/FIN:Raukola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Siukola+OLang/FIN:Siukola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Toukola+OLang/FIN:Toukola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Eškol p_sur_3C ;
-Talola+OLang/FIN:Talol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Piilola+OLang/FIN:Piilol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Lemola+OLang/FIN:Lemol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Simola+OLang/FIN:Simol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Heimola+OLang/FIN:Heimol p_sur_0 ; ! ERVASTI?
-Ilmola+OLang/FIN:Ilmol p_sur_0 ; ! ERVASTI?
-Tommola+OLang/FIN:Tommol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Talola+OLang/FIN:Talola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Piilola+OLang/FIN:Piilola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Lemola+OLang/FIN:Lemola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Simola+OLang/FIN:Simola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Heimola+OLang/FIN:Heimola p_sur_3 ; ! ERVASTI?
+Ilmola+OLang/FIN:Ilmola p_sur_3 ; ! ERVASTI?
+Tommola+OLang/FIN:Tommola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Ámmol p_mal_3C ;
 Sámmol p_mal_3C ;
 Komsomol p_org_3C ;
-Tuomola+OLang/FIN:Tuomol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Tuomola+OLang/FIN:Tuomola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Grotmol p_sur_3C ;
 Heinola+OLang/FIN:Heinol p_plc ; ! ERVASTI?
-Annola+OLang/FIN:Annol p_sur_0 ; ! ERVASTI?
-Hannola+OLang/FIN:Hannol p_sur_0 ; ! ERVASTI?
-Monola+OLang/FIN:Monol p_sur_0 ; ! ERVASTI ELLER ODD?
+Annola+OLang/FIN:Annola p_sur_3 ; ! ERVASTI?
+Hannola+OLang/FIN:Hannola p_sur_3 ; ! ERVASTI?
+Monola+OLang/FIN:Monola p_sur_3 ; ! ERVASTI ELLER ODD?
 Hartlepool p_plc_1C ;
 Blackpool p_plc_1C ;
 Liverpool p_plc_1C ;
-Tapola+OLang/FIN:Tapol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Vapola+OLang/FIN:Vapol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Tapola+OLang/FIN:Tapola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Vapola+OLang/FIN:Vapola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Lepola+OLang/FIN:Lepol p_plc ; ! ERVASTI? eller annen ODD? -
-Repola+OLang/FIN:Repol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sipola+OLang/FIN:Sipol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Siipola+OLang/FIN:Siipol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Impola+OLang/FIN:Impol p_sur_0 ; ! ERVASTI?
-Lampola+OLang/FIN:Lampol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Kopola+OLang/FIN:Kopol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Repola+OLang/FIN:Repola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sipola+OLang/FIN:Sipola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Siipola+OLang/FIN:Siipola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Impola+OLang/FIN:Impola p_sur_3 ; ! ERVASTI?
+Lampola+OLang/FIN:Lampola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Kopola+OLang/FIN:Kopola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Simferopol p_plc_1C ;
 Stavropol p_plc_1C ;
 Sevastopol p_plc_1C ;
-Kaappola+OLang/FIN:Kaappol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Seppola+OLang/FIN:Seppol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Teppola+OLang/FIN:Teppol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Kippola+OLang/FIN:Kippol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Pippola+OLang/FIN:Pippol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sippola+OLang/FIN:Sippol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Piippola+OLang/FIN:Piippol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Viippola+OLang/FIN:Viippol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Vilppola+OLang/FIN:Vilppol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Roppola+OLang/FIN:Roppol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Nuppola+OLang/FIN:Nuppol p_sur_0 ; ! ERVASTI eller annen ODD?
-Sarpola+OLang/FIN:Sarpol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Kaappola+OLang/FIN:Kaappola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Seppola+OLang/FIN:Seppola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Teppola+OLang/FIN:Teppola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Kippola+OLang/FIN:Kippola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Pippola+OLang/FIN:Pippola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sippola+OLang/FIN:Sippola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Piippola+OLang/FIN:Piippola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Viippola+OLang/FIN:Viippola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Vilppola+OLang/FIN:Vilppola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Roppola+OLang/FIN:Roppola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Nuppola+OLang/FIN:Nuppola p_sur_3 ; ! ERVASTI eller annen ODD?
+Sarpola+OLang/FIN:Sarpola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Interpol p_org_3C ;
 Arola+OLang/FIN:Arol p_plc ; ! ERVASTI?
 Carol p_fem_3C ;
-Sirola+OLang/FIN:Sirol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Sirola+OLang/FIN:Sirola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Tirol p_plc_1C ;
-Tiirola+OLang/FIN:Tiirol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sorola+OLang/FIN:Sorol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Tiirola+OLang/FIN:Tiirola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sorola+OLang/FIN:Sorola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Control p_org_3C ;
-Kurola+OLang/FIN:Kurol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Kurola+OLang/FIN:Kurola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Tyrol p_plc_1C ;
 Sør-Tyrol p_plc_1C ;
-Pesola+OLang/FIN:Pesol p_sur_0 ; ! ERVASTI eller annen ODD?
-Kosola+OLang/FIN:Kosol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Pesola+OLang/FIN:Pesola p_sur_3 ; ! ERVASTI eller annen ODD?
+Kosola+OLang/FIN:Kosola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Limassol p_plc_1C ;
-Metsola+OLang/FIN:Metsol p_sur_0 ; ! ERVASTI ELLER ODD?
-Juusola+OLang/FIN:Juusol p_sur_0 ; ! ERVASTI? eller annen ODD? -
+Metsola+OLang/FIN:Metsola p_sur_3 ; ! ERVASTI ELLER ODD?
+Juusola+OLang/FIN:Juusola p_sur_3 ; ! ERVASTI? eller annen ODD? -
 Stol p_sur_3C ;
-Satola+OLang/FIN:Satol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Pietola+OLang/FIN:Pietol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Satola+OLang/FIN:Satola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Pietola+OLang/FIN:Pietola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Ahtola+OLang/FIN:Ahtol p_plc ; ! ERVASTI?
-Vahtola+OLang/FIN:Vahtol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Lehtola+OLang/FIN:Lehtol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Aitola+OLang/FIN:Aitol p_sur_0 ; ! ERVASTI?
-Ritola+OLang/FIN:Ritol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Tiitola+OLang/FIN:Tiitol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Valtola+OLang/FIN:Valtol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Peltola+OLang/FIN:Peltol p_sur_0 ; ! ERVASTI eller annen ODD?
-Kantola+OLang/FIN:Kantol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Rentola+OLang/FIN:Rentol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Kontola+OLang/FIN:Kontol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Kotola+OLang/FIN:Kotol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Luotola+OLang/FIN:Luotol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Siirtola+OLang/FIN:Siirtol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Tortola+OLang/FIN:Tortol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Murtola+OLang/FIN:Murtol p_sur_0 ; ! ERVASTI ELLER ODD?
-Ristola+OLang/FIN:Ristol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Vahtola+OLang/FIN:Vahtola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Lehtola+OLang/FIN:Lehtola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Aitola+OLang/FIN:Aitola p_sur_3 ; ! ERVASTI?
+Ritola+OLang/FIN:Ritola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Tiitola+OLang/FIN:Tiitola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Valtola+OLang/FIN:Valtola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Peltola+OLang/FIN:Peltola p_sur_3 ; ! ERVASTI eller annen ODD?
+Kantola+OLang/FIN:Kantola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Rentola+OLang/FIN:Rentola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Kontola+OLang/FIN:Kontola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Kotola+OLang/FIN:Kotola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Luotola+OLang/FIN:Luotola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Siirtola+OLang/FIN:Siirtola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Tortola+OLang/FIN:Tortola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Murtola+OLang/FIN:Murtola p_sur_3 ; ! ERVASTI ELLER ODD?
+Ristola+OLang/FIN:Ristola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Bristol p_plc_1C ;
-Kristola+OLang/FIN:Kristol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Mustola+OLang/FIN:Mustol p_sur_0 ; ! ERVASTI ELLER ODD?
-Taattola+OLang/FIN:Taattol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Aittola+OLang/FIN:Aittol p_sur_0 ; ! ERVASTI?
-Heittola+OLang/FIN:Heittol p_sur_0 ; !! ERVASTI?
-Perttola+OLang/FIN:Perttol p_sur_0 ; ! ERVASTI eller annen ODD?
-Savola+OLang/FIN:Savol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Tavola+OLang/FIN:Tavol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Paavola+OLang/FIN:Paavol p_sur_0 ; ! ERVASTI eller annen ODD?
-Scaevola+OLang/FIN:Scaevol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sihvola+OLang/FIN:Sihvol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Kaivola+OLang/FIN:Kaivol p_sur_0 ; ! ERVASTI? eller annen ODD? -
-Siivola+OLang/FIN:Siivol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Toivola+OLang/FIN:Toivol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Silvola+OLang/FIN:Silvol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Arvola+OLang/FIN:Arvol p_sur_0 ; ! ERVASTI?
-Dervola+OLang/FIN:Dervol p_sur_0 ; ! ERVASTI?
-Tervola+OLang/FIN:Tervol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Rauvola+OLang/FIN:Rauvol p_sur_0 ; ! ERVASTI elelr annen ODD?
-Sauvola+OLang/FIN:Sauvol p_sur_0 ; ! ERVASTI elelr annen ODD?
+Kristola+OLang/FIN:Kristola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Mustola+OLang/FIN:Mustola p_sur_3 ; ! ERVASTI ELLER ODD?
+Taattola+OLang/FIN:Taattola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Aittola+OLang/FIN:Aittola p_sur_3 ; ! ERVASTI?
+Heittola+OLang/FIN:Heittola p_sur_3 ; !! ERVASTI?
+Perttola+OLang/FIN:Perttola p_sur_3 ; ! ERVASTI eller annen ODD?
+Savola+OLang/FIN:Savola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Tavola+OLang/FIN:Tavola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Paavola+OLang/FIN:Paavola p_sur_3 ; ! ERVASTI eller annen ODD?
+Scaevola+OLang/FIN:Scaevola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sihvola+OLang/FIN:Sihvola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Kaivola+OLang/FIN:Kaivola p_sur_3 ; ! ERVASTI? eller annen ODD? -
+Siivola+OLang/FIN:Siivola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Toivola+OLang/FIN:Toivola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Silvola+OLang/FIN:Silvola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Arvola+OLang/FIN:Arvola p_sur_3 ; ! ERVASTI?
+Dervola+OLang/FIN:Dervola p_sur_3 ; ! ERVASTI?
+Tervola+OLang/FIN:Tervola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Rauvola+OLang/FIN:Rauvola p_sur_3 ; ! ERVASTI elelr annen ODD?
+Sauvola+OLang/FIN:Sauvola p_sur_3 ; ! ERVASTI elelr annen ODD?
 Gaulhåvola+OLang/FIN:Gaulhåvol p_plc ; ! ERVASTI?
 Carl p_mal_3C ;
 Jarl p_mal_3C ;
@@ -18313,36 +18310,36 @@ Betlehem p_plc_1C ;
 Arnhem p_plc_1C ;
 Diem p_sur_3C ;
 Botthiem p_plc_1C ;
-Hankaniemi+OLang/FIN:Hanka#nieme p_plc_1 ;
-Honkaniemi+OLang/FIN:Honka#nieme p_plc_1 ;
-Alaniemi+OLang/FIN:Ala#nieme p_plc_1 ;
-Haapaniemi+OLang/FIN:Haapa#nieme p_plc_1 ;
-Hietaniemi+OLang/FIN:Hieta#nieme p_plc_1 ;
-Huhtaniemi+OLang/FIN:Huhta#nieme p_plc_1 ;
-Hautaniemi+OLang/FIN:Hauta#nieme p_plc_1 ;
-Jokiniemi+OLang/FIN:Joki#nieme p_plc_1 ;
-Kariniemi+OLang/FIN:Kari#nieme p_plc_1 ;
-Huhtiniemi+OLang/FIN:Huhti#nieme p_plc_1 ;
-Hirviniemi+OLang/FIN:Hirvi#nieme p_plc_1 ;
-Hämeenniemi+OLang/FIN:Hämeen#nieme p_plc_1 ;
-Ahvenniemi+OLang/FIN:Ahven#nieme p_plc_1 ;
-Jussinniemi+OLang/FIN:Jussin#nieme p_plc_1 ;
-Kallioniemi+OLang/FIN:Kallio#nieme p_plc_1 ;
-Hakoniemi+OLang/FIN:Hako#nieme p_plc_1 ;
-Kelloniemi+OLang/FIN:Kello#nieme p_plc_1 ;
-Isoniemi+OLang/FIN:Iso#nieme p_plc_1 ;
-Kantoniemi+OLang/FIN:Kanto#nieme p_plc_1 ;
-Huhmarniemi+OLang/FIN:Huhmar#nieme p_plc_1 ;
-Karigasniemi+OLang/FIN:Karigas#nieme p_plc_1 ;
-Kangasniemi+OLang/FIN:Kangas#nieme p_plc_1 ;
-Juotasniemi+OLang/FIN:Juotas#nieme p_plc_1 ;
-Hirvasniemi+OLang/FIN:Hirvas#nieme p_plc_1 ;
-Hernesniemi+OLang/FIN:Her#nes#nieme p_plc_1 ;
-Harjuniemi+OLang/FIN:Harju#nieme p_plc_1 ;
-Hannuniemi+OLang/FIN:Hannu#nieme p_plc_1 ;
-Kettuniemi+OLang/FIN:Kettu#nieme p_plc_1 ;
+Hankaniemi+OLang/FIN:Hanka#nieme p_plc_4 ;
+Honkaniemi+OLang/FIN:Honka#nieme p_plc_4 ;
+Alaniemi+OLang/FIN:Ala#nieme p_plc_4 ;
+Haapaniemi+OLang/FIN:Haapa#nieme p_plc_4 ;
+Hietaniemi+OLang/FIN:Hieta#nieme p_plc_4 ;
+Huhtaniemi+OLang/FIN:Huhta#nieme p_plc_4 ;
+Hautaniemi+OLang/FIN:Hauta#nieme p_plc_4 ;
+Jokiniemi+OLang/FIN:Joki#nieme p_plc_4 ;
+Kariniemi+OLang/FIN:Kari#nieme p_plc_4 ;
+Huhtiniemi+OLang/FIN:Huhti#nieme p_plc_4 ;
+Hirviniemi+OLang/FIN:Hirvi#nieme p_plc_4 ;
+Hämeenniemi+OLang/FIN:Hämeen#nieme p_plc_4 ;
+Ahvenniemi+OLang/FIN:Ahven#nieme p_plc_4 ;
+Jussinniemi+OLang/FIN:Jussin#nieme p_plc_4 ;
+Kallioniemi+OLang/FIN:Kallio#nieme p_plc_4 ;
+Hakoniemi+OLang/FIN:Hako#nieme p_plc_4 ;
+Kelloniemi+OLang/FIN:Kello#nieme p_plc_4 ;
+Isoniemi+OLang/FIN:Iso#nieme p_plc_4 ;
+Kantoniemi+OLang/FIN:Kanto#nieme p_plc_4 ;
+Huhmarniemi+OLang/FIN:Huhmar#nieme p_plc_4 ;
+Karigasniemi+OLang/FIN:Karigas#nieme p_plc_4 ;
+Kangasniemi+OLang/FIN:Kangas#nieme p_plc_4 ;
+Juotasniemi+OLang/FIN:Juotas#nieme p_plc_4 ;
+Hirvasniemi+OLang/FIN:Hirvas#nieme p_plc_4 ;
+Hernesniemi+OLang/FIN:Her#nes#nieme p_plc_4 ;
+Harjuniemi+OLang/FIN:Harju#nieme p_plc_4 ;
+Hannuniemi+OLang/FIN:Hannu#nieme p_plc_4 ;
+Kettuniemi+OLang/FIN:Kettu#nieme p_plc_4 ;
 Koivuniemi+OLang/FIN:Koivu#nieme p_plc_4 ;
-Kesäniemi+OLang/FIN:Kesä#nieme p_plc_1 ;
+Kesäniemi+OLang/FIN:Kesä#nieme p_plc_4 ;
 Undhjem p_plc_1C ;
 Lindhjem p_sur_3C ;
 Gudhjem p_sur_3C ;
@@ -20370,13 +20367,13 @@ Bernkonvensjonen p_obj_3C ;
 Nordsjøkonvensjonen p_obj_3C ;
 Garnisonen p_obj_3C ;
 Stortjärnen p_plc_1C ;
-Botnen:Botnen p_sur_nen ;
-Bortnen:Bortnen p_sur_nen ;
-Narkkunen:Narkkunen p_x ;
+Botnen:Botnen p_sur_C ;
+Bortnen:Bortnen p_sur_C ;
+Narkkunen:Narkku p_sur_nen ;
 Brunen p_ani_3C ;
-Oivunen:Oivunen p_x ;
+Oivunen:Oivu p_sur_nen ;
 Månen p_plc_1C ;
-Törmänen+Err/Orth:Dørmænen p_sur_nen ;
+Törmänen+Err/Orth:Dørmæ p_sur_nen ;
 Hønen:Hønen p_sur_3C ;
 Drønen:Drønen p_sur_3C ;
 Coen p_sur_3C ;
@@ -22029,7 +22026,7 @@ Torunn p_fem_3C ;
 Lynn p_sur_3C ;
 Grønn p_sur_3C ;
 Kjølbrønn p_sur_3C ;
-Meksiko:Meksik2on p_plc_1 ;
+Meksiko:Meksik2o p_plc_1 ;
 Fon p_sur_3C ;
 Jon p_mal_3C ;
 Ron p_mal_3C ;
@@ -24536,7 +24533,7 @@ Naksos:Nakso p_plc_41 ;
 Laakso p_sur_1 ;
 Laaksonen+OLang/FIN:Laakso p_sur_nen ;
 Laaksonen:Laakso p_sur_nen ;
-Tornionlakso:Tornion#laakso p_plc_1 ;
+Tornionlaakso:Tornion#laakso p_plc_1 ;
 Savilaakso p_sur_1 ;
 Pöytälaakso p_sur_1 ;
 Kottilakso:Kottilakso p_x ;
@@ -26307,7 +26304,7 @@ Sjur p_mal_3C ;
 Pekuri+OLang/FIN:Pekur p_sur_0 ;
 Epikur p_mal_3C ;
 Strokkur p_plc_1C ;
-Kulkuri+OLang/FIN:Kulkur p_obj ;
+Kulkuri+OLang/FIN:Kulkuri p_obj_3 ;
 Merkur p_obj_3C ;
 Sauđarkròkur p_plc_1C ;
 Hvannadalshnúkur p_plc_1C ;
@@ -26590,7 +26587,7 @@ Lottifielmanlaatas:Lottifielmanlaatas p_x ;
 Marivanlaatas:Marivanlaatas p_x ;
 Jälkisenlaatas:Jälkisenlaatas p_x ;
 Kalttinlaatas:Kalttinlaatas p_x ;
-Aaponsammunlaatas:Aaponsammunlaatas p_plc_ks ;
+Aaponsammunlaatas:Aaponsammunlaatta p_plc_xas ;
 Kuotrunlaatas:Kuotrunlaatas p_x ;
 Pyrönlaatas:Pyrönlaatas p_x ;
 Tomaskurulaatas:Tomaskurulaatas p_x ;
@@ -27221,47 +27218,47 @@ Isoköngäs+OLang/FIN:Iso#köngäs p_plc_3C ;
 Kiutaköngäs+OLang/FIN:Kiutaköngäs p_plc_3C ;
 Äikäs+OLang/FIN:Äikäs p_sur_3C ;
 Kärkäs+OLang/FIN:Kärkäs p_sur_3C ;
-Sås:S#ås p_sur_41 ;
-Dombås:Domb#ås p_sur_41 ;
+Sås:S#ås p_sur_3C ;
+Dombås:Domb#ås p_sur_3C ;
 Andås:And#ås p_plc_3C ;
-Landås:Land#ås p_sur_41 ;
-Hindås:Hind#ås p_sur_41 ;
-Lindås:Lind#ås p_sur_41 ;
+Landås:Land#ås p_sur_3C ;
+Hindås:Hind#ås p_sur_3C ;
+Lindås:Lind#ås p_sur_3C ;
 Grodås:Grod#ås p_plc_3C ;
-Nordås:Nord#ås p_sur_41 ;
-Lilleås:Lille#ås p_sur_41 ;
+Nordås:Nord#ås p_sur_3C ;
+Lilleås:Lille#ås p_sur_3C ;
 Holtål-Dragås:Holtål-Drag#ås p_plc_3C ;
-Langås:Lang#ås p_sur_41 ;
+Langås:Lang#ås p_sur_3C ;
 Lyngås:Lyng#ås p_plc_3C ;
 Bjørgås:Bjørg#ås p_plc_3C ;
 Grågås:Gråg#ås p_plc_3C ;
-Høgås:Høg#ås p_sur_41 ;
-Vakås:Vak#ås p_sur_41 ;
-Eikås:Eik#ås p_sur_41 ;
+Høgås:Høg#ås p_sur_3C ;
+Vakås:Vak#ås p_sur_3C ;
+Eikås:Eik#ås p_sur_3C ;
 Bjerkås:Bjerk#ås p_plc_3C ;
-Birkås:Birk#ås p_sur_41 ;
+Birkås:Birk#ås p_sur_3C ;
 Bjørkås:Bjørk#ås p_plc_3C ;
-Haukås:Hauk#ås p_sur_41 ;
-Haykås:Hayk#ås p_sur_41 ;
-Løkås:Løk#ås p_sur_41 ;
-Selås:Sel#ås p_sur_41 ;
-Kolås:Kol#ås p_sur_41 ;
-Solås:Sol#ås p_sur_41 ;
-Kjølås:Kjøl#ås p_sur_41 ;
+Haukås:Hauk#ås p_sur_3C ;
+Haykås:Hayk#ås p_sur_3C ;
+Løkås:Løk#ås p_sur_3C ;
+Selås:Sel#ås p_sur_3C ;
+Kolås:Kol#ås p_sur_3C ;
+Solås:Sol#ås p_sur_3C ;
+Kjølås:Kjøl#ås p_sur_3C ;
 Almås:Alm#ås p_plc_3C ;
 Hjelmås:Hjelm#ås p_plc_3C ;
-Jomås:Jom#ås p_sur_41 ;
+Jomås:Jom#ås p_sur_3C ;
 Granås:Gran#ås p_plc_3C ;
-Venås:Ven#ås p_sur_41 ;
+Venås:Ven#ås p_sur_3C ;
 Kvannås:Kvann#ås p_plc_3C ;
-Finnås:Finn#ås p_sur_41 ;
-Hornås:Horn#ås p_sur_41 ;
-Ravnås:Ravn#ås p_sur_41 ;
+Finnås:Finn#ås p_sur_3C ;
+Hornås:Horn#ås p_sur_3C ;
+Ravnås:Ravn#ås p_sur_3C ;
 Grønås:Grøn#ås p_plc_3C ;
-Hoås:Ho#ås p_sur_41 ;
+Hoås:Ho#ås p_sur_3C ;
 Aspås:Asp#ås p_plc_3C ;
-Derås:Der#ås p_sur_41 ;
-Nerås:Ner#ås p_sur_41 ;
+Derås:Der#ås p_sur_3C ;
+Nerås:Ner#ås p_sur_3C ;
 Fagerås:Fager#ås p_plc_3C ;
 Eilerås:Eiler#ås p_plc_3C ;
 Tømmerås:Tømmer#ås p_plc_3C ;
@@ -27269,22 +27266,22 @@ Mönsterås:Mönster#ås p_plc_3C ;
 Østerås:Øster#ås p_plc_3C ;
 Västerås:Väster#ås p_plc_3C ;
 Øverås:Øver#ås p_plc_3C ;
-Borås:Bor#ås p_sur_41 ;
+Borås:Bor#ås p_sur_3C ;
 Storås:Stor#ås p_plc_3C ;
-Singsås:Sings#ås p_sur_41 ;
+Singsås:Sings#ås p_sur_3C ;
 Alingsås:Alings#ås p_plc_3C ;
 Kjelsås:Kjels#ås p_plc_3C ;
 Trollsås:Trolls#ås p_plc_3C ;
-Kolsås:Kols#ås p_sur_41 ;
-Holtsås:Holts#ås p_sur_41 ;
-Natås:Nat#ås p_sur_41 ;
+Kolsås:Kols#ås p_sur_3C ;
+Holtsås:Holts#ås p_sur_3C ;
+Natås:Nat#ås p_sur_3C ;
 Flatås:Flat#ås p_plc_3C ;
-Østås:Øst#ås p_sur_41 ;
+Østås:Øst#ås p_sur_3C ;
 Brattås:Bratt#ås p_plc_3C ;
 Slettås:Slett#ås p_plc_3C ;
 Bruås:Bru#ås p_plc_3C ;
-Lauvås:Lauv#ås p_sur_41 ;
-Løvås:Løv#ås p_sur_41 ;
+Lauvås:Lauv#ås p_sur_3C ;
+Løvås:Løv#ås p_sur_3C ;
 Næss:Næs p_sur_41 ;
 Kyllös+OLang/FIN:Kyllös p_sur_3C ;
 Nøss:Nøs p_sur_41 ;
@@ -29400,26 +29397,26 @@ Nordagutu p_plc_1 ;
 Liutu p_sur_1 ;
 Ylirutu:Yli#rutu p_plc_1 ;
 Ruutu p_sur_1 ;
-Huus:Huu p_sur_C ;
+Huus:Huus p_sur_C ;
 Isokarfuu p_plc_31uu ;
 Warhuus:Warhuu p_sur_41 ;
 Isokarhuu p_plc_31uu ;
 Nyhuus:Ny#huus p_sur_C ;
 Esipuu:Esi#puu p_plc_0 ;
-Putaansuu+OLang/FIN:Putaan#suu p_sur_1 ;
-Ojansuu+OLang/FIN:Ojan#suu p_sur_1 ;
-Kujansuu+OLang/FIN:Kujan#suu p_sur_1 ;
-Lohvansuu+OLang/FIN:Lohvan#suu p_sur_1 ;
-Tiensuu+OLang/FIN:Tien#suu p_sur_1 ;
-Tuulensuu+OLang/FIN:Tuulen#suu p_sur_1 ;
+Putaansuu+OLang/FIN:Putaan#suu p_sur_0 ;
+Ojansuu+OLang/FIN:Ojan#suu p_sur_0 ;
+Kujansuu+OLang/FIN:Kujan#suu p_sur_0 ;
+Lohvansuu+OLang/FIN:Lohvan#suu p_sur_0 ;
+Tiensuu+OLang/FIN:Tien#suu p_sur_0 ;
+Tuulensuu+OLang/FIN:Tuulen#suu p_sur_0 ;
 Joensuu+OLang/FIN:Joen#suu p_plc_1 ;
-Putaansuu p_sur_1 ;
-Ojansuu p_sur_1 ;
+Putaansuu p_sur_0 ;
+Ojansuu p_sur_0 ;
 Puurinojansuu:Puurin#ojan#suu p_plc_0 ;
-Kujansuu p_sur_1 ;
-Lohvansuu p_sur_1 ;
-Tiensuu p_sur_1 ;
-Tuulensuu p_sur_1 ;
+Kujansuu p_sur_0 ;
+Lohvansuu p_sur_0 ;
+Tiensuu p_sur_0 ;
+Tuulensuu p_sur_0 ;
 Joensuu p_surplc_1 ;
 Vieksajoensuu:Vieksa#joen#suu p_plc_0 ;
 Samettijoensuu:Sametti#joen#suu p_plc_0 ;
@@ -30227,7 +30224,7 @@ Karlovy p_plc_1 ;
 Longwy p_plc_1 ;
 Snowy p_plc_1 ;
 Proxy p_org_1 ;
-Myy+CmpNP/None+OLang/FIN:Myy p_fem ;
+Myy+CmpNP/None+OLang/FIN:Myy p_fem_0 ;
 Pyy p_obj_1 ;
 Kaarlepyy p_plc_1 ;
 Betzy p_fem_1 ;
@@ -30737,7 +30734,7 @@ Saariselkä p_plc_1 ;
 Poikselkä p_sur_1 ;
 Pylkäs:Pylkä p_sur_41 ;
 Isomukan% sälkä:Isomukan% sälkä p_plc_11_ae ;
-Korson#sälkä:Korsonsälkä p_plc_11_ae ;
+Korsonsälkä:Korson#sälkä p_plc_11_ae ;
 Mölkänen+OLang/FIN:Mölkä p_sur_nen ;
 Mölkänen:Mölkä p_sur_nen ;
 Känkänen+OLang/FIN:Känkä p_sur_nen ;
@@ -31259,15 +31256,11 @@ Kähärä p_plc_1 ;
 Väkkärä:Väkkärä p_x ;
 Läärä p_plc_1 ;
 Väärä p_plc_1 ;
-Vääränen+OLang/FIN:Väärä p_sur_nen ;
 Vääränen:Väärä p_sur_nen ;
-Kesänen+OLang/FIN:Kesä p_sur_nen ;
 Kesänen:Kesä p_sur_nen ;
 Räisä p_plc_1 ;
-Räisänen+OLang/FIN:Räisä p_sur_nen ;
 Räisänen:Räisä p_sur_nen ;
 Säisä p_plc_1 ;
-Väisänen+OLang/FIN:Väisä p_sur_nen ;
 Väisänen:Väisä p_sur_nen ;
 Röksä p_plc_1 ;
 Hölsä p_plc_1 ;
@@ -31543,7 +31536,7 @@ Hjortnæs:Hjortnæ p_plc_41 ;
 Bunæs:Bunæ p_sur_41 ;
 Skovnæs:Skovnæ p_plc_41 ;
 Bjørndalstræ p_plc_1 ;
-RäisänenErr/Orth:Reisæ p_sur_nen ;
+Räisänen+Err/Orth:Reisæ p_sur_nen ;
 Borsæ p_1 ;
 Kolossæ p_1 ;
 Aquæ p_1 ;
