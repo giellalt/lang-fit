@@ -5581,3 +5581,9 @@ kaulauttaa:kaulautta vx ;
 naskuttaa:naskutta vx ;
 velottaa:velotta vx ;
 verottaa:verotta vx ;
+
+lemmehtyä:lemmehty v1 ;
+mettäintyä:mettäinty v1 ;
+vertyä:verty v1 ;
+tivistyä:tivisty v1 ;
+tiettyä:tietty v1 ; ! XXX ?
