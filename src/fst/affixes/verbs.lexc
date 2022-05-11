@@ -705,9 +705,9 @@ LEXICON 3infcase
 
 
 
-LEXICON v12pers_long
- +Pl1:%>mm^A K ; !
- v12pers ;
+!LEXICON v12pers_long
+! +Pl1:%>mm^A K ; !
+! v12pers ;
 
 LEXICON v12pers_short
  +Pl1:%>m^A K ;

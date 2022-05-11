@@ -36,9 +36,17 @@ n1 ; ! nx
 
 LEXICON nc ! romani chib
 !! **LEXICON @LEXNAME@** for consonant-final nouns, structure CVC
- +N+Sg+Nom: K ;
- +N:i  x1_sg_oblique ;
- +N:i x1_pl ;
++N: xc_sg ;
++N: xc_pl ;
+
+LEXICON xc_sg
++Sg+Nom: K ;
+      :i x1_sg_oblique ;
+
+LEXICON xc_pl
+ :i x1_pl ;
+
+
 
 !! ### Lexica for regular nounse
 

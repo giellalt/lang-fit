@@ -67,6 +67,13 @@ LEXICON p_mal_3
 LEXICON p_mal_2
 +N+Prop+Sem/Mal: x2_sg ;
 
+LEXICON p_plc_2
++N+Prop+Sem/Plc: x2_sg ;
+
+LEXICON p_plc_xnas
++N+Prop+Sem/Plc: xnas_sg ;
+
+
 
 LEXICON p_mal_21_odd_i
 +N+Prop+Sem/Mal: p_adhoc ;
@@ -101,16 +108,19 @@ LEXICON p_plc_11_ae
 +N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_mal_1C
-+N+Prop+Sem/Mal: p_adhoc ;
++N+Prop+Sem/Mal: xc_sg ;
+
+LEXICON p_sur_1C
++N+Prop+Sem/Sur: xc_sg ;
 
 LEXICON p_plc_1C
-+N+Prop+Sem/Plc: p_adhoc ;
++N+Prop+Sem/Plc: xc_sg ;
 
 LEXICON p_org_1C
-+N+Prop+Sem/Org: p_adhoc ;
++N+Prop+Sem/Org: xc_sg ;
 
-LEXICON p_plc_1Cv
-+N+Prop+Sem/Plc: p_adhoc ;
+!LEXICON p_plc_1Cv
+!+N+Prop+Sem/Plc: xc_sg ;
 
 LEXICON p_sur_3Cv
 +N+Prop+Sem/Sur: p_adhoc ;
@@ -121,8 +131,8 @@ LEXICON p_plc_1_odd_i
 LEXICON p_plc_4
 +N+Prop+Sem/Plc: x4_sg ;
 
-LEXICON p_plc_1ii
-+N+Prop+Sem/Plc: p_adhoc ;
+!LEXICON p_plc_1ii
+!+N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_plc_1ta
 +N+Prop+Sem/Plc: x4_sg ;
@@ -133,8 +143,8 @@ LEXICON p_plc_22odd
 LEXICON p_plc_3
 +N+Prop+Sem/Plc: x3_sg ;
 
-LEXICON p_plc_31
-+N+Prop+Sem/Plc: p_adhoc ;
+!LEXICON p_plc_31
+!+N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_plc_31ea
 +N+Prop+Sem/Plc: p_adhoc ;
@@ -145,14 +155,11 @@ LEXICON p_plc_31uu
 LEXICON p_sur_21ie
 +N+Prop+Sem/Sur: x1 ;
 
-LEXICON p_sur_21ta
-+N+Prop+Sem/Sur: p_adhoc ;
+!LEXICON p_sur_21ta
+!+N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_sur_3
 +N+Prop+Sem/Sur: x3 ;
-
-LEXICON p_sur_Cv
-+N+Prop+Sem/Sur: xnc ;
 
 LEXICON p_surmal_1
 +N+Prop+Sem/Sur: p_adhoc ;
@@ -174,11 +181,11 @@ LEXICON p_surplc_21ie
 +N+Prop+Sem/Sur: x1 ;
 +N+Prop+Sem/Plc: x1 ;
 
-LEXICON p_surplc_21ta
-+N+Prop+Sem/Sur: p_adhoc ;
+!LEXICON p_surplc_21ta
+!+N+Prop+Sem/Sur: p_adhoc ;
 
-LEXICON p_surplc_31
-+N+Prop+Sem/Sur: p_adhoc ;
+!LEXICON p_surplc_31
+!+N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_surplc_41
 +N+Prop+Sem/Sur: xn_ks ;
@@ -208,8 +215,8 @@ LEXICON p_fem_21_oi_AO
 LEXICON p_fem_31ia
 +N+Prop: p_adhoc ;
 
-LEXICON p_fem_41
-+N+Prop+Sem/Fem: xn_ks ;
+!LEXICON p_fem_41
+!+N+Prop+Sem/Fem: xn_ks ;
 
 LEXICON p_obj_41
 +N+Prop+Sem/Obj: xn_ks ;
@@ -259,8 +266,11 @@ LEXICON vanha_nocmp_prop_org_C
 LEXICON vanha_nocmp_prop_plc_1
 +N+Prop: x1 ;
 
-LEXICON vanha_nocmp_prop_plc_1pl
-+N+Prop: x1_pl ;
+!LEXICON vanha_nocmp_prop_plc_1pl
+!+N+Prop: x1_pl ;
+
+LEXICON p_plc_1pl
++N+Prop+Sem/Plc: x1_pl ;
 
 LEXICON vanha_nocmp_prop_plc_1C
 +N+Prop: xnc ;
@@ -285,6 +295,7 @@ LEXICON p_adhoc
 ! Saba, Elba
 
 LEXICON p_mal_0 +N+Prop+Sem/Mal: x0_sg ;
+LEXICON p_fem_0 +N+Prop+Sem/Fem: x0_sg ;
 
 LEXICON p_plc_1 +N+Prop+Sem/Plc: x1_sg ;
 LEXICON p_sur_1 +N+Prop+Sem/Sur: x1_sg ;
@@ -293,31 +304,33 @@ LEXICON p_fem_1 +N+Prop+Sem/Fem: x1_sg ;
 LEXICON p_org_1 +N+Prop+Sem/Org: x1_sg ;
 LEXICON p_obj_1 +N+Prop+Sem/Obj: x1_sg ;
 
-LEXICON p2_plc
-+N+Prop+Sem/Plc: x2_sg ;
+!LEXICON p2_plc
+!+N+Prop+Sem/Plc: x2_sg ;
 
 
 ! Rinta#maa, Kanava, (odd stems = 3p)
 LEXICON p_plc +N+Prop+Sem/Plc: x3_sg ;
-LEXICON p_sur +N+Prop+Sem/Sur: x3_sg ;
-LEXICON p_mal +N+Prop+Sem/Mal: x3_sg ;
-LEXICON p_fem +N+Prop+Sem/Fem: x3_sg ;
-LEXICON p_org +N+Prop+Sem/Org: x3_sg ;
-LEXICON p_ani +N+Prop+Sem/Ani: x3_sg ;
-LEXICON p_obj +N+Prop+Sem/Obj: x3_sg ;
+!LEXICON p_sur +N+Prop+Sem/Sur: x3_sg ;
+!LEXICON p_mal +N+Prop+Sem/Mal: x3_sg ;
+!LEXICON p_fem +N+Prop+Sem/Fem: x3_sg ;
+!LEXICON p_org +N+Prop+Sem/Org: x3_sg ;
+!LEXICON p_ani +N+Prop+Sem/Ani: x3_sg ;
+!LEXICON p_obj +N+Prop+Sem/Obj: x3_sg ;
 
 
-LEXICON p_malfem_3
-+N+Prop+Sem/Mal: x3_sg ;
-+N+Prop+Sem/Fem: x3_sg ;
+!LEXICON p_malfem_3
+!+N+Prop+Sem/Mal: x3_sg ;
+!+N+Prop+Sem/Fem: x3_sg ;
+!
+!LEXICON p_surfem_3
+!+N+Prop+Sem/Sur: x3_sg ;
+!+N+Prop+Sem/Fem: x3_sg ;
 
-LEXICON p_surfem_3
-+N+Prop+Sem/Sur: x3_sg ;
-+N+Prop+Sem/Fem: x3_sg ;
+LEXICON p_obj_3
++N+Prop+Sem/Obj: x3_sg ;
 
-
-LEXICON p_ks
-+N+Prop: xn_ks_sg ;
+!LEXICON p_ks
+!+N+Prop: xn_ks_sg ;
 
 LEXICON p_sur_ks
 +N+Prop+Sem/Sur: xn_ks_sg ;
@@ -334,11 +347,11 @@ LEXICON p_surplc_ks
 LEXICON p_plc_ks
 +N+Prop+Sem/Plc: xn_ks_sg ;
 
-LEXICON p3
-x3_sg ;
+!LEXICON p3
+!x3_sg ;
 
-LEXICON p4_plc
-+N+Prop+Sem/Plc: x4_sg ;
+!LEXICON p4_plc
+!+N+Prop+Sem/Plc: x4_sg ;
 
 
 
@@ -350,7 +363,7 @@ LEXICON p_sur_C +N+Prop+Sem/Sur: p_sg_1 ;
 LEXICON p_mal_C +N+Prop+Sem/Mal: p_sg_1 ;
 LEXICON p_fem_C +N+Prop+Sem/Fem: p_sg_1 ;
 LEXICON p_org_C +N+Prop+Sem/Org: p_sg_1 ;
-LEXICON p_ani_C +N+Prop+Sem/Ani: p_sg_1 ;
+!LEXICON p_ani_C +N+Prop+Sem/Ani: p_sg_1 ;
 LEXICON p_obj_C +N+Prop+Sem/Obj: p_sg_1 ;
 
 ! London (odd stem Londoni- = 3p)
@@ -394,8 +407,6 @@ LEXICON p_org_nen
 LEXICON p_plc_nen
 +N+Prop+Sem/Plc: xnen ;
 
-LEXICON p_sur_plc
-+N+Prop+Sem/Plc: xnen_sg ;
 
-LEXICON p4_sur
-+N+Prop+Sem/Sur: x4_sg ;
+!LEXICON p4_sur
+!+N+Prop+Sem/Sur: x4_sg ;
