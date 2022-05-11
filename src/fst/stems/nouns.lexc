@@ -11778,7 +11778,7 @@ pittuus:pitt n_uus ;
 pittuus:pitt n_uus ;
 kerittimet:keritti 3n_ime_pl ;
 tottuus:tott n_uus ;
-verkkoulut:verkkoulut n_pl ;
+verkkoulut:verkko#ulu n1_pl ; ! XXX merkitys
 kluutuus:kluut n_uus ;
 kevät:kevät nx ;
 konikevät:konikevät nx ;
