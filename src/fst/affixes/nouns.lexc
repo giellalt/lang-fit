@@ -548,7 +548,7 @@ LEXICON x_ime_pl
  +Pl+Ill:m%>hii n_PxK ;
  +Pl+Ine:m%>i2ss^A PxK ;
  +Pl+Ela:m%>i2st^A PxK ;
- +Pl+Ade:m%>i2lle PxxK ;
+ +Pl+All:m%>i2lle PxxK ;
  +Pl+Ade:m%>i2ll^A PxK ;
  +Pl+Abl:m%>i2lt^A PxK ;
 
@@ -637,7 +637,7 @@ LEXICON n_uus
  +N+Pl+Ill:uuks%>hii n_PxK ;
  +N+Pl+Ine:uuks%>i2ss^A PxK ;
  +N+Pl+Ela:uuks%>i2st^A PxK ;
- +N+Pl+Ade:uuks%>i2lle PxxK ;
+ +N+Pl+All:uuks%>i2lle PxxK ;
  +N+Pl+Ade:uuks%>i2ll^A PxK ;
  +N+Pl+Abl:uuks%>i2lt^A PxK ;
  +N+Pl+Abe:uuks%>i2tt^A PxK ;
@@ -666,7 +666,7 @@ LEXICON 3n_lnr
  +N+Pl+Ill:%>hii n_PxK ;
  +N+Pl+Ine:%>iss^A PxK ;
  +N+Pl+Ela:%>ist^A PxK ;
- +N+Pl+Ade:%>ille PxxK ;
+ +N+Pl+All:%>ille PxxK ;
  +N+Pl+Ade:%>ill^A PxK ;
  +N+Pl+Abl:%>ilt^A PxK ;
  +N+Pl+Abe:%>itt^A PxK ;
