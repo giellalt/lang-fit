@@ -87,7 +87,7 @@ else
 # this is "safe" fallback (compiles but you miss everything)
 url.tmp.lexc:
 	echo "LEXICON Root" > $@
-	echo "< h t t p (s) : / / ?*> # ;" >> $@
+	echo "< h t t p (s) %: %/ %/ ?*> # ;" >> $@
 
 generated_files/mul-$(GLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
