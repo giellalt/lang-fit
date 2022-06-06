@@ -15106,11 +15106,11 @@ läpikäytävä:läpi#käytävä nx ;
 läävä:läävä nx ;
 lammasläävä:lammas#läävä nx ;
 jyä:jyä nx ;
-syän:syäi 3n_ime ; ! xxx sjekk
-maasyän:maa#syäi 3n_ime ;
+syän:syä 3n_ime ; ! xxx sjekk
+maasyän:maa#syä 3n_ime ;
 talisyän:tali#syä 3n_ime ;
-kynttilänsyän:kynttilän#syäi 3n_ime ;
-vyösyän:vyö#syäi 3n_ime ;
+kynttilänsyän:kynttilän#syä 3n_ime ;
+vyösyän:vyö#syä 3n_ime ;
 jää:jää n0 ;
 pohjajää:pohja#jää n0 ;
 munakkajää:munakka#jää n0 ;
