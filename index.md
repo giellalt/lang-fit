@@ -7,13 +7,13 @@
 
 These pages document the work on the **[Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit)**.
 
-## Meänkielen korjausohjelma (LibreOffice)
+## Meänkielen korjausohjelma / *rättstavningsprogram* (LibreOffice)
 
-- Hae [LibreOffice](https://www.libreoffice.org/download/download/)
-- Hae [korjausohjelman Macile ja Windowsille](fit_LO-voikko-5.0.oxt)
+- Hae / *lasta ner* [LibreOffice](https://www.libreoffice.org/download/download/)
+- Hae / *lasta ner* [korjausohjelman Macile ja Windowsille](fit_LO-voikko-5.0.oxt)
 - Instalasuuni: Kaksoisklikkaa **fit_LO-voikko-5.0.oxt**-fiiliä ja klikkaa **OK** 
-- Ava Libreoffice toisti
-- Käyttö: Valitte kieleks **{fit}**
+- Ava Libreoffice toisti / *Öppna LO på nytt*
+- Käyttö: Valitte kieleks **{fit}** *(välj språk)*
 
 ## Resources  based upon this Meänkieli language model
 
@@ -24,7 +24,7 @@ These pages document the work on the **[Meänkieli (Tornedalen Finnish) language
 - Trosterud, Trond 2020: [Språkteknologi for meänkieli](rapport.pdf)
 - [H inserrtion](HInsertion.md)
 - [Kurs på ISOF april 2022](isof/index.md)
-- [Työlista toukokuu 2022](tyolista.md)
+- [Työlista toukokuu 2022 / Arbetslista maj 2022](tyolista.md)
 
 ## In-source documentation
 
