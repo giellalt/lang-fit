@@ -28,7 +28,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/fit/MeankieliDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-fit/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
