@@ -35,7 +35,12 @@ Consonant stems
 The lemma list
 * **LEXICON NounRoot**
 
+lekstuga
+
+slut lekstuga
+
 * hinta n1 ;
+OBS ej n4!
 * rypriikki:rypriikki n3 ;
 * kvääni n1 ;
 * asfaltti:asfaltti n3 ;
