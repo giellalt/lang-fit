@@ -36,6 +36,14 @@
 !! The lemma list
 LEXICON NounRoot !!≈ * **@CODE@**
 
+!! lekstuga
+
+! nix fel klass
+! reititin:reititi 3n_ime ;
+!huki 
+
+!! slut lekstuga
+
 huornanen:huorna# 3nen ;
 laskiainen:laskiai# 3nen ;
 tuliainen:tuliai# 3nen ;
@@ -5013,7 +5021,7 @@ järvihauki:järvi#hauke n4 ;
 verkkohauki:verkko#hauke n4 ;
 vattaviilohauki:vattaviilo#hauke n4 ;
 vaaralauki:vaara#lauke n4 ;
-tuki:tuke n4 ;
+tuki:tuke n4 ;   !! OBS ej n4!
 äes:äke 3n_ks ;
 käki:käke n4 ;
 mäki:mäke n4 ;
@@ -7061,7 +7069,7 @@ sääski:sääski nx ;
 kalasääski:kala#sääski nx ;
 kirsisääski:kirsi#sääski nx ;
 hetkinen:hetki 3nen ;
-muki:muki nx ;
+muki:muki n0 ; ! vi prövade: nx, n0 , 
 piimämuki:piimä#muki nx ;
 ruis:ruki nas ;
 lakoruis:lako#ruki nas ;
