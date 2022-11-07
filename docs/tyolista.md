@@ -1,42 +1,52 @@
-# Työlista // Arbetslista
+# Työlista = Arbetslista
+
+Här är 3 sakar att göra för att få en bättre språkmodell.
 
 
-# Förbättra språkmodellen (fst)
+# Förbättra täckningsgrad (analysera text)
 
+**Kom i håg:** För att analysera text måste ni ha `./configure --enable-tokenisers` på plats og därefter kompilera.
 
-- Parantaa kattavuus (analysoida tekstejä) *Förbättra täckningsgrad (analysera text)*
-- Käydä **nx** (luokkittelemattomien sanojen) läpi (7787 sanaa) *gå genom **nx** oklassifiserade ord*
-    - ... varmuuden vuoksi ehkä koko leksikon? *... kanske alla lexikon?*
-- katso/*se* `test/src/morphology/missing*` (`make check` jälkeen)
-
-
-# Parantaa kattavuus (analysoida tekstejä)
-*Förbättra täckningsgrad (analysera text)*
-
-Kommando:
+Kommando (där *teksti* ärsätts med texten ni vill analysera):
 
 ```
-cat teksti | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep ?|cut -d'"' -f2|sort|uniq -c|sort -nr
+cat teksti |\
+hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+grep ?|\
+cut -d'"' -f2|\
+sort|\uniq -c|\
+sort -nr > teksti.puuttuvat.freq.txt
 ```
 
-= Näin saat puuttuvien sanojen taajuuslistan. / *slik får du frekvenslista för manglande ord*
+Slik får du frekvenslista för manglande ord, som du kan lägga till i rätt fil och med rätt stam och fortsättningslexikon `src/fst/stems/`
 
 
-# Käydä **nx** (luokkittelemattomien sanojen) läpi (7787 sanaa)
-*gå genom **nx** oklassifiserade ord*
+# Gå genom oklassifiserade ord i lexikon
 
-Ne saavat tänään **n1**. / *de blir i dag omdirigerade til **n1**.*
+Oklassifiserade ord är ord som är märkade med `nx`. Gör så: Öppma substantivfilen och inspektera nx-orden:
 
-# Tutkia `test/src/morphology/missing*` (`make check` jälkeen)
+- `see src/fst/stems/nouns.lexc` (eller använd annan editor än `see`)
+- let efter ` nx ` (de blir i dag omdirigerade til **n1**) och fin
 
-Tunnetut virheet:
-- Monikolliset sanat
-- Monet konsonanttivartalot
-- n1/n4-distribuutio ei ole johdonmukainen
+# Undersöka fel i grundformerna
 
-*kända fel:
-- Ord i plural
-- Många konsonantstammer
-- n1/n4-distributionen är inte konsekvent*
-- 
+Grundidé: När vi generer ett verbs infinitivform skal vi får samma infinitiv tillbaka (och tillsvarande för substantiv, adjektiv). Det undersöker vi ved at skriva `make check`.
+
+Därefter undersöker vi hur det gått:
+
+```
+wc -l test/src/morphology/missing_verbs_lemmas.hfst.txt 
+wc -l test/src/morphology/analysed_missing_verbs_lemmas.hfst.txt
+wc -l test/src/morphology/generated-verbs.hfst.txt 
+```
+
+Den första filen viser vilke verb vi inte kan analysera infinitiven till. Den andra ger analysen till de samma verbformerna, och den tredje berätter vilken form vi får när vi genererer verbformerna.
+
+Tillsvarande kan vi göra med `nouns, adjectives, propernouns` i stället för `verbs`.
+
+- Kända fel:
+	- Ord i plural
+	- Många konsonantstammer
+	- n1/n4-distributionen är inte konsekvent
+
 
