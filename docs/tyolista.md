@@ -56,7 +56,7 @@ I katalogen `test/src/gt-norm-yamls/` finns filer `*.yaml` som ger korrekta para
 Testerna kommer automatiskt med att göra `make check` i `lang-fit`. Det är också möjligt att köra bara yaml-testarna, slik:
 
 ```
-sh test/yanl-check.sh
+sh test/yaml-check.sh
 ```
 
 Där det är fel, vil programmet säga:
