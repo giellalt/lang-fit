@@ -144,7 +144,7 @@ Multichar_Symbols
 +Err/Hyph     !!≈ * **@CODE@** =
 +Err/SpaceCmp     !!≈ * **@CODE@** =
 +Err/Lex  !!≈ * **@CODE@**
-
++Err/MissingSpace !!≈ * **@CODE@**
 
 !! ### Compounds
  +Cmp          !!≈ * **@CODE@** =
