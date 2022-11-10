@@ -135,6 +135,7 @@ Beware of remnants from the Finnish and Kven files.
 * **+Err/Hyph** =
 * **+Err/SpaceCmp** =
 * **+Err/Lex**
+* **+Err/MissingSpace**
 
 ### Compounds
 * **+Cmp** =
