@@ -49,4 +49,22 @@ Tillsvarande kan vi göra med `nouns, adjectives, propernouns` i stället för `
 	- Många konsonantstammer
 	- n1/n4-distributionen är inte konsekvent
 
+# Undersöka paradigmerna 
+
+I katalogen `test/src/gt-norm-yamls/` finns filer `*.yaml` som ger korrekta paradigmer. Formatteringen (inkl. två och fyra mellanslag i början av linjen) går fram av de existerande filerna. Detta sätt att testa kallar vi ofta "yaml-testing", efter filsuffixet. 
+
+Testerna kommer automatiskt med att göra `make check` i `lang-fit`. Det är också möjligt att köra bara yaml-testarna, slik:
+
+```
+sh test/yanl-check.sh
+```
+
+Där det är fel, vil programmet säga:
+
+```
+To rerun with more details, please triple-click, copy and paste the following:
+```
+
+Gör så.
+
 
