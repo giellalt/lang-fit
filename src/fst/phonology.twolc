@@ -23,6 +23,7 @@ i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
+i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 !m4:m      !!= * @CODE@ = mh to hm after short vowel
@@ -583,8 +584,8 @@ a:0 <=>                                              _ %^HMETA: %> ;        ! be
 
 "a:o when nonrounded root vowel and before i"
 !! **RULE: @RULENAME@**
-a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ;
-        [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|j] ; ! see fkv
+a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ;
+        [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ;
 
 !! **Tests:**
@@ -681,8 +682,8 @@ i:j <=> Vow _ k:0 :Vow ; ! pojan
 !! **RULE: @RULENAME@**
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
-"i3:0"
-i3:0 <=> :Vow Cns:+ :o %> _ [.#.|%>]m;
+"i8:0"
+i8:0 <=> :Vow Cns:+ :o %> _ [.#.|%>] ;
 
 !!€ sano>i3
 !!€ sano>0
