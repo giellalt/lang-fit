@@ -191,6 +191,7 @@ Tag
 * **i5** = superlative i of adjectives
 * **i6** = i:j in poika:pojan
 * **i7** = i in conditional of contract verbs (with gemination)
+* **i8** = past tense i of verbs that disappear: antaa : anto
 * **p2** = always p
 * **t2** = always t, cf. katt2oma always tt, underlying -ts-
 * **t3** = t participating in gradation, but not in t:s

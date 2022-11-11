@@ -1657,6 +1657,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i3:i       = past tense of verbs
 * i4:i       = i in conditional of isi
 * i5:i       = superlative i of adjectives
+* i8:i       = past tense of verbs that drops in past antaa : anto
 * p2:p t2:t k2:k     = always p t k.
 * **t3:t** = t participating in gradation, but not in t:s
 * t4:t        goes to 0 in imartelee : imarella
@@ -2307,6 +2308,7 @@ Tag
 * **i5** = superlative i of adjectives
 * **i6** = i:j in poika:pojan
 * **i7** = i in conditional of contract verbs (with gemination)
+* **i8** = past tense i of verbs that disappear: antaa : anto
 * **p2** = always p
 * **t2** = always t, cf. katt2oma always tt, underlying -ts-
 * **t3** = t participating in gradation, but not in t:s
