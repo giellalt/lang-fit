@@ -37,7 +37,7 @@ Därefter undersöker vi hur det gått:
 ```
 wc -l test/src/morphology/missing_verbs_lemmas.hfst.txt 
 wc -l test/src/morphology/analysed_missing_verbs_lemmas.hfst.txt
-wc -l test/src/morphology/generated-verbs.hfst.txt 
+wc -l test/src/morphology/generated_missing_verbs_lemmas.hfst.txt 
 ```
 
 Den första filen viser vilke verb vi inte kan analysera infinitiven till. Den andra ger analysen till de samma verbformerna, och den tredje berätter vilken form vi får när vi genererer verbformerna.
