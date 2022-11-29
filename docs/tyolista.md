@@ -1,10 +1,13 @@
 # Työlista = Arbetslista
 
-Här är 3 sakar att göra för att få en bättre språkmodell.
+Här är olika sakar att göra för att få en bättre språkmodell.
 
 
 # Förbättra täckningsgrad (analysera text)
 
+När språkmodellen inte känner igen ord, kan det vara fordi orden fattas eller fordi analysen innehåller fel.
+
+## Egna texter
 **Kom i håg:** För att analysera text måste ni ha `./configure --enable-tokenisers` på plats og därefter kompilera.
 
 Kommando (där *teksti* ärsätts med texten ni vill analysera):
@@ -18,7 +21,13 @@ sort|\uniq -c|\
 sort -nr > teksti.puuttuvat.freq.txt
 ```
 
-Slik får du frekvenslista för manglande ord, som du kan lägga till i rätt fil och med rätt stam och fortsättningslexikon `src/fst/stems/`
+Slik får du frekvenslista för ord som fattas, som du kan lägga till i rätt fil och med rätt stam och fortsättningslexikon `src/fst/stems/`
+
+## Texter från korpus
+
+Här är [en lista över alla ord i korpus som fattas i språkmodellen](files/missing_freq.txt), ordnat efter frekvens.
+
+Att göra: **Lägga till ord i språkmodellen**
 
 
 # Gå genom oklassifiserade ord i lexikon
