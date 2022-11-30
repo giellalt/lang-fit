@@ -14,8 +14,17 @@
 
 LEXICON ProperNoun !!≈ * @CODE@
 
-Valkeapää+Err/Orth:Valkea#pæ7æ7 p_sur_1 ;
-Valkeapää+Err/Orth:Valkia#pæ7æ7 p_sur_1 ;
+Trimppa-Rärrä:Trimppa-Rärrä p_mal_1 ;
+Iso-Iisko:Iso-Iisko p_mal_1 ;
+Osku:Osku p_mal_1 ;
+Känsä-Porvari:Känsä-Porvari p_mal_3 ;
+Villi-Kero:Villi-Kero p_mal_2 ;
+Kullervo:Kullervo p_mal_3 ;
+Känsä-Porvari:Känsä-Porvari p_mal_3 ;
+Kiima-Alpetti:Kiima-Alpetti p_mal_3 ;
+Volodja:Volodja p_mal_3 ;
+Valkeapää+Err/Orth:Valkea#pæ7æ7 p_sur_0 ;
+Valkeapää+Err/Orth:Valkia#pæ7æ7 p_sur_0 ;
 Jarveläinen:OLang/FIN p_sur_nen ;
 Marketsgropa:Marketsgrop2a p_plc_1 ;
 Mäsgoappa:Mäsgoapp2a p_plc_1 ;
@@ -27,8 +36,8 @@ Ras:Ra p_sur_ks ;
 Kaas:Kaa p_sur_ks ;
 Maas:Maa p_sur_ks ;
 Naas:Naa p_sur_ks ;
-Kellokkaa:Kellokkaa p_plc_1 ;
-Kirkkaanlamminkankaa:Kirkkaanlamminkankaa p_plc_1 ;
+Kellokkaa:Kellokkaa p_plc_3 ;
+Kirkkaanlamminkankaa:Kirkkaanlamminkankaa p_plc_0 ;
 Laihamaa:Laiha#maa p_sur_0 ;
 Lauhamaa:Lauha#maa p_sur_0 ;
 Ojamaa:Oja#maa p_sur_0 ;
