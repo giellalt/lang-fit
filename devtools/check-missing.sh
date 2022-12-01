@@ -3,8 +3,10 @@
 ##
 ## Script that returns the stems/$TYPE.lexc entries for the missing
 ## lemmas together with a count of the continuation lexica used for
-## these lemmas.
+## these lemmas. Run `make check` before running this script.
 ##
+## Usage (standing in lang-$LANG, with "nouns" as example:)
+## sh devtools/check-missing.sh nouns
 
 possible_values=`ls test/src/morphology/missing_*_lemmas.hfst.txt | cut -f2 -d'_' `
 call="Call:\n   "$0" [ ${possible_values} ]";
