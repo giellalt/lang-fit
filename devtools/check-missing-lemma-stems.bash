@@ -5,11 +5,10 @@
 ## lemmas together with a count of the continuation lexica used for
 ## these lemmas. Run `make check` before running this script.
 ##
-<<<<<<< HEAD
 ## Usage (standing in lang-$LANG, with "nouns" as example:)
-## sh devtools/check-missing.sh nouns
-=======
+## devtools/check-missing-lemma-stems.bash nouns
 ##
+
 ## WORKS IN BASH, NOT IN SH!!
 
 DESC='
@@ -22,8 +21,6 @@ USAGE="
    $0 <TYPE>
    where available <TYPE> is one of [ ${args} ]";
   
->>>>>>> check-missing.sh: sort of version 0.9
-
 missing_files=`ls test/src/morphology/missing_*_lemmas.hfst.txt 2> /dev/null`;
 if [ "$missing_files" ]; then
     possible_values=`ls $missing_files | cut -f2 -d'_' | perl -ne 'chomp; print "$_ "'`;
