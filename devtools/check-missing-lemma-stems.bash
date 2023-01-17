@@ -16,10 +16,6 @@ The script returns the stems/<TYPE>.lexc entries for the missing
 lemmas of that type together with a count of the continuation lexica
 used for these lemmas.'
 
-USAGE="
-   Usage:
-   $0 <TYPE>
-   where available <TYPE> is one of [ ${args} ]";
   
 missing_files=`ls test/src/morphology/missing_*_lemmas.hfst.txt 2> /dev/null`;
 if [ "$missing_files" ]; then
@@ -31,7 +27,12 @@ else
     echo "===> Or did you forget 'make check'?"
     exit 86
 fi
-    
+
+USAGE="
+   Usage:
+   $0 <TYPE>
+   where available <TYPE> is one of [ ${args} ]";
+
 help='help'; ## !!??
 if [ "$1" == "$help" ]; then
     echo "$DESC"
