@@ -129,7 +129,7 @@ LEXICON x1_sg_oblique
 !! **LEXICON @LEXNAME@** gives the rest
  +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@
  +Sg+Par:%>^A PxK ; !!≈ * @CODE@
- +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon
+ +Sg+Ill:^WG^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon
  +Sg+Ine:^WG%>ss^A PxK ;      !!≈ * @CODE@  etc.
  +Sg+Ela:^WG%>st^A PxK ;      ! talosta
  +Sg+All:^WG%>le PxxK ;        ! talole
@@ -759,3 +759,39 @@ LEXICON Px
 LEXICON Px-Vn
  +PxSg3:%>%^Vn K ;
  +PxPl3:%>%^Vn K ;
+
+!! HÖGST temporärt!!! GE + LL 230208
+764LEXICON n1-troppi
+765! +N: x1 ;  !! troppi
+766+N+Sg+Nom:       PxK ; !! troppi
+767+N+Nom: R ;
+768+N+Sg+Gen:^WG%>n R ;
+769+N+Sg+Gen:^WG%>n PxK ; !! tropin
+770
+771+N+Sg+Par:%>^A PxK ; !! troppia?
+772+N+Sg+Ill:^HMETA%>h^V^V n_PxK ; !! trophiin
+773+N+Sg+Ine:^WG%>ss^A PxK ;      !! tropissa
+774+N+Sg+Ela:^WG%>st^A PxK ;      ! tropista
+775+N+Sg+All:^WG%>le PxxK ;        ! tropile
+776+N+Sg+Ade:^WG%>l^A PxK ;       ! tropila
+777+N+Sg+Abl:^WG%>lt^A PxK ;      ! tropilta
+778+N+Sg+Tra:^WG TRA ;          ! tropiks, tropiksi
+779+N+Sg+Ess:%>n^A PxK ;          ! troppina
+780+N+Sg+Abe:^WG%>tt^A PxK ;      ! tropitta
+781
+782+N+Pl+Nom:^WG%>t PxK ;
+783+N+Pl+Gen:^IDEL%>i2tten PxK ;
+784+N+Pl+Gen+Err/Orth:%>i2en PxK ;
+785!+N+Pl+Par:%>i2^A PxK ;
+786+N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
+787
+788+N+Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
+789+N+Pl+Ine:^WG%>i2ss^A PxK ;
+790+N+Pl+Ela:^WG%>i2st^A PxK ;
+791+N+Pl+All:^WG%>i2le PxxK ;
+792+N+Pl+Ade:^WG%>i2l^A PxK ;
+793+N+Pl+Abl:^WG%>i2lt^A PxK ;
+794+N+Pl+Tra:^WG%>i2 TRA ;
+795! +N+Pl+Ess:%>i2n^A PxK ;  ! nu: ---     rätt: troppina
+796+N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
+797+N+Pl+Abe:^WG%>i2tt^A PxK ;

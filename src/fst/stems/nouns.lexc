@@ -7969,8 +7969,8 @@ piimätooppi:piimätooppi nx ;
 poppi:poppi nx ;
 kroppi:kroppi nx ;
 proppi:proppi nx ;
-!troppi:troppi nx ;  ! GE: korrekt?
-troppi:trop2i n1 ;   ! --- " ---
+!troppi:troppi nx ;
+troppi:troppi n1-troppi ;   ! GE & LL labbar
 toppi:toppi nx ;
 tuoppi:tuoppi nx ;
 piimätuoppi:piimätuoppi nx ;
