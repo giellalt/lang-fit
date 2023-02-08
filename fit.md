@@ -1170,7 +1170,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x1_sg_oblique** gives the rest
 * +Sg+Gen:^WG%>n PxK ;
 * +Sg+Par:%>^A PxK ;
-* +Sg+Ill:^HMETA%>h^V^V n_PxK ; talhoon
+* +Sg+Ill:^WG^HMETA%>h^V^V n_PxK ; talhoon
 * +Sg+Ine:^WG%>ss^A PxK ;  etc.
 
 **LEXICON x1_pl** the pl forms
@@ -1275,6 +1275,14 @@ LEXICON i_PxK Tra: -i or -e and goes to Px
 LEXICON PxK has only -nsA, and is currently not in use. Check
 
 LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
+
+GE + LL 230208
+troppi
+tropin
+
+troppia?
+trophiin
+tropissa
 
 * * *
 
