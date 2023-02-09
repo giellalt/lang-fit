@@ -780,7 +780,7 @@ LEXICON n1-troppi
 +N+Sg+Abe:^WG%>tt^A PxK ;      ! tropitta
 
 +N+Pl+Nom:^WG%>t PxK ;
-+N+Pl+Gen:^IDEL%>i2tten PxK ;
++N+Pl+Gen:^IDEL%>i2tten PxK ; ! tropitten
 +N+Pl+Gen+Err/Orth:%>i2en PxK ;
 !+N+Pl+Par:%>i2^A PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
