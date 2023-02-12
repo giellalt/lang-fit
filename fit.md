@@ -2716,8 +2716,8 @@ Vowel stems
 * n0 = 1syll noun: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
-* n3 = odd-syllabTic: kanava
-* n4 = i:e nouns: veri
+* n3 = odd-syllabic: kanava
+* n4 = i:e nouns: veri , but 2+ classes.
 
 Consonant stems
 
