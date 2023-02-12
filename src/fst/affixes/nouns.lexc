@@ -436,8 +436,8 @@ LEXICON 2cases
 LEXICON 3n_ks
 !! **LEXICON @LEXNAME@**
 +N: xn_ks ;
-+N+Sg+Nom:s R ;
-+N+Sg+Gen:kse%>n R ;
++N+Sg+Nom:^WGs R ;
++N+Sg+Gen:^WGkse%>n R ;
 
 LEXICON xn_ks
 !! **LEXICON @LEXNAME@**

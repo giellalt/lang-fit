@@ -172,6 +172,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:] ;
+!		  :e %> _ %^A: ; ! hanhea -- rather two classes
 !        [.#.|#:] Cns:* Vow:+ Cns:+ Vow:+ [l|n|r] _ Vow:+ WeakGrade ; ! imarela : imartelen
 !       Vow:+ Cns:+ i t     _ Vow:+     WeakGrade ; ! esitellä
 !       VowelNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
@@ -623,7 +624,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 !! **RULE: @RULENAME@** deletes *-e-* in LNR stems as well as before -i-
 e:0 <=>                                                   _ h %> e ; ! säkheen del before h in e stems
                                                           _ %^HMETA: ;
-                           [.#.|#:] Cns:* Vow:+ [l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
+                         [.#.|#:] Cns:* Vow:+ [h|l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
                            [.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten

@@ -13,8 +13,8 @@
 !! * n0 = 1syll noun: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
-!! * n3 = odd-syllabTic: kanava
-!! * n4 = i:e nouns: veri
+!! * n3 = odd-syllabic: kanava
+!! * n4 = i:e nouns: veri , but 2+ classes.
 
 !! Consonant stems
 
@@ -1034,7 +1034,7 @@ kika:kika n1 ;
 lika:lika n1 ;
 pihalika:pihalika nx ;
 vesilika:vesilika nx ;
-niskanikamet:niskanikai 3n_ime_pl ;
+niskanikamet:niskanika 3n_ime_pl ;
 poika:poika n1 ;
 poikanen:poika 3nen ;
 vanhaapoika:vanhaa#poika n1 ;
@@ -5428,7 +5428,7 @@ soutuvene:soutuvene n2 ;
 puuvene:puuvene n2 ;
 lastuuvene:lastuuvene n2 ;
 kahnheet:kahne n2_pl ;
-ikehneet:ikehne n2_pl ;
+ikehneet:ikene n2_pl ;
 vihne:vihne n2 ;
 ohravihne:ohravihne n2 ;
 aine:aine n2 ;
@@ -7890,7 +7890,7 @@ rimpi:rimpi n1 ;
 umpinen:umpi 3nen ;
 toopi:toopi nx ;
 halstoopi:hals#toopi nx ;
-tropit:tropi n1_pl ;
+tropit:troppi n1_pl ;
 kaappi:kaappi n1 ;
 nurkkakaappi:nurkka#kaappi nx ;
 patakaappi:pata#kaappi nx ;
@@ -9460,10 +9460,10 @@ tauti:tauti nx ;
 paskatauti:paska#tauti n1 ;
 kuivatauti:kuiva#tauti n1 ;
 naistentauvit:naisten#tauti n1_pl ;
-kuivamatauti:kuivamatauti nx ;
-panematauti:panematauti nx ;
-lahmomatauti:lahmomatauti nx ;
-luomatauti:luomatauti nx ;
+kuivamatauti:kuivamatauti n1 ;
+panematauti:panematauti n1 ;
+lahmomatauti:lahmomatauti n1 ;
+luomatauti:luomatauti n1 ;
 nukkumatauti:nukkumatauti nx ;
 kaatumatauti:kaatumatauti nx ;
 pernatauti:pernatauti nx ;
@@ -10415,7 +10415,7 @@ nenähuokonen:nenähuoko 3nen ;
 luoko:luoko n1 ;
 ruoko:ruoko n1 ;
 torko:torko n1 ;
-kurkot:kurko n1_pl ;
+kurkot:kurkko n1_pl ;
 laskos:lasko 3n_ks ;
 pasko:pasko n1 ;
 nahkapasko:nahkapasko n1 ;
@@ -12070,11 +12070,10 @@ uhakus:uhaku 4n_ks ;
 flaku:flaku nx ;
 maku:maku nx ;
 maanmaku:maanmaku nx ;
-prakut:praku n1_pl ;
-prakut:praku n1_pl ;
+prakut:prakku n1_pl ;
 piekus:pieku 3n_ks ;
 riihipehku:riihipehku nx ;
-pohkut:pohku n1_pl ;
+pohkut:pohk2u n1_pl ;
 tohku:tohku nx ;
 tiku:tiku nx ;
 kraakku:kraakku nx ;
@@ -12303,7 +12302,7 @@ polviluku:polviluku nx ;
 poroluku:poroluku nx ;
 miesluku:miesluku nx ;
 puolinukus:puolinuku 3n_ks ;
-koukut:kouku n1_pl ;
+koukut:koukku n1_pl ;
 puku:puku nx ;
 uimapuku:uimapuku nx ;
 vihkipuku:vihkipuku nx ;
