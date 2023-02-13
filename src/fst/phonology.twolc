@@ -75,40 +75,31 @@ Rules
 
 !! ## Consonant rules
 
-!! ### Gradation rules
 
 !! For the gradation rules, each consonant deletion or change is given its own rule. 
 !! Thus, both *kk:k* and *k:0* are handled in the same **k:0* rule. This to avoid rule conflicts.
 !! The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after *n*, etc.).
 
-!! **p rules**
 
-"p:0"
-!! **RULE: @RULENAME@**
-p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; 
-                Vow p _ e: h %> e ;
-                Vow p _ Vow: %^HMETA: ;
+!! f rules
 
-!! **Tests:**
+"f:0"
+f:0 <=> Vow f _ Vow: %^HMETA: ;
 
-!!€ appi^WG
-!!€ ap0i0
+!! h rules
 
-"p:v"
-!! **RULE: @RULENAME@**
-p:v <=> Vow   _ Vow:  WeakGrade ;
-        Vow r _ Vow WeakGrade ;
+"h:0"
+h:0 <=> Vow h _ Vow: %^HMETA: ;
 
-!! **Tests:**
 
-!!€ papu^WG>n
-!!€ pavu0>n
-!!€ varpa^WGs
-!!€ varva0s
+!! h rules
+"h:0"
+h:0 <=> Vow h _ Vow: %^HMETA: ;
 
-"p:m"
-!! **RULE: @RULENAME@**
-p:m <=> Vow m _ Vow: WeakGrade ;
+
+!! j rules
+"j:0"
+j:0 <=> Vow j _ Vow: %^HMETA: ;
 
 
 !! **k rules**
@@ -164,8 +155,63 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !!€ suku^WG>n
 !!€ suvu0>n
 
-!! s rules
 
+
+!! l rules
+"l:0"
+l:0 <=> Vow l _ Vow: %^HMETA: ;
+
+
+!! m rules
+"m:0"
+m:0 <=> Vow m _ Vow: %^HMETA: ;
+
+
+!! n rules
+"n:0"
+n:0 <=> Vow n _ Vow: %^HMETA: ;
+
+
+
+
+
+!! **p rules**
+
+"p:0"
+!! **RULE: @RULENAME@**
+p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; 
+                Vow p _ e: h %> e ;
+                Vow p _ Vow: %^HMETA: ;
+
+!! **Tests:**
+
+!!€ appi^WG
+!!€ ap0i0
+
+"p:v"
+!! **RULE: @RULENAME@**
+p:v <=> Vow   _ Vow:  WeakGrade ;
+        Vow r _ Vow WeakGrade ;
+
+!! **Tests:**
+
+!!€ papu^WG>n
+!!€ pavu0>n
+!!€ varpa^WGs
+!!€ varva0s
+
+"p:m"
+!! **RULE: @RULENAME@**
+p:m <=> Vow m _ Vow: WeakGrade ;
+
+
+!! r rules
+"r:0"
+r:0 <=> Vow r _ Vow: %^HMETA: ;
+
+
+
+!! s rules
 "s:0"
 s:0 <=> Vow s _ Vow: %^HMETA: ;
 
@@ -200,6 +246,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
 "t4:0"
 !! **RULE: @RULENAME@** where *t4* is *t* in *rt* that shall not become *rr* 
 t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
+         Vow   t       _ Vow:  %^HMETA: ;
 
 !! **Tests:**
 
@@ -267,6 +314,13 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 !!€ veri0
 !!€ varte^E2I
 !!€ varsi0
+
+
+
+!! v rules
+"v:0"
+v:0 <=> Vow v _ Vow: %^HMETA: ;
+
 
 
 
