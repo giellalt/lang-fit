@@ -72,6 +72,7 @@ puija:pui v3_j ;
 lua:lu JUA ;
 sua:su JUA ;
 tua:tu JUA ;
+
 myä:my SYA ;
 jääjä:jää v3_j ;
 lyä:ly SYA ;
@@ -2583,8 +2584,8 @@ mukata:mukka v2 ;
 loukata:loukka v2 ;
 moukata:moukka v2 ;
 pukata:pukka v2 ;
-bruukata:bruukka v2 ;
-pruukata:pruukka v2 ;
+bruukata:bruuk2a v2 ;
+pruukata:pruuk2a v2 ;
 tuukata:tuukka v2 ;
 fläkata:fläkka v2 ;
 kaalata:kaala v2 ;
