@@ -61,31 +61,17 @@ This chapter gives the rules themselves.
 
 ## Consonant rules
 
-### Gradation rules
-
 For the gradation rules, each consonant deletion or change is given its own rule. 
 Thus, both *kk:k* and *k:0* are handled in the same **k:0* rule. This to avoid rule conflicts.
 The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after *n*, etc.).
 
-**p rules**
+f rules
 
-**RULE: p:0**
+h rules
 
-**Tests:**
+h rules
 
-* *appi^WG*
-* *ap0i0*
-
-**RULE: p:v**
-
-**Tests:**
-
-* *papu^WG>n*
-* *pavu0>n*
-* *varpa^WGs*
-* *varva0s*
-
-**RULE: p:m**
+j rules
 
 **k rules**
 
@@ -120,6 +106,34 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 * *suku^WG>n*
 * *suvu0>n*
+
+l rules
+
+m rules
+
+n rules
+
+**p rules**
+
+**RULE: p:0**
+
+**Tests:**
+
+* *appi^WG*
+* *ap0i0*
+
+**RULE: p:v**
+
+**Tests:**
+
+* *papu^WG>n*
+* *pavu0>n*
+* *varpa^WGs*
+* *varva0s*
+
+**RULE: p:m**
+
+r rules
 
 s rules
 
@@ -183,6 +197,8 @@ t rules
 * *veri0*
 * *varte^E2I*
 * *varsi0*
+
+v rules
 
 ### Gemination rules
 
