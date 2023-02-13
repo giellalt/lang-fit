@@ -272,6 +272,7 @@ LEXICON v3_other
 +V+Act+Ind+Prs+Sg2:%>t K ;
 +V+Act+Ind+Prs+Sg3: K ;
 +V+Act+Ind+Prs+Sg3:%>pi K ;
++V+Act+Ind+Prs+Sg3+Use/NG:%>pii K ;
 +V+Act+Ind+Prs+Pl1:%>m^A K ;
 +V+Act+Ind+Prs+Pl2:%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
@@ -298,6 +299,7 @@ LEXICON v3kayda  !!≈ @CODE@ käyđä:kä from fkv
 +V+Act+Ind+Prs:y^WG v12pers_short ;
 +V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
++V+Act+Ind+Prs+Sg3+Use/NG:y%>pii K ;
 +V+Act+Ind+Prs+Pl3:y%>hään K ; ! đ
 +V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;

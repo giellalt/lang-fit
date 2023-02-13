@@ -10,9 +10,14 @@
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n3 = odd-syllabic: kanava
-!! * n4 = i:e nouns: veri
 
-!! ### Consonant stems
+!! Consonant stems
+
+!! * n4 = i:e nouns: suomi, kivi
+!! * n5 = i:e nons, cns stems  kieli : kielen : kieltä
+!! * n5_lumi = lumi : lumen : lunta
+!! * n5_käsi = käsi : käden : kättä
+!! * n4_lapsi = lapsi : lapsen : lasta
 
 !! * n_uus = vajavuus
 !! * nc = cvc
@@ -129,7 +134,7 @@ LEXICON x1_sg_oblique
 !! **LEXICON @LEXNAME@** gives the rest
  +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@
  +Sg+Par:%>^A PxK ; !!≈ * @CODE@
- +Sg+Ill:^WG^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon
+ +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon, paphiin, kashiin
  +Sg+Ine:^WG%>ss^A PxK ;      !!≈ * @CODE@  etc.
  +Sg+Ela:^WG%>st^A PxK ;      ! talosta
  +Sg+All:^WG%>le PxxK ;        ! talole
@@ -142,8 +147,8 @@ LEXICON x1_sg_oblique
 LEXICON x1_pl
 !! **LEXICON @LEXNAME@** the pl forms
  +Pl+Nom:^WG%>t PxK ;
- +Pl+Gen:^IDEL%>i2tten PxK ;
- +Pl+Gen+Err/Orth:%>i2en PxK ;
+ +Pl+Gen:^WG^IDEL%>i2tten PxK ;
+ +Pl+Gen+Err/Orth:^WG%>i2en PxK ;
  +Pl+Par:%>i2^A PxK ;
  +Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
  +Pl+Ine:^WG%>i2ss^A PxK ;
@@ -270,10 +275,36 @@ LEXICON x3_pl
 
 
 LEXICON n4
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** kivi, stem kive
  +N: x4 ;
+ +N+Sg+Nom:^E2I       PxK ; ! kivi
+ +N+Sg+Par:%>^A      PxK ; ! kiveä
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
+
+LEXICON n5
+!! **LEXICON @LEXNAME@** kieli, stem kiele
+ +N: x4 ;
+ +N+Sg+Nom:^E2I       PxK ; ! veri
+ +N+Sg+Par:%>t^A      PxK ; ! verta
+ +N+Nom:^E2I R ;
+ +N+Gen:^WG%>n R ;
+
+LEXICON n5_lumi
+!! **LEXICON @LEXNAME@** lumi, stem lu
+ +N:me x4 ;
+ +N+Sg+Nom:mi       PxK ; ! veri
+ +N+Sg+Par:ne%>t^A      PxK ; ! verta
+ +N+Nom:mi R ;
+ +N+Gen:me%>n R ;
+
+LEXICON n5_käsi
+!! **LEXICON @LEXNAME@** käsi, stem kä
+ +N:te x4 ;
+ +N+Sg+Nom:si       PxK ; ! käsi
+ +N+Sg+Par:t%>t^A      PxK ; ! kättä
+ +N+Nom:si R ;
+ +N+Gen:e%>n R ;
 
 LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
@@ -285,9 +316,7 @@ x4_sg ;
 x4_pl ;
 
 LEXICON x4_sg
- +Sg+Nom:^E2I       PxK ; ! veri
  +Sg+Gen:^WG%>n     PxK ; ! veren
- +Sg+Par:%>t^A      PxK ; ! verta
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
  +Sg+Ela:^WG%>st^A PxK ;
@@ -312,7 +341,7 @@ LEXICON x4_pl
  +Pl+Tra:^WG%>i2 TRA ;
 
 
-LEXICON n4_lapsi
+LEXICON n5_lapsi
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:psi R ;
 +N+Sg+Gen:pse%>n R ;

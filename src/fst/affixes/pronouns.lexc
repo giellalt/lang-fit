@@ -343,9 +343,10 @@ jokuinf ;
 
 
 LEXICON pljoku_indef
-+Gen:ttenki K ;
-+Ill:hinki K ;
-jokuinf ;
++Nom:kku K ;
++Gen:ittenki K ;
++Ill:ihinki K ;
+:i jokuinf ;
 
 
 LEXICON jokuinf
@@ -354,9 +355,9 @@ LEXICON jokuinf
 +Tra:ksiki   K ;
 +Ine:ssaki   K ;
 +Ela:staki   K ;
-+All:lleki   K ;
-+Ade:llaki    K ;
-+Abl:lleki   K ; 
++All:leki   K ;
++Ade:laki    K ;
++Abl:ltaki   K ; 
 
 
 
