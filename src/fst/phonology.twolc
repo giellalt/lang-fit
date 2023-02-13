@@ -87,6 +87,7 @@ Rules
 !! **RULE: @RULENAME@**
 p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; 
                 Vow p _ e: h %> e ;
+                Vow p _ Vow: %^HMETA: ;
 
 !! **Tests:**
 
@@ -162,6 +163,12 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 !!€ suku^WG>n
 !!€ suvu0>n
+
+!! s rules
+
+"s:0"
+s:0 <=> Vow s _ Vow: %^HMETA: ;
+
 
 !! t rules
 
@@ -658,7 +665,7 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
 	           Cns: _ (WeakGrade) %>  [i2:|i3:] ; ! sopia : sopi, oppia : oppi
-		   Cns: _ %^IDEL: %> i2: ; ! tukki : tukkitten
+		   Cns: _ (%^WG:) %^IDEL: %> i2: ; ! tukki : tukkitten
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !! **Tests:**
