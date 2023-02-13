@@ -121,6 +121,8 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *suku^WG>n*
 * *suvu0>n*
 
+s rules
+
 t rules
 
 **RULE: t:0**

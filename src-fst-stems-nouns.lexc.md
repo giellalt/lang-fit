@@ -14,9 +14,14 @@ Vowel stems
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabic: kanava
-* n4 = i:e nouns: veri , but 2+ classes.
 
 Consonant stems
+
+* n4 = i:e nouns: suomi, kivi
+* n5 = i:e nons, cns stems  kieli : kielen : kieltä
+* n5_lumi = lumi : lumen : lunta
+* n5_käsi = käsi : käden : kättä
+* n4_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
 * nc = cvc

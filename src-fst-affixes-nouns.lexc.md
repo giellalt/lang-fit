@@ -9,9 +9,14 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
 * n3 = odd-syllabic: kanava
-* n4 = i:e nouns: veri
 
-### Consonant stems
+Consonant stems
+
+* n4 = i:e nouns: suomi, kivi
+* n5 = i:e nons, cns stems  kieli : kielen : kieltä
+* n5_lumi = lumi : lumen : lunta
+* n5_käsi = käsi : käden : kättä
+* n4_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
 * nc = cvc
@@ -60,7 +65,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x1_sg_oblique** gives the rest
 * +Sg+Gen:^WG%>n PxK ;
 * +Sg+Par:%>^A PxK ;
-* +Sg+Ill:^WG^HMETA%>h^V^V n_PxK ; talhoon
+* +Sg+Ill:^HMETA%>h^V^V n_PxK ; talhoon, paphiin, kashiin
 * +Sg+Ine:^WG%>ss^A PxK ;  etc.
 
 **LEXICON x1_pl** the pl forms
@@ -93,7 +98,13 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x3_pl**
 
-**LEXICON n4**
+**LEXICON n4** kivi, stem kive
+
+**LEXICON n5** kieli, stem kiele
+
+**LEXICON n5_lumi** lumi, stem lu
+
+**LEXICON n5_käsi** käsi, stem kä
 
 **LEXICON n4_pl**
 
@@ -101,7 +112,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x4_pl**
 
-**LEXICON n4_lapsi**
+**LEXICON n5_lapsi**
 
 #### The nainen (nen) and hevonen (3nen) family
 
