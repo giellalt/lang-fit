@@ -16,7 +16,7 @@
 !! * n4 = i:e nouns: suomi, kivi
 !! * n5 = i:e nons, cns stems  kieli : kielen : kieltä
 !! * n5_lumi = lumi : lumen : lunta
-!! * n5_käsi = käsi : käden : kättä
+!! * n5_kasi = käsi : käden : kättä
 !! * n4_lapsi = lapsi : lapsen : lasta
 
 !! * n_uus = vajavuus
@@ -45,10 +45,12 @@ LEXICON nc ! romani chib
 +N: xc_pl ;
 
 LEXICON xc_sg
+!! **LEXICON @LEXNAME@**
 +Sg+Nom: K ;
       :i x1_sg_oblique ;
 
 LEXICON xc_pl
+!! **LEXICON @LEXNAME@**
  :i x1_pl ;
 
 
@@ -298,13 +300,21 @@ LEXICON n5_lumi
  +N+Nom:mi R ;
  +N+Gen:me%>n R ;
 
-LEXICON n5_käsi
+LEXICON n5_kasi
 !! **LEXICON @LEXNAME@** käsi, stem kä
  +N:te x4 ;
  +N+Sg+Nom:si       PxK ; ! käsi
  +N+Sg+Par:t%>t^A      PxK ; ! kättä
  +N+Nom:si R ;
  +N+Gen:e%>n R ;
+
+LEXICON n5_pl
+!! **LEXICON @LEXNAME@**
+n4_pl ;
+
+LEXICON n5_kasi_pl
+!! **LEXICON @LEXNAME@**
+n4_pl ;
 
 LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
@@ -316,7 +326,8 @@ x4_sg ;
 x4_pl ;
 
 LEXICON x4_sg
- +Sg+Gen:^WG%>n     PxK ; ! veren
+!! **LEXICON @LEXNAME@**
++Sg+Gen:^WG%>n     PxK ; ! veren
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
  +Sg+Ela:^WG%>st^A PxK ;
@@ -387,6 +398,7 @@ LEXICON nen_sg
 +N+Sg+Gen:s R ;
 
 LEXICON nen_pl
+!! **LEXICON @LEXNAME@**
 +N: xnen_pl ;
 
 LEXICON xnen
@@ -550,9 +562,11 @@ LEXICON 3n_ime
   3n_ime_pl ;
 
 LEXICON 3n_ime_sg 
+!! **LEXICON @LEXNAME@**
 +N: x_ime_sg ;
 
 LEXICON 3n_ime_pl 
+!! **LEXICON @LEXNAME@**
 +N: x_ime_pl ;
 
 LEXICON x_ime_sg
@@ -571,6 +585,7 @@ LEXICON x_ime_sg
  +Sg+Tra:me TRA ;
 
 LEXICON x_ime_pl
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:me%>t PxK ;
  +Pl+Gen:n%>ten PxK ;
  +Pl+Par:m%>i^A PxK ;
@@ -583,15 +598,18 @@ LEXICON x_ime_pl
 
 
 LEXICON nas ! tehas
-+N: xnas ;
+!! **LEXICON @LEXNAME@**
+ +N: xnas ;
  +N+Sg+Nom:^WGs R ;
  +N+Sg+Gen:%>^Vn R ;
 
 LEXICON xnas
-xnas_sg ;
-xnas_pl ;
+!! **LEXICON @LEXNAME@**
+ xnas_sg ;
+ xnas_pl ;
 
 LEXICON xnas_sg
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGs       PxK ;
  +Sg+Gen:%>^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
@@ -606,6 +624,7 @@ LEXICON xnas_sg
  +Sg+Tra:%>^V TRA ;
 
 LEXICON xnas_pl
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:%>^Vt PxK ;
  +Pl+Gen:%>^Vi2den PxK ;
  +Pl+Par:%>^Vi2t^A PxK ;
@@ -618,6 +637,7 @@ LEXICON xnas_pl
 
 
 LEXICON 3mies
+!! **LEXICON @LEXNAME@**
  +N+Sg+Nom:s       PxK ;
  +N+Sg+Gen:he%>n PxK ;
  +N+Sg+Par:s%>t^A PxK ;
@@ -645,6 +665,7 @@ LEXICON 3mies
  +N+Pl+Tra:he TRA ;
 
 LEXICON n_uus
+!! **LEXICON @LEXNAME@**
  +N+Sg+Nom:uus     R ;
  +N+Sg+Gen:uue%>n R ;
  +N+Sg+Nom:uus     PxK ;
@@ -674,6 +695,7 @@ LEXICON n_uus
  +N+Pl+Ess:uuks%>i2n^A PxK ;
 
 LEXICON 3n_lnr
+!! **LEXICON @LEXNAME@**
  +N+Sg+Nom:^WG  R ;
  +N+Sg+Gen:e%>n R ;
  +N+Sg+Nom:^WG     PxK ;
@@ -706,15 +728,18 @@ LEXICON 3n_lnr
 
 
 LEXICON 4n_ks
-+N: x4n_ks ;
-+N+Sg+Nom:s R ;
-+N+Sg+Gen:kse%>n R ;
+!! **LEXICON @LEXNAME@**
+ +N: x4n_ks ;
+ +N+Sg+Nom:s R ;
+ +N+Sg+Gen:kse%>n R ;
 
 LEXICON x4n_ks
-x4n_ks_sg ;
-x4n_ks_pl ;
+!! **LEXICON @LEXNAME@**
+ x4n_ks_sg ;
+ x4n_ks_pl ;
 
 LEXICON x4n_ks_sg
+!! **LEXICON @LEXNAME@**
  +Sg+Nom:s       PxK ;
  +Sg+Gen:kse%>n PxK ;
  +Sg+Par:s%>t^A PxK ;
@@ -729,6 +754,7 @@ LEXICON x4n_ks_sg
 
 
 LEXICON x4n_ks_pl
+!! **LEXICON @LEXNAME@**
  +Pl+Nom:kse%>t PxK ;
  +Pl+Gen:s%>ten PxK ;
  +Pl+Par:kse%>i2^A PxK ;
@@ -747,8 +773,9 @@ LEXICON x4n_ks_pl
 !! ### Sublexica for cases
 
 LEXICON TRA
-:%>ks K ;
-:%>ks i_PxK ;
+!! **LEXICON @LEXNAME@**
+ :%>ks K ;
+ :%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes
 ! ---------------------------------
@@ -756,18 +783,22 @@ LEXICON TRA
 !! Px is now not in use, with one exception, comitative.
 
 LEXICON n_PxK  !!≈ @CODE@ has either -n or goes to Px
+!! **LEXICON @LEXNAME@**
   :n K  ;
      Px ;
 
 LEXICON i_PxK  !!≈ @CODE@ Tra: -i or -e and goes to Px
+!! **LEXICON @LEXNAME@**
   :i K  ;
   :e Px ;
 
 LEXICON PxK !!≈ @CODE@ has only -nsA, and is currently not in use. Check
-   K  ;
+!! **LEXICON @LEXNAME@**
+  K  ;
   Px ;
 
 LEXICON PxxK  !!≈ @CODE@ has also -Vn, thus both .. llensa and ..lleen.
+!! **LEXICON @LEXNAME@**
   KK    ; ! All, so KK not K
   Px    ;
   Px-Vn ;
@@ -777,6 +808,7 @@ LEXICON PxxK  !!≈ @CODE@ has also -Vn, thus both .. llensa and ..lleen.
 !  Px-Vn ;
 
 LEXICON Px
+!! **LEXICON @LEXNAME@**
  +PxSg1:%>ni    K ;
  +PxSg2:%>sti   K ;
  +PxSg3:%>ns%^A K ;
@@ -786,11 +818,13 @@ LEXICON Px
 
 
 LEXICON Px-Vn
+!! **LEXICON @LEXNAME@**
  +PxSg3:%>%^Vn K ;
  +PxPl3:%>%^Vn K ;
 
 !! HÖGST temporärt!!! GE + LL 230208
 LEXICON n1-troppi
+!! **LEXICON @LEXNAME@**
 ! +N: x1 ;  !! troppi
 +N+Sg+Nom:       PxK ; !! troppi
 +N+Nom: R ;
@@ -798,15 +832,15 @@ LEXICON n1-troppi
 +N+Sg+Gen:^WG%>n PxK ; !! tropin
 
 +N+Sg+Par:%>^A PxK ; !! troppia?
-+N+Sg+Ill:^HMETA%>h^V^V n_PxK ; !! trophiin
-+N+Sg+Ine:^WG%>ss^A PxK ;      !! tropissa
-+N+Sg+Ela:^WG%>st^A PxK ;      ! tropista
++N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
++N+Sg+Ela:^WG%>st^A PxK ;       ! tropista
 +N+Sg+All:^WG%>le PxxK ;        ! tropile
-+N+Sg+Ade:^WG%>l^A PxK ;       ! tropila
-+N+Sg+Abl:^WG%>lt^A PxK ;      ! tropilta
-+N+Sg+Tra:^WG TRA ;          ! tropiks, tropiksi
-+N+Sg+Ess:%>n^A PxK ;          ! troppina
-+N+Sg+Abe:^WG%>tt^A PxK ;      ! tropitta
++N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
++N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
++N+Sg+Tra:^WG TRA ;             ! tropiks, tropiksi
++N+Sg+Ess:%>n^A PxK ;           ! troppina
++N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%>t PxK ;
 +N+Pl+Gen:^IDEL%>i2tten PxK ; ! nu: troppitten rätt: tropitten

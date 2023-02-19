@@ -67,8 +67,8 @@ LEXICON p_org_3
 LEXICON p_mal_3
 +N+Prop+Sem/Mal: x3 ;
 
-!LEXICON p_mal_2
-!+N+Prop+Sem/Mal: x2_sg ;
+LEXICON p_mal_2
++N+Prop+Sem/Mal: x2_sg ;
 
 LEXICON p_plc_2
 +N+Prop+Sem/Plc: x2_sg ;
