@@ -1,0 +1,140 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - sgess: # 7 x contlex sg ess -- inte kontrollerad 
+    afäärimies+N+Sg+Ess: afäärimiehenä
+    eusmies+N+Sg+Ess: eusmiehenä
+    frahtimies+N+Sg+Ess: frahtimiehenä
+    hakkomies+N+Sg+Ess: hakkomiehenä
+    ikämies+N+Sg+Ess: ikämiehenä
+    irtimies+N+Sg+Ess: irtimiehenä
+    iskemämies+N+Sg+Ess: iskemämiehenä
+    elläin+N+Sg+Ess: elläimenä
+    irtain+N+Sg+Ess: irtaimena
+    istuin+N+Sg+Ess: istuimena
+    jäänhalkein+N+Sg+Ess: jäänhalkeimena
+    jäsenyin+N+Sg+Ess: jäsenykimenä
+    ahmajäsen+N+Sg+Ess: ahmajäsenenä
+    ahven+N+Sg+Ess: ahvenena
+    askel+N+Sg+Ess: askelena
+    höyhen+N+Sg+Ess: höyhenenä
+    isosisar+N+Sg+Ess: isosisarena
+    jääntanner+N+Sg+Ess: jääntanterena
+    jalkatyär+N+Sg+Ess: jalkatytärenä
+    ahneus+N+Sg+Ess: ahneutena
+    falskeus+N+Sg+Ess: falskeutena
+    fariseeus+N+Sg+Ess: fariseeutena
+    fiineys+N+Sg+Ess: fiineytenä
+    fiiniys+N+Sg+Ess: fiiniytenä
+    ilfheys+N+Sg+Ess: ilfheytenä
+    ilkeys+N+Sg+Ess: ilkeytenä
+    jiddisch+N+Sg+Ess: jiddischinnä
+    äärheinen+N+Sg+Ess: äärheisennä
+    äärheinen+N+Sg+Ess: äärheisenä
+    äärheinen+N+Sg+Ess: äärheisennä
+    äärheinen+N+Sg+Ess: äärheisenä
+    ainukainen+N+Sg+Ess: ainukaisena
+    ainukainen+N+Sg+Ess: ainukaisenna
+    ainukainen+N+Sg+Ess: ainukaisena
+    ainukainen+N+Sg+Ess: ainukaisenna
+    ammuminen+N+Sg+Ess: ammumisena
+    ammuminen+N+Sg+Ess: ammumisenna
+    ammuminen+N+Sg+Ess: ammumisena
+    ammuminen+N+Sg+Ess: ammumisenna
+    ampiainen+N+Sg+Ess: ampiaisena
+    ampiainen+N+Sg+Ess: ampiaisenna
+    ampiainen+N+Sg+Ess: ampiaisena
+    ampiainen+N+Sg+Ess: ampiaisenna
+    ästiitiäinen+N+Sg+Ess: ästiitiäisennä
+    ästiitiäinen+N+Sg+Ess: ästiitiäisenä
+    äykiäinen+N+Sg+Ess: äykiäisennä
+    äykiäinen+N+Sg+Ess: äykiäisenä
+    aamuvyö+N+Sg+Ess: aamuvyönä
+    äkäpää+N+Sg+Ess: äkäpäänä
+    äkkipää+N+Sg+Ess: äkkipäänä
+    ärräpää+N+Sg+Ess: ärräpäänä
+    asepuu+N+Sg+Ess: asepuuna
+    Takkaa-ajo+N+Sg+Ess: Takkaa-ajona
+    a-malmi+N+Sg+Ess: a-malmina
+    ääkkä+N+Sg+Ess: ääkkänä
+    aalto+N+Sg+Ess: aaltona
+    abortti+N+Sg+Ess: aborttina
+    aho+N+Sg+Ess: ahona
+    äijäfaari+N+Sg+Ess: äijäfaarina
+    aihe+N+Sg+Ess: aiheena
+    äile+N+Sg+Ess: äileenä
+    aine+N+Sg+Ess: aineena
+    alote+N+Sg+Ess: alotteena
+    alue+N+Sg+Ess: alueena
+    akleija+N+Sg+Ess: akleijanna
+    äkseerinki+N+Sg+Ess: äkseerinkinnä
+    almunakka+N+Sg+Ess: almunakkanna
+    alttari+N+Sg+Ess: alttarinna
+    ämmäkkö+N+Sg+Ess: ämmäkkönnä
+    ammunta+N+Sg+Ess: ammuntanna
+    ääri+N+Sg+Ess: äärenä
+    äitiväki+N+Sg+Ess: äitiväkenä
+    ehontähti+N+Sg+Ess: ehontähtenä
+    ehtotähti+N+Sg+Ess: ehtotähtenä
+    elämänonni+N+Sg+Ess: elämänonnena
+    epiteemi+N+Sg+Ess: epiteemenä
+    äitinkieli+N+Sg+Ess: äitinkielenä
+    äitipuoli+N+Sg+Ess: äitipuolena
+    asuntolohi+N+Sg+Ess: asuntolohena
+    hiili+N+Sg+Ess: hiilenä
+    aikakausi+N+Sg+Ess: aikakautena
+    färivesi+N+Sg+Ess: färivetenä
+    hangonvarsi+N+Sg+Ess: hangonvartena
+    hirsi+N+Sg+Ess: hirtenä
+    ikävuosi+N+Sg+Ess: ikävuotena
+    ilovesi+N+Sg+Ess: ilovetenä
+    imulapsi+N+Sg+Ess: imulapsena
+    irtilapsi+N+Sg+Ess: irtilapsena
+    jalkalapsi+N+Sg+Ess: jalkalapsena
+    jumalallapsi+N+Sg+Ess: jumalallapsena
+    kapalolapsi+N+Sg+Ess: kapalolapsena
+    kasvattilapsi+N+Sg+Ess: kasvattilapsena
+    kusilapsi+N+Sg+Ess: kusilapsena
+    höttölumi+N+Sg+Ess: höttölumena
+    iloliemi+N+Sg+Ess: iloliemenä
+    kalanliemi+N+Sg+Ess: kalanliemenä
+    kanhkaanloimi+N+Sg+Ess: kanhkaanloimena
+    lähetystoimi+N+Sg+Ess: lähetystoimena
+    liemi+N+Sg+Ess: liemenä
+    auttavaisuus+N+Sg+Ess: auttavaisuutena
+    hankaluus+N+Sg+Ess: hankaluutena
+    hiljaisuus+N+Sg+Ess: hiljaisuutena
+    huoruus+N+Sg+Ess: huoruutena
+    iänkaikkisuus+N+Sg+Ess: iänkaikkisuutena
+    itusuus+N+Sg+Ess: itusuutena
+    jatkuvuus+N+Sg+Ess: jatkuvuutena
+    Raja-asukas+N+Sg+Ess: Raja-asukkaana
+    aijas+N+Sg+Ess: aijaana
+    ankerias+N+Sg+Ess: ankeriaana
+    apilas+N+Sg+Ess: apilaana
+    asukas+N+Sg+Ess: asukkaana
+    ehokas+N+Sg+Ess: ehokkaana
+    evankeeljum+N+Sg+Ess: evankeeljumina
+    Antinpäivä+N+Sg+Ess: Antinpäivänä
+    Kruunu+N+Sg+Ess: Kruununa
+    Kyriiri+N+Sg+Ess: Kyriirinä
+    Laurina+N+Sg+Ess: Laurinana
+    Mikkelinpäivä+N+Sg+Ess: Mikkelinpäivänä
+    Norrlänska+N+Sg+Ess: Norrlänskana
+    TV-masti+N+Sg+Ess: TV-mastina
+    äänensävy+N+Sg+Ess: äänensävynä
+    alunastifti+N+Sg+Ess: alunastiftinä
+    romani chib+N+Sg+Ess: romani chibinä

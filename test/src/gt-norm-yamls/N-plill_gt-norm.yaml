@@ -1,0 +1,125 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - plill: # 7 x contlex pl ill -- inte kontrollerad 
+    afäärimies+N+Pl+Ill: afäärimiehiin
+    eusmies+N+Pl+Ill: eusmiehiin
+    frahtimies+N+Pl+Ill: frahtimiehiin
+    hakkomies+N+Pl+Ill: hakkomiehiin
+    ikämies+N+Pl+Ill: ikämiehiin
+    irtimies+N+Pl+Ill: irtimiehiin
+    iskemämies+N+Pl+Ill: iskemämiehiin
+    elläin+N+Pl+Ill: elläimhiin
+    irtain+N+Pl+Ill: irtaimhiin
+    istuin+N+Pl+Ill: istuimhiin
+    jäänhalkein+N+Pl+Ill: jäänhalkeimhiin
+    jäsenyin+N+Pl+Ill: jäsenykimhiin
+    polkimet+N+Pl+Ill: polkimhiin
+    ahmajäsen+N+Pl+Ill: ahmajäsenhiin
+    ahven+N+Pl+Ill: ahvenhiin
+    askel+N+Pl+Ill: askelhiin
+    höyhen+N+Pl+Ill: höyhenhiin
+    isosisar+N+Pl+Ill: isosisarhiin
+    jääntanner+N+Pl+Ill: jääntanterhiin
+    jalkatyär+N+Pl+Ill: jalkatytärhiin
+    ahneus+N+Pl+Ill: ahneuthiin
+    falskeus+N+Pl+Ill: falskeuthiin
+    fariseeus+N+Pl+Ill: fariseeuthiin
+    fiineys+N+Pl+Ill: fiineythiin
+    fiiniys+N+Pl+Ill: fiiniythiin
+    ilfheys+N+Pl+Ill: ilfheythiin
+    ilkeys+N+Pl+Ill: ilkeythiin
+    jiddisch+N+Pl+Ill: jiddischhiin
+    -kielinen+N+Pl+Ill: -kielishiin
+    äärheinen+N+Pl+Ill: äärheishiin
+    ainukainen+N+Pl+Ill: ainukaishiin
+    ammuminen+N+Pl+Ill: ammumishiin
+    ampiainen+N+Pl+Ill: ampiaishiin
+    ästiitiäinen+N+Pl+Ill: ästiitiäishiin
+    äykiäinen+N+Pl+Ill: äykiäishiin
+    aavistus+N+Pl+Ill: aavistukshiin
+    ahistus+N+Pl+Ill: ahistukshiin
+    aivastus+N+Pl+Ill: aivastukshiin
+    ajatus+N+Pl+Ill: ajatukshiin
+    anomus+N+Pl+Ill: anomukshiin
+    arvaus+N+Pl+Ill: arvaukshiin
+    astutus+N+Pl+Ill: astutukshiin
+    aamuvyö+N+Pl+Ill: aamuvöihin
+    äkäpää+N+Pl+Ill: äkäpäihin
+    äkkipää+N+Pl+Ill: äkkipäihin
+    ärräpää+N+Pl+Ill: ärräpäihin
+    asepuu+N+Pl+Ill: asepuihin
+    mäkivyöt+N+Pl+Ill: mäkivöihin
+    Takkaa-ajo+N+Pl+Ill: Takkaa-ajhoin
+    a-malmi+N+Pl+Ill: a-malmhiin
+    aalto+N+Pl+Ill: aalthoin
+    abortti+N+Pl+Ill: abortthiin
+    aho+N+Pl+Ill: ahhoin
+    äijäfaari+N+Pl+Ill: äijäfaahriin
+    aihe+N+Pl+Ill: aiheen
+    äile+N+Pl+Ill: äileen
+    aine+N+Pl+Ill: aineen
+    alote+N+Pl+Ill: alotteen
+    alue+N+Pl+Ill: alueen
+    ikenheet+N+Pl+Ill: ikeneen
+    äkseerinki+N+Pl+Ill: äkseerinkhiin
+    alttari+N+Pl+Ill: alttarhiin
+    kamarit+N+Pl+Ill: kamarhiin
+    ääri+N+Pl+Ill: äähriin
+    äitiväki+N+Pl+Ill: äitiväkhiin
+    ehontähti+N+Pl+Ill: ehontähthiin
+    ehtotähti+N+Pl+Ill: ehtotähthiin
+    elämänonni+N+Pl+Ill: elämänonhiin
+    epiteemi+N+Pl+Ill: epiteehmiin
+    kuunvuoret+N+Pl+Ill: kuunvuohriin
+    äitinkieli+N+Pl+Ill: äitinkiehliin
+    äitipuoli+N+Pl+Ill: äitipuohliin
+    asuntolohi+N+Pl+Ill: asuntolohhiin
+    hiili+N+Pl+Ill: hiihliin
+    aikakausi+N+Pl+Ill: aikakauhtiin
+    färivesi+N+Pl+Ill: färiveshiin
+    hangonvarsi+N+Pl+Ill: hangonvarshiin
+    hirsi+N+Pl+Ill: hirshiin
+    ikävuosi+N+Pl+Ill: ikävuohtiin
+    ilovesi+N+Pl+Ill: iloveshiin
+    polvivarret+N+Pl+Ill: polvivarhiin
+    imulapsi+N+Pl+Ill: imulapshiin
+    irtilapsi+N+Pl+Ill: irtilapshiin
+    jalkalapsi+N+Pl+Ill: jalkalapshiin
+    jumalallapsi+N+Pl+Ill: jumalallapshiin
+    kapalolapsi+N+Pl+Ill: kapalolapshiin
+    kasvattilapsi+N+Pl+Ill: kasvattilapshiin
+    kusilapsi+N+Pl+Ill: kusilapshiin
+    höttölumi+N+Pl+Ill: höttölumhiin
+    iloliemi+N+Pl+Ill: iloliehmiin
+    kalanliemi+N+Pl+Ill: kalanliehmiin
+    kanhkaanloimi+N+Pl+Ill: kanhkaanloihmiin
+    lähetystoimi+N+Pl+Ill: lähetystoihmiin
+    liemi+N+Pl+Ill: liehmiin
+    ympäryssuolet+N+Pl+Ill: ympäryssuohliin
+    auttavaisuus+N+Pl+Ill: auttavaisuukshiin
+    hankaluus+N+Pl+Ill: hankaluukshiin
+    hiljaisuus+N+Pl+Ill: hiljaisuukshiin
+    huoruus+N+Pl+Ill: huoruukshiin
+    iänkaikkisuus+N+Pl+Ill: iänkaikkisuukshiin
+    itusuus+N+Pl+Ill: itusuukshiin
+    jatkuvuus+N+Pl+Ill: jatkuvuukshiin
+    evankeeljum+N+Pl+Ill: evankeeljumhiin
+    lippaset+N+Pl+Ill: lippashiin
+    Kyriiri+N+Pl+Ill: Kyriihriin
+    TV-masti+N+Pl+Ill: TV-masthiin
+    alunastifti+N+Pl+Ill: alunastifthiin
+    romani chib+N+Pl+Ill: romani chibhiin

@@ -1,0 +1,144 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - plade: # 7pl ade -- inte kontrollerad 
+    afäärimies+N+Pl+Ade: afäärimiehilä
+    eusmies+N+Pl+Ade: eusmiehilä
+    frahtimies+N+Pl+Ade: frahtimiehilä
+    hakkomies+N+Pl+Ade: hakkomiehilä
+    ikämies+N+Pl+Ade: ikämiehilä
+    irtimies+N+Pl+Ade: irtimiehilä
+    iskemämies+N+Pl+Ade: iskemämiehilä
+    elläin+N+Pl+Ade: elläimillä
+    irtain+N+Pl+Ade: irtaimilla
+    istuin+N+Pl+Ade: istuimilla
+    jäänhalkein+N+Pl+Ade: jäänhalkeimilla
+    jäsenyin+N+Pl+Ade: jäsenykimillä
+    polkimet+N+Pl+Ade: polkimilla
+    äänestys+N+Pl+Ade: äänestyksillä
+    äärettömyys+N+Pl+Ade: äärettömyyksillä
+    äes+N+Pl+Ade: äkeksillä
+    ähmäänys+N+Pl+Ade: ähmäänyksillä
+    ajos+N+Pl+Ade: ajoksilla
+    äkäsyys+N+Pl+Ade: äkäsyyksillä
+    annos+N+Pl+Ade: annoksilla
+    ahmajäsen+N+Pl+Ade: ahmajäsenillä
+    ahven+N+Pl+Ade: ahvenilla
+    askel+N+Pl+Ade: askelilla
+    höyhen+N+Pl+Ade: höyhenillä
+    isosisar+N+Pl+Ade: isosisarilla
+    jääntanner+N+Pl+Ade: jääntanterilla
+    jalkatyär+N+Pl+Ade: jalkatytärillä
+    ahneus+N+Pl+Ade: ahneuilla
+    falskeus+N+Pl+Ade: falskeuilla
+    fariseeus+N+Pl+Ade: fariseeuilla
+    fiineys+N+Pl+Ade: fiineyillä
+    fiiniys+N+Pl+Ade: fiiniyillä
+    ilfheys+N+Pl+Ade: ilfheyillä
+    ilkeys+N+Pl+Ade: ilkeyillä
+    jiddisch+N+Pl+Ade: jiddischillä
+    -kielinen+N+Pl+Ade: -kielisillä
+    äärheinen+N+Pl+Ade: äärheisillä
+    ainukainen+N+Pl+Ade: ainukaisillä
+    ammuminen+N+Pl+Ade: ammumisillä
+    ampiainen+N+Pl+Ade: ampiaisillä
+    ästiitiäinen+N+Pl+Ade: ästiitiäisillä
+    äykiäinen+N+Pl+Ade: äykiäisillä
+    aavistus+N+Pl+Ade: aavistuksila
+    ahistus+N+Pl+Ade: ahistuksila
+    aivastus+N+Pl+Ade: aivastuksila
+    ajatus+N+Pl+Ade: ajatuksila
+    anomus+N+Pl+Ade: anomuksila
+    arvaus+N+Pl+Ade: arvauksila
+    astutus+N+Pl+Ade: astutuksila
+    aamuvyö+N+Pl+Ade: aamuvöilä
+    äkäpää+N+Pl+Ade: äkäpäilä
+    äkkipää+N+Pl+Ade: äkkipäilä
+    ärräpää+N+Pl+Ade: ärräpäilä
+    asepuu+N+Pl+Ade: asepuila
+    mäkivyöt+N+Pl+Ade: mäkivöilä
+    Takkaa-ajo+N+Pl+Ade: Takkaa-ajoila
+    a-malmi+N+Pl+Ade: a-malmila
+    ääkkä+N+Pl+Ade: ääkilä
+    aalto+N+Pl+Ade: aalloila
+    abortti+N+Pl+Ade: abortila
+    aho+N+Pl+Ade: ahoila
+    äijäfaari+N+Pl+Ade: äijäfaarila
+    hamut+N+Pl+Ade: hamuila
+    aihe+N+Pl+Ade: aiheeile
+    äile+N+Pl+Ade: äileeile
+    aine+N+Pl+Ade: aineeile
+    alote+N+Pl+Ade: alotteeile
+    alue+N+Pl+Ade: alueeile
+    ikenheet+N+Pl+Ade: ikeneeile
+    akleija+N+Pl+Ade: akleijailla
+    äkseerinki+N+Pl+Ade: äkseerinkillä
+    almunakka+N+Pl+Ade: almunakailla
+    alttari+N+Pl+Ade: alttarilla
+    ämmäkkö+N+Pl+Ade: ämmäköillä
+    ammunta+N+Pl+Ade: ammunnoilla
+    kamarit+N+Pl+Ade: kamarilla
+    ääri+N+Pl+Ade: äärilä
+    äitiväki+N+Pl+Ade: äitiväilä
+    ehontähti+N+Pl+Ade: ehontähtilä
+    ehtotähti+N+Pl+Ade: ehtotähtilä
+    elämänonni+N+Pl+Ade: elämänonnila
+    epiteemi+N+Pl+Ade: epiteemilä
+    kuunvuoret+N+Pl+Ade: kuunvuorila
+    äitinkieli+N+Pl+Ade: äitinkielilä
+    äitipuoli+N+Pl+Ade: äitipuolila
+    asuntolohi+N+Pl+Ade: asuntolohila
+    hiili+N+Pl+Ade: hiililä
+    aikakausi+N+Pl+Ade: aikakausila
+    färivesi+N+Pl+Ade: färivesilä
+    hangonvarsi+N+Pl+Ade: hangonvarsila
+    hirsi+N+Pl+Ade: hirtilä
+    ikävuosi+N+Pl+Ade: ikävuosila
+    ilovesi+N+Pl+Ade: ilovesilä
+    polvivarret+N+Pl+Ade: polvivarila
+    imulapsi+N+Pl+Ade: imulapsila
+    irtilapsi+N+Pl+Ade: irtilapsila
+    jalkalapsi+N+Pl+Ade: jalkalapsila
+    jumalallapsi+N+Pl+Ade: jumalallapsila
+    kapalolapsi+N+Pl+Ade: kapalolapsila
+    kasvattilapsi+N+Pl+Ade: kasvattilapsila
+    kusilapsi+N+Pl+Ade: kusilapsila
+    höttölumi+N+Pl+Ade: höttölumila
+    iloliemi+N+Pl+Ade: iloliemilä
+    kalanliemi+N+Pl+Ade: kalanliemilä
+    kanhkaanloimi+N+Pl+Ade: kanhkaanloimila
+    lähetystoimi+N+Pl+Ade: lähetystoimila
+    liemi+N+Pl+Ade: liemilä
+    ympäryssuolet+N+Pl+Ade: ympäryssuolila
+    auttavaisuus+N+Pl+Ade: auttavaisuuksilla
+    hankaluus+N+Pl+Ade: hankaluuksilla
+    hiljaisuus+N+Pl+Ade: hiljaisuuksilla
+    huoruus+N+Pl+Ade: huoruuksilla
+    iänkaikkisuus+N+Pl+Ade: iänkaikkisuuksilla
+    itusuus+N+Pl+Ade: itusuuksilla
+    jatkuvuus+N+Pl+Ade: jatkuvuuksilla
+    evankeeljum+N+Pl+Ade: evankeeljumila
+    lippaset+N+Pl+Ade: lippasilä
+    Antinpäivä+N+Pl+Ade: Antinpäivilä
+    Kruunu+N+Pl+Ade: Kruunuila
+    Kyriiri+N+Pl+Ade: Kyriirilä
+    Laurina+N+Pl+Ade: Laurinaila
+    Mikkelinpäivä+N+Pl+Ade: Mikkelinpäivilä
+    Norrlänska+N+Pl+Ade: Norrlänskaila
+    TV-masti+N+Pl+Ade: TV-mastila
+    äänensävy+N+Pl+Ade: äänensävyilä
+    alunastifti+N+Pl+Ade: alunastiftilä
+    romani chib+N+Pl+Ade: romani chibilä

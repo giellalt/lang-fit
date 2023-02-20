@@ -1,0 +1,141 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - sgine: # 7 x contlex sg ine -- inte kontrollerad 
+    afäärimies+N+Sg+Ine: afäärimiehessä
+    eusmies+N+Sg+Ine: eusmiehessä
+    frahtimies+N+Sg+Ine: frahtimiehessä
+    hakkomies+N+Sg+Ine: hakkomiehessä
+    ikämies+N+Sg+Ine: ikämiehessä
+    irtimies+N+Sg+Ine: irtimiehessä
+    iskemämies+N+Sg+Ine: iskemämiehessä
+    elläin+N+Sg+Ine: elläimessä
+    irtain+N+Sg+Ine: irtaimessa
+    istuin+N+Sg+Ine: istuimessa
+    jäänhalkein+N+Sg+Ine: jäänhalkeimessa
+    jäsenyin+N+Sg+Ine: jäsenykimessä
+    äänestys+N+Sg+Ine: äänestyksessä
+    äärettömyys+N+Sg+Ine: äärettömyyksessä
+    äes+N+Sg+Ine: äkeksessä
+    ähmäänys+N+Sg+Ine: ähmäänyksessä
+    ajos+N+Sg+Ine: ajoksessa
+    äkäsyys+N+Sg+Ine: äkäsyyksessä
+    annos+N+Sg+Ine: annoksessa
+    ahmajäsen+N+Sg+Ine: ahmajäsenessä
+    ahven+N+Sg+Ine: ahvenessa
+    askel+N+Sg+Ine: askelessa
+    höyhen+N+Sg+Ine: höyhenessä
+    isosisar+N+Sg+Ine: isosisaressa
+    jääntanner+N+Sg+Ine: jääntanteressa
+    jalkatyär+N+Sg+Ine: jalkatytäressä
+    ahneus+N+Sg+Ine: ahneuessa
+    falskeus+N+Sg+Ine: falskeuessa
+    fariseeus+N+Sg+Ine: fariseeuessa
+    fiineys+N+Sg+Ine: fiineyessä
+    fiiniys+N+Sg+Ine: fiiniyessä
+    ilfheys+N+Sg+Ine: ilfheyessä
+    ilkeys+N+Sg+Ine: ilkeyessä
+    jiddisch+N+Sg+Ine: jiddischissä
+    -kielinen+N+Sg+Ine: -kielisessä
+    äärheinen+N+Sg+Ine: äärheisessä
+    ainukainen+N+Sg+Ine: ainukaisessa
+    ammuminen+N+Sg+Ine: ammumisessa
+    ampiainen+N+Sg+Ine: ampiaisessa
+    ästiitiäinen+N+Sg+Ine: ästiitiäisessä
+    äykiäinen+N+Sg+Ine: äykiäisessä
+    aavistus+N+Sg+Ine: aavistuksessa
+    ahistus+N+Sg+Ine: ahistuksessa
+    aivastus+N+Sg+Ine: aivastuksessa
+    ajatus+N+Sg+Ine: ajatuksessa
+    anomus+N+Sg+Ine: anomuksessa
+    arvaus+N+Sg+Ine: arvauksessa
+    astutus+N+Sg+Ine: astutuksessa
+    aamuvyö+N+Sg+Ine: aamuvyössä
+    äkäpää+N+Sg+Ine: äkäpäässä
+    äkkipää+N+Sg+Ine: äkkipäässä
+    ärräpää+N+Sg+Ine: ärräpäässä
+    asepuu+N+Sg+Ine: asepuussa
+    Takkaa-ajo+N+Sg+Ine: Takkaa-ajossa
+    a-malmi+N+Sg+Ine: a-malmissa
+    ääkkä+N+Sg+Ine: ääkässä
+    aalto+N+Sg+Ine: aallossa
+    abortti+N+Sg+Ine: abortissa
+    aho+N+Sg+Ine: ahossa
+    äijäfaari+N+Sg+Ine: äijäfaarissa
+    aihe+N+Sg+Ine: aiheessa
+    äile+N+Sg+Ine: äileessä
+    aine+N+Sg+Ine: aineessa
+    alote+N+Sg+Ine: alotteessa
+    alue+N+Sg+Ine: alueessa
+    akleija+N+Sg+Ine: akleijassa
+    äkseerinki+N+Sg+Ine: äkseeringissä
+    almunakka+N+Sg+Ine: almunakassa
+    alttari+N+Sg+Ine: alttarissa
+    ämmäkkö+N+Sg+Ine: ämmäkössä
+    ammunta+N+Sg+Ine: ammunnassa
+    ääri+N+Sg+Ine: ääressä
+    äitiväki+N+Sg+Ine: äitiväessä
+    ehontähti+N+Sg+Ine: ehontähessä
+    ehtotähti+N+Sg+Ine: ehtotähessä
+    elämänonni+N+Sg+Ine: elämänonnessa
+    epiteemi+N+Sg+Ine: epiteemessä
+    äitinkieli+N+Sg+Ine: äitinkielessä
+    äitipuoli+N+Sg+Ine: äitipuolessa
+    asuntolohi+N+Sg+Ine: asuntolohessa
+    hiili+N+Sg+Ine: hiilessä
+    aikakausi+N+Sg+Ine: aikakauessa
+    färivesi+N+Sg+Ine: färiveessä
+    hangonvarsi+N+Sg+Ine: hangonvarressa
+    hirsi+N+Sg+Ine: hirressä
+    ikävuosi+N+Sg+Ine: ikävuoessa
+    ilovesi+N+Sg+Ine: iloveessä
+    imulapsi+N+Sg+Ine: imulapsessa
+    irtilapsi+N+Sg+Ine: irtilapsessa
+    jalkalapsi+N+Sg+Ine: jalkalapsessa
+    jumalallapsi+N+Sg+Ine: jumalallapsessa
+    kapalolapsi+N+Sg+Ine: kapalolapsessa
+    kasvattilapsi+N+Sg+Ine: kasvattilapsessa
+    kusilapsi+N+Sg+Ine: kusilapsessa
+    höttölumi+N+Sg+Ine: höttölumessa
+    iloliemi+N+Sg+Ine: iloliemessä
+    kalanliemi+N+Sg+Ine: kalanliemessä
+    kanhkaanloimi+N+Sg+Ine: kanhkaanloimessa
+    lähetystoimi+N+Sg+Ine: lähetystoimessa
+    liemi+N+Sg+Ine: liemessä
+    auttavaisuus+N+Sg+Ine: auttavaisuuessa
+    hankaluus+N+Sg+Ine: hankaluuessa
+    hiljaisuus+N+Sg+Ine: hiljaisuuessa
+    huoruus+N+Sg+Ine: huoruuessa
+    iänkaikkisuus+N+Sg+Ine: iänkaikkisuuessa
+    itusuus+N+Sg+Ine: itusuuessa
+    jatkuvuus+N+Sg+Ine: jatkuvuuessa
+    Raja-asukas+N+Sg+Ine: Raja-asukkaassa
+    aijas+N+Sg+Ine: aijaassa
+    ankerias+N+Sg+Ine: ankeriaassa
+    apilas+N+Sg+Ine: apilaassa
+    asukas+N+Sg+Ine: asukkaassa
+    ehokas+N+Sg+Ine: ehokkaassa
+    evankeeljum+N+Sg+Ine: evankeeljumissa
+    Antinpäivä+N+Sg+Ine: Antinpäivässä
+    Kruunu+N+Sg+Ine: Kruunussa
+    Kyriiri+N+Sg+Ine: Kyriirissä
+    Laurina+N+Sg+Ine: Laurinassa
+    Mikkelinpäivä+N+Sg+Ine: Mikkelinpäivässä
+    Norrlänska+N+Sg+Ine: Norrlänskassa
+    TV-masti+N+Sg+Ine: TV-mastissa
+    äänensävy+N+Sg+Ine: äänensävyssä
+    alunastifti+N+Sg+Ine: alunastiftissä
+    romani chib+N+Sg+Ine: romani chibissä

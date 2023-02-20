@@ -1,0 +1,144 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - pline: # 7 x contlex pl ine -- inte kontrollerad 
+    afäärimies+N+Pl+Ine: afäärimiehissä
+    eusmies+N+Pl+Ine: eusmiehissä
+    frahtimies+N+Pl+Ine: frahtimiehissä
+    hakkomies+N+Pl+Ine: hakkomiehissä
+    ikämies+N+Pl+Ine: ikämiehissä
+    irtimies+N+Pl+Ine: irtimiehissä
+    iskemämies+N+Pl+Ine: iskemämiehissä
+    elläin+N+Pl+Ine: elläimissä
+    irtain+N+Pl+Ine: irtaimissa
+    istuin+N+Pl+Ine: istuimissa
+    jäänhalkein+N+Pl+Ine: jäänhalkeimissa
+    jäsenyin+N+Pl+Ine: jäsenykimissä
+    polkimet+N+Pl+Ine: polkimissa
+    äänestys+N+Pl+Ine: äänestyksissä
+    äärettömyys+N+Pl+Ine: äärettömyyksissä
+    äes+N+Pl+Ine: äkeksissä
+    ähmäänys+N+Pl+Ine: ähmäänyksissä
+    ajos+N+Pl+Ine: ajoksissa
+    äkäsyys+N+Pl+Ine: äkäsyyksissä
+    annos+N+Pl+Ine: annoksissa
+    ahmajäsen+N+Pl+Ine: ahmajäsenissä
+    ahven+N+Pl+Ine: ahvenissa
+    askel+N+Pl+Ine: askelissa
+    höyhen+N+Pl+Ine: höyhenissä
+    isosisar+N+Pl+Ine: isosisarissa
+    jääntanner+N+Pl+Ine: jääntanterissa
+    jalkatyär+N+Pl+Ine: jalkatytärissä
+    ahneus+N+Pl+Ine: ahneuissa
+    falskeus+N+Pl+Ine: falskeuissa
+    fariseeus+N+Pl+Ine: fariseeuissa
+    fiineys+N+Pl+Ine: fiineyissä
+    fiiniys+N+Pl+Ine: fiiniyissä
+    ilfheys+N+Pl+Ine: ilfheyissä
+    ilkeys+N+Pl+Ine: ilkeyissä
+    jiddisch+N+Pl+Ine: jiddischissä
+    -kielinen+N+Pl+Ine: -kielisissä
+    äärheinen+N+Pl+Ine: äärheisissä
+    ainukainen+N+Pl+Ine: ainukaisissa
+    ammuminen+N+Pl+Ine: ammumisissa
+    ampiainen+N+Pl+Ine: ampiaisissa
+    ästiitiäinen+N+Pl+Ine: ästiitiäisissä
+    äykiäinen+N+Pl+Ine: äykiäisissä
+    aavistus+N+Pl+Ine: aavistuksissa
+    ahistus+N+Pl+Ine: ahistuksissa
+    aivastus+N+Pl+Ine: aivastuksissa
+    ajatus+N+Pl+Ine: ajatuksissa
+    anomus+N+Pl+Ine: anomuksissa
+    arvaus+N+Pl+Ine: arvauksissa
+    astutus+N+Pl+Ine: astutuksissa
+    aamuvyö+N+Pl+Ine: aamuvöissä
+    äkäpää+N+Pl+Ine: äkäpäissä
+    äkkipää+N+Pl+Ine: äkkipäissä
+    ärräpää+N+Pl+Ine: ärräpäissä
+    asepuu+N+Pl+Ine: asepuissa
+    mäkivyöt+N+Pl+Ine: mäkivöissä
+    Takkaa-ajo+N+Pl+Ine: Takkaa-ajoissa
+    a-malmi+N+Pl+Ine: a-malmissa
+    ääkkä+N+Pl+Ine: ääkissä
+    aalto+N+Pl+Ine: aalloissa
+    abortti+N+Pl+Ine: abortissa
+    aho+N+Pl+Ine: ahoissa
+    äijäfaari+N+Pl+Ine: äijäfaarissa
+    hamut+N+Pl+Ine: hamuissa
+    aihe+N+Pl+Ine: aiheessa
+    äile+N+Pl+Ine: äileessä
+    aine+N+Pl+Ine: aineessa
+    alote+N+Pl+Ine: alotteessa
+    alue+N+Pl+Ine: alueessa
+    ikenheet+N+Pl+Ine: ikeneessä
+    akleija+N+Pl+Ine: akleijaissa
+    äkseerinki+N+Pl+Ine: äkseerinkissä
+    almunakka+N+Pl+Ine: almunakaissa
+    alttari+N+Pl+Ine: alttarissa
+    ämmäkkö+N+Pl+Ine: ämmäköissä
+    ammunta+N+Pl+Ine: ammunnoissa
+    kamarit+N+Pl+Ine: kamarissa
+    ääri+N+Pl+Ine: äärissä
+    äitiväki+N+Pl+Ine: äitiväissä
+    ehontähti+N+Pl+Ine: ehontähtissä
+    ehtotähti+N+Pl+Ine: ehtotähtissä
+    elämänonni+N+Pl+Ine: elämänonnissa
+    epiteemi+N+Pl+Ine: epiteemissä
+    kuunvuoret+N+Pl+Ine: kuunvuorissa
+    äitinkieli+N+Pl+Ine: äitinkielissä
+    äitipuoli+N+Pl+Ine: äitipuolissa
+    asuntolohi+N+Pl+Ine: asuntolohissa
+    hiili+N+Pl+Ine: hiilissä
+    aikakausi+N+Pl+Ine: aikakausissa
+    färivesi+N+Pl+Ine: färivesissä
+    hangonvarsi+N+Pl+Ine: hangonvarsissa
+    hirsi+N+Pl+Ine: hirtissä
+    ikävuosi+N+Pl+Ine: ikävuosissa
+    ilovesi+N+Pl+Ine: ilovesissä
+    polvivarret+N+Pl+Ine: polvivarissa
+    imulapsi+N+Pl+Ine: imulaissa
+    irtilapsi+N+Pl+Ine: irtilaissa
+    jalkalapsi+N+Pl+Ine: jalkalaissa
+    jumalallapsi+N+Pl+Ine: jumalallaissa
+    kapalolapsi+N+Pl+Ine: kapalolaissa
+    kasvattilapsi+N+Pl+Ine: kasvattilaissa
+    kusilapsi+N+Pl+Ine: kusilaissa
+    höttölumi+N+Pl+Ine: höttölumissa
+    iloliemi+N+Pl+Ine: iloliemissä
+    kalanliemi+N+Pl+Ine: kalanliemissä
+    kanhkaanloimi+N+Pl+Ine: kanhkaanloimissa
+    lähetystoimi+N+Pl+Ine: lähetystoimissa
+    liemi+N+Pl+Ine: liemissä
+    ympäryssuolet+N+Pl+Ine: ympäryssuolissa
+    auttavaisuus+N+Pl+Ine: auttavaisuuksissa
+    hankaluus+N+Pl+Ine: hankaluuksissa
+    hiljaisuus+N+Pl+Ine: hiljaisuuksissa
+    huoruus+N+Pl+Ine: huoruuksissa
+    iänkaikkisuus+N+Pl+Ine: iänkaikkisuuksissa
+    itusuus+N+Pl+Ine: itusuuksissa
+    jatkuvuus+N+Pl+Ine: jatkuvuuksissa
+    evankeeljum+N+Pl+Ine: evankeeljumissa
+    lippaset+N+Pl+Ine: lippasissa
+    Antinpäivä+N+Pl+Ine: Antinpäivissä
+    Kruunu+N+Pl+Ine: Kruunuissa
+    Kyriiri+N+Pl+Ine: Kyriirissä
+    Laurina+N+Pl+Ine: Laurinaissa
+    Mikkelinpäivä+N+Pl+Ine: Mikkelinpäivissä
+    Norrlänska+N+Pl+Ine: Norrlänskaissa
+    TV-masti+N+Pl+Ine: TV-mastissa
+    äänensävy+N+Pl+Ine: äänensävyissä
+    alunastifti+N+Pl+Ine: alunastiftissä
+    romani chib+N+Pl+Ine: romani chibissä
