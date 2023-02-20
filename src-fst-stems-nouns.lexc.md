@@ -20,7 +20,7 @@ Consonant stems
 * n4 = i:e nouns: suomi, kivi
 * n5 = i:e nons, cns stems  kieli : kielen : kieltä
 * n5_lumi = lumi : lumen : lunta
-* n5_käsi = käsi : käden : kättä
+* n5_kasi = käsi : käden : kättä
 * n4_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus

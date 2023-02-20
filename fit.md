@@ -1058,9 +1058,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
 
-**LEXICON a5** has no comparative or superlative , just points to x4
-* +A: x4 ;
-
 **LEXICON anen**   has no comparative or superlative , just points to xnen
 * +A: xnen ;
 
@@ -1128,7 +1125,7 @@ Consonant stems
 * n4 = i:e nouns: suomi, kivi
 * n5 = i:e nons, cns stems  kieli : kielen : kieltä
 * n5_lumi = lumi : lumen : lunta
-* n5_käsi = käsi : käden : kättä
+* n5_kasi = käsi : käden : kättä
 * n4_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
@@ -1148,6 +1145,10 @@ Consonant stems
 **LEXICON nx** pointing to *n1*.
 
 **LEXICON nc** for consonant-final nouns, structure CVC
+
+**LEXICON xc_sg**
+
+**LEXICON xc_pl**
 
 ### Lexica for regular nounse
 
@@ -1217,11 +1218,17 @@ Consonant stems
 
 **LEXICON n5_lumi** lumi, stem lu
 
-**LEXICON n5_käsi** käsi, stem kä
+**LEXICON n5_kasi** käsi, stem kä
+
+**LEXICON n5_pl**
+
+**LEXICON n5_kasi_pl**
 
 **LEXICON n4_pl**
 
 **LEXICON x4**  veri
+
+**LEXICON x4_sg**
 
 **LEXICON x4_pl**
 
@@ -1232,6 +1239,8 @@ Consonant stems
 **LEXICON nen**
 
 **LEXICON nen_sg**
+
+**LEXICON nen_pl**
 
 **LEXICON xnen**
 
@@ -1274,29 +1283,66 @@ Consonant stems
 
 **LEXICON 3n_ime**
 
+**LEXICON 3n_ime_sg**
+
+**LEXICON 3n_ime_pl**
+
 **LEXICON x_ime_sg**
 
+**LEXICON x_ime_pl**
+
+**LEXICON nas**
+
+**LEXICON xnas**
+
+**LEXICON xnas_sg**
+
+**LEXICON xnas_pl**
+
+**LEXICON 3mies**
+
+**LEXICON n_uus**
+
+**LEXICON 3n_lnr**
+
+**LEXICON 4n_ks**
+
+**LEXICON x4n_ks**
+
+**LEXICON x4n_ks_sg**
+
+**LEXICON x4n_ks_pl**
+
 ### Sublexica for cases
+
+**LEXICON TRA**
 
 ### Sublexica for possessive suffixes
 
 Px is now not in use, with one exception, comitative.
 
 LEXICON n_PxK has either -n or goes to Px
+**LEXICON n_PxK**
 
 LEXICON i_PxK Tra: -i or -e and goes to Px
+**LEXICON i_PxK**
 
 LEXICON PxK has only -nsA, and is currently not in use. Check
+**LEXICON PxK**
 
 LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
+**LEXICON PxxK**
+
+**LEXICON Px**
+
+**LEXICON Px-Vn**
 
 GE + LL 230208
+**LEXICON n1-troppi**
 troppi
 tropin
 
 troppia?
-trophiin
-tropissa
 
 * * *
 
@@ -2755,7 +2801,7 @@ Consonant stems
 * n4 = i:e nouns: suomi, kivi
 * n5 = i:e nons, cns stems  kieli : kielen : kieltä
 * n5_lumi = lumi : lumen : lunta
-* n5_käsi = käsi : käden : kättä
+* n5_kasi = käsi : käden : kättä
 * n4_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
