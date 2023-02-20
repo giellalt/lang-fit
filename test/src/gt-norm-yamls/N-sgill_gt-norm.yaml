@@ -1,0 +1,134 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - sgill: # 7 x contlex sg ill -- inte kontrollerad 
+    afäärimies+N+Sg+Ill: afäärimieheen
+    eusmies+N+Sg+Ill: eusmieheen
+    frahtimies+N+Sg+Ill: frahtimieheen
+    hakkomies+N+Sg+Ill: hakkomieheen
+    ikämies+N+Sg+Ill: ikämieheen
+    irtimies+N+Sg+Ill: irtimieheen
+    iskemämies+N+Sg+Ill: iskemämieheen
+    elläin+N+Sg+Ill: elläiƒmheen
+    irtain+N+Sg+Ill: irtaiƒmheen
+    istuin+N+Sg+Ill: istuiƒmheen
+    jäänhalkein+N+Sg+Ill: jäänhalkeiƒmheen
+    jäsenyin+N+Sg+Ill: jäsenykiƒmheen
+    äänestys+N+Sg+Ill: äänestyksheen
+    äärettömyys+N+Sg+Ill: äärettömyyksheen
+    äes+N+Sg+Ill: äkeksheen
+    ähmäänys+N+Sg+Ill: ähmäänyksheen
+    ajos+N+Sg+Ill: ajoksheen
+    äkäsyys+N+Sg+Ill: äkäsyyksheen
+    annos+N+Sg+Ill: annoksheen
+    ahmajäsen+N+Sg+Ill: ahmajäsenheen
+    ahven+N+Sg+Ill: ahvenheen
+    askel+N+Sg+Ill: askelheen
+    höyhen+N+Sg+Ill: höyhenheen
+    isosisar+N+Sg+Ill: isosisarheen
+    jääntanner+N+Sg+Ill: jääntanterheen
+    jalkatyär+N+Sg+Ill: jalkatytärheen
+    ahneus+N+Sg+Ill: ahneutheen
+    falskeus+N+Sg+Ill: falskeutheen
+    fariseeus+N+Sg+Ill: fariseeutheen
+    fiineys+N+Sg+Ill: fiineytheen
+    fiiniys+N+Sg+Ill: fiiniytheen
+    ilfheys+N+Sg+Ill: ilfheytheen
+    ilkeys+N+Sg+Ill: ilkeytheen
+    jiddisch+N+Sg+Ill: jiddischhiin
+    -kielinen+N+Sg+Ill: -kielisheen
+    äärheinen+N+Sg+Ill: äärheisheen
+    ainukainen+N+Sg+Ill: ainukaisheen
+    ammuminen+N+Sg+Ill: ammumisheen
+    ampiainen+N+Sg+Ill: ampiaisheen
+    ästiitiäinen+N+Sg+Ill: ästiitiäisheen
+    äykiäinen+N+Sg+Ill: äykiäisheen
+    aavistus+N+Sg+Ill: aavistuksheen
+    ahistus+N+Sg+Ill: ahistuksheen
+    aivastus+N+Sg+Ill: aivastuksheen
+    ajatus+N+Sg+Ill: ajatuksheen
+    anomus+N+Sg+Ill: anomuksheen
+    arvaus+N+Sg+Ill: arvauksheen
+    astutus+N+Sg+Ill: astutuksheen
+    aamuvyö+N+Sg+Ill: aamuvyöhön
+    äkäpää+N+Sg+Ill: äkäpäähän
+    äkkipää+N+Sg+Ill: äkkipäähän
+    ärräpää+N+Sg+Ill: ärräpäähän
+    asepuu+N+Sg+Ill: asepuuhun
+    Takkaa-ajo+N+Sg+Ill: Takkaa-ajhoon
+    a-malmi+N+Sg+Ill: a-malmhiin
+    ääkkä+N+Sg+Ill: ääkkhään
+    aalto+N+Sg+Ill: aalthoon
+    abortti+N+Sg+Ill: aborthiin
+    aho+N+Sg+Ill: ahhhoon
+    äijäfaari+N+Sg+Ill: äijäfaahriin
+    aihe+N+Sg+Ill: aihheen
+    äile+N+Sg+Ill: äilheen
+    aine+N+Sg+Ill: ainheen
+    alote+N+Sg+Ill: alottheen
+    alue+N+Sg+Ill: aluheen
+    akleija+N+Sg+Ill: akleihjaan
+    äkseerinki+N+Sg+Ill: äkseerinkhiin
+    almunakka+N+Sg+Ill: almunakkhaan
+    alttari+N+Sg+Ill: alttarhiin
+    ämmäkkö+N+Sg+Ill: ämmäkkhöön
+    ammunta+N+Sg+Ill: ammunthaan
+    ääri+N+Sg+Ill: äähreen
+    äitiväki+N+Sg+Ill: äitiväkkheen
+    ehontähti+N+Sg+Ill: ehontähtheen
+    ehtotähti+N+Sg+Ill: ehtotähtheen
+    elämänonni+N+Sg+Ill: elämänonheen
+    epiteemi+N+Sg+Ill: epiteehmeen
+    äitinkieli+N+Sg+Ill: äitinkiehleen
+    äitipuoli+N+Sg+Ill: äitipuohleen
+    asuntolohi+N+Sg+Ill: asuntolohhheen
+    hiili+N+Sg+Ill: hiihleen
+    aikakausi+N+Sg+Ill: aikakauhteen
+    färivesi+N+Sg+Ill: färivettheen
+    hangonvarsi+N+Sg+Ill: hangonvartheen
+    hirsi+N+Sg+Ill: hirtheen
+    ikävuosi+N+Sg+Ill: ikävuohteen
+    ilovesi+N+Sg+Ill: ilovettheen
+    imulapsi+N+Sg+Ill: imulapsheen
+    irtilapsi+N+Sg+Ill: irtilapsheen
+    jalkalapsi+N+Sg+Ill: jalkalapsheen
+    jumalallapsi+N+Sg+Ill: jumalallapsheen
+    kapalolapsi+N+Sg+Ill: kapalolapsheen
+    kasvattilapsi+N+Sg+Ill: kasvattilapsheen
+    kusilapsi+N+Sg+Ill: kusilapsheen
+    höttölumi+N+Sg+Ill: höttölummheen
+    iloliemi+N+Sg+Ill: iloliehmeen
+    kalanliemi+N+Sg+Ill: kalanliehmeen
+    kanhkaanloimi+N+Sg+Ill: kanhkaanloihmeen
+    lähetystoimi+N+Sg+Ill: lähetystoihmeen
+    liemi+N+Sg+Ill: liehmeen
+    Raja-asukas+N+Sg+Ill: Raja-asukkhaan
+    aijas+N+Sg+Ill: aihjaan
+    ankerias+N+Sg+Ill: ankerihaan
+    apilas+N+Sg+Ill: apilhaan
+    asukas+N+Sg+Ill: asukkhaan
+    ehokas+N+Sg+Ill: ehokkhaan
+    evankeeljum+N+Sg+Ill: evankeeljumhiin
+    Antinpäivä+N+Sg+Ill: Antinpäihvään
+    Kruunu+N+Sg+Ill: Kruuhnuuun
+    Kyriiri+N+Sg+Ill: Kyriihriin
+    Laurina+N+Sg+Ill: Laurinhaan
+    Mikkelinpäivä+N+Sg+Ill: Mikkelinpäihvään
+    Norrlänska+N+Sg+Ill: Norrlänskhaan
+    TV-masti+N+Sg+Ill: TV-masthiin
+    äänensävy+N+Sg+Ill: äänensävhyyn
+    alunastifti+N+Sg+Ill: alunastifthiin
+    romani chib+N+Sg+Ill: romani chibhiin
