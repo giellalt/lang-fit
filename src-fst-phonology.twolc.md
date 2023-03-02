@@ -90,6 +90,8 @@ j rules
 * *tak0i0>n*
 * *johke^WG*
 * *joh0e0*
+* *ääkkä^HMETA>h^V^Vn*
+* *ääk000>hään*
 
 **RULE: k:j**
 
