@@ -256,7 +256,7 @@ LEXICON x3_oblique_sg
  +Sg+Ade:^WG%>ll^A PxK ;
  +Sg+Abl:^WG%>lt^A PxK ;
  +Sg+Ess:%>nn^A PxK ;
- +Sg+Tra:^WG%> TRA ;
+ +Sg+Tra:^WG TRA ;
  +Sg+Abe:^WG%>tt^A PxK ;
 
 LEXICON x3_pl
@@ -408,12 +408,12 @@ xnen_pl ;
 
 LEXICON xnen_sg
 !! **LEXICON @LEXNAME@**
-+Sg:se%> 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
++Sg:se 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON xnen_pl
 !! **LEXICON @LEXNAME@**
-+Pl:se%>i2%> 2cases ;
++Pl:se%>i2 2cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON 3nen
@@ -428,12 +428,12 @@ x3nen_pl ;
 
 LEXICON x3nen_sg
 !! **LEXICON @LEXNAME@**
-+Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
++Sg:se 3cases ; ! Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON x3nen_pl
 !! **LEXICON @LEXNAME@**
-+Pl:se%>i2%> 3cases ;
++Pl:se%>i2 3cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON xnen_common_sg
