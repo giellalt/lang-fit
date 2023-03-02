@@ -421,7 +421,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 0:m <=> [.#.|#] Cns:* Vow m _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow m _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow m _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow m _ e:  (Dummy:) %> h :e :e ;
+!        [.#.|#] Cns:* Vow m _ e:  (Dummy:) %> h :e :e ;
         [.#.|#] Cns:* Vow m _  :i (Dummy:) %> (h) :i ;
         [.#.|#] Cns:* Vow m _ i:  (Dummy:) %> h :i :i ;
         [.#.|#] Cns:* Vow m _ o   (Dummy:) %> (h) :o ;
