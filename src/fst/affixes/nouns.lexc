@@ -177,13 +177,13 @@ LEXICON x2
  x2_sg ;
  x2_pl ;
 
-LEXICON x2_sg
+LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 !! **LEXICON @LEXNAME@** the sg
  +Sg+Nom:^WG      KK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
  +Sg+Gen:he%>en    PxK ; ! liikheen, säkheen fix liikkehen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill:h%>ee     n_PxK ; ! liikheen, säkheen
+ +Sg+Ill:h%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
  +Sg+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Sg+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
  +Sg+All:%>ele    PxxK ; ! liikheele, liihkeelekki
@@ -574,7 +574,7 @@ LEXICON x_ime_sg
  +Sg+Nom:^WGn       PxK ;
  +Sg+Gen:me%>n PxK ;
  +Sg+Par:^WGn%>t^A PxK ;
- +Sg+Ill:ƒm%>hee n_PxK ;
+ +Sg+Ill:m%>hee n_PxK ;
  +Sg+Ine:me%>ss^A PxK ;
  +Sg+Ela:me%>st^A PxK ;
  +Sg+All:me%>lle PxxK ;
@@ -608,12 +608,12 @@ LEXICON xnas
  xnas_sg ;
  xnas_pl ;
 
-LEXICON xnas_sg
+LEXICON xnas_sg ! ankerias:ankeria
 !! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGs       PxK ;
  +Sg+Gen:%>^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
- +Sg+Ill:^HMETA%>h^V^V n_PxK ;
+ +Sg+Ill:^HMETA%>h^V^Vshee n_PxK ;
  +Sg+Ine:%>^Vss^A PxK ;
  +Sg+Ela:%>^Vst^A PxK ;
  +Sg+All:%>^Vlle PxxK ;
@@ -641,7 +641,7 @@ LEXICON 3mies
  +N+Sg+Nom:s       PxK ;
  +N+Sg+Gen:he%>n PxK ;
  +N+Sg+Par:s%>t^A PxK ;
- +N+Sg+Ill:he%>e n_PxK ;
+ +N+Sg+Ill:hhe%>e n_PxK ;
  +N+Sg+Ine:he%>ss^A PxK ;
  +N+Sg+Ela:he%>st^A PxK ;
  +N+Sg+All:he%>le PxxK ;
