@@ -1245,7 +1245,7 @@ Consonant stems
 **LEXICON xnen**
 
 **LEXICON xnen_sg**
-+Sg:se%> 2cases ; for  Ade, All, Ess lla, lle, nna
++Sg:se 2cases ; for  Ade, All, Ess lla, lle, nna
 
 **LEXICON xnen_pl**
 
