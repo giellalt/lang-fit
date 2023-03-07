@@ -843,18 +843,18 @@ LEXICON n1-troppi
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%>t PxK ;
-+N+Pl+Gen:^WG^IDEL%>i2tten PxK ; ! nu: troppitten rätt: tropitten
-+N+Pl+Gen+Err/Orth:%>i2en PxK ;
++N+Pl+Gen:^WG^IDEL%>itten PxK ; ! nu: troppitten rätt: tropitten
++N+Pl+Gen+Err/Orth:%>ien PxK ;
 !+N+Pl+Par:%>i2^A PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
 
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
-+N+Pl+Ine:^WG%>i2ss^A PxK ;
-+N+Pl+Ela:^WG%>i2st^A PxK ;
-+N+Pl+All:^WG%>i2le PxxK ;
-+N+Pl+Ade:^WG%>i2l^A PxK ;
-+N+Pl+Abl:^WG%>i2lt^A PxK ;
-+N+Pl+Tra:^WG%>i2 TRA ;
++N+Pl+Ine:^WG%>iss^A PxK ;
++N+Pl+Ela:^WG%>ist^A PxK ;
++N+Pl+All:^WG%>ile PxxK ;
++N+Pl+Ade:^WG%>il^A PxK ;
++N+Pl+Abl:^WG%>ilt^A PxK ;
++N+Pl+Tra:^WG%>i TRA ;
 ! +N+Pl+Ess:%>i2n^A PxK ;  ! nu: ---     rätt: troppina
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
-+N+Pl+Abe:^WG%>i2tt^A PxK ;
++N+Pl+Abe:^WG%>itt^A PxK ;
