@@ -9721,7 +9721,7 @@ pounusammal:pounu#sammal 3n_lnr ;
 taival:taipal 3n_lnr ;
 koskitaival:koski#taipal 3n_lnr ;
 mataluus:matal n_uus ;
-askel:askel 3n_lnr ;
+askel:askel 30n_lnr ;
 petkel:petkel 3n_lnr ;
 kyynel:kyynel 3n_lnr ;
 vemmel:vempel 3n_lnr ;

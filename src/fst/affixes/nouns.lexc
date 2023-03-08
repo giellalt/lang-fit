@@ -774,7 +774,7 @@ LEXICON x4n_ks_pl
 
 LEXICON TRA
 !! **LEXICON @LEXNAME@**
- :%>ks K ;
+ :%>ks K ; ! VetEj
  :%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes
@@ -858,3 +858,34 @@ LEXICON n1-troppi
 ! +N+Pl+Ess:%>i2n^A PxK ;  ! nu: ---     rätt: troppina
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>itt^A PxK ;
+
+!! Test ursprungligen för askel 3n_lnr 
+LEXICON 30n_lnr
+!! **LEXICON @LEXNAME@**
+ +N+Sg+Nom:^WG  R ;
+ +N+Sg+Gen:e%>n R ;
+ +N+Sg+Nom:^WG     PxK ;
+ +N+Sg+Gen:e%>n PxK ;
+ +N+Sg+Par:^WG%>t^A PxK ;
+ +N+Sg+Ill:%>heeshee n_PxK ;
+ +N+Sg+Ine:%>ess^A PxK ;
+ +N+Sg+Ela:%>est^A PxK ;
+ +N+Sg+All:%>elle PxxK ;
+ +N+Sg+Ade:%>ell^A PxK ;
+ +N+Sg+Abl:%>ell^A PxK ;
+ +N+Sg+Abe:%>ett^A PxK ;
+ +N+Sg+Ess:%>en^A PxK ;
+ +N+Sg+Tra: TRA ;
+
+ +N+Pl+Nom:e%>t PxK ;
+ +N+Pl+Gen:^WG%>ten PxK ;
+ +N+Pl+Par:e%>it^A PxK ;
+ +N+Pl+Ill:%>hii n_PxK ;
+ +N+Pl+Ine:%>iss^A PxK ;
+ +N+Pl+Ela:%>ist^A PxK ;
+ +N+Pl+All:%>ille PxxK ;
+ +N+Pl+Ade:%>ill^A PxK ;
+ +N+Pl+Abl:%>ilt^A PxK ;
+ +N+Pl+Abe:%>itt^A PxK ;
+ +N+Pl+Tra: TRA ;
+ +N+Pl+Ess:%>in^A PxK ;
