@@ -183,7 +183,7 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
  +Sg+Gen:he%>en    PxK ; ! liikheen, säkheen fix liikkehen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill:h%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
+ +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
  +Sg+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Sg+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
  +Sg+All:%>ele    PxxK ; ! liikheele, liihkeelekki
@@ -195,11 +195,11 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 
 LEXICON x2_pl
 !! **LEXICON @LEXNAME@** the pl
- +Pl+Nom:h%>eet     K ;
- +Pl+Nom:h%>ee      Px ;
- +Pl+Gen:h%>eitten   PxK ;
- +Pl+Gen:h%>ejen   PxK ;
- +Pl+Par:h%>ej^A   PxK ;
+ +Pl+Nom:^WGh%>eet     K ;
+ +Pl+Nom:^WGh%>ee      Px ;
+ +Pl+Gen:^WGh%>eitten   PxK ;
+ +Pl+Gen:^WGh%>ejen   PxK ;
+ +Pl+Par:^WGh%>ej^A   PxK ;
  +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
@@ -256,7 +256,7 @@ LEXICON x3_oblique_sg
  +Sg+Ade:^WG%>ll^A PxK ;
  +Sg+Abl:^WG%>lt^A PxK ;
  +Sg+Ess:%>nn^A PxK ;
- +Sg+Tra:^WG%> TRA ;
+ +Sg+Tra:^WG TRA ;
  +Sg+Abe:^WG%>tt^A PxK ;
 
 LEXICON x3_pl
@@ -408,12 +408,12 @@ xnen_pl ;
 
 LEXICON xnen_sg
 !! **LEXICON @LEXNAME@**
-+Sg:se%> 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
++Sg:se 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON xnen_pl
 !! **LEXICON @LEXNAME@**
-+Pl:se%>i2%> 2cases ;
++Pl:se%>i2 2cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON 3nen
@@ -428,12 +428,12 @@ x3nen_pl ;
 
 LEXICON x3nen_sg
 !! **LEXICON @LEXNAME@**
-+Sg:se%> 3cases ; ! Ade, All, Ess lla, lle, nna
++Sg:se 3cases ; ! Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
 
 LEXICON x3nen_pl
 !! **LEXICON @LEXNAME@**
-+Pl:se%>i2%> 3cases ;
++Pl:se%>i2 3cases ;
  xnen_common_pl ; ! all other cases
 
 LEXICON xnen_common_sg
@@ -843,18 +843,18 @@ LEXICON n1-troppi
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%>t PxK ;
-+N+Pl+Gen:^IDEL%>i2tten PxK ; ! nu: troppitten rätt: tropitten
-+N+Pl+Gen+Err/Orth:%>i2en PxK ;
++N+Pl+Gen:^WG^IDEL%>itten PxK ; ! nu: troppitten rätt: tropitten
++N+Pl+Gen+Err/Orth:%>ien PxK ;
 !+N+Pl+Par:%>i2^A PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
 
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
-+N+Pl+Ine:^WG%>i2ss^A PxK ;
-+N+Pl+Ela:^WG%>i2st^A PxK ;
-+N+Pl+All:^WG%>i2le PxxK ;
-+N+Pl+Ade:^WG%>i2l^A PxK ;
-+N+Pl+Abl:^WG%>i2lt^A PxK ;
-+N+Pl+Tra:^WG%>i2 TRA ;
++N+Pl+Ine:^WG%>iss^A PxK ;
++N+Pl+Ela:^WG%>ist^A PxK ;
++N+Pl+All:^WG%>ile PxxK ;
++N+Pl+Ade:^WG%>il^A PxK ;
++N+Pl+Abl:^WG%>ilt^A PxK ;
++N+Pl+Tra:^WG%>i TRA ;
 ! +N+Pl+Ess:%>i2n^A PxK ;  ! nu: ---     rätt: troppina
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
-+N+Pl+Abe:^WG%>i2tt^A PxK ;
++N+Pl+Abe:^WG%>itt^A PxK ;

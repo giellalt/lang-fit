@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - sgill: # 7 x contlex sg ill -- inte kontrollerad 
+  Noun - sgill: # 7 x contlex sg ill -- kontrollerad av Elina  
     afäärimies+N+Sg+Ill: afäärimiehheen
     eusmies+N+Sg+Ill: eusmiehheen
     frahtimies+N+Sg+Ill: frahtimiehheen
@@ -76,7 +76,7 @@ Tests:
     aho+N+Sg+Ill: ahhoon
     äijäfaari+N+Sg+Ill: äijäfaahriin
     aihe+N+Sg+Ill: aihheesheen
-    äile+N+Sg+Ill: äilheen
+    äile+N+Sg+Ill: äilheen # eventuellt fel?
     aine+N+Sg+Ill: ainheesheen
     alote+N+Sg+Ill: alotheesheen
     alue+N+Sg+Ill: aluheesheen

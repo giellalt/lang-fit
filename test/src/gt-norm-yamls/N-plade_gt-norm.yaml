@@ -29,11 +29,11 @@ Tests:
     jäsenyin+N+Pl+Ade: jäsenykimillä
     polkimet+N+Pl+Ade: polkimilla
     äänestys+N+Pl+Ade: äänestyksillä
-    äärettömyys+N+Pl+Ade: äärettömyyksillä
+    äärettömyys+N+Pl+Ade: äärettömyyksilä
     äes+N+Pl+Ade: äkeksillä
     ähmäänys+N+Pl+Ade: ähmäänyksillä
     ajos+N+Pl+Ade: ajoksilla
-    äkäsyys+N+Pl+Ade: äkäsyyksillä
+    äkäsyys+N+Pl+Ade: äkäsyyksilä
     annos+N+Pl+Ade: annoksilla
     ahmajäsen+N+Pl+Ade: ahmajäsenillä
     ahven+N+Pl+Ade: ahvenilla
@@ -41,7 +41,7 @@ Tests:
     höyhen+N+Pl+Ade: höyhenillä
     isosisar+N+Pl+Ade: isosisarilla
     jääntanner+N+Pl+Ade: jääntanterilla
-    jalkatyär+N+Pl+Ade: jalkatytärillä
+    jalkatyär+N+Pl+Ade: jalkatyttärillä
     ahneus+N+Pl+Ade: ahneuilla
     falskeus+N+Pl+Ade: falskeuilla
     fariseeus+N+Pl+Ade: fariseeuilla
@@ -52,11 +52,11 @@ Tests:
     jiddisch+N+Pl+Ade: jiddischillä
     -kielinen+N+Pl+Ade: -kielisillä
     äärheinen+N+Pl+Ade: äärheisillä
-    ainukainen+N+Pl+Ade: ainukaisillä
-    ammuminen+N+Pl+Ade: ammumisillä
-    ampiainen+N+Pl+Ade: ampiaisillä
-    ästiitiäinen+N+Pl+Ade: ästiitiäisillä
-    äykiäinen+N+Pl+Ade: äykiäisillä
+    ainukainen+N+Pl+Ade: ainukaisila
+    ammuminen+N+Pl+Ade: ammumisila
+    ampiainen+N+Pl+Ade: ampiaisila
+    ästiitiäinen+N+Pl+Ade: ästiitiäisilä
+    äykiäinen+N+Pl+Ade: äykiäisilä
     aavistus+N+Pl+Ade: aavistuksila
     ahistus+N+Pl+Ade: ahistuksila
     aivastus+N+Pl+Ade: aivastuksila
@@ -78,12 +78,12 @@ Tests:
     aho+N+Pl+Ade: ahoila
     äijäfaari+N+Pl+Ade: äijäfaarila
     hamut+N+Pl+Ade: hamuila
-    aihe+N+Pl+Ade: aiheeile
-    äile+N+Pl+Ade: äileeile
-    aine+N+Pl+Ade: aineeile
-    alote+N+Pl+Ade: alotteeile
-    alue+N+Pl+Ade: alueeile
-    ikenheet+N+Pl+Ade: ikeneeile
+    aihe+N+Pl+Ade: aiheeila
+    äile+N+Pl+Ade: äileeila
+    aine+N+Pl+Ade: aineeila
+    alote+N+Pl+Ade: alotteeilla
+    alue+N+Pl+Ade: alueeilla
+    ikenheet+N+Pl+Ade: ikeneeilla
     akleija+N+Pl+Ade: akleijailla
     äkseerinki+N+Pl+Ade: äkseerinkillä
     almunakka+N+Pl+Ade: almunakailla
@@ -123,15 +123,15 @@ Tests:
     lähetystoimi+N+Pl+Ade: lähetystoimila
     liemi+N+Pl+Ade: liemilä
     ympäryssuolet+N+Pl+Ade: ympäryssuolila
-    auttavaisuus+N+Pl+Ade: auttavaisuuksilla
-    hankaluus+N+Pl+Ade: hankaluuksilla
-    hiljaisuus+N+Pl+Ade: hiljaisuuksilla
-    huoruus+N+Pl+Ade: huoruuksilla
-    iänkaikkisuus+N+Pl+Ade: iänkaikkisuuksilla
-    itusuus+N+Pl+Ade: itusuuksilla
-    jatkuvuus+N+Pl+Ade: jatkuvuuksilla
+    auttavaisuus+N+Pl+Ade: auttavaisuuksila
+    hankaluus+N+Pl+Ade: hankaluuksila
+    hiljaisuus+N+Pl+Ade: hiljaisuuksila
+    huoruus+N+Pl+Ade: huoruuksila
+    iänkaikkisuus+N+Pl+Ade: iänkaikkisuuksila
+    itusuus+N+Pl+Ade: itusuuksila
+    jatkuvuus+N+Pl+Ade: jatkuvuuksila
     evankeeljum+N+Pl+Ade: evankeeljumila
-    lippaset+N+Pl+Ade: lippasilä
+    lippaset+N+Pl+Ade: lippasilla
     Antinpäivä+N+Pl+Ade: Antinpäivilä
     Kruunu+N+Pl+Ade: Kruunuila
     Kyriiri+N+Pl+Ade: Kyriirilä
