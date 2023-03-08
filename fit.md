@@ -1344,6 +1344,9 @@ tropin
 
 troppia?
 
+Test ursprungligen för askel 3n_lnr 
+**LEXICON 30n_lnr**
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)</small>
