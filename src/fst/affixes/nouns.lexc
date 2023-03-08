@@ -183,7 +183,7 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
  +Sg+Gen:he%>en    PxK ; ! liikheen, säkheen fix liikkehen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill:h%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
+ +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
  +Sg+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Sg+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
  +Sg+All:%>ele    PxxK ; ! liikheele, liihkeelekki
@@ -195,11 +195,11 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 
 LEXICON x2_pl
 !! **LEXICON @LEXNAME@** the pl
- +Pl+Nom:h%>eet     K ;
- +Pl+Nom:h%>ee      Px ;
- +Pl+Gen:h%>eitten   PxK ;
- +Pl+Gen:h%>ejen   PxK ;
- +Pl+Par:h%>ej^A   PxK ;
+ +Pl+Nom:^WGh%>eet     K ;
+ +Pl+Nom:^WGh%>ee      Px ;
+ +Pl+Gen:^WGh%>eitten   PxK ;
+ +Pl+Gen:^WGh%>ejen   PxK ;
+ +Pl+Par:^WGh%>ej^A   PxK ;
  +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä

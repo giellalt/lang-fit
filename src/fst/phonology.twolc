@@ -688,7 +688,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 
 "e:0"
 !! **RULE: @RULENAME@** deletes *-e-* in LNR stems as well as before -i-
-e:0 <=>                                                   _ h %> e ; ! säkheen del before h in e stems
+e:0 <=>                                                   _ (WeakGrade) h %> e ; ! säkheen del before h in e stems
                                                           _ %^HMETA: ;
                          [.#.|#:] Cns:* Vow:+ [h|l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
                            [.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
