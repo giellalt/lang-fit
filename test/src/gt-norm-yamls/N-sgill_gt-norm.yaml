@@ -26,24 +26,24 @@ Tests:
     irtain+N+Sg+Ill: irtaimheen
     istuin+N+Sg+Ill: istuimheen
     jäänhalkein+N+Sg+Ill: jäänhalkeimheen
-    jäsenyin+N+Sg+Ill: jäsenykimheen
+    jäsenyin+N+Sg+Ill: jäsenykimheen # vad betyder ordet?
     äänestys+N+Sg+Ill: äänestyksheen
     äärettömyys+N+Sg+Ill: äärettömyyksheen
-    äes+N+Sg+Ill: äkeksheen
+    äes+N+Sg+Ill: äkeksheen-VetEj
     ähmäänys+N+Sg+Ill: ähmäänyksheen
     ajos+N+Sg+Ill: ajoksheen
-    äkäsyys+N+Sg+Ill: äkäsyyksheen
+    äkäsyys+N+Sg+Ill: äkäsyyksheen-VetEj
     annos+N+Sg+Ill: annoksheen
     ahmajäsen+N+Sg+Ill: ahmajäsenheen
     ahven+N+Sg+Ill: ahvenheen
-    askel+N+Sg+Ill: askelheen
+    askel+N+Sg+Ill: askelheesheen
     höyhen+N+Sg+Ill: höyhenheen
     isosisar+N+Sg+Ill: isosisarheen
-    jääntanner+N+Sg+Ill: jääntanterheen
+    jääntanner+N+Sg+Ill: jääntanterheesheen
     jalkatyär+N+Sg+Ill: jalkatyttärheen
     ahneus+N+Sg+Ill: ahneutheen
     falskeus+N+Sg+Ill: falskeutheen
-    fariseeus+N+Sg+Ill: fariseeutheen
+    fariseeus+N+Sg+Ill: fariseeutheen-VetEj
     fiineys+N+Sg+Ill: fiineytheen
     fiiniys+N+Sg+Ill: fiiniytheen
     ilfheys+N+Sg+Ill: ilfheytheen
@@ -68,7 +68,7 @@ Tests:
     äkkipää+N+Sg+Ill: äkkipäähän
     ärräpää+N+Sg+Ill: ärräpäähän
     asepuu+N+Sg+Ill: asepuuhun
-    Takkaa-ajo+N+Sg+Ill: Takkaa-ajhoon
+    takkaa-ajo+N+Sg+Ill: takkaa-ajhoon
     a-malmi+N+Sg+Ill: a-malmhiin
     ääkkä+N+Sg+Ill: ääkhään
     aalto+N+Sg+Ill: aalthoon
@@ -80,11 +80,11 @@ Tests:
     aine+N+Sg+Ill: ainheesheen
     alote+N+Sg+Ill: alotheesheen
     alue+N+Sg+Ill: aluheesheen
-    akleija+N+Sg+Ill: akleihjaan
+    akleija+N+Sg+Ill: akleihjaan-VetEj
     äkseerinki+N+Sg+Ill: äkseerinkhiin
-    almunakka+N+Sg+Ill: almunakkhaan
+    almunakka+N+Sg+Ill: almunakkhaan # stark eller svag?
     alttari+N+Sg+Ill: alttarhiin
-    ämmäkkö+N+Sg+Ill: ämmäkkhöön
+    ämmäkkö+N+Sg+Ill: ämmäkkhöön # stark eller svag?
     ammunta+N+Sg+Ill: ammunthaan
     ääri+N+Sg+Ill: äähreen
     äitiväki+N+Sg+Ill: äitiväkheen
@@ -112,18 +112,18 @@ Tests:
     höttölumi+N+Sg+Ill: höttölumheen
     iloliemi+N+Sg+Ill: iloliehmeen
     kalanliemi+N+Sg+Ill: kalanliehmeen
-    kanhkaanloimi+N+Sg+Ill: kanhkaanloihmeen
+    kankhaanloimi+N+Sg+Ill: kankhaanloihmeen
     lähetystoimi+N+Sg+Ill: lähetystoihmeen
     liemi+N+Sg+Ill: liehmeen
-    Raja-asukas+N+Sg+Ill: Raja-asukhaan
-    aijas+N+Sg+Ill: aihjaan
+    raja-asukas+N+Sg+Ill: raja-asukhaan 
+    aijas+N+Sg+Ill: aihjaan-VetEj
     ankerias+N+Sg+Ill: ankerihaasheen
-    apilas+N+Sg+Ill: apilhaanVetejärdetapilaellerapilas
+    apilas+N+Sg+Ill: apilhaan-VetEj
     asukas+N+Sg+Ill: asukhaasheen
     ehokas+N+Sg+Ill: ehokhaasheen
     evankeeljum+N+Sg+Ill: evankeeljumhiin
     Antinpäivä+N+Sg+Ill: Antinpäihvään
-    Kruunu+N+Sg+Ill: Kruuhnuuun
+    Kruunu+N+Sg+Ill: Kruuhnuun
     Kyriiri+N+Sg+Ill: Kyriihriin
     Laurina+N+Sg+Ill: Laurinhaan
     Mikkelinpäivä+N+Sg+Ill: Mikkelinpäihvään
