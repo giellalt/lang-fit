@@ -235,7 +235,9 @@ tropin
 troppia?
 
 Test ursprungligen för askel 3n_lnr 
-**LEXICON 30n_lnr**
+**LEXICON 30n_lnr** askel - askelheesheen
+
+**LEXICON 3n_lnr_inteill** inte Ill men alla andra
 
 * * *
 
