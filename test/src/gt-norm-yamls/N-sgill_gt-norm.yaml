@@ -29,10 +29,10 @@ Tests:
     jäsenyin+N+Sg+Ill: jäsenykimheen # vad betyder ordet?
     äänestys+N+Sg+Ill: äänestyksheen
     äärettömyys+N+Sg+Ill: äärettömyyksheen
-    äes+N+Sg+Ill: äkeksheen # VetEj
+#    äes+N+Sg+Ill: äkeksheen # VetEj
     ähmäänys+N+Sg+Ill: ähmäänyksheen
     ajos+N+Sg+Ill: ajoksheen
-    äkäsyys+N+Sg+Ill: äkäsyyksheen # VetEj
+#    äkäsyys+N+Sg+Ill: äkäsyyksheen - VetEj
     annos+N+Sg+Ill: annoksheen
     ahmajäsen+N+Sg+Ill: ahmajäsenheen
     ahven+N+Sg+Ill: ahvenheen
@@ -43,7 +43,7 @@ Tests:
     jalkatyär+N+Sg+Ill: jalkatyttärheen
     ahneus+N+Sg+Ill: ahneutheen
     falskeus+N+Sg+Ill: falskeutheen
-    fariseeus+N+Sg+Ill: fariseeutheen # VetEj
+#    fariseeus+N+Sg+Ill: fariseeutheen # VetEj
     fiineys+N+Sg+Ill: fiineytheen
     fiiniys+N+Sg+Ill: fiiniytheen
     ilfheys+N+Sg+Ill: ilfheytheen
@@ -76,15 +76,15 @@ Tests:
     aho+N+Sg+Ill: ahhoon
     äijäfaari+N+Sg+Ill: äijäfaahriin
     aihe+N+Sg+Ill: aihheesheen
-    äile+N+Sg+Ill: äilheen # eventuellt fel?
+#    äile+N+Sg+Ill: äilheen # eventuellt fel?
     aine+N+Sg+Ill: ainheesheen
     alote+N+Sg+Ill: alotheesheen
     alue+N+Sg+Ill: aluheesheen
-    akleija+N+Sg+Ill: akleihjaan # VetEj
+#    akleija+N+Sg+Ill: akleihjaan # VetEj
     äkseerinki+N+Sg+Ill: äkseerinkhiin
-    almunakka+N+Sg+Ill: almunakkhaan # stark eller svag?
+#    almunakka+N+Sg+Ill: almunakkhaan # stark eller svag?
     alttari+N+Sg+Ill: alttarhiin
-    ämmäkkö+N+Sg+Ill: ämmäkkhöön # stark eller svag?
+#    ämmäkkö+N+Sg+Ill: ämmäkkhöön # stark eller svag?
     ammunta+N+Sg+Ill: ammunthaan
     ääri+N+Sg+Ill: äähreen
     äitiväki+N+Sg+Ill: äitiväkheen
@@ -116,9 +116,9 @@ Tests:
     lähetystoimi+N+Sg+Ill: lähetystoihmeen
     liemi+N+Sg+Ill: liehmeen
     raja-asukas+N+Sg+Ill: raja-asukhaan 
-    aijas+N+Sg+Ill: aihjaan # VetEj
+#    aijas+N+Sg+Ill: aihjaan # VetEj
     ankerias+N+Sg+Ill: ankerihaasheen
-    apilas+N+Sg+Ill: apilhaan # VetEj
+#    apilas+N+Sg+Ill: apilhaan # VetEj
     asukas+N+Sg+Ill: asukhaasheen
     ehokas+N+Sg+Ill: ehokhaasheen
     evankeeljum+N+Sg+Ill: evankeeljumhiin
