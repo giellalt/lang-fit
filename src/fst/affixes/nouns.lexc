@@ -279,10 +279,11 @@ LEXICON x3_pl
 LEXICON n4
 !! **LEXICON @LEXNAME@** kivi, stem kive
  +N: x4 ;
- +N+Sg+Nom:^E2I       PxK ; ! kivi
- +N+Sg+Par:%>^A      PxK ; ! kiveä
- +N+Nom:^E2I R ;
- +N+Gen:^WG%>n R ;
+ +N+Sg+Nom:^E2I   K ; ! kivi
+ +N+Sg+Nom:       Px ; ! kivensä
+ +N+Sg+Par:%>^A   PxK ; ! kiveä
+ +N+Nom:^E2I      R ;
+ +N+Gen:^WG%>n    R ;
 
 LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
@@ -696,33 +697,9 @@ LEXICON n_uus
 
 LEXICON 3n_lnr
 !! **LEXICON @LEXNAME@**
- +N+Sg+Nom:^WG  R ;
- +N+Sg+Gen:e%>n R ;
- +N+Sg+Nom:^WG     PxK ;
- +N+Sg+Gen:e%>n PxK ;
- +N+Sg+Par:^WG%>t^A PxK ;
  +N+Sg+Ill:%>hee n_PxK ;
- +N+Sg+Ine:%>ess^A PxK ;
- +N+Sg+Ela:%>est^A PxK ;
- +N+Sg+All:%>elle PxxK ;
- +N+Sg+Ade:%>ell^A PxK ;
- +N+Sg+Abl:%>ell^A PxK ;
- +N+Sg+Abe:%>ett^A PxK ;
- +N+Sg+Ess:%>en^A PxK ;
- +N+Sg+Tra: TRA ;
+ 3n_lnr_inteill ; 
 
- +N+Pl+Nom:e%>t PxK ;
- +N+Pl+Gen:^WG%>ten PxK ;
- +N+Pl+Par:e%>it^A PxK ;
- +N+Pl+Ill:%>hii n_PxK ;
- +N+Pl+Ine:%>iss^A PxK ;
- +N+Pl+Ela:%>ist^A PxK ;
- +N+Pl+All:%>ille PxxK ;
- +N+Pl+Ade:%>ill^A PxK ;
- +N+Pl+Abl:%>ilt^A PxK ;
- +N+Pl+Abe:%>itt^A PxK ;
- +N+Pl+Tra: TRA ;
- +N+Pl+Ess:%>in^A PxK ;
 
 
 
@@ -861,13 +838,17 @@ LEXICON n1-troppi
 
 !! Test ursprungligen för askel 3n_lnr 
 LEXICON 30n_lnr
-!! **LEXICON @LEXNAME@**
- +N+Sg+Nom:^WG  R ;
+!! **LEXICON @LEXNAME@** askel - askelheesheen
+ +N+Sg+Ill:%>heeshee n_PxK ;
+ 3n_lnr_inteill ; 
+
+LEXICON 3n_lnr_inteill 
+!! **LEXICON @LEXNAME@** inte Ill men alla andra
++N+Sg+Nom:^WG  R ;
  +N+Sg+Gen:e%>n R ;
  +N+Sg+Nom:^WG     PxK ;
  +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Par:^WG%>t^A PxK ;
- +N+Sg+Ill:%>heeshee n_PxK ;
  +N+Sg+Ine:%>ess^A PxK ;
  +N+Sg+Ela:%>est^A PxK ;
  +N+Sg+All:%>elle PxxK ;
