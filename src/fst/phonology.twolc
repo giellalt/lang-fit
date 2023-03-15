@@ -86,15 +86,9 @@ Rules
 "f:0"
 f:0 <=> Vow f _ Vow: %^HMETA: ;
 
-!! h rules
+!!€ soffa^HMETA>h^V^Vn
+!!€ sof000>haan
 
-"h:0"
-h:0 <=> Vow h _ Vow: %^HMETA: ;
-
-
-!! h rules
-"h:0"
-h:0 <=> Vow h _ Vow: %^HMETA: ;
 
 
 !! j rules
@@ -352,7 +346,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 !       [.#.|#] Cns:* Vow h _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
-                  Vow Vow   _ Cns Vow: %^HMETA: ;
+                  Vow Vow   _ Cns Vow: %^HMETA: ; ! puohleen
 
 "Gemination 0:j"
 !! **RULE: @RULENAME@**
@@ -504,11 +498,15 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 
 
 
-"h gradation"
+"h:0"
 !! **RULE: @RULENAME@**
-h:0 <=>     Vow [p|t|k]                  _ e WeakGrade ;
-        Vow Vow :h Cns Vow: %^HMETA: %> _ ;
+h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
+            Vow Vow :h Cns Vow: %^HMETA: %> _ ; ! puohleen
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
+                                      Vow h _ Vow: %^HMETA: ;
+
+!!€ rasta^HMETA>h^Vn
+
 ! issoon, sillhoon <== check this.
 
 
@@ -882,7 +880,10 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:e <=> e: %^HMETA: %> h:    _ :e ;
           e: %^HMETA: %> h: :e _    ;
            :e         %>       _ [n|t|s|l|%>|.#.] ;
-          
+
+!!€ puole^HMETA>h^V^Vn
+!!€ puol00>heen
+
 "ö copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:ö <=> ö: %^HMETA: %> h:    _ :ö ;
