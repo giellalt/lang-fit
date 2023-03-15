@@ -67,9 +67,8 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 f rules
 
-h rules
-
-h rules
+* *soffa^HMETA>h^V^Vn*
+* *sof000>haan*
 
 j rules
 
@@ -238,7 +237,9 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *is0o^HMETA>h^V^Vn*
 * *iss00>0oon*
 
-**RULE: h gradation**
+**RULE: h:0**
+
+* *rasta^HMETA>h^Vn*
 
 **RULE: hm to mh for InfMa Ill after short vowel 1**
 
@@ -463,6 +464,9 @@ and also deleted in the stem (cf. *talo : talhoon*)
 **RULE: ä copying for h metathesis**
 
 **RULE: e copying for h metathesis**
+
+* *puole^HMETA>h^V^Vn*
+* *puol00>heen*
 
 **RULE: ö copying for h metathesis**
 

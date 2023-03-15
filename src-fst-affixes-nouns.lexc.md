@@ -193,7 +193,15 @@ Consonant stems
 
 **LEXICON n_uus**
 
+### 2-syllabic LNR final stems
+
 **LEXICON 3n_lnr**
+
+**LEXICON 30n_lnr** askel - askelheesheen
+
+**LEXICON 3xn_lnr** tyär, kort och lång Ill
+
+**LEXICON 3n_lnr_inteill** inte Ill men alla andra
 
 **LEXICON 4n_ks**
 
@@ -233,12 +241,6 @@ troppi
 tropin
 
 troppia?
-
-**LEXICON 30n_lnr** askel - askelheesheen
-
-**LEXICON 3xn_lnr** tyär, kort och lång Ill
-
-**LEXICON 3n_lnr_inteill** inte Ill men alla andra
 
 * * *
 
