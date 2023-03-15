@@ -612,7 +612,7 @@ LEXICON xnas
 LEXICON xnas_sg ! ankerias:ankeria
 !! **LEXICON @LEXNAME@**
  +Sg+Nom:^WGs       PxK ;
- +Sg+Gen:%>^Vn PxK ;
+ +Sg+Gen:^HMETA%>h^V^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
  +Sg+Ill:^HMETA%>h^V^Vshee n_PxK ;
  +Sg+Ine:%>^Vss^A PxK ;
@@ -695,12 +695,60 @@ LEXICON n_uus
  +N+Pl+Tra:uuks TRA ;
  +N+Pl+Ess:uuks%>i2n^A PxK ;
 
+
+!! ### 2-syllabic LNR final stems
+
 LEXICON 3n_lnr
 !! **LEXICON @LEXNAME@**
  +N+Sg+Ill:%>hee n_PxK ;
  3n_lnr_inteill ; 
 
+LEXICON 30n_lnr
+!! **LEXICON @LEXNAME@** askel - askelheesheen
+ +N+Sg+Gen:%>hee n_PxK ;
+ +N+Sg+Gen:^HMETA%>hee n_PxK ;
+ +N+Sg+Ill:%>heeshee n_PxK ;
+ 3n_lnr_inteill ; 
 
+LEXICON TYÄR
++N+Sg+Nom:tyär K ; 
++N+Sg+Par:tyärtä K ;
+         :tyttär 3xn_lnr ;
+
+LEXICON 3xn_lnr
+!! **LEXICON @LEXNAME@** tyär, kort och lång Ill
+ +N+Sg+Ill+Use/NG:%>heeshee n_PxK ;
+ +N+Sg+Ill:%>hee n_PxK ;
+ 3n_lnr_inteill ; 
+
+LEXICON 3n_lnr_inteill 
+!! **LEXICON @LEXNAME@** inte Ill men alla andra
++N+Sg+Nom:^WG  R ;
+ +N+Sg+Gen:e%>n R ;
+ +N+Sg+Nom:^WG     PxK ;
+ +N+Sg+Gen:e%>n PxK ;
+ +N+Sg+Par:^WG%>t^A PxK ;
+ +N+Sg+Ine:%>ess^A PxK ;
+ +N+Sg+Ela:%>est^A PxK ;
+ +N+Sg+All:%>elle PxxK ;
+ +N+Sg+Ade:%>ell^A PxK ;
+ +N+Sg+Abl:%>ell^A PxK ;
+ +N+Sg+Abe:%>ett^A PxK ;
+ +N+Sg+Ess:%>en^A PxK ;
+ +N+Sg+Tra:e TRA ;
+
+ +N+Pl+Nom:e%>t PxK ;
+ +N+Pl+Gen:^WG%>ten PxK ;
+ +N+Pl+Par:e%>it^A PxK ;
+ +N+Pl+Ill:%>hii n_PxK ;
+ +N+Pl+Ine:%>iss^A PxK ;
+ +N+Pl+Ela:%>ist^A PxK ;
+ +N+Pl+All:%>ille PxxK ;
+ +N+Pl+Ade:%>ill^A PxK ;
+ +N+Pl+Abl:%>ilt^A PxK ;
+ +N+Pl+Abe:%>itt^A PxK ;
+ +N+Pl+Tra:%>i TRA ;
+ +N+Pl+Ess:%>in^A PxK ;
 
 
 
@@ -751,7 +799,7 @@ LEXICON x4n_ks_pl
 
 LEXICON TRA
 !! **LEXICON @LEXNAME@**
- :%>ks K ; ! VetEj
+ +Err/Orth:%>ks K ; ! VetEj
  :%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes
@@ -836,47 +884,3 @@ LEXICON n1-troppi
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>itt^A PxK ;
  
-LEXICON 30n_lnr
-!! **LEXICON @LEXNAME@** askel - askelheesheen
- +N+Sg+Ill:%>heeshee n_PxK ;
- 3n_lnr_inteill ; 
-
-LEXICON TYÄR
-+N+Sg+Nom:tyär K ; 
-+N+Sg+Par:tyärtä K ;
-         :tyttär 3xn_lnr ;
-
-LEXICON 3xn_lnr
-!! **LEXICON @LEXNAME@** tyär, kort och lång Ill
- +N+Sg+Ill+Use/NG:%>heeshee n_PxK ;
- +N+Sg+Ill:%>hee n_PxK ;
- 3n_lnr_inteill ; 
-
-LEXICON 3n_lnr_inteill 
-!! **LEXICON @LEXNAME@** inte Ill men alla andra
-+N+Sg+Nom:^WG  R ;
- +N+Sg+Gen:e%>n R ;
- +N+Sg+Nom:^WG     PxK ;
- +N+Sg+Gen:e%>n PxK ;
- +N+Sg+Par:^WG%>t^A PxK ;
- +N+Sg+Ine:%>ess^A PxK ;
- +N+Sg+Ela:%>est^A PxK ;
- +N+Sg+All:%>elle PxxK ;
- +N+Sg+Ade:%>ell^A PxK ;
- +N+Sg+Abl:%>ell^A PxK ;
- +N+Sg+Abe:%>ett^A PxK ;
- +N+Sg+Ess:%>en^A PxK ;
- +N+Sg+Tra: TRA ;
-
- +N+Pl+Nom:e%>t PxK ;
- +N+Pl+Gen:^WG%>ten PxK ;
- +N+Pl+Par:e%>it^A PxK ;
- +N+Pl+Ill:%>hii n_PxK ;
- +N+Pl+Ine:%>iss^A PxK ;
- +N+Pl+Ela:%>ist^A PxK ;
- +N+Pl+All:%>ille PxxK ;
- +N+Pl+Ade:%>ill^A PxK ;
- +N+Pl+Abl:%>ilt^A PxK ;
- +N+Pl+Abe:%>itt^A PxK ;
- +N+Pl+Tra: TRA ;
- +N+Pl+Ess:%>in^A PxK ;
