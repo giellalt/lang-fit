@@ -25,12 +25,14 @@ morf_codes="+N+Sg+Nom \
             +N+Sg+Ine \
             +N+Sg+Ill \
             +N+Sg+Ade \
+            +N+Sg+Tra \
             +N+Pl+Nom \
             +N+Pl+Gen \
             +N+Pl+Par \
             +N+Pl+Ine \
             +N+Pl+Ill \
-            +N+Pl+Ade"
+            +N+Pl+Ade \
+            +N+Pl+Tra"
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/fst/stems/nouns.lexc
