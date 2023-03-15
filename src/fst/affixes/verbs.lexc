@@ -93,6 +93,10 @@ LEXICON NEG  !!≈ * **@CODE@**
 
 !! Regular verbs
 
+LEXICON v1_otta
+:otta v1 ; ! korrekt
++Err/Orth:oitta v1 ; ! finska och fel
+
 LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
