@@ -176,9 +176,9 @@ n:0 <=> Vow n _ Vow: %^HMETA: ;
 
 "p:0"
 !! **RULE: @RULENAME@**
-p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; 
-                Vow p _ e: h %> e ;
-                Vow p _ Vow: %^HMETA: ;
+p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; ! tärppä : tärpän
+!                Vow p _ e: h %> e ; ! Inkluder när vi ser vad.
+        [Vow|l|m|r] p _ Vow: %^HMETA: ;  ! tärppä : tärphään
 
 !! **Tests:**
 
@@ -355,17 +355,17 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
         [.#.|#] Cns:* Vow j _  :e (Dummy:) %> (h) :e ;
 !       [.#.|#] Cns:* Vow j _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow j _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow j _ i:  (Dummy:) %>  h  :i :i ;
+!        [.#.|#] Cns:* Vow j _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow j _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow j _ o:  %^HMETA: %>  h  :o :o ;
+!        [.#.|#] Cns:* Vow j _ o:  %^HMETA: %>  h  :o :o ;
         [.#.|#] Cns:* Vow j _  :u (Dummy:) %> (h) :u ;
-        [.#.|#] Cns:* Vow j _ u:  (Dummy:) %>  h  :u :u ;
+!        [.#.|#] Cns:* Vow j _ u:  (Dummy:) %>  h  :u :u ;
         [.#.|#] Cns:* Vow j _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow j _ y:  (Dummy:) %>  h  :y :y ;
+!        [.#.|#] Cns:* Vow j _ y:  (Dummy:) %>  h  :y :y ;
         [.#.|#] Cns:* Vow j _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow j _ ä:  (Dummy:) %>  h  :ä :ä ;
+!        [.#.|#] Cns:* Vow j _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow j _  :ö (Dummy:) %> (h) :ö ;
-        [.#.|#] Cns:* Vow j _ ö:  (Dummy:) %>  h  :ö :ö ;
+!        [.#.|#] Cns:* Vow j _ ö:  (Dummy:) %>  h  :ö :ö ;
 
 "Gemination 0:k"
 !! **RULE: @RULENAME@**
@@ -539,14 +539,14 @@ m:h <=> Cns Vow %> h: _ %^A: %^A: ;
         [.#.|#] Cns:* Vow t _  :ä (Dummy:) %>  :ä ;
         [.#.|#] Cns:* Vow t _  :ö (Dummy:) %>  :ö ;
         [.#.|#] Cns:* Vow t _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow t _ e:  (Dummy:) %>  h  :e :e ;
-        [.#.|#] Cns:* Vow t _ i:  (Dummy:) %>  h  :i :i ;
+!        [.#.|#] Cns:* Vow t _ e:  (Dummy:) %>  h  :e :e ;
+!        [.#.|#] Cns:* Vow t _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow t _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow t _ o:  %^HMETA: %>  h  :o :o ;
-        [.#.|#] Cns:* Vow t _ u:  (Dummy:) %>  h  :u :u ;
-        [.#.|#] Cns:* Vow t _ y:  (Dummy:) %>  h  :y :y ;
-        [.#.|#] Cns:* Vow t _ ä:  (Dummy:) %>  h  :ä :ä ;
-        [.#.|#] Cns:* Vow t _ ö:  (Dummy:) %>  h  :ö :ö ;
+!        [.#.|#] Cns:* Vow t _ o:  %^HMETA: %>  h  :o :o ;
+!        [.#.|#] Cns:* Vow t _ u:  (Dummy:) %>  h  :u :u ;
+!        [.#.|#] Cns:* Vow t _ y:  (Dummy:) %>  h  :y :y ;
+!        [.#.|#] Cns:* Vow t _ ä:  (Dummy:) %>  h  :ä :ä ;
+!        [.#.|#] Cns:* Vow t _ ö:  (Dummy:) %>  h  :ö :ö ;
 
 !! **Tests:**
 
