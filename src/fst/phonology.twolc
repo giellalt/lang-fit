@@ -346,7 +346,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 !       [.#.|#] Cns:* Vow h _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
-                  Vow Vow   _ [l|m|n|r] Vow: %^HMETA: ; ! puohleen men vuotheen
+                  Vow Vow   _ [l|m|n|r|v] Vow: %^HMETA: ; ! puohleen men vuotheen
 
 "Gemination 0:j"
 !! **RULE: @RULENAME@**
