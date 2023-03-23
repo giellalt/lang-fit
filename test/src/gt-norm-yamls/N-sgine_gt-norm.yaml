@@ -40,7 +40,7 @@ Tests:
     höyhen+N+Sg+Ine: höyhenessä
     isosisar+N+Sg+Ine: isosisaressa
     jääntanner+N+Sg+Ine: jääntanteressa
-    jalkatyär+N+Sg+Ine: jalkatytäressä
+    jalkatyär+N+Sg+Ine: jalkatyttäressä
     ahneus+N+Sg+Ine: ahneuessa
     falskeus+N+Sg+Ine: falskeuessa
     fariseeus+N+Sg+Ine: fariseeuessa
@@ -68,7 +68,7 @@ Tests:
     äkkipää+N+Sg+Ine: äkkipäässä
     ärräpää+N+Sg+Ine: ärräpäässä
     asepuu+N+Sg+Ine: asepuussa
-    Takkaa-ajo+N+Sg+Ine: Takkaa-ajossa
+    takkaa-ajo+N+Sg+Ine: takkaa-ajossa
     a-malmi+N+Sg+Ine: a-malmissa
     ääkkä+N+Sg+Ine: ääkässä
     aalto+N+Sg+Ine: aallossa
@@ -91,7 +91,7 @@ Tests:
     ehontähti+N+Sg+Ine: ehontähessä
     ehtotähti+N+Sg+Ine: ehtotähessä
     elämänonni+N+Sg+Ine: elämänonnessa
-    epiteemi+N+Sg+Ine: epiteemessä
+    epiteemi+N+Sg+Ine: epiteemissä
     äitinkieli+N+Sg+Ine: äitinkielessä
     äitipuoli+N+Sg+Ine: äitipuolessa
     asuntolohi+N+Sg+Ine: asuntolohessa
@@ -112,7 +112,7 @@ Tests:
     höttölumi+N+Sg+Ine: höttölumessa
     iloliemi+N+Sg+Ine: iloliemessä
     kalanliemi+N+Sg+Ine: kalanliemessä
-    kanhkaanloimi+N+Sg+Ine: kanhkaanloimessa
+    kankhaanloimi+N+Sg+Ine: kankhaanloimessa
     lähetystoimi+N+Sg+Ine: lähetystoimessa
     liemi+N+Sg+Ine: liemessä
     auttavaisuus+N+Sg+Ine: auttavaisuuessa
@@ -122,7 +122,7 @@ Tests:
     iänkaikkisuus+N+Sg+Ine: iänkaikkisuuessa
     itusuus+N+Sg+Ine: itusuuessa
     jatkuvuus+N+Sg+Ine: jatkuvuuessa
-    Raja-asukas+N+Sg+Ine: Raja-asukkaassa
+    raja-asukas+N+Sg+Ine: raja-asukkaassa
     aijas+N+Sg+Ine: aijaassa
     ankerias+N+Sg+Ine: ankeriaassa
     apilas+N+Sg+Ine: apilaassa

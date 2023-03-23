@@ -70,7 +70,7 @@ Tests:
     ärräpää+N+Sg+Par: ärräpäätä
     asepuu+N+Sg+Par: asepuuta
     äyrinmaa+N+Sg+Par: äyrinmaata
-    Takkaa-ajo+N+Sg+Par: Takkaa-ajoa
+    takkaa-ajo+N+Sg+Par: takkaa-ajoa
     a-malmi+N+Sg+Par: a-malmia
     ääkkä+N+Sg+Par: ääkkää
     aalto+N+Sg+Par: aaltoa
@@ -119,7 +119,7 @@ Tests:
     höttölumi+N+Sg+Par: höttölunta
     iloliemi+N+Sg+Par: ilolientä
     kalanliemi+N+Sg+Par: kalanlientä
-    kanhkaanloimi+N+Sg+Par: kanhkaanlointa
+    kankhaanloimi+N+Sg+Par: kankhaanlointa
     lähetystoimi+N+Sg+Par: lähetystointa
     liemi+N+Sg+Par: lientä
     lihaliemi+N+Sg+Par: lihalientä
@@ -130,7 +130,7 @@ Tests:
     iänkaikkisuus+N+Sg+Par: iänkaikkisuutta
     itusuus+N+Sg+Par: itusuutta
     jatkuvuus+N+Sg+Par: jatkuvuutta
-    Raja-asukas+N+Sg+Par: Raja-asukasta
+    raja-asukas+N+Sg+Par: raja-asukasta
     aijas+N+Sg+Par: aijasta
     ankerias+N+Sg+Par: ankeriasta
     apilas+N+Sg+Par: apilasta
