@@ -695,12 +695,42 @@ LEXICON n_uus
  +N+Pl+Tra:uuks TRA ;
  +N+Pl+Ess:uuks%>i2n^A PxK ;
 
+LEXICON n_yys
+!! **LEXICON @LEXNAME@**
+ +N+Sg+Nom:yys     R ;
+ +N+Sg+Gen:yye%>n R ;
+ +N+Sg+Nom:yys     PxK ;
+ +N+Sg+Gen:yye%>n PxK ;
+ +N+Sg+Par:yyt%>t^A PxK ;
+ +N+Sg+Ill:yyks%>hee n_PxK ;
+ +N+Sg+Ine:yy%>ess^A PxK ;
+ +N+Sg+Ela:yy%>est^A PxK ;
+ +N+Sg+All:yy%>elle PxxK ;
+ +N+Sg+Ade:yy%>ell^A PxK ;
+ +N+Sg+Abl:yy%>ell^A PxK ;
+ +N+Sg+Abe:yy%>ett^A PxK ;
+ +N+Sg+Ess:yyt%>en^A PxK ;
+ +N+Sg+Tra:yy TRA ;
 
+ +N+Pl+Nom:yy%>et PxK ;
+ +N+Pl+Gen:yyks%>i2en PxK ;
+ +N+Pl+Par:yyks%>i2^A PxK ;
+ +N+Pl+Ill:yyks%>hii n_PxK ;
+ +N+Pl+Ine:yyks%>i2ss^A PxK ;
+ +N+Pl+Ela:yyks%>i2st^A PxK ;
+ +N+Pl+All:yyks%>i2lle PxxK ;
+ +N+Pl+Ade:yyks%>i2ll^A PxK ;
+ +N+Pl+Abl:yyks%>i2lt^A PxK ;
+ +N+Pl+Abe:yyks%>i2tt^A PxK ;
+ +N+Pl+Tra:yyks TRA ;
+ +N+Pl+Ess:yyks%>i2n^A PxK ;
+ 
 !! ### 2-syllabic LNR final stems
 
 LEXICON 3n_lnr
 !! **LEXICON @LEXNAME@**
  +N+Sg+Ill:%>hee n_PxK ;
+ +N+Sg+Ine:%>ess^A PxK ;
  3n_lnr_inteill ; 
 
 LEXICON 30n_lnr
@@ -708,6 +738,7 @@ LEXICON 30n_lnr
  +N+Sg+Gen:%>hee n_PxK ;
  +N+Sg+Gen:^HMETA%>hee n_PxK ;
  +N+Sg+Ill:%>heeshee n_PxK ;
+ +N+Sg+Ine:%>heess^A PxK ;
  3n_lnr_inteill ; 
 
 LEXICON TYÄR
@@ -719,6 +750,7 @@ LEXICON 3xn_lnr
 !! **LEXICON @LEXNAME@** tyär, kort och lång Ill
  +N+Sg+Ill+Use/NG:%>heeshee n_PxK ;
  +N+Sg+Ill:%>hee n_PxK ;
+ +N+Sg+Ine:%>ess^A PxK ;
  3n_lnr_inteill ; 
 
 LEXICON 3n_lnr_inteill 
@@ -728,7 +760,7 @@ LEXICON 3n_lnr_inteill
  +N+Sg+Nom:^WG     PxK ;
  +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Par:^WG%>t^A PxK ;
- +N+Sg+Ine:%>ess^A PxK ;
+! +N+Sg+Ine:%>ess^A PxK ;
  +N+Sg+Ela:%>est^A PxK ;
  +N+Sg+All:%>elle PxxK ;
  +N+Sg+Ade:%>ell^A PxK ;

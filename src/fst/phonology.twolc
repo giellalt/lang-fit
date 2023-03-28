@@ -332,7 +332,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 !! **RULE: @RULENAME@**
 0:h <=> [.#.|#] Cns:* Vow h _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow h _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow h _  :e (Dummy:) %> (h) :e ;
+        [.#.|#] Cns:* Vow (Vow) h _  :e (Dummy:) %> (h) :e ;
 !       [.#.|#] Cns:* Vow h _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow h _  :i (Dummy:) %> (h) :i \:i ;
 !       [.#.|#] Cns:* Vow h _ i:  (Dummy:) %>  h  :i :i ;
