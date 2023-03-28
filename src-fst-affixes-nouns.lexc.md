@@ -193,6 +193,8 @@ Consonant stems
 
 **LEXICON n_uus**
 
+**LEXICON n_yys**
+
 ### 2-syllabic LNR final stems
 
 **LEXICON 3n_lnr**
