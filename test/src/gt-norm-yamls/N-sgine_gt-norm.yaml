@@ -28,18 +28,18 @@ Tests:
     jäänhalkein+N+Sg+Ine: jäänhalkeimessa
     jäsenyin+N+Sg+Ine: jäsenykimessä
     äänestys+N+Sg+Ine: äänestyksessä
-    äärettömyys+N+Sg+Ine: äärettömyyksessä
-    äes+N+Sg+Ine: äkeksessä
+    äärettömyys+N+Sg+Ine: [äärettömyyksessä, äärettömyyessä] 
+  #  äes+N+Sg+Ine: äkeksessä # VetEj
     ähmäänys+N+Sg+Ine: ähmäänyksessä
     ajos+N+Sg+Ine: ajoksessa
-    äkäsyys+N+Sg+Ine: äkäsyyksessä
+    äkäsyys+N+Sg+Ine: [äkäsyyksessä, äkäsyyessä]
     annos+N+Sg+Ine: annoksessa
     ahmajäsen+N+Sg+Ine: ahmajäsenessä
     ahven+N+Sg+Ine: ahvenessa
-    askel+N+Sg+Ine: askelessa
+    askel+N+Sg+Ine: askelheessa
     höyhen+N+Sg+Ine: höyhenessä
     isosisar+N+Sg+Ine: isosisaressa
-    jääntanner+N+Sg+Ine: jääntanteressa
+    jääntanner+N+Sg+Ine: jääntanterheessa
     jalkatyär+N+Sg+Ine: jalkatyttäressä
     ahneus+N+Sg+Ine: ahneuessa
     falskeus+N+Sg+Ine: falskeuessa
@@ -75,11 +75,11 @@ Tests:
     abortti+N+Sg+Ine: abortissa
     aho+N+Sg+Ine: ahossa
     äijäfaari+N+Sg+Ine: äijäfaarissa
-    aihe+N+Sg+Ine: aiheessa
-    äile+N+Sg+Ine: äileessä
-    aine+N+Sg+Ine: aineessa
-    alote+N+Sg+Ine: alotteessa
-    alue+N+Sg+Ine: alueessa
+    aihe+N+Sg+Ine: aihheessa
+    äile+N+Sg+Ine: [äilheessä, äihleessä]
+    aine+N+Sg+Ine: [aihneessa, ainheessa]
+    alote+N+Sg+Ine: alotheessa
+    alue+N+Sg+Ine: aluheessa
     akleija+N+Sg+Ine: akleijassa
     äkseerinki+N+Sg+Ine: äkseeringissä
     almunakka+N+Sg+Ine: almunakassa
@@ -100,7 +100,7 @@ Tests:
     färivesi+N+Sg+Ine: färiveessä
     hangonvarsi+N+Sg+Ine: hangonvarressa
     hirsi+N+Sg+Ine: hirressä
-    ikävuosi+N+Sg+Ine: ikävuoessa
+    ikävuosi+N+Sg+Ine: [ikävuoessa, ikävuessa]
     ilovesi+N+Sg+Ine: iloveessä
     imulapsi+N+Sg+Ine: imulapsessa
     irtilapsi+N+Sg+Ine: irtilapsessa
@@ -122,12 +122,12 @@ Tests:
     iänkaikkisuus+N+Sg+Ine: iänkaikkisuuessa
     itusuus+N+Sg+Ine: itusuuessa
     jatkuvuus+N+Sg+Ine: jatkuvuuessa
-    raja-asukas+N+Sg+Ine: raja-asukkaassa
-    aijas+N+Sg+Ine: aijaassa
-    ankerias+N+Sg+Ine: ankeriaassa
-    apilas+N+Sg+Ine: apilaassa
-    asukas+N+Sg+Ine: asukkaassa
-    ehokas+N+Sg+Ine: ehokkaassa
+    raja-asukas+N+Sg+Ine: raja-asukhaassa
+    # aijas+N+Sg+Ine: aijaassa # VetEj
+    ankerias+N+Sg+Ine: ankerihaassa
+    apilas+N+Sg+Ine: apilhaassa
+    asukas+N+Sg+Ine: asukhaassa
+    ehokas+N+Sg+Ine: ehokhaassa
     evankeeljum+N+Sg+Ine: evankeeljumissa
     Antinpäivä+N+Sg+Ine: Antinpäivässä
     Kruunu+N+Sg+Ine: Kruunussa

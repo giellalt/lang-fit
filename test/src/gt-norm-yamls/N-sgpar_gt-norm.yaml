@@ -29,11 +29,11 @@ Tests:
     jäsenyin+N+Sg+Par: jäsenyintä
     jaskin+N+Sg+Par: jaskinta
     äänestys+N+Sg+Par: äänestystä
-    äärettömyys+N+Sg+Par: äärettömyystä
-    äes+N+Sg+Par: äkestä
+    äärettömyys+N+Sg+Par: äärettömyyttä
+    # äes+N+Sg+Par: äkestä # VetEj
     ähmäänys+N+Sg+Par: ähmäänystä
     ajos+N+Sg+Par: ajosta
-    äkäsyys+N+Sg+Par: äkäsyystä
+    äkäsyys+N+Sg+Par: äkäsyyttä
     annos+N+Sg+Par: annosta
     ahmajäsen+N+Sg+Par: ahmajäsentä
     ahven+N+Sg+Par: ahventa
@@ -91,7 +91,7 @@ Tests:
     ämmäkkö+N+Sg+Par: ämmäkköä
     ammunta+N+Sg+Par: ammuntaa
     anikka+N+Sg+Par: anikkaa
-    ääri+N+Sg+Par: ääreä
+    ääri+N+Sg+Par: äärtä
     äitiväki+N+Sg+Par: äitiväkeä
     ehontähti+N+Sg+Par: ehontähteä
     ehtotähti+N+Sg+Par: ehtotähteä
@@ -119,8 +119,8 @@ Tests:
     höttölumi+N+Sg+Par: höttölunta
     iloliemi+N+Sg+Par: ilolientä
     kalanliemi+N+Sg+Par: kalanlientä
-    kankhaanloimi+N+Sg+Par: kankhaanlointa
-    lähetystoimi+N+Sg+Par: lähetystointa
+    kankhaanloimi+N+Sg+Par: [kankhaanlointa, kankhaanloimea]
+    lähetystoimi+N+Sg+Par: [lähetystointa, lähetystoimea]
     liemi+N+Sg+Par: lientä
     lihaliemi+N+Sg+Par: lihalientä
     auttavaisuus+N+Sg+Par: auttavaisuutta
