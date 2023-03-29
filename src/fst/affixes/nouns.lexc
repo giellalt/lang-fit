@@ -615,14 +615,14 @@ LEXICON xnas_sg ! ankerias:ankeria
  +Sg+Gen:^HMETA%>h^V^Vn PxK ;
  +Sg+Par:^WGs%>t^A PxK ;
  +Sg+Ill:^HMETA%>h^V^Vshee n_PxK ;
- +Sg+Ine:%>^Vss^A PxK ;
- +Sg+Ela:%>^Vst^A PxK ;
- +Sg+All:%>^Vlle PxxK ;
- +Sg+Ade:%>^Vll^A PxK ;
- +Sg+Abl:%>^Vll^A PxK ;
- +Sg+Abe:%>^Vtt^A PxK ;
- +Sg+Ess:%>^Vn^A PxK ;
- +Sg+Tra:%>^V TRA ;
+ +Sg+Ine:^HMETA%>h^V^Vss^A PxK ;
+ +Sg+Ela:^HMETA%>h^V^Vst^A PxK ;
+ +Sg+All:^HMETA%>h^V^Vlle PxxK ;
+ +Sg+Ade:^HMETA%>h^V^Vll^A PxK ;
+ +Sg+Abl:^HMETA%>h^V^Vll^A PxK ;
+ +Sg+Abe:^HMETA%>h^V^Vtt^A PxK ;
+ +Sg+Ess:^HMETA%>h^V^Vn^A PxK ;
+ +Sg+Tra:^HMETA%>h^V^V TRA ;
 
 LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
