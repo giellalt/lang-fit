@@ -46,15 +46,15 @@ Consonant stems
 
 **LEXICON n0_pl** for plurals of the same: *häät*
 
-**LEXICON n0_pl** splitting to sg and pl
+**LEXICON x0** splitting to sg and pl
 
-**LEXICON n0_pl** sg forms x0 point here
+**LEXICON x0_sg** sg forms x0 point here
 * +Sg+Nom: PxK ; points to Px for noun
 *  x0_sg_oblique ; points to oblique
 
-**LEXICON n0_pl** for oblique case forms in sg
+**LEXICON x0_sg_oblique** for oblique case forms in sg
 
-**LEXICON n0_pl** for plural case forms
+**LEXICON x0_pl** for plural case forms
 
 **LEXICON n1** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
