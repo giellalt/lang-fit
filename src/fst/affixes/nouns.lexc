@@ -67,17 +67,17 @@ LEXICON n0_pl ! häät
 !! **LEXICON @LEXNAME@** for plurals of the same: *häät*
  +N: x0_pl ;
 
- LEXICON x0
+LEXICON x0
  !! **LEXICON @LEXNAME@** splitting to sg and pl
  x0_sg ;
  x0_pl ;
 
- LEXICON x0_sg
+LEXICON x0_sg
  !! **LEXICON @LEXNAME@** sg forms x0 point here
   +Sg+Nom:       PxK ; !!≈ * @CODE@ points to Px for noun
   x0_sg_oblique ; !!≈ *  @CODE@ points to oblique
 
- LEXICON x0_sg_oblique
+LEXICON x0_sg_oblique
  !! **LEXICON @LEXNAME@** for oblique case forms in sg
   +Sg+Gen:%>n PxK ;
   +Sg+Par:%>t^A PxK ;
@@ -91,7 +91,7 @@ LEXICON n0_pl ! häät
   +Sg+Ess:%>n^A PxK ;          ! maana
   +Sg+Abe:%>tt^A PxK ;      ! maatta
 
- LEXICON x0_pl
+LEXICON x0_pl
  !! **LEXICON @LEXNAME@** for plural case forms
   +Pl+Nom:%>t PxK ;
   +Pl+Gen:%>i2tten PxK ;
@@ -181,16 +181,16 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 !! **LEXICON @LEXNAME@** the sg
  +Sg+Nom:^WG      KK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
- +Sg+Gen:he%>en    PxK ; ! liikheen, säkheen fix liikkehen
+ +Sg+Gen:^WGh%>een    PxK ; ! liikheen, säkheen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheen, säkheen liikheesheen
+ +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
  +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä
  +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheessä, säkheessä
  +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
  +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
  +Sg+Abl:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
- +Sg+Tra:%>e TRA ;
- +Sg+Ess:%>en^A PxK ;
+ +Sg+Tra:^WGh%>ee TRA ;
+ +Sg+Ess:^WGh%>een^A PxK ;
  +Sg+Abe:%>ett^A PxK ;
 
 LEXICON x2_pl
