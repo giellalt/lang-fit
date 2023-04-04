@@ -184,7 +184,8 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Gen:^WGh%>een    PxK ; ! liikheen, säkheen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
  +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
- +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä
+ +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
+ +Sg+Ine:^HMETA%>heess^A   PxK ; ! liikheessä, säkheessä NY för aihneessa 
  +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheessä, säkheessä
  +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
  +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
