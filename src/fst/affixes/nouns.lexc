@@ -921,8 +921,10 @@ LEXICON n1-troppi
 LEXICON n5_vuosi
 !! **LEXICON @LEXNAME@** vuosi, stem ELLER vu
  +N:ote x4 ;
- +N+Sg+Ine:^WG%>ess^A PxK ;
  +N+Sg+Nom:osi       PxK ; ! vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
+ +N+Sg+Ine:^WG%>ess^A PxK ;
+ +N+Sg+Ela:^WG%>est^A PxK ;
  +N+Nom:osi R ;
- +N+Gen:oe%>n R ;
+ +N+Sg+Gen:e%>n PxK ;
+ +N+Sg+Tra:^WG%>e TRA ;
