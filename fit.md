@@ -1354,6 +1354,8 @@ tropin
 
 troppia?
 
+**LEXICON n5_vuosi** vuosi, stem ELLER vu
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)</small>
