@@ -917,3 +917,12 @@ LEXICON n1-troppi
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>itt^A PxK ;
  
+!!TEMPORÄRT lexikon för vuosi > vuoessa/vuessa
+LEXICON n5_vuosi
+!! **LEXICON @LEXNAME@** vuosi, stem ELLER vu
+ +N:ote x4 ;
+ +N+Sg+Ine:^WG%>ess^A PxK ;
+ +N+Sg+Nom:osi       PxK ; ! vuosi
+ +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
+ +N+Nom:osi R ;
+ +N+Gen:oe%>n R ;
