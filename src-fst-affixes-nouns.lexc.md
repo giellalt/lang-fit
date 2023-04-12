@@ -13,10 +13,10 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 Consonant stems
 
 * n4 = i:e nouns: suomi, kivi
-* n5 = i:e nons, cns stems  kieli : kielen : kieltä
+* n5 = i:e nouns, cns stems  kieli : kielen : kieltä
 * n5_lumi = lumi : lumen : lunta
 * n5_kasi = käsi : käden : kättä
-* n4_lapsi = lapsi : lapsen : lasta
+* n5_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
 * nc = cvc
@@ -74,7 +74,7 @@ Consonant stems
 
 **LEXICON x1_pl** the pl forms
 
-**LEXICON n2**  vene
+**LEXICON n2**  vene, liike, säe
 
 **LEXICON n2_pl**  vehkheet
 
@@ -88,7 +88,7 @@ Consonant stems
 
 **LEXICON xnc**
 
-**LEXICON n3**  kanava
+**LEXICON n3**  odd-syllabic: kanava
 
 **LEXICON n3_pl**  haalarit
 
@@ -126,7 +126,7 @@ Consonant stems
 
 #### The nainen (nen) and hevonen (3nen) family
 
-**LEXICON nen**
+**LEXICON nen** bisyllabic nainen stem nai
 
 **LEXICON nen_sg**
 
@@ -139,7 +139,7 @@ Consonant stems
 
 **LEXICON xnen_pl**
 
-**LEXICON 3nen**
+**LEXICON 3nen** odd-syllabic hevonen stem hevose
 
 **LEXICON x3nen**
 
