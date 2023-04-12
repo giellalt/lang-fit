@@ -14,10 +14,10 @@
 !! Consonant stems
 
 !! * n4 = i:e nouns: suomi, kivi
-!! * n5 = i:e nons, cns stems  kieli : kielen : kieltä
+!! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä
 !! * n5_lumi = lumi : lumen : lunta
 !! * n5_kasi = käsi : käden : kättä
-!! * n4_lapsi = lapsi : lapsen : lasta
+!! * n5_lapsi = lapsi : lapsen : lasta
 
 !! * n_uus = vajavuus
 !! * nc = cvc
@@ -163,7 +163,7 @@ LEXICON x1_pl
  +Pl+Abe:^WG%>i2tt^A PxK ;
 
 LEXICON n2
-!! **LEXICON @LEXNAME@**  vene
+!! **LEXICON @LEXNAME@**  vene, liike, säe
  +N: x2 ;
  +N+Nom: R ;
  +N+Gen:he%>en R ;
@@ -185,7 +185,7 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Gen:^HMETA%>heen    PxK ; ! NY
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
  +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
- ! +Sg+Ill:^HMETA%>heeshee     n_PxK ; ! NY aihneesheen VetEj
+ ! +Sg+Ill:^HMETA%>heeshee     n_PxK ; ! Ska det vara aihneesheen? VetEj
  +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
  +Sg+Ine:^HMETA%>heess^A   PxK ; ! NY för aihneessa 
  +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
@@ -219,7 +219,7 @@ LEXICON x2_pl
  +Pl+Ess:%>ei2n^A PxK ;
  +Pl+Abe:%>ei2tt^A PxK ;
 
-LEXICON 3nc
+LEXICON 3nc ! jiddisch
 !! **LEXICON @LEXNAME@**
 +N: xnc ;
 
@@ -229,8 +229,8 @@ LEXICON xnc
  :i x3_oblique_sg ; ! jiddischin
  :i x3_pl ;         ! jiddischit
 
-LEXICON n3
-!! **LEXICON @LEXNAME@**  kanava
+LEXICON n3 
+!! **LEXICON @LEXNAME@**  odd-syllabic: kanava
  +N: x3 ;
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
@@ -297,16 +297,16 @@ LEXICON n4
 LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
  +N: x4 ;
- +N+Sg+Nom:^E2I       PxK ; ! veri
- +N+Sg+Par:%>t^A      PxK ; ! verta
+ +N+Sg+Nom:^E2I       PxK ; ! kieli
+ +N+Sg+Par:%>t^A      PxK ; ! kieltä
  +N+Nom:^E2I R ;
  +N+Gen:^WG%>n R ;
 
 LEXICON n5_lumi
 !! **LEXICON @LEXNAME@** lumi, stem lu
  +N:me x4 ;
- +N+Sg+Nom:mi       PxK ; ! veri
- +N+Sg+Par:ne%>t^A      PxK ; ! verta
+ +N+Sg+Nom:mi       PxK ; ! lumi
+ +N+Sg+Par:ne%>t^A      PxK ; ! lunta
  +N+Nom:mi R ;
  +N+Gen:me%>n R ;
 
@@ -366,9 +366,9 @@ LEXICON n5_lapsi
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:psi R ;
 +N+Sg+Gen:pse%>n R ;
-+N+Sg+Nom:psi       PxK ; ! veri
-+N+Sg+Gen:pse%>n     PxK ; ! veren
-+N+Sg+Par:s%>t^A      PxK ; ! verta
++N+Sg+Nom:psi       PxK ; ! lapsi
++N+Sg+Gen:pse%>n     PxK ; ! lapsen
++N+Sg+Par:s%>t^A      PxK ; ! lasta
 +N+Sg+Ill:ps%>hee n_PxK ;
 +N+Sg+Ine:pse%>ss^A PxK ;
 +N+Sg+Ela:pse%>st^A PxK ;
@@ -396,7 +396,7 @@ LEXICON n5_lapsi
 !! #### The nainen (nen) and hevonen (3nen) family
 
 LEXICON nen
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** bisyllabic nainen stem nai
 nen_sg ;
 nen_pl ;
 
@@ -427,7 +427,7 @@ LEXICON xnen_pl
  xnen_common_pl ; ! all other cases
 
 LEXICON 3nen
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** odd-syllabic hevonen stem hevose
 +N: x3nen ;
 +N+Sg+Gen:s R ;
 
