@@ -28,12 +28,12 @@ Tests:
     jäänhalkein+N+Sg+Ess: jäänhalkeimena
     jäsenyin+N+Sg+Ess: jäsenykimenä
     ahmajäsen+N+Sg+Ess: ahmajäsenenä
-    ahven+N+Sg+Ess: ahvenena
-    askel+N+Sg+Ess: askelena
+    ahven+N+Sg+Ess: ahvenheena
+    askel+N+Sg+Ess: askelheena
     höyhen+N+Sg+Ess: höyhenenä
     isosisar+N+Sg+Ess: isosisarena
-    jääntanner+N+Sg+Ess: jääntanterena
-    jalkatyär+N+Sg+Ess: jalkatytärenä
+    jääntanner+N+Sg+Ess: jääntanterheena
+    jalkatyär+N+Sg+Ess: jalkatyttärenä
     ahneus+N+Sg+Ess: ahneutena
     falskeus+N+Sg+Ess: falskeutena
     fariseeus+N+Sg+Ess: fariseeutena
@@ -74,14 +74,14 @@ Tests:
     abortti+N+Sg+Ess: aborttina
     aho+N+Sg+Ess: ahona
     äijäfaari+N+Sg+Ess: äijäfaarina
-    aihe+N+Sg+Ess: aiheena
-    äile+N+Sg+Ess: äileenä
-    aine+N+Sg+Ess: aineena
-    alote+N+Sg+Ess: alotteena
-    alue+N+Sg+Ess: alueena
+    aihe+N+Sg+Ess: aihheena
+    äile+N+Sg+Ess: äilheenä
+    aine+N+Sg+Ess: ainheena
+    alote+N+Sg+Ess: alotheena
+    alue+N+Sg+Ess: aluheena
     akleija+N+Sg+Ess: akleijanna
-    äkseerinki+N+Sg+Ess: äkseerinkinnä
-    almunakka+N+Sg+Ess: almunakkanna
+    äkseerinki+N+Sg+Ess: äkseerinkinä
+    almunakka+N+Sg+Ess: almunakkana
     alttari+N+Sg+Ess: alttarinna
     ämmäkkö+N+Sg+Ess: ämmäkkönnä
     ammunta+N+Sg+Ess: ammuntanna
@@ -99,7 +99,7 @@ Tests:
     färivesi+N+Sg+Ess: färivetenä
     hangonvarsi+N+Sg+Ess: hangonvartena
     hirsi+N+Sg+Ess: hirtenä
-    ikävuosi+N+Sg+Ess: ikävuotena
+    ikävuosi+N+Sg+Ess: [ikävuotena, ikävuona]
     ilovesi+N+Sg+Ess: ilovetenä
     imulapsi+N+Sg+Ess: imulapsena
     irtilapsi+N+Sg+Ess: irtilapsena
@@ -121,12 +121,12 @@ Tests:
     iänkaikkisuus+N+Sg+Ess: iänkaikkisuutena
     itusuus+N+Sg+Ess: itusuutena
     jatkuvuus+N+Sg+Ess: jatkuvuutena
-    raja-asukas+N+Sg+Ess: raja-asukkaana
-    aijas+N+Sg+Ess: aijaana
-    ankerias+N+Sg+Ess: ankeriaana
-    apilas+N+Sg+Ess: apilaana
-    asukas+N+Sg+Ess: asukkaana
-    ehokas+N+Sg+Ess: ehokkaana
+    raja-asukas+N+Sg+Ess: raja-asukhaana
+    aijas+N+Sg+Ess: aijhaana
+    ankerias+N+Sg+Ess: ankerihaana
+    apilas+N+Sg+Ess: apilhaana
+    asukas+N+Sg+Ess: asukhaana
+    ehokas+N+Sg+Ess: ehokhaana
     evankeeljum+N+Sg+Ess: evankeeljumina
     Antinpäivä+N+Sg+Ess: Antinpäivänä
     Kruunu+N+Sg+Ess: Kruununa
