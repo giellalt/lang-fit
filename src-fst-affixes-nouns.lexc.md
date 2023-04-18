@@ -240,10 +240,9 @@ LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 **LEXICON Px-Vn**
 
 GE + LL 230208
-**LEXICON n1-troppi**
+**LEXICON n1_troppi**
 troppi
 tropin
-
 troppia?
 
 **LEXICON n5_vuosi** vuosi, stem ELLER vu
