@@ -894,14 +894,13 @@ LEXICON Px-Vn
  +PxPl3:%>%^Vn K ;
 
 !! HÖGST temporärt!!! GE + LL 230208
-LEXICON n1-troppi
+LEXICON n1_troppi
 !! **LEXICON @LEXNAME@**
 ! +N: x1 ;  !! troppi
 +N+Sg+Nom:       PxK ; !! troppi
 +N+Nom: R ;
 +N+Sg+Gen:^WG%>n R ;
 +N+Sg+Gen:^WG%>n PxK ; !! tropin
-
 +N+Sg+Par:%>^A PxK ; !! troppia?
 +N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
 +N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
@@ -909,24 +908,21 @@ LEXICON n1-troppi
 +N+Sg+All:^WG%>le PxxK ;        ! tropile
 +N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
 +N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
-+N+Sg+Tra:^WG TRA ;             ! tropiks, tropiksi
++N+Sg+Tra:^WG TRA ;             ! tropiksi
 +N+Sg+Ess:%>n^A PxK ;           ! troppina
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%>t PxK ;
 +N+Pl+Gen:^WG^IDEL%>i2tten PxK ; ! nu: troppitten rätt: tropitten
 +N+Pl+Gen+Err/Orth:%>i2en PxK ;
-!+N+Pl+Par:%>i2^A PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
-
-+N+Pl+Ill:^HMETA%>h^Vi n_PxK ;  ! talhoin
++N+Pl+Ill:^HMETA%>h^Vi n_PxK ;  
 +N+Pl+Ine:^WG%>i2ss^A PxK ;
 +N+Pl+Ela:^WG%>i2st^A PxK ;
 +N+Pl+All:^WG%>i2le PxxK ;
 +N+Pl+Ade:^WG%>i2l^A PxK ;
 +N+Pl+Abl:^WG%>i2lt^A PxK ;
 +N+Pl+Tra:^WG%>i2 TRA ;
-! +N+Pl+Ess:%>i2n^A PxK ;  ! nu: ---     rätt: troppina
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>itt^A PxK ;
  

@@ -7912,7 +7912,7 @@ jäniksenkatupuojinknappi:jäniksenkatupuojin#knappi nx ;
 liivinknappi:liivin#knappi nx ;
 luuknappi:luu#knappi nx ;
 puuknappi:puu#knappi nx ;
-pappi:pappi nx ;
+pappi:pappi n1_troppi ;
 tappi:tappi nx ;
 ketarantappi:ketaran#tappi nx ;
 pohjasentappi:pohjasen#tappi nx ;
@@ -7970,7 +7970,7 @@ poppi:poppi nx ;
 kroppi:kroppi nx ;
 proppi:proppi nx ;
 !troppi:troppi nx ;
-troppi:troppi n1-troppi ;   ! GE & LL labbar
+troppi:troppi n1_troppi ;   ! GE & LL labbar
 toppi:toppi nx ;
 tuoppi:tuoppi nx ;
 piimätuoppi:piimätuoppi nx ;
