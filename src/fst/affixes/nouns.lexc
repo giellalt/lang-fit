@@ -310,6 +310,11 @@ LEXICON n5_lumi
  +N+Nom:mi R ;
  +N+Gen:me%>n R ;
 
+LEXICON n5_loimi 
+!! **LEXICON @LEXNAME@** loimi, stem loi, som n5_lumi PLUS partitiv loimea
+n5_lumi ;
++N+Sg+Par:me%>^A      PxK ; ! lunta
+
 LEXICON n5_kasi
 !! **LEXICON @LEXNAME@** käsi, stem kä
  +N:te x4 ;
