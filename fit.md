@@ -1218,6 +1218,8 @@ Consonant stems
 
 **LEXICON n5_lumi** lumi, stem lu
 
+**LEXICON n5_loimi** loimi, stem loi, som n5_lumi PLUS partitiv loimea
+
 **LEXICON n5_kasi** käsi, stem kä
 
 **LEXICON n5_pl**
