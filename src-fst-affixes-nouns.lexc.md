@@ -199,7 +199,7 @@ Consonant stems
 
 ### 2-syllabic LNR final stems
 
-**LEXICON 3n_lnr**
+**LEXICON 3n_lnr** ahven - ahvenheen
 
 **LEXICON 30n_lnr** askel - askelheesheen
 
