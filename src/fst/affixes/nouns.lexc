@@ -182,24 +182,24 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Nom:^WG      KK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
  +Sg+Gen:^WGh%>een    PxK ; ! liikheen, säkheen
- +Sg+Gen:^HMETA%>heen    PxK ; ! NY
+ !+Sg+Gen:^HMETA%>heen    PxK ; ! aihneen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
  +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
- ! +Sg+Ill:^HMETA%>heeshee     n_PxK ; ! Ska det vara aihneesheen? VetEj
+ !+Sg+Ill:^HMETA%>heeshee     n_PxK ; ! aihneesheen
  +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
- +Sg+Ine:^HMETA%>heess^A   PxK ; ! NY för aihneessa 
+ !+Sg+Ine:^HMETA%>heess^A   PxK ; ! NY aihneessa 
  +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
- +Sg+Ela:^HMETA%>heest^A   PxK ; ! NYny för aihneesta
+ !+Sg+Ela:^HMETA%>heest^A   PxK ; ! NY aihneesta
  +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
- +Sg+All:^HMETA%>heele    PxxK ; ! NY
+ !+Sg+All:^HMETA%>heele    PxxK ; ! NY
  +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
- +Sg+Ade:^HMETA%>heel^A    PxK ; ! NY
+ !+Sg+Ade:^HMETA%>heel^A    PxK ; ! NY
  +Sg+Abl:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
- +Sg+Abl:^HMETA%>heelt^A   PxK ; ! NY
+ !+Sg+Abl:^HMETA%>heelt^A   PxK ; ! NY
  +Sg+Tra:^WGh%>ee TRA ;
- +Sg+Tra:^HMETA%>hee TRA ; ! NY
+ !+Sg+Tra:^HMETA%>hee TRA ; ! NY
  +Sg+Ess:^WGh%>een^A PxK ;
- +Sg+Ess:^HMETA%>heen^A PxK ; ! NY
+ !+Sg+Ess:^HMETA%>heen^A PxK ; ! NY
  +Sg+Abe:%>ett^A PxK ;
 
 LEXICON x2_pl
@@ -633,7 +633,7 @@ LEXICON xnas_sg ! ankerias:ankeria
  +Sg+Ela:^HMETA%>h^V^Vst^A PxK ;
  +Sg+All:^HMETA%>h^V^Vlle PxxK ;
  +Sg+Ade:^HMETA%>h^V^Vll^A PxK ;
- +Sg+Abl:^HMETA%>h^V^Vll^A PxK ;
+ +Sg+Abl:^HMETA%>h^V^Vlt^A PxK ;
  +Sg+Abe:^HMETA%>h^V^Vtt^A PxK ;
  +Sg+Ess:^HMETA%>h^V^Vn^A PxK ;
  +Sg+Tra:^HMETA%>h^V^V TRA ;
@@ -716,7 +716,7 @@ LEXICON n_yys
  +N+Sg+Nom:yys     PxK ;
  +N+Sg+Gen:yye%>n PxK ;
  +N+Sg+Par:yyt%>t^A PxK ;
- +N+Sg+Ill:yyks%>hee n_PxK ;
+ +N+Sg+Ill:yyt%>hee n_PxK ;
  +N+Sg+Ine:yy%>ess^A PxK ;
  +N+Sg+Ela:yy%>est^A PxK ;
  +N+Sg+All:yy%>elle PxxK ;

@@ -117,12 +117,12 @@ Tests:
     kasvattilapsi+N+Sg+Par: kasvattilasta
     kusilapsi+N+Sg+Par: kusilasta
     höttölumi+N+Sg+Par: höttölunta
-    iloliemi+N+Sg+Par: ilolientä
-    kalanliemi+N+Sg+Par: kalanlientä
+    iloliemi+N+Sg+Par: [ilolientä, iloliemeä]
+    kalanliemi+N+Sg+Par: [kalanlientä, kalanliemeä]
     kankhaanloimi+N+Sg+Par: [kankhaanlointa, kankhaanloimea]
     lähetystoimi+N+Sg+Par: [lähetystointa, lähetystoimea]
-    liemi+N+Sg+Par: lientä
-    lihaliemi+N+Sg+Par: lihalientä
+    liemi+N+Sg+Par: [lientä, liemeä]
+    lihaliemi+N+Sg+Par: [lihalientä, lihaliemeä]
     auttavaisuus+N+Sg+Par: auttavaisuutta
     hankaluus+N+Sg+Par: hankaluutta
     hiljaisuus+N+Sg+Par: hiljaisuutta
