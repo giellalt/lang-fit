@@ -229,6 +229,7 @@ LEXICON xnc
  :i x3_oblique_sg ; ! jiddischin
  :i x3_pl ;         ! jiddischit
 
+
 LEXICON n3 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava
  +N: x3 ;
@@ -938,6 +939,7 @@ LEXICON n5_vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
  +N+Sg+Ine:^WG%>ess^A PxK ;
  +N+Sg+Ela:^WG%>est^A PxK ;
+ +N+Sg+Ess:o%>n^A PxK ;
  +N+Nom:osi R ;
  +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Tra:^WG%>e TRA ;
