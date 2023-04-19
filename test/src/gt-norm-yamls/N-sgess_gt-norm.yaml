@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - sgess: # 7 x contlex sg ess -- inte kontrollerad 
+  Noun - sgess: # 7 x contlex sg ess -- kontrollerad av Elina
     afäärimies+N+Sg+Ess: afäärimiehenä
     eusmies+N+Sg+Ess: eusmiehenä
     frahtimies+N+Sg+Ess: frahtimiehenä
@@ -42,26 +42,12 @@ Tests:
     ilfheys+N+Sg+Ess: ilfheytenä
     ilkeys+N+Sg+Ess: ilkeytenä
     jiddisch+N+Sg+Ess: jiddischinnä
-    äärheinen+N+Sg+Ess: äärheisennä
-    äärheinen+N+Sg+Ess: äärheisenä
-    äärheinen+N+Sg+Ess: äärheisennä
-    äärheinen+N+Sg+Ess: äärheisenä
-    ainukainen+N+Sg+Ess: ainukaisena
-    ainukainen+N+Sg+Ess: ainukaisenna
-    ainukainen+N+Sg+Ess: ainukaisena
-    ainukainen+N+Sg+Ess: ainukaisenna
-    ammuminen+N+Sg+Ess: ammumisena
-    ammuminen+N+Sg+Ess: ammumisenna
-    ammuminen+N+Sg+Ess: ammumisena
-    ammuminen+N+Sg+Ess: ammumisenna
-    ampiainen+N+Sg+Ess: ampiaisena
-    ampiainen+N+Sg+Ess: ampiaisenna
-    ampiainen+N+Sg+Ess: ampiaisena
-    ampiainen+N+Sg+Ess: ampiaisenna
-    ästiitiäinen+N+Sg+Ess: ästiitiäisennä
-    ästiitiäinen+N+Sg+Ess: ästiitiäisenä
-    äykiäinen+N+Sg+Ess: äykiäisennä
-    äykiäinen+N+Sg+Ess: äykiäisenä
+    äärheinen+N+Sg+Ess: [äärheisennä, äärheisenä]
+    ainukainen+N+Sg+Ess: [ainukaisena, ainukaisenna]
+    ammuminen+N+Sg+Ess: [ammumisena, ammumisenna]
+    ampiainen+N+Sg+Ess: [ampiaisena, ampiaisenna]
+    ästiitiäinen+N+Sg+Ess: [ästiitiäisennä, ästiitiäisenä]
+    äykiäinen+N+Sg+Ess: [äykiäisennä, äykiäisenä]
     aamuvyö+N+Sg+Ess: aamuvyönä
     äkäpää+N+Sg+Ess: äkäpäänä
     äkkipää+N+Sg+Ess: äkkipäänä
