@@ -786,7 +786,7 @@ o:0 <=> _ %^HMETA: ;  ! deletion before metathesis h"
 !! ###  ö rules
 "ö:0"
 !! **RULE: @RULENAME@**
-ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ; !  deletion before metathesis h
+ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns: _ %^HMETA: ; !  deletion before metathesis h
 
 !! **Tests:**
 

@@ -15,23 +15,18 @@ Tests:
 
 
   Noun - nensgade: # sg ade -- inte kontrollerad 
-    laskiainen+N+Sg+Ade: laskiaiselä
+    laskiainen+N+Sg+Ade: laskiaisela
     tuliainen+N+Sg+Ade: tuliaisela
-    tuliainen+N+Sg+Ade: tuliaiselä
-    loppiainen+N+Sg+Ade: loppiaiselä
+    loppiainen+N+Sg+Ade: loppiaisela
     lantalainen+N+Sg+Ade: lantalaisela
-    lantalainen+N+Sg+Ade: lantalaiselä
     pistianen+N+Sg+Ade: pistiasela
     viranomhainen+N+Sg+Ade: viranomaisela
     viranomhainen+N+Sg+Ade: viranomhaisela
     helluntaiainen+N+Sg+Ade: helluntaiaisela
     nahkiainen+N+Sg+Ade: nahkiaisela
     paukkiainen+N+Sg+Ade: paukkiaisela
-    laskiainen+N+Sg+Ade: laskiaisela
-    laskiainen+N+Sg+Ade: laskiaiselä
     hulliainen+N+Sg+Ade: hulliaisela
     tuliainen+N+Sg+Ade: tuliaisela
-    tuliainen+N+Sg+Ade: tuliaiselä
     tuhniainen+N+Sg+Ade: tuhniaisela
     painiainen+N+Sg+Ade: painiaisela
     ponniainen+N+Sg+Ade: ponniaisela
@@ -88,8 +83,6 @@ Tests:
     kerjulappalainen+N+Sg+Ade: kerjulappalaisela
     saksalainen+N+Sg+Ade: saksalaisela
     kansalainen+N+Sg+Ade: kansalaisela
-    lantalainen+N+Sg+Ade: lantalaisela
-    lantalainen+N+Sg+Ade: lantalaiselä
     kulkulantalainen+N+Sg+Ade: kulkulantalaisela
     pithäänrantalainen+N+Sg+Ade: pithäänrantalaisela
     mustalainen+N+Sg+Ade: mustalaisela
@@ -149,7 +142,7 @@ Tests:
     turkinpunainen+N+Sg+Ade: turkinpunaisela
     kottarainen+N+Sg+Ade: kottaraisela
     kierainen+N+Sg+Ade: kieraisela
-    piirainen+N+Sg+Ade: piiraisela
+    piirainen+N+Sg+Ade: piiraisella
     kaakurainen+N+Sg+Ade: kaakuraisela
     kiekurainen+N+Sg+Ade: kiekuraisela
     tuppurainen+N+Sg+Ade: tuppuraisela
@@ -189,7 +182,7 @@ Tests:
     vuosipalkolinen+N+Sg+Ade: vuosipalkolisela
     ehtoolinen+N+Sg+Ade: ehtoolisela
     otolinen+N+Sg+Ade: otolisela
-    puolinen+N+Sg+Ade: puolisela
+    puolinen+N+Sg+Ade: puolisella
     pintapuolinen+N+Sg+Ade: pintapuolisela
     paikulinen+N+Sg+Ade: paikulisela
     kiululinen+N+Sg+Ade: kiululisela
