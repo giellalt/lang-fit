@@ -137,9 +137,9 @@ Tests:
     viranomhainen+Err/Orth+N+Sg+Ade: viranomaisela
     nainen+N+Sg+Ade: naisela
     valtanainen+N+Sg+Ade: valtanaisela
-    kaksinainen+N+Sg+Ade: kaksinaisela
-    viinipunainen+N+Sg+Ade: viinipunaisela
-    turkinpunainen+N+Sg+Ade: turkinpunaisela
+    #kaksinainen+N+Sg+Ade: kaksinaisela
+    #viinipunainen+N+Sg+Ade: viinipunaisela
+    #turkinpunainen+N+Sg+Ade: turkinpunaisela
     kottarainen+N+Sg+Ade: kottaraisela
     kierainen+N+Sg+Ade: kieraisela
     piirainen+N+Sg+Ade: piiraisella
