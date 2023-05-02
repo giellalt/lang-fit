@@ -409,8 +409,8 @@ nen_pl ;
 LEXICON nen_sg
 !! **LEXICON @LEXNAME@**
 +N: xnen_sg ;
-+N+Sg+Nom:s PxK ;
-+N+Sg+Gen:s PxK ;
+!+N+Sg+Nom:s PxK ; #?
+!+N+Sg+Gen:s PxK ; #?
 +N+Sg+Gen:s R ;
 
 LEXICON nen_pl
