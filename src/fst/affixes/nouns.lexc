@@ -513,6 +513,7 @@ LEXICON xn_ks_sg
  +Sg+All:kse%>lle PxxK ;
  +Sg+Ade:kse%>ll^A PxK ;
  +Sg+Abl:kse%>lt^A PxK ;
+ +Sg+Ess:kse%>n^A PxK ;
  +Sg+Abe:kse%>tt^A PxK ;
  +Sg+Tra:kse TRA ;
 
@@ -523,11 +524,12 @@ LEXICON xn_ks_pl
  +Pl+Gen:s%>ten PxK ;
  +Pl+Par:kse%>i2^A PxK ;
  +Pl+Ine:ks%>iss^A PxK ;
- +Pl+Ill:kse^HMETA%>h^Vi n_PxK ;
+ +Pl+Ill:kse^HMETA%>hii n_PxK ;
  +Pl+Ela:ks%>ist^A PxK ;
  +Pl+All:ks%>i2lle PxxK ;
  +Pl+Ade:ks%>ill^A PxK ;
  +Pl+Abl:ks%>i2lt^A PxK ;
+ +Pl+Ess:ks%>in^A PxK ;
  +Pl+Abe:ks%>i2tt^A PxK ;
  +Pl+Tra:ks%>i2 TRA ;
 
@@ -552,7 +554,7 @@ LEXICON 3x_ue_sg
  +Sg+Ela:e%>st^A PxK ;
  +Sg+All:e%>lle PxxK ;
  +Sg+Ade:e%>ll^A PxK ;
- +Sg+Abl:e%>ll^A PxK ;
+ +Sg+Abl:e%>lt^A PxK ;
  +Sg+Abe:e%>tt^A PxK ;
  +Sg+Ess:te%>n^A PxK ;
  +Sg+Tra:e TRA ;
@@ -569,6 +571,7 @@ LEXICON 3x_ue_pl
  +Pl+Ade:%>i2ll^A PxK ;
  +Pl+Abl:%>i2lt^A PxK ;
  +Pl+Abe:%>i2tt^A PxK ;
+ +Pl+Ess:%>i2n^A PxK ;
  +Pl+Tra:%>i2 TRA ;
 
 LEXICON 3n_ime
@@ -693,7 +696,7 @@ LEXICON n_uus
  +N+Sg+Ela:uu%>est^A PxK ;
  +N+Sg+All:uu%>elle PxxK ;
  +N+Sg+Ade:uu%>ell^A PxK ;
- +N+Sg+Abl:uu%>ell^A PxK ;
+ +N+Sg+Abl:uu%>elt^A PxK ;
  +N+Sg+Abe:uu%>ett^A PxK ;
  +N+Sg+Ess:uut%>en^A PxK ;
  +N+Sg+Tra:uu TRA ;
@@ -723,7 +726,7 @@ LEXICON n_yys
  +N+Sg+Ela:yy%>est^A PxK ;
  +N+Sg+All:yy%>elle PxxK ;
  +N+Sg+Ade:yy%>ell^A PxK ;
- +N+Sg+Abl:yy%>ell^A PxK ;
+ +N+Sg+Abl:yy%>elt^A PxK ;
  +N+Sg+Abe:yy%>ett^A PxK ;
  +N+Sg+Ess:yyt%>en^A PxK ;
  +N+Sg+Tra:yy TRA ;
@@ -825,6 +828,7 @@ LEXICON x4n_ks_sg
  +Sg+All:kse%>le PxxK ;
  +Sg+Ade:kse%>l^A PxK ;
  +Sg+Abl:kse%>lt^A PxK ;
+ +Sg+Ess:kse%>n^A PxK ;
  +Sg+Abe:kse%>tt^A PxK ;
  +Sg+Tra:kse TRA ;
 
@@ -840,6 +844,7 @@ LEXICON x4n_ks_pl
  +Pl+All:kse%>i2le PxxK ;
  +Pl+Ade:kse%>i2l^A PxK ;
  +Pl+Abl:kse%>i2lt^A PxK ;
+ +Pl+Ess:kse%>i2n^A PxK ;
  +Pl+Abe:kse%>i2tt^A PxK ;
 
 
