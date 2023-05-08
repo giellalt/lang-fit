@@ -331,7 +331,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 "Gemination 0:h"
 !! **RULE: @RULENAME@**
 0:h <=> [.#.|#] Cns:* Vow h _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow h _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow h _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ; 
         [.#.|#] Cns:* Vow (Vow) h _  :e (Dummy:) %> (h) :e ;
 !       [.#.|#] Cns:* Vow h _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow h _  :i (Dummy:) %> (h) :i \:i ;
@@ -347,6 +347,15 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
                   Vow Vow   _ [l|m|n|r|v] Vow: %^HMETA: ; ! puohleen men vuotheen
+                  Vow   l   _ [  m|n|r|v] Vow: %^HMETA: ; ! ilhmaa lm, lv, 
+                  Vow   r   _ [  m|n  |v]     Vow: %^HMETA: ; ! 
+                  Vow   n   _  l          Vow: %^HMETA: ; ! puohleen men vuotheen. Vad med ilhmaan!!??
+                  Vow   m   _  n          Vow: %^HMETA: ; ! puohleen men vuotheen. Vad med ilhmaan!!??
+
+
+!uit-mac-443:lang-fit ttr000$ cat misc/freebound.list |grep '^.m[lnrv][aeiouyäö]$'|cut -c2,3|sort|uniq
+
+
 
 "Gemination 0:j"
 !! **RULE: @RULENAME@**
@@ -504,6 +513,11 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
             Vow Vow :h Cns Vow: %^HMETA: %> _ ; ! puohleen
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: %^HMETA: ;
+  Vow Vow   :h [l|m|n|r|v] Vow: %^HMETA: %> _ ; ! puohleen men vuotheen
+  Vow   l   :h [  m|n|r|v] Vow: %^HMETA: %> _ ; ! ilhmaa lm, lv, 
+  Vow   r   :h [  m|n  |v] Vow: %^HMETA: %> _ ; ! 
+  Vow   n   :h  l          Vow: %^HMETA: %> _ ; ! puohleen men vuotheen. Vad med ilhmaan!!??
+  Vow   m   :h  n          Vow: %^HMETA: %> _ ; ! puohleen men vuotheen. Vad med ilhmaan!!??
 
 !!€ rasta^HMETA>h^Vn
 
@@ -663,9 +677,9 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 
 "ä:0"
 !! **RULE: @RULENAME@**
-ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|j] ; ! before i
+ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|i8:|j] ; ! before i
                                   _ %^HMETA:            ; ! before metathesis h
-         [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:]     ; ! jäädä : jäi
+         [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
 
 !! **Tests:**
 !!€ sytyttä^WG>i3n
@@ -693,7 +707,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
-                                                     Cns: _ (WeakGrade) %> [i2:|i3:|i4:] ;
+                                                     Cns: _ (WeakGrade) %> [i2:|i3:|i4:|i8:] ;
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**
@@ -721,7 +735,7 @@ i:0 <=>  Vow (:Cns) Cns _ %^HMETA: ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ %^HMETA: ;               ! keppi : kepphiin
-	           Cns: _ (WeakGrade) %>  [i2:|i3:] ; ! sopia : sopi, oppia : oppi
+	           Cns: _ (WeakGrade) %>  [i2:|i3:|i8:] ; ! sopia : sopi, oppia : oppi
 		   Cns: _ (%^WG:) %^IDEL: %> i2: ; ! tukki : tukkitten
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
