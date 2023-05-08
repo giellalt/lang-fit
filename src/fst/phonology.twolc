@@ -347,6 +347,7 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
                   Vow Vow   _ [l|m|n|r|v] Vow: %^HMETA: ; ! puohleen men vuotheen
+                  Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een
                   Vow   l   _ [  m|n|r|v] Vow: %^HMETA: ; ! ilhmaa lm, lv, 
                   Vow   r   _ [  m|n  |v]     Vow: %^HMETA: ; ! 
                   Vow   n   _  l          Vow: %^HMETA: ; ! puohleen men vuotheen. Vad med ilhmaan!!??
@@ -513,7 +514,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
             Vow Vow :h Cns Vow: %^HMETA: %> _ ; ! puohleen
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: %^HMETA: ;
-  Vow Vow   :h [l|m|n|r|v] Vow: %^HMETA: %> _ ; ! puohleen men vuotheen
+  Vow Vow   :h [l|m|n|r|v] Vow: %^HMETA: %> _ ; ! huohneesheen
+  Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! puohleen men vuotheen
   Vow   l   :h [  m|n|r|v] Vow: %^HMETA: %> _ ; ! ilhmaa lm, lv, 
   Vow   r   :h [  m|n  |v] Vow: %^HMETA: %> _ ; ! 
   Vow   n   :h  l          Vow: %^HMETA: %> _ ; ! puohleen men vuotheen. Vad med ilhmaan!!??
