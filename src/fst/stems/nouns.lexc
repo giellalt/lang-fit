@@ -7065,7 +7065,7 @@ sääski:sääski nx ;
 kalasääski:kala#sääski nx ;
 kirsisääski:kirsi#sääski nx ;
 hetkinen:hetki 3nen ;
-muki:muki n0 ; ! vi prövade: nx, n0 , 
+muki:muki nx ; ! vi prövade: nx, n0 , 
 piimämuki:piimä#muki nx ;
 ruis:ruki nas ;
 lakoruis:lako#ruki nas ;
@@ -15227,12 +15227,12 @@ utusää:utu#sää n0 ;
 myrskysää:myrsky#sää n0 ;
 nöyräsää:nöyrä#sää n0 ;
 myötäsää:myötä#sää n0 ;
-lystäntää:lystäntää n0 ;
-jähmystää:jähmystää n0 ;
-löntystää:löntystää n0 ;
-kesästää:kesästää n0 ;
-keilittää:keilittää n0 ;
-mökötyttää:mökötyttää n0 ;
+lystäntää:lystäntää nx ;
+jähmystää:jähmystää nx ;!verb?
+löntystää:löntystää nx ;!verb?
+kesästää:kesästää nx ;
+keilittää:keilittää nx ;!verb?
+mökötyttää:mökötyttää nx ;
 pörhönen:pörhö 3nen ;
 pörhönen:pörhö 3nen ;
 koipörhönen:koipörhö 3nen ;
@@ -15446,8 +15446,8 @@ mettänkylvö:mettänkylvö nx ;
 pölvö:pölvö nx ;
 nyvös:nyvö 3n_ks ;
 yö+CmpNP/None:yö n0 ;
-pakkasyö:pakkasyö n0 ;
-kylmäsyö:kylmäsyö n0 ;
+pakkas#yö:pakkas#yö n0 ;
+kylmäs#yö:kylmäs#yö n0 ;
 työ:työ n0 ;
 maatyö:maa#työ n0 ;
 vaaratyö:vaara#työ n0 ;
