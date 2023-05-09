@@ -1118,6 +1118,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
+* n2_oss = odd-syll e-nouns: karpale, urvake
 * n3 = odd-syllabic: kanava
 
 Consonant stems
@@ -1125,6 +1126,7 @@ Consonant stems
 * n4 = i:e nouns: suomi, kivi
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä
 * n5_lumi = lumi : lumen : lunta
+* n5_loimi = som n5_lumi PLUS partitiv loimea
 * n5_kasi = käsi : käden : kättä
 * n5_lapsi = lapsi : lapsen : lasta
 
@@ -1193,6 +1195,14 @@ Consonant stems
 **LEXICON x2_sg** the sg
 
 **LEXICON x2_pl** the pl
+
+**LEXICON n2_odd**  urvakke etc, n2-ord med -lle/-lla 
+
+**LEXICON x2_odd** splits in sg and pl
+
+**LEXICON x2_odd_sg** the sg
+
+**LEXICON x2_odd_pl** the pl
 
 **LEXICON 3nc**
 
