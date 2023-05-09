@@ -205,7 +205,7 @@ Consonant stems
 
 **LEXICON 3xn_lnr** tyär, kort och lång Ill
 
-**LEXICON 3n_lnr_inteill** inte Ill men alla andra
+**LEXICON 3n_lnr_inteill** inte Ill, Ine, Ess men alla andra
 
 **LEXICON 4n_ks**
 
