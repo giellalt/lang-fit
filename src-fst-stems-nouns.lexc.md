@@ -49,7 +49,7 @@ OBS ej n4!
 * rypriikki:rypriikki n3 ;
 * kvääni n1 ;
 * asfaltti:asfaltti n3 ;
-* vaitiolovelvolisuus:vaitiolo#velvolis n_uus ;
+* vaitiolovelvolisuus:vaitiolo#velvolisuu n_uus ;
 * hammashoitoavustus:hammashoitoavustu 4n_ks ;
 * häpy n1 ;
 
