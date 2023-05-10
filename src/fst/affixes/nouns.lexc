@@ -814,6 +814,7 @@ LEXICON 3n_lnr
 LEXICON 30n_lnr
 !! **LEXICON @LEXNAME@** askel - askelheesheen
  +N+Sg+Gen:%>hee n_PxK ;
+ +N+Sg+Gen:e%>n PxK ; !två genetivformer? askelen, askelheen
  !+N+Sg+Gen:^HMETA%>hee n_PxK ; askehleen? 
  +N+Sg+Ill:%>heeshee n_PxK ;
  +N+Sg+Ine:%>heess^A PxK ;
