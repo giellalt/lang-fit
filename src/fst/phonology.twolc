@@ -113,8 +113,8 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
                  o i: _ Vow:        WeakGrade ; ! pojan
          VowelNotUY   _ Vow:        WeakGrade ; ! maun 
 	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
-                Vow k _ e:   h     %> e       ; ! kkh > kh ääkkä : ääkhään
-                Vow k _ Vow: %^HMETA: ; ! kkh > kh ääkkä : ääkhään
+                Vow [k|k2:] _ e: (%^WG:)  h     %> e       ; ! kkh > kh ääkkä : ääkhään
+                Vow [k|k2:] _ Vow: %^HMETA: ; ! kkh > kh ääkkä : ääkhään
             Vow [l|r] _ VowelNotEI  WeakGrade ;
               Vow h k _ Vow         WeakGrade ;
           [Vow - e] h _ Vow         WeakGrade ;
