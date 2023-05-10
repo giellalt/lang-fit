@@ -770,35 +770,6 @@ LEXICON n_uus
  +N+Pl+Tra:ks TRA ;
  +N+Pl+Ess:ks%>i2n^A PxK ;
 
-LEXICON n_yys
-!! **LEXICON @LEXNAME@**
- +N+Sg+Nom:s     R ;
- +N+Sg+Gen:e%>n R ;
- +N+Sg+Nom:s     PxK ;
- +N+Sg+Gen:e%>n PxK ;
- +N+Sg+Par:t%>t^A PxK ;
- +N+Sg+Ill:t^HMETA%>hee n_PxK ;
- +N+Sg+Ine:%>ess^A PxK ;
- +N+Sg+Ela:%>est^A PxK ;
- +N+Sg+All:%>elle PxxK ;
- +N+Sg+Ade:%>ell^A PxK ;
- +N+Sg+Abl:%>elt^A PxK ;
- +N+Sg+Abe:%>ett^A PxK ;
- +N+Sg+Ess:t%>en^A PxK ;
- +N+Sg+Tra: TRA ;
-
- +N+Pl+Nom:%>et PxK ;
- +N+Pl+Gen:ks%>i2en PxK ;
- +N+Pl+Par:ks%>i2^A PxK ;
- +N+Pl+Ill:ks%>hii n_PxK ;
- +N+Pl+Ine:ks%>i2ss^A PxK ;
- +N+Pl+Ela:ks%>i2st^A PxK ;
- +N+Pl+All:ks%>i2lle PxxK ;
- +N+Pl+Ade:ks%>i2ll^A PxK ;
- +N+Pl+Abl:ks%>i2lt^A PxK ;
- +N+Pl+Abe:ks%>i2tt^A PxK ;
- +N+Pl+Tra:ks TRA ;
- +N+Pl+Ess:ks%>i2n^A PxK ;
  
 !! ### 2-syllabic LNR final stems
 
