@@ -212,15 +212,24 @@ LEXICON x2_pl
  +Pl+Gen:^WGh%>ejen   PxK ;
  +Pl+Par:^WGh%>ej^A   PxK ;
  +Pl+Par:^WGh%>eit^A   PxK ;
- +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
- +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
- +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
- +Pl+Ade:%>ei2le    PxxK ; ! liikheelä, säkheelä
- +Pl+All:%>ei2l^A    PxK ; ! liikheelä, säkheelä
- +Pl+Abl:%>ei2lt^A    PxK ; ! liikheelä, säkheelä
- +Pl+Tra:%>ei2 TRA ;
- +Pl+Ess:%>ei2n^A PxK ;
- +Pl+Abe:%>ei2tt^A PxK ;
+ +Pl+Ill:^WGh%>ei2shii     n_PxK ; 
+ +Pl+Ill:^HMETA%>hei2shii     n_PxK ; 
+ +Pl+Ine:^WGh%>ei2ss^A   PxK ; ! liikheissä
+ +Pl+Ine:^HMETA%>hei2ss^A   PxK ;
+ +Pl+Ela:^WGh%>ei2st^A   PxK ; ! liikheessä, säkheessä
+ +Pl+Ela:^HMETA%>hei2st^A   PxK ; 
+ +Pl+Ade:^WGh%>ei2le    PxxK ; ! liikheelä, säkheelä
+ +Pl+Ade:^HMETA%>hei2le    PxxK ;
+ +Pl+All:^WGh%>ei2l^A    PxK ; ! liikheelä, säkheelä
+ +Pl+All:^HMETA%>hei2l^A    PxK ; 
+ +Pl+Abl:^WGh%>ei2lt^A    PxK ; ! liikheelä, säkheelä
+ +Pl+Abl:^HMETA%>hei2lt^A    PxK ;
+ +Pl+Tra:^WGh%>ei2 TRA ;
+ +Pl+Tra:^HMETA%>hei2 TRA ;
+ +Pl+Ess:^WGh%>ei2n^A PxK ;
+ +Pl+Ess:^HMETA%>hei2n^A PxK ;
+ +Pl+Abe:^WGh%>ei2tt^A PxK ;
+ +Pl+Abe:^HMETA%>hei2tt^A PxK ;
 
 
 LEXICON n2_odd
