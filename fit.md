@@ -1118,7 +1118,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns: liike, säe
-* n2_oss = odd-syll e-nouns: karpale, urvake
+* n2_odd = odd-syll e-nouns: karpale, urvake
 * n3 = odd-syllabic: kanava
 
 Consonant stems
