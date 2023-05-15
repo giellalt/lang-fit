@@ -14,15 +14,14 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - nensgade: # sg ade -- inte kontrollerad 
+  Noun - nensgade: # sg ade -- kontrollerad av Elina
     laskiainen+N+Sg+Ade: laskiaisela
     tuliainen+N+Sg+Ade: tuliaisela
     loppiainen+N+Sg+Ade: loppiaisela
     lantalainen+N+Sg+Ade: lantalaisela
     pistianen+N+Sg+Ade: pistiasela
-    viranomhainen+N+Sg+Ade: viranomaisela
     viranomhainen+N+Sg+Ade: viranomhaisela
-    helluntaiainen+N+Sg+Ade: helluntaiaisela
+    helluntailainen+N+Sg+Ade: helluntailaisela
     nahkiainen+N+Sg+Ade: nahkiaisela
     paukkiainen+N+Sg+Ade: paukkiaisela
     hulliainen+N+Sg+Ade: hulliaisela
@@ -71,8 +70,8 @@ Tests:
     suomensuomalainen+N+Sg+Ade: suomensuomalaisela
     manalainen+N+Sg+Ade: manalaisela
     ohtanalainen+N+Sg+Ade: ohtanalaisela
-    lauuanalainen+N+Sg+Ade: lauuanalaisela
-    veenalainen+N+Sg+Ade: veenalaisela
+    lauuanalainen+N+Sg+Ade: lauuanalaisella
+    veenalainen+N+Sg+Ade: veenalaisella
     kinalainen+N+Sg+Ade: kinalaisela
     latinalainen+N+Sg+Ade: latinalaisela
     kirunalainen+N+Sg+Ade: kirunalaisela
@@ -134,14 +133,11 @@ Tests:
     apulainen+N+Sg+Ade: apulaisela
     kumpulainen+N+Sg+Ade: kumpulaisela
     tulimainen+N+Sg+Ade: tulimaisela
-    viranomhainen+Err/Orth+N+Sg+Ade: viranomaisela
+    viranomhainen+Err/Orth+N+Sg+Ade: viranomhaisela
     nainen+N+Sg+Ade: naisela
     valtanainen+N+Sg+Ade: valtanaisela
-    #kaksinainen+N+Sg+Ade: kaksinaisela
-    #viinipunainen+N+Sg+Ade: viinipunaisela
-    #turkinpunainen+N+Sg+Ade: turkinpunaisela
     kottarainen+N+Sg+Ade: kottaraisela
-    kierainen+N+Sg+Ade: kieraisela
+    kierainen+N+Sg+Ade: kieraisella
     piirainen+N+Sg+Ade: piiraisella
     kaakurainen+N+Sg+Ade: kaakuraisela
     kiekurainen+N+Sg+Ade: kiekuraisela
@@ -156,7 +152,7 @@ Tests:
     uskovainen+N+Sg+Ade: uskovaisela
     kiiluvainen+N+Sg+Ade: kiiluvaisela
     pulluvainen+N+Sg+Ade: pulluvaisela
-    outopuhheinen+N+Sg+Ade: outopuhheisela
+    outopuhheinen+N+Sg+Ade: outopuhheisella
     piinen+N+Sg+Ade: piiselä
     varphaalinen+N+Sg+Ade: varphaalisela
     kirjalinen+N+Sg+Ade: kirjalisela
@@ -183,7 +179,7 @@ Tests:
     ehtoolinen+N+Sg+Ade: ehtoolisela
     otolinen+N+Sg+Ade: otolisela
     puolinen+N+Sg+Ade: puolisella
-    pintapuolinen+N+Sg+Ade: pintapuolisela
+    pintapuolinen+N+Sg+Ade: pintapuolisella
     paikulinen+N+Sg+Ade: paikulisela
     kiululinen+N+Sg+Ade: kiululisela
     pannulinen+N+Sg+Ade: pannulisela
@@ -199,7 +195,7 @@ Tests:
     pellonleikkaaminen+N+Sg+Ade: pellonleikkaamisela
     friskaaminen+N+Sg+Ade: friskaamisela
     fjäskaaminen+N+Sg+Ade: fjäskaamisela
-    maampruukaaminen+N+Sg+Ade: maampruukaamisela
+    maanpruukaaminen+N+Sg+Ade: maanpruukaamisela
     masiinaaminen+N+Sg+Ade: masiinaamisela
     houraaminen+N+Sg+Ade: houraamisela
     lapsensaaminen+N+Sg+Ade: lapsensaamisela
@@ -214,7 +210,7 @@ Tests:
     nostaminen+N+Sg+Ade: nostamisela
     potunottaminen+N+Sg+Ade: potunottamisela
     oottaminen+N+Sg+Ade: oottamisela
-    lehmäjjuottaminen+N+Sg+Ade: lehmäjjuottamisela
+    lehmänjuottaminen+N+Sg+Ade: lehmänjuottamisela
     liikuttaminen+N+Sg+Ade: liikuttamisela
     lehmähheruttaminen+N+Sg+Ade: lehmähheruttamisela
     kasuaminen+N+Sg+Ade: kasuamisela
@@ -227,7 +223,7 @@ Tests:
     karhitteminen+N+Sg+Ade: karhittemisela
     merkitteminen+N+Sg+Ade: merkittemiselä
     kuokkiminen+N+Sg+Ade: kuokkimisela
-    lehmärruokkiminen+N+Sg+Ade: lehmärruokkimisela
+    lehmänruokkiminen+N+Sg+Ade: lehmänruokkimisela
     onkiminen+N+Sg+Ade: onkimisela
     rykiminen+N+Sg+Ade: rykimiselä
     koiniminen+N+Sg+Ade: koinimisela
@@ -251,7 +247,7 @@ Tests:
     vähentäminen+N+Sg+Ade: vähentämiselä
     verentypheyttäminen+N+Sg+Ade: verentypheyttämiselä
     pyytäminen+N+Sg+Ade: pyytämiselä
-    potukkylväminen+N+Sg+Ade: potukkylvämiselä
+    potunkylväminen+N+Sg+Ade: potunkylvämiselä
     kaurankylväminen+N+Sg+Ade: kaurankylvämiselä
     värkkääminen+N+Sg+Ade: värkkäämiselä
     tryskääminen+N+Sg+Ade: tryskäämiselä
@@ -263,7 +259,7 @@ Tests:
     kyntöminen+N+Sg+Ade: kyntömiselä
     kallioinen+N+Sg+Ade: kallioisela
     tattarinen+N+Sg+Ade: tattarisela
-    voiffärinen+N+Sg+Ade: voiffäriselä
+    voinfärinen+N+Sg+Ade: voinfäriselä
     tyttärinen+N+Sg+Ade: tyttäriselä
     pikkutyttärinen+N+Sg+Ade: pikkutyttäriselä
     yheksinen+N+Sg+Ade: yheksiselä
@@ -283,7 +279,6 @@ Tests:
     lähtiäinen+N+Sg+Ade: lähtiäiselä
     tiitiäinen+N+Sg+Ade: tiitiäiselä
     ästiitiäinen+N+Sg+Ade: ästiitiäiselä
-    lentiäinen+N+Sg+Ade: lentiäiselä
     lentiäinen+N+Sg+Ade: lentiäiselä
     vesihyöntiäinen+N+Sg+Ade: vesihyöntiäiselä
     hiertiäinen+N+Sg+Ade: hiertiäiselä

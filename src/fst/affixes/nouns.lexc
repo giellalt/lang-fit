@@ -9,7 +9,7 @@
 !! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
-!! * n2_oss = odd-syll e-nouns: karpale, urvake
+!! * n2_odd = odd-syll e-nouns: karpale, urvake
 !! * n3 = odd-syllabic: kanava
 
 !! Consonant stems
@@ -211,6 +211,7 @@ LEXICON x2_pl
  +Pl+Gen:^WGh%>eitten   PxK ;
  +Pl+Gen:^WGh%>ejen   PxK ;
  +Pl+Par:^WGh%>ej^A   PxK ;
+ +Pl+Par:^WGh%>eit^A   PxK ;
  +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
