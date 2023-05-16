@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - sgpar: # 7 x contlex sg par -- inte kontrollerad 
+  Noun - sgpar: # 7 x contlex sg par -- kontrollerad av Elina
     afäärimies+N+Sg+Par: afäärimiestä
     eusmies+N+Sg+Par: eusmiestä
     frahtimies+N+Sg+Par: frahtimiestä
