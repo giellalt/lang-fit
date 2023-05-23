@@ -14,14 +14,15 @@
 
 !! Consonant stems
 
-!! * n4 = i:e nouns: suomi, kivi
-!! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä
-!! * n5_lumi = lumi : lumen : lunta
+!! * n4 = i:e nouns: suomi, kivi (2syll)
+!! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
+!! * n5_lumi = lumi : lumen : lunta (2syll)
 !! * n5_loimi = som n5_lumi PLUS partitiv loimea
-!! * n5_kasi = käsi : käden : kättä
+!! * n5_kasi = käsi : käden : kättä (2syll)
 !! * n5_lapsi = lapsi : lapsen : lasta
 
 !! * n_uus = vajavuus
+!! * n_uus_odd = miehuus, miehuuelle
 !! * nc = cvc
 !! * 3nc = cvcvc, jiddish
 !! * nen = nainen paradigm
@@ -30,6 +31,7 @@
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taival, taimen, manner
+!! * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 !! * nas = tehas - tehtaan
 !! * 3mies = mies
 
@@ -750,7 +752,38 @@ LEXICON 3mies
  +N+Pl+Ess:he%>i2n^A PxK ;
  +N+Pl+Tra:he TRA ;
 
+
 LEXICON n_uus
+!! **LEXICON @LEXNAME@**
+ +N+Sg+Nom:s     R ;
+ +N+Sg+Gen:e%>n R ;
+ +N+Sg+Nom:s     PxK ;
+ +N+Sg+Gen:e%>n PxK ;
+ +N+Sg+Par:t%>t^A PxK ;
+ +N+Sg+Ill:t^HMETA%>hee n_PxK ;
+ +N+Sg+Ine:%>ess^A PxK ;
+ +N+Sg+Ela:%>est^A PxK ;
+ +N+Sg+All:%>ele PxxK ;
+ +N+Sg+Ade:%>el^A PxK ;
+ +N+Sg+Abl:%>elt^A PxK ;
+ +N+Sg+Abe:%>ett^A PxK ;
+ +N+Sg+Ess:t%>en^A PxK ;
+ +N+Sg+Tra: TRA ;
+
+ +N+Pl+Nom:%>et PxK ;
+ +N+Pl+Gen:ks%>i2en PxK ;
+ +N+Pl+Par:ks%>i2^A PxK ;
+ +N+Pl+Ill:ks%>hii n_PxK ;
+ +N+Pl+Ine:ks%>i2ss^A PxK ;
+ +N+Pl+Ela:ks%>i2st^A PxK ;
+ +N+Pl+All:ks%>i2le PxxK ;
+ +N+Pl+Ade:ks%>i2l^A PxK ;
+ +N+Pl+Abl:ks%>i2lt^A PxK ;
+ +N+Pl+Abe:ks%>i2tt^A PxK ;
+ +N+Pl+Tra:ks TRA ;
+ +N+Pl+Ess:ks%>i2n^A PxK ;
+
+LEXICON n_uus_odd ! for odd syllabel-words: äärettömyyele 
 !! **LEXICON @LEXNAME@**
  +N+Sg+Nom:s     R ;
  +N+Sg+Gen:e%>n R ;
