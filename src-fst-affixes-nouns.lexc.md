@@ -13,14 +13,15 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 Consonant stems
 
-* n4 = i:e nouns: suomi, kivi
-* n5 = i:e nouns, cns stems  kieli : kielen : kieltä
-* n5_lumi = lumi : lumen : lunta
+* n4 = i:e nouns: suomi, kivi (2syll)
+* n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
+* n5_lumi = lumi : lumen : lunta (2syll)
 * n5_loimi = som n5_lumi PLUS partitiv loimea
-* n5_kasi = käsi : käden : kättä
+* n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
+* n_uus_odd = miehuus, miehuuelle
 * nc = cvc
 * 3nc = cvcvc, jiddish
 * nen = nainen paradigm
@@ -29,6 +30,7 @@ Consonant stems
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taival, taimen, manner
+* 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = tehas - tehtaan
 * 3mies = mies
 
@@ -204,6 +206,8 @@ Consonant stems
 **LEXICON 3mies**
 
 **LEXICON n_uus**
+
+**LEXICON n_uus_odd**
 
 ### 2-syllabic LNR final stems
 
