@@ -28,11 +28,11 @@ Tests:
     jäänhalkein+N+Sg+Ill: jäänhalkeimheen
     jäsenyin+N+Sg+Ill: jäsenykimheen # vad betyder ordet?
     äänestys+N+Sg+Ill: äänestyksheen
-    äärettömyys+N+Sg+Ill: äärettömyyksheen
+    äärettömyys+N+Sg+Ill: äärettömyytheen
 #    äes+N+Sg+Ill: äkeksheen # VetEj
     ähmäänys+N+Sg+Ill: ähmäänyksheen
     ajos+N+Sg+Ill: ajoksheen
-#    äkäsyys+N+Sg+Ill: äkäsyyksheen - VetEj
+    äkäsyys+N+Sg+Ill: äkäsyytheen
     annos+N+Sg+Ill: annoksheen
     ahmajäsen+N+Sg+Ill: ahmajäsenheen
     ahven+N+Sg+Ill: ahvenheen
@@ -69,7 +69,7 @@ Tests:
     ärräpää+N+Sg+Ill: ärräpäähän
     asepuu+N+Sg+Ill: asepuuhun
     takkaa-ajo+N+Sg+Ill: takkaa-ajhoon
-    a-malmi+N+Sg+Ill: a-malmhiin
+    a-malmi+N+Sg+Ill: a-malhmiin
     ääkkä+N+Sg+Ill: ääkhään
     aalto+N+Sg+Ill: aalthoon
     abortti+N+Sg+Ill: aborthiin
@@ -77,14 +77,14 @@ Tests:
     äijäfaari+N+Sg+Ill: äijäfaahriin
     aihe+N+Sg+Ill: aihheesheen
 #    äile+N+Sg+Ill: äilheen # VetEj?
-    aine+N+Sg+Ill: ainheesheen
+    aine+N+Sg+Ill: [ainheesheen, aihneesheen]
     alote+N+Sg+Ill: alotheesheen
     alue+N+Sg+Ill: aluheesheen
 #    akleija+N+Sg+Ill: akleihjaan # VetEj
     äkseerinki+N+Sg+Ill: äkseerinkhiin
-#    almunakka+N+Sg+Ill: almunakkhaan # stark eller svag?
+    almunakka+N+Sg+Ill: almunakhaan # stark eller svag?
     alttari+N+Sg+Ill: alttarhiin
-#    ämmäkkö+N+Sg+Ill: ämmäkkhöön # stark eller svag?
+    # ämmäkkö+N+Sg+Ill: ämmäkhöön # stark eller svag?
     ammunta+N+Sg+Ill: ammunthaan
     ääri+N+Sg+Ill: äähreen
     äitiväki+N+Sg+Ill: äitiväkheen
