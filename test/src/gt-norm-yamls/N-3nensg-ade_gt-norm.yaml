@@ -14,26 +14,18 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Noun - 3nen_sgade: #  sg ade -- inte kontrollerad 
-    uutinen+N+Sg+Ade: uutisella
-    uutinen+N+Sg+Ade: uutisellä
+  Noun - 3nen_sgade: #  sg ade --  kontrollerad av Elina 
     lipponen+N+Sg+Ade: lipposella
-    lipponen+N+Sg+Ade: lipposellä
     pahanen+N+Sg+Ade: pahasella
     ukkopahanen+N+Sg+Ade: ukkopahasella
-    tulivihanen+N+Sg+Ade: tulivihasella
-    tuhanen+N+Sg+Ade: tuhasella
     kruunutuhanen+N+Sg+Ade: kruunutuhasella
-    tianen+N+Sg+Ade: tiasella
     keltatianen+N+Sg+Ade: keltatiasella
     talitianen+N+Sg+Ade: talitiasella
     pohjasentianen+N+Sg+Ade: pohjasentiasella
     pohjastianen+N+Sg+Ade: pohjastiasella
     pakkastianen+N+Sg+Ade: pakkastiasella
     kuhutianen+N+Sg+Ade: kuhutiasella
-    tiukutianen+N+Sg+Ade: tiukutiasella
     mökkötianen+N+Sg+Ade: mökkötiasella
-    vyötianen+N+Sg+Ade: vyötiasella
     pohjanen+N+Sg+Ade: pohjasella
     rautapohjanen+N+Sg+Ade: rautapohjasella
     kuostepohjanen+N+Sg+Ade: kuostepohjasella
@@ -43,8 +35,6 @@ Tests:
     kakspohjanen+N+Sg+Ade: kakspohjasella
     kakssoutunen+N+Sg+Ade: kakssoutusella
     kaksvartinen+N+Sg+Ade: kaksvartisella
-    kangassininen+N+Sg+Ade: kangassinisella
-    kangonen+N+Sg+Ade: kangosella
     kansakäyminen+N+Sg+Ade: kansakäymisellä
     kansinen+N+Sg+Ade: kansisella
     kantanen+N+Sg+Ade: kantasella
@@ -57,7 +47,6 @@ Tests:
     kehnokuulonen+N+Sg+Ade: kehnokuulosella
     kellohevonen+N+Sg+Ade: kellohevosella
     keltanen+N+Sg+Ade: keltasella
-    keltatianen+N+Sg+Ade: keltatiasella
     keltavästinen+N+Sg+Ade: keltavästisellä
     kenkähevonen+N+Sg+Ade: kenkähevosella
     kenkänen+N+Sg+Ade: kenkäsellä
@@ -91,7 +80,6 @@ Tests:
     kolmonen+N+Sg+Ade: kolmosella
     kolttonen+N+Sg+Ade: kolttosella
     koppaviitonen+N+Sg+Ade: koppaviitosella
-    korinpohjanen+N+Sg+Ade: korinpohjasella
     korkeamaitonen+N+Sg+Ade: korkeamaitosella
     korvanen+N+Sg+Ade: korvasella
     koskunen+N+Sg+Ade: koskusella
@@ -99,32 +87,22 @@ Tests:
     kotipääskynen+N+Sg+Ade: kotipääskysellä
     kotunen+N+Sg+Ade: kotusella
     kouranen+N+Sg+Ade: kourasella
-    tasanen+N+Sg+Ade: tasasella
     parempiosanen+N+Sg+Ade: parempiosasella
     mieskohtanen+N+Sg+Ade: mieskohtasella
-    keltanen+N+Sg+Ade: keltasella
-    keltanen+N+Sg+Ade: keltasella
     punakeltanen+N+Sg+Ade: punakeltasella
     munankeltanen+N+Sg+Ade: munankeltasella
     iltanen+N+Sg+Ade: iltasella
-    kultanen+N+Sg+Ade: kultasella
     kantanen+N+Sg+Ade: kantasella
     kuivakantanen+N+Sg+Ade: kuivakantasella
     mustasontanen+N+Sg+Ade: mustasontasella
-    kertanen+N+Sg+Ade: kertasella
-    vastanen+N+Sg+Ade: vastasella
     lauttanen+N+Sg+Ade: lauttasella
     hautanen+N+Sg+Ade: hautasella
     miekkalautanen+N+Sg+Ade: miekkalautasella
-    voilautanen+N+Sg+Ade: voilautasella
-    vaivanen+N+Sg+Ade: vaivasella
     mielivaivanen+N+Sg+Ade: mielivaivasella
     rovanen+N+Sg+Ade: rovasella
-    karvanen+N+Sg+Ade: karvasella
     korvanen+N+Sg+Ade: korvasella
     paksukorvanen+N+Sg+Ade: paksukorvasella
     kymmenen+N+Sg+Ade: kymmesellä
-    vuosikymmenen+N+Sg+Ade: vuosikymmesellä
     munhainen+N+Sg+Ade: munhaisella
     pinnantakhainen+N+Sg+Ade: pinnantakhaisella
     mettäntakhainen+N+Sg+Ade: mettäntakhaisella
@@ -159,91 +137,67 @@ Tests:
     likheinen+N+Sg+Ade: likheisellä
     tiukheinen+N+Sg+Ade: tiukheisella
     äärheinen+N+Sg+Ade: äärheisellä
-    vaatheinen+N+Sg+Ade: vaatheisella
     kutheinen+N+Sg+Ade: kutheisella
-    kiehinen+N+Sg+Ade: kiehisellä
     miehinen+N+Sg+Ade: miehisellä
     pilhinen+N+Sg+Ade: pilhisellä
-    vuoohinen+N+Sg+Ade: vuoohisella
-    uuhinen+N+Sg+Ade: uuhisella
     lokkinen+N+Sg+Ade: lokkisella
     mökkinen+N+Sg+Ade: mökkisellä
     naimahenkinen+N+Sg+Ade: naimahenkisella
     leskinen+N+Sg+Ade: leskisellä
     hetkinen+N+Sg+Ade: hetkisellä
-    trykinen+N+Sg+Ade: trykisellä
-    väkinen+N+Sg+Ade: väkisellä
-    vähäväkinen+N+Sg+Ade: vähäväkisellä
     paalinen+N+Sg+Ade: paalisella
     kielinen+N+Sg+Ade: kielisellä
     kielinen+N+Sg+Ade: kielisellä
     -kielinen+N+Sg+Ade: -kielisellä
     latinankielinen+N+Sg+Ade: latinankielisella
-    toiskielinen+N+Sg+Ade: toiskielisella
     mielinen+N+Sg+Ade: mielisellä
     kahamielinen+N+Sg+Ade: kahamielisella
-    velinen+N+Sg+Ade: velisellä
     eilinen+N+Sg+Ade: eilisellä
     kuostekoilinen+N+Sg+Ade: kuostekoilisella
     lusikallinen+N+Sg+Ade: lusikallisella
-    vellinen+N+Sg+Ade: vellisellä
     lauvantaillinen+N+Sg+Ade: lauvantaillisella
     niskampäällinen+N+Sg+Ade: niskampäällisellä
-    ylinen+N+Sg+Ade: ylisellä
     paijanylinen+N+Sg+Ade: paijanylisellä
     fiilipäälinen+N+Sg+Ade: fiilipäälisellä
-    niskampäälinen+N+Sg+Ade: niskampäälisellä
+    niskanpäälinen+N+Sg+Ade: niskanpäälisellä
     maanpäälinen+N+Sg+Ade: maanpäälisellä
     maijonpäälinen+N+Sg+Ade: maijonpäälisellä
     ihminen+N+Sg+Ade: ihmisellä
     villi-ihminen+N+Sg+Ade: villi-ihmisellä
     koti-ihminen+N+Sg+Ade: koti-ihmisellä
-    outaihminen+N+Sg+Ade: outaihmisella
-    kranninihminen+N+Sg+Ade: kranninihmisella
-    lapinihminen+N+Sg+Ade: lapinihmisella
-    vaimoihminen+N+Sg+Ade: vaimoihmisella
-    vieroihminen+N+Sg+Ade: vieroihmisella
+    outaihminen+N+Sg+Ade: outaihmisellä
+    kranninihminen+N+Sg+Ade: kranninihmisellä
+    lapinihminen+N+Sg+Ade: lapinihmisellä
+    vaimoihminen+N+Sg+Ade: vaimoihmisellä
+    vieroihminen+N+Sg+Ade: vieroihmisellä
     tyärihminen+N+Sg+Ade: tyärihmisellä
     miesihminen+N+Sg+Ade: miesihmisellä
     ympäristöihminen+N+Sg+Ade: ympäristöihmisellä
     naiminen+N+Sg+Ade: naimisella
-    väkiriipiminen+N+Sg+Ade: väkiriipimisellä
-    leherriipiminen+N+Sg+Ade: leherriipimisellä
-    potukkuoriminen+N+Sg+Ade: potukkuorimisella
+    lehenriipiminen+N+Sg+Ade: lehenriipimisellä
+    potunkuoriminen+N+Sg+Ade: potunkuorimisella
     puiminen+N+Sg+Ade: puimisella
-    ylihuominen+N+Sg+Ade: ylihuomisella
-    tuominen+N+Sg+Ade: tuomisella
-    kansakäyminen+N+Sg+Ade: kansakäymisellä
     myötenkäyminen+N+Sg+Ade: myötenkäymisellä
     myötäkäyminen+N+Sg+Ade: myötäkäymisellä
-    keskisininen+N+Sg+Ade: keskisinisellä
-    kangassininen+N+Sg+Ade: kangassinisella
+    kangassininen+N+Sg+Ade: kangassinisellä
     öljysininen+N+Sg+Ade: öljysinisellä
     pohjoinen+N+Sg+Ade: pohjoisella
     pienoinen+N+Sg+Ade: pienoisella
     puolipitoinen+N+Sg+Ade: puolipitoisella
     umpinen+N+Sg+Ade: umpisella
     loppinen+N+Sg+Ade: loppisella
-    viisloppinen+N+Sg+Ade: viisloppisella
     kaksparinen+N+Sg+Ade: kaksparisella
-    verinen+N+Sg+Ade: verisellä
-    punaverinen+N+Sg+Ade: punaverisella
-    viisäyrinen+N+Sg+Ade: viisäyrisellä
+    punaverinen+N+Sg+Ade: punaverisellä
     yksinen+N+Sg+Ade: yksisellä
-    kansinen+N+Sg+Ade: kansisella
     lapsinen+N+Sg+Ade: lapsisella
-    vetinen+N+Sg+Ade: vetisellä
     lehtinen+N+Sg+Ade: lehtisellä
-    tiitinen+N+Sg+Ade: tiitisellä
     entinen+N+Sg+Ade: entisellä
     totinen+N+Sg+Ade: totisella
-    kaksvartinen+N+Sg+Ade: kaksvartisella
-    keltavästinen+N+Sg+Ade: keltavästisellä
     toukomettinen+N+Sg+Ade: toukomettisella
     neliskanttinen+N+Sg+Ade: neliskanttisella
     nenähuokonen+N+Sg+Ade: nenähuokosella
-    niskampäälinen+N+Sg+Ade: niskampäälisellä
-    niskampäällinen+N+Sg+Ade: niskampäällisellä
+    niskanpäälinen+N+Sg+Ade: niskanpäälisellä
+    niskanpäällinen+N+Sg+Ade: niskanpäällisellä
     niskanen+N+Sg+Ade: niskasella
     nokkanen+N+Sg+Ade: nokkasella
     norvonen+N+Sg+Ade: norvosella
@@ -252,7 +206,7 @@ Tests:
     omakätinen+N+Sg+Ade: omakätisellä
     onnennäkönen+N+Sg+Ade: onnennäkösellä
     orihevonen+N+Sg+Ade: orihevosella
-    outaihminen+N+Sg+Ade: outaihmisella
+    outaihminen+N+Sg+Ade: outaihmisellä
     outosananen+N+Sg+Ade: outosanasella
     paalinen+N+Sg+Ade: paalisella
     pahanen+N+Sg+Ade: pahasella
@@ -268,22 +222,16 @@ Tests:
     paskakärpänen+N+Sg+Ade: paskakärpäsellä
     paskaryyppönen+N+Sg+Ade: paskaryyppösellä
     paskaröttinen+N+Sg+Ade: paskaröttisellä
-    uutinen+N+Sg+Ade: uutisella
-    uutinen+N+Sg+Ade: uutisellä
     omakätinen+N+Sg+Ade: omakätisellä
     kaksnieluinen+N+Sg+Ade: kaksnieluisella
     paunuinen+N+Sg+Ade: paunuisella
     kolmastalvinen+N+Sg+Ade: kolmastalvisella
     järvinen+N+Sg+Ade: järvisellä
-    lehmäkkytkyinen+N+Sg+Ade: lehmäkkytkyisellä
+    lehmänkytkyinen+N+Sg+Ade: lehmänkytkyisellä
     muistoikhäinen+N+Sg+Ade: muistoikhäisellä
     perhäinen+N+Sg+Ade: perhäisellä
-    viljaperhäinen+N+Sg+Ade: viljaperhäisellä
-    väliperhäinen+N+Sg+Ade: väliperhäisellä
-    lehmäpperhäinen+N+Sg+Ade: lehmäpperhäisellä
-    viisseinäinen+N+Sg+Ade: viisseinäisellä
+    lehmänperhäinen+N+Sg+Ade: lehmänperhäisellä
     pörhöinen+N+Sg+Ade: pörhöisellä
-    vesipörhöinen+N+Sg+Ade: vesipörhöisellä
     kangonen+N+Sg+Ade: kangosella
     kurmuperhonen+N+Sg+Ade: kurmuperhosella
     pionen+N+Sg+Ade: piosella
@@ -291,23 +239,17 @@ Tests:
     liekonen+N+Sg+Ade: liekosella
     kakkonen+N+Sg+Ade: kakkosella
     miekkonen+N+Sg+Ade: miekkosella
-    veikkonen+N+Sg+Ade: veikkosella
     mokkonen+N+Sg+Ade: mokkosella
-    ukkonen+N+Sg+Ade: ukkosella
     jalkonen+N+Sg+Ade: jalkosella
     munanvalkonen+N+Sg+Ade: munanvalkosella
     nenähuokonen+N+Sg+Ade: nenähuokosella
     keskonen+N+Sg+Ade: keskosella
     taikauskonen+N+Sg+Ade: taikauskosella
     vääräuskonen+N+Sg+Ade: vääräuskosella
-    kehnokuulonen+N+Sg+Ade: kehnokuulosella
     kolmonen+N+Sg+Ade: kolmosella
-    täyshermonen+N+Sg+Ade: täyshermosella
     peiponen+N+Sg+Ade: peiposella
     peipponen+N+Sg+Ade: peipposella
     lipponen+N+Sg+Ade: lipposella
-    lipponen+N+Sg+Ade: lipposellä
-    vaaronen+N+Sg+Ade: vaarosella
     pikkuveronen+N+Sg+Ade: pikkuverosella
     pilhinen+N+Sg+Ade: pilhisellä
     pilkkapääskynen+N+Sg+Ade: pilkkapääskysellä
@@ -337,15 +279,11 @@ Tests:
     puolivillanen+N+Sg+Ade: puolivillasella
     puppunen+N+Sg+Ade: puppusella
     pussonen+N+Sg+Ade: pussosella
-    vetonen+N+Sg+Ade: vetosella
-    korkeamaitonen+N+Sg+Ade: korkeamaitosella
-    koppaviitonen+N+Sg+Ade: koppaviitosella
     jäykkäluontonen+N+Sg+Ade: jäykkäluontosella
     liettonen+N+Sg+Ade: liettosella
     kolttonen+N+Sg+Ade: kolttosella
     väävinkutonen+N+Sg+Ade: väävinkutosella
     kuutonen+N+Sg+Ade: kuutosella
-    hevonen+N+Sg+Ade: hevosella
     hevonen+N+Sg+Ade: hevosella
     tammahevonen+N+Sg+Ade: tammahevosella
     tasanen+N+Sg+Ade: tasasella
@@ -368,7 +306,6 @@ Tests:
     tulivihanen+N+Sg+Ade: tulivihasella
     tunen+N+Sg+Ade: tusella
     tuominen+N+Sg+Ade: tuomisella
-    tyärihminen+N+Sg+Ade: tyärihmisellä
     työhevonen+N+Sg+Ade: työhevosella
     täkinpäälinen+N+Sg+Ade: täkinpäälisellä
     täyshermonen+N+Sg+Ade: täyshermosella
@@ -377,14 +314,12 @@ Tests:
     töylynen+N+Sg+Ade: töylysellä
     ukkonen+N+Sg+Ade: ukkosella
     ukkopahanen+N+Sg+Ade: ukkopahasella
-    umpinen+N+Sg+Ade: umpisella
     urpanen+N+Sg+Ade: urpasella
     uuhinen+N+Sg+Ade: uuhisella
     uutinen+N+Sg+Ade: uutisella
     uutunen+N+Sg+Ade: uutusella
     vaaronen+N+Sg+Ade: vaarosella
     vaatheinen+N+Sg+Ade: vaatheisella
-    vaimoihminen+N+Sg+Ade: vaimoihmisella
     vaivanen+N+Sg+Ade: vaivasella
     vanhikänen+N+Sg+Ade: vanhikäsellä
     varashevonen+N+Sg+Ade: varashevosella
@@ -405,17 +340,15 @@ Tests:
     vetohevonen+N+Sg+Ade: vetohevosella
     vetonen+N+Sg+Ade: vetosella
     vierasvaranen+N+Sg+Ade: vierasvarasella
-    vieroihminen+N+Sg+Ade: vieroihmisella
     vihneperänen+N+Sg+Ade: vihneperäsellä
     viisloppinen+N+Sg+Ade: viisloppisella
     viisseinäinen+N+Sg+Ade: viisseinäisellä
     viisäyrinen+N+Sg+Ade: viisäyrisellä
     viljaperhäinen+N+Sg+Ade: viljaperhäisellä
-    villi-ihminen+N+Sg+Ade: villi-ihmisellä
     voikärpänen+N+Sg+Ade: voikärpäsellä
     voilautanen+N+Sg+Ade: voilautasella
     voimurunen+N+Sg+Ade: voimurusella
-    vuoohinen+N+Sg+Ade: vuoohisella
+    vuohinen+N+Sg+Ade: vuohisella
     vuorolankanen+N+Sg+Ade: vuorolankasella
     vuosikymmenen+N+Sg+Ade: vuosikymmesellä
     vyötianen+N+Sg+Ade: vyötiasella
@@ -426,18 +359,12 @@ Tests:
     väliperhäinen+N+Sg+Ade: väliperhäisellä
     välipuolipäivänen+N+Sg+Ade: välipuolipäiväsellä
     pörhönen+N+Sg+Ade: pörhösellä
-    pörhönen+N+Sg+Ade: pörhösellä
-    koipörhönen+N+Sg+Ade: koipörhösellä
     mökkönen+N+Sg+Ade: mökkösellä
     onnennäkönen+N+Sg+Ade: onnennäkösellä
     ryyppönen+N+Sg+Ade: ryyppösellä
     paskaryyppönen+N+Sg+Ade: paskaryyppösellä
     paskaryyppönen+N+Sg+Ade: paskaryyppösellä
-    kläppönen+N+Sg+Ade: kläppösellä
     yksönen+N+Sg+Ade: yksösellä
     ylihuominen+N+Sg+Ade: ylihuomisella
     yliikänen+N+Sg+Ade: yliikäsellä
     ylinen+N+Sg+Ade: ylisellä
-    ympäristöihminen+N+Sg+Ade: ympäristöihmisellä
-    äärheinen+N+Sg+Ade: äärheisellä
-    öljysininen+N+Sg+Ade: öljysinisellä
