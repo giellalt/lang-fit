@@ -850,7 +850,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=> a: %^HMETA: %> h:     _ :a ;
+%^V:a <=> a: %^HMETA: %> h:     _ [:a|:i] ;
           a: %^HMETA: %> h:  :a _    ;
           a           %> (h)    _ [n|t|s|l|%>|.#.] ;
 
@@ -894,7 +894,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
           
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:e <=> e: %^HMETA: %> h:    _ :e ;
+%^V:e <=> e: %^HMETA: %> h:    _ [:e|:i] ;
           e: %^HMETA: %> h: :e _    ;
            :e         %>       _ [n|t|s|l|%>|.#.] ;
 

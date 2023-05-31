@@ -714,14 +714,16 @@ LEXICON xnas_sg ! ankerias:ankeria
 LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:%>^Vt PxK ;
- +Pl+Gen:%>^Vi2den PxK ;
- +Pl+Par:%>^Vi2t^A PxK ;
- +Pl+Ill:%>^V^HMETA%>h^Vi n_PxK ;
- +Pl+Ine:%>^Vi2ss^A PxK ;
- +Pl+Ela:%>^Vi2st^A PxK ;
- +Pl+All:%>^Vi2lle PxxK ;
- +Pl+Ade:%>^Vi2ll^A PxK ;
- +Pl+Abl:%>^Vi2lt^A PxK ;
+ +Pl+Gen:^HMETA%>h^Vi2den PxK ;
+ +Pl+Par:^HMETA%>h^Vi2t^A PxK ;
+ +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
+ +Pl+Ine:^HMETA%>h^Vi2ss^A PxK ;
+ +Pl+Ela:^HMETA%>h^Vi2st^A PxK ;
+ +Pl+All:^HMETA%>h^Vi2lle PxxK ;
+ +Pl+Ade:^HMETA%>h^Vi2ll^A PxK ;
+ +Pl+Abl:^HMETA%>h^Vi2lt^A PxK ;
+ +Pl+Ess:^HMETA%>h^Vi2n^A PxK ;
+ +Pl+Tra:^HMETA%>h^Vi2 TRA ;
 
 
 LEXICON 3mies
