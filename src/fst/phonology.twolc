@@ -273,7 +273,7 @@ t:l <=> Vow:+ l _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
-t:n <=> Cns:* Vow:+  n _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kanta : kannan
+t:n <=> (Cns:*) Vow:+  n _ :Vow WeakGrade [s|%>] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! kanta : kannan
 
 !! **Tests:**
 
