@@ -31,7 +31,8 @@ Consonant stems
 * 3n_ks = keskus - keskuksen
 * 3n_ue = lakeus - lakeude
 *i 3n_ime = puhelin - puhelime
-* 3n_lnr = taival, taimen, manner
+* 3n_lnr = taimen, höyhen 
+* 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = tehas - tehtaan
 * 3mies = mies
 
