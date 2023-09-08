@@ -132,6 +132,9 @@ Beware of remnants from the Finnish and Kven files.
 * +Use/Circ for numerals, copied from sme
 * +Use/NG do not generate
 * +Use/GC 
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+
 * **+Err/Hyph** =
 * **+Err/SpaceCmp** =
 * **+Err/Lex**
