@@ -141,6 +141,9 @@ Multichar_Symbols
  +Use/Circ  !!≈ * @CODE@ for numerals, copied from sme
  +Use/NG  !!≈ * @CODE@ do not generate
  +Use/GC !!≈ * @CODE@ 
+ +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+ +Use/-TTS         !!≈ * **@CODE@** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+
 +Err/Hyph     !!≈ * **@CODE@** =
 +Err/SpaceCmp     !!≈ * **@CODE@** =
 +Err/Lex  !!≈ * **@CODE@**
