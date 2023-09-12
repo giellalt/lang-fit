@@ -33,6 +33,7 @@ check
 * 3n_lnr = taimen, höyhen 
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = tehas - tehtaan
+* odd_nas = odd-syllabic nas-types; taivas - taihvaale
 * 3mies = mies
 
 ### Lexica for unassigned words
@@ -203,6 +204,14 @@ check
 **LEXICON xnas_sg**
 
 **LEXICON xnas_pl**
+
+**LEXICON odd_nas**
+
+**LEXICON odd_xnas**
+
+**LEXICON odd_xnas_sg**
+
+**LEXICON odd_xnas_pl**
 
 **LEXICON 3mies**
 
