@@ -32,7 +32,7 @@ Consonant stems
 * nen = nainen paradigm
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
-check
+* 4n_ks = odd variants of 3n_ks; morahus - morahuksele
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
