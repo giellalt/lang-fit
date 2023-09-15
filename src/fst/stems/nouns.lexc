@@ -32,7 +32,7 @@
 !! * nen = nainen paradigm
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
-!! * 4n_ks = !! check
+!! * 4n_ks = odd variants of 3n_ks; morahus - morahuksele
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
@@ -2556,7 +2556,7 @@ kiima:kiima nx ;
 kiimanen:kiima 3nen ;
 liima:liima nx ;
 priima:priima nx ;
-tiima:tiima nx ;
+tiima:tiima n1 ;
 murkinatiima:murkinatiima nx ;
 viima:viima nx ;
 lima:lima nx ;
@@ -13969,34 +13969,34 @@ syvvyys:syvvyy n_uus_odd ;
 ikävyys:ikävyy n_uus ;
 itävyys:itävyy n_uus ;
 ystävyys:ystävyy n_uus ;
-silmänräphäys:silmänräphäy 4n_ks ;
-präihäys:präihäy 4n_ks ;
-jylkhäys:jylkhäy 4n_ks ;
-tuulenhenkhäys:tuulenhenkhäy 4n_ks ;
-präiskhäys:präiskhäy 4n_ks ;
-jymhäys:jymhäy 4n_ks ;
-lumiryöphäys:lumiryöphäy 4n_ks ;
-mielenhäirhäys:mielenhäirhäy 4n_ks ;
-ukkosenjyrhäys:ukkosenjyrhäy 4n_ks ;
-järhäys:järhäy 4n_ks ;
-maanjärhäys:maanjärhäy 4n_ks ;
-tärhäys:tärhäy 4n_ks ;
-kläpshäys:kläpshäy 4n_ks ;
-koijunläijäys:koijunläijäy 4n_ks ;
-färjäys:färjäy 4n_ks ;
-värkkäys:värkkäy 4n_ks ;
-lykkäys:lykkäy 4n_ks ;
-hyökkäys:hyökkäy 4n_ks ;
-tämpläys:tämpläy 4n_ks ;
-keräys:keräy 4n_ks ;
-kehräys:kehräy 4n_ks ;
-määräys:määräy 4n_ks ;
-lisäys:lisäy 4n_ks ;
-lissäys:lissäy 4n_ks ;
-mettäys:mettäy 4n_ks ;
-oravamettäys:oravamettäy 4n_ks ;
-inmyytäys:inmyytäy 4n_ks ;
-tärväys:tärväy 4n_ks ;
+silmänräphäys:silmän#räphäy 3n_ks ;
+präihäys:präihäy 3n_ks ;
+jylkhäys:jylkhäy 3n_ks ;
+tuulenhenkhäys:tuulenhenkhäy 3n_ks ;
+präiskhäys:präiskhäy 3n_ks ;
+jymhäys:jymhäy 3n_ks ;
+lumiryöphäys:lumiryöphäy 3n_ks ;
+mielenhäirhäys:mielenhäirhäy 3n_ks ;
+ukkosenjyrhäys:ukkosenjyrhäy 3n_ks ;
+järhäys:järhäy 3n_ks ;
+maanjärhäys:maanjärhäy 3n_ks ;
+tärhäys:tärhäy 3n_ks ;
+kläpshäys:kläpshäy 3n_ks ;
+koijunläijäys:koijunläijäy 3n_ks ;
+färjäys:färjäy 3n_ks ;
+värkkäys:värkkäy 3n_ks ;
+lykkäys:lykkäy 3n_ks ;
+hyökkäys:hyökkäy 3n_ks ;
+tämpläys:tämpläy 3n_ks ;
+keräys:keräy 3n_ks ;
+kehräys:kehräy 3n_ks ;
+määräys:määräy 3n_ks ;
+lisäys:lisäy 3n_ks ;
+lissäys:lissäy 3n_ks ;
+mettäys:mettäy 3n_ks ;
+oravamettäys:oravamettäy 3n_ks ;
+inmyytäys:inmyytäy 3n_ks ;
+tärväys:tärväy 3n_ks ;
 pirstaläj`ä:pirstaläj`ä nx ;
 velttanen`ä:velttanen`ä nx ;
 pitkäsennen`ä:pitkäsennen`ä nx ;
