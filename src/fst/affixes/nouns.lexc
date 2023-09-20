@@ -755,10 +755,10 @@ LEXICON odd_xnas_sg !
 
 LEXICON odd_xnas_pl
 !! **LEXICON @LEXNAME@**
- +Pl+Nom:%>^Vt PxK ;
- +Pl+Gen:^HMETA%>h^Vi2den PxK ;
+ +Pl+Nom:^HMETA%>h^V^Vt PxK ;
+ +Pl+Gen:^HMETA%>h^Vi2tten PxK ;
  +Pl+Par:^HMETA%>h^Vi2t^A PxK ;
- +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
+ +Pl+Ill:^HMETA%>h^Vi2shiin PxK ;
  +Pl+Ine:^HMETA%>h^Vi2ss^A PxK ;
  +Pl+Ela:^HMETA%>h^Vi2st^A PxK ;
  +Pl+All:^HMETA%>h^Vi2le PxxK ;
