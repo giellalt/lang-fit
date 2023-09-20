@@ -394,9 +394,9 @@ LEXICON n5_kasi
  +N+Nom:si R ;
  +N+Gen:e%>n R ;
 
-LEXICON n5_pl
+!!LEXICON n5_pl
 !! **LEXICON @LEXNAME@**
-n4_pl ;
+!!n4_pl ;
 
 LEXICON n5_kasi_pl
 !! **LEXICON @LEXNAME@**
