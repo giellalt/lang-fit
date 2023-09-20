@@ -126,7 +126,7 @@ check
 
 **LEXICON n5_kasi** käsi, stem kä
 
-**LEXICON n5_pl**
+**LEXICON n5_kasi**
 
 **LEXICON n5_kasi_pl**
 
