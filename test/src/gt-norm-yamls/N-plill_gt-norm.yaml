@@ -12,16 +12,17 @@ Tests:
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
+# Genomgången av Elina
 
 
   Noun - plill: # 7 x contlex pl ill -- inte kontrollerad 
-    afäärimies+N+Pl+Ill: afäärimiehiin
-    eusmies+N+Pl+Ill: eusmiehiin
-    frahtimies+N+Pl+Ill: frahtimiehiin
-    hakkomies+N+Pl+Ill: hakkomiehiin
-    ikämies+N+Pl+Ill: ikämiehiin
-    irtimies+N+Pl+Ill: irtimiehiin
-    iskemämies+N+Pl+Ill: iskemämiehiin
+    afäärimies+N+Pl+Ill: afäärimiehhiin
+    eusmies+N+Pl+Ill: eusmiehhiin
+    frahtimies+N+Pl+Ill: frahtimiehhiin
+    hakkomies+N+Pl+Ill: hakkomiehhiin
+    ikämies+N+Pl+Ill: ikämiehhiin
+    irtimies+N+Pl+Ill: irtimiehhiin
+    iskemämies+N+Pl+Ill: iskemämiehhiin
     elläin+N+Pl+Ill: elläimhiin
     irtain+N+Pl+Ill: irtaimhiin
     istuin+N+Pl+Ill: istuimhiin
@@ -34,14 +35,14 @@ Tests:
     höyhen+N+Pl+Ill: höyhenhiin
     isosisar+N+Pl+Ill: isosisarhiin
     jääntanner+N+Pl+Ill: jääntanterhiin
-    jalkatyär+N+Pl+Ill: jalkatytärhiin
-    ahneus+N+Pl+Ill: ahneuthiin
-    falskeus+N+Pl+Ill: falskeuthiin
-    fariseeus+N+Pl+Ill: fariseeuthiin
-    fiineys+N+Pl+Ill: fiineythiin
-    fiiniys+N+Pl+Ill: fiiniythiin
-    ilfheys+N+Pl+Ill: ilfheythiin
-    ilkeys+N+Pl+Ill: ilkeythiin
+    jalkatyär+N+Pl+Ill: jalkatyttärhiin
+    ahneus+N+Pl+Ill: ahneukshiin
+    falskeus+N+Pl+Ill: falskeukshiin
+    fariseeus+N+Pl+Ill: fariseeukshiin
+    fiineys+N+Pl+Ill: fiineykshiin
+    fiiniys+N+Pl+Ill: fiiniykshiin
+    ilfheys+N+Pl+Ill: ilfheykshiin
+    ilkeys+N+Pl+Ill: ilkeykshiin
     jiddisch+N+Pl+Ill: jiddischhiin
     -kielinen+N+Pl+Ill: -kielishiin
     äärheinen+N+Pl+Ill: äärheishiin
@@ -66,15 +67,15 @@ Tests:
     takkaa-ajo+N+Pl+Ill: takkaa-ajhoin
     a-malmi+N+Pl+Ill: a-malmhiin
     aalto+N+Pl+Ill: aalthoin
-    abortti+N+Pl+Ill: abortthiin
+    abortti+N+Pl+Ill: aborthiin
     aho+N+Pl+Ill: ahhoin
     äijäfaari+N+Pl+Ill: äijäfaahriin
-    aihe+N+Pl+Ill: aiheen
-    äile+N+Pl+Ill: äileen
-    aine+N+Pl+Ill: aineen
-    alote+N+Pl+Ill: alotteen
-    alue+N+Pl+Ill: alueen
-    ikenheet+N+Pl+Ill: ikeneen
+    aihe+N+Pl+Ill: aihheishiin
+    äile+N+Pl+Ill: äilheishiin
+    aine+N+Pl+Ill: ainheishiin
+    alote+N+Pl+Ill: alotheishiin
+    alue+N+Pl+Ill: aluheishiin
+    ikenheet+N+Pl+Ill: ikenhiin
     äkseerinki+N+Pl+Ill: äkseerinkhiin
     alttari+N+Pl+Ill: alttarhiin
     kamarit+N+Pl+Ill: kamarhiin
@@ -89,13 +90,13 @@ Tests:
     äitipuoli+N+Pl+Ill: äitipuohliin
     asuntolohi+N+Pl+Ill: asuntolohhiin
     hiili+N+Pl+Ill: hiihliin
-    aikakausi+N+Pl+Ill: aikakauhtiin
+    aikakausi+N+Pl+Ill: aikakaushiin
     färivesi+N+Pl+Ill: färiveshiin
     hangonvarsi+N+Pl+Ill: hangonvarshiin
     hirsi+N+Pl+Ill: hirshiin
-    ikävuosi+N+Pl+Ill: ikävuohtiin
+    ikävuosi+N+Pl+Ill: ikävuoshiin
     ilovesi+N+Pl+Ill: iloveshiin
-    polvivarret+N+Pl+Ill: polvivarhiin
+    polvivarret+N+Pl+Ill: polvivarshiin
     imulapsi+N+Pl+Ill: imulapshiin
     irtilapsi+N+Pl+Ill: irtilapshiin
     jalkalapsi+N+Pl+Ill: jalkalapshiin
@@ -112,7 +113,7 @@ Tests:
     ympäryssuolet+N+Pl+Ill: ympäryssuohliin
     auttavaisuus+N+Pl+Ill: auttavaisuukshiin
     hankaluus+N+Pl+Ill: hankaluukshiin
-    hiljaisuus+N+Pl+Ill: hiljaisuukshiin
+    hiljasuus+N+Pl+Ill: hiljasuukshiin
     huoruus+N+Pl+Ill: huoruukshiin
     iänkaikkisuus+N+Pl+Ill: iänkaikkisuukshiin
     itusuus+N+Pl+Ill: itusuukshiin
