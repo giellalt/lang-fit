@@ -1145,7 +1145,7 @@ check
 * nas = tehas - tehtaan
 * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 * 3mies = mies
-
+* n_ien = ien
 ### Lexica for unassigned words
 
 **LEXICON nx** pointing to *n1*.
@@ -1156,7 +1156,7 @@ check
 
 **LEXICON xc_pl**
 
-### Lexica for regular nounse
+### Lexica for regular nouns
 
 **LEXICON n0** for 1-syllabic: *maa, suu, tie, ...*
 
@@ -1324,6 +1324,10 @@ check
 **LEXICON odd_xnas_pl**
 
 **LEXICON 3mies**
+
+**LEXICON n_ien**
+
+**LEXICON n_ien_sg**
 
 **LEXICON n_uus**
 
