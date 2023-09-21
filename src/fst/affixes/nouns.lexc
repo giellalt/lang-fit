@@ -36,7 +36,7 @@
 !! * nas = tehas - tehtaan
 !! * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 !! * 3mies = mies
-
+!! * n_ien = ien
 !! ### Lexica for unassigned words
 
 
@@ -61,7 +61,7 @@ LEXICON xc_pl
 
 
 
-!! ### Lexica for regular nounse
+!! ### Lexica for regular nouns
 
 LEXICON n0
 !! **LEXICON @LEXNAME@** for 1-syllabic: *maa, suu, tie, ...*
@@ -796,6 +796,42 @@ LEXICON 3mies
  +N+Pl+Abe:he%>i2tt^A PxK ;
  +N+Pl+Ess:he%>i2n^A PxK ;
  +N+Pl+Tra:he TRA ;
+
+LEXICON n_ien
+!! **LEXICON @LEXNAME@**
+ n_ien_sg ;
+ n_ien_pl ;
+
+LEXICON n_ien_sg
+!! **LEXICON @LEXNAME@**
+ +N+Sg+Nom:^WGn       PxK ;
+ +N+Sg+Gen:ne%>n PxK ;
+ +N+Sg+Par:^WGn%>t^A PxK ;
+ +N+Sg+Ill:n^HMETA%>heen PxK ;
+ +N+Sg+Ine:ne%>ss^A PxK ;
+ +N+Sg+Ela:ne%>st^A PxK ;
+ +N+Sg+All:ne%>lle PxxK ;
+ +N+Sg+Ade:ne%>ll^A PxK ;
+ +N+Sg+Abl:ne%>lt^A PxK ;
+ +N+Sg+Abe:ne%>tt^A PxK ;
+ +N+Sg+Ess:ne%>nn^A PxK ;
+ +N+Sg+Tra:he TRA ;
+
+LEXICON n_ien_pl
+ +N+Pl+Nom:ne%>t PxK ;
+ +N+Pl+Nom:n^HMETA%>heet PxK ;
+ +N+Pl+Gen:n%>ien PxK ;
+ +N+Pl+Par:n%>i^A PxK ;
+ +N+Pl+Ill:n^HMETA%>hiin PxK ;
+ +N+Pl+Ine:n%>iss^A PxK ;
+ +N+Pl+Ela:n%>i2st^A PxK ;
+ +N+Pl+All:n%>i2lle PxxK ;
+ +N+Pl+Ade:n%>i2ll^A PxK ;
+ +N+Pl+Abl:n%>i2lt^A PxK ;
+ +N+Pl+Abe:n%>i2tt^A PxK ;
+ +N+Pl+Ess:n%>i2nn^A PxK ;
+ +N+Pl+Tra:he TRA ;
+
 
 
 LEXICON n_uus
