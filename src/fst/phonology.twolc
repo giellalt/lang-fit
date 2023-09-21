@@ -221,7 +221,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
-                      t _ Vow: %^HMETA: %> h [i i|%^V: %^V:] ;
+                      t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
                   Vow t _ Vow: %^HMETA: ;
 
 !		  :e %> _ %^A: ; ! hanhea -- rather two classes

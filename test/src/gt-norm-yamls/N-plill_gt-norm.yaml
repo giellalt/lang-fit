@@ -65,14 +65,14 @@ Tests:
     asepuu+N+Pl+Ill: asepuihin
     mäkivyöt+N+Pl+Ill: mäkivöihin
     takkaa-ajo+N+Pl+Ill: takkaa-ajhoin
-    a-malmi+N+Pl+Ill: a-malmhiin
+    a-malmi+N+Pl+Ill: [a-malmhiin, a-malhmiin]
     aalto+N+Pl+Ill: aalthoin
     abortti+N+Pl+Ill: aborthiin
     aho+N+Pl+Ill: ahhoin
     äijäfaari+N+Pl+Ill: äijäfaahriin
     aihe+N+Pl+Ill: aihheishiin
-    äile+N+Pl+Ill: äilheishiin
-    aine+N+Pl+Ill: ainheishiin
+    äile+N+Pl+Ill: [äilheishiin, äihleishiin]
+    aine+N+Pl+Ill: [ainheishiin, aihneishiin]
     alote+N+Pl+Ill: alotheishiin
     alue+N+Pl+Ill: aluheishiin
     ikenheet+N+Pl+Ill: ikenhiin
