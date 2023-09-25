@@ -632,17 +632,17 @@ LEXICON 3x_ue_sg
 LEXICON 3x_ue_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:e%>t PxK ;
- +Pl+Gen:t%>ten PxK ;
- +Pl+Par:ks%>i^A PxK ;
- +Pl+Ill:t%>hii n_PxK ;
- +Pl+Ine:%>i2ss^A PxK ;
- +Pl+Ela:%>i2st^A PxK ;
- +Pl+All:%>i2lle PxxK ;
- +Pl+Ade:%>i2ll^A PxK ;
- +Pl+Abl:%>i2lt^A PxK ;
- +Pl+Abe:%>i2tt^A PxK ;
- +Pl+Ess:%>i2n^A PxK ;
- +Pl+Tra:%>i2 TRA ;
+ +Pl+Gen:ks%>i2en PxK ;
+ +Pl+Par:ks%>i2^A PxK ;
+ +Pl+Ill:ks%>hii n_PxK ;
+ +Pl+Ine:ks%>i2ss^A PxK ;
+ +Pl+Ela:ks%>i2st^A PxK ;
+ +Pl+All:ks%>i2lle PxxK ;
+ +Pl+Ade:ks%>i2ll^A PxK ;
+ +Pl+Abl:ks%>i2lt^A PxK ;
+ +Pl+Abe:ks%>i2tt^A PxK ;
+ +Pl+Ess:ks%>i2n^A PxK ;
+ +Pl+Tra:ks TRA ;
 
 LEXICON 3n_ime
 !! **LEXICON @LEXNAME@**
