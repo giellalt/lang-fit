@@ -16,6 +16,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø  !!= * @CODE@
 %^WG:0    !!= * @CODE@ = weak grade
 %^E2I:0   !!= * @CODE@ = kiele- > kieli
 %^HMETA:0 !!= * @CODE@ = vow metathesis for ill
+%^HMET2:0 !!= * @CODE@ = vow metathesis for sauhnaan etc
 %^AE:0    !!= * @CODE@ = a to e in otta- > otethaan
 %^IDEL:0  !!= * @CODE@ = trigger to delete i
 %>        !!= * @CODE@ = suffix boundary
@@ -39,7 +40,7 @@ t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 
 Sets
 
-Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; !!= * @CODE@
+Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; !!= * @CODE@
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
@@ -346,7 +347,8 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 !       [.#.|#] Cns:* Vow h _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
-                  Vow Vow   _ [l|m|n|r|v] Vow: %^HMETA: ; ! puohleen men vuotheen
+                  Vow Vow   _ [l|m|n|r|v] Vow:  %^HMET2: ; ! puohleen men vuotheen
+                 Vow Vow   _ [l|m|n|r|v] Vow:  %^HMETA: ; ! TA BORT NÄR HMET2 INFÖRD ÖVERALLT
                   Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een
                   Vow   l   _ [  m|n|r|v] Vow: %^HMETA: ; ! ilhmaa lm, lv, 
                   Vow   r   _ [  m|n  |v]     Vow: %^HMETA: ; ! 
@@ -511,10 +513,10 @@ v:0 <=> Vow v _ Vow: %^HMETA: ;
 "h:0"
 !! **RULE: @RULENAME@**
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
-            Vow Vow :h Cns Vow: %^HMETA: %> _ ; ! puohleen
+            Vow Vow :h Cns Vow: [%^HMETA: | %^HMET2:] %> _ ; ! puohleen
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: %^HMETA: ;
-  Vow Vow   :h [l|m|n|r|v] Vow: %^HMETA: %> _ ; ! huohneesheen
+  Vow Vow   :h [l|m|n|r|v] Vow: [%^HMETA: | %^HMET2:] %> _ ; ! huohneesheen
   Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! puohleen men vuotheen
   Vow   l   :h [  m|n|r|v] Vow: %^HMETA: %> _ ; ! ilhmaa lm, lv, 
   Vow   r   :h [  m|n  |v] Vow: %^HMETA: %> _ ; ! 
@@ -650,7 +652,7 @@ a:e <=> _ %^AE: ;
 
 "a:0"
 !! **RULE: @RULENAME@**
-a:0 <=>                                              _ %^HMETA: %> ;        ! before metathesis h
+a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> ;        ! before metathesis h
     [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   ! ??? 
@@ -850,8 +852,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=> a: %^HMETA: %> h:     _ [:a|:i] ;
-          a: %^HMETA: %> h:  :a _    ;
+%^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ;
+          a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
           a           %> (h)    _ [n|t|s|l|%>|.#.] ;
 
 !! **Tests:**

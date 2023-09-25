@@ -142,7 +142,8 @@ LEXICON x1_sg_oblique
 !! **LEXICON @LEXNAME@** gives the rest
  +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@
  +Sg+Par:%>^A PxK ; !!≈ * @CODE@
- +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon, paphiin, kashiin
+ +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon, paphiin, kashiin !!TA BORT NÄR HMET2 klar
+ +Sg+Ill:^HMET2%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon, paphiin, kashiin 
  +Sg+Ine:^WG%>ss^A PxK ;      !!≈ * @CODE@  etc.
  +Sg+Ela:^WG%>st^A PxK ;      ! talosta
  +Sg+All:^WG%>le PxxK ;        ! talole
@@ -642,7 +643,7 @@ LEXICON 3x_ue_pl
  +Pl+Abl:ks%>i2lt^A PxK ;
  +Pl+Abe:ks%>i2tt^A PxK ;
  +Pl+Ess:ks%>i2n^A PxK ;
- +Pl+Tra:ks TRA ;
+ +Pl+Tra: TRA ;
 
 LEXICON 3n_ime
 !! **LEXICON @LEXNAME@**
