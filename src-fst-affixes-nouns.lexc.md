@@ -75,7 +75,8 @@ check
 **LEXICON x1_sg_oblique** gives the rest
 * +Sg+Gen:^WG%>n PxK ;
 * +Sg+Par:%>^A PxK ;
-* +Sg+Ill:^HMETA%>h^V^V n_PxK ; talhoon, paphiin, kashiin
+* +Sg+Ill:^HMETA%>h^V^V n_PxK ; talhoon, paphiin, kashiin !!TA BORT NÄR HMET2 klar
+* +Sg+Ill:^HMET2%>h^V^V n_PxK ; talhoon, paphiin, kashiin 
 * +Sg+Ine:^WG%>ss^A PxK ;  etc.
 
 **LEXICON x1_pl** the pl forms

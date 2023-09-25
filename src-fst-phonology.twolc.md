@@ -13,6 +13,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * %^WG:0     = weak grade
 * %^E2I:0    = kiele- > kieli
 * %^HMETA:0  = vow metathesis for ill
+* %^HMET2:0  = vow metathesis for sauhnaan etc
 * %^AE:0     = a to e in otta- > otethaan
 * %^IDEL:0   = trigger to delete i
 * %>         = suffix boundary
@@ -31,7 +32,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 ## Sets
 Here we group the symbols in convenient sets.
 
-* Dummy          = %+ %^WG %^E2I %^HMETA %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
+* Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
 * SomeVowel      = %^V ;                                                

@@ -207,6 +207,7 @@ Tag
 * **%^N** = tulˆNut, kävel^N^Ut
 * **%^E2I** = for e to i change
 * **%^HMETA** = for h metathesis syksy - sykshyyn
+* **%^HMET2** = for h metathesis saunhaan - sauhnaan
 * **%^AO** = a:o rannoissa
 * **%^WG** = Weak grade matto - maton
 * **%^TES** =  in use?
