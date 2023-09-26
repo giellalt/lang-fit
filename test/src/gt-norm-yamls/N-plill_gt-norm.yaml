@@ -71,8 +71,8 @@ Tests:
     aho+N+Pl+Ill: ahhoin
     äijäfaari+N+Pl+Ill: äijäfaahriin
     aihe+N+Pl+Ill: aihheishiin
-    äile+N+Pl+Ill: [äilheishiin, äihleishiin]
-    aine+N+Pl+Ill: [ainheishiin, aihneishiin]
+    äile+N+Pl+Ill: äihleishiin #även äilheishiin?
+    aine+N+Pl+Ill: aihneishiin #även ainheishiin?
     alote+N+Pl+Ill: alotheishiin
     alue+N+Pl+Ill: aluheishiin
     ikenheet+N+Pl+Ill: ikenhiin

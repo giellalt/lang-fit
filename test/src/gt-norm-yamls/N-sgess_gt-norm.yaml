@@ -61,8 +61,8 @@ Tests:
     aho+N+Sg+Ess: ahona
     äijäfaari+N+Sg+Ess: äijäfaarina
     aihe+N+Sg+Ess: aihheena
-    äile+N+Sg+Ess: [äilheenä, äihleenä]
-    aine+N+Sg+Ess: [ainheena, aihneena]
+    äile+N+Sg+Ess: äihleenä #även äilheenä?
+    aine+N+Sg+Ess: aihneena #även ainheena?
     alote+N+Sg+Ess: alotheena
     alue+N+Sg+Ess: aluheena
     akleija+N+Sg+Ess: akleijanna

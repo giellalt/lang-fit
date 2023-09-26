@@ -85,7 +85,7 @@ Rules
 !! f rules
 
 "f:0"
-f:0 <=> Vow f _ Vow: %^HMETA: ;
+f:0 <=> Vow f _ Vow: [%^HMETA: |%^HMET2:] ;
 
 !!€ soffa^HMETA>h^V^Vn
 !!€ sof000>haan
@@ -94,7 +94,7 @@ f:0 <=> Vow f _ Vow: %^HMETA: ;
 
 !! j rules
 "j:0"
-j:0 <=> Vow j _ Vow: %^HMETA: ;
+j:0 <=> Vow j _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 !! **k rules**
@@ -157,17 +157,17 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 !! l rules
 "l:0"
-l:0 <=> Vow l _ Vow: %^HMETA: ;
+l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 !! m rules
 "m:0"
-m:0 <=> Vow m _ Vow: %^HMETA: ;
+m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 !! n rules
 "n:0"
-n:0 <=> Vow n _ Vow: %^HMETA: ;
+n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 
@@ -205,20 +205,20 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 
 !! r rules
 "r:0"
-r:0 <=> Vow r _ Vow: %^HMETA: ;
+r:0 <=> Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 
 !! s rules
 "s:0"
-s:0 <=> Vow s _ Vow: %^HMETA: ;
+s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 !! t rules
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
+t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2:] ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
@@ -246,7 +246,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ WeakGrade ; ! new try: all tt give t
 "t4:0"
 !! **RULE: @RULENAME@** where *t4* is *t* in *rt* that shall not become *rr* 
 t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
-         Vow   t       _ Vow:  %^HMETA: ;
+         Vow   t       _ Vow:  [%^HMETA: |%^HMET2:] ;
 
 !! **Tests:**
 
@@ -300,7 +300,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
  Vow ([n|l|r]) _ (:s)   e:   %^E2I: ; ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
  Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc.|vuossii(n)|uusia] ! uusine
  Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) *)
- Vow ([n|l|r]) _        e:0 (%^AO:0) %^HMETA:0 %> h :i ;    ! jok uushiin
+ Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
  [i|u|y|ö] [e|u|y] _ (:s) Vow:0      (%^AO:0)  %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi)
  Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
  Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
@@ -319,7 +319,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 !! v rules
 "v:0"
-v:0 <=> Vow v _ Vow: %^HMETA: ;
+v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 
@@ -738,7 +738,7 @@ e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ %^E2I: ;
 i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
-                        _ %^HMETA: ;               ! keppi : kepphiin
+                        _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	           Cns: _ (WeakGrade) %>  [i2:|i3:|i8:] ; ! sopia : sopi, oppia : oppi
 		   Cns: _ (%^WG:) %^IDEL: %> i2: ; ! tukki : tukkitten
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
