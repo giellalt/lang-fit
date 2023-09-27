@@ -9,6 +9,7 @@
 +N+Sg+Abl
 +N+Sg+Ess
 +N+Sg+Tra
++N+Sg+Abe
 +N+Pl+Nom
 +N+Pl+Gen
 +N+Pl+Par
@@ -20,3 +21,4 @@
 +N+Pl+Abl
 +N+Pl+Ess
 +N+Pl+Tra
++N+Pl+Abe
