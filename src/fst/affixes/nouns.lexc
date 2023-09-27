@@ -352,9 +352,9 @@ LEXICON x3_pl
  +Pl+All:^WG%>i2lle PxK ;
  +Pl+Ade:^WG%>i2ll^A PxK ;
  +Pl+Abl:^WG%>i2lt^A PxK ;
- +Pl+Tra:%>ei2 TRA ;
- +Pl+Ess:%>ei2n^A PxK ;
- +Pl+Abe:%>ei2tt^A PxK ;
+ +Pl+Tra:%>i2 TRA ;
+ +Pl+Ess:%>i2n^A PxK ;
+ +Pl+Abe:%>i2tt^A PxK ;
 
 
 
