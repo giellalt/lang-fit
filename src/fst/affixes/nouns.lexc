@@ -349,7 +349,7 @@ LEXICON x3_pl
  +Pl+Ill:^HMETA%>h^Vi n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
- +Pl+Ade:^WG%>i2ll^A PxK ;
+ +Pl+All:^WG%>i2lle PxK ;
  +Pl+Ade:^WG%>i2ll^A PxK ;
  +Pl+Abl:^WG%>i2lt^A PxK ;
  +Pl+Tra:%>ei2 TRA ;
@@ -646,7 +646,7 @@ LEXICON 3x_ue_pl
  +Pl+Abl:ks%>i2lt^A PxK ;
  +Pl+Abe:ks%>i2tt^A PxK ;
  +Pl+Ess:ks%>i2n^A PxK ;
- +Pl+Tra: TRA ;
+ +Pl+Tra:ksi TRA ;
 
 LEXICON 3n_ime
 !! **LEXICON @LEXNAME@**
