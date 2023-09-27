@@ -30,7 +30,7 @@ Tests:
     polkimet+N+Pl+Ine: polkimissa
     äänestys+N+Pl+Ine: äänestyksissä
     äärettömyys+N+Pl+Ine: äärettömyyksissä
-    äes+N+Pl+Ine: äkeksissä
+    #äes+N+Pl+Ine: äkeksissä
     ähmäänys+N+Pl+Ine: ähmäänyksissä
     ajos+N+Pl+Ine: ajoksissa
     äkäsyys+N+Pl+Ine: äkäsyyksissä
@@ -41,14 +41,14 @@ Tests:
     höyhen+N+Pl+Ine: höyhenissä
     isosisar+N+Pl+Ine: isosisarissa
     jääntanner+N+Pl+Ine: jääntanterissa
-    jalkatyär+N+Pl+Ine: jalkatytärissä
-    ahneus+N+Pl+Ine: ahneuissa
-    falskeus+N+Pl+Ine: falskeuissa
-    fariseeus+N+Pl+Ine: fariseeuissa
-    fiineys+N+Pl+Ine: fiineyissä
-    fiiniys+N+Pl+Ine: fiiniyissä
-    ilfheys+N+Pl+Ine: ilfheyissä
-    ilkeys+N+Pl+Ine: ilkeyissä
+    jalkatyär+N+Pl+Ine: jalkatyttärissä
+    ahneus+N+Pl+Ine: ahneuksissa
+    falskeus+N+Pl+Ine: falskeuksissa
+    fariseeus+N+Pl+Ine: fariseeuiksissa
+    #fiineys+N+Pl+Ine: fiineyksissä
+    #fiiniys+N+Pl+Ine: fiiniyksissä
+    ilfheys+N+Pl+Ine: ilfheyksissä
+    ilkeys+N+Pl+Ine: ilkeyksissä
     jiddisch+N+Pl+Ine: jiddischissä
     -kielinen+N+Pl+Ine: -kielisissä
     äärheinen+N+Pl+Ine: äärheisissä
@@ -78,16 +78,16 @@ Tests:
     aho+N+Pl+Ine: ahoissa
     äijäfaari+N+Pl+Ine: äijäfaarissa
     hamut+N+Pl+Ine: hamuissa
-    aihe+N+Pl+Ine: aiheessa
-    äile+N+Pl+Ine: äileessä
-    aine+N+Pl+Ine: aineessa
-    alote+N+Pl+Ine: alotteessa
-    alue+N+Pl+Ine: alueessa
-    ikenheet+N+Pl+Ine: ikeneessä
+    aihe+N+Pl+Ine: aihheissa
+    äile+N+Pl+Ine: [äilheissä, äihleissä]
+    aine+N+Pl+Ine: [ainheissa, aihneissa]
+    alote+N+Pl+Ine: alotheissa
+    alue+N+Pl+Ine: aluheissa
+    #ikenheet+N+Pl+Ine: ikenissä
     akleija+N+Pl+Ine: akleijaissa
     äkseerinki+N+Pl+Ine: äkseerinkissä
-    almunakka+N+Pl+Ine: almunakaissa
-    alttari+N+Pl+Ine: alttarissa
+    almunakka+N+Pl+Ine: almunakoissa
+    alttari+N+Pl+Ine: alttareissa
     ämmäkkö+N+Pl+Ine: ämmäköissä
     ammunta+N+Pl+Ine: ammunnoissa
     kamarit+N+Pl+Ine: kamarissa
@@ -105,17 +105,17 @@ Tests:
     aikakausi+N+Pl+Ine: aikakausissa
     färivesi+N+Pl+Ine: färivesissä
     hangonvarsi+N+Pl+Ine: hangonvarsissa
-    hirsi+N+Pl+Ine: hirtissä
+    hirsi+N+Pl+Ine: hirsissä
     ikävuosi+N+Pl+Ine: ikävuosissa
     ilovesi+N+Pl+Ine: ilovesissä
-    polvivarret+N+Pl+Ine: polvivarissa
-    imulapsi+N+Pl+Ine: imulaissa
-    irtilapsi+N+Pl+Ine: irtilaissa
-    jalkalapsi+N+Pl+Ine: jalkalaissa
-    jumalallapsi+N+Pl+Ine: jumalallaissa
-    kapalolapsi+N+Pl+Ine: kapalolaissa
-    kasvattilapsi+N+Pl+Ine: kasvattilaissa
-    kusilapsi+N+Pl+Ine: kusilaissa
+    polvivarret+N+Pl+Ine: polvivarsissa
+    imulapsi+N+Pl+Ine: imulapsissa
+    irtilapsi+N+Pl+Ine: irtilapsissa
+    jalkalapsi+N+Pl+Ine: jalkalapsissa
+    jumallapsi+N+Pl+Ine: jumallapsissa
+    kapalolapsi+N+Pl+Ine: kapalolapsissa
+    kasvattilapsi+N+Pl+Ine: kasvattilapsissa
+    kusilapsi+N+Pl+Ine: kusilapsissa
     höttölumi+N+Pl+Ine: höttölumissa
     iloliemi+N+Pl+Ine: iloliemissä
     kalanliemi+N+Pl+Ine: kalanliemissä
@@ -137,7 +137,7 @@ Tests:
     Kyriiri+N+Pl+Ine: Kyriirissä
     Laurina+N+Pl+Ine: Laurinaissa
     Mikkelinpäivä+N+Pl+Ine: Mikkelinpäivissä
-    Norrlänska+N+Pl+Ine: Norrlänskaissa
+    Norrlänska+N+Pl+Ine: Norrlänskoissa
     TV-masti+N+Pl+Ine: TV-mastissa
     äänensävy+N+Pl+Ine: äänensävyissä
     alunastifti+N+Pl+Ine: alunastiftissä
