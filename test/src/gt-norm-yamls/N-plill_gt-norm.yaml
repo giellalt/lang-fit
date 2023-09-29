@@ -65,11 +65,11 @@ Tests:
     asepuu+N+Pl+Ill: asepuihin
     mäkivyöt+N+Pl+Ill: mäkivöihin
     takkaa-ajo+N+Pl+Ill: takkaa-ajhoin
-    a-malmi+N+Pl+Ill: a-malhmiin
+    a-malmi+N+Pl+Ill: [a-malhmiin, a-malmhiin]
     aalto+N+Pl+Ill: aalthoin
     abortti+N+Pl+Ill: aborthiin
     aho+N+Pl+Ill: ahhoin
-    äijäfaari+N+Pl+Ill: äijäfaahriin
+    äijäfaari+N+Pl+Ill: [äijäfaahriin, äijäfaarhiin]
     aihe+N+Pl+Ill: aihheishiin
     äile+N+Pl+Ill: äihleishiin #även äilheishiin?
     aine+N+Pl+Ill: aihneishiin #även ainheishiin?
@@ -120,7 +120,7 @@ Tests:
     jatkuvuus+N+Pl+Ill: jatkuvuukshiin
     evankeeljum+N+Pl+Ill: evankeeljumhiin
     lippaset+N+Pl+Ill: lippashiin
-    Kyriiri+N+Pl+Ill: Kyriihriin
+    Kyriiri+N+Pl+Ill: [Kyriihriin, Kyriirhiin]
     TV-masti+N+Pl+Ill: TV-masthiin
     alunastifti+N+Pl+Ill: alunastifthiin
     romani chib+N+Pl+Ill: romani chibhiin

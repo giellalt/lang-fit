@@ -69,12 +69,12 @@ Tests:
     ärräpää+N+Sg+Ill: ärräpäähän
     asepuu+N+Sg+Ill: asepuuhun
     takkaa-ajo+N+Sg+Ill: takkaa-ajhoon
-    a-malmi+N+Sg+Ill: a-malhmiin
+    a-malmi+N+Sg+Ill: [a-malhmiin, a-malmhiin]
     ääkkä+N+Sg+Ill: ääkhään
     aalto+N+Sg+Ill: aalthoon
     abortti+N+Sg+Ill: aborthiin
     aho+N+Sg+Ill: ahhoon
-    äijäfaari+N+Sg+Ill: äijäfaahriin
+    äijäfaari+N+Sg+Ill: [äijäfaahriin, äijäfaarhiin]
     aihe+N+Sg+Ill: aihheesheen
 #    äile+N+Sg+Ill: äilheen # VetEj?
     aine+N+Sg+Ill: aihneesheen #eller även ainheesheen?
@@ -122,11 +122,11 @@ Tests:
     asukas+N+Sg+Ill: asukhaasheen
     ehokas+N+Sg+Ill: ehokhaasheen
     evankeeljum+N+Sg+Ill: evankeeljumhiin
-    Antinpäivä+N+Sg+Ill: Antinpäihvään
-    Kruunu+N+Sg+Ill: Kruuhnuun
-    Kyriiri+N+Sg+Ill: Kyriihriin
+    Antinpäivä+N+Sg+Ill: [Antinpäihvään, Antinpäivhään]
+    Kruunu+N+Sg+Ill: [Kruuhnuun, Kruunhuun]
+    Kyriiri+N+Sg+Ill: [Kyriihriin, Kyriirhiin]
     Laurina+N+Sg+Ill: Laurinhaan
-    Mikkelinpäivä+N+Sg+Ill: Mikkelinpäihvään
+    Mikkelinpäivä+N+Sg+Ill: [Mikkelinpäihvään, Mikkelinpäivhään]
     Norrlänska+N+Sg+Ill: Norrlänskhaan
     TV-masti+N+Sg+Ill: TV-masthiin
     äänensävy+N+Sg+Ill: äänensävhyyn

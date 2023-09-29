@@ -159,8 +159,8 @@ LEXICON x1_pl
  +Pl+Gen:^WG^IDEL%>i2tten PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2en PxK ;
  +Pl+Par:%>i2^A PxK ;
- +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhain >>SHOULD BE saunhoin
- +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnain >>SHOULD BE sauhnoin
+ +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhoin 
+ +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnoin 
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
  +Pl+All:^WG%>i2le PxxK ;

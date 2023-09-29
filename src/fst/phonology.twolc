@@ -218,7 +218,7 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2:] ; ! new try: all tt give t
+t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
