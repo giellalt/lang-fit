@@ -852,7 +852,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ; ! sauhnaan
+%^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a] ; ! sauhnaan
           a: [%^HMETA: | %^HMET2:] %> h:  :a _    ; ! sauhnaan
           !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ;
           !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
@@ -872,7 +872,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-!          a u :h Cns a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ;
+          a u (:h) Cns a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ;
 
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
