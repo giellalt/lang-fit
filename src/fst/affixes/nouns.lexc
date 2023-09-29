@@ -189,24 +189,24 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 !! **LEXICON @LEXNAME@** the sg
  +Sg+Nom:^WG      KK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
- +Sg+Gen+Err/Orth:^WGh%>een    PxK ; ! liikheen, säkheen
+ +Sg+Gen:^WGh%>een    PxK ; ! liikheen, säkheen
  +Sg+Gen:^HMET2%>heen    PxK ; ! aihneen, liihkeen
  +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill+Err/Orth:^WGh%>eeshee     n_PxK ; ! liikheesheen
+ +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
  +Sg+Ill:^HMET2%>heeshee     n_PxK ; ! aihneesheen
- +Sg+Ine+Err/Orth:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
+ +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
  +Sg+Ine:^HMET2%>heess^A   PxK ; ! NY aihneessa 
- +Sg+Ela+Err/Orth:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
+ +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
  +Sg+Ela:^HMET2%>heest^A   PxK ; ! NY aihneesta
- +Sg+All+Err/Orth:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
+ +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
  +Sg+All:^HMET2%>heele    PxxK ; ! NY
- +Sg+Ade+Err/Orth:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
+ +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
  +Sg+Ade:^HMET2%>heel^A    PxK ; ! NY
- +Sg+Abl+Err/Orth:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
+ +Sg+Abl:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
  +Sg+Abl:^HMET2%>heelt^A   PxK ; ! NY
- +Sg+Tra+Err/Orth:^WGh%>ee TRA ;
+ +Sg+Tra:^WGh%>ee TRA ;
  +Sg+Tra:^HMET2%>hee TRA ; ! NY
- +Sg+Ess+Err/Orth:^WGh%>een^A PxK ;
+ +Sg+Ess:^WGh%>een^A PxK ;
  +Sg+Ess:^HMET2%>heen^A PxK ; ! NY
  +Sg+Abe:%>ett^A PxK ;
 
@@ -218,23 +218,23 @@ LEXICON x2_pl
  +Pl+Gen:^WGh%>ejen   PxK ;
  +Pl+Par:^WGh%>ej^A   PxK ;
  +Pl+Par:^WGh%>eit^A   PxK ;
- +Pl+Ill+Err/Orth:^WGh%>ei2shii     n_PxK ; 
+ +Pl+Ill:^WGh%>ei2shii     n_PxK ; 
  +Pl+Ill:^HMET2%>hei2shii     n_PxK ; 
- +Pl+Ine+Err/Orth:^WGh%>ei2ss^A   PxK ; ! liikheissä
+ +Pl+Ine:^WGh%>ei2ss^A   PxK ; ! liikheissä
  +Pl+Ine:^HMET2%>hei2ss^A   PxK ;
- +Pl+Ela+Err/Orth:^WGh%>ei2st^A   PxK ; ! liikheessä, säkheessä
+ +Pl+Ela:^WGh%>ei2st^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:^HMET2%>hei2st^A   PxK ; 
- +Pl+Ade+Err/Orth:^WGh%>ei2le    PxxK ; ! liikheelä, säkheelä
+ +Pl+Ade:^WGh%>ei2le    PxxK ; ! liikheelä, säkheelä
  +Pl+Ade:^HMET2%>hei2le    PxxK ;
- +Pl+All+Err/Orth:^WGh%>ei2l^A    PxK ; ! liikheelä, säkheelä
+ +Pl+All:^WGh%>ei2l^A    PxK ; ! liikheelä, säkheelä
  +Pl+All:^HMET2%>hei2l^A    PxK ; 
- +Pl+Abl+Err/Orth:^WGh%>ei2lt^A    PxK ; ! liikheelä, säkheelä
+ +Pl+Abl:^WGh%>ei2lt^A    PxK ; ! liikheelä, säkheelä
  +Pl+Abl:^HMET2%>hei2lt^A    PxK ;
- +Pl+Tra+Err/Orth:^WGh%>ei2 TRA ;
+ +Pl+Tra:^WGh%>ei2 TRA ;
  +Pl+Tra:^HMET2%>hei2 TRA ;
- +Pl+Ess+Err/Orth:^WGh%>ei2n^A PxK ;
+ +Pl+Ess:^WGh%>ei2n^A PxK ;
  +Pl+Ess:^HMET2%>hei2n^A PxK ;
- +Pl+Abe+Err/Orth:^WGh%>ei2tt^A PxK ;
+ +Pl+Abe:^WGh%>ei2tt^A PxK ;
  +Pl+Abe:^HMET2%>hei2tt^A PxK ;
 
 
