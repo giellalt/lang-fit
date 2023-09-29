@@ -75,7 +75,7 @@ check
 **LEXICON x1_sg_oblique** gives the rest
 * +Sg+Gen:^WG%>n PxK ;
 * +Sg+Par:%>^A PxK ;
-* +Sg+Ill+Err/Orth:^HMETA%>h^V^V n_PxK ; saunhaan 
+* +Sg+Ill:^HMETA%>h^V^V n_PxK ; saunhaan 
 * +Sg+Ill:^HMET2%>h^V^V n_PxK ; talhoon, sauhnaan 
 * +Sg+Ine:^WG%>ss^A PxK ;  etc.
 
