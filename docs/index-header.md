@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-fit/main/badge.svg)](https://github.com/giellalt/lang-fit/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-fit/main/badge.svg)](https://github.com/giellalt/lang-fit/actions)
 
 These pages document the work on the **[Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit)**.
 
