@@ -142,7 +142,7 @@ LEXICON x1_sg_oblique
 !! **LEXICON @LEXNAME@** gives the rest
  +Sg+Gen:^WG%>n PxK ; !!≈ * @CODE@
  +Sg+Par:%>^A PxK ; !!≈ * @CODE@
- +Sg+Ill+Err/Orth:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ saunhaan 
+ +Sg+Ill:^HMETA%>h^V^V n_PxK ; !!≈ * @CODE@ saunhaan 
  +Sg+Ill:^HMET2%>h^V^V n_PxK ; !!≈ * @CODE@ talhoon, sauhnaan 
  +Sg+Ine:^WG%>ss^A PxK ;      !!≈ * @CODE@  etc.
  +Sg+Ela:^WG%>st^A PxK ;      ! talosta
@@ -159,8 +159,8 @@ LEXICON x1_pl
  +Pl+Gen:^WG^IDEL%>i2tten PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2en PxK ;
  +Pl+Par:%>i2^A PxK ;
- +Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;  ! talhoin
- +Pl+Ill:^HMET2%>h^Vi n_PxK ;  ! talhoin
+ +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhain >>SHOULD BE saunhoin
+ +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnain >>SHOULD BE sauhnoin
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
  +Pl+All:^WG%>i2le PxxK ;

@@ -515,8 +515,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
  Vow Vow :h Cns Vow: [%^HMETA:|%^HMET2:] %> _ ; ! puohleen TA BORT HMETA 
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
-                                      Vow h _ Vow: %^HMETA: ;
-  Vow Vow   :h [l|m|n|r|v] Vow: %^HMET2: %> _ ; ! huohneesheen 
+                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ;
+ ! Vow Vow   :h [l|m|n|r|v] Vow: %^HMET2: %> _ ; ! huohneesheen - behövs ej pga samma regel cns?
   Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! puohleen men vuotheen
   Vow   l   :h [  m|n|r|v] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
   Vow   r   :h [  m|n  |v] Vow: %^HMET2: %> _ ; ! 
@@ -852,9 +852,11 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=> UnroundedVowel Cns:+  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ;
-          UnroundedVowel Cns:+  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
-          UnroundedVowel Cns:+  a           %> (h)    _ [n|t|s|l|%>|.#.] ;
+%^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ; ! sauhnaan
+          a: [%^HMETA: | %^HMET2:] %> h:  :a _    ; ! sauhnaan
+          !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ;
+          !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
+          UnroundedVowel (Cns:+)  a           %> (h)    _ [n|t|s|l|%>|.#.] ; !TEST maahan
 
 !! **Tests:**
 
@@ -870,9 +872,9 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-          a u :h Cns a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ;
+!          a u :h Cns a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ;
 
-![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:]) %> h _ [i2:|i3:|i8:|j|i:] ;
+![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
 !! **Tests:**
 
