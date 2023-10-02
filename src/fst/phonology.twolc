@@ -785,7 +785,7 @@ i8:0 <=> :Vow Cns:+ :o %> _ [.#.|%>] ;
 
 "i:e"
 !! **RULE: @RULENAME@**
-i:e <=> Cns _ (%^WG:) %> i2: ;
+i:e <=> Cns _ %> i2: ;
 
 !!€ tukki>i2^A
 !!€ tukke>ja
