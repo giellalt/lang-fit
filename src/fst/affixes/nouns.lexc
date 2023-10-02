@@ -10,7 +10,7 @@
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns: liike, säe
 !! * n2_odd = odd-syll e-nouns: karpale, urvake
-!! * n3 = odd-syllabic ordinary nouns: kanava
+!! * n3 = n1_odd for odd-syllabic ordinary nouns: kanava
 
 !! Consonant stems
 
@@ -234,8 +234,8 @@ LEXICON x2_pl
  +Pl+Tra:^HMET2%>hei2 TRA ;
  +Pl+Ess:^WGh%>ei2n^A PxK ;
  +Pl+Ess:^HMET2%>hei2n^A PxK ;
- +Pl+Abe:^WGh%>ei2tt^A PxK ;
- +Pl+Abe:^HMET2%>hei2tt^A PxK ;
+ +Pl+Abe:^WGh%>ee2tt^A PxK ;
+ +Pl+Abe:^HMET2%>hee2tt^A PxK ;
 
 
 LEXICON n2_odd
@@ -332,6 +332,7 @@ LEXICON x3_oblique_sg
  +Sg+Gen:^WG%>n PxK ;
  +Sg+Par:%>^A PxK ;
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
+ +Sg+Ill:^HMET2%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
  +Sg+Ela:^WG%>st^A PxK ;
  +Sg+All:^WG%>lle PxxK ;
@@ -345,8 +346,9 @@ LEXICON x3_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>i2tten PxK ;
- +Pl+Par:%>j^A PxK ;
+ +Pl+Par:%>i2t^A PxK ; !asioita
  +Pl+Ill:^HMETA%>h^Vi n_PxK ;
+ +Pl+Ill:^HMET2%>h^Vi n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
  +Pl+All:^WG%>i2lle PxK ;

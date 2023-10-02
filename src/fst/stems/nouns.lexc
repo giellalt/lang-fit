@@ -14553,7 +14553,7 @@ tärmä:tärmä nx ;
 törmä:törmä nx ;
 vattarrepeämä:vattarrepeämä nx ;
 jyrhämä:jyrhämä nx ;
-elämä:elämä nx ;
+elämä:elämä n3 ;
 järämä:järämä nx ;
 valtajärämä:valtajärämä nx ;
 närämä:närämä nx ;
@@ -14964,7 +14964,7 @@ jyristä:jyristä nx ;
 vaaranpäälystä:vaaranpäälystä nx ;
 kangaspäälystä:kangaspäälystä nx ;
 makkarasyömystä:makkarasyömystä nx ;
-mettä:mettä nx ;
+mettä:mettä n1 ;
 mettänen:mettä 3nen ;
 lehtimettä:lehti#mettä nx ;
 vittamettä:vittamettä nx ;
@@ -15488,3 +15488,6 @@ aamuvyö:aamu#vyö n0 ;
 kalanpyyös:kalanpyyö 3n_ks ;
 miljöö:miljöö n1 ;
 
+
+sisko:sisko n1 ;
+projekti:projekti n1_troppi ;

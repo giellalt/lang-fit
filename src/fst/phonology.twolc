@@ -854,7 +854,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a] ; ! sauhnaan
           a: [%^HMETA: | %^HMET2:] %> h:  :a _    ; ! sauhnaan
-          !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ;
+          !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ; !CHECK för vilka -a-ord så? 
           !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
           UnroundedVowel (Cns:+)  a           %> (h)    _ [n|t|s|l|%>|.#.] ; !TEST maahan
 
@@ -872,7 +872,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-          a u (:h) Cns a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ;
+        [Cns:*|.#.|#]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !CHECK ska vara endast för tvåstaviga
 
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
@@ -895,7 +895,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "ä copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> h:    _ :ä ;
+%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> h:    _ [:ä|:i] ;
           ä: [%^HMETA: | %^HMET2:] %> h: :ä _    ;
           ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
@@ -910,19 +910,19 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "ö copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ö <=> ö: [%^HMETA: | %^HMET2:] %> h:    _ :ö ;
+%^V:ö <=> ö: [%^HMETA: | %^HMET2:] %> h:    _ [:ö|:i] ;
           ö: [%^HMETA: | %^HMET2:] %> h: :ö _    ;
           ö           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "y copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:y <=> y: [%^HMETA: | %^HMET2:] %> h:    _ :y ;
+%^V:y <=> y: [%^HMETA: | %^HMET2:] %> h:    _ [:y|:i] ;
           y: [%^HMETA: | %^HMET2:] %> h: :y _    ;
           y           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "u copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:u <=> u: [%^HMETA: | %^HMET2:] %> h:    _ :u ;
+%^V:u <=> u: [%^HMETA: | %^HMET2:] %> h:    _ [:u|:i] ;
           u: [%^HMETA: | %^HMET2:] %> h: :u _    ;
           u           %> (h)   _ [n|t|s|l|%>|.#.] ;
 
