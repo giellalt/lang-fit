@@ -12,6 +12,7 @@ Tests:
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
+# kollat av Elina
 
 
   Noun - plade: # 7pl ade -- inte kontrollerad 
@@ -28,10 +29,10 @@ Tests:
     jäänhalkein+N+Pl+Ade: jäänhalkeimilla
     jäsenyin+N+Pl+Ade: jäsenykimillä
     polkimet+N+Pl+Ade: polkimilla
-    äänestys+N+Pl+Ade: äänestyksillä
+    äänestys+N+Pl+Ade: äänestyksilä
     äärettömyys+N+Pl+Ade: äärettömyyksilä
-    äes+N+Pl+Ade: äkeksillä
-    ähmäänys+N+Pl+Ade: ähmäänyksillä
+    #äes+N+Pl+Ade: äkeksillä
+    ähmäänys+N+Pl+Ade: ähmäänyksilä
     ajos+N+Pl+Ade: ajoksilla
     äkäsyys+N+Pl+Ade: äkäsyyksilä
     annos+N+Pl+Ade: annoksilla
@@ -42,13 +43,13 @@ Tests:
     isosisar+N+Pl+Ade: isosisarilla
     jääntanner+N+Pl+Ade: jääntanterilla
     jalkatyär+N+Pl+Ade: jalkatyttärillä
-    ahneus+N+Pl+Ade: ahneuilla
-    falskeus+N+Pl+Ade: falskeuilla
-    fariseeus+N+Pl+Ade: fariseeuilla
-    fiineys+N+Pl+Ade: fiineyillä
-    fiiniys+N+Pl+Ade: fiiniyillä
-    ilfheys+N+Pl+Ade: ilfheyillä
-    ilkeys+N+Pl+Ade: ilkeyillä
+    ahneus+N+Pl+Ade: ahneuksilla
+    falskeus+N+Pl+Ade: falskeuksilla
+    fariseeus+N+Pl+Ade: fariseeuksilla
+    fiineys+N+Pl+Ade: fiineyksillä
+    fiiniys+N+Pl+Ade: fiiniyksillä
+    ilfheys+N+Pl+Ade: ilfheyksillä
+    ilkeys+N+Pl+Ade: ilkeyksillä
     jiddisch+N+Pl+Ade: jiddischillä
     -kielinen+N+Pl+Ade: -kielisillä
     äärheinen+N+Pl+Ade: äärheisillä
@@ -62,7 +63,7 @@ Tests:
     aivastus+N+Pl+Ade: aivastuksila
     ajatus+N+Pl+Ade: ajatuksila
     anomus+N+Pl+Ade: anomuksila
-    arvaus+N+Pl+Ade: arvauksila
+    arvaus+N+Pl+Ade: arvauksilla
     astutus+N+Pl+Ade: astutuksila
     aamuvyö+N+Pl+Ade: aamuvöilä
     äkäpää+N+Pl+Ade: äkäpäilä
@@ -78,23 +79,23 @@ Tests:
     aho+N+Pl+Ade: ahoila
     äijäfaari+N+Pl+Ade: äijäfaarila
     hamut+N+Pl+Ade: hamuila
-    aihe+N+Pl+Ade: aiheeila
-    äile+N+Pl+Ade: äileeila
-    aine+N+Pl+Ade: aineeila
-    alote+N+Pl+Ade: alotteeilla
-    alue+N+Pl+Ade: alueeilla
-    ikenheet+N+Pl+Ade: ikeneeilla
-    akleija+N+Pl+Ade: akleijailla
-    äkseerinki+N+Pl+Ade: äkseerinkillä
-    almunakka+N+Pl+Ade: almunakailla
-    alttari+N+Pl+Ade: alttarilla
-    ämmäkkö+N+Pl+Ade: ämmäköillä
-    ammunta+N+Pl+Ade: ammunnoilla
+    aihe+N+Pl+Ade: aihheila
+    äile+N+Pl+Ade: äilheilä
+    aine+N+Pl+Ade: ainheila
+    alote+N+Pl+Ade: alotheila
+    alue+N+Pl+Ade: alueheila
+    ikenheet+N+Pl+Ade: ikenheilä
+    akleija+N+Pl+Ade: akleijoila
+    äkseerinki+N+Pl+Ade: äkseeringilä
+    almunakka+N+Pl+Ade: almunakoila
+    alttari+N+Pl+Ade: alttareila
+    ämmäkkö+N+Pl+Ade: ämmäköilä
+    ammunta+N+Pl+Ade: ammunnoila
     kamarit+N+Pl+Ade: kamarilla
     ääri+N+Pl+Ade: äärilä
     äitiväki+N+Pl+Ade: äitiväilä
-    ehontähti+N+Pl+Ade: ehontähtilä
-    ehtotähti+N+Pl+Ade: ehtotähtilä
+    ehontähti+N+Pl+Ade: ehontähilä
+    ehtotähti+N+Pl+Ade: ehtotähilä
     elämänonni+N+Pl+Ade: elämänonnila
     epiteemi+N+Pl+Ade: epiteemilä
     kuunvuoret+N+Pl+Ade: kuunvuorila
@@ -105,14 +106,14 @@ Tests:
     aikakausi+N+Pl+Ade: aikakausila
     färivesi+N+Pl+Ade: färivesilä
     hangonvarsi+N+Pl+Ade: hangonvarsila
-    hirsi+N+Pl+Ade: hirtilä
+    hirsi+N+Pl+Ade: hirsilä
     ikävuosi+N+Pl+Ade: ikävuosila
     ilovesi+N+Pl+Ade: ilovesilä
-    polvivarret+N+Pl+Ade: polvivarila
+    polvivarret+N+Pl+Ade: polvivarsila
     imulapsi+N+Pl+Ade: imulapsila
     irtilapsi+N+Pl+Ade: irtilapsila
     jalkalapsi+N+Pl+Ade: jalkalapsila
-    jumalallapsi+N+Pl+Ade: jumalallapsila
+    jumalanlapsi+N+Pl+Ade: jumalanlapsila
     kapalolapsi+N+Pl+Ade: kapalolapsila
     kasvattilapsi+N+Pl+Ade: kasvattilapsila
     kusilapsi+N+Pl+Ade: kusilapsila
@@ -134,10 +135,10 @@ Tests:
     lippaset+N+Pl+Ade: lippasilla
     Antinpäivä+N+Pl+Ade: Antinpäivilä
     Kruunu+N+Pl+Ade: Kruunuila
-    Kyriiri+N+Pl+Ade: Kyriirilä
+    Kyriiri+N+Pl+Ade: Kyriirillä
     Laurina+N+Pl+Ade: Laurinaila
     Mikkelinpäivä+N+Pl+Ade: Mikkelinpäivilä
-    Norrlänska+N+Pl+Ade: Norrlänskaila
+    Norrlänska+N+Pl+Ade: Norrlänskoila
     TV-masti+N+Pl+Ade: TV-mastila
     äänensävy+N+Pl+Ade: äänensävyilä
     alunastifti+N+Pl+Ade: alunastiftilä
