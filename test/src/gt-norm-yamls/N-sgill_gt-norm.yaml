@@ -86,16 +86,16 @@ Tests:
     alttari+N+Sg+Ill: alttarhiin
     # ämmäkkö+N+Sg+Ill: ämmäkhöön # stark eller svag?
     ammunta+N+Sg+Ill: ammunthaan
-    ääri+N+Sg+Ill: äähreen
+    ääri+N+Sg+Ill: [äähreen, äärheen]
     äitiväki+N+Sg+Ill: äitiväkheen
     ehontähti+N+Sg+Ill: ehontähtheen
     ehtotähti+N+Sg+Ill: ehtotähtheen
     elämänonni+N+Sg+Ill: elämänonheen
-    epiteemi+N+Sg+Ill: epiteehmiin
-    äitinkieli+N+Sg+Ill: äitinkiehleen
-    äitipuoli+N+Sg+Ill: äitipuohleen
+    epiteemi+N+Sg+Ill: [epiteehmiin, epiteemhiin]
+    äitinkieli+N+Sg+Ill: [äitinkiehleen, äitinkielheen]
+    äitipuoli+N+Sg+Ill: [äitipuohleen, äitipuolheen]
     asuntolohi+N+Sg+Ill: asuntolohheen
-    hiili+N+Sg+Ill: hiihleen
+    hiili+N+Sg+Ill: [hiihleen, hiilheen]
     aikakausi+N+Sg+Ill: aikakautheen
     färivesi+N+Sg+Ill: färivetheen
     hangonvarsi+N+Sg+Ill: hangonvartheen
@@ -105,16 +105,16 @@ Tests:
     imulapsi+N+Sg+Ill: imulapsheen
     irtilapsi+N+Sg+Ill: irtilapsheen
     jalkalapsi+N+Sg+Ill: jalkalapsheen
-    jumalallapsi+N+Sg+Ill: jumalallapsheen
+    jumallapsi+N+Sg+Ill: jumallapsheen
     kapalolapsi+N+Sg+Ill: kapalolapsheen
     kasvattilapsi+N+Sg+Ill: kasvattilapsheen
     kusilapsi+N+Sg+Ill: kusilapsheen
     höttölumi+N+Sg+Ill: höttölumheen
-    iloliemi+N+Sg+Ill: iloliehmeen
-    kalanliemi+N+Sg+Ill: kalanliehmeen
-    kankhaanloimi+N+Sg+Ill: kankhaanloihmeen
-    lähetystoimi+N+Sg+Ill: lähetystoihmeen
-    liemi+N+Sg+Ill: liehmeen
+    iloliemi+N+Sg+Ill: [iloliehmeen, iloliemheen]
+    kalanliemi+N+Sg+Ill: [kalanliehmeen, kalanliemheen]
+    kankhaanloimi+N+Sg+Ill: [kankhaanloihmeen, kankhaanloimheen]
+    lähetystoimi+N+Sg+Ill: [lähetystoihmeen, lähetystoimheen]
+    liemi+N+Sg+Ill: [liehmeen, liemheen]
     raja-asukas+N+Sg+Ill: raja-asukhaasheen 
 #    aijas+N+Sg+Ill: aihjaan # VetEj
     ankerias+N+Sg+Ill: ankerihaasheen

@@ -418,7 +418,7 @@ x4_pl ;
 LEXICON x4_sg
 !! **LEXICON @LEXNAME@**
 +Sg+Gen:^WG%>n     PxK ; ! veren
- +Sg+Ill+Err/Orth:^HMETA%>h^V^V n_PxK ;
+ +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ill:^HMET2%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
  +Sg+Ela:^WG%>st^A PxK ;
@@ -433,7 +433,7 @@ LEXICON x4_pl
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:%>ten PxK ;
  +Pl+Par:%>j^A PxK ;
- +Pl+Ill+Err/Orth:^HMETA%>hii n_PxK ;
+ +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
@@ -464,7 +464,7 @@ LEXICON n5_lapsi
 +N+Pl+Gen:s%>ten PxK ;
 +N+Pl+Par:ps%>i^A PxK ;
 +N+Pl+Ill:ps%>hii n_PxK ;
-+N+Pl+Ine:%>i2ss^A PxK ;
++N+Pl+Ine:ps%>i2ss^A PxK ;
 +N+Pl+Ela:ps%>ist^A PxK ;
 +N+Pl+All:ps%>ile PxxK ;
 +N+Pl+Ade:ps%>il^A PxK ;

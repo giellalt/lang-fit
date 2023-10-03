@@ -669,8 +669,8 @@ a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> 
 !! **RULE: @RULENAME@**
 a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ;
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
-        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ;
-        [#|.#.] (Cns:*) Vow:* Cns:*  Cns:* Vow:* Cns:* Vow:*  k: k: _ %^WG: %> [:i|i2:] ; !almunakoissa
+        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ;    
+         Cns:* Vow:* Cns:* Vow:*  (Cns:) Cns: Cns: _ %^WG: %> [i2:] ; !almunakoissa
 
 !! **Tests:**
 !!€ laatia>i2tten

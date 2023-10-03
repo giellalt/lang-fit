@@ -79,17 +79,17 @@ Tests:
     äkseerinki+N+Pl+Ill: äkseerinkhiin
     alttari+N+Pl+Ill: alttarhiin
     kamarit+N+Pl+Ill: kamarhiin
-    ääri+N+Pl+Ill: äähriin
+    ääri+N+Pl+Ill: [äähriin, äärhiin]
     äitiväki+N+Pl+Ill: äitiväkhiin
     ehontähti+N+Pl+Ill: ehontähthiin
     ehtotähti+N+Pl+Ill: ehtotähthiin
     elämänonni+N+Pl+Ill: elämänonhiin
-    epiteemi+N+Pl+Ill: epiteehmiin
-    kuunvuoret+N+Pl+Ill: kuunvuohriin
-    äitinkieli+N+Pl+Ill: äitinkiehliin
-    äitipuoli+N+Pl+Ill: äitipuohliin
+    epiteemi+N+Pl+Ill: [epiteehmiin, epiteemhiin]
+    kuunvuoret+N+Pl+Ill: [kuunvuohriin, kuunvuorhiin]
+    äitinkieli+N+Pl+Ill: [äitinkiehliin, äitinkielhiin]
+    äitipuoli+N+Pl+Ill: [äitipuohliin, äitipuolhiin]
     asuntolohi+N+Pl+Ill: asuntolohhiin
-    hiili+N+Pl+Ill: hiihliin
+    hiili+N+Pl+Ill: [hiihliin, hiilhiin]
     aikakausi+N+Pl+Ill: aikakaushiin
     färivesi+N+Pl+Ill: färiveshiin
     hangonvarsi+N+Pl+Ill: hangonvarshiin
@@ -100,17 +100,17 @@ Tests:
     imulapsi+N+Pl+Ill: imulapshiin
     irtilapsi+N+Pl+Ill: irtilapshiin
     jalkalapsi+N+Pl+Ill: jalkalapshiin
-    jumalallapsi+N+Pl+Ill: jumalallapshiin
+    jumallapsi+N+Pl+Ill: jumallapshiin
     kapalolapsi+N+Pl+Ill: kapalolapshiin
     kasvattilapsi+N+Pl+Ill: kasvattilapshiin
     kusilapsi+N+Pl+Ill: kusilapshiin
     höttölumi+N+Pl+Ill: höttölumhiin
-    iloliemi+N+Pl+Ill: iloliehmiin
-    kalanliemi+N+Pl+Ill: kalanliehmiin
-    kankhaanloimi+N+Pl+Ill: kankhaanloihmiin
-    lähetystoimi+N+Pl+Ill: lähetystoihmiin
-    liemi+N+Pl+Ill: liehmiin
-    ympäryssuoli+N+Pl+Ill: ympäryssuohliin
+    iloliemi+N+Pl+Ill: [iloliehmiin, iloliemhiin]
+    kalanliemi+N+Pl+Ill: [kalanliehmiin, kalanliemhiin]
+    kankhaanloimi+N+Pl+Ill: [kankhaanloihmiin, kankhaanloimhiin]
+    lähetystoimi+N+Pl+Ill: [lähetystoihmiin, lähetystoimhiin]
+    liemi+N+Pl+Ill: [liehmiin, liemhiin]
+    ympäryssuoli+N+Pl+Ill: [ympäryssuohliin, ympäryssuolhiin]
     auttavaisuus+N+Pl+Ill: auttavaisuukshiin
     hankaluus+N+Pl+Ill: hankaluukshiin
     hiljasuus+N+Pl+Ill: hiljasuukshiin
