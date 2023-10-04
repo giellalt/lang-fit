@@ -416,7 +416,7 @@ x4_sg ;
 x4_pl ;
 
 LEXICON x4_sg
-!! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/kasi/lapsi EXCEPT SgNom, SgPar
+!! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
 +Sg+Gen:^WG%>n     PxK ; ! veren
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ill:^HMET2%>h^V^V n_PxK ;
