@@ -297,7 +297,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
         [Vow - i] ([l|n|r]) _ e: %^E2I: .#. ;
 ! Rest of rule from fkv:
         Vow n  _        e:0                    %> i2: [.#.|%> Cns] ; ! fkv
- Vow ([n|l|r]) _ (:s)   e:   %^E2I: ; ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
+ Vow ([n|l|r]) _ (:s)   e:   (%^WG:) %^E2I: ; ! fkv: uusine, vesi: vete^E2I:vesi, vete^WG>n:vede0>n, vete^WG>i2>ll^A:vesillä
  Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc.|vuossii(n)|uusia] ! uusine
  Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) *)
  Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
@@ -576,19 +576,19 @@ m:h <=> Cns Vow %> h: _ %^A: %^A: ;
 0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h)  :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow v _ a:  (Dummy:) %> (h) [:a|:i] [:a|:i] ;
         [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow v _ e:  (Dummy:) %>  h  :e :e ;
+!        [.#.|#] Cns:* Vow v _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow v _ i:  (Dummy:) %>  h  :i :i ;
+!        [.#.|#] Cns:* Vow v _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) :o  ;
-        [.#.|#] Cns:* Vow v _ o:  %^HMETA: %>  h  :o :o ;
+!        [.#.|#] Cns:* Vow v _ o:  %^HMETA: %>  h  :o :o ;
         [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) :u  ;
-        [.#.|#] Cns:* Vow v _ u:  (Dummy:) %>  h  :u :u ;
+!       [.#.|#] Cns:* Vow v _ u:  (Dummy:) %>  h  :u :u ;
         [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) :y  ;
-        [.#.|#] Cns:* Vow v _ y:  (Dummy:) %>  h  :y :y ;
+!       [.#.|#] Cns:* Vow v _ y:  (Dummy:) %>  h  :y :y ;
         [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow v _ ä:  (Dummy:) %>  h  :ä :ä ;
+!        [.#.|#] Cns:* Vow v _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) :ö ;
-        [.#.|#] Cns:* Vow v _ ö:  (Dummy:) %>  h  :ö :ö  ;
+!        [.#.|#] Cns:* Vow v _ ö:  (Dummy:) %>  h  :ö :ö  ;
 
 !! **Tests:**
 
@@ -723,7 +723,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
 
 "e:i"
 !! **RULE: @RULENAME@**
-e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ %^E2I: ;
+e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ (%^WG:) %^E2I: ;
 
 !! **Tests:**
 

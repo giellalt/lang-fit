@@ -367,7 +367,7 @@ LEXICON n4
  +N+Sg+Nom:       Px ; ! kivensä
  +N+Sg+Par:%>^A   PxK ; ! kiveä
  +N+Nom:^E2I      R ;
- +N+Gen:^WG%>n    R ;
+ +N+Sg+Gen:^WG%>n    R ;
 
 LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
@@ -416,7 +416,7 @@ x4_sg ;
 x4_pl ;
 
 LEXICON x4_sg
-!! **LEXICON @LEXNAME@**
+!! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/kasi/lapsi EXCEPT SgNom, SgPar
 +Sg+Gen:^WG%>n     PxK ; ! veren
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ill:^HMET2%>h^V^V n_PxK ;
@@ -427,21 +427,24 @@ LEXICON x4_sg
  +Sg+Abl:^WG%>lt^A PxK ;
  +Sg+Ess:%>n^A PxK ;
  +Sg+Tra:^WG TRA ;
+ +Sg+Abe:^WG%>tt^A PxK;
 
 LEXICON x4_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%>t PxK ;
- +Pl+Gen:%>ten PxK ;
- +Pl+Par:%>j^A PxK ;
+ +Pl+Gen:^E2I%>tten PxK ;
+ +Pl+Gen:^E2Ie%>n PxK ;
+ +Pl+Par:^E2I%>^A PxK ;
  +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
- +Pl+Ine:^WG%>i2ss^A PxK ;
- +Pl+Ela:^WG%>i2st^A PxK ;
- +Pl+All:^WG%>i2le PxxK ;
- +Pl+Ade:^WG%>i2l^A PxK ;
- +Pl+Abl:^WG%>i2lt^A PxK ;
- +Pl+Ess:%>i2n^A PxK ;
- +Pl+Tra:^WG%>i2 TRA ;
+ +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ela:^E2I^WG%>st^A PxK ;
+ +Pl+All:^E2I^WG%>le PxxK ;
+ +Pl+Ade:^E2I^WG%>l^A PxK ;
+ +Pl+Abl:^E2I^WG%>lt^A PxK ;
+ +Pl+Ess:^E2I%>n^A PxK ;
+ +Pl+Tra:^E2I^WG%> TRA ;
+ +Pl+Abe:^E2I%>tt^A PxK;
 
 
 LEXICON n5_lapsi
