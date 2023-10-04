@@ -1239,13 +1239,13 @@ check
 
 **LEXICON n5_kasi**
 
-**LEXICON n5_kasi_pl**
+**LEXICON n5_kasi**
 
 **LEXICON n4_pl**
 
 **LEXICON x4**  veri
 
-**LEXICON x4_sg**
+**LEXICON x4_sg** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
 
 **LEXICON x4_pl**
 
