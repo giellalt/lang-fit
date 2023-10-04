@@ -392,11 +392,16 @@ n5_lumi ;
 
 LEXICON n5_kasi
 !! **LEXICON @LEXNAME@** käsi, stem kä
- +N:te x4 ;
+ +N:te x5_kasi ;
  +N+Sg+Nom:si       PxK ; ! käsi
  +N+Sg+Par:t%>t^A      PxK ; ! kättä
  +N+Nom:si R ;
  +N+Gen:e%>n R ;
+
+LEXICON x4
+!! **LEXICON @LEXNAME@**  veri
+x4_sg ;
+x4_pl ;
 
 !!LEXICON n5_pl
 !! **LEXICON @LEXNAME@**
@@ -410,10 +415,28 @@ LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
  +N: x4_pl ;
 
-LEXICON x4
+LEXICON x5_kasi
 !! **LEXICON @LEXNAME@**  veri
 x4_sg ;
-x4_pl ;
+x5_kasi_pl ;
+
+LEXICON x5_kasi_pl
+!! **LEXICON @LEXNAME@**
+ +Pl+Nom:^WG%>t PxK ;
+ +Pl+Gen:^E2I%>tten PxK ;
+ +Pl+Gen:^E2Ie%>n PxK ;
+ +Pl+Par:^E2I%>^A PxK ;
+ +Pl+Ill:^HMETA%>hii n_PxK ;
+ +Pl+Ill:^HMET2%>hii n_PxK ;
+ +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ela:^E2I^WG%>st^A PxK ;
+ +Pl+All:^E2I^WG%>le PxxK ;
+ +Pl+Ade:^E2I^WG%>l^A PxK ;
+ +Pl+Abl:^E2I^WG%>lt^A PxK ;
+ +Pl+Ess:^E2I%>n^A PxK ;
+ +Pl+Tra:^E2I^WG%> TRA ;
+ +Pl+Abe:^E2I%>tt^A PxK;
+
 
 LEXICON x4_sg
 !! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
@@ -437,13 +460,13 @@ LEXICON x4_pl
  +Pl+Par:^E2I%>^A PxK ;
  +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
- +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
- +Pl+Ela:^E2I^WG%>st^A PxK ;
- +Pl+All:^E2I^WG%>le PxxK ;
- +Pl+Ade:^E2I^WG%>l^A PxK ;
- +Pl+Abl:^E2I^WG%>lt^A PxK ;
+ +Pl+Ine:^WG^E2I%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ela:^WG^E2I%>st^A PxK ;
+ +Pl+All:^WG^E2I%>le PxxK ;
+ +Pl+Ade:^WG^E2I%>l^A PxK ;
+ +Pl+Abl:^WG^E2I%>lt^A PxK ;
  +Pl+Ess:^E2I%>n^A PxK ;
- +Pl+Tra:^E2I^WG%> TRA ;
+ +Pl+Tra:^WG^E2I%> TRA ;
  +Pl+Abe:^E2I%>tt^A PxK;
 
 
