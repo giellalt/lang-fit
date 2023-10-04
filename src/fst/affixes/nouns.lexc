@@ -402,9 +402,9 @@ LEXICON n5_kasi
 !! **LEXICON @LEXNAME@**
 !!n4_pl ;
 
-LEXICON n5_kasi_pl
+!LEXICON n5_kasi_pl !! Gör om till specifikt plural käsi
 !! **LEXICON @LEXNAME@**
- +N:te x4_pl ;
+!!+N:te x4_pl ;
 
 LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
