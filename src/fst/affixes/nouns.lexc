@@ -126,8 +126,6 @@ LEXICON n1_pl !
  +N: x1_pl ;
 
 
-
-
 LEXICON x1
 !! **LEXICON @LEXNAME@** for the bisyallbic, pointing to sg, pl
 x1_sg ;
@@ -169,6 +167,8 @@ LEXICON x1_pl
  +Pl+Tra:^WG%>i2 TRA ;
  +Pl+Ess:%>i2n^A PxK ;
  +Pl+Abe:^WG%>i2tt^A PxK ;
+
+
 
 LEXICON n2
 !! **LEXICON @LEXNAME@**  vene, liike, säe
@@ -291,15 +291,6 @@ LEXICON x2_odd_pl
  +Pl+Ess:%>ei2n^A PxK ;
  +Pl+Abe:%>ei2tt^A PxK ;
 
-LEXICON 3nc ! jiddisch
-!! **LEXICON @LEXNAME@**
-+N: xnc ;
-
-LEXICON xnc
-!! **LEXICON @LEXNAME@**
- +Sg+Nom: PxK ;      ! jiddisch
- :i x3_oblique_sg ; ! jiddischin
- :i x3_pl ;         ! jiddischit
 
 
 LEXICON n3 
@@ -358,7 +349,19 @@ LEXICON x3_pl
  +Pl+Ess:%>i2n^A PxK ;
  +Pl+Abe:%>i2tt^A PxK ;
 
+LEXICON 3nc ! jiddisch
+!! **LEXICON @LEXNAME@**
++N: xnc ;
 
+LEXICON xnc
+!! **LEXICON @LEXNAME@**
+ +Sg+Nom: PxK ;      ! jiddisch
+ :i x3_oblique_sg ; ! jiddischin
+ :i x3_pl ;         ! jiddischit
+
+
+
+!! #### The i>e-family; kivi, kieli, käsi, lumi etc
 
 LEXICON n4
 !! **LEXICON @LEXNAME@** kivi, stem kive
@@ -369,74 +372,14 @@ LEXICON n4
  +N+Nom:^E2I      R ;
  +N+Sg+Gen:^WG%>n    R ;
 
-LEXICON n5
-!! **LEXICON @LEXNAME@** kieli, stem kiele
- +N: x4 ;
- +N+Sg+Nom:^E2I       PxK ; ! kieli
- +N+Sg+Par:%>t^A      PxK ; ! kieltä
- +N+Nom:^E2I R ;
- +N+Gen:^WG%>n R ;
-
-LEXICON n5_lumi
-!! **LEXICON @LEXNAME@** lumi, stem lu
- +N:me x4 ;
- +N+Sg+Nom:mi       PxK ; ! lumi
- +N+Sg+Par:ne%>t^A      PxK ; ! lunta
- +N+Nom:mi R ;
- +N+Gen:me%>n R ;
-
-LEXICON n5_loimi 
-!! **LEXICON @LEXNAME@** loimi, stem loi, som n5_lumi PLUS partitiv loimea
-n5_lumi ;
-+N+Sg+Par:me%>^A      PxK ; ! loimea
-
-LEXICON n5_kasi
-!! **LEXICON @LEXNAME@** käsi, stem kä
- +N:te x5_kasi ;
- +N+Sg+Nom:si       PxK ; ! käsi
- +N+Sg+Par:t%>t^A      PxK ; ! kättä
- +N+Nom:si R ;
- +N+Gen:e%>n R ;
-
 LEXICON x4
 !! **LEXICON @LEXNAME@**  veri
 x4_sg ;
 x4_pl ;
 
-!!LEXICON n5_pl
-!! **LEXICON @LEXNAME@**
-!!n4_pl ;
-
-!LEXICON n5_kasi_pl !! Gör om till specifikt plural käsi
-!! **LEXICON @LEXNAME@**
-!!+N:te x4_pl ;
-
 LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
  +N: x4_pl ;
-
-LEXICON x5_kasi
-!! **LEXICON @LEXNAME@**  veri
-x4_sg ;
-x5_kasi_pl ;
-
-LEXICON x5_kasi_pl
-!! **LEXICON @LEXNAME@**
- +Pl+Nom:^WG%>t PxK ;
- +Pl+Gen:^E2I%>tten PxK ;
- +Pl+Gen:^E2Ie%>n PxK ;
- +Pl+Par:^E2I%>^A PxK ;
- +Pl+Ill:^HMETA%>hii n_PxK ;
- +Pl+Ill:^HMET2%>hii n_PxK ;
- +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
- +Pl+Ela:^E2I^WG%>st^A PxK ;
- +Pl+All:^E2I^WG%>le PxxK ;
- +Pl+Ade:^E2I^WG%>l^A PxK ;
- +Pl+Abl:^E2I^WG%>lt^A PxK ;
- +Pl+Ess:^E2I%>n^A PxK ;
- +Pl+Tra:^E2I^WG%> TRA ;
- +Pl+Abe:^E2I%>tt^A PxK;
-
 
 LEXICON x4_sg
 !! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
@@ -470,6 +413,72 @@ LEXICON x4_pl
  +Pl+Abe:^E2I%>tt^A PxK;
 
 
+LEXICON n5
+!! **LEXICON @LEXNAME@** kieli, stem kiele
+ +N: x4 ;
+ +N+Sg+Nom:^E2I       PxK ; ! kieli
+ +N+Sg+Par:%>t^A      PxK ; ! kieltä
+ +N+Nom:^E2I R ;
+ +N+Gen:^WG%>n R ;
+
+LEXICON n5_lumi
+!! **LEXICON @LEXNAME@** lumi, stem lu
+ +N:me x4 ;
+ +N+Sg+Nom:mi       PxK ; ! lumi
+ +N+Sg+Par:ne%>t^A      PxK ; ! lunta
+ +N+Nom:mi R ;
+ +N+Gen:me%>n R ;
+
+LEXICON n5_loimi 
+!! **LEXICON @LEXNAME@** loimi, stem loi, som n5_lumi PLUS partitiv loimea
+n5_lumi ;
++N+Sg+Par:me%>^A      PxK ; ! loimea
+
+
+LEXICON n5_vuosi
+!! **LEXICON @LEXNAME@** vuosi> vuoessa/vuessa, stem ELLER vu
+ +N:ote x5_kasi ;
+ +N+Sg+Nom:osi       PxK ; ! vuosi
+ +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
+ +N+Sg+Ine:^WG%>ess^A PxK ;
+ +N+Sg+Ela:^WG%>est^A PxK ;
+ +N+Sg+Ess:o%>n^A PxK ;
+ +N+Nom:osi R ;
+ +N+Sg+Gen:e%>n PxK ;
+ +N+Sg+Tra:^WG%>e TRA ;
+
+LEXICON n5_kasi
+!! **LEXICON @LEXNAME@** käsi, stem kä
+ +N:te x5_kasi ;
+ +N+Sg+Nom:si       PxK ; ! käsi
+ +N+Sg+Par:t%>t^A      PxK ; ! kättä
+ +N+Nom:si R ;
+ +N+Gen:e%>n R ;
+
+
+LEXICON x5_kasi
+!! **LEXICON @LEXNAME@**  veri
+x4_sg ;
+x5_kasi_pl ;
+
+LEXICON x5_kasi_pl
+!! **LEXICON @LEXNAME@**
+ +Pl+Nom:^WG%>t PxK ;
+ +Pl+Gen:^E2I%>tten PxK ;
+ +Pl+Gen:^E2Ie%>n PxK ;
+ +Pl+Par:^E2I%>^A PxK ;
+ +Pl+Ill:^HMETA%>hii n_PxK ;
+ +Pl+Ill:^HMET2%>hii n_PxK ;
+ +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ela:^E2I^WG%>st^A PxK ;
+ +Pl+All:^E2I^WG%>le PxxK ;
+ +Pl+Ade:^E2I^WG%>l^A PxK ;
+ +Pl+Abl:^E2I^WG%>lt^A PxK ;
+ +Pl+Ess:^E2I%>n^A PxK ;
+ +Pl+Tra:^E2I^WG%> TRA ;
+ +Pl+Abe:^E2I%>tt^A PxK;
+
+
 LEXICON n5_lapsi
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:psi R ;
@@ -485,6 +494,7 @@ LEXICON n5_lapsi
 +N+Sg+Abl:pse%>lt^A PxK ;
 +N+Sg+Ess:pse%>n^A PxK ;
 +N+Sg+Tra:pse TRA ;
++N+Sg+Abe:pse%>tt^A PxK ;
 
 +N+Pl+Nom:pse%>t PxK ;
 +N+Pl+Gen:s%>ten PxK ;
@@ -496,8 +506,8 @@ LEXICON n5_lapsi
 +N+Pl+Ade:ps%>il^A PxK ;
 +N+Pl+Abl:ps%>ilt^A PxK ;
 +N+Pl+Ess:ps%>in^A PxK ;
-+N+Pl+Tra:ps TRA ;
-
++N+Pl+Tra:psi TRA ;
++N+Pl+Abe:ps%>itt^A PxK ;
 
 
 
@@ -1122,15 +1132,3 @@ LEXICON n1_troppi
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>itt^A PxK ;
  
-!!TEMPORÄRT lexikon för vuosi > vuoessa/vuessa
-LEXICON n5_vuosi
-!! **LEXICON @LEXNAME@** vuosi, stem ELLER vu
- +N:ote x4 ;
- +N+Sg+Nom:osi       PxK ; ! vuosi
- +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
- +N+Sg+Ine:^WG%>ess^A PxK ;
- +N+Sg+Ela:^WG%>est^A PxK ;
- +N+Sg+Ess:o%>n^A PxK ;
- +N+Nom:osi R ;
- +N+Sg+Gen:e%>n PxK ;
- +N+Sg+Tra:^WG%>e TRA ;
