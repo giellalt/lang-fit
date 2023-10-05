@@ -723,7 +723,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
 
 "e:i"
 !! **RULE: @RULENAME@**
-e:i <=>[.#.|#:] Cns:* Vow:+ Cns:+ _ (%^WG:) %^E2I: ;
+e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) %^E2I: ;
 
 !! **Tests:**
 

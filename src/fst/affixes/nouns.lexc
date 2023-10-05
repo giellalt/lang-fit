@@ -509,6 +509,37 @@ LEXICON n5_lapsi
 +N+Pl+Tra:psi TRA ;
 +N+Pl+Abe:ps%>itt^A PxK ;
 
+LEXICON n5_alttari
+!! **LEXICON @LEXNAME@**
++N+Sg+Nom:^E2I R ;
++N+Sg+Nom:^E2I PxK ;
++N+Sg+Gen:^E2I%>n     PxK ; ! 
++N+Sg+Par:^E2I%>^A      PxK ; ! alttaria
++N+Sg+Ill:^HMETA%>hii n_PxK ;
++N+Sg+Ill:^HMET2%>hii n_PxK ;
++N+Sg+Ine:^E2I%>ss^A PxK ;
++N+Sg+Ela:^E2I%>st^A PxK ;
++N+Sg+All:^E2I%>lle PxxK ;
++N+Sg+Ade:^E2I%>ll^A PxK ;
++N+Sg+Abl:^E2I%>lt^A PxK ;
++N+Sg+Ess:^E2I%>nn^A PxK ;
++N+Sg+Tra:^E2I TRA ;
++N+Sg+Abe:^E2I%>tt^A PxK;
+
++N+Pl+Nom:^E2I%>t PxK ;
++N+Pl+Gen:%>itten PxK ;
++N+Pl+Gen:^E2I%>tten PxK ;
++N+Pl+Par:%>it^A PxK ;
++N+Pl+Ill:^HMETA%>hii n_PxK ;
++N+Pl+Ill:^HMET2%>hii n_PxK ;
++N+Pl+Ine:%>iss^A PxK ; !NY ändr neråt
++N+Pl+Ela:%>ist^A PxK ;
++N+Pl+All:%>ile PxxK ;
++N+Pl+Ade:%>il^A PxK ;
++N+Pl+Abl:%>ilt^A PxK ;
++N+Pl+Ess:%>in^A PxK ;
++N+Pl+Tra:%>i TRA ;
++N+Pl+Abe:%>itt^A PxK;
 
 
 !! #### The nainen (nen) and hevonen (3nen) family

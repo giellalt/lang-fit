@@ -8269,7 +8269,7 @@ myöstari:myöstari n3 ;
 tattarinen:tattari nen ;
 mittari:mittari n3 ;
 maammittari:maammittari n3 ;
-alttari:alttari n3 ;
+alttari:alttare n5_alttari ;
 kanttari:kanttari n3 ;
 henttari:henttari n3 ;
 lypsinhenttari:lypsinhenttari n3 ;
