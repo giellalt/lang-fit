@@ -99,10 +99,6 @@ check
 
 **LEXICON x2_odd_pl** the pl
 
-**LEXICON 3nc**
-
-**LEXICON xnc**
-
 **LEXICON n3**  odd-syllabic: kanava
 
 **LEXICON n3_pl**  haalarit
@@ -117,7 +113,21 @@ check
 
 **LEXICON x3_pl**
 
+**LEXICON 3nc**
+
+**LEXICON xnc**
+
+#### The i>e-family; kivi, kieli, käsi, lumi etc
+
 **LEXICON n4** kivi, stem kive
+
+**LEXICON x4**  veri
+
+**LEXICON n4_pl**
+
+**LEXICON x4_sg** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
+
+**LEXICON x4_pl**
 
 **LEXICON n5** kieli, stem kiele
 
@@ -125,25 +135,17 @@ check
 
 **LEXICON n5_loimi** loimi, stem loi, som n5_lumi PLUS partitiv loimea
 
+**LEXICON n5_vuosi** vuosi> vuoessa/vuessa, stem ELLER vu
+
 **LEXICON n5_kasi** käsi, stem kä
-
-**LEXICON x4**  veri
-
-**LEXICON x4**
-
-**LEXICON x4**
-
-**LEXICON n4_pl**
 
 **LEXICON x5_kasi**  veri
 
 **LEXICON x5_kasi_pl**
 
-**LEXICON x4_sg** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
-
-**LEXICON x4_pl**
-
 **LEXICON n5_lapsi**
+
+**LEXICON n5_alttari**
 
 #### The nainen (nen) and hevonen (3nen) family
 
@@ -275,8 +277,6 @@ GE + LL 230208
 troppi
 tropin
 troppia?
-
-**LEXICON n5_vuosi** vuosi, stem ELLER vu
 
 * * *
 
