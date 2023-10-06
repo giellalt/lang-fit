@@ -28,7 +28,7 @@
 !! * nen = nainen paradigm
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
-!! * 4n_ks = !! check
+!! * 4n_ks = odd variants of 3n_ks; morahus - morahuksele
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
@@ -896,14 +896,14 @@ LEXICON n_ien_pl
  +N+Pl+Gen:n%>ien PxK ;
  +N+Pl+Par:n%>i^A PxK ;
  +N+Pl+Ill:n^HMETA%>hiin PxK ;
- +N+Pl+Ine:n%>iss^A PxK ;
- +N+Pl+Ela:n%>i2st^A PxK ;
- +N+Pl+All:n%>i2lle PxxK ;
- +N+Pl+Ade:n%>i2ll^A PxK ;
- +N+Pl+Abl:n%>i2lt^A PxK ;
- +N+Pl+Abe:n%>i2tt^A PxK ;
- +N+Pl+Ess:n%>i2nn^A PxK ;
- +N+Pl+Tra:he TRA ;
+ +N+Pl+Ine:n%>hei2ss^A PxK ;
+ +N+Pl+Ela:n%>hei2st^A PxK ;
+ +N+Pl+All:n%>hei2le PxxK ;
+ +N+Pl+Ade:n%>hei2l^A PxK ;
+ +N+Pl+Abl:n%>hei2lt^A PxK ;
+ +N+Pl+Abe:n%>hei2tt^A PxK ;
+ +N+Pl+Ess:n%>hei2nn^A PxK ;
+ +N+Pl+Tra:hei2 TRA ;
 
 
 
@@ -1082,7 +1082,7 @@ LEXICON x4n_ks_pl
 
 LEXICON TRA
 !! **LEXICON @LEXNAME@**
- +Err/Orth:%>ks K ; ! VetEj
+! +Err/Orth:%>ks K ; ! VetEj
  :%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes

@@ -83,7 +83,7 @@ Tests:
     äile+N+Pl+Ade: [äilheilä, äihleilä]
     aine+N+Pl+Ade: [ainheila, aihneila]
     alote+N+Pl+Ade: alotheila
-    alue+N+Pl+Ade: [alueheila, aluheila]
+    alue+N+Pl+Ade: aluheila
     ikenheet+N+Pl+Ade: ikenheilä
     akleija+N+Pl+Ade: akleijoila
     äkseerinki+N+Pl+Ade: äkseeringilä
@@ -123,10 +123,10 @@ Tests:
     kankhaanloimi+N+Pl+Ade: kankhaanloimila
     lähetystoimi+N+Pl+Ade: lähetystoimila
     liemi+N+Pl+Ade: liemilä
-    ympäryssuolet+N+Pl+Ade: ympäryssuolila
+    ympäryssuoli+N+Pl+Ade: ympäryssuolila
     auttavaisuus+N+Pl+Ade: auttavaisuuksila
     hankaluus+N+Pl+Ade: hankaluuksila
-    hiljaisuus+N+Pl+Ade: hiljaisuuksila
+    hiljasuus+N+Pl+Ade: hiljasuuksila
     huoruus+N+Pl+Ade: huoruuksila
     iänkaikkisuus+N+Pl+Ade: iänkaikkisuuksila
     itusuus+N+Pl+Ade: itusuuksila
