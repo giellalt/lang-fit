@@ -101,7 +101,7 @@ j:0 <=> Vow j _ Vow: [%^HMETA: |%^HMET2:] ;
 
 "k:g"
 !! **RULE: @RULENAME@**
-k:g <=> Vow n _ Vow WeakGrade ;
+k:g <=> Vow n _ Vow: WeakGrade ;
 
 !! **Tests:**
 
@@ -158,6 +158,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !! l rules
 "l:0"
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:] ;
+!        :Vow :Vow !TEST för att få kantelheele trots 3stavigt
 
 
 !! m rules

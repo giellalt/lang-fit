@@ -262,10 +262,10 @@ LEXICON x2_odd_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Ine:^HMETA%>heess^A   PxK ; ! NY aihneessa 
  +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
  +Sg+Ela:^HMETA%>heest^A   PxK ; ! NY aihneesta
- +Sg+All:^WGh%>eelle    PxxK ; ! liikheele, liihkeelekki
- +Sg+All:^HMETA%>heelle    PxxK ; ! NY
- +Sg+Ade:^WGh%>eell^A    PxK ; ! liikheelä, säkheelä
- +Sg+Ade:^HMETA%>heell^A    PxK ; ! NY
+ +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
+ +Sg+All:^HMETA%>heele    PxxK ; ! NY
+ +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
+ +Sg+Ade:^HMETA%>heel^A    PxK ; ! NY
  +Sg+Abl:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
  +Sg+Abl:^HMETA%>heelt^A   PxK ; ! NY
  +Sg+Tra:^WGh%>ee TRA ;
@@ -284,8 +284,8 @@ LEXICON x2_odd_pl
  +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
  +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
- +Pl+Ade:%>ei2lle    PxxK ; ! liikheelä, säkheelä
- +Pl+All:%>ei2ll^A    PxK ; ! liikheelä, säkheelä
+ +Pl+Ade:%>ei2le    PxxK ; ! liikheelä, säkheelä
+ +Pl+All:%>ei2l^A    PxK ; ! liikheelä, säkheelä
  +Pl+Abl:%>ei2lt^A    PxK ; ! liikheelä, säkheelä
  +Pl+Tra:%>ei2 TRA ;
  +Pl+Ess:%>ei2n^A PxK ;
@@ -779,8 +779,8 @@ LEXICON xnas_sg ! ankerias:ankeria
  +Sg+Ill:^HMETA%>h^V^Vshee n_PxK ;
  +Sg+Ine:^HMETA%>h^V^Vss^A PxK ;
  +Sg+Ela:^HMETA%>h^V^Vst^A PxK ;
- +Sg+All:^HMETA%>h^V^Vlle PxxK ;
- +Sg+Ade:^HMETA%>h^V^Vll^A PxK ;
+ +Sg+All:^HMETA%>h^V^Vle PxxK ;
+ +Sg+Ade:^HMETA%>h^V^Vl^A PxK ;
  +Sg+Abl:^HMETA%>h^V^Vlt^A PxK ;
  +Sg+Abe:^HMETA%>h^V^Vtt^A PxK ;
  +Sg+Ess:^HMETA%>h^V^Vn^A PxK ;
@@ -794,8 +794,8 @@ LEXICON xnas_pl
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
  +Pl+Ine:^HMETA%>h^Vi2ss^A PxK ;
  +Pl+Ela:^HMETA%>h^Vi2st^A PxK ;
- +Pl+All:^HMETA%>h^Vi2lle PxxK ;
- +Pl+Ade:^HMETA%>h^Vi2ll^A PxK ;
+ +Pl+All:^HMETA%>h^Vi2le PxxK ;
+ +Pl+Ade:^HMETA%>h^Vi2l^A PxK ;
  +Pl+Abl:^HMETA%>h^Vi2lt^A PxK ;
  +Pl+Ess:^HMETA%>h^Vi2n^A PxK ;
  +Pl+Tra:^HMETA%>h^Vi2 TRA ;
