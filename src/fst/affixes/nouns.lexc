@@ -224,10 +224,10 @@ LEXICON x2_pl
  +Pl+Ine:^HMET2%>hei2ss^A   PxK ;
  +Pl+Ela:^WGh%>ei2st^A   PxK ; ! liikheessä, säkheessä
  +Pl+Ela:^HMET2%>hei2st^A   PxK ; 
- +Pl+Ade:^WGh%>ei2le    PxxK ; ! liikheelä, säkheelä
- +Pl+Ade:^HMET2%>hei2le    PxxK ;
- +Pl+All:^WGh%>ei2l^A    PxK ; ! liikheelä, säkheelä
- +Pl+All:^HMET2%>hei2l^A    PxK ; 
+ +Pl+All:^WGh%>ei2le    PxxK ; ! liikheelä, säkheelä
+ +Pl+All:^HMET2%>hei2le    PxxK ;
+ +Pl+Ade:^WGh%>ei2l^A    PxK ; ! liikheelä, säkheelä
+ +Pl+Ade:^HMET2%>hei2l^A    PxK ; 
  +Pl+Abl:^WGh%>ei2lt^A    PxK ; ! liikheelä, säkheelä
  +Pl+Abl:^HMET2%>hei2lt^A    PxK ;
  +Pl+Tra:^WGh%>ei2 TRA ;

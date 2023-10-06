@@ -80,10 +80,10 @@ Tests:
     äijäfaari+N+Pl+Ade: äijäfaarila
     hamut+N+Pl+Ade: hamuila
     aihe+N+Pl+Ade: aihheila
-    äile+N+Pl+Ade: äilheilä
-    aine+N+Pl+Ade: ainheila
+    äile+N+Pl+Ade: [äilheilä, äihleilä]
+    aine+N+Pl+Ade: [ainheila, aihneila]
     alote+N+Pl+Ade: alotheila
-    alue+N+Pl+Ade: alueheila
+    alue+N+Pl+Ade: [alueheila, aluheila]
     ikenheet+N+Pl+Ade: ikenheilä
     akleija+N+Pl+Ade: akleijoila
     äkseerinki+N+Pl+Ade: äkseeringilä
@@ -138,7 +138,7 @@ Tests:
     Kyriiri+N+Pl+Ade: Kyriirillä
     Laurina+N+Pl+Ade: Laurinaila
     Mikkelinpäivä+N+Pl+Ade: Mikkelinpäivilä
-    Norrlänska+N+Pl+Ade: Norrlänskoila
+    norrlänska+N+Pl+Ade: norrlänskoila
     TV-masti+N+Pl+Ade: TV-mastila
     äänensävy+N+Pl+Ade: äänensävyilä
     alunastifti+N+Pl+Ade: alunastiftilä
