@@ -670,7 +670,7 @@ a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> 
 a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ;
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ;    
-         Cns:* Vow:* Cns:* Vow:*  (Cns:) Cns: Cns: _ %^WG: %> [i2:] ; !almunakoissa
+         Cns:+ Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:) %> [i2:] ; !almunakoissa
 
 !! **Tests:**
 !!€ laatia>i2tten
@@ -874,7 +874,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
         [Cns:*|.#.|#]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhain !CHECK endast för tvåstaviga
-        [#|.#.] (Cns:*) Vow:* Cns:* Cns:* Vow:* k: k: a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !kirsikoihin, almunakoissa
+        [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plur 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakoissa)
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
 !! **Tests:**
@@ -887,6 +887,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:i <=> i: [%^HMETA: | %^HMET2:] %> h:    _ :i ;
           i: [%^HMETA: | %^HMET2:] %> h: :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
+         [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> h:_ [i2:] ;  !muna>munhiin Pl+Ill
 
 !! **Tests:**
 
