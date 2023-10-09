@@ -54,7 +54,8 @@ LEXICON NounRoot !!≈ * **@CODE@**
 !huki 
 
 !! slut lekstuga
-
+!enaire:enaire n2_odd ; !!NOT REAL WORD; testing
+!kilvi:kilve n4 ; !!NOT REAL WORD; testing
 huornanen:huorna 3nen ;
 laskiainen:laskiai nen ;
 tuliainen:tuliai nen ;
@@ -1042,7 +1043,7 @@ kika:kika n1 ;
 lika:lika n1 ;
 pihalika:pihalika nx ;
 vesilika:vesilika nx ;
-niskanikamet:niskanika 3n_ime_pl ;
+niskanikama:niska#nika n3 ;
 poika:poika n1 ;
 poikanen:poika 3nen ;
 vanhaapoika:vanhaa#poika n1 ;
@@ -2578,7 +2579,7 @@ katkelma:katkelma nx ;
 vuohisenkatkelma:vuohisenkatkelma nx ;
 unelma:unelma nx ;
 kokoelma:kokoelma n1 ;
-suunitelma:suunitelma n2 ;
+suunitelma:suunitelma n1 ;
 muistelma:muistelma nx ;
 mustelma:mustelma nx ;
 jutelma:jutelma nx ;
@@ -4899,7 +4900,7 @@ liestyke:liestykke n2 ;
 levyke:levykke n2 ;
 tyyke:tyykke n2 ;
 piäke:piäkke n2 ;
-eläke:eläkke n2_odd ;
+eläke:eläkke n2 ;
 lapseneläke:lapsen#eläkke n2_odd ;
 välläke:välläkke n2_odd ;
 pöläke:pöläkke n2_odd ;
@@ -5303,7 +5304,7 @@ porttihame:porttihame n2 ;
 liivihame:liivihame n2 ;
 kirkkohame:kirkkohame n2 ;
 alushame:alushame n2 ;
-epiteemi:epi#teemi n4 ;
+epiteemi:epiteemi n4 ;
 liemi:lie n5_loimi ;
 lihaliemi:liha#lie n5_loimi ;
 makkaraliemi:makkara#lie n5_loimi ;

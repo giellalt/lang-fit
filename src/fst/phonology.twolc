@@ -875,7 +875,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-        [Cns:*|.#.|#]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhain !CHECK endast för tvåstaviga
+        [Cns:*|.#.|#]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhoin !CHECK endast för tvåstaviga?
+        [.#.|#|Cns:]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !kernas>kernhoin/kerhnoin !CHECK endast för tvåstaviga?
         [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plur 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakhoin)
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
