@@ -49,7 +49,6 @@ The lemma list
 lekstuga
 
 slut lekstuga
-
 * hinta n1 ;
 OBS ej n4!
 * rypriikki:rypriikki n3 ;
