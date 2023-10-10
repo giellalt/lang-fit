@@ -29,7 +29,7 @@ Tests:
      antaa+V+Act+Ind+Prt+Pl2: annoitta
      antaa+V+Act+Ind+Prt+Pl3: annoit
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
-     antaa+V+Pass+PrfPrc+Sg+Nom: annettu # 
+     antaa+V+Pass+PrfPrc+Sg+Nom: annettu # antaa+V+Pass+PrfPrc+Pl+Nom annetut
      antaa+V+Act+PrfPrc+Pl+Nom: antanheet
      antaa+V+Act+PrsPrc+Sg+Nom: antava
      antaa+V+Act+PrsPrc+Pl+Nom: antavat
@@ -41,14 +41,14 @@ Tests:
      antaa+V+Act+Cond+Sg3: antais
      antaa+V+Act+Cond+Pl1: antaisimma
      antaa+V+Act+Cond+Pl2: antaisitta
-     antaa+V+Act+Cond+Pl3: antattais
-     antaa+V+Pass+Cond: antattais
+     antaa+V+Act+Cond+Pl3: antaisit
+     antaa+V+Pass+Cond: annettais
   
      antaa+V+Act+Imprt+Sg2: anna
-     antaa+V+Act+Imprt+Pl2: antakkaa
+     antaa+V+Act+Imprt+Pl2: antakaa
      
      antaa+V+Act+Inf3+Ine: antamassa
      antaa+V+Act+Inf3+Ela: antamasta
-     antaa+V+Act+Inf3+Ill: antamhaan
+     antaa+V+Act+Inf3+Ill: [antamhaan, antahmaan]
      antaa+V+Act+Inf3+Ade: antamalla
      antaa+V+Act+Inf3+Abe: antamatta
