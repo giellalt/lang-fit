@@ -122,10 +122,10 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Pass+PrfPrc:%>thee x3_oblique ;
 +V+Pass+PrsPrc:%>tt^Av^A x3 ;
 
-+V+Imprt+Sg2:^WG # ;
-+V+Imprt+Sg:%>kh^O^On # ;
-+V+Imprt+Pl2:%>kh^A^A # ;
-+V+Imprt+Pl3:%>kh^O^Ot # ;
++V+Act+Imprt+Sg2:^WG # ;
++V+Act+Imprt+Sg:%>kh^O^On # ;
++V+Act+Imprt+Pl2:%>kh^A^A # ;
++V+Act+Imprt+Pl3:%>kh^O^Ot # ;
 
 +V+Act+Ind+Prs+Sg1:^WG%>n K ;
 +V+Act+Ind+Prs+Sg2:^WG%>t K ;
@@ -141,9 +141,17 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Ind+Prt+Sg3:%>i8 K ; ! anto, äänesti, pieksi
 +V+Act+Ind+Prt+Pl1:^WG%>i3m^A K ;
 +V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
-+V+Act+Ind+Prt+Pl3:%>i3t K ;
++V+Act+Ind+Prt+Pl3:^WG%>i3t K ;
 
-+V+Cond:%>is 2cond ;
++V+Act+Cond+Sg1:%>isin K ; ! kävisin
++V+Act+Cond+Sg2:%>isit K ;
++V+Act+Cond+Sg3:is K ;
++V+Act+Cond+Sg3:%>isi K ;
++V+Act+Cond+Pl1:%>isimm^A K ;
++V+Act+Cond+Pl2:%>isitt^A K ;
++V+Act+Cond+Pl3:%>isiv^A K ;
+
+!+V+Cond:%>is 2cond ;
 
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;

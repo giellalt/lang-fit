@@ -8,8 +8,7 @@
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
-!! * n2 = e-nouns: liike, säe
-!! * n2_odd = odd-syll e-nouns: karpale, urvake
+!! * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 !! * n3 = n1_odd for odd-syllabic ordinary nouns: kanava
 
 !! Consonant stems
@@ -238,58 +237,58 @@ LEXICON x2_pl
  +Pl+Abe:^HMET2%>hei2tt^A PxK ;
 
 
-LEXICON n2_odd
+!LEXICON n2_odd
 !! **LEXICON @LEXNAME@**  urvakke etc, n2-ord med -lle/-lla 
- +N: x2_odd ;
- +N+Nom: R ;
- +N+Gen:he%>en R ;
+ !+N: x2_odd ;
+ !+N+Nom: R ;
+ !+N+Gen:he%>en R ;
 
-LEXICON x2_odd
+!LEXICON x2_odd
 !! **LEXICON @LEXNAME@** splits in sg and pl
- x2_odd_sg ;
- x2_odd_pl ;
+ !x2_odd_sg ;
+ !x2_odd_pl ;
 
-LEXICON x2_odd_sg ! urvakke etc, n2-ord med -lle/-lla 
+!LEXICON x2_odd_sg ! urvakke etc, n2-ord med -lle/-lla 
 !! **LEXICON @LEXNAME@** the sg
- +Sg+Nom:^WG      KK ; ! eläke
- +Sg+Nom+Err/Orth:^WGt      KK ; ! 
- +Sg+Gen:^WGh%>een    PxK ; ! 
- +Sg+Gen:^HMET2%>heen    PxK ; ! 
- +Sg+Par:^WG%>tt^A PxK ; ! 
- +Sg+Ill:^WGh%>eeshee     n_PxK ; ! 
- +Sg+Ill:^HMET2%>heeshee     n_PxK ; ! 
- +Sg+Ine:^WGh%>eess^A   PxK ; ! 
- +Sg+Ine:^HMET2%>heess^A   PxK ; ! 
- +Sg+Ela:^WGh%>eest^A   PxK ; ! 
- +Sg+Ela:^HMET2%>heest^A   PxK ; ! 
- +Sg+All:^WGh%>eele    PxxK ; ! 
- +Sg+All:^HMET2%>heele    PxxK ; ! 
- +Sg+Ade:^WGh%>eel^A    PxK ; ! 
- +Sg+Ade:^HMET2%>heel^A    PxK ; ! 
- +Sg+Abl:^WGh%>eelt^A   PxK ; ! 
- +Sg+Abl:^HMET2%>heelt^A   PxK ; ! 
- +Sg+Tra:^WGh%>ee TRA ;
- +Sg+Tra:^HMET2%>hee TRA ; ! 
- +Sg+Ess:^WGh%>een^A PxK ;
- +Sg+Ess:^HMET2%>heen^A PxK ; ! 
- +Sg+Abe:%>ett^A PxK ;
+ !+Sg+Nom:^WG      KK ; ! eläke
+ !+Sg+Nom+Err/Orth:^WGt      KK ; ! 
+ !+Sg+Gen:^WGh%>een    PxK ; ! 
+ !+Sg+Gen:^HMET2%>heen    PxK ; ! 
+ !+Sg+Par:^WG%>tt^A PxK ; ! 
+ !+Sg+Ill:^WGh%>eeshee     n_PxK ; ! 
+ !+Sg+Ill:^HMET2%>heeshee     n_PxK ; ! 
+ !+Sg+Ine:^WGh%>eess^A   PxK ; ! 
+ !+Sg+Ine:^HMET2%>heess^A   PxK ; ! 
+ !+Sg+Ela:^WGh%>eest^A   PxK ; ! 
+ !+Sg+Ela:^HMET2%>heest^A   PxK ; ! 
+ !+Sg+All:^WGh%>eele    PxxK ; ! 
+ !+Sg+All:^HMET2%>heele    PxxK ; ! 
+ !+Sg+Ade:^WGh%>eel^A    PxK ; ! 
+ !+Sg+Ade:^HMET2%>heel^A    PxK ; ! 
+ !+Sg+Abl:^WGh%>eelt^A   PxK ; ! 
+ !+Sg+Abl:^HMET2%>heelt^A   PxK ; ! 
+ !+Sg+Tra:^WGh%>ee TRA ;
+ !+Sg+Tra:^HMET2%>hee TRA ; ! 
+ !+Sg+Ess:^WGh%>een^A PxK ;
+ !+Sg+Ess:^HMET2%>heen^A PxK ; ! 
+ !+Sg+Abe:%>ett^A PxK ;
 
-LEXICON x2_odd_pl
+!LEXICON x2_odd_pl
 !! **LEXICON @LEXNAME@** the pl
- +Pl+Nom:^WGh%>eet     K ;
- +Pl+Nom:^WGh%>ee      Px ;
- +Pl+Gen:^WGh%>eitten   PxK ;
- +Pl+Gen:^WGh%>ejen   PxK ;
- +Pl+Par:^WGh%>ej^A   PxK ;
- +Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
- +Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
- +Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
- +Pl+Ade:%>ei2le    PxxK ; ! liikheelä, säkheelä
- +Pl+All:%>ei2l^A    PxK ; ! liikheelä, säkheelä
- +Pl+Abl:%>ei2lt^A    PxK ; ! liikheelä, säkheelä
- +Pl+Tra:%>ei2 TRA ;
- +Pl+Ess:%>ei2n^A PxK ;
- +Pl+Abe:%>ei2tt^A PxK ;
+ !+Pl+Nom:^WGh%>eet     K ;
+ !+Pl+Nom:^WGh%>ee      Px ;
+ !+Pl+Gen:^WGh%>eitten   PxK ;
+ !+Pl+Gen:^WGh%>ejen   PxK ;
+ !+Pl+Par:^WGh%>ej^A   PxK ;
+ !+Pl+Ill:%>e     n_PxK ; ! liikheen, säkheen
+ !+Pl+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä
+ !+Pl+Ela:%>est^A   PxK ; ! liikheessä, säkheessä
+ !+Pl+Ade:%>ei2le    PxxK ; ! liikheelä, säkheelä
+ !+Pl+All:%>ei2l^A    PxK ; ! liikheelä, säkheelä
+ !+Pl+Abl:%>ei2lt^A    PxK ; ! liikheelä, säkheelä
+ !+Pl+Tra:%>ei2 TRA ;
+ !+Pl+Ess:%>ei2n^A PxK ;
+ !+Pl+Abe:%>ei2tt^A PxK ;
 
 
 
