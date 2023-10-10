@@ -7,8 +7,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns: liike, säe
-* n2_odd = odd-syll e-nouns: karpale, urvake
+* n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 * n3 = n1_odd for odd-syllabic ordinary nouns: kanava
 
 Consonant stems
@@ -91,13 +90,13 @@ Consonant stems
 
 **LEXICON x2_pl** the pl
 
-**LEXICON n2_odd**  urvakke etc, n2-ord med -lle/-lla 
+**LEXICON x2_pl**  urvakke etc, n2-ord med -lle/-lla 
 
-**LEXICON x2_odd** splits in sg and pl
+**LEXICON x2_pl** splits in sg and pl
 
-**LEXICON x2_odd_sg** the sg
+**LEXICON x2_pl** the sg
 
-**LEXICON x2_odd_pl** the pl
+**LEXICON x2_pl** the pl
 
 **LEXICON n3**  odd-syllabic: kanava
 
