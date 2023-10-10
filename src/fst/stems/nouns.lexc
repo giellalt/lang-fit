@@ -13810,7 +13810,7 @@ levitys:levity 4n_ks ;
 kilvitys:kilvity 4n_ks ;
 hyvitys:hyvity 4n_ks ;
 väitys:väity 4n_ks ;
-sovitus:sovitu 4n_ks
+sovitus:sovitu 4n_ks ;
 synty:synty nx ;
 läntys:länty 3n_ks ;
 mänty:mänty nx ;
