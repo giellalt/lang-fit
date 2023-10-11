@@ -12,9 +12,8 @@
 
 !! * n0 = 1syll noun: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
-!! * n2 = e-nouns: liike, säe
-!! * n2_odd = odd-syll e-nouns: karpale, urvake
-!! * n3 = odd-syllabic ordinary nouns: kanava
+!! * n2 = e-nouns: liike, and odd-syll karpale, urvake
+!! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
 
 !! Consonant stems
 
@@ -26,7 +25,7 @@
 !! * n5_lapsi = lapsi : lapsen : lasta
 
 !! * n_uus = vajavuus
-!! * n_uus_odd = miehuus, miehuuelle
+!! * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
 !! * nc = cvc
 !! * 3nc = cvcvc, jiddish
 !! * nen = nainen paradigm
@@ -35,9 +34,9 @@
 !! * 4n_ks = odd variants of 3n_ks; morahus - morahuksele
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
-!! * 3n_lnr = taimen, höyhen 
-!! * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
-!! * nas = tehas - tehtaan
+!! * 3n_lnr = taimen, höyhen, sisar (bara -n/-r?) (2syll) 
+!! * 30n_lnr = sammal, askel, tanner (like 3n_lnr except Gen Ill Ine Ess) (2syll) (bara -l?)
+!! * nas = stam VVs; ankerias - ankerihaala
 !! * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 !! * 3mies = mies
 
@@ -2468,7 +2467,7 @@ tunkukuula:tunkukuula nx ;
 plyijykuula:plyijykuula nx ;
 kylä+Err/Orth:kyla n1 ;
 mauus:mauu n_uus ;
-prupleema:pruplee#ma nx ;
+prupleema:prupleema nx ;
 veenleikkaama:veenleikkaama nx ;
 naama:naama nx ;
 naamat:naama n1_pl ;
@@ -6300,12 +6299,12 @@ köye:köye n2 ;
 jääe:jääe n2 ;
 jiddisch:jiddisch 3nc ;
 miehuus:miehuu n_uus_odd ;
-pahhuus:pahhuu n_uus ;
-laihuus:laihuu n_uus ;
-vanhuus:vanhuu n_uus ;
-vanhuus:vanhuu n_uus ;
-turhuus:turhuu n_uus ;
-lauhuus:lauhuu n_uus ;
+pahhuus:pahhuu n_uus_odd ;
+laihuus:laihuu n_uus_odd ;
+vanhuus:vanhuu n_uus_odd ;
+vanhuus:vanhuu n_uus_odd ;
+turhuus:turhuu n_uus_odd ;
+lauhuus:lauhuu n_uus_odd ;
 herrskaapit:herrskaap2i n1_pl ;
 raati:raat2i n1 ;
 kieliraati:kieli#raat2i n1 ;
@@ -9696,19 +9695,19 @@ pörhöinen:pörhöi 3nen ;
 vesipörhöinen:vesipörhöi 3nen ;
 isotyöinen:isotyöi nen ;
 puurööi:puurööi nx ;
-laajuus:laajuu n_uus ;
-luijuus:luijuu n_uus ;
-orjuus:orjuu n_uus ;
-kurjuus:kurjuu n_uus ;
+laajuus:laajuu n_uus_odd ;
+luijuus:luijuu n_uus_odd ;
+orjuus:orjuu n_uus_odd ;
+kurjuus:kurjuu n_uus_odd ;
 kuus:kuu n_uus ;
-piikuus:piikuu n_uus ;
-tarkkuus:tarkkuu n_uus ;
-keskuus:keskuu n_uus ;
-laiskuus:laiskuu n_uus ;
-nuoskuus:nuoskuu n_uus ;
+piikuus:piikuu n_uus_odd ;
+tarkkuus:tarkkuu n_uus_odd ;
+keskuus:keskuu n_uus_odd ;
+laiskuus:laiskuu n_uus_odd ;
+nuoskuus:nuoskuu n_uus_odd ;
 puolempäivännuoskuus:puolempäivännuoskuu n_uus ;
-korskuus:korskuu n_uus ;
-nuukuus:nuukuu n_uus ;
+korskuus:korskuu n_uus_odd ;
+nuukuus:nuukuu n_uus_odd ;
 hankaluus:hankaluu n_uus ;
 sammal:sammal 30n_lnr ;
 suesammal:sue#sammal 30n_lnr ;
@@ -9761,7 +9760,7 @@ koskuskymmen:koskuskymmen 3n_lnr ;
 kämmen:kämmen 3n_lnr ;
 karhunkämmen:karhun#kämmen 3n_lnr ;
 vesen:vesen nx ;
-uposen:uposen 3n_lnr ;
+!uposen:uposen 3n_lnr ; !CHECK!
 joutsen:joutsen 3n_lnr ;
 jäsen:jäsen 3n_lnr ;
 nilkkajäsen:nilkka#jäsen 3n_lnr ;
@@ -11482,19 +11481,19 @@ kantonevvot:kanto#nevvo n1_pl ;
 pislaneuvvot:pislaneuvvo n1_pl ;
 sisar:sisar 3n_lnr ;
 isosisar:iso#sisar 3n_lnr ;
-kristisisar:kristisisar 3n_lnr ;
-kasvattisisar:kasvattisisar 3n_lnr ;
+kristisisar:kristi#sisar 3n_lnr ;
+kasvattisisar:kasvatti#sisar 3n_lnr ;
 putinsaivar:putinsaivar nx ;
 penger:penker 30n_lnr ;
 manner:manter 30n_lnr ; ! xxx check
 katkeruus:katkeruu n_uus ;
 tanner:tanter 30n_lnr ;
 jääntanner:jään#tanter 30n_lnr ;
-koiruus:koiruu n_uus ;
-huoruus:huoruu n_uus ;
-nuoruus:nuoruu n_uus ;
-pirruus:pirruu n_uus ;
-suuruus:suuruu n_uus ;
+koiruus:koiruu n_uus_odd ;
+huoruus:huoruu n_uus_odd ;
+nuoruus:nuoruu n_uus_odd ;
+pirruus:pirruu n_uus_odd ;
+suuruus:suuruu n_uus_odd ;
 tyär: TYÄR ;
 vanhaatyär:vanhaa# TYÄR ;
 jalkatyär:jalka# TYÄR ;
@@ -12764,7 +12763,7 @@ tuiru:tuiru nx ;
 loru:loru nx ;
 poru:poru nx ;
 juoru:juoru nx ;
-nuorus:nuoru 3n_ue ;
+nuoruus:nuoruu n_uus_odd ;
 parru:parru nx ;
 tarru:tarru nx ;
 kerrus:kerru 3n_ks ;
