@@ -8,7 +8,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-* n3 = n1_odd for odd-syllabic ordinary nouns: kanava
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
 
 Consonant stems
 
@@ -20,7 +20,7 @@ Consonant stems
 * n5_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
-* n_uus_odd = miehuus, miehuuelle
+* n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
 * nc = cvc
 * 3nc = cvcvc, jiddish
 * nen = nainen paradigm

@@ -1118,7 +1118,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-* n3 = n1_odd for odd-syllabic ordinary nouns: kanava
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
 
 Consonant stems
 
@@ -1130,7 +1130,7 @@ Consonant stems
 * n5_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
-* n_uus_odd = miehuus, miehuuelle
+* n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
 * nc = cvc
 * 3nc = cvcvc, jiddish
 * nen = nainen paradigm
@@ -2847,9 +2847,8 @@ Vowel stems
 
 * n0 = 1syll noun: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns: liike, säe
-* n2_odd = odd-syll e-nouns: karpale, urvake
-* n3 = odd-syllabic ordinary nouns: kanava
+* n2 = e-nouns: liike, and odd-syll karpale, urvake
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
 
 Consonant stems
 
@@ -2861,7 +2860,7 @@ Consonant stems
 * n5_lapsi = lapsi : lapsen : lasta
 
 * n_uus = vajavuus
-* n_uus_odd = miehuus, miehuuelle
+* n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
 * nc = cvc
 * 3nc = cvcvc, jiddish
 * nen = nainen paradigm
@@ -2870,9 +2869,9 @@ Consonant stems
 * 4n_ks = odd variants of 3n_ks; morahus - morahuksele
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
-* 3n_lnr = taimen, höyhen 
-* 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
-* nas = tehas - tehtaan
+* 3n_lnr = taimen, höyhen, sisar (bara -n/-r?) (2syll) 
+* 30n_lnr = sammal, askel, tanner (like 3n_lnr except Gen Ill Ine Ess) (2syll) (bara -l?)
+* nas = stam VVs; ankerias - ankerihaala
 * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 * 3mies = mies
 
