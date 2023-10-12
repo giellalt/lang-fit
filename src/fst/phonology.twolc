@@ -353,8 +353,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                   Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een ?BEHÖVS?
                   Vow   l   _ [  m|n|r|v] Vow: %^HMET2: ; ! ilhmaa lm, lv, 
                   Vow   r   _ [  m|n  |v]     Vow: %^HMET2: ; ! 
-                  Vow   n   _  l          Vow: %^HMET2: ; ! puohleen men vuotheen. Vad med ilhmaan!!??
-                  Vow   m   _  n          Vow: %^HMET2: ; ! puohleen men vuotheen. Vad med ilhmaan!!??
+                  Vow   n   _  l          Vow: %^HMET2: ; ! puohleen men vuotheen
+                  Vow   m   _  n          Vow: %^HMET2: ; ! puohleen men vuotheen
 
 
 !uit-mac-443:lang-fit ttr000$ cat misc/freebound.list |grep '^.m[lnrv][aeiouyäö]$'|cut -c2,3|sort|uniq

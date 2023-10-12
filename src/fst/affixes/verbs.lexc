@@ -102,12 +102,12 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
-+V+Act+InfMa: 3infcase ;
++V+InfMa: 3infcase ; 
 
 +V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
 !+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
-+V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; !TEST
++V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; 
 
 +V+Act+Ind+Prs+ConNeg:^WG K ;
 +V+Act+Cond+ConNeg:%>isi K ;
@@ -118,9 +118,9 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ;
 
-+V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; !TEST
++V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
 +V+Pass+PrfPrc:%>thee x3_oblique ;
-+V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; !TEST
++V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:%>kh^O^On # ;
@@ -146,7 +146,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Cond+Sg1:%>isin K ; ! kävisin
 +V+Act+Cond+Sg2:%>isit K ;
 +V+Act+Cond+Sg3:is K ;
-!+V+Act+Cond+Sg3:%>isi K ; !TEST
+!+V+Act+Cond+Sg3:%>isi K ; 
 +V+Act+Cond+Pl1:%>isimm^A K ;
 +V+Act+Cond+Pl2:%>isitt^A K ;
 +V+Act+Cond+Pl3:%>isit K ;

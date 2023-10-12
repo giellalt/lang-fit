@@ -47,8 +47,9 @@ Tests:
      antaa+V+Act+Imprt+Sg2: anna
      antaa+V+Act+Imprt+Pl2: antakaa
      
-     antaa+V+Act+InfMa+Ine: antamassa
-     antaa+V+Act+InfMa+Ela: antamasta
-     antaa+V+Act+InfMa+Ill: [antamhaan, antahmaan]
-     antaa+V+Act+InfMa+Ade: antamalla
-     antaa+V+Act+InfMa+Abe: antamatta
+     antaa+V+InfMa+Ine: antamassa
+    #antaa+V+Act+InfMa+Ine: antamassa osv borttaget
+     antaa+V+InfMa+Ela: antamasta
+     antaa+V+InfMa+Ill: [antamhaan, antahmaan]
+     antaa+V+InfMa+Ade: antamalla
+     antaa+V+InfMa+Abe: antamatta
