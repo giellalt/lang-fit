@@ -106,8 +106,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 
 +V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
-+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
-+V+Pass+Cond:%^AE%^WG%>th^A%>i4s K ;
+!+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
++V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; !TEST
 
 +V+Act+Ind+Prs+ConNeg:^WG K ;
 +V+Act+Cond+ConNeg:%>isi K ;
@@ -118,13 +118,13 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ;
 
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
++V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; !TEST
 +V+Pass+PrfPrc:%>thee x3_oblique ;
-+V+Pass+PrsPrc:%>tt^Av^A x3 ;
++V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; !TEST
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:%>kh^O^On # ;
-+V+Act+Imprt+Pl2:%>kh^A^A # ;
++V+Act+Imprt+Pl2:%>k^A^A # ;
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ;
 
 +V+Act+Ind+Prs+Sg1:^WG%>n K ;
@@ -146,10 +146,10 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Cond+Sg1:%>isin K ; ! kävisin
 +V+Act+Cond+Sg2:%>isit K ;
 +V+Act+Cond+Sg3:is K ;
-+V+Act+Cond+Sg3:%>isi K ;
+!+V+Act+Cond+Sg3:%>isi K ; !TEST
 +V+Act+Cond+Pl1:%>isimm^A K ;
 +V+Act+Cond+Pl2:%>isitt^A K ;
-+V+Act+Cond+Pl3:%>isiv^A K ;
++V+Act+Cond+Pl3:%>isit K ;
 
 !+V+Cond:%>is 2cond ;
 
@@ -710,7 +710,7 @@ LEXICON 2cond !!≈ **@CODE@** kehitä:kehi
 !! ### Infinitive paradigms
 
 LEXICON 3infcase
-+Ill:%>hm^A^An K ; ! also mh if short preceeding vow
++Ill:%>mh^A^An K ; ! also hm if short preceeding vow
 +Ine:%>m^Ass^A K ;
 +Ela:%>m^Ast^A K ;
 +Ade:%>m^All^A K ; ! TODO -la / -lla
