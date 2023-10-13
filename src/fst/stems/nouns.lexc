@@ -55,6 +55,7 @@ LEXICON NounRoot !!≈ * **@CODE@**
 !! slut lekstuga
 !enaire:enaire n2_odd ; !!NOT REAL WORD; testing
 !kilvi:kilve n4 ; !!NOT REAL WORD; testing
+!kiivi:kiivi n4 ; !!NOT REAL WORD; testing
 huornanen:huorna 3nen ;
 laskiainen:laskiai nen ;
 tuliainen:tuliai nen ;
@@ -6973,7 +6974,7 @@ kläninki:kläninki nx ;
 kirkkokläninki:kirkkokläninki nx ;
 savirapinki:savirapinki nx ;
 topinki:topinki nx ;
-rinki:rinki nx ;
+rinki:rinki n1_i ;
 klaarinki:klaarinki nx ;
 mundeerinki:mundeerinki n3 ;
 lakeeerinki:lakeeerinki n3 ;
