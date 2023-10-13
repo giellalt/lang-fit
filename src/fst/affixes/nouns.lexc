@@ -32,7 +32,7 @@
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
 !! * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
-!! * nas = tehas - tehtaan
+!! * nas = stam VVs; ankerias - ankerihaala
 !! * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 !! * 3mies = mies
 !! * n_ien = ien
@@ -120,6 +120,20 @@ LEXICON n1
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
+ LEXICON n1_i
+!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
+ +N: x1_i ;
+ +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
+ +N+Nom: R ;
+ +N+Sg+Gen:^WG%>n R ;
+
+ LEXICON x1_i
+!! **LEXICON @LEXNAME@** for type n1-words ending with -i, pointing to sg, pl
+x1_sg ;
+x1_pl ;
++Pl+Par:%>^A PxK ; !malmia, äitiä 
++Pl+Ess:%>n^A PxK ; !malmina, äitinä
+
 LEXICON n1_pl !
 !! **LEXICON @LEXNAME@** for the same plural words (*urut*)
  +N: x1_pl ;
@@ -155,7 +169,7 @@ LEXICON x1_pl
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:^WG^IDEL%>i2tten PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2en PxK ;
- +Pl+Par:%>i2^A PxK ;
+ +Pl+Par:%>i2^A PxK ; !TEST med WG
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhoin 
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnoin 
  +Pl+Ine:^WG%>i2ss^A PxK ;
@@ -164,7 +178,7 @@ LEXICON x1_pl
  +Pl+Ade:^WG%>i2l^A PxK ;
  +Pl+Abl:^WG%>i2lt^A PxK ;
  +Pl+Tra:^WG%>i2 TRA ;
- +Pl+Ess:%>i2n^A PxK ;
+ +Pl+Ess:%>i2n^A PxK ; !TEST
  +Pl+Abe:^WG%>i2tt^A PxK ;
 
 
@@ -785,8 +799,8 @@ LEXICON xnas_sg ! ankerias:ankeria
  +Sg+Ela:^HMETA%>h^V^Vst^A PxK ;
  +Sg+Ela:^HMET2%>h^V^Vst^A PxK ;
  +Sg+All:^HMETA%>h^V^Vle PxxK ;
- +Sg+All:^HMET2%>h^V^Vle PxxK ;
- +Sg+Ade:^HMETA%>h^V^Vl^A PxK ;
+ +Sg+All:^HMET2%>h^V^Vle PxxK ; !maitosalhmaala
+ +Sg+Ade:^HMETA%>h^V^Vl^A PxK ; !maitosalmhaala
  +Sg+Ade:^HMET2%>h^V^Vl^A PxK ;
  +Sg+Abl:^HMETA%>h^V^Vlt^A PxK ;
  +Sg+Abl:^HMET2%>h^V^Vlt^A PxK ;
@@ -800,7 +814,7 @@ LEXICON xnas_sg ! ankerias:ankeria
 LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:%>^Vt PxK ;
- +Pl+Gen:^HMETA%>h^Vi2den PxK ; !maitosalmhoiden !!CHECK not working
+ +Pl+Gen:^HMETA%>h^Vi2den PxK ; !maitosalmhoiden 
  +Pl+Gen:^HMET2%>h^Vi2den PxK ; !maitosalhmoiden
  +Pl+Par:^HMETA%>h^Vi2t^A PxK ;
  +Pl+Par:^HMET2%>h^Vi2t^A PxK ;
@@ -904,6 +918,7 @@ LEXICON n_ien_sg
  +N+Sg+Gen:ne%>n PxK ;
  +N+Sg+Par:^WGn%>t^A PxK ;
  +N+Sg+Ill:n^HMETA%>heen PxK ;
+ +N+Sg+Ill:n^HMET2%>heen PxK ;!ikehneen CHECK
  +N+Sg+Ine:ne%>ss^A PxK ;
  +N+Sg+Ela:ne%>st^A PxK ;
  +N+Sg+All:ne%>lle PxxK ;
@@ -916,10 +931,13 @@ LEXICON n_ien_sg
 LEXICON n_ien_pl
  +N+Pl+Nom:ne%>t PxK ;
  +N+Pl+Nom:n^HMETA%>heet PxK ;
+ +N+Pl+Nom:n^HMET2%>heet PxK ;
  +N+Pl+Gen:n%>ien PxK ;
  +N+Pl+Par:n%>i^A PxK ;
  +N+Pl+Ill:n^HMETA%>hiin PxK ;
+ +N+Pl+Ill:n^HMET2%>hiin PxK ;
  +N+Pl+Ine:n%>hei2ss^A PxK ;
+ +N+Pl+Ine:n^HMET2%>hei2ss^A PxK ;
  +N+Pl+Ela:n%>hei2st^A PxK ;
  +N+Pl+All:n%>hei2le PxxK ;
  +N+Pl+Ade:n%>hei2l^A PxK ;
