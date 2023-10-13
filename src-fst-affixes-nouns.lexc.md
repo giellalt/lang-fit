@@ -31,7 +31,7 @@ Consonant stems
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
-* nas = tehas - tehtaan
+* nas = stam VVs; ankerias - ankerihaala
 * odd_nas = odd-syllabic nas-types; taivas - taihvaale
 * 3mies = mies
 * n_ien = ien
@@ -63,6 +63,11 @@ Consonant stems
 
 **LEXICON n1** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
+
+**LEXICON n1** for 2-syll ordinary nouns (*talo*)
+* +N+Sg+Nom: PxK ; Px separate
+
+**LEXICON n1** for type n1-words ending with -i, pointing to sg, pl
 
 **LEXICON n1_pl** for the same plural words (*urut*)
 
