@@ -1995,18 +1995,18 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 
 * *rasta^HMETA>h^Vn*
 
-**RULE: hm to mh for InfMa Ill after short vowel 1**
+**RULE: h:0**
 
-**RULE: mh to hm for InfMa Ill after short vowel 2**
+**RULE: h:0**
 
-* *kasva>hm^A^An*
-* *kasva>mhaan*
+kasva>hm^A^An
+kasva>mhaan
 
-* *saarna>^A>hm^A^An*
-* *saarna>a>hmaan*
+saarna>^A>hm^A^An
+saarna>a>hmaan
 
-* *tule>hm^A^An*
-* *tule>mhaan*
+tule>hm^A^An
+tule>mhaan
 
 ## Gemination rules
 
