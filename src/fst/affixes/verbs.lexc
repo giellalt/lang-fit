@@ -710,8 +710,8 @@ LEXICON 2cond !!≈ **@CODE@** kehitä:kehi
 !! ### Infinitive paradigms
 
 LEXICON 3infcase
-+Ill:%>mh^A^An K ; ! also hm if short preceeding vow
-+Ill:%>^HMET2mh^A^An K ; ! also hm if short preceeding vow
++Ill:%>mh^A^An K ; ! 
++Ill:a^HMET2%>mh^A^An K ; ! also hm if short preceeding vow
 +Ine:%>m^Ass^A K ;
 +Ela:%>m^Ast^A K ;
 +Ade:%>m^All^A K ; ! TODO -la / -lla

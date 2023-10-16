@@ -354,7 +354,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                   Vow   r   _ [  m|n  |v]     Vow: %^HMET2: ; ! 
                   Vow   n   _  l          Vow: %^HMET2: ; ! puohleen men vuotheen
                   Vow   m   _  n          Vow: %^HMET2: ; ! puohleen men vuotheen       
-        [.#.|#] Vow Cns (Cns) Vow _ %> %^HMET2: [l|m|n|r|v] h: :Vow :Vow ;   !TEST anta>mhaan blir anta>hmaan
+        [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) %^HMET2: %> _ [l|m|n|r|v] h: Vow Vow ;   !TEST anta>mhaan blir anta>hmaan
+      [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; ! TEST elämä, elämhään/elähmään
 
 !uit-mac-443:lang-fit ttr000$ cat misc/freebound.list |grep '^.m[lnrv][aeiouyäö]$'|cut -c2,3|sort|uniq
 
@@ -522,29 +523,30 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
   Vow   r   :h [  m|n  |v] Vow: %^HMET2: %> _ ; ! 
   Vow   n   :h  l          Vow: %^HMET2: %> _ ; ! 
   Vow   m   :h  n          Vow: %^HMET2: %> _ ; ! 
-  [.#.|#] Vow Cns (Cns) Vow :h %> %^HMET2: [l|m|n|r|v] _ :Vow :Vow ; ! TEST anta>mhaan blir anta>hmaan 
+  [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) %^HMET2: %> :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>mhaan blir anta>hmaan, kasvaa>kasvahmaan/kasvamhaan 
+  [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; ! TEST elämä, elämhään/elähmään
 
 !!€ rasta^HMETA>h^Vn
 
 ! issoon, sillhoon <== check this.
 
 
-"hm to mh for InfMa Ill after short vowel 1"
+!"hm to mh for InfMa Ill after short vowel 1"
 !! **RULE: @RULENAME@**
-h:m <=> Cns Vow %> _ m: %^A: %^A: ;
+!h:m <=> Cns Vow %> _ m: %^A: %^A: ;
 
-"mh to hm for InfMa Ill after short vowel 2"
+!"mh to hm for InfMa Ill after short vowel 2"
 !! **RULE: @RULENAME@**
-m:h <=> Cns Vow %> h: _ %^A: %^A: ;
+!m:h <=> Cns Vow %> h: _ %^A: %^A: ;
 
-!!€ kasva>hm^A^An
-!!€ kasva>mhaan
+!! kasva>hm^A^An
+!! kasva>mhaan
 
-!!€ saarna>^A>hm^A^An
-!!€ saarna>a>hmaan
+!! saarna>^A>hm^A^An
+!! saarna>a>hmaan
 
-!!€ tule>hm^A^An
-!!€ tule>mhaan
+!! tule>hm^A^An
+!! tule>mhaan
 
 !! ## Gemination rules
 
