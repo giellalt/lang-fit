@@ -354,7 +354,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                   Vow   r   _ [  m|n  |v]     Vow: %^HMET2: ; ! 
                   Vow   n   _  l          Vow: %^HMET2: ; ! puohleen men vuotheen
                   Vow   m   _  n          Vow: %^HMET2: ; ! puohleen men vuotheen       
-        [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) %^HMET2: %> _ [l|m|n|r|v] h: Vow Vow ;   !TEST anta>mhaan blir anta>hmaan
+        [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;   !TEST anta>mhaan blir anta>hmaan
       [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; ! TEST elämä, elämhään/elähmään
 
 !uit-mac-443:lang-fit ttr000$ cat misc/freebound.list |grep '^.m[lnrv][aeiouyäö]$'|cut -c2,3|sort|uniq
@@ -523,7 +523,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
   Vow   r   :h [  m|n  |v] Vow: %^HMET2: %> _ ; ! 
   Vow   n   :h  l          Vow: %^HMET2: %> _ ; ! 
   Vow   m   :h  n          Vow: %^HMET2: %> _ ; ! 
-  [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) %^HMET2: %> :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>mhaan blir anta>hmaan, kasvaa>kasvahmaan/kasvamhaan 
+  [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>mhaan blir anta>hmaan, kasvaa>kasvahmaan/kasvamhaan 
   [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; ! TEST elämä, elämhään/elähmään
 
 !!€ rasta^HMETA>h^Vn

@@ -99,6 +99,7 @@ tarvita:tarvi v5 ;  !!≈ * **@CODE@**
 
 !! v6 paeta
 paeta:pake v6 ;  !!≈ * **@CODE@** 
+!!Check HMET2 ?? pakenemahmaan?
 
 
 !!  Then comes the long list
@@ -5452,7 +5453,7 @@ hörhäyttää:hörhäyttä v1 ;
 pisthäyttää:pisthäyttä v1 ;
 levhäyttää:levhäyttä v1 ;
 färjäyttää:färjäyttä v1 ;
-käyttää:käyttä v1 ;
+!käyttää:käyttä v1 ;
 läikkäyttää:läikkäyttä v1 ;
 mäskäyttää:mäskäyttä v1 ;
 kyyläyttää:kyyläyttä v1 ;

@@ -35,6 +35,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
 +V+InfMa:ole 3infcase ;
++V+InfMa+Ill:olee^HMET2%>mh^A^An K ; ! also hm if short preceeding vow
 +V+Der+Der/minen:ole#mis nen ;
 
 +V+Act+Ind+Prs+Sg1:olen K ;
@@ -102,7 +103,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
 +V+InfMa: 3infcase ; 
-+V+InfMa+Ill:a^HMET2%>mh^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:%>^HMET2mh^A^An K ; ! also hm but first just for two-syll (position 4); antahmaan
 
 +V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
@@ -162,7 +163,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
 +V+InfMa:%>^A 3infcase ;
-+V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ; ! also hm
 
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
 
@@ -234,7 +235,7 @@ LEXICON SYA  !!≈ * **@CODE@** syä, myä
 +V+InfE+Ine:ö%>ess^A K ;
 :ö v3_other ;
 :ö v3_inf ;
-+V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm if short preceeding vow
+!+V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
 
 LEXICON JUA  !!≈ * **@CODE@**
 +V+Inf:%>a KK ;
@@ -245,7 +246,7 @@ LEXICON JUA  !!≈ * **@CODE@**
 +V+InfE+Ine:%>jess^A K ;
 :o v3_other ;
 :o v3_inf ;
-+V+InfMa+Ill:om^HMET2%>h^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:om^HMET2%>h^A^An K ; ! also hm 
 
 
 LEXICON v3_j  !!≈ * **@CODE@**
@@ -255,7 +256,7 @@ LEXICON v3_j  !!≈ * **@CODE@**
 +V+InfE+Ine:%>jess^A K ;
 v3_other ;
 v3_inf ;
-+V+InfMa+Ill:h%>m^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:h%>m^A^An K ; ! also hm 
 
 LEXICON v3  !!≈ * **@CODE@**
 v3_inf ;
@@ -263,6 +264,7 @@ v3_other ;
 
 LEXICON v3_inf
 +V+InfMa: 3infcase ;
++V+InfMa+Ill:h%>m^A^An K ; ! also hm
 
 LEXICON v3_other
 +V+Pass+Ind+Prs:%^WG%>dh^A^An K ;
@@ -353,7 +355,7 @@ LEXICON v3kayda  !!≈ @CODE@ käyđä:kä from fkv
 +V+InfMa+Ade:y%>m^Al^A K ;
 +V+InfMa+Abe:y%>m^Att^A K ;
 !+V+InfMa:y%>m^A MATONodd ;
-+V+InfMa+Ill:ym^HMET2%>h^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:ym^HMET2%>h^A^An K ; ! also hm
 
 +V+Der+Der/minen+N:ymi xnen ;
 
@@ -455,7 +457,6 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
 +V+InfMa:e 3infcase ;
-+V+InfMa+Ill:a^HMET2%>mh^A^An K ; ! also hm if short preceeding vow
 
 +V+Pass+Ind+Prs:%>%^Nh^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
@@ -606,12 +607,12 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 
 LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi  
 +V+Inf:t%>^A KK ;
-+V+Inf+Tra:t%>^Akse PxK ;
-+V+InfE+Ins:t^A%>en K ;
-+V+InfE+Ine:t^A%>ess^A K ;
-+V+InfMa:tt^A 3infcase ;
++V+Inf+Tra:t^A%>kse PxK ;
++V+InfE+Ins:t%>^Aen K ;
++V+InfE+Ine:t%>^Aess^A K ;
++V+InfMa:%>tt^A 3infcase ;
 
-+V+Act+Ind+Prs+ConNeg:tt^A K ;
++V+Act+Ind+Prs+ConNeg:%>tt^A K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>t^A K ;
@@ -722,7 +723,6 @@ LEXICON 2cond !!≈ **@CODE@** kehitä:kehi
 
 LEXICON 3infcase
 +Ill:%>mh^A^An K ; ! 
-!+Ill:a^HMET2%>mh^A^An K ; ! also hm if short preceeding vow
 +Ine:%>m^Ass^A K ;
 +Ela:%>m^Ast^A K ;
 +Ade:%>m^All^A K ; ! TODO -la / -lla
