@@ -348,7 +348,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 !       [.#.|#] Cns:* Vow h _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
 !       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
-        Vow Vow  _ [l|m|n|r|v] Vow:  %^HMET2: ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
+        Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
                   Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een ?BEHÖVS?
                   Vow   l   _ [  m|n|r|v] Vow: %^HMET2: ; ! ilhmaa lm, lv, 
                   Vow   r   _ [  m|n  |v]     Vow: %^HMET2: ; ! 
@@ -517,7 +517,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
  Vow Vow :h Cns Vow: [%^HMETA:|%^HMET2:] %> _ ; ! puohleen TA BORT HMETA 
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: [%^HMETA: |%^HMET2:] ;
-  Vow Vow   :h [l|m|n|r|v] Vow: %^HMET2: %> _ ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
+  Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
   Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! puohleen, sauhnaan men vuotheen
   Vow   l   :h [  m|n|r|v] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
   Vow   r   :h [  m|n  |v] Vow: %^HMET2: %> _ ; ! 
