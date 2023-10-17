@@ -6,12 +6,11 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
-* v2 = huomata
+* v2 = huomata, tryykätä:tryykkä
 * v3 = syö'ä:syö ! ', ’
 * v4 = nousta; tulla:tul
 * v4_3la = varjela, varjelee
 * v4_4lla = ajatella, ajattellee
-* v2 = tryykätä:tryykkä
 * v5 = tarvita:tarv
 * v6 = paeta:pake
 * v_vanheta = vanheta
