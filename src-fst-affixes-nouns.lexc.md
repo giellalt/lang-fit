@@ -64,7 +64,7 @@ Consonant stems
 **LEXICON n1** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
 
-**LEXICON n1** for 2-syll ordinary nouns (*talo*)
+**LEXICON n1** for 2-syll ordinary nouns ending with -i; malmi, äiti
 * +N+Sg+Nom: PxK ; Px separate
 
 **LEXICON n1** for type n1-words ending with -i, pointing to sg, pl
