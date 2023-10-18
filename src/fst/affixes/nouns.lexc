@@ -121,7 +121,7 @@ LEXICON n1
  +N+Sg+Gen:^WG%>n R ;
 
  LEXICON n1_i
-!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
+!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti
  +N: x1_i ;
  +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
  +N+Nom: R ;

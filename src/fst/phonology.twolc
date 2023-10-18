@@ -333,33 +333,31 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 "Gemination 0:h"
 !! **RULE: @RULENAME@**
 0:h <=> [.#.|#] Cns:* Vow h _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-!     [.#.|#] Cns:* Vow h _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow (Vow) h _  :e (Dummy:) %> (h) :e ;
-!       [.#.|#] Cns:* Vow h _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow h _  :i (Dummy:) %> (h) :i \:i ;
-!       [.#.|#] Cns:* Vow h _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow h _ o   (Dummy:) %> (h) :o ;
-!       [.#.|#] Cns:* Vow h _ o:  %^HMETA: %>  h  :o :o ;
         [.#.|#] Cns:* Vow h _  :u (Dummy:) %> (h) :u ;
-!       [.#.|#] Cns:* Vow h _ u:  (Dummy:) %>  h  :u :u ;
         [.#.|#] Cns:* Vow h _  :y (Dummy:) %> (h) :y ;
-!       [.#.|#] Cns:* Vow h _ y:  (Dummy:) %>  h  :y :y ;
         [.#.|#] Cns:* Vow h _  :ä (Dummy:) %> (h) :ä ;
-!       [.#.|#] Cns:* Vow h _ ä:  (Dummy:) %>  h  :ä :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
-!       [.#.|#] Cns:* Vow h _ ö:  (Dummy:) %>  h  :ö :ö ;
-        Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
-                  Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een ?BEHÖVS?
-                  Vow   l   _ [  m|n|r|v] Vow: %^HMET2: ; ! ilhmaa lm, lv, 
-                  Vow   r   _ [  m|n  |v]     Vow: %^HMET2: ; ! 
-                  Vow   n   _  l          Vow: %^HMET2: ; ! puohleen men vuotheen
-                  Vow   m   _  n          Vow: %^HMET2: ; ! puohleen men vuotheen       
-        [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;   !TEST anta>mhaan blir anta>hmaan
-      [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; ! TEST elämä, elämhään/elähmään
+                  Vow Vow   _ [l|m|n|r|v] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een !CHECK needed?
+        !Rules for metathesis type two, position 1 in Kuoppa
+                  Vow   l   _ [j|  m|n|r|v] Vow: %^HMET2: ; ! ilhmaa lm, lv, 
+                  Vow   r   _ [j|  m|n  |v] Vow: %^HMET2: ; ! varhmaan, Norhjaan
+                  Vow   n   _ l          Vow: %^HMET2: ; ! 
+                  Vow   m   _ n          Vow: %^HMET2: ; !        
+        !Rules for metathesis type two, position 2 in Kuoppa
+                [.#.|#] (Cns) Vow Vow _ [l|m|n|r|v] Vow: %^HMET2: %> h: ; ! puohleen, sauhnaan
+                [.#.|#] (Cns) Vow VowNotI _ j Vow: %^HMET2: %> h: ; ! luohjaan
+        !Rules for methatesis type two, position 3 in Kuoppa
+                Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !aikoihnaan, saarnaahmaan (OBS ändra obet stavelse m två vokaler>udda)
+        !Rules for metathesis type two, position 4
+                [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;   !TEST anta>mhaan blir anta>hmaan
+                [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; ! TEST elämä, elämhään/elähmään
+
+
 
 !uit-mac-443:lang-fit ttr000$ cat misc/freebound.list |grep '^.m[lnrv][aeiouyäö]$'|cut -c2,3|sort|uniq
-
-
 
 "Gemination 0:j"
 !! **RULE: @RULENAME@**
@@ -514,17 +512,22 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 "h:0"
 !! **RULE: @RULENAME@**
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
- Vow Vow :h Cns Vow: [%^HMETA:|%^HMET2:] %> _ ; ! puohleen TA BORT HMETA 
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
-                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ;
-  Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !puohleen,aikoihnaan (efter stavelse m huvudbetoning & lång vokal/diftong SAMT efter obetonad stavelse m två vokaler)
-  Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! puohleen, sauhnaan men vuotheen
-  Vow   l   :h [  m|n|r|v] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
-  Vow   r   :h [  m|n  |v] Vow: %^HMET2: %> _ ; ! 
-  Vow   n   :h  l          Vow: %^HMET2: %> _ ; ! 
-  Vow   m   :h  n          Vow: %^HMET2: %> _ ; ! 
-  [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>mhaan blir anta>hmaan, kasvaa>kasvahmaan/kasvamhaan 
-  [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; ! TEST elämä, elämhään/elähmään
+                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ; !CHECK
+  Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! BEHÖVS?
+!Rules for metathesis type two, position 1 in Kuoppa
+        Vow   l   :h [j|  m|n|r|v] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
+        Vow   r   :h [j|  m|n  |v] Vow: %^HMET2: %> _ ; ! Norhjaan
+        Vow   n   :h  l          Vow: %^HMET2: %> _ ; ! 
+        Vow   m   :h  n          Vow: %^HMET2: %> _ ; ! 
+!Rules for metathesis type two, position 2
+        [.#.|#] (Cns) Vow Vow :h [l|m|n|r|v] Vow: %^HMET2: %> _ ; ! puohleen, sauhnaan
+        [.#.|#] (Cns) Vow VowNotI :h j Vow: %^HMET2: %> _ ; ! luohjaan
+!Rules for metathesis type two, position 3
+        Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !aikoihnaan (Pos 3; efter obetonad stavelse m två vokaler)
+!Rules for metathesis type two, position 4?
+        [.#.|#] (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>mhaan blir anta>hmaan, kasvaa>kasvahmaan/kasvamhaan 
+        [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; ! TEST elämä, elämhään/elähmään
 
 !!€ rasta^HMETA>h^Vn
 
@@ -877,9 +880,9 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-        [Cns:*|.#.|#]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhoin !CHECK endast för tvåstaviga?
-        [.#.|#|Cns:]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !kernas>kernhoin/kerhnoin !CHECK endast för tvåstaviga?
-        [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plur 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakhoin)
+        [.#.|#|Cns]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhoin 
+        [.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !kernas>kernhoin/kerhnoin
+        [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plural 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakhoin)
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
 !! **Tests:**
