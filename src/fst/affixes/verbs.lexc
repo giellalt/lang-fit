@@ -561,7 +561,14 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
-+V+InfMa:e 3infcase ;
+!+V+InfMa:e 3infcase ;
++V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
++V+InfMa+Ill:ee^HMET2%>mh^A^An K; !TEST
++V+InfMa+Ine:e%>m^Ass^A K ;
++V+InfMa+Ela:e%>m^Ast^A K ;
++V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
++V+InfMa+Abe:e%>m^Att^A K ;
+
 
 +V+Pass+Ind+Prs:%>%^Nh^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
