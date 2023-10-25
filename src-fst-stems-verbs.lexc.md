@@ -20,8 +20,9 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **vx** = unassigned
 
 ### Continuation lexica for irregular verbs
-* **v_tehha**
-* **v_nahha**
+* **v3tehha**
+* **v3nahha**
+* **v3nkaya**
 * **OLLA**
 * **NEG**
 * **JUA**
@@ -49,10 +50,10 @@ v3 syödä, juoda
 * **syä:sy SYA ;** 
 * **jua:ju JUA ;** 
 
-* **tehä:te v3tehda ;** 
-* **tehhä:te v3tehda ;** 
-* **käyä:kä v3kayda ;**  
-* **nähhä:nä v3nahda ;** 
+* **tehä:te v3tehha ;** 
+* **tehhä:te v3tehha ;** 
+* **käyä:kä v3kaya ;**  
+* **nähhä:nä v3nahha ;** 
 
 v4 tulla, mennä
 * **tulla:tul v4 ;** 

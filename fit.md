@@ -1688,8 +1688,9 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * vx = unassigned
 
 ### Overview over the Irregular verbs
-* v_tehha
-* v_nahha
+* v3tehha
+* v3nahha
+* v3kaya
 
 ## The verb lexica themselves
 
@@ -1715,11 +1716,11 @@ Regular verbs
 
 * **LEXICON v3**
 
-LEXICON v3kayda käyđä:kä from fkv
+LEXICON v3kaya käyđä:kä from fkv
 
-LEXICON v3nahda nähđä:nä = from fkv
+LEXICON v3nahha nähđä:nä = from fkv
 
-LEXICON v3tehda tehđä:te from fkv
+LEXICON v3tehha tehđä:te from fkv
 
 * **LEXICON v4**
 
@@ -3345,8 +3346,9 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **vx** = unassigned
 
 ### Continuation lexica for irregular verbs
-* **v_tehha**
-* **v_nahha**
+* **v3tehha**
+* **v3nahha**
+* **v3nkaya**
 * **OLLA**
 * **NEG**
 * **JUA**
@@ -3374,10 +3376,10 @@ v3 syödä, juoda
 * **syä:sy SYA ;** 
 * **jua:ju JUA ;** 
 
-* **tehä:te v3tehda ;** 
-* **tehhä:te v3tehda ;** 
-* **käyä:kä v3kayda ;**  
-* **nähhä:nä v3nahda ;** 
+* **tehä:te v3tehha ;** 
+* **tehhä:te v3tehha ;** 
+* **käyä:kä v3kaya ;**  
+* **nähhä:nä v3nahha ;** 
 
 v4 tulla, mennä
 * **tulla:tul v4 ;** 
