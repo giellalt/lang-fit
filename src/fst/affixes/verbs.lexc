@@ -18,8 +18,9 @@
 !!  * vx = unassigned
 
 !! ### Overview over the Irregular verbs
-!!  * v_tehha
-!!  * v_nahha
+!!  * v3tehha
+!!  * v3nahha
+!!  * v3kaya
 
 !! ## The verb lexica themselves
 
@@ -166,7 +167,11 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
-+V+InfMa:%>^A 3infcase ;
++V+InfMa+Ill:%>^Amh^A^An K ; ! 
++V+InfMa+Ine:%>^Am^Ass^A K ;
++V+InfMa+Ela:%>^Am^Ast^A K ;
++V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
++V+InfMa+Abe:%>^Am^Att^A K ;
 +V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ; ! also hm !lagt till stavelsegräns för ^A-funktion
 
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
@@ -316,7 +321,7 @@ LEXICON v3_other
 +V+Der+Der/minen+N:mi xnen ;
 
 
-LEXICON v3kayda  !!≈ @CODE@ käyđä:kä from fkv
+LEXICON v3kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Inf:y%>^A KK ; ! đ
 +V+Inf+Tra:y%>^Akse PxK ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
@@ -364,7 +369,7 @@ LEXICON v3kayda  !!≈ @CODE@ käyđä:kä from fkv
 +V+Der+Der/minen+N:ymi xnen ;
 
 
-LEXICON v3nahda !!≈ @CODE@ nähđä:nä = from fkv
+LEXICON v3nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Inf:h%>h^A KK ; ! đ
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>h^A K ; ! d
@@ -409,7 +414,7 @@ LEXICON v3nahda !!≈ @CODE@ nähđä:nä = from fkv
 +V+Der+Der/minen+N:kke xnen ;
 
 
-LEXICON v3tehda !!≈ @CODE@ tehđä:te from fkv
+LEXICON v3tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Inf:h%>h^A KK ; ! xxx
 +V+Inf:h%>^A KK ;  ! xxx 
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
@@ -460,7 +465,13 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
-+V+InfMa:e 3infcase ;
+!+V+InfMa:e 3infcase ;
++V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
++V+InfMa+Ine:e%>m^Ass^A K ;
++V+InfMa+Ela:e%>m^Ast^A K ;
++V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
++V+InfMa+Abe:e%>m^Att^A K ;
++V+InfMa+Ill:ee%^HMET2%>mh^A^An K ;
 
 +V+Pass+Ind+Prs:%>%^Nh^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
