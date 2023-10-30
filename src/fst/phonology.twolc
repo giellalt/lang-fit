@@ -352,8 +352,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
         !Rules for methatesis type two, position 3 in Kuoppa (efter obet syll m Vow Vow)
                 Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !aikoihnaan, saarnaahmaan (OBS ändra obet stavelse m två vokaler>udda)
         !Rules for metathesis type two, position 4 (efter kort bet syll + kort obet syll)
-                [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ; !TEST anta>mhaan blir anta>hmaan
-                [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; ! TEST elämä, elämhään/elähmään
+                [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämä, elämhään/elähmään
+                [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;!verbs; anta>mhaan blir anta>hmaan
 
 
 
@@ -526,8 +526,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !Rules for metathesis type two, position 3 (efter obet syll m Vow Vow)
         Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !aikoihnaan (Pos 3; efter obetonad stavelse m två vokaler)
 !Rules for metathesis type two, position 4 (efter kort bet syll + kort obet syll)
-        [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (Vow:) (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; ! TEST anta>hmaan, kasva>hmaan, neuvotele>hmaan 
-        [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; ! TEST elämä, elämhään/elähmään
+        [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään
+        [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; !Verbs; anta>hmaan, kasva>hmaan, neuvotele>hmaan 
 
 !!€ rasta^HMETA>h^Vn
 
