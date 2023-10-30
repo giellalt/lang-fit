@@ -573,8 +573,8 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
 !+V+InfMa:e 3infcase ;
-+V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
-+V+InfMa+Ill:ee^HMET2%>mh^A^An K; !TEST
++V+InfMa+Ill:e%>%^HMET2mh^A^An K ; ! 
++V+InfMa+Ill:e%>mh^A^An K ; 
 +V+InfMa+Ine:e%>m^Ass^A K ;
 +V+InfMa+Ela:e%>m^Ast^A K ;
 +V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
