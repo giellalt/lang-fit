@@ -948,7 +948,7 @@ LEXICON n_ien_pl
 
 
 
-LEXICON n_uus
+LEXICON n_uus  !vajavuus
 !! **LEXICON @LEXNAME@**
  +N+Sg+Nom:s     R ;
  +N+Sg+Gen:e%>n R ;
@@ -978,7 +978,7 @@ LEXICON n_uus
  +N+Pl+Tra:ks TRA ;
  +N+Pl+Ess:ks%>i2n^A PxK ;
 
-LEXICON n_uus_odd ! for odd syllabel-words: äärettömyyele 
+LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuelle pga lång vokal men) suuruuksille 
 !! **LEXICON @LEXNAME@**
  +N+Sg+Nom:s     R ;
  +N+Sg+Gen:e%>n R ;

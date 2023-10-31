@@ -527,7 +527,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         [.#.|#] (Cns) Vow VowNotI :h j Vow: %^HMET2: %> _ ; ! luohjaan
 !Rules for metathesis type two, position 3 (efter obet syll m Vow Vow)
         Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !aikoihnaan (efter syll utan huvudbetoning & Vow Vow)
-!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
+!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten syll; pe-sem-hään, ju-te-lem-haan)
         ![.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään GER ÄVEN antahmaan
         [.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään
         [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; !Verbs; neuvotele>hmaan, tulehmaan, olehmaan  

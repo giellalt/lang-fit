@@ -20,9 +20,9 @@
 !!  * **vx** = unassigned
 
 !! ### Continuation lexica for irregular verbs
-!!  * **v3tehha**
-!!  * **v3nahha**
-!!  * **v3nkaya**
+!!  * **v3_tehha**
+!!  * **v3_nahha**
+!!  * **v3_kaya**
 !!  * **OLLA**
 !!  * **NEG**
 !!  * **JUA**
@@ -84,10 +84,10 @@ laiminlyä:laimin#ly SYA ;
 uloslyä:ulos#ly SYA ;
 
 
-tehä:te v3tehha ;  !!≈ * **@CODE@** 
-tehhä:te v3tehha ;  !!≈ * **@CODE@** 
-käyä:kä v3kaya ;  !!≈ * **@CODE@**  
-nähhä:nä v3nahha ;  !!≈ * **@CODE@** 
+tehä:te v3_tehha ;  !!≈ * **@CODE@** 
+tehhä:te v3_tehha ;  !!≈ * **@CODE@** 
+käyä:kä v3_kaya ;  !!≈ * **@CODE@**  
+nähhä:nä v3_nahha ;  !!≈ * **@CODE@** 
 
 !! v4 tulla, mennä
 tulla:tul v4 ;  !!≈ * **@CODE@** 

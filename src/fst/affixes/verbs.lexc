@@ -8,7 +8,8 @@
 !! ### Overview over the Regular verbs
 !!  * v1 = antaa; sanoa:sano
 !!  * v2 = huomata, tryykätä:tryykkä
-!!  * v3 = syö'ä:syö ! ', ’
+!!  * v3 = myyta:myy
+!!  * v3_j = viejä, saaja
 !!  * v4 = nousta; tulla:tul
 !!  * v4_3la = varjela, varjelee
 !!  * v4_4lla = ajatella, ajattellee
@@ -18,9 +19,9 @@
 !!  * vx = unassigned
 
 !! ### Overview over the Irregular verbs
-!!  * v3tehha
-!!  * v3nahha
-!!  * v3kaya
+!!  * v3_kaya = käyä:kä
+!!  * v3_nahha = nähhä:nä
+!!  * v3_tehha = tehhä:te
 
 !! ## The verb lexica themselves
 
@@ -172,7 +173,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+InfMa+Ela:%>^Am^Ast^A K ;
 +V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:%>^Am^Att^A K ;
-+V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ; ! also hm !lagt till stavelsegräns för ^A-funktion
++V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ; 
 
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
 
@@ -244,7 +245,7 @@ LEXICON SYA  !!≈ * **@CODE@** syä, myä
 +V+InfE+Ine:ö%>ess^A K ;
 :ö v3_other ;
 :ö v3_inf ;
-!+V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
++V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
 
 LEXICON JUA  !!≈ * **@CODE@**
 +V+Inf:%>a KK ;
@@ -273,7 +274,7 @@ v3_other ;
 
 LEXICON v3_inf
 +V+InfMa: 3infcase ;
-+V+InfMa+Ill:h%>m^A^An K ; ! also hm
+!+V+InfMa+Ill:h%>m^A^An K ; ! also hm
 
 LEXICON v3_other
 +V+Pass+Ind+Prs:%^WG%>dh^A^An K ;
@@ -321,7 +322,7 @@ LEXICON v3_other
 +V+Der+Der/minen+N:mi xnen ;
 
 
-LEXICON v3kaya  !!≈ @CODE@ käyđä:kä from fkv
+LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Inf:y%>^A KK ; ! đ
 +V+Inf+Tra:y%>^Akse PxK ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
@@ -369,7 +370,7 @@ LEXICON v3kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Der+Der/minen+N:ymi xnen ;
 
 
-LEXICON v3nahha !!≈ @CODE@ nähđä:nä = from fkv
+LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Inf:h%>h^A KK ; ! đ
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>h^A K ; ! d
@@ -414,7 +415,7 @@ LEXICON v3nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Der+Der/minen+N:kke xnen ;
 
 
-LEXICON v3tehha !!≈ @CODE@ tehđä:te from fkv
+LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Inf:h%>h^A KK ; ! xxx
 +V+Inf:h%>^A KK ;  ! xxx 
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
@@ -469,7 +470,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:e%>m^Ass^A K ;
 +V+InfMa+Ela:e%>m^Ast^A K ;
-+V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
++V+InfMa+Ade:e%>m^All^A K ; 
 +V+InfMa+Abe:e%>m^Att^A K ;
 +V+InfMa+Ill:e%>%^HMET2mh^A^An K ;
 
@@ -572,7 +573,6 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
-!+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>%^HMET2mh^A^An K ; ! 
 +V+InfMa+Ill:e%>mh^A^An K ; 
 +V+InfMa+Ine:e%>m^Ass^A K ;
