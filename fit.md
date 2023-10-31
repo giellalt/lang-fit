@@ -1678,7 +1678,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
 * v2 = huomata, tryykätä:tryykkä
-* v3 = syö'ä:syö ! ', ’
+* v3 = myyta:myy
+* v3_j = viejä, saaja
 * v4 = nousta; tulla:tul
 * v4_3la = varjela, varjelee
 * v4_4lla = ajatella, ajattellee
@@ -1688,9 +1689,9 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * vx = unassigned
 
 ### Overview over the Irregular verbs
-* v3tehha
-* v3nahha
-* v3kaya
+* v3_kaya = käyä:kä
+* v3_nahha = nähhä:nä
+* v3_tehha = tehhä:te
 
 ## The verb lexica themselves
 
@@ -1716,11 +1717,11 @@ Regular verbs
 
 * **LEXICON v3**
 
-LEXICON v3kaya käyđä:kä from fkv
+LEXICON v3_kaya käyđä:kä from fkv
 
-LEXICON v3nahha nähđä:nä = from fkv
+LEXICON v3_nahha nähđä:nä = from fkv
 
-LEXICON v3tehha tehđä:te from fkv
+LEXICON v3_tehha tehđä:te from fkv
 
 * **LEXICON v4**
 
@@ -3346,9 +3347,9 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **vx** = unassigned
 
 ### Continuation lexica for irregular verbs
-* **v3tehha**
-* **v3nahha**
-* **v3nkaya**
+* **v3_tehha**
+* **v3_nahha**
+* **v3_kaya**
 * **OLLA**
 * **NEG**
 * **JUA**
@@ -3376,10 +3377,10 @@ v3 syödä, juoda
 * **syä:sy SYA ;** 
 * **jua:ju JUA ;** 
 
-* **tehä:te v3tehha ;** 
-* **tehhä:te v3tehha ;** 
-* **käyä:kä v3kaya ;**  
-* **nähhä:nä v3nahha ;** 
+* **tehä:te v3_tehha ;** 
+* **tehhä:te v3_tehha ;** 
+* **käyä:kä v3_kaya ;**  
+* **nähhä:nä v3_nahha ;** 
 
 v4 tulla, mennä
 * **tulla:tul v4 ;** 
