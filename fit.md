@@ -1725,6 +1725,8 @@ LEXICON v3_tehha tehđä:te from fkv
 
 * **LEXICON v4**
 
+* **LEXICON v4_julkasta**
+
 * **LEXICON v4_3la** varjela:varjel
 
 * **LEXICON v4_4lla**
