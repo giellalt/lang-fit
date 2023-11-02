@@ -266,7 +266,7 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t:l"  
 !! **RULE: @RULENAME@** for lt:ll
-t:l <=> Vow:+ l _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
+t:l <=> Vow:+ l (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 !! **Tests:**
 
@@ -352,8 +352,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
         !Rules for methatesis type two, position 3 in Kuoppa (efter syll utan huvudbetoning & Vow Vow)
                 Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !aikoihnaan, saarnaahmaan 
         !Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
-                ![.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämä, elämhään/elähmään GER ÄVEN antahmaan
-                [.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämä, elämhään/elähmään 
+                [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämä, elämhään/elähmään GER ÄVEN antahmaan
+                ![.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämä, elämhään/elähmään UTAN antahmaan
                 [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;!verbs; tulehmaan, neuvottelehmaan
 
 
@@ -528,8 +528,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !Rules for metathesis type two, position 3 (efter obet syll m Vow Vow)
         Vow (%>) Vow   :h [l|m|n|r|v] (Vow:) %^HMET2: %> _ ; !aikoihnaan (efter syll utan huvudbetoning & Vow Vow)
 !Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten syll; pe-sem-hään, ju-te-lem-haan)
-        ![.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään GER ÄVEN antahmaan
-        [.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään
+        [.#.|#] (Cns) Vow Cns (Cns) Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään GER ÄVEN antahmaan
+        ![.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään UTAn antahmaan
         [.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; !Verbs; neuvotele>hmaan, tulehmaan, olehmaan  
 
 !!€ rasta^HMETA>h^Vn

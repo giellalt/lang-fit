@@ -13,7 +13,7 @@
 +V+Act+Ind+Prt+Pl2
 +V+Act+Ind+Prt+Pl3
 +V+InfE+Ine
-+V+InfE+Tra
++V+InfE+Ins
 +V+InfMa+Ill
 +V+InfMa+Ine
 +V+InfMa+Ela
