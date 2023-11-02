@@ -464,8 +464,9 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 LEXICON v4  !!≈ * **@CODE@**
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
-+V+InfE+Ins:en K ;
-+V+InfE+Ine:e%>ss^A K ;
++V+InfE+Ins:%>^Nen K ; !tullen
++V+InfE+Ine:%>^Ness^A K ; !tullessa, mennässä MEN noustessa?? ACT
++V+InfE+Ine:%>t^Ae%>ss^A K ; !CHECK! PASS
 !+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:e%>m^Ass^A K ;
@@ -512,7 +513,8 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Act+Ind+Prt+Pl1:%>i3m^A K ;
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
-
++V+Act+Ind+Prt+Pl3:%>iv^A K ;
+!+V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK GEO
 +V+Act+Cond:%>i4s 2cond ;
 
 +V+Der+Der/minen+N:emi xnen ;
@@ -521,8 +523,8 @@ LEXICON v4_julkasta  !!≈ * **@CODE@**
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:ten K ;
-+V+InfE+Ine:te%>ss^A K ;
-!V+Pass+InfE+Ine:tae%>ss^A K ; !CHECK!
++V+InfE+Ine:te%>ss^A K ; !CHECK! ACT
++V+InfE+Ine:tae%>ss^A K ; !CHECK! PASS
 !+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:e%>m^Ass^A K ;
@@ -570,7 +572,7 @@ LEXICON v4_julkasta  !!≈ * **@CODE@**
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 +V+Act+Ind+Prt+Pl3:%>iv^A K ;
-!+V+Act+Ind+Prt+Pl3:%>thiin K ; !GEO
+!+V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK! GEO
 
 +V+Act+Cond:%>i4s 2cond ;
 
