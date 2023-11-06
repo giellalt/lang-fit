@@ -286,7 +286,6 @@ There is also a rule **j:0** avoiding a *lji* sequence.
 **RULE: Alveolar assimilation for consonant stem r**
 
 **RULE: Alveolar assimilation for consonant stem s in infinitives**
-
 **Tests:**
 
 * *häris>^N^A*
