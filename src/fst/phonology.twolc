@@ -631,8 +631,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 
 "Alveolar assimilation for consonant stem s in infinitives"
 !! **RULE: @RULENAME@**
-%^N:t <=> s %> _ [%^A:|%^U: [.#.|%>]] ; ! kusta, pestä, kustu, pesty
-
+!%^N:t <=> s %> _ [%^A:|%^U: [.#.|%>]|| e [s s|n]] ; ! noustessa, nousten, kusta, pestä, kustu, pesty
+%^N:t <=> s %> _ [%^A:| e [s s|n]] ; ! noustessa, nousten, kusta, pestä, nousta
 !! **Tests:**
 
 !!€ häris>^N^A
@@ -640,8 +640,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 
 "Alveolar assimilation for consonant stem s in participles"
 !! **RULE: @RULENAME@**
-%^N:s <=> s %> _ %^U: t ; ! kussut, pessyt
-          s %> _ e ;      ! kusseet (?)
+%^N:s <=> s %> _ %^U: (t) ; ! kussut, pessyt
+ !         s %> _ e ;      ! kusseet (?)
 
 	  
 "j:0 in front of i"

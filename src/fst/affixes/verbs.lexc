@@ -465,7 +465,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:%>^Nen K ; !tullen
-+V+InfE+Ine:%>^Ness^A K ; !tullessa, mennässä MEN noustessa?? ACT
++V+InfE+Ine:%>^Ness^A K ; !tullessa, mennässä MEN noustessa ACT
 +V+InfE+Ine:%>t^Ae%>ss^A K ; !CHECK! PASS
 !+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
@@ -480,11 +480,11 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !noussu! menny etc
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>hee x3_obli ;
 !+V+Pass+PrfPrc:%>t^U x3_oblique ;
-+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
++V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !noustu, menty 
 +V+Pass+PrfPrc+Pl+Nom:%>t^U^WG%>t K ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
@@ -514,7 +514,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 +V+Act+Ind+Prt+Pl3:%>iv^A K ;
-!+V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK GEO
++V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK GEO
 +V+Act+Cond:%>i4s 2cond ;
 
 +V+Der+Der/minen+N:emi xnen ;
@@ -572,7 +572,7 @@ LEXICON v4_julkasta  !!≈ * **@CODE@**
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 +V+Act+Ind+Prt+Pl3:%>iv^A K ;
-!+V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK! GEO
++V+Act+Ind+Prt+Pl3:%>thiin K ; !CHECK! GEO
 
 +V+Act+Cond:%>i4s 2cond ;
 
