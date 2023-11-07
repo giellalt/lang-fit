@@ -36,8 +36,7 @@
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen, sisar (bara -n/-r?) (2syll) 
 !! * 30n_lnr = sammal, askel, tanner (like 3n_lnr except Gen Ill Ine Ess) (2syll) (bara -l?)
-!! * nas = stam VVs; ankerias - ankerihaala
-!! * odd_nas = odd-syllabic nas-types; taivas - taihvaale
+!! * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 !! * 3mies = mies
 
 
@@ -1835,12 +1834,12 @@ peukalonhanka:peukalonhanka nx ;
 vuolohanka:vuolohanka nx ;
 lippohanka:lippohanka nx ;
 perähanka:perähanka nx ;
-kangas:kanka odd_nas ;
-marjakangas:marja#kanka odd_nas ;
-villakangas:villa#kanka odd_nas ;
-puolikangas:puoli#kanka odd_nas ;
-pitokangas:pito#kanka odd_nas ;
-mäntykangas:mänty#kanka odd_nas ;
+kangas:kanka nas ;
+marjakangas:marja#kanka nas ;
+villakangas:villa#kanka nas ;
+puolikangas:puoli#kanka nas ;
+pitokangas:pito#kanka nas ;
+mäntykangas:mänty#kanka nas ;
 lanka:lanka nx ;
 paikkalanka:paikkalanka nx ;
 villalanka:villalanka nx ;
@@ -2568,7 +2567,7 @@ ihmisvoima:ihmisvoima nx ;
 työvoima:työvoima nx ;
 kalma:kalma nx ;
 kalmat:kalma n1_pl ;
-maitosalmas:maito#salma nas ;
+maitosalmas:maitosalma nas ;
 valma:valma nx ;
 valmat:valma n1_pl ;
 kurttavalma:kurttavalma nx ;
@@ -4327,10 +4326,10 @@ seililaiva:seili#laiva nx ;
 luusilaiva:luusilaiva nx ;
 lentolaiva:lentolaiva nx ;
 maiva:maiva nx ;
-taivas:taiva odd_nas ;
-ilmataivas:ilma#taiva odd_nas ;
-keskitaivas:keski#taiva odd_nas ;
-ihotaivas:iho#taiva odd_nas ;
+taivas:taiva nas ;
+ilmataivas:ilma#taiva nas ;
+keskitaivas:keski#taiva nas ;
+ihotaivas:iho#taiva nas ;
 pikkutaivas:pikku#taiva nas ;
 vaiva:vaiva nx ;
 vaivanen:vaiva 3nen ;

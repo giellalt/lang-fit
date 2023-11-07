@@ -350,7 +350,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 [.#.|#] (Cns) Vow Vow _ [l|m|n|r|v] Vow: %^HMET2: %> h: ; ! puohleen, sauhnaan
                 [.#.|#] (Cns) Vow VowNotI _ j Vow: %^HMET2: %> h: ; ! luohjaan
         !Rules for methatesis type two, position 3 in Kuoppa (efter syll utan huvudbetoning & Vow Vow)
-                Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: ; !aikoihnaan, saarnaahmaan 
+                Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
         !!Rules for metathesis type two, position 4-5 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
                 [.#.|#] (Cns) Vow Cns (Cns) Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämhään/elähmään CHECK öppna regeln som för verb?
                 (Cns) Vow+ Cns+ Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v] h: Vow Vow ;!verbs; tulehmaan, neuvottelehmaan
@@ -891,7 +891,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 %^V:o <=>            o:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-        [.#.|#|Cns]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ :i ; !saunhoin/saunhoin 
+        [.#.|#|Cns]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ i2: ; !saunhoin/saunhoin 
         [.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !kernas>kernhoin/kerhnoin
         [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plural 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakhoin)
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
