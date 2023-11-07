@@ -31,8 +31,7 @@ Consonant stems
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
-* nas = stam VVs; ankerias - ankerihaala
-* odd_nas = odd-syllabic nas-types; taivas - taihvaale
+* nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 * n_ien = ien
 ### Lexica for unassigned words
@@ -215,14 +214,6 @@ Consonant stems
 **LEXICON xnas_sg**
 
 **LEXICON xnas_pl**
-
-**LEXICON odd_nas**
-
-**LEXICON odd_xnas**
-
-**LEXICON odd_xnas_sg**
-
-**LEXICON odd_xnas_pl**
 
 **LEXICON 3mies**
 

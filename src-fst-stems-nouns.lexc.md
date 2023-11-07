@@ -36,8 +36,7 @@ Consonant stems
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen, sisar (bara -n/-r?) (2syll) 
 * 30n_lnr = sammal, askel, tanner (like 3n_lnr except Gen Ill Ine Ess) (2syll) (bara -l?)
-* nas = stam VVs; ankerias - ankerihaala
-* odd_nas = odd-syllabic nas-types; taivas - taihvaale
+* nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 
 # The lexica themselves
