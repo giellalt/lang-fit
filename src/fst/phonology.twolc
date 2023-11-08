@@ -873,7 +873,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a] ; ! sauhnaan
           a: [%^HMETA: | %^HMET2:] %> h:  :a _    ; ! sauhnaan
-          !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:     _ [:a|:i] ; !CHECK för vilka -a-ord så? 
+          UnroundedVowel (Vow) (:h) Cns:+  a: [%^HMETA: | %^HMET2:] %> h: _ [:a|:i] ; !CHECK taivas>taivhaan
           !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
           UnroundedVowel (Cns:+)  a           %> (h)    _ [n|t|s|l|%>|.#.] ; !TEST maahan
 
@@ -892,8 +892,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
                      o:  [%^HMETA:|%^HMET2:] %> h: :o _  ;
                       o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
         [.#.|#|Cns]  [a|e|i] (Vow:) (:h) Cns:* a:  [%^HMETA:|%^HMET2:] %> h:    _ i2: ; !saunhoin/saunhoin 
-        [.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !kernas>kernhoin/kerhnoin
-        [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !plural 3/flerstaviga nouns: a>o efter två Cns (almunakka>almunakhoin)
+        ![.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !CHECK för vad?
+        [#|.#.] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:) _ [:i|i2:] ; !Pl+Ill för >2-syll-nouns: a>o efter två Cns (almunakka>almunakhoin)
 ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ;
 
 !! **Tests:**
