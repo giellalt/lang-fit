@@ -158,7 +158,8 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 !! l rules
 "l:0"
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:] ;
-       (Vow) Vow (%^WG:) (%>) :Vow l _ [%^A:|e] ; !för att få ämmäkölle MEN ämmäköilä, ämmäköile etc !ändrat från i2:
+       (Vow) Vow: (%^WG:) (%>) :Vow l _ [%^A:|e] ; !för att få ämmäkölle MEN ämmäköilä, ämmäköile etc, hopeile
+!       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; !CHECK hopeale
 
 
 !! m rules
@@ -591,7 +592,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 "Gemination 0:v"
 !! **RULE: @RULENAME@**
 0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h)  :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow v _ a:  (Dummy:) %> (h) [:a|:i] [:a|:i] ;
+!        [.#.|#] Cns:* Vow v _ a:  (Dummy:) %> (h) [:a|:i] [:a|:i] ;
         [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) :e ;
 !        [.#.|#] Cns:* Vow v _ e:  (Dummy:) %>  h  :e :e ;
         [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) :i ;
@@ -670,7 +671,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@**
 a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> ;        ! before metathesis h
-    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns)         _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
+    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa TEST extravokal
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   ! ??? 
 

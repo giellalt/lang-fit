@@ -369,7 +369,7 @@ kaikuva:kaikuva ax ;
 liikkuva:liikkuva ax ;
 jatkuva:jatkuva ax ;
 heiluva:heiluva ax ;
-saipualletuoksuva:saipualle#tuoksuva ax ;
+saipualetuoksuva:saipuale#tuoksuva ax ; !CHECK
 ontuva:ontuva ax ;
 tuntuva:tuntuva ax ;
 kätheentuntuva:kätheen#tuntuva ax ;
