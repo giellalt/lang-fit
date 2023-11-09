@@ -34,13 +34,13 @@ Tests:
     ajos+N+Sg+Ill: ajoksheen
     äkäsyys+N+Sg+Ill: äkäsyytheen
     annos+N+Sg+Ill: annoksheen
-    ahmajäsen+N+Sg+Ill: ahmajäsenheen
-    ahven+N+Sg+Ill: ahvenheen
-    askel+N+Sg+Ill: askelheesheen
-    höyhen+N+Sg+Ill: höyhenheen
-    isosisar+N+Sg+Ill: isosisarheen
-    jääntanner+N+Sg+Ill: jääntanterheesheen
-    jalkatyär+N+Sg+Ill: [jalkatyttärheen, jalkatyttärheesheen]
+    ahmajäsen+N+Sg+Ill: [ahmajäsenheen, ahmajäsehneen]
+    ahven+N+Sg+Ill: [ahvenheen, ahvehneen]
+    askel+N+Sg+Ill: [askelheesheen, askehleesheen]
+    höyhen+N+Sg+Ill: [höyhenheen, höyhehneen]
+    isosisar+N+Sg+Ill: [isosisarheen, isosisahreen]
+    jääntanner+N+Sg+Ill: [jääntanterheesheen, jääntantehreesheen]
+    jalkatyär+N+Sg+Ill: [jalkatyttärheen, jalkatyttähreen, jalkatyttärheesheen, jalkatyttähreesheen]
     ahneus+N+Sg+Ill: ahneutheen
     falskeus+N+Sg+Ill: falskeutheen
 #    fariseeus+N+Sg+Ill: fariseeutheen # VetEj
@@ -83,7 +83,7 @@ Tests:
 #    akleija+N+Sg+Ill: akleihjaan # VetEj
     äkseerinki+N+Sg+Ill: äkseerinkhiin
     almunakka+N+Sg+Ill: almunakhaan # stark eller svag?
-    alttari+N+Sg+Ill: alttarhiin
+    alttari+N+Sg+Ill: [alttarhiin, alttahriin]
     # ämmäkkö+N+Sg+Ill: ämmäkhöön # stark eller svag?
     ammunta+N+Sg+Ill: ammunthaan
     ääri+N+Sg+Ill: [äähreen, äärheen]
@@ -121,11 +121,11 @@ Tests:
 #    apilas+N+Sg+Ill: apilhaan # VetEj
     asukas+N+Sg+Ill: asukhaasheen
     ehokas+N+Sg+Ill: ehokhaasheen
-    evankeeljum+N+Sg+Ill: evankeeljumhiin
+    evankeeljum+N+Sg+Ill: [evankeeljumhiin, evankeeljuhmiin]
     Antinpäivä+N+Sg+Ill: [Antinpäihvään, Antinpäivhään]
     Kruunu+N+Sg+Ill: [Kruuhnuun, Kruunhuun]
     Kyriiri+N+Sg+Ill: [Kyriihriin, Kyriirhiin]
-    Laurina+N+Sg+Ill: Laurinhaan
+    Laurina+N+Sg+Ill: [Laurinhaan, Laurihnaan]
     Mikkelinpäivä+N+Sg+Ill: [Mikkelinpäihvään, Mikkelinpäivhään]
     norrlänska+N+Sg+Ill: norrlänskhaan
     TV-masti+N+Sg+Ill: TV-masthiin

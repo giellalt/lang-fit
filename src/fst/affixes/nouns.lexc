@@ -876,7 +876,8 @@ LEXICON n_ien_sg
  +N+Sg+Gen:ne%>n PxK ;
  +N+Sg+Par:^WGn%>t^A PxK ;
  +N+Sg+Ill:n^HMETA%>heen PxK ;
- +N+Sg+Ill:n^HMET2%>heen PxK ;!ikehneen CHECK
+ +N+Sg+Ill:hneen PxK ;
+ !+N+Sg+Ill:n^HMET2%>heen PxK ;!ikehneen CHECK
  +N+Sg+Ine:ne%>ss^A PxK ;
  +N+Sg+Ela:ne%>st^A PxK ;
  +N+Sg+All:ne%>lle PxxK ;
@@ -886,24 +887,29 @@ LEXICON n_ien_sg
  +N+Sg+Ess:ne%>nn^A PxK ;
  +N+Sg+Tra:he TRA ;
 
-LEXICON n_ien_pl
+LEXICON n_ien_pl !FIX!!
  +N+Pl+Nom:ne%>t PxK ;
  +N+Pl+Nom:n^HMETA%>heet PxK ;
- +N+Pl+Nom:n^HMET2%>heet PxK ;
+ +N+Pl+Nom:h%>neet PxK ;
  +N+Pl+Gen:n%>ien PxK ;
  +N+Pl+Par:n%>i^A PxK ;
  +N+Pl+Ill:n^HMETA%>hiin PxK ;
- +N+Pl+Ill:n^HMET2%>hiin PxK ;
+ +N+Pl+Ill:hniin PxK ;
  +N+Pl+Ine:n%>hei2ss^A PxK ;
- +N+Pl+Ine:n^HMET2%>hei2ss^A PxK ;
+ +N+Pl+Ine:h%>nei2ss^A PxK ;
  +N+Pl+Ela:n%>hei2st^A PxK ;
+ +N+Pl+Ela:h%>nei2st^A PxK ;
  +N+Pl+All:n%>hei2le PxxK ;
+ +N+Pl+All:h%>nei2le PxxK ;
  +N+Pl+Ade:n%>hei2l^A PxK ;
+ +N+Pl+Ade:h%>nei2l^A PxK ;
  +N+Pl+Abl:n%>hei2lt^A PxK ;
+ +N+Pl+Abl:h%>nei2lt^A PxK ;
  +N+Pl+Abe:n%>hei2tt^A PxK ;
+ +N+Pl+Abe:h%>nei2tt^A PxK ;
  +N+Pl+Ess:n%>hei2nn^A PxK ;
+ +N+Pl+Ess:h%>nei2nn^A PxK ;
  +N+Pl+Tra:hei2 TRA ;
-
 
 
 LEXICON n_uus  !vajavuus
@@ -963,7 +969,7 @@ LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuelle pga lång vokal
  +N+Pl+Ade:ks%>i2ll^A PxK ;
  +N+Pl+Abl:ks%>i2lt^A PxK ;
  +N+Pl+Abe:ks%>i2tt^A PxK ;
- +N+Pl+Tra:ks TRA ;
+ +N+Pl+Tra: TRA ;
  +N+Pl+Ess:ks%>i2n^A PxK ;
 
  
@@ -974,6 +980,7 @@ LEXICON 3n_lnr
 +N+Sg+Gen:e%>n R ;
 +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Ill:%>hee n_PxK ;
+ +N+Sg+Ill:^HMET2%>hee n_PxK ;
  +N+Sg+Ine:%>ess^A PxK ;
  +N+Sg+Ess:%>en^A PxK ;
  3n_lnr_inteill ; 
@@ -981,11 +988,15 @@ LEXICON 3n_lnr
 LEXICON 30n_lnr
 !! **LEXICON @LEXNAME@** askel - askelheesheen
  +N+Sg+Gen:%>hee n_PxK ;
+ +N+Sg+Gen:^HMET2%>hee n_PxK ;
  +N+Sg+Gen:e%>n PxK ; !två genetivformer? askelen, askelheen
  !+N+Sg+Gen:^HMETA%>hee n_PxK ; askehleen? 
  +N+Sg+Ill:%>heeshee n_PxK ;
+ +N+Sg+Ill:^HMET2%>heeshee n_PxK ;
  +N+Sg+Ine:%>heess^A PxK ;
+ +N+Sg+Ine:^HMET2%>heess^A PxK ;
  +N+Sg+Ess:%>heen^A PxK ;
+ +N+Sg+Ess:^HMET2%>heen^A PxK ;
  3n_lnr_inteill ; 
 
 LEXICON TYÄR
@@ -998,7 +1009,9 @@ LEXICON 3xn_lnr
  +N+Sg+Gen:e%>n R ;
  +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Ill+Use/NG:%>heeshee n_PxK ;
+ +N+Sg+Ill+Use/NG:^HMET2%>heeshee n_PxK ;
  +N+Sg+Ill:%>hee n_PxK ;
+ +N+Sg+Ill:^HMET2%>hee n_PxK ;
  +N+Sg+Ine:%>ess^A PxK ;
  +N+Sg+Ess:%>en^A PxK ;
  3n_lnr_inteill ; 
@@ -1021,6 +1034,7 @@ LEXICON 3n_lnr_inteill
  +N+Pl+Gen:^WG%>ten PxK ;
  +N+Pl+Par:e%>it^A PxK ;
  +N+Pl+Ill:%>hii n_PxK ;
+ +N+Pl+Ill:^HMET2%>hii n_PxK ;
  +N+Pl+Ine:%>iss^A PxK ;
  +N+Pl+Ela:%>ist^A PxK ;
  +N+Pl+All:%>ille PxxK ;

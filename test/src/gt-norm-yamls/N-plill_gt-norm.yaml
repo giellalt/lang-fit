@@ -29,13 +29,13 @@ Tests:
     jäänhalkein+N+Pl+Ill: jäänhalkeimhiin
     jäsenyin+N+Pl+Ill: jäsenykimhiin
     polkimet+N+Pl+Ill: polkimhiin
-    ahmajäsen+N+Pl+Ill: ahmajäsenhiin
-    ahven+N+Pl+Ill: ahvenhiin
-    askel+N+Pl+Ill: askelhiin
-    höyhen+N+Pl+Ill: höyhenhiin
-    isosisar+N+Pl+Ill: isosisarhiin
-    jääntanner+N+Pl+Ill: jääntanterhiin
-    jalkatyär+N+Pl+Ill: jalkatyttärhiin
+    ahmajäsen+N+Pl+Ill: [ahmajäsenhiin, ahmajäsehniin]
+    ahven+N+Pl+Ill: [ahvenhiin, ahvehniin]
+    askel+N+Pl+Ill: [askelhiin, askehliin]
+    höyhen+N+Pl+Ill: [höyhenhiin, höyhehniin]
+    isosisar+N+Pl+Ill: [isosisarhiin, isosisahriin]
+    jääntanner+N+Pl+Ill: [jääntanterhiin, jääntantehriin]
+    jalkatyär+N+Pl+Ill: [jalkatyttärhiin, jalkatyttähriin]
     ahneus+N+Pl+Ill: ahneukshiin
     falskeus+N+Pl+Ill: falskeukshiin
     fariseeus+N+Pl+Ill: fariseeukshiin
@@ -77,7 +77,7 @@ Tests:
     alue+N+Pl+Ill: aluheishiin
     ikenheet+N+Pl+Ill: [ikenhiin, ikehniin]
     äkseerinki+N+Pl+Ill: äkseerinkhiin
-    alttari+N+Pl+Ill: alttarhiin
+    alttari+N+Pl+Ill: [alttarhiin, alttahriin]
     kamarit+N+Pl+Ill: [kamarhiin, kamahriin]
     ääri+N+Pl+Ill: [äähriin, äärhiin]
     äitiväki+N+Pl+Ill: äitiväkhiin
@@ -118,7 +118,7 @@ Tests:
     iänkaikkisuus+N+Pl+Ill: iänkaikkisuukshiin
     itusuus+N+Pl+Ill: itusuukshiin
     jatkuvuus+N+Pl+Ill: jatkuvuukshiin
-    evankeeljum+N+Pl+Ill: evankeeljumhiin
+    evankeeljum+N+Pl+Ill: [evankeeljumhiin, evankeeljuhmiin]
     lippanen+N+Pl+Ill: lippashiin
     Kyriiri+N+Pl+Ill: [Kyriihriin, Kyriirhiin]
     TV-masti+N+Pl+Ill: TV-masthiin

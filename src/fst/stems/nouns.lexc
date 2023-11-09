@@ -13913,7 +13913,7 @@ höpsötys:höpsöty 3n_ks ;
 hyöty:hyöty nx ;
 prööty:prööty nx ;
 levy:levy nx ;
-äänensävy:äänensävy nx ;
+äänensävy:äänen#sävy nx ;
 vävy:vävy nx ;
 lipeyys:lipeyy n_uus ;
 lyhhyys:lyhhyy n_uus_odd ;
