@@ -336,7 +336,9 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Inf:y%>^A KK ; ! đ
 +V+Inf+Tra:y%>^Akse PxK ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
-+V+InfE:y%>en K ;
+!+V+InfE:y%>en K ; !CHECK vad är detta?
++V+InfE+Ine:y%>ess^A K ; 
++V+InfE+Ins:y%>en K ; 
 
 +V+Act+Ind+Prs:y^WG v12pers_short ;
 +V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
@@ -354,7 +356,8 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Pass+Ind+Prt:y%>thiin K ; 
 
 +V+Act+PrfPrc+Sg+Nom:y%>^N^U K ;
-+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
++V+Act+PrfPrc+Pl+Nom:y%>^N^Ut K ;
+!+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
 +V+Act+PrsPrc:yp%>^A x3 ;
 +V+Pass+PrfPrc+Pl+Nom:y%>n^U%>t K ; 
 +V+Pass+PrfPrc+Sg+Nom:y%>t^U K ;
