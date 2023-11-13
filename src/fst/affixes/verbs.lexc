@@ -64,7 +64,11 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+PrfPrc:olhee ptc_obl ;
 +V+Act+Ind+Prt+ConNeg+Sg:ollu K ;
 +V+Pass+PrfPrc+Sg+Nom:oltu K ;
++V+Pass+PrfPrc+Pl+Nom:ollut K ;
++V+Pass+PrsPrc+Sg+Nom:oltava K ;
++V+Pass+PrsPrc+Pl+Nom:oltavat K ; 
 +V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
++V+Pass+Cond:olisi K ;
 +V+Act+PrsPrc+Der+Der/A+A:olleeva x3 ;
 +V+Pass+PrsPrc+Der+Der/A+A:oltava x3 ;
 +V+Act+Ind+Prs+ConNeg:ole K ;
@@ -123,7 +127,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 
 +V+Act+PrsPrc:%>v^A x3 ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc:%>^Nhee x3_oblique ;
++V+Act+PrfPrc:%>^Nhee x3_oblique ; 
++V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 
 +V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
 +V+Pass+PrfPrc:%>thee x3_oblique ;
@@ -182,8 +187,12 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc:%>hnee ptc_obl ;
++V+Act+PrfPrc:%>nhee ptc_obl ;
++V+Act+PrfPrc+Pl+Nom:n^HMET2%>heet K ;
 +V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
++V+Pass+PrfPrc+Pl+Nom:t%>t^Ut K ;
++V+Pass+PrsPrc+Sg+Nom:n%>n^Ut K ;
++V+Pass+PrsPrc+Pl+Nom:n%>neet K ;
 +V+Pass+Cond:%>i4si K ;
 
 +V+Imprt+Sg2:^WG # ;
@@ -285,6 +294,7 @@ LEXICON v3_other
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>h^Nee x3_oblique ;
++V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Pass+PrfPrc:%>thvee x3_oblique ;
 
 +V+Act+PrsPrc:%>v^A x3 ;
