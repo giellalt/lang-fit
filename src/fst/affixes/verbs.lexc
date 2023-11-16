@@ -387,7 +387,8 @@ LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Inf:h%>h^A KK ; ! đ
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>h^A K ; ! d
-+V+InfE:h%>hen K ;
++V+InfE+Ins:h%>hen K ;
++V+InfE+Ine:h%>hess^A K ;
 
 +V+Act+Ind+Prs:e^WG v12pers_short ;
 +V+Act+Ind+Prs+Err/Orth:je^WG v12pers_short ;
@@ -405,6 +406,7 @@ LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ;
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
++V+Act+PrfPrc+Pl+Nom:h%>^Neet K ;
 +V+Act+PrsPrc:kkee%>v^A x3 ;
 +V+Pass+PrsPrc:%>ht^A%>v^A x3 ;
 +V+Act+Ind+Prs+ConNeg:je K ;
@@ -433,8 +435,8 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Inf:h%>^A KK ;  ! xxx 
 +V+Inf+Tra:h%>h^Akse PxK ; ! đ
 +V+Inf+Err/Orth:h%>d^ K ; ! d
-+V+InfE+Ins:h%>en K ;
-+V+InfE+Ine:h%>en K ;
++V+InfE+Ins:%>hen K ;
++V+InfE+Ine:%>hess^A K ;
 
 +V+Act+Ind+Prs:he v12pers_short ;
 +V+Act+Ind+Prt:%>hi v12pers_short ;
@@ -447,9 +449,11 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Act+Inf+Prt+ConNeg+Sg:h%>^n^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
-+V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
++V+Act+PrfPrc+Pl+Nom:h%>neet K ;
+!+V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
-+V+Pass+PrfPrc:h%>y PRFPRC_OBL ; 
+!+V+Pass+PrfPrc:h%>y PRFPRC_OBL ;
++V+Pass+PrfPrc+Pl+Nom:h%>yt K ; 
 
 +V+Act+PrsPrc:kkee%>v^A x3 ;
 +V+Pass+PrsPrc:h%>t^A%>v^A x3 ;
@@ -488,6 +492,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+InfMa+Abe:e%>m^Att^A K ;
 +V+InfMa+Ill:e%>%^HMET2mh^A^An K ;
 
++V+Pass+Ind+Prs:%^HMET2%>h^A^An K ; 
 +V+Pass+Ind+Prs:%>h^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
@@ -496,6 +501,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !noussu! menny etc
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>hee x3_obli ;
++V+Act+PrfPrc:%^HMET2%>hee x3_obli ; 
 !+V+Pass+PrfPrc:%>t^U x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !noustu, menty 
 +V+Pass+PrfPrc+Pl+Nom:%>t^U^WG%>t K ;
