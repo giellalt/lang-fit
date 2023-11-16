@@ -605,8 +605,15 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Inf+Tra:^WG%>^Akse PxK ;
 +V+InfE+Ins:en K ;
 +V+InfE+Ine:e%>ss^A K ;
-+V+InfMa:e 3infcase ;
+!+V+InfMa:e 3infcase ;
++V+InfMa+Ill:e%>%^HMET2mh^A^An K ; ! 
++V+InfMa+Ill:e%>mh^A^An K ; 
++V+InfMa+Ine:e%>m^Ass^A K ;
++V+InfMa+Ela:e%>m^Ast^A K ;
++V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
++V+InfMa+Abe:e%>m^Att^A K ;
 
++V+Pass+Ind+Prs:^HMET2%>h^A^An K ;
 +V+Pass+Ind+Prs:%>%h^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>%^A K ;
@@ -615,10 +622,12 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+PrfPrc+Sg+Nom:%>^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>hee x3_oblique ;
++V+Act+PrfPrc:^HMET2%>hee x3_oblique ;
 +V+Pass+PrfPrc:%>t^U x3_oblique ;
 
 +V+Act+PrsPrc+Sg+Nom:e%>v^A x3 ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^Av^A x3 ;
++V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ; !TEST
++V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ; !TEST
 
 +V+Pass+Cond:%>i4si K ;
 
@@ -665,18 +674,21 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+InfMa+Abe:e%>m^Att^A K ;
 
 
-+V+Pass+Ind+Prs:%>%^Nh^A^An K ;
++V+Pass+Ind+Prs:^HMET2%>h^A^An K ;
++V+Pass+Ind+Prs:%>h^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc:%>^Nhee x3_oblique ;
++V+Act+PrfPrc+Pl+Nom:%>heet K ;
++V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ;
 +V+Pass+PrfPrc:^WG%>t^U x3_oblique ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc:%>t^Uv^A x3_oblique ;
++V+Pass+PrsPrc+Sg+Nom:%>t^Uv^A K ;
 
 +V+Pass+Cond:%>i4si K ;
 
@@ -717,6 +729,7 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 +V+InfE+Ins:t%>^Aen K ;
 +V+InfE+Ine:t%>^Aess^A K ;
 +V+InfMa:%>tt^A 3infcase ;
++V+InfMa+Ill:%>tt^Ahmaan K ;
 
 +V+Act+Ind+Prs+ConNeg:%>tt^A K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
@@ -727,10 +740,11 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ;
++V+Act+PrfPrc+Pl+Nom:%>hneet K ; !Check change?
 +V+Pass+PrfPrc:t%>tee x3_oblique ;
 
 +V+Act+PrsPrc:%>tev^A x3 ;
-+V+Pass+PrsPrc:t%>tt^Uv^A x3 ;
++V+Pass+PrsPrc:t%>t^Uv^A x3 ;
 
 +V+Pass+Cond:t%>i4si K ;
 
@@ -782,6 +796,8 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 
 +V+Act+PrsPrc:n%>ev^A x3 ;
 +V+Pass+PrsPrc:^WGt%>t^Av^A x3 ;
++V+Pass+PrfPrc+Sg+Nom:%>tt^U K ;
++V+Pass+PrfPrc+Pl+Nom:%>tt^Ut K ;
 
 
 +V+Imprt+Sg2:^WG%>t^A # ;
