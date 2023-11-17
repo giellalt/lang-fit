@@ -37,7 +37,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
 +V+InfMa:ole 3infcase ;
-+V+InfMa+Ill:ole%>^HMET2mh^A^An K ; ! also hm if short preceeding vow
++V+InfMa+Ill:ole%>^HMET2mh^A^An K ; 
 +V+Der+Der/minen:ole#mis nen ;
 
 +V+Act+Ind+Prs+Sg1:olen K ;
@@ -112,13 +112,13 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+InfMa+Ill:%>mh^A^An K ; ! 
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
-+V+InfMa+Ade:%>m^All^A K ; ! TODO -la / -lla
++V+InfMa+Ade:%>m^All^A K ; !CHECK TODO -la / -lla
 +V+InfMa+Abe:%>m^Att^A K ;
 
 +V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
 !+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
-+V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; !lagt till stavelsegräns för ^A-funktion
++V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; !extra stavelsegräns för ^A-funktion
 
 +V+Act+Ind+Prs+ConNeg:^WG K ;
 +V+Act+Cond+ConNeg:%>isi K ;
@@ -187,7 +187,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 +V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc:%>nhee ptc_obl ;
++V+Act+PrfPrc:%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
 +V+Act+PrfPrc+Pl+Nom:n^HMET2%>heet K ;
 +V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:t%>t^Ut K ;
@@ -245,7 +245,7 @@ LEXICON ptc_obl
  +Pl+Abe:%>itt^A PxK ;  
 
 
-LEXICON SYA  !!≈ * **@CODE@** syä, myä
+LEXICON SYA  !!≈ * **@CODE@** syä, myä, lyä .#.
 +V+Inf:%>ä KK ;
 +V+Inf:y%>ä KK ;
 +V+Inf:y%>jä KK ;
@@ -256,7 +256,7 @@ LEXICON SYA  !!≈ * **@CODE@** syä, myä
 :ö v3_inf ;
 +V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
 
-LEXICON JUA  !!≈ * **@CODE@**
+LEXICON JUA  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 +V+Inf:%>a KK ;
 +V+Inf:o%>a KK ;
 +V+Inf:o%>ja KK ;
@@ -286,7 +286,7 @@ LEXICON v3_inf
 !+V+InfMa+Ill:h%>m^A^An K ; ! also hm
 
 LEXICON v3_other
-+V+Pass+Ind+Prs:%^WG%>dh^A^An K ;
++V+Pass+Ind+Prs:%^WG%>th^A^An K ;
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
@@ -336,7 +336,6 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Inf:y%>^A KK ; ! đ
 +V+Inf+Tra:y%>^Akse PxK ; ! đ
 +V+Inf+Err/Orth:y%>d^A K ; ! d
-!+V+InfE:y%>en K ; !CHECK vad är detta?
 +V+InfE+Ine:y%>ess^A K ; 
 +V+InfE+Ins:y%>en K ; 
 
@@ -781,7 +780,9 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 +V+Inf+Tra:^WG%>t^Akse PxK ;
 +V+InfE+Ins:^WG%>t^Aen K ;
 +V+InfE+Ine:^WG%>t^Aess^A K ;
-+V+InfMa:%>nem^A 3infcase ;
+!+V+InfMa:%>nem^A 3infcase ;
++V+InfMa:ne 3infcase ; !CHECK vilken är rätt??
++V+InfMa+Ill:ne%>m^HMET2h^A^An K ; ! 
 
 +V+Act+Ind+Prs+ConNeg:^WG%>t^A K ;
 +V+Pass+Ind+Prs:%^WG%>th^A^An K ;
@@ -793,6 +794,7 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
 +V+Act+PrfPrc:^WG%>^Nhee x3_oblique ;
++V+Act+PrfPrc+Pl+Nom:%>^N^HMET2heet K ;
 
 +V+Act+PrsPrc:n%>ev^A x3 ;
 +V+Pass+PrsPrc:^WGt%>t^Av^A x3 ;
