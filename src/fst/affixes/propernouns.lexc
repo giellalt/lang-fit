@@ -24,17 +24,25 @@ LEXICON p_surplc_0
 
 LEXICON p_sur_4
 !! **LEXICON @LEXNAME@**
-+N+Prop+Sem/Sur: x4_sg ;
+ +N+Prop+Sem/Sur+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Sur+Sg+Par:%>^A   K ; ! kiveä
+ +N+Prop+Sem/Sur: x4_sg ;
 
 LEXICON p_surplc_4
 !! **LEXICON @LEXNAME@**
+ +N+Prop+Sem/Sur+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Sur+Sg+Par:%>^A   K ; ! kiveä
 +N+Prop+Sem/Sur: x4_sg ;
+ +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
 +N+Prop+Sem/Plc: x4_sg ;
 
 
 LEXICON p_21ie
 !! **LEXICON @LEXNAME@**
-+N+Prop: x4_sg ;
+ +N+Prop+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sg+Par:%>^A   K ; ! kiveä
+ +N+Prop: x4_sg ;
 
 LEXICON p_22oi
 !! **LEXICON @LEXNAME@**
@@ -133,13 +141,16 @@ LEXICON p_plc_1_odd_i
 
 LEXICON p_plc_4
  +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
  +N+Prop+Sem/Plc: x4_sg ;
 
 !LEXICON p_plc_1ii
 !+N+Prop+Sem/Plc: p_adhoc ;
 
-LEXICON p_plc_1ta
-+N+Prop+Sem/Plc: x4_sg ;
+LEXICON p_plc_1ta ! Viitasaari
+ +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
+ +N+Prop+Sem/Plc: x4_sg ;
 
 LEXICON p_plc_22odd
 +N+Prop+Sem/Plc: p_adhoc ;
