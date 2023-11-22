@@ -367,12 +367,12 @@ LEXICON yh_indef
 +Ill:yhtheen   K ;
 +Par:yhtä    K ;
 +Ess:yhtenä    K ;
-+Tra:yhđeksi   K ;
-+Ine:yhđessä   K ;
-+Ela:yhđestä   K ;
-+All:yhđele    K ;
-+Ade:yhđelä    K ;
-+Abl:yhđeltä   K ;
++Tra:yheksi   K ;
++Ine:yhessä   K ;
++Ela:yhestä   K ;
++All:yhele    K ;
++Ade:yhelä    K ;
++Abl:yheltä   K ;
 
 LEXICON minkalai_kvant 
 +Nom:nen       K ;

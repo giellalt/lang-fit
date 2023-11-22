@@ -43,7 +43,7 @@ kuka+Pron+Prel+Sg+Nom:kuka K ;
 kuka+Pron+Rel:ke kuka_relkys_obl ;
 
 kumpi+Pron+Interr+Sg:kum kumpi ;
-toinen+Pron: toi toisen ;
+toinen+Pron:toi toisen ;
 joku:jo joku_indef ;
 
 sama+Pron+Indef:sama x1 ;

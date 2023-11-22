@@ -225,7 +225,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: al
         VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
        [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
-                  Vow t _ Vow: [%^HMETA: | %^HMET2:] ;
+                  Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
 
 !		  :e %> _ %^A: ; ! hanhea -- rather two classes
 !        [.#.|#:] Cns:* Vow:+ Cns:+ Vow:+ [l|n|r] _ Vow:+ WeakGrade ; ! imarela : imartelen
