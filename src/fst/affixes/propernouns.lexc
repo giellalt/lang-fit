@@ -132,7 +132,8 @@ LEXICON p_plc_1_odd_i
 +N+Prop+Sem/Plc: p_adhoc ;
 
 LEXICON p_plc_4
-+N+Prop+Sem/Plc: x4_sg ;
+ +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
+ +N+Prop+Sem/Plc: x4_sg ;
 
 !LEXICON p_plc_1ii
 !+N+Prop+Sem/Plc: p_adhoc ;
