@@ -38,9 +38,9 @@ Regular verbs
 
 * **LEXICON v2** huomata, ymmärtää
 
-* **LEXICON SYA** syä, myä
+* **LEXICON SYA** syä, myä, lyä .#.
 
-* **LEXICON JUA**
+* **LEXICON JUA** jua, lua, sua, tua .#.
 
 * **LEXICON v3_j**
 
