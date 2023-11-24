@@ -1698,6 +1698,10 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa
 
+* **LEXICON v2_ata** huomata
+
+* **LEXICON v2_ta** haluta etc
+
 * **LEXICON v2** huomata, ymmärtää
 
 * **LEXICON SYA** syä, myä, lyä .#.
