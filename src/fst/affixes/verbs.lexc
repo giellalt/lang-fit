@@ -402,9 +402,10 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 
 
 LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
-+V+Inf:h%>h^A KK ; ! đ
-+V+Inf+Tra:h%>h^Akse PxK ; ! đ
-+V+Inf+Err/Orth:h%>h^A K ; ! d
++V+Inf:h%>h^A KK ; ! 
++V+Inf:%>h^A KK ; ! 
++V+Inf+Tra:h%>h^Akse PxK ; ! 
++V+Inf+Err/Orth:h%>h^A K ; ! 
 +V+InfE+Ins:h%>hen K ;
 +V+InfE+Ine:h%>hess^A K ;
 
@@ -521,11 +522,11 @@ LEXICON v4  !!≈ * **@CODE@**
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !noussu! menny etc
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc:%>hee x3_obli ;
-+V+Act+PrfPrc:%^HMET2%>hee x3_obli ; 
++V+Act+PrfPrc+Pl+Nom:%>heet PxK ;
++V+Act+PrfPrc+Pl+Nom:%^HMET2%>heet PxK ; 
 !+V+Pass+PrfPrc:%>t^U x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !noustu, menty 
-+V+Pass+PrfPrc+Pl+Nom:%>t^U^WG%>t K ;
++V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
@@ -584,7 +585,7 @@ LEXICON v4_julkasta  !!≈ * **@CODE@**
 +V+Act+PrfPrc:%>hee x3_obli ;
 !+V+Pass+PrfPrc:%>t^U x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !julkassu
-+V+Pass+PrfPrc+Pl+Nom:%>t^U^WG%>t K ;
++V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
