@@ -438,7 +438,6 @@ The vowel must be copied from the stem to the right of the *h*
 and also deleted in the stem (cf. *talo : talhoon*)
 
 **RULE: a copying for h metathesis**
-
 **Tests:**
 
 * *hinta^HMETA>h^V^Vn*
