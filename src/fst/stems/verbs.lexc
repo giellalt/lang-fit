@@ -2675,7 +2675,7 @@ hommata:homma v2 ;
 kummata:kumma v2 ;
 lummata:lumma v2 ;
 pummata:pumma v2 ;
-huomata:huoma v2 ;
+huomata:huoma v2_ata ;
 tormata:torma v2 ;
 tismata:tisma v2 ;
 juumata:juuma v2 ;
@@ -3443,7 +3443,7 @@ kutkuta:kutku v2 ;
 kiukuta:kiukku v2 ;
 kukuta:kukku v2 ;
 koukuta:koukku v2 ;
-haluta:halu v2 ; ! halvan
+haluta:halu v2_ta ; ! halvan
 halvata:halva v1 ; !CHECK
 kaluta:kalu v2 ;
 valuta:valu v2 ;
