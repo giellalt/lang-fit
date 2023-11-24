@@ -222,7 +222,7 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
-        VowelNotI (h)   _ Vow       WeakGrade ; ! katu : kaun
+        VowelNotI (h)   _ Vow:       WeakGrade ; ! katu : kaun !CHECK ändrat för att få lähen, lähin
        [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
                   Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään

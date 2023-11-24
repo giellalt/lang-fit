@@ -40,6 +40,7 @@ mikä+Pron+Interr+Pl:mi mi_rel_pl ;
 joka+Pron+Interr+Pl:jo jo_rel_pl ;
 
 kuka+Pron+Prel+Sg+Nom:kuka K ;
+kuka+Pron+Prel+Sg+Nom+Err/Orth:kukas K ;
 kuka+Pron+Rel:ke kuka_relkys_obl ;
 
 kumpi+Pron+Interr+Sg:kum kumpi ;

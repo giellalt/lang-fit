@@ -113,6 +113,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Inf:%>^A KK ;
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
++V+InfE+Ins:^HMETA%>h^V^Vn K ;
 +V+InfE+Ine:%>ess^A K ;
 +V+InfMa+Ill:%>^HMET2mh^A^An K ; ! also hm but first just for two-syll (position 4); antahmaan
 +V+InfMa+Ill:%>mh^A^An K ; ! 
@@ -499,6 +500,7 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:%>^Nen K ; !tullen
++V+InfE+Ins:%>heen K ; !tulheen !CHECK EK!
 +V+InfE+Ine:%>^Ness^A K ; !tullessa, mennässä MEN noustessa ACT
 +V+InfE+Ine:%>t^Ae%>ss^A K ; !CHECK! PASS
 !+V+InfMa:e 3infcase ;
