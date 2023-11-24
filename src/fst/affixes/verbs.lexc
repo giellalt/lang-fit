@@ -218,8 +218,8 @@ LEXICON v2  !!≈ * **@CODE@** huomata, ymmärtää
 
 +V+Act+Ind+Prs+Sg1:%>^An K ;
 +V+Act+Ind+Prs+Sg2:%>^At K ;
-!+V+Act+Ind+Prs+Sg3:%>^A^A K ;
-+V+Act+Ind+Prs+Sg3:%>^A K ; !CHECK
+!+V+Act+Ind+Prs+Sg3:%>^A^A K ; !CHECK funkar för haluta etc
+!+V+Act+Ind+Prs+Sg3:%>^A K ; !CHECK funkar för kammata etc
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
