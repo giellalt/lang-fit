@@ -43,8 +43,8 @@ v1 sanoa, lukea
 * **hukkua:hukku v1 ;** 
 
 v2 tryykätä
-* **hypätä:hyppä v2 ;** 
-* **tryykätä:tryykkä v2 ;** 
+* **hypätä:hyppä v2_ata ;** 
+* **tryykätä:tryykkä v2_ata ;** 
 
 v3 syödä, juoda
 * **syä:sy SYA ;** 
