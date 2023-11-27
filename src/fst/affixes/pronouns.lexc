@@ -200,7 +200,7 @@ LEXICON kuka_relkys_sgpl
 +Gen+Foc/ka:nenkä   K ;
 +Gen+Foc/kas:nenkäs   K ;
 +Ill:nheen  K ;
-+Par:tä  K ;
++Par:tä^HMETA  K ; 
 +Ess:nenä    K ;
 +Tra:neksi    K ;
 +Ine:nessä    K ;
