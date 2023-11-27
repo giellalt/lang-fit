@@ -132,7 +132,7 @@ lappaa:lappa v1 ;
 tappaa:tappa v1 ;
 nauraa:naura v1 ;
 saa:saa v3_j ;
-saa'a:saa v3_j ;
+saa’a:saa v3_saaa ;
 jaksaa:jaksa v1 ;
 maksaa:maksa v1 ;
 jaataa:jaata v1 ;

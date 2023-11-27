@@ -672,7 +672,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@**
 a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> ;        ! before metathesis h
-    [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa TEST extravokal
+    [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa TEST extravokal koirile (ta bort sista (Vow:)?)
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   ! ??? 
 
