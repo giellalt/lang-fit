@@ -1588,12 +1588,14 @@ tuotä
 
 # Meänkieli propernoun morphology
 
-This file documents `affixes/propernouns.lexc`, [the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)
+This file documents `affixes/propernouns.lexc`, [the file for Meänkieli propernoun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc). The file pointing here is `stems/fit-propernouns.lexc`
 
-The lexicon napes have 3 parts, divided by "_"
+The lexicon names look like this: `p_mal_1` etc. They have 3 parts, divided by "_"
+
 - In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
 - The first part gives the semantic tag. Names that can be both plc and sur are marked plc.
 - The third part is identical to the number in the `affixes/noun.lexc` file. Thus, **_1** points to the lexicon **x1**, etc.
+
 We do not use **_pl** for names
 
 - **LEXICON p_plc_0**
@@ -2792,11 +2794,12 @@ This file documents [the file for Meänkieli propernouns](https://github.com/gie
 
 Contrary to other GiellaLT languages, the Meänkieli FST is not set up to use the language-independent name base found in the infrastructure.
 
-The lexicon napes have 3 parts, divided by "_"
+The lexicon names look like this: `p_mal_1` etc. They have 3 parts, divided by "_"
+
 - In the first part, **p**  = even syll. proper noun, **3p** in lexicon names = even syll. proper noun
 - The first part gives the semantic tag. Names that can be both plc and sur are marked plc.
 - The third part is identical to the number in the `affixes/noun.lexc` file. Thus, **_1** points to the lexicon **x1**, etc.
-We do not use **_pl** for names
+We do not use **_pl** for names (except for plural names).
 
 32000 names
 
