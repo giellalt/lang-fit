@@ -159,7 +159,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 "l:0"
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:] ;
         Vow (Vow:) (%^WG:) (%>) :Vow (%>) l _ [%^A:|e] ; !för att få ämmäkölle MEN ämmäköilä, ämmäköile etc, hopeile
-!       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; !CHECK hopeale
+!       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; ! hopeale
 
 
 !! m rules
@@ -222,7 +222,7 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: all tt give t
         i               _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata
-        VowelNotI (h)   _ Vow:       WeakGrade ; ! katu : kaun !CHECK ändrat för att få lähen, lähin
+        VowelNotI (h)   _ Vow:       WeakGrade (%>) Cns: ; ! katu : kaun !CHECK ändrat för att få lähen, lähin
        [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
                   Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
@@ -303,7 +303,8 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
  Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc.|vuossii(n)|uusia] ! uusine
  Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) 
  Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
-        [i|u|y|ö] [e|u|y] _ (:s) Vow: (%^AO:0) (%^WG:0) %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi) !CHECK! huusit
+        [i|u|y|ö] [e|u|y] _ (:s) Vow: (%^AO:0) (%^WG:0) %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi) !
+        h  u u _ a: %^WG:0 %> i3: n ;
  Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
  Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
              i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
@@ -354,7 +355,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 Vow (%>) Vow  _ [l|m|n|r|v] (Vow:)  %^HMET2: (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
                 Vow (%>) VowNotI _ j Vow: %^HMET2: (%>) h: ; ! aluohjaan
         !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään CHECK öppna regeln som för verb?
+                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
                 Vow+ Cns+ Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!mostly verbs; tulehmaan, neuvottelehmaan
         !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
                 ![.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämhään/elähmään UTAN antahmaan
@@ -520,7 +521,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
-                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ; !CHECK
+                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ; 
   Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! BEHÖVS?
 !Rules for metathesis type two, position 1 in Kuoppa/Mantila (efter två tonande Cns)
         Vow   l   :h [j|  m|n|r|v] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
@@ -875,7 +876,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 !! **RULE: @RULENAME@**
 %^V:a <=> a: [%^HMETA: | %^HMET2:] %> h:     _ [:a] ; ! sauhnaan
           a: [%^HMETA: | %^HMET2:] %> h:  :a _    ; ! sauhnaan
-          UnroundedVowel (Vow) (:h) Cns:+  a: [%^HMETA: | %^HMET2:] %> h: _ [:a|:i] ; !CHECK taivas>taivhaan
+          UnroundedVowel (Vow) (:h) Cns:+  a: [%^HMETA: | %^HMET2:] %> h: _ [:a|:i] ; 
           !UnroundedVowel Cns:*  a: [%^HMETA: | %^HMET2:] %> h:  :a _    ;
           !UnroundedVowel (Cns:+)  a           %> (h)    _ [n|t|s|l|%>|.#.] ; !TEST maahan
           a  %> (h)    _ [n|t|s|l|%>|.#.] ; !TEST noutaa 
