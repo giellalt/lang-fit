@@ -1704,6 +1704,8 @@ Regular verbs
 
 * **LEXICON v2_ta** haluta etc
 
+* **LEXICON v2_havata** havata-paradigm EJ KLART
+
 * **LEXICON v2** huomata, ymmärtää
 
 * **LEXICON SYA** syä, myä, lyä .#.
