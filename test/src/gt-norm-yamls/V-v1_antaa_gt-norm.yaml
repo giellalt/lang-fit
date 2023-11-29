@@ -27,7 +27,7 @@ Tests:
      antaa+V+Act+Ind+Prt+Sg3: [antoi, anto]
      antaa+V+Act+Ind+Prt+Pl1: annoima  # anniima ?!
      antaa+V+Act+Ind+Prt+Pl2: annoitta
-     antaa+V+Act+Ind+Prt+Pl3: annoit
+     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva]
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
      antaa+V+Pass+PrfPrc+Sg+Nom: annettu # antaa+V+Pass+PrfPrc+Pl+Nom annetut
      antaa+V+Act+PrfPrc+Pl+Nom: [antanheet, antahneet]
@@ -53,3 +53,21 @@ Tests:
      antaa+V+InfMa+Ill: [antamhaan, antahmaan, anthaan]
      antaa+V+InfMa+Ade: antamalla
      antaa+V+InfMa+Abe: antamatta
+
+#Verb tietää
+     tietää+V+Inf: tietää
+     tietää+V+Act+Ind+Prs+Sg1: tiän
+     tietää+V+Act+Ind+Prs+Sg2: tiät
+     tietää+V+Act+Ind+Prs+Sg3: tietää
+     tietää+V+Act+Ind+Prs+Pl1: tiämä
+     tietää+V+Act+Ind+Prs+Pl2: tiättä
+     tietää+V+Act+Ind+Prs+Pl3: tietävä
+
+     tietää+V+Act+Ind+Prt+Sg1: tiesin
+     tietää+V+Act+Ind+Prt+Sg2: tiesit
+     tietää+V+Act+Ind+Prt+Sg3: tiesi
+     tietää+V+Act+Ind+Prt+Pl1: tiesimä
+     tietää+V+Act+Ind+Prt+Pl2: tiesittä
+     tietää+V+Act+Ind+Prt+Pl3: [tiesit, tiesivä]
+
+     tietää+V+Pass+Cond: tiettäis

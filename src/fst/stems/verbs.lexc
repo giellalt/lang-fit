@@ -3021,7 +3021,7 @@ kruuata:kruua v2_ata ;
 pruuata:pruua v2_ata ;
 avata:ava v2_ata ;
 plaavata:plaava v2_ata ;
-havata:hava v2_ata ;
+havata:hava v2_havata ;
 lavata:lava v2_ata ;
 kravata:krava v2_ata ;
 travata:trava v2_ata ;
@@ -3445,7 +3445,8 @@ kiukuta:kiukku v2_ta ;
 kukuta:kukku v2_ta ;
 koukuta:koukku v2_ta ;
 haluta:halu v2_ta ; 
-halvata:halva v1 ; 
+halvata:halva v2_ata ; 
+halvata+Err/Orth:halva v1 ;
 kaluta:kalu v2_ta ;
 valuta:valu v2_ta ;
 meluta:melu v2_ta ;
@@ -5595,3 +5596,4 @@ tivistyä:tivisty v1 ;
 tiettyä:tietty v1 ; ! XXX ?
 
 ajatella:ajattel v4_4lla ;
+klaakottaa:klaakotta v1 ;
