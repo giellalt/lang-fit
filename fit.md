@@ -1700,13 +1700,13 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa
 
-* **LEXICON v2_ata** huomata
+* **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
 
-* **LEXICON v2_ta** haluta etc
+* **LEXICON v2_ta** haluta etc, Prs+Sg3 halu/aa
+
+* **LEXICON v2** huomata, haluta övriga former
 
 * **LEXICON v2_havata** havata-paradigm EJ KLART
-
-* **LEXICON v2** huomata, ymmärtää
 
 * **LEXICON SYA** syä, myä, lyä .#.
 
