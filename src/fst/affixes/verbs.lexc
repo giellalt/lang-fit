@@ -412,6 +412,7 @@ LEXICON v3_j  !!≈ * **@CODE@**
 +V+InfE+Ine:%>jess^A K ;
 v3_other ;
 v3_inf ;
++V+Act+Ind+Prt+Sg3:t%>i3 K ; !CHECK
 +V+InfMa+Ill:h%>m^A^An K ; !viehmään en gång
 !+V+InfMa+Ill:m^HMET2%>h^A^An K ; ! HÄR 3 ggr viehmään
 
@@ -547,7 +548,7 @@ LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Act+PrfPrc+Pl+Nom:h%>^Neet K ; 
 +V+Act+PrsPrc:kkee%>v^A x3 ;
 +V+Pass+PrsPrc:%>ht^A%>v^A x3 ;
-+V+Act+Ind+Prs+ConNeg:je K ;
++V+Act+Ind+Prs+ConNeg:e K ;
 
 +V+Act+Cond:%>kis 2cond ;
 +V+Act+Cond+Pl3:%>htäis K ;
@@ -609,6 +610,7 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+InfMa+Ela:ke%>m^Ast^A K ;
 +V+InfMa+Ill:ke%>mh^A^An K ;
 +V+InfMa+Ill:ke%>%^HMET2mh^A^An K ;
++V+InfMa+Ill:k%>heen K ;
 +V+InfMa+Ade:ke%>m^All^A K ;
 +V+InfMa+Abe:ke%>m^Att^A K ;
 !+V+Act+InfMa:ke%>m^A MATONodd ;

@@ -441,5 +441,6 @@ LEXICON NEGK
 +Qst:%>k^O # ;
 +Qst+Err/Orth:%>k^Os # ;
 +Foc/ka:%>k^A # ;
++Foc/haan:%>h^A^An # ; ! eihään !CHECK!
 
 LEXICON ENDLEX # ; 
