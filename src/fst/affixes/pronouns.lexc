@@ -153,6 +153,7 @@ LEXICON relkys
 +Ess:%>n^A    K ;
 +Tra:%>ksi   K ;
 +Ine:%>ss^A   K ;
++Ine+Err/Orth:%>ss^As   K ;
 +Ela:%>st^A   K ;
 +All:%>lle   K ;
 +Ade:%>ll^A    K ;
