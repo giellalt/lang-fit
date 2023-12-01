@@ -4,6 +4,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ## This is an overview of the continuation lexicon types.
 
+* n_nomorph = uninflected nouns: Covid-19
+
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
@@ -38,7 +40,7 @@ Consonant stems
 
 **LEXICON nx** pointing to *n1*.
 
-**LEXICON n_nomorph** pointing to *n1*.
+**LEXICON n_nomorph** for uninflected nouns
 
 **LEXICON nc** for consonant-final nouns, structure CVC
 
