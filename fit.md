@@ -1150,6 +1150,8 @@ Consonant stems
 
 **LEXICON nx** pointing to *n1*.
 
+**LEXICON n_nomorph** pointing to *n1*.
+
 **LEXICON nc** for consonant-final nouns, structure CVC
 
 **LEXICON xc_sg**
