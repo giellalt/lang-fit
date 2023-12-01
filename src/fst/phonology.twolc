@@ -788,7 +788,7 @@ i:j <=> Vow _ k:0 :Vow ; ! pojan
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 "i8:0"
-i8:0 <=> :Vow Cns:+ :o %> _ [.#.|%>] ;
+i8:0 <=> :Vow Cns:+ [:o|u|y] %> _ [.#.|%>] ; !CHECK! added u for tuntua>tuntu, y for kääntyä>käänty
 
 !!€ sano>i3
 !!€ sano>0

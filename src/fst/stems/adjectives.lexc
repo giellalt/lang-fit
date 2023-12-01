@@ -34,8 +34,8 @@ muikea a3 ;  !!≈ * @CODE@
 privaatti a3 ;  !!≈ * @CODE@ xxx a1?
 
 !! a4
-pieni:piene a4 ;  !!≈ * @CODE@
-moni:mone a4 ;
+pieni:piene a5 ;  !!≈ * @CODE@
+moni:mone a5 ;
 vanhaa:vanhaa ax ;  !!≈ * @CODE@
 ikivanhaa:ikivanhaa ax ;
 vinhaa:vinhaa ax ;
@@ -455,9 +455,9 @@ klaari:klaari ax ;
 naari:naari ax ;
 pauhari:pauhari ax ;
 eri:eri ax ;
-nuori:nuore a4 ;
+nuori:nuore a5 ;
 hauri:hauri ax ;
-suuri:suure a4 ;
+suuri:suure a5 ;
 jättiläissuuri:jättiläissuuri ax ;
 söötsyyri:söötsyyri ax ;
 preliminääri:preliminääri ax ;

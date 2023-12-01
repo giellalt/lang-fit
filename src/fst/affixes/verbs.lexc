@@ -180,7 +180,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+InfE+Ine:%>ess^A K ;
 +V+InfMa+Ill:%>^HMET2mh^A^An K ; ! also hm but first just for two-syll (position 4); antahmaan
 +V+InfMa+Ill:%>mh^A^An K ; ! 
-+V+InfMa+Ill:^HMETA%>h^V^Vn K ; !isthuun, seishoon
++V+InfMa+Ill:^HMETA%>h^V^Vn K ; !isthuun, seishoon, laulhaan
++V+InfMa+Ill:^HMET2%>h^V^Vn K ; !lauhlaan
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
 +V+InfMa+Ade:%>m^All^A K ; !CHECK TODO -la / -lla
@@ -222,7 +223,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Ind+Prt+Sg1:^WG%>i3n K ;
 +V+Act+Ind+Prt+Sg2:^WG%>i3t K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ; ! antoi, äänesti, pieksi
-+V+Act+Ind+Prt+Sg3:%>i8 K ; ! anto, äänesti, pieksi !CHECK varför så?
++V+Act+Ind+Prt+Sg3:%>i8 K ; ! anto, äänesti, pieksi !CHECK vilka??
 +V+Act+Ind+Prt+Pl1:^WG%>i3m^A K ;
 +V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:^WG%>i3t K ;
@@ -403,6 +404,7 @@ LEXICON JUA  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 LEXICON v3_saaa 
 +V+Inf:’a K ;
 v3_j ;
++V+Act+Ind+Prs+ConNeg+Sg:^HMETA%>i3s K ;
 
 LEXICON v3_j  !!≈ * **@CODE@**
 +V+Inf:%>j^A KK ;

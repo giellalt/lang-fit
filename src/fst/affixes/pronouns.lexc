@@ -146,17 +146,21 @@ LEXICON relkys
 +Nom:%>k^A K ;
 +Nom+Clt:%>k^As # ;
 +Gen:%>nk^A K ;
++Gen+Clt:%>nk^As # ;
 +Ill:%>%>h^Vn K ;
 +Ill:%>%>h^Vnk^A K ;
 +Par:%>t^A K ;
-+Par+Clt:%>t^As K ;
++Par+Clt:%>t^As # ;
 +Ess:%>n^A    K ;
 +Tra:%>ksi   K ;
++Tra+Clt:%>ksis  # ;
 +Ine:%>ss^A   K ;
-+Ine+Err/Orth:%>ss^As   K ;
++Ine+Clt:%>ss^As # ;
 +Ela:%>st^A   K ;
++Ela+Clt:%>st^As   # ;
 +All:%>lle   K ;
 +Ade:%>ll^A    K ;
++Ade+Clt:%>ll^As    # ;
 +Abl:%>lt^A   K ;
 
 
@@ -201,7 +205,7 @@ LEXICON kuka_relkys_sgpl
 +Gen+Foc/ka:nenkä   K ;
 +Gen+Foc/kas:nenkäs   K ;
 +Ill:nheen  K ;
-+Par:tä^HMETA  K ; 
++Par:tä  K ; 
 +Ess:nenä    K ;
 +Tra:neksi    K ;
 +Ine:nessä    K ;

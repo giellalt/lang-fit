@@ -2352,7 +2352,7 @@ mastoa:masto v1 ;
 vaistoa:vaisto v1 ;
 liistoa:liisto v1 ;
 pirstoa:pirsto v1 ;
-kattoa:katto v1 ;
+kattoa:katt2o v1 ;
 ylönkattoa:ylönkatto v1 ;
 meittoa:meitto v1 ;
 plittoa:plitto v1 ;
@@ -5597,3 +5597,5 @@ tiettyä:tietty v1 ; ! XXX ?
 
 ajatella:ajattel v4_4lla ;
 klaakottaa:klaakotta v1 ;
+kalkattaa:kalkatta v1 ;
+sylkeä:sylke v1 ;

@@ -427,11 +427,20 @@ LEXICON x4_pl
 
 LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
- +N: x4 ;
- +N+Sg+Nom:^E2I       PxK ; ! kieli
- +N+Sg+Par:%>t^A      PxK ; ! kieltä
- +N+Nom:^E2I R ;
- +N+Gen:^WG%>n R ;
+ +N: x5 ;
+ !+N: x4 ;
+ !+N+Sg+Nom:^E2I       PxK ; ! kieli
+ !+N+Sg+Par:%>t^A      PxK ; ! kieltä
+ !+N+Nom:^E2I R ;
+ !+N+Gen:^WG%>n R ;
+
+ LEXICON x5
+!! **LEXICON @LEXNAME@** kieli, stem kiele
+ x4 ;
+ +Sg+Nom:^E2I       PxK ; ! kieli
+ +Sg+Par:%>t^A      PxK ; ! kieltä
+ +Nom:^E2I R ;
+ +Gen:^WG%>n R ;
 
 LEXICON n5_lumi
 !! **LEXICON @LEXNAME@** lumi, stem lu
@@ -1002,6 +1011,7 @@ LEXICON 30n_lnr
 LEXICON TYÄR
 +N+Sg+Nom:tyär K ; 
 +N+Sg+Par:tytärtä K ;
++N+Sg+Par:tyärtä K ;
          :tyttär 3xn_lnr ;
 
 LEXICON 3xn_lnr

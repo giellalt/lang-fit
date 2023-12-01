@@ -41,9 +41,9 @@ LEXICON a4
  +A+Sg+Nom:^E2I       PxK ; ! s
  +A+Sg+Par:%>^A      PxK ; ! verta
 
-!LEXICON a5
+LEXICON a5
 ! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
-!+A: x4 ; !!≈ * @CODE@
++A: x5 ; !!≈ * @CODE@
 
 
 LEXICON anen
