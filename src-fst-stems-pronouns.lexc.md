@@ -35,7 +35,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * kullaki pronx ; 
 * kumpiki pronx ; 
 * kuki pronx ; 
-* moni pronx ; 
 * ken pronx ; 
 * meikäläinen+Pron+Indef:meikäläi toisen ; 
 * sellainen+Pron+Indef:sellai toisen ; 

@@ -134,6 +134,8 @@ Consonant stems
 
 **LEXICON n5** kieli, stem kiele
 
+**LEXICON n5** kieli, stem kiele
+
 **LEXICON n5_lumi** lumi, stem lu
 
 **LEXICON n5_loimi** loimi, stem loi, som n5_lumi PLUS partitiv loimea

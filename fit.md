@@ -1058,6 +1058,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
 
+* +A: x5 ;
+
 **LEXICON anen**   has no comparative or superlative , just points to xnen
 * +A: xnen ;
 
@@ -1241,6 +1243,8 @@ Consonant stems
 **LEXICON x4_sg** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
 
 **LEXICON x4_pl**
+
+**LEXICON n5** kieli, stem kiele
 
 **LEXICON n5** kieli, stem kiele
 
@@ -2657,7 +2661,7 @@ a3
 * privaatti a3 ; xxx a1?
 
 a4
-* pieni:piene a4 ;
+* pieni:piene a5 ;
 * vanhaa:vanhaa ax ;
 
 * * *
@@ -2914,7 +2918,7 @@ of cardinals and ordinals, and the non-compounding ones:
 * Numeral examples:*
 * *kaksikymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par` (Eng. ! 23,000)
 * *kakskymmentäkolmetuhatta:* `kaksi+Num+Sg+Nom#kymmenen+Num+Sg+Par#kolme+Num+Sg+Nom#tuhat+Num+Sg+Par`
-* *kahđessađasneljes:* `kahđes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
+* *kahessaasneljes:* `kahes+A+Ord+Sg+Nom#saas+A+Ord+Sg+Nom#neljes+A+Ord+Sg+Nom` (Eng. ! 204rd)
 * *viitisenkymmentä:* `viitisen+Num#kymmentä` (Eng. ! 50-ish)
 
 The compounding parts of cardinals are the number multiplier words.
@@ -2922,7 +2926,7 @@ The compounding parts of cardinals are the number multiplier words.
 * cardinal examples:*
 * *yksi:* `yksi+Num+Sg+Nom` (Eng. !one)
 * *yks:* `yksi+Num+Sg+Nom`
-* *viiđele:* `viisi+Num+Sg+All` (Eng. !five)
+* *viiele:* `viisi+Num+Sg+All` (Eng. !five)
 * *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
 
 The suffixes only appear after cardinal multipliers
@@ -2936,14 +2940,14 @@ The compounding parts of ordinals are the number multiplier words.
 
 * Ordinal numerals examples:*
 * *neljes:* `neljes+A+Ord+Sg+Nom`
-* *viiđenelle:* `viiđes+A+Ord+Sg+All`
+* *viienelle:* `viies+A+Ord+Sg+All`
 * *tuhanetta:* `tuhanes+A+Ord+Sg+Par`
 
 The suffixes only appear after cardinal multipliers
 
 * Ordinal multiplicants examples:*
-* *viiđeskymmenes:* `viiđes+A+Ord+Sg+Nom#kymmenes`
-* *neljessađastuhanes:* `neljes+A+Ord+Sg+Nom#sađas+A+Ord+Sg+Nom#tuhanes`
+* *viieskymmenes:* `viies+A+Ord+Sg+Nom#kymmenes`
+* *neljessaastuhanes:* `neljes+A+Ord+Sg+Nom#saas+A+Ord+Sg+Nom#tuhanes`
 
 There is a set of numbers or corresponding expressions that work like them,
 but are not basic cardinals or ordinals:
@@ -2960,8 +2964,8 @@ being very rare to extinct for nouns.
 * *yks:* `yksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
 * *yhtheen:* `yksi+Num+Sg+Ill`
 * *yhtenä:* `yksi+Num+Sg+Ess`
-* *yhđessä:* `yksi+Num+Sg+Ine`
-* *yhđelä:* `yksi+Num+Sg+Ade`
+* *yhessä:* `yksi+Num+Sg+Ine`
+* *yhelä:* `yksi+Num+Sg+Ade`
 * *yhtä:* `yksi+Num+Sg+Par`
 * *yksii:* `yksi+Num+Pl+Par`
 * *yksiin:* `yksi+Num+Pl+Gen`
@@ -2974,8 +2978,8 @@ being very rare to extinct for nouns.
 * *kaks:* `kaksi+Num+Sg+Nom` (Eng. !sallima puhekieliset haamut ko "yks" ja "kaks")
 * *kahtheen:* `kaksi+Num+Sg+Ill`
 * *kahtena:* `kaksi+Num+Sg+Ess`
-* *kahđessa:* `kaksi+Num+Sg+Ine`
-* *kahđela:* `kaksi+Num+Sg+Ade`
+* *kahessa:* `kaksi+Num+Sg+Ine`
+* *kahela:* `kaksi+Num+Sg+Ade`
 * *kahta:* `kaksi+Num+Sg+Par`
 * *kaksii:* `kaksi+Num+Pl+Par`
 * *kaksiin:* `kaksi+Num+Pl+Gen`
@@ -3015,8 +3019,8 @@ being very rare to extinct for nouns.
 * *viis:* `viisi+Num+Sg+Nom`
 * *viitheen:* `viisi+Num+Sg+Ill`
 * *viittä:* `viisi+Num+Sg+Par`
-* *viiđessä:* `viisi+Num+Sg+Ine`
-* *viiđelä:* `viisi+Num+Sg+Ade`
+* *viiessä:* `viisi+Num+Sg+Ine`
+* *viielä:* `viisi+Num+Sg+Ade`
 * *viitenä:* `viisi+Num+Sg+Ess`
 * *viisissä:* `viisi+Num+Pl+Ine`
 * *viissii:* `viisi+Num+Pl+Par`
@@ -3030,8 +3034,8 @@ being very rare to extinct for nouns.
 * *kuus:* `kuusi+Num+Sg+Nom`
 * *kuutta:* `kuusi+Num+Sg+Par`
 * *kuutena:* `kuusi+Num+Sg+Ess`
-* *kuuđessa:* `kuusi+Num+Sg+Ine`
-* *kuuđela:* `kuusi+Num+Sg+Ade`
+* *kuuessa:* `kuusi+Num+Sg+Ine`
+* *kuuela:* `kuusi+Num+Sg+Ade`
 * *kuusina:* `kuusi+Num+Pl+Ess`
 * *kuusissa:* `kuusi+Num+Pl+Ine`
 * *kuussii:* `kuusi+Num+Pl+Par`
@@ -3040,32 +3044,32 @@ being very rare to extinct for nouns.
 * *kuushiin:* `kuusi+Num+Pl+Ill`
 
 * Numerals 10n examples:*
-* *kahđeksen:* `kahđeksen+Num+Sg+Nom`
-* *kahđeksee:* `kahđeksen+Num+Sg+Par`
-* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
-* *kahđeksessa:* `kahđeksen+Num+Sg+Ine`
-* *kahđeksella:* `kahđeksen+Num+Sg+Ade`
-* *kahđeksenna:* `kahđeksen+Num+Sg+Ess`
-* *kahđeksii:* `kahđeksen+Num+Pl+Par`
-* *kahđeksiita:* `kahđeksen+Num+Pl+Par`
-* *kahđeksiitten:* `kahđeksen+Num+Pl+Gen`
-* *kahđekshiin:* `kahđeksen+Num+Pl+Ill`
-* *kahđeksissa:* `kahđeksen+Num+Pl+Ine`
-* *kahđeksinna:* `kahđeksen+Num+Pl+Ess`
+* *kaheksen:* `kaheksen+Num+Sg+Nom`
+* *kaheksee:* `kaheksen+Num+Sg+Par`
+* *kaheksheen:* `kaheksen+Num+Sg+Ill`
+* *kaheksessa:* `kaheksen+Num+Sg+Ine`
+* *kaheksella:* `kaheksen+Num+Sg+Ade`
+* *kaheksenna:* `kaheksen+Num+Sg+Ess`
+* *kaheksii:* `kaheksen+Num+Pl+Par`
+* *kaheksiita:* `kaheksen+Num+Pl+Par`
+* *kaheksiitten:* `kaheksen+Num+Pl+Gen`
+* *kahekshiin:* `kaheksen+Num+Pl+Ill`
+* *kaheksissa:* `kaheksen+Num+Pl+Ine`
+* *kaheksinna:* `kaheksen+Num+Pl+Ess`
 
 * Numerals 10n front examples:*
-* *yhđeksen:* `yhđeksen+Num+Sg+Nom`
-* *yhđeksee:* `yhđeksen+Num+Sg+Par`
-* *yhđeksheen:* `yhđeksen+Num+Sg+Ill`
-* *yhđeksessä:* `yhđeksen+Num+Sg+Ine`
-* *yhđeksellä:* `yhđeksen+Num+Sg+Ade`
-* *yhđeksennä:* `yhđeksen+Num+Sg+Ess`
-* *yhđeksii:* `yhđeksen+Num+Pl+Par`
-* *yhđeksiitä:* `yhđeksen+Num+Pl+Par`
-* *yhđeksiitten:* `yhđeksen+Num+Pl+Gen`
-* *yhđekshiin:* `yhđeksen+Num+Pl+Ill`
-* *yhđeksissä:* `yhđeksen+Num+Pl+Ine`
-* *yhđeksinnä:* `yhđeksen+Num+Pl+Ess`
+* *yheksen:* `yheksen+Num+Sg+Nom`
+* *yheksee:* `yheksen+Num+Sg+Par`
+* *yheksheen:* `yheksen+Num+Sg+Ill`
+* *yheksessä:* `yheksen+Num+Sg+Ine`
+* *yheksellä:* `yheksen+Num+Sg+Ade`
+* *yheksennä:* `yheksen+Num+Sg+Ess`
+* *yheksii:* `yheksen+Num+Pl+Par`
+* *yheksiitä:* `yheksen+Num+Pl+Par`
+* *yheksiitten:* `yheksen+Num+Pl+Gen`
+* *yhekshiin:* `yheksen+Num+Pl+Ill`
+* *yheksissä:* `yheksen+Num+Pl+Ine`
+* *yheksinnä:* `yheksen+Num+Pl+Ess`
 
 * Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
@@ -3083,12 +3087,12 @@ being very rare to extinct for nouns.
 * Numerals 9 examples:*
 * *sata:* `sata+Num+Sg+Nom`
 * *satana:* `sata+Num+Sg+Ess`
-* *sađassa:* `sata+Num+Sg+Ine`
+* *saassa:* `sata+Num+Sg+Ine`
 * *sathaan:* `sata+Num+Sg+Ill`
 * *sattaa:* `sata+Num+Sg+Par`
 * *sattoin:* `sata+Num+Pl+Gen`
 * *sathoin:* `sata+Num+Pl+Ill`
-* *sađoissa:* `sata+Num+Pl+Ine`
+* *saoissa:* `sata+Num+Pl+Ine`
 * *satoina:* `sata+Num+Pl+Ess`
 
 * Numerals 46 examples:*
@@ -3289,7 +3293,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * kullaki pronx ; 
 * kumpiki pronx ; 
 * kuki pronx ; 
-* moni pronx ; 
 * ken pronx ; 
 * meikäläinen+Pron+Indef:meikäläi toisen ; 
 * sellainen+Pron+Indef:sellai toisen ; 
