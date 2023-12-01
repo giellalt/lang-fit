@@ -325,8 +325,8 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 !+V+Act+PrfPrc+Pl+Nom:n^HMET2%>heet K ;
 !+V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
 !+V+Pass+PrfPrc+Pl+Nom:t%>t^Ut K ;
-!+V+Pass+PrsPrc+Sg+Nom:n%>n^Ut K ;
-!+V+Pass+PrsPrc+Pl+Nom:n%>neet K ;
++V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ;
++V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ;
 !+V+Pass+Cond:%>i4si K ;
 
 !+V+Imprt+Sg2:^WG # ;
@@ -830,10 +830,10 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ;
 +V+Pass+PrfPrc:^WG%>t^U x3_oblique ;
 
-+V+Act+PrsPrc:e%>v^A x3 ;
+!+V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc:%>t^Uv^A x3_oblique ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Uv^A K ;
-
++V+Pass+PrsPrc+Pl+Nom:%>t^Uv^At K ;
 +V+Pass+Cond:%>i4si K ;
 
 +V+Act+Ind+Prs+ConNeg:e K ;
