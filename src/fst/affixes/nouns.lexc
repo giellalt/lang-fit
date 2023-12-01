@@ -43,6 +43,10 @@ LEXICON nx
 !! **LEXICON @LEXNAME@** pointing to *n1*.
 n1 ; ! nx
 
+LEXICON n_nomorph
+!! **LEXICON @LEXNAME@** pointing to *n1*.
++N: K ; 
+
 LEXICON nc ! romani chib
 !! **LEXICON @LEXNAME@** for consonant-final nouns, structure CVC
 +N: xc_sg ;
