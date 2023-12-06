@@ -8,7 +8,7 @@
 
 !! ### Continuation lexica for regular verbs
 !!  * **v1** = antaa; sanoa:sano
-!!  * **v1_tietaa** = tietää:
+!!  * **v1_tietaa** = tietää:ti
 !!  * **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
 !!  * **v2_ta** = leipota:leippo (+^A^A i Sg3)
 !!  * **v2** = continuationlexicon for both v2_ata and v2_ta
@@ -3679,7 +3679,7 @@ tukahtua:tukahtu v1 ;
 ilahtua:ilahtu v1 ;
 mahtua:mahtu v1 ;
 pahtua:pahtu v1 ;
-tapahtua:tapahtu v1 ;
+tapahtua:tapahtu v1_nn ;
 kasahtua:kasahtu v1 ;
 paljehtua:paljehtu v1 ;
 karjehtua:karjehtu v1 ;
@@ -5229,7 +5229,7 @@ säästää:säästä v1 ;
 höröstää:höröstä v1 ;
 ryöstää:ryöstä v1 ;
 tehettää:tehettä v1 ;
-lähettää:lähettä v1 ;
+lähettää:lähettä v1_nn ;
 liettää:liettä v1 ;
 piettää:piettä v1 ;
 siettää:siettä v1 ;
@@ -5297,7 +5297,7 @@ esittää:esittä v1 ;
 kiesittää:kiesittä v1 ;
 kirsittää:kirsittä v1 ;
 kissittää:kissittä v1 ;
-käsittää:käsittä v1 ;
+käsittää:käsittä v1_nn ;
 letittää:letittä v1 ;
 tiitittää:tiitittä v1 ;
 äitittää:äitittä v1 ;
@@ -5488,7 +5488,7 @@ köyttää:köyttä v1 ;
 hyöyttää:hyöyttä v1 ;
 myöyttää:myöyttä v1 ;
 veättää:veättä v1 ;
-lähättää:lähättä v1 ;
+lähättää:lähättä v1_nn ;
 läähättää:läähättä v1 ;
 iättää:iättä v1 ;
 piättää:piättä v1 ;

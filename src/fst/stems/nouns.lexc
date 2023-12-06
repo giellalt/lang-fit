@@ -7,7 +7,7 @@
 !! This is an overview of the continuation lexicon types.
 
 !! * nx = unassigned
-!! * n_nomorph = uninflected nouns: Covid-19
+!! * n_nomorph = uninflected nouns: covid-19
 
 !! Vowel stems
 
@@ -15495,4 +15495,4 @@ aatos:aato 3n_ks ;
 prohveeta:prohveeta nx ;
 prohveetta:prohveetta nx ;
 farisealainen:farisealai nen ; 
-Covid-19 n_nomorph ;
+covid-19 n_nomorph ;

@@ -150,7 +150,7 @@ LEXICON v1_tietaa !RENSAD
 +V+InfMa+Ade:et%>^Am^All^A K ;
 +V+InfMa+Abe:et%>^Am^Att^A K ;
 
-+V+Act+PrsPrc:%>v^A x3 ;
++V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc:e%>tt^Av^A x3 ; 
 
 +V+Act+PrfPrc+Sg+Nom:e%>^N^U K ; !variantform
@@ -236,6 +236,10 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
 
+LEXICON v1_nn  !!≈ * **@CODE@** käsittää>käsittänny osv !RENSAD
+v1 ;
++V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;  
+
 LEXICON v2_ata !!≈ * **@CODE@** huomata etc, Prs+Sg3 huoma/a
 v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
@@ -278,7 +282,6 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
 +V+Act+Cond:%>i4s 2cond ;
-+V+Act+Cond+Sg1+Nom:%>i4sin K ;
 +V+Pass+Cond:tt%>^Ai4s K ;
 
 +V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
@@ -597,8 +600,7 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Pass+PrsPrc:h%>t^A%>v^A x3 ;
 +V+Act+Ind+Prs+ConNeg:he K ;
 
-+V+Act+Cond+Sg1:k%>i4s 2cond ;
-
++V+Act+Cond:k%>i4s 2cond ;
 +V+Pass+Cond:htä%>i4s K ;
 
 +V+Act+Imprt+Sg2:he K   ;
@@ -630,7 +632,6 @@ LEXICON v4  !!≈ * **@CODE@**
 +V+InfMa+Ela:e%>m^Ast^A K ;
 +V+InfMa+Ade:e%>m^All^A K ; 
 +V+InfMa+Abe:e%>m^Att^A K ;
-
 
 +V+Pass+Ind+Prs:%^HMET2%>h^A^An K ; 
 +V+Pass+Ind+Prs:%>h^A^An K ;
@@ -827,7 +828,7 @@ LEXICON v4_4lla  !!≈ * **@CODE@**
 +V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ;
 +V+Pass+PrfPrc:^WG%>t^U x3_oblique ;
 
-!+V+Act+PrsPrc:e%>v^A x3 ;
++V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc:%>t^Uv^A x3_oblique ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Uv^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%>t^Uv^At K ;

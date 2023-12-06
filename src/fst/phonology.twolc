@@ -222,8 +222,9 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: all tt give t
         [i|u]              _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata; huutaa>huua
-        VowelNotI (h)   _ Vow:       WeakGrade (%>) [Cns:|%^E2I:0|i3:] ; ! katu : kaun !CHECK ändrat för att få lähen, lähin
-       [ä|e]            _  i        WeakGrade ; !
+        [a|e|y|ä|ö] h   _ Vow:       WeakGrade (%>) i3: ; ! för att få lähen, lähin
+        VowelNotI (h)   _ Vow:       WeakGrade (%>) [Cns:|%^E2I:0] ; ! katu : kaun        
+        [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
                   Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
 
@@ -303,8 +304,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
  Vow           _ (:s)   e:0                    %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc.|vuossii(n)|uusia] ! uusine
  Vow [n|l|r]   _       e:0  (%^WG:0)   %^E2I:  %> i2: ; ! hirsiksi, hirsi (pl - gen par) 
  Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
-        [i|u|y|ö] [e|u|y] _ (:s) Vow: (%^AO:0) (%^WG:0) %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi) !
-        h  u u _ a: %^WG:0 %> i3: n ;
+        [i|u|y|ö] [e|u|y] _ (:s) Vow: (%^AO:0) (%^WG:0) %> i3: ;   ! huuttaat:huusi, löyttäät:löysi (ei sousi, nousi tai hoisi) 
  Vow  n        _     Vow:0  [Dummy:* - %^WG:0] %> i3: ;
  Vow [n|l|r]   _ (:s) Vow:0 (%^WG:0)  (%^AO:0) %> i3: ;
              i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
@@ -676,6 +676,7 @@ a:0 <=>                                              _ [%^HMETA: | %^HMET2:] %> 
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa TEST extravokal koirile (ta bort sista (Vow:)?)
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   ! ??? 
+    [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
 
 !! **Tests:**
 !!€ kuva>i2ss^A
