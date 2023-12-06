@@ -1678,7 +1678,10 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
-* v2 = huomata, tryykätä:tryykkä
+* v1_tietaa = tietää:
+* v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
+* v2_ta = leipota:leippo (+^A^A i Sg3)
+* v2 = continuationlexicon for both v2_ata and v2_ta
 * v3 = myyta:myy
 * v3_j = viejä, saaja
 * v4 = nousta; tulla:tul
@@ -1690,6 +1693,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * vx = unassigned
 
 ### Overview over the Irregular verbs
+* OLLA = olla:olla 
 * v3_kaya = käyä:kä
 * v3_nahha = nähhä:nä
 * v3_tehha = tehhä:te
@@ -1706,7 +1710,7 @@ Irregular verbs
 
 Regular verbs
 
-* **LEXICON v1** sanoa, lukea, antaa
+* **LEXICON v1** sanoa, lukea, antaa !RENSAD
 
 * **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
 
@@ -3341,7 +3345,10 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 
 ### Continuation lexica for regular verbs
 * **v1** = antaa; sanoa:sano
-* **v2** = huomata
+* **v1_tietaa** = tietää:
+* **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
+* **v2_ta** = leipota:leippo (+^A^A i Sg3)
+* **v2** = continuationlexicon for both v2_ata and v2_ta
 * **v3** = syö'ä:syö ! ', ’
 * **v4** = nousta; tulla:tul
 * **v4_3la** = varjela, varjelee
