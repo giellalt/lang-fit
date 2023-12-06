@@ -7,7 +7,10 @@
 
 !! ### Overview over the Regular verbs
 !!  * v1 = antaa; sanoa:sano
-!!  * v2 = huomata, tryykätä:tryykkä
+!!  * v1_tietaa = tietää:
+!!  * v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
+!!  * v2_ta = leipota:leippo (+^A^A i Sg3)
+!!  * v2 = continuationlexicon for both v2_ata and v2_ta
 !!  * v3 = myyta:myy
 !!  * v3_j = viejä, saaja
 !!  * v4 = nousta; tulla:tul
@@ -19,6 +22,7 @@
 !!  * vx = unassigned
 
 !! ### Overview over the Irregular verbs
+!!  * OLLA = olla:olla 
 !!  * v3_kaya = käyä:kä
 !!  * v3_nahha = nähhä:nä
 !!  * v3_tehha = tehhä:te
@@ -34,11 +38,6 @@ v1 ; ! vx
 
 LEXICON OLLA !!≈ * **@CODE@**
 +V+Inf:olla KK ;
-+V+InfE+Ins:ollen K ;
-+V+InfE+Ine:ollessa K ;
-+V+InfMa:ole 3infcase ;
-+V+InfMa+Ill:ole%>^HMET2mh^A^An K ; 
-+V+Der+Der/minen:ole#mis nen ;
 
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
@@ -83,6 +82,11 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
++V+InfE+Ins:ollen K ;
++V+InfE+Ine:ollessa K ;
++V+InfMa:ole 3infcase ;
++V+InfMa+Ill:ole%>^HMET2mh^A^An K ; 
+
 ! ! Derivation
 +V+Der+Der/minen:olemi nen ;
 
@@ -103,8 +107,38 @@ LEXICON v1_otta
 :otta v1 ; ! korrekt
 +Err/Orth:oitta v1 ; ! finska och fel
 
-LEXICON v1_tietaa
+LEXICON v1_tietaa !RENSAD
 +V+Inf:et%>^A^A KK ;
++V+Act+Ind+Prs+Sg1:^A%>n K ;
++V+Act+Ind+Prs+Sg2:^A%>t K ;
++V+Act+Ind+Prs+Sg3:e%>t^A^A K ;
++V+Act+Ind+Prs+Pl1:^A%>m^A K ;
++V+Act+Ind+Prs+Pl2:^A%>tt^A K ;
++V+Act+Ind+Prs+Pl3:et%>^Av^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:et%>^Av^At K ;
++V+Pass+Ind+Prs:e%>th^A^An K ;
++V+Act+Ind+Prs+ConNeg:^A K ;
++V+Pass+Ind+Prs+ConNeg:e%>t^A K ;
+
++V+Act+Ind+Prt+Sg1:es%>i3n K ;
++V+Act+Ind+Prt+Sg2:es%>i3t K ;
++V+Act+Ind+Prt+Sg3:es%>i3 K ; 
++V+Act+Ind+Prt+Pl1:es%>i3m^A K ;
++V+Act+Ind+Prt+Pl2:es%>i3tt^A K ;
++V+Act+Ind+Prt+Pl3:es%>i3t K ;
++V+Act+Ind+Prt+Pl3:es%>i3v^A K ; !GEO
++V+Pass+Ind+Prt:e%>thiin K ;
++V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
+
++V+Act+Cond+Sg1:e%>sin K ; ! 
++V+Act+Cond+Sg2:e%>sit K ;
++V+Act+Cond+Sg3:es K ;
++V+Act+Cond+Pl1:e%>simm^A K ;
++V+Act+Cond+Pl2:e%>sitt^A K ;
++V+Act+Cond+Pl3:e%>sit K ;
++V+Act+Cond+ConNeg:e%>isi K ;
++V+Pass+Cond:e%>tt^A%>i4s K ; 
+
 +V+Inf+Tra:e%>^Akse PxK ;
 +V+InfE+Ins:et%>^Aen K ;
 +V+InfE+Ine:et%>^Aess^A K ;
@@ -116,65 +150,61 @@ LEXICON v1_tietaa
 +V+InfMa+Ade:et%>^Am^All^A K ;
 +V+InfMa+Abe:et%>^Am^Att^A K ;
 
-+V+Pass+Ind+Prs:e%>th^A^An K ;
-+V+Pass+Ind+Prt:e%>thiin K ;
-!+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
-+V+Pass+Cond:e%>tt^A%>i4s K ; 
-
-+V+Act+Ind+Prs+ConNeg:^A K ;
-+V+Act+Cond+ConNeg:e%>isi K ;
-+V+Pass+Ind+Prs+ConNeg:e%>t^A K ;
-+V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
-
 +V+Act+PrsPrc:%>v^A x3 ;
-+V+Act+PrfPrc+Sg+Nom:e%>^N^U K ;
++V+Pass+PrsPrc:e%>tt^Av^A x3 ; 
+
++V+Act+PrfPrc+Sg+Nom:e%>^N^U K ; !variantform
 +V+Act+PrfPrc+Sg+Nom:et%>^A^N^U K ; 
 +V+Act+PrfPrc+Pl+Nom:e%>hneet K ;
-+V+Act+PrfPrc+Pl+Nom:e%>nheet K ; !HÄR CHECK
-+V+Act+PrfPrc+Pl+Nom:et%>^Ahneet K ;
++V+Act+PrfPrc+Pl+Nom:e%>nheet K ; !HÄR CHECK HMET2
++V+Act+PrfPrc+Pl+Nom:et%>^Ahneet K ; !variantform
 +V+Act+PrfPrc+Pl+Nom:et%>^Anheet K ;
-
 +V+Pass+PrfPrc+Sg+Nom:e%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:e%>t^Ut K ; 
-+V+Pass+PrsPrc:e%>tt^Av^A x3 ; 
 
 +V+Act+Imprt+Sg2: # ;
 +V+Act+Imprt+Sg:ä%>kh^O^On # ;
 +V+Act+Imprt+Pl2:ä%>k^A^A # ;
 +V+Act+Imprt+Pl3:ä%>kh^O^Ot # ;
 
-+V+Act+Ind+Prs+Sg1:^A%>n K ;
-+V+Act+Ind+Prs+Sg2:^A%>t K ;
-+V+Act+Ind+Prs+Sg3:e%>t^A^A K ;
-+V+Act+Ind+Prs+Pl1:^A%>m^A K ;
-+V+Act+Ind+Prs+Pl2:^A%>tt^A K ;
-+V+Act+Ind+Prs+Pl3:et%>^Av^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:et%>^Av^At K ;
-
-+V+Act+Ind+Prt+Sg1:es%>i3n K ;
-+V+Act+Ind+Prt+Sg2:es%>i3t K ;
-+V+Act+Ind+Prt+Sg3:es%>i3 K ; 
-+V+Act+Ind+Prt+Pl1:es%>i3m^A K ;
-+V+Act+Ind+Prt+Pl2:es%>i3tt^A K ;
-+V+Act+Ind+Prt+Pl3:es%>i3t K ;
-+V+Act+Ind+Prt+Pl3:es%>i3v^A K ; !GEO
-
-+V+Act+Cond+Sg1:e%>sin K ; ! 
-+V+Act+Cond+Sg2:e%>sit K ;
-+V+Act+Cond+Sg3:es K ;
-!+V+Act+Cond+Sg3:e%>si K ; 
-+V+Act+Cond+Pl1:e%>simm^A K ;
-+V+Act+Cond+Pl2:e%>sitt^A K ;
-+V+Act+Cond+Pl3:e%>sit K ;
-
-!+V+Cond:%>is 2cond ;
-
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
 
 
-LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
+LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 +V+Inf:%>^A KK ;
++V+Act+Ind+Prs+Sg1:^WG%>n K ;
++V+Act+Ind+Prs+Sg2:^WG%>t K ;
++V+Act+Ind+Prs+Sg3:%>^V K ;
++V+Act+Ind+Prs+Pl1:^WG%>m^A K ;
++V+Act+Ind+Prs+Pl2:^WG%>tt^A K ;
++V+Act+Ind+Prs+Pl3:%>v^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
++V+Act+Ind+Prs+ConNeg:%^WG K ;
++V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
++V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
+
++V+Act+Ind+Prt+Sg1:^WG%>i3n K ;
++V+Act+Ind+Prt+Sg2:^WG%>i3t K ;
++V+Act+Ind+Prt+Sg3:%>i3 K ; ! antoi, äänesti, pieksi
++V+Act+Ind+Prt+Sg3:%>i8 K ; ! anto, äänesti, pieksi !CHECK vilka??
++V+Act+Ind+Prt+Pl1:^WG%>i3m^A K ;
++V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
++V+Act+Ind+Prt+Pl3:^WG%>i3t K ;
++V+Act+Ind+Prt+Pl3:%>i3v^A K ; !GEO!
++V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
++V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
+
++V+Act+Cond+Sg1:%>isin K ; ! kävisin
++V+Act+Cond+Sg2:%>isit K ;
++V+Act+Cond+Sg3:is K ;
+!+V+Act+Cond+Sg3:%>isi K ; 
++V+Act+Cond+Pl1:%>isimm^A K ;
++V+Act+Cond+Pl2:%>isitt^A K ;
++V+Act+Cond+Pl3:%>isit K ;
++V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; 
++V+Act+Cond+ConNeg:%>isi K ;
+
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>ess^A K ;
@@ -187,57 +217,21 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+InfMa+Ade:%>m^All^A K ; !CHECK TODO -la / -lla
 +V+InfMa+Abe:%>m^Att^A K ;
 
-+V+Pass+Ind+Prs:%^AE%^WG%>th^A^An K ;
-+V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
-!+V+Pass+Cond:%^AE%^WG%>th^A%>i4si K ;
-+V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; !extra stavelsegräns för ^A-funktion
-
-+V+Act+Ind+Prs+ConNeg:%^WG K ;
-+V+Act+Cond+ConNeg:%>isi K ;
-+V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
-+V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
-
 +V+Act+PrsPrc:%>v^A x3 ;
++V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
+
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 !+V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ; !CHECK EK hur göra med detta?
 +V+Act+PrfPrc:%>^Nhee x3_oblique ; 
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
-
 +V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:^AE^WG%>tt^Ut K ; 
-+V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:%>kh^O^On # ;
 +V+Act+Imprt+Pl2:%>k^A^A # ;
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ;
 
-+V+Act+Ind+Prs+Sg1:^WG%>n K ;
-+V+Act+Ind+Prs+Sg2:^WG%>t K ;
-+V+Act+Ind+Prs+Sg3:%>^V K ;
-+V+Act+Ind+Prs+Pl1:^WG%>m^A K ;
-+V+Act+Ind+Prs+Pl2:^WG%>tt^A K ;
-+V+Act+Ind+Prs+Pl3:%>v^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
-
-+V+Act+Ind+Prt+Sg1:^WG%>i3n K ;
-+V+Act+Ind+Prt+Sg2:^WG%>i3t K ;
-+V+Act+Ind+Prt+Sg3:%>i3 K ; ! antoi, äänesti, pieksi
-+V+Act+Ind+Prt+Sg3:%>i8 K ; ! anto, äänesti, pieksi !CHECK vilka??
-+V+Act+Ind+Prt+Pl1:^WG%>i3m^A K ;
-+V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
-+V+Act+Ind+Prt+Pl3:^WG%>i3t K ;
-+V+Act+Ind+Prt+Pl3:%>i3v^A K ; !GEO!
-
-+V+Act+Cond+Sg1:%>isin K ; ! kävisin
-+V+Act+Cond+Sg2:%>isit K ;
-+V+Act+Cond+Sg3:is K ;
-!+V+Act+Cond+Sg3:%>isi K ; 
-+V+Act+Cond+Pl1:%>isimm^A K ;
-+V+Act+Cond+Pl2:%>isitt^A K ;
-+V+Act+Cond+Pl3:%>isit K ;
-
-!+V+Cond:%>is 2cond ;
 
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
@@ -254,6 +248,25 @@ v2 ;
 
 LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Inf:^WG%>t^A K ;
++V+Act+Ind+Prs+Sg1:%>^An K ;
++V+Act+Ind+Prs+Sg2:%>^At K ;
++V+Act+Ind+Prs+Pl1:%>^Am^A K ;
++V+Act+Ind+Prs+Pl2:%>^Att^A K ;
++V+Act+Ind+Prs+Pl3:%>^Av^A K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ;
++V+Act+Ind+Prs+ConNeg:%>^A K ;
++V+Pass+Ind+Prs:%^WG%>th^A^An K ;
++V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
+
++V+Act+Ind+Prt+Sg1:%>sin K ;
++V+Act+Ind+Prt+Sg2:%>sit K ;
++V+Act+Ind+Prt+Sg3:%>si K ;
++V+Act+Ind+Prt+Pl1:%>simm^A K ;
++V+Act+Ind+Prt+Pl2:%>sitt^A K ;
++V+Act+Ind+Prt+Pl3:%>sit K ;
++V+Pass+Ind+Prt:%^WG%>thiin K ;
++V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
+
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:t%>en K ;
 +V+InfE+Ine:t%>ess^A K ;
@@ -264,41 +277,25 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
-+V+Act+Ind+Prs+ConNeg:%>^A K ;
++V+Act+Cond:%>i4s 2cond ;
++V+Act+Cond+Sg1+Nom:%>i4sin K ;
++V+Pass+Cond:tt%>^Ai4s K ;
 
-+V+Pass+Ind+Prs:%^WG%>th^A^An K ;
-+V+Pass+Ind+Prt:%^WG%>thiin K ;
-+V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
-+V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
++V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
++V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
++V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ;
++V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ;
+
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
 +V+Act+PrfPrc+Pl+Nom:n^HMET2%>heet K ;
 +V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:t%>^Ut K ;
-+V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ;
-+V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ;
-+V+Pass+Cond:tt%>^Ai4s K ;
 
 +V+Imprt+Sg2:^WG # ;
 +V+Imprt+Sg:%>kh^O^On # ;
 +V+Imprt+Pl2:%>kh^A^A # ;
 +V+Imprt+Pl3:%>kh^O^Ot # ;
-
-+V+Act+Ind+Prs+Sg1:%>^An K ;
-+V+Act+Ind+Prs+Sg2:%>^At K ;
-+V+Act+Ind+Prs+Pl1:%>^Am^A K ;
-+V+Act+Ind+Prs+Pl2:%>^Att^A K ;
-+V+Act+Ind+Prs+Pl3:%>^Av^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ;
-
-+V+Act+Ind+Prt+Sg1:%>sin K ;
-+V+Act+Ind+Prt+Sg2:%>sit K ;
-+V+Act+Ind+Prt+Sg3:%>si K ;
-+V+Act+Ind+Prt+Pl1:%>simm^A K ;
-+V+Act+Ind+Prt+Pl2:%>sitt^A K ;
-+V+Act+Ind+Prt+Pl3:%>sit K ;
-
-+V+Cond:%>is 2cond ;
 
 +V+Der+Der/minen+N:%>^A^Ami xnen ;
 
@@ -350,7 +347,7 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 +V+Act+Ind+Prt+Pl3:tt%>it K ;
 +V+Act+Ind+Prt+Pl3:tt%>iv^A K ; !GEO!
 
-!+V+Cond:%>is 2cond ;
+!+V+Act+Cond:%>is 2cond ;
 !+V+Der+Der/minen+N:%>^A^Ami xnen ;
 
 LEXICON ptc_obl
@@ -466,7 +463,7 @@ LEXICON v3_other
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 
-+V+Cond:%>is 2cond ;
++V+Act+Cond:%>is 2cond ;
 
 +V+Der+Der/minen+N:mi xnen ;
 
