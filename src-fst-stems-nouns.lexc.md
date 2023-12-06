@@ -7,7 +7,7 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 This is an overview of the continuation lexicon types.
 
 * nx = unassigned
-* n_nomorph = uninflected nouns: Covid-19
+* n_nomorph = uninflected nouns: covid-19
 
 Vowel stems
 

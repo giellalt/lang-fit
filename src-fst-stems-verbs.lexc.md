@@ -8,7 +8,7 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 
 ### Continuation lexica for regular verbs
 * **v1** = antaa; sanoa:sano
-* **v1_tietaa** = tietää:
+* **v1_tietaa** = tietää:ti
 * **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
 * **v2_ta** = leipota:leippo (+^A^A i Sg3)
 * **v2** = continuationlexicon for both v2_ata and v2_ta

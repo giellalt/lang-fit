@@ -40,6 +40,8 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa !RENSAD
 
+* **LEXICON v1_nn** käsittää>käsittänny osv !RENSAD
+
 * **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
 
 * **LEXICON v2_ta** haluta etc, Prs+Sg3 halu/aa

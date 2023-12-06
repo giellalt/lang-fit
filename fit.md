@@ -1712,6 +1712,8 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa !RENSAD
 
+* **LEXICON v1_nn** käsittää>käsittänny osv !RENSAD
+
 * **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
 
 * **LEXICON v2_ta** haluta etc, Prs+Sg3 halu/aa
@@ -2860,7 +2862,7 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 This is an overview of the continuation lexicon types.
 
 * nx = unassigned
-* n_nomorph = uninflected nouns: Covid-19
+* n_nomorph = uninflected nouns: covid-19
 
 Vowel stems
 
@@ -3345,7 +3347,7 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 
 ### Continuation lexica for regular verbs
 * **v1** = antaa; sanoa:sano
-* **v1_tietaa** = tietää:
+* **v1_tietaa** = tietää:ti
 * **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
 * **v2_ta** = leipota:leippo (+^A^A i Sg3)
 * **v2** = continuationlexicon for both v2_ata and v2_ta
