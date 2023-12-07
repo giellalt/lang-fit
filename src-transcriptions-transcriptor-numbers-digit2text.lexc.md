@@ -3,7 +3,7 @@
 Transcribing numbers to words in Finnish is not completely trivial, one
 reason is that numbers in Finnish are written as compounds, regardless of
 length:
-123456 is *satakaksikymmentäkolmetuhattaneljesataaviisikymmentäkuusi*.
+123456 is *satakaksikymmentäkolmetuhattaneljäsataaviisikymmentäkuusi*.
 Another limitation is that inflections can be unmarked in running text,
 that is digit expression is assumed to agree the case of the phrase it is in,
 e.g.
@@ -42,10 +42,10 @@ by the lexicon structure in descending order of magnitude with examples.
 * *1:* `yksi`
 * *21:* `kaksikymmentäyksi`
 * *321:* `kolmesataakaksikymmentäyksi`
-* *4321:* `neljetuhattakolmesataakaksikymmentäyksi`
-* *54321:* `viisikymmentäneljetuhattakolmesataakaksikymmentäyksi`
-* *654321:* `kuusisataaviisikymmentäneljetuhattakolmesataakaksikymmentäyksi`
-* *7654321:* `seittemenmiljoonaakuusisataaviisikymmentäneljetuhattakolmesataakaksikymmentäyksi`
+* *4321:* `neljätuhattakolmesataakaksikymmentäyksi`
+* *54321:* `viisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
+* *654321:* `kuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
+* *7654321:* `seittemenmiljoonaakuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
 
 Lexicon `HUNDREDSMRD` contains numbers 2-9 that need to be followed by exactly
 11 digits: 200 000 000 000–999 999 999 999
@@ -193,7 +193,7 @@ this is to implement ...N*tuhatta*...
 
 * Thousands examples:*
 * *2000:* `kaksituhatta`
-* *3456:* `kolmetuhattaneljesataaviisikymmentäkuusi`
+* *3456:* `kolmetuhattaneljäsataaviisikymmentäkuusi`
 
 Lexicon `THOUSAND` is for the ones-tens-hundreds of numbers greater than thousand
 
@@ -208,7 +208,7 @@ this is to implement N*sataa*...
 
 * Hundreds examples:*
 * *200:* `kaksisataa`
-* *345:* `kolmesataaneljekymmentäviisi`
+* *345:* `kolmesataaneljäkymmentäviisi`
 
 Lexicon `HUNDRED` is for numbers in range: 100–999
 
@@ -231,7 +231,7 @@ this is to implement ...N*kymmentä*...
 
 * Tens examples:*
 * *20:* `kaksikymmentä`
-* *34:* `kolmekymmentänelje`
+* *34:* `kolmekymmentäneljä`
 
 Lexicon `JUSTTEN` is for number 10
 this is to implement ...*kymmenen*
