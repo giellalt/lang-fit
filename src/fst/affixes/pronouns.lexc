@@ -147,8 +147,8 @@ LEXICON relkys
 +Nom+Clt:%>k^As # ;
 +Gen:%>nk^A K ;
 +Gen+Clt:%>nk^As # ;
-+Ill:%>%>h^Vn K ;
-+Ill:%>%>h^Vnk^A K ;
++Ill:%>h^Vn K ;
++Ill:%>h^Vnk^A K ;
 +Par:%>t^A K ;
 +Par+Clt:%>t^As # ;
 +Ess:%>n^A    K ;

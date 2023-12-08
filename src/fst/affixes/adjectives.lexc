@@ -20,7 +20,8 @@ LEXICON a1
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
 +A+Comp: 3comp ; !!≈ * @CODE@
-+A+Superl:ime 3sup ; !!≈ * @CODE@
+!+A+Superl:ime 3sup ; !!≈ * @CODE@
++A+Superl: 3sup ; !!≈ * @CODE@
 
 
 LEXICON a2

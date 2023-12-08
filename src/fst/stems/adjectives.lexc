@@ -1816,7 +1816,7 @@ armas:arma aas ;
 reipas:reippa aas ;
 valpas:valppa aas ;
 iltavalpas:iltavalppa aas ;
-!paras:para aas ;
+paras:para aas ;
 vieras:viera aas ;
 ventovieras:ventoviera aas ;
 sairas:saira aas ;
