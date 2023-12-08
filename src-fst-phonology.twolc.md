@@ -265,7 +265,6 @@ tule>mhaan
 * *pittä>ä*
 
 **RULE: Gemination 0:v**
-
 **Tests:**
 
 * *kuv0a^HMETA>hiin*

@@ -1043,7 +1043,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 * +A: x1 ;
 * +A+Comp: 3comp ;
-* +A+Superl:ime 3sup ;
+* +A+Superl: 3sup ;
 
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
@@ -2035,7 +2035,6 @@ tule>mhaan
 * *pittä>ä*
 
 **RULE: Gemination 0:v**
-
 **Tests:**
 
 * *kuv0a^HMETA>hiin*
