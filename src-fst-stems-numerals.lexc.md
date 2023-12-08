@@ -150,18 +150,18 @@ being very rare to extinct for nouns.
 * *kaheksinna:* `kaheksen+Num+Pl+Ess`
 
 * Numerals 10n front examples:*
-* *yheksen:* `yheksen+Num+Sg+Nom`
-* *yheksee:* `yheksen+Num+Sg+Par`
-* *yheksheen:* `yheksen+Num+Sg+Ill`
-* *yheksessä:* `yheksen+Num+Sg+Ine`
-* *yheksellä:* `yheksen+Num+Sg+Ade`
-* *yheksennä:* `yheksen+Num+Sg+Ess`
-* *yheksii:* `yheksen+Num+Pl+Par`
-* *yheksiitä:* `yheksen+Num+Pl+Par`
-* *yheksiitten:* `yheksen+Num+Pl+Gen`
-* *yhekshiin:* `yheksen+Num+Pl+Ill`
-* *yheksissä:* `yheksen+Num+Pl+Ine`
-* *yheksinnä:* `yheksen+Num+Pl+Ess`
+* *yheksän:* `yheksän+Num+Sg+Nom`
+* *yheksää:* `yheksän+Num+Sg+Par`
+* *yheksheen:* `yheksän+Num+Sg+Ill`
+* *yheksessä:* `yheksän+Num+Sg+Ine`
+* *yheksellä:* `yheksän+Num+Sg+Ade`
+* *yheksännä:* `yheksän+Num+Sg+Ess`
+* *yheksii:* `yheksän+Num+Pl+Par`
+* *yheksiitä:* `yheksän+Num+Pl+Par`
+* *yheksiitten:* `yheksän+Num+Pl+Gen`
+* *yhekshiin:* `yheksän+Num+Pl+Ill`
+* *yheksissä:* `yheksän+Num+Pl+Ine`
+* *yheksinnä:* `yheksän+Num+Pl+Ess`
 
 * Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`

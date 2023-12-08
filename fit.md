@@ -3070,18 +3070,18 @@ being very rare to extinct for nouns.
 * *kaheksinna:* `kaheksen+Num+Pl+Ess`
 
 * Numerals 10n front examples:*
-* *yheksen:* `yheksen+Num+Sg+Nom`
-* *yheksee:* `yheksen+Num+Sg+Par`
-* *yheksheen:* `yheksen+Num+Sg+Ill`
-* *yheksessä:* `yheksen+Num+Sg+Ine`
-* *yheksellä:* `yheksen+Num+Sg+Ade`
-* *yheksennä:* `yheksen+Num+Sg+Ess`
-* *yheksii:* `yheksen+Num+Pl+Par`
-* *yheksiitä:* `yheksen+Num+Pl+Par`
-* *yheksiitten:* `yheksen+Num+Pl+Gen`
-* *yhekshiin:* `yheksen+Num+Pl+Ill`
-* *yheksissä:* `yheksen+Num+Pl+Ine`
-* *yheksinnä:* `yheksen+Num+Pl+Ess`
+* *yheksän:* `yheksän+Num+Sg+Nom`
+* *yheksää:* `yheksän+Num+Sg+Par`
+* *yheksheen:* `yheksän+Num+Sg+Ill`
+* *yheksessä:* `yheksän+Num+Sg+Ine`
+* *yheksellä:* `yheksän+Num+Sg+Ade`
+* *yheksännä:* `yheksän+Num+Sg+Ess`
+* *yheksii:* `yheksän+Num+Pl+Par`
+* *yheksiitä:* `yheksän+Num+Pl+Par`
+* *yheksiitten:* `yheksän+Num+Pl+Gen`
+* *yhekshiin:* `yheksän+Num+Pl+Ill`
+* *yheksissä:* `yheksän+Num+Pl+Ine`
+* *yheksinnä:* `yheksän+Num+Pl+Ess`
 
 * Numerals 32 examples:*
 * *kymmenen:* `kymmenen+Num+Sg+Nom`
@@ -3616,7 +3616,7 @@ length:
 Another limitation is that inflections can be unmarked in running text,
 that is digit expression is assumed to agree the case of the phrase it is in,
 e.g.
-27 is *kaksikymmentäseittemen*, and
+27 is *kaksikymmentäseittemän*, and
 27:lle *kahdellekymmenelleseittemälle*
 but in a phrase: "tarjosin 27 osanottajalle" 27 assumes the allative case
 without marking and it is preferred grammatical form in good writing.
@@ -3654,7 +3654,7 @@ by the lexicon structure in descending order of magnitude with examples.
 * *4321:* `neljätuhattakolmesataakaksikymmentäyksi`
 * *54321:* `viisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
 * *654321:* `kuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
-* *7654321:* `seittemenmiljoonaakuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
+* *7654321:* `seittemänmiljoonaakuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi`
 
 Lexicon `HUNDREDSMRD` contains numbers 2-9 that need to be followed by exactly
 11 digits: 200 000 000 000–999 999 999 999
@@ -3828,8 +3828,8 @@ Lexicon `TEEN` is for numbers with 11–19
 this is to implement ...*N*toista
 
 * Teens examples:*
-* *11:* `yksitoista`
-* *12:* `kaksitoista`
+* *11:* `ykstoista`
+* *12:* `kakstoista`
 * *13:* `kolmetoista`
 
 Lexicon `TENS` is for numbers with 20–90
