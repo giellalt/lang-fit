@@ -9,7 +9,7 @@
 !! Another limitation is that inflections can be unmarked in running text,
 !! that is digit expression is assumed to agree the case of the phrase it is in,
 !! e.g.
-!! 27 is *kaksikymmentäseittemen*, and
+!! 27 is *kaksikymmentäseittemän*, and
 !! 27:lle *kahdellekymmenelleseittemälle*
 !! but in a phrase: "tarjosin 27 osanottajalle" 27 assumes the allative case
 !! without marking and it is preferred grammatical form in good writing.
@@ -49,7 +49,7 @@ LEXICON Root
 !!€  4321: neljätuhattakolmesataakaksikymmentäyksi
 !!€  54321: viisikymmentäneljätuhattakolmesataakaksikymmentäyksi
 !!€  654321: kuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi
-!!€  7654321: seittemenmiljoonaakuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi
+!!€  7654321: seittemänmiljoonaakuusisataaviisikymmentäneljätuhattakolmesataakaksikymmentäyksi
 HUNDREDSMRD ;		! 200 000 000 000–999 999 999 999
 @U.CASE.SGNOM@1:@U.CASE.SGNOM@sata HUNDREDMRD ;	! 100 000 000 000-199 999 999 999
 @U.CASE.SGALL@1:@U.CASE.SGALL@sadalle HUNDREDMRD ;	! 100 000 000 000-199 999 999 999
@@ -89,7 +89,7 @@ LEXICON HUNDREDSMRD
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä CUODIMRD ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi CUODIMRD ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi CUODIMRD ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen CUODIMRD ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän CUODIMRD ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan CUODIMRD ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän CUODIMRD ;
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle  CUODIMRD ;
@@ -139,7 +139,7 @@ LEXICON TEENMRD
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LOHKAIMRD ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LOHKAIMRD ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LOHKAIMRD ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LOHKAIMRD ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LOHKAIMRD ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LOHKAIMRD ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LOHKAIMRD ;
 @U.CASE.SGALL@1:@U.CASE.SGALL@yhdelle LOHKAIMRD ;
@@ -164,7 +164,7 @@ LEXICON TENSMRD
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LÅGEVMRD ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LÅGEVMRD ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LÅGEVMRD ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LÅGEVMRD ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LÅGEVMRD ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LÅGEVMRD ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LÅGEVMRD ;
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle LÅGEVMRD ;
@@ -204,7 +204,7 @@ LEXICON ONESMRD
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä MILJARD ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi MILJARD ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi MILJARD ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen MILJARD ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän MILJARD ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan MILJARD ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän MILJARD ;
 @U.CASE.SGALL@1:@U.CASE.SGALL@miljardille OVERMILLIONS ;
@@ -262,7 +262,7 @@ LEXICON HUNDREDSM
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä CUODIM ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi CUODIM ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi CUODIM ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen CUODIM ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän CUODIM ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan CUODIM ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän CUODIM ;
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle  CUODIM ;
@@ -310,7 +310,7 @@ LEXICON TEENM
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LOHKAIM ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LOHKAIM ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LOHKAIM ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LOHKAIM ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LOHKAIM ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LOHKAIM ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LOHKAIM ;
 @U.CASE.SGALL@1:@U.CASE.SGALL@yhdelle LOHKAIM ;
@@ -335,7 +335,7 @@ LEXICON TENSM
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LÅGEVM ;
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LÅGEVM ;
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LÅGEVM ;
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LÅGEVM ;
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LÅGEVM ;
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LÅGEVM ;
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LÅGEVM ;
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle LÅGEVM ;
@@ -375,7 +375,7 @@ LEXICON ONESM
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä MILJON ;     ! 4######
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi MILJON ;     ! 5######
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi MILJON ;     ! 6######
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen MILJON ; ! 7######
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän MILJON ; ! 7######
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan MILJON ; ! 8######
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän MILJON ;  ! 9######
 @U.CASE.SGALL@1:@U.CASE.SGALL@miljoonalle OVERTHOUSANDS ; ! 1######
@@ -431,7 +431,7 @@ LEXICON HUNDREDST
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä CUODIT ;	! 4#####
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi CUODIT ;	! 5#####
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi CUODIT ;	! 6#####
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen CUODIT ;	! 7#####
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän CUODIT ;	! 7#####
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan CUODIT ;	! 8#####
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän CUODIT ;	! 9#####
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle  CUODIT ;	! 2#####
@@ -481,7 +481,7 @@ LEXICON TEENT
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LOHKAIT ;     ! 14###
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LOHKAIT ;     ! 15###
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LOHKAIT ;     ! 16###
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LOHKAIT ; ! 17###
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LOHKAIT ; ! 17###
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LOHKAIT ; ! 18###
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LOHKAIT ;  ! 19###
 @U.CASE.SGALL@1:@U.CASE.SGALL@yhdelle LOHKAIT ;      ! 11###
@@ -505,7 +505,7 @@ LEXICON TENST
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LÅGEVT ;     ! 4####
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LÅGEVT ;     ! 5####
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LÅGEVT ;     ! 6####
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LÅGEVT ; ! 7####
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittämen LÅGEVT ; ! 7####
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LÅGEVT ; ! 8####
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LÅGEVT ;  ! 9####
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle LÅGEVT ;     ! 2####
@@ -546,7 +546,7 @@ LEXICON ONEST
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä THOUSANDS ;     ! 4###
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi THOUSANDS ;     ! 5###
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi THOUSANDS ;     ! 6###
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen THOUSANDS ; ! 7###
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän THOUSANDS ; ! 7###
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan THOUSANDS ; ! 8###
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän THOUSANDS ;  ! 9###
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle THOUSANDS ;     ! 2###
@@ -595,7 +595,7 @@ LEXICON HUNDREDS
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä CUODI ;      ! 4##
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi CUODI ;      ! 5##
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi CUODI ;      ! 6##
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen CUODI ;  ! 7##
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän CUODI ;  ! 7##
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan CUODI ;  ! 8##
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän CUODI ;   ! 9##
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle  CUODI ;     ! 2##
@@ -632,16 +632,16 @@ LEXICON TEEN
 !! Lexicon `@LEXNAME@` is for numbers with 11–19
 !! this is to implement ...*N*toista
 !!€gt-norm:  Teens
-!!€  11: yksitoista
-!!€  12: kaksitoista
+!!€  11: ykstoista
+!!€  12: kakstoista
 !!€  13: kolmetoista
-@U.CASE.SGNOM@1:@U.CASE.SGNOM@yksi LOHKAI ;      ! 11
-@U.CASE.SGNOM@2:@U.CASE.SGNOM@kaksi LOHKAI ;     ! 12
+@U.CASE.SGNOM@1:@U.CASE.SGNOM@yks LOHKAI ;      ! 11
+@U.CASE.SGNOM@2:@U.CASE.SGNOM@kaks LOHKAI ;     ! 12
 @U.CASE.SGNOM@3:@U.CASE.SGNOM@kolme LOHKAI ;     ! 13
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LOHKAI ;     ! 14
-@U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LOHKAI ;     ! 15
-@U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LOHKAI ;     ! 16
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LOHKAI ; ! 17
+@U.CASE.SGNOM@5:@U.CASE.SGNOM@viis LOHKAI ;     ! 15
+@U.CASE.SGNOM@6:@U.CASE.SGNOM@kuus LOHKAI ;     ! 16
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LOHKAI ; ! 17
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LOHKAI ; ! 18
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LOHKAI ;  ! 19
 @U.CASE.SGALL@1:@U.CASE.SGALL@yhdelle LOHKAI ;      ! 11
@@ -669,7 +669,7 @@ JUSTTEN ;            ! 10
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LÅGEV ;      ! 4#
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viisi LÅGEV ;      ! 5#
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuusi LÅGEV ;      ! 6#
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LÅGEV ;  ! 7#
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittämen LÅGEV ;  ! 7#
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LÅGEV ;  ! 8#
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LÅGEV ;   ! 9#
 @U.CASE.SGALL@2:@U.CASE.SGALL@kahdelle LÅGEV ;      ! 2#
@@ -713,7 +713,7 @@ LEXICON ONES
 @U.CASE.SGNOM@4:@U.CASE.SGNOM@neljä LOPPU ;          ! 4
 @U.CASE.SGNOM@5:@U.CASE.SGNOM@viis LOPPU ;          ! 5
 @U.CASE.SGNOM@6:@U.CASE.SGNOM@kuus LOPPU ;          ! 6
-@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemen LOPPU ;      ! 7
+@U.CASE.SGNOM@7:@U.CASE.SGNOM@seittemän LOPPU ;      ! 7
 @U.CASE.SGNOM@8:@U.CASE.SGNOM@kaheksan LOPPU ;      ! 8
 @U.CASE.SGNOM@9:@U.CASE.SGNOM@yheksän LOPPU ;       ! 9
 @U.CASE.SGALL@1:@U.CASE.SGALL@yhelle LOPPU ;           ! 1

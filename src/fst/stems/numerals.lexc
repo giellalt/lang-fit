@@ -40,7 +40,7 @@ kolme+Num:kolm         NUM_KOLME ;
 neljä+Num:nelj         NUM_NELJÄ ;
 viis+Num:vii          NUM_VIISI ;
 kuus+Num:kuu          NUM_KUUSI ;
-seittemen+Num+Err/Orth:seitsem  NUM_YHDEKSÄN ;
+!seittemän+Num+Err/Orth:seitsem  NUM_YHDEKSÄN ;
 seittemän+Num:seittem  NUM_YHDEKSÄN ;
 kaheksan+Num:kaheks  NUM_KAHDEKSAN ; !ÄNDRAT BARA HÄR
 yheksän+Num:yheks    NUM_YHDEKSÄN ; !ÄNDRAT BARA HÄR
@@ -176,7 +176,7 @@ kolmas+A+Ord:kolma            NUM_KOLMAS ;
 neljes+A+Ord:nelje            NUM_NELJÄS ;
 viies+A+Ord:viie            NUM_NELJÄS ;
 kuues+A+Ord:kuue            NUM_KOLMAS ;
-seittemes+A+Ord:seitteme      NUM_NELJÄS ;
+seittemäs+A+Ord:seittemä      NUM_NELJÄS ;
 kahekses+A+Ord:kahekse      NUM_KOLMAS ;
 yhekses+A+Ord:yhekse        NUM_NELJÄS ;
 kymmenes+A+Ord:kymmene        NUM_NELJÄS ;
@@ -339,8 +339,8 @@ LEXICON NUM_YKSI
 !!€ ykshiin: yksi+Num+Pl+Ill
 !!€ yksinä: yksi+Num+Pl+Ess
 !!€ yksissä: yksi+Num+Pl+Ine
-0:ksi   NUM_FRONT_NOMINATIVE ;
-+Use/NG:ks   NUM_FRONT_NOMINATIVE ; 
+0:ks   NUM_FRONT_NOMINATIVE ;
++Use/NG:ksi   NUM_FRONT_NOMINATIVE ; 
 0:ht    NUM_FRONT_ILLATIVE_HEEN    ;
 0:hte   NUM_FRONT_STRONG_SINGULARS   ;
 0:hte   NUM_FRONT_STRONG_SINGULARS_NA ;
@@ -369,8 +369,8 @@ LEXICON NUM_KAKSI
 !!€ kakshiin: kaksi+Num+Pl+Ill
 !!€ kaksina: kaksi+Num+Pl+Ess
 !!€ kaksissa: kaksi+Num+Pl+Ine
-0:ksi   NUM_BACK_NOMINATIVE ;
-+Use/NG:ks   NUM_BACK_NOMINATIVE ; 
+0:ks   NUM_BACK_NOMINATIVE ;
++Use/NG:ksi   NUM_BACK_NOMINATIVE ; 
 0:ht    NUM_BACK_ILLATIVE_HEEN    ;
 0:hte   NUM_BACK_STRONG_SINGULARS   ;
 0:hte   NUM_BACK_STRONG_SINGULARS_NA ;        
@@ -427,7 +427,7 @@ LEXICON NUM_NELJÄ
 !!€ neljinä: nelje+Num+Pl+Ess
 !!€ neljissä: nelje+Num+Pl+Ine
 0:ä  NUM_FRONT_NOMINATIVE ;
-+Err/Orth:e  NUM_FRONT_NOMINATIVE ;
+!+Err/Orth:e  NUM_FRONT_NOMINATIVE ;
 0   NUM_FRONT_ILLATIVE_HEEN   ;
 0:ä  NUM_FRONT_GENITIVE_IN    ;
 0:ä  NUM_FRONT_SINGULARS   ;
@@ -538,25 +538,25 @@ LEXICON NUM_KAHDEKSAN
 LEXICON NUM_YHDEKSÄN
 !!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 10n front
-!!€ yheksen: yheksen+Num+Sg+Nom
-!!€ yheksee: yheksen+Num+Sg+Par
-!!€ yheksheen: yheksen+Num+Sg+Ill
-!!€ yheksessä: yheksen+Num+Sg+Ine
-!!€ yheksellä: yheksen+Num+Sg+Ade
-!!€ yheksennä: yheksen+Num+Sg+Ess
-!!€ yheksii: yheksen+Num+Pl+Par
-!!€ yheksiitä: yheksen+Num+Pl+Par
-!!€ yheksiitten: yheksen+Num+Pl+Gen
-!!€ yhekshiin: yheksen+Num+Pl+Ill
-!!€ yheksissä: yheksen+Num+Pl+Ine
-!!€ yheksinnä: yheksen+Num+Pl+Ess
+!!€ yheksän: yheksän+Num+Sg+Nom
+!!€ yheksää: yheksän+Num+Sg+Par
+!!€ yheksheen: yheksän+Num+Sg+Ill
+!!€ yheksessä: yheksän+Num+Sg+Ine
+!!€ yheksellä: yheksän+Num+Sg+Ade
+!!€ yheksännä: yheksän+Num+Sg+Ess
+!!€ yheksii: yheksän+Num+Pl+Par
+!!€ yheksiitä: yheksän+Num+Pl+Par
+!!€ yheksiitten: yheksän+Num+Pl+Gen
+!!€ yhekshiin: yheksän+Num+Pl+Ill
+!!€ yheksissä: yheksän+Num+Pl+Ine
+!!€ yheksinnä: yheksän+Num+Pl+Ess
 0:än    NUM_FRONT_NOMINATIVE  ; !CHECK!
-0:e     NUM_FRONT_PARTITIVE_E    ;
+0:ä     NUM_FRONT_PARTITIVE_E    ;
 0       NUM_FRONT_ILLATIVE_HEEN    ;
 !0:e     NUM_FRONT_GENITIVE_IN    ;
-0:e     NUM_FRONT_SINGULARS   ;
-0:e     NUM_FRONT_STRONG_SINGULARS_NNA ;
-0:e     NUM_FRONT_SINGULARS_LL  ;
+0:ä     NUM_FRONT_SINGULARS   ;
+0:ä     NUM_FRONT_STRONG_SINGULARS_NNA ;
+0:ä     NUM_FRONT_SINGULARS_LL  ;
 0       NUM_FRONT_PARTITIVE_II   ;
 0       NUM_FRONT_PARTITIVE_III   ;
 0       NUM_FRONT_GENITIVE_IITTEN   ;
