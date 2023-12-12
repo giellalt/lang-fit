@@ -195,6 +195,10 @@ Consonant stems
 
 **LEXICON xn_ks_pl**
 
+**LEXICON n_äes**
+
+**LEXICON x_äes**
+
 **LEXICON 3n_ue**
 
 **LEXICON 3x_ue**

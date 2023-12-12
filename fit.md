@@ -1307,6 +1307,10 @@ Consonant stems
 
 **LEXICON xn_ks_pl**
 
+**LEXICON n_äes**
+
+**LEXICON x_äes**
+
 **LEXICON 3n_ue**
 
 **LEXICON 3x_ue**
@@ -1679,7 +1683,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
 * v1_tietaa = tietää:ti
-* v1_nn = tapahtua>tapahtunnu (odd-syll-stem), other forms = v1
+* v1_nn = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
 * v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
 * v2_ta = leipota:leippo (+^A^A i Sg3)
 * v2 = continuationlexicon for both v2_ata and v2_ta
