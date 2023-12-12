@@ -674,7 +674,7 @@ xn_ks_pl ;
 
 LEXICON xn_ks_sg
 !! **LEXICON @LEXNAME@**
- +Sg+Nom:s       PxK ;
+ +Sg+Nom:s       PxK ; !TEST tillbaka
  +Sg+Gen:kse%>n PxK ;
  +Sg+Par:s%>t^A PxK ;
  +Sg+Ill:kse^HMETA%>h^V^V n_PxK ;
@@ -702,6 +702,42 @@ LEXICON xn_ks_pl
  +Pl+Ess:ks%>in^A PxK ;
  +Pl+Abe:ks%>i2tt^A PxK ;
  +Pl+Tra:ks%>i2 TRA ;
+
+
+LEXICON n_äes !!identical to n_ks except N+Sg+Nom 
+!! **LEXICON @LEXNAME@**
++N: x_äes ;
++N+Sg+Nom:^WGs R ;
++N+Sg+Gen:^WGkse%>n R ;
+
+LEXICON x_äes !!xn_ks except N+Sg+Nom 
+!! **LEXICON @LEXNAME@**
+ +Sg+Nom:^WGs       PxK ; 
+ +Sg+Gen:kse%>n PxK ;
+ +Sg+Par:s%>t^A PxK ;
+ +Sg+Ill:kse^HMETA%>h^V^V n_PxK ;
+ +Sg+Ine:kse%>ss^A PxK ;
+ +Sg+Ela:kse%>st^A PxK ;
+ +Sg+All:kse%>lle PxxK ;
+ +Sg+Ade:kse%>ll^A PxK ;
+ +Sg+Abl:kse%>lt^A PxK ;
+ +Sg+Ess:kse%>n^A PxK ;
+ +Sg+Abe:kse%>tt^A PxK ;
+ +Sg+Tra:kse TRA ;
+
+ +Pl+Nom:kse%>t PxK ;
+ +Pl+Gen:s%>ten PxK ;
+ +Pl+Par:kse%>i2^A PxK ;
+ +Pl+Ine:ks%>iss^A PxK ;
+ +Pl+Ill:kse^HMETA%>hii n_PxK ;
+ +Pl+Ela:ks%>ist^A PxK ;
+ +Pl+All:ks%>i2lle PxxK ;
+ +Pl+Ade:ks%>ill^A PxK ;
+ +Pl+Abl:ks%>i2lt^A PxK ;
+ +Pl+Ess:ks%>in^A PxK ;
+ +Pl+Abe:ks%>i2tt^A PxK ;
+ +Pl+Tra:ks%>i2 TRA ;
+
 
 LEXICON 3n_ue
 !! **LEXICON @LEXNAME@**

@@ -5025,7 +5025,7 @@ verkkohauki:verkko#hauke n4 ;
 vattaviilohauki:vattaviilo#hauke n4 ;
 vaaralauki:vaara#lauke n4 ;
 tuki:tuke n4 ;   !! OBS ej n4!
-äes:äke 3n_ks ;
+äes:äke n_äes ;
 käki:käke n4 ;
 mäki:mäke n4 ;
 ylämäki:ylä#mäke n4 ;
@@ -11524,7 +11524,6 @@ vanhaajohanes:vanhaajohanes nx ;
 juhanes:juhanes nx ;
 penes:penes nx ;
 johannes:johanne 3n_ks ;
-jänes:jänes nx ;
 vares:vares nx ;
 teres:teres nx ;
 tores:tores nx ;
