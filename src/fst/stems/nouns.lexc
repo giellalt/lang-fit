@@ -53,9 +53,6 @@ LEXICON NounRoot !!≈ * **@CODE@**
 !huki 
 
 !! slut lekstuga
-!enaire:enaire n2_odd ; !!NOT REAL WORD; testing
-!kilvi:kilve n4 ; !!NOT REAL WORD; testing
-!kiivi:kiivi n4 ; !!NOT REAL WORD; testing
 huornanen:huorna 3nen ;
 laskiainen:laskiai nen ;
 tuliainen:tuliai nen ;
@@ -4518,7 +4515,7 @@ lähte:läht2e n2 ;
 idee:idee n0 ;
 karhee:karhee n3 ;
 jänkkäkarkee:jänkkäkarkee n3 ;
-filee:filee n3 ;
+filee:filee n2 ;
 pee:pee n0 ;
 kypee:kypee n3 ;
 tee:tee n0 ;
@@ -4829,11 +4826,11 @@ pororreki:poror#reke n4 ;
 ookausreki:ookaus#reke n4 ;
 nenäreki:nenä#reke n4 ;
 työreki:työ#reke n4 ;
-lahe:lahke n2 ;
-vehe:vehke n2 ;
+lahe:lahk2e n2 ;
+vehe:vehk2e n2 ;
 vehkheet:vehk2e n2_pl ;
 hevosvehkheet:hevos#vehk2e n2_pl ;
-johe:johke n2 ;
+johe:johk2e n2 ;
 jalkahiki:jalka#hike n4 ;
 kainalohiki:kainalo#hike n4 ;
 pojke:pojke n2 ;
@@ -4857,7 +4854,7 @@ tokkajuvake:tokkajuvakke n2 ;
 laheke:lahekke n2 ;
 viileke:viilekke n2 ;
 mettäsaareke:mettä#saarekke n2 ;
-palavampyhke:palavam#pyhkke n2 ;
+palavampyhke:palavam#pyhke n2 ;
 veike:veikke n2 ;
 ilmavveike:ilmav#veikke n2 ;
 liike:liikke n2 ; ! liikettä
@@ -5745,14 +5742,14 @@ kesäpyhävaatheet:kesäpyhä#vaat2e n2_pl ;
 vikate:vikate n2 ;
 mae:mate n2 ;
 sae:sate n2 ;
-maukesae:maukesate n2 ;
-iilisae:iilisate n2 ;
-lumisae:lumisate n2 ;
-tumpsusae:tumpsusate n2 ;
-maatusae:maatusate n2 ;
-mantusae:mantusate n2 ;
-jylkkäsae:jylkkäsate n2 ;
-räntäsae:räntäsate n2 ;
+maukesae:mauke#sate n2 ;
+iilisae:iili#sate n2 ;
+lumisae:lumi#sate n2 ;
+tumpsusae:tumpsu#sate n2 ;
+maatusae:maatu#sate n2 ;
+mantusae:mantu#sate n2 ;
+jylkkäsae:jylkkä#sate n2 ;
+räntäsae:räntä#sate n2 ;
 liesi:liete n4 ;
 mesi:me n5_kasi ;
 vesi:ve n5_kasi ;

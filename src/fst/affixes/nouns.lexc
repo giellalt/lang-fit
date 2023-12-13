@@ -205,26 +205,26 @@ LEXICON x2
 
 LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 !! **LEXICON @LEXNAME@** the sg
- +Sg+Nom:^WG      KK ; ! liike, liikkekki
- +Sg+Nom+Err/Orth:^WGt      KK ; ! liiket, liikkekki
- +Sg+Gen:^WGh%>een    PxK ; ! liikheen, säkheen
+ +Sg+Nom:^WG     PxK ; ! liike, liikkekki
+ +Sg+Nom+Err/Orth:^WGt      PxK ; ! liiket, liikkekki
+ +Sg+Gen:h%>een    PxK ; ! liikheen, säkheen, ainheen !TEST stryka WG före h?
  +Sg+Gen:^HMET2%>heen    PxK ; ! aihneen, liihkeen
- +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä
- +Sg+Ill:^WGh%>eeshee     n_PxK ; ! liikheesheen
+ +Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä 
+ +Sg+Ill:h%>eeshee     n_PxK ; ! liikheesheen !TEST stryka WG före h?
  +Sg+Ill:^HMET2%>heeshee     n_PxK ; ! aihneesheen
- +Sg+Ine:^WGh%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa 
+ +Sg+Ine:h%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
  +Sg+Ine:^HMET2%>heess^A   PxK ; ! NY aihneessa 
- +Sg+Ela:^WGh%>eest^A   PxK ; ! liikheestä, säkheestä
+ +Sg+Ela:h%>eest^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
  +Sg+Ela:^HMET2%>heest^A   PxK ; ! NY aihneesta
- +Sg+All:^WGh%>eele    PxxK ; ! liikheele, liihkeelekki
+ +Sg+All:h%>eele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
  +Sg+All:^HMET2%>heele    PxxK ; ! NY
- +Sg+Ade:^WGh%>eel^A    PxK ; ! liikheelä, säkheelä
+ +Sg+Ade:h%>eel^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
  +Sg+Ade:^HMET2%>heel^A    PxK ; ! NY
- +Sg+Abl:^WGh%>eelt^A   PxK ; ! liikheeltä, säkheeltä
+ +Sg+Abl:h%>eelt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
  +Sg+Abl:^HMET2%>heelt^A   PxK ; ! NY
- +Sg+Tra:^WGh%>ee TRA ;
+ +Sg+Tra:h%>ee TRA ; !TEST stryka WG före h?
  +Sg+Tra:^HMET2%>hee TRA ; ! NY
- +Sg+Ess:^WGh%>een^A PxK ;
+ +Sg+Ess:h%>een^A PxK ; !TEST stryka WG före h?
  +Sg+Ess:^HMET2%>heen^A PxK ; ! NY
  +Sg+Abe:%>ett^A PxK ;
 

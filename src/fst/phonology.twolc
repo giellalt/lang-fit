@@ -178,7 +178,7 @@ n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
 "p:0"
 !! **RULE: @RULENAME@**
 p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; ! tärppä : tärpän
-!                Vow p _ e: h %> e ; ! Inkluder när vi ser vad.
+                Vow p _ e: (%^WG:) h %> Vow ; !Ortografi pph>ph 
         [Vow|l|m|r] p _ Vow: [%^HMETA: | %^HMET2:] ;  ! tärppä : tärphään
 
 !! **Tests:**
@@ -221,10 +221,11 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:] ; ! new try: all tt give t
         [i|u]              _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata; huutaa>huua
         [a|e|y|ä|ö] h   _ Vow:       WeakGrade (%>) i3: ; ! för att få lähen, lähin
-        VowelNotI (h)   _ Vow:       WeakGrade (%>) [Cns:|%^E2I:0] ; ! katu : kaun        
+        VowelNotI (h)   _ Vow:       WeakGrade (%>) [Cns:|%^E2I:0|#|.#.] ; ! katu : kaun        
         [ä|e]            _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
-                  Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
+                      Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
+                    Vow _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään 
 
 !		  :e %> _ %^A: ; ! hanhea -- rather two classes
 !        [.#.|#:] Cns:* Vow:+ Cns:+ Vow:+ [l|n|r] _ Vow:+ WeakGrade ; ! imarela : imartelen
