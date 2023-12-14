@@ -410,6 +410,7 @@ LEXICON kaik_kvant
 
 +Pl+Nom:kaiket       K ; 
 +Pl+Gen:kaikkien     K ;
++Pl+Gen:kaikitten     K ; !CHECK!
 +Pl+Par:kaikkia    K ;
 +Pl+Ill:kaikkiin   K ;
 +Pl+Ess:kaikkina    K ;
@@ -437,6 +438,7 @@ LEXICON jokhai_kvant
 LEXICON itte_refl
 +Attr:e     PxK ;
 +Nom:e      PxK ;
++Nom:e      KK ;
 +Gen:en     PxK ;
 +Ill:heen   PxK ;
 +Par:ee     PxK ;

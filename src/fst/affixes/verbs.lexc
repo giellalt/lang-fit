@@ -105,7 +105,7 @@ LEXICON NEG  !!≈ * **@CODE@**
 !! Regular verbs
 
 LEXICON v1_otta
-:otta v1 ; ! korrekt
+:otta v1_nn ; ! korrekt
 +Err/Orth:oitta v1 ; ! finska och fel
 
 LEXICON v1_tietaa !RENSAD
