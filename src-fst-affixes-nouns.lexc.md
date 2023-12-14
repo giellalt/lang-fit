@@ -9,6 +9,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
+* n1_i = 2syll ordinary nouns ending with i: äiti
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
@@ -28,7 +29,7 @@ Consonant stems
 * nen = nainen paradigm
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
-* 4n_ks = odd variants of 3n_ks; morahus - morahuksele
+* 4n_ks = even variants of 3n_ks; morahus - morahuksele
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
@@ -68,7 +69,7 @@ Consonant stems
 * +N+Sg+Nom: PxK ; Px separate
 
 **LEXICON n1** for 2-syll ordinary nouns ending with -i; malmi, äiti
-* +N+Sg+Nom: PxK ; Px separate
+* +N+Sg+Nom:i PxK ; Px separate
 
 **LEXICON n1** for type n1-words ending with -i, pointing to sg, pl
 
@@ -282,6 +283,8 @@ GE + LL 230208
 troppi
 tropin
 troppia?
+
+**LEXICON n1_troppi_odd**
 
 * * *
 
