@@ -10,7 +10,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
 Consonant stems
 
