@@ -184,6 +184,7 @@ LEXICON jo_rel_pl
 +Nom:kka K ;
 +Nom:tka K ;
 +Gen:ittenka K ;
++Gen:itten K ; !CHECK
 +Par:ita K ;
 +Ill:ihin K ;
 +Ill:ihinka K ;

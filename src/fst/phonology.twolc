@@ -157,8 +157,8 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 !! l rules
 "l:0"
-l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:] ;
-        Vow (Vow:) (%^WG:) (%>) :Vow (%>) l _ [%^A:|e] ; !för att få ämmäkölle MEN ämmäköilä, ämmäköile etc, hopeile
+l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
+        :Vow (%^WG:) (%>) i2: (%>) l _ [%^A:|e] ; !ämmäkölle>ämmäköile, 
 !       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; ! hopeale
 
 
