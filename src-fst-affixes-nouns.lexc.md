@@ -4,12 +4,14 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ## This is an overview of the continuation lexicon types.
 
+Special stems
 * n_nomorph = uninflected nouns: Covid-19
+* nc = for consonant-final nouns, structure CVC (romani chib)
+* 3nc = for triple-consonant-final (jiddisch)
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n1_i = 2syll ordinary nouns ending with i: äiti
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
@@ -19,8 +21,11 @@ Consonant stems
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
 * n5_loimi = som n5_lumi PLUS partitiv loimea
+* n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
+* n5_i = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+* n5_alttari = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
 
 * n_uus = vajavuus
 * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -30,6 +35,7 @@ Consonant stems
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
 * 4n_ks = even variants of 3n_ks; morahus - morahuksele
+* n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
@@ -37,8 +43,10 @@ Consonant stems
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 * n_ien = ien
-### Lexica for unassigned words
+* n1_troppi !CHECK needed? 
+* n1_troppi_odd !CHECK needed?
 
+### Lexica for unassigned words
 **LEXICON nx** pointing to *n1*.
 
 **LEXICON n_nomorph** for uninflected nouns
@@ -67,11 +75,6 @@ Consonant stems
 
 **LEXICON n1** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
-
-**LEXICON n1** for 2-syll ordinary nouns ending with -i; malmi, äiti
-* +N+Sg+Nom:i PxK ; Px separate
-
-**LEXICON n1** for type n1-words ending with -i, pointing to sg, pl
 
 **LEXICON n1_pl** for the same plural words (*urut*)
 
@@ -154,6 +157,11 @@ Consonant stems
 **LEXICON x5_kasi_pl**
 
 **LEXICON n5_lapsi**
+
+**LEXICON n5_i** for 2-syll ordinary nouns ending with -i; malmi, äiti
+* +N+Sg+Nom:i PxK ; Px separate
+
+**LEXICON x5_i** for type n1-words ending with -i, pointing to sg, pl
 
 **LEXICON n5_alttari**
 

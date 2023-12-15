@@ -6,24 +6,27 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 
 This is an overview of the continuation lexicon types.
 
-* nx = unassigned
-* n_nomorph = uninflected nouns: covid-19
+Special stems
+* n_nomorph = uninflected nouns: Covid-19
+* nc = for consonant-final nouns, structure CVC (romani chib)
+* 3nc = for triple-consonant-final (jiddisch)
 
 Vowel stems
-
-* n0 = 1syll noun: maa, suu, tie
+* n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns: liike, and odd-syll karpale, urvake
-* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (CHECK ulvonta>ulvonnalle men ulvonnoile?)
+* n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
 Consonant stems
-
-* n4 = i:e nouns: suomi, kivi
-* n5 = i:e nons, cns stems  kieli : kielen : kieltä
-* n5_lumi = lumi : lumen : lunta
+* n4 = i:e nouns: suomi, kivi (2syll)
+* n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
+* n5_lumi = lumi : lumen : lunta (2syll)
 * n5_loimi = som n5_lumi PLUS partitiv loimea
-* n5_kasi = käsi : käden : kättä
+* n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
+* n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
+* n5_i = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+* n5_alttari = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
 
 * n_uus = vajavuus
 * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -32,13 +35,17 @@ Consonant stems
 * nen = nainen paradigm
 * 3nen = hevonen paradigm
 * 3n_ks = keskus - keskuksen
-* 4n_ks = even-syll-stem variants of 3n_ks; morahus - morahukse/le
+* 4n_ks = even variants of 3n_ks; morahus - morahuksele
+* n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
-* 3n_lnr = taimen, höyhen, sisar (bara -n/-r?) (2syll) 
-* 30n_lnr = sammal, askel, tanner (like 3n_lnr except Gen Ill Ine Ess) (2syll) (bara -l?)
+* 3n_lnr = taimen, höyhen 
+* 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
+* n_ien = ien
+* n1_troppi !CHECK needed? 
+* n1_troppi_odd !CHECK needed?
 
 # The lexica themselves
 
