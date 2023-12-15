@@ -5,12 +5,14 @@
 
 !! ## This is an overview of the continuation lexicon types.
 
+!! Special stems
 !! * n_nomorph = uninflected nouns: Covid-19
+!! * nc = for consonant-final nouns, structure CVC (romani chib)
+!! * 3nc = for triple-consonant-final (jiddisch)
 
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
-!! * n1_i = 2syll ordinary nouns ending with i: äiti
 !! * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
@@ -20,8 +22,11 @@
 !! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 !! * n5_lumi = lumi : lumen : lunta (2syll)
 !! * n5_loimi = som n5_lumi PLUS partitiv loimea
+!! * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kasi = käsi : käden : kättä (2syll)
 !! * n5_lapsi = lapsi : lapsen : lasta
+!! * n5_i = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+!! * n5_alttari = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
 
 !! * n_uus = vajavuus
 !! * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -31,6 +36,7 @@
 !! * 3nen = hevonen paradigm
 !! * 3n_ks = keskus - keskuksen
 !! * 4n_ks = even variants of 3n_ks; morahus - morahuksele
+!! * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
@@ -38,10 +44,10 @@
 !! * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 !! * 3mies = mies
 !! * n_ien = ien
+!! * n1_troppi !CHECK needed? 
+!! * n1_troppi_odd !CHECK needed?
+
 !! ### Lexica for unassigned words
-
-
-
 LEXICON nx
 !! **LEXICON @LEXNAME@** pointing to *n1*.
 n1 ; ! nx
@@ -125,31 +131,6 @@ LEXICON n1
  +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
-
- LEXICON n1_i
-!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti
- +N: x1_i ;
- +N+Sg+Nom:i       PxK ; !!≈ * @CODE@ Px separate
- +N+Nom:i R ;
- +N+Sg+Gen:i^WG%>n R ;
-
- LEXICON x1_i
-!! **LEXICON @LEXNAME@** for type n1-words ending with -i, pointing to sg, pl
-:i x1_sg ;
-+Pl+Nom:i^WG%>t PxK ;
-+Pl+Par:i%>^A PxK ; !malmia, äitiä 
-+Pl+Gen:i%>en PxK ;
-+Pl+Gen:i^WG%>tten PxK ;
-+Pl+Ill:e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
-+Pl+Ill:e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
-+Pl+Ine:e^WG%>iss^A PxK ;
-+Pl+Ela:e^WG%>ist^A PxK ;
-+Pl+All:e^WG%>ile PxxK ;
-+Pl+Ade:e^WG%>il^A PxK ;
-+Pl+Abl:e^WG%>ilt^A PxK ;
-+Pl+Tra:e^WG%>i TRA ; 
-+Pl+Ess:e%>in^A PxK ; !malmina, äitinä
-+Pl+Abe:e^WG%>itt^A PxK ;
 
 LEXICON n1_pl !
 !! **LEXICON @LEXNAME@** for the same plural words (*urut*)
@@ -242,29 +223,29 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 
 LEXICON x2_pl
 !! **LEXICON @LEXNAME@** the pl
- +Pl+Nom:h%>eet     K ; !Test miss
- +Pl+Nom:h%>ee      Px ; !Test miss
- +Pl+Gen:h%>eitten   PxK ; !Test miss
- +Pl+Gen:h%>ejen   PxK ; !Test miss
- +Pl+Par:h%>ej^A   PxK ; !Test miss
- +Pl+Par:h%>eit^A   PxK ; !Test miss
- +Pl+Ill:h%>ei2shii     n_PxK ; !Test miss
+ +Pl+Nom:h%>eet     K ; !
+ +Pl+Nom:h%>ee      Px ; !
+ +Pl+Gen:h%>eitten   PxK ; !
+ +Pl+Gen:h%>ejen   PxK ; !
+ +Pl+Par:h%>ej^A   PxK ; !
+ +Pl+Par:h%>eit^A   PxK ; !
+ +Pl+Ill:h%>ei2shii     n_PxK ; !
  +Pl+Ill:^HMET2%>hei2shii     n_PxK ; 
- +Pl+Ine:h%>ei2ss^A   PxK ; ! liikheissä !Test miss
+ +Pl+Ine:h%>ei2ss^A   PxK ; ! liikheissä !
  +Pl+Ine:^HMET2%>hei2ss^A   PxK ;
- +Pl+Ela:h%>ei2st^A   PxK ; ! liikheessä, säkheessä !Test miss
+ +Pl+Ela:h%>ei2st^A   PxK ; ! liikheessä, säkheessä !
  +Pl+Ela:^HMET2%>hei2st^A   PxK ; 
- +Pl+All:h%>ei2le    PxxK ; ! liikheelä, säkheelä!Test miss
+ +Pl+All:h%>ei2le    PxxK ; ! liikheelä, säkheelä!
  +Pl+All:^HMET2%>hei2le    PxxK ;
- +Pl+Ade:h%>ei2l^A    PxK ; ! liikheelä, säkheelä!Test miss
+ +Pl+Ade:h%>ei2l^A    PxK ; ! liikheelä, säkheelä!
  +Pl+Ade:^HMET2%>hei2l^A    PxK ; 
- +Pl+Abl:h%>ei2lt^A    PxK ; ! liikheelä, säkheelä!Test miss
+ +Pl+Abl:h%>ei2lt^A    PxK ; ! liikheelä, säkheelä!
  +Pl+Abl:^HMET2%>hei2lt^A    PxK ;
- +Pl+Tra:h%>ei2 TRA ; !Test miss
+ +Pl+Tra:h%>ei2 TRA ; !
  +Pl+Tra:^HMET2%>hei2 TRA ;
- +Pl+Ess:h%>ei2n^A PxK ; !Test miss
+ +Pl+Ess:h%>ei2n^A PxK ; !
  +Pl+Ess:^HMET2%>hei2n^A PxK ;
- +Pl+Abe:h%>ei2tt^A PxK ; !Test miss
+ +Pl+Abe:h%>ei2tt^A PxK ; !
  +Pl+Abe:^HMET2%>hei2tt^A PxK ;
 
 
@@ -476,13 +457,13 @@ n5_lumi ;
 
 LEXICON n5_vuosi
 !! **LEXICON @LEXNAME@** vuosi> vuoessa/vuessa, stem ELLER vu
+ +N+Nom:osi R ;
  +N:ote x5_kasi ;
  +N+Sg+Nom:osi       PxK ; ! vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
- +N+Sg+Ine:^WG%>ess^A PxK ;
+ +N+Sg+Ine:^WG%>ess^A PxK ; !
  +N+Sg+Ela:^WG%>est^A PxK ;
  +N+Sg+Ess:o%>n^A PxK ;
- +N+Nom:osi R ;
  +N+Sg+Gen:e%>n PxK ;
  +N+Sg+Tra:^WG%>e TRA ;
 
@@ -547,6 +528,32 @@ LEXICON n5_lapsi
 +N+Pl+Ess:ps%>in^A PxK ;
 +N+Pl+Tra:psi TRA ;
 +N+Pl+Abe:ps%>itt^A PxK ;
+
+LEXICON n5_i
+!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti
+ +N: x5_i ;
+ +N+Sg+Nom:i       PxK ; !!≈ * @CODE@ Px separate
+ +N+Nom:i R ;
+ +N+Sg+Gen:i^WG%>n R ;
+
+LEXICON x5_i
+!! **LEXICON @LEXNAME@** for type n1-words ending with -i, pointing to sg, pl
+:i x1_sg ;
++Pl+Nom:i^WG%>t PxK ;
++Pl+Par:i%>^A PxK ; !malmia, äitiä 
++Pl+Gen:i%>en PxK ;
++Pl+Gen:i^WG%>tten PxK ;
++Pl+Ill:e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
++Pl+Ill:e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
++Pl+Ine:e^WG%>iss^A PxK ;
++Pl+Ela:e^WG%>ist^A PxK ;
++Pl+All:e^WG%>ile PxxK ;
++Pl+Ade:e^WG%>il^A PxK ;
++Pl+Abl:e^WG%>ilt^A PxK ;
++Pl+Tra:e^WG%>i TRA ; 
++Pl+Ess:e%>in^A PxK ; !malmina, äitinä
++Pl+Abe:e^WG%>itt^A PxK ;
+
 
 LEXICON n5_alttari
 !! **LEXICON @LEXNAME@**
