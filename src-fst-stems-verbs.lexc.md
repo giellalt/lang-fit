@@ -29,8 +29,8 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 * **v3_kaya**
 * **OLLA**
 * **NEG**
-* **JUA**
-* **SYA**
+* **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
+* **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
 
 ## The verb lexica themselves
 
@@ -51,8 +51,8 @@ v2 tryykätä
 * **tryykätä:tryykkä v2_ata ;** 
 
 v3 syödä, juoda
-* **syä:sy SYA ;** 
-* **jua:ju JUA ;** 
+* **syä:sy v3_syä ;** 
+* **jua:ju v3_jua ;** 
 
 * **tehä:te v3_tehha ;** 
 * **tehhä:te v3_tehha ;** 

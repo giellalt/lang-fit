@@ -26,6 +26,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * v3_kaya = käyä:kä
 * v3_nahha = nähhä:nä
 * v3_tehha = tehhä:te
+* **v3_jua** ! Stem ju-, short inf, otherwise like v3_j 
+* **v3_syä** ! Stem sy-, short inf, otherwise like v3_j
 
 ## The verb lexica themselves
 
@@ -51,13 +53,15 @@ Regular verbs
 
 * **LEXICON v2_havata** havata-paradigm EJ KLART
 
-* **LEXICON SYA** syä, myä, lyä .#.
+* **LEXICON v3_syä** syä, myä, lyä .#.
 
-* **LEXICON JUA** jua, lua, sua, tua .#.
+* **LEXICON v3_jua** jua, lua, sua, tua .#.
 
 * **LEXICON v3_j**
 
 * **LEXICON v3**
+
+* **LEXICON v3_viä**
 
 LEXICON v3_kaya käyđä:kä from fkv
 
