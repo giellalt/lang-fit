@@ -29,8 +29,8 @@
 !!  * **v3_kaya**
 !!  * **OLLA**
 !!  * **NEG**
-!!  * **JUA**
-!!  * **SYA**
+!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
+!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
 
 
 !! ## The verb lexica themselves
@@ -66,26 +66,27 @@ hourata:houra v2_ata ;
 
 
 !! v3 syödä, juoda
-syä:sy SYA ;  !!≈ * **@CODE@** 
-jua:ju JUA ;   !!≈ * **@CODE@** 
-viejä:vie v3_j ;
-saaja:saa v3_j ;
-voija:voi v3_j ;
-naija:nai v3_j ;
-uija:ui v3_j ;
-puija:pui v3_j ;
-lua:lu JUA ;
-sua:su JUA ;
-tua:tu JUA ;
+syä:sy v3_syä ;  !!≈ * **@CODE@** 
+jua:ju v3_jua ;   !!≈ * **@CODE@** 
+viejä:vie v3_jä ;
+viä:vi v3_viä ; 
+saaja:saa v3_ja ;
+voija:voi v3_ja ;
+naija:nai v3_ja ;
+uija:ui v3_ja ;
+puija:pui v3_ja ;
+lua:lu v3_jua ;
+sua:su v3_jua ;
+tua:tu v3_jua ;
 
-myä:my SYA ;
-jääjä:jää v3_j ;
-lyä:ly SYA ;
-soija:soi v3_j ;
+myä:my v3_syä ;
+jääjä:jää v3_jä ;
+lyä:ly v3_syä ;
+soija:soi v3_ja ;
 
 
-laiminlyä:laimin#ly SYA ;
-uloslyä:ulos#ly SYA ;
+laiminlyä:laimin#ly v3_syä ;
+uloslyä:ulos#ly v3_syä ;
 
 
 tehä:te v3_tehha ;  !!≈ * **@CODE@** 
@@ -135,8 +136,9 @@ painaa:paina v1 ;
 lappaa:lappa v1 ;
 tappaa:tappa v1 ;
 nauraa:naura v1 ;
-saa:saa v3_j ;
-saa’a:saa v3_saaa ;
+saa:saa v3_ja ;
+saa’a:saa v3_ja ;
+!saaha:saaha v3_ja ; !CHECK!
 jaksaa:jaksa v1 ;
 maksaa:maksa v1 ;
 jaataa:jaata v1 ;
@@ -1684,29 +1686,29 @@ kovia:kovi vx ;
 juovia:juovi vx ;
 kuovia:kuovi vx ;
 karvia:karvi vx ;
-naija:nai v3_j ;
-palmikoija:palmikoi v3_j ;
-vasikoija:vasikoi v3_j ;
-haarukoija:haarukoi v3_j ;
-kapaloija:kapaloi v3_j ;
-kromeloija:kromeloi v3_j ;
-kaaveloija:kaaveloi v3_j ;
-koveloija:koveloi v3_j ;
-kupuloija:kupuloi v3_j ;
-salamoija:salamoi v3_j ;
-puikkaroija:puikkaroi v3_j ;
-jolkkaroija:jolkkaroi v3_j ;
-mookaroija:mookaroi v3_j ;
-koparoija:koparoi v3_j ;
-veivaroija:veivaroi v3_j ;
-koperoija:koperoi v3_j ;
-kompuroija:kompuroi v3_j ;
-kippuroija:kippuroi v3_j ;
-tantturoija:tantturoi v3_j ;
-tentturoija:tentturoi v3_j ;
-karittoija:karittoi v3_j ;
-palavoija:palavoi v3_j ;
-haravoija:haravoi v3_j ;
+naija:nai v3_ja ;
+palmikoija:palmikoi v3_ja ;
+vasikoija:vasikoi v3_ja ;
+haarukoija:haarukoi v3_ja ;
+kapaloija:kapaloi v3_ja ;
+kromeloija:kromeloi v3_ja ;
+kaaveloija:kaaveloi v3_ja ;
+koveloija:koveloi v3_ja ;
+kupuloija:kupuloi v3_ja ;
+salamoija:salamoi v3_ja ;
+puikkaroija:puikkaroi v3_ja ;
+jolkkaroija:jolkkaroi v3_ja ;
+mookaroija:mookaroi v3_ja ;
+koparoija:koparoi v3_ja ;
+veivaroija:veivaroi v3_ja ;
+koperoija:koperoi v3_ja ;
+kompuroija:kompuroi v3_ja ;
+kippuroija:kippuroi v3_ja ;
+tantturoija:tantturoi v3_ja ;
+tentturoija:tentturoi v3_ja ;
+karittoija:karittoi v3_ja ;
+palavoija:palavoi v3_ja ;
+haravoija:haravoi v3_ja ;
 yytraaka:yytraak vx ;
 kaaela:kaael v4_3la ;
 laela:lael v4_3la ;
@@ -5608,3 +5610,4 @@ huitata:huita v2_ata ;
 märsätä:märsä v2_ata ;
 vetää:vetä v1 ;
 havattea:havatte v1 ;
+myyä:myy v3_jä ;
