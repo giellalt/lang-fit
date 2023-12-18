@@ -420,12 +420,14 @@ LEXICON v3_ja !for inf with ’a; saaja !!HOW to solve this?
 +V+Inf:’a K ;
 +V+InfE+Ine:%>’essa K ;
 +V+Pass+PrfPrc+Pl+Nom:%>’ut K ;
++V+Pass+PrfPrc+Pl+Nom:%>jut K ;
 v3_j ;
 
 LEXICON v3_jä !for inf with ’ä; viejä !!HOW to solve this with ^A?
 +V+Inf:’ä K ;
 +V+InfE+Ine:%>’essä K ;
 +V+Pass+PrfPrc+Pl+Nom:%>’yt K ;
++V+Pass+PrfPrc+Pl+Nom:%>jyt K ;
 v3_j ;
 
 LEXICON v3_j  !!≈ * **@CODE@**
@@ -434,7 +436,6 @@ LEXICON v3_j  !!≈ * **@CODE@**
 v3_other ;
 +V+Act+Ind+Prs+ConNeg+Sg:^HMETA%>i3s K ; !CHECK!
 !+V+Act+Ind+Prt+Sg3:t%>i3 K ; !CHECK
-!+V+InfMa: 3infcase ;
 +V+InfMa+Ill:%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
@@ -446,6 +447,7 @@ v3_other ;
 +V+Inf+Tra:%>j^Akse PxK ;
 +V+InfE+Ins:%>jen K ;
 +V+InfE+Ins:%>’en K ;
++V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>jess^A K ;
 
 LEXICON v3  !!≈ * **@CODE@**
@@ -470,7 +472,7 @@ LEXICON v3_other !RENSAD
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>v^At K ;
 +V+Pass+Ind+Prs:%^WG%>th^A^An K ;
-+V+Pass+Ind+Prs:%^WG%>h^A^An K ; !NY
++V+Pass+Ind+Prs:%^WG%>h^A^An K ; 
 +V+Pass+Ind+Prs+ConNeg:%>^A K ;
 
 +V+Act+Ind+Prt+Sg1:%>i3n K ;
@@ -502,7 +504,7 @@ LEXICON v3_other !RENSAD
 +V+Imprt+Pl3:%>kh^O^Ot # ;
 +V+Act+Ind+Prs+ConNeg: K ;
 
-+V+Act+Cond:%>i3s 2cond ; !NY
++V+Act+Cond:%>i3s 2cond ; 
 +V+Act+Cond+Pl1:%>i3s%>im^A K ;
 +V+Act+Cond+Pl3:%>i3s%>it K ;
 
@@ -814,8 +816,8 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 
 +V+Act+PrsPrc+Sg+Nom:e%>v^A K ;
 +V+Act+PrsPrc+Pl+Nom:e%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ; !TEST
-+V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ; !TEST
++V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ; 
++V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ; 
 
 +V+Pass+Cond:%>i4si K ;
 

@@ -184,7 +184,7 @@ LEXICON jo_rel_pl
 +Nom:kka K ;
 +Nom:tka K ;
 +Gen:ittenka K ;
-+Gen:itten K ; !CHECK
++Gen:itten K ; 
 +Par:ita K ;
 +Ill:ihin K ;
 +Ill:ihinka K ;
@@ -436,8 +436,11 @@ LEXICON jokhai_kvant
 +Abl:elta   K ;
 
 LEXICON itte_refl
-+Attr:e     PxK ;
-+Nom:e      PxK ;
++Attr:e     Px ;
++Attr+Err/Orth:e  K ;
++Attr:e     KK ;
++Nom:e      Px ;
++Nom+Err/Orth:e  K ;
 +Nom:e      KK ;
 +Gen:en     PxK ;
 +Ill:heen   PxK ;

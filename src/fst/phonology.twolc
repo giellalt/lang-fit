@@ -636,6 +636,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|i8:|j] ; ! before i
                                   _ [%^HMETA: | %^HMET2:]            ; ! before metathesis h
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
+         # k e t _ %> h %^A: %^A: n ; !special rule kethään ?
 
 !! **Tests:**
 !!€ sytyttä^WG>i3n
@@ -691,7 +692,8 @@ i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathe
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
-	           Cns: _ (WeakGrade) %>  [i2:|i3:|i8:] ; ! sopia : sopi, oppia : oppi
+	           Cns: _ (WeakGrade) %>  [i2:|i3:|i8:] ; ! sopia : sopi, oppia : oppi 
+                  [#|.#.] (Cns) Vow _ %> i3: ; !!TEST uija>uin
 		   Cns: _ (%^WG:) %^IDEL: %> i2: ; ! tukki : tukkitten
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 

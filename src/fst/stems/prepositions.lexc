@@ -12,6 +12,10 @@ LEXICON pr
 !!≈ __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
 +Pr: K ; !!≈ * @CODE@ 
 
+LEXICON prKK
+!!≈ __@LEXNAME@__  for endings with kk
++Pr: KK ; !!≈ * @CODE@ 
+
 !! ## The prepositons
 
 LEXICON Preposition
@@ -27,7 +31,7 @@ jopa prx ;
 justhinsa prx ;
 monta prx ;
 me prx ;
-itte prx ;
+itte prKK ;
 neh prx ;
 ittekumpiki prx ;
 kaikki prx ;
