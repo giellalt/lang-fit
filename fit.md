@@ -3278,6 +3278,8 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 
 * +Pr: K ; 
 
+* +Pr: KK ; 
+
 ## The prepositons
 
 * yli:yli pr ; 
