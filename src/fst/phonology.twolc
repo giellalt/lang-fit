@@ -636,7 +636,6 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) %>
 ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|i8:|j] ; ! before i
                                   _ [%^HMETA: | %^HMET2:]            ; ! before metathesis h
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
-         # k e t _ %> h %^A: %^A: n ; !special rule kethään ?
 
 !! **Tests:**
 !!€ sytyttä^WG>i3n

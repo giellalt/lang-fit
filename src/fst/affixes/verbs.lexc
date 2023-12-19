@@ -8,10 +8,10 @@
 !! ### Overview over the Regular verbs
 !!  * v1 = antaa; sanoa:sano
 !!  * v1_tietaa = tietää:ti
-!!  * v1_nn = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
-!!  * v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
-!!  * v2_ta = leipota:leippo (+^A^A i Sg3)
-!!  * v2 = continuationlexicon for both v2_ata and v2_ta
+!!  * v1_odd = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
+!!  * v2_ata = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+!!  * v2_ata_odd = huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)!!  * v2_uta = leipota:leippo (+^A^A i Sg3)
+!!  * v2 = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 !!  * v3 = myyta:myy
 !!  * v3_j = viejä, saaja
 !!  * v4 = nousta; tulla:tul
@@ -27,8 +27,8 @@
 !!  * v3_kaya = käyä:kä
 !!  * v3_nahha = nähhä:nä
 !!  * v3_tehha = tehhä:te
-!!  * **v3_jua** ! Stem ju-, short inf, otherwise like v3_j 
-!!  * **v3_syä** ! Stem sy-, short inf, otherwise like v3_j
+!!  * v3_jua ! Stem ju-, short inf, otherwise like v3_j 
+!!  * v3_syä ! Stem sy-, short inf, otherwise like v3_j
 
 !! ## The verb lexica themselves
 
@@ -110,7 +110,7 @@ LEXICON NEG  !!≈ * **@CODE@**
 !! Regular verbs
 
 LEXICON v1_otta
-:otta v1_nn ; ! korrekt
+:otta v1_odd ; ! korrekt
 +Err/Orth:oitta v1 ; ! finska och fel
 
 LEXICON v1_tietaa !RENSAD
@@ -222,7 +222,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 +V+InfMa+Ill:^HMET2%>h^V^Vn K ; !lauhlaan
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
-+V+InfMa+Ade:%>m^All^A K ; !CHECK TODO -la / -lla
++V+InfMa+Ade:%>m^All^A K ; !CHECK TODO flytta ut så att inte v1_odd får!
 +V+InfMa+Abe:%>m^Att^A K ;
 
 +V+Act+PrsPrc:%>v^A x3 ;
@@ -244,18 +244,10 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
 
-LEXICON v1_nn  !!≈ * **@CODE@** käsittää>käsittänny osv !RENSAD
+LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv 
 v1 ;
-+V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;  
-
-LEXICON v2_ata !!≈ * **@CODE@** huomata etc, Prs+Sg3 huoma/a
-v2 ;
-+V+Act+Ind+Prs+Sg3:%>^A K ; 
-
-
-LEXICON v2_ta !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa
-v2 ;
-+V+Act+Ind+Prs+Sg3:%>^A^A K ;
++V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ; 
++V+InfMa+Ade:%>m^Al^A K ;  
 
 
 LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
@@ -286,7 +278,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 +V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ;
 +V+InfMa+Ine:%>^Am^Ass^A K ;
 +V+InfMa+Ela:%>^Am^Ast^A K ;
-+V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
+!+V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
 +V+Act+Cond:%>i4s 2cond ;
@@ -312,6 +304,28 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 
 +V+Der+Der/minen+N:%>^A^Ami xnen ;
 
+LEXICON v2_ata !!≈ * **@CODE@** masinata etc, Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
+v2 ;
++V+Act+Ind+Prs+Sg3:%>^A K ; 
++V+InfMa+Ade:%>^Am^Al^A K ; ! 
++V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;
+
+LEXICON v2_ata_odd !!≈ * **@CODE@** huomata etc, Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
+v2 ;
++V+Act+Ind+Prs+Sg3:%>^A K ; 
++V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
+
+
+!LEXICON v2_uta_odd !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa !!NOT NEEDED?
+!v2 ;
+!+V+Act+Ind+Prs+Sg3:%>^A^A K ;
+!+V+InfMa+Ade:%>^Am^Al^A K ; 
+
+LEXICON v2_uta !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa
+v2 ;
++V+Act+Ind+Prs+Sg3:%>^A^A K ;
++V+InfMa+Ade:%>^Am^All^A K ; 
+
 
 LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 +V+Inf:%>t^A K ;
@@ -332,7 +346,6 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 +V+Act+Ind+Prt+Pl3:tt%>it K ;
 +V+Act+Ind+Prt+Pl3:tt%>iv^A K ; !GEO!
 
-
 !+V+Inf+Tra:%>^Akse PxK ;
 !+V+InfE+Ins:%>en K ;
 !+V+InfE+Ine:%>ess^A K ;
@@ -342,7 +355,6 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 !+V+InfMa+Ela:%>^Am^Ast^A K ;
 !+V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 !+V+InfMa+Abe:%>^Am^Att^A K ;
-
 
 !+V+Pass+Ind+Prs:%^WG%>th^A^An K ;
 !+V+Pass+Ind+Prt:%^WG%>thiin K ;
@@ -361,7 +373,6 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
 !+V+Imprt+Sg:%>kh^O^On # ;
 !+V+Imprt+Pl2:%>kh^A^A # ;
 !+V+Imprt+Pl3:%>kh^O^Ot # ;
-
 
 !+V+Act+Cond:%>is 2cond ;
 !+V+Der+Der/minen+N:%>^A^Ami xnen ;
@@ -511,9 +522,9 @@ LEXICON v3_other !RENSAD
 +V+Der+Der/minen+N:mi xnen ;
 
 
-LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
-+V+Inf:y%>^A KK ; ! đ
-+V+Inf+Tra:y%>^Akse PxK ; ! đ
+LEXICON v3_kaya  !!≈ @CODE@ käyä:kä from fkv
++V+Inf:y%>^A KK ; ! 
++V+Inf+Tra:y%>^Akse PxK ; ! 
 +V+Inf+Err/Orth:y%>d^A K ; ! d
 +V+InfE+Ine:y%>ess^A K ; 
 +V+InfE+Ins:y%>en K ; 
@@ -522,7 +533,7 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Sg3:y%>pii K ;
-+V+Act+Ind+Prs+Pl3:y%>hään K ; ! đ
++V+Act+Ind+Prs+Pl3:y%>hään K ; ! 
 +V+Act+Ind+Prs+Pl3+Err/Orth:y%>hään K ; ! d
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+Pl3:y%>thiin K ;
@@ -530,7 +541,7 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Act+Ind+Prs+ConNeg:y K ;
 +V+Act+Ind+Prt+ConNeg+Sg:y%>^N^U K ;
 
-+V+Pass+Ind+Prs:y%>thään K ; ! đ
++V+Pass+Ind+Prs:y%>thään K ; ! 
 +V+Pass+Ind+Prt:y%>thiin K ; 
 
 +V+Act+PrfPrc+Sg+Nom:y%>^N^U K ;
@@ -562,7 +573,7 @@ LEXICON v3_kaya  !!≈ @CODE@ käyđä:kä from fkv
 +V+Der+Der/minen+N:ymi xnen ;
 
 
-LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
+LEXICON v3_nahha !!≈ @CODE@ nähä:nä = from fkv
 +V+Inf:h%>h^A KK ; ! 
 +V+Inf:%>h^A KK ; ! 
 +V+Inf+Tra:h%>h^Akse PxK ; ! 
@@ -575,8 +586,8 @@ LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Act+Ind+Prt:%>i^WG v12pers_short ;
 +V+Act+Ind+Prt+Err/Orth:%>ji^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
-+V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! đ
-+V+Pass+Ind+Prs:h%>h^A^An K ; ! đ
++V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! 
++V+Pass+Ind+Prs:h%>h^A^An K ; ! 
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
@@ -612,10 +623,10 @@ LEXICON v3_nahha !!≈ @CODE@ nähđä:nä = from fkv
 +V+Der+Der/minen+N:kke xnen ;
 
 
-LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
+LEXICON v3_tehha !!≈ @CODE@ tehä:te from fkv
 +V+Inf:h%>h^A KK ; ! xxx
 +V+Inf:h%>^A KK ;  ! xxx 
-+V+Inf+Tra:h%>h^Akse PxK ; ! đ
++V+Inf+Tra:h%>h^Akse PxK ; ! 
 +V+Inf+Err/Orth:h%>d^ K ; ! d
 +V+InfE+Ins:%>hen K ;
 +V+InfE+Ine:%>hess^A K ;
@@ -623,8 +634,8 @@ LEXICON v3_tehha !!≈ @CODE@ tehđä:te from fkv
 +V+Act+Ind+Prs:he v12pers_short ;
 +V+Act+Ind+Prt:%>hi v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
-+V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! đ
-+V+Pass+Ind+Prs:h%>h^A^An K ; ! đ
++V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! 
++V+Pass+Ind+Prs:h%>h^A^An K ; ! 
 +V+Act+Ind+Prt+Sg3:k%>i K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
