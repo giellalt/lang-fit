@@ -5611,5 +5611,6 @@ huitasta:huita v4 ;
 huitata:huita v2_ata_odd ;
 märsätä:märsä v2_ata_odd ;
 vetää:vetä v1 ;
-havattea:havatte v1 ;
+havattea:havatte v1_odd ;
 myyä:myy v3_jä ;
+osottaa:osotta v1_odd ; 

@@ -841,6 +841,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
           i: [%^HMETA: | %^HMET2:] %> h: :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
          [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> h:_ [i2:] ;  !muna>munhiin Pl+Ill
+         [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> h:_ [i2:] ;  !silmä>silmhiin Pl+Ill 
 
 !! **Tests:**
 
@@ -850,7 +851,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before metathe
 
 "ä copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> h:    _ [:ä|:i] ;
+%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> h:    _ [:ä|i] ; !TEST used to be [:ä|:i]
           ä: [%^HMETA: | %^HMET2:] %> h: :ä _    ;
           ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           

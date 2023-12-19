@@ -457,7 +457,7 @@ pauhari:pauhari ax ;
 eri:eri ax ;
 nuori:nuore a5 ;
 hauri:hauri ax ;
-suuri:suure a5 ;
+suuri:suure a_suuri ;
 jättiläissuuri:jättiläissuuri ax ;
 söötsyyri:söötsyyri ax ;
 preliminääri:preliminääri ax ;

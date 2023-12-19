@@ -55,6 +55,13 @@ LEXICON aas
 !! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
 +A: xnas ; !!≈ * @CODE@
 
+LEXICON a_suuri
+!! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
++A: x5 ; !!≈ * @CODE@
++A+Sg+Nom:^E2I       PxK ; ! suuri
++A+Pl+Ill:^E2I%>in      PxK ; ! 
++A+Comp: 4comp ; !CHECK!
+
 LEXICON a1_ton
 !! **LEXICON @LEXNAME@** 
 +A: x1_ton ; !!≈ * @CODE@
