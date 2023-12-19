@@ -9,10 +9,11 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 ### Continuation lexica for regular verbs
 * **v1** = antaa; sanoa:sano
 * **v1_tietaa** = tietää:ti
-* **v1_nn** = tapahtua>tapahtunnu (odd-syll-stem), other forms = v1
-* **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
-* **v2_ta** = leipota:leippo (+^A^A i Sg3)
-* **v2** = continuationlexicon for both v2_ata and v2_ta
+* **v1_odd** = tapahtua>tapahtunnu (odd-syll-stem), other forms = v1
+* **v2_ata** = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* **v2_ata_odd** = huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+* **v2_uta** = leipota:leippo (+^A^A i Sg3)
+* **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 * **v3** = syö'ä:syö ! ', ’
 * **v4** = nousta; tulla:tul
 * **v4_3la** = varjela, varjelee
@@ -47,8 +48,8 @@ v1 sanoa, lukea
 * **hukkua:hukku v1 ;** 
 
 v2 tryykätä
-* **hypätä:hyppä v2_ata ;** 
-* **tryykätä:tryykkä v2_ata ;** 
+* **hypätä:hyppä v2_ata_odd ;** 
+* **tryykätä:tryykkä v2_ata_odd ;** 
 
 v3 syödä, juoda
 * **syä:sy v3_syä ;** 

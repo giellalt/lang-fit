@@ -7,10 +7,10 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
 * v1_tietaa = tietää:ti
-* v1_nn = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
-* v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
-* v2_ta = leipota:leippo (+^A^A i Sg3)
-* v2 = continuationlexicon for both v2_ata and v2_ta
+* v1_odd = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
+* v2_ata = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* v2_uta = leipota:leippo (+^A^A i Sg3)
+* v2 = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 * v3 = myyta:myy
 * v3_j = viejä, saaja
 * v4 = nousta; tulla:tul
@@ -26,8 +26,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * v3_kaya = käyä:kä
 * v3_nahha = nähhä:nä
 * v3_tehha = tehhä:te
-* **v3_jua** ! Stem ju-, short inf, otherwise like v3_j 
-* **v3_syä** ! Stem sy-, short inf, otherwise like v3_j
+* v3_jua ! Stem ju-, short inf, otherwise like v3_j 
+* v3_syä ! Stem sy-, short inf, otherwise like v3_j
 
 ## The verb lexica themselves
 
@@ -43,13 +43,15 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa !RENSAD
 
-* **LEXICON v1_nn** käsittää>käsittänny osv !RENSAD
-
-* **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
-
-* **LEXICON v2_ta** haluta etc, Prs+Sg3 halu/aa
+* **LEXICON v1_odd** käsittää>käsittänny osv 
 
 * **LEXICON v2** huomata, haluta övriga former !RENSAD
+
+* **LEXICON v2_ata** masinata etc, Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
+
+* **LEXICON v2_ata_odd** huomata etc, Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
+
+* **LEXICON v2_uta** haluta etc, Prs+Sg3 halu/aa
 
 * **LEXICON v2_havata** havata-paradigm EJ KLART
 
@@ -63,11 +65,11 @@ Regular verbs
 
 * **LEXICON v3_viä**
 
-LEXICON v3_kaya käyđä:kä from fkv
+LEXICON v3_kaya käyä:kä from fkv
 
-LEXICON v3_nahha nähđä:nä = from fkv
+LEXICON v3_nahha nähä:nä = from fkv
 
-LEXICON v3_tehha tehđä:te from fkv
+LEXICON v3_tehha tehä:te from fkv
 
 * **LEXICON v4**
 

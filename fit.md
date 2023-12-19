@@ -1430,30 +1430,30 @@ forms which requires great amount of care in the inflection patterns.
 * *yks:* `yksi+Num+Sg+Nom` (Eng. # one)
 
 * Numeral nominative plural back examples:*
-* *kahđet:* `kaksi+Num+Pl+Nom`
+* *kahet:* `kaksi+Num+Pl+Nom`
 
 * Numeral nominative plural front examples:*
-* *yhđet:* `yksi+Num+Pl+Nom`
+* *yhet:* `yksi+Num+Pl+Nom`
 
 * Numeral weak singular back examples:*
-* *kahđen:* `kaksi+Num+Sg+Gen`
-* *kahđela:* `kaksi+Num+Sg+Ade`
-* *kahđelta:* `kaksi+Num+Sg+Abl`
-* *kahđele:* `kaksi+Num+Sg+All`
-* *kahđessa:* `kaksi+Num+Sg+Ine`
-* *kahđesta:* `kaksi+Num+Sg+Ela`
-* *kahđeksi:* `kaksi+Num+Sg+Tra`
-* *kahđetta:* `kaksi+Num+Sg+Abe`
+* *kahen:* `kaksi+Num+Sg+Gen`
+* *kahela:* `kaksi+Num+Sg+Ade`
+* *kahelta:* `kaksi+Num+Sg+Abl`
+* *kahele:* `kaksi+Num+Sg+All`
+* *kahessa:* `kaksi+Num+Sg+Ine`
+* *kahesta:* `kaksi+Num+Sg+Ela`
+* *kaheksi:* `kaksi+Num+Sg+Tra`
+* *kahetta:* `kaksi+Num+Sg+Abe`
 
 * Numeral weak singular front examples:*
-* *yhđen:* `yksi+Num+Sg+Gen`
-* *yhđelä:* `yksi+Num+Sg+Ade`
-* *yhđeltä:* `yksi+Num+Sg+Abl`
-* *yhđele:* `yksi+Num+Sg+All`
-* *yhđessä:* `yksi+Num+Sg+Ine`
-* *yhđestä:* `yksi+Num+Sg+Ela`
-* *yhđeksi:* `yksi+Num+Sg+Tra`
-* *yhđettä:* `yksi+Num+Sg+Abe`
+* *yhen:* `yksi+Num+Sg+Gen`
+* *yhelä:* `yksi+Num+Sg+Ade`
+* *yheltä:* `yksi+Num+Sg+Abl`
+* *yhele:* `yksi+Num+Sg+All`
+* *yhessä:* `yksi+Num+Sg+Ine`
+* *yhestä:* `yksi+Num+Sg+Ela`
+* *yheksi:* `yksi+Num+Sg+Tra`
+* *yhettä:* `yksi+Num+Sg+Abe`
 
 * Numeral strong singular back examples:*
 * *kahtena:* `kaksi+Num+Sg+Ess`
@@ -1496,7 +1496,7 @@ forms which requires great amount of care in the inflection patterns.
 * *yksine:* `yksi+Num+Pl+Com`
 
 * Numeral singular partitive a examples:*
-* *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
+* *kaheksee:* `kaheksen+Num+Sg+Par` (Eng. !eight)
 
 * Numeral singular partitive a poss aan examples:*
 * *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
@@ -1508,7 +1508,7 @@ forms which requires great amount of care in the inflection patterns.
 * *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
 
 * Numeral singular illative an examples:*
-* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
+* *kaheksheen:* `kaheksen+Num+Sg+Ill`
 
 * Numeral singular illative en back examples:*
 * *kolmheen:* `kolme+Num+Sg+Ill`
@@ -1556,8 +1556,8 @@ forms which requires great amount of care in the inflection patterns.
 * *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
 
 * Numeral possessive back eenback examples:*
-* *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
-* *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
+* *kaheksensa:* `kaksi+Num+Sg+Tra+PxSg3`
+* *kahekseen:* `kaksi+Num+Sg+Tra+PxSg3`
 
 * Numeral possessive back een front examples:*
 * *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
@@ -1694,10 +1694,10 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
 * v1_tietaa = tietää:ti
-* v1_nn = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
-* v2_ata = huomata, tryykätä:tryykkä (+^A i Sg3)
-* v2_ta = leipota:leippo (+^A^A i Sg3)
-* v2 = continuationlexicon for both v2_ata and v2_ta
+* v1_odd = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
+* v2_ata = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* v2_uta = leipota:leippo (+^A^A i Sg3)
+* v2 = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 * v3 = myyta:myy
 * v3_j = viejä, saaja
 * v4 = nousta; tulla:tul
@@ -1713,8 +1713,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * v3_kaya = käyä:kä
 * v3_nahha = nähhä:nä
 * v3_tehha = tehhä:te
-* **v3_jua** ! Stem ju-, short inf, otherwise like v3_j 
-* **v3_syä** ! Stem sy-, short inf, otherwise like v3_j
+* v3_jua ! Stem ju-, short inf, otherwise like v3_j 
+* v3_syä ! Stem sy-, short inf, otherwise like v3_j
 
 ## The verb lexica themselves
 
@@ -1730,13 +1730,15 @@ Regular verbs
 
 * **LEXICON v1** sanoa, lukea, antaa !RENSAD
 
-* **LEXICON v1_nn** käsittää>käsittänny osv !RENSAD
-
-* **LEXICON v2_ata** huomata etc, Prs+Sg3 huoma/a
-
-* **LEXICON v2_ta** haluta etc, Prs+Sg3 halu/aa
+* **LEXICON v1_odd** käsittää>käsittänny osv 
 
 * **LEXICON v2** huomata, haluta övriga former !RENSAD
+
+* **LEXICON v2_ata** masinata etc, Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
+
+* **LEXICON v2_ata_odd** huomata etc, Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
+
+* **LEXICON v2_uta** haluta etc, Prs+Sg3 halu/aa
 
 * **LEXICON v2_havata** havata-paradigm EJ KLART
 
@@ -1750,11 +1752,11 @@ Regular verbs
 
 * **LEXICON v3_viä**
 
-LEXICON v3_kaya käyđä:kä from fkv
+LEXICON v3_kaya käyä:kä from fkv
 
-LEXICON v3_nahha nähđä:nä = from fkv
+LEXICON v3_nahha nähä:nä = from fkv
 
-LEXICON v3_tehha tehđä:te from fkv
+LEXICON v3_tehha tehä:te from fkv
 
 * **LEXICON v4**
 
@@ -3376,10 +3378,11 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 ### Continuation lexica for regular verbs
 * **v1** = antaa; sanoa:sano
 * **v1_tietaa** = tietää:ti
-* **v1_nn** = tapahtua>tapahtunnu (odd-syll-stem), other forms = v1
-* **v2_ata** = huomata, tryykätä:tryykkä (+^A i Sg3)
-* **v2_ta** = leipota:leippo (+^A^A i Sg3)
-* **v2** = continuationlexicon for both v2_ata and v2_ta
+* **v1_odd** = tapahtua>tapahtunnu (odd-syll-stem), other forms = v1
+* **v2_ata** = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* **v2_ata_odd** = huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+* **v2_uta** = leipota:leippo (+^A^A i Sg3)
+* **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 * **v3** = syö'ä:syö ! ', ’
 * **v4** = nousta; tulla:tul
 * **v4_3la** = varjela, varjelee
@@ -3414,8 +3417,8 @@ v1 sanoa, lukea
 * **hukkua:hukku v1 ;** 
 
 v2 tryykätä
-* **hypätä:hyppä v2_ata ;** 
-* **tryykätä:tryykkä v2_ata ;** 
+* **hypätä:hyppä v2_ata_odd ;** 
+* **tryykätä:tryykkä v2_ata_odd ;** 
 
 v3 syödä, juoda
 * **syä:sy v3_syä ;** 

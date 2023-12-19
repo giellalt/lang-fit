@@ -16,30 +16,30 @@ forms which requires great amount of care in the inflection patterns.
 * *yks:* `yksi+Num+Sg+Nom` (Eng. # one)
 
 * Numeral nominative plural back examples:*
-* *kahđet:* `kaksi+Num+Pl+Nom`
+* *kahet:* `kaksi+Num+Pl+Nom`
 
 * Numeral nominative plural front examples:*
-* *yhđet:* `yksi+Num+Pl+Nom`
+* *yhet:* `yksi+Num+Pl+Nom`
 
 * Numeral weak singular back examples:*
-* *kahđen:* `kaksi+Num+Sg+Gen`
-* *kahđela:* `kaksi+Num+Sg+Ade`
-* *kahđelta:* `kaksi+Num+Sg+Abl`
-* *kahđele:* `kaksi+Num+Sg+All`
-* *kahđessa:* `kaksi+Num+Sg+Ine`
-* *kahđesta:* `kaksi+Num+Sg+Ela`
-* *kahđeksi:* `kaksi+Num+Sg+Tra`
-* *kahđetta:* `kaksi+Num+Sg+Abe`
+* *kahen:* `kaksi+Num+Sg+Gen`
+* *kahela:* `kaksi+Num+Sg+Ade`
+* *kahelta:* `kaksi+Num+Sg+Abl`
+* *kahele:* `kaksi+Num+Sg+All`
+* *kahessa:* `kaksi+Num+Sg+Ine`
+* *kahesta:* `kaksi+Num+Sg+Ela`
+* *kaheksi:* `kaksi+Num+Sg+Tra`
+* *kahetta:* `kaksi+Num+Sg+Abe`
 
 * Numeral weak singular front examples:*
-* *yhđen:* `yksi+Num+Sg+Gen`
-* *yhđelä:* `yksi+Num+Sg+Ade`
-* *yhđeltä:* `yksi+Num+Sg+Abl`
-* *yhđele:* `yksi+Num+Sg+All`
-* *yhđessä:* `yksi+Num+Sg+Ine`
-* *yhđestä:* `yksi+Num+Sg+Ela`
-* *yhđeksi:* `yksi+Num+Sg+Tra`
-* *yhđettä:* `yksi+Num+Sg+Abe`
+* *yhen:* `yksi+Num+Sg+Gen`
+* *yhelä:* `yksi+Num+Sg+Ade`
+* *yheltä:* `yksi+Num+Sg+Abl`
+* *yhele:* `yksi+Num+Sg+All`
+* *yhessä:* `yksi+Num+Sg+Ine`
+* *yhestä:* `yksi+Num+Sg+Ela`
+* *yheksi:* `yksi+Num+Sg+Tra`
+* *yhettä:* `yksi+Num+Sg+Abe`
 
 * Numeral strong singular back examples:*
 * *kahtena:* `kaksi+Num+Sg+Ess`
@@ -82,7 +82,7 @@ forms which requires great amount of care in the inflection patterns.
 * *yksine:* `yksi+Num+Pl+Com`
 
 * Numeral singular partitive a examples:*
-* *kahđeksee:* `kahđeksen+Num+Sg+Par` (Eng. !eight)
+* *kaheksee:* `kaheksen+Num+Sg+Par` (Eng. !eight)
 
 * Numeral singular partitive a poss aan examples:*
 * *kolmee:* `kolme+Num+Sg+Par` (Eng. !three)
@@ -94,7 +94,7 @@ forms which requires great amount of care in the inflection patterns.
 * *viittä:* `viisi+Num+Sg+Par` (Eng. !five)
 
 * Numeral singular illative an examples:*
-* *kahđeksheen:* `kahđeksen+Num+Sg+Ill`
+* *kaheksheen:* `kaheksen+Num+Sg+Ill`
 
 * Numeral singular illative en back examples:*
 * *kolmheen:* `kolme+Num+Sg+Ill`
@@ -142,8 +142,8 @@ forms which requires great amount of care in the inflection patterns.
 * *kolmeensa:* `kolme+Num+Sg+Par+PxSg3`
 
 * Numeral possessive back eenback examples:*
-* *kahđeksensa:* `kaksi+Num+Sg+Tra+PxSg3`
-* *kahđekseen:* `kaksi+Num+Sg+Tra+PxSg3`
+* *kaheksensa:* `kaksi+Num+Sg+Tra+PxSg3`
+* *kahekseen:* `kaksi+Num+Sg+Tra+PxSg3`
 
 * Numeral possessive back een front examples:*
 * *neljeksensä:* `nelje+Num+Sg+Tra+PxSg3`
