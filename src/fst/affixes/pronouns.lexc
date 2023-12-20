@@ -150,6 +150,7 @@ LEXICON relkys
 +Ill:%>h^Vn K ;
 +Ill:%>h^Vnk^A K ;
 +Par:%>t^A K ;
++Par+Err/Orth:%>tt^A K ;
 +Par+Clt:%>t^As # ;
 +Ess:%>n^A    K ;
 +Tra:%>ksi   K ;

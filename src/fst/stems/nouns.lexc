@@ -10406,8 +10406,9 @@ lenko:lenko n1 ;
 penko:penko n1 ;
 vahinko:vahinko n1 ;
 valkeanvahinko:valkeanvahinko n1 ;
-aurinko:aurink2o n1 ;
-lapinaurinko:lapinaurinko n1 ;
+aurinko:aurink2o n3 ;
+aurinko:aurinko n3 ;
+lapinaurinko:lapin#aurinko n3 ;
 konko:konko n1 ;
 ponko:ponko n1 ;
 jokos:joko 3n_ks ;
@@ -15504,3 +15505,5 @@ covid-19 n_nomorph ;
 sapatti:sapatti n1_troppi_odd ;
 säänö:säänö n1 ; !CHECK plural?
 tarina:tarina n3 ;
+kuolu:kuolu n1 ;
+kuollu:kuollu n1 ;

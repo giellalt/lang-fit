@@ -203,15 +203,23 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
-+V+Act+Cond+Sg1:%>i4sin K ; ! kävisin
++V+Act+Cond+Sg1:%>i4sin K ; 
++V+Act+Cond+Sg1:%>sin K ; !variantform
 +V+Act+Cond+Sg2:%>i4sit K ;
++V+Act+Cond+Sg2:%>sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
++V+Act+Cond+Sg3:%>s K ;
 !+V+Act+Cond+Sg3:%>i4si K ; 
 +V+Act+Cond+Pl1:%>i4simm^A K ;
++V+Act+Cond+Pl1:%>simm^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
++V+Act+Cond+Pl2:%>sitt^A K ;
 +V+Act+Cond+Pl3:%>i4sit K ;
 +V+Act+Cond+Pl3:%>i4siv^A K ;
++V+Act+Cond+Pl3:%>sit K ;
++V+Act+Cond+Pl3:%>siv^A K ;
 +V+Pass+Cond:%^AE%^WG%>tt^A%>i4s K ; 
++V+Pass+Cond:%^AE%^WG%>tt^A%>s K ; 
 +V+Act+Cond+ConNeg:%>i4si K ;
 
 +V+Inf+Tra:%>^Akse PxK ;
@@ -283,11 +291,10 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 !+V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
-+V+Act+Cond:%>i4s 2cond ;
-+V+Act+Cond+Pl1:i4s%>imm^A K ;
-+V+Act+Cond+Pl3:i4s%>it K ;
-+V+Act+Cond+Pl3:i4s%>iv^A K ;
-+V+Pass+Cond:tt%>^Ai4s K ;
+!+V+Act+Cond+Pl1:i4s%>imm^A K ; !TEST remove
+!+V+Act+Cond+Pl3:i4s%>it K ;
+!+V+Act+Cond+Pl3:i4s%>iv^A K ;
++V+Pass+Cond:tta%>i4s K ;
 
 +V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
 +V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
@@ -312,22 +319,28 @@ v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
 +V+InfMa+Ade:%>^Am^Al^A K ; ! 
 +V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;
++V+Act+Cond:%>i4s 2cond ;
+
 
 LEXICON v2_ata_odd !!≈ * **@CODE@** huomata etc, Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
 v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
 +V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
++V+Act+Cond:%>i4s 2cond ;
 
 
 !LEXICON v2_uta_odd !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa !!NOT NEEDED?
 !v2 ;
 !+V+Act+Ind+Prs+Sg3:%>^A^A K ;
 !+V+InfMa+Ade:%>^Am^Al^A K ; 
+!+V+Act+Cond:%>^Ai4s 2cond ;
+
 
 LEXICON v2_uta !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa
 v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A^A K ;
 +V+InfMa+Ade:%>^Am^All^A K ; 
++V+Act+Cond:%>^Ai4s 2cond ;
 
 
 LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm EJ KLART
@@ -432,6 +445,7 @@ LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 
 LEXICON v3_ja !for inf with ’a; saaja !!HOW to solve this?
 +V+Inf:’a K ;
++V+Inf:ha K ;
 +V+InfE+Ine:%>’essa K ;
 +V+Pass+PrfPrc+Pl+Nom:%>’ut K ;
 +V+Pass+PrfPrc+Pl+Nom:%>jut K ;
@@ -439,6 +453,7 @@ v3_j ;
 
 LEXICON v3_jä !for inf with ’ä; viejä !!HOW to solve this with ^A?
 +V+Inf:’ä K ;
++V+Inf:hä K ;
 +V+InfE+Ine:%>’essä K ;
 +V+Pass+PrfPrc+Pl+Nom:%>’yt K ;
 +V+Pass+PrfPrc+Pl+Nom:%>jyt K ;
@@ -448,7 +463,6 @@ LEXICON v3_j  !!≈ * **@CODE@**
 +V+Inf:%>j^A KK ;
 !+V+Inf:’%>^A KK ; !not working, why?
 v3_other ;
-+V+Act+Ind+Prs+ConNeg+Sg:^HMETA%>i3s K ; !CHECK!
 +V+Act+Ind+Prt+Sg3:t%>i3 K ; !CHECK
 +V+InfMa+Ill:%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:%>m^Ass^A K ;
@@ -1063,7 +1077,7 @@ LEXICON 2cond !!≈ **@CODE@** kehitä:kehi
 +Sg2:%>it K ;
 +Sg3: K ;
 !+Sg3:%>i K ; !CHECK! Not for v3_j iaf
-!+Pl1:%>imm^A K ;
++Pl1:%>imm^A K ;
 +Pl2:%>itt^A K ;
 +Pl3:%>iv^A K ;
 

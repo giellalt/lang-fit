@@ -36,13 +36,13 @@ Tests:
      antaa+V+Pass+PrsPrc+Sg+Nom: annettava
      antaa+V+Pass+PrsPrc+Pl+Nom: annettavat
   
-     antaa+V+Act+Cond+Sg1: antaisin
-     antaa+V+Act+Cond+Sg2: antaisit
-     antaa+V+Act+Cond+Sg3: antais
-     antaa+V+Act+Cond+Pl1: antaisimma
-     antaa+V+Act+Cond+Pl2: antaisitta
-     antaa+V+Act+Cond+Pl3: antaisit
-     antaa+V+Pass+Cond: annettais
+     antaa+V+Act+Cond+Sg1: [antaisin, antasin]
+     antaa+V+Act+Cond+Sg2: [antaisit, antasit]
+     antaa+V+Act+Cond+Sg3: [antais, antas]
+     antaa+V+Act+Cond+Pl1: [antaisimma, antasimma]
+     antaa+V+Act+Cond+Pl2: [antaisitta, antasitta]
+     antaa+V+Act+Cond+Pl3: [antaisit, antaisiva, antasit, antasiva]
+     antaa+V+Pass+Cond: [annettais, annettas]
   
      antaa+V+Act+Imprt+Sg2: anna
      antaa+V+Act+Imprt+Pl2: antakaa
