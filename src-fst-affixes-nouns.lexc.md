@@ -24,8 +24,8 @@ Consonant stems
 * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
-* n5_i = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
-* n5_alttari = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
+* n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+* n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
 
 * n_uus = vajavuus
 * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -158,12 +158,12 @@ Consonant stems
 
 **LEXICON n5_lapsi**
 
-**LEXICON n5_i** for 2-syll ordinary nouns ending with -i; malmi, äiti
+**LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti
 * +N+Sg+Nom:i PxK ; Px separate
 
 **LEXICON x5_i** for type n1-words ending with -i, pointing to sg, pl
 
-**LEXICON n5_alttari**
+**LEXICON n5_ie_odd**
 
 #### The nainen (nen) and hevonen (3nen) family
 
