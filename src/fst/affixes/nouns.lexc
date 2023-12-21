@@ -25,8 +25,8 @@
 !! * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kasi = käsi : käden : kättä (2syll)
 !! * n5_lapsi = lapsi : lapsen : lasta
-!! * n5_i = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
-!! * n5_alttari = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
+!! * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+!! * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
 
 !! * n_uus = vajavuus
 !! * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -530,7 +530,7 @@ LEXICON n5_lapsi
 +N+Pl+Tra:psi TRA ;
 +N+Pl+Abe:ps%>itt^A PxK ;
 
-LEXICON n5_i
+LEXICON n5_ie
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti
  +N: x5_i ;
  +N+Sg+Nom:i       PxK ; !!≈ * @CODE@ Px separate
@@ -556,7 +556,7 @@ LEXICON x5_i
 +Pl+Abe:e^WG%>itt^A PxK ;
 
 
-LEXICON n5_alttari
+LEXICON n5_ie_odd
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:^E2I R ;
 +N+Sg+Nom:^E2I PxK ;
