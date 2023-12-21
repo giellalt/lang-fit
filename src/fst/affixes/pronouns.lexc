@@ -85,7 +85,7 @@ LEXICON MUU
 
 LEXICON netpronpl
 +Gen:itten K ; !!nii
-+Ill:ihiin K ;
++Ill:ihin K ;
 +Ela:istä   K ;
 +Ine:issä	K ;
 +Par:itä	K ;
@@ -208,6 +208,7 @@ LEXICON kuka_relkys_sgpl
 +Gen+Foc/kas:nenkäs   K ;
 +Par+Foc/haan:%>th^A^An # ; ! kethään !CHECK göra annorlunda?
 +Ill:nheen  K ;
++Ill:lheen  K ;
 +Par:tä  K ; 
 +Ess:nenä    K ;
 +Tra:neksi    K ;

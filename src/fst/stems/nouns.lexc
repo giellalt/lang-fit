@@ -9375,8 +9375,8 @@ karotti:karotti nx ;
 luotin:luotti 3n_ime ;
 nuotti:nuott n5_i ;
 tukkanuotti:tukkanuott n5_i ;
-ruotti:ruott n5_i ;
-ruotti:ruott n5_i ;
+ruotti:ruott2 n5_i ;
+!ruotti:ruott n5_i ;
 kovaruotti:kova#ruott n5_i ;
 kainhuunruotti:kainhuun#ruott n5_i ;
 kaihnuunruotti:kaihnuun#ruott n5_i ;
@@ -15507,3 +15507,4 @@ säänö:säänö n1 ; !CHECK plural?
 tarina:tarina n3 ;
 kuolu:kuolu n1 ;
 kuollu:kuollu n1 ;
+kuolheet:kuole n2_pl ;
