@@ -152,6 +152,8 @@ Consonant stems
 
 **LEXICON n5_kasi** käsi, stem kä
 
+**LEXICON n5_kasi_pl**  continuation for kasi_pl
+
 **LEXICON x5_kasi**  veri
 
 **LEXICON x5_kasi_pl**
