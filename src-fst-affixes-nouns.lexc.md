@@ -25,10 +25,10 @@ Consonant stems
 * n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
 * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
-* n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
+* n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
 
 * n_uus = vajavuus
-* n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
+* n_uus_odd = miehuus (miehuuele men miehuksille?)
 * nc = cvc
 * 3nc = cvcvc, jiddish
 * nen = nainen paradigm
