@@ -2412,9 +2412,9 @@ vahata:vahta v2_ata_odd ;
 kehata:kehta v2_ata_odd ;
 kihata:kiha v2_ata_odd ;
 sihata:sihta v2_ata_odd ;
-vihata:viha v2_ata_odd ;
 vanhata:vanha v2_ata_odd ;
 kohata:kohta v2_ata_odd ;
+kohata:koha v2_ata_odd ;
 puohata:puoha v2_ata_odd ;
 murhata:murha v2_ata_odd ;
 uhata:uhka v2_ata_odd ;
@@ -2540,6 +2540,7 @@ krookata:krookka v2_ata_odd ;
 pokata:pokka v2_ata_odd ;
 krokata:krokka v2_ata_odd ;
 huokata:huokka v2_ata_odd ;
+huokata+Err/Orth:huoka v2_ata_odd ; !CHECK EK
 juokata:juokka v2_ata_odd ;
 muokata:muokka v2_ata_odd ;
 parkata:parkka v2_ata_odd ;

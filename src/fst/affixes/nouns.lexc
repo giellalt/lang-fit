@@ -476,6 +476,9 @@ LEXICON n5_kasi
  +N+Nom:si R ;
  +N+Gen:e%>n R ;
 
+LEXICON n5_kasi_pl
+!! **LEXICON @LEXNAME@**  continuation for kasi_pl
++N: x5_kasi_pl ;
 
 LEXICON x5_kasi
 !! **LEXICON @LEXNAME@**  veri
@@ -884,28 +887,28 @@ LEXICON xnas_sg ! ankerias:ankeria
 LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:%>^Vt PxK ;
- +Pl+Gen:^HMETA%>h^Vitten PxK ; !maitosalmhoitten 
- +Pl+Gen:^HMET2%>h^Vitten PxK ; !maitosalhmoitten
- +Pl+Par:^HMETA%>h^Vit^A PxK ;
- +Pl+Par:^HMET2%>h^Vit^A PxK ;
- +Pl+Ill:^HMETA%>h^Vi n_PxK ;
- +Pl+Ill:^HMET2%>h^Vi n_PxK ;
- +Pl+Ine:^HMETA%>h^Viss^A PxK ;
- +Pl+Ine:^HMET2%>h^Viss^A PxK ;
- +Pl+Ela:^HMETA%>h^Vist^A PxK ;
- +Pl+Ela:^HMET2%>h^Vist^A PxK ;
- +Pl+All:^HMETA%>h^Vile PxxK ;
- +Pl+All:^HMET2%>h^Vile PxxK ;
- +Pl+Ade:^HMETA%>h^Vil^A PxK ;
- +Pl+Ade:^HMET2%>h^Vil^A PxK ;
- +Pl+Abl:^HMETA%>h^Vilt^A PxK ;
- +Pl+Abl:^HMET2%>h^Vilt^A PxK ;
- +Pl+Ess:^HMETA%>h^Vin^A PxK ;
- +Pl+Ess:^HMET2%>h^Vin^A PxK ;
- +Pl+Tra:^HMETA%>h^Vi TRA ;
- +Pl+Tra:^HMET2%>h^Vi TRA ;
- +Pl+Abe:^HMETA%>h^Vitt^A PxK ;
- +Pl+Abe:^HMET2%>h^Vitt^A PxK ;
+ +Pl+Gen:^HMETA%>h^Vi2tten PxK ; !maitosalmhoitten !TEST
+ +Pl+Gen:^HMET2%>h^Vi2tten PxK ; !maitosalhmoitten
+ +Pl+Par:^HMETA%>h^Vi2t^A PxK ;
+ +Pl+Par:^HMET2%>h^Vi2t^A PxK ;
+ +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
+ +Pl+Ill:^HMET2%>h^V2i n_PxK ;
+ +Pl+Ine:^HMETA%>h^Vi2ss^A PxK ;
+ +Pl+Ine:^HMET2%>h^Vi2ss^A PxK ;
+ +Pl+Ela:^HMETA%>h^Vi2st^A PxK ;
+ +Pl+Ela:^HMET2%>h^Vi2st^A PxK ;
+ +Pl+All:^HMETA%>h^Vi2le PxxK ;
+ +Pl+All:^HMET2%>h^Vi2le PxxK ;
+ +Pl+Ade:^HMETA%>h^Vi2l^A PxK ;
+ +Pl+Ade:^HMET2%>h^Vi2l^A PxK ;
+ +Pl+Abl:^HMETA%>h^Vi2lt^A PxK ;
+ +Pl+Abl:^HMET2%>h^Vi2lt^A PxK ;
+ +Pl+Ess:^HMETA%>h^Vi2n^A PxK ;
+ +Pl+Ess:^HMET2%>h^Vi2n^A PxK ;
+ +Pl+Tra:^HMETA%>h^Vi2 TRA ;
+ +Pl+Tra:^HMET2%>h^Vi2 TRA ;
+ +Pl+Abe:^HMETA%>h^Vi2tt^A PxK ;
+ +Pl+Abe:^HMET2%>h^Vi2tt^A PxK ;
 
 
 LEXICON 3mies
@@ -1167,7 +1170,7 @@ LEXICON x4n_ks_pl
 
 LEXICON TRA
 !! **LEXICON @LEXNAME@**
-! +Err/Orth:%>ks K ; ! VetEj
++Err/Orth:%>ks K ; ! VetEj
  :%>ks i_PxK ;
 
 !! ### Sublexica for possessive suffixes
