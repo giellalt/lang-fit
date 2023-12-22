@@ -139,7 +139,6 @@ tappaa:tappa v1 ;
 nauraa:naura v1 ;
 saa:saa v3_ja ;
 saa’a:saa v3_ja ;
-!saaha:saaha v3_ja ; !CHECK!
 jaksaa:jaksa v1 ;
 maksaa:maksa v1 ;
 jaataa:jaata v1 ;

@@ -75,7 +75,8 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Pass+PrsPrc+Pl+Nom:oltavat K ; 
 +V+Act+Ind+Prt+ConNeg+Pl:olheet K ;
 +V+Pass+Cond:olisi K ;
-+V+Act+PrsPrc+Der+Der/A+A:olleeva x3 ;
++V+Act+PrsPrc+Der+Der/A+A:olleeva x3 ; !??
++V+Act+PrsPrc:ole%>v^A x3 ;
 +V+Pass+PrsPrc+Der+Der/A+A:oltava x3 ;
 +V+Act+Ind+Prs+ConNeg:ole K ;
 
@@ -231,7 +232,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa !RENSAD
 +V+InfMa+Ill:^HMET2%>h^V^Vn K ; !lauhlaan
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
-+V+InfMa+Ade:%>m^All^A K ; !CHECK TODO flytta ut så att inte v1_odd får!
++V+InfMa+Ade:%>m^All^A K ; !TODO flytta ut så att inte v1_odd får!
 +V+InfMa+Abe:%>m^Att^A K ;
 
 +V+Act+PrsPrc:%>v^A x3 ;
@@ -288,12 +289,8 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 +V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ;
 +V+InfMa+Ine:%>^Am^Ass^A K ;
 +V+InfMa+Ela:%>^Am^Ast^A K ;
-!+V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
-!+V+Act+Cond+Pl1:i4s%>imm^A K ; !TEST remove
-!+V+Act+Cond+Pl3:i4s%>it K ;
-!+V+Act+Cond+Pl3:i4s%>iv^A K ;
 +V+Pass+Cond:tta%>i4s K ;
 
 +V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
@@ -463,7 +460,7 @@ LEXICON v3_j  !!≈ * **@CODE@**
 +V+Inf:%>j^A KK ;
 !+V+Inf:’%>^A KK ; !not working, why?
 v3_other ;
-+V+Act+Ind+Prt+Sg3:t%>i3 K ; !CHECK
++V+Act+Ind+Prt+Sg3:t%>i3 K ; 
 +V+InfMa+Ill:%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
@@ -552,7 +549,7 @@ LEXICON v3_kaya  !!≈ @CODE@ käyä:kä from fkv
 
 +V+Act+Ind+Prt:v%>i3^WG v12pers_short ;
 +V+Act+Ind+Prt+Pl3:v%>i3t K ;
-+V+Act+Ind+Prt+Pl3:v%>i3v^A K ; !CHECK EK
++V+Act+Ind+Prt+Pl3:v%>i3v^A K ; 
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+Pl3:y%>thiin K ;
 +V+Act+Ind+Prt+ConNeg+Sg:y%>^N^U K ;

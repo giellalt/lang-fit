@@ -26,10 +26,10 @@
 !! * n5_kasi = käsi : käden : kättä (2syll)
 !! * n5_lapsi = lapsi : lapsen : lasta
 !! * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
-!! * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
+!! * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
 
 !! * n_uus = vajavuus
-!! * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
+!! * n_uus_odd = miehuus (miehuuele men miehuksille?)
 !! * nc = cvc
 !! * 3nc = cvcvc, jiddish
 !! * nen = nainen paradigm
@@ -167,7 +167,7 @@ LEXICON x1_pl
  +Pl+Nom:^WG%>t PxK ;
  +Pl+Gen:^WG^IDEL%>i2tten PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2en PxK ;
- +Pl+Par:%>i2^A PxK ; !TEST med WG
+ +Pl+Par:%>i2^A PxK ; 
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhoin 
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnoin 
  +Pl+Ine:^WG%>i2ss^A PxK ;
@@ -176,7 +176,7 @@ LEXICON x1_pl
  +Pl+Ade:^WG%>i2l^A PxK ;
  +Pl+Abl:^WG%>i2lt^A PxK ;
  +Pl+Tra:^WG%>i2 TRA ;
- +Pl+Ess:%>i2n^A PxK ; !TEST
+ +Pl+Ess:%>i2n^A PxK ; 
  +Pl+Abe:^WG%>i2tt^A PxK ;
 
 
@@ -694,7 +694,7 @@ xn_ks_pl ;
 
 LEXICON xn_ks_sg
 !! **LEXICON @LEXNAME@**
- +Sg+Nom:s       PxK ; !TEST tillbaka
+ +Sg+Nom:s       PxK ; 
  +Sg+Gen:kse%>n PxK ;
  +Sg+Par:s%>t^A PxK ;
  +Sg+Ill:kse^HMETA%>h^V^V n_PxK ;
@@ -948,7 +948,6 @@ LEXICON n_ien_sg
  +N+Sg+Par:^WGn%>t^A PxK ;
  +N+Sg+Ill:n^HMETA%>heen PxK ;
  +N+Sg+Ill:hneen PxK ;
- !+N+Sg+Ill:n^HMET2%>heen PxK ;!ikehneen CHECK
  +N+Sg+Ine:ne%>ss^A PxK ;
  +N+Sg+Ela:ne%>st^A PxK ;
  +N+Sg+All:ne%>lle PxxK ;
