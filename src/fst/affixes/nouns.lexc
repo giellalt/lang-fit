@@ -6,7 +6,7 @@
 !! ## This is an overview of the continuation lexicon types.
 
 !! Special stems
-!! * n_nomorph = uninflected nouns: Covid-19
+!! * n_nomorph = uninflected nouns: covid-19
 !! * nc = for consonant-final nouns, structure CVC (romani chib)
 !! * 3nc = for triple-consonant-final (jiddisch)
 
@@ -1077,6 +1077,14 @@ LEXICON TYÄR
 +N+Sg+Par:tytärtä K ;
 +N+Sg+Par:tyärtä K ;
          :tyttär 3xn_lnr ;
+
+LEXICON n_kasuven !!FIXA 
+!! **LEXICON @LEXNAME@** 
++N+Sg+Nom:en PxK ; 
++N+Sg+Ela:en%>st^A PxK ;
++N+Pl+Ill:e^HMETA%>hii n_PxK ;
++N+Pl+Ill:e^HMET2%>hii n_PxK ;
++N+Pl+All:%>i2lle PxK ;
 
 LEXICON 3xn_lnr
 !! **LEXICON @LEXNAME@** tyär, kort och lång Ill

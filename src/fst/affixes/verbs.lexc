@@ -282,9 +282,9 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
-+V+Inf+Tra:%>^Akse PxK ;
-+V+InfE+Ins:t%>en K ;
-+V+InfE+Ine:t%>ess^A K ;
++V+Inf+Tra:^WG%>^Akse PxK ;
++V+InfE+Ins:^WGt%>en K ;
++V+InfE+Ine:^WGt%>ess^A K ;
 +V+InfMa+Ill:%>^Amh^A^An K ; 
 +V+InfMa+Ill:%>^Am^HMET2%>h^A^An K ;
 +V+InfMa+Ine:%>^Am^Ass^A K ;
@@ -293,16 +293,16 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 
 +V+Pass+Cond:tta%>i4s K ;
 
-+V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
-+V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
-+V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ;
-+V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ;
++V+Act+PrsPrc+Sg+Nom:^WG%>^Av^A K ;
++V+Act+PrsPrc+Pl+Nom:^WG%>^Av^At K ;
++V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Av^A K ;
++V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Av^At K ;
 
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Act+PrfPrc:%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
-+V+Act+PrfPrc+Pl+Nom:n^HMET2%>heet K ;
-+V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:t%>^Ut K ;
++V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
++V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
++V+Act+PrfPrc+Pl+Nom:^WGn^HMET2%>heet K ;
++V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
++V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:%>kh^O^On # ;
@@ -1002,13 +1002,13 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 +V+Act+Ind+Prs+Pl3:t%>^Av^A K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:t%>^Av^At K ;
 
-+V+Act+Ind+Prt+Sg1:t%>in K ;
-+V+Act+Ind+Prt+Sg2:t%>it K ;
-+V+Act+Ind+Prt+Sg3:t%>i K ;
-+V+Act+Ind+Prt+Pl1:t%>imm^A K ;
-+V+Act+Ind+Prt+Pl2:t%>itt^A K ;
-+V+Act+Ind+Prt+Pl3:t%>it K ;
-+V+Act+Ind+Prt+Pl3:t%>iv^A K ;
++V+Act+Ind+Prt+Sg1:s%>in K ;
++V+Act+Ind+Prt+Sg2:s%>it K ;
++V+Act+Ind+Prt+Sg3:s%>i K ;
++V+Act+Ind+Prt+Pl1:s%>imm^A K ;
++V+Act+Ind+Prt+Pl2:s%>itt^A K ;
++V+Act+Ind+Prt+Pl3:s%>it K ;
++V+Act+Ind+Prt+Pl3:s%>iv^A K ;
 +V+Act+Cond:t%>^A%>i4s 2cond ;
 +V+Act+Cond+Pl1:t%>^A%>i4s%>imm^A K ;
 +V+Act+Cond+Pl3:t%>^A%>i4s%>it K ;

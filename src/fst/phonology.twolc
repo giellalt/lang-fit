@@ -170,6 +170,7 @@ m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 !! n rules
 "n:0"
 n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
+        _ %> n s ; !Poss-suffix ahvensa etc
 
 
 
@@ -188,7 +189,7 @@ p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; ! tärppä : tärpän
 
 "p:v"
 !! **RULE: @RULENAME@**
-p:v <=> Vow   _ Vow:  WeakGrade ;
+p:v <=> [Vow|l]   _ Vow:  WeakGrade ;
         Vow r _ Vow WeakGrade ;
 
 !! **Tests:**
