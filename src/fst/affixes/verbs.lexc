@@ -573,6 +573,7 @@ LEXICON v3_kaya  !!≈ @CODE@ käyä:kä from fkv
 +V+Pass+PrfPrc+Sg+Nom:y%>t^U K ;
 
 +V+Act+Cond:v%>i4s 2cond ;
++V+Act+Cond+Sg3:v%>i4si K ;
 !+V+Act+Cond+Pl1:v%>i4s%>im^A K ;
 +V+Pass+Cond:y%>t^A%>i4s K ;
 +V+Pass+Cond:y%>t^A%>s K ;

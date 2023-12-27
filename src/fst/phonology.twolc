@@ -711,8 +711,8 @@ i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathe
 
 "i:j"
 !! **RULE: @RULENAME@**
-i:j <=> Vow _ k:0 :Vow ; ! pojan
-        Vow _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
+i:j <=> VowelNotI _ k:0 :Vow ; ! pojan !TEST 27/12 Vow>VowelNotI
+        VowelNotI _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
 
 "i2:j"
 !! **RULE: @RULENAME@**
@@ -839,8 +839,8 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 %^V:i <=> i: [%^HMETA: | %^HMET2:] %> h:    _ :i ;
           i: [%^HMETA: | %^HMET2:] %> h: :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
-         [.#.|#] Cns:* RoundedVowel+ Cns:+ (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> h:_ [i2:] ;  !muna>munhiin Pl+Ill
-         [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> h:_ [i2:] ;  !silmä>silmhiin Pl+Ill 
+         [.#.|#] Cns:* RoundedVowel+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> h: _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
+         [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> h: _ [i2:] ;  !silmä>silmhiin Pl+Ill
 
 !! **Tests:**
 
