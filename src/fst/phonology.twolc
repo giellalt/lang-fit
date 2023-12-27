@@ -712,7 +712,7 @@ i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathe
 
 "i:j"
 !! **RULE: @RULENAME@**
-i:j <=> VowelNotI _ k:0 :Vow ; ! pojan !TEST 27/12 Vow>VowelNotI
+i:j <=> VowelNotI _ k:0 :Vow ; ! pojan 
         VowelNotI _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
 
 "i2:j"
