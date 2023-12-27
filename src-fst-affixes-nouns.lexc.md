@@ -5,7 +5,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ## This is an overview of the continuation lexicon types.
 
 Special stems
-* n_nomorph = uninflected nouns: Covid-19
+* n_nomorph = uninflected nouns: covid-19
 * nc = for consonant-final nouns, structure CVC (romani chib)
 * 3nc = for triple-consonant-final (jiddisch)
 
@@ -251,6 +251,8 @@ Consonant stems
 **LEXICON 3n_lnr** ahven - ahvenheen
 
 **LEXICON 30n_lnr** askel - askelheesheen
+
+**LEXICON n_kasuven** 
 
 **LEXICON 3xn_lnr** tyär, kort och lång Ill
 
