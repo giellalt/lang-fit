@@ -441,12 +441,23 @@ LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 +V+InfE+Ine:%>jess^A K ;
 
 LEXICON v3_ja !for inf with ’a; saaja !!HOW to solve this?
-+V+Inf:’a K ;
-+V+Inf:ha K ;
-+V+InfE+Ine:%>’essa K ;
-+V+Pass+PrfPrc+Pl+Nom:%>’ut K ;
-+V+Pass+PrfPrc+Pl+Nom:%>jut K ;
++V+Inf:%>’^A K ;
++V+Inf:%>h^A K ;
++V+InfE+Ine:%>’ess^A K ;
++V+Pass+PrfPrc+Pl+Nom:%>’^Ut K ;
++V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ;
 v3_j ;
+
+LEXICON v3_ta  !!≈ * **@CODE@** maata
++V+Inf:%>t^A K ;
++V+InfE+Ine:%>tess^A K ;
++V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
+v3_other ;
++V+InfMa: 3infcase ;
++V+InfMa+Ill:m^HMET2%>h^A^An K ; ! also hm 
++V+Inf+Tra:%>t^Akse PxK ;
++V+InfE+Ins:%>ten K ;
++V+InfE+Ine:%>tess^A K ;
 
 LEXICON v3_jä !for inf with ’ä; viejä !!HOW to solve this with ^A?
 +V+Inf:’ä K ;
@@ -475,9 +486,9 @@ v3_other ;
 +V+InfE+Ins:%>en K ;
 +V+InfE+Ine:%>jess^A K ;
 
-LEXICON v3  !!≈ * **@CODE@**
-+V+InfMa: 3infcase ;
-v3_other ;
+!LEXICON v3  !!≈ * **@CODE@**
+!+V+InfMa: 3infcase ;
+!v3_other ;
 
 LEXICON v3_viä !!≈ * **@CODE@**
 +V+Inf:ä KK ;
