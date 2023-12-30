@@ -69,9 +69,11 @@ hourata:houra v2_ata_odd ;
 !! v3 syödä, juoda
 syä:sy v3_syä ;  !!≈ * **@CODE@** 
 jua:ju v3_jua ;   !!≈ * **@CODE@** 
-viejä:vie v3_jä ;
+viejä:vie v3_ja ; ! testing _ja
 viä:vi v3_viä ; 
 saaja:saa v3_ja ;
+saa’a:saa v3_ja ;
+!saa:saa v3_ja ; ! xxx Onko tämä totta? Mie haluan saa?? 
 voija:voi v3_ja ;
 naija:nai v3_ja ;
 uija:ui v3_ja ;
@@ -84,6 +86,7 @@ myä:my v3_syä ;
 jääjä:jää v3_jä ;
 lyä:ly v3_syä ;
 soija:soi v3_ja ;
+myyta:myy v3_ta ;
 
 
 laiminlyä:laimin#ly v3_syä ;
@@ -137,8 +140,6 @@ painaa:paina v1 ;
 lappaa:lappa v1 ;
 tappaa:tappa v1 ;
 nauraa:naura v1 ;
-saa:saa v3_ja ;
-saa’a:saa v3_ja ;
 jaksaa:jaksa v1 ;
 maksaa:maksa v1 ;
 jaataa:jaata v1 ;
@@ -1861,7 +1862,7 @@ kaaella:kaatel v4_4lla ;
 laella:latel v4_4lla ;
 maella:matel v4_4lla ;
 vaihdella+Err/Lex:vaihtel v4_4lla ;
-torkahdella:torkahtel v4_4lla ;
+torkahella:torkahtel v4_4lla ; ! xxx torkahdella?
 leuhahella:leuhahtel v4_4lla ;
 maikahella:maikahtel v4_4lla ;
 liikahella:liikahtel v4_4lla ;
@@ -3519,7 +3520,6 @@ nuovuta:nuovu v2_uta ;
 kirvuta:kirvu v2_uta ;
 kuvuta:kuvu v2_uta ;
 kluvuta:kluvu v2_uta ;
-myyta:myy v3 ;
 vihata:viha v2_ata_odd ;
 prakata:prakka v2_ata_odd ;
 vesata:vesa v2_ata_odd ;
@@ -5607,8 +5607,8 @@ ajatella:ajattel v4_4lla ;
 klaakottaa:klaakotta v1 ;
 kalkattaa:kalkatta v1 ;
 sylkeä:sylke v1 ;
-huitasta:huita v4 ;
-huitata:huita v2_ata_odd ;
+huitasta:huitas v4 ;
+huitata:huitta v2_ata_odd ;
 märsätä:märsä v2_ata_odd ;
 vetää:vetä v1 ;
 havattea:havatte v1_odd ;
