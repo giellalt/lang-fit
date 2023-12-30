@@ -59,9 +59,9 @@ Regular verbs
 
 * **LEXICON v3_jua** jua, lua, sua, tua .#.
 
-* **LEXICON v3_j**
+* **LEXICON v3_ta** maata
 
-* **LEXICON v3**
+* **LEXICON v3_j**
 
 * **LEXICON v3_viä**
 

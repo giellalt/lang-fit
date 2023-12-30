@@ -66,14 +66,15 @@ For the gradation rules, each consonant deletion or change is given its own rule
 Thus, both *kk:k* and *k:0* are handled in the same **k:0* rule. This to avoid rule conflicts.
 The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after *n*, etc.).
 
-f rules
+### f rules
 
 * *soffa^HMETA>h^V^Vn*
 * *sof000>haan*
 
-j rules
+### j rules
+**RULE: j:0**
 
-**k rules**
+### k rules
 
 **RULE: k:g**
 
@@ -92,6 +93,8 @@ j rules
 * *joh0e0*
 * *ääkkä^HMETA>h^V^Vn*
 * *ääk000>hään*
+* *vaike^WG>t^A*
+* *vai0e0>ta*
 
 **RULE: k:j**
 
@@ -109,13 +112,13 @@ j rules
 * *suku^WG>n*
 * *suvu0>n*
 
-l rules
+### l rules
 
-m rules
+### m rules
 
-n rules
+### n rules
 
-**p rules**
+### p rules
 
 **RULE: p:0**
 
@@ -135,11 +138,11 @@ n rules
 
 **RULE: p:m**
 
-r rules
+### r rules
 
-s rules
+### s rules
 
-t rules
+### t rules
 
 **RULE: t:0**
 
@@ -200,7 +203,7 @@ t rules
 * *varte^E2I*
 * *varsi0*
 
-v rules
+### v rules
 
 ### Gemination rules
 
@@ -291,8 +294,6 @@ There is also a rule **j:0** avoiding a *lji* sequence.
 * *häris>tä*
 
 **RULE: Alveolar assimilation for consonant stem s in participles**
-
-**RULE: j:0 in front of i**
 
 ## Vowel change rules: a - ä - e - i - o - ö - u - y
 
