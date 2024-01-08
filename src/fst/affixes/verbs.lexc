@@ -300,7 +300,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former !RENSAD
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
 +V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
-+V+Act+PrfPrc+Pl+Nom:^WGn^HMET2%>heet K ;
++V+Act+PrfPrc+Pl+Nom:^WG^HMET2%>nheet K ; 
 +V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
 

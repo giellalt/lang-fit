@@ -384,8 +384,8 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 Vow (%>) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:)  [%^HMET2:| %^WG:] (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
                 Vow (%>) VowelNotI _ j Vow: %^HMET2: (%>) h: ; ! aluohjaan
         !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
-                Vow+ Cns+ Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!mostly verbs; tulehmaan, neuvottelehmaan
+                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
+                Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!mostly verbs; tulehmaan, neuvottelehmaan
         !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
                 ![.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämhään/elähmään UTAN antahmaan
                 ![.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns Vow (%>) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!verbs; tulehmaan, neuvottelehmaan, valehtelehmaan
@@ -496,7 +496,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
-                                      Vow h _ Vow: [%^HMETA: |%^HMET2:] ; 
+                                      Vow h _ Vow: (%^WG:) [%^HMETA: |%^HMET2:] ; 
   !Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! CHECK NEEDED?
 !Rules for metathesis type two, position 1 in Kuoppa/Mantila (efter två tonande Cns)
         Vow   l   :h [j|  m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
@@ -510,8 +510,8 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         Vow (%>) Vow  (%>) :h [l|m|n|r|v|%^N:] (Vow:) [%^HMET2:|%^WG:] %> _ ; !aikoihnaan, sairaahlaan (efter syll utan huvudbetoning & Vow Vow)
         Vow (%>) VowelNotI   :h j Vow: %^HMET2: %> _ ; !aluohjaan (efter syll utan huvudbetoning & Vow Vow)
 !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-        Vow+ Cns+ Vow (%>) %^HMET2: (%>) :h [l|m|n|r|v|%^N:] _ Vow Vow ; !mostly verbs; neuvotele>hmaan, tulehmaan, olehmaan
-        Vow+ Cns+ Vow (%>) :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään
+        Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) :h [l|m|n|r|v|%^N:] _ Vow Vow ; !mostly verbs; neuvotele>hmaan, tulehmaan, olehmaan
+        Vow+ Cns+ Vow (%>) :h [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään
 !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten syll; pe-sem-hään, ju-te-lem-haan men ej antahmaan)
         ![.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään !endast öppna stavelser
         ![.#.|#] (Cns* Vow+ Cns+ Vow+ Cns) (Cns) Vow Cns (Cns) Vow (%>) %^HMET2: (%>) :h [l|m|n|r|v] _ Vow Vow ; !Verbs; neuvotele>hmaan, tulehmaan, olehmaan  

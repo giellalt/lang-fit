@@ -60,6 +60,8 @@ LEXICON nc ! romani chib
 !! **LEXICON @LEXNAME@** for consonant-final nouns, structure CVC
 +N: xc_sg ;
 +N: xc_pl ;
++N+Pl+Ill:i^HMETA%>h^Vi2 n_PxK ;
++N+Pl+Ill:i^HMET2%>h^Vi2 n_PxK ;
 
 LEXICON xc_sg
 !! **LEXICON @LEXNAME@**
@@ -68,7 +70,8 @@ LEXICON xc_sg
 
 LEXICON xc_pl
 !! **LEXICON @LEXNAME@**
- :i x1_pl ;
+ x1_pl ;
+
 
 
 
@@ -369,7 +372,8 @@ LEXICON xnc
 !! **LEXICON @LEXNAME@**
  +Sg+Nom: PxK ;      ! jiddisch
  :i x3_oblique_sg ; ! jiddischin
- :i x3_pl ;         ! jiddischit
+  x3_pl ;         ! jiddischit
+ +Pl+Ill:i^HMETA%>h^Vi2 n_PxK ;       ! 
 
 
 
@@ -1251,14 +1255,14 @@ LEXICON n1_troppi
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine:^WG%>i2ss^A PxK ;
-+N+Pl+Ela:^WG%>i2st^A PxK ;
-+N+Pl+All:^WG%>i2le PxxK ;
-+N+Pl+Ade:^WG%>i2l^A PxK ;
-+N+Pl+Abl:^WG%>i2lt^A PxK ;
-+N+Pl+Tra:^WG%>i2 TRA ;
++N+Pl+Ine:^WG%>ss^A PxK ;
++N+Pl+Ela:^WG%>st^A PxK ;
++N+Pl+All:^WG%>le PxxK ;
++N+Pl+Ade:^WG%>l^A PxK ;
++N+Pl+Abl:^WG%>lt^A PxK ;
++N+Pl+Tra:^WG%> TRA ;
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
-+N+Pl+Abe:^WG%>itt^A PxK ;
++N+Pl+Abe:^WG%>tt^A PxK ;
  
 LEXICON n1_troppi_odd
 !! **LEXICON @LEXNAME@**
@@ -1284,11 +1288,11 @@ LEXICON n1_troppi_odd
 +N+Pl+Par:%>^A PxK ; ! 
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine:^WG%>i2ss^A PxK ;
-+N+Pl+Ela:^WG%>i2st^A PxK ;
-+N+Pl+All:^WG%>i2lle PxxK ;
-+N+Pl+Ade:^WG%>i2ll^A PxK ;
-+N+Pl+Abl:^WG%>i2lt^A PxK ;
-+N+Pl+Tra:^WG%>i2 TRA ;
++N+Pl+Ine:^WG%>ss^A PxK ;
++N+Pl+Ela:^WG%>st^A PxK ;
++N+Pl+All:^WG%>lle PxxK ;
++N+Pl+Ade:^WG%>ll^A PxK ;
++N+Pl+Abl:^WG%>lt^A PxK ;
++N+Pl+Tra:^WG%> TRA ;
 +N+Pl+Ess:%>nn^A PxK ;     !
-+N+Pl+Abe:^WG%>itt^A PxK ;
++N+Pl+Abe:^WG%>tt^A PxK ;
