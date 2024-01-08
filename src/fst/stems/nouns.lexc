@@ -9743,7 +9743,8 @@ laittomuus:laittomuu n_uus ;
 kurittomuus:kurittomuu n_uus ;
 mahottomuus:mahottomuu n_uus ;
 varmuus:varmuu n_uus ;
-evankeeljum:evankeeljum nc ;
+evankeeljum:evankeeljum nc ; !CHECK!
+evankeeljumi:evankeeljum n5_ie ;
 vaanuus:vaanuu n_uus ;
 morsian:morsia 3n_ime ;
 kerran:kerran nx ;
