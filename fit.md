@@ -1825,6 +1825,9 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
 * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
 * %^N:n  for  participle -nut
+* '      0027 aphstrophe for saa'a
+* ’      2019 right single quot mark for saa’a
+* ˊ      02ca letter prime for saaˊa
 
 ## Sets
 Here we group the symbols in convenient sets.
@@ -1845,7 +1848,7 @@ Here we group the symbols in convenient sets.
 * ArchiCns       = %^N ;                                               
 * LNRM           = l n r m ;                                           
 * SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       
-* Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ;                
+* Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ’ ;                 testing with ’ 2019 for saa’a.
 * Segment        = Vowel Cns ;                                         
 * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
