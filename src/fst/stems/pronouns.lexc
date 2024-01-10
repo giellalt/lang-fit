@@ -15,6 +15,7 @@ met+Pron+Pers+Pl:me 123pronpl ;
 tet+Pron+Pers+Pl:te 123pronpl ;
 het+Pron+Pers+Pl:he 123pronpl ;
 net+Pron+Pers+Pl+Nom:net  K ; ! 
+het+Pron+Pers+Pl+Nom+Err/Orth:he  K ;
 net+Pron+Pers+Pl+Nom+Err/Orth:ne  K ;
 net+Pron+Pers+Pl:ni netpronpl ; ! e>i
 
