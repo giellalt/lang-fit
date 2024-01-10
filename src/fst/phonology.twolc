@@ -33,6 +33,9 @@ t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
+'     !!= * @CODE@ 0027 aphstrophe for saa'a
+’     !!= * @CODE@ 2019 right single quot mark for saa’a
+ˊ     !!= * @CODE@ 02ca letter prime for saaˊa
 ;
 
 !! ## Sets
@@ -56,7 +59,7 @@ Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE
 ArchiCns       = %^N ;                                               !!= * @CODE@
 LNRM           = l n r m ;                                           !!= * @CODE@
 SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       !!= * @CODE@
-Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ;                !!= * @CODE@
+Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ’ ;                !!= * @CODE@ testing with ’ 2019 for saa’a.
 Segment        = Vowel Cns ;                                         !!= * @CODE@
 NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
 
