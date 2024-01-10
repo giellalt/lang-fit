@@ -567,7 +567,8 @@ LEXICON n5_ie_odd
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:^E2I R ;
 +N+Sg+Nom:^E2I PxK ;
-+N+Sg+Gen:^E2I%>n     PxK ; ! 
++N+Sg+Gen:^E2I%>n     PxK ; !
++N+Sg+Gen:^E2I%>n     R ; ! 
 +N+Sg+Par:^E2I%>^A      PxK ; ! alttaria
 +N+Sg+Ill:^HMETA%>hii n_PxK ;
 +N+Sg+Ill:^HMET2%>hii n_PxK ;
