@@ -28484,7 +28484,7 @@ Micrografx:Micrografx p_obj_3C ;
 Roubaix:Roubaix p_surplc_C ;
 Orthografix:Orthografix p_mal_3C ;
 Blix:Blix p_sur_3C ;
-Kalix:Kalix p_plc_1C ;
+Kalix+Err/Lex:Kalix p_plc_1C ;
 Överkalix:Överkalix p_plc_1C ;
 Felix:Felix p_mal_3C ;
 Unix:Unix p_obj_3C ;
