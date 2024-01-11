@@ -135,7 +135,7 @@ Multichar_Symbols
 
 
 !! ### Speller tags
- +Err/Orth   !!≈ * @CODE@ only in desc, not in norm.
+ +Err/Orth     !!≈ * @CODE@ only in desc, not in norm.
  +Use/-Spell   !!≈ * **@CODE@** = Excluded in speller
  +Use/SpellNoSugg   !!≈ * **@CODE@** = recognized but not suggested in speller
  +Use/Circ  !!≈ * @CODE@ for numerals, copied from sme
@@ -397,7 +397,8 @@ LEXICON Root    !!≈  **@CODE@**
  Postposition ;	  !!≈ * @CODE@
  Preposition ;	  !!≈ * @CODE@
  Pronoun ;		  !!≈ * @CODE@
- ProperNoun ;	  !!≈ * @CODE@
+  @U.Cap.Obl@  ProperNoun          ; ! SME proper nouns - always uppercase
+  @U.Cap.Opt@  ProperNoun          ; ! SME proper nouns - downcased for derivations
  Punctuation ;	  !!≈ * @CODE@
  Symbols     ;	  !!≈ * @CODE@
  VerbRoot ;		  !!≈ * @CODE@
