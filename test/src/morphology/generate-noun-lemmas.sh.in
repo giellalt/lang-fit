@@ -67,12 +67,12 @@ EXTEDITOR=@SEE@
 
 # 1. singular lemmas
 @GTCORE@/scripts/extract-lemmas.sh \
-    --exclude "(n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
+    --exclude "(_pl)" \
     $source_file > $lemmas
 
 # 2. plural lemmas
 @GTCORE@/scripts/extract-lemmas.sh \
-    --include "(n0_pl|n_pl|n1_pl|n2_pl|n3_pl|n4_pl|3n_ime_pl)" \
+    --include "(_pl)" \
     $source_file > $lemmas_plural
 
 ###### Start testing: #######
