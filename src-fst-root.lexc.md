@@ -359,7 +359,6 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * Postposition ;
 * Preposition ;
 * Pronoun ;
-* ProperNoun ;
 * Punctuation ;
 * Symbols ;
 * VerbRoot ;

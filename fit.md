@@ -1130,7 +1130,7 @@ Special stems
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
-Consonant stems
+### Consonant stems
 
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
@@ -1842,7 +1842,8 @@ Here we group the symbols in convenient sets.
 * RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
 * UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
 * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
-* VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
+* VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O U Å Ü Æ Ø ;  
+* VowelNotIU     = e   y ä ö a o   å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
 * VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
 * Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
 * ArchiCns       = %^N ;                                               
@@ -1855,7 +1856,7 @@ Here we group the symbols in convenient sets.
 ## Definitions
 This defines strings used often in rules.
 
-WeakGrade = ([l|n|r]) (%^AE:) %^WG: ;
+`WeakGrade = ([l|n|r]) (%^AE:) %^WG:`
 
 # Rules 
 This chapter gives the rules themselves.
@@ -1867,6 +1868,8 @@ Thus, both *kk:k* and *k:0* are handled in the same **k:0* rule. This to avoid r
 The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after *n*, etc.).
 
 ### f rules
+
+**RULE: f:0**
 
 * *soffa^HMETA>h^V^Vn*
 * *sof000>haan*
@@ -1902,8 +1905,11 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 * *sylke^WG>n*
 * *sylje0>n*
-* *kehke^WG>t^A*
+
+* *kehke^WG>t^A* `!` (Eng. k3:j ?)
 * *kehje0>tä*
+* *vehke^WG* `!` (Eng. k:0?)
+* *veh0e^WG*
 
 **RULE: k:v**
 
@@ -1913,10 +1919,13 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *suvu0>n*
 
 ### l rules
+**RULE: k:v**
 
 ### m rules
+**RULE: m:0**
 
 ### n rules
+**RULE: n:0**
 
 ### p rules
 
@@ -1939,8 +1948,10 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 **RULE: p:m**
 
 ### r rules
+**RULE: p:m**
 
 ### s rules
+**RULE: r:0**
 
 ### t rules
 
@@ -2003,7 +2014,13 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *varte^E2I*
 * *varsi0*
 
+**RULE: t:v**
+
+* *tauti^WG*
+* *tauvi^WG*
+
 ### v rules
+**RULE: v:0**
 
 ### Gemination rules
 
@@ -2058,8 +2075,6 @@ saarna>a>hmaan
 tule>hm^A^An
 tule>mhaan
 
-## Gemination rules
-
 **RULE: Gemination 0:t**
 
 **Tests:**
@@ -2104,9 +2119,9 @@ There are also some other vowel change rules.
 
 ###  a rules
 
-**RULE: a:e**
+**RULE: a:e** before the ^AE trigger
 
-**RULE: a:0**
+**RULE: a:0** before metathesis h
 
 **Tests:**
 * *kuva>i2ss^A*
@@ -2176,6 +2191,8 @@ There are also some other vowel change rules.
 **RULE: i:j**
 
 **RULE: i2:j**
+
+**RULE: i8:0**
 
 * *sano>i3*
 * *sano>0*
@@ -2663,7 +2680,6 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * Postposition ;
 * Preposition ;
 * Pronoun ;
-* ProperNoun ;
 * Punctuation ;
 * Symbols ;
 * VerbRoot ;
@@ -2939,16 +2955,14 @@ Consonant stems
 The lemma list
 * **LEXICON NounRoot**
 
-lekstuga
-
-slut lekstuga
 * hinta n1 ;
-OBS ej n4!
 * rypriikki:rypriikki n3 ;
 * asfaltti:asfaltti n3 ;
 * vaitiolovelvolisuus:vaitiolo#velvolisuu n_uus ;
 * hammashoitoavustus:hammashoitoavustu 4n_ks ;
 * häpy n1 ;
+
+- ... and over 15 000 other noun stems.
 
 * * *
 
