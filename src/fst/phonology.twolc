@@ -53,7 +53,8 @@ BackVowel      =           a o u å                       A O U Å   ; !!= * @CO
 RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ; !!= * @CODE@ 
 UnroundedVowel = e i   ä   a                   E I   Ä   A         ; !!= * @CODE@ 
 VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ; !!= * @CODE@ 
-VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ; !!= * @CODE@ 
+VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O U Å Ü Æ Ø ; !!= * @CODE@ 
+VowelNotIU     = e   y ä ö a o   å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ; !!= * @CODE@ 
 VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ; !!= * @CODE@ 
 Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE@ 
 ArchiCns       = %^N ;                                               !!= * @CODE@
@@ -69,7 +70,7 @@ NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy 
 
 Definitions
 
-WeakGrade = ([l|n|r]) (%^AE:) %^WG: ; !!≈ @CODE@
+WeakGrade = ([l|n|r]) (%^AE:) %^WG: ; !! `WeakGrade = ([l|n|r]) (%^AE:) %^WG:`
 
 
 !! # Rules 
@@ -88,6 +89,7 @@ Rules
 !! ### f rules
 
 "f:0"
+!! **RULE: @RULENAME@**
 f:0 <=> Vow f _ Vow: [%^HMETA: |%^HMET2:] ;
 
 !!€ soffa^HMETA>h^V^Vn
@@ -125,6 +127,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
           Vow   [l|r] _ VowelNotEI  WeakGrade ;
               Vow h k _ Vow         WeakGrade ;
           [Vow - e] h _ Vow         WeakGrade ;
+!               Vow h _ Vow         WeakGrade ; ! vehe men kehjetä !!
 
 !! **Tests:**
 
@@ -147,9 +150,11 @@ k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
 
 !!€ sylke^WG>n
 !!€ sylje0>n
-!!€ kehke^WG>t^A
-!!€ kehje0>tä
 
+!!€ kehke^WG>t^A ! k3:j ?
+!!€ kehje0>tä
+!!€ vehke^WG  ! k:0?
+!!€ veh0e^WG
 
 "k:v"
 !! **RULE: @RULENAME@**
@@ -163,6 +168,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 
 !! ### l rules
+!! **RULE: @RULENAME@**
 "l:0"
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
         :Vow (%^WG:) (%>) i2: (%>) l _ [%^A:|e] ; !ämmäkölle>ämmäköile, 
@@ -171,11 +177,13 @@ l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
 
 !! ### m rules
 "m:0"
+!! **RULE: @RULENAME@**
 m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 !! ### n rules
 "n:0"
+!! **RULE: @RULENAME@**
 n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
         _ %> n s ; !Poss-suffix ahvensa etc
 
@@ -212,12 +220,14 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 
 
 !! ### r rules
+!! **RULE: @RULENAME@**
 "r:0"
 r:0 <=> Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
 
 !! ### s rules
+!! **RULE: @RULENAME@**
 "s:0"
 s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 
@@ -227,10 +237,11 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 "t:0"
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; ! new try: all tt give t
-        [i|u]           _  [ä|a]    WeakGrade ; ! pitä- : piän, haitata; huutaa>huua
+         i              _  [a|ä]    WeakGrade ; ! pitä- : piän, haitata
+         u u            _   a       WeakGrade ; ! huutaa>huua
         [a|e|y|ä|ö] h   _ Vow:      WeakGrade (%>) i3: ; ! för att få lähen, lähin
-	             i  h   _ Vow:      WeakGrade ;  ! sihata
-        VowelNotI (h)   _ Vow:      WeakGrade (%>) [Cns:|%^E2I:0|#|.#.] ; ! katu : kaun        
+                 i  h   _ Vow:      WeakGrade ;  ! sihata
+        VowelNotIU (h)   _ Vow:      WeakGrade (%>) [Cns:|%^E2I:0|#|.#.] ; ! katu : kaun        
         [ä|e]           _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ;
             Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
@@ -351,9 +362,16 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 !!€ varsi0
 
 
+"t:v"
+!! **RULE: @RULENAME@**
+t:v <=> a u _ Vow: WeakGrade ;
+
+!!€ tauti^WG
+!!€ tauvi^WG
 
 !! ### v rules
 "v:0"
+!! **RULE: @RULENAME@**
 v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 
@@ -543,7 +561,6 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !! tule>hm^A^An
 !! tule>mhaan
 
-!! ## Gemination rules
 
 "Gemination 0:t"
 !! **RULE: @RULENAME@**
@@ -625,12 +642,12 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !! ###  a rules
 
 "a:e"
-!! **RULE: @RULENAME@**
+!! **RULE: @RULENAME@** before the ^AE trigger
 a:e <=> _ %^AE: ;
 
 "a:0"
-!! **RULE: @RULENAME@**
-a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! before metathesis h
+!! **RULE: @RULENAME@** before metathesis h
+a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! 
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa (ta bort sista (Vow:)?)
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   !  
@@ -748,6 +765,7 @@ i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
 i2:j <=> :Vow (Dummy:) %> _ :Vow ;
 
 "i8:0"
+!! **RULE: @RULENAME@**
 i8:0 <=> :Vow Cns:+ [:o|u|y] %> _ [.#.|%>] ; !added u for tuntua>tuntu, y for kääntyä>käänty
 
 !!€ sano>i3
