@@ -1085,11 +1085,13 @@ LEXICON TYÄR
 
 LEXICON n_kasuven !!FIXA 
 !! **LEXICON @LEXNAME@** 
-+N+Sg+Nom:en PxK ; 
-+N+Sg+Ela:en%>st^A PxK ;
-+N+Pl+Ill:e^HMETA%>hii n_PxK ;
-+N+Pl+Ill:e^HMET2%>hii n_PxK ;
-+N+Pl+All:%>i2lle PxK ;
++N+Sg+Nom:ven PxK ; 
++N+Sg+Ill:%>hviin PxK ;
++N+Sg+Ela:ven%>st^A PxK ;
+
++N+Pl+Ill:ve^HMETA%>hii n_PxK ;
++N+Pl+Ill:ve^HMET2%>hii n_PxK ;
++N+Pl+All:v%>i2lle PxK ;
 
 LEXICON 3xn_lnr
 !! **LEXICON @LEXNAME@** tyär, kort och lång Ill
