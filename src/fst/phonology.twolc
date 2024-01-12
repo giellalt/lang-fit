@@ -238,7 +238,7 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; ! new try: all tt give t
          i              _  [a|ä]    WeakGrade ; ! pitä- : piän, haitata
-         u u            _   a       WeakGrade ; ! huutaa>huua
+         [u|a] u            _   [a|e]       WeakGrade ; ! huutaa>huua, (kausi>)kaute>kauessa
         [a|e|y|ä|ö] h   _ Vow:      WeakGrade (%>) i3: ; ! för att få lähen, lähin
                  i  h   _ Vow:      WeakGrade ;  ! sihata
         VowelNotIU (h)   _ Vow:      WeakGrade (%>) [Cns:|%^E2I:0|#|.#.] ; ! katu : kaun        
@@ -364,7 +364,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 "t:v"
 !! **RULE: @RULENAME@**
-t:v <=> a u _ Vow: WeakGrade ;
+t:v <=> t a u _ Vow: WeakGrade ; !CHECK tauti
 
 !!€ tauti^WG
 !!€ tauvi^WG
