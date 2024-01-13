@@ -23,6 +23,7 @@ LEXICON p_surplc_0
 !! - **LEXICON @LEXNAME@**
 +N+Prop+Sem/Sur: x0_sg ;
 +N+Prop+Sem/Plc: x0_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_sur_4
 !! - **LEXICON @LEXNAME@**
@@ -38,6 +39,7 @@ LEXICON p_surplc_4
  +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
  +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
 +N+Prop+Sem/Plc: x4_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 
 LEXICON p_21ie
@@ -82,9 +84,11 @@ LEXICON p_mal_2
 
 LEXICON p_plc_2
 +N+Prop+Sem/Plc: x2_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_xnas
 +N+Prop+Sem/Plc: xnas_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 
 
@@ -119,6 +123,7 @@ LEXICON p_fem_ks
 
 LEXICON p_plc_11_ae
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_mal_1C
 +N+Prop+Sem/Mal: xc_sg ;
@@ -128,46 +133,57 @@ LEXICON p_sur_1C
 
 LEXICON p_plc_1C
 +N+Prop+Sem/Plc: xc_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_org_1C
 +N+Prop+Sem/Org: xc_sg ;
 
 !LEXICON p_plc_1Cv
 !+N+Prop+Sem/Plc: xc_sg ;
+!@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_sur_3Cv
 +N+Prop+Sem/Sur: p_adhoc ;
 
 LEXICON p_plc_1_odd_i
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_4
  +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
  +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
  +N+Prop+Sem/Plc: x4_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 !LEXICON p_plc_1ii
 !+N+Prop+Sem/Plc: p_adhoc ;
+!@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_1ta ! Viitasaari
  +N+Prop+Sem/Plc+Sg+Nom:^E2I   K ; ! kivi
  +N+Prop+Sem/Plc+Sg+Par:%>^A   K ; ! kiveä
  +N+Prop+Sem/Plc: x4_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_22odd
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_3
 +N+Prop+Sem/Plc: x3_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 !LEXICON p_plc_31
 !+N+Prop+Sem/Plc: p_adhoc ;
+!@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_31ea
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_plc_31uu
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_sur_21ie
 +N+Prop+Sem/Sur: x1 ;
@@ -197,6 +213,7 @@ LEXICON p_surplc_1
 LEXICON p_surplc_21ie
 +N+Prop+Sem/Sur: x1 ;
 +N+Prop+Sem/Plc: x1 ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 !LEXICON p_surplc_21ta
 !+N+Prop+Sem/Sur: p_adhoc ;
@@ -210,6 +227,7 @@ LEXICON p_surplc_41
 LEXICON p_surplc_nen
 +N+Prop+Sem/Sur: xnen_sg ;
 +N+Prop+Sem/Plc: xnen_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_surplc_C
 +N+Prop+Sem/Sur: xnc ;
@@ -222,6 +240,7 @@ LEXICON p_1
 
 LEXICON p_plc_nas
 +N+Prop+Sem/Plc: xnas_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_sur_nas
 +N+Prop+Sem/Sur: xnas_sg ;
@@ -252,6 +271,7 @@ LEXICON p_plc_1_oi_AO
 
 LEXICON p_plc_41
 +N+Prop+Sem/Plc: xn_ks ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON p_sur_11_AO_A2I
 +N+Prop+Sem/Sur: p_adhoc ;
@@ -270,6 +290,7 @@ LEXICON p_malsur_1
 LEXICON p_surplc_11_AO_A2I
 +N+Prop+Sem/Sur: p_adhoc ;
 +N+Prop+Sem/Plc: p_adhoc ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON vanha_nocmp_prop_1
 +N+Prop: x1 ;
@@ -288,6 +309,7 @@ LEXICON vanha_nocmp_prop_plc_1
 
 LEXICON p_plc_1pl
 +N+Prop+Sem/Plc: x1_pl ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 LEXICON vanha_nocmp_prop_plc_1C
 +N+Prop: xnc ;
@@ -363,6 +385,7 @@ LEXICON p_surplc_ks
 
 LEXICON p_plc_ks
 +N+Prop+Sem/Plc: xn_ks_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 !LEXICON p3
 !x3_sg ;
@@ -376,6 +399,7 @@ LEXICON p_plc_ks
 
 ! Bern (even stem Berni- = p)
 LEXICON p_plc_C +N+Prop+Sem/Plc: p_sg_1 ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 LEXICON p_sur_C +N+Prop+Sem/Sur: p_sg_1 ;
 LEXICON p_mal_C +N+Prop+Sem/Mal: p_sg_1 ;
 LEXICON p_fem_C +N+Prop+Sem/Fem: p_sg_1 ;
@@ -385,6 +409,7 @@ LEXICON p_obj_C +N+Prop+Sem/Obj: p_sg_1 ;
 
 ! London (odd stem Londoni- = 3p)
 LEXICON p_plc_3C +N+Prop+Sem/Plc: p_sg_3 ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 LEXICON p_sur_3C +N+Prop+Sem/Sur: p_sg_3 ;
 LEXICON p_mal_3C +N+Prop+Sem/Mal: p_sg_3 ;
 LEXICON p_fem_3C +N+Prop+Sem/Fem: p_sg_3 ;
@@ -423,6 +448,7 @@ LEXICON p_org_nen
 
 LEXICON p_plc_nen
 +N+Prop+Sem/Plc: xnen ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 
 !LEXICON p4_sur
