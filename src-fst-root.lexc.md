@@ -149,6 +149,7 @@ Beware of remnants from the Finnish and Kven files.
 
 ### Derivation
 * **+Der/minen** = 
+* **+Der/lainen** = 
 * **+Der/A** = 
 * **+Der** = 
 * **+Der/s** = 
