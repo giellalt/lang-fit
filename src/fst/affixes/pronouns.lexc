@@ -86,15 +86,15 @@ LEXICON MUU
 LEXICON netpronpl
 +Gen:itten K ; !!nii
 +Ill:ihin K ;
-+Ela:istä   K ;
-+Ine:issä	K ;
-+Par:itä	K ;
++Ela:%>ist^A   K ;
++Ine:%>iss^A	K ;
++Par:%>it^A	K ;
 +Tra:iksi	K ;
-+Ess:inä	K ;
++Ess:%>in^A	K ;
 +All:ile	K ;
-+Ade:ilä	K ;
-+Abl:iltä   K ;
-+Abe:ittä	K;
++Ade:%>il^A	K ;
++Abl:%>ilt^A   K ;
++Abe:%>itt^A	K;
 
 
 LEXICON tama

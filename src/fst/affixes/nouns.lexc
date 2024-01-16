@@ -538,17 +538,25 @@ LEXICON n5_lapsi
 +N+Pl+Abe:ps%>itt^A PxK ;
 
 LEXICON n5_ie
-!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti
+!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
  +N: x5_i ;
  +N+Sg+Nom:i   PxK ; 
  +N+Nom:i R ;
  +N+Sg+Gen:i^WG%>n R ;
+ +N+Pl+Par:i%>^A PxK ; !malmia, äitiä 
+
+LEXICON n5_takki
+!! **LEXICON @LEXNAME@** same as n5_ie except Pl+Part: takki>takkeja 
+ +N: x5_i ;
+ +N+Sg+Nom:i   PxK ; 
+ +N+Nom:i R ;
+ +N+Sg+Gen:i^WG%>n R ;
+ +N+Pl+Par:ej%>^A PxK ; !takkeja
 
 LEXICON x5_i
-!! **LEXICON @LEXNAME@** for type n1-words ending with -i, pointing to sg, pl
+!! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 :i x1_sg ;
 +Pl+Nom:i^WG%>t PxK ;
-+Pl+Par:i%>^A PxK ; !malmia, äitiä 
 +Pl+Gen:i%>en PxK ;
 +Pl+Gen:i^WG%>tten PxK ;
 +Pl+Ill:e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
