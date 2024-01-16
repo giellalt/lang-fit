@@ -39,16 +39,13 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * **LEXICON OLLA**
 **LEXICON OLLA** olla-paradigm
 
-* **LEXICON NEG**
-**LEXICON NEG** negation verb
+* **LEXICON NEG** negation verb
 
 # Regular verbs
 
-* **LEXICON v1_otta**
-**LEXICON v1_otta** lexicon for otta
+* **LEXICON v1_otta** otta-lexicon
 
-* **LEXICON v1_tietaa**
-**LEXICON v1_tietaa** lexicon for tietää
+* **LEXICON v1_tietaa** tietää-lexicon
 
 * **LEXICON v1** sanoa, lukea, antaa 
 
@@ -56,13 +53,13 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v2** huomata, haluta övriga former 
 
-* **LEXICON v2_ata** masinata etc, Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
+* **LEXICON v2_ata** masinata etc
 
-* **LEXICON v2_ata_odd** huomata etc, Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
+* **LEXICON v2_ata_odd** huomata etc
 
-* **LEXICON v2_uta** haluta etc, Prs+Sg3 halu/aa
+* **LEXICON v2_uta** haluta etc
 
-* **LEXICON v2_havata** havata-paradigm EJ KLART
+* **LEXICON v2_havata** havata-paradigm 
 
 * **LEXICON v3_syä** syä, myä, lyä .#.
 
@@ -72,17 +69,17 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v3_ta** maata
 
-* **LEXICON v3_j** !for viejä mfl
+* **LEXICON v3_j** contlex for viejä mfl
 
 * **LEXICON v3_viä**
 
-* **LEXICON v3_other** 
+* **LEXICON v3_other** contlex för v3-type (saaja, syöjä)
 
-LEXICON v3_kaya käyä:kä 
+* **LEXICON v3_kaya** käyä:kä 
 
-LEXICON v3_nahha nähä:nä 
+* **LEXICON v3_nahha** nähä:nä 
 
-LEXICON v3_tehha tehä:te 
+* **LEXICON v3_tehha** tehä:te 
 
 * **LEXICON v4** tulla, mennä etc
 
@@ -90,7 +87,7 @@ LEXICON v3_tehha tehä:te
 
 * **LEXICON v4_3la** varjela:varjel
 
-* **LEXICON v4_4lla**
+* **LEXICON v4_4lla** lauleskella etc
 
 * **LEXICON v5**  kehitä:kehi  
 
@@ -99,7 +96,7 @@ LEXICON v3_tehha tehä:te
 ## Subparadigms
 ### Conditional forms
 
-**LEXICON 2cond** kehitä:kehi  
+**LEXICON 2cond**  for -imm^A
 
 ### Infinitive paradigms
 

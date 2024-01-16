@@ -160,9 +160,11 @@ Special stems
 
 **LEXICON n5_lapsi**
 
-**LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti
+**LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
 
-**LEXICON x5_i** for type n1-words ending with -i, pointing to sg, pl
+**LEXICON n5_takki** same as n5_ie except Pl+Part: takki>takkeja 
+
+**LEXICON x5_i** cont lexica for type n1-words ending with -i
 
 **LEXICON n5_ie_odd**
 
