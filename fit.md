@@ -1724,21 +1724,28 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ## The verb lexica themselves
 
-**LEXICON vx**
+**LEXICON vx** pointing to *v1*
 
 Irregular verbs
 
 * **LEXICON OLLA**
+**LEXICON OLLA** olla-paradigm
 
-* **LEXICON NEG**
+CHECK ELINA fler former?
+
+**LEXICON NEG** negation verb
 
 Regular verbs
 
-* **LEXICON v1** sanoa, lukea, antaa !RENSAD
+**LEXICON v1_otta** lexicon for otta
+
+**LEXICON v1_tietaa** lexicon for tietää
+
+* **LEXICON v1** sanoa, lukea, antaa 
 
 * **LEXICON v1_odd** käsittää>käsittänny osv 
 
-* **LEXICON v2** huomata, haluta övriga former !RENSAD
+* **LEXICON v2** huomata, haluta övriga former 
 
 * **LEXICON v2_ata** masinata etc, Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
 
@@ -1754,7 +1761,7 @@ Regular verbs
 
 * **LEXICON v3_ta** maata
 
-* **LEXICON v3_j**
+* **LEXICON v3_j** !for viejä mfl
 
 * **LEXICON v3_viä**
 
