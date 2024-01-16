@@ -69,7 +69,7 @@ hourata:houra v2_ata_odd ;
 !! v3 syödä, juoda
 syä:sy v3_syä ;  !!≈ * **@CODE@** 
 jua:ju v3_jua ;   !!≈ * **@CODE@** 
-viejä:vie v3_jä ; ! testing _ja
+viejä:vie v3_ja ; ! testing _ja
 viä:vi v3_viä ; 
 saaja:saa v3_ja ;
 saa’a:saa v3_ja ;
@@ -83,7 +83,7 @@ sua:su v3_jua ;
 tua:tu v3_jua ;
 
 myä:my v3_syä ;
-jääjä:jää v3_jä ;
+jääjä:jää v3_ja ;
 lyä:ly v3_syä ;
 soija:soi v3_ja ;
 myyta:myy v3_ta ;
@@ -5612,7 +5612,7 @@ huitata:huitta v2_ata_odd ;
 märsätä:märsä v2_ata_odd ;
 vetää:vetä v1 ;
 havattea:havatte v1_odd ;
-myyä:myy v3_jä ;
+myyä:myy v3_ja ;
 osottaa:osotta v1_odd ; 
 säilyttää:säilyttä v1_odd ;
 julistaa:julista v1_odd ;
