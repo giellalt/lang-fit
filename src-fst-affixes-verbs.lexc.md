@@ -31,21 +31,23 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ## The verb lexica themselves
 
+* **LEXICON vx**
 **LEXICON vx** pointing to *v1*
 
-Irregular verbs
+# Irregular verbs
 
 * **LEXICON OLLA**
 **LEXICON OLLA** olla-paradigm
 
-CHECK ELINA fler former?
-
+* **LEXICON NEG**
 **LEXICON NEG** negation verb
 
-Regular verbs
+# Regular verbs
 
+* **LEXICON v1_otta**
 **LEXICON v1_otta** lexicon for otta
 
+* **LEXICON v1_tietaa**
 **LEXICON v1_tietaa** lexicon for tietää
 
 * **LEXICON v1** sanoa, lukea, antaa 
@@ -66,21 +68,25 @@ Regular verbs
 
 * **LEXICON v3_jua** jua, lua, sua, tua .#.
 
+* **LEXICON v3_ja** for inf with ’a; saaja
+
 * **LEXICON v3_ta** maata
 
 * **LEXICON v3_j** !for viejä mfl
 
 * **LEXICON v3_viä**
 
-LEXICON v3_kaya käyä:kä from fkv
+* **LEXICON v3_other** 
 
-LEXICON v3_nahha nähä:nä = from fkv
+LEXICON v3_kaya käyä:kä 
 
-LEXICON v3_tehha tehä:te from fkv
+LEXICON v3_nahha nähä:nä 
 
-* **LEXICON v4**
+LEXICON v3_tehha tehä:te 
 
-* **LEXICON v4_julkasta**
+* **LEXICON v4** tulla, mennä etc
+
+* **LEXICON v4_julkasta** julkasta etc
 
 * **LEXICON v4_3la** varjela:varjel
 
