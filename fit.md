@@ -1199,7 +1199,7 @@ Special stems
 * x1_sg_oblique ;  the rest
 
 **LEXICON x1_sg_oblique** gives the rest
-* +Sg+Gen:^WG%>n PxK ;
+* +Sg+Gen:^WG%> n_PxK ; ! lagt till underscore
 * +Sg+Par:%>^A PxK ;
 * +Sg+Ill:^HMETA%>h^V^V n_PxK ; saunhaan 
 * +Sg+Ill:^HMET2%>h^V^V n_PxK ; talhoon, sauhnaan 
@@ -1393,10 +1393,13 @@ Px is now not in use, with one exception, comitative.
 LEXICON n_PxK has either -n or goes to Px
 **LEXICON n_PxK**
 
+LEXICON t_PxK has either -t or goes to Px
+**LEXICON t_PxK**
+
 LEXICON i_PxK Tra: -i or -e and goes to Px
 **LEXICON i_PxK**
 
-LEXICON PxK has only -nsA, and is currently not in use. Check
+LEXICON PxK has only -nsA, compare PxxK
 **LEXICON PxK**
 
 LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
@@ -2025,11 +2028,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *veri0*
 * *varte^E2I*
 * *varsi0*
-
-**RULE: t:v**
-
-* *tauti^WG*
-* *tauvi^WG*
 
 ### v rules
 **RULE: v:0**

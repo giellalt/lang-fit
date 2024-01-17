@@ -217,11 +217,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *varte^E2I*
 * *varsi0*
 
-**RULE: t:v**
-
-* *tauti^WG*
-* *tauvi^WG*
-
 ### v rules
 **RULE: v:0**
 
