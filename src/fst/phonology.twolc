@@ -237,7 +237,7 @@ s:0 <=> Vow s _ Vow: [%^HMETA: |%^HMET2:] ;
 "t:0"
 !! **RULE: @RULENAME@**
 t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; ! new try: all tt give t
-         i              _  [a|ä]    WeakGrade ; ! pitä- : piän, haitata
+         i              _  [a|ä|i2:]    WeakGrade ; ! pitä- : piän, haitata
         ![u|a] u            _   [a|e]       WeakGrade ; ! huutaa>huua, (kausi>)kaute>kauessa !ändrar till Vowför att få tauin
         u            _   Vow       WeakGrade ; ! huutaa>huua, (kausi>)kaute>kauessa
         [a|e|y|ä|ö] h   _ Vow:      WeakGrade (%>) i3: ; ! för att få lähen, lähin

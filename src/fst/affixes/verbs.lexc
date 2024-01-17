@@ -899,7 +899,7 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+Ind+Prs+Sg1:e%>n K ;
 +V+Act+Ind+Prs+Sg2:e%>t K ;
 +V+Act+Ind+Prs+Sg3:e%>e K ;
-+V+Act+Ind+Prs+Pl1:e%>m^A K ;
++V+Act+Ind+Prs+Pl1:e%>mm^A K ;
 +V+Act+Ind+Prs+Pl2:e%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
 +V+Act+Ind+Prs+Pl3+Err/Orth:e%>v^At K ; ! K&P p. 95.  without -t

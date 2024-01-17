@@ -4007,7 +4007,7 @@ vesiratas:vesi#ratta nas ;
 kellonratas:kellon#ratta nas ;
 puuratas:puu#ratta nas ;
 nenäratas:nenä#ratta nas ;
-vatta:vatta nx ;
+vatta:vatt2a nx ;
 maavatta:maavatta nx ;
 verivatta:verivatta nx ;
 vesivatta:vesivatta nx ;
@@ -11590,8 +11590,8 @@ karhuunkeihäs:karhuun#keihä nas ;
 länsäkeihäs:länsä#keihä nas ;
 kekseliäs:kekseliä nas ;
 piäs:piä nas ;
-verekäs:verekä nas ;
-rökäs:rökä nas ;
+verekäs:verekkä nas ;
+rökäs:rökkä nas ;
 keläs:kelä nas ;
 präiskiläs:präiskilä nas ;
 hakorästiläs:hakorästilä nas ;
@@ -15505,5 +15505,6 @@ kuollu:kuollu n1 ;
 kuolheet:kuole n2_pl ;
 koopisti:koopiste n5_ie_odd ;
 meänkielennös:meänkielennö 3n_ks ;
+ilmestys:ilmesty 3n_ks ;
 
 !! - ... and over 15 000 other noun stems.
