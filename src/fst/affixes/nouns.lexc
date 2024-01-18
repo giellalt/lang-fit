@@ -928,7 +928,7 @@ LEXICON xnas_pl
 
  LEXICON nas_h ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
 !! **LEXICON @LEXNAME@**
- +N: xnas_h ;
+ +N: xnas ;
  +N+Sg+Nom:^WGs R ;
  +N+Sg+Gen:%>^Vn R ;
  +N+Pl+Nom:^HMETA%>h^V^V t_PxK ;
