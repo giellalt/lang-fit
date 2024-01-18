@@ -201,6 +201,8 @@ Special stems
 
 **LEXICON 3n_ks**
 
+**LEXICON 3n_ks_pl**
+
 **LEXICON xn_ks**
 
 **LEXICON xn_ks_sg**
@@ -234,6 +236,8 @@ Special stems
 **LEXICON xnas**
 
 **LEXICON xnas_sg**
+
+**LEXICON xnas_pl**
 
 **LEXICON xnas_pl**
 
