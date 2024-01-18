@@ -702,6 +702,10 @@ LEXICON 3n_ks
 +N+Sg+Nom:^WGs R ;
 +N+Sg+Gen:^WGkse%>n R ;
 
+LEXICON 3n_ks_pl
+!! **LEXICON @LEXNAME@**
++N: xn_ks_pl ;
+
 LEXICON xn_ks
 !! **LEXICON @LEXNAME@**
 xn_ks_sg ;
@@ -921,6 +925,14 @@ LEXICON xnas_pl
  +Pl+Tra:^HMET2%>h^Vi TRA ;
  +Pl+Abe:^HMETA%>h^Vitt^A PxK ;
  +Pl+Abe:^HMET2%>h^Vitt^A PxK ;
+
+ LEXICON nas_h ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
+!! **LEXICON @LEXNAME@**
+ +N: xnas_h ;
+ +N+Sg+Nom:^WGs R ;
+ +N+Sg+Gen:%>^Vn R ;
+ +N+Pl+Nom:^HMETA%>h^V^V t_PxK ;
+ 
 
 
 LEXICON 3mies
