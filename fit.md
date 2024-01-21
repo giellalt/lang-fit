@@ -989,7 +989,7 @@ Now splitting according to POS, and according to dot or not
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/abbreviations.lexc)</small>
 
 ---
 
@@ -1020,7 +1020,7 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/acronyms.lexc)</small>
 
 ---
 
@@ -1109,7 +1109,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -1423,7 +1423,7 @@ troppia?
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -1598,7 +1598,7 @@ forms which requires great amount of care in the inflection patterns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
 
 ---
 
@@ -1620,7 +1620,7 @@ tuotä
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -1666,7 +1666,7 @@ Consonant stems, odd and even stems
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -1696,7 +1696,7 @@ This file documents [`affixes/synbols.lexc`, the file for the affixes added to l
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -1810,7 +1810,7 @@ LEXICON PRFPRC_OBL is without nom sg from fkv
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -2329,7 +2329,7 @@ All vowel harmony is taken care of with one rule.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-fit/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -2702,7 +2702,7 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -2739,7 +2739,7 @@ a4
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -2770,7 +2770,7 @@ The first part of the file adds tags, and the second lists the adverbs.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
 
@@ -2808,7 +2808,7 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
 
@@ -2848,7 +2848,7 @@ Here we should add meänkieli-specific ones.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/fit-abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-abbreviations.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/fit-abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/fit-abbreviations.lexc)</small>
 
 ---
 
@@ -2863,7 +2863,7 @@ The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/mai
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/fit-acronyms.lexc)</small>
 
 ---
 
@@ -2891,7 +2891,7 @@ ERVASTI?
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/fit-propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/fit-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/fit-propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/fit-propernouns.lexc)</small>
 
 ---
 
@@ -2912,7 +2912,7 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/interjections.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
 
@@ -2981,7 +2981,7 @@ The lemma list
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -3281,7 +3281,7 @@ being very rare to extinct for nouns.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -3306,7 +3306,7 @@ This file documents [the file for Meänkieli postpositions](https://github.com/g
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
 
@@ -3333,7 +3333,7 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prepositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/prepositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
 
 ---
 
@@ -3387,7 +3387,7 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -3404,7 +3404,7 @@ This file documents [the file for Meänkieli subjunctions](https://github.com/gi
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/subjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
 
@@ -3487,7 +3487,7 @@ Then comes the long list
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -3654,7 +3654,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-fit/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-fit/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -3674,7 +3674,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -3942,7 +3942,7 @@ suffix can be changed here.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 

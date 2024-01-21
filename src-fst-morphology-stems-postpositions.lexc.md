@@ -19,7 +19,7 @@ This file documents [the file for Meänkieli postpositions](https://github.com/g
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
 
