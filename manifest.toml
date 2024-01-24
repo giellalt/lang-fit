@@ -1,6 +1,14 @@
 name = "Meänkieli"
 version = "0.1.1"
 
+[speller.name]
+en = "Tornedalen Finnish Speller"
+sv = "name test"
+
+[speller.description]
+en = "Meänkieli speller"
+sv = "description test"
+
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.fit"
 
