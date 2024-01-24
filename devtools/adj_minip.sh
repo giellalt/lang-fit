@@ -15,7 +15,7 @@ GTLANGS=$(echo $GTLANGS)
 
 PATTERN=$1
 L_FILE="in.txt"
-cut -d '!' -f1 src/fst/stems/adjectives.lexc | egrep $PATTERN | tr '+' ':' | cut -d ':' -f1>$L_FILE
+cut -d '!' -f1 src/fst/morphology/stems/adjectives.lexc | egrep $PATTERN | tr '+' ':' | cut -d ':' -f1>$L_FILE
 
 P_FILE="test/data/testadjparadigm.txt"
 
@@ -24,7 +24,7 @@ do
  for form in $(cat $P_FILE);
  do
 #     echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fit/src/generator-gt-norm.xfst    # xfst
-      echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fit/src/generator-gt-norm.hfstol # hfst
+      echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fit/src/fst/generator-gt-norm.hfstol # hfst
  done
  rm -f $L_FILE
 done

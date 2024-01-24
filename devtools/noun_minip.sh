@@ -17,7 +17,7 @@ GTLANGS=$(echo $GTLANGS)
 
 PATTERN=$1
 L_FILE="in.txt"
-cut -d '!' -f1 src/fst/stems/nouns.lexc | egrep $PATTERN | sed 's/% /%/g' | tr ' +' ':' | cut -d ':' -f1 | sed 's/%/% /g' | tr -d '%'>$L_FILE
+cut -d '!' -f1 src/fst/morphology/stems/nouns.lexc | egrep $PATTERN | sed 's/% /%/g' | tr ' +' ':' | cut -d ':' -f1 | sed 's/%/% /g' | tr -d '%'>$L_FILE
 
 
 P_FILE="test/data/testnounpradigm.txt"
@@ -27,7 +27,7 @@ do
  for form in $(cat $P_FILE);
  do
 #  echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fit/src/generator-gt-norm.xfst
-  echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fit/src/generator-gt-norm.hfstol
+  echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fit/src/fst/generator-gt-norm.hfstol
  done
  rm -f $L_FILE
 done
