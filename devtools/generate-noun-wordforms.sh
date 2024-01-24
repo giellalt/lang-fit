@@ -41,7 +41,7 @@ source_file=src/fst/morphology/stems/nouns.lexc
 exception_lexicons="(nounstems|Rnoun)"
 
 # FST used for generation, MINUS suffix:
-generator_file=src/generator-gt-norm
+generator_file=src/fst/generator-gt-norm
 
 # How many lemmas maximally for each lexicon:
 lemmacount=20
