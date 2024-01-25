@@ -926,11 +926,20 @@ LEXICON xnas_pl
  +Pl+Abe:^HMETA%>h^Vitt^A PxK ;
  +Pl+Abe:^HMET2%>h^Vitt^A PxK ;
 
- LEXICON nas_h ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
+ LEXICON nas_h ! saappas !CHECK ELINA ser nas rätt ut? Fler såna här?
 !! **LEXICON @LEXNAME@**
- +N: xnas ;
+ nas_h_sg ;
+ nas_h_pl ;
+ 
+ LEXICON nas_h_sg ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
+!! **LEXICON @LEXNAME@**
+ +N: xnas_sg ;
  +N+Sg+Nom:^WGs R ;
  +N+Sg+Gen:%>^Vn R ;
+
+LEXICON nas_h_pl ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
+!! **LEXICON @LEXNAME@**
+ +N: xnas_pl ;
  +N+Pl+Nom:^HMETA%>h^V^V t_PxK ;
  
 
