@@ -1356,6 +1356,10 @@ Special stems
 
 **LEXICON xnas_pl**
 
+**LEXICON xnas_pl**
+
+**LEXICON nas_h_pl**
+
 **LEXICON 3mies**
 
 **LEXICON n_ien**
