@@ -91,6 +91,12 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+PrfPrc+Err/Orth:ollee ptc_obl ;
 +V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
 
++V+Act+Imprt+Sg1:ole # ;
++V+Act+Imprt+Sg3:ol%>kh^O^On # ;
++V+Act+Imprt+Pl1:ol%>khaamme # ;
++V+Act+Imprt+Pl2:ol%>kh^A^A # ;
++V+Act+Imprt+Pl3:ol%>kh^O^Ot # ;
+
 +V+InfE+Ins:ollen K ;
 +V+InfE+Ine:ollessa K ;
 +V+InfMa:ole 3infcase ;

@@ -936,6 +936,7 @@ LEXICON xnas_pl
  +N: xnas_sg ;
  +N+Sg+Nom:^WGs R ;
  +N+Sg+Gen:%>^Vn R ;
+ +N+Sg+Nom:^HMETA%>h^V^V t_PxK ;
 
 LEXICON nas_h_pl ! saaphaat !CHECK ELINA ser nas rätt ut? Fler såna här?
 !! **LEXICON @LEXNAME@**
@@ -1136,7 +1137,7 @@ LEXICON 3xn_lnr
 LEXICON 3n_lnr_inteill 
 !! **LEXICON @LEXNAME@** inte Ill, Ine, Ess men alla andra
 +N+Sg+Nom:^WG  R ;
- +N+Sg+Nom:^WG PxK ;
++N+Sg+Nom:^WG PxK ;
  !+N+Sg+Gen:e%>n R ;
  !+N+Sg+Gen:e%>n PxK ;
  +N+Sg+Par:^WG%>t^A PxK ;
