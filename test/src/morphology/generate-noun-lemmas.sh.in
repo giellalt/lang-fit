@@ -67,7 +67,7 @@ EXTEDITOR=@SEE@
 
 # 1. singular lemmas
 @GTCORE@/scripts/extract-lemmas.sh \
-    --exclude "(_pl)" \
+    --exclude "(_pl|n_nomorph)" \
     $source_file > $lemmas
 
 # 2. plural lemmas
