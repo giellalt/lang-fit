@@ -1,13 +1,17 @@
-name = "Meänkieli"
+name = "Meänkieli (Tornedalen Finnish)"
 version = "0.1.1"
 
+# Name of the speller package in various languages.
+# The default is English + autonym:
 [speller.name]
-en = "Tornedalen Finnish Speller"
-sv = "name test"
+en = "Meänkieli (Tornedalen Finnish) spellchecker"
+fit = "Autonym spellchecker"
 
+# Description of the speller package in various languages.
+# The default is English + autonym:
 [speller.description]
-en = "Meänkieli speller"
-sv = "description test"
+en = "A spellchecker for Meänkieli (Tornedalen Finnish), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+fit = "TRANSLATE: A spellchecker for Meänkieli (Tornedalen Finnish), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.fit"

@@ -119,11 +119,11 @@ k:g <=> Vow n _ Vow: WeakGrade ;
 !! **RULE: @RULENAME@**
 k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
                  o i: _ Vow:        WeakGrade ; ! pojan
-                 a i  _ Vow:        WeakGrade ; ! vaieta
+                 a i:  _ Vow:        WeakGrade ; ! vaieta
          VowelNotUY   _ Vow:        WeakGrade ; ! maun 
 	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
           Vow [k|k2:] _ e: (%^WG:)  h     %> e       ; ! kkh > kh ääkkä : ääkhään
-          Vow [k|k2:] _ Vow: [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään
+          Vow (Cns) [k|k2:] _ Vow: [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään, kirkko:kirkhoon
           Vow   [l|r] _ VowelNotEI  WeakGrade ;
               Vow h k _ Vow         WeakGrade ;
           [Vow - e] h _ Vow         WeakGrade ;
@@ -195,7 +195,7 @@ n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; ! tärppä : tärpän
                 Vow p _ e: (%^WG:) h %> Vow ; !Ortografi pph>ph 
-        [Vow|l|m|r] p _ Vow: [%^HMETA: | %^HMET2:|h %> e] ;  ! tärppä : tärphään
+        [Vow|Cns] p _ Vow: [%^HMETA: | %^HMET2:|h %> e] ;  ! tärppä : tärphään 
 
 !! **Tests:**
 
@@ -246,7 +246,7 @@ t:0 <=> Vow ([l|n|r]) t _ Vow:+ [WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; ! new 
         [ä|e]           _  i        WeakGrade ; !
                       t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ; 
             Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
-            Vow         _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään 
+            Vow  (Cns)   _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
 
 !		  :e %> _ %^A: ; ! hanhea -- rather two classes
 !        [.#.|#:] Cns:* Vow:+ Cns:+ Vow:+ [l|n|r] _ Vow:+ WeakGrade ; ! imarela : imartelen
@@ -760,6 +760,7 @@ i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathe
 !! **RULE: @RULENAME@**
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
         [o|ö] _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
+       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan
 
 "i2:j"
 !! **RULE: @RULENAME@**

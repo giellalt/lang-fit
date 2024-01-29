@@ -536,7 +536,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 +V+Act+Ind+Prt+Pl3:%>i3v^A K ;
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ;
-+V+Act+Ind+Prs+Pl3:%^WG%>thiin K ;
++V+Act+Ind+Prt+Pl3:%^WG%>thiin K ;
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
