@@ -43,8 +43,8 @@ LEXICON a4
  +A+Sg+Par:%>^A      PxK ; ! verta
 
 LEXICON a5
-! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
-+A: x5 ; !!≈ * @CODE@
+! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+ a4 ; !!≈ * @CODE@
 
 
 LEXICON anen
