@@ -60,7 +60,7 @@ AC_SUBST([GLANG2], [fit])
 AC_SUBST([GTLANG2], $GLANG2)
 # GLANGUAGE is the full language name as given by the ISO 639-3 file.
 # GTLANGUAGE is deprecated, defined for backwards compatibility.
-AC_SUBST([GLANGUAGE], ["Tornedalen Finnish"])
+AC_SUBST([GLANGUAGE], ["Meänkieli (Tornedalen Finnish)"])
 AC_SUBST([GTLANGUAGE], $GLANGUAGE)
 
 ### Speller release version (usually different from the package version,
