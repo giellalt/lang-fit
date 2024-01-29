@@ -1067,7 +1067,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A: xnas ;
 
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
-* +A: x5 ;
+* +A: x5_sg ;
 
 **LEXICON a1_ton** 
 * +A: x1_ton ;
