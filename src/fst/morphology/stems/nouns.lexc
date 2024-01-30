@@ -9466,7 +9466,7 @@ nauti:naut n5_ie ;
 tauti:taut n5_ie ;
 paskatauti:paska#taut n5_ie ;
 kuivatauti:kuiva#taut n5_ie ;
-naistentauvit:naisten#taut n5_ie_pl ;
+naistentauvit:naisten#taut n5_i_pl ;
 kuivamatauti:kuivamataut n5_ie ;
 panematauti:panemataut n5_ie ;
 lahmomatauti:lahmomataut n5_ie ;
