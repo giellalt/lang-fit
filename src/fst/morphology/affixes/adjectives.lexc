@@ -19,10 +19,23 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
-+A+Comp: 3comp ; !!≈ * @CODE@
++A+Comp: 3comp ; !!≈ * @CODE@ 
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
+LEXICON a1_e 
+!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
++A: x1 ; !!≈ * @CODE@
++A+Comp:%^AE 3comp ; !!≈ * @CODE@ !TEST jan
+!+A+Superl:ime 3sup ; !!≈ * @CODE@
++A+Superl: 3sup ; !!≈ * @CODE@
+
+LEXICON a1_ee 
+!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
++A: x1 ; !!≈ * @CODE@
++A+Comp:%^AEe 3comp ; !!≈ * @CODE@ !TEST jan
+!+A+Superl:ime 3sup ; !!≈ * @CODE@
++A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
