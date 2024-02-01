@@ -727,6 +727,7 @@ Hauhia:Hauhia p_sur_1 ;
 Kouhia:Kouhia p_sur_1 ;
 Liias:Liia p_sur_ks ;
 Piia:Piia p_fem_1 ;
+Fiia:Fiia p_fem_1 ;
 Tiia:Tiia p_fem_1 ;
 Tsjuvasjia:Tsjuvasjia p_plc_1 ;
 Josjia:Josjia p_plc_1 ;
@@ -13072,6 +13073,7 @@ Arabygdi:Arabygdi p_plc_1 ; ! xxx Trond deike
 Vassbygdi:Vassbygdi p_plc_1 ;
 Skaidi:Skaidi p_plc_1 ;
 Heidi:Heidi p_fem_1 ;
+Sofi:Sofi p_fem_1 ;
 Haldis:Haldi p_fem_ks ;
 Valdis:Valdi p_fem_ks ;
 Grimaldi:Grimaldi p_plc_1 ;

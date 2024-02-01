@@ -2485,6 +2485,7 @@ pleekata:pleekka v2_ata_odd ;
 preekata:preekka v2_ata_odd ;
 treekata:treekka v2_ata_odd ;
 jiekata:jiekka v2_ata_odd ;
+jieskata:jieska v2_ata_odd ;
 kiekata:kiekka v2_ata_odd ;
 oihkata:oihkka v2_ata_odd ;
 uihkata:uihkka v2_ata_odd ;
@@ -5024,6 +5025,7 @@ lissäytyä:lissäyty v1 ;
 täytyä:täyty v1 ;
 löytyä:löyty v1 ;
 häätyä:hääty v1 ;
+häätyä:häty v1 ; !CHECK EK
 jäätyä:jääty v1 ;
 päätyä:pääty v1 ;
 yötyä:yöty v1 ;

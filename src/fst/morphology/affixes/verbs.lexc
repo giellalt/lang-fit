@@ -659,7 +659,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+InfMa+Abe:ke%>m^Att^A K ;
 !+V+Act+InfMa:ke%>m^A MATONodd ;
 
-+V+Act+PrsPrc:kkee%>v^A x3 ;
++V+Act+PrsPrc:ke%>v^A x3 ; !TEST jan
 +V+Pass+PrsPrc:%>ht^A%>v^A x3 ;
 +V+Act+Ind+Prs+ConNeg:e K ;
 

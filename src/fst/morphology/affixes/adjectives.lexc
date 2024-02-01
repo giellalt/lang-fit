@@ -19,16 +19,16 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
-+A+Comp: 3comp ; !!≈ * @CODE@ 
++A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
-LEXICON a1_e 
-!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-+A: x1 ; !!≈ * @CODE@
-+A+Comp:%^AE 3comp ; !!≈ * @CODE@ !TEST jan
-!+A+Superl:ime 3sup ; !!≈ * @CODE@
-+A+Superl: 3sup ; !!≈ * @CODE@
+!LEXICON a1_e 
+!!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+!+A: x1 ; !!≈ * @CODE@
+!+A+Comp:%^AE 3comp ; !!≈ * @CODE@ !TEST jan
+!!+A+Superl:ime 3sup ; !!≈ * @CODE@
+!+A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a1_ee 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
@@ -156,7 +156,7 @@ LEXICON xcomp
 +Pl+Ill:%>mphiin K ;
 +Pl+Ine:%>miss^A K ;
 +Pl+Ela:%>mist^A K ;
-+Sg+Abl:%>milt^A K ;
++Pl+Abl:%>milt^A K ;
 
 
 
@@ -190,7 +190,8 @@ xsup ; ! common cases from here
 
 LEXICON xsup 
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
-+Sg+Nom:%>i5mpi # ; !!≈ * @CODE@
+!+Sg+Nom:%>i5mpi # ; !!≈ * @CODE@
++Sg+Nom:^WG%>i5n # ; !!≈ * @CODE@
 +Sg+Gen:%>i5man K ; !!≈ * @CODE@ etc.
 +Sg+Par:%>i5mp^A^A K ;
 +Sg+Tra:%>i5m^Aksi K ;
