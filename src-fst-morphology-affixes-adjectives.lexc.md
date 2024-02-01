@@ -16,12 +16,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 * +A: x1 ;
-* +A+Comp: 3comp ; 
-* +A+Superl: 3sup ;
-
-**LEXICON a1_e** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-* +A: x1 ;
-* +A+Comp:%^AE 3comp ; !TEST jan
+* +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
 
 **LEXICON a1_ee** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
@@ -88,7 +83,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +Sg+All:%>i5m^Ale K ; etc.
 
 **LEXICON xsup**   common for 2syll and 3syll
-* +Sg+Nom:%>i5mpi # ;
+* +Sg+Nom:^WG%>i5n # ;
 * +Sg+Gen:%>i5man K ; etc.
 
 * * *
