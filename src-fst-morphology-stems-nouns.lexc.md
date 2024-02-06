@@ -15,6 +15,8 @@ Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
+* n2_vehke = vehe:vehke like n2 but including variant form without -h: vehkheen AND vehkeen
+* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc, like n2 except Sg+Nom
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
 Consonant stems
