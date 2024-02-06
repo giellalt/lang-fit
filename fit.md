@@ -1042,10 +1042,11 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 * +A: x1 ;
+
 * +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
 
-**LEXICON a1_ee** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+**LEXICON a1_e** for vanha, which has vanheemitten and vanheempi, otherwise like a1
 * +A: x1 ;
 * +A+Comp:%^AEe 3comp ; !TEST jan
 * +A+Superl: 3sup ;
