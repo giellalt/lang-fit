@@ -520,7 +520,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: (%^WG:) [%^HMETA: |%^HMET2:] ; 
-                                      Cns _ Vow: [%^HMETA: |%^HMET2:] %> h ; !vanha >vanhaan ! TEST jan
+                                      !Cns _ Vow: [%^HMETA: |%^HMET2:] %> h ; !vanha >vanhaan ! TEST jan
   !Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! CHECK NEEDED?
 !Rules for metathesis type two, position 1 in Kuoppa/Mantila (efter två tonande Cns)
         Vow   l   :h [j|  m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 

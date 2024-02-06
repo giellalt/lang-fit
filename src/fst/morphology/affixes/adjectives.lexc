@@ -19,22 +19,21 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
++A+Pl+Gen:^WG^IDEL%>je n_PxK ;
++A+Pl+Par:^WG^IDEL%>i2ta PxK ;
+!+A+Pl+Ill:^HMETA%>h^Vi2hi n_PxK ; !FIXA
+!+A+Pl+Ill:^HMETA%>h^Vi2shi n_PxK ; !FIXA
+!+A+Pl+Ill:^HMETA%>h^Vi2ssi n_PxK ; !FiXA
+
 +A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
-!LEXICON a1_e 
-!!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-!+A: x1 ; !!≈ * @CODE@
-!+A+Comp:%^AE 3comp ; !!≈ * @CODE@ !TEST jan
-!!+A+Superl:ime 3sup ; !!≈ * @CODE@
-!+A+Superl: 3sup ; !!≈ * @CODE@
 
-LEXICON a1_ee 
-!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+LEXICON a1_e 
+!! **LEXICON @LEXNAME@** for vanha, which has vanheemitten and vanheempi, otherwise like a1
 +A: x1 ; !!≈ * @CODE@
 +A+Comp:%^AEe 3comp ; !!≈ * @CODE@ !TEST jan
-!+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a2
