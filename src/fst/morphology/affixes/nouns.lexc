@@ -14,6 +14,8 @@
 !! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
 !! * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
+!! * n2_vehke = vehe:vehke like n2 but including variant form without -h: vehkheen AND vehkeen; 
+!! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc, like n2 except Sg+Nom
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
 
 !! ### Consonant stems
@@ -304,7 +306,40 @@ LEXICON x2_pl
  !+Pl+Ess:%>ei2n^A PxK ;
  !+Pl+Abe:%>ei2tt^A PxK ;
 
+LEXICON n2_vehke
+n2 ;
++N+Sg+Gen:%>ee n_PxK ; 
++N+Sg+Ill:%>eeshee n_PxK ; !vehkeesheen
++N+Sg+Ill:%>eesee n_PxK ; !vehkeeseen
++N+Sg+Ill:h%>eesee n_PxK ; !vehkheeseen
++N+Sg+Ine:%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
++N+Sg+Ela:%>eest^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
++N+Sg+All:%>eele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
++N+Sg+Ade:%>eel^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
++N+Sg+Abl:%>eelt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
++N+Sg+Tra:%>ee TRA ; 
++N+Sg+Ess:%>een^A PxK ; !TEST stryka WG före h?
++N+Sg+Abe:%>ett^A PxK ;
 
++N+Pl+Nom:%>ee t_PxK ; !
++N+Pl+Gen:%>eitte n_PxK ; !
++N+Pl+Par:h%>ej^A   PxK ; !
++N+Pl+Par:%>eit^A   PxK ; !
++N+Pl+Ill:%>ei2shii n_PxK ; !
++N+Pl+Ill:h%>ei2ssii n_PxK ; !
++N+Pl+Ill:%>ei2ssii n_PxK ; !
++N+Pl+Ine:%>ei2ss^A   PxK ; ! 
++N+Pl+Ela:%>ei2st^A   PxK ; ! 
++N+Pl+All:%>ei2le    PxxK ; ! 
++N+Pl+Ade:%>ei2l^A    PxK ; ! 
++N+Pl+Abl:%>ei2lt^A    PxK ; ! 
++N+Pl+Tra:%>ei2 TRA ; !
++N+Pl+Ess:%>ei2n^A PxK ; !
++N+Pl+Abe:%>ei2tt^A PxK ; !
+
+LEXICON n2_t
+n2 ;
++N+Sg+Nom:%>t_PxK ; 
 
 LEXICON n3 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava

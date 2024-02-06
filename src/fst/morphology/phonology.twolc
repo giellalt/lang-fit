@@ -126,7 +126,8 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
           Vow (Cns) [k|k2:] _ Vow: [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään, kirkko:kirkhoon
           Vow   [l|r] _ VowelNotEI  WeakGrade ;
               Vow h k _ Vow         WeakGrade ;
-          [Vow - e] h _ Vow         WeakGrade ;
+           Vow  h _ Vow         WeakGrade ; !vehke>vehettä
+!          [Vow - e] h _ Vow         WeakGrade ;
 !               Vow h _ Vow         WeakGrade ; ! vehe men kehjetä !!
 
 !! **Tests:**
@@ -144,7 +145,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 !! **RULE: @RULENAME@**
 k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin,
-	e h _ [e:|i:] ;
+	! e h _ [e:|i:] ;
 
 !! **Tests:**
 
