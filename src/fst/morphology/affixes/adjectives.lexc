@@ -19,9 +19,12 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
-+A+Pl+Gen:^WG^IDEL%>je n_PxK ;
-+A+Pl+Par:^WG^IDEL%>i2ta PxK ;
-!+A+Pl+Ill:^HMETA%>h^Vi2hi n_PxK ; !FIXA
++A+Pl+Gen:^WG^IDEL%>je n_PxK ; ! även paksujen
++A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita
++A+Pl+Ill:^HMETA%>^Vi2hi n_PxK ; !FIXA
++A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !FIXA
++A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !FIXA
+
 !+A+Pl+Ill:^HMETA%>h^Vi2shi n_PxK ; !FIXA
 !+A+Pl+Ill:^HMETA%>h^Vi2ssi n_PxK ; !FiXA
 
@@ -31,10 +34,14 @@ LEXICON a1
 
 
 LEXICON a1_e 
-!! **LEXICON @LEXNAME@** for vanha, which has vanheemitten and vanheempi, otherwise like a1
-+A: x1 ; !!≈ * @CODE@
-+A+Comp:%^AEe 3comp ; !!≈ * @CODE@ !TEST jan
-+A+Superl: 3sup ; !!≈ * @CODE@
+!! **LEXICON @LEXNAME@** vanha, which has vanheemitten and vanheempi, otherwise like a1
+a1 ;
+!+A: x1 ; !!≈ * @CODE@
+!+A+Comp:%^AEe 3comp ; 
++A+Comp+Pl+Gen:%^AE%>mpi2en K ;
+!+A+Superl: 3sup ; 
++A+Superl+Sg+Nom:^WG%>i5in K ; 
++A+Superl+Pl+Gen:^WG%>i5mpien K ; !%>i5mitten K ;
 
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
@@ -205,4 +212,4 @@ LEXICON xsup
 +Pl+Ill:%>i5mphiin K ;
 +Pl+Ine:%>i5miss^A K ;
 +Pl+Ela:%>i5mist^A K ;
-+Sg+Abl:%>i5milt^A K ;
++Pl+Abl:%>i5milt^A K ;

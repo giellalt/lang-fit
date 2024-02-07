@@ -520,7 +520,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: (%^WG:) [%^HMETA: |%^HMET2:] ; 
-                                      !Cns _ Vow: [%^HMETA: |%^HMET2:] %> h ; !vanha >vanhaan ! TEST jan
+                                      !Cns _ Vow: [%^HMETA: |%^HMET2:] %> h ; !vanha >vanhaan ! TEST jan remove to get vanhhaan
   !Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! CHECK NEEDED?
 !Rules for metathesis type two, position 1 in Kuoppa/Mantila (efter två tonande Cns)
         Vow   l   :h [j|  m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
@@ -651,11 +651,11 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa (ta bort sista (Vow:)?)
+    [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   !  
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
-        _ %> i5: ; !kova>kovimpiin ; adj superlativ
+        _  (%^WG:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
 !! **Tests:**
 !!€ kuva>i2ss^A
@@ -875,10 +875,10 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 
 "o copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:o <=>                                                o: [%^HMETA:|%^HMET2:] %> h:    _ [:i|:o] ;
-                                                         o: [%^HMETA:|%^HMET2:] %> h: :o _  ;
+%^V:o <=>                                                o: [%^HMETA:|%^HMET2:] %> (h:)    _ [:i|:o] ;
+                                                         o: [%^HMETA:|%^HMET2:] %> (h:) :o _  ;
                                                          o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
-[.#.|#|Cns] [a|e|i] (Vow:) (:h) Cns:*                    a: [%^HMETA:|%^HMET2:] %>  h:   _ i2: ; !saunhoin/saunhoin 
+[.#.|#|Cns] [a|e|i] (Vow:) (:h) Cns:*                    a: [%^HMETA:|%^HMET2:] %>  (h:)   _ i2: ; !saunhoin/saunhoin 
 [.#.|#] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:)  _ i2: ; !Pl+Ill för >2-syll-nouns: a>o efter två Cns (almunakka>almunakhoin) **conflict**
 ! previuos right context was [:i|i2:]
 ![.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !CHECK för vad??
@@ -901,11 +901,11 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 
 "i copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:i <=> i: [%^HMETA: | %^HMET2:] %> h:    _ :i ;
-          i: [%^HMETA: | %^HMET2:] %> h: :i _    ;
+%^V:i <=> i: [%^HMETA: | %^HMET2:] %> (h:)    _ :i ;
+          i: [%^HMETA: | %^HMET2:] %> (h:) :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
-         [.#.|#] Cns:* RoundedVowel+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> h: _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
-         [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> h: _ [i2:] ;  !silmä>silmhiin Pl+Ill
+         [.#.|#] Cns:* RoundedVowel+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
+         [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !silmä>silmhiin Pl+Ill
 
 !! **Tests:**
 
@@ -915,14 +915,14 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 
 "ä copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> h:    _ [:ä|i] ; !TEST used to be [:ä|:i]
-          ä: [%^HMETA: | %^HMET2:] %> h: :ä _    ;
+%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ä|i] ; !TEST used to be [:ä|:i]
+          ä: [%^HMETA: | %^HMET2:] %> (h:) :ä _    ;
           ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:e <=> e: [%^HMETA: | %^HMET2:] %> h:    _ [:e|:i] ;
-          e: [%^HMETA: | %^HMET2:] %> h: :e _    ;
+%^V:e <=> e: [%^HMETA: | %^HMET2:] %> (h:)    _ [:e|:i] ;
+          e: [%^HMETA: | %^HMET2:] %> (h:) :e _    ;
           e         %>  (h)     _ [n|t|s|l|%>|.#.] ;
 
 !!€ puole^HMETA>h^V^Vn
@@ -930,20 +930,20 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 
 "ö copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ö <=> ö: [%^HMETA: | %^HMET2:] %> h:    _ [:ö|:i] ;
-          ö: [%^HMETA: | %^HMET2:] %> h: :ö _    ;
+%^V:ö <=> ö: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ö|:i] ;
+          ö: [%^HMETA: | %^HMET2:] %> (h:) :ö _    ;
           ö           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "y copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:y <=> y: [%^HMETA: | %^HMET2:] %> h:    _ [:y|:i] ;
-          y: [%^HMETA: | %^HMET2:] %> h: :y _    ;
+%^V:y <=> y: [%^HMETA: | %^HMET2:] %> (h:)    _ [:y|:i] ;
+          y: [%^HMETA: | %^HMET2:] %> (h:) :y _    ;
           y           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "u copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:u <=> u: [%^HMETA: | %^HMET2:] %> h:    _ [:u|:i] ;
-          u: [%^HMETA: | %^HMET2:] %> h: :u _    ;
+%^V:u <=> u: [%^HMETA: | %^HMET2:] %> (h:)    _ [:u|:i] ;
+          u: [%^HMETA: | %^HMET2:] %> (h:) :u _    ;
           u           %> (h)   _ [n|t|s|l|%>|.#.] ;
 
 
