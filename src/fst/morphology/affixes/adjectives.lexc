@@ -36,12 +36,20 @@ LEXICON a1
 LEXICON a1_e 
 !! **LEXICON @LEXNAME@** vanha, which has vanheemitten and vanheempi, otherwise like a1
 a1 ;
-!+A: x1 ; !!≈ * @CODE@
-!+A+Comp:%^AEe 3comp ; 
 +A+Comp+Pl+Gen:%^AE%>mpi2en K ;
-!+A+Superl: 3sup ; 
 +A+Superl+Sg+Nom:^WG%>i5in K ; 
-+A+Superl+Pl+Gen:^WG%>i5mpien K ; !%>i5mitten K ;
++A+Superl+Pl+Gen:^WG%>i5mpien K ; 
+
++A+Comp+Sg+Nom+Err/Orth:%^AEe%>mpi K ;
++A+Comp+Sg+Gen+Err/Orth:%^AEe%>man K ;
++A+Comp+Sg+Ade+Err/Orth:%^AEe%>malla K ;
++A+Comp+Sg+Abl+Err/Orth:%^AEe%>malta K ;
++A+Comp+Sg+Tra+Err/Orth:%^AEe%>maksi K ;
+
++A+Comp+Pl+Gen+Err/Orth:%^AEe%>mi2tten K ;
++A+Comp+Pl+Par+Err/Orth:%^AEe%>mpi2a K ;
++A+Comp+Pl+Ill+Err/Orth:%^AEe%>mphiin K ;
++A+Comp+Pl+Ade+Err/Orth:%^AEe%>milla K ;
 
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
