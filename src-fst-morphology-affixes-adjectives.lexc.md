@@ -20,10 +20,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
 
-**LEXICON a1_e** for vanha, which has vanheemitten and vanheempi, otherwise like a1
-* +A: x1 ;
-* +A+Comp:%^AEe 3comp ; !TEST jan
-* +A+Superl: 3sup ;
+**LEXICON a1_e** vanha, which has vanheemitten and vanheempi, otherwise like a1
 
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
