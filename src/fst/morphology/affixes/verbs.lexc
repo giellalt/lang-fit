@@ -46,6 +46,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
 +V+Act+Ind+Prs+Sg3:oon K ;
++V+Act+Ind+Prs+Sg3+Err/Orth:soon K ; ! CHECK ELINA
 +V+Act+Ind+Prs+Pl1:olema K ;
 +V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;

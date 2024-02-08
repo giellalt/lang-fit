@@ -1831,7 +1831,7 @@ mielisairas:mielisaira aas ;
 hauras:haura aas ;
 kylmänhauras:kylmänhaura aas ;
 vauras:vaura aas ;
-viisas:viisa aas ;
+viisas:viisa aas_h ;
 nokkaviisas:nokkaviisa aas ;
 itteviisas:itteviisa aas ;
 runsas:runsa aas ;

@@ -683,7 +683,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%
 
 "ä:0"
 !! **RULE: @RULENAME@**
-ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade)  %> [i2:|i3:|i8:|j] ; ! before i
+ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade) (%^IDEL:) %> [i2:|i3:|i8:|j] ; ! before i
                                   _ [%^HMETA: | %^HMET2:]            ; ! before metathesis h
          [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
           _ %> i5: ; !selvä>selvimpiin ; adj superlativ
@@ -769,7 +769,7 @@ i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
 
 "i2:j"
 !! **RULE: @RULENAME@**
-i2:j <=> :Vow (Dummy:) %> _ :Vow ;
+i2:j <=> :Vow (Dummy:+) (%>) _ :Vow ;
 
 "i8:0"
 !! **RULE: @RULENAME@**

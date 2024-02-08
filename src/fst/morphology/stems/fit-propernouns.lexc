@@ -15,7 +15,7 @@
 !! 32000 names
 
 LEXICON ProperNoun !!≈ * @CODE@
-
+Titaniiki:Titaniik2i p_plc_1 ;
 Trimppa-Rärrä:Trimppa-Rärrä p_mal_1 ;
 Kapteen% Wilén:Kapteen% Wilén p_mal_1 ;
 Iso-Iisko:Iso-Iisko p_mal_1 ;
@@ -9993,6 +9993,7 @@ Chãlons-sur-Saône:Chãlons-sur-Saône p_plc_1 ;
 vRhône:vRhône p_plc_1 ;
 Schøne:Schøne p_plc_1 ;
 Boe:Boe p_mal_1 ;
+Zoe:Zoe p_fem_1 ;
 Doe:Doe p_1 ;
 Joe:Joe p_mal_1 ;
 Loe:Loe p_sur_1 ;
@@ -17999,6 +18000,7 @@ Fjällström+OLang/SWE:Fjäll#ström p_sur_C ;
 Brännström+OLang/SWE:Bränn#ström p_sur_C ;
 Söderström+OLang/SWE:Söder#ström p_sur_C ;
 Wikström:Wikström p_sur_3C ;
+Forsström:Forsström p_sur_3C ;
 Hallström:Hallström p_sur_3C ;
 Fjellström:Fjellström p_sur_3C ;
 Fjällström:Fjällström p_sur_3C ;
@@ -18026,7 +18028,8 @@ Hellstrøm:Hellstrøm p_sur_3C ;
 Holmstrøm:Holmstrøm p_sur_3C ;
 Bjurstrøm:Bjurstrøm p_sur_3C ;
 Nystrøm:Nystrøm p_sur_3C ;
-On:On vanha_nocmp_prop_surplc_C ;
+On:On vanha_nocmp_prop_surplc_C ; 
+Sifferi-Evan:Sifferi-Evan p_mal_3C ;
 Dan:Dan p_mal_3C ;
 Gan:Gan p_sur_3C ;
 Ian:Ian p_mal_3C ;
@@ -20745,6 +20748,7 @@ Lin:Lin p_sur_3C ;
 Qin:Qin p_sur_3C ;
 Xin:Xin p_sur_3C ;
 Kain:Kain p_mal_3C ;
+Lenin:Lenin p_mal_3C ;
 Tubal-Kain:Tubal-Kain p_sur_3C ;
 Main:Main p_sur_3C ;
 Nain:Nain p_sur_3C ;

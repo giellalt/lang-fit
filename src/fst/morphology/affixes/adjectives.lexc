@@ -20,7 +20,7 @@ LEXICON a1
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; !!≈ * @CODE@
 +A+Pl+Gen:^WG^IDEL%>je n_PxK ; ! även paksujen
-+A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita
++A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita TODO: dela upp, vilka ska ha -ta-variant?
 +A+Pl+Ill:^HMETA%>^Vi2hi n_PxK ; !FIXA
 +A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !FIXA
 +A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !FIXA
@@ -36,6 +36,7 @@ LEXICON a1
 LEXICON a1_e 
 !! **LEXICON @LEXNAME@** vanha, which has vanheemitten and vanheempi, otherwise like a1
 a1 ;
++A+Pl+Par:^WG^IDEL%>i2t^A PxK ; ! även paksuita
 +A+Comp+Pl+Gen:%^AE%>mpi2en K ;
 +A+Superl+Sg+Nom:^WG%>i5in K ; 
 +A+Superl+Pl+Gen:^WG%>i5mpien K ; 
@@ -81,6 +82,13 @@ LEXICON anen
 LEXICON aas  
 !! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
 +A: xnas ; !!≈ * @CODE@
+
+LEXICON aas_h  
+!! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
++A: xnas ; !!≈ * @CODE@
++A+Sg+Nom:^WGs R ;
++A+Sg+Gen:%>^Vn R ;
++A+Pl+Nom:^HMETA%>h^V^V t_PxK ;
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
