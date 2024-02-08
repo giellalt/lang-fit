@@ -1069,6 +1069,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON aas**  has no comparative or superlative , just points to xnas
 * +A: xnas ;
 
+**LEXICON aas_h**  has no comparative or superlative , just points to xnas
+* +A: xnas ;
+
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
 * +A: x5_sg ;
 
@@ -2894,7 +2897,6 @@ We do not use **_pl** for names (except for plural names).
 32000 names
 
 * LEXICON ProperNoun
-
 * Niila:Niila p_mal_1 ;
 ERVASTI?
 * ...

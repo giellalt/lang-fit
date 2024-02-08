@@ -14,7 +14,6 @@ We do not use **_pl** for names (except for plural names).
 32000 names
 
 * LEXICON ProperNoun
-
 * Niila:Niila p_mal_1 ;
 ERVASTI?
 * ...
