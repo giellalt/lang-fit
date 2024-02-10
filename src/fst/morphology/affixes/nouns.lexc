@@ -880,6 +880,7 @@ LEXICON x_ime_sg
  +Sg+Gen:me%> n_PxK ;
  +Sg+Par:^WGn%>t^A PxK ;
  +Sg+Ill:m%>hee n_PxK ; !kirjaimheen
+ +Sg+Ill:me^HMET2%>hee n_PxK ; !kirjaimheen
  +Sg+Ine:me%>ss^A PxK ;
  +Sg+Ela:me%>st^A PxK ;
  +Sg+All:me%>lle PxxK ;
@@ -895,6 +896,7 @@ LEXICON x_ime_pl
  +Pl+Gen:n%>te n_PxK ;
  +Pl+Par:m%>i^A PxK ;
  +Pl+Ill:m%>hii n_PxK ;
+ +Pl+Ill:mi^HMET2%>hii n_PxK ; !kirjaihmiin
  +Pl+Ine:m%>i2ss^A PxK ;
  +Pl+Ela:m%>i2st^A PxK ;
  +Pl+All:m%>i2lle PxxK ;
