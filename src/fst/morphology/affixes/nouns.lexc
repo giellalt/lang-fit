@@ -27,7 +27,7 @@
 !! * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kasi = käsi : käden : kättä (2syll)
 !! * n5_lapsi = lapsi : lapsen : lasta
-!! * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+!! * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile OBS stem without -i!
 !! * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
 
 !! * n_uus = vajavuus
@@ -119,6 +119,7 @@ LEXICON x0_pl
   +Pl+Gen:%>i2tte n_PxK ;
   +Pl+Par:%>i2t^A PxK ;
   +Pl+Ill:%>i2hi n_PxK ;  ! maihin
+  +Pl+Ill:%>i2hii n_PxK ;  ! maihiin EK?
   +Pl+Ine:%>i2ss^A PxK ;
   +Pl+Ela:%>i2st^A PxK ;
   +Pl+All:%>i2le PxxK ;
@@ -919,7 +920,7 @@ LEXICON xnas
 
 LEXICON xnas_sg ! ankerias:ankeria
 !! **LEXICON @LEXNAME@**
- +Sg+Nom:^WGs       PxK ;
+ +Sg+Nom:^WG a_PxK ;
  +Sg+Gen:^HMETA%>h^V^V n_PxK ; !salmhaan
  +Sg+Gen:^HMET2%>h^V^V n_PxK ; !salhmaan
  +Sg+Par:^WGs%>t^A PxK ;
@@ -944,7 +945,7 @@ LEXICON xnas_sg ! ankerias:ankeria
 
 LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
- +Pl+Nom:%>^V t_PxK ;
+ +Pl+Nom:^HMETA%>h^V^V t_PxK ;
  +Pl+Gen:^HMETA%>h^Vitte n_PxK ; !maitosalmhoitten !TEST
  +Pl+Gen:^HMET2%>h^Vitte n_PxK ; !maitosalhmoitten
  +Pl+Par:^HMETA%>h^Vit^A PxK ;
@@ -1268,6 +1269,12 @@ LEXICON n_PxK  !!≈ @CODE@ has either -n or goes to Px
 !! **LEXICON @LEXNAME@**
   :n K  ;
      Px ;
+
+LEXICON a_PxK  !!≈ @CODE@ has either -s or goes to Px with -a
+!! **LEXICON @LEXNAME@**
+  :s K  ;
+  :a Px ;
+
 
 LEXICON t_PxK  !!≈ @CODE@ has either -t or goes to Px
 !! **LEXICON @LEXNAME@**
