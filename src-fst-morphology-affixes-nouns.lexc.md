@@ -26,7 +26,7 @@ Special stems
 * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi : käden : kättä (2syll)
 * n5_lapsi = lapsi : lapsen : lasta
-* n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
+* n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile OBS stem without -i!
 * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
 
 * n_uus = vajavuus
@@ -289,6 +289,9 @@ Px is now not in use, with one exception, comitative.
 
 LEXICON n_PxK has either -n or goes to Px
 **LEXICON n_PxK**
+
+LEXICON a_PxK has either -s or goes to Px with -a
+**LEXICON a_PxK**
 
 LEXICON t_PxK has either -t or goes to Px
 **LEXICON t_PxK**
