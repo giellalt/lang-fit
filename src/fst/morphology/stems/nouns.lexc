@@ -1379,6 +1379,7 @@ karnikka:karnikka n3 ;
 punikas:punikka nas ;
 ynikka:ynikka n3 ;
 kulutustroikka:kulutustroikka nx ;
+roikka:roikka n1 ;
 pikka:pikka nx ;
 lapikas:lapikka nas ;
 myllympikka:myllympikka nx ;
@@ -14941,6 +14942,7 @@ kärsä:kärsä nx ;
 nissä:nissä nx ;
 lakkafärnissä:lakkafärnissä nx ;
 laukkuryssä:laukkuryssä nx ;
+ryssä:ryssä n1 ;
 ässä:ässä nx ;
 lässä:lässä nx ;
 nysä:nysä nx ;
@@ -15524,5 +15526,6 @@ koopisti:koopiste n5_ie_odd ;
 meänkielennös:meänkielennö 3n_ks ;
 ilmestys:ilmesty 3n_ks ;
 asiakas:asiakka nas ;
+pruuvi:pruuvi n1_troppi ;
 
 !! - ... and over 15 000 other noun stems.

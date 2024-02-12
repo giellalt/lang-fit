@@ -596,7 +596,7 @@ LEXICON n5_i_pl
 LEXICON x5_i_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 +Pl+Nom:i^WG%> t_PxK ;
-+Pl+Par:e%>ja PxK ;
++Pl+Par:e%>j^A PxK ;
 +Pl+Gen:i%>e n_PxK ;
 +Pl+Gen:i^WG%>tte n_PxK ;
 +Pl+Ill:e^HMETA%>h^Vi n_PxK ;  ! saunhoin 

@@ -51,3 +51,5 @@ niinko+Err/Orth:niinko conjx ;
 kuten conjx ;
 elikkä conjx ;
 että conjx ;
+ko conjx ; !CHECK EK
+ku conjx ; !CHECK EK

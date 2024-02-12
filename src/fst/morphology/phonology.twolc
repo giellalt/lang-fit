@@ -145,6 +145,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 !! **RULE: @RULENAME@**
 k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin,
+        ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
 
 !! **Tests:**
@@ -477,7 +478,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 "Gemination 0:n"
 !! **RULE: @RULENAME@**
 0:n <=> [.#.|#] Cns:* Vow n _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-!     [.#.|#] Cns:* Vow n _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ; !TESTAR TA BORT här på alla 0:Cns
+!     [.#.|#] Cns:* Vow n _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ; 
         [.#.|#] Cns:* Vow n _  :e (Dummy:) %> (h) :e ;
         [.#.|#] Cns:* Vow n _  :i (Dummy:) %> (h) :i ;
         [.#.|#] Cns:* Vow n _ o   (Dummy:) %> (h) :o ;
@@ -859,7 +860,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a] ; ! sauhnaan
+%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i] ; ! sauhnaan !TEST med i
                             a: [%^HMETA:|%^HMET2:] %> h:  :a _      ; ! sauhnaan
 UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **conflict**
                                                 a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !TEST noutaa 
@@ -915,7 +916,7 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 
 "ä copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ä|i] ; !TEST used to be [:ä|:i]
+%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ä|i] ; 
           ä: [%^HMETA: | %^HMET2:] %> (h:) :ä _    ;
           ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
