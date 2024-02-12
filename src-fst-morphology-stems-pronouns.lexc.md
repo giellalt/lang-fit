@@ -44,7 +44,7 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * molemin pronx ; 
 * nuot pronx ; 
 * muu:mu MUU ; 
-* mä pronx ; 
+* mä pronx ;
 
 * * *
 
