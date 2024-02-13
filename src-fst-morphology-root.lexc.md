@@ -201,6 +201,7 @@ Tag
 * **t3** = t participating in gradation, but not in t:s
 * **t4** = t alternating with 0 in lnr+t : lnr (imarella)
 * **k2** = always k
+* **k4** = for k to j
 * **%^A** = Vowel harmony a/ä
 * **%^O** = Vowel harmony o/ö
 * **%^U** = Vowel harmony u/y

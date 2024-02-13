@@ -293,6 +293,15 @@ LEXICON n_PxK has either -n or goes to Px
 LEXICON a_PxK has either -s or goes to Px with -a
 **LEXICON a_PxK**
 
+LEXICON s_PxK has either -s or goes to Px 
+**LEXICON s_PxK**
+
+LEXICON sh_PxK has either -s or goes to Px with -he-
+**LEXICON sh_PxK**
+
+LEXICON st_PxK has either -s or goes to Px with -te- rakuaus, rakhauteni
+**LEXICON st_PxK**
+
 LEXICON t_PxK has either -t or goes to Px
 **LEXICON t_PxK**
 

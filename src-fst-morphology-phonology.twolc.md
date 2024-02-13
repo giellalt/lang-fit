@@ -24,6 +24,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i8:i       = past tense of verbs that drops in past antaa : anto
 * p2:p t2:t k2:k     = always p t k.
 * **t3:t** = t participating in gradation, but not in t:s
+* **k4:k** = k to j in certain words
 * t4:t        goes to 0 in imartelee : imarella
 * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
 * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
@@ -52,7 +53,7 @@ Here we group the symbols in convenient sets.
 * ArchiCns       = %^N ;                                               
 * LNRM           = l n r m ;                                           
 * SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       
-* Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ’ ;                 testing with ’ 2019 for saa’a.
+* Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 k4 ’ ;                 testing with ’ 2019 for saa’a.
 * Segment        = Vowel Cns ;                                         
 * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
 
@@ -103,6 +104,8 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *vai0e0>ta*
 
 **RULE: k:j**
+
+**RULE: k4:j**
 
 **Tests:**
 
