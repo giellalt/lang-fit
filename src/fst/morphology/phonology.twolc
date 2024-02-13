@@ -27,6 +27,7 @@ i5:i      !!= * @CODE@ = superlative i of adjectives
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
+k4:k      !!≈ * **@CODE@** = k to j in certain words
 !m4:m      !!= * @CODE@ = mh to hm after short vowel
 !h4:h      !!= * @CODE@ = mh to hm after short vowel
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
@@ -60,7 +61,7 @@ Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;         !!= * @CODE
 ArchiCns       = %^N ;                                               !!= * @CODE@
 LNRM           = l n r m ;                                           !!= * @CODE@
 SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       !!= * @CODE@
-Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 ’ ;                !!= * @CODE@ testing with ’ 2019 for saa’a.
+Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 k4 ’ ;                !!= * @CODE@ testing with ’ 2019 for saa’a.
 Segment        = Vowel Cns ;                                         !!= * @CODE@
 NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
 
@@ -144,9 +145,13 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 "k:j"
 !! **RULE: @RULENAME@**
 k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
-        Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin,
+        Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin
         ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
+
+"k4:j"
+!! **RULE: @RULENAME@**
+k4:j <=> Vow _ Vow: %^WG: ;   ! reijän
 
 !! **Tests:**
 
@@ -175,6 +180,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
         :Vow (%^WG:) (%>) i2: (%>) l _ [%^A:|e] ; !ämmäkölle>ämmäköile, 
 !       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; ! hopeale
+ [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:l ; !uskaltaa >uskalan 
 
 
 !! ### m rules
@@ -188,6 +194,7 @@ m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
         _ %> n s ; !Poss-suffix ahvensa etc
+       [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:n ; !parantaa+V+Pass+Ind+Prs parannethaan ska bli paranethaan
 
 
 
@@ -225,6 +232,7 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 !! **RULE: @RULENAME@**
 "r:0"
 r:0 <=> Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
+ [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r ; !ymmärtää>ymmärän
 
 
 
@@ -290,7 +298,7 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t:l"  
 !! **RULE: @RULENAME@** for lt:ll
-t:l <=> Vow:+ l (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
+t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 !! **Tests:**
 
@@ -299,7 +307,7 @@ t:l <=> Vow:+ l (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kulla
 
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
-t:n <=> (Cns:*) Vow:+  n (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! kanta : kannan
+t:n <=> (Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! kanta : kannan
 
 !! **Tests:**
 
@@ -308,7 +316,7 @@ t:n <=> (Cns:*) Vow:+  n (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|
 
 "t:r" 
 !! **RULE: @RULENAME@** for rt:rr 
-t:r <=>  Vow:+ r _ :Vow WeakGrade [s|%> [\i2:i|i3:i]|.#.] ; ! kerta : kerran
+t:r <=>  Vow:+ r: _ :Vow WeakGrade [s|%> [\i2:i|i3:i]|.#.] ; ! kerta : kerran
 
 !! **Tests:**
 
