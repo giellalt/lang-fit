@@ -15528,5 +15528,9 @@ ilmestys:ilmesty 3n_ks ;
 asiakas:asiakka nas ;
 pruuvi:pruuvi n1_troppi ;
 vapaehtonen:vapa#ehto 3nen ;
+molemin% puolin:molemin% puolin n_nomorph ;
+päälisin% puolin:päälisin% puolin n_nomorph ;
+kaikin% puolin:kaikin% puolin n_nomorph ; 
+
 
 !! - ... and over 15 000 other noun stems.

@@ -1048,6 +1048,17 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 
 +V+Der+Der/minen+N:t%>^Ami xnen ;
 
+LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki  !CHECK EK!
++V+Inf:%^WG%>t^A KK ;
++V+Act+Ind+Prs+Sg1:%>^An K ;
++V+Act+Ind+Prs+Sg2:%>^At K ;
++V+Act+Ind+Prs+Sg3:%>^A K ;
++V+Act+Ind+Prs+Pl1:%>^Amme K ;
++V+Act+Ind+Prs+Pl2:%>^Atte K ;
++V+Act+Ind+Prs+Pl3:%>^Av^A K ;
++V+Act+Ind+Prs+ConNeg:%>^A K ;
+
+
 
 LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 +V+Inf:^WG%>t^A KK ;
