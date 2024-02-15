@@ -46,7 +46,7 @@ Consonant stems
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 * n_ien = ien
-* n1_troppi = -i-nouns UTAN -e- i plural; troppi, kursi (>kursile) etc !CHECK needed? 
+* n1_troppi = -i-nouns UTAN -e- i plural; troppi:troppi kursi:kursi (>kursile) etc
 * n1_troppi_odd = -i-nouns UTAN -e- i plural; kontrolli (>kontrollille) etc
 
 # The lexica themselves

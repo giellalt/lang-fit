@@ -38,7 +38,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * a4 ;
 
 **LEXICON anen**   has no comparative or superlative , just points to xnen
-* +A: xnen ;
+* +A: xnen ; #TODO: komparera!
 
 **LEXICON aas**  has no comparative or superlative , just points to xnas
 * +A: xnas ;
