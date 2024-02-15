@@ -671,6 +671,7 @@ laiskuttelija:laiskuttelija n3 ;
 palvelija:palvelija n3 ;
 marjailija:marjailija n3 ;
 kirjailija:kirjailija n3 ;
+kirjailia+Err/Orth:kirjailia n3 ;
 matkailija:matkailija n3 ;
 taiteilija:taiteilija n3 ;
 runoilija:runoilija n3 ;
@@ -11192,7 +11193,8 @@ kesäasunto:kesäasunto n3 ;
 lausunto:lausunto n3 ;
 tunto:tunto n1 ;
 omatunto:omatunto n1 ;
-ittetunto:ittetunto n1 ;
+ittetunto:itte#Stunto n1 ;
+ittentunto+Err/Orth:itten#tunto n1 ;
 koto:koto n1 ;
 juotos:juoto 3n_ks ;
 luoto:luoto n1 ;
@@ -15534,6 +15536,7 @@ molemin% puolin:molemin% puolin n_nomorph ;
 päälisin% puolin:päälisin% puolin n_nomorph ;
 kaikin% puolin:kaikin% puolin n_nomorph ; 
 lyykeri:lyykeri n1_troppi ;
+ofseeri:ofseeri n1_troppi ;
 
 
 !! - ... and over 15 000 other noun stems.

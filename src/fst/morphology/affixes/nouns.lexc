@@ -1326,7 +1326,9 @@ LEXICON Px
 
 LEXICON Px-Vn
 !! **LEXICON @LEXNAME@**
- +PxSg3:%>%^Vn K ;
+ +PxSg3:%>%^Vn K ; ! 
+ +PxSg3:^HMETA%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
+ +PxSg3:^HMET2%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
  +PxPl3:%>%^Vn K ;
 
 !! HÖGST temporärt!!! GE + LL 230208
