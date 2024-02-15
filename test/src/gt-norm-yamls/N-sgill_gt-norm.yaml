@@ -22,11 +22,11 @@ Tests:
     ikämies+N+Sg+Ill: ikämiehheen
     irtimies+N+Sg+Ill: irtimiehheen
     iskemämies+N+Sg+Ill: iskemämiehheen
-    elläin+N+Sg+Ill: elläimheen
-    irtain+N+Sg+Ill: irtaimheen
-    istuin+N+Sg+Ill: istuimheen
-    jäänhalkein+N+Sg+Ill: jäänhalkeimheen
-    jäsenyin+N+Sg+Ill: jäsenykimheen # vad betyder ordet?
+    elläin+N+Sg+Ill: [elläimheen, elläihmeen]
+    irtain+N+Sg+Ill: [irtaimheen, irtaihmeen]
+    istuin+N+Sg+Ill: [istuimheen, istuihmeen]
+    jäänhalkein+N+Sg+Ill: [jäänhalkeimheen, jäänhalkeihmeen]
+    jäsenyin+N+Sg+Ill: [jäsenykimheen, jäsenykihmeen] # vad betyder ordet?
     äänestys+N+Sg+Ill: äänestyksheen
     äärettömyys+N+Sg+Ill: äärettömyytheen
 #    äes+N+Sg+Ill: äkeksheen # VetEj

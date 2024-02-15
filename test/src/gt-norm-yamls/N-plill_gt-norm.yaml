@@ -23,12 +23,12 @@ Tests:
     ikämies+N+Pl+Ill: ikämiehhiin
     irtimies+N+Pl+Ill: irtimiehhiin
     iskemämies+N+Pl+Ill: iskemämiehhiin
-    elläin+N+Pl+Ill: elläimhiin
-    irtain+N+Pl+Ill: irtaimhiin
-    istuin+N+Pl+Ill: istuimhiin
-    jäänhalkein+N+Pl+Ill: jäänhalkeimhiin
-    jäsenyin+N+Pl+Ill: jäsenykimhiin
-    polkimet+N+Pl+Ill: polkimhiin
+    elläin+N+Pl+Ill: [elläimhiin, elläihmiin]
+    irtain+N+Pl+Ill: [irtaimhiin, irtaihmiin]
+    istuin+N+Pl+Ill: [istuimhiin, istuihmiin]
+    jäänhalkein+N+Pl+Ill: [jäänhalkeimhiin, jäänhalkeihmiin]
+    jäsenyin+N+Pl+Ill: [jäsenykimhiin, jäsenykihmiin]
+    polkimet+N+Pl+Ill: [polkimhiin, polkihmiin]
     ahmajäsen+N+Pl+Ill: [ahmajäsenhiin, ahmajäsehniin]
     ahven+N+Pl+Ill: [ahvenhiin, ahvehniin]
     askel+N+Pl+Ill: [askelhiin, askehliin]
