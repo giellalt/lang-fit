@@ -43,6 +43,7 @@ The file is `test/data/freecorpus.txt`.
 Coverage:
 
 - 240208: 1-(27682/206184) = 0.8657
+- 240215: 1-(26860/206128) = 0.8697
 
 
 ### Lexical coverage of free + bound
