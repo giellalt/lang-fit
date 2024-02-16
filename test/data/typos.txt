@@ -32,4 +32,10 @@
 # they may indicate sentence boundaries.
 #
 #
-åvtohke	åvtehke
+oikeen	oikheen
+imformasjuunin	informasjuunin
+imformasjuuni	informasjuuni
+informašuunia	informasjuunia
+informašuuni	informasjuuni
+infrastruktuuria	infrastryktyyriä
+struktuuria	stryktyyriä
