@@ -124,7 +124,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
          VowelNotUY   _ Vow:        WeakGrade ; ! maun 
 	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
           Vow [k|k2:] _ e: (%^WG:)  h     %> e       ; ! kkh > kh ääkkä : ääkhään
-          Vow (Cns) [k|k2:] _ Vow: [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään, kirkko:kirkhoon
+          Vow (Cns) [k|k2:] _ Vow: (%^IDEL:) (%>) (Vow:) [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään, kirkko:kirkhoon
           Vow   [l|r] _ VowelNotEI  WeakGrade ;
               Vow h k _ Vow         WeakGrade ;
            Vow  h _ Vow         WeakGrade ; !vehke>vehettä
@@ -413,7 +413,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 ![.#.|#] (Cns) Vow Vow _ [l|m|n|r|v|%^N:] Vow: %^HMET2: %> h: ; ! puohleen, sauhnaan
                 ![.#.|#] (Cns) Vow VowelNotI _ j Vow: %^HMET2: %> h: ; ! luohjaan
         !Rules for methatesis type two, position 3 in Kuoppa (efter syll utan huvudbetoning & Vow Vow)
-                Vow (%^WG:) (%>) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:)  [%^HMET2:| %^WG:] (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
+                Vow (%^WG:) (%>) [Vow|i2:] (%>) _ [l|m|n|r|v|%^N:] (Vow:)  [%^HMET2:| %^WG:] (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
                 Vow (%>) VowelNotI _ j Vow: %^HMET2: (%>) h: ; ! aluohjaan
         !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
                 Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
@@ -540,7 +540,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         ![.#.|#] (Cns) Vow Vow :h [l|m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! puohleen, sauhnaan
         ![.#.|#] (Cns) Vow VowelNotI :h j Vow: %^HMET2: %> _ ; ! luohjaan
 !Rules for metathesis type two, position 3 (efter ej huvudbetonad syll m Vow Vow)
-        Vow (%^WG:) (%>)  Vow  (%>) :h [l|m|n|r|v|%^N:] (Vow:) [%^HMET2:|%^WG:] %> _ ; !aikoihnaan, sairaahlaan (efter syll utan huvudbetoning & Vow Vow)
+        Vow (%^WG:) (%>)  [Vow|i2:]  (%>) :h [l|m|n|r|v|%^N:] (Vow:) [%^HMET2:|%^WG:] %> _ ; !aikoihnaan, sairaahlaan (efter syll utan huvudbetoning & Vow Vow)
         Vow (%>) VowelNotI   :h j Vow: %^HMET2: %> _ ; !aluohjaan (efter syll utan huvudbetoning & Vow Vow)
 !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
         Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) :h [l|m|n|r|v|%^N:] _ Vow Vow ; !mostly verbs; neuvotele>hmaan, tulehmaan, olehmaan
@@ -754,7 +754,7 @@ i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathe
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
       [#|.#.] (Cns) Vow _ %> i3: ; ! uija>uin
-                  Cns: _ (%^WG:) %^IDEL: %> i2: ; ! tukki : tukkitten
+                  Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten !TEST FEB
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !! **Tests:**

@@ -2,7 +2,6 @@
 
 !! This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/nouns.lexc)
 
-
 !! ## This is an overview of the continuation lexicon types.
 
 !! Special stems
@@ -13,22 +12,24 @@
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
-!! * n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-!! * n2_vehke = vehe:vehke like n2 but including variant form without -h: vehkheen AND vehkeen; 
-!! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc, like n2 except Sg+Nom
-!! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
+!! * n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
+!! * n1_troppi_odd = odd-syll -i-ending nouns without plural-e; kontrolli (>kontrollille) etc
+!! * n2 = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
+!! * n2_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+!! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+!! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
 !! ### Consonant stems
 
 !! * n4 = i:e nouns: suomi, kivi (2syll)
 !! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 !! * n5_lumi = lumi : lumen : lunta (2syll)
-!! * n5_loimi = som n5_lumi PLUS partitiv loimea
-!! * n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
-!! * n5_kasi = käsi : käden : kättä (2syll)
-!! * n5_lapsi = lapsi : lapsen : lasta
-!! * n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile OBS stem without -i!
-!! * n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
+!! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
+!! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
+!! * n5_kasi = käsi:ka > käden > kättä (2syll)
+!! * n5_lapsi = lapsi:la > lapsen > lasta
+!! * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
+!! * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
 
 !! * n_uus = vajavuus
 !! * n_uus_odd = miehuus (miehuuele men miehuksille?)
@@ -46,8 +47,8 @@
 !! * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 !! * 3mies = mies
 !! * n_ien = ien
-!! * n1_troppi = -i-nouns UTAN -e- i plural; troppi, kursi (>kursile) etc !CHECK needed? 
-!! * n1_troppi_odd = -i-nouns UTAN -e- i plural; kontrolli (>kontrollille) etc
+
+!! # The lexica themselves
 
 !! ### Lexica for unassigned words
 LEXICON nx
@@ -573,21 +574,21 @@ LEXICON n5_lapsi
 
 LEXICON n5_ie
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
- +N:i x1_sg ;
+ +N: x1_sg ;
  +N: x5_i_pl ;
- +N+Sg+Nom:i   PxK ; 
- +N+Nom:i R ;
- +N+Sg+Gen:i^WG%>n R ;
- +N+Pl+Par:i%>^A PxK ; !malmia, äitiä 
+ +N+Sg+Nom:   PxK ; 
+ +N+Nom: R ;
+ +N+Sg+Gen:^WG%>n R ;
+ +N+Pl+Par:%>^A PxK ; !malmia, äitiä 
 
 LEXICON n5_takki
 !! **LEXICON @LEXNAME@** same as n5_ie except Pl+Part: takki>takkeja 
- +N:i x1_sg ;
+ +N: x1_sg ;
  +N: x5_i_pl ;
- +N+Sg+Nom:i   PxK ; 
- +N+Nom:i R ;
- +N+Sg+Gen:i^WG%>n R ;
- +N+Pl+Par:ej%>^A PxK ; !takkeja
+ +N+Sg+Nom:   PxK ; 
+ +N+Nom: R ;
+ +N+Sg+Gen:^WG%>n R ;
+ +N+Pl+Par:^IDEL%>ej%>^A PxK ; !takkeja
 
 LEXICON n5_i_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
@@ -595,20 +596,20 @@ LEXICON n5_i_pl
 
 LEXICON x5_i_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
-+Pl+Nom:i^WG%> t_PxK ;
-+Pl+Par:e%>j^A PxK ;
-+Pl+Gen:i%>e n_PxK ;
-+Pl+Gen:i^WG%>tte n_PxK ;
-+Pl+Ill:e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
-+Pl+Ill:e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
-+Pl+Ine:e^WG%>iss^A PxK ;
-+Pl+Ela:e^WG%>ist^A PxK ;
-+Pl+All:e^WG%>ile PxxK ;
-+Pl+Ade:e^WG%>il^A PxK ;
-+Pl+Abl:e^WG%>ilt^A PxK ;
-+Pl+Tra:e^WG%>i TRA ; 
-+Pl+Ess:e%>in^A PxK ; !malmina, äitinä
-+Pl+Abe:e^WG%>itt^A PxK ;
++Pl+Nom:^WG%> t_PxK ;
++Pl+Par:^IDEL%>e%>j^A PxK ;
++Pl+Gen:%>e n_PxK ;
++Pl+Gen:^WG%>tte n_PxK ;
++Pl+Ill:^IDEL%>e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
++Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
++Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
++Pl+Ela:^IDEL%>e^WG%>ist^A PxK ;
++Pl+All:^IDEL%>e^WG%>ile PxxK ;
++Pl+Ade:^IDEL%>e^WG%>il^A PxK ;
++Pl+Abl:^IDEL%>e^WG%>ilt^A PxK ;
++Pl+Tra:^IDEL%>e^WG%>i TRA ; 
++Pl+Ess:^IDEL%>e%>in^A PxK ; !malmina, äitinä
++Pl+Abe:^IDEL%>e^WG%>itt^A PxK ;
 
 
 LEXICON n5_ie_odd
