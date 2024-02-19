@@ -1133,22 +1133,24 @@ Special stems
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-* n2_vehke = vehe:vehke like n2 but including variant form without -h: vehkheen AND vehkeen; 
-* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc, like n2 except Sg+Nom
-* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
+* n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
+* n1_troppi_odd = odd-syll -i-ending nouns without plural-e; kontrolli (>kontrollille) etc
+* n2 = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
+* n2_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
 ### Consonant stems
 
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
-* n5_loimi = som n5_lumi PLUS partitiv loimea
-* n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
-* n5_kasi = käsi : käden : kättä (2syll)
-* n5_lapsi = lapsi : lapsen : lasta
-* n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile OBS stem without -i!
-* n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille (men alttareile)
+* n5_loimi = like n5_lumi PLUS Sg+Par loimea
+* n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
+* n5_kasi = käsi:ka > käden > kättä (2syll)
+* n5_lapsi = lapsi:la > lapsen > lasta
+* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
+* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
 
 * n_uus = vajavuus
 * n_uus_odd = miehuus (miehuuele men miehuksille?)
@@ -1166,8 +1168,8 @@ Special stems
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 * n_ien = ien
-* n1_troppi = -i-nouns UTAN -e- i plural; troppi, kursi (>kursile) etc !CHECK needed? 
-* n1_troppi_odd = -i-nouns UTAN -e- i plural; kontrolli (>kontrollille) etc
+
+# The lexica themselves
 
 ### Lexica for unassigned words
 **LEXICON nx** pointing to *n1*.
@@ -2956,28 +2958,30 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 This is an overview of the continuation lexicon types.
 
 Special stems
-* n_nomorph = uninflected nouns: Covid-19
+* n_nomorph = uninflected nouns and phrases: covid-19, molemin puolin
 * nc = for consonant-final nouns, structure CVC (romani chib)
 * 3nc = for triple-consonant-final (jiddisch)
 
 Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns; liike, säe, including odd-syll e-nouns karpalheila (not -lla after two vow)
-* n2_vehke = vehe:vehke like n2 but including variant form without -h: vehkheen AND vehkeen
-* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc, like n2 except Sg+Nom
-* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (ulvonnalle>ulvonnoile? MEN käräjälle>käräjille)
+* n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
+* n1_troppi_odd = odd-syll -i-ending nouns without plural-e; kontrolli (>kontrollille) etc
+* n2 = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
+* n2_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
 Consonant stems
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
-* n5_loimi = som n5_lumi PLUS partitiv loimea
-* n5_vuosi = som n5_kasi PLUS former utan -o-: Sg+Gen vuen/vuoen etc
-* n5_kasi = käsi : käden : kättä (2syll)
-* n5_lapsi = lapsi : lapsen : lasta
-* n5_ie = 2syll nouns ending with i and -e- only in plural: tunti, äiti>äitile
-* n5_ie_odd = odd-syll nouns ending with i and -e- only in plural: alttari>alttarille
+* n5_loimi = like n5_lumi PLUS Sg+Par loimea
+* n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
+* n5_kasi = käsi:ka > käden > kättä (2syll)
+* n5_lapsi = lapsi:la > lapsen > lasta
+*i n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
+* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
 
 * n_uus = vajavuus
 * n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
@@ -2995,14 +2999,11 @@ Consonant stems
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
 * n_ien = ien
-* n1_troppi = -i-nouns UTAN -e- i plural; troppi:troppi kursi:kursi (>kursile) etc
-* n1_troppi_odd = -i-nouns UTAN -e- i plural; kontrolli (>kontrollille) etc
 
 # The lexica themselves
 
 The lemma list
 * **LEXICON NounRoot**
-
 * hinta n1 ;
 * rypriikki:rypriikki n3 ;
 * asfaltti:asfaltti n3 ;
