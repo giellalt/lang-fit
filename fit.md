@@ -1287,13 +1287,13 @@ Special stems
 
 **LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
 
+**LEXICON n5_ie_odd**
+
 **LEXICON n5_takki** same as n5_ie except Pl+Part: takki>takkeja 
 
 **LEXICON n5_i_pl** cont lexica for type n1-words ending with -i
 
 **LEXICON x5_i_pl** cont lexica for type n1-words ending with -i
-
-**LEXICON n5_ie_odd**
 
 #### The nainen (nen) and hevonen (3nen) family
 
@@ -2980,7 +2980,7 @@ Consonant stems
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi:ka > käden > kättä (2syll)
 * n5_lapsi = lapsi:la > lapsen > lasta
-*i n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
+* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
 * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
 
 * n_uus = vajavuus
