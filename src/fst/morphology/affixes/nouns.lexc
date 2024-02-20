@@ -4,7 +4,7 @@
 
 !! ## This is an overview of the continuation lexicon types.
 
-!! Special stems
+!! ### Special stems
 !! * n_nomorph = uninflected nouns: covid-19
 !! * nc = for consonant-final nouns, structure CVC (romani chib)
 !! * 3nc = for triple-consonant-final (jiddisch)
@@ -19,27 +19,30 @@
 !! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
-!! ### Consonant stems
-
+!! ### Consonant stems for -i-words
 !! * n4 = i:e nouns: suomi, kivi (2syll)
 !! * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 !! * n5_lumi = lumi : lumen : lunta (2syll)
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kasi = käsi:ka > käden > kättä (2syll)
+!! * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
 !! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
-!! * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
+!! * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (NB: alttareile)
 
-!! * n_uus = vajavuus
-!! * n_uus_odd = miehuus (miehuuele men miehuksille?)
-!! * nc = cvc
-!! * 3nc = cvcvc, jiddish
-!! * nen = nainen paradigm
-!! * 3nen = hevonen paradigm
+
+!! ### Consonant stems of other types
+!! * n_uus = vajavuus:vajavuu > vajavuuele
+!! * n_uus_odd = miehuus:miehuu (NB: miehuuele BUT miehuksille)
+!! * nc = cvc (t ex romani chib)
+!! * 3nc = cvcvc (t ex jiddish)
+!! * nen = nainen:nai >naisele
+!! * 3nen = hevonen:hevo >hevoselle
 !! * 3n_ks = keskus - keskuksen
-!! * 4n_ks = even variants of 3n_ks; morahus - morahuksele
+!! * 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
 !! * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
+
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
@@ -731,6 +734,8 @@ LEXICON xnen_common_pl
  +Pl+Ela:s%>i2st^A PxK ;
  +Pl+Abl:s%>i2lt^A PxK ;
  +Pl+Abe:s%>i2tt^A PxK ;
+ +Pl+Tra:si TRA ;
+
 
 LEXICON 3cases
 !! **LEXICON @LEXNAME@**
@@ -1088,7 +1093,7 @@ LEXICON n_uus  !vajavuus
  +N+Sg+Abl:%>elt^A PxK ;
  +N+Sg+Abe:%>ett^A PxK ;
  +N+Sg+Ess:t%>en^A PxK ;
- +N+Sg+Tra: TRA ;
+ +N+Sg+Tra:e TRA ;
 
  +N+Pl+Nom:%>e t_PxK ;
  +N+Pl+Gen:ks%>i2e n_PxK ;
@@ -1100,10 +1105,10 @@ LEXICON n_uus  !vajavuus
  +N+Pl+Ade:ks%>i2l^A PxK ;
  +N+Pl+Abl:ks%>i2lt^A PxK ;
  +N+Pl+Abe:ks%>i2tt^A PxK ;
- +N+Pl+Tra:ks TRA ;
+ +N+Pl+Tra:ksi TRA ;
  +N+Pl+Ess:ks%>i2n^A PxK ;
 
-LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuelle pga lång vokal men) suuruuksille 
+LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuele pga lång vokal men) suuruuksille 
 !! **LEXICON @LEXNAME@**
  +N+Sg+Nom:s     R ;
  +N+Sg+Gen:e%>n R ;
@@ -1113,12 +1118,12 @@ LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuelle pga lång vokal
  +N+Sg+Ill:t^HMETA%>hee n_PxK ;
  +N+Sg+Ine:%>ess^A PxK ;
  +N+Sg+Ela:%>est^A PxK ;
- +N+Sg+All:%>elle PxxK ;
- +N+Sg+Ade:%>ell^A PxK ;
+ +N+Sg+All:%>ele PxxK ;
+ +N+Sg+Ade:%>el^A PxK ;
  +N+Sg+Abl:%>elt^A PxK ;
  +N+Sg+Abe:%>ett^A PxK ;
  +N+Sg+Ess:t%>en^A PxK ;
- +N+Sg+Tra: TRA ;
+ +N+Sg+Tra:e TRA ;
 
  +N+Pl+Nom:%>e t_PxK ;
  +N+Pl+Gen:ks%>i2e n_PxK ;
@@ -1130,7 +1135,7 @@ LEXICON n_uus_odd ! for odd syllabel-stems: suuruue->(suuruuelle pga lång vokal
  +N+Pl+Ade:ks%>i2ll^A PxK ;
  +N+Pl+Abl:ks%>i2lt^A PxK ;
  +N+Pl+Abe:ks%>i2tt^A PxK ;
- +N+Pl+Tra: TRA ;
+ +N+Pl+Tra:ksi TRA ;
  +N+Pl+Ess:ks%>i2n^A PxK ;
 
  
