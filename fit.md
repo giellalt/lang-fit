@@ -1067,10 +1067,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A: xnen ; #TODO: komparera!
 
 **LEXICON aas**  has no comparative or superlative , just points to xnas
-* +A: xnas ;
-
-**LEXICON aas_h**  has no comparative or superlative , just points to xnas
-* +A: xnas ;
 
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
 * +A: x5_sg ;
@@ -1282,6 +1278,8 @@ Special stems
 **LEXICON x5_kasi**  veri
 
 **LEXICON x5_kasi_pl**
+
+**LEXICON n5_viis** käsi, stem kä
 
 **LEXICON n5_lapsi**
 

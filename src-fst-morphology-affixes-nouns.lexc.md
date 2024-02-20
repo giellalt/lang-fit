@@ -162,6 +162,8 @@ Special stems
 
 **LEXICON x5_kasi_pl**
 
+**LEXICON n5_viis** käsi, stem kä
+
 **LEXICON n5_lapsi**
 
 **LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
