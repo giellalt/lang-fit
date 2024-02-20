@@ -1121,7 +1121,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ## This is an overview of the continuation lexicon types.
 
-Special stems
+### Special stems
 * n_nomorph = uninflected nouns: covid-19
 * nc = for consonant-final nouns, structure CVC (romani chib)
 * 3nc = for triple-consonant-final (jiddisch)
@@ -1136,27 +1136,29 @@ Special stems
 * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
-### Consonant stems
-
+### Consonant stems for -i-words
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi:ka > käden > kättä (2syll)
+* n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
-* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
+* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (NB: alttareile)
 
-* n_uus = vajavuus
-* n_uus_odd = miehuus (miehuuele men miehuksille?)
-* nc = cvc
-* 3nc = cvcvc, jiddish
-* nen = nainen paradigm
-* 3nen = hevonen paradigm
+### Consonant stems of other types
+* n_uus = vajavuus:vajavuu > vajavuuele
+* n_uus_odd = miehuus:miehuu (NB: miehuuele BUT miehuksille)
+* nc = cvc (t ex romani chib)
+* 3nc = cvcvc (t ex jiddish)
+* nen = nainen:nai >naisele
+* 3nen = hevonen:hevo >hevoselle
 * 3n_ks = keskus - keskuksen
-* 4n_ks = even variants of 3n_ks; morahus - morahuksele
+* 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
 * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
+
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
@@ -2955,12 +2957,12 @@ This file documents [the file for Meänkieli nouns](https://github.com/giellalt/
 
 This is an overview of the continuation lexicon types.
 
-Special stems
+### Special stems
 * n_nomorph = uninflected nouns and phrases: covid-19, molemin puolin
 * nc = for consonant-final nouns, structure CVC (romani chib)
 * 3nc = for triple-consonant-final (jiddisch)
 
-Vowel stems
+### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
@@ -2970,25 +2972,28 @@ Vowel stems
 * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
-Consonant stems
+### Consonant stems for -i-words
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi:ka > käden > kättä (2syll)
+* n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
 * n5_lapsi = lapsi:la > lapsen > lasta
-* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
-* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (men alttareile)
+* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: äiti:äiti>äitile
+* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari:alttari>alttarille (NB: alttareile)
 
-* n_uus = vajavuus
-* n_uus_odd = miehuus (CHECK miehuuele men miehuksille?)
-* nc = cvc
-* 3nc = cvcvc, jiddish
-* nen = nainen paradigm
-* 3nen = hevonen paradigm
-* 3n_ks = keskus - keskuksen
-* 4n_ks = even variants of 3n_ks; morahus - morahuksele
+### Consonant stems of other types
+* n_uus = vajavuus:vajavuu > vajavuuele
+* n_uus_odd = miehuus:miehuu (NB: miehuuele BUT miehuksille)
+* nc = cvc (t ex romani chib)
+* 3nc = cvcvc (t ex jiddish)
+* nen = nainen:nai >naisele
+* 3nen = hevonen:hevo >hevoselle
+* 3n_ks = keskus:kesku > keskuksen, keskukselle
+* 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
+
 * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
