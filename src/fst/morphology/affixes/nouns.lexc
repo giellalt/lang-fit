@@ -576,10 +576,34 @@ LEXICON n5_ie
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
  +N: x1_sg ;
  +N: x5_i_pl ;
- +N+Sg+Nom:   PxK ; 
+ +N+Sg+Nom: PxK ; 
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
  +N+Pl+Par:%>^A PxK ; !malmia, äitiä 
+
+LEXICON n5_ie_odd
+!! **LEXICON @LEXNAME@**
++N: x1_sg ;
++N+Sg+Nom: PxK ; 
++N+Nom: R ;
++N+Sg+Gen:^WG%>n R ;
++N+Sg+Gen:^WG%> n_PxK ;
+
++N+Pl+Par:%>^A PxK ; !malmia, äitiä, kultuuria
++N+Pl+Par:^IDEL%>e%>j^A PxK ; !äitejä, 
++N+Pl+Nom:^WG%> t_PxK ;
++N+Pl+Gen:%>e n_PxK ;
++N+Pl+Gen:^WG%>tte n_PxK ;
++N+Pl+Ill:^IDEL%>e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
++N+Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
++N+Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
++N+Pl+Ela:^IDEL%>e^WG%>ist^A PxK ;
++N+Pl+All:^IDEL%>e^WG%>ille PxxK ;
++N+Pl+Ade:^IDEL%>e^WG%>ill^A PxK ;
++N+Pl+Abl:^IDEL%>e^WG%>ilt^A PxK ;
++N+Pl+Tra:^IDEL%>e^WG%>i TRA ; 
++N+Pl+Ess:^IDEL%>e%>inn^A PxK ; !malmina, äitinä
++N+Pl+Abe:^IDEL%>e^WG%>itt^A PxK ;
 
 LEXICON n5_takki
 !! **LEXICON @LEXNAME@** same as n5_ie except Pl+Part: takki>takkeja 
@@ -588,7 +612,6 @@ LEXICON n5_takki
  +N+Sg+Nom:   PxK ; 
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
- +N+Pl+Par:^IDEL%>ej%>^A PxK ; !takkeja
 
 LEXICON n5_i_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
@@ -610,40 +633,6 @@ LEXICON x5_i_pl
 +Pl+Tra:^IDEL%>e^WG%>i TRA ; 
 +Pl+Ess:^IDEL%>e%>in^A PxK ; !malmina, äitinä
 +Pl+Abe:^IDEL%>e^WG%>itt^A PxK ;
-
-
-LEXICON n5_ie_odd
-!! **LEXICON @LEXNAME@**
-+N+Sg+Nom:^E2I R ;
-+N+Sg+Nom:^E2I PxK ;
-+N+Sg+Gen:^E2I%> n_PxK ; !
-+N+Sg+Gen:^E2I%>n     R ; ! 
-+N+Sg+Par:^E2I%>^A      PxK ; ! alttaria
-+N+Sg+Ill:^HMETA%>hii n_PxK ;
-+N+Sg+Ill:^HMET2%>hii n_PxK ;
-+N+Sg+Ine:^E2I%>ss^A PxK ;
-+N+Sg+Ela:^E2I%>st^A PxK ;
-+N+Sg+All:^E2I%>lle PxxK ;
-+N+Sg+Ade:^E2I%>ll^A PxK ;
-+N+Sg+Abl:^E2I%>lt^A PxK ;
-+N+Sg+Ess:^E2I%>nn^A PxK ;
-+N+Sg+Tra:^E2I TRA ;
-+N+Sg+Abe:^E2I%>tt^A PxK;
-
-+N+Pl+Nom:^E2I%> t_PxK ;
-+N+Pl+Gen:%>itte n_PxK ;
-+N+Pl+Gen:^E2I%>tte n_PxK ;
-+N+Pl+Par:%>it^A PxK ;
-+N+Pl+Ill:^HMETA%>hii n_PxK ;
-+N+Pl+Ill:^HMET2%>hii n_PxK ;
-+N+Pl+Ine:%>iss^A PxK ; !NY ändr neråt
-+N+Pl+Ela:%>ist^A PxK ;
-+N+Pl+All:%>ile PxxK ;
-+N+Pl+Ade:%>il^A PxK ;
-+N+Pl+Abl:%>ilt^A PxK ;
-+N+Pl+Ess:%>in^A PxK ;
-+N+Pl+Tra:%>i TRA ;
-+N+Pl+Abe:%>itt^A PxK;
 
 
 !! #### The nainen (nen) and hevonen (3nen) family
