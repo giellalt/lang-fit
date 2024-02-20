@@ -83,14 +83,9 @@ LEXICON anen
 
 LEXICON aas  
 !! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
-+A: xnas ; !!≈ * @CODE@
-
-LEXICON aas_h  
-!! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
-+A: xnas ; !!≈ * @CODE@
-+A+Sg+Nom:^WGs R ;
-+A+Sg+Gen:%>^Vn R ;
-+A+Pl+Nom:^HMETA%>h^V^V t_PxK ;
++A: xnas ; 
++A+Sg+Nom:^WGs R ; !needed?
++A+Sg+Gen:%>^Vn R ; !needed?
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4

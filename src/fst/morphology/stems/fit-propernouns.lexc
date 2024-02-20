@@ -17,6 +17,7 @@
 LEXICON ProperNoun !!≈ * @CODE@
 Titaniiki:Titaniik2i p_plc_1 ;
 Trimppa-Rärrä:Trimppa-Rärrä p_mal_1 ;
+Rärrä:Rärrä p_mal_1 ;
 Kapteen% Wilén:Kapteen% Wilén p_mal_1 ;
 Iso-Iisko:Iso-Iisko p_mal_1 ;
 Osku:Osku p_mal_1 ;
@@ -567,6 +568,8 @@ Elvåga:Elvåga p_plc_1 ;
 Naha:Naha p_plc_1 ;
 Saha:Saha p_plc_1 ;
 Sahanen:Saha p_sur_nen ;
+Jarhoinen:Jarhoi p_sur_nen ;
+Ivanovitsi:Ivanovitsi p_sur_1 ;
 Laaha:Laaha p_sur_1 ;
 Kalaha:Kalaha p_plc_1 ;
 Omaha:Omaha p_plc_1 ;

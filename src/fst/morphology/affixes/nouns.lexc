@@ -541,6 +541,15 @@ LEXICON x5_kasi_pl
  +Pl+Tra:^E2I^WG%> TRA ;
  +Pl+Abe:^E2I%>tt^A PxK;
 
+LEXICON n5_viis
+!! **LEXICON @LEXNAME@** käsi, stem kä
+ +N:te x5_kasi ;
+ +N+Sg+Nom:si PxK ; ! viisi
+ +N+Sg+Nom:si PxK ; ! viis
+ +N+Sg+Par:t%>t^A      PxK ; ! kättä
+ +N+Nom:si R ;
+ +N+Nom:s R ;
+ +N+Gen:e%>n R ;
 
 LEXICON n5_lapsi
 !! **LEXICON @LEXNAME@**
@@ -583,11 +592,22 @@ LEXICON n5_ie
 
 LEXICON n5_ie_odd
 !! **LEXICON @LEXNAME@**
-+N: x1_sg ;
-+N+Sg+Nom: PxK ; 
+!+N: x1_sg ;
 +N+Nom: R ;
++N+Sg+Nom: PxK ; 
 +N+Sg+Gen:^WG%>n R ;
-+N+Sg+Gen:^WG%> n_PxK ;
++N+Sg+Gen:^WG%> n_PxK ; 
++N+Sg+Par:%>^A PxK ; 
++N+Sg+Ill:^HMETA%>h^V^V n_PxK ;  
++N+Sg+Ill:^HMET2%>h^V^V n_PxK ;  
++N+Sg+Ine:^WG%>ss^A PxK ;      
++N+Sg+Ela:^WG%>st^A PxK ;      
++N+Sg+All:^WG%>lle PxxK ;      
++N+Sg+Ade:^WG%>ll^A PxK ;      
++N+Sg+Abl:^WG%>lt^A PxK ;      
++N+Sg+Tra:^WG TRA ;          
++N+Sg+Ess:%>nn^A PxK ;       
++N+Sg+Abe:^WG%>tt^A PxK ;    
 
 +N+Pl+Par:%>^A PxK ; !malmia, äitiä, kultuuria
 +N+Pl+Par:^IDEL%>e%>j^A PxK ; !äitejä, 
@@ -598,11 +618,11 @@ LEXICON n5_ie_odd
 +N+Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
 +N+Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
 +N+Pl+Ela:^IDEL%>e^WG%>ist^A PxK ;
-+N+Pl+All:^IDEL%>e^WG%>ille PxxK ;
-+N+Pl+Ade:^IDEL%>e^WG%>ill^A PxK ;
++N+Pl+All:^IDEL%>e^WG%>ile PxxK ;
++N+Pl+Ade:^IDEL%>e^WG%>il^A PxK ;
 +N+Pl+Abl:^IDEL%>e^WG%>ilt^A PxK ;
 +N+Pl+Tra:^IDEL%>e^WG%>i TRA ; 
-+N+Pl+Ess:^IDEL%>e%>inn^A PxK ; !malmina, äitinä
++N+Pl+Ess:^IDEL%>e%>in^A PxK ; !malmina, äitinä
 +N+Pl+Abe:^IDEL%>e^WG%>itt^A PxK ;
 
 LEXICON n5_takki
