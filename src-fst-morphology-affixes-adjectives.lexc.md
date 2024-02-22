@@ -35,8 +35,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
 
-* a4 ;
-
 **LEXICON anen**   has no comparative or superlative , just points to xnen
 * +A: xnen ; #TODO: komparera!
 
@@ -72,7 +70,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 ### Superlative inflection
 
 **LEXICON 3sup**   2syll adj, 3syll superlative
-* +Sg+Ess:%>i5i5mp^Ann^A K ;
+* +Sg+Ess:%>i5mp^Ann^A K ;
 * +Sg+All:%>i5m^Alle K ; etc.
 
 **LEXICON 4sup**  3syll adj, 4syll superlative

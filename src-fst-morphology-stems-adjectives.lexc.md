@@ -14,21 +14,6 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 
 LEXICON AdjectiveRoot
 
-a1
-* tuttu a1 ;
-* selvä a1 ;
-* kuiva a1 ;
-...
-
-a3 
-* komea a3 ;
-* muikea a3 ;
-* privaatti a3 ; xxx a1?
-
-a4
-* pieni:piene a5 ;
-* vanhaa:vanhaa ax ;
-
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
