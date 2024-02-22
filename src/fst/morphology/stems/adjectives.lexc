@@ -16,11 +16,10 @@
 
 LEXICON AdjectiveRoot !!≈ @CODE@
 
-!! a1
-tuttu a1 ;  !!≈ * @CODE@
-selvä a1 ; !!≈ * @CODE@
-kuiva a1 ; !!≈ * @CODE@
-pruuni a1 ; !! ...
+tuttu a1 ;  
+selvä a1 ; 
+kuiva a1 ; 
+pruuni a1 ; 
 kleini a1 ;
 iso a1 ;
 kova a1 ;
@@ -28,16 +27,12 @@ pitkä a1 ;
 fiini a1 ;
 paksu a1 ;
 vanha:vanha a1_e ;
-
-!! a3 
-komea a3 ;  !!≈ * @CODE@
-muikea a3 ;  !!≈ * @CODE@
-privaatti a3 ;  !!≈ * @CODE@ xxx a1?
-
-!! a4
-pieni:piene a5 ;  !!≈ * @CODE@
-moni:mone a5 ;
-vanhaa:vanhaa ax ;  !!≈ * @CODE@
+komea a3 ;  
+muikea a3 ; 
+privaatti a3 ;  
+pieni:pien a5_pieni ;  
+moni:mon a5_pieni ;
+vanhaa:vanhaa ax ;  
 ikivanhaa:ikivanhaa ax ;
 vinhaa:vinhaa ax ;
 vajaa:vajaa ax ;
@@ -408,8 +403,8 @@ parski:parski ax ;
 murski:murski ax ;
 färski:färski ax ;
 sutki:sutki ax ;
-auki:auki ax ;
-ilta-auki:ilta-auki ax ;
+auki:auk a5_auki ;
+ilta-auki:ilta-auk a5_auki ;
 hiuki:hiuki ax ;
 faali:faali ax ;
 ratikaali:ratikaali ax ;
@@ -422,7 +417,7 @@ viriili:viriili ax ;
 vili:vili ax ;
 aktyelli:aktyelli ax ;
 killi:killi ax ;
-villi:villi ax ;
+villi:vill a5_pieni ;
 nooli:nooli ax ;
 snooli:snooli ax ;
 raikuli:raikuli ax ;
@@ -455,7 +450,7 @@ klaari:klaari ax ;
 naari:naari ax ;
 pauhari:pauhari ax ;
 eri:eri ax ;
-nuori:nuore a5 ;
+nuori:nuor a5_pieni ;
 hauri:hauri ax ;
 suuri:suure a_suuri ;
 jättiläissuuri:jättiläissuuri ax ;
@@ -465,8 +460,8 @@ ensi:ensi ax ;
 tosi:tosi ax ;
 perversi:perversi ax ;
 vissi:vissi ax ;
-uusi:uute a4 ;
-täysi:täyte a4 ;
+uusi:uut a5_pieni ;
+täysi:täyt a5_pieni ;
 löysi:löysi ax ;
 flaati:flaat2i ax ;
 vaiti:vaiti ax ;
@@ -509,8 +504,8 @@ hapan:hapan ax ;
 jouten:jouten ax ; ! 3n_lnr ;
 hiitheen:hiitheen ax ;
 kaksinainen:kaksinai anen ;
-viinipunainen:viini#punai anen ;
-turkinpunainen:turkin#punai anen ;
+viinipunanen:viini#puna anen ;
+turkinpunanen:turkin#puna anen ;
 erikoinen:erikoi anen ;
 pienimahanen:pienimaha anen ;
 lihanen:liha anen ;
