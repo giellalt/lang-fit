@@ -70,7 +70,7 @@ LEXICON a4
  +A+Comp: 3comp ; !CHECK!
  +A+Superl: 3sup ; !CHECK! !TODO e-delete in nuorin etc (not nuorein)
 
-LEXICON a5_pieni
+LEXICON a5_moni
 ! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; ! s

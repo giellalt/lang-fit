@@ -724,7 +724,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
-                                                     Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i8:] ;
+                                                     Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !TEST Feb
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**
