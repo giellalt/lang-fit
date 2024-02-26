@@ -174,6 +174,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_takki** same as n5_ie except Pl+Part: takki>takkeja 
 
+**LEXICON n5_nuoret** same as n1_pl except Pl+Gen: nuoret>nuorten 
+
 **LEXICON n5_i_pl** cont lexica for type n1-words ending with -i
 
 **LEXICON x5_i_pl** cont lexica for type n1-words ending with -i
