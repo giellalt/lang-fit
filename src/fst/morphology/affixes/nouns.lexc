@@ -636,6 +636,11 @@ LEXICON n5_takki
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
+LEXICON n5_nuoret !Temp lexica?
+!! **LEXICON @LEXNAME@** same as n1_pl except Pl+Gen: nuoret>nuorten 
+:e n1_pl ;
++N+Pl+Gen:%>te n_PxK ;
+
 LEXICON n5_i_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 +N: x5_i_pl ;

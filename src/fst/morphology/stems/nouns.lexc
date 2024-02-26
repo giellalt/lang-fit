@@ -29,6 +29,7 @@
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kasi = käsi:ka > käden > kättä (2syll)
 !! * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
+!! * n5_nuoret like n1_pl except Pl+Gen: nuoret>nuorten
 !! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: äiti:äiti>äitile
 !! * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari:alttari>alttarille (NB: alttareile)
@@ -573,9 +574,10 @@ juvattaja:juvattaja n3 ;
 fanginkuljettaja:fanginkuljettaja n3 ;
 karhunkuljettaja:karhunkuljettaja n3 ;
 potkettaja:potkettaja n3 ;
-opettaja:opettaja n3 ;
-lastenopettaja:lastenopettaja n3 ;
-pikkukoulunopettaja:pikkukoulunopettaja n3 ;
+opettaja:opettaja n1 ;
+opettaja+Err/Orth:opettaja n3 ; ! CHECK EK opettajalle
+lastenopettaja:lasten#opettaja n1 ;
+pikkukoulunopettaja:pikkukoulun#opettaja n1 ;
 voittaja:voittaja n3 ;
 ottaja:ottaja n3 ;
 lapsenkaottaja:lapsenkaottaja n3 ;
@@ -5665,7 +5667,7 @@ kore:kore n2 ;
 rantapore:rantapore n2 ;
 vesipore:vesipore n2 ;
 tore:tore n2 ;
-nuoret:nuore n1_pl ;
+nuoret:nuor n5_nuoret ;
 kuunvuoret:kuun#vuore n4_pl ;
 vesikierre:vesikierre n2 ;
 karvainkierre:karvainkierre n2 ;
@@ -11821,7 +11823,7 @@ kamhaus:kamhau 3n_ks ;
 leimhaus:leimhau 3n_ks ;
 kinhaus:kinhau 3n_ks ;
 taphaus:taphau 3n_ks ;
-vaphaus:vaphau 3n_ks ;
+vaphaus:vaphau 3n_ue ;
 tiphaus:tiphau 3n_ks ;
 parhaus:parhau 3n_ks ;
 torhaus:torhau 3n_ks ;
@@ -15533,6 +15535,9 @@ päälisin% puolin:päälisin% puolin n_nomorph ;
 kaikin% puolin:kaikin% puolin n_nomorph ; 
 lyykeri:lyykeri n1_troppi ;
 ofseeri:ofseeri n1_troppi ;
+jymnaasie:jymnaasie n1_troppi ; !CHECK EK
+toiminta:toiminta n3 ;
+knali:knali n1_troppi ;
 
 
 !! - ... and over 15 000 other noun stems.

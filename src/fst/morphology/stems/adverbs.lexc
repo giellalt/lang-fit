@@ -838,6 +838,8 @@ melkein advx ;
 viimein advx ;
 lappein advx ;
 ussein advx ;
+usseita advx ;
+usseimiten advx ;
 kalpattein advx ;
 laihin advx ;
 järkhin advx ;
@@ -1142,6 +1144,7 @@ siksensä advx ;
 myöthänsä advx ;
 pääikänsä advx ;
 mielelänsä advx ;
+mielelä advx ;
 mökheilänsä advx ;
 kirrilänsä advx ;
 läämällänsä advx ;
@@ -1272,16 +1275,20 @@ erikoisesti advkk ;
 aktiivisesti advkk ;
 aiemmin adv ;
 poies adv ;
+piikkisain:piikkisai adv ;
+matoittain adv ;
+
 myöhemmin adv ;
 aikasemmin adv ;
-matoittain adv ;
-piikkisain:piikkisai adv ;
 kuukausittain adv ;
-
-joten+Err/Orth:joten adv ; !CHECK finska
+joten+Err/Orth:joten adv ; !NB finska
 näes adv ;
 kohin adv ;
 jonneki adv ;
 alta adv ;
 totta adv ;
 likemäksi adv ;
+etheen adv ;
+etelheen+Err/Orth:etelheen adv ; !NB finskanpassning
+tänäpänä adv ;
+mielelhään adv ;
