@@ -114,7 +114,7 @@ LEXICON NEG !!≈ * **@CODE@** negation verb
 +V+Neg+Act+Prs+Pl2:että NEGK ;
 +V+Neg+Act+Prs+Pl3:ei NEGK ;
 
-+V+Neg+Act+Imprt+Sg2:älä # ;
++V+Neg+Act+Imprt+Sg2:älä NEGK ;
 +V+Neg+Act+Imprt+Pl2:älkää # ;
 
 !! # Regular verbs

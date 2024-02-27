@@ -168,7 +168,7 @@ xcomp ; ! common cases from here
 
 LEXICON xcomp  
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
-+Sg+Nom:%>mpi # ; !!≈ * @CODE@
++Sg+Nom:^WG%>mpi # ; !!≈ * @CODE@
 +Sg+Gen:%>ma%>n K ; !!≈ * @CODE@ etc.
 +Sg+Par:%>mp^A^A K ;
 +Sg+Tra:%>m^Aksi K ;
