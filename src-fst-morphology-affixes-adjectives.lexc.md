@@ -64,7 +64,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +Sg+All:%>m^Ale K ; etc.
 
 **LEXICON xcomp**   common for 2syll and 3syll
-* +Sg+Nom:%>mpi # ;
+* +Sg+Nom:^WG%>mpi # ;
 * +Sg+Gen:%>ma%>n K ; etc.
 
 ### Superlative inflection

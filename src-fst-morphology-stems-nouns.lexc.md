@@ -29,7 +29,7 @@ This is an overview of the continuation lexicon types.
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi:ka > käden > kättä (2syll)
 * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
-* n5_nuoret like n1_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret = like n1_pl except Pl+Gen: nuoret>nuorten
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: äiti:äiti>äitile
 * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari:alttari>alttarille (NB: alttareile)
