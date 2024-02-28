@@ -296,7 +296,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
-+V+Inf+Tra:^WG%>^Akse PxK ;
++V+Inf+Tra:^WGt%>^Akse PxK ;
 +V+InfE+Ins:^WGt%>en K ;
 +V+InfE+Ine:^WGt%>ess^A K ;
 +V+InfMa+Ill:%>^Amh^A^An K ; 
@@ -305,10 +305,10 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+InfMa+Ela:%>^Am^Ast^A K ;
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
-+V+Pass+Cond:tta%>i4s K ;
++V+Pass+Cond:^WGtta%>i4s K ;
 
-+V+Act+PrsPrc+Sg+Nom:^WG%>^Av^A K ;
-+V+Act+PrsPrc+Pl+Nom:^WG%>^Av^At K ;
++V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
++V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
 +V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Av^A K ;
 +V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Av^At K ;
 
@@ -319,9 +319,9 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
-+V+Act+Imprt+Sg:%>kh^O^On # ;
-+V+Act+Imprt+Pl2:%>kh^A^A # ;
-+V+Act+Imprt+Pl3:%>kh^O^Ot # ;
++V+Act+Imprt+Sg:^WG%>kh^O^On # ;
++V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
++V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
 
 +V+Der+Der/minen+N:%>^A^Ami xnen ;
 
@@ -331,7 +331,7 @@ v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
 +V+InfMa+Ade:%>^Am^Al^A K ; ! 
 +V+Act+Cond:%>i4s 2cond ;
-+V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;
++V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 
 
 LEXICON v2_ata_odd !!≈ * **@CODE@** huomata etc

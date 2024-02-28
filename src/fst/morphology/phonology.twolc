@@ -298,7 +298,8 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t:l"  
 !! **RULE: @RULENAME@** for lt:ll
-t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
+t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ; ! CHECK feb
+        !Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 !! **Tests:**
 
@@ -307,7 +308,8 @@ t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kull
 
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
-t:n <=> (Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! kanta : kannan
+t:n <=> (Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade ; ! kanta : kannan
+        !(Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! CHECK feb
 
 !! **Tests:**
 
@@ -316,7 +318,8 @@ t:n <=> (Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]
 
 "t:r" 
 !! **RULE: @RULENAME@** for rt:rr 
-t:r <=>  Vow:+ r: _ :Vow WeakGrade [s|%> [\i2:i|i3:i]|.#.] ; ! kerta : kerran
+t:r <=>  Vow:+ r: _ :Vow WeakGrade ; ! kerta : kerran
+        !Vow:+ r: _ :Vow WeakGrade (%^HMET2 %>) [s|%> [\i2:i|i3:i]|.#.] ; ! CHECK feb
 
 !! **Tests:**
 
