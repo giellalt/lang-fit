@@ -34,7 +34,7 @@ LEXICON a1
 
 
 LEXICON a1_e 
-!! **LEXICON @LEXNAME@** vanha, which has vanheemitten and vanheempi, otherwise like a1
+!! **LEXICON @LEXNAME@** vanha, which has Err/Orth vanhee-, otherwise like a1
 a1 ;
 +A+Pl+Par:^WG^IDEL%>i2t^A PxK ; ! även paksuita
 +A+Comp+Pl+Gen:%^AE%>mpi2en K ;
@@ -101,7 +101,8 @@ LEXICON a_suuri
 +A: x5_pl ; 
 +A+Sg+Nom:^E2I       PxK ; ! suuri
 +A+Pl+Ill:^E2I%>in      PxK ; ! 
-+A+Comp: 4comp ; !CHECK!
++A+Comp: 3comp ; !CHECK!
++A+Sup: 3sup ; !CHECK!
 
 LEXICON a1_ton
 !! **LEXICON @LEXNAME@** 

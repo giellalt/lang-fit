@@ -7127,8 +7127,8 @@ kuvanäästyyki:kuvanäästyyki nx ;
 träki:träki nx ;
 väkinen:väki 3nen ;
 vähäväkinen:vähäväki 3nen ;
-kööki:kööki nx ;
-lööki:lööki nx ;
+kööki:köök2i n1_troppi ;
+lööki:löök2i n1_troppi ;
 slööki:slööki nx ;
 navettaköööki:navetta#köööki nx ;
 orteli:orte#li nx ;
@@ -15540,6 +15540,8 @@ toiminta:toiminta n3 ;
 knali:knali n1_troppi ;
 kuume:kuume n2 ;
 kuttu:kuttu n2 ;
+synagooga:synagooga n1_troppi ; !CHECK EK
+syynakuuka:syynakuuka n1_troppi ; !CHECK EK
 
 
 !! - ... and over 15 000 other noun stems.
