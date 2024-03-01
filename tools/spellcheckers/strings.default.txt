@@ -39,6 +39,8 @@ t:tt	1
 vv:v	9
 v:vv	1
 
+uu:yy	1
+
 ng:nk	9
 nk:ng	9
 

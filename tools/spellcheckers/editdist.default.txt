@@ -72,6 +72,7 @@ z
 æ	ä	4
 o	u	4
 u	o	4
+u	y	2
 p	b	4
 b	p	4
 t	d	4
