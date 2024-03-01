@@ -8667,6 +8667,7 @@ kyyri:kyyri nx ;
 rastikyyri:rastikyyri nx ;
 lyyri:lyyri nx ;
 stryktyyri:stryktyyri nx ;
+infrastryktyyri:infra#stryktyyri nx ;
 kylttyyri:kylttyyri nx ;
 äyri:äyri nx ;
 viisäyrinen:viisäyri 3nen ;
