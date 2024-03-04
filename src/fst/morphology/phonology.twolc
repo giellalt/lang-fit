@@ -180,7 +180,8 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
         :Vow (%^WG:) (%>) i2: (%>) l _ [%^A:|e] ; !ämmäkölle>ämmäköile, 
 !       :Vow :Vow (%^WG:) %> l _ [%^A:|e] [.#.|#]; ! hopeale
- [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:l ; !uskaltaa >uskalan 
+        [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:l ; !uskaltaa >uskalan 
+        Vow Vow _ t:l ; !huolto>huolon
 
 
 !! ### m rules
@@ -194,7 +195,8 @@ m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
         _ %> n s ; !Poss-suffix ahvensa etc
-       [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:n ; !parantaa+V+Pass+Ind+Prs parannethaan ska bli paranethaan
+       [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:n ; !parantaa+V+Pass+Ind+Prs>paranethaan; luonto>luonon
+       Vow Vow _ t:n ; !luonto>luonon
 
 
 
@@ -233,6 +235,7 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 "r:0"
 r:0 <=> Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
  [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r ; !ymmärtää>ymmärän
+         Vow Vow _ t:r ; !suorto>suoron
 
 
 

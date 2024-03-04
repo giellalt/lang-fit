@@ -15508,6 +15508,7 @@ pikkuvyö:pikku#vyö n0 ;
 aamuvyö:aamu#vyö n0 ;
 kalanpyyös:kalanpyyö 3n_ks ;
 miljöö:miljöö n1 ;
+ekale:ekale n1_troppi ;
 
 
 sisko:sisko n1 ;
@@ -15534,6 +15535,7 @@ vapaehtonen:vapa#ehto 3nen ;
 molemin% puolin:molemin% puolin n_nomorph ;
 päälisin% puolin:päälisin% puolin n_nomorph ;
 kaikin% puolin:kaikin% puolin n_nomorph ; 
+silmin:silmin n_nomorph ; 
 lyykeri:lyykeri n1_troppi ;
 ofseeri:ofseeri n1_troppi ;
 jymnaasie:jymnaasie n1_troppi ; !CHECK EK
