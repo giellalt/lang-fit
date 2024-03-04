@@ -188,6 +188,11 @@ l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
 "m:0"
 !! **RULE: @RULENAME@**
 m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
+        [#|.#.] (Cns) Vow+ Cns+ Vow+ _ p:m ; !two syll + mm >m 
+        Vow Vow _ p:m ; !TESTA
+
+
+
 
 
 !! ### n rules

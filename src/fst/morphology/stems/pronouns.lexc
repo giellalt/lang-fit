@@ -55,7 +55,7 @@ yksi+Pron+Indef: yh_indef ;
 
 itte+Pron+Refl:itt  itte_refl ;
 itte+Pron+Refl+Err/Orth:its  itte_refl ;
-itte+Pron+Refl+Nom+PxSg3+Err/Orth:ittesä ;
+itte+Pron+Refl+Nom+PxSg3+Err/Orth:ittesä KK;
 
 jokhainen+Pron+Qu:jokhai  jokhai_kvant ;
 jokainen+Pron+Qu:jokai  jokhai_kvant ;

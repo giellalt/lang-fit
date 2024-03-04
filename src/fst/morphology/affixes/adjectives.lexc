@@ -52,6 +52,40 @@ a1 ;
 +A+Comp+Pl+Ill+Err/Orth:%^AEe%>mphiin K ;
 +A+Comp+Pl+Ade+Err/Orth:%^AEe%>milla K ;
 
+
+LEXICON a_vasen
+!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
++A+Sg+Nom:%>n       K ; 
++A+Sg+Gen:%>m^An K ; 
++A+Sg+Par:%>nt^A K ; 
++A+Sg+Ill:%>mph^A^An K ;  
++A+Sg+Ine:%>m^Ass^A K ;       
++A+Sg+Ela:%>m^Ast^A K ;       
++A+Sg+All:%>m^Alle K ;       
++A+Sg+Ade:%>m^All^A K ;      
++A+Sg+Abl:%>m^Alt^A K ;       
++A+Sg+Tra:%>m^Aksi K ;        
++A+Sg+Ess:%>mp^An^A K ;        
++A+Sg+Abe:%>m^Att^A K ;      
+
++A+Pl+Nom:%>m^At K ;
++A+Pl+Gen:%>mitten K ;
++A+Pl+Gen:%>nten K ;
++A+Pl+Par:%>mpi2^A K ;
++A+Pl+Ill:%>mphiin K ;  
++A+Pl+Ine:%>mi2ss^A K ; 
++A+Pl+Ela:%>mi2st^A K ; 
++A+Pl+All:%>mi2lle K ;  
++A+Pl+Ade:%>mi2ll^A K ; 
++A+Pl+Abl:%>mi2lt^A K ; 
++A+Pl+Tra:%>mi2ksi K ;  
++A+Pl+Ess:%>mpi2n^A K ; 
++A+Pl+Abe:%>mi2tt^A K ; 
+
++A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
+!+A+Superl:ime 3sup ; !!≈ * @CODE@
++A+Superl: 3sup ; !!≈ * @CODE@
+
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
 +A: x2 ; !!≈ * @CODE@
@@ -74,7 +108,17 @@ LEXICON a5_moni
 ! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; ! s
- +A+Sg+Par:%>t^A      PxK ; ! nourta
+ +A+Sg+Par:%>t^A      PxK ; 
+ +A+Pl+Gen:ien PxK ; !monien
+
+ LEXICON a5_pieni
+! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+ :e a4 ; 
+ +A+Sg+Nom:i       PxK ; ! 
+ +A+Sg+Par:%>t^A      PxK ; ! 
+ +A+Superl:i 3sup ; !variant pieniin, pieniimistä etc
+ !+A+Superl+Sg+Nom:%>iin PxK ;
+
 
 LEXICON a5_auki
 ! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
@@ -86,7 +130,7 @@ LEXICON anen
 !! **LEXICON @LEXNAME@**   has no comparative or superlative , just points to xnen
 +A: xnen ; !!≈ * @CODE@ #TODO: komparera!
 +A+Comp+Sg+Nom:%>sempi PxK ;
-+A+Sup+Sg+Nom:%>si n_PxK ;
++A+Superl+Sg+Nom:%>si n_PxK ;
 
 
 LEXICON aas  
@@ -97,12 +141,16 @@ LEXICON aas
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
-+A: x5_sg ; !!≈ * @CODE@
-+A: x5_pl ; 
-+A+Sg+Nom:^E2I       PxK ; ! suuri
-+A+Pl+Ill:^E2I%>in      PxK ; ! 
-+A+Comp: 3comp ; !CHECK!
-+A+Sup: 3sup ; !CHECK!
++A:e x5_sg ; !!≈ * @CODE@
++A:e x5_pl ; 
++A+Sg+Nom:i       PxK ; ! suuri
+!+A+Pl+Ill:^E2I%>in      PxK ; ! 
++A+Comp:e 3comp ; 
++A+Comp+Pl+Gen:e%>mpien K ;
++A+Superl: 3sup ; !CHECK!
++A+Superl+Sg+Nom:%>i5in # ; 
++A+Superl+Pl+Nom:%>i5im^At # ; 
+
 
 LEXICON a1_ton
 !! **LEXICON @LEXNAME@** 
@@ -215,9 +263,9 @@ xsup ; ! common cases from here
 
 LEXICON xsup 
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
-!+Sg+Nom:%>i5mpi # ; !!≈ * @CODE@
-+Sg+Nom:^WG%>i5n # ; !!≈ * @CODE@
-+Sg+Gen:%>i5man K ; !!≈ * @CODE@ etc.
+!+Sg+Nom:%>i5mpi # ; 
++Sg+Nom:^WG%>i5n # ; 
++Sg+Gen:%>i5man K ; 
 +Sg+Par:%>i5mp^A^A K ;
 +Sg+Tra:%>i5m^Aksi K ;
 +Sg+Ill:%>i5mph^A^An K ;

@@ -362,6 +362,7 @@ mallikauppias:mallikauppia nas ;
 voikauppias:voikauppia nas ;
 maijonkauppias:maijonkauppia nas ;
 kiertokauppias:kiertokauppia nas ;
+kierto:kierto n1 ;
 laukkukauppias:laukkukauppia nas ;
 kulkukauppias:kulkukauppia nas ;
 piimäkauppias:piimäkauppia nas ;

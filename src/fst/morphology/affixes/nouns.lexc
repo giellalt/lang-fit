@@ -427,6 +427,8 @@ LEXICON n4
  +N+Sg+Par:%>^A   PxK ; ! kiveä
  +N+Nom:^E2I      R ;
  +N+Sg+Gen:^WG%>n R ;
+ +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+
 
 LEXICON x4
 !! **LEXICON @LEXNAME@**  veri
@@ -435,7 +437,9 @@ x4_pl ;
 
 LEXICON n4_pl
 !! **LEXICON @LEXNAME@**
- +N: x4_pl ;
++N: x4_pl ;
++N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+
 
 LEXICON x4_sg
 !! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
@@ -455,7 +459,7 @@ LEXICON x4_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%> t_PxK ;
  +Pl+Gen:^E2I%>tte n_PxK ;
- +Pl+Gen:^E2Ie%> n_PxK ;
+ !+Pl+Gen:^E2Ie%> n_PxK ; !test moving to n4_pl
  +Pl+Par:^E2I%>^A PxK ;
  +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
@@ -473,6 +477,8 @@ LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
  +N: x5_sg ;
  +N: x5_pl ;
+ +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+
 
  LEXICON x5_sg
 !! **LEXICON @LEXNAME@** kieli, stem kiele
@@ -485,6 +491,7 @@ LEXICON n5
 LEXICON x5_pl
 x4_pl ;
 
+
 LEXICON n5_lumi
 !! **LEXICON @LEXNAME@** lumi, stem lu
  +N:me x4 ;
@@ -492,6 +499,8 @@ LEXICON n5_lumi
  +N+Sg+Par:ne%>t^A      PxK ; ! lunta
  +N+Nom:mi R ;
  +N+Gen:me%>n R ;
+ +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+
 
 LEXICON n5_loimi 
 !! **LEXICON @LEXNAME@** loimi, stem loi, som n5_lumi PLUS partitiv loimea
