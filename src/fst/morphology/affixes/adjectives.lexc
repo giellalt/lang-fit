@@ -111,6 +111,13 @@ LEXICON a5_moni
  +A+Sg+Par:%>t^A      PxK ; 
  +A+Pl+Gen:ien PxK ; !monien
 
+LEXICON a5_uusi
+! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+ :te a4 ; 
+ +A+Sg+Nom:si       PxK ; ! s
+ +A+Sg+Par:%>tt^A      PxK ; 
+ +A+Pl+Gen:sien PxK ; !
+
  LEXICON a5_pieni
 ! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
  :e a4 ; 
