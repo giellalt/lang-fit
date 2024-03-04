@@ -1048,6 +1048,11 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a1_e** vanha, which has Err/Orth vanhee-, otherwise like a1
 
+**LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+
+* +A+Comp:%^AE 3comp ; 
+* +A+Superl: 3sup ;
+
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
 * +A+Comp: 4comp ;
@@ -1067,7 +1072,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON aas**  has no comparative or superlative , just points to xnas
 
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
-* +A: x5_sg ;
+* +A:e x5_sg ;
 
 **LEXICON a1_ton** 
 * +A: x1_ton ;
@@ -1104,8 +1109,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +Sg+All:%>i5m^Ale K ; etc.
 
 **LEXICON xsup**   common for 2syll and 3syll
-* +Sg+Nom:^WG%>i5n # ;
-* +Sg+Gen:%>i5man K ; etc.
 
 * * *
 
