@@ -337,7 +337,7 @@ LEXICON p_mal_0 +N+Prop+Sem/Mal: x0_sg ;
 LEXICON p_fem_0 +N+Prop+Sem/Fem: x0_sg ;
 
 LEXICON p_plc_1 +N+Prop+Sem/Plc: x1_sg ;
-LEXICON p_sur_1 +N+Prop+Sem/Sur: x1_sg ;
+LEXICON p_sur_1 +N+Prop+Sem/Sur: x3_sg ;
 LEXICON p_mal_1 +N+Prop+Sem/Mal: x1_sg ;
 LEXICON p_fem_1 +N+Prop+Sem/Fem: x1_sg ;
 LEXICON p_org_1 +N+Prop+Sem/Org: x1_sg ;

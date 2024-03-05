@@ -1707,6 +1707,7 @@ toikko:toikko ax ;
 raajarikko:raajarikko ax ;
 kolkko:kolkko ax ;
 vyösokko:vyösokko ax ;
+sokko:sokko ax ;
 suukko:suukko ax ;
 melko:melko ax ;
 lenko:lenko ax ;
@@ -2296,3 +2297,4 @@ uskolinen:uskoli anen ;
 
 kiinostunnu:kiinostunnu ax ;
 riivattu:riivattu ax ;
+perustannu:perustannu ax ;

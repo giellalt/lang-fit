@@ -108,7 +108,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 
 LEXICON NEG !!≈ * **@CODE@** negation verb
 +V+Neg+Act+Prs+Sg1:en NEGK ;
-+V+Neg+Act+Prs+Sg2:en NEGK ;
++V+Neg+Act+Prs+Sg2:et NEGK ;
 +V+Neg+Act+Prs+Sg3:ei NEGK ;
 +V+Neg+Act+Prs+Pl1:emmä NEGK ;
 +V+Neg+Act+Prs+Pl2:että NEGK ;

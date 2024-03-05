@@ -9953,6 +9953,7 @@ ansio:ansio n3 ;
 posio:posio n3 ;
 kompsio:kompsio n3 ;
 raatio:raatio n3 ;
+raatiu:raatiu n3 ; !GEO
 aspiraatio:aspiraatio n3 ;
 saatio:saatio n3 ;
 patio:patio n3 ;

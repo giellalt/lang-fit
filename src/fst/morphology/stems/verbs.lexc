@@ -132,6 +132,7 @@ jatkaa:jatka v1 ;
 kaalaa:kaala v1 ;
 kahlaa:kahla v1 ;
 pallaa:palla v1 ;
+pala:pala v1 ; !GEO CHECK
 vallaa:valla v1 ;
 sullaa:sulla v1 ;
 laulaa:laula v1 ;
@@ -5628,3 +5629,5 @@ tursuta:tursu v2_uta ;
 toeta:tote v2_uta ;
 osalistua:osalistu v1_odd ;
 taitaa:taitaa v1 ;
+riepahtaa:riepahta v1 ;
+siunaila:siunaila v4 ;

@@ -49,7 +49,10 @@ ennenku adv ;
 muumuassa adv ;
 oikeasthaan adv ;
 mitenkä adv ;
-oikhein adv ;
+oikhein adv ; !CHECK EK
+oiken adv ;
+oikheen adv ;
+oikhen adv ;
 mukana adv ;
 täysin adv ;
 taas adv ;
@@ -230,6 +233,7 @@ sialensa advx ;
 hajalensa advx ;
 vattalensa advx ;
 polvilensa advx ;
+polvilens advx ; !CHECK
 kongellensa advx ;
 iholensa advx ;
 koholensa advx ;
@@ -676,7 +680,6 @@ kerran advx ;
 tasan advx ;
 aivan advx ;
 siiheen advx ;
-oikheen advx ;
 veitalheen advx ;
 kontalheen advx ;
 kontulheen advx ;
