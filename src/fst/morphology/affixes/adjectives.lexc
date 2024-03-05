@@ -137,7 +137,8 @@ LEXICON anen
 !! **LEXICON @LEXNAME@**   has no comparative or superlative , just points to xnen
 +A: xnen ; !!≈ * @CODE@ #TODO: komparera!
 +A+Comp+Sg+Nom:%>sempi PxK ;
-+A+Superl+Sg+Nom:%>si n_PxK ;
++A+Comp:se 3comp ; !CHECK!
++A+Superl:s 3sup ; !CHECK! 
 
 
 LEXICON aas  
