@@ -10,3 +10,7 @@ e:ee	3
 den:tten	1
 ojen:oitten	1
 ien:itten	1
+keen:kheen	1
+kaan:khaan	1
+paan:phaan	1
+pään:phään	1
