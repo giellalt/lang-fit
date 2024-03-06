@@ -39,3 +39,8 @@ informašuunia	informasjuunia
 informašuuni	informasjuuni
 infrastruktuuria	infrastryktyyriä
 struktuuria	stryktyyriä
+arkkiivi	arkiivi
+arkkiivissa	arkiivissa
+hampaan		hamphaan
+henkilötodistus	henkilötoistus
+hotell		hotelli
