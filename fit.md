@@ -2998,13 +2998,13 @@ This is an overview of the continuation lexicon types.
 The lemma list
 * **LEXICON NounRoot**
 * hinta n1 ;
-* rypriikki:rypriikki n3 ;
-* asfaltti:asfaltti n3 ;
 * vaitiolovelvolisuus:vaitiolo#velvolisuu n_uus ;
 * hammashoitoavustus:hammashoitoavustu 4n_ks ;
 * häpy n1 ;
 
 - ... and over 15 000 other noun stems.
+
+3-syll, check for compounds
 
 * * *
 
