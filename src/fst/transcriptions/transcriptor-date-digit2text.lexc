@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ================= !
-! The Finnish dates !
+! The Meänkieli dates !
 ! ================= !
 
 
@@ -40,57 +40,57 @@ Multichar_Symbols
  
 LEXICON Root
  
-@U.MONTH.1@:tammikuun% @U.MONTH.1@ 31DAYS ;
-@U.MONTH.2@:helmikuun% @U.MONTH.2@ 29DAYS ;
-@U.MONTH.3@:maaliskuun% @U.MONTH.3@ 31DAYS ;
-@U.MONTH.4@:huhtikuun% @U.MONTH.4@ 30DAYS ;
-@U.MONTH.5@:toukokuun% @U.MONTH.5@ 31DAYS ;
-@U.MONTH.6@:kesäkuun% @U.MONTH.6@ 30DAYS ;
-@U.MONTH.7@:heinäkuun% @U.MONTH.7@ 31DAYS ;
-@U.MONTH.8@:elokuun% @U.MONTH.8@ 31DAYS ;
-@U.MONTH.9@:syyskuun% @U.MONTH.9@ 30DAYS ;
-@U.MONTH.10@:lokakuun% @U.MONTH.10@ 31DAYS ;
-@U.MONTH.11@:marraskuun% @U.MONTH.11@ 30DAYS ;
-@U.MONTH.12@:joulukuun% @U.MONTH.12@ 31DAYS ;
+@U.MONTH.1@:janyaarin% @U.MONTH.1@ 31DAYS ;
+@U.MONTH.2@:fepryaarin% @U.MONTH.2@ 29DAYS ;
+@U.MONTH.3@:marsin% @U.MONTH.3@ 31DAYS ;
+@U.MONTH.4@:aprillin% @U.MONTH.4@ 30DAYS ;
+@U.MONTH.5@:main% @U.MONTH.5@ 31DAYS ;
+@U.MONTH.6@:jyynin% @U.MONTH.6@ 30DAYS ;
+@U.MONTH.7@:jyylin% @U.MONTH.7@ 31DAYS ;
+@U.MONTH.8@:aykystin% @U.MONTH.8@ 31DAYS ;
+@U.MONTH.9@:septemperin% @U.MONTH.9@ 30DAYS ;
+@U.MONTH.10@:oktuuperin% @U.MONTH.10@ 31DAYS ;
+@U.MONTH.11@:nuvemperin% @U.MONTH.11@ 30DAYS ;
+@U.MONTH.12@:tesemperin% @U.MONTH.12@ 31DAYS ;
  
  
 LEXICON 29DAYS
-1:ensimmäinen B ;
+1:ensimäinen B ;
 2:toinen B ;
 3:kolmas B ;
 4:neljäs B ;
-5:viides B ;
-6:kuudes B ;
-7:seitsemäs B ;
-8:kahdeksas B ;
-9:yhdeksäs B ;
+5:viies B ;
+6:kuues B ;
+7:seittemäs B ;
+8:kaheksas B ;
+9:yheksäs B ;
 1%0:kymmenes B ;
-11:yhdestoista B ;
-12:kahdestoista B ;
+11:yhestoista B ;
+12:kahestoista B ;
 13:kolmastoista B ;
 14:neljästoista B ;
-15:viidestoista B ;
-16:kuudestoista B ;
-17:seitsemästoista B ;
-18:kahdeksastoista B ;
-19:yhdeksästoista B ;
-2%0:kahdeskymmenes B ;
-21:kahdeskymmenesensimmäinen B ;
-22:kahdeskymmenestoinen B ;
-23:kahdeskymmeneskolmas B ;
-24:kahdeskymmenesneljäs B ;
-25:kahdeskymmenesviides B ;
-26:kahdeskymmeneskuudes B ;
-27:kahdeskymmenesseitsemäs B ;
-28:kahdeskymmeneskahdeksas B ;
-29:kahdeskymmenesyhdeksäs B ;
+15:viiestoista B ;
+16:kuuestoista B ;
+17:seittemästoista B ;
+18:kaheksastoista B ;
+19:yheksästoista B ;
+2%0:kaheskymmenes B ;
+21:kaheskymmenesensimäinen B ;
+22:kaheskymmenestoinen B ;
+23:kaheskymmeneskolmas B ;
+24:kaheskymmenesneljäs B ;
+25:kaheskymmenesviies B ;
+26:kaheskymmeneskuues B ;
+27:kaheskymmenesseittemäs B ;
+28:kaheskymmeneskaheksas B ;
+29:kaheskymmenesyheksäs B ;
  
 LEXICON 30DAYS
 3%0:kolmaskymmenes B ;
 29DAYS ;
  
 LEXICON 31DAYS
-31:kolmaskymmenesensimmäinen B ;
+31:kolmaskymmenesensimäinen B ;
 30DAYS ;
  
 LEXICON B
