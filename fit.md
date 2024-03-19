@@ -1087,8 +1087,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 ## Comparative inflection
 
 **LEXICON 3comp**  2syll adj, 3syll comparative
-* +Sg+Ess:%>mp^Ann^A K ;
-* +Sg+All:%>m^Alle K ; etc.
 
 **LEXICON 4comp**   3syll adj, 4syll comparative
 * +Sg+Ess:%>mp^An^A K ;
@@ -1096,7 +1094,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON xcomp**   common for 2syll and 3syll
 * +Sg+Nom:^WG%>mpi # ;
-* +Sg+Gen:%>ma%>n K ; etc.
+* +Sg+Gen:%>m^A%>n K ; etc.
 
 ### Superlative inflection
 
