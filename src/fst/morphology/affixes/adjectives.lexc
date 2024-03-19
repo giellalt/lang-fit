@@ -123,6 +123,8 @@ LEXICON a5_uusi
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; ! 
  +A+Sg+Par:%>t^A      PxK ; ! 
+ +A+Comp:i 3comp ;
+ +A+Superl:i 3sup ;
  +A+Superl:i 3sup ; !variant pieniin, pieniimistä etc
  !+A+Superl+Sg+Nom:%>iin PxK ;
 
@@ -151,13 +153,23 @@ LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
 +A:e x5_sg ; !!≈ * @CODE@
 +A:e x5_pl ; 
-+A+Sg+Nom:i       PxK ; ! suuri
++A+Sg+Nom:i  PxK ; ! suuri
 !+A+Pl+Ill:^E2I%>in      PxK ; ! 
 +A+Comp:e 3comp ; 
 +A+Comp+Pl+Gen:e%>mpien K ;
-+A+Superl: 3sup ; !CHECK!
-+A+Superl+Sg+Nom:%>i5in # ; 
-+A+Superl+Pl+Nom:%>i5im^At # ; 
++A+Comp+Sg+Ess:e%>mp^An^A K ; !även suurempana
++A+Comp+Pl+Ess:e%>mpin^A K ; !även suurempana
++A+Superl: 3sup ; 
++A+Superl:i 3sup ; !TEST extra i hela paradigmet
++A+Superl+Sg+Ess:%>i5mp^An^A K ; !även suurimpina
++A+Superl+Sg+Ess:i%>i5mp^An^A K ; !även suuriimpina
++A+Superl+Pl+Ess:%>i5mpin^A K ; !även suurimpina
++A+Superl+Pl+Ess:i%>i5mpin^A K ; !även suuriimpina
++A+Superl+Pl+Gen:%>i5mpien K ; !även suurimpien
++A+Superl+Pl+Gen:i%>i5mpien K ; !även suuriimpien
+
+!+A+Superl+Sg+Nom:%>i5in # ; 
+!+A+Superl+Pl+Nom:%>i5im^At # ; 
 
 
 LEXICON a1_ton
@@ -202,8 +214,8 @@ LEXICON x1_ton
 
 LEXICON 3comp  
 !! **LEXICON @LEXNAME@**  2syll adj, 3syll comparative
-+Sg+Ess:%>mp^Ann^A K ; !!≈ * @CODE@
-+Sg+All:%>m^Alle K ; !!≈ * @CODE@ etc.
++Sg+Ess:%>mp^Ann^A K ; 
++Sg+All:%>m^Alle K ; 
 +Sg+Ade:%>m^All^A K ;
 +Pl+Ess:%>mpinn^A K ;
 +Pl+All:%>mille K ;
@@ -226,7 +238,7 @@ xcomp ; ! common cases from here
 LEXICON xcomp  
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
 +Sg+Nom:^WG%>mpi # ; !!≈ * @CODE@
-+Sg+Gen:%>ma%>n K ; !!≈ * @CODE@ etc.
++Sg+Gen:%>m^A%>n K ; !!≈ * @CODE@ etc.
 +Sg+Par:%>mp^A^A K ;
 +Sg+Tra:%>m^Aksi K ;
 +Sg+Ill:%>mph^A^An K ;
@@ -273,7 +285,7 @@ LEXICON xsup
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
 !+Sg+Nom:%>i5mpi # ; 
 +Sg+Nom:^WG%>i5n # ; 
-+Sg+Gen:%>i5man K ; 
++Sg+Gen:%>i5m^An K ; 
 +Sg+Par:%>i5mp^A^A K ;
 +Sg+Tra:%>i5m^Aksi K ;
 +Sg+Ill:%>i5mph^A^An K ;
