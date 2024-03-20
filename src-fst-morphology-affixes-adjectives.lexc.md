@@ -24,9 +24,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
-* +A+Comp:%^AE 3comp ; 
-* +A+Superl: 3sup ;
-
 **LEXICON a2** gets +A and goes to x2.
 * +A: x2 ;
 * +A+Comp: 4comp ;
