@@ -65,7 +65,8 @@ LEXICON a_vasen
 +A+Sg+Ade:%>m^All^A K ;      
 +A+Sg+Abl:%>m^Alt^A K ;       
 +A+Sg+Tra:%>m^Aksi K ;        
-+A+Sg+Ess:%>mp^An^A K ;        
++A+Sg+Ess:%>mp^An^A K ;
++A+Sg+Ess:%>mp^Ann^A K ;        
 +A+Sg+Abe:%>m^Att^A K ;      
 
 +A+Pl+Nom:%>m^At K ;
@@ -82,9 +83,14 @@ LEXICON a_vasen
 +A+Pl+Ess:%>mpi2n^A K ; 
 +A+Pl+Abe:%>mi2tt^A K ; 
 
-+A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
+!+A+Comp:%^AE 3comp ;
++A+Comp: 3comp ;
++A+Comp+Sg+Ess:%>mp^An^A K ;
++A+Comp+Pl+Gen:%>mpien K ; 
++A+Comp+Pl+Ess:%>mpin^A K ;
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
-+A+Superl: 3sup ; !!≈ * @CODE@
++A+Superl:mmais 3sup ; 
+!+Sg+Nom:^WG%>i5n # ;
 
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
