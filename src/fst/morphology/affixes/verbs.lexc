@@ -50,7 +50,8 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Pl1:olema K ;
 +V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;
-+V+Act+Ind+Prs+Pl3+Use/NG:ovva K ; ! CHECK ELINA
++V+Act+Ind+Prs+Pl3+Err/Orth:noon K ; !CHECK EK
++V+Act+Ind+Prs+Pl3+Use/NG:ovva K ; ! CHECK EK
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
 
 +V+Act+Ind+Prt+Sg1:olin K ;
@@ -800,7 +801,15 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 
 +V+Der+Der/minen+N:emi xnen ;
 
+LEXICON v4_syljästä !!≈ * **@CODE@** julkasta etc, points to v4_julkas
++V+Inf:^WG%>^N^A KK ;
++V+Inf:%>^N^A KK ;
+
 LEXICON v4_julkasta  !!≈ * **@CODE@** julkasta etc
++V+Inf:%>^N^A KK ;
+v4_julkas ;
+
+LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+Inf:%>^N^A KK ;
 +V+Inf+Tra:%>^N^Akse PxK ;
 +V+InfE+Ins:ten K ;

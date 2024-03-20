@@ -1298,4 +1298,13 @@ mielelhään adv ;
 jouten:jouten adv ; !  ;
 aijemin adv ;
 aiemin adv ;
+vähintäns adv ;
+vähinthään adv ;
+vähinthänsä adv ;
+vähhiinthääns adv ; !CHECK
+vähhiinthään adv ;
+yhten adv ;
+yhten+Err/Orth:yhteen adv ; !CHECK EK
+yhthen adv ;
+yhthen+Err/Orth:yhtheen adv ; !CHECK EK
 
