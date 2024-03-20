@@ -1812,7 +1812,11 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v4** tulla, mennä etc
 
+* **LEXICON v4_syljästä** julkasta etc, points to v4_julkas
+
 * **LEXICON v4_julkasta** julkasta etc
+
+* **LEXICON v4_julkas** julkasta etc
 
 * **LEXICON v4_3la** varjela:varjel
 
