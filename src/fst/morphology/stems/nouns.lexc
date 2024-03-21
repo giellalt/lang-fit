@@ -11178,6 +11178,7 @@ intos:into 3n_ks ;
 palkinto:palkinto n3 ;
 tutkinto:tutkinto n3 ;
 hallinto:hallinto n3 ;
+hallikki:halliki n5_ie ;
 opinto:opinto n3 ;
 ravinto:ravinto n3 ;
 sovinto:sovinto n3 ;
