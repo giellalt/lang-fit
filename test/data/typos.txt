@@ -44,3 +44,4 @@ arkkiivissa	arkiivissa
 hampaan		hamphaan
 henkilötodistus	henkilötoistus
 hotell		hotelli
+kalaa		kallaa
