@@ -673,7 +673,7 @@ a:e <=> _ %^AE: ;
 a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! 
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
-    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      i3: ;   !  
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      [i3:|i2:] ;   !  seurav
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
         _  (%^WG:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
