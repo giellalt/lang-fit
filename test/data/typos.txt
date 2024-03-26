@@ -45,3 +45,5 @@ hampaan		hamphaan
 henkilötodistus	henkilötoistus
 hotell		hotelli
 kalaa		kallaa
+tuena		tukena
+
