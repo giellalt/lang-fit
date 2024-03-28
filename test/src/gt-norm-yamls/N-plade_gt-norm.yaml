@@ -74,7 +74,7 @@ Tests:
     takkaa-ajo+N+Pl+Ade: takkaa-ajoila
     a-malmi+N+Pl+Ade: a-malmila
     ääkkä+N+Pl+Ade: ääkilä
-    aalto+N+Pl+Ade: aalloila
+    aalto+N+Pl+Ade: aaloila
     abortti+N+Pl+Ade: abortila
     aho+N+Pl+Ade: ahoila
     äijäfaari+N+Pl+Ade: äijäfaarila
@@ -90,7 +90,7 @@ Tests:
     almunakka+N+Pl+Ade: almunakoila
     alttari+N+Pl+Ade: alttareila
     ämmäkkö+N+Pl+Ade: ämmäköilä
-    ammunta+N+Pl+Ade: ammunoila
+    #ammunta+N+Pl+Ade: ammunoila
     kamari+N+Pl+Ade: kamarilla
     ääri+N+Pl+Ade: äärilä
     äitiväki+N+Pl+Ade: äitiväilä

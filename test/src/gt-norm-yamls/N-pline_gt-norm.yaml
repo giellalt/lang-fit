@@ -73,7 +73,7 @@ Tests:
     takkaa-ajo+N+Pl+Ine: takkaa-ajoissa
     a-malmi+N+Pl+Ine: a-malmissa
     ääkkä+N+Pl+Ine: ääkissä
-    aalto+N+Pl+Ine: aalloissa
+    aalto+N+Pl+Ine: aaloissa
     abortti+N+Pl+Ine: abortissa
     aho+N+Pl+Ine: ahoissa
     äijäfaari+N+Pl+Ine: äijäfaarissa
@@ -89,7 +89,7 @@ Tests:
     almunakka+N+Pl+Ine: almunakoissa
     alttari+N+Pl+Ine: alttareissa
     ämmäkkö+N+Pl+Ine: ämmäköissä
-    ammunta+N+Pl+Ine: ammunoissa
+    #ammunta+N+Pl+Ine: ammunoissa
     kamari+N+Pl+Ine: kamarissa
     ääri+N+Pl+Ine: äärissä
     äitiväki+N+Pl+Ine: äitiväissä

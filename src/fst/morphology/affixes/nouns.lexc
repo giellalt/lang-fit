@@ -124,7 +124,7 @@ LEXICON x0_pl
   +Pl+Gen:%>i2tte n_PxK ;
   +Pl+Par:%>i2t^A PxK ;
   +Pl+Ill:%>i2hi n_PxK ;  ! maihin
-  +Pl+Ill:%>i2hii n_PxK ;  ! maihiin EK?
+  +Pl+Ill+Err/Orth:%>i2hii n_PxK ;  ! maihiin, töihiin EK?
   +Pl+Ine:%>i2ss^A PxK ;
   +Pl+Ela:%>i2st^A PxK ;
   +Pl+All:%>i2le PxxK ;
@@ -627,8 +627,10 @@ LEXICON n5_ie_odd
 +N+Pl+Nom:^WG%> t_PxK ;
 +N+Pl+Gen:%>e n_PxK ;
 +N+Pl+Gen:^WG%>tte n_PxK ;
-+N+Pl+Ill:^IDEL%>e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
-+N+Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
+!+N+Pl+Ill:^IDEL%>e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
+!+N+Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
++N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
++N+Pl+Ill:^HMET2%>h^Vi n_PxK ;
 +N+Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
 +N+Pl+Ela:^IDEL%>e^WG%>ist^A PxK ;
 +N+Pl+All:^IDEL%>e^WG%>ile PxxK ;
