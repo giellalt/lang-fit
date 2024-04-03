@@ -673,7 +673,8 @@ a:e <=> _ %^AE: ;
 a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! 
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
-    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %>      [i3:|i2:] ;   !  seurav
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %> i3: ;   !  seurav
+    [.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ Cns: (i) _ (%^WG:)  %> i2: ; !NOT 3-syll with last vow=i
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
         _  (%^WG:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
@@ -689,7 +690,8 @@ a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        !
 !! **RULE: @RULENAME@**
 a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
-        [.#.|#] Cns:*          Vow:+    Cns:+  Vow Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]     ; !lukijoissa, apinoissa    
+        ![.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
+        [.#.|#] Cns:*          Vow:+    Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
          Cns:+ Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:) %> [i2:] ; !almunakoissa; (flerstaviga) a>o efter två Cns
         [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i: Cns:+ (Cns:) _ (%^WG:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
 
