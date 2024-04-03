@@ -27,7 +27,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kasi = käsi:ka > käden > kättä (2syll)
 * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
-* n5_nuoret = like n1_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
 * n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (NB: alttareile)
@@ -175,7 +175,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_takki** same as n5_ie except Pl+Part: takki>takkeja 
 
-**LEXICON n5_nuoret** same as n1_pl except Pl+Gen: nuoret>nuorten 
+**LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
 
 **LEXICON n5_i_pl** cont lexica for type n1-words ending with -i
 
