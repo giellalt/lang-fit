@@ -517,6 +517,3 @@ All vowel harmony is taken care of with one rule.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-

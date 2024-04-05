@@ -1,6 +1,10 @@
-# Meänkieli (Tornedalen Finnish) description 
+# Meänkieli (Tornedalen Finnish) language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-dependency.cg3.md 
 
 
 # C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
@@ -153,7 +157,14 @@ Correction rules
 **lgRemove** removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
+# src-cg3-disambiguator.cg3.md 
+
+
 
 # Disambiguator for Meänkieli
 
@@ -462,7 +473,14 @@ Relative pronouns
 * **Rule: errorth** removes Err/Orth if there is an analysis without Err/Orth with the same lemma
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
@@ -931,7 +949,14 @@ These were the set types.
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/functions.cg3)</small># Documenting the morphological tags for Meänkieli abbreviations
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-fit/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-abbreviations.lexc.md 
+
+# Documenting the morphological tags for Meänkieli abbreviations
 
 This file documents [`affixes/abbreviations.lexc`, the file for Meänkieli abbreviation morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/abbreviations.lexc)  
 
@@ -993,6 +1018,8 @@ Now splitting according to POS, and according to dot or not
 
 ---
 
+# src-fst-morphology-affixes-acronyms.lexc.md 
+
 
 # Documenting Meänkieli acronym morphology
 
@@ -1023,6 +1050,8 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/acronyms.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
 
 # Documenting the file for  *Meänkieli adjective morphology*
 
@@ -1110,6 +1139,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Meänkieli noun morphology
 
@@ -1454,6 +1485,8 @@ troppia?
 
 ---
 
+# src-fst-morphology-affixes-numerals.lexc.md 
+
 
 # Meänkieli numerals 
 
@@ -1629,6 +1662,8 @@ forms which requires great amount of care in the inflection patterns.
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 Meänkieli pronoun morphology
 
 This file documents [`affixes/pronouns.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/pronouns.lexc)  
@@ -1650,6 +1685,8 @@ tuotä
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 # Meänkieli propernoun morphology
 
@@ -1697,6 +1734,8 @@ Consonant stems, odd and even stems
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -1726,6 +1765,8 @@ This file documents [`affixes/synbols.lexc`, the file for the affixes added to l
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Meänkieli verbs
 
@@ -1846,6 +1887,8 @@ LEXICON PRFPRC_OBL is without nom sg from fkv
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # Meänkieli twolc file
 
@@ -2369,6 +2412,8 @@ All vowel harmony is taken care of with one rule.
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 # Meänkieli morphological transducer
 
@@ -2743,6 +2788,8 @@ Here is the Root lexicon, pointing to all the parts of speech:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Meänkieli adjectives
 
 This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
@@ -2764,6 +2811,8 @@ LEXICON AdjectiveRoot
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 # Meänkieli adverbs
 
@@ -2795,6 +2844,8 @@ The first part of the file adds tags, and the second lists the adverbs.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-conjunctions.lexc.md 
 
 # Meänkieli conjunctions
 
@@ -2833,6 +2884,8 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-fit-abbreviations.lexc.md 
 
 # File containing meänkieli abbreviations 
 
@@ -2874,6 +2927,8 @@ Here we should add meänkieli-specific ones.
 
 ---
 
+# src-fst-morphology-stems-fit-acronyms.lexc.md 
+
 
 
 # Meänkieli aacronyms 
@@ -2888,6 +2943,8 @@ The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/mai
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/fit-acronyms.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-fit-propernouns.lexc.md 
 
 # Meänkieli propernouns
 
@@ -2916,6 +2973,8 @@ ERVASTI?
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 # Meänkieli interjections
 
 This file documents [the file for Meänkieli interjections](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/interjections.lexc).
@@ -2936,6 +2995,8 @@ This file documents [the file for Meänkieli interjections](https://github.com/g
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Noun stems for Meänkieli
 
@@ -3010,6 +3071,8 @@ The lemma list
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-numerals.lexc.md 
 
 # Meänkieli numerals
 
@@ -3311,6 +3374,8 @@ being very rare to extinct for nouns.
 
 ---
 
+# src-fst-morphology-stems-postpositions.lexc.md 
+
 # Meänkieli postpositions
 
 This file documents [the file for Meänkieli postpositions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/postpositions.lexc).
@@ -3335,6 +3400,8 @@ This file documents [the file for Meänkieli postpositions](https://github.com/g
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-prepositions.lexc.md 
 
 # Meänkieli prepositions
 
@@ -3362,6 +3429,8 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 # Meänkieli pronouns
 
@@ -3417,6 +3486,8 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 
 ---
 
+# src-fst-morphology-stems-subjunctions.lexc.md 
+
 # Meänkieli subjunctions
 
 This file documents [the file for Meänkieli subjunctions](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/subjunctions.lexc).
@@ -3433,6 +3504,8 @@ This file documents [the file for Meänkieli subjunctions](https://github.com/gi
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Documenting the file for meänkieli verbs
 
@@ -3516,6 +3589,8 @@ Then comes the long list
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -3684,6 +3759,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Tornedalen Finnish are read out, e.g.
@@ -3703,6 +3780,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 # Number transcriptions
 **This file is copied from the Finnish one. It should thus be Meänkielified.**
@@ -3971,6 +4050,8 @@ suffix can be changed here.
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -4269,7 +4350,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fit/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for fit
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-fit/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for fit
 
 Usage:
 ```
@@ -4331,6 +4419,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-fit/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for fit
 
@@ -4395,6 +4485,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -4456,6 +4548,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-fit/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

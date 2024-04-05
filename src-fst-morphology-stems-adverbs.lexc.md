@@ -26,6 +26,3 @@ The first part of the file adds tags, and the second lists the adverbs.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
-
----
-

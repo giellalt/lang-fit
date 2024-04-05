@@ -33,6 +33,3 @@ It contains two parts, one for adding tags, and one for listing conjunctions.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
-
----
-

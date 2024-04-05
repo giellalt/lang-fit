@@ -35,6 +35,3 @@ Here we should add meänkieli-specific ones.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/fit-abbreviations.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/fit-abbreviations.lexc)</small>
-
----
-

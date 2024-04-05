@@ -22,6 +22,3 @@ This file documents [`stems/prepositions.lexc`, the file for Meänkieli preposit
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prepositions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/prepositions.lexc)</small>
-
----
-

@@ -82,6 +82,3 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
-
----
-

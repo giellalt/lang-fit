@@ -115,6 +115,3 @@ LEXICON PRFPRC_OBL is without nom sg from fkv
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
-
----
-

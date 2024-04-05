@@ -369,6 +369,3 @@ Here is the Root lexicon, pointing to all the parts of speech:
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/root.lexc)</small>
-
----
-

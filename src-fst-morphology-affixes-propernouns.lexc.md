@@ -41,6 +41,3 @@ Consonant stems, odd and even stems
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
-
----
-

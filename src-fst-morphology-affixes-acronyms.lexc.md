@@ -26,6 +26,3 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/affixes/acronyms.lexc)</small>
-
----
-

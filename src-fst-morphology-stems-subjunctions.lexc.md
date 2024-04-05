@@ -12,6 +12,3 @@ This file documents [the file for Meänkieli subjunctions](https://github.com/gi
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/subjunctions.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/subjunctions.lexc)</small>
-
----
-
