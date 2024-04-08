@@ -692,7 +692,8 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         ![.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] Cns:*          Vow:+    Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
-         Cns:+ Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:) %> [i2:] ; !almunakoissa; (flerstaviga) a>o efter två Cns
+        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:) %> [i2:] ; !almunakoissa; ammunoissa (flerstaviga) a>o efter två Cns
+        !(Cns:+) Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) [l|n|r] _ (%^WG:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
         [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i: Cns:+ (Cns:) _ (%^WG:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
 
 !! **Tests:**
