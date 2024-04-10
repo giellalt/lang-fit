@@ -1948,6 +1948,7 @@ Here we group the symbols in convenient sets.
 * Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 k4 ’ ;                 testing with ’ 2019 for saa’a.
 * Segment        = Vowel Cns ;                                         
 * NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;   
+* NonLNR         = b c d đ f g h j k m p q s š t v w x z ;       
 
 ## Definitions
 This defines strings used often in rules.
