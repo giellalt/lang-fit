@@ -64,6 +64,7 @@ SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       !!= * @CO
 Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 k4 ’ ;                !!= * @CODE@ testing with ’ 2019 for saa’a.
 Segment        = Vowel Cns ;                                         !!= * @CODE@
 NonFront       = BackVowel ArchiVowel ArchiCns SomeVowel Cns NeutralVowel Dummy ;  !!= * @CODE@ 
+NonLNR         = b c d đ f g h j k m p q s š t v w x z ;       !!= * @CODE@
 
 
 !! ## Definitions
@@ -674,7 +675,7 @@ a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        !
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %> i3: ;   !  seurav
-    [.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ Cns: (i) _ (%^WG:)  %> i2: ; !NOT 3-syll with last vow=i
+    [.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ NonLNR (i) _ (%^WG:)  %> i2: ; !NOT 3-syll with last vow=i, not with lnr
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
         _  (%^WG:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
@@ -692,8 +693,9 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%
         [.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         ![.#.|#] Cns:* UnroundedVowel:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] Cns:*          Vow:+    Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
-        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:) %> [i2:] ; !almunakoissa; ammunoissa (flerstaviga) a>o efter två Cns
-        !(Cns:+) Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) [l|n|r] _ (%^WG:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
+        [.#.|#] Cns:* Vow:+ Cns:+ Vow [l|n|r|Cns Cns:] _ (%^WG:)  %> i2: ; !3-syll with lnr
+        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !almunakoissa; ammunoissa (flerstaviga) a>o efter två Cns
+        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r] _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
         [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i: Cns:+ (Cns:) _ (%^WG:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
 
 !! **Tests:**
@@ -903,9 +905,10 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
                                                          o                      %> (h)   _ [n|t|s|l|%>|.#.] ;
 [.#.|#|Cns] [a|e|i] (Vow:) (:h) Cns:*                    a: [%^HMETA:|%^HMET2:] %>  (h:)   _ i2: ; !saunhoin/saunhoin 
 [.#.|#] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:)  _ i2: ; !Pl+Ill för >2-syll-nouns: a>o efter två Cns (almunakka>almunakhoin) **conflict**
+[.#.|#] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ [l|n|r] a: [%^HMETA:|%^HMET2:] %> (h:)  _ i2: ; !Pl+Ill för >2-syll-nouns: a>o efter lnr (ikkuna) **conflict**
 ! previuos right context was [:i|i2:]
 ![.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !CHECK för vad??
-        ![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ; !CHECK för vad??
+![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ; !CHECK för vad??
 
 !! **Tests:**
 
