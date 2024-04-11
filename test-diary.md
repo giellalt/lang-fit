@@ -6,7 +6,6 @@ This document writes down test statistics
 The overal test command is `make check`. Other commands are described below.
 
 
-
 # Lexical coverage 
 Number of words (standing in `lang-fit`):
 
@@ -66,7 +65,7 @@ for suggestions.
 -----------------------------------------------------------------
 ```
 
-As long as the number of typos is only 11, the table is given as an illustration only.
+The number of typos is only 11 and the table is given as an illustration only.
 
 
 
@@ -90,9 +89,10 @@ missing_verbs_lemmas.hfst.txt
 
 # yaml
 
-The command:
+Test with the command: `sh test/yaml-check.sh` 
 
-`sh test/yaml-check.sh` 
-
-(data forthcoming)
+```
+230428
+gt-norm fst(s): PASSES: 3176 / FAILS: 4 / TOTAL: 3180
+```
 
