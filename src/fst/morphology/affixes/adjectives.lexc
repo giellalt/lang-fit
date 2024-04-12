@@ -102,7 +102,22 @@ LEXICON a2
 
 LEXICON a3 
 !! **LEXICON @LEXNAME@** gets +A and points to x3
-+A: x3 ;  !!≈ * @CODE@
++A: x3_sg ;  !!≈ * @CODE@
++A+Pl+Nom:^WG%> t_PxK ;
++A+Pl+Gen:%>itte n_PxK ; !CHECK EK
++A+Pl+Gen:%>ie n_PxK ;
++A+Pl+Par:%>it^A PxK ; !asioita
++A+Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
++A+Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
++A+Pl+Ine:^WG%>iss^A PxK ;
++A+Pl+Ela:^WG%>ist^A PxK ;
++A+Pl+All:^WG%>ille PxK ;
++A+Pl+Ade:^WG%>ill^A PxK ;
++A+Pl+Abl:^WG%>ilt^A PxK ;
++A+Pl+Tra:%>i TRA ;
++A+Pl+Ess:%>in^A PxK ;
++A+Pl+Abe:%>itt^A PxK ;
+
 +A+Comp: 4comp ; !!≈ * @CODE@
 +A+Superl:ime 4sup; !!≈ * @CODE@
 

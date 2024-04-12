@@ -20,6 +20,7 @@
 !! * n2_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 !! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+!! * n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
 
 !! ### Consonant stems for -i-words
 !! * n4 = i:e nouns: suomi, kivi (2syll)
@@ -2957,9 +2958,9 @@ mettärreuna:mettärreuna nx ;
 juna:juna nx ;
 pekuna:pekuna nx ;
 akkuna:akkuna nx ;
-ikkuna:ikkuna nx ;
-sontaikkuna:sontaikkuna nx ;
-navetanikkuna:navetanikkuna nx ;
+ikkuna:ikkuna n3 ;
+sontaikkuna:sonta#ikkuna n3 ;
+navetanikkuna:navetan#ikkuna n3 ;
 talkkuna:talkkuna nx ;
 aluna:aluna nx ;
 kieluna:kieluna nx ;
