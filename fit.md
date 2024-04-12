@@ -1085,7 +1085,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A+Superl:ime 4sup;
 
 **LEXICON a3** gets +A and points to x3
-* +A: x3 ;
+* +A: x3_sg ;
+
 * +A+Comp: 4comp ;
 * +A+Superl:ime 4sup;
 
@@ -3021,6 +3022,7 @@ This is an overview of the continuation lexicon types.
 * n2_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+* n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
 
 ### Consonant stems for -i-words
 * n4 = i:e nouns: suomi, kivi (2syll)

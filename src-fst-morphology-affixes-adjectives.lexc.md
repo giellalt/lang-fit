@@ -30,7 +30,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A+Superl:ime 4sup;
 
 **LEXICON a3** gets +A and points to x3
-* +A: x3 ;
+* +A: x3_sg ;
+
 * +A+Comp: 4comp ;
 * +A+Superl:ime 4sup;
 
