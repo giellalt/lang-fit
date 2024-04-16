@@ -136,7 +136,8 @@ Tests:
     Antinpäivä+N+Pl+Ade: Antinpäivilä
     Kruunu+N+Pl+Ade: Kruunuila
     Kyriiri+N+Pl+Ade: Kyriirillä
-    Laurina+N+Pl+Ade: Laurinaila
+    #Laurina+N+Pl+Ade: Laurinaila
+    tavara+N+Pl+Ade: tavaroila
     Mikkelinpäivä+N+Pl+Ade: Mikkelinpäivilä
     norrlänska+N+Pl+Ade: norrlänskoila
     TV-masti+N+Pl+Ade: TV-mastila
