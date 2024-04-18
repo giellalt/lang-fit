@@ -33,7 +33,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A: x3_sg ;
 
 * +A+Comp: 4comp ;
-* +A+Superl:ime 4sup;
+* +A+Superl+Sg+Ess:%>i5mp^An^A K ;
+* +A+Superl+Sg+All:%>i5m^Ale K ; etc.
 
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
