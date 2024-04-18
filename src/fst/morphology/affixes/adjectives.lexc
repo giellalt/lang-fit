@@ -104,11 +104,11 @@ LEXICON a3
 !! **LEXICON @LEXNAME@** gets +A and points to x3
 +A: x3_sg ;  !!≈ * @CODE@
 +A+Pl+Nom:^WG%> t_PxK ;
-+A+Pl+Gen:%>itte n_PxK ; !CHECK EK
++A+Pl+Gen:%>itte n_PxK ; 
 +A+Pl+Gen:%>ie n_PxK ;
-+A+Pl+Par:%>it^A PxK ; !asioita
-+A+Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
-+A+Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
++A+Pl+Par:%>i^A PxK ; 
++A+Pl+Ill:^HMETA%>h^Vi n_PxK ; !TEST 18/4, tidigare i2
++A+Pl+Ill:^HMET2%>h^Vi n_PxK ;
 +A+Pl+Ine:^WG%>iss^A PxK ;
 +A+Pl+Ela:^WG%>ist^A PxK ;
 +A+Pl+All:^WG%>ille PxK ;
@@ -119,7 +119,33 @@ LEXICON a3
 +A+Pl+Abe:%>itt^A PxK ;
 
 +A+Comp: 4comp ; !!≈ * @CODE@
-+A+Superl:ime 4sup; !!≈ * @CODE@
+!+A+Superl:ime 4sup; !!≈ * @CODE@
+!FRÅN 4sup och xsup
++A+Superl+Sg+Ess:%>i5mp^An^A K ; !!≈ * @CODE@
++A+Superl+Sg+All:%>i5m^Ale K ; !!≈ * @CODE@ etc.
++A+Superl+Sg+Ade:%>i5m^Al^A K ;
+
++A+Superl+Sg+Nom:^WG%>i5n # ; 
++A+Superl+Sg+Gen:%>i5m^An K ; 
++A+Superl+Sg+Par:%>i5mp^A^A K ;
++A+Superl+Sg+Tra:%>i5m^Aksi K ;
++A+Superl+Sg+Ill:%>i5mph^A^An K ;
++A+Superl+Sg+Ine:%>i5m^Ass^A K ;
++A+Superl+Sg+Ela:%>i5m^Ast^A K ;
++A+Superl+Sg+Abl:%>i5m^Alt^A K ;
++A+Superl+Pl+Nom:%>i5m^At # ;
++A+Superl+Pl+Gen:%>i5mitten K ;
++A+Superl+Pl+Par:%>i5mpi^A K ;
++A+Superl+Pl+Tra:%>i5miksi K ;
++A+Superl+Pl+Ill:%>i5mphiin K ;
++A+Superl+Pl+Ine:%>i5miss^A K ;
++A+Superl+Pl+Ela:%>i5mist^A K ;
++A+Superl+Pl+Abl:%>i5milt^A K ;
+
++A+Superl+Pl+Ess:%>i5mpin^A K ;
++A+Superl+Pl+All:%>i5mile K ;
++A+Superl+Pl+Ade:%>i5mil^A K ;
+
 
 LEXICON a4
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
