@@ -3502,6 +3502,12 @@ This file documents [the file for Meänkieli subjunctions](https://github.com/gi
 * **LEXICON Subjunction** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
 * ette cs ; 
 * vaikka cs ; 
+* koska cs ; 
+* mutta cs ; 
+* ko cs ; 
+* jos cs ; 
+* että cs ; 
+* kun cs ; 
 
 * * *
 
