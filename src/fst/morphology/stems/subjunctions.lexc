@@ -8,9 +8,9 @@ LEXICON cs   !!≈ * **@CODE@** is the lexicon giving the **+CS** tag to subjunc
 LEXICON Subjunction !!≈ * **@CODE@** is the lexicon listing subjunctions. It contains appr. 10 subjunctions.
 ette cs ;           !!≈ * @CODE@ 
 vaikka cs ;         !!≈ * @CODE@ 
-koska cs ;
-mutta cs ;
-ko cs ;
-jos cs ;
-että cs ;
-kun cs ;
+koska cs ;         !!≈ * @CODE@ 
+mutta cs ;         !!≈ * @CODE@ 
+ko cs ;         !!≈ * @CODE@ 
+jos cs ;         !!≈ * @CODE@ 
+että cs ;         !!≈ * @CODE@ 
+kun cs ;         !!≈ * @CODE@ 
