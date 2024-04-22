@@ -404,7 +404,7 @@ sisäle advx ;
 yhthääle advx ;
 pääle advx ;
 yhtääle advx ;
-viime advx ;
+!viime advx ; !adj
 toishaanne advx ;
 sinne advx ;
 tänne advx ;
@@ -1308,3 +1308,6 @@ yhten+Err/Orth:yhteen adv ; !CHECK EK
 yhthen adv ;
 yhthen+Err/Orth:yhtheen adv ; !CHECK EK
 kaikkialla adv ;
+vaakasuunta:vaakasuunta adv ;
+illemalla:illemalla adv ;
+päivemällä:päivemällä adv ;

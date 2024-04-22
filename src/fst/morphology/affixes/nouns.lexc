@@ -596,11 +596,17 @@ LEXICON n5_lapsi
 
 LEXICON n5_ie
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
- +N: x1_sg ;
+x5_ie_sg ;
+x5_ie_pl ;
+
+LEXICON x5_ie_sg
++N: x1_sg ;
++N+Sg+Nom: PxK ; 
++N+Nom: R ;
++N+Sg+Gen:^WG%>n R ;
+
+LEXICON x5_ie_pl 
  +N: x5_i_pl ;
- +N+Sg+Nom: PxK ; 
- +N+Nom: R ;
- +N+Sg+Gen:^WG%>n R ;
  +N+Pl+Par:%>^A PxK ; !malmia, äitiä 
 
 LEXICON n5_ie_odd
@@ -1396,6 +1402,8 @@ LEXICON n1_troppi
 +N+Pl+Tra:^WG%> TRA ;
 +N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
 +N+Pl+Abe:^WG%>tt^A PxK ;
+
+x5_ie_pl ; !PLUS variantform med e i plural!
  
 LEXICON n1_troppi_odd
 !! **LEXICON @LEXNAME@**

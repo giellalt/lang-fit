@@ -572,6 +572,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä 
 +V+Inf:y%>^A KK ; ! 
 +V+Act+Ind+Prs:y^WG v12pers_short ;
++V+Act+Ind+Prs+Sg2:%>t_KK ; !TEST 22/4 käytkö>käykkö
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Sg3:y%>pii K ;
 +V+Act+Ind+Prs+Pl3:y%>vä K ; ! 

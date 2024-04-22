@@ -354,6 +354,7 @@ jokuinf ;
 
 LEXICON pljoku_indef
 +Nom:kku K ;
++Nom:kkut K ;
 +Gen:ittenki K ;
 +Ill:ihinki K ;
 :i jokuinf ;
