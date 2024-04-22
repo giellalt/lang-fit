@@ -1,6 +1,7 @@
 # Add your error:correct string pairs here (not complete words, they have
 # a separate file), followed by TAB and the weight for the edit operation:
 
+la:al	     3
 aa:haa	2
 ai:aji	4
 ea:ee	2
@@ -11,6 +12,7 @@ f:ff	1
 ff:f	4
 h:hh	1
 hh:h	4
+in:en	3
 i:ii	4
 ia:ii	2
 ia:ija	4
@@ -56,9 +58,25 @@ uu:huu	2
 uu:yy	1
 v:vv	1
 vv:v	4
+x:ks	1
 yy:hyy	2
 yä:yy	2
 ää:hää	2
 öä:öö	2
 öö:höö	2
 š:sj		1
+ai:a		4
+paa:phaa	2
+pau:phau	2
+pää:phää	2
+pau:phau	2
+shen:sheen	2
+shan:shaan	2
+shin:shiin	2
+shän:shään	2
+shan:shaan	2
+lle:le		3
+le:lle		3
+odi:oi		3
+ärrä:ärä	2
+
