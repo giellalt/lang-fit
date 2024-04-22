@@ -162,5 +162,5 @@ if [ `uname` == "Darwin" ]
 then
     open "$speller_results"
 else
-    xdg-open "$speller_result"
+    xdg-open "$speller_results"
 fi
