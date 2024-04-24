@@ -10,10 +10,26 @@ ien:itten	1
 ile:ille	2
 ille:ile	2
 isi:is		2
-khan:khaan	1
-khen:kheen	1
 kaan:khaan	1
 keen:kheen	1
+khan:khaan	1
+khen:kheen	1
+kään:khään	1
+
+laan:lhaan	1
+leen:lheen	1
+lhan:lhaan	1
+lhen:lheen	1
+lään:lhään	1
+laan:hlaan	1
+lään:hlään	1
+
+raan:rhaan	1
+reen:rheen	1
+rhan:rhaan	1
+rhen:rheen	1
+rään:rhään	1
+
 nhan:nhaan	2
 nhän:nhään	2
 nut:nu		2
