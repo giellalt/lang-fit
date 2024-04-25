@@ -875,6 +875,7 @@ LEXICON 3x_ue_sg
  +Sg+Par:t%>t^A PxK ;
  +Sg+Ill:t%>hee n_PxK ;
  +Sg+Ine:e%>ss^A PxK ;
+ +Sg+Ine+Err/Orth:ve%>ss^A PxK ; !CHECK!
  +Sg+Ela:e%>st^A PxK ;
  +Sg+All:e%>lle PxxK ;
  +Sg+Ade:e%>ll^A PxK ;

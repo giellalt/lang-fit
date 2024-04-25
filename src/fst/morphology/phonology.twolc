@@ -676,7 +676,7 @@ a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        !
     [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %> i3: ;   !  seurav
     [.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ NonLNR (i) _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
-    [.#.|#] Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowelNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll adj kamala>kamalissa, kamalin, korkea !TEST 18/4
+    [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowelNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll adj kamala>kamalissa, kamalin, korkea !TEST 18/4
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
         _  (%^WG:) (i m e:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
