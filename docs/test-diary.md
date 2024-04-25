@@ -79,6 +79,8 @@ The number of typos is only 11 and the table is given as an illustration only.
 | Date   |  A | Prop |  N  | V  |
 |--------|----|------|-----|----|
 | 240411 |  0 |  17  |  32 | 19 |
+| 240425 |  0 |  17  |  36 | 19 |
+
 
 The files counted are found in the catalogue `test/src/morphology`, and the files are:
 
@@ -95,7 +97,7 @@ missing_verbs_lemmas.hfst.txt
 Test with the command: `sh test/yaml-check.sh` 
 
 ```
-230428
-gt-norm fst(s): PASSES: 3176 / FAILS: 4 / TOTAL: 3180
+230428:  gt-norm fst(s): PASSES: 3176 / FAILS:  4 / TOTAL: 3180
+240425:  gt-norm fst(s): PASSES: 3180 / FAILS: 18 / TOTAL: 3198
 ```
 
