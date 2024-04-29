@@ -101,22 +101,22 @@ LEXICON a2
 +A+Superl:ime 4sup; !!≈ * @CODE@
 
 LEXICON a3 
-!! **LEXICON @LEXNAME@** gets +A and points to x3
+!! **LEXICON @LEXNAME@** kamala gets +A and points to x3
 +A: x3_sg ;  !!≈ * @CODE@
 +A+Pl+Nom:^WG%> t_PxK ;
-+A+Pl+Gen:%>itte n_PxK ; 
-+A+Pl+Gen:%>ie n_PxK ;
-+A+Pl+Par:%>i^A PxK ; 
-+A+Pl+Ill:^HMETA%>h^Vi n_PxK ; !TEST 18/4, tidigare i2
-+A+Pl+Ill:^HMET2%>h^Vi n_PxK ;
-+A+Pl+Ine:^WG%>iss^A PxK ;
-+A+Pl+Ela:^WG%>ist^A PxK ;
-+A+Pl+All:^WG%>ille PxK ;
-+A+Pl+Ade:^WG%>ill^A PxK ;
-+A+Pl+Abl:^WG%>ilt^A PxK ;
-+A+Pl+Tra:%>i TRA ;
-+A+Pl+Ess:%>in^A PxK ;
-+A+Pl+Abe:%>itt^A PxK ;
++A+Pl+Gen:%>i2tte n_PxK ; 
++A+Pl+Gen:%>i2e n_PxK ;
++A+Pl+Par:%>i2^A PxK ; 
++A+Pl+Ill:^HMETA%>h^Vi2 n_PxK ; !TEST 18/4, tidigare i2
++A+Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
++A+Pl+Ine:^WG%>i2ss^A PxK ;
++A+Pl+Ela:^WG%>i2st^A PxK ;
++A+Pl+All:^WG%>i2lle PxK ;
++A+Pl+Ade:^WG%>i2ll^A PxK ;
++A+Pl+Abl:^WG%>i2lt^A PxK ;
++A+Pl+Tra:%>i2 TRA ;
++A+Pl+Ess:%>i2n^A PxK ;
++A+Pl+Abe:%>i2tt^A PxK ;
 
 +A+Comp: 4comp ; !!≈ * @CODE@
 !+A+Superl:ime 4sup; !!≈ * @CODE@
