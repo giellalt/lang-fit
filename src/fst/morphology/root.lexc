@@ -201,6 +201,8 @@ Multichar_Symbols
 !! ## Phonological symbols
 
 ! p1 t1 k1  For cons grad -- in use at all? (remove these)
+a2  !!≈ * **@CODE@** = For 3-syll nominals a:o kuppiloissa, normal kamalissa
+ä2  !!≈ * **@CODE@** = For 3-syll nominals a:o kännykköissä, normal käräjissä
 i2  !!≈ * **@CODE@** = plural i of nouns
 i3  !!≈ * **@CODE@** = past tense i of verbs
 i4  !!≈ * **@CODE@** = i in conditional isi of most verbs (without gemination)
