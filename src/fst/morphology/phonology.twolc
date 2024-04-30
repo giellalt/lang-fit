@@ -552,7 +552,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         !![.#.|#] (Cns) Vow Vow :h [l|m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! puohleen, sauhnaan
         !![.#.|#] (Cns) Vow VowelNotI :h j Vow: %^HMET2: %> _ ; ! luohjaan
 !Rules for metathesis type two, position 2-3 (efter syll m Vow Vow)
-        Vow (%^WG:) (%>)  [Vow|i2:]  (%>) :h [l|m|n|r|v|%^N:] (Vow:) [%^HMET2:] %> _ ; !aikoihnaan, sairaahlaan 
+        Vow (%^WG:) (%>)  [Vow|i2:]  (%>) :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %> _ ; !aikoihnaan, sairaahlaan 
         Vow (%>) VowelNotI   :h j Vow: %^HMET2: %> _ ; !aluohjaan  Vow (%>) VowelNotI   :h j Vow: %^HMET2: %> _ ;
 !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
         Vow+ Cns+ Vow (%>) :h [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään

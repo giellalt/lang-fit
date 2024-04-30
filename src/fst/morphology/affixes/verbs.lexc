@@ -1058,15 +1058,65 @@ LEXICON v5 !!≈ * **@CODE@**  kehitä:kehi
 
 +V+Der+Der/minen+N:t%>^Ami xnen ;
 
-LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki  !CHECK EK!
-+V+Inf:%^WG%>t^A KK ;
-+V+Act+Ind+Prs+Sg1:%>^An K ;
-+V+Act+Ind+Prs+Sg2:%>^At K ;
-+V+Act+Ind+Prs+Sg3:%>^A K ;
-+V+Act+Ind+Prs+Pl1:%>^Amme K ;
-+V+Act+Ind+Prs+Pl2:%>^Atte K ;
-+V+Act+Ind+Prs+Pl3:%>^Av^A K ;
-+V+Act+Ind+Prs+ConNeg:%>^A K ;
+LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki  
++V+Inf:ki%>tä KK ;
++V+Act+Ind+Prs+Sg1:ki%>^An K ;
++V+Act+Ind+Prs+Sg2:ki%>^At K ;
++V+Act+Ind+Prs+Sg3:ki%>^A^A K ;
++V+Act+Ind+Prs+Pl1:ki%>^Amm^A K ;
++V+Act+Ind+Prs+Pl2:ki%>^Att^A K ;
++V+Act+Ind+Prs+Pl3:ki%>^Av^A K ;
++V+Pass+Ind+Prs:i3%>th^A^An K ;
++V+Act+Ind+Prs+ConNeg:ki^A K ;
+
++V+Act+Ind+Prt+Sg1:ki%>si3n K ;
++V+Act+Ind+Prt+Sg2:ki%>si3t K ;
++V+Act+Ind+Prt+Sg3:ki%>si3 K ; 
++V+Act+Ind+Prt+Pl1:ki%>si3mm^A K ;
++V+Act+Ind+Prt+Pl2:ki%>si3tt^A K ;
++V+Act+Ind+Prt+Pl3:ki%>si3t K ;
++V+Act+Ind+Prt+Pl3:ki%>si3v^A K ; 
++V+Act+Ind+Prt+Pl3+Err/Orth:ki%>si3v^At K ; 
++V+Pass+Ind+Prt:%>i3thiin K ;
+!+V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
+
++V+Act+Cond+Sg1:ki%>^Aisi4n K ; ! 
++V+Act+Cond+Sg2:ki%>^Aisi4t K ;
++V+Act+Cond+Sg3:ki^Ais K ;
++V+Act+Cond+Pl1:ki%>^Aisi4m^A K ;
++V+Act+Cond+Pl2:ki%>^Aisi4tt^A K ;
++V+Act+Cond+Pl3:ki%>^Aisi4t K ;
++V+Act+Cond+Pl3:ki%>^Aisi4v^A K ;
++V+Act+Cond+ConNeg:k%>^Ai4si K ;
++V+Pass+Cond:i%>tt^A%>i4s K ; 
+
++V+Inf+Tra:ki%>^Akse PxK ;
++V+InfE+Ins:it%>en K ; 
++V+InfE+Ine:it%>ess^A K ; 
++V+InfMa+Ill:ki%^Amh^A^An K ; 
++V+InfMa+Ill:ki%>^Ahm^V^Vn K ; !CHECK GENERERAS EJ kerkiähmään
++V+InfMa+Ine:ki%>^Am^Ass^A K ; !kerkiämässä
++V+InfMa+Ela:ki%>^Am^Ast^A K ; 
++V+InfMa+Ade:ki%>^Am^All^A K ; 
++V+InfMa+Abe:ki%>^Am^Att^A K ;
+
++V+Act+PrsPrc+Sg+Nom:ki%>^Av^A K ; !kerkiävä
++V+Act+PrsPrc+Pl+Nom:ki%>^Av^At K ; !kerkiävät
++V+Pass+PrsPrc+Sg+Nom:i%>tt^Av^A K ; !kerittävä
++V+Pass+PrsPrc+Pl+Nom:i%>tt^Av^At K ; !kerittävä
+
+
++V+Act+PrfPrc+Sg+Nom:i%>^N^U K ; !keriny
++V+Act+PrfPrc+Pl+Nom:i%>hneet K ;
++V+Act+PrfPrc+Pl+Nom:i%>nheet K ; 
++V+Pass+PrfPrc+Sg+Nom:i%>tt^U K ; 
++V+Pass+PrfPrc+Pl+Nom:i%>t^Ut K ; 
+
++V+Act+Imprt+Sg2:ki^A # ;
+!+V+Act+Imprt+Sg:ä%>kh^O^On # ;
+!+V+Act+Imprt+Pl2:ä%>k^A^A # ;
++V+Act+Imprt+Pl3:it%>kh^O^Ot # ;
+
 
 
 

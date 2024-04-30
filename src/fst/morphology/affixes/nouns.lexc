@@ -1370,7 +1370,6 @@ LEXICON Px-Vn
  +PxSg3:^HMET2%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
  +PxPl3:%>%^Vn K ;
 
-!! HÖGST temporärt!!! GE + LL 230208
 LEXICON n1_troppi
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:       PxK ; !! troppi
@@ -1438,3 +1437,5 @@ LEXICON n1_troppi_odd
 +N+Pl+Tra:^WG%> TRA ;
 +N+Pl+Ess:%>nn^A PxK ;     !
 +N+Pl+Abe:^WG%>tt^A PxK ;
+
+x5_ie_pl ; !PLUS variantform med e i plural!
