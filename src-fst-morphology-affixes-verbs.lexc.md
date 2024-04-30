@@ -95,7 +95,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v5**  kehitä:kehi  
 
-* **LEXICON v5_keritä**  keritä:kerki  !CHECK EK!
+* **LEXICON v5_keritä**  keritä:kerki  
 
 * **LEXICON v6** =  paeta:pake
 

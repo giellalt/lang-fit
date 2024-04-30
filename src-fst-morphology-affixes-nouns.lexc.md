@@ -327,7 +327,6 @@ LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
 **LEXICON Px-Vn**
 
-GE + LL 230208
 **LEXICON n1_troppi**
 troppi
 tropin
