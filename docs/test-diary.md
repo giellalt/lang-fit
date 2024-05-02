@@ -101,7 +101,6 @@ Test with the command: `sh test/yaml-check.sh`
 240425:  gt-norm fst(s): PASSES: 3180 / FAILS: 18 / TOTAL: 3198
 240430:  gt-norm fst(s): PASSES: 3128 / FAILS: 70 / TOTAL: 3198
 240501:  gt-norm fst(s): PASSES: 3170 / FAILS: 28 / TOTAL: 3198
-
-
+240502:  gt-norm fst(s): PASSES: 3142 / FAILS: 56 / TOTAL: 3198
 ```
 
