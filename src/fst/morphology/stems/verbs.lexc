@@ -282,7 +282,7 @@ korvahtaa:korvahta v1 ;
 kaihtaa:kaihta v1 ;
 vaihtaa:vaihta v1 ;
 hihtaa:hihta v1 ;
-ympärihihtaa:ympärihihta v1 ;
+ympärihihtaa:ympäri#hihta v1 ;
 johtaa:johta v1 ;
 umohtaa:umohta v1 ;
 unohtaa:unohta v1 ;
