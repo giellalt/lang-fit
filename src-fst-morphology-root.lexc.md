@@ -1,4 +1,3 @@
-
 # Meänkieli morphological transducer
 
 Beware of remnants from the Finnish and Kven files.
@@ -189,13 +188,14 @@ Tag
 
 ## Phonological symbols
 
-* **i2** = plural i of nouns
+* **i2** = plural i of nouns (kanaloissa)
 * **i3** = past tense i of verbs
 * **i4** = i in conditional isi of most verbs (without gemination)
 * **i5** = superlative i of adjectives
 * **i6** = i:j in poika:pojan
 * **i7** = i in conditional of contract verbs (with gemination)
 * **i8** = past tense i of verbs that disappear: antaa : anto
+* **i9** = plural i of adjectives (kamalissa)
 * **p2** = always p
 * **t2** = always t, cf. katt2oma always tt, underlying -ts-
 * **t3** = t participating in gradation, but not in t:s
