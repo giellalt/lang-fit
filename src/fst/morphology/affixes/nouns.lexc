@@ -397,7 +397,7 @@ LEXICON x3_pl
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
  +Pl+Ela:^WG%>i2st^A PxK ;
- +Pl+All:^WG%>i2lle PxK ;
+ +Pl+All:^WG%>i2lle PxK ; ! kanaville fordi N
  +Pl+Ade:^WG%>i2ll^A PxK ;
  +Pl+Abl:^WG%>i2lt^A PxK ;
  +Pl+Tra:%>i2 TRA ;
@@ -463,13 +463,13 @@ LEXICON x4_pl
  +Pl+Par:^E2I%>^A PxK ;
  +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
- +Pl+Ine:^WG^E2I%>ss^A PxK ; !NY ändr neråt
- +Pl+Ela:^WG^E2I%>st^A PxK ;
- +Pl+All:^WG^E2I%>le PxxK ;
- +Pl+Ade:^WG^E2I%>l^A PxK ;
- +Pl+Abl:^WG^E2I%>lt^A PxK ;
+ +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ela:^E2I^WG%>st^A PxK ;
+ +Pl+All:^E2I^WG%>le PxxK ;
+ +Pl+Ade:^E2I^WG%>l^A PxK ;
+ +Pl+Abl:^E2I^WG%>lt^A PxK ;
  +Pl+Ess:^E2I%>n^A PxK ;
- +Pl+Tra:^WG^E2I%> TRA ;
+ +Pl+Tra:^E2I^WG%> TRA ;
  +Pl+Abe:^E2I%>tt^A PxK;
 
 
@@ -543,7 +543,7 @@ LEXICON x5_kasi_pl
  +Pl+Gen:^E2I%>tte n_PxK ;
  +Pl+Gen:^E2Ie%> n_PxK ;
  +Pl+Par:^E2I%>^A PxK ;
- +Pl+Ill:^HMETA%>hii n_PxK ;
+ +Pl+Ill:^HMETA%>hii n_PxK ; ! vuoshiin? vuoshin? vuote^HMETA>hii
  +Pl+Ill:^HMET2%>hii n_PxK ;
  +Pl+Ine:^E2I^WG%>ss^A PxK ; !NY ändr neråt
  +Pl+Ela:^E2I^WG%>st^A PxK ;
@@ -901,7 +901,7 @@ LEXICON 3x_ue_pl
 
 LEXICON 3n_ime
 !! **LEXICON @LEXNAME@**
- +N+Sg+Nom:^WGn       R ;
+ +N+Sg+Nom:^WG%>n       R ;
  +N+Sg+Gen:me%>n R ;
   3n_ime_sg ;
   3n_ime_pl ;
@@ -1305,38 +1305,38 @@ LEXICON TRA
 
 LEXICON n_PxK  !!≈ @CODE@ has either -n or goes to Px
 !! **LEXICON @LEXNAME@**
-  :n K  ;
+  :%>n K  ;
      Px ;
 
 LEXICON a_PxK  !!≈ @CODE@ has either -s or goes to Px with -a
 !! **LEXICON @LEXNAME@**
-  :s K  ;
-  :a Px ;
+  :%>s K  ;
+  :%>a Px ;
 
 LEXICON s_PxK  !!≈ @CODE@ has either -s or goes to Px 
 !! **LEXICON @LEXNAME@**
-  :s K  ;
+  :%>s K  ;
   Px ;
 
 LEXICON sh_PxK  !!≈ @CODE@ has either -s or goes to Px with -he-
 !! **LEXICON @LEXNAME@**
-  :s K  ;
-  :he Px ;
+  :%>s K  ;
+  :%>he Px ;
 
 LEXICON st_PxK  !!≈ @CODE@ has either -s or goes to Px with -te- rakuaus, rakhauteni
 !! **LEXICON @LEXNAME@**
-  :s K  ;
-  :te Px ;
+  :%>s K  ;
+  :%>te Px ;
 
 LEXICON t_PxK  !!≈ @CODE@ has either -t or goes to Px
 !! **LEXICON @LEXNAME@**
-  :t K  ;
+  :%>t K  ;
      Px ;
 
 LEXICON i_PxK  !!≈ @CODE@ Tra: -i or -e and goes to Px
 !! **LEXICON @LEXNAME@**
-  :i K  ;
-  :e Px ;
+  :%>i K  ;
+  :%>e Px ;
 
 LEXICON PxK !!≈ @CODE@ has only -nsA, compare PxxK
 !! **LEXICON @LEXNAME@**
