@@ -17,14 +17,11 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * %^AE:0     = a to e in otta- > otethaan
 * %^IDEL:0   = trigger to delete i
 * %>         = suffix boundary
-* a2:a       = a exceptionally ==> o in 3-syll stems: kuppiloissa
-* ä2:ä       = ä exceptionally ==> ö in 3-syll stems: kännykköissä
-* i2:i       = plural of nouns (kanavissa)
+* i2:i       = plural of nouns
 * i3:i       = past tense of verbs
 * i4:i       = i in conditional of isi
 * i5:i       = superlative i of adjectives
 * i8:i       = past tense of verbs that drops in past antaa : anto
-* i9:i       = plural of adjectives (kamaloissa)
 * p2:p t2:t k2:k     = always p t k.
 * **t3:t** = t participating in gradation, but not in t:s
 * **k4:k** = k to j in certain words
@@ -43,18 +40,17 @@ Here we group the symbols in convenient sets.
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
 * SomeVowel      = %^V ;                                                
-* NeutralVowel   = e i               i2 i3 i4 i5 i9 E I ;                  
+* NeutralVowel   = e i               i2 i3 i4 i5 E I ;                  
 * FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
 * BackVowel      =           a o u å                       A O U Å   ;  
-* RndVow   =     y   ö   o u å                 Y   Ö   O U Å   ;  
-* UnrVow = e i   ä   a                   E I   Ä   A         ;  
+* RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
+* UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
 * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
 * VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O U Å Ü Æ Ø ;  
 * VowelNotIU     = e   y ä ö a o   å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
 * VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
 * Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
 * ArchiCns       = %^N ;                                               
-* LNR            = l n r ;                                             
 * LNRM           = l n r m ;                                           
 * SurfaceCns     = b c d đ f g h j k l m n p q r s š t v w x z ;       
 * Cns            = SurfaceCns ArchiCns p2 t2 t3 t4 k2 k4 ’ ;                 testing with ’ 2019 for saa’a.
@@ -65,7 +61,7 @@ Here we group the symbols in convenient sets.
 ## Definitions
 This defines strings used often in rules.
 
-`WeakGrade = (LNR) (%^AE:) %^WG:`
+`WeakGrade = ([l|n|r]) (%^AE:) %^WG:`
 
 # Rules 
 This chapter gives the rules themselves.
@@ -207,18 +203,12 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *kanta^WG>n*
 * *kanna0>n*
 
-* *ammunta^WG>ss^A*
-* *aammunna0>ssa*
-
 **RULE: t:r ** for rt:rr 
 
 **Tests:**
 
 * *jukertel^WG>l^A*
 * *jukerrel0>la*
-
-* *kaarte^WG>*
-* *kaarre0>*
 
 **RULE: t:s**
 
