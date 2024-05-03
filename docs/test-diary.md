@@ -35,6 +35,7 @@ Coverage:
 - 240215: 1-(26860/206128) = 0.8697
 - 240321: 1-(26035/206130) = 0.8737
 - 240411: 1-(21961/206130) = 0.8935
+- 240503: 1-(21860/206130) = 0.8940
 
 
 ## Lexical coverage of free + bound
@@ -47,6 +48,7 @@ Coverage:
 - 240303: 1-(42529/437200) = 0.9027 
 - 240405: 1-(36289/437200) = 0.9169
 - 240411: 1-(36005/437135) = 0.9176
+- 240503: 1-(35845/437135) = 0.9180
   
 
 
@@ -80,6 +82,7 @@ The number of typos is only 11 and the table is given as an illustration only.
 |--------|----|------|-----|----|
 | 240411 |  0 |  17  |  32 | 19 |
 | 240425 |  0 |  17  |  36 | 19 |
+| 240503 |  0 |  17  |  43 | 17 |
 
 
 The files counted are found in the catalogue `test/src/morphology`, and the files are:
@@ -102,5 +105,6 @@ Test with the command: `sh test/yaml-check.sh`
 240430:  gt-norm fst(s): PASSES: 3128 / FAILS: 70 / TOTAL: 3198
 240501:  gt-norm fst(s): PASSES: 3170 / FAILS: 28 / TOTAL: 3198
 240502:  gt-norm fst(s): PASSES: 3142 / FAILS: 56 / TOTAL: 3198
+240503:  gt-norm fst(s): PASSES: 3180 / FAILS: 24 / TOTAL: 3204
 ```
 
