@@ -104,19 +104,19 @@ LEXICON a3
 !! **LEXICON @LEXNAME@** kamala gets +A and points to x3
 +A: x3_sg ;  !!≈ * @CODE@
 +A+Pl+Nom:^WG%> t_PxK ;
-+A+Pl+Gen:%>i2tte n_PxK ; 
-+A+Pl+Gen:%>i2e n_PxK ;
-+A+Pl+Par:%>i2^A PxK ; 
-+A+Pl+Ill:^HMETA%>h^Vi2 n_PxK ; !TEST 18/4, tidigare i2
-+A+Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
-+A+Pl+Ine:^WG%>i2ss^A PxK ;
-+A+Pl+Ela:^WG%>i2st^A PxK ;
-+A+Pl+All:^WG%>i2lle PxK ; ! kamaloile fordi A
-+A+Pl+Ade:^WG%>i2ll^A PxK ;
-+A+Pl+Abl:^WG%>i2lt^A PxK ;
-+A+Pl+Tra:%>i2 TRA ;
-+A+Pl+Ess:%>i2n^A PxK ;
-+A+Pl+Abe:%>i2tt^A PxK ;
++A+Pl+Gen:%>i9tte n_PxK ; 
++A+Pl+Gen:%>i9e n_PxK ;
++A+Pl+Par:%>i9^A PxK ; 
++A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; !TEST 18/4, tidigare i2
++A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
++A+Pl+Ine:^WG%>i9ss^A PxK ;
++A+Pl+Ela:^WG%>i9st^A PxK ;
++A+Pl+All:^WG%>i9lle PxK ; ! kamaloile fordi A
++A+Pl+Ade:^WG%>i9ll^A PxK ;
++A+Pl+Abl:^WG%>i9lt^A PxK ;
++A+Pl+Tra:%>i9 TRA ;
++A+Pl+Ess:%>i9n^A PxK ;
++A+Pl+Abe:%>i9tt^A PxK ;
 
 +A+Comp: 4comp ; !!≈ * @CODE@
 !+A+Superl:ime 4sup; !!≈ * @CODE@

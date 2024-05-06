@@ -628,11 +628,12 @@ LEXICON n5_ie_odd
 +N+Sg+Ess:%>nn^A PxK ;       
 +N+Sg+Abe:^WG%>tt^A PxK ;    
 
-+N+Pl+Par:%>^A PxK ; !malmia, äitiä, kultuuria
-+N+Pl+Par:^IDEL%>e%>j^A PxK ; !äitejä, 
 +N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Gen:%>e n_PxK ;
-+N+Pl+Gen:^WG%>tte n_PxK ;
++N+Pl+Par:%>^A PxK ; !alttaria
++N+Pl+Par:^IDEL%>e%>it^A PxK ; !alttareita
++N+Pl+Gen:%>e n_PxK ; !alttarien
++N+Pl+Gen:^WG%>tte n_PxK ;!alttaritten
++N+Pl+Gen:^IDEL%>e%>itte n_PxK ;!alttareitten
 !+N+Pl+Ill:^IDEL%>e^HMETA%>h^Vi n_PxK ;  ! saunhoin 
 !+N+Pl+Ill:^IDEL%>e^HMET2%>h^Vi n_PxK ;  ! sauhnoin 
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
