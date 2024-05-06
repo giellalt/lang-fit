@@ -196,6 +196,7 @@ Tag
 * **i7** = i in conditional of contract verbs (with gemination)
 * **i8** = past tense i of verbs that disappear: antaa : anto
 * **i9** = plural i of adjectives (kamalissa)
+* **n9** = nouns that keep nn (juvanne)
 * **p2** = always p
 * **t2** = always t, cf. katt2oma always tt, underlying -ts-
 * **t3** = t participating in gradation, but not in t:s

@@ -1914,11 +1914,13 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i3:i       = past tense of verbs
 * i4:i       = i in conditional of isi
 * i5:i       = superlative i of adjectives
+* i9:i       = plural-i of adjectives (kamalissa)
 * i8:i       = past tense of verbs that drops in past antaa : anto
 * p2:p t2:t k2:k     = always p t k.
 * **t3:t** = t participating in gradation, but not in t:s
 * **k4:k** = k to j in certain words
 * t4:t        goes to 0 in imartelee : imarella
+* n9:n       nouns that keep nn; juvanne
 * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
 * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
 * %^N:n  for  participle -nut
@@ -1933,7 +1935,7 @@ Here we group the symbols in convenient sets.
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
 * SomeVowel      = %^V ;                                                
-* NeutralVowel   = e i               i2 i3 i4 i5 E I ;                  
+* NeutralVowel   = e i               i2 i3 i4 i5 i9 i8 E I ;            
 * FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
 * BackVowel      =           a o u å                       A O U Å   ;  
 * RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
@@ -2614,6 +2616,7 @@ Tag
 * **i7** = i in conditional of contract verbs (with gemination)
 * **i8** = past tense i of verbs that disappear: antaa : anto
 * **i9** = plural i of adjectives (kamalissa)
+* **n9** = nouns that keep nn (juvanne)
 * **p2** = always p
 * **t2** = always t, cf. katt2oma always tt, underlying -ts-
 * **t3** = t participating in gradation, but not in t:s
