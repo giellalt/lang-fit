@@ -1389,8 +1389,8 @@ LEXICON n1_troppi
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Gen:^WG^IDEL%>i2tte n_PxK ; ! nu: troppitten rätt: tropitten
-+N+Pl+Gen:^IDEL%>i2e n_PxK ;
+!+N+Pl+Gen:^WG^IDEL%>i2tte n_PxK ; ! nu: troppitten rätt: tropitten
+!+N+Pl+Gen:^IDEL%>i2e n_PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
@@ -1424,7 +1424,7 @@ LEXICON n1_troppi_odd
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! 
 
 +N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Gen:^WG^IDEL%>i2tte n_PxK ; !
+!+N+Pl+Gen:^WG^IDEL%>i2tte n_PxK ; !
 +N+Pl+Gen+Err/Orth:^IDEL%>i2e n_PxK ;
 +N+Pl+Par:%>^A PxK ; ! 
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;

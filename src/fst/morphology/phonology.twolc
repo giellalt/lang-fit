@@ -24,13 +24,13 @@ i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
+i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 k4:k      !!≈ * **@CODE@** = k to j in certain words
-!m4:m      !!= * @CODE@ = mh to hm after short vowel
-!h4:h      !!= * @CODE@ = mh to hm after short vowel
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
+n9:n      !!= * @CODE@ nouns that keep nn; juvanne
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
@@ -48,7 +48,7 @@ Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^ID
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
-NeutralVowel   = e i               i2 i3 i4 i5 E I ;                 !!= * @CODE@ 
+NeutralVowel   = e i               i2 i3 i4 i5 i9 i8 E I ;           !!= * @CODE@ 
 FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ; !!= * @CODE@ 
 BackVowel      =           a o u å                       A O U Å   ; !!= * @CODE@ 
 RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ; !!= * @CODE@ 
@@ -201,7 +201,7 @@ m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
 !! **RULE: @RULENAME@**
 n:0 <=> Vow n _ Vow: [%^HMETA: |%^HMET2:] ;
         _ %> n s ; !Poss-suffix ahvensa etc
-       [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:n ; !parantaa+V+Pass+Ind+Prs>paranethaan; luonto>luonon
+       [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:n ; !parantaa+V+Pass+Ind+Prs>paranethaan
        Vow Vow _ t:n ; !luonto>luonon
 
 
@@ -317,7 +317,7 @@ t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ; ! CHECK feb
 
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
-t:n <=> (Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade ; ! kanta : kannan
+t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ :Vow WeakGrade ; ! kanta : kannan
         !(Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! CHECK feb
 
 !! **Tests:**
