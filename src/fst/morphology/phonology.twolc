@@ -346,34 +346,11 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
               Vow           _ (:s)   e:0                     %> i2: %> [Cns|%^V:|%^A:] ; ! [vuosiksi, etc.|vuossii(n)|uusia] ! uusine
               Vow [n|l|r]   _        e:0 (%^WG:0)   %^E2I:   %> i2: ; ! hirsiksi, hirsi (pl - gen par) 
               Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
-          [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0)   %> i3: ;  ! löyttäät:löysi (ei sousi, nousi, hoisi) 
+              [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0)   %> i3: ;  ! löytää:löysi (ei sousi, nousi, hoisi) 
               Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> i3: ;
               Vow [n|l|r]   _ (:s) Vow:0  (%^WG:0)  (%^AO:0) %> i3: ;
                           i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
 
-
-! Todo: Fixa det här:
-! *** Warning: Unresolved <= conflict with respect to 't:0' vs. 't:s'
-!     between "t:0"
-!         and "t:s"
-! 
-!  **** Conflicting pair(s) of contexts: 
-!   i | u _ [ä | a] WeakGrade ;
-!   [i | u | y | ö] [e | u | y] _ (:s) Vow: (^AO:0) (^WG:0) > i3: ;
-! Left context example:     y u
-! Right context example:    a ^WG:0 > i3:i
-! 
-! 
-!   VowelNotI (h) _ Vow: WeakGrade (>) [Cns: | ^E2I:0 | # | .#.] ;
-!   Vow (n | l | r) _ (:s) e: (^WG:) ^E2I: ;
-! Left context example:    a
-! Right context example:    e ^WG:0 ^E2I:0
-! 
-! 
-!   ä | e _ i WeakGrade ;
-!   [i | u | y | ö] [e | u | y] _ (:s) Vow: (^AO:0) (^WG:0) > i3: ;
-! Left context example:    i e
-! Right context example:    i ^WG:0 > i3:i
 
 !! **Tests:**
 
