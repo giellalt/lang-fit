@@ -677,7 +677,7 @@ a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        !
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %> i3: ;   !  seurav
     [.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ NonLNR (i) _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
     [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowelNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
-    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h) _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h:) (:Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
+    [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h) _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
         _  (%^WG:) (i m e:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
@@ -934,6 +934,7 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
          [.#.|#] Cns:* RoundedVowel+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
          [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !silmä>silmhiin Pl+Ill
+         a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i
 
 !! **Tests:**
 
