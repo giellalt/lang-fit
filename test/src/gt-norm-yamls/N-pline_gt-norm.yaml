@@ -71,12 +71,12 @@ Tests:
     asepuu+N+Pl+Ine: asepuissa
     mäkivyöt+N+Pl+Ine: mäkivöissä
     takkaa-ajo+N+Pl+Ine: takkaa-ajoissa
-    a-malmi+N+Pl+Ine: a-malmissa
+    a-malmi+N+Pl+Ine: [a-malmissa, a-malmeissa]
     ääkkä+N+Pl+Ine: ääkissä
     aalto+N+Pl+Ine: aaloissa
-    abortti+N+Pl+Ine: abortissa
+    abortti+N+Pl+Ine: [abortissa, abortteissa]
     aho+N+Pl+Ine: ahoissa
-    äijäfaari+N+Pl+Ine: äijäfaarissa
+    äijäfaari+N+Pl+Ine: [äijäfaarissa, äijäfaareissa]
     hamut+N+Pl+Ine: hamuissa
     aihe+N+Pl+Ine: aihheissa
     äile+N+Pl+Ine: [äilheissä, äihleissä]
@@ -85,12 +85,12 @@ Tests:
     alue+N+Pl+Ine: aluheissa
     #ikenheet+N+Pl+Ine: ikenissä
     akleija+N+Pl+Ine: akleijoissa
-    äkseerinki+N+Pl+Ine: äkseeringissä
+    äkseerinki+N+Pl+Ine: [äkseeringissä, äkseerinkeissä]
     almunakka+N+Pl+Ine: almunakoissa
-    alttari+N+Pl+Ine: alttareissa
+    alttari+N+Pl+Ine: [alttarissa, alttareissa]
     ämmäkkö+N+Pl+Ine: ämmäköissä
     #ammunta+N+Pl+Ine: ammunoissa
-    kamari+N+Pl+Ine: kamarissa
+    kamari+N+Pl+Ine: [kamarissa, kamareissa]
     ääri+N+Pl+Ine: äärissä
     äitiväki+N+Pl+Ine: äitiväissä
     ehontähti+N+Pl+Ine: ehontähissä
@@ -134,12 +134,12 @@ Tests:
     lippanen+N+Pl+Ine: lippasissa
     Antinpäivä+N+Pl+Ine: Antinpäivissä
     Kruunu+N+Pl+Ine: Kruunuissa
-    Kyriiri+N+Pl+Ine: Kyriirissä
+    Kyriiri+N+Pl+Ine: [Kyriirissä, Kyriireissä]
     tavara+N+Pl+Ine: tavaroissa
     #Laurina+N+Pl+Ine: Laurinaissa
     Mikkelinpäivä+N+Pl+Ine: Mikkelinpäivissä
     norrlänska+N+Pl+Ine: norrlänskoissa
-    TV-masti+N+Pl+Ine: TV-mastissa
+    TV-masti+N+Pl+Ine: [TV-mastissa, TV-masteissa]
     äänensävy+N+Pl+Ine: äänensävyissä
-    alunastifti+N+Pl+Ine: alunastiftissä
+    alunastifti+N+Pl+Ine: [alunastiftissä, alunastifteissä]
     romani chib+N+Pl+Ine: romani chibissä
