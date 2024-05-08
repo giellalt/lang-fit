@@ -1158,14 +1158,12 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
-* n1_troppi_odd = odd-syll -i-ending nouns without plural-e; kontrolli (>kontrollille) etc
 * n2 = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
 * n2_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
-### Consonant stems for -i-words
+### Stems for -i-words
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
@@ -1175,8 +1173,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 * n5_lapsi = lapsi:la > lapsen > lasta
-* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: tunti, äiti>äitile
-* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari>alttarille (NB: alttareile)
+* n5_troppi = 2syll i-ending nouns and both -i- and -ei- in plural; äiti:äiti>äitile, äiteile
+* n5_troppi_odd = odd-syll variant of n5_troppi; alttari:alttari>alttarille (NB: alttareile)
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
@@ -1315,11 +1313,9 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_lapsi**
 
-**LEXICON n5_ie** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
-
 **LEXICON n5_ie_odd**
 
-**LEXICON n5_takki** same as n5_ie except Pl+Part: takki>takkeja 
+**LEXICON n5_ie_odd** same as n5_ie except Pl+Part: takki>takkeja 
 
 **LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
 
@@ -1473,12 +1469,12 @@ LEXICON PxxK has also -Vn, thus both .. llensa and ..lleen.
 
 **LEXICON Px-Vn**
 
-**LEXICON n1_troppi**
+**LEXICON n5_troppi**
 troppi
 tropin
 troppia?
 
-**LEXICON n1_troppi_odd**
+**LEXICON n5_troppi_odd**
 
 * * *
 
@@ -3019,15 +3015,13 @@ This is an overview of the continuation lexicon types.
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n1_troppi = -i-ending nouns without plural-e; kursi:kursi (>kursile) etc
-* n1_troppi_odd = odd-syll -i-ending nouns without plural-e; kontrolli (>kontrollille) etc
 * n2 = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
 * n2_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 * n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
 
-### Consonant stems for -i-words
+### Stems for -i-words
 * n4 = i:e nouns: suomi, kivi (2syll)
 * n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
 * n5_lumi = lumi : lumen : lunta (2syll)
@@ -3037,8 +3031,8 @@ This is an overview of the continuation lexicon types.
 * n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 * n5_lapsi = lapsi:la > lapsen > lasta
-* n5_ie = 2syll i-ending nouns and -e(i)- only in plural: äiti:äiti>äitile
-* n5_ie_odd = odd-syll nouns i-ending nouns and -e(i)- only in plural: alttari:alttari>alttarille (NB: alttareile)
+* n5_troppi = 2syll nouns wit i-stem PLUS and e-stem only in plural: äiti:äiti>äitile, äiteile
+* n5_troppi_odd = odd-syll nouns i-ending nouns and e-stem only in plural: alttari:alttari>alttarille (NB: alttareile)
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
