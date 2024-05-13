@@ -20,18 +20,19 @@ This is an overview of the continuation lexicon types.
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 * n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
 
-### Stems for -i-words
-* n4 = i:e nouns: suomi, kivi (2syll)
-* n5 = i:e nouns, cns stems  kieli : kielen : kieltä (2syll)
-* n5_lumi = lumi : lumen : lunta (2syll)
+### Stems for -i-words, vowel AND consonant
+* n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
+* n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
+* n5_kasi = käsi:kä > käden > kättä (2syll)
+* n5_lumi = lumi:lu > lumen > lunta (2syll)
+* n5_lapsi = lapsi:la > lapsen > lasta
+* n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
+* n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+### Special cases for -i-words
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
-* n5_kasi = käsi:ka > käden > kättä (2syll)
-* n5_viis = like n5_kasi plus variant form Sg+Nom 'viis'
+* n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
-* n5_lapsi = lapsi:la > lapsen > lasta
-* n5_troppi = 2syll nouns wit i-stem PLUS and e-stem only in plural: äiti:äiti>äitile, äiteile
-* n5_troppi_odd = odd-syll nouns i-ending nouns and e-stem only in plural: alttari:alttari>alttarille (NB: alttareile)
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
