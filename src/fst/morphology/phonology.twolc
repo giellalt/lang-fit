@@ -743,7 +743,8 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) %^E2I: ;
 
 "i:0"
 !! **RULE: @RULENAME@**
-i:0 <=>  Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
+i:0 <=>  
+!Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
                   Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin

@@ -1375,7 +1375,7 @@ LEXICON n5_troppi
 +N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
 +N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
 +N+Sg+Ela:^WG%>st^A PxK ;       ! tropista
-+N+Sg+All:^WG%>le PxxK ;        ! tropile
++N+Sg+All:^WG%>le PxK ;        ! tropile
 +N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
 +N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
 +N+Sg+Tra:^WG TRA ;             ! tropiksi
@@ -1390,7 +1390,7 @@ LEXICON n5_troppi
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
 +N+Pl+Ine:^WG%>ss^A PxK ;
 +N+Pl+Ela:^WG%>st^A PxK ;
-+N+Pl+All:^WG%>le PxxK ;
++N+Pl+All:^WG%>le PxK ;
 +N+Pl+Ade:^WG%>l^A PxK ;
 +N+Pl+Abl:^WG%>lt^A PxK ;
 +N+Pl+Tra:^WG%> TRA ;
@@ -1399,7 +1399,7 @@ LEXICON n5_troppi
 
 !x5_ie_pl ; !PLUS variantform med e i plural!
 +N: x5_i_pl ;
-+N+Pl+Par:%>^A PxK ; !malmia, äitiä 
+!+N+Pl+Par:%>^A PxK ; !malmia, äitiä 
 
  
 LEXICON n5_troppi_odd
