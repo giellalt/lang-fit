@@ -501,7 +501,7 @@ LEXICON n5_lumi
  +N+Sg+Par:ne%>t^A      PxK ; ! lunta
  +N+Nom:mi R ;
  +N+Gen:me%>n R ;
- +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+ +N+Pl+Gen:mi2e%> n_PxK ; 
 
 
 LEXICON n5_loimi 
@@ -1374,7 +1374,7 @@ LEXICON n5_troppi
 +N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
 +N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
 +N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
-+N+Sg+Ela:^WG%>st^A PxK ;       ! tropista
++N+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
 +N+Sg+All:^WG%>le PxK ;        ! tropile
 +N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
 +N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
@@ -1389,7 +1389,7 @@ LEXICON n5_troppi
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
 +N+Pl+Ine:^WG%>ss^A PxK ;
-+N+Pl+Ela:^WG%>st^A PxK ;
++N+Pl+Ela:^WG%>st^A PxxK ;
 +N+Pl+All:^WG%>le PxK ;
 +N+Pl+Ade:^WG%>l^A PxK ;
 +N+Pl+Abl:^WG%>lt^A PxK ;
