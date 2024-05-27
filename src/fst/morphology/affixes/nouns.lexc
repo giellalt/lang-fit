@@ -45,6 +45,7 @@
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
+!! * 3n_kymmen = kymmen (like 3n_lnr plus Pl+Par kymmeniä) (2syll)
 !! * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 !! * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 !! * 3mies = mies
@@ -1168,6 +1169,11 @@ LEXICON 3n_lnr
 +N+Sg+Ine:%>ess^A PxK ;
 +N+Sg+Ess:%>en^A PxK ;
 3n_lnr_inteill ; 
+
+LEXICON 3n_kymmen
+!! **LEXICON @LEXNAME@** 3n_kymmen
+3n_lnr ;
++N+Pl+Par:%>i^A PxK ; 
 
 LEXICON 30n_lnr
 !! **LEXICON @LEXNAME@** askel - askelheesheen
