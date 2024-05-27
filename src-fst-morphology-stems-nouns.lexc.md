@@ -48,6 +48,7 @@ This is an overview of the continuation lexicon types.
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
+* 3n_kymmen = kymmen 
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies

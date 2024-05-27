@@ -1191,6 +1191,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
+* 3n_kymmen = kymmen (like 3n_lnr plus Pl+Par kymmeniä) (2syll)
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
@@ -1414,6 +1415,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 ### 2-syllabic LNR final stems
 
 **LEXICON 3n_lnr** ahven - ahvenheen
+
+**LEXICON 3n_kymmen** 3n_kymmen
 
 **LEXICON 30n_lnr** askel - askelheesheen
 
@@ -3050,6 +3053,7 @@ This is an overview of the continuation lexicon types.
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
+* 3n_kymmen = kymmen 
 * 30n_lnr = sammal, askel (like 3n_lnr except Gen Ill Ine Ess) (2syll)
 * nas = stam VVs; ankerias-ankerihaala, kauppias-kauppihaale (pga lång vokal+l), taivas-taihvaale
 * 3mies = mies
