@@ -232,14 +232,15 @@ LEXICON x1_ton
  +Sg+Par:%>^Ont^A K ; !!≈ * @CODE@
  +Sg+Ill:t%>h^Om^A^An K ;  !!≈ * @CODE@
  +Sg+Ine:t%>^Om^Ass^A K ;       !!≈ * @CODE@ etc.
- +Sg+Ela:t%>^Om^Ast^A K ;      ! talosta
- +Sg+All:t%>^Om^Ale K ;        ! talole
- +Sg+Ade:t%>^Om^Al^A K ;       ! talola
- +Sg+Abl:t%>^Om^Alt^A K ;      ! talolta
- +Sg+Tra:t%>^Om^Aksi K ;       ! taloksi
- +Sg+Tra:t%>^Om^Aks K ;       ! taloksi
- +Sg+Ess:t%>^Om^An^A K ;          ! talona
- +Sg+Abe:t%>^Om^Att^A K ;      ! talotta
+ +Sg+Ela:t%>^Om^Ast^A K ;      
+ +Sg+All:t%>^Om^Ale K ;        
+ +Sg+Ade:t%>^Om^Al^A K ;       
+ +Sg+Abl:t%>^Om^Alt^A K ;      
+ +Sg+Tra:t%>^Om^Aksi K ;       
+ +Sg+Tra:t%>^Om^Aks K ;       
+ +Sg+Ess:t%>^Om^An^A K ;  
+ +Sg+Ess:t%>^Om^Ann^A K ;          
+ +Sg+Abe:t%>^Om^Att^A K ;     
 
  +Pl+Nom:t%>^Om^At K ;
  +Pl+Gen:t%>^Omitten K ;

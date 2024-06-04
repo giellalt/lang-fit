@@ -1193,6 +1193,7 @@ LEXICON TYÄR
 +N+Sg+Nom:tyär K ; 
 +N+Sg+Par:tytärtä K ;
 +N+Sg+Par:tyärtä K ;
++N+Pl+Gen:tyttäritten K ;
          :tyttär 3xn_lnr ;
 
 LEXICON n_kasuven !!FIXA 
