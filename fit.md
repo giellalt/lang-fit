@@ -3164,6 +3164,7 @@ being very rare to extinct for nouns.
 * Numerals 8~5 examples:*
 * *kolme:* `kolme+Num+Sg+Nom`
 * *kolmheen:* `kolme+Num+Sg+Ill`
+* *kolhmeen:* `kolme+Num+Sg+Ill`
 * *kolmena:* `kolme+Num+Sg+Ess`
 * *kolmessa:* `kolme+Num+Sg+Ine`
 * *kolmela:* `kolme+Num+Sg+Ade`
@@ -3171,6 +3172,7 @@ being very rare to extinct for nouns.
 * *kolmii:* `kolme+Num+Pl+Par`
 * *kolmiin:* `kolme+Num+Pl+Gen`
 * *kolmhiin:* `kolme+Num+Pl+Ill`
+* *kolhmiin:* `kolme+Num+Pl+Ill`
 * *kolmina:* `kolme+Num+Pl+Ess`
 * *kolmissa:* `kolme+Num+Pl+Ine`
 
