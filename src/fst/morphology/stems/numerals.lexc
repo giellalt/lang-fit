@@ -389,6 +389,7 @@ LEXICON NUM_KOLME
 !!€gt-norm: Numerals 8~5
 !!€ kolme: kolme+Num+Sg+Nom
 !!€ kolmheen: kolme+Num+Sg+Ill
+!!€ kolhmeen: kolme+Num+Sg+Ill
 !!€ kolmena: kolme+Num+Sg+Ess
 !!€ kolmessa: kolme+Num+Sg+Ine
 !!€ kolmela: kolme+Num+Sg+Ade
@@ -396,6 +397,7 @@ LEXICON NUM_KOLME
 !!€ kolmii: kolme+Num+Pl+Par
 !!€ kolmiin: kolme+Num+Pl+Gen
 !!€ kolmhiin: kolme+Num+Pl+Ill
+!!€ kolhmiin: kolme+Num+Pl+Ill
 !!€ kolmina: kolme+Num+Pl+Ess
 !!€ kolmissa: kolme+Num+Pl+Ine
 0:e     NUM_BACK_NOMINATIVE  ;

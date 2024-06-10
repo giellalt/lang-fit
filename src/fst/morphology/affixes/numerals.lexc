@@ -266,7 +266,9 @@ LEXICON NUM_BACK_ILLATIVE_HEEN
 !!€gt-norm: Numeral singular illative en back
 !!€ kolmheen: kolme+Num+Sg+Ill
 +Sg+Ill:%>he%>en    #     ;
++Sg+Ill:e^HMET2%>he%>en    #     ;
 +Sg+Ill:%>he%>e     NUM_BACK_POSS     ;
++Sg+Ill:e^HMET2%>he%>e     NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_ILLATIVE_HEEN
 !!€gt-norm: Numeral singular illative en front
@@ -383,6 +385,7 @@ LEXICON NUM_BACK_ILLATIVE_IIN
 
 LEXICON NUM_BACK_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
++Pl+Ill:e^HMET2%>hi%>in    #     ;
 +Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_ILLATIVE_HIIN
