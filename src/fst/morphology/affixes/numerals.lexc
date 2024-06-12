@@ -387,6 +387,7 @@ LEXICON NUM_BACK_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;
 +Pl+Ill:e^HMET2%>hi%>in    #     ;
 +Pl+Ill:%>hi%>i     NUM_BACK_POSS     ;
++Pl+Ill:e^HMET2%>hi%>i     NUM_BACK_POSS     ;
 
 LEXICON NUM_FRONT_ILLATIVE_HIIN
 +Pl+Ill:%>hi%>in    #     ;

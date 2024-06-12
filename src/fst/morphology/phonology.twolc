@@ -347,6 +347,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
               Vow [n|l|r]   _        e:0 (%^WG:0)   %^E2I:   %> i2: ; ! hirsiksi, hirsi (pl - gen par) 
               Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
               [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0)   %> i3: ;  ! löytää:löysi (ei sousi, nousi, hoisi) 
+              ! [a] [i|h] _ (:s) Vow: (%^WG:0)   %> i3: ;  !vahtea>vahtesi, taitaa>taisi
               Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> i3: ;
               Vow [n|l|r]   _ (:s) Vow:0  (%^WG:0)  (%^AO:0) %> i3: ;
                           i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
@@ -650,10 +651,9 @@ a:e <=> _ %^AE: ;
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>   _ [%^HMETA: | %^HMET2:] %> ;        ! 
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ (:Cns) (Vow:)        _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
-    [.#.|#] Cns    a                                 _          %> [i2:|i3:|i4:] ; ! saa:sai
+     a  _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i) _ (%^WG:)  %> i3: ;   !  seurav
      Cns:* Vow:+ Cns:+ VowelNotI:+ NonLNR (i) _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
-    ![.#.|#] Cns:* Vow:+ Cns:+ VowelNotI:+ NonLNR (i) _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
     [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowelNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
     [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h) _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
     [.#.|#] Cns:* RoundedVowel (Vow) Cns:+ _ (%^WG:)  %> i3: ;   ! huutaa>huusin
@@ -690,7 +690,7 @@ a:o <=> [.#.|#] Cns:* UnroundedVowel:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%
 !! **RULE: @RULENAME@**
 ä:0 <=>         Cns:* Vow:+ Cns:+ _ (WeakGrade) (%^IDEL:) %> [i2:|i3:|i8:|j] ; ! before i
                                   _ [%^HMETA: | %^HMET2:]            ; ! before metathesis h
-         [.#.|#] Cns    ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
+         ä         _          %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
           _ %> i5: ; !selvä>selvimpiin ; adj superlativ
 
 !! **Tests:**
@@ -720,7 +720,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
-                                                     Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !TEST Feb
+                                                     Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !Shortening before i
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**
@@ -746,7 +746,7 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) %^E2I: ;
 !! **RULE: @RULENAME@**
 i:0 <=>  
 !Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
-                  Cns   _ [e|i] %> [i2:|i3:|i4:] ; ! tie, pii, viedä
+                  Cns   _ [e|i] %> [i2:|i3:|i4:|i5:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
@@ -807,7 +807,8 @@ i:e <=> Cns _ %> i2: ;
 
 "o:0"
 !! **RULE: @RULENAME@**
-o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h"
+o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h
+        o  _    %> [i2:|i3:|i4:|i5:] ; !shortening before i
 
 !! **Tests:**
 
@@ -817,7 +818,10 @@ o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h"
 !! ###  ö rules
 "ö:0"
 !! **RULE: @RULENAME@**
-ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns: _ [%^HMETA: | %^HMET2:] ; !  deletion before metathesis h
+!ö:0 <=> [Cns|.#.|#] Vow (Cns) Cns: _ [%^HMETA: | %^HMET2:] ; !  deletion before metathesis h
+ö:0 <=>  _ [%^HMETA: | %^HMET2:] ; !  deletion before metathesis h
+        ö _ %> [i2:|i3:|i4:|i5:] ; !shortening before i
+
 
 !! **Tests:**
 
@@ -830,8 +834,9 @@ o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h"
 "u:0"
 !! **RULE: @RULENAME@**
 u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
-        [Cns|.#.|#]               _ [o|u] %> [i2:|i3:|i4:] ; ! tuoda : toi, luu : luissa
+        [Cns|.#.|#]               _ [o|u] %> [i2:|i3:|i4:|i5:] ; ! tuoda : toi, luu : luissa
                                   _ [%^HMETA: | %^HMET2:] ; !kruunu, kruuhnuun
+ !       u  _    %> [i2:|i3:|i4:|i5:] ; !shortening before i
 
 !! **Tests:**
 
@@ -845,7 +850,7 @@ u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
 "y:0"
 !! **RULE: @RULENAME@**
 y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metathesis
-        [Cns|.#.|#]               _ [y|ö]  (%^WG:) %> [i2:|i3:|i4:|i] ; ! x syy, myydä, syödä,
+        _ [y|ö]  (%^WG:) %> [i2:|i3:|i4:|i|i5:] ; ! x syy, myydä, syödä,
                                   _ [%^HMETA: | %^HMET2:] ;
 
 !! **Tests:**
