@@ -11,10 +11,10 @@
 
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
-!! * n1 = 2syll ordinary nouns: talo
-!! * n2 = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
-!! * n2_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-!! * n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+!! * n2 = 2syll ordinary nouns: talo
+!! * n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
+!! * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+!! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
 !! ### Stems for -i-words, vowel AND consonant
@@ -29,7 +29,7 @@
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-!! * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
+!! * n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
 
 !! ### Consonant stems of other types
 !! * n_uus = vajavuus:vajavuu > vajavuuele
@@ -55,8 +55,8 @@
 
 !! ### Lexica for unassigned words
 LEXICON nx
-!! **LEXICON @LEXNAME@** pointing to *n1*.
-n1 ; ! nx
+!! **LEXICON @LEXNAME@** pointing to *n2*.
+n2 ; ! nx
 
 LEXICON n_nomorph
 !! **LEXICON @LEXNAME@** for uninflected nouns
@@ -135,14 +135,14 @@ LEXICON x0_pl
 
 
 
-LEXICON n1
+LEXICON n2
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
  +N: x1 ;
  +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
-LEXICON n1_pl !
+LEXICON n2_pl !
 !! **LEXICON @LEXNAME@** for the same plural words (*urut*)
  +N: x1_pl ;
 
@@ -191,22 +191,22 @@ LEXICON x1_pl
 
 
 
-LEXICON n2
+LEXICON n_e
 !! **LEXICON @LEXNAME@**  vene, liike, säe
- +N: x2 ;
+ +N: x_e ;
  +N+Nom: R ;
  +N+Gen:he%>en R ;
 
-LEXICON n2_pl
+LEXICON n_e_pl
 !! **LEXICON @LEXNAME@**  vehkheet
- +N: x2_pl ;
+ +N: x_e_pl ;
 
-LEXICON x2
+LEXICON x_e
 !! **LEXICON @LEXNAME@** splits in sg and pl
- x2_sg ;
- x2_pl ;
+ x_e_sg ;
+ x_e_pl ;
 
-LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
+LEXICON x_e_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
 !! **LEXICON @LEXNAME@** the sg
  +Sg+Nom:^WG     PxK ; ! liike, liikkekki
  +Sg+Nom+Err/Orth:^WG t_PxK ; ! liiket, liikkekki
@@ -231,7 +231,7 @@ LEXICON x2_sg ! nyare lånord, tex "nalle" böjs -heen i illativ
  +Sg+Ess:^HMET2%>heen^A PxK ; ! NY
  +Sg+Abe:%>ett^A PxK ;
 
-LEXICON x2_pl
+LEXICON x_e_pl
 !! **LEXICON @LEXNAME@** the pl
  +Pl+Nom:h%>ee t_PxK ; !
  +Pl+Gen:h%>eitte n_PxK ; !
@@ -258,18 +258,18 @@ LEXICON x2_pl
  +Pl+Abe:^HMET2%>hei2tt^A PxK ;
 
 
-!LEXICON n2_odd
-!! **LEXICON @LEXNAME@**  urvakke etc, n2-ord med -lle/-lla 
- !+N: x2_odd ;
+!LEXICON n_e_odd
+!! **LEXICON @LEXNAME@**  urvakke etc, n_e-ord med -lle/-lla 
+ !+N: x_e_odd ;
  !+N+Nom: R ;
  !+N+Gen:he%>en R ;
 
-!LEXICON x2_odd
+!LEXICON x_e_odd
 !! **LEXICON @LEXNAME@** splits in sg and pl
- !x2_odd_sg ;
- !x2_odd_pl ;
+ !x_e_odd_sg ;
+ !x_e_odd_pl ;
 
-!LEXICON x2_odd_sg ! urvakke etc, n2-ord med -lle/-lla 
+!LEXICON x_e_odd_sg ! urvakke etc, n_e-ord med -lle/-lla 
 !! **LEXICON @LEXNAME@** the sg
  !+Sg+Nom:^WG      KK ; ! eläke
  !+Sg+Nom+Err/Orth:^WGt      KK ; ! 
@@ -294,7 +294,7 @@ LEXICON x2_pl
  !+Sg+Ess:^HMET2%>heen^A PxK ; ! 
  !+Sg+Abe:%>ett^A PxK ;
 
-!LEXICON x2_odd_pl
+!LEXICON x_e_odd_pl
 !! **LEXICON @LEXNAME@** the pl
  !+Pl+Nom:^WGh%>eet     K ;
  !+Pl+Nom:^WGh%>ee      Px ;
@@ -311,8 +311,8 @@ LEXICON x2_pl
  !+Pl+Ess:%>ei2n^A PxK ;
  !+Pl+Abe:%>ei2tt^A PxK ;
 
-LEXICON n2_vehke
-n2 ;
+LEXICON n_vehke
+n_e ;
 +N+Sg+Gen:%>ee n_PxK ; 
 +N+Sg+Ill:%>eeshee n_PxK ; !vehkeesheen
 +N+Sg+Ill:%>eesee n_PxK ; !vehkeeseen
@@ -342,8 +342,8 @@ n2 ;
 +N+Pl+Ess:%>ei2n^A PxK ; !
 +N+Pl+Abe:%>ei2tt^A PxK ; !
 
-LEXICON n2_t
-n2 ;
+LEXICON n_et
+n_e ;
 +N+Sg+Nom:%> t_PxK ; 
 
 LEXICON n3 
@@ -650,16 +650,16 @@ LEXICON n5_ie_odd
 ! +N+Sg+Gen:^WG%>n R ;
 
 LEXICON n5_nuoret_pl !Temp lexica?
-!! **LEXICON @LEXNAME@** same as n1_pl except Pl+Gen: nuoret>nuorten 
-:e n1_pl ;
+!! **LEXICON @LEXNAME@** same as n2_pl except Pl+Gen: nuoret>nuorten 
+:e n2_pl ;
 +N+Pl+Gen:%>te n_PxK ;
 
 LEXICON n5_i_pl
-!! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
+!! **LEXICON @LEXNAME@** cont lexica for type n2-words ending with -i
 +N: x5_i_pl ;
 
 LEXICON x5_i_pl
-!! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
+!! **LEXICON @LEXNAME@** cont lexica for type n2-words ending with -i
 +Pl+Nom:^WG%> t_PxK ;
 +Pl+Par:^IDEL%>e%>j^A PxK ;
 +Pl+Gen:%>e n_PxK ;
