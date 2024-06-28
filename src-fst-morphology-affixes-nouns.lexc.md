@@ -11,10 +11,10 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
-* n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
-* n2_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n2 = 2syll ordinary nouns: talo
+* n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
+* n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+* n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 
 ### Stems for -i-words, vowel AND consonant
@@ -29,7 +29,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-* n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
@@ -54,7 +54,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 # The lexica themselves
 
 ### Lexica for unassigned words
-**LEXICON nx** pointing to *n1*.
+**LEXICON nx** pointing to *n2*.
 
 **LEXICON n_nomorph** for uninflected nouns
 
@@ -80,10 +80,10 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x0_pl** for plural case forms
 
-**LEXICON n1** for 2-syll ordinary nouns (*talo*)
+**LEXICON n2** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
 
-**LEXICON n1_pl** for the same plural words (*urut*)
+**LEXICON n2_pl** for the same plural words (*urut*)
 
 **LEXICON x1** for the bisyallbic, pointing to sg, pl
 
@@ -99,23 +99,23 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x1_pl** the pl forms
 
-**LEXICON n2**  vene, liike, säe
+**LEXICON n_e**  vene, liike, säe
 
-**LEXICON n2_pl**  vehkheet
+**LEXICON n_e_pl**  vehkheet
 
-**LEXICON x2** splits in sg and pl
+**LEXICON x_e** splits in sg and pl
 
-**LEXICON x2_sg** the sg
+**LEXICON x_e_sg** the sg
 
-**LEXICON x2_pl** the pl
+**LEXICON x_e_pl** the pl
 
-**LEXICON x2_pl**  urvakke etc, n2-ord med -lle/-lla 
+**LEXICON x_e_pl**  urvakke etc, n_e-ord med -lle/-lla 
 
-**LEXICON x2_pl** splits in sg and pl
+**LEXICON x_e_pl** splits in sg and pl
 
-**LEXICON x2_pl** the sg
+**LEXICON x_e_pl** the sg
 
-**LEXICON x2_pl** the pl
+**LEXICON x_e_pl** the pl
 
 **LEXICON n3**  odd-syllabic: kanava
 
@@ -173,11 +173,11 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_ie_odd** same as n5_ie except Pl+Part: takki>takkeja 
 
-**LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
+**LEXICON n5_nuoret_pl** same as n2_pl except Pl+Gen: nuoret>nuorten 
 
-**LEXICON n5_i_pl** cont lexica for type n1-words ending with -i
+**LEXICON n5_i_pl** cont lexica for type n2-words ending with -i
 
-**LEXICON x5_i_pl** cont lexica for type n1-words ending with -i
+**LEXICON x5_i_pl** cont lexica for type n2-words ending with -i
 
 #### The nainen (nen) and hevonen (3nen) family
 

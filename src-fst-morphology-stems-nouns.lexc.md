@@ -13,10 +13,10 @@ This is an overview of the continuation lexicon types.
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
-* n1 = 2syll ordinary nouns: talo
-* n2 = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
-* n2_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-* n2_t = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n2 = 2syll ordinary nouns: talo
+* n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
+* n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+* n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 * n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
 
@@ -32,7 +32,7 @@ This is an overview of the continuation lexicon types.
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-* n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
@@ -58,12 +58,12 @@ This is an overview of the continuation lexicon types.
 
 The lemma list
 * **LEXICON NounRoot**
-* hinta n1 ;
+* hinta n2 ;
 * rypriikki:rypriikki n3 ;
 * asfaltti:asfaltti n3 ;
 * vaitiolovelvolisuus:vaitiolo#velvolisuu n_uus ;
 * hammashoitoavustus:hammashoitoavustu 4n_ks ;
-* häpy n1 ;
+* häpy n2 ;
 
 - ... and over 15 000 other noun stems.
 
