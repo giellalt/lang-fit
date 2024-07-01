@@ -96,7 +96,7 @@ LEXICON a_vasen
 
 LEXICON a2
 !! **LEXICON @LEXNAME@** gets +A and goes to x2.
-+A: x2 ; !!≈ * @CODE@
++A: x_e ; !!≈ * @CODE@
 +A+Comp: 4comp ; !!≈ * @CODE@
 +A+Superl:ime 4sup; !!≈ * @CODE@
 
