@@ -1080,7 +1080,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
 **LEXICON a2** gets +A and goes to x2.
-* +A: x2 ;
+* +A: x_e ;
 * +A+Comp: 4comp ;
 * +A+Superl:ime 4sup;
 
