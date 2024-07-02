@@ -1057,8 +1057,8 @@ This file documents [`affixes/acronyms.lexc`, the file for Meänkieli acronym mo
 
 This file documents  the file *affixes/adjectives.lexc* for Meänkieli adjective morphology.
 
-Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
-corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
+Most lexica here (*a1, a_e, ...*) add **+A**, and thereafter redirect to the 
+corresponding **x1, x_e, ...** lexicon in `affixes/nouns.lexc` for case inflection.
 The lexicon numbers correspond to the ones for nouns.
 
 In addition, each lexicon also points to comparative and superlative sublexica.
@@ -1079,7 +1079,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
-**LEXICON a2** gets +A and goes to x2.
+**LEXICON a_e** gets +A and goes to x_e.
 * +A: x_e ;
 * +A+Comp: 4comp ;
 * +A+Superl:ime 4sup;
@@ -1157,7 +1157,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
-* n2 = 2syll ordinary nouns: talo
+* n1 = 2syll ordinary nouns: talo
 * n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
 * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
@@ -1175,7 +1175,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-* n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
@@ -1200,7 +1200,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 # The lexica themselves
 
 ### Lexica for unassigned words
-**LEXICON nx** pointing to *n2*.
+**LEXICON nx** pointing to *n1*.
 
 **LEXICON n_nomorph** for uninflected nouns
 
@@ -1226,10 +1226,10 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x0_pl** for plural case forms
 
-**LEXICON n2** for 2-syll ordinary nouns (*talo*)
+**LEXICON n1** for 2-syll ordinary nouns (*talo*)
 * +N+Sg+Nom: PxK ; Px separate
 
-**LEXICON n2_pl** for the same plural words (*urut*)
+**LEXICON n1_pl** for the same plural words (*urut*)
 
 **LEXICON x1** for the bisyallbic, pointing to sg, pl
 
@@ -1319,11 +1319,11 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_ie_odd** same as n5_ie except Pl+Part: takki>takkeja 
 
-**LEXICON n5_nuoret_pl** same as n2_pl except Pl+Gen: nuoret>nuorten 
+**LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
 
-**LEXICON n5_i_pl** cont lexica for type n2-words ending with -i
+**LEXICON n5_i_pl** cont lexica for type n1-words ending with -i
 
-**LEXICON x5_i_pl** cont lexica for type n2-words ending with -i
+**LEXICON x5_i_pl** cont lexica for type n1-words ending with -i
 
 #### The nainen (nen) and hevonen (3nen) family
 
@@ -2803,7 +2803,7 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 
 * a1 = kaksitavuiset
 * a3 = kolmitavuiset
-* a4 = kaksitavuiset, vartalo -e
+* a_e = vartalo -e
 * aas = tarmokas
 * anen = nen-adjektiivit
 
@@ -3018,7 +3018,7 @@ This is an overview of the continuation lexicon types.
 
 ### Vowel stems
 * n0 = 1syll  nouns: maa, suu, tie
-* n2 = 2syll ordinary nouns: talo
+* n1 = 2syll ordinary nouns: talo
 * n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
 * n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
@@ -3037,7 +3037,7 @@ This is an overview of the continuation lexicon types.
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-* n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
+* n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types
 * n_uus = vajavuus:vajavuu > vajavuuele
@@ -3063,12 +3063,12 @@ This is an overview of the continuation lexicon types.
 
 The lemma list
 * **LEXICON NounRoot**
-* hinta n2 ;
+* hinta n1 ;
 * rypriikki:rypriikki n3 ;
 * asfaltti:asfaltti n3 ;
 * vaitiolovelvolisuus:vaitiolo#velvolisuu n_uus ;
 * hammashoitoavustus:hammashoitoavustu 4n_ks ;
-* häpy n2 ;
+* häpy n1 ;
 
 - ... and over 15 000 other noun stems.
 

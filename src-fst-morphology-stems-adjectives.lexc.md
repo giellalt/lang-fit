@@ -6,7 +6,7 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 
 * a1 = kaksitavuiset
 * a3 = kolmitavuiset
-* a4 = kaksitavuiset, vartalo -e
+* a_e = vartalo -e
 * aas = tarmokas
 * anen = nen-adjektiivit
 

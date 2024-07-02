@@ -2,8 +2,8 @@
 
 This file documents  the file *affixes/adjectives.lexc* for Meänkieli adjective morphology.
 
-Most lexica here (*a1, a2, ...*) add **+A**, and thereafter redirect to the 
-corresponding **x1, x2, ...** lexicon in `affixes/nouns.lexc` for case inflection.
+Most lexica here (*a1, a_e, ...*) add **+A**, and thereafter redirect to the 
+corresponding **x1, x_e, ...** lexicon in `affixes/nouns.lexc` for case inflection.
 The lexicon numbers correspond to the ones for nouns.
 
 In addition, each lexicon also points to comparative and superlative sublexica.
@@ -24,7 +24,7 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
-**LEXICON a2** gets +A and goes to x2.
+**LEXICON a_e** gets +A and goes to x_e.
 * +A: x_e ;
 * +A+Comp: 4comp ;
 * +A+Superl:ime 4sup;
