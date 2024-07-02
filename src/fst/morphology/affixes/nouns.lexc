@@ -11,7 +11,7 @@
 
 !! ### Vowel stems
 !! * n0 = 1syll  nouns: maa, suu, tie
-!! * n2 = 2syll ordinary nouns: talo
+!! * n1 = 2syll ordinary nouns: talo
 !! * n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
 !! * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 !! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
@@ -29,7 +29,7 @@
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
-!! * n5_nuoret_pl = like n2_pl except Pl+Gen: nuoret>nuorten
+!! * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 !! ### Consonant stems of other types
 !! * n_uus = vajavuus:vajavuu > vajavuuele
@@ -55,8 +55,8 @@
 
 !! ### Lexica for unassigned words
 LEXICON nx
-!! **LEXICON @LEXNAME@** pointing to *n2*.
-n2 ; ! nx
+!! **LEXICON @LEXNAME@** pointing to *n1*.
+n1 ; ! nx
 
 LEXICON n_nomorph
 !! **LEXICON @LEXNAME@** for uninflected nouns
@@ -135,14 +135,14 @@ LEXICON x0_pl
 
 
 
-LEXICON n2
+LEXICON n1
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
  +N: x1 ;
  +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
-LEXICON n2_pl !
+LEXICON n1_pl !
 !! **LEXICON @LEXNAME@** for the same plural words (*urut*)
  +N: x1_pl ;
 
@@ -650,16 +650,16 @@ LEXICON n5_ie_odd
 ! +N+Sg+Gen:^WG%>n R ;
 
 LEXICON n5_nuoret_pl !Temp lexica?
-!! **LEXICON @LEXNAME@** same as n2_pl except Pl+Gen: nuoret>nuorten 
-:e n2_pl ;
+!! **LEXICON @LEXNAME@** same as n1_pl except Pl+Gen: nuoret>nuorten 
+:e n1_pl ;
 +N+Pl+Gen:%>te n_PxK ;
 
 LEXICON n5_i_pl
-!! **LEXICON @LEXNAME@** cont lexica for type n2-words ending with -i
+!! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 +N: x5_i_pl ;
 
 LEXICON x5_i_pl
-!! **LEXICON @LEXNAME@** cont lexica for type n2-words ending with -i
+!! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 +Pl+Nom:^WG%> t_PxK ;
 +Pl+Par:^IDEL%>e%>j^A PxK ;
 +Pl+Gen:%>e n_PxK ;

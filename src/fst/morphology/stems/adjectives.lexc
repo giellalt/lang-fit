@@ -7,7 +7,7 @@
 
 !! * a1 = kaksitavuiset
 !! * a3 = kolmitavuiset
-!! * a4 = kaksitavuiset, vartalo -e
+!! * a_e = vartalo -e
 !! * aas = tarmokas
 !! * anen = nen-adjektiivit
 
@@ -373,14 +373,14 @@ kätheentuntuva:kätheen#tuntuva a3 ;
 maistuva:maistuva a3 ;
 verelemaistuva:verelemaistuva ax ;
 tyköistuva:tyköistuva ax ;
-viime:viime a2 ;
-ahne:ahne a2 ;
-tiine:tiine a2 ;
-luone:luone a2 ;
-tyyne:tyyne a2 ;
-tuore:tuore a2 ;
-komeaperse:komea#perse a2 ;
-terve:terve a2 ;
+viime:viime a_e ;
+ahne:ahne a_e ;
+tiine:tiine a_e ;
+luone:luone a_e ;
+tyyne:tyyne a_e ;
+tuore:tuore a_e ;
+komeaperse:komea#perse a_e ;
+terve:terve a_e ;
 tyffi:tyffi ax ;
 frii:frii ax ;
 tullifrii:tulli#frii ax ;
