@@ -1483,6 +1483,7 @@ ylöspäin:ylöspäin ax ;
 paikon:paikon ax ;
 
 julkijumalaton:julkijumalat a1_ton ;
+korjaamaton:korjaamat a1_ton ;
 kantamaton:kantamat a1_ton ;
 kastamaton:kastamat a1_ton ;
 naimaton:naimat a1_ton ;
