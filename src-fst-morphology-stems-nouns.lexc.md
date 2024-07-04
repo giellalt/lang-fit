@@ -18,7 +18,7 @@ This is an overview of the continuation lexicon types.
 * n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-* n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
+* n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
 
 ### Stems for -i-words, vowel AND consonant
 * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
