@@ -16,6 +16,7 @@
 !! * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 !! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+!! * n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
 
 !! ### Stems for -i-words, vowel AND consonant
 !! * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
@@ -403,6 +404,25 @@ LEXICON x3_pl
  +Pl+Tra:%>i2 TRA ;
  +Pl+Ess:%>i2n^A PxK ;
  +Pl+Abe:%>i2tt^A PxK ;
+
+ LEXICON n3_lma
+ !! **LEXICON @LEXNAME@**
+ +N:a x3_sg ;
+ +N+Pl+Nom:a^WG%> t_PxK ;
+ +N+Pl+Gen:%>i2tte n_PxK ;
+ +N+Pl+Gen+Err/Orth:%>i2e n_PxK ;
+ +N+Pl+Par:%>i2t^A PxK ; !asioita
+ +N+Pl+Ill:i^HMETA%>h^Vi2 n_PxK ;
+ +N+Pl+Ill:i^HMET2%>h^Vi2 n_PxK ;
+ +N+Pl+Ine:^WG%>i2ss^A PxK ;
+ +N+Pl+Ela:^WG%>i2st^A PxK ;
+ +N+Pl+All:^WG%>i2lle PxK ;
+ +N+Pl+Ade:^WG%>i2ll^A PxK ;
+ +N+Pl+Abl:^WG%>i2lt^A PxK ;
+ +N+Pl+Tra:%>i2 TRA ;
+ +N+Pl+Ess:%>i2n^A PxK ;
+ +N+Pl+Abe:%>i2tt^A PxK ;
+
 
 LEXICON 3nc ! jiddisch
 !! **LEXICON @LEXNAME@**

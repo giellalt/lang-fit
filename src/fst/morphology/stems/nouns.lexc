@@ -18,7 +18,7 @@
 !! * n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 !! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-!! * n3_lma = odd-syllabic nouns with a-drop in plural: ohjelma, ongelma, unelma
+!! * n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
 
 !! ### Stems for -i-words, vowel AND consonant
 !! * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
@@ -2573,10 +2573,10 @@ valmat:valma n1_pl ;
 kurttavalma:kurttavalma nx ;
 helma:helma nx ;
 vielma:vielma nx ;
-ohjelma:ohjelma nx ;
+ohjelma:ohjelm n3_lma ;
 katkelma:katkelma nx ;
 vuohisenkatkelma:vuohisenkatkelma nx ;
-unelma:unelma nx ;
+unelma:unelm n3_lma ;
 kokoelma:kokoelma n1 ;
 suunitelma:suunitelma n1 ;
 muistelma:muistelma nx ;
@@ -3779,7 +3779,7 @@ vaararrinta:vaararrinta nx ;
 laulurinta:laulurinta nx ;
 leppärinta:leppärinta nx ;
 karsinta:karsinta nx ;
-sanonta:sanonta nx ;
+sanonta:sanonta n3 ;
 sonta:sonta nx ;
 mustasontanen:mustasonta 3nen ;
 karjansonta:karjansonta nx ;
@@ -18593,7 +18593,7 @@ opiskelia:opiskelia nx ;
 omakeitto:omakeitto nx ;
 onkija:onkija nx ;
 orjeli:orjeli nx ;
-ongelma:ongelma nx ;
+ongelma:ongelm n3_lma ;
 oksennus:oksennnu 4n_ks ;
 olemus:olemu 4n_ks ;
 olinpaikka:olinpaikka nx ;
@@ -19153,7 +19153,7 @@ ameriikankieli:ameriikankiele n5_kieli ;
 arkkio:arkkio nx ;
 alihirsi:alihirsi nx ;
 aurinkopaistet:aurinkopaiste n_et ;
-anttiviirysohjelma:anttiviirysohjelma nx ;
+anttiviirysohjelma:anttiviirys#ohjelm n3_lma ;
 amme:amme nx ;
 alkkoholisti:alkkoholisti nx ;
 apuväline:apuväline nx ;
@@ -19167,7 +19167,7 @@ aaria:aaria nx ;
 akupunktiaparaatti:akupunktiaparaatti nx ;
 alkuperäskansa:alkuperäskansa nx ;
 aviopari:aviopari nx ;
-alkkohooliongelma:alkkohooliongelma nx ;
+alkkohooliongelma:alkkohooli#ongelm n3_lma ;
 althaanreuna:althaanreuna nx ;
 asene:asene nx ;
 akseleraattori:akseleraattori nx ;
@@ -21610,7 +21610,7 @@ leiripaikka:leiripaikka nx ;
 leirisia:leirisia nx ;
 likheys:likhey 3n_ue ;
 loppukiri:loppukiri nx ;
-lämpöongelma:lämpöongelma nx ;
+lämpöongelma:lämpö#ongelm n3_lma ;
 leviitti:leviitti nx ;
 lämpörööri:lämpörööri nx ;
 loihtu:loihtu nx ;
