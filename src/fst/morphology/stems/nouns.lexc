@@ -12,23 +12,24 @@
 !! * 3nc = for triple-consonant-final (jiddisch)
 
 !! ### Vowel stems
-!! * n0 = 1syll  nouns: maa, suu, tie
+!! * n0 = 1syll nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
 !! * n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
-!! * n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-!! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+!! * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
+!! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-!! * n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
+!! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 !! ### Stems for -i-words, vowel AND consonant
 !! * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
 !! * n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
 !! * n5_kasi = käsi:kä > käden > kättä (2syll)
-!! * n5_lumi = lumi:lu > lumen > lunta (2syll)
-!! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
 !! * n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+
 !! ### Special cases for -i-words
+!! * n5_lumi = lumi:lu > lumen > lunta (2syll)
+!! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
@@ -43,8 +44,8 @@
 !! * 3nen = hevonen:hevo >hevoselle
 !! * 3n_ks = keskus:kesku > keskuksen, keskukselle
 !! * 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
-
 !! * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
+
 !! * 3n_ue = lakeus - lakeude
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
@@ -12601,8 +12602,8 @@ morsiamenkruunu:morsiamenkruunu nx ;
 pankkokruunu:pankkokruunu nx ;
 joulukruunu:joulukruunu nx ;
 vesiputhous:vesi#puthou 3n_ks ;
-paljous:paljou 3n_ks ;
-ujous:ujou 3n_ks ;
+paljous:paljou 3n_ue ;
+ujous:ujou 3n_ue ;
 heikkous:heikkou 3n_ks ;
 kokkous:kokkou 3n_ks ;
 rukkous:rukkou 3n_ks ;
@@ -12613,15 +12614,15 @@ pirrikokous:pirri#kokou 3n_ks ;
 pohkeankokous:pohkean#kokou 3n_ks ;
 nenäkokous:nenä#kokou 3n_ks ;
 rukous:rukou 3n_ks ;
-talous:talou 3n_ks ;
-maatallous:maa#tallou 3n_ks ;
+talous:talou 3n_ue ;
+maatallous:maa#tallou 3n_ue ;
 vallankumous:vallankumou 4n_ks ;
 lumous:lumou 3n_ks ;
 kehnous:kehnou 3n_ks ;
 kirous:kirou 3n_ks ;
 loittous:loittou 3n_ks ;
-puttous:puttou 3n_ks ;
-putous:putou 3n_ks ;
+puttous:puttou 3n_ue ;
+putous:putou 3n_ue ;
 apu:apu nx ;
 matka-apu:matka-apu nx ;
 messukaapu:messukaapu nx ;
@@ -17038,7 +17039,7 @@ harjotella:harjotella nx ;
 haukotus:haukotu 4n_ks ;
 hautopata:hautopata nx ;
 hauvankaivaja:hauvankaivaja nx ;
-heikous:heikous nx ;
+heikous:heikou 3n_ue ;
 heilahtus:heilahtu 4n_ks ;
 heilaus:heilau n_uus ;
 heinakuu:heinakuu nx ;
@@ -17301,7 +17302,7 @@ housunpelli:housunpelli nx ;
 huopatossufapriiki:huopatossufapriiki nx ;
 hotusiini:hotusiini nx ;
 hotusiinivalo:hotusiinivalo nx ;
-hoopous:hoopous nx ;
+hoopous:hoopous 3n_ue ;
 hautajäiskalja:hautajäiskalja nx ;
 herskaappiväki:herskaappiväki nx ;
 herskaappiusko:herskaappiusko nx ;
@@ -19836,7 +19837,7 @@ nässelfeeperi:nässelfeeperi nx ;
 nahkahiutale:nahkahiutale nx ;
 naimahalu:naimahalu nx ;
 narkotiikka:narkotiikka nx ;
-nazistipaljous:nazistipaljous nx ;
+nazistipaljous:nazisti#paljou 3n_ue ;
 neljäntoistavuotias:neljäntoistavuotia nas ;
 neuvottelija:neuvottelija nx ;
 norbotteninspetsi:norbotteninspetsi nx ;
@@ -22709,7 +22710,7 @@ veripyttinki:veripyttinki nx ;
 verenantaja:verenantaja nx ;
 verenlissääminen:verenlissäämi nen ;
 vattasylki:vattasylki nx ;
-velttous:velttous nx ;
+velttous:velttou 3n_ue ;
 valmu:valmu nx ;
 viintryyva:viintryyva nx ;
 väinönputki:väinönputki nx ;

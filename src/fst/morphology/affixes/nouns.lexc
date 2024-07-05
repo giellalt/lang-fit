@@ -14,19 +14,20 @@
 !! * n1 = 2syll ordinary nouns: talo
 !! * n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
 !! * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-!! * n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+!! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-!! * n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
+!! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 !! ### Stems for -i-words, vowel AND consonant
 !! * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
 !! * n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
 !! * n5_kasi = käsi:kä > käden > kättä (2syll)
-!! * n5_lumi = lumi:lu > lumen > lunta (2syll)
-!! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
 !! * n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+
 !! ### Special cases for -i-words
+!! * n5_lumi = lumi:lu > lumen > lunta (2syll)
+!! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 !! * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
@@ -314,34 +315,34 @@ LEXICON x_e_pl
 
 LEXICON n_vehke
 n_e ;
-+N+Sg+Gen:%>ee n_PxK ; 
-+N+Sg+Ill:%>eeshee n_PxK ; !vehkeesheen
-+N+Sg+Ill:%>eesee n_PxK ; !vehkeeseen
-+N+Sg+Ill:h%>eesee n_PxK ; !vehkheeseen
-+N+Sg+Ine:%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
-+N+Sg+Ela:%>eest^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
-+N+Sg+All:%>eele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
-+N+Sg+Ade:%>eel^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
-+N+Sg+Abl:%>eelt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
-+N+Sg+Tra:%>ee TRA ; 
-+N+Sg+Ess:%>een^A PxK ; !TEST stryka WG före h?
++N+Sg+Gen:%>e n_PxK ; 
++N+Sg+Ill:%>eshee n_PxK ; !vehkeesheen
++N+Sg+Ill:%>esee n_PxK ; !vehkeeseen
++N+Sg+Ill:h%>esee n_PxK ; !vehkheeseen
++N+Sg+Ine:%>ess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
++N+Sg+Ela:%>est^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
++N+Sg+All:%>ele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
++N+Sg+Ade:%>el^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
++N+Sg+Abl:%>elt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
++N+Sg+Tra:%>e TRA ; 
++N+Sg+Ess:%>en^A PxK ; !TEST stryka WG före h?
 +N+Sg+Abe:%>ett^A PxK ;
 
-+N+Pl+Nom:%>ee t_PxK ; !
-+N+Pl+Gen:%>eitte n_PxK ; !
++N+Pl+Nom:%>e t_PxK ; !
++N+Pl+Gen:%>itte n_PxK ; !
 +N+Pl+Par:h%>ej^A   PxK ; !
-+N+Pl+Par:%>eit^A   PxK ; !
-+N+Pl+Ill:%>ei2shii n_PxK ; !
++N+Pl+Par:e%>it^A   PxK ; !
++N+Pl+Ill:e%>i2shii n_PxK ; !
 +N+Pl+Ill:h%>ei2ssii n_PxK ; !
-+N+Pl+Ill:%>ei2ssii n_PxK ; !
-+N+Pl+Ine:%>ei2ss^A   PxK ; ! 
-+N+Pl+Ela:%>ei2st^A   PxK ; ! 
-+N+Pl+All:%>ei2le    PxxK ; ! 
-+N+Pl+Ade:%>ei2l^A    PxK ; ! 
-+N+Pl+Abl:%>ei2lt^A    PxK ; ! 
-+N+Pl+Tra:%>ei2 TRA ; !
-+N+Pl+Ess:%>ei2n^A PxK ; !
-+N+Pl+Abe:%>ei2tt^A PxK ; !
++N+Pl+Ill:e%>i2ssii n_PxK ; !
++N+Pl+Ine:e%>i2ss^A   PxK ; ! 
++N+Pl+Ela:e%>i2st^A   PxK ; ! 
++N+Pl+All:e%>i2le    PxxK ; ! 
++N+Pl+Ade:e%>i2l^A    PxK ; ! 
++N+Pl+Abl:e%>i2lt^A    PxK ; ! 
++N+Pl+Tra:e%>i2 TRA ; !
++N+Pl+Ess:e%>i2n^A PxK ; !
++N+Pl+Abe:e%>i2tt^A PxK ; !
 
 LEXICON n_et
 n_e ;
