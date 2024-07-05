@@ -12,23 +12,24 @@ This is an overview of the continuation lexicon types.
 * 3nc = for triple-consonant-final (jiddisch)
 
 ### Vowel stems
-* n0 = 1syll  nouns: maa, suu, tie
+* n0 = 1syll nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
 * n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
-* n_vehke = vehe:vehke; including variant form without -h: vehkheen AND vehkeen
-* n_et = for variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
+* n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-* n3_lma = odd-syll nouns with a-drop in plural (and double-cons; compare sanonta): ohjelma, ongelma, unelma
+* n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 ### Stems for -i-words, vowel AND consonant
 * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
 * n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
 * n5_kasi = käsi:kä > käden > kättä (2syll)
-* n5_lumi = lumi:lu > lumen > lunta (2syll)
-* n5_lapsi = lapsi:la > lapsen > lasta
 * n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
 * n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+
 ### Special cases for -i-words
+* n5_lumi = lumi:lu > lumen > lunta (2syll)
+* n5_lapsi = lapsi:la > lapsen > lasta
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
 * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
@@ -43,8 +44,8 @@ This is an overview of the continuation lexicon types.
 * 3nen = hevonen:hevo >hevoselle
 * 3n_ks = keskus:kesku > keskuksen, keskukselle
 * 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
-
 * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
+
 * 3n_ue = lakeus - lakeude
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
