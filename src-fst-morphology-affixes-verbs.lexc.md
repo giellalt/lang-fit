@@ -7,7 +7,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the Regular verbs
 * v1 = antaa; sanoa:sano
 * v1_tietaa = tietää:ti
-* v1_odd = tapahtua>tapahtunnu (odd-syll-stem), other forms like v1
+* v1_odd = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * v2_ata = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * v2_uta = leipota:leippo (+^A^A i Sg3)
 * v2 = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
