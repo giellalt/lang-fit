@@ -412,7 +412,7 @@ LEXICON x3_pl
  +N+Pl+Nom:a^WG%> t_PxK ;
  +N+Pl+Gen:%>i2tte n_PxK ;
  +N+Pl+Gen+Err/Orth:%>i2e n_PxK ;
- +N+Pl+Par:%>i2t^A PxK ; !asioita
+ +N+Pl+Par:%>i2^A PxK ; 
  +N+Pl+Ill:i^HMETA%>h^Vi2 n_PxK ;
  +N+Pl+Ill:i^HMET2%>h^Vi2 n_PxK ;
  +N+Pl+Ine:^WG%>i2ss^A PxK ;
