@@ -1779,31 +1779,31 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ## Overview over the continuation classes
 
-### Overview over the Regular verbs
-* v1 = antaa; sanoa:sano
-* v1_tietaa = tietää:ti
-* v1_odd = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
-* v2_ata = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
-* v2_uta = leipota:leippo (+^A^A i Sg3)
-* v2 = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-* v3 = myyta:myy
-* v3_j = viejä, saaja
-* v4 = nousta; tulla:tul
-* v4_3la = varjela, varjelee
-* v4_4lla = ajatella, ajattellee
-* v5 = tarvita:tarv
-* v6 = paeta:pake
-* v_vanheta = vanheta
-* vx = unassigned
+### Continuation lexica for regular verbs
+* **v1** = antaa-type; sanoa:sano
+* **v1_tietaa** = tietää:ti
+* **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+* **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+* **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
+* **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
+* **v3** = syö'ä:syö 
+* **v4** = nousta; tulla:tul
+* **v4_3la** = varjela, varjelee
+* **v4_4lla** = ajatella, ajattellee
+* **v5** = tarvita:tarv
+* **v6** = paeta:pake
+* **v_vanheta** = vanheta
+* **vx** = unassigned
 
-### Overview over the Irregular verbs
-* OLLA = olla:olla 
-* v3_kaya = käyä:kä
-* v3_nahha = nähhä:nä
-* v3_tehha = tehhä:te
-* v3_jua ! Stem ju-, short inf, otherwise like v3_j 
-* v3_syä ! Stem sy-, short inf, otherwise like v3_j
-
+### Continuation lexica for irregular verbs
+* **v3_tehha**
+* **v3_nahha**
+* **v3_kaya**
+* **OLLA**
+* **NEG**
+* **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
+* **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
 ## The verb lexica themselves
 
 * **LEXICON vx**
@@ -3535,18 +3535,17 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 ## Overview over the continuation lexica
 
 ### Continuation lexica for regular verbs
-* **v1** = antaa; sanoa:sano
+* **v1** = antaa-type; sanoa:sano
 * **v1_tietaa** = tietää:ti
 * **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
-* **v2_ata** = masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
-* **v2_ata_odd** = huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
-* **v2_uta** = leipota:leippo (+^A^A i Sg3)
+* **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+* **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+* **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
 * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-* **v3** = syö'ä:syö ! ', ’
+* **v3** = syö'ä:syö 
 * **v4** = nousta; tulla:tul
 * **v4_3la** = varjela, varjelee
 * **v4_4lla** = ajatella, ajattellee
-* **v2** = tryykätä:tryykkä
 * **v5** = tarvita:tarv
 * **v6** = paeta:pake
 * **v_vanheta** = vanheta
