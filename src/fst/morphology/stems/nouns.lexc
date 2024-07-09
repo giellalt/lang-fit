@@ -9742,7 +9742,7 @@ laittomuus:laittomuu n_uus ;
 kurittomuus:kurittomuu n_uus ;
 mahottomuus:mahottomuu n_uus ;
 varmuus:varmuu n_uus ;
-evankeeljum:evankeeljum nc ; !CHECK!
+evankeeljum:evankeeljum nc ;
 evankeeljumi:evankeeljumi n5_troppi ;
 vaanuus:vaanuu n_uus ;
 morsian:morsia 3n_ime ;
@@ -9767,7 +9767,6 @@ koskuskymmen:koskuskymmen 3n_lnr ;
 kämmen:kämmen 3n_lnr ;
 karhunkämmen:karhun#kämmen 3n_lnr ;
 vesen:vesen 3n_lnr ;
-!uposen:uposen 3n_lnr ; !CHECK!
 joutsen:joutsen 3n_lnr ;
 jäsen:jäsen 3n_lnr ;
 nilkkajäsen:nilkka#jäsen 3n_lnr ;
@@ -9782,7 +9781,6 @@ ahven:ahven 3n_lnr ;
 meriahven:meri#ahven 3n_lnr ;
 norjanahven:norjan#ahven 3n_lnr ;
 nylkyahven:nylky#ahven 3n_lnr ;
-!valkeakiven:valkeakiven nx ; !CHECK!
 riven:riven 3n_lnr ;
 kyven:kyven 3n_lnr ;
 pillainuus:pillainuu n_uus ;
@@ -9800,8 +9798,6 @@ lehmälaijun:lehmälaiju 3n_ime ;
 kesälaijun:kesälaiju 3n_ime ;
 laitun:lait2u 3n_ime ;
 istun:istu 3n_ime ;
-!järryn:järryn nx ; !CHECK
-!isämeijän:isämeijän nx ;  !CHECK
 turvakkao:turvakkao n1 ;
 teos:teo 3n_ks ;
 kangonen:kango 3nen ;
@@ -11610,7 +11606,7 @@ muurasmätäs:muuras#mättä nas ;
 matkaeväs:matka#evä nas ;
 kusieväs:kusi#evä nas ;
 seiväs:seivä nas ;
-varasseiväs:varas#seivä nas ; !CHECK varan-seiväs?
+varanseiväs:varan#seivä nas ;
 pylväs:pylvä nas ;
 vuosisaaphaat:vuosisaappa nas_h_pl ;
 vareksensaaphaat:vareksensaappa nas_h_pl ;
@@ -15497,7 +15493,7 @@ farisealainen:farisealai nen ;
 covid-19 n_nomorph ;
 jpg n_nomorph ;
 sapatti:sapatti n5_troppi_odd ;
-säänö:säänö n1 ; !CHECK plural?
+säänö:säänö n1 ; 
 tarina:tarina n3 ;
 kuolu:kuolu n1 ;
 kuollu:kuollu n1 ;

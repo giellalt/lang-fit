@@ -307,7 +307,7 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t:l"  
 !! **RULE: @RULENAME@** for lt:ll
-t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ; ! CHECK feb
+t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ; 
         !Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 !! **Tests:**
@@ -318,7 +318,6 @@ t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ; ! CHECK feb
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
 t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ :Vow WeakGrade ; ! kanta : kannan
-        !(Cns:*) Vow:+  n: (%>) _ :Vow WeakGrade [s|%>|#] ; ! [s|%> [\i2:i|\i3:i]|.#.] ; ! CHECK feb
 
 !! **Tests:**
 
@@ -328,7 +327,6 @@ t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ :Vow WeakGrade ; ! kanta : kannan
 "t:r" 
 !! **RULE: @RULENAME@** for rt:rr 
 t:r <=>  Vow:+ r: _ :Vow WeakGrade ; ! kerta : kerran
-        !Vow:+ r: _ :Vow WeakGrade (%^HMET2 %>) [s|%> [\i2:i|i3:i]|.#.] ; ! CHECK feb
 
 !! **Tests:**
 
@@ -393,7 +391,6 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
         [.#.|#] Cns:* Vow h _  :y (Dummy:) %> (h) :y ;
         [.#.|#] Cns:* Vow h _  :ä (Dummy:) %> (h) :ä ;
         [.#.|#] Cns:* Vow h _  :ö (Dummy:) %> (h) :ö ;
-                  !Vow Vow   _ [l|m|n|r|v|%^N:] e: %^WG: %> h: e e : ; ! huo0ne^WG>een : huohne0>een !CHECK needed?
         !Rules for metathesis type two, position 1 in Kuoppa (efter två tonande Cns)
                   Vow   l   _ [j|  m|n|r|v|%^N:] Vow: %^HMET2: ; ! ilhmaa lm, lv, 
                   Vow   r   _ [j|  m|n  |v|%^N:] Vow: %^HMET2: ; ! varhmaan, Norhjaan
@@ -520,7 +517,6 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 	[.#.|Cns] Vow s :s Vow: %^HMETA: %> _ %^V: %^V: ; ! issoon
                                       Vow h _ Vow: (%^WG:) [%^HMETA: |%^HMET2:] ; 
                                       !Cns _ Vow: [%^HMETA: |%^HMET2:] %> h ; !vanha >vanhaan ! TEST jan remove to get vanhhaan
-  !Vow Vow   :h [l|m|n|r|v] e:   %^WG:    %> _ e e ; ! CHECK NEEDED?
 !Rules for metathesis type two, position 1 in Kuoppa/Mantila (efter två tonande Cns)
         Vow   l   :h [j|  m|n|r|v|%^N:] Vow: %^HMET2: %> _ ; ! ilhmaa lm, lv, 
         Vow   r   :h [j|  m|n  |v|%^N:] Vow: %^HMET2: %> _ ; ! Norhjaan
@@ -892,9 +888,6 @@ UnroundedVowel (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :
 [.#.|#|Cns] [a|e|i] (Vow:) (:h) Cns:*                    a: [%^HMETA:|%^HMET2:] %>  (h:)   _ i2: ; !saunhoin/saunhoin 
 [.#.|#] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ Cns: Cns: (Cns:) a: [%^HMETA:|%^HMET2:] %> (h:)  _ i2: ; !Pl+Ill för >2-syll-nouns: a>o efter två Cns (almunakka>almunakhoin) **conflict**
 [.#.|#] (Cns:*) Vow:+ Cns:+ Cns:+ Vow:+ [l|n|r] a: [%^HMETA:|%^HMET2:] %> (h:)  _ i2: ; !Pl+Ill för >2-syll-nouns: a>o efter lnr (ikkuna) **conflict**
-! previuos right context was [:i|i2:]
-![.#.|#|Cns]  [a|e|i] Cns:* (:h) (Cns:) a:  [%^HMETA:|%^HMET2:] %> h:    _ [:i|i2:] ; !CHECK för vad??
-![.#.|#] Cns:* UnroundedVowel:+ u Cns:+  Vow: (%^HMETA:|%^HMET2:) %> h _ [i2:|i3:|i8:|j|i:] ; !CHECK för vad??
 
 !! **Tests:**
 
