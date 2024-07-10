@@ -15,7 +15,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 ## Regular lexica
 
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-* +A: x1 ;
 
 * +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
