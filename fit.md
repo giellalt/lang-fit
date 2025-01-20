@@ -1857,8 +1857,6 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v4** tulla, mennä etc
 
-* **LEXICON v4_syljästä** julkasta etc, points to v4_julkas
-
 * **LEXICON v4_julkasta** julkasta etc
 
 * **LEXICON v4_julkas** julkasta etc
@@ -2724,6 +2722,17 @@ This is for pronouns with multiple case suffixes (*jommallekummalle*)
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 These are for preprocessing
 
