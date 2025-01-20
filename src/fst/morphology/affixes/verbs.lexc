@@ -572,7 +572,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä 
 +V+Inf:y%>^A KK ; ! 
 +V+Act+Ind+Prs:y^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg2:%>t_KK ; !TEST 22/4 käytkö>käykkö
++V+Act+Ind+Prs+Sg2:%>t KK ; !TEST 22/4 käytkö>käykkö
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Sg3:y%>pii K ;
 +V+Act+Ind+Prs+Pl3:y%>vä K ; ! 
@@ -800,9 +800,9 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 
 +V+Der+Der/minen+N:emi xnen ;
 
-LEXICON v4_syljästä !!≈ * **@CODE@** julkasta etc, points to v4_julkas
-+V+Inf:^WG%>^N^A KK ;
-+V+Inf:%>^N^A KK ;
+!LEXICON v4_syljästä !!≈ * **@CODE@** julkasta etc, points to v4_julkas
+!+V+Inf:^WG%>^N^A KK ;
+!+V+Inf:%>^N^A KK ;
 
 LEXICON v4_julkasta  !!≈ * **@CODE@** julkasta etc
 +V+Inf:%>^N^A KK ;

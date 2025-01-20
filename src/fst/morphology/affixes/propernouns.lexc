@@ -79,15 +79,12 @@ LEXICON p_org_3
 LEXICON p_mal_3
 +N+Prop+Sem/Mal: x3 ;
 
-LEXICON p_mal_2
-+N+Prop+Sem/Mal: x2_sg ;
-
-LEXICON p_plc_2
-+N+Prop+Sem/Plc: x2_sg ;
-@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
-
 LEXICON p_plc_xnas
 +N+Prop+Sem/Plc: xnas_sg ;
+@U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
+
+LEXICON p_plc_e
++N+Prop+Sem/Plc: x_e_sg ;
 @U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
 
 
