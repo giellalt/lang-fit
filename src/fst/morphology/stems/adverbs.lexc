@@ -27,6 +27,7 @@ likele adv ;
 vuona adv ;
 pitkälti adv ;
 justhiinsa adv ;
+justhiins adv ; ! xxx?
 online adv ;
 yllä adv ;
 niin adv ; !!≈ * @CODE@ 
@@ -46,11 +47,13 @@ kauas adv ;
 kauan adv ;
 paljo adv ;
 ennenku adv ;
+ennenko adv ;
 muumuassa adv ;
 oikeasthaan adv ;
 mitenkä adv ;
 oikhein adv ; !CHECK EK
 oiken adv ;
+oikeen adv ; ! xxx???
 oikheen adv ;
 oikhen adv ;
 mukana adv ;
@@ -893,6 +896,7 @@ ennemin advx ;
 paremin advx ;
 hiljasemin advx ;
 kovemin advx ;
+usseen advx ;
 useimmin advx ;
 vähemin advx ;
 pahoin advx ;
@@ -1321,3 +1325,4 @@ päivemällä:päivemällä adv ;
 koska:koska adv ;
 koskas:koskas adv ;
 ilmi:ilmi adv ;
+tänäpäivänä adv ;
