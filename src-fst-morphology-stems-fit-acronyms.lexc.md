@@ -5,7 +5,7 @@
 The file [stems/fit-acronyms.lexc](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/pronouns.lexc) is a dummy file, with this comtent only:
 
 * LEXICON Acronym-fit 
-* XXX Acronym-fit-suf ;  to be replaced with fit content
+* STR-T Acronym-fit-suf ;  to be replaced with fit content
 
 * * *
 
