@@ -45,11 +45,11 @@ Here we group the symbols in convenient sets.
 * NeutralVowel   = e i               i2 i3 i4 i5 i9 i8 E I ;            
 * FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ;  
 * BackVowel      =           a o u å                       A O U Å   ;  
-* RoundedVowel   =     y   ö   o u å                 Y   Ö   O U Å   ;  
-* UnroundedVowel = e i   ä   a                   E I   Ä   A         ;  
+* RndVow   =     y   ö   o u å                 Y   Ö   O U Å   ;  
+* UnRndVow = e i   ä   a                   E I   Ä   A         ;  
 * VowelNotUY     = e i   ä ö a o   å ü  æ  ø     E I   Ä Ö A O Å Ü Æ Ø ;  
-* VowelNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O U Å Ü Æ Ø ;  
-* VowelNotIU     = e   y ä ö a o   å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
+* VowNotI      = e   y ä ö a o u å ü  æ  ø     E   Y Ä Ö A O U Å Ü Æ Ø ;  
+* VowNotIU     = e   y ä ö a o   å ü  æ  ø     E   Y Ä Ö A O Å Ü Æ Ø ;  
 * VowelNotEI     =     y ä ö a o u å ü  æ  ø         Y Ä Ö A O U Ü Ä Ö ;  
 * Vow            = FrontVowel BackVowel ArchiVowel SomeVowel ;          
 * ArchiCns       = %^N ;                                               
@@ -99,10 +99,13 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 * *takki^WG>n*
 * *tak0i0>n*
+
 * *johke^WG*
 * *joh0e0*
+
 * *ääkkä^HMETA>h^V^Vn*
 * *ääk000>hään*
+
 * *vaike^WG>t^A*
 * *vai0e0>ta*
 
@@ -117,8 +120,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 * *kehke^WG>t^A* `!` (Eng. k3:j ?)
 * *kehje0>tä*
+
 * *vehke^WG* `!` (Eng. k:0?)
-* *veh0e^WG*
+* *veh0e0*
 
 **RULE: k:v**
 
@@ -151,6 +155,7 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 * *papu^WG>n*
 * *pavu0>n*
+
 * *varpa^WGs*
 * *varva0s*
 
@@ -164,37 +169,35 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 ### t rules
 
-**RULE: t:0**
-
-**Tests:**
-
-* *motti^WG*
-* *mot0i0*
-* *tehta^WGs*
-* *teh0a0s*
-* *pitä^WG>t*
-* *pi0ä0>t*
-* *tytär^WG*
-* *ty0är0*
+**RULE: t:j**
 
 **RULE: t4:0** where *t4* is *t* in *rt* that shall not become *rr* 
 
 **Tests:**
-
 * *imart4el^WG>l^A*
 * *imar0el0>la*
 
-**RULE: t:j**
+**RULE: t:0**
 
 **Tests:**
+* *motti^WG*
+* *mot0i0*
+* *tehta^WGs*
+* *teh0a0s*
+* *pitä^WGt*
+* *pi0ä0t*
+* *tytär^WG*
+* *ty0är0*
 
+**RULE: t:s**
+
+**Tests:**
 * *hoito^WG>n*
 * *hoijo0>n*
 
 **RULE: t:l  ** for lt:ll
 
 **Tests:**
-
 * *kulta^WG>n*
 * *kulla0>n*
 
@@ -205,6 +208,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *kanta^WG>n*
 * *kanna0>n*
 
+* *kunta^WG>i2>st^A*
+* *kunn00>i>sta*
+
 **RULE: t:r ** for rt:rr 
 
 **Tests:**
@@ -212,14 +218,13 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *jukertel^WG>l^A*
 * *jukerrel0>la*
 
-**RULE: t:s**
-
 **Tests:**
-
 * *vete^E2I*
 * *vesi0*
+
 * *vere^E2I*
 * *veri0*
+
 * *varte^E2I*
 * *varsi0*
 
