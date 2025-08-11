@@ -43,7 +43,7 @@ Multichar_Symbols
 +Coll     !!≈ * **@CODE@** =
 +MWE     !!≈ * **@CODE@** =
 +LEFT     !!≈ * **@CODE@** =
-+RIGHT     !!≈ * **@CODE@** =
++RIGHT +MIDDLE !!≈ * **@CODE@** =
 +ABBR	  !!≈ * **@CODE@**
 +ACR	  !!≈ * **@CODE@**
 +Abbr	  !!≈ * **@CODE@**
