@@ -2464,7 +2464,7 @@ Beware of remnants from the Finnish and Kven files.
 * **+Coll** =
 * **+MWE** =
 * **+LEFT** =
-* **+RIGHT** =
+* **+RIGHT +MIDDLE** =
 * **+ABBR**
 * **+ACR**
 * **+Abbr**
