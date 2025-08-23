@@ -2647,6 +2647,11 @@ Tag
 * **%^M2N** = for m to n in lumi lunta
 * **%^¤** = potecting against e:i word-finally (nalle, liike)
 
+### Miscellanious tags
+
+* **+Span** = ?
+* **+Use/-GC** = ? 
+
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
