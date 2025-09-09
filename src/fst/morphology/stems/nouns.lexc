@@ -58,6 +58,8 @@
 
 !! # The lexica themselves
 
+!uu:uu nx ; ! tämä on vaarallinen sana
+
 !! The lemma list
 LEXICON NounRoot !!≈ * **@CODE@**
 huornanen:huorna 3nen ;
@@ -13258,7 +13260,6 @@ kluutu:kluutu nx ;
 klasiruutu:klasiruutu nx ;
 asuransipruutu:asuransipruutu nx ;
 saavutus:saavutu 4n_ks ;
-uu:uu nx ;
 karhuu:karhuu nx ;
 karhuu:karhuu nx ;
 tokkakarhuu:tokkakarhuu nx ;

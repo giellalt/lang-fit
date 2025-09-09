@@ -724,6 +724,7 @@ LEXICON xnen_sg
 !! **LEXICON @LEXNAME@**
 +Sg:se 2cases ; !!≈ @CODE@ for  Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
++Der/suus:suu n_uus ;
 
 LEXICON xnen_pl
 !! **LEXICON @LEXNAME@**
