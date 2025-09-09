@@ -102,7 +102,7 @@ LEXICON AFTpunkt
 LEXICON BEF
 2%0:kymmenen%  TOHALF ;
  21:yheksän%  TOHALF ;
- 22:kadeksän%  TOHALF ;
+ 22:kaheksan%  TOHALF ;
  23:seittemän%  TOHALF ;
  24:kuusi%  TOHALF ;
  25:viisi%  TOHALF ; 
@@ -118,11 +118,11 @@ LEXICON BEF
  35:viisi%  OVERHALF ;
  36:kuusi%  OVERHALF ;
  37:seittemän%  OVERHALF ;
- 38:kaheksän%  OVERHALF ; 
+ 38:kaheksan%  OVERHALF ; 
  39:yheksän%  OVERHALF ;
 4%0:kymmenen%   OVERHALF ;
  41:yheksäntoista%  TO ;
- 42:kaheksäntoista%  TO ;
+ 42:kaheksantoista%  TO ;
  43:seittemäntoista%  TO ;
  44:kuusitoista%  TO ;
  45:viisitoista%  TO ;
@@ -132,7 +132,7 @@ LEXICON BEF
  49:yksitoista%  TO ;
 5%0:kymmenen%  TO ;
  51:yheksän%  TO ;
- 52:kaheksän%  TO ;
+ 52:kaheksan%  TO ;
  53:seittemän%  TO ;
  54:kuusi%  TO ;
  55:viisi%  TO ; 
@@ -149,9 +149,9 @@ LEXICON AFT
 %04:nelje%  OVER ;
 %05:viisi%  OVER ;
 %06:kuusi%  OVER ;
-%07:seitsemän%  OVER ;
-%08:kahdeksän%  OVER ;
-%09:yhdeksän%  OVER ;
+%07:seittemän%  OVER ;
+%08:kaheksan%  OVER ;
+%09:yheksän%  OVER ;
 1%0:kymmenen%  OVER ;
 11:yksitoista%  OVER ;
 12:kaksitoista%  OVER ;
@@ -160,7 +160,7 @@ LEXICON AFT
 15:viisitoista%  OVER ;
 16:kuusitoista%  OVER ;
 17:seittemäntoista%  OVER ;
-18:kaheksäntoista%  OVER ;
+18:kaheksantoista%  OVER ;
 19:yheksäntoista%  OVER ;
  
 LEXICON TOHALF
@@ -183,7 +183,7 @@ LEXICON HOUR
 @U.TIME.5@:viis@U.TIME.5@ ENDLEX ;
 @U.TIME.6@:kuus@U.TIME.6@ ENDLEX ;
 @U.TIME.7@:seittemän@U.TIME.7@ ENDLEX ;
-@U.TIME.8@:kaheksän@U.TIME.8@ ENDLEX ;
+@U.TIME.8@:kaheksan@U.TIME.8@ ENDLEX ;
 @U.TIME.9@:yheksän@U.TIME.9@ ENDLEX ;
 @U.TIME.10@:kymmenen@U.TIME.10@ ENDLEX ;
 @U.TIME.11@:yksitoista@U.TIME.11@ ENDLEX ;
