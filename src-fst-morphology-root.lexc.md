@@ -152,6 +152,7 @@ Beware of remnants from the Finnish and Kven files.
 * **+Der/A** = 
 * **+Der** = 
 * **+Der/s** = 
+* **+Der/suus** =
 
 These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
 * **+Ex/N** 
