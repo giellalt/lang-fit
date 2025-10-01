@@ -330,23 +330,33 @@ LEXICON p_adhoc
 
 ! Saba, Elba
 
-LEXICON p_mal_0 +N+Prop+Sem/Mal: x0_sg ;
-LEXICON p_fem_0 +N+Prop+Sem/Fem: x0_sg ;
+LEXICON p_mal_0
+ +N+Prop+Sem/Mal: x0_sg ;
+LEXICON p_fem_0
+ +N+Prop+Sem/Fem: x0_sg ;
 
-LEXICON p_plc_1 +N+Prop+Sem/Plc: x1_sg ;
-LEXICON p_sur_1 +N+Prop+Sem/Sur: x1_sg ;
-LEXICON p_sur_3D +N+Prop+Sem/Sur: x3_sg ;
-LEXICON p_mal_1 +N+Prop+Sem/Mal: x1_sg ;
-LEXICON p_fem_1 +N+Prop+Sem/Fem: x1_sg ;
-LEXICON p_org_1 +N+Prop+Sem/Org: x1_sg ;
-LEXICON p_obj_1 +N+Prop+Sem/Obj: x1_sg ;
+LEXICON p_plc_1
+ +N+Prop+Sem/Plc: x1_sg ;
+LEXICON p_sur_1
+ +N+Prop+Sem/Sur: x1_sg ;
+LEXICON p_sur_3D
+ +N+Prop+Sem/Sur: x3_sg ;
+LEXICON p_mal_1
+ +N+Prop+Sem/Mal: x1_sg ;
+LEXICON p_fem_1
+ +N+Prop+Sem/Fem: x1_sg ;
+LEXICON p_org_1
+ +N+Prop+Sem/Org: x1_sg ;
+LEXICON p_obj_1
+ +N+Prop+Sem/Obj: x1_sg ;
 
 !LEXICON p2_plc
 !+N+Prop+Sem/Plc: x2_sg ;
 
 
 ! Rinta#maa, Kanava, (odd stems = 3p)
-LEXICON p_plc +N+Prop+Sem/Plc: x3_sg ;
+LEXICON p_plc
+ +N+Prop+Sem/Plc: x3_sg ;
 !LEXICON p_sur +N+Prop+Sem/Sur: x3_sg ;
 !LEXICON p_mal +N+Prop+Sem/Mal: x3_sg ;
 !LEXICON p_fem +N+Prop+Sem/Fem: x3_sg ;
@@ -396,24 +406,37 @@ LEXICON p_plc_ks
 !! Consonant stems, odd and even stems
 
 ! Bern (even stem Berni- = p)
-LEXICON p_plc_C +N+Prop+Sem/Plc: p_sg_1 ;
+LEXICON p_plc_C
+ +N+Prop+Sem/Plc: p_sg_1 ;
 @U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
-LEXICON p_sur_C +N+Prop+Sem/Sur: p_sg_1 ;
-LEXICON p_mal_C +N+Prop+Sem/Mal: p_sg_1 ;
-LEXICON p_fem_C +N+Prop+Sem/Fem: p_sg_1 ;
-LEXICON p_org_C +N+Prop+Sem/Org: p_sg_1 ;
+LEXICON p_sur_C
+ +N+Prop+Sem/Sur: p_sg_1 ;
+LEXICON p_mal_C
+ +N+Prop+Sem/Mal: p_sg_1 ;
+LEXICON p_fem_C
+ +N+Prop+Sem/Fem: p_sg_1 ;
+LEXICON p_org_C
+ +N+Prop+Sem/Org: p_sg_1 ;
 !LEXICON p_ani_C +N+Prop+Sem/Ani: p_sg_1 ;
-LEXICON p_obj_C +N+Prop+Sem/Obj: p_sg_1 ;
+LEXICON p_obj_C
+ +N+Prop+Sem/Obj: p_sg_1 ;
 
 ! London (odd stem Londoni- = 3p)
-LEXICON p_plc_3C +N+Prop+Sem/Plc: p_sg_3 ;
+LEXICON p_plc_3C
+ +N+Prop+Sem/Plc: p_sg_3 ;
 @U.Cap.Opt@+N+Prop+Sem/Plc+Der/lainen:@U.Cap.Opt@%>l^Ai nen ;
-LEXICON p_sur_3C +N+Prop+Sem/Sur: p_sg_3 ;
-LEXICON p_mal_3C +N+Prop+Sem/Mal: p_sg_3 ;
-LEXICON p_fem_3C +N+Prop+Sem/Fem: p_sg_3 ;
-LEXICON p_org_3C +N+Prop+Sem/Org: p_sg_3 ;
-LEXICON p_ani_3C +N+Prop+Sem/Ani: p_sg_3 ;
-LEXICON p_obj_3C +N+Prop+Sem/Obj: p_sg_3 ;
+LEXICON p_sur_3C
+ +N+Prop+Sem/Sur: p_sg_3 ;
+LEXICON p_mal_3C
+ +N+Prop+Sem/Mal: p_sg_3 ;
+LEXICON p_fem_3C
+ +N+Prop+Sem/Fem: p_sg_3 ;
+LEXICON p_org_3C
+ +N+Prop+Sem/Org: p_sg_3 ;
+LEXICON p_ani_3C
+ +N+Prop+Sem/Ani: p_sg_3 ;
+LEXICON p_obj_3C
+ +N+Prop+Sem/Obj: p_sg_3 ;
 
 
 LEXICON p_sg_1 ! Bern
