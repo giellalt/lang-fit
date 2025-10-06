@@ -22,6 +22,8 @@
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					downcase_UCletters.regex \
 					remove-norm-comp-tags.regex \
+					remove-derivation-position-tags.regex \
+					rename-POS_before_Der-tags.regex \
 					remove-DNorm-tags.regex
 
 # List any local filter xfscript files here:
@@ -31,8 +33,7 @@ GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
 GIELLA_FILTER_LOCAL_LEXC_SRCS=
 
 # List any locally generated regex source files here:
-GIELLA_FILTER_LOCAL_GENERATED_REGEX_SRCS=remove-derivation-position-tags.regex\
-										 rename-POS_before_Der-tags.regex
+GIELLA_FILTER_LOCAL_GENERATED_REGEX_SRCS=
 
 # List any locally generated xfscript source files here:
 GIELLA_FILTER_LOCAL_GENERATED_XFSCRIPT_SRCS=
