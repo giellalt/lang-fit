@@ -289,7 +289,7 @@ t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
 !! **RULE: @RULENAME@**
 t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a|ä|i2:] WeakGrade [%> :Vow - :i|Cns:] ; ! pitä- : piän, haitata
-          u              _ Vow       WeakGrade [%> :Vow - :i|Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa
+          u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> :Vow - :i|Cns:] (%>) i3: ; ! för att få lähen, lähin
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
            VowNotIU (h)  _ Vow:      WeakGrade (%>) [%^E2I:0|Cns:|#|.#.] ; ! katu : kaun        
@@ -697,7 +697,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%^IDEL:
         [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
         [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:) %> i2: ; !3-syll with lnr
-        (Cns:+).   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
+        (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
         (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
         [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i:    Cns:+ (Cns:) _ (%^WG:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
         ![.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv

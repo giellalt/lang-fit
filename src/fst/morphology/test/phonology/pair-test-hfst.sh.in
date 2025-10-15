@@ -25,9 +25,9 @@ if test -f ${SOURCEFILE} ; then
                     -o ${TESTRESULT}
                 hfst_exit=$?
                 if test $hfst_exit != 0; then
-                    if test x$EXTEDITOR != "x"; then
-                        $EXTEDITOR ${TESTRESULT} &
-                    fi
+                   # if test x$EXTEDITOR != "x"; then
+                       # $EXTEDITOR ${TESTRESULT} &
+                   # fi
                     exit 1
                 fi
                 rm -f ${TWOLCSCRIPT} ${TESTDATA} ${TESTRESULT}.*

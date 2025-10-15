@@ -22,4 +22,3 @@
 +N+Pl+Abl
 +N+Pl+All
 +N+Pl+Ess
-+N+Pl+Com

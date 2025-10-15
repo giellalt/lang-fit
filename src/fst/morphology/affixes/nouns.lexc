@@ -377,7 +377,7 @@ LEXICON x3_oblique_sg
 !! **LEXICON @LEXNAME@**
  +Sg+Gen:^WG%> n_PxK ;
  +Sg+Par:%>^A PxK ;
- +Sg+Par:%>t^A PxK ; !asiata
+ !+Sg+Par:%>t^A PxK ; !asiata
  +Sg+Ill:^HMETA%>h^V^V n_PxK ;
  +Sg+Ill:^HMET2%>h^V^V n_PxK ;
  +Sg+Ine:^WG%>ss^A PxK ;
