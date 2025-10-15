@@ -246,17 +246,18 @@ LEXICON x1_ton
  +Pl+Gen:t%>^Omitten K ;
  +Pl+Par:t%>^Omi2^A K ;
  +Pl+Ill:t%>^Omhiin K ;  ! talhoin
- +Sg+Ine:t%>^Omi2ss^A K ;      ! talossa
- +Sg+Ela:t%>^Omi2st^A K ;      ! talosta
- +Sg+All:t%>^Omi2le K ;        ! talole
- +Sg+Ade:t%>^Omi2l^A K ;       ! talola
- +Sg+Abl:t%>^Omi2lt^A K ;      ! talolta
- +Sg+Tra:t%>^Omi2ksi K ;       ! taloksi
- +Sg+Tra:t%>^Omi2ks K ;       ! taloksi
- +Sg+Ess:t%>^Omi2n^A K ;          ! talona
- +Sg+Abe:t%>^Omi2tt^A K ;      ! talotta
+ +Pl+Ine:t%>^Omi2ss^A K ;      ! talossa
+ +Pl+Ela:t%>^Omi2st^A K ;      ! talosta
+ +Pl+All:t%>^Omi2le K ;        ! talole
+ +Pl+Ade:t%>^Omi2l^A K ;       ! talola
+ +Pl+Abl:t%>^Omi2lt^A K ;      ! talolta
+ +Pl+Tra:t%>^Omi2ksi K ;       ! taloksi
+ +Pl+Tra:t%>^Omi2ks K ;       ! taloksi
+ +Pl+Ess:t%>^Omi2n^A K ;          ! talona
+ +Pl+Abe:t%>^Omi2tt^A K ;      ! talotta
 
-
++Comp:t%>^Om 3comp ; !!≈ * @CODE@ 
++Superl: 3sup ; !!≈ * @CODE@
 
 
 !! ## Comparative inflection
