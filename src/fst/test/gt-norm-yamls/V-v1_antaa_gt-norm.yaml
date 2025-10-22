@@ -14,28 +14,31 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - antaa - ok : # Verb 'to live' - ei tsekattu!
+  Verb - antaa - ok : # meaning 'to give' - GOLD
      antaa+V+Inf: antaa
      antaa+V+Act+Ind+Prs+Sg1: annan
      antaa+V+Act+Ind+Prs+Sg2: annat
      antaa+V+Act+Ind+Prs+Sg3: antaa
      antaa+V+Act+Ind+Prs+Pl1: annama
      antaa+V+Act+Ind+Prs+Pl2: annatta
-     antaa+V+Act+Ind+Prs+Pl3: antava
+     antaa+V+Act+Ind+Prs+Pl3: [antava, antavat]
+     antaa+V+Pass+Ind+Prs: annethaan
+     antaa+V+Act+Ind+Prs+ConNeg: anna
      antaa+V+Act+Ind+Prt+Sg1: annoin
      antaa+V+Act+Ind+Prt+Sg2: annoit
      antaa+V+Act+Ind+Prt+Sg3: [antoi, anto]
      antaa+V+Act+Ind+Prt+Pl1: annoima  # anniima ?!
      antaa+V+Act+Ind+Prt+Pl2: annoitta
-     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, annethiin]
+     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, antoivat, annethiin]
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
-     antaa+V+Pass+PrfPrc+Sg+Nom: annettu # antaa+V+Pass+PrfPrc+Pl+Nom annetut
+     antaa+V+Pass+PrfPrc+Sg+Nom: annettu 
+     antaa+V+Pass+PrfPrc+Pl+Nom: annetut
      antaa+V+Act+PrfPrc+Pl+Nom: [antanheet, antahneet]
      antaa+V+Act+PrsPrc+Sg+Nom: antava
      antaa+V+Act+PrsPrc+Pl+Nom: antavat
      antaa+V+Pass+PrsPrc+Sg+Nom: annettava
      antaa+V+Pass+PrsPrc+Pl+Nom: annettavat
-  
+     antaa+V+Pass+Ind+Prt: annethiin
      antaa+V+Act+Cond+Sg1: [antaisin, antasin]
      antaa+V+Act+Cond+Sg2: [antaisit, antasit]
      antaa+V+Act+Cond+Sg3: [antais, antas]
@@ -43,18 +46,58 @@ Tests:
      antaa+V+Act+Cond+Pl2: [antaisitta, antasitta]
      antaa+V+Act+Cond+Pl3: [antaisit, antaisiva, antasit, antasiva]
      antaa+V+Pass+Cond: [annettais, annettas]
-  
      antaa+V+Act+Imprt+Sg2: anna
      antaa+V+Act+Imprt+Pl2: antakaa
-     
      antaa+V+InfMa+Ine: antamassa
-    #antaa+V+Act+InfMa+Ine: antamassa osv borttaget
      antaa+V+InfMa+Ela: antamasta
      antaa+V+InfMa+Ill: [antamhaan, antahmaan, anthaan]
      antaa+V+InfMa+Ade: antamalla
      antaa+V+InfMa+Abe: antamatta
 
-#Verb tietää
+
+#Verb loppua : 'to end' - GOLD
+     loppua+V+Inf: loppua
+     loppua+V+Act+Ind+Prs+Sg1: lopun
+     loppua+V+Act+Ind+Prs+Sg2: loput
+     loppua+V+Act+Ind+Prs+Sg3: loppuu
+     loppua+V+Act+Ind+Prs+Pl1: lopuma
+     loppua+V+Act+Ind+Prs+Pl2: loputta
+     loppua+V+Act+Ind+Prs+Pl3: [loppuva, loppuvat]
+     loppua+V+Pass+Ind+Prs: loputhaan
+     loppua+V+Act+Ind+Prs+ConNeg: lopu
+     loppua+V+Act+Ind+Prt+Sg1: lopuin
+     loppua+V+Act+Ind+Prt+Sg2: lopuit
+     loppua+V+Act+Ind+Prt+Sg3: [loppu, loppui]
+     loppua+V+Act+Ind+Prt+Pl1: lopuima
+     loppua+V+Act+Ind+Prt+Pl2: lopuitta
+     loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin, loppuiva, loppuivat]
+     loppua+V+Pass+Ind+Prt: loputhiin
+     loppua+V+Act+Cond+Sg1: [loppuisin, loppusin]
+     loppua+V+Act+Cond+Sg2: [loppuisit, loppusit]
+     loppua+V+Act+Cond+Sg3: [loppuis, loppus]
+     loppua+V+Act+Cond+Pl1: [loppuisimma, loppusimma]
+     loppua+V+Act+Cond+Pl2: [loppuisitta, loppusitta]
+     loppua+V+Act+Cond+Pl3: [loppuisit, loppuisiva, loppusit, loppusiva]
+     loppua+V+InfE+Ine: loppuessa
+     loppua+V+InfE+Ins: loppuen
+     loppua+V+InfMa+Ill: [lophuun, loppuhmaan, loppumhaan]
+     loppua+V+InfMa+Ine: loppumassa
+     loppua+V+InfMa+Ela: loppumasta
+     loppua+V+InfMa+Ade: loppumalla
+     loppua+V+InfMa+Abe: loppumatta
+     loppua+V+Act+PrsPrc+Sg+Nom: loppuva
+     loppua+V+Act+PrsPrc+Pl+Nom: loppuvat
+     loppua+V+Pass+PrsPrc+Sg+Nom: loputtava
+     loppua+V+Pass+PrsPrc+Pl+Nom: loputtavat
+     loppua+V+Act+PrfPrc+Sg+Nom: loppunu
+     loppua+V+Act+PrfPrc+Pl+Nom: [loppuhneet, loppunheet]
+     loppua+V+Pass+PrfPrc+Sg+Nom: loputtu
+     loppua+V+Pass+PrfPrc+Pl+Nom: loputut
+     loppua+V+Pass+Cond: [loputtais, loputtas]
+
+
+
+#Verb tietää ###Fyll på, CHECK 
      tietää+V+Inf: tietää
      tietää+V+Act+Ind+Prs+Sg1: tiän
      tietää+V+Act+Ind+Prs+Sg2: tiät
@@ -73,34 +116,35 @@ Tests:
      tietää+V+Pass+Cond: tiettäis
 
 
-#Verb arvata
-arvata+V+Inf: arvata
-arvata+V+Act+Ind+Prs+Sg1: arvaan 
-arvata+V+Act+Ind+Prs+Sg2: arvaat 
-arvata+V+Act+Ind+Prs+Sg3: arvaa
-arvata+V+Act+Ind+Prs+Pl1: arvaama 
-arvata+V+Act+Ind+Prs+Pl2: arvaatta
-arvata+V+Act+Ind+Prs+Pl3: arvaava 
-arvata+V+Act+Ind+Prs+ConNeg: arvaa
-arvata+V+Act+Ind+Prt+Sg1: arvasin 
-arvata+V+Act+Ind+Prt+Sg2: arvasit 
-arvata+V+Act+Ind+Prt+Sg3: arvasi 
-arvata+V+Act+Ind+Prt+Pl1: arvasimma
-arvata+V+Act+Ind+Prt+Pl2: arvasitta
-arvata+V+Act+Ind+Prt+Pl3: arvasit
-arvata+V+InfE+Ine: arvatessa
-arvata+V+InfE+Ins: arvaten
-arvata+V+InfMa+Ill: [arvaahmaan, arvaamhaan]
-arvata+V+InfMa+Ine: arvaamassa  
-arvata+V+InfMa+Ela: arvaamasta  
-arvata+V+InfMa+Ade: arvaamalla  
-arvata+V+InfMa+Abe: arvaamatta  
-arvata+V+Act+PrfPrc+Sg+Nom: arvanu 
-arvata+V+Act+PrfPrc+Pl+Nom: [arvahneet, arvanheet]
-arvata+V+Pass+Ind+Prs: arvathaan   
-arvata+V+Pass+Ind+Prt: arvathiin   
-arvata+V+Pass+PrfPrc+Sg+Nom: arvattu 
-arvata+V+Pass+PrfPrc+Pl+Nom: arvatut 
-arvata+V+Pass+PrsPrc+Sg+Nom: arvattava   
-arvata+V+Pass+PrsPrc+Pl+Nom: arvattavat  
-arvata+V+Pass+Cond: arvattais   
+#Verb arvata ###CHECK
+
+     arvata+V+Inf: arvata
+     arvata+V+Act+Ind+Prs+Sg1: arvaan 
+     arvata+V+Act+Ind+Prs+Sg2: arvaat 
+     arvata+V+Act+Ind+Prs+Sg3: arvaa
+     arvata+V+Act+Ind+Prs+Pl1: arvaama 
+     arvata+V+Act+Ind+Prs+Pl2: arvaatta
+     arvata+V+Act+Ind+Prs+Pl3: [arvaava, arvaavat]
+     arvata+V+Act+Ind+Prs+ConNeg: arvaa
+     arvata+V+Act+Ind+Prt+Sg1: arvasin
+     arvata+V+Act+Ind+Prt+Sg2: arvasit
+     arvata+V+Act+Ind+Prt+Sg3: [arvasi, arvas] #CHECK EK!
+     arvata+V+Act+Ind+Prt+Pl1: arvasimma
+     arvata+V+Act+Ind+Prt+Pl2: arvasitta
+     arvata+V+Act+Ind+Prt+Pl3: [arvasit, arvathiin, arvasiva]
+     arvata+V+InfE+Ine: arvatessa 
+     arvata+V+InfE+Ins: arvaten
+     arvata+V+InfMa+Ill: [arvaahmaan, arvaamhaan]
+     arvata+V+InfMa+Ine: arvaamassa  
+     arvata+V+InfMa+Ela: arvaamasta  
+     arvata+V+InfMa+Ade: arvaamalla  
+     arvata+V+InfMa+Abe: arvaamatta  
+     arvata+V+Act+PrfPrc+Sg+Nom: arvanu 
+     arvata+V+Act+PrfPrc+Pl+Nom: [arvahneet, arvanheet]
+     arvata+V+Pass+Ind+Prs: arvathaan   
+     arvata+V+Pass+Ind+Prt: arvathiin   
+     arvata+V+Pass+PrfPrc+Sg+Nom: arvattu 
+     arvata+V+Pass+PrfPrc+Pl+Nom: arvatut 
+     arvata+V+Pass+PrsPrc+Sg+Nom: arvattava   
+     arvata+V+Pass+PrsPrc+Pl+Nom: arvattavat  
+     arvata+V+Pass+Cond: [arvattais, arvattas]   
