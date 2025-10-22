@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-fit?label=CI)](https://builds.giellalt.org/pipelines/lang-fit/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 These pages document the work on the **[Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit)**.
 
