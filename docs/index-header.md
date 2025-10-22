@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-fit%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-fit)](https://github.com/giellalt/lang-fit/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-fit/main/badge.svg)](https://github.com/giellalt/lang-fit/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-fit?label=CI)](https://builds.giellalt.org/pipelines/lang-fit/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/torn1244)
 
 These pages document the work on the **[Meänkieli (Tornedalen Finnish) language model](https://github.com/giellalt/lang-fit)**.
 
