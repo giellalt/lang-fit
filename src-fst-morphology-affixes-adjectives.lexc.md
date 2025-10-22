@@ -56,6 +56,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +Sg+Ill:t%>h^Om^A^An K ;
 * +Sg+Ine:t%>^Om^Ass^A K ; etc.
 
+* +Comp:t%>^Om 3comp ; 
+* +Superl: 3sup ;
+
 ## Comparative inflection
 
 **LEXICON 3comp**  2syll adj, 3syll comparative

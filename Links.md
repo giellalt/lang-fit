@@ -30,6 +30,7 @@
                 * [postpositions.lexc](src-fst-morphology-stems-postpositions.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/postpositions.lexc))
                 * [prepositions.lexc](src-fst-morphology-stems-prepositions.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/prepositions.lexc))
                 * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/pronouns.lexc))
+                * [propernouns.lexc](src-fst-morphology-stems-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/propernouns.lexc))
                 * [subjunctions.lexc](src-fst-morphology-stems-subjunctions.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/subjunctions.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-fit/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
