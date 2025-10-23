@@ -3662,8 +3662,8 @@ v6 paeta
 * **paeta:pake v6 ;** 
 
 Then comes the long list
-* **trukittaaa:trukittaa v1 ;** 
-* **lehathaa:lehatha v1 ;** 
+* **trukittaaa:trukittaa v1_odd ;** 
+* **lehathaa:lehatha v1_odd ;** 
 * ...
 
 * * *
