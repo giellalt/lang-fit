@@ -257,6 +257,7 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 "r:0"
 r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
  [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow  WeakGrade %> Cns (Cns Vow) .#.; !ymmärtää>ymmärän
+ [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
                       Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
 
 !€ y m m ä r:0 t:r ä ^WG:0 > n
@@ -367,7 +368,7 @@ t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ [:Vow|Vow:]  WeakGrade ; ! kanta : kanna
 	
 "t:r" 
 !! **RULE: @RULENAME@** for rt:rr 
-t:r <=>  Vow:+ r _ :Vow (Cns) WeakGrade ; ! kerta : kerran , jukertel - jukerrella
+t:r <=>  Vow:+ r: _ :Vow (Cns) WeakGrade ; ! kerta : kerran , jukertel - jukerrella
 
 !! **Tests:**
 

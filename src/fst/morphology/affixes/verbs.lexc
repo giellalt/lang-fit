@@ -197,6 +197,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Ind+Prs+Sg2:^WG%>t K ;
 +V+Act+Ind+Prs+Sg3:%>^V K ;
 +V+Act+Ind+Prs+Pl1:^WG%>m^A K ;
++V+Act+Ind+Prs+Pl1+Err/Orth:^WG%>mm^A K ; !kanske inte ska vara Err för längre verb??
 +V+Act+Ind+Prs+Pl2:^WG%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^A K ;
 +V+Act+Ind+Prs+Pl3:%>v^At K ;
@@ -226,6 +227,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 !+V+Act+Cond+Sg3:%>i4si K ; 
 +V+Act+Cond+Pl1:%>i4simm^A K ;
 +V+Act+Cond+Pl1:%>simm^A K ;
++V+Act+Cond+Pl1+Err/Orth:%>i4sim^A K ;
++V+Act+Cond+Pl1+Err/Orth:%>sim^A K ;
 +V+Act+Cond+Pl2:%>i4sitt^A K ;
 +V+Act+Cond+Pl2:%>sitt^A K ;
 +V+Act+Cond+Pl3:%>i4sit K ;
