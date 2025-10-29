@@ -256,7 +256,8 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 !! **RULE: @RULENAME@**
 "r:0"
 r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
- [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow  WeakGrade %> Cns (Cns Vow) .#.; !ymmärtää>ymmärän
+ ![#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow  WeakGrade %> Cns (Cns Vow) .#.; !ymmärtää>ymmärän old rule
+ [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
  [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
                       Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
 
