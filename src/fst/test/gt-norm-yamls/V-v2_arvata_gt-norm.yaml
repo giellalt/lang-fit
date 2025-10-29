@@ -1,0 +1,68 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+#Verb tietää ###Fyll på, CHECK
+  Verb - arvata - ok : # meaning 'to think' - CHECK 
+#     tietää+V+Inf: tietää
+#     tietää+V+Act+Ind+Prs+Sg1: tiän
+#     tietää+V+Act+Ind+Prs+Sg2: tiät
+#     tietää+V+Act+Ind+Prs+Sg3: tietää
+#     tietää+V+Act+Ind+Prs+Pl1: tiämä
+#     tietää+V+Act+Ind+Prs+Pl2: tiättäS
+#     tietää+V+Act+Ind+Prs+Pl3: tietävä
+
+#     tietää+V+Act+Ind+Prt+Sg1: tiesin
+#     tietää+V+Act+Ind+Prt+Sg2: tiesit
+#     tietää+V+Act+Ind+Prt+Sg3: tiesi
+#     tietää+V+Act+Ind+Prt+Pl1: tiesimä
+#     tietää+V+Act+Ind+Prt+Pl2: tiesittä
+#     tietää+V+Act+Ind+Prt+Pl3: [tiesit, tiesivä, tiethiin]
+
+#     tietää+V+Pass+Cond: tiettäis
+
+
+#Verb arvata ###CHECK
+
+     arvata+V+Inf: arvata
+     arvata+V+Act+Ind+Prs+Sg1: arvaan 
+     arvata+V+Act+Ind+Prs+Sg2: arvaat 
+     arvata+V+Act+Ind+Prs+Sg3: arvaa
+     arvata+V+Act+Ind+Prs+Pl1: arvaama 
+     arvata+V+Act+Ind+Prs+Pl2: arvaatta
+     arvata+V+Act+Ind+Prs+Pl3: [arvaava, arvaavat]
+     arvata+V+Act+Ind+Prs+ConNeg: arvaa
+     arvata+V+Act+Ind+Prt+Sg1: arvasin
+     arvata+V+Act+Ind+Prt+Sg2: arvasit
+     arvata+V+Act+Ind+Prt+Sg3: [arvasi, arvas] #CHECK EK!
+     arvata+V+Act+Ind+Prt+Pl1: arvasimma
+     arvata+V+Act+Ind+Prt+Pl2: arvasitta
+     arvata+V+Act+Ind+Prt+Pl3: [arvasit, arvathiin, arvasiva]
+     arvata+V+InfE+Ine: arvatessa 
+     arvata+V+InfE+Ins: arvaten
+     arvata+V+InfMa+Ill: [arvaahmaan, arvaamhaan]
+     arvata+V+InfMa+Ine: arvaamassa  
+     arvata+V+InfMa+Ela: arvaamasta  
+     arvata+V+InfMa+Ade: arvaamalla  
+     arvata+V+InfMa+Abe: arvaamatta  
+     arvata+V+Act+PrfPrc+Sg+Nom: arvanu 
+     arvata+V+Act+PrfPrc+Pl+Nom: [arvahneet, arvanheet]
+     arvata+V+Pass+Ind+Prs: arvathaan   
+     arvata+V+Pass+Ind+Prt: arvathiin   
+     arvata+V+Pass+PrfPrc+Sg+Nom: arvattu 
+     arvata+V+Pass+PrfPrc+Pl+Nom: arvatut 
+     arvata+V+Pass+PrsPrc+Sg+Nom: arvattava   
+     arvata+V+Pass+PrsPrc+Pl+Nom: arvattavat  
+     arvata+V+Pass+Cond: [arvattais, arvattas]   
