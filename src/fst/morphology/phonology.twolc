@@ -731,7 +731,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%^IDEL:
 
 "ä:e"
 !! **RULE: @RULENAME@**
-ä:e <=> _ %^AE: %^WG: %> t h  ;
+ä:e <=> _ %^AE: %^WG: %> t  ; !test remove h from 'WG: %> t h'
         _ %^AE: %> ; !adj comparative 
 
 

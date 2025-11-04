@@ -21,7 +21,7 @@ Tests:
      antaa+V+Act+Ind+Prs+Sg3: antaa
      antaa+V+Act+Ind+Prs+Pl1: annama
      antaa+V+Act+Ind+Prs+Pl2: annatta
-     antaa+V+Act+Ind+Prs+Pl3: [antava, antavat]
+     antaa+V+Act+Ind+Prs+Pl3: [antava]
      antaa+V+Pass+Ind+Prs: annethaan
      antaa+V+Act+Ind+Prs+ConNeg: anna
      antaa+V+Act+Ind+Prt+Sg1: annoin
@@ -29,7 +29,7 @@ Tests:
      antaa+V+Act+Ind+Prt+Sg3: [antoi, anto]
      antaa+V+Act+Ind+Prt+Pl1: annoima  # anniima ?!
      antaa+V+Act+Ind+Prt+Pl2: annoitta
-     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, antoivat, annethiin]
+     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, annethiin]
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
      antaa+V+Pass+PrfPrc+Sg+Nom: annettu 
      antaa+V+Pass+PrfPrc+Pl+Nom: annetut
@@ -42,7 +42,7 @@ Tests:
      antaa+V+Act+Cond+Sg1: [antaisin, antasin]
      antaa+V+Act+Cond+Sg2: [antaisit, antasit]
      antaa+V+Act+Cond+Sg3: [antais, antas]
-     antaa+V+Act+Cond+Pl1: [antaisimma, antasimma]
+     antaa+V+Act+Cond+Pl1: [antaisimma, antasimma, antaisima, antasima]
      antaa+V+Act+Cond+Pl2: [antaisitta, antasitta]
      antaa+V+Act+Cond+Pl3: [antaisit, antaisiva, antasit, antasiva]
      antaa+V+Pass+Cond: [annettais, annettas]
@@ -62,7 +62,7 @@ Tests:
      loppua+V+Act+Ind+Prs+Sg3: loppuu
      loppua+V+Act+Ind+Prs+Pl1: lopuma
      loppua+V+Act+Ind+Prs+Pl2: loputta
-     loppua+V+Act+Ind+Prs+Pl3: [loppuva, loppuvat]
+     loppua+V+Act+Ind+Prs+Pl3: [loppuva]
      loppua+V+Pass+Ind+Prs: loputhaan
      loppua+V+Act+Ind+Prs+ConNeg: lopu
      loppua+V+Act+Ind+Prt+Sg1: lopuin
@@ -70,12 +70,12 @@ Tests:
      loppua+V+Act+Ind+Prt+Sg3: [loppu, loppui]
      loppua+V+Act+Ind+Prt+Pl1: lopuima
      loppua+V+Act+Ind+Prt+Pl2: lopuitta
-     loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin, loppuiva, loppuivat]
+     loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin, loppuiva]
      loppua+V+Pass+Ind+Prt: loputhiin
      loppua+V+Act+Cond+Sg1: [loppuisin, loppusin]
      loppua+V+Act+Cond+Sg2: [loppuisit, loppusit]
      loppua+V+Act+Cond+Sg3: [loppuis, loppus]
-     loppua+V+Act+Cond+Pl1: [loppuisimma, loppusimma]
+     loppua+V+Act+Cond+Pl1: [loppuisimma, loppusimma, loppuisima, loppusima]
      loppua+V+Act+Cond+Pl2: [loppuisitta, loppusitta]
      loppua+V+Act+Cond+Pl3: [loppuisit, loppuisiva, loppusit, loppusiva]
      loppua+V+InfE+Ine: loppuessa
