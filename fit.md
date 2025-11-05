@@ -1782,7 +1782,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Overview over the continuation classes
 
 #### Continuation lexica for regular verbs
-* **v1** = antaa-type; sanoa:sano
+* **v1** = even-syllable-stems of antaa-type; sanoa:sano
 * **v1_tietaa** = tietää:ti
 * **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
