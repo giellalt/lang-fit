@@ -1829,7 +1829,11 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v1** sanoa, lukea, antaa 
 
+* **LEXICON v1_var** sanoa, lukea, antaa !Test lähteä>lähten & lähen
+
 * **LEXICON v1_odd** käsittää>käsittänny osv 
+
+* **LEXICON v1_odd_var** sanoa, lukea, antaa !Test lähteä>lähten & lähen
 
 * **LEXICON v2** huomata, haluta övriga former 
 
