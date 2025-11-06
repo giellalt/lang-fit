@@ -18,6 +18,7 @@
 !! * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 !! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+!! * n3_ta = like n3 but -ta-partitive added; asia>asiaa, asiata
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 !! ### Stems for -i-words, vowel AND consonant
@@ -376,20 +377,20 @@ luononhistuuria:luonon#histuuria n3 ;
 sia:sia n3 ;
 vasikansia:vasikan#sia n3 ;
 jalansia:jalan#sia n3 ;
-asia:asia n3 ;
-lakiasia:laki#asia n3 ;
-tosiasia:tosi#asia n3 ;
-pääasia:pää#asia n3 ;
-naima-asia:naima-asia n3 ;
-kauppa-asia:kauppa-asia n3 ;
-ohrahaasia:ohra#haasia n3 ;
-jalkahaasia:jalka#haasia n3 ;
+asia:asia n3_ta ;
+lakiasia:laki#asia n3_ta ;
+tosiasia:tosi#asia n3_ta ;
+pääasia:pää#asia n3_ta ;
+naima-asia:naima-asia n3_ta ;
+kauppa-asia:kauppa-asia n3_ta ;
+ohrahaasia:ohra#haasia n3_ta ;
+jalkahaasia:jalka#haasia n3_ta ;
 valkeasia:valkeasia nx ;
-tupakkarasia:tupakka#rasia n3 ;
-kihlarasia:kihla#rasia n3 ;
-tykkirasia:tykki#rasia n3 ;
-voirasia:voi#rasia n3 ;
-juustorasia:juusto#rasia n3 ;
+tupakkarasia:tupakka#rasia n3_ta ;
+kihlarasia:kihla#rasia n3_ta ;
+tykkirasia:tykki#rasia n3_ta ;
+voirasia:voi#rasia n3_ta ;
+juustorasia:juusto#rasia n3_ta ;
 vihkisia:vihkisia n3 ;
 tulisia:tulisia n3 ;
 vieroksia:vieroksia n3 ;

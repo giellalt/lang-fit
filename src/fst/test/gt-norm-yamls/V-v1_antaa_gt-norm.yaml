@@ -14,7 +14,7 @@ Tests:
 # Then: run analyser, then correct. 
 
 
-  Verb - antaa - ok : # meaning 'to give' - GOLD
+  Verb - antaa - v1 - ok : # meaning 'to give'/'ge' - GOLD
      antaa+V+Inf: antaa
      antaa+V+Act+Ind+Prs+Sg1: annan
      antaa+V+Act+Ind+Prs+Sg2: annat
@@ -55,7 +55,7 @@ Tests:
      antaa+V+InfMa+Abe: antamatta
 
 
-#Verb loppua : 'to end' - GOLD
+Verb - loppua - v1 - ok : # meaning 'to end'/'sluta' - GOLD
      loppua+V+Inf: loppua
      loppua+V+Act+Ind+Prs+Sg1: lopun
      loppua+V+Act+Ind+Prs+Sg2: loput
@@ -95,9 +95,50 @@ Tests:
      loppua+V+Pass+PrfPrc+Pl+Nom: loputut
      loppua+V+Pass+Cond: [loputtais, loputtas]
 
+     
+Verb - käsittää - v1_odd - ok : # meaning 'understand'/'begripa' - GOLD
+     käsittää+V+Inf: käsittää
+     käsittää+V+Act+Ind+Prs+Sg1: käsitän
+     käsittää+V+Act+Ind+Prs+Sg2: käsität
+     käsittää+V+Act+Ind+Prs+Sg3: käsittää
+     käsittää+V+Act+Ind+Prs+Pl1: [käsitämmä, käsitämä]
+     käsittää+V+Act+Ind+Prs+Pl2: käsitättä
+     käsittää+V+Act+Ind+Prs+Pl3: käsittävä
+     käsittää+V+Pass+Ind+Prs: käsitethään
+     käsittää+V+Act+Ind+Prs+ConNeg: käsitä
+     käsittää+V+Act+Ind+Prt+Sg1: käsitin
+     käsittää+V+Act+Ind+Prt+Sg2: käsitit
+     käsittää+V+Act+Ind+Prt+Sg3: käsitti
+     käsittää+V+Act+Ind+Prt+Pl1: [käsitimmä, käsitimä]
+     käsittää+V+Act+Ind+Prt+Pl2: käsitittä
+     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin, käsittivä]
+     käsittää+V+Pass+Ind+Prt: käsitethiin
+     käsittää+V+Act+Cond+Sg1: [käsittäisin, käsittäsin]
+     käsittää+V+Act+Cond+Sg2: [käsittäisit, käsittäsit]
+     käsittää+V+Act+Cond+Sg3: [käsittäis, käsittäs]
+     käsittää+V+Act+Cond+Pl1: [käsittäisimmä, käsittäisimä, käsittäsimmä, käsittäsimä]
+     käsittää+V+Act+Cond+Pl2: [käsittäisittä, käsittäsittä]
+     käsittää+V+Act+Cond+Pl3: [käsittäisit, käsittäisivä, käsittäsit, käsittäsivä]
+     käsittää+V+InfE+Ine: käsittäessä
+     käsittää+V+InfE+Ins: käsittäen
+     käsittää+V+InfMa+Ill: [käsittähmään, käsittämhään, käsithään]
+     käsittää+V+InfMa+Ine: käsittämässä
+     käsittää+V+InfMa+Ela: käsittämästä
+     käsittää+V+InfMa+Ade: [käsittämällä, käsittämälä]
+     käsittää+V+InfMa+Abe: käsittämättä
+     käsittää+V+Act+PrsPrc+Sg+Nom: käsittävä
+     käsittää+V+Act+PrsPrc+Pl+Nom: käsittävät
+     käsittää+V+Pass+PrsPrc+Sg+Nom: käsitettävä
+     käsittää+V+Pass+PrsPrc+Pl+Nom: käsitettävät
+     käsittää+V+Act+PrfPrc+Sg+Nom: [käsittänny, käsittäny]
+     käsittää+V+Act+PrfPrc+Pl+Nom: [käsittähneet, käsittänheet]
+     käsittää+V+Pass+PrfPrc+Sg+Nom: käsitetty
+     käsittää+V+Pass+PrfPrc+Pl+Nom: käsitetyt
+     käsittää+V+Pass+Cond: [käsitettäis, käsitettäs]
 
 
-#Verb tietää ###Fyll på, CHECK 
+
+#Verb tietää v1_tietaa ###Fyll på, CHECK 
      tietää+V+Inf: tietää
      tietää+V+Act+Ind+Prs+Sg1: tiän
      tietää+V+Act+Ind+Prs+Sg2: tiät
@@ -115,6 +156,62 @@ Tests:
 
      tietää+V+Pass+Cond: tiettäis
 
-
-#Verb arvata ###CHECK
-  
+     ymmärtää+V+Inf: ymmärtää
+     ymmärtää+V+Act+Ind+Prs+Sg1: ymmärän
+     ymmärtää+V+Act+Ind+Prs+Sg2: ymmärät
+     ymmärtää+V+Act+Ind+Prs+Sg3: ymmärtää
+     ymmärtää+V+Act+Ind+Prs+Pl1: ymmärämmä
+     ymmärtää+V+Act+Ind+Prs+Pl1: ymmärämä
+     ymmärtää+V+Act+Ind+Prs+Pl2: ymmärättä
+     ymmärtää+V+Act+Ind+Prs+Pl3: ymmärtävä
+     ymmärtää+V+Pass+Ind+Prs: ymmärethään
+     ymmärtää+V+Act+Ind+Prs+ConNeg: ymmärä
+     ymmärtää+V+Act+Ind+Prt+Sg1: ymmärsin
+     ymmärtää+V+Act+Ind+Prt+Sg2: ymmärsit
+     ymmärtää+V+Act+Ind+Prt+Sg3: ymmärsi
+     ymmärtää+V+Act+Ind+Prt+Sg3: ymmärti
+     ymmärtää+V+Act+Ind+Prt+Pl1: ymmärsimmä
+     ymmärtää+V+Act+Ind+Prt+Pl1: ymmärsimä
+     ymmärtää+V+Act+Ind+Prt+Pl2: ymmärsittä
+     ymmärtää+V+Act+Ind+Prt+Pl3: ymmärethiin
+     ymmärtää+V+Act+Ind+Prt+Pl3: ymmärsit
+     ymmärtää+V+Act+Ind+Prt+Pl3: ymmärsivä
+     ymmärtää+V+Pass+Ind+Prt: ymmärethiin
+     ymmärtää+V+Act+Cond+Sg1: ymmärtäisin
+     ymmärtää+V+Act+Cond+Sg1: ymmärtäsin
+     ymmärtää+V+Act+Cond+Sg2: ymmärtäisit
+     ymmärtää+V+Act+Cond+Sg2: ymmärtäsit
+     ymmärtää+V+Act+Cond+Sg3: ymmärtäis
+     ymmärtää+V+Act+Cond+Sg3: ymmärtäs
+     ymmärtää+V+Act+Cond+Pl1: ymmärtäisimmä
+     ymmärtää+V+Act+Cond+Pl1: ymmärtäisimä
+     ymmärtää+V+Act+Cond+Pl1: ymmärtäsimmä
+     ymmärtää+V+Act+Cond+Pl1: ymmärtäsimä
+     ymmärtää+V+Act+Cond+Pl2: ymmärtäisittä
+     ymmärtää+V+Act+Cond+Pl2: ymmärtäsittä
+     ymmärtää+V+Act+Cond+Pl3: ymmärtäisit
+     ymmärtää+V+Act+Cond+Pl3: ymmärtäisivä
+     ymmärtää+V+Act+Cond+Pl3: ymmärtäsit
+     ymmärtää+V+Act+Cond+Pl3: ymmärtäsivä
+     ymmärtää+V+InfE+Ine: ymmärtäessä
+     ymmärtää+V+InfE+Ins: ymmärtäen
+     ymmärtää+V+InfMa+Ill: ymmärthään
+     ymmärtää+V+InfMa+Ill: ymmärtähmään
+     ymmärtää+V+InfMa+Ill: ymmärtämhään
+     ymmärtää+V+InfMa+Ine: ymmärtämässä
+     ymmärtää+V+InfMa+Ela: ymmärtämästä
+     ymmärtää+V+InfMa+Ade: ymmärtämällä
+     ymmärtää+V+InfMa+Ade: ymmärtämälä
+     ymmärtää+V+InfMa+Abe: ymmärtämättä
+     ymmärtää+V+Act+PrsPrc+Sg+Nom: ymmärtävä
+     ymmärtää+V+Act+PrsPrc+Pl+Nom: ymmärtävät
+     ymmärtää+V+Pass+PrsPrc+Sg+Nom: ymmärettävä
+     ymmärtää+V+Pass+PrsPrc+Pl+Nom: ymmärettävät
+     ymmärtää+V+Act+PrfPrc+Sg+Nom: ymmärtänny
+     ymmärtää+V+Act+PrfPrc+Sg+Nom: ymmärtäny
+     ymmärtää+V+Act+PrfPrc+Pl+Nom: ymmärtähneet
+     ymmärtää+V+Act+PrfPrc+Pl+Nom: ymmärtänheet
+     ymmärtää+V+Pass+PrfPrc+Sg+Nom: ymmäretty
+     ymmärtää+V+Pass+PrfPrc+Pl+Nom: ymmäretyt
+     ymmärtää+V+Pass+Cond: ymmärettäis
+     ymmärtää+V+Pass+Cond: ymmärettäs
