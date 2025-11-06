@@ -292,7 +292,7 @@ t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
 t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a|ä|i2:] WeakGrade [%> :Vow - :i|Cns:] ; ! pitä- : piän, haitata
           u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa
-         [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> :Vow - :i|Cns:] (%>) i3: ; ! för att få lähen, lähin
+         [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
            VowNotIU (h)  _ Vow:      WeakGrade (%>) [%^E2I:0|Cns:|#|.#.] ; ! katu : kaun        
          [ä|e]           _  i        WeakGrade [%> :Vow - :i|Cns:] ; !
