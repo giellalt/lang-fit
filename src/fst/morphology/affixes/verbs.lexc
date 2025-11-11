@@ -150,10 +150,11 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon
 +V+Pass+Ind+Prt:e%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
-+V+Act+Cond+Sg1:e%>si4n K ; ! 
-+V+Act+Cond+Sg2:e%>si4t K ;
-+V+Act+Cond+Sg3:es K ;
-+V+Act+Cond+Pl1:e%>si4mm^A K ;
++V+Act+Cond+Sg1:etä%>si4n K ; ! 
++V+Act+Cond+Sg2:etä%>si4t K ;
++V+Act+Cond+Sg3:etä%>s K ;
++V+Act+Cond+Pl1+Err/Orth:e%>si4mm^A K ;
++V+Act+Cond+Pl1:e%>si4m^A K ;
 +V+Act+Cond+Pl2:e%>si4tt^A K ;
 +V+Act+Cond+Pl3:e%>si4t K ;
 +V+Act+Cond+Pl3:e%>si4v^A K ;
@@ -171,7 +172,7 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon
 +V+InfMa+Ade:et%>^Am^All^A K ;
 +V+InfMa+Abe:et%>^Am^Att^A K ;
 
-+V+Act+PrsPrc:e%>v^A x3 ;
++V+Act+PrsPrc:etä%>v^A x3 ;
 +V+Pass+PrsPrc:e%>tt^Av^A x3 ; 
 
 +V+Act+PrfPrc+Sg+Nom:e%>^N^U K ; 
@@ -375,7 +376,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 !+V+InfMa+Ade:%>m^Al^A K ;  
 
 LEXICON v1_odd_var  !!≈ * **@CODE@** sanoa, lukea, antaa !Test lähteä>lähten & lähen
-v1 ;
+v1_odd ;
 +V+Act+Ind+Prs+Sg1:%>n K ;
 +V+Act+Ind+Prs+Sg2:%>t K ;
 +V+Act+Ind+Prs+Pl1:%>m^A K ;
@@ -433,6 +434,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Av^At K ;
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
+!+V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 +V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
 +V+Act+PrfPrc+Pl+Nom:^WG^HMET2%>nheet K ; !
 +V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
