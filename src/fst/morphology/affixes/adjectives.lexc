@@ -103,6 +103,7 @@ LEXICON a_e
 LEXICON a3 
 !! **LEXICON @LEXNAME@** kamala gets +A and points to x3
 +A: x3_sg ;  !!≈ * @CODE@
++A+Sg+Par+Err/Orth:%>t^A PxK ; !Kolla med Elina
 +A+Pl+Nom:^WG%> t_PxK ;
 +A+Pl+Gen:%>i9tte n_PxK ; 
 +A+Pl+Gen:%>i9e n_PxK ;

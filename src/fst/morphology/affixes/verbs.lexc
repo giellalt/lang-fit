@@ -53,6 +53,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Pl3+Err/Orth:noon K ; !CHECK EK
 +V+Act+Ind+Prs+Pl3+Use/NG:ovva K ; ! CHECK EK
 +V+Act+Ind+Prs+Pl3+Err/Orth:ovat K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:oova K ; !CHECK EK
 
 +V+Act+Ind+Prt+Sg1:olin K ;
 +V+Act+Ind+Prt+Sg2:olit K ;

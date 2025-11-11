@@ -290,16 +290,16 @@ t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
 "t:0"
 !! **RULE: @RULENAME@**
 t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
-  [.#.|#] (Cns) (:Vow) i _ [a|ä|i2:] WeakGrade [%> :Vow - :i|Cns:] ; ! pitä- : piän, haitata
-          u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa
+  [.#.|#] (Cns) (:Vow) i _ [a|ä|i2:] WeakGrade [%> |%> [:Vow - :i]|Cns:] ; ! pitä- : piän, haitata
+          u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
            VowNotIU (h)  _ Vow:      WeakGrade (%>) [%^E2I:0|Cns:|#|.#.] ; ! katu : kaun        
-         [ä|e]           _  i        WeakGrade [%> :Vow - :i|Cns:] ; !
+         [ä|e]           _  i        WeakGrade [%> :Vow - :i|Cns:] ;
                        t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ; 
              Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
              Vow  (Cns)  _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
-         ![u|a] u        _   [a|e]   WeakGrade [%> :Vow - :i|Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa !ändrar till Vowför att få tauin
+         ![u|a] u        _   [a|e]   WeakGrade [%> :Vow - :i|Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa !ändrar till Vow för att få tauin
 
 
 !! **Tests:**
