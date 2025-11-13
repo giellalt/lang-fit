@@ -49,11 +49,11 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v1** sanoa, lukea, antaa 
 
-* **LEXICON v1_var** sanoa, lukea, antaa !Test lähteä>lähten & lähen
+* **LEXICON v1_var** !Test mahtaa>mahtan & mahan !TBC - where does it occur?
 
 * **LEXICON v1_odd** käsittää>käsittänny osv 
 
-* **LEXICON v1_odd_var** sanoa, lukea, antaa !Test lähteä>lähten & lähen
+* **LEXICON v1_odd_var** tapahtua >tapahtun & tapahun !TBC - where does it occur?
 
 * **LEXICON v2** huomata, haluta övriga former 
 
