@@ -271,7 +271,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
 
-LEXICON v1_var  !!≈ * **@CODE@** sanoa, lukea, antaa !Test lähteä>lähten & lähen
+LEXICON v1_var  !!≈ * **@CODE@** !Test mahtaa>mahtan & mahan !TBC - where does it occur?
 v1 ;
 +V+Act+Ind+Prs+Sg1:%>n K ;
 +V+Act+Ind+Prs+Sg2:%>t K ;
@@ -376,7 +376,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 !+V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ; 
 !+V+InfMa+Ade:%>m^Al^A K ;  
 
-LEXICON v1_odd_var  !!≈ * **@CODE@** sanoa, lukea, antaa !Test lähteä>lähten & lähen
+LEXICON v1_odd_var  !!≈ * **@CODE@** tapahtua >tapahtun & tapahun !TBC - where does it occur?
 v1_odd ;
 +V+Act+Ind+Prs+Sg1:%>n K ;
 +V+Act+Ind+Prs+Sg2:%>t K ;
@@ -399,7 +399,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
-+V+Act+Ind+Prs+Pl3:%>^Av^At K ; ! obs tidigare +Err/Orth
++V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ; 
 +V+Act+Ind+Prs+ConNeg:%>^A K ;
 +V+Pass+Ind+Prs:%^WG%>th^A^An K ;
 +V+Pass+Ind+Prs+ConNeg:%^WG%>t^A K ;
@@ -1309,7 +1309,7 @@ LEXICON 2cond !!≈ **@CODE@**  for -imm^A
 +Pl1:%>imm^A K ;
 +Pl2:%>itt^A K ;
 +Pl3:%>iv^A K ;
-+Pl3:%>iv^At K ;
++Pl3+Err/Orth:%>iv^At K ;
 +Pl3:%>it K ;
 
 !LEXICON 2cond_m !!≈ **@CODE@** for -im^A  
