@@ -327,7 +327,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
               Vow [n|l|r]   _        e:0 (%^WG:0)   %^E2I:   %> i2: ; ! hirsiksi, hirsi (pl: gen par) 
               Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
           [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0) %> i3: ;  ! löytää:löysi (ei sousi)  
-              Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> i3: ;
+              Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> [i3:|i8:] ;! 13/11
               Vow [n|l|r]   _ (:s) Vow:0  (%^WG:0)  (%^AO:0) %> i3: ;
                           i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
               ! [a] [i|h] _ (:s) Vow: (%^WG:0)   %> i3: ;  !vahtea>vahtesi, taitaa>taisi
@@ -678,7 +678,7 @@ a:e <=> _ %^AE: ;
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
     [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
- [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> i3: ;   !  seurav
+ [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   !  13/11
          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
  [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
@@ -747,6 +747,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
                                                      Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !Shortening before i
+!                                                     _ %> s i3:i n ; !13/11 TBC not to generate tuntesin etc
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**

@@ -221,7 +221,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
 +V+Act+Cond+Sg1:%>i4sin K ; 
-+V+Act+Cond+Sg1:%>sin K ; !variantform
++V+Act+Cond+Sg1:%>sin K ; !variantform genererar tuntesin (fel) !13/11
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg2:%>sit K ;
 +V+Act+Cond+Sg3:%>i4s K ;
