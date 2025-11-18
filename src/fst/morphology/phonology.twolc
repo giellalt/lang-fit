@@ -747,7 +747,6 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
                                                      Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !Shortening before i
-!                                                     _ %> s i3:i n ; !13/11 TBC not to generate tuntesin etc
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**
@@ -758,7 +757,8 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
 
 "e:i"
 !! **RULE: @RULENAME@**
-e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) %^E2I: ;
+e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
+   !     _ %> s i4:i ; !18 nov remove?
 
 !! **Tests:**
 
