@@ -31,6 +31,7 @@ t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 k4:k      !!≈ * **@CODE@** = k to j in certain words
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 n9:n      !!= * @CODE@ nouns that keep nn; juvanne
+%^Ä2Ö:0    !!= * @CODE@ = päärynä > päärynöitä
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
@@ -44,7 +45,7 @@ n9:n      !!= * @CODE@ nouns that keep nn; juvanne
 
 Sets
 
-Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; !!= * @CODE@
+Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL %^Ä2Ö ; !!= * @CODE@
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
@@ -758,13 +759,22 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
 "e:i"
 !! **RULE: @RULENAME@**
 e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
-   !     _ %> s i4:i ; !18 nov remove?
+
 
 !! **Tests:**
 
 !!€ ove^E2I
 !!€ ovi0
 
+"ä:ö"
+!! **RULE: @RULENAME@**
+ä:ö <=> Cns:+ Vow:+ Cns:+ Vow: Cns:+ _ %^Ä2Ö:0 ; !TBC to get päärynä>päärynöitä 19 nov
+
+
+!! **Tests:**
+
+!!€ ove^E2I
+!!€ ovi0
 
 
 !! ###  i rules

@@ -20368,7 +20368,7 @@ potatimuusi:potatimuusi nx ;
 puristus:puristu 4n_ks ;
 pääleajo:pääleajo nx ;
 pääruna:pääruna nx ;
-päärynä:päärynä nx ;
+päärynä:päärynä n3 ;
 puhthaanapito:puhthaanapito nx ;
 porokaarre:porokaarre nx ;
 puhheenvuoro:puhheenvuoro nx ;

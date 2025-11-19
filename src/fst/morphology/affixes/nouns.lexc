@@ -394,6 +394,7 @@ LEXICON x3_pl
  +Pl+Gen:%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:%>i2e n_PxK ;
  +Pl+Par:%>i2t^A PxK ; !asioita
+ !+Pl+Par:^Ä2Ö%>i2t^A PxK ; !asioita
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
