@@ -1932,6 +1932,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * **k4:k** = k to j in certain words
 * t4:t        goes to 0 in imartelee : imarella
 * n9:n       nouns that keep nn; juvanne
+* %^Ä2Ö:0     = päärynä > päärynöitä
 * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
 * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
 * %^N:n  for  participle -nut
@@ -1942,7 +1943,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 ### Sets
 Here we group the symbols in convenient sets.
 
-* Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL ; 
+* Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL %^Ä2Ö ; 
 * DummyBorder    = Dummy %> ;                                          
 * ArchiVowel     = %^A %^O %^U ;                                        
 * SomeVowel      = %^V ;                                                
@@ -2278,6 +2279,13 @@ There are also some other vowel change rules.
 * *tul00>issa*
 
 **RULE: e:i**
+
+**Tests:**
+
+* *ove^E2I*
+* *ovi0*
+
+**RULE: ä:ö**
 
 **Tests:**
 
