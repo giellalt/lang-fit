@@ -391,10 +391,12 @@ LEXICON x3_oblique_sg
 LEXICON x3_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%> t_PxK ;
+ +Pl+Gen:^A2O%>i2tte n_PxK ; !TBC: päärynöitten
  +Pl+Gen:%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:%>i2e n_PxK ;
+ !+Pl+Par:i%>i2t^A PxK ; !asioita
  +Pl+Par:%>i2t^A PxK ; !asioita
- !+Pl+Par:^Ä2Ö%>i2t^A PxK ; !asioita
+ +Pl+Par:^A2O%>i2t^A PxK ; !TBC: päärynöitä
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;

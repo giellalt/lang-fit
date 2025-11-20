@@ -31,7 +31,7 @@ t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 k4:k      !!≈ * **@CODE@** = k to j in certain words
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
 n9:n      !!= * @CODE@ nouns that keep nn; juvanne
-%^Ä2Ö:0    !!= * @CODE@ = päärynä > päärynöitä
+%^A2O:0    !!= * @CODE@ = päärynä > päärynöitä
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
@@ -45,7 +45,7 @@ n9:n      !!= * @CODE@ nouns that keep nn; juvanne
 
 Sets
 
-Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL %^Ä2Ö ; !!= * @CODE@
+Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^IDEL %^A2O ; !!= * @CODE@
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
@@ -696,13 +696,13 @@ a:0 <=>                                                          _ [%^HMETA: | %
 
 "a:o when nonrounded root vowel and before i"
 !! **RULE: @RULENAME@**
-a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
-        [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
-        [.#.|#] Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
-        [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:) %> i2: ; !3-syll with lnr
-        (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
-        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
-        [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i:    Cns:+ (Cns:) _ (%^WG:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
+a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
+        [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|i3:|i8:|j] ; ! see fkv
+        [.#.|#] Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
+        [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:|%^A2O:) %> i2: ; !3-syll with lnr
+        (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
+        (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
+        [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i:    Cns:+ (Cns:) _ (%^WG:|%^A2O:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
         ![.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
 
 !! **Tests:**
@@ -768,7 +768,7 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 
 "ä:ö"
 !! **RULE: @RULENAME@**
-ä:ö <=> Cns:+ Vow:+ Cns:+ Vow: Cns:+ _ %^Ä2Ö:0 ; !TBC to get päärynä>päärynöitä 19 nov
+ä:ö <=> Cns:+ Vow:+ Cns:+ Vow: Cns:+ _ (Dummy:) %^A2O:0 ; !TBC to get päärynä>päärynöitä 19 nov
 
 
 !! **Tests:**
