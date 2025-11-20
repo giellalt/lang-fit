@@ -210,6 +210,7 @@ Tag
 * **%^V** = Vowel copying
 * **%^N** = tulˆNut, kävel^N^Ut
 * **%^E2I** = for e to i change
+* **%^A2O** = for ä to ö change
 * **%^HMETA** = for h metathesis syksy - sykshyyn
 * **%^HMET2** = for h metathesis saunhaan - sauhnaan
 * **%^AO** = a:o rannoissa
