@@ -276,6 +276,12 @@ LEXICON NUM_FRONT_ILLATIVE_HEEN
 +Sg+Ill:%>he%>en    #     ;
 +Sg+Ill:%>he%>e     NUM_FRONT_POSS     ;
 
+LEXICON NUM_FRONT_ILLATIVE_HÄÄN
+!!€gt-norm: Numeral singular illative en front
+!!€ neljään: neljä+Num+Sg+Ill
++Sg+Ill:%>hä%>än    #     ;
++Sg+Ill:%>hä%>ä     NUM_FRONT_POSS     ;
+
 LEXICON NUM_BACK_ILLATIVE_IN
 !!€gt-norm: Numeral singular illative in back
 !!€ miljardhiin: miljardi+Num+Sg+Ill !billion

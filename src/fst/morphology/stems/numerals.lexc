@@ -32,7 +32,7 @@ LEXICON NUM_CARD_ALL
 !!€gt-norm: cardinal
 !!€ yksi: yksi+Num+Sg+Nom !one
 !!€ yks: yksi+Num+Sg+Nom
-!!€ viiele: viisi+Num+Sg+All !five
+!!€ viiele: viis+Num+Sg+All !five
 !!€ tuhatta: tuhat+Num+Sg+Par !thousand
 yksi+Num:y             NUM_YKSI  ;
 kaksi+Num:ka           NUM_KAKSI ;
@@ -98,9 +98,9 @@ seitsämän+Err/Orth+Num:seitsäm  NUM_YHDEKSÄN    ;
 LEXICON NUM_CARD_SUFFIX
 !! The suffixes only appear after cardinal multipliers
 !!€gt-norm: Cardinal multiplicants
-!!€ viisikymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ viiskymmentä: viisi+Num+Sg+Nom#kymmentä
-!!€ neljesattaatuhatta: nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
+!!€ viisikymmentä: viis+Num+Sg+Nom#kymmentä
+!!€ viiskymmentä: viis+Num+Sg+Nom#kymmentä
+!!€ neljäsattaatuhatta: neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta
 kymmentä    #   ;
 sataa       #   ;
 tuhatta     #   ;
@@ -416,21 +416,22 @@ LEXICON NUM_KOLME
 LEXICON NUM_NELJÄ
 !!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 10
-!!€ nelje: nelje+Num+Sg+Nom
-!!€ neljee: nelje+Num+Sg+Par
-!!€ neljheen: nelje+Num+Sg+Ill
-!!€ neljenä: nelje+Num+Sg+Ess
-!!€ neljessä: nelje+Num+Sg+Ine
-!!€ neljelä: nelje+Num+Sg+Ade
-!!€ neljii: nelje+Num+Pl+Par
-!!€ neljiin: nelje+Num+Pl+Gen
-!!€ neljein: nelje+Num+Pl+Gen !harvinainen muoto
-!!€ neljhiin: nelje+Num+Pl+Ill
-!!€ neljinä: nelje+Num+Pl+Ess
-!!€ neljissä: nelje+Num+Pl+Ine
+!!€ neljä: neljä+Num+Sg+Nom
+!!€ neljän: neljä+Num+Sg+Gen
+!!€ neljää: neljä+Num+Sg+Par
+!!€ neljhään: neljä+Num+Sg+Ill
+!!€ neljänä: neljä+Num+Sg+Ess
+!!€ neljässä: neljä+Num+Sg+Ine
+!!€ neljälä: neljä+Num+Sg+Ade
+!!€ neljiä: neljä+Num+Pl+Par
+!!€ neljhiin: neljä+Num+Pl+Gen
+!!€ neljien: neljä+Num+Pl+Gen !harvinainen muoto
+!!€ neljhiin: neljä+Num+Pl+Ill
+!!€ neljinä: neljä+Num+Pl+Ess
+!!€ neljissä: neljä+Num+Pl+Ine
 0:ä  NUM_FRONT_NOMINATIVE ;
 !+Err/Orth:e  NUM_FRONT_NOMINATIVE ;
-0   NUM_FRONT_ILLATIVE_HEEN   ;
+0   NUM_FRONT_ILLATIVE_HÄÄN   ;
 0:ä  NUM_FRONT_GENITIVE_IN    ;
 0:ä  NUM_FRONT_SINGULARS   ;
 0:ä  NUM_FRONT_STRONG_SINGULARS_NA ;
@@ -446,19 +447,19 @@ LEXICON NUM_NELJÄ
 LEXICON NUM_VIISI
 !!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 27 front
-!!€ viisi: viisi+Num+Sg+Nom
-!!€ viis: viisi+Num+Sg+Nom
-!!€ viitheen: viisi+Num+Sg+Ill
-!!€ viittä: viisi+Num+Sg+Par
-!!€ viiessä: viisi+Num+Sg+Ine
-!!€ viielä: viisi+Num+Sg+Ade
-!!€ viitenä: viisi+Num+Sg+Ess
-!!€ viisissä: viisi+Num+Pl+Ine
-!!€ viissii: viisi+Num+Pl+Par
-!!€ viissiin: viisi+Num+Pl+Gen
-!!€ viitten: viisi+Num+Pl+Gen !harvinainen muoto
-!!€ viishiin: viisi+Num+Pl+Ill
-!!€ viisinä: viisi+Num+Pl+Ess
+!!€ viisi: viis+Num+Sg+Nom
+!!€ viis: viis+Num+Sg+Nom
+!!€ viitheen: viis+Num+Sg+Ill
+!!€ viittä: viis+Num+Sg+Par
+!!€ viiessä: viis+Num+Sg+Ine
+!!€ viielä: viis+Num+Sg+Ade
+!!€ viitenä: viis+Num+Sg+Ess
+!!€ viisissä: viis+Num+Pl+Ine
+!!€ viissii: viis+Num+Pl+Par
+!!€ viissiin: viis+Num+Pl+Gen
+!!€ viitten: viis+Num+Pl+Gen !harvinainen muoto
+!!€ viishiin: viis+Num+Pl+Ill
+!!€ viisinä: viis+Num+Pl+Ess
 0:s    NUM_FRONT_NOMINATIVE ;
 +Use/NG:s  NUM_FRONT_NOMINATIVE ; 
 0:t     NUM_FRONT_ILLATIVE_HEEN    ;
@@ -478,18 +479,18 @@ LEXICON NUM_VIISI
 LEXICON NUM_KUUSI
 !!≈ __@LEXNAME@__ 
 !!€gt-norm: Numerals 27 back
-!!€ kuusi: kuusi+Num+Sg+Nom
-!!€ kuus: kuusi+Num+Sg+Nom
-!!€ kuutta: kuusi+Num+Sg+Par
-!!€ kuutena: kuusi+Num+Sg+Ess
-!!€ kuuessa: kuusi+Num+Sg+Ine
-!!€ kuuela: kuusi+Num+Sg+Ade
-!!€ kuusina: kuusi+Num+Pl+Ess
-!!€ kuusissa: kuusi+Num+Pl+Ine
-!!€ kuussii: kuusi+Num+Pl+Par
-!!€ kuussiin: kuusi+Num+Pl+Gen
-!!€ kuutten: kuusi+Num+Pl+Gen !harvinainen muoto
-!!€ kuushiin: kuusi+Num+Pl+Ill
+!!€ kuusi: kuus+Num+Sg+Nom
+!!€ kuus: kuus+Num+Sg+Nom
+!!€ kuutta: kuus+Num+Sg+Par
+!!€ kuutena: kuus+Num+Sg+Ess
+!!€ kuuessa: kuus+Num+Sg+Ine
+!!€ kuuela: kuus+Num+Sg+Ade
+!!€ kuusina: kuus+Num+Pl+Ess
+!!€ kuusissa: kuus+Num+Pl+Ine
+!!€ kuussii: kuus+Num+Pl+Par
+!!€ kuussiin: kuus+Num+Pl+Gen
+!!€ kuutten: kuus+Num+Pl+Gen !harvinainen muoto
+!!€ kuushiin: kuus+Num+Pl+Ill
 0:s    NUM_BACK_NOMINATIVE ;
 +Use/NG:s   NUM_BACK_NOMINATIVE ; 
 0:t     NUM_BACK_ILLATIVE_HEEN    ;
@@ -542,7 +543,7 @@ LEXICON NUM_YHDEKSÄN
 !!€gt-norm: Numerals 10n front
 !!€ yheksän: yheksän+Num+Sg+Nom
 !!€ yheksää: yheksän+Num+Sg+Par
-!!€ yheksheen: yheksän+Num+Sg+Ill
+!!€ yhekshään: yheksän+Num+Sg+Ill
 !!€ yheksessä: yheksän+Num+Sg+Ine
 !!€ yheksellä: yheksän+Num+Sg+Ade
 !!€ yheksännä: yheksän+Num+Sg+Ess
@@ -554,7 +555,7 @@ LEXICON NUM_YHDEKSÄN
 !!€ yheksinnä: yheksän+Num+Pl+Ess
 0:än    NUM_FRONT_NOMINATIVE  ; !CHECK!
 0:ä     NUM_FRONT_PARTITIVE_E    ;
-0       NUM_FRONT_ILLATIVE_HEEN    ;
+0       NUM_FRONT_ILLATIVE_HÄÄN    ;
 !0:e     NUM_FRONT_GENITIVE_IN    ;
 0:ä     NUM_FRONT_SINGULARS   ;
 0:ä     NUM_FRONT_STRONG_SINGULARS_NNA ;
