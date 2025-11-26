@@ -102,6 +102,9 @@ forms which requires great amount of care in the inflection patterns.
 * Numeral singular illative en front examples:*
 * *viitheen:* `viisi+Num+Sg+Ill`
 
+* Numeral singular illative en front examples:*
+* *neljään:* `neljä+Num+Sg+Ill`
+
 * Numeral singular illative in back examples:*
 * *miljardhiin:* `miljardi+Num+Sg+Ill` (Eng. !billion)
 
@@ -112,7 +115,10 @@ forms which requires great amount of care in the inflection patterns.
 * *miljardii:* `miljardi+Num+Pl+Par`
 
 * Numeral plural genitive ien back examples:*
-* *kaksiin:* `kaksi+Num+Pl+Gen`
+* *kaksien:* `kaksi+Num+Pl+Gen`
+
+* Numeral plural genitive ien front examples:*
+* *neljien:* `neljä+Num+Pl+Gen`
 
 * Numeral plural genitive ten back examples:*
 * *kuussiin:* `kuusi+Num+Pl+Gen`

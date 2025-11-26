@@ -18,15 +18,15 @@ The compounding parts of cardinals are the number multiplier words.
 * cardinal examples:*
 * *yksi:* `yksi+Num+Sg+Nom` (Eng. !one)
 * *yks:* `yksi+Num+Sg+Nom`
-* *viiele:* `viisi+Num+Sg+All` (Eng. !five)
+* *viiele:* `viis+Num+Sg+All` (Eng. !five)
 * *tuhatta:* `tuhat+Num+Sg+Par` (Eng. !thousand)
 
 The suffixes only appear after cardinal multipliers
 
 * Cardinal multiplicants examples:*
-* *viisikymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *viiskymmentä:* `viisi+Num+Sg+Nom#kymmentä`
-* *neljesattaatuhatta:* `nelje+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
+* *viisikymmentä:* `viis+Num+Sg+Nom#kymmentä`
+* *viiskymmentä:* `viis+Num+Sg+Nom#kymmentä`
+* *neljäsattaatuhatta:* `neljä+Num+Sg+Nom#sata+Num+Sg+Par#tuhatta`
 
 The compounding parts of ordinals are the number multiplier words.
 
@@ -95,47 +95,48 @@ being very rare to extinct for nouns.
 * *kolmissa:* `kolme+Num+Pl+Ine`
 
 * Numerals 10 examples:*
-* *nelje:* `nelje+Num+Sg+Nom`
-* *neljee:* `nelje+Num+Sg+Par`
-* *neljheen:* `nelje+Num+Sg+Ill`
-* *neljenä:* `nelje+Num+Sg+Ess`
-* *neljessä:* `nelje+Num+Sg+Ine`
-* *neljelä:* `nelje+Num+Sg+Ade`
-* *neljii:* `nelje+Num+Pl+Par`
-* *neljiin:* `nelje+Num+Pl+Gen`
-* *neljein:* `nelje+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *neljhiin:* `nelje+Num+Pl+Ill`
-* *neljinä:* `nelje+Num+Pl+Ess`
-* *neljissä:* `nelje+Num+Pl+Ine`
+* *neljä:* `neljä+Num+Sg+Nom`
+* *neljän:* `neljä+Num+Sg+Gen`
+* *neljää:* `neljä+Num+Sg+Par`
+* *neljhään:* `neljä+Num+Sg+Ill`
+* *neljänä:* `neljä+Num+Sg+Ess`
+* *neljässä:* `neljä+Num+Sg+Ine`
+* *neljälä:* `neljä+Num+Sg+Ade`
+* *neljiä:* `neljä+Num+Pl+Par`
+* *neljhiin:* `neljä+Num+Pl+Gen`
+* *neljien:* `neljä+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *neljhiin:* `neljä+Num+Pl+Ill`
+* *neljinä:* `neljä+Num+Pl+Ess`
+* *neljissä:* `neljä+Num+Pl+Ine`
 
 * Numerals 27 front examples:*
-* *viisi:* `viisi+Num+Sg+Nom`
-* *viis:* `viisi+Num+Sg+Nom`
-* *viitheen:* `viisi+Num+Sg+Ill`
-* *viittä:* `viisi+Num+Sg+Par`
-* *viiessä:* `viisi+Num+Sg+Ine`
-* *viielä:* `viisi+Num+Sg+Ade`
-* *viitenä:* `viisi+Num+Sg+Ess`
-* *viisissä:* `viisi+Num+Pl+Ine`
-* *viissii:* `viisi+Num+Pl+Par`
-* *viissiin:* `viisi+Num+Pl+Gen`
-* *viitten:* `viisi+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *viishiin:* `viisi+Num+Pl+Ill`
-* *viisinä:* `viisi+Num+Pl+Ess`
+* *viisi:* `viis+Num+Sg+Nom`
+* *viis:* `viis+Num+Sg+Nom`
+* *viitheen:* `viis+Num+Sg+Ill`
+* *viittä:* `viis+Num+Sg+Par`
+* *viiessä:* `viis+Num+Sg+Ine`
+* *viielä:* `viis+Num+Sg+Ade`
+* *viitenä:* `viis+Num+Sg+Ess`
+* *viisissä:* `viis+Num+Pl+Ine`
+* *viissii:* `viis+Num+Pl+Par`
+* *viissiin:* `viis+Num+Pl+Gen`
+* *viitten:* `viis+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *viishiin:* `viis+Num+Pl+Ill`
+* *viisinä:* `viis+Num+Pl+Ess`
 
 * Numerals 27 back examples:*
-* *kuusi:* `kuusi+Num+Sg+Nom`
-* *kuus:* `kuusi+Num+Sg+Nom`
-* *kuutta:* `kuusi+Num+Sg+Par`
-* *kuutena:* `kuusi+Num+Sg+Ess`
-* *kuuessa:* `kuusi+Num+Sg+Ine`
-* *kuuela:* `kuusi+Num+Sg+Ade`
-* *kuusina:* `kuusi+Num+Pl+Ess`
-* *kuusissa:* `kuusi+Num+Pl+Ine`
-* *kuussii:* `kuusi+Num+Pl+Par`
-* *kuussiin:* `kuusi+Num+Pl+Gen`
-* *kuutten:* `kuusi+Num+Pl+Gen` (Eng. !harvinainen muoto)
-* *kuushiin:* `kuusi+Num+Pl+Ill`
+* *kuusi:* `kuus+Num+Sg+Nom`
+* *kuus:* `kuus+Num+Sg+Nom`
+* *kuutta:* `kuus+Num+Sg+Par`
+* *kuutena:* `kuus+Num+Sg+Ess`
+* *kuuessa:* `kuus+Num+Sg+Ine`
+* *kuuela:* `kuus+Num+Sg+Ade`
+* *kuusina:* `kuus+Num+Pl+Ess`
+* *kuusissa:* `kuus+Num+Pl+Ine`
+* *kuussii:* `kuus+Num+Pl+Par`
+* *kuussiin:* `kuus+Num+Pl+Gen`
+* *kuutten:* `kuus+Num+Pl+Gen` (Eng. !harvinainen muoto)
+* *kuushiin:* `kuus+Num+Pl+Ill`
 
 * Numerals 10n examples:*
 * *kaheksen:* `kaheksen+Num+Sg+Nom`
@@ -154,7 +155,7 @@ being very rare to extinct for nouns.
 * Numerals 10n front examples:*
 * *yheksän:* `yheksän+Num+Sg+Nom`
 * *yheksää:* `yheksän+Num+Sg+Par`
-* *yheksheen:* `yheksän+Num+Sg+Ill`
+* *yhekshään:* `yheksän+Num+Sg+Ill`
 * *yheksessä:* `yheksän+Num+Sg+Ine`
 * *yheksellä:* `yheksän+Num+Sg+Ade`
 * *yheksännä:* `yheksän+Num+Sg+Ess`

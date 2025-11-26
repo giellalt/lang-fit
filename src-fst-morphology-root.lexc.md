@@ -308,6 +308,7 @@ This is for pronouns with multiple case suffixes (*jommallekummalle*)
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 
 | @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
 | @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
@@ -319,6 +320,7 @@ This is for pronouns with multiple case suffixes (*jommallekummalle*)
 | @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 
 These are for preprocessing
 
