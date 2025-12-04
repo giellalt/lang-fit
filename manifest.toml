@@ -1,14 +1,14 @@
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "Meänkieli (Tornedalen Finnish spellchecker"
+en = "Meänkieli (Tornedalen Finnish) spellchecker"
 fit = "Autonym spellchecker"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
 [speller.description]
-en = "A spellchecker for Meänkieli (Tornedalen Finnish, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
-fit = "TRANSLATE: A spellchecker for Meänkieli (Tornedalen Finnish, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+en = "A spellchecker for Meänkieli (Tornedalen Finnish), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+fit = "TRANSLATE: A spellchecker for Meänkieli (Tornedalen Finnish), made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.fit"
@@ -22,17 +22,17 @@ legacy_product_codes = [
 extra_locales = { fit-SE = "fit" }
 
 [package.speller]
-name = "Meänkieli (Tornedalen Finnish"
+name = "Meänkieli (Tornedalen Finnish)"
 version = "0.2.0"
 
 [package.grammar]
-name = "Meänkieli (Tornedalen Finnish"
+name = "Meänkieli (Tornedalen Finnish)"
 version = "0.1.0"
 
 [package.tts-textproc]
-name = "Meänkieli (Tornedalen Finnish"
+name = "Meänkieli (Tornedalen Finnish)"
 version = "0.1.0"
 
 [package.hyphenator]
-name = "Tornedalen Finnish"
+name = "Meänkieli (Tornedalen Finnish)"
 version = "0.1.0"
