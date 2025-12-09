@@ -344,8 +344,30 @@ n_e ;
 +N+Pl+Abe:e%>i2tt^A PxK ; !
 
 LEXICON n_et
-n_e ;
+!!n_e ;
 +N+Sg+Nom:%> t_PxK ; 
++N+Sg+Gen:h%>ee n_PxK ; ! liikheen, säkheen, ainheen !TEST stryka WG före h?
++N+Sg+Gen:^HMET2%>hee n_PxK ; ! aihneen, liihkeen
++N+Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä 
++N+Sg+Ill:h%>eeshee n_PxK ; ! liikheesheen !TEST stryka WG före h?
++N+Sg+Ill:^HMET2%>heeshee n_PxK ; ! aihneesheen
++N+Sg+Ine:h%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
++N+Sg+Ine:^HMET2%>heess^A   PxK ; ! NY aihneessa 
++N+Sg+Ela:h%>eest^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
++N+Sg+Ela:^HMET2%>heest^A   PxK ; ! NY aihneesta
++N+Sg+All:h%>eele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
++N+Sg+All:^HMET2%>heele    PxxK ; ! NY
++N+Sg+Ade:h%>eel^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
++N+Sg+Ade:^HMET2%>heel^A    PxK ; ! NY
++N+Sg+Abl:h%>eelt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
++N+Sg+Abl:^HMET2%>heelt^A   PxK ; ! NY
++N+Sg+Tra:h%>ee TRA ; !TEST stryka WG före h?
++N+Sg+Tra:^HMET2%>hee TRA ; ! NY
++N+Sg+Ess:h%>een^A PxK ; !TEST stryka WG före h?
++N+Sg+Ess:^HMET2%>heen^A PxK ; ! NY
++N+Sg+Abe:%>ett^A PxK ;
+
++N: x_e_pl ;
 
 LEXICON n3 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava
