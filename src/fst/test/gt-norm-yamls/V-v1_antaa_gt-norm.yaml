@@ -222,7 +222,7 @@ Tests:
      tuntea+V+Act+Ind+Prs+Sg1: tunnen
      tuntea+V+Act+Ind+Prt+Sg1: tunsin
 
-#Verb lukea 
+#Verb lukea - GOLD
      lukea+V+Inf: lukea
      lukea+V+Act+Ind+Prs+Sg1: luen
      lukea+V+Act+Ind+Prs+Sg2: luet
@@ -237,9 +237,7 @@ Tests:
      lukea+V+Act+Ind+Prt+Sg3: luki
      lukea+V+Act+Ind+Prt+Pl1: luima
      lukea+V+Act+Ind+Prt+Pl2: luitta
-     lukea+V+Act+Ind+Prt+Pl3: luit
-     lukea+V+Act+Ind+Prt+Pl3: luethiin
-     lukea+V+Act+Ind+Prt+Pl3: lukiva
+     lukea+V+Act+Ind+Prt+Pl3: [luit, luethiin, lukiva]
      lukea+V+Pass+Ind+Prt: luethiin
      lukea+V+Act+Cond+Sg1: lukisin
      lukea+V+Act+Cond+Sg2: lukisit
@@ -249,10 +247,9 @@ Tests:
      lukea+V+Act+Cond+Pl3: [lukisit, lukisiva]
      lukea+V+InfE+Ine: lukiessa
      lukea+V+InfE+Ins: lukien
-     lukea+V+InfMa+Ill: lukheen
-     lukea+V+InfMa+Ill: [lukehmaan, lukemhaan]
+     lukea+V+InfMa+Ill: [lukheen,lukehmaan, lukemhaan]
      lukea+V+InfMa+Ine: lukemassa
-     ukea+V+InfMa+Ela: lukemasta
+     lukea+V+InfMa+Ela: lukemasta
      lukea+V+InfMa+Ade: lukemalla
      lukea+V+InfMa+Abe: lukematta
      lukea+V+Act+PrsPrc+Sg+Nom: lukeva
@@ -264,3 +261,84 @@ Tests:
      lukea+V+Pass+PrfPrc+Sg+Nom: luettu
      lukea+V+Pass+PrfPrc+Pl+Nom: luetut
      lukea+V+Pass+Cond: [luettais, luettas]
+
+#Verb alkaa - GOLD
+     alkaa+V+Inf: alkaa
+     alkaa+V+Act+Ind+Prs+Sg1: alan
+     alkaa+V+Act+Ind+Prs+Sg2: alat
+     alkaa+V+Act+Ind+Prs+Sg3: alkaa
+     alkaa+V+Act+Ind+Prs+Pl1: alama
+     alkaa+V+Act+Ind+Prs+Pl2: alatta
+     alkaa+V+Act+Ind+Prs+Pl3: alkava
+     alkaa+V+Pass+Ind+Prs: alethaan
+     alkaa+V+Act+Ind+Prs+ConNeg: ala
+     alkaa+V+Act+Ind+Prt+Sg1: aloin
+     alkaa+V+Act+Ind+Prt+Sg2: aloit
+     alkaa+V+Act+Ind+Prt+Sg3: [alko, alkoi]
+     alkaa+V+Act+Ind+Prt+Pl1: aloima
+     alkaa+V+Act+Ind+Prt+Pl2: aloitta
+     alkaa+V+Act+Ind+Prt+Pl3: [alethiin, aloit, alkoiva]
+     alkaa+V+Pass+Ind+Prt: alethiin
+     alkaa+V+Act+Cond+Sg1: [alkaisin, alkasin]
+     alkaa+V+Act+Cond+Sg2: [alkaisit, alkasit]
+     alkaa+V+Act+Cond+Sg3: [alkais, alkas]
+     alkaa+V+Act+Cond+Pl1: [alkaisima, alkaisimma, alkasima, alkasimma]
+     alkaa+V+Act+Cond+Pl2: [alkaisitta, alkasitta]
+     alkaa+V+Act+Cond+Pl3: [alkaisit, alkaisiva, alkasit, alkasiva]
+     alkaa+V+InfE+Ine: alkaessa
+     alkaa+V+InfE+Ins: alkaen
+     alkaa+V+InfMa+Ill: [alkhaan, alkamhaan, alkahmaan]
+     alkaa+V+InfMa+Ine: alkamassa
+     alkaa+V+InfMa+Ela: alkamasta
+     alkaa+V+InfMa+Ade: alkamalla
+     alkaa+V+InfMa+Abe: alkamatta
+     alkaa+V+Act+PrsPrc+Sg+Nom: alkava
+     alkaa+V+Act+PrsPrc+Pl+Nom: alkavat
+     alkaa+V+Pass+PrsPrc+Sg+Nom: alettava
+     alkaa+V+Pass+PrsPrc+Pl+Nom: alettavat
+     alkaa+V+Act+PrfPrc+Sg+Nom: alkanu
+     alkaa+V+Act+PrfPrc+Pl+Nom: [alkanheet, alkahneet]
+     alkaa+V+Pass+PrfPrc+Sg+Nom: alettu
+     alkaa+V+Pass+PrfPrc+Pl+Nom: aletut
+     alkaa+V+Pass+Cond: [alettas, alettais]
+
+
+#Verb pittää - GOLD
+     pittää+V+Inf: pittää
+     pittää+V+Act+Ind+Prs+Sg1: piän
+     pittää+V+Act+Ind+Prs+Sg2: piät
+     pittää+V+Act+Ind+Prs+Sg3: pittää
+     pittää+V+Act+Ind+Prs+Pl1: piämä
+     pittää+V+Act+Ind+Prs+Pl2: piättä
+     pittää+V+Act+Ind+Prs+Pl3: pitävä
+     pittää+V+Pass+Ind+Prs: piethään
+     pittää+V+Act+Ind+Prs+ConNeg: piä
+     pittää+V+Act+Ind+Prt+Sg1: piin
+     pittää+V+Act+Ind+Prt+Sg2: piit
+     pittää+V+Act+Ind+Prt+Sg3: piti
+     pittää+V+Act+Ind+Prt+Pl1: piimä
+     pittää+V+Act+Ind+Prt+Pl2: piittä
+     pittää+V+Act+Ind+Prt+Pl3: [piit, piethiin, pitivä]
+     pittää+V+Pass+Ind+Prt: piethiin
+     pittää+V+Act+Cond+Sg1: [pitäisin, pitäsin]
+     pittää+V+Act+Cond+Sg2: [pitäisit, pitäsit]
+     pittää+V+Act+Cond+Sg3: [pitäis, pitäs]
+     pittää+V+Act+Cond+Pl1: [pitäisimmä, pitäisimä, pitäsimmä, pitäsimä]
+     pittää+V+Act+Cond+Pl2: [pitäisittä, pitäsittä]
+     pittää+V+Act+Cond+Pl3: [pitäisit, pitäisivä, pitäsit, pitäsivä]
+     pittää+V+InfE+Ine: pitäessä
+     pittää+V+InfE+Ins: pitäen
+     pittää+V+InfMa+Ill: [pithään,pitähmään, pitämhään]
+     pittää+V+InfMa+Ine: pitämässä
+     pittää+V+InfMa+Ela: pitämästä
+     pittää+V+InfMa+Ade: pitämällä
+     pittää+V+InfMa+Abe: pitämättä
+     pittää+V+Act+PrsPrc+Sg+Nom: pitävä
+     pittää+V+Act+PrsPrc+Pl+Nom: pitävät
+     pittää+V+Pass+PrsPrc+Sg+Nom: piettävä
+     pittää+V+Pass+PrsPrc+Pl+Nom: piettävät
+     pittää+V+Act+PrfPrc+Sg+Nom: pitäny
+     pittää+V+Act+PrfPrc+Pl+Nom: [pitähneet, pitänheet]
+     pittää+V+Pass+PrfPrc+Sg+Nom: pietty
+     pittää+V+Pass+PrfPrc+Pl+Nom: pietyt
+     pittää+V+Pass+Cond: [piettäis, piettäs]

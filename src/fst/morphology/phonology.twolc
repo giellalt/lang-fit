@@ -128,7 +128,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 	    [u|y]     _ VowelNotUY: WeakGrade ; ! tuen
           Vow [k|k2:] _ e: (%^WG:)  h     %> e       ; ! kkh > kh ääkkä : ääkhään
           Vow (Cns) [k|k2:] _ Vow: (%^IDEL:) (%>) (Vow:) [%^HMETA: | %^HMET2:|h %> e] ; ! kkh > kh ääkkä : ääkhään, kirkko:kirkhoon
-          Vow   [l|r] _ VowelNotEI  WeakGrade ;
+          Vow   [l|r] _ [VowelNotEI | a: %^AE:0]  WeakGrade ; !alkaa>aletaan
               Vow h k _ Vow         WeakGrade ;
            Vow  h _ Vow         WeakGrade ; !vehke>vehettä
 !          [Vow - e] h _ Vow         WeakGrade ;
@@ -154,7 +154,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 
 "k:j"
 !! **RULE: @RULENAME@**
-k:j <=> Vow [l|r] _ [:i|:e]  WeakGrade ;   ! syljen
+k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen 
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin
         ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
@@ -291,7 +291,7 @@ t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
 "t:0"
 !! **RULE: @RULENAME@**
 t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
-  [.#.|#] (Cns) (:Vow) i _ [a|ä|i2:] WeakGrade [%> |%> [:Vow - :i]|Cns:] ; ! pitä- : piän, haitata
+  [.#.|#] (Cns) (:Vow) i _ [a:|ä:|i2:] (%^AE:0) WeakGrade [%> |%> [:Vow - :i] | Cns: | .#.] ; ! pitä>piän, piä; haitata
           u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
@@ -677,7 +677,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:)  %> [i2:|i3:|j] ;   ! kuva:kuvissa
+    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:)  %> [i2:|i3:|j|i8:] ;   ! kuva:kuvissa 10/12 added i8
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   !  13/11
          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
