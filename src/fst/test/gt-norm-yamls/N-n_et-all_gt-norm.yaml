@@ -1,0 +1,42 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - n_et-all: #  alla kasus --  kontrollerad av Elina 
+    käärmet+N+Sg+Nom: käärmet
+    käärmet+N+Sg+Gen: [käärhmeen, käärmheen]
+    käärmet+N+Sg+Par: käärmettä
+    käärmet+N+Sg+Tra: [käärhmeeksi, käärmheeksi]
+    käärmet+N+Sg+Abe: käärmeettä
+    käärmet+N+Sg+Ine: [käärhmeessä, käärmheessä]
+    käärmet+N+Sg+Ela: [käärhmeestä, käärmheestä]
+    käärmet+N+Sg+Ill: [käärhmeesheen, käärmheesheen]
+    käärmet+N+Sg+Ade: [käärhmeelä, käärmheelä]
+    käärmet+N+Sg+Abl: [käärhmeeltä, käärmheeltä]
+    käärmet+N+Sg+All: [käärhmeele, käärmheele]
+    käärmet+N+Sg+Ess: [käärhmeenä, käärmheenä]
+    käärmet+N+Pl+Nom: käärmheet
+    käärmet+N+Pl+Gen: [käärmheitten, käärmhejen]
+    käärmet+N+Pl+Par: [käärmheitä, käärmhejä]
+    käärmet+N+Pl+Tra: [käärhmeiksi, käärmheiksi]
+    käärmet+N+Pl+Abe: [käärhmeittä, käärmheittä]
+    käärmet+N+Pl+Ine: [käärhmeissä, käärmheissä]
+    käärmet+N+Pl+Ela: [käärhmeistä, käärmheistä]
+    käärmet+N+Pl+Ill: [käärhmeishiin, käärmheishiin]
+    käärmet+N+Pl+Ade: [käärhmeilä, käärmheilä]
+    käärmet+N+Pl+Abl: [käärhmeiltä, käärmheiltä]
+    käärmet+N+Pl+All: [käärhmeile, käärmheile]
+    käärmet+N+Pl+Ess: [käärhmeinä, käärmheinä]
+    
