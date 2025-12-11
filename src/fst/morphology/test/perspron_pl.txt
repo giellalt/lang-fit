@@ -1,0 +1,12 @@
++Pron+Pers+Pl+Nom 
++Pron+Pers+Pl+Gen 
++Pron+Pers+Pl+Par 
++Pron+Pers+Pl+Tra 
++Pron+Pers+Pl+Abe 
++Pron+Pers+Pl+Ine 
++Pron+Pers+Pl+Ela 
++Pron+Pers+Pl+Ill 
++Pron+Pers+Pl+Ade 
++Pron+Pers+Pl+Abl 
++Pron+Pers+Pl+All 
++Pron+Pers+Pl+Ess 
