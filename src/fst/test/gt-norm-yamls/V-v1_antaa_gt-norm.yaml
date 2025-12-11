@@ -342,3 +342,43 @@ Tests:
      pittää+V+Pass+PrfPrc+Sg+Nom: pietty
      pittää+V+Pass+PrfPrc+Pl+Nom: pietyt
      pittää+V+Pass+Cond: [piettäis, piettäs]
+
+#Verb olla - GOLD
+     olla+V+Inf: olla
+     olla+V+Act+Ind+Prs+Sg1: olen
+     olla+V+Act+Ind+Prs+Sg2: olet
+     olla+V+Act+Ind+Prs+Sg3: oon
+     olla+V+Act+Ind+Prs+Pl1: olema
+     olla+V+Act+Ind+Prs+Pl2: oletta
+     olla+V+Act+Ind+Prs+Pl3: [oon, ovva, ovat]
+     olla+V+Pass+Ind+Prs: olhaan
+     olla+V+Act+Ind+Prs+ConNeg: ole
+     olla+V+Act+Ind+Prt+Sg1: olin
+     olla+V+Act+Ind+Prt+Sg2: olit
+     olla+V+Act+Ind+Prt+Sg3: oli
+     olla+V+Act+Ind+Prt+Pl1: olima
+     olla+V+Act+Ind+Prt+Pl2: olitta
+     olla+V+Act+Ind+Prt+Pl3: [oli, olit, olthiin]
+     olla+V+Pass+Ind+Prt: olthiin
+     olla+V+Act+Cond+Sg1: olisin
+     olla+V+Act+Cond+Sg2: olisit
+     olla+V+Act+Cond+Sg3: olis 
+     olla+V+Act+Cond+Pl1: olisimma     
+     olla+V+Act+Cond+Pl2: olisitta     
+     olla+V+Act+Cond+Pl3: [olisit, olisiva]
+     olla+V+InfE+Ine: ollessa
+     olla+V+InfE+Ins: ollen
+     olla+V+InfMa+Ill: olemhaan, olehmaan
+     olla+V+InfMa+Ine: olemassa     
+     olla+V+InfMa+Ela: olemasta     
+     olla+V+InfMa+Ade: olemalla     
+     olla+V+InfMa+Abe: olematta     
+     olla+V+Act+PrsPrc+Sg+Nom: oleva
+     olla+V+Act+PrsPrc+Pl+Nom: olevat
+     olla+V+Pass+PrsPrc+Sg+Nom: oltava
+     olla+V+Pass+PrsPrc+Pl+Nom: oltavat
+     olla+V+Act+PrfPrc+Sg+Nom: ollu 
+     olla+V+Act+PrfPrc+Pl+Nom: olheet
+     olla+V+Pass+PrfPrc+Sg+Nom: oltu 
+     olla+V+Pass+PrfPrc+Pl+Nom: ollut
+     olla+V+Pass+Cond: olis
