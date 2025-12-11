@@ -570,6 +570,7 @@ LEXICON n5_vuosi
  +N+Sg+Ine:^WG%>ess^A PxK ; !
  +N+Sg+Ela:^WG%>est^A PxK ;
  +N+Sg+Ess:o%>n^A PxK ;
+  +N+Sg+Ess+Err/Orth:o%>nn^A PxK ;
  +N+Sg+Gen:e%> n_PxK ;
  +N+Sg+Tra:^WG%>e TRA ;
 
