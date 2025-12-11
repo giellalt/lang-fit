@@ -254,8 +254,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 +V+Act+Cond+ConNeg:%>%^E2Iisi K ;
 
 +V+Inf+Tra:%>^Akse PxK ;
-+V+InfE+Ins:%>en K ;
-+V+InfE+Ine:%>ess^A K ;
++V+InfE+Ins:%>^E2Ien K ; !lukea>lukien etc 10 dec
++V+InfE+Ine:%>^E2Iess^A K ; !10 dec
 +V+InfMa+Ill:%>^HMET2mh^A^An K ; ! also hm but first just for two-syll (position 4); antahmaan
 +V+InfMa+Ill:%>mh^A^An K ; ! 
 +V+InfMa+Ill:^HMETA%>h^V^Vn K ; !isthuun, seishoon, laulhaan
