@@ -17,7 +17,7 @@ GTLANGS=$(echo $GTLANGS)
 
 PATTERN="${1}\+Pron\+Pers" 
 L_FILE="in.txt"
-cut -d '!' -f1 src/fst/morphology/stems/pronouns.lexc | egrep $PATTERN | sed 's/% /%/g' | tr ' +' ':' | cut -d ':' -f1 | sed 's/%/% /g' | tr -d '%'>$L_FILE
+cut -d '!' -f1 src/fst/morphology/stems/pronouns.lexc | egrep $PATTERN | sed 's/% /%/g' | tr ' +' ':' | cut -d ':' -f1 | sort -u | sed 's/%/% /g' | tr -d '%'>$L_FILE
 
 
 P_FILE="src/fst/morphology/test/perspron_pl.txt"
