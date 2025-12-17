@@ -17,7 +17,7 @@ x3 ;
 LEXICON 12pronsg !!≈ @CODE@ on 1., 2. p. yksikkö
 +Nom:ie K ;
 +Gen:inun K ;
-+Acc+Err/Orth:inut K ; ! minut Finnish
++Acc:inut K ; ! 
 +Ill:inhuun K ;
 +Par:inua K ;
 +Ess:inuna    K ;
@@ -34,7 +34,7 @@ LEXICON haan_pron
 +Nom+Err/Orth:hän K ;
 +Nom:hään K ;
 +Gen:hänen K ;
-+Acc+Err/Orth:hänet K ;
++Acc:hänet K ;
 +Ill:hänheen K ;
 +Par:häntä K ;
 +Ess:hänenä    K ;
@@ -49,11 +49,12 @@ LEXICON haan_pron
 
 LEXICON 123pronpl  !!≈ @CODE@ 
 +Nom:t K ;
-+Acc:iät 	K ; ! todo: inkonsistent.
-+Acc+Err/Orth:ät 	K ;
+!+Acc:iät 	K ; ! todo: inkonsistent.
++Acc:ät 	K ;
 +Gen+Err/Orth:iän K ; ! meiän, heiän
 +Gen:än K ; !  meän, heän, ...
 +Ill:ihiin K ;
++Ill:ihin K ;
 +Par:itä K ;
 +Ess:inä    K ;
 +Tra:iksi   K ;
@@ -75,6 +76,7 @@ LEXICON se_pron
 +Ine:siinä K ;
 +Par:sitä K ;
 +Tra:siksi   K ;
++Abe:settä  K ;
 +Ess:sinä   K ; 
 +All:sille K ;
 +Ade:sillä    K ;
