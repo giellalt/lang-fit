@@ -19,6 +19,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
 
+**LEXICON a1_aa** vanhaa !TODO!
+
 **LEXICON a1_e** vanha, which has Err/Orth vanhee-, otherwise like a1
 
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
