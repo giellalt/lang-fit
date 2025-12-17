@@ -178,6 +178,7 @@ LEXICON x1_pl
  +Pl+Nom:^WG%> t_PxK ;
  +Pl+Gen:^WG^IDEL%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2e n_PxK ;
+ +Pl+Gen+Err/Orth:%>i2e n_PxK ;
  +Pl+Par:%>i2^A PxK ; 
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhoin 
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnoin 

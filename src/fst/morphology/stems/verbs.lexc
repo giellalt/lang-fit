@@ -2388,6 +2388,7 @@ karvoa:karvo v1 ;
 neuvoa:neuvo v1 ;
 !kilpa:kilpa vx ; ! ajaa kilpaa
 testata:testa v2_ata_odd ;
+suunata:suuna v2_ata_odd ;
 logata:loga v2_ata_odd ;
 !vanhaata:vanhaa v2_ata_odd ;
 jaata:jaka v2_ata_odd ;

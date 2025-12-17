@@ -32,6 +32,12 @@ LEXICON a1
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
+LEXICON a1_aa
+!! **LEXICON @LEXNAME@** vanhaa !TODO!
+a1 ;
++A+Sg+Par:%>t^A K ;
++A+Sg+All:%>le K ; 
++A+Sg+Ade:%>l^A K ; 
 
 LEXICON a1_e 
 !! **LEXICON @LEXNAME@** vanha, which has Err/Orth vanhee-, otherwise like a1

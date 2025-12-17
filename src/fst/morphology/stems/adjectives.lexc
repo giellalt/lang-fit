@@ -31,7 +31,7 @@ muikea a3 ;
 privaatti a3 ;  
 pieni:pien a5_pieni ;  
 moni:mon a5_moni ;
-vanhaa:vanhaa ax ;  
+vanhaa:vanhaa a1_aa ;  
 ikivanhaa:ikivanhaa ax ;
 vinhaa:vinhaa ax ;
 vajaa:vajaa ax ;

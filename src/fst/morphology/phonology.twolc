@@ -355,6 +355,7 @@ t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ;
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
 t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ :Vow  WeakGrade ; ! kanta : kannan !Changed from [:Vow|Vow:] to get tuntea>tunsin etc
+        k u n _ a: WeakGrade ; !TODO kunta > kunnissa etc
 
 !! **Tests:**
 
