@@ -62,7 +62,7 @@ AC_SUBST([GTLANGUAGE], $GLANGUAGE)
 ### The AC variables SPELLER_NAME_xxx and SPELLER_DESC_xxx are used in:
 ### - manifest.toml.in
 ### - tools/spellcheckers/index.*.xml.in
-AC_SUBST([SPELLERVERSION], [0.1.1])
+AC_SUBST([SPELLERVERSION], [0.2.0])
 AC_SUBST([SPELLER_NAME_ENG], ["$GLANGUAGE spellchecker"])
 AC_SUBST([SPELLER_NAME_NATIVE], ["Autonym spellchecker"])
 AC_SUBST([SPELLER_DESC_ENG], ["A spellchecker for $GLANGUAGE, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"])
@@ -72,6 +72,12 @@ AC_SUBST([SPELLER_DESC_NATIVE], ["TRANSLATE: A spellchecker for $GLANGUAGE, made
 ### typically grammar checkers are released more often than the language
 ### package, and also different from the speller release version):
 AC_SUBST([GRAMCHECKVERSION], [0.1.0])
+
+### Hyphenation release version
+AC_SUBST([HYPHVERSION], [0.1.0])
+
+### TTS text processing release version
+AC_SUBST([TTSTEXTPROCVERSION], [0.1.0])
 
 # Alternate writing system(s) should be listed here using the ISO 15924 code.
 # Multiple alternate WS's should be space separated. For a list of such codes

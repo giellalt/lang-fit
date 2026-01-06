@@ -222,6 +222,7 @@ n9    !!≈ * **@CODE@** = nouns that keep nn (juvanne)
  %^V 		 !!≈ * **@CODE@** = Vowel copying
  %^N 		 !!≈ * **@CODE@** = tulˆNut, kävel^N^Ut
  %^E2I   	 !!≈ * **@CODE@** = for e to i change
+ %^A2O   	 !!≈ * **@CODE@** = for ä to ö change
  %^HMETA 	 !!≈ * **@CODE@** = for h metathesis syksy - sykshyyn
  %^HMET2 	 !!≈ * **@CODE@** = for h metathesis saunhaan - sauhnaan
  %^AO     	 !!≈ * **@CODE@** = a:o rannoissa
@@ -325,7 +326,7 @@ n9    !!≈ * **@CODE@** = nouns that keep nn (juvanne)
 @U.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
-
+@U.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 
 @P.number.one@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.two@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
@@ -338,7 +339,7 @@ n9    !!≈ * **@CODE@** = nouns that keep nn (juvanne)
 @P.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
-
+@P.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 
 
 !! These are for preprocessing

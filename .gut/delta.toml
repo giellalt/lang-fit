@@ -1,6 +1,6 @@
 template = "https://github.com/giellalt/template-lang-und"
-rev_id = 253
-template_sha = "7b8a6c39a9307995ad9926ecd5b777ca888b3659"
+rev_id = 272
+template_sha = "f40ff07ea2383e4e83e8ad0ff88b795ceaf841e6"
 
 [replacements]
 __GLOTTOLOG_ID__ = "torn1244"

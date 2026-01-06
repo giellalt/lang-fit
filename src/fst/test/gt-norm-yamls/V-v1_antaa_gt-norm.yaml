@@ -9,12 +9,12 @@ Config:
 
 Tests:
 
-# todo:
-# Proofread the gold standard (below)
-# Then: run analyser, then correct. 
+# todo: Proofread the gold standard (below), then run analyser, then correct. 
+# Antaa Loppua Käsittää Tietää Ymmärtää Tuntea Lukea Alkaa Pittää Olla
+# 
 
 
-  Verb - antaa - ok : # meaning 'to give' - GOLD
+  Verb - antaa - paradigmgroup v1: # meaning 'to give'/'ge' - GOLD
      antaa+V+Inf: antaa
      antaa+V+Act+Ind+Prs+Sg1: annan
      antaa+V+Act+Ind+Prs+Sg2: annat
@@ -27,7 +27,7 @@ Tests:
      antaa+V+Act+Ind+Prt+Sg1: annoin
      antaa+V+Act+Ind+Prt+Sg2: annoit
      antaa+V+Act+Ind+Prt+Sg3: [antoi, anto]
-     antaa+V+Act+Ind+Prt+Pl1: annoima  # anniima ?!
+     antaa+V+Act+Ind+Prt+Pl1: annoima
      antaa+V+Act+Ind+Prt+Pl2: annoitta
      antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, annethiin]
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
@@ -55,7 +55,7 @@ Tests:
      antaa+V+InfMa+Abe: antamatta
 
 
-#Verb loppua : 'to end' - GOLD
+#Verb - loppua - v1: # meaning 'to end'/'sluta' - GOLD
      loppua+V+Inf: loppua
      loppua+V+Act+Ind+Prs+Sg1: lopun
      loppua+V+Act+Ind+Prs+Sg2: loput
@@ -95,9 +95,49 @@ Tests:
      loppua+V+Pass+PrfPrc+Pl+Nom: loputut
      loppua+V+Pass+Cond: [loputtais, loputtas]
 
+     
+#Verb - käsittää - v1_odd: # meaning 'understand'/'begripa' - GOLD
+     käsittää+V+Inf: käsittää
+     käsittää+V+Act+Ind+Prs+Sg1: käsitän
+     käsittää+V+Act+Ind+Prs+Sg2: käsität
+     käsittää+V+Act+Ind+Prs+Sg3: käsittää
+     käsittää+V+Act+Ind+Prs+Pl1: [käsitämmä, käsitämä]
+     käsittää+V+Act+Ind+Prs+Pl2: käsitättä
+     käsittää+V+Act+Ind+Prs+Pl3: käsittävä
+     käsittää+V+Pass+Ind+Prs: käsitethään
+     käsittää+V+Act+Ind+Prs+ConNeg: käsitä
+     käsittää+V+Act+Ind+Prt+Sg1: käsitin
+     käsittää+V+Act+Ind+Prt+Sg2: käsitit
+     käsittää+V+Act+Ind+Prt+Sg3: käsitti
+     käsittää+V+Act+Ind+Prt+Pl1: [käsitimmä, käsitimä]
+     käsittää+V+Act+Ind+Prt+Pl2: käsitittä
+     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin, käsittivä]
+     käsittää+V+Pass+Ind+Prt: käsitethiin
+     käsittää+V+Act+Cond+Sg1: [käsittäisin, käsittäsin]
+     käsittää+V+Act+Cond+Sg2: [käsittäisit, käsittäsit]
+     käsittää+V+Act+Cond+Sg3: [käsittäis, käsittäs]
+     käsittää+V+Act+Cond+Pl1: [käsittäisimmä, käsittäisimä, käsittäsimmä, käsittäsimä]
+     käsittää+V+Act+Cond+Pl2: [käsittäisittä, käsittäsittä]
+     käsittää+V+Act+Cond+Pl3: [käsittäisit, käsittäisivä, käsittäsit, käsittäsivä]
+     käsittää+V+InfE+Ine: käsittäessä
+     käsittää+V+InfE+Ins: käsittäen
+     käsittää+V+InfMa+Ill: [käsittähmään, käsittämhään, käsithään]
+     käsittää+V+InfMa+Ine: käsittämässä
+     käsittää+V+InfMa+Ela: käsittämästä
+     käsittää+V+InfMa+Ade: [käsittämällä, käsittämälä]
+     käsittää+V+InfMa+Abe: käsittämättä
+     käsittää+V+Act+PrsPrc+Sg+Nom: käsittävä
+     käsittää+V+Act+PrsPrc+Pl+Nom: käsittävät
+     käsittää+V+Pass+PrsPrc+Sg+Nom: käsitettävä
+     käsittää+V+Pass+PrsPrc+Pl+Nom: käsitettävät
+     käsittää+V+Act+PrfPrc+Sg+Nom: [käsittänny, käsittäny]
+     käsittää+V+Act+PrfPrc+Pl+Nom: [käsittähneet, käsittänheet]
+     käsittää+V+Pass+PrfPrc+Sg+Nom: käsitetty
+     käsittää+V+Pass+PrfPrc+Pl+Nom: käsitetyt
+     käsittää+V+Pass+Cond: [käsitettäis, käsitettäs]
 
 
-#Verb tietää ###Fyll på, CHECK 
+#Verb - tietää - v1_tietaa: #meaning 'know'/'veta' - GOLD
      tietää+V+Inf: tietää
      tietää+V+Act+Ind+Prs+Sg1: tiän
      tietää+V+Act+Ind+Prs+Sg2: tiät
@@ -105,16 +145,277 @@ Tests:
      tietää+V+Act+Ind+Prs+Pl1: tiämä
      tietää+V+Act+Ind+Prs+Pl2: tiättä
      tietää+V+Act+Ind+Prs+Pl3: tietävä
-
+     tietää+V+Pass+Ind+Prs: tiethään
+     tietää+V+Act+Ind+Prs+ConNeg: tiä
      tietää+V+Act+Ind+Prt+Sg1: tiesin
      tietää+V+Act+Ind+Prt+Sg2: tiesit
      tietää+V+Act+Ind+Prt+Sg3: tiesi
      tietää+V+Act+Ind+Prt+Pl1: tiesimä
      tietää+V+Act+Ind+Prt+Pl2: tiesittä
      tietää+V+Act+Ind+Prt+Pl3: [tiesit, tiesivä, tiethiin]
-
+     tietää+V+Pass+Ind+Prt: tiethiin
+     tietää+V+Act+Cond+Sg1: tietäsin
+     tietää+V+Act+Cond+Sg2: tietäsit
+     tietää+V+Act+Cond+Sg3: tietäs
+     tietää+V+Act+Cond+Pl1: tiesimä
+     tietää+V+Act+Cond+Pl2: tiesittä
+     tietää+V+Act+Cond+Pl3: [tiesit, tiesivä]
+     tietää+V+InfE+Ine: tietäessä
+     tietää+V+InfE+Ins: tietäen
+     tietää+V+InfMa+Ill: [tietähmään, tietämhään]
+     tietää+V+InfMa+Ine: tietämässä
+     tietää+V+InfMa+Ela: tietämästä
+     tietää+V+InfMa+Ade: tietämällä
+     tietää+V+InfMa+Abe: tietämättä
+     tietää+V+Act+PrsPrc+Sg+Nom: tietävä
+     tietää+V+Act+PrsPrc+Pl+Nom: tietävät
+     tietää+V+Pass+PrsPrc+Sg+Nom: tiettävä
+     tietää+V+Pass+PrsPrc+Pl+Nom: tiettävät
+     tietää+V+Act+PrfPrc+Sg+Nom: [tieny, tietäny]
+     tietää+V+Act+PrfPrc+Pl+Nom: [tiehneet, tienheet, tietähneet, tietänheet]
+     tietää+V+Pass+PrfPrc+Sg+Nom: tietty
+     tietää+V+Pass+PrfPrc+Pl+Nom: tietyt
      tietää+V+Pass+Cond: tiettäis
 
 
-#Verb arvata ###CHECK
-  
+#Verb ymmärtää meaning 'to understand' -'förstå' -- v1_odd med rt/r-växling - GOLD
+     ymmärtää+V+Inf: ymmärtää
+     ymmärtää+V+Act+Ind+Prs+Sg1: ymmärän
+     ymmärtää+V+Act+Ind+Prs+Sg2: ymmärät
+     ymmärtää+V+Act+Ind+Prs+Sg3: ymmärtää
+     ymmärtää+V+Act+Ind+Prs+Pl1: [ymmärämmä, ymmärämä]
+     ymmärtää+V+Act+Ind+Prs+Pl2: ymmärättä
+     ymmärtää+V+Act+Ind+Prs+Pl3: ymmärtävä
+     ymmärtää+V+Pass+Ind+Prs: ymmärethään
+     ymmärtää+V+Act+Ind+Prs+ConNeg: ymmärä
+     ymmärtää+V+Act+Ind+Prt+Sg1: ymmärsin
+     ymmärtää+V+Act+Ind+Prt+Sg2: ymmärsit
+     ymmärtää+V+Act+Ind+Prt+Sg3: [ymmärsi, ymmärti]
+     ymmärtää+V+Act+Ind+Prt+Pl1: [ymmärsimmä, ymmärsimä]
+     ymmärtää+V+Act+Ind+Prt+Pl2: ymmärsittä
+     ymmärtää+V+Act+Ind+Prt+Pl3: [ymmärethiin, ymmärsit, ymmärsivä]
+     ymmärtää+V+Pass+Ind+Prt: ymmärethiin
+     ymmärtää+V+Act+Cond+Sg1: [ymmärtäisin, ymmärtäsin]
+     ymmärtää+V+Act+Cond+Sg2: [ymmärtäisit, ymmärtäsit]
+     ymmärtää+V+Act+Cond+Sg3: [ymmärtäis, ymmärtäs]
+     ymmärtää+V+Act+Cond+Pl1: [ymmärtäisimmä, ymmärtäisimä, ymmärtäsimmä, ymmärtäsimä]
+     ymmärtää+V+Act+Cond+Pl2: [ymmärtäisittä, ymmärtäsittä]
+     ymmärtää+V+Act+Cond+Pl3: [ymmärtäisit, ymmärtäisivä, ymmärtäsit, ymmärtäsivä]
+     ymmärtää+V+InfE+Ine: ymmärtäessä
+     ymmärtää+V+InfE+Ins: ymmärtäen
+     ymmärtää+V+InfMa+Ill: [ymmärthään, ymmärtähmään, ymmärtämhään]
+     ymmärtää+V+InfMa+Ine: ymmärtämässä
+     ymmärtää+V+InfMa+Ela: ymmärtämästä
+     ymmärtää+V+InfMa+Ade: [ymmärtämällä, ymmärtämälä]
+     ymmärtää+V+InfMa+Abe: ymmärtämättä
+     ymmärtää+V+Act+PrsPrc+Sg+Nom: ymmärtävä
+     ymmärtää+V+Act+PrsPrc+Pl+Nom: ymmärtävät
+     ymmärtää+V+Pass+PrsPrc+Sg+Nom: ymmärettävä
+     ymmärtää+V+Pass+PrsPrc+Pl+Nom: ymmärettävät
+     ymmärtää+V+Act+PrfPrc+Sg+Nom: [ymmärtänny, ymmärtäny]
+     ymmärtää+V+Act+PrfPrc+Pl+Nom: [ymmärtähneet, ymmärtänheet]
+     ymmärtää+V+Pass+PrfPrc+Sg+Nom: ymmäretty
+     ymmärtää+V+Pass+PrfPrc+Pl+Nom: ymmäretyt
+     ymmärtää+V+Pass+Cond: [ymmärettäis, ymmärettäs]
+
+#Verb tuntea # meaning 'to feel' - 'känna' - GOLD
+     tuntea+V+Inf: tuntea
+     tuntea+V+Act+Ind+Prs+Sg1: tunnen
+     tuntea+V+Act+Ind+Prs+Sg1: tunnen
+     tuntea+V+Act+Ind+Prs+Sg2: tunnet
+     tuntea+V+Act+Ind+Prs+Sg3: tuntee
+     tuntea+V+Act+Ind+Prs+Pl1: tunnema
+     tuntea+V+Act+Ind+Prs+Pl2: tunnetta
+     tuntea+V+Act+Ind+Prs+Pl3: tunteva
+     tuntea+V+Pass+Ind+Prs: tunnethaan
+     tuntea+V+Act+Ind+Prs+ConNeg: tunne
+     tuntea+V+Act+Ind+Prt+Sg1: tunsin
+     tuntea+V+Act+Ind+Prt+Sg2: tunsit
+     tuntea+V+Act+Ind+Prt+Sg3: tunsi
+     tuntea+V+Act+Ind+Prt+Pl1: tunsima
+     tuntea+V+Act+Ind+Prt+Pl2: tunsitta
+     tuntea+V+Act+Ind+Prt+Pl3: [tunnethiin, tunsit, tunsiva]
+     tuntea+V+Pass+Ind+Prt: tunnethiin
+     tuntea+V+Act+Cond+Sg1: tuntisin
+     tuntea+V+Act+Cond+Sg2: tuntisit
+     tuntea+V+Act+Cond+Sg3: tuntis
+     tuntea+V+Act+Cond+Pl1: [tuntisima, tuntisimma]
+     tuntea+V+Act+Cond+Pl2: tuntisitta
+     tuntea+V+Act+Cond+Pl3: [tuntisit, tuntisiva]
+     tuntea+V+InfE+Ine: tuntiessa
+     tuntea+V+InfE+Ins: tuntien
+     tuntea+V+InfMa+Ill: [tuntheen, tuntehmaan, tuntemhaan]
+     tuntea+V+InfMa+Ine: tuntemassa
+     tuntea+V+InfMa+Ela: tuntemasta
+     tuntea+V+InfMa+Ade: tuntemalla
+     tuntea+V+InfMa+Abe: tuntematta
+     tuntea+V+Act+PrsPrc+Sg+Nom: tunteva
+     tuntea+V+Act+PrsPrc+Pl+Nom: tuntevat
+     tuntea+V+Pass+PrsPrc+Sg+Nom: tunnettava
+     tuntea+V+Pass+PrsPrc+Pl+Nom: tunnettavat
+     tuntea+V+Act+PrfPrc+Sg+Nom: tuntenu
+     tuntea+V+Act+PrfPrc+Pl+Nom: [tuntehneet, tuntenheet]
+     tuntea+V+Pass+PrfPrc+Sg+Nom: tunnettu
+     tuntea+V+Pass+PrfPrc+Pl+Nom: tunnetut
+     tuntea+V+Pass+Cond: [tunnettais, tunnettas]
+
+#Verb lukea # meaning 'to read' - 'läsa' - GOLD
+     lukea+V+Inf: lukea
+     lukea+V+Act+Ind+Prs+Sg1: luen
+     lukea+V+Act+Ind+Prs+Sg2: luet
+     lukea+V+Act+Ind+Prs+Sg3: lukkee
+     lukea+V+Act+Ind+Prs+Pl1: luema
+     lukea+V+Act+Ind+Prs+Pl2: luetta
+     lukea+V+Act+Ind+Prs+Pl3: lukeva
+     lukea+V+Pass+Ind+Prs: luethaan
+     lukea+V+Act+Ind+Prs+ConNeg: lue
+     lukea+V+Act+Ind+Prt+Sg1: luin
+     lukea+V+Act+Ind+Prt+Sg2: luit
+     lukea+V+Act+Ind+Prt+Sg3: luki
+     lukea+V+Act+Ind+Prt+Pl1: luima
+     lukea+V+Act+Ind+Prt+Pl2: luitta
+     lukea+V+Act+Ind+Prt+Pl3: [luit, luethiin, lukiva]
+     lukea+V+Pass+Ind+Prt: luethiin
+     lukea+V+Act+Cond+Sg1: lukisin
+     lukea+V+Act+Cond+Sg2: lukisit
+     lukea+V+Act+Cond+Sg3: lukis
+     lukea+V+Act+Cond+Pl1: [lukisima, lukisimma]
+     lukea+V+Act+Cond+Pl2: lukisitta
+     lukea+V+Act+Cond+Pl3: [lukisit, lukisiva]
+     lukea+V+InfE+Ine: lukiessa
+     lukea+V+InfE+Ins: lukien
+     lukea+V+InfMa+Ill: [lukheen,lukehmaan, lukemhaan]
+     lukea+V+InfMa+Ine: lukemassa
+     lukea+V+InfMa+Ela: lukemasta
+     lukea+V+InfMa+Ade: lukemalla
+     lukea+V+InfMa+Abe: lukematta
+     lukea+V+Act+PrsPrc+Sg+Nom: lukeva
+     lukea+V+Act+PrsPrc+Pl+Nom: lukevat
+     lukea+V+Pass+PrsPrc+Sg+Nom: luettava
+     lukea+V+Pass+PrsPrc+Pl+Nom: luettavat
+     lukea+V+Act+PrfPrc+Sg+Nom: lukenu
+     lukea+V+Act+PrfPrc+Pl+Nom: [lukehneet, lukenheet]
+     lukea+V+Pass+PrfPrc+Sg+Nom: luettu
+     lukea+V+Pass+PrfPrc+Pl+Nom: luetut
+     lukea+V+Pass+Cond: [luettais, luettas]
+
+#Verb alkaa # meaning 'to begin' - 'börja' - GOLD
+     alkaa+V+Inf: alkaa
+     alkaa+V+Act+Ind+Prs+Sg1: alan
+     alkaa+V+Act+Ind+Prs+Sg2: alat
+     alkaa+V+Act+Ind+Prs+Sg3: alkaa
+     alkaa+V+Act+Ind+Prs+Pl1: alama
+     alkaa+V+Act+Ind+Prs+Pl2: alatta
+     alkaa+V+Act+Ind+Prs+Pl3: alkava
+     alkaa+V+Pass+Ind+Prs: alethaan
+     alkaa+V+Act+Ind+Prs+ConNeg: ala
+     alkaa+V+Act+Ind+Prt+Sg1: aloin
+     alkaa+V+Act+Ind+Prt+Sg2: aloit
+     alkaa+V+Act+Ind+Prt+Sg3: [alko, alkoi]
+     alkaa+V+Act+Ind+Prt+Pl1: aloima
+     alkaa+V+Act+Ind+Prt+Pl2: aloitta
+     alkaa+V+Act+Ind+Prt+Pl3: [alethiin, aloit, alkoiva]
+     alkaa+V+Pass+Ind+Prt: alethiin
+     alkaa+V+Act+Cond+Sg1: [alkaisin, alkasin]
+     alkaa+V+Act+Cond+Sg2: [alkaisit, alkasit]
+     alkaa+V+Act+Cond+Sg3: [alkais, alkas]
+     alkaa+V+Act+Cond+Pl1: [alkaisima, alkaisimma, alkasima, alkasimma]
+     alkaa+V+Act+Cond+Pl2: [alkaisitta, alkasitta]
+     alkaa+V+Act+Cond+Pl3: [alkaisit, alkaisiva, alkasit, alkasiva]
+     alkaa+V+InfE+Ine: alkaessa
+     alkaa+V+InfE+Ins: alkaen
+     alkaa+V+InfMa+Ill: [alkhaan, alkamhaan, alkahmaan]
+     alkaa+V+InfMa+Ine: alkamassa
+     alkaa+V+InfMa+Ela: alkamasta
+     alkaa+V+InfMa+Ade: alkamalla
+     alkaa+V+InfMa+Abe: alkamatta
+     alkaa+V+Act+PrsPrc+Sg+Nom: alkava
+     alkaa+V+Act+PrsPrc+Pl+Nom: alkavat
+     alkaa+V+Pass+PrsPrc+Sg+Nom: alettava
+     alkaa+V+Pass+PrsPrc+Pl+Nom: alettavat
+     alkaa+V+Act+PrfPrc+Sg+Nom: alkanu
+     alkaa+V+Act+PrfPrc+Pl+Nom: [alkanheet, alkahneet]
+     alkaa+V+Pass+PrfPrc+Sg+Nom: alettu
+     alkaa+V+Pass+PrfPrc+Pl+Nom: aletut
+     alkaa+V+Pass+Cond: [alettas, alettais]
+
+
+#Verb pittää - # meaning 'have (to), think' - 'ha, vara tvungen, anse' - GOLD
+     pittää+V+Inf: pittää
+     pittää+V+Act+Ind+Prs+Sg1: piän
+     pittää+V+Act+Ind+Prs+Sg2: piät
+     pittää+V+Act+Ind+Prs+Sg3: pittää
+     pittää+V+Act+Ind+Prs+Pl1: piämä
+     pittää+V+Act+Ind+Prs+Pl2: piättä
+     pittää+V+Act+Ind+Prs+Pl3: pitävä
+     pittää+V+Pass+Ind+Prs: piethään
+     pittää+V+Act+Ind+Prs+ConNeg: piä
+     pittää+V+Act+Ind+Prt+Sg1: piin
+     pittää+V+Act+Ind+Prt+Sg2: piit
+     pittää+V+Act+Ind+Prt+Sg3: piti
+     pittää+V+Act+Ind+Prt+Pl1: piimä
+     pittää+V+Act+Ind+Prt+Pl2: piittä
+     pittää+V+Act+Ind+Prt+Pl3: [piit, piethiin, pitivä]
+     pittää+V+Pass+Ind+Prt: piethiin
+     pittää+V+Act+Cond+Sg1: [pitäisin, pitäsin]
+     pittää+V+Act+Cond+Sg2: [pitäisit, pitäsit]
+     pittää+V+Act+Cond+Sg3: [pitäis, pitäs]
+     pittää+V+Act+Cond+Pl1: [pitäisimmä, pitäisimä, pitäsimmä, pitäsimä]
+     pittää+V+Act+Cond+Pl2: [pitäisittä, pitäsittä]
+     pittää+V+Act+Cond+Pl3: [pitäisit, pitäisivä, pitäsit, pitäsivä]
+     pittää+V+InfE+Ine: pitäessä
+     pittää+V+InfE+Ins: pitäen
+     pittää+V+InfMa+Ill: [pithään,pitähmään, pitämhään]
+     pittää+V+InfMa+Ine: pitämässä
+     pittää+V+InfMa+Ela: pitämästä
+     pittää+V+InfMa+Ade: pitämällä
+     pittää+V+InfMa+Abe: pitämättä
+     pittää+V+Act+PrsPrc+Sg+Nom: pitävä
+     pittää+V+Act+PrsPrc+Pl+Nom: pitävät
+     pittää+V+Pass+PrsPrc+Sg+Nom: piettävä
+     pittää+V+Pass+PrsPrc+Pl+Nom: piettävät
+     pittää+V+Act+PrfPrc+Sg+Nom: pitäny
+     pittää+V+Act+PrfPrc+Pl+Nom: [pitähneet, pitänheet]
+     pittää+V+Pass+PrfPrc+Sg+Nom: pietty
+     pittää+V+Pass+PrfPrc+Pl+Nom: pietyt
+     pittää+V+Pass+Cond: [piettäis, piettäs]
+
+#Verb olla - # meaning 'to be' - 'vara' - GOLD
+     olla+V+Inf: olla
+     olla+V+Act+Ind+Prs+Sg1: olen
+     olla+V+Act+Ind+Prs+Sg2: olet
+     olla+V+Act+Ind+Prs+Sg3: oon
+     olla+V+Act+Ind+Prs+Pl1: olema
+     olla+V+Act+Ind+Prs+Pl2: oletta
+     olla+V+Act+Ind+Prs+Pl3: [oon, ovva]
+     olla+V+Pass+Ind+Prs: olhaan
+     olla+V+Act+Ind+Prs+ConNeg: ole
+     olla+V+Act+Ind+Prt+Sg1: olin
+     olla+V+Act+Ind+Prt+Sg2: olit
+     olla+V+Act+Ind+Prt+Sg3: oli
+     olla+V+Act+Ind+Prt+Pl1: olima
+     olla+V+Act+Ind+Prt+Pl2: olitta
+     olla+V+Act+Ind+Prt+Pl3: [oli, olit, olthiin]
+     olla+V+Pass+Ind+Prt: olthiin
+     olla+V+Act+Cond+Sg1: olisin
+     olla+V+Act+Cond+Sg2: olisit
+     olla+V+Act+Cond+Sg3: olis 
+     olla+V+Act+Cond+Pl1: olisimma     
+     olla+V+Act+Cond+Pl2: olisitta     
+     olla+V+Act+Cond+Pl3: [olisit, olisiva]
+     olla+V+InfE+Ine: ollessa
+     olla+V+InfE+Ins: ollen
+     olla+V+InfMa+Ill: [olemhaan, olehmaan]
+     olla+V+InfMa+Ine: olemassa     
+     olla+V+InfMa+Ela: olemasta     
+     olla+V+InfMa+Ade: olemalla     
+     olla+V+InfMa+Abe: olematta     
+     olla+V+Act+PrsPrc+Sg+Nom: oleva
+     olla+V+Act+PrsPrc+Pl+Nom: olevat
+     olla+V+Pass+PrsPrc+Sg+Nom: oltava
+     olla+V+Pass+PrsPrc+Pl+Nom: oltavat
+     olla+V+Act+PrfPrc+Sg+Nom: ollu 
+     olla+V+Act+PrfPrc+Pl+Nom: olheet
+     olla+V+Pass+PrfPrc+Sg+Nom: oltu 
+     olla+V+Pass+PrfPrc+Pl+Nom: ollut
+     olla+V+Pass+Cond: olis

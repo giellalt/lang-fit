@@ -16,6 +16,7 @@
 !! * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 !! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+!! * n3_ta = like n3 but -ta-partitive added; asia>asiaa, asiata
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 !! ### Stems for -i-words, vowel AND consonant
@@ -177,6 +178,7 @@ LEXICON x1_pl
  +Pl+Nom:^WG%> t_PxK ;
  +Pl+Gen:^WG^IDEL%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:^WG%>i2e n_PxK ;
+ +Pl+Gen+Err/Orth:%>i2e n_PxK ;
  +Pl+Par:%>i2^A PxK ; 
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  ! saunhoin 
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;  ! sauhnoin 
@@ -343,8 +345,30 @@ n_e ;
 +N+Pl+Abe:e%>i2tt^A PxK ; !
 
 LEXICON n_et
-n_e ;
+!!n_e ;
 +N+Sg+Nom:%> t_PxK ; 
++N+Sg+Gen:h%>ee n_PxK ; ! liikheen, säkheen, ainheen !TEST stryka WG före h?
++N+Sg+Gen:^HMET2%>hee n_PxK ; ! aihneen, liihkeen
++N+Sg+Par:^WG%>tt^A PxK ; ! liikettä, säettä 
++N+Sg+Ill:h%>eeshee n_PxK ; ! liikheesheen !TEST stryka WG före h?
++N+Sg+Ill:^HMET2%>heeshee n_PxK ; ! aihneesheen
++N+Sg+Ine:h%>eess^A   PxK ; ! liikheessä, säkheessä, ainheessa !TEST stryka WG före h?
++N+Sg+Ine:^HMET2%>heess^A   PxK ; ! NY aihneessa 
++N+Sg+Ela:h%>eest^A   PxK ; ! liikheestä, säkheestä !TEST stryka WG före h?
++N+Sg+Ela:^HMET2%>heest^A   PxK ; ! NY aihneesta
++N+Sg+All:h%>eele    PxxK ; ! liikheele, liihkeelekki !TEST stryka WG före h?
++N+Sg+All:^HMET2%>heele    PxxK ; ! NY
++N+Sg+Ade:h%>eel^A    PxK ; ! liikheelä, säkheelä !TEST stryka WG före h?
++N+Sg+Ade:^HMET2%>heel^A    PxK ; ! NY
++N+Sg+Abl:h%>eelt^A   PxK ; ! liikheeltä, säkheeltä !TEST stryka WG före h?
++N+Sg+Abl:^HMET2%>heelt^A   PxK ; ! NY
++N+Sg+Tra:h%>ee TRA ; !TEST stryka WG före h?
++N+Sg+Tra:^HMET2%>hee TRA ; ! NY
++N+Sg+Ess:h%>een^A PxK ; !TEST stryka WG före h?
++N+Sg+Ess:^HMET2%>heen^A PxK ; ! NY
++N+Sg+Abe:%>ett^A PxK ;
+
++N: x_e_pl ;
 
 LEXICON n3 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava
@@ -390,9 +414,12 @@ LEXICON x3_oblique_sg
 LEXICON x3_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%> t_PxK ;
+ +Pl+Gen:^A2O%>i2tte n_PxK ; !TBC: päärynöitten
  +Pl+Gen:%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:%>i2e n_PxK ;
+ !+Pl+Par:i%>i2t^A PxK ; !asioita
  +Pl+Par:%>i2t^A PxK ; !asioita
+ +Pl+Par:^A2O%>i2t^A PxK ; !TBC: päärynöitä
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
@@ -422,6 +449,10 @@ LEXICON x3_pl
  +N+Pl+Ess:%>i2n^A PxK ;
  +N+Pl+Abe:%>i2tt^A PxK ;
 
+ LEXICON n3_ta
+ !! **LEXICON @LEXNAME@**
+ n3 ;
+ +N+Sg+Par:%>t^A PxK ; !asiata
 
 LEXICON 3nc ! jiddisch
 !! **LEXICON @LEXNAME@**
@@ -540,6 +571,7 @@ LEXICON n5_vuosi
  +N+Sg+Ine:^WG%>ess^A PxK ; !
  +N+Sg+Ela:^WG%>est^A PxK ;
  +N+Sg+Ess:o%>n^A PxK ;
+  +N+Sg+Ess+Err/Orth:o%>nn^A PxK ;
  +N+Sg+Gen:e%> n_PxK ;
  +N+Sg+Tra:^WG%>e TRA ;
 
