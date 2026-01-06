@@ -336,6 +336,7 @@ n9    !!≈ * **@CODE@** = nouns that keep nn (juvanne)
 @P.number.seven@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.eight@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
+@P.number.ten@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @P.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 
 
