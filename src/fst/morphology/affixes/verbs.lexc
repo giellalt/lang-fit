@@ -439,8 +439,8 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+InfMa+Ela:%>^Am^Ast^A K ;
 +V+InfMa+Abe:%>^Am^Att^A K ;
 
-+V+Pass+Cond:^WGtta%>i4s K ;
-+V+Pass+Cond:^WGtta%>s K ;
++V+Pass+Cond:^WGtt%>^Ai4s K ;
++V+Pass+Cond:^WGtt%>^As K ;
 
 +V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
 +V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
@@ -450,7 +450,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
 !+V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 +V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
-+V+Act+PrfPrc+Pl+Nom:^WG^HMET2%>nheet K ; !
++V+Act+PrfPrc+Pl+Nom:^WG%>hneet K ; 
 +V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
 
@@ -468,7 +468,7 @@ v2 ;
 +V+InfMa+Ade:%>^Am^Al^A K ; 
 +V+InfMa+Ade:%>^Am^All^A K ; 
 +V+Act+Cond:%>i4s 2cond ;
-+Pl1:%>im^A K ;
++V+Act+Cond+Pl1:%>i4s%>im^A K ; !CHECK
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 
 

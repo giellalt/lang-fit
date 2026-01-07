@@ -860,6 +860,7 @@ LEXICON xn_ks_pl
  +Pl+Nom:kse%> t_PxK ;
  +Pl+Gen:s%>te n_PxK ;
  +Pl+Par:kse%>i2^A PxK ;
+ +Pl+Par+Err/Orth:kse%>i2tten PxK ; !CHECK EK
  +Pl+Ine:ks%>iss^A PxK ;
  +Pl+Ill:kse^HMETA%>hii n_PxK ;
  +Pl+Ela:ks%>ist^A PxK ;
