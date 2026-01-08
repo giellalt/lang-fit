@@ -1270,6 +1270,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x_e_pl** the pl
 
+**LEXICON n_kevät** 
+
 **LEXICON n3**  odd-syllabic: kanava
 
 **LEXICON n3_pl**  haalarit
@@ -3087,6 +3089,7 @@ This is an overview of the continuation lexicon types.
 * n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
 * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n_kevät
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 * n3_ta = like n3 but -ta-partitive added; asia>asiaa, asiata
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa

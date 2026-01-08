@@ -120,6 +120,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x_e_pl** the pl
 
+**LEXICON n_kevät** 
+
 **LEXICON n3**  odd-syllabic: kanava
 
 **LEXICON n3_pl**  haalarit
