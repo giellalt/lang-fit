@@ -17,6 +17,7 @@
 !! * n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
 !! * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 !! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+!! * n_kevät
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 !! * n3_ta = like n3 but -ta-partitive added; asia>asiaa, asiata
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
@@ -11786,7 +11787,7 @@ kerittimet:keritti 3n_ime_pl ;
 tottuus:tottuu n_uus ;
 verkkoulut:verkko#ulu n1_pl ; ! XXX merkitys
 kluutuus:kluutuu n_uus ;
-kevät:kevä n_et ;
+kevät:kevä n_kevät ;
 konikevät:konikevä n_et ;
 evhäät:evhää n_et ;
 matkaeväät:matkaevää n_et ;
@@ -15025,9 +15026,9 @@ petäjänäätä:petäjänäätä nx ;
 evä:evä nx ;
 nahkaevä:nahkaevä nx ;
 matkaevä:matkaevä nx ;
-kevä:kevä nx ;
-pohjaskevä:pohjaskevä nx ;
-itukevä:itukevä nx ;
+kevä:kevä n1 ;
+pohjaskevä:pohjas#kevä n1 ;
+itukevä:itu#kevä n1 ;
 väkevä:väkevä nx ;
 levä:levä nx ;
 lintulevä:lintulevä nx ;
@@ -17647,7 +17648,7 @@ maiset:mai nen_pl ;
 munhoiset:munhoi nen_pl ;
 meriharakka:meriharakka nx ;
 muistutus:muistutu 4n_ks ;
-mokkari:mokkari nx ;
+mokkari:mokkari n5_troppi_odd ;
 mak:mak nx ;
 eiset:ei nen_pl ;
 makheiset:makhei nen_pl ;

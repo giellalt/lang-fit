@@ -61,3 +61,41 @@ Tests:
      planeerata+V+Act+Ind+Prs+Sg1: planeeraan
      planeerata+V+Act+Ind+Prs+Sg2: planeeraat
      planeerata+V+Act+Ind+Prs+Sg3: planeeraa
+     planeerata+V+Inf: planeerata
+     planeerata+V+Act+Ind+Prs+Sg1: planeeraan
+     planeerata+V+Act+Ind+Prs+Sg2: planeeraat
+     planeerata+V+Act+Ind+Prs+Sg3: planeeraa
+     planeerata+V+Act+Ind+Prs+Pl1: planeeraama
+     planeerata+V+Act+Ind+Prs+Pl2: planeeraatta
+     planeerata+V+Act+Ind+Prs+Pl3: planeeraava
+     planeerata+V+Pass+Ind+Prs: planeerathaan
+     planeerata+V+Act+Ind+Prs+ConNeg: planeeraa
+     planeerata+V+Act+Ind+Prt+Sg1: planeerasin
+     planeerata+V+Act+Ind+Prt+Sg2: planeerasit
+     planeerata+V+Act+Ind+Prt+Sg3: [planeeras, planeerasi]
+     planeerata+V+Act+Ind+Prt+Pl1: [planeerasimma, planeerasima]
+     planeerata+V+Act+Ind+Prt+Pl2: planeerasitta
+     planeerata+V+Act+Ind+Prt+Pl3: [planeerasit, planeerasiva, planeerathiin]
+     planeerata+V+Pass+Ind+Prt: planeerathiin
+     planeerata+V+Act+Cond+Sg1: planeeraisin
+     planeerata+V+Act+Cond+Sg2: planeeraisit
+     planeerata+V+Act+Cond+Sg3: planeerais
+     planeerata+V+Act+Cond+Pl1: [planeeraisimma, planeeraisima]
+     planeerata+V+Act+Cond+Pl2: planeeraisitta
+     planeerata+V+Act+Cond+Pl3: [planeeraisit, planeeraisiva]
+     planeerata+V+InfE+Ine: planeeratessa
+     planeerata+V+InfE+Ins: planeeraten
+     planeerata+V+InfMa+Ill: [planeeraahmaan, planeeraamhaan]
+     planeerata+V+InfMa+Ine: planeeraamassa
+     planeerata+V+InfMa+Ela: planeeraamasta
+     planeerata+V+InfMa+Ade: [planeeraamala, planeeraamalla]
+     planeerata+V+InfMa+Abe: planeeraamatta
+     planeerata+V+Act+PrsPrc+Sg+Nom: planeeraava
+     planeerata+V+Act+PrsPrc+Pl+Nom: planeeraavat
+     planeerata+V+Pass+PrsPrc+Sg+Nom: planeerattava
+     planeerata+V+Pass+PrsPrc+Pl+Nom: planeerattavat
+     planeerata+V+Act+PrfPrc+Sg+Nom: [planeerannu, planeeranu]
+     planeerata+V+Act+PrfPrc+Pl+Nom: [planeerahneet, planeeranheet]
+     planeerata+V+Pass+PrfPrc+Sg+Nom: planeerattu
+     planeerata+V+Pass+PrfPrc+Pl+Nom: planeeratut
+     planeerata+V+Pass+Cond: [planeerattais, planeerattas]

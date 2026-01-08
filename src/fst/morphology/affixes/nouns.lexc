@@ -370,6 +370,36 @@ LEXICON n_et
 
 +N: x_e_pl ;
 
+LEXICON n_kevät
+!! **LEXICON @LEXNAME@** 
++N+Sg+Nom:%> t_PxK ; !v
++N+Sg+Gen:^HMETAh%>ää n_PxK ; ! !v
+!!+N+Sg+Gen:^HMET2%>h^A^A n_PxK ; 
++N+Sg+Par:%>tt^A PxK ; 
++N+Sg+Ill:^HMETAh%>ääshee n_PxK ; !v
++N+Sg+Ine:^HMETAh%>ääss^A   PxK ; !v
++N+Sg+Ela:^HMETAh%>ääst^A   PxK ; !v
++N+Sg+All:^HMETAh%>ääle    PxxK ; !v
++N+Sg+Ade:^HMETAh%>ääl^A    PxK ; !v
++N+Sg+Abl:^HMETAh%>äält^A   PxK ; !v
++N+Sg+Tra:^HMETAh%>ää TRA ; !v
++N+Sg+Ess:^HMETAh%>ään^A PxK ; !v
++N+Sg+Abe:^HMETAh%>ätt^A PxK ;
+
++N+Pl+Nom:^HMETAh%>ää t_PxK ;
++N+Pl+Gen:^HMETAh%>äi2tte n_PxK ;
++N+Pl+Par:^HMETAh%>äi2t^A PxK ; !kevhäitä
++N+Pl+Ill:^HMETAh%>äi2%>shii n_PxK ;
++N+Pl+Ine:^HMETAh%>äi2ss^A PxK  ;
++N+Pl+Ela:^HMETAh%>äi2st^A PxK ;
++N+Pl+All:^HMETAh%>äi2le PxK ;
++N+Pl+Ade:^HMETAh%>äi2l^A PxK ;
++N+Pl+Abl:^HMETAh%>äi2lt^A PxK ;
++N+Pl+Tra:^HMETA%>häi2 TRA ;
++N+Pl+Ess:^HMETAh%>äi2n^A PxK ;
++N+Pl+Abe:^HMETAh%>äi2tt^A PxK  ;
+
+
 LEXICON n3 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava
  +N: x3 ;
