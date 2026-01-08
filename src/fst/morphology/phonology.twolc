@@ -516,25 +516,25 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 "Gemination 0:p"
 !! **RULE: @RULENAME@**
-0:p <=> [.#.|#] Cns:* Vow p _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow p _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow p _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow p _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow p _  :u (Dummy:) %> (h) :u ;
-        [.#.|#] Cns:* Vow p _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow p _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow p _  :ö (Dummy:) %> (h) :ö ;
+0:p <=> [.#.|#] Cns:* Vow p _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow p _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow p _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow p _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow p _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow p _  :y (Dummy:) %> (h) [:y | i5:];
+        [.#.|#] Cns:* Vow p _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow p _  :ö (Dummy:) %> (h) [:ö | i5:] ;
 
 "Gemination 0:s"
 !! **RULE: @RULENAME@**
-0:s <=> [.#.|#] Cns:* Vow s _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow s _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow s _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow s _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow s _  :u (Dummy:) %> (h) :u ;
-        [.#.|#] Cns:* Vow s _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow s _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow s _  :ö (Dummy:) %> (h) :ö ;
+0:s <=> [.#.|#] Cns:* Vow s _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow s _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow s _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow s _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow s _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow s _  :y (Dummy:) %> (h) [:y | i5:] ;
+        [.#.|#] Cns:* Vow s _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow s _  :ö (Dummy:) %> (h) [:ö | i5:] ;
 
 !! **Tests:**
 

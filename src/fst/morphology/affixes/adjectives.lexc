@@ -21,7 +21,7 @@ LEXICON a1
 +A: x1 ; 
 +A+Pl+Gen:^WG^IDEL%>je n_PxK ; ! även paksujen
 +A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita TODO: dela upp, vilka ska ha -ta-variant?
-+A+Pl+Ill:^HMETA%>^Vi2hi n_PxK ; !FIXA
++A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 !+A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
 !+A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
 
