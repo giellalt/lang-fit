@@ -611,14 +611,14 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 
 "Gemination 0:v"
 !! **RULE: @RULENAME@**
-0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h)  :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) :o  ;
-        [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) :u  ;
-        [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) :y  ;
-        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) :ö ;
+0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
+        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) [:ö | i5:] ;
 !! **Tests:**
 
 !!€ kuv0a^HMETA>hiin
