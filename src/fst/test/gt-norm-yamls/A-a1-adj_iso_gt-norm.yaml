@@ -1,0 +1,83 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adj - iso: #  sg ade --  kontrollerad av Elina 
+     iso+A+Sg+Nom: iso
+     iso+A+Sg+Gen: ison
+     iso+A+Sg+Par: isoa
+     iso+A+Sg+Ill: ishoon
+     iso+A+Sg+Ine: isossa
+     iso+A+Sg+Ela: isosta
+     iso+A+Sg+All: isole
+     iso+A+Sg+Ade: isola
+     iso+A+Sg+Abl: isolta
+     iso+A+Sg+Ess: isona
+     iso+A+Sg+Tra: isoksi
+     iso+A+Pl+Nom: isot
+     iso+A+Pl+Gen: [isoitten, isojen]
+     iso+A+Pl+Par: [isoja, isoita]
+     iso+A+Pl+Ill: ishoin
+     iso+A+Pl+Ine: isoissa
+     iso+A+Pl+Ela: isoista
+     iso+A+Pl+All: isoile
+     iso+A+Pl+Ade: isoila
+     iso+A+Pl+Abl: isoilta
+     iso+A+Pl+Ess: isoina
+     iso+A+Pl+Tra: isoiksi
+     iso+A+Comp+Sg+Nom: isompi
+     iso+A+Comp+Sg+Gen: isoman
+     iso+A+Comp+Sg+Par: isompaa
+     iso+A+Comp+Sg+Ill: isomphaan
+     iso+A+Comp+Sg+Ine: isomassa
+     iso+A+Comp+Sg+Ela: isomasta
+     iso+A+Comp+Sg+All: isomalle
+     iso+A+Comp+Sg+Ade: isomalla
+     iso+A+Comp+Sg+Abl: isomalta
+     iso+A+Comp+Sg+Ess: isompanna
+     iso+A+Comp+Sg+Tra: isomaksi
+     iso+A+Comp+Pl+Nom: isomat
+     iso+A+Comp+Pl+Gen: isomitten
+     iso+A+Comp+Pl+Par: isompia
+     iso+A+Comp+Pl+Ill: isomphiin
+     iso+A+Comp+Pl+Ine: isomissa
+     iso+A+Comp+Pl+Ela: isomista
+     iso+A+Comp+Pl+All: isomille
+     iso+A+Comp+Pl+Ade: isomilla
+     iso+A+Comp+Pl+Abl: isomilta
+     iso+A+Comp+Pl+Ess: isompinna
+     iso+A+Comp+Pl+Tra: isomiksi
+     iso+A+Superl+Sg+Nom: issoin
+     iso+A+Superl+Sg+Gen: issoiman
+     iso+A+Superl+Sg+Par: issoimpaa
+     iso+A+Superl+Sg+Ill: issoimphaan
+     iso+A+Superl+Sg+Ine: issoimassa
+     iso+A+Superl+Sg+Ela: issoimasta
+     iso+A+Superl+Sg+All: issoimalle
+     iso+A+Superl+Sg+Ade: issoimalla
+     iso+A+Superl+Sg+Abl: issoimalta
+     iso+A+Superl+Sg+Ess: issoimpanna
+     iso+A+Superl+Sg+Tra: issoimaksi
+     iso+A+Superl+Pl+Nom: issoimat
+     iso+A+Superl+Pl+Gen: issoimitten
+     iso+A+Superl+Pl+Par: issoimpia
+     iso+A+Superl+Pl+Ill: issoimphiin
+     iso+A+Superl+Pl+Ine: issoimissa
+     iso+A+Superl+Pl+Ela: issoimista
+     iso+A+Superl+Pl+All: issoimille
+     iso+A+Superl+Pl+Ade: issoimilla
+     iso+A+Superl+Pl+Abl: issoimilta
+     iso+A+Superl+Pl+Ess: issoimpinna
+     iso+A+Superl+Pl+Tra: issoimiksi
