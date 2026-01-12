@@ -16,7 +16,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-* n3_ta = like n3 but -ta-partitive added; asia>asiaa, asiata
+* n3_asia = like n3 but -ta-partitive added; asia>asiaa, asiata
+* n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 except Sg Part: huomio>huomiota
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 ### Stems for -i-words, vowel AND consonant
@@ -133,6 +134,8 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x3_sg**
 
 **LEXICON x3_oblique_sg**
+
+**LEXICON x3_pl**
 
 **LEXICON x3_pl**
 
