@@ -619,10 +619,13 @@ LEXICON n5_vuosi
  +N+Sg+Nom:osi       PxK ; ! vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
  +N+Sg+Ine:^WG%>ess^A PxK ; !
+ +N+Sg+Ine:u%>ess^A PxK ;
  +N+Sg+Ela:^WG%>est^A PxK ;
+ +N+Sg+Ela:u%>est^A PxK ;
  +N+Sg+Ess:o%>n^A PxK ;
-  +N+Sg+Ess+Err/Orth:o%>nn^A PxK ;
+ +N+Sg+Ess+Err/Orth:o%>nn^A PxK ;
  +N+Sg+Gen:e%> n_PxK ;
+ +N+Sg+Gen:ue%> n_PxK ;
  +N+Sg+Tra:^WG%>e TRA ;
 
 LEXICON n5_kasi

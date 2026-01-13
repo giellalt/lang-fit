@@ -178,12 +178,15 @@ LEXICON a5_uusi
  LEXICON a5_pieni
 ! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
  :e a4 ; 
- +A+Sg+Nom:i       PxK ; ! 
- +A+Sg+Par:%>t^A      PxK ; ! 
- +A+Comp:i 3comp ;
- +A+Superl:i 3sup ;
+ +A+Sg+Nom:i       PxK ; 
+ +A+Sg+Par:%>t^A      PxK ; 
+ +A+Pl+Gen:%>ten PxK ; 
+ !+A+Comp:i 3comp ; !Finns redan comp i a4!
+ +A+Comp+Pl+Gen:e%>mpi5en K ;
+ !+A+Superl:i 3sup ;
  +A+Superl:i 3sup ; !variant pieniin, pieniimistä etc
- !+A+Superl+Sg+Nom:%>iin PxK ;
+ +A+Superl+Pl+Gen:i%>mpi5en K ;
+ +A+Superl+Pl+Gen:ii%>mpi5en K ;
 
 
 LEXICON a5_auki
