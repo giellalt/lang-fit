@@ -678,7 +678,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:)  %> [i2:|i3:|j|i8:] ;   ! kuva:kuvissa 10/12 added i8
+    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   ! kuva:kuvissa 15/1: (WG eller ^IDEL)
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   !  13/11
          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
@@ -810,7 +810,8 @@ i:0 <=>
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
         [o|ö] _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
        [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan
-
+      ! :Vow _ %> :Vow ; ! For i between vowels in suffix – paksu:paksujen
+ 
 "i2:j"
 !! **RULE: @RULENAME@**
 i2:j <=> :Vow (Dummy:+) (%>) _ :Vow ;
