@@ -1,0 +1,83 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adj - pieni: #  GOLD --  kontrollerad av Elina 
+     pieni+A+Sg+Nom: pieni
+     pieni+A+Sg+Gen: pienen
+     pieni+A+Sg+Par: pientä
+     pieni+A+Sg+Ill: [piehneen, pienheen]
+     pieni+A+Sg+Ine: pienessä
+     pieni+A+Sg+Ela: pienestä
+     pieni+A+Sg+All: pienele
+     pieni+A+Sg+Ade: pienelä
+     pieni+A+Sg+Abl: pieneltä
+     pieni+A+Sg+Ess: pienenä
+     pieni+A+Sg+Tra: pieneksi
+     pieni+A+Pl+Nom: pienet
+     pieni+A+Pl+Gen: [pienitten, pienten]
+     pieni+A+Pl+Par: pieniä 
+     pieni+A+Pl+Ill: [piehniin, pienhiin]
+     pieni+A+Pl+Ine: pienissä
+     pieni+A+Pl+Ela: pienistä
+     pieni+A+Pl+All: pienile
+     pieni+A+Pl+Ade: pienilä
+     pieni+A+Pl+Abl: pieniltä
+     pieni+A+Pl+Ess: pieninä
+     pieni+A+Pl+Tra: pieniksi
+     pieni+A+Comp+Sg+Nom: pienempi
+     pieni+A+Comp+Sg+Gen: pienemän
+     pieni+A+Comp+Sg+Par: pienempää
+     pieni+A+Comp+Sg+Ill: pienemphään
+     pieni+A+Comp+Sg+Ine: pienemässä
+     pieni+A+Comp+Sg+Ela: pienemästä
+     pieni+A+Comp+Sg+All: pienemälle
+     pieni+A+Comp+Sg+Ade: pienemällä
+     pieni+A+Comp+Sg+Abl: pienemältä
+     pieni+A+Comp+Sg+Ess: pienempännä
+     pieni+A+Comp+Sg+Tra: pienemäksi
+     pieni+A+Comp+Pl+Nom: pienemät
+     pieni+A+Comp+Pl+Gen: [pienemitten, pienempien]
+     pieni+A+Comp+Pl+Par: pienempiä
+     pieni+A+Comp+Pl+Ill: pienemphiin
+     pieni+A+Comp+Pl+Ine: pienemissä
+     pieni+A+Comp+Pl+Ela: pienemistä
+     pieni+A+Comp+Pl+All: pienemille
+     pieni+A+Comp+Pl+Ade: pienemillä
+     pieni+A+Comp+Pl+Abl: pienemiltä
+     pieni+A+Comp+Pl+Ess: pienempinnä
+     pieni+A+Comp+Pl+Tra: pienemiksi
+     pieni+A+Superl+Sg+Nom: [pienin, pieniin]
+     pieni+A+Superl+Sg+Gen: [pienimän, pieniimän]
+     pieni+A+Superl+Sg+Par: [pienimpää, pieniimpää]
+     pieni+A+Superl+Sg+Ill: [pienimphään, pieniimphään]
+     pieni+A+Superl+Sg+Ine: [pienimässä, pieniimässä]
+     pieni+A+Superl+Sg+Ela: [pienimästä, pieniimästä]
+     pieni+A+Superl+Sg+All: [pienimälle, pieniimälle]
+     pieni+A+Superl+Sg+Ade: [pienimällä, pieniimällä]
+     pieni+A+Superl+Sg+Abl: [pienimältä, pieniimältä]
+     pieni+A+Superl+Sg+Ess: [pienimpännä, pieniimpännä]     
+     pieni+A+Superl+Sg+Tra: [pienimäksi, pieniimäksi]
+     pieni+A+Superl+Pl+Nom: [pienimät, pieniimät]
+     pieni+A+Superl+Pl+Gen: [pienimitten, pieniimitten, pieniimpien, pienimpien]
+     pieni+A+Superl+Pl+Par: [pienimpiä, pieniimpiä]
+     pieni+A+Superl+Pl+Ill: [pienimphiin, pieniimphiin]
+     pieni+A+Superl+Pl+Ine: [pienimissä, pieniimissä]
+     pieni+A+Superl+Pl+Ela: [pienimistä, pieniimistä]
+     pieni+A+Superl+Pl+All: [pienimille, pieniimille]
+     pieni+A+Superl+Pl+Ade: [pienimillä, pieniimillä]
+     pieni+A+Superl+Pl+Abl: [pienimiltä, pieniimiltä]
+     pieni+A+Superl+Pl+Ess: [pienimpinnä, pieniimpinnä]
+     pieni+A+Superl+Pl+Tra: [pienimiksi, pieniimiksi]
