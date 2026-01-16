@@ -345,7 +345,7 @@ sopiva:sopiva a3 ;
 vaativa:vaativa a3 ;
 kuiva:kuiva ax ;
 rutikuiva:rutikuiva ax ;
-kova:kova a1 ;
+kova:kova a1_kova ;
 pruunikova:pruunikova ax ;
 kivikova:kivi#kova a1 ;
 sarvikova:sarvikova ax ;

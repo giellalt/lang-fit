@@ -81,3 +81,71 @@ Tests:
      iso+A+Superl+Pl+Abl: issoimilta
      iso+A+Superl+Pl+Ess: issoimpinna
      iso+A+Superl+Pl+Tra: issoimiksi
+
+  Adj - iso: #  sg ade --  kontrollerad av Elina 
+    kova+A+Sg+Nom: kova
+    kova+A+Sg+Gen: kovan
+    kova+A+Sg+Par: kovvaa  
+    kova+A+Sg+Ill: kovhaan
+    kova+A+Sg+Ine: kovassa
+    kova+A+Sg+Ela: kovasta
+    kova+A+Sg+All: kovale
+    kova+A+Sg+Ade: kovala
+    kova+A+Sg+Abl: kovalta
+    kova+A+Sg+Ess: kovana
+    kova+A+Sg+Tra: kovaksi
+    kova+A+Pl+Nom: kovat
+    kova+A+Pl+Gen: [kovitten, kovien]
+    kova+A+Pl+Par: kovia
+    kova+A+Pl+Ill: kovhiin
+    kova+A+Pl+Ine: kovissa
+    kova+A+Pl+Ela: kovista
+    kova+A+Pl+All: kovile
+    kova+A+Pl+Ade: kovila
+    kova+A+Pl+Abl: kovilta
+    kova+A+Pl+Ess: kovina
+    kova+A+Pl+Tra: koviksi
+    kova+A+Comp+Sg+Nom: kovempi
+    kova+A+Comp+Sg+Gen: koveman
+    kova+A+Comp+Sg+Par: kovempaa
+    kova+A+Comp+Sg+Ill: kovemphaan
+    kova+A+Comp+Sg+Ine: kovemassa
+    kova+A+Comp+Sg+Ela: kovemasta
+    kova+A+Comp+Sg+All: kovemalle
+    kova+A+Comp+Sg+Ade: kovemalla
+    kova+A+Comp+Sg+Abl: kovemalta
+    kova+A+Comp+Sg+Ess: kovempanna
+    kova+A+Comp+Sg+Tra: kovemaksi
+    kova+A+Comp+Pl+Nom: kovemat
+    kova+A+Comp+Pl+Gen: [kovemitten, kovempien]
+    kova+A+Comp+Pl+Par: kovempia
+    kova+A+Comp+Pl+Ill: kovemphiin
+    kova+A+Comp+Pl+Ine: kovemissa
+    kova+A+Comp+Pl+Ela: kovemista
+    kova+A+Comp+Pl+All: kovemille
+    kova+A+Comp+Pl+Ade: kovemilla
+    kova+A+Comp+Pl+Abl: kovemilta
+    kova+A+Comp+Pl+Ess: kovempinna
+    kova+A+Comp+Pl+Tra: kovemiksi
+    kova+A+Superl+Sg+Nom: [kovin, kovviin]
+    kova+A+Superl+Sg+Gen: [koviman, kovviiman]
+    kova+A+Superl+Sg+Par: [kovimpaa, kovviimpaa]
+    kova+A+Superl+Sg+Ill: [kovimphaan, kovviimphaan]
+    kova+A+Superl+Sg+Ine: [kovimassa, kovviimassa]
+    kova+A+Superl+Sg+Ela: [kovimasta, kovviimasta]
+    kova+A+Superl+Sg+All: [kovimalle, kovviimalle]
+    kova+A+Superl+Sg+Ade: [kovimalla, kovviimalla]
+    kova+A+Superl+Sg+Abl: [kovimalta, kovviimalta]
+    kova+A+Superl+Sg+Ess: [kovimpanna, kovviimpanna]
+    kova+A+Superl+Sg+Tra: [kovimaksi, kovviimaksi]
+    kova+A+Superl+Pl+Nom: [kovimat, kovviimat]
+    kova+A+Superl+Pl+Gen: [kovimitten, kovviimitten, kovviimpien]
+    kova+A+Superl+Pl+Par: [kovimpia, kovviimpia]
+    kova+A+Superl+Pl+Ill: [kovimphiin, kovviimphiin]
+    kova+A+Superl+Pl+Ine: [kovimissa, kovviimissa]
+    kova+A+Superl+Pl+Ela: [kovimista, kovviimista]
+    kova+A+Superl+Pl+All: [kovimille, kovviimille]
+    kova+A+Superl+Pl+Ade: [kovimilla, kovviimilla]
+    kova+A+Superl+Pl+Abl: [kovimilta, kovviimilta]
+    kova+A+Superl+Pl+Ess: [kovimpinna, kovviimpinna]
+    kova+A+Superl+Pl+Tra: [kovimiksi, kovviimiksi]

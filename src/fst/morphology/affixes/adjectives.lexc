@@ -24,14 +24,7 @@ LEXICON a1
 +A: x1 ; 
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
-!+A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
-!+A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
-
-!+A+Pl+Ill:^HMETA%>h^Vi2shi n_PxK ; !FIXA
-!+A+Pl+Ill:^HMETA%>h^Vi2ssi n_PxK ; !FiXA
-
 +A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
-!+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a1_ta 
@@ -45,6 +38,17 @@ a1 ;
 +A+Sg+Par:%>t^A K ;
 +A+Sg+All:%>le K ; 
 +A+Sg+Ade:%>l^A K ; 
+
+LEXICON a1_kova 
+!! **LEXICON @LEXNAME@** Like a1 but: 
++A: x1 ; 
++A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
++A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
++A+Comp:%^AE 3comp ; 
++A+Comp+Pl+Gen:%^AE%>mpi5en K ;
++A+Superl: 3sup ; 
++A+Superl:%>i5 3sup ; 
++A+Superl+Pl+Gen:%>i5%>i5mpien K ;
 
 LEXICON a1_e 
 !! **LEXICON @LEXNAME@** vanha, which has Err/Orth vanhee-, otherwise like a1

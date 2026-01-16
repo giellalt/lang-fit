@@ -613,7 +613,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !! **RULE: @RULENAME@**
 0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) [:e | i5:] ;
-        [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow v _  (a:0) (%>) :i (Dummy:) %> (h) [:i | i5:] ;
         [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) [:o | i5:] ;
         [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) [:u | i5:] ;
         [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
