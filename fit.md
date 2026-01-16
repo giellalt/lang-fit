@@ -1063,6 +1063,9 @@ The lexicon numbers correspond to the ones for nouns.
 
 In addition, each lexicon also points to comparative and superlative sublexica.
 
+* a1: pointing to x1, even syllable adjectives; kova, iso
+* a1_ta: as a1 plus plural partitive -ta: paksuita
+
 ### Unassigned
 
 **LEXICON ax** pointing to **a1**. It is for adjectives that have still not been classified.
@@ -1070,11 +1073,14 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 ### Regular lexica
 
 **LEXICON a1** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-
 * +A+Comp:%^AE 3comp ; 
 * +A+Superl: 3sup ;
 
+**LEXICON a1_ta** vanhaa !TODO!
+
 **LEXICON a1_aa** vanhaa !TODO!
+
+**LEXICON a1_kova** Like a1 but: 
 
 **LEXICON a1_e** vanha, which has Err/Orth vanhee-, otherwise like a1
 
