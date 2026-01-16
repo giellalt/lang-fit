@@ -8,6 +8,9 @@
 
 !! In addition, each lexicon also points to comparative and superlative sublexica.
 
+!! * a1: pointing to x1, even syllable adjectives; kova, iso
+!! * a1_ta: as a1 plus plural partitive -ta: paksuita
+
 !! ## Unassigned
 
 LEXICON ax
@@ -19,8 +22,7 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; 
-+A+Pl+Gen:^WG^IDEL%>je n_PxK ; ! även paksujen
-+A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita TODO: dela upp, vilka ska ha -ta-variant?
++A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 !+A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
 !+A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
@@ -31,6 +33,11 @@ LEXICON a1
 +A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
 !+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl: 3sup ; !!≈ * @CODE@
+
+LEXICON a1_ta 
+!! **LEXICON @LEXNAME@** vanhaa !TODO!
+a1 ;
++A+Pl+Par:^WG^IDEL%>i2ta PxK ; ! även paksuita TODO: dela upp, vilka ska ha -ta-variant?
 
 LEXICON a1_aa
 !! **LEXICON @LEXNAME@** vanhaa !TODO!
