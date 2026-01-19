@@ -691,7 +691,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
-+V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
++V+Pass+PrfPrc+Pl+Nom:%>n^Ut K ;
 +V+Pass+Cond:%>i3s K ;
 
 +V+Act+Imprt+Sg2: # ;
