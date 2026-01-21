@@ -72,6 +72,33 @@ a1 ;
 +A+Comp+Pl+Ill+Err/Orth:%^AEe%>mphiin K ;
 +A+Comp+Pl+Ade+Err/Orth:%^AEe%>milla K ;
 
+LEXICON a_hyva
+!! **LEXICON @LEXNAME@** for hyvä
++A:hyvä x1 ; 
++A+Comp:pare 3comp ; 
+!!+A+Superl:para 3sup ; 
++A+Superl+Sg+Nom:paras K ; 
++A+Superl+Sg+Gen:par%>haan K ; !HÄRIFRÅN
++A+Superl+Sg+Par:par%>asta K ;
++A+Superl+Sg+Ill:par%>haasheen K ;
++A+Superl+Sg+Ine:par%>haassa K ;
++A+Superl+Sg+Ela:par%>haasta K ;
++A+Superl+Sg+Abl:par%>haalta K ;
++A+Superl+Sg+All:par%>haale K ;
++A+Superl+Sg+Ade:par%>haala K ;
++A+Superl+Sg+Ess:par%>haana K ;
++A+Superl+Sg+Tra:par%>haaksi K ;
++A+Superl+Pl+Nom:par%>haat K ;
++A+Superl+Pl+Gen:par%>haitten K ;
++A+Superl+Pl+Par:par%>haita K ;
++A+Superl+Pl+Tra:par%>haiksi K ;
++A+Superl+Pl+Ill:par%>haishiin K ;
++A+Superl+Pl+Ine:par%>haissa K ;
++A+Superl+Pl+Ela:par%>haista K ;
++A+Superl+Pl+All:par%>haile K ;
++A+Superl+Pl+Ade:par%>haila K ;
++A+Superl+Pl+Abl:par%>hailta K ;
++A+Superl+Pl+Ess:par%>haina K ;
 
 LEXICON a_vasen
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
@@ -137,13 +164,9 @@ LEXICON a3
 +A+Pl+Ess:%>i9n^A PxK ;
 +A+Pl+Abe:%>i9tt^A PxK ;
 
-+A+Comp: 4comp ; !!≈ * @CODE@
-!+A+Superl:ime 4sup; !!≈ * @CODE@
-!FRÅN 4sup och xsup
-+A+Superl+Sg+Ess:%>i5mp^An^A K ; !!≈ * @CODE@
-+A+Superl+Sg+All:%>i5m^Ale K ; !!≈ * @CODE@ etc.
-+A+Superl+Sg+Ade:%>i5m^Al^A K ;
++A+Comp: 4comp ;
 
+!FRÅN 4sup och xsup
 +A+Superl+Sg+Nom:^WG%>i5n # ; 
 +A+Superl+Sg+Gen:%>i5m^An K ; 
 +A+Superl+Sg+Par:%>i5mp^A^A K ;
@@ -152,6 +175,10 @@ LEXICON a3
 +A+Superl+Sg+Ine:%>i5m^Ass^A K ;
 +A+Superl+Sg+Ela:%>i5m^Ast^A K ;
 +A+Superl+Sg+Abl:%>i5m^Alt^A K ;
++A+Superl+Sg+All:%>i5m^Ale K ; 
++A+Superl+Sg+Ade:%>i5m^Al^A K ;
++A+Superl+Sg+Ess:%>i5mp^An^A K ;
+
 +A+Superl+Pl+Nom:%>i5m^At # ;
 +A+Superl+Pl+Gen:%>i5mitten K ;
 +A+Superl+Pl+Par:%>i5mpi^A K ;
@@ -160,7 +187,6 @@ LEXICON a3
 +A+Superl+Pl+Ine:%>i5miss^A K ;
 +A+Superl+Pl+Ela:%>i5mist^A K ;
 +A+Superl+Pl+Abl:%>i5milt^A K ;
-
 +A+Superl+Pl+Ess:%>i5mpin^A K ;
 +A+Superl+Pl+All:%>i5mile K ;
 +A+Superl+Pl+Ade:%>i5mil^A K ;

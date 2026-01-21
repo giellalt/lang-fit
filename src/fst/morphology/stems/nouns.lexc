@@ -8421,7 +8421,7 @@ skuutteri n3 ;
 skuutteri:skuutteri nx ;
 rötterit:rötteri n3_pl ;
 verinen:veri 3nen ;
-kaveri:kaveri n3 ;
+kaveri:kaveri n5_ie_odd ;
 laveri:laveri n3 ;
 punaverinen:punaveri 3nen ;
 kahveri:kahveri n3 ;
