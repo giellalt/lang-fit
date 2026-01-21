@@ -29,6 +29,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a1_e** vanha, which has Err/Orth vanhee-, otherwise like a1
 
+**LEXICON a_hyva** for hyvä
+
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
 **LEXICON a_e** gets +A and goes to x_e.
@@ -38,10 +40,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a3** kamala gets +A and points to x3
 * +A: x3_sg ;
-
-* +A+Comp: 4comp ;
-* +A+Superl+Sg+Ess:%>i5mp^An^A K ;
-* +A+Superl+Sg+All:%>i5m^Ale K ; etc.
 
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
