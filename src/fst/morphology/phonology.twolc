@@ -295,7 +295,7 @@ t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^
           u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
-           VowNotIU (h)  _ Vow:      WeakGrade (%>) [%^E2I:0|Cns:|#|.#.] ; ! katu : kaun        
+           [VowNotIU | i e:0] (h)  _ Vow:      WeakGrade (%^IDEL:0) (%>) [%^E2I:0|i2:i|Cns:|#|.#.] ; ! katu : kaun        tieto>tion?
          [ä|e]           _  i        WeakGrade [%> :Vow - :i|Cns:] ;
                        t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ; 
              Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
@@ -749,6 +749,7 @@ e:0 <=>                                                   _ (WeakGrade) h %> e ;
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
                                                      Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !Shortening before i
+                                                t i _ t:0 o ; ! to get tieto > tiot etc (CHECK: expand?)
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**

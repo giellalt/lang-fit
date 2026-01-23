@@ -154,6 +154,15 @@ LEXICON x1
 x1_sg ;
 x1_pl ;
 
+LEXICON n1_jen
+!! **LEXICON @LEXNAME@** for the bisyallbic, pointing to sg, pl PLUS plural genitive ending -jen
++N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
++N+Nom: R ;
++N+Sg+Gen:^WG%>n R ;
++N: x1_sg ;
++N: x1_pl ;
++N+Pl+Gen:%>i2e n_PxK ;
+
 LEXICON x1_sg
 !! **LEXICON @LEXNAME@** bisyllabic sg
 +Sg+Nom: K ;
