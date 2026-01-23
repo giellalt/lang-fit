@@ -8,7 +8,7 @@
 !! ### Continuation lexica for regular verbs
 !!  * **v1** = even-syllable-stems of antaa-type; sanoa:sano
 !!  * **v1_tietaa** = tietää:ti
-!!  * **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+!!  * **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 !!  * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 !!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
@@ -323,6 +323,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 +V+Act+Ind+Prt+Pl2:^WG%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:^WG%>i3t K ;
 +V+Act+Ind+Prt+Pl3:%>i3v^A K ; 
++V+Act+Ind+Prt+Pl3:%>i3vv^A K ; !23/1
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^At K ; 
 +V+Act+Ind+Prt+Pl3:%^AE%^WG%>thiin K ;
 +V+Pass+Ind+Prt:%^AE%^WG%>thiin K ;

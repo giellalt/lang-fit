@@ -203,7 +203,7 @@ l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
 !! **RULE: @RULENAME@**
 m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
         [#|.#.] (Cns) Vow+ Cns+ Vow+ _ p:m ; !two syll + mm >m 
-        Vow Vow _ p:m ; !TESTA
+        Vow Vow _ p:m ; 
 
 
 
@@ -678,12 +678,12 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   ! kuva:kuvissa 15/1: (WG eller ^IDEL)
+    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
- [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   !  13/11
+ [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   
          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
  [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
- [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
+ [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa 
  [.#.|#] Cns:* RndVow (Vow) Cns:+                                _ (%^WG:)  %> i3: ;   ! huutaa>huusin
                                                                  _  (%^WG:) (i m e:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
@@ -733,7 +733,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
 
 "ä:e"
 !! **RULE: @RULENAME@**
-ä:e <=> _ %^AE: %^WG: %> t  ; !test remove h from 'WG: %> t h'
+ä:e <=> _ %^AE: %^WG: %> t  ; 
         _ %^AE: %> ; !adj comparative 
 
 
@@ -790,7 +790,7 @@ i:0 <=>
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
       [#|.#.] (Cns) Vow _ %> i3: ; ! uija>uin
-                  Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten !TEST FEB
+                  Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten 
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
 
 !! **Tests:**
@@ -910,10 +910,10 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i] ; ! sauhnaan !TEST med i
+%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i] ; ! sauhnaan
                             a: [%^HMETA:|%^HMET2:] %> h:  :a _      ; ! sauhnaan
 UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **conflict**
-                                                a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !TEST noutaa 
+                                                a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !noutta
 
 !! **Tests:**
 

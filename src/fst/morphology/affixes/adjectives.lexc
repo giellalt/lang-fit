@@ -78,7 +78,8 @@ LEXICON a_hyva
 +A+Comp:pare 3comp ; 
 !!+A+Superl:para 3sup ; 
 +A+Superl+Sg+Nom:paras K ; 
-+A+Superl+Sg+Gen:par%>haan K ; !HÄRIFRÅN
++A+Superl+Sg+Gen:par%>haan K ;
++A+Superl+Sg+Gen+Err/Orth:par%>hain K ; !EK?
 +A+Superl+Sg+Par:par%>asta K ;
 +A+Superl+Sg+Ill:par%>haasheen K ;
 +A+Superl+Sg+Ine:par%>haassa K ;
