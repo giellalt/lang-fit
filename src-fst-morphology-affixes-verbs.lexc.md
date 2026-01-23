@@ -7,7 +7,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 ### Continuation lexica for regular verbs
 * **v1** = even-syllable-stems of antaa-type; sanoa:sano
 * **v1_tietaa** = tietää:ti
-* **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+* **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)

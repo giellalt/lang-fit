@@ -1164,22 +1164,24 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * 3nc = for triple-consonant-final (jiddisch)
 
 #### Vowel stems
-* n0 = 1syll  nouns: maa, suu, tie
+* n0 = 1syll nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n_e = e-nouns; liike, säe, including odd-syll karpalheila (not -lla after 2 vow)
-* n_vehke = vehe:vehke vehe:vehke; including variant form without -h: vehkheen AND vehkeen
+* n_e = e-nouns; liike, säe, including odd-syll: karpale > karpalheila (not -lla after 2 vow)
+* n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
+* n_kevät = only kevät:kevä
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-* n3_asia = like n3 but -ta-partitive added; asia>asiaa, asiata
-* n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 except Sg Part: huomio>huomiota
+* n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
+* n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
-#### Stems for -i-words, vowel AND consonant
-* n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
+#### Stems for -i-words
+* n4 = i:e nouns: suomi:suome, kivi:kive > kiven > kiveä (2syll)
 * n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
 * n5_kasi = käsi:kä > käden > kättä (2syll)
-* n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
-* n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+* n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile !PLUS i-stem?!?
+* n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile) !PLUS + i-stem?!? from ...
+* n5_i_pl = continuation lexicon for -i-words with e-stem in plural
 
 #### Special cases for -i-words
 * n5_lumi = lumi:lu > lumen > lunta (2syll)
@@ -1270,14 +1272,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x_e_pl** the pl
 
-**LEXICON x_e_pl**  urvakke etc, n_e-ord med -lle/-lla 
-
-**LEXICON x_e_pl** splits in sg and pl
-
-**LEXICON x_e_pl** the sg
-
-**LEXICON x_e_pl** the pl
-
 **LEXICON n_kevät** 
 
 **LEXICON n3**  odd-syllabic: kanava
@@ -1339,8 +1333,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON n5_lapsi**
 
 **LEXICON n5_ie_odd**
-
-**LEXICON n5_ie_odd** same as n5_ie except Pl+Part: takki>takkeja 
 
 **LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
 
@@ -1807,7 +1799,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 #### Continuation lexica for regular verbs
 * **v1** = even-syllable-stems of antaa-type; sanoa:sano
 * **v1_tietaa** = tietää:ti
-* **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+* **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
@@ -3096,18 +3088,18 @@ This is an overview of the continuation lexicon types.
 #### Vowel stems
 * n0 = 1syll nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
-* n_e = e-nouns; liike, säe, including odd-syll: karpalheila (not -lla after 2 vow)
+* n_e = e-nouns; liike, säe, including odd-syll: karpale > karpalheila (not -lla after 2 vow)
 * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
-* n_kevät
+* n_kevät = only kevät:kevä
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-* n3_asia = like n3 but -ta-partitive added; asia>asiaa, asiata
-* n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 except Sg Part: huomio>huomiota
+* n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
+* n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 #### Stems for -i-words, vowel AND consonant
 * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
-* n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
+* n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll) (see also n5_kieli)
 * n5_kasi = käsi:kä > käden > kättä (2syll)
 * n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
 * n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
@@ -3117,7 +3109,7 @@ This is an overview of the continuation lexicon types.
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
-* n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
+* n5_kieli = kieli:kiele like n5 PLUS Pl+Gen kielten
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 #### Consonant stems of other types
