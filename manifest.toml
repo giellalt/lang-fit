@@ -23,7 +23,7 @@ extra_locales = { fit-SE = "fit" }
 
 [package.speller]
 name = "Meänkieli (Tornedalen Finnish)"
-version = "0.2.1"
+version = "0.2.2"
 
 [package.grammar]
 name = "Meänkieli (Tornedalen Finnish)"
