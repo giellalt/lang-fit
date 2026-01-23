@@ -91,6 +91,9 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x1** for the bisyallbic, pointing to sg, pl
 
+**LEXICON n1_jen** for the bisyallbic, pointing to sg, pl PLUS plural genitive ending -jen
+* +N+Sg+Nom: PxK ; Px separate
+
 **LEXICON x1_sg** bisyllabic sg
 * x1_sg_oblique ;  the rest
 
