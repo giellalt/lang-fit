@@ -17,6 +17,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * %^AE:0     = a to e in otta- > otethaan
 * %^IDEL:0   = trigger to delete i
 * %>         = suffix boundary
+* h2:h       = clitic hAAn 
 * i2:i       = plural of nouns
 * i3:i       = past tense of verbs
 * i4:i       = i in conditional of isi

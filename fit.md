@@ -1933,6 +1933,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * %^AE:0     = a to e in otta- > otethaan
 * %^IDEL:0   = trigger to delete i
 * %>         = suffix boundary
+* h2:h       = clitic hAAn 
 * i2:i       = plural of nouns
 * i3:i       = past tense of verbs
 * i4:i       = i in conditional of isi
@@ -2645,6 +2646,7 @@ Tag
 
 ### Phonological symbols
 
+* **h2** = h in clitic particles, never to jump around
 * **i2** = plural i of nouns (kanaloissa)
 * **i3** = past tense i of verbs
 * **i4** = i in conditional isi of most verbs (without gemination)

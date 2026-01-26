@@ -189,6 +189,7 @@ Tag
 
 ## Phonological symbols
 
+* **h2** = h in clitic particles, never to jump around
 * **i2** = plural i of nouns (kanaloissa)
 * **i3** = past tense i of verbs
 * **i4** = i in conditional isi of most verbs (without gemination)
