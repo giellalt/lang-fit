@@ -20,6 +20,7 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø  !!= * @CODE@
 %^AE:0    !!= * @CODE@ = a to e in otta- > otethaan
 %^IDEL:0  !!= * @CODE@ = trigger to delete i
 %>        !!= * @CODE@ = suffix boundary
+h2:h      !!= * @CODE@ = clitic hAAn 
 i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
@@ -285,12 +286,13 @@ t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
 !! **Tests:**
 !!€ imart4el^WG>l^A
 !!€ imar0el0>la
+! i m a r t4:0 e l ^WG:0 > l ^A:a
 
 ! conflicts: t: 0/s, l/s, n/s, r/s, 
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
+t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a:|ä:|i2:] (%^AE:0) WeakGrade [%> |%> [:Vow - :i] | Cns: | .#.] ; ! pitä>piän, piä; haitata
           u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
@@ -476,14 +478,14 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 "Gemination 0:l"
 !! **RULE: @RULENAME@**
-0:l <=> [.#.|#] Cns:* Vow l _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+0:l <=> [.#.|#] Cns:* Vow l _  :a (Dummy:*) %> (h) :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow l _  :e (Dummy:) %> (h) :e ;
         [.#.|#] Cns:* Vow l _  :i (Dummy:) %> (h) :i ;
 !        [.#.|#] Cns:* Vow l _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow l _ o   (Dummy:) %> (h) :o ;
         [.#.|#] Cns:* Vow l _  :u (Dummy:) %> (h) :u ;
         [.#.|#] Cns:* Vow l _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow l _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#] Cns:* Vow l _  :ä (Dummy:*) %> (h) :ä ;
         [.#.|#] Cns:* Vow l _  :ö (Dummy:) %> (h) :ö ;
 
 !! **Tests:**
