@@ -1088,11 +1088,11 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 +V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:e%>m^Att^A K ;
 
-+V+Pass+Ind+Prs:^HMET2%>h^A^An K ;
-+V+Pass+Ind+Prs:%>h^A^An K ;
-+V+Pass+Ind+Prt:%>thiin K ;
-+V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
-+V+Pass+Ind+Prt+ConNeg:%>t^U K ;
++V+Pass+Ind+Prs:^WG^HMET2%>h^A^An K ;
++V+Pass+Ind+Prs:^WG%>h^A^An K ;
++V+Pass+Ind+Prt:^WG%>thiin K ;
++V+Pass+Ind+Prs+ConNeg:^WG%>%^N^A K ;
++V+Pass+Ind+Prt+ConNeg:^WG%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
@@ -1114,7 +1114,8 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 
 +V+Act+Ind+Prs+Sg1:e%>n K ;
 +V+Act+Ind+Prs+Sg2:e%>t K ;
-+V+Act+Ind+Prs+Sg3:e%>e K ;
++V+Act+Ind+Prs+Sg3:e%>e K ; ! viekottelee
++V+Act+Ind+Prs+Sg3:le%>e K ;! viekottellee
 +V+Act+Ind+Prs+Pl1:e%>m^A K ;
 +V+Act+Ind+Prs+Pl2:e%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
