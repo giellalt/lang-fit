@@ -374,6 +374,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 +V+Act+PrfPrc:%>^Nhee x3_oblique ; 
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
++V+Pass+PrfPrc+Der/A+A:^AE^WG%>tt^U x3 ; 
 +V+Pass+PrfPrc+Pl+Nom:^AE^WG%>t^Ut K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
