@@ -2302,9 +2302,6 @@ There are also some other vowel change rules.
 
 **Tests:**
 
-* *ove^E2I*
-* *ovi0*
-
 ####  i rules
 
 **RULE: i:0**
