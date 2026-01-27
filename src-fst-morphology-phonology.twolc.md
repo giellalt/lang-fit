@@ -120,10 +120,10 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylke^WG>n*
 * *sylje0>n*
 
-* *kehke^WG>t^A* `!` (Eng. k3:j ?)
+* *kehke^WG>t^A*
 * *kehje0>tä*
 
-* *vehke^WG* `!` (Eng. k:0?)
+* *vehke^WG*
 * *veh0e0*
 
 **RULE: k:v**
@@ -270,8 +270,6 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *iss00>0oon*
 
 **RULE: h:0**
-
-* *rasta^HMETA>h^Vn*
 
 **RULE: h:0**
 

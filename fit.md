@@ -2036,10 +2036,10 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylke^WG>n*
 * *sylje0>n*
 
-* *kehke^WG>t^A* `!` (Eng. k3:j ?)
+* *kehke^WG>t^A*
 * *kehje0>tä*
 
-* *vehke^WG* `!` (Eng. k:0?)
+* *vehke^WG*
 * *veh0e0*
 
 **RULE: k:v**
@@ -2186,8 +2186,6 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 * *iss00>0oon*
 
 **RULE: h:0**
-
-* *rasta^HMETA>h^Vn*
 
 **RULE: h:0**
 
@@ -4200,7 +4198,8 @@ The file contains:
 ## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
-[ L A N G U A G E ]  G R A M M A R   C H E C K E R
+
+##      K V E N   G R A M M A R   C H E C K E R
 
 ## DELIMITERS
 
@@ -4262,29 +4261,24 @@ Romertall
 #### Tags for morphosyntactic properties
 
 Nom
-Acc
 Gen
 Ill
-Loc
+Ine
+Ela
+All
+Ade
+Abl
 Com
 Ess
 Ess
+Tra
+Abe
 Sg
-Du
 Pl
+
 Cmp/SplitR
 Cmp/SgNom Cmp/SgGen
 Cmp/SgGen
-PxSg1
-PxSg2
-PxSg3
-PxDu1
-PxDu2
-PxDu3
-PxPl1
-PxPl2
-PxPl3
-Px
 
 Comp
 Superl
@@ -4303,9 +4297,6 @@ ImprtII
 Sg1
 Sg2
 Sg3
-Du1
-Du2
-Du3
 Pl1
 Pl2
 Pl3
@@ -4321,6 +4312,9 @@ Actio
 VAbess
 
 Err/Orth
+
+ISO: Sekä adverbina että adpositiona käytettäviä sanoja:
+edellä, edelle, edeltä; edessä, eteen, edestä ; sisällä, sisälle, sisältä; sisässä, sisään, sisästä ; lähellä, lähelle, läheltä ; keskellä, keskelle, keskeltä ; ympärillä, ympärille, ympäriltä ; ohessa, oheen, ohesta ; takana, taakse, takaa ; alla, alle, alta ; yllä, ylle, yltä ; vailla, vaille ; vastassa, vastaan ; mukana, mukaan ; alitse, ylitse, ohitse ; ali, yli, läpi, ohi, ympäri, kohti, vastapäätä ; lisäksi, ilman, kesken, ennen
 
 #### Semantic tags
 
@@ -4371,6 +4365,9 @@ TIME-N-SET
 @-F<OPRED
 @-FSPRED>
 @-FOPRED>
+@NO CODE@
+@NO CODE@
+@NO CODE@
 @>ADVL
 @ADVL<
 @<ADVL
@@ -4378,6 +4375,7 @@ TIME-N-SET
 @ADVL
 @HAB>
 @<HAB
+@NO CODE@
 @>N
 @Interj
 @N<
@@ -4449,7 +4447,6 @@ CASE
 
 NOT-NOM
 NOT-GEN
-NOT-ACC
 
 #### Verb sets
 
@@ -4458,9 +4455,7 @@ NOT-V
 #### Sets for finiteness and mood
 
 REAL-NEG
-
 MOOD-V
-
 NOT-PRFPRC
 
 #### Sets for person
@@ -4468,9 +4463,6 @@ NOT-PRFPRC
 SG1-V
 SG2-V
 SG3-V
-DU1-V
-DU2-V
-DU3-V
 PL1-V
 PL2-V
 PL3-V
@@ -4491,9 +4483,67 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
+#### Postposition sets
+
 #### Border sets and their complements
 
-#### Grammarchecker sets
+### Grammarchecker sets
+
+## Grammarchecker rules 
+
+### Speller rules
+
+### Agreement rules
+
+#### Should be Sg1
+
+#### Should be Sg2
+
+**Agreement rule:** msyn-agr-sg3-sg2
+
+#### Should be Sg3
+
+relative sentences between the noun and the finite verb
+
+#### Should be Pl1
+
+**Agreement rule:** msyn-agr-sg3-pl3)
+
+#### Should be Pl2
+Not written, perhaps irrelevant.
+
+#### Should be Pl3
+
+**Agreement rule:** msyn-agr-sg3-pl3)
+
+#### Agreement sg -> pl
+
+Prs Sg3 > Prs Pl3
+
+#### Negation verb rules
+
+### Postposition rules
+
+###  NP internal rules
+
+The method is: Add &SUGGEST to a copied reading to *generate* a
+suggestion form from that reading. The copy should contain the error
+tag too – &-prefixed error tags are ignored when generating, but
+used to create human-readable messages.
+
+###  Punctuation rules
+
+#### Punctuation marks
+
+####  Spacing errors
+
+Here we find spacing rules.
+
+**Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
+
+**Agreement rule:** msyn-agr-other-pl3
+
+**Agreement rule:** msyn-agr-other-pl3
 
 * * *
 
