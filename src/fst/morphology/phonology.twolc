@@ -170,13 +170,15 @@ k4:j <=> Vow _ Vow: %^WG: ;   ! reijän
 !!€ sylje0>n
 !€ s y l k:j e ^WG:0 > n
 
-!!€ kehke^WG>t^A ! k3:j ?
+!!€ kehke^WG>t^A 
 !!€ kehje0>tä
 !€ k e h k:j e ^WG:0 > t ^A:a
+! k3:j ?
 
-!!€ vehke^WG  ! k:0?
+!!€ vehke^WG  
 !!€ veh0e0
 !€ v e h k:0 e ^WG:0
+ ! k:0?
  
 "k:v"
 !! **RULE: @RULENAME@**
@@ -399,8 +401,6 @@ t:r <=>  Vow:+ r: _ :Vow (Cns) WeakGrade ; ! kerta : kerran , jukertel - jukerre
 !!! **RULE: @RULENAME@**
 !t:v <=> t a u _ Vow: WeakGrade ; !CHECK tauti
 
-!!!€ tauti^WG
-!!!€ tauvi^WG
 
 !! ### v rules
 "v:0"
@@ -571,7 +571,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
        
 
 
-!!€ rasta^HMETA>h^Vn
+! rasta^HMETA>h^Vn
 
 ! issoon, sillhoon <== check this.
 
