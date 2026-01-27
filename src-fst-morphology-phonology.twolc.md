@@ -24,7 +24,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i5:i       = superlative i of adjectives
 * i9:i       = plural-i of adjectives (kamalissa)
 * i8:i       = past tense of verbs that drops in past antaa : anto
-* p2:p t2:t k2:k     = always p t k.
+* p2:p t2:t k2:k     = always p t k
 * **t3:t** = t participating in gradation, but not in t:s
 * **k4:k** = k to j in certain words
 * t4:t        goes to 0 in imartelee : imarella
@@ -120,9 +120,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 * *sylke^WG>n*
 * *sylje0>n*
 
-* *kehke^WG>t^A*
-* *kehje0>tä*
-
 * *vehke^WG*
 * *veh0e0*
 
@@ -167,7 +164,7 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 **RULE: p:m**
 
 ### s rules
-**RULE: r:0**
+**RULE: p:m**
 
 ### t rules
 
