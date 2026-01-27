@@ -27,7 +27,7 @@ i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
-p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
+p2:p t2:t k2:k r2:r    !!= * @CODE@ = always p t k, r.
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 k4:k      !!≈ * **@CODE@** = k to j in certain words
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
@@ -170,10 +170,8 @@ k4:j <=> Vow _ Vow: %^WG: ;   ! reijän
 !!€ sylje0>n
 !€ s y l k:j e ^WG:0 > n
 
-!!€ kehke^WG>t^A 
-!!€ kehje0>tä
-!€ k e h k:j e ^WG:0 > t ^A:a
-! k3:j ?
+! k e h k:j e ^WG:0 > t ^A:a
+! No rule for h k:j e ^WG. k3:j ?
 
 !!€ vehke^WG  
 !!€ veh0e0
@@ -188,7 +186,7 @@ k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 !!€ suku^WG>n
 !!€ suvu0>n
-!€ s u k:0 u ^WG:0 > n
+!€ s u k:v u ^WG:0 > n
 
 
 !! ### l rules
@@ -258,14 +256,13 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 
 !! ### r rules
 !! **RULE: @RULENAME@**
-"r:0"
-r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
- ![#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow  WeakGrade %> Cns (Cns Vow) .#.; !ymmärtää>ymmärän old rule
- [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
- [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
+!"r:0"
+!r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
+! [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
+! [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
                       Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
 
-!€ y m m ä r:0 t:r ä ^WG:0 > n
+!€ y m m ä r t4:0 ä ^WG:0 > n
 
 !! ### s rules
 !! **RULE: @RULENAME@**
@@ -310,7 +307,7 @@ t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | (WeakGrade) 
 !! **Tests:**
 !!€ motti^WG
 !!€ mot0i0
-!€ m o t t:0 i ^WG
+!€ m o t t:0 i ^WG:0 > n
 !!€ tehta^WGs
 !!€ teh0a0s
 !€ t e h t:0 a ^WG:0 s
@@ -382,7 +379,7 @@ t:r <=>  Vow:+ r: _ :Vow (Cns) WeakGrade ; ! kerta : kerran , jukertel - jukerre
 !!€ jukertel^WG>l^A
 !!€ jukerrel0>la
 !€ j u k e r t:r e l ^WG:0 > l ^A:a
-!€       a r t:r a l ^WG:0
+!€       a r t:r e l ^WG:0
 
 !! **Tests:**
 !!€ vete^E2I
@@ -616,12 +613,13 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 !! **RULE: @RULENAME@**
 0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) [:e | i5:] ;
-        [.#.|#] Cns:* Vow v _  (a:0) (%>) :i (Dummy:) %> (h) [:i | i5:] ;
         [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) [:o | i5:] ;
         [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) [:u | i5:] ;
         [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
         [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5:] ;
         [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) [:ö | i5:] ;
+        [.#.|#] Cns:* Vow v _  a: (Dummy:) %>  h   :a :a     ;
+        [.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [:i | i5:] :i ;
 !! **Tests:**
 
 !!€ kuv0a^HMETA>hiin
@@ -637,7 +635,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 "Alveolar assimilation for consonant stem l"
 !! **RULE: @RULENAME@**
 
- %^N:l <=> l: %> _ ;
+ %^N:l <=> l: %> _ :Vow ;
 
 !! **Tests:**
 
@@ -657,7 +655,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 
 !!€ häris>^N^A
 !!€ häris>tä
-!€ h ä r i s >^N:t ^A:ä
+!€ h ä r i s > ^N:t ^A:ä
 
 "Alveolar assimilation for consonant stem s in participles"
 !! **RULE: @RULENAME@**
@@ -695,7 +693,7 @@ a:0 <=>                                                          _ [%^HMETA: | %
 !! **Tests:**
 !!€ kuva>i2ss^A
 !!€ kuv0>issa
-!€ k u v a > i2:i s s ^A:a
+!€ k u v a:0 > i2:i s s ^A:a
 !!€ kuv0a^HMETA>h^V^Vn
 !!€ kuvv00>haan
 !€ k u v 0:v a:0 ^HMETA:0 > h ^V:a  ^V:a n
@@ -777,7 +775,7 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 
 !!€ ove^E2I
 !!€ ovi0
-!€ o v e:i ^E12:0
+!€ o v e:i ^E2I:0
 
 "ä:ö"
 !! **RULE: @RULENAME@**
