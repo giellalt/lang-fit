@@ -567,7 +567,7 @@ LIST &msyn-agr-sg3-sg1 = &msyn-agr-sg3-sg1 ;
 LIST &msyn-agr-sg3-sg2 = &msyn-agr-sg3-sg2 ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
-LIST &msyn-po-nogela = &msyn-po-notela ;
+LIST &msyn-po-notela = &msyn-po-notela ;
 LIST &msyn-po-notgen = &msyn-po-notgen ;
 #%#LIST &space-after-paren-beg = &space-after-paren-beg ;
 #%#LIST &space-before-paren-end = &space-before-paren-end ;
@@ -793,8 +793,10 @@ ADD:msyn-po-asti (&msyn-po-asti) TARGET N OR Pron IF
 	(NOT 0 Ill)
 	(1 ("asti"));
 COPY:msyn-po-asti (Ill SUGGEST) EXCEPT Nom TARGET (&msyn-po-asti);
-#$ Hän viipyy täällä iltaan asti
+COPY:msyn-po-asti (Ill SUGGEST) EXCEPT Gen TARGET (&msyn-po-asti);
 #% Hän viipyy täällä ilta asti 
+#% Hän viipyy täällä illan asti 
+#$ Hän viipyy täällä iltaan asti
 
 
 # Huom: minusta huolimatta+Po
