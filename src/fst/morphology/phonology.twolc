@@ -27,7 +27,7 @@ i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
-p2:p t2:t k2:k r2:r    !!= * @CODE@ = always p t k, r.
+p2:p t2:t k2:k    !!= * @CODE@ = always p t k
 t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
 k4:k      !!≈ * **@CODE@** = k to j in certain words
 t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
