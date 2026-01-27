@@ -1,13 +1,88 @@
-spelling-error = Spelling error in fit (PLACEHOLDER)
-    .desc = Description of spelling error in fit (PLACEHOLDER)
+double-space-before = bla
+    .desc = bla
 
-grammar-error = Wrong form in fit (PLACEHOLDER)
-    .desc = Description of wrong from {$1} in fit (PLACEHOLDER)
+grammar-error = Väärä muoto
+    .desc = Sana {$1} ei ehkä ole oikein tässä.
 
-real-override = Wrong form after negation in fit (PLACEHOLDER)
-    .desc = description of wrong from in fit (PLACEHOLDER)
-      and should be a negative verbform
+guillemets = Valg av anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi « og » som anførselstegn.
 
-msyn-valency-ill-acc = Wrong form in fit (PLACEHOLDER)
-    .desc = Should probably be illative in fit (PLACEHOLDER)
+left-guillemet = Venstre anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi « som venstre anførselstegn.
+
+right-guillemet = Høyre anførselstegn
+    .desc = Du har brukt anførselstegnet "$1". I norsk typografi bruker vi  » som høyre anførselstegn.
+
+msyn-acc-pss = 
+    .desc =
+
+msyn-agr-other-pl3 = Verbivirhe
+    .desc = Sana "{$1}" piian ei passaa tässäkään kontesktissa.
+
+msyn-agr-other-sg1 = Virheellinen verbimuoto
+    .desc = Verbi "{$1}" näyttää olevan ensimmäisessä persoonassa, mutta sen pitäisi luultavasti olla pronomini "mie" jälkeen.
+
+msyn-agr-prsptc-pl3 = Kolmannen persoonan muoto
+    .desc = Verbimuoto "{$1}" on kveenin kielessä partisiippi, tässä sopii eri muoto.
+
+msyn-agr-sg2-sg1 = Virheellinen verbimuoto
+    .desc = Kun verbi tulee pronomini "mie" jälkeen, sen on oltava ensimmäisessä persoonassa.
+
+msyn-agr-sg3-pl3 = Verbi on yksikössä, ei monikossa
+    .desc = Monikkosubjektin, kuten {$2}, jälkeen verbin pitäisi luultavasti olla monikossa.
+
+msyn-agr-sg3-sg2 = Verbi on väärässä persoonassa
+    .desc = Kun verbi tulee pronomini "sie" jälkeen, sen on oltava ensimmäisessä persoonassa.
+
+msyn-agr-pl3-sg3 = Verbi yksikössä, ei monikossa
+    .desc = Yksikön subjektin, kuten {$2}, jälkeen verbin pitäisi luultavasti olla yksikössä.
+
+msyn-agr-prfprcsg-prfprcpl = Partisiipin monikkomuoto
+    .desc = Jos partisiippi, kuten tässä {$1}, esiintyy monikossa, niin itse partisiipin on oltava monikossa.
+
+msyn-agr-pl3-pl1 = bla
+    .desc = bla
+
+msyn-agr-sg3-sg1 = bla
+    .desc = bla
+
+msyn-agr-sg2-sg1 = bla
+    .desc = bla
+
+msyn-po-notgen = bla
+    .desc = bla
+
+msyn-po-nogela = bla 
+    .desc = bla
+
+msyn-neg-posv = bla
+    .desc = bla
+
+msyn-po-asti = bla
+    .desc = bla
+
+msyn-valency-ill-acc = Väärä sijamuoto
+    .desc = Tässä akkusatiivi sopii paremmin 
     .ref-1 = 
+
+real-override = Wrong form after negation in fkv (PLACEHOLDER)
+    .desc = description of wrong from in fkv (PLACEHOLDER) and should be a negative verbform
+
+space-after-paren-beg = 
+    .desc =
+
+space-before-paren-end = 
+    .desc =
+
+space-before-punct-mark = 
+    .desc =
+
+spelling-error = Kirjoitusvirhe
+    .desc = Emme tunnista tätä sanaa
+
+syn-number-congruence-subj-verb = 
+    .desc =
+
+typo = 
+    .desc =
+
