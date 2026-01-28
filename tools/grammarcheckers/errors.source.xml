@@ -410,4 +410,39 @@
     </body>
   </error>
 
+  <error id="msyn-qp-sgnom-sgpar">
+    <header>
+      <title xml:lang="en">Wrong form of noun after numeral</title>
+      <title xml:lang="fit">Väärä substantiivi numeron jälkeen</title>
+    </header>
+    <body>
+      <description xml:lang="en">If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in nominative singular.</description>
+      <description xml:lang="fit">Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei yksikön nominatiivissa.</description>
+    </body>
+  </error>
+
+  <error id="msyn-qp-plnom-sgpar">
+    <header>
+      <title xml:lang="en">Wrong form of noun after numeral</title>
+      <title xml:lang="fit">Väärä substantiivi numeron jälkeen</title>
+    </header>
+    <body>
+      <description xml:lang="en">If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in nominative plural.</description>
+      <description xml:lang="fit">Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei monikon nominatiivissa.</description>
+      <description xml:lang="en">the nouns should be in partitive singular, not in nominative plural.</description>
+      <description xml:lang="fit">Lukusanan jälkeen substantiivien tulee olla yksikön partitiivissa, ei monikon nominatiivissa.</description>
+    </body>
+  </error>
+
+  <error id="msyn-qp-plpar-sgpar">
+    <header>
+      <title xml:lang="en">Wrong form of noun after numeral</title>
+      <title xml:lang="fit">Väärä substantiivi numeron jälkeen</title>
+    </header>
+    <body>
+      <description xml:lang="en">If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in partitive plural.</description>
+      <description xml:lang="fit">Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei monikon partitiivissa.</description>
+    </body>
+  </error>
+
 </errors>

@@ -86,3 +86,14 @@ syn-number-congruence-subj-verb =
 typo = 
     .desc =
 
+
+
+msyn-qp-sgnom-sgpar = Väärä substantiivi numeron jälkeen
+   .desc = Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei yksikön nominatiivissa.
+
+msyn-qp-plnom-sgpar = Väärä substantiivi numeron jälkeen
+   .desc = Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei monikon nominatiivissa.
+
+msyn-qp-plpar-sgpar = Väärä substantiivi numeron jälkeen
+   .desc = Jos substantiivi (tässä: "$1") tulee lukusanan jälkeen (tässä: "$2") sen pitää olla yksikön partitiivissa, ei monikon partitiivissa.
+

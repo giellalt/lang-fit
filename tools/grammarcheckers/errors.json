@@ -78,6 +78,26 @@
       "id": "msyn-po-asti"
     }
   ],
+  "msyn-neg-posv": [
+    {
+      "id": "msyn-neg-posv"
+    }
+  ],
+  "msyn-qp-sgnom-sgpar": [
+    {
+      "id": "msyn-qp-sgnom-sgpar"
+    }
+  ],
+  "msyn-qp-plnom-sgpar": [
+    {
+      "id": "msyn-qp-plnom-sgpar"
+    }
+  ],
+  "msyn-qp-plpar-sgpar": [
+    {
+      "id": "msyn-qp-plpar-sgpar"
+    }
+  ],
   "msyn-po-nogela": [
     {
       "id": "msyn-po-nogela"

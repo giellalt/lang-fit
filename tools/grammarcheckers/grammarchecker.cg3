@@ -237,6 +237,13 @@ LIST Sem/State-sick = Sem/State-lang-sick ; #!! Sem/State-sick
 LIST Sem/Sur = Sem/Sur ;			    #!! Sem/Sur
 LIST Sem/Time = Sem/Time ;			    #!! Sem/Time
 LIST Sem/Txt = Sem/Txt ;			    #!! Sem/Txt
+LIST Sem/Year = Sem/Year ;
+LIST Sem/ID = Sem/ID ;
+
+LIST Arab = Arab ;
+LIST Rom = Rom ;
+
+
 
 LIST HUMAN = Sem/Fem Sem/Mal Sem/Sur ;	    #!! HUMAN
 
@@ -569,6 +576,10 @@ LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
 LIST &msyn-po-notela = &msyn-po-notela ;
 LIST &msyn-po-notgen = &msyn-po-notgen ;
+LIST &msyn-qp-sgnom-sgpar = &msyn-qp-sgnom-sgpar ;
+LIST &msyn-qp-plpar-sgpar = &msyn-qp-plpar-sgpar ;
+LIST &msyn-qp-plnom-sgpar = &msyn-qp-plnom-sgpar ;
+
 #%#LIST &space-after-paren-beg = &space-after-paren-beg ;
 #%#LIST &space-before-paren-end = &space-before-paren-end ;
 #%#LIST &space-before-punct-mark = &space-before-punct-mark ;
@@ -775,6 +786,27 @@ COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Pl2 &msyn-neg-posv) TARGET &msyn-ne
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 ## Mies ei tullee.
 
+
+#!! Quantifier phrase rules
+
+
+ADD:msyn-qp-sgnom-sgpar (&msyn-qp-sgnom-sgpar) TARGET (N Sg Nom) IF
+	(*-1 (Num Sg Nom) BARRIER NOT-A LINK NOT 0 Ord OR Sem/Year OR Arab OR Sem/ID OR Rom)
+	(NEGATE 0 Par);
+COPY:msyn-qp-sgnom-sgpar (Par SUGGEST) EXCEPT (Nom &msyn-qp-sgnom-sgpar) TARGET (&msyn-qp-sgnom-sgpar) ;
+ADDRELATION:msyn-qp-sgnom-sgpar ($2) (Num) FROM (*1 N LINK 0 &msyn-qp-sgnom-sgpar);
+
+ADD:msyn-qp-plpar-sgpar (&msyn-sg-par-after-num) TARGET (N Pl Par) IF
+	(*-1 (Num Sg Nom) BARRIER NOT-A LINK NOT 0 Ord OR Sem/Year OR Arab OR Sem/ID OR Rom)
+	(NEGATE 0 Sg + Par);
+COPY:msyn-qp-plpar-sgpar (Sg Par SUGGEST) EXCEPT (Pl Par &msyn-qp-plpar-sgpar) TARGET (&msyn-qp-plpar-sgpar) ;
+ADDRELATION:msyn-qp-plpar-sgpar ($2) (Num) FROM (*1 N LINK 0 &msyn-qp-plpar-sgpar);
+
+ADD:msyn-qp-plnom-sgpar (&msyn-qp-plnom-sgpar) TARGET (N Pl Nom) IF
+	(*-1 (Num Sg Nom) BARRIER NOT-A LINK NOT 0 Ord OR Sem/Year OR Arab OR Sem/ID OR Rom)
+	(NEGATE 0 Sg + Nom);
+COPY:msyn-qp-plnom-sgpar (Par SUGGEST) EXCEPT (Nom &msyn-qp-plnom-sgpar) TARGET (&msyn-qp-plnom-sgpar) ;
+ADDRELATION:msyn-qp-plnom-sgpar ($2) (Num) FROM (*1 N LINK 0 &msyn-qp-plnom-sgpar);
 
 
 

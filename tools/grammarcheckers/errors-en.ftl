@@ -57,3 +57,15 @@ syn-number-congruence-subj-verb = asdf
 
 typo = Typo
     .desc = The word is wrongly spelled
+
+msyn-qp-sgnom-sgpar = Wrong noun form after numeral
+    .desc = If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in nominative singular.
+
+msyn-qp-plnom-sgpar = Wrong noun form after numeral
+    .desc = If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in nominative plural.
+
+msyn-qp-plpar-sgpar = Wrong noun form after numeral
+    .desc = If a noun (here: "$1") follows a numeral (here: "$2"), it should be in partitive singular, not in partitive plural.
+
+
+    
