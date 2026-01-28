@@ -4519,6 +4519,8 @@ Prs Sg3 > Prs Pl3
 
 #### Negation verb rules
 
+Quantifier phrase rules
+
 ### Postposition rules
 
 ###  NP internal rules
