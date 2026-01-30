@@ -4520,7 +4520,6 @@ Prs Sg3 > Prs Pl3
 #### Negation verb rules
 
 ### Negation e-subject rules
-
 Quantifier phrase rules
 
 ### Postposition rules
