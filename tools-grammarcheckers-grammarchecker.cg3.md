@@ -1,6 +1,6 @@
 
 
-#      K V E N   G R A M M A R   C H E C K E R
+#      M E Ä N K I E L I   G R A M M A R   C H E C K E R
 
 # DELIMITERS
 
@@ -323,6 +323,8 @@ Prs Sg3 > Prs Pl3
 
 ### Negation verb rules
 
+## Negation e-subject rules
+
 Quantifier phrase rules
 
 ## Postposition rules
@@ -343,10 +345,6 @@ used to create human-readable messages.
 Here we find spacing rules.
 
 **Agreement rule:** msyn-agr-other-pl3, Subject to the left, *Toh puátá/puátih.*
-
-**Agreement rule:** msyn-agr-other-pl3
-
-**Agreement rule:** msyn-agr-other-pl3
 
 * * *
 
