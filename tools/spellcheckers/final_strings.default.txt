@@ -24,6 +24,9 @@ lään:lhään	1
 laan:hlaan	1
 lään:hlään	1
 
+lloo:loa	3
+nnoo:noa	3
+
 raan:rhaan	1
 reen:rheen	1
 rhan:rhaan	1
