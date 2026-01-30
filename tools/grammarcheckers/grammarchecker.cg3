@@ -385,7 +385,7 @@ LIST REL-ADV = ("mikä") ("joka") ("missä") ("mistä") ("mihin") ("jossa") ("jo
 # - - - - - - - - - - - - - -
 
 SET NOT-V = WORD - V ; #!! NOT-V
-LIST modalverb = "häyttyyt" "pittäät" "saattaat" ;
+LIST modalverb = "häätyä" "pittää" "saattaa" ;
 
 #!! ### Sets for finiteness and mood
 # - - - - - - - - - -
@@ -785,13 +785,18 @@ ADD:msyn-neg-posv (&msyn-neg-posv) TARGET V IF
 	;
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Pl2 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
-## Mies ei tullee.
+#% Mies ei tullee.
+#$ Mies ei tule.
 
+LIST tunteet = "nälkä" "jano" "hätä" ;
 #!! ## Negation e-subject rules
 ADD:msyn-negesubj-nom-par (&msyn-negesubj-nom-par) TARGET (N Nom) IF
-	(*-1 ConNeg LINK -1 (V Neg Sg3) LINK -1 Ade) ;
+	(*-1 ConNeg LINK -1 (V Neg Sg3) LINK -1 Ade) 
+	(NOT 0 tunteet); 
 COPY:msyn-negesubj-nom-par (Par SUGGEST) EXCEPT (Nom &msyn-negesubj-nom-par ) TARGET (&msyn-negesubj-nom-par);	
-
+#% Mulla ei ole koira.
+#$ Mulla ei ole koiraa.
+#$ Mulla ei ole nälkä.
 #!! Quantifier phrase rules
 
 
