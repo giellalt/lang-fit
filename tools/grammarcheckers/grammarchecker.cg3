@@ -17,10 +17,10 @@
 # giellatekno@uit.no or feedback@divvun.no
 
 # ==================================================================== #
-#!! #      K V E N   G R A M M A R   C H E C K E R
+#!! #      M E Ä N K I E L I   G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
-# Copied from fin grc 7.11.22 but later throughly revised
+# Copied from fkv grc 29.1.26 but later slightly revised
 
 #  Sámi language technology 2000-2026, UiT The arctic University of Norway #
 
@@ -28,7 +28,7 @@
 #   Development setup:   #
 # ---------------------- #
 #
-# cd $GTHOME/lang-fkv
+# cd $GTHOME/lang-fit
 # ./autogen.sh
 # ./configure --enable-grammarchecker
 # make
@@ -572,6 +572,7 @@ LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
 LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
 LIST &msyn-agr-sg3-sg1 = &msyn-agr-sg3-sg1 ;
 LIST &msyn-agr-sg3-sg2 = &msyn-agr-sg3-sg2 ;
+LIST &msyn-negesubj-nom-par = &msyn-negesubj-nom-par ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
 LIST &msyn-po-notela = &msyn-po-notela ;
@@ -786,6 +787,10 @@ COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Pl2 &msyn-neg-posv) TARGET &msyn-ne
 COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-neg-posv ;
 ## Mies ei tullee.
 
+#!! ## Negation e-subject rules
+ADD:msyn-negesubj-nom-par (&msyn-negesubj-nom-par) TARGET (N Nom) IF
+	(*-1 ConNeg LINK -1 (V Neg Sg3) LINK -1 Ade) ;
+COPY:msyn-negesubj-nom-par (Par SUGGEST) EXCEPT (Nom &msyn-negesubj-nom-par ) TARGET (&msyn-negesubj-nom-par);	
 
 #!! Quantifier phrase rules
 
@@ -837,7 +842,8 @@ COPY:msyn-po-asti (Ill SUGGEST) EXCEPT Gen TARGET (&msyn-po-asti);
 # TODO: List of gen-Po, par-Po, Ill-Po, Ela-Po
 
 
-
+#% Tervetulloo
+#$ Tervetuloa
 
 
 
@@ -899,37 +905,6 @@ COPY:use-ellipsis ("…" &SUGGEST) EXCEPT ("...") TARGET (&ellipsis) ;
 #% Ne saavat
 #$ Ne saađhaan
 
-
-
-
-#!!  **Agreement rule:** msyn-agr-other-pl3
-#ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
-#	(*-1 N + Pl + Nom BARRIER NOT-NPMODADV OR CC OR CLB OR PUNCT LINK NOT 0 ABBR)
-#	(NEGATE *-1 ("čuovâ" N Pl Nom) LINK 1 ("alne"))
-#	(0C V + Ind + Sg3 OR V + Cond + Sg3)
-#	(NOT 0 Pl3)
-#	(NOT 1 Sg + Nom OR Pron + Sg3 + Nom);
-
-#!!  **Agreement rule:** msyn-agr-other-pl3
-#ADD:xmsyn-agr-other-pl3 (&msyn-agr-other-pl3) TARGET V IF 
-# (NOT -2 Sup OR Sg3)
-# (NOT *-1C Pron + Nom OR Dem + Nom OR N + Nom BARRIER NOT-ADV-PCLE)
-# (0C V + Ind + Sg3 OR V + Cond + Sg3)
-# (NOT 0 Pl3)
-# (*1 N + Pl + Nom BARRIER NOT-NPMODADV - (A Pl Nom) - Ill  LINK NOT 0 ABBR LINK NOT 1 Pl3);
-
-#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prs &msyn-agr-other-pl3);
-#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Prt &msyn-agr-other-pl3);
-#COPY:msyn-agr-other-pl3 (Pl3 Foc/ge &SUGGEST) EXCEPT (Sg3 Foc/ge &msyn-agr-other-pl3) TARGET (V Neg Ind &msyn-agr-other-pl3); # Neg
-#COPY:msyn-agr-other-pl3 (Pl3 &SUGGEST) EXCEPT (Sg3 &msyn-agr-other-pl3) TARGET (V Ind &msyn-agr-other-pl3); # Neg
-#ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-1 V LINK 0 (&msyn-agr-other-pl3));
-#ADDRELATION:msyn-agr-other-pl3 ($2) (N Pl Nom) FROM (-2 V LINK 0 (&msyn-agr-other-pl3));
-	
-#% Viäsust juáhhoo juávhoid tagareh almoneh, moh kovvejeh ääši.
-#$ Viäsust juáhhojeh juávhoid tagareh almoneh, moh kovvejeh ääši.
-
-#% Viäsust juáhhoo tagareh almoneh, moh kovvejeh ääši.
-#$ Viäsust juáhhojeh tagareh almoneh, moh kovvejeh ääši.
 
 
 
