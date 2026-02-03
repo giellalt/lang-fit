@@ -1941,8 +1941,8 @@ lappella:lapp2el v4_4lla ;
 imarella:imart4el v4_4lla ;
 kaperella:kapert4el v4_4lla ;
 pisarrella:pisartel v4_4lla ;
-jukerrella:juker2tel v4_4lla ; ! rt:rr
-laverrella:laver2tel v4_4lla ; ! rt:rr 
+jukerrella:jukertel v4_4lla ; ! rt:rr
+laverrella:lavertel v4_4lla ; ! rt:rr 
 puurella:puurt4el v4_4lla ;    ! rt4:r
 maksella:maksel v4_4lla ;
 kohatella:kohattel v4_4lla ;
@@ -2037,9 +2037,9 @@ toivotella:toivottel v4_4lla ;
 kilvotella:kilvottel v4_4lla ;
 virvotella:virvottel v4_4lla ;
 neuvotella:neuvottel v4_4lla ;
-nakertella:nakertel v4_4lla ; ! nakerrella ???
-punertella:punertel v4_4lla ;
-hoipertella:hoipertel v4_4lla ;
+nakertella:nakert2el v4_4lla ; ! nakerrella ???
+punertella:punert2el v4_4lla ;
+hoipertella:hoipert2el v4_4lla ;
 kiemurtella:kiemurtel v4_4lla ;
 kangastella:kangastel v4_4lla ;
 pahastella:pahastel v4_4lla ;
