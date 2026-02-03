@@ -1,3 +1,6 @@
+# wrong:correct (in final position)
+
+
 allä:alla	1
 altä:alta	1
 assä:assa	1
@@ -6,6 +9,7 @@ den:tten	1
 e:ee	3
 eaa:eeta	3
 eää:eetä	3
+ff:ffi		3
 ien:itten	1
 ile:ille	2
 ille:ile	2
@@ -14,35 +18,37 @@ kaan:khaan	1
 keen:kheen	1
 khan:khaan	1
 khen:kheen	1
+kk:kki		3
 kään:khään	1
-
+laan:hlaan	1
 laan:lhaan	1
 leen:lheen	1
 lhan:lhaan	1
 lhen:lheen	1
-lään:lhään	1
-laan:hlaan	1
-lään:hlään	1
-
+ll:lli		3
 lloo:loa	3
-nnoo:noa	3
-
-raan:rhaan	1
-reen:rheen	1
-rhan:rhaan	1
-rhen:rheen	1
-rään:rhään	1
-
+lään:hlään	1
+lään:lhään	1
 nhan:nhaan	2
 nhän:nhään	2
+nn:nni		3
+nnoo:noa	3
 nut:nu		2
 nyt:ny		2
 o:oi	3
 oja:oi	5
 ojen:oitten	1
 paan:phaan	1
+pp:ppi		3
 pään:phään	1
+raan:rhaan	1
+reen:rheen	1
+rhan:rhaan	1
 rhe:ret	3
+rhen:rheen	1
+rään:rhään	1
+ss:ssi		3
+tt:tti		3
 u:ui	3
 uena:ukena	2
 uoi:oi	3
