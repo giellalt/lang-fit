@@ -2088,6 +2088,8 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **RULE: t4:0** where *t4* is *t* in *rt* that shall not become *rr* 
 
+**RULE: t4:s** where *t4* becomes *s* in *rt* that shall not become *rr* 
+
 **Tests:**
 * *imart4el^WG>l^A*
 * *imar0el0>la*
