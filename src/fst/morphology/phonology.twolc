@@ -279,8 +279,12 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t4:0"
 !! **RULE: @RULENAME@** where *t4* is *t* in *rt* that shall not become *rr* 
-t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
+t4:0 <=> Vow:+ [l|n|r] _ [Vow: - ä:0] WeakGrade ;
          Vow   t       _ Vow:  [%^HMETA: |%^HMET2:] ;
+
+"t4:s"
+!! **RULE: @RULENAME@** where *t4* becomes *s* in *rt* that shall not become *rr* 
+t4:s <=> Vow:+ [l|n|r] _ ä: (%^WG:0) %> [i3: | i8:] ; !preteritum ymmärtä>ymmärsi etc
 
 !! **Tests:**
 !!€ imart4el^WG>l^A
