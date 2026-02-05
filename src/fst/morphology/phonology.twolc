@@ -15,10 +15,10 @@ Alphabet
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø  !!= * @CODE@ = the letters
 %^WG:0    !!= * @CODE@ = weak grade
 %^E2I:0   !!= * @CODE@ = kiele- > kieli
-%^HMETA:0 !!= * @CODE@ = vow metathesis for ill
-%^HMET2:0 !!= * @CODE@ = vow metathesis for sauhnaan etc
+%^HMETA:0 !!= * @CODE@ = vow metathesis for ill (sauna+haan > saunhaan)
+%^HMET2:0 !!= * @CODE@ = vow metathesis for sauhnaan etc (sauna+haan > sauhnaan)
 %^AE:0    !!= * @CODE@ = a to e in otta- > otethaan
-%^IDEL:0  !!= * @CODE@ = trigger to delete i
+%^IDEL:0  !!= * @CODE@ = trigger to delete i 
 %>        !!= * @CODE@ = suffix boundary
 h2:h      !!= * @CODE@ = clitic hAAn 
 i2:i      !!= * @CODE@ = plural of nouns
@@ -27,12 +27,12 @@ i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
-p2:p t2:t k2:k    !!= * @CODE@ = always p t k
-t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
+p2:p t2:t k2:k    !!= * @CODE@ = always p t k !mettä > mettän etc
+t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s !t3 not in use?
 k4:k      !!≈ * **@CODE@** = k to j in certain words
-t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
+t4:t      !!= * @CODE@  goes to 0 (ie rt goes to r) in imartelee : imarella
 n9:n      !!= * @CODE@ nouns that keep nn; juvanne
-%^A2O:0    !!= * @CODE@ = päärynä > päärynöitä
+%^A2O:0    !!= * @CODE@ = päärynä > päärynöitä 
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
@@ -622,8 +622,9 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
         [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5:] ;
         [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) [:ö | i5:] ;
-        [.#.|#] Cns:* Vow v _  a: (Dummy:) %>  h   :a :a     ;
-        [.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [:i | i5:] :i ;
+        ![.#.|#] Cns:* Vow v _  a: (Dummy:) %>  h   :a :a     ;
+        [.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [i2: | i5:] (%^WG:) (%>) :i ;
+        ![.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [:i | i5:] :i ;
 !! **Tests:**
 
 !!€ kuv0a^HMETA>hiin
@@ -965,7 +966,8 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
          [.#.|#] Cns:* RndVow+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
          [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !silmä>silmhiin Pl+Ill
-         a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i
+         !a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ [i9:i |i2:i ]; !after adjektiv or noun plural-i !5/2
+         a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i !Testar att ta bort ovanstående för att få tillbaka seuhroin etc
 
 !! **Tests:**
 
