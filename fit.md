@@ -1928,10 +1928,10 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø   = the letters
 * %^WG:0     = weak grade
 * %^E2I:0    = kiele- > kieli
-* %^HMETA:0  = vow metathesis for ill
-* %^HMET2:0  = vow metathesis for sauhnaan etc
+* %^HMETA:0  = vow metathesis for ill (sauna+haan > saunhaan)
+* %^HMET2:0  = vow metathesis for sauhnaan etc (sauna+haan > sauhnaan)
 * %^AE:0     = a to e in otta- > otethaan
-* %^IDEL:0   = trigger to delete i
+* %^IDEL:0   = trigger to delete i 
 * %>         = suffix boundary
 * h2:h       = clitic hAAn 
 * i2:i       = plural of nouns
@@ -1940,12 +1940,12 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i5:i       = superlative i of adjectives
 * i9:i       = plural-i of adjectives (kamalissa)
 * i8:i       = past tense of verbs that drops in past antaa : anto
-* p2:p t2:t k2:k     = always p t k
-* **t3:t** = t participating in gradation, but not in t:s
+* p2:p t2:t k2:k     = always p t k !mettä > mettän etc
+* **t3:t** = t participating in gradation, but not in t:s !t3 not in use?
 * **k4:k** = k to j in certain words
-* t4:t        goes to 0 in imartelee : imarella
+* t4:t        goes to 0 (ie rt goes to r) in imartelee : imarella
 * n9:n       nouns that keep nn; juvanne
-* %^A2O:0     = päärynä > päärynöitä
+* %^A2O:0     = päärynä > päärynöitä 
 * %^A:ä %^O:ö %^U:y  vowel harmony archiphonemes
 * %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö  = for vowel lenghtening
 * %^N:n  for  participle -nut
