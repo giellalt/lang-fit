@@ -2044,7 +2044,7 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 **RULE: p:m**
 
 #### s rules
-**RULE: p:m**
+**RULE: r:0**
 
 #### t rules
 
