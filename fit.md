@@ -1996,9 +1996,6 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **RULE: f:0**
 
-* *soffa^HMETA>h^V^Vn*
-* *sof000>haan*
-
 #### j rules
 **RULE: j:0**
 
@@ -2008,24 +2005,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **Tests:**
 
-* *kenkä^WG>n*
-* *kengä0>n*
-
 **RULE: k:0**
 
 **Tests:**
-
-* *takki^WG>n*
-* *tak0i0>n*
-
-* *johke^WG*
-* *joh0e0*
-
-* *ääkkä^HMETA>h^V^Vn*
-* *ääk000>hään*
-
-* *vaike^WG>t^A*
-* *vai0e0>ta*
 
 **RULE: k:j**
 
@@ -2033,18 +2015,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **Tests:**
 
-* *sylke^WG>n*
-* *sylje0>n*
-
-* *vehke^WG*
-* *veh0e0*
-
 **RULE: k:v**
 
 **Tests:**
-
-* *suku^WG>n*
-* *suvu0>n*
 
 #### l rules
 **RULE: k:v**
@@ -2061,18 +2034,9 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 
 **Tests:**
 
-* *appi^WG*
-* *ap0i0*
-
 **RULE: p:v**
 
 **Tests:**
-
-* *papu^WG>n*
-* *pavu0>n*
-
-* *varpa^WGs*
-* *varva0s*
 
 **RULE: p:m**
 
@@ -2091,59 +2055,28 @@ The  change rules (*k:g, k:j* etc.) are restricted by context (*k:g* only after 
 **RULE: t4:s** where *t4* becomes *s* in *rt* that shall not become *rr* 
 
 **Tests:**
-* *imart4el^WG>l^A*
-* *imar0el0>la*
 
 **RULE: t:0**
 
 **Tests:**
-* *motti^WG*
-* *mot0i0*
-* *tehta^WGs*
-* *teh0a0s*
-* *pitä^WGt*
-* *pi0ä0t*
-* *tytär^WG*
-* *ty0är0*
 
 **RULE: t:s**
 
 **Tests:**
-* *hoito^WG>n*
-* *hoijo0>n*
 
 **RULE: t:l  ** for lt:ll
 
 **Tests:**
-* *kulta^WG>n*
-* *kulla0>n*
 
 **RULE: t:n ** for nt:nn 
 
 **Tests:**
 
-* *kanta^WG>n*
-* *kanna0>n*
-
-* *kunta^WG>i2>st^A*
-* *kunn00>i>sta*
-
 **RULE: t:r ** for rt:rr 
 
 **Tests:**
 
-* *jukertel^WG>l^A*
-* *jukerrel0>la*
-
 **Tests:**
-* *vete^E2I*
-* *vesi0*
-
-* *vere^E2I*
-* *veri0*
-
-* *varte^E2I*
-* *varsi0*
 
 #### v rules
 **RULE: v:0**
@@ -2161,15 +2094,9 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 
 **Tests:**
 
-* *tek0e>e*
-* *tekke>e*
-
 **RULE: Gemination 0:l**
 
 **Tests:**
-
-* *tul0e>e*
-* *tulle>e*
 
 **RULE: Gemination 0:m**
 
@@ -2180,9 +2107,6 @@ There is one subrule for each vowel context, in order to avoid confilcts.
 **RULE: Gemination 0:s**
 
 **Tests:**
-
-* *is0o^HMETA>h^V^Vn*
-* *iss00>0oon*
 
 **RULE: h:0**
 
@@ -2203,14 +2127,8 @@ tule>mhaan
 
 **Tests:**
 
-* *pit0ä>^A*
-* *pittä>ä*
-
 **RULE: Gemination 0:v**
 **Tests:**
-
-* *kuv0a^HMETA>hiin*
-* *kuvv00>hiin*
 
 #### Assimilation rules
 
@@ -2221,16 +2139,10 @@ There is also a rule **j:0** avoiding a *lji* sequence.
 
 **Tests:**
 
-* *tul>^N^U*
-* *tul>lu*
-
 **RULE: Alveolar assimilation for consonant stem r**
 
 **RULE: Alveolar assimilation for consonant stem s in infinitives**
 **Tests:**
-
-* *häris>^N^A*
-* *häris>tä*
 
 **RULE: Alveolar assimilation for consonant stem s in participles**
 
@@ -2248,34 +2160,16 @@ There are also some other vowel change rules.
 **RULE: a:0** before metathesis h
 
 **Tests:**
-* *kuva>i2ss^A*
-* *kuv0>issa*
-* *kuv0a^HMETA>h^V^Vn*
-* *kuvv00>haan*
-* *saa>i3t*
-* *sa0>it*
 
 **RULE: a:o when nonrounded root vowel and before i**
 
 **Tests:**
-* *laatia>i2tten*
-* *laatio>itten*
-* *fankila>i2ss^A*
-* *fankilo>issa*
 
 ####  ä rules
 
 **RULE: ä:0**
 
 **Tests:**
-* *sytyttä^WG>i3n*
-* *sytyt000>in*
-* *päivä>i2ss^A*
-* *päiv0>issä*
-* *pitä>i3*
-* *pit0>i*
-* *jää>i3n*
-* *jä0>in*
 
 **RULE: ä:e**
 
@@ -2285,15 +2179,9 @@ There are also some other vowel change rules.
 
 **Tests:**
 
-* *tule^WG>i2ss^A*
-* *tul00>issa*
-
 **RULE: e:i**
 
 **Tests:**
-
-* *ove^E2I*
-* *ovi0*
 
 **RULE: ä:ö**
 
@@ -2305,41 +2193,15 @@ There are also some other vowel change rules.
 
 **Tests:**
 
-* *sii0li^HMETA>h^V^Vn*
-* *siihl00>0iin*
-* *hai>i2t*
-* *ha0>it*
-* *vasikoi>i3n*
-* *vasiko0>in*
-* *vie>i3n*
-* *v0e>in*
-* *oppi>i3*
-* *opp0>i*
-
 **RULE: i:j**
 
 **RULE: i2:j**
 
 **RULE: i8:0**
 
-* *sano>i3*
-* *sano>0*
-
-* *alka>i3*
-* *alko>0*
-
-* *juo>i3*
-* *j0o>i*
-
 **Tests:**
 
-* *sana>i2^A*
-* *sano>ja*
-
 **RULE: i:e**
-
-* *tukki>i2^A*
-* *tukke>ja*
 
 ####  o rules
 
@@ -2347,16 +2209,10 @@ There are also some other vowel change rules.
 
 **Tests:**
 
-* *poro^HMETA>h^V^Vn*
-* *por00>hoon*
-
 ####  ö rules
 **RULE: ö:0**
 
 **Tests:**
-
-* *hölmö^HMETA>h^V^Vn*
-* *hölm00>höön*
 
 ####  u rules
 
@@ -2364,17 +2220,11 @@ There are also some other vowel change rules.
 
 **Tests:**
 
-* *tuo>i3n*
-* *t0o>in*
-
 ####  y rules
 
 **RULE: y:0**
 
 **Tests:**
-
-* *syy>i2ss^A*
-* *s0y>issä*
 
 #### Vowel copying rules
 
@@ -2386,32 +2236,17 @@ and also deleted in the stem (cf. *talo : talhoon*)
 
 **Tests:**
 
-* *hinta^HMETA>h^V^Vn*
-* *hint00>haan*
-
-* *maa>h^Vn*
-* *maa>han*
-
 **RULE: o copying for h metathesis**
 
 **Tests:**
-
-* *talo^HMETA>h^V^Vn*
-* *tal00>hoon*
 
 **RULE: i copying for h metathesis**
 
 **Tests:**
 
-* *silli^HMETA>h^V^Vn*
-* *sill00>hiin*
-
 **RULE: ä copying for h metathesis**
 
 **RULE: e copying for h metathesis**
-
-* *puole^HMETA>h^V^Vn*
-* *puol00>heen*
 
 **RULE: ö copying for h metathesis**
 
@@ -2427,19 +2262,8 @@ All vowel harmony is taken care of with one rule.
 
 **Tests:**
 
-* *nais>i2lt^A*
-* *nais>ilta*
-* *puhu>^A*
-* *puhu>a*
-* *hinkka^WG>t^A*
-* *hink0a0>ta*
 * ★*katto^WG* (is not standard language)
 * ★*katto0* (is not standard language)
-* *keskus>t^A*
-* *keskus>ta*
-
-* *a*
-* *b*
 
 * * *
 
