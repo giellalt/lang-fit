@@ -225,7 +225,7 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
 ! [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
 ! [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
-                      Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
+!                     Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
 
 !€ y m m ä r t4:0 ä ^WG:0 > n
 
