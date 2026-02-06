@@ -256,11 +256,11 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 
 !! ### r rules
 !! **RULE: @RULENAME@**
-!"r:0"
-!r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
+"r:0"
+r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
 ! [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
 ! [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
-                      Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
+                      Vow Vow _ t:r :Vow WeakGrade ; !suortu>suorun
 
 !€ y m m ä r t4:0 ä ^WG:0 > n
 
@@ -796,13 +796,14 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 !! **RULE: @RULENAME@**
 i:0 <=>  
 !Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
-                  Cns   _ [e|i] %> [i2:|i3:|i4:|i5:] ; ! tie, pii, viedä
+                  Cns   _ [e|i] (%^WG:0) %> [i2:|i3:|i4:|i5:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
       [#|.#.] (Cns) Vow _ %> i3: ; ! uija>uin
                   Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten 
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
+                   ![(^%HMETA: h: |%^HMET2: h:)] 
 
 !! **Tests:**
 
