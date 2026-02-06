@@ -411,6 +411,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+Ind+Prs+Sg1:%>^An K ;
 +V+Act+Ind+Prs+Sg2:%>^At K ;
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
++V+Act+Ind+Prs+Pl1:%>^Amm^A K ;
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ; 
@@ -1325,6 +1326,7 @@ LEXICON 2cond !!≈ **@CODE@**  for -imm^A
 +Sg2:%>it K ;
 +Sg3: K ;
 +Pl1:%>imm^A K ;
++Pl1:%>im^A K ;
 +Pl2:%>itt^A K ;
 +Pl3:%>iv^A K ;
 +Pl3+Err/Orth:%>iv^At K ;
