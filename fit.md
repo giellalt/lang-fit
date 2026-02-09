@@ -3453,9 +3453,9 @@ First, it gives an nverview of the continuation lexica, and thereafter it sketch
 ### Overview over the continuation lexica
 
 #### Continuation lexica for regular verbs
-* **v1** = antaa-type; sanoa:sano
+* **v1** = antaa-type, even stem; sanoa:sano
 * **v1_tietaa** = tietää:ti
-* **v1_odd** = odd-syll-stem, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+* **v1_odd** = odd-syll-stem; suurentaa:suurenta, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
