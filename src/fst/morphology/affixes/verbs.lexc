@@ -497,6 +497,7 @@ v2 ;
 LEXICON v2_uta !!≈ * **@CODE@** haluta etc
 !För Prs+Sg3 halu/aa
 v2 ;
++V+Act+Ind+Prs+Pl1:%>^Amm^A K ; !häpeämmä
 +V+Act+Ind+Prs+Sg3:%>^A^A K ;
 +V+Act+Cond:%>^Ai4s 2cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; 

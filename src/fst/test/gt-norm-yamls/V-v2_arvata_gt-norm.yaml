@@ -12,10 +12,11 @@ Tests:
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
+# v2_ata, v2_ata_odd, v2_uta 
 
 
 
-  Verb - arvata - v2_ata_odd : # meaning 'to think' - GOLD 
+  Verb - arvata - v2_ata_odd : # arvata:arva meaning 'to think' - GOLD 
      arvata+V+Inf: arvata
      arvata+V+Act+Ind+Prs+Sg1: arvaan 
      arvata+V+Act+Ind+Prs+Sg2: arvaat 
@@ -56,7 +57,7 @@ Tests:
      arvata+V+Pass+Cond: [arvattais, arvattas]   
 
 
-     #verb - planeerata - v2_ata - FYLL PÅ, CHECK! Även huomata v2_odd, leipota v2_uta
+     #verb - planeerata:planeera - v2_ata - FYLL PÅ huomata v2_odd, leipota v2_uta
      planeerata+V+Inf: planeerata
      planeerata+V+Act+Ind+Prs+Sg1: planeeraan
      planeerata+V+Act+Ind+Prs+Sg2: planeeraat
@@ -99,3 +100,83 @@ Tests:
      planeerata+V+Pass+PrfPrc+Sg+Nom: planeerattu
      planeerata+V+Pass+PrfPrc+Pl+Nom: planeeratut
      planeerata+V+Pass+Cond: [planeerattais, planeerattas]
+
+     #verb - hävetä:häpe v2_uta
+     hävetä+V+Inf: hävetä
+     hävetä+V+Act+Ind+Prs+Sg1: häpeän
+     hävetä+V+Act+Ind+Prs+Sg2: häpeät
+     hävetä+V+Act+Ind+Prs+Sg3: häpeää
+     hävetä+V+Act+Ind+Prs+Pl1: [häpeämä, häpeämmä]
+     hävetä+V+Act+Ind+Prs+Pl2: häpeättä
+     hävetä+V+Act+Ind+Prs+Pl3: häpeävä
+     hävetä+V+Pass+Ind+Prs: hävethään
+     hävetä+V+Act+Ind+Prs+ConNeg: häpeä
+     hävetä+V+Act+Ind+Prt+Sg1: häpesin
+     hävetä+V+Act+Ind+Prt+Sg2: häpesit
+     hävetä+V+Act+Ind+Prt+Sg3: [häpes, häpesi]
+     hävetä+V+Act+Ind+Prt+Pl1: [häpesimmä, häpesimä]
+     hävetä+V+Act+Ind+Prt+Pl2: häpesittä
+     hävetä+V+Act+Ind+Prt+Pl3: [häpesit, häpesivä, hävethiin]
+     hävetä+V+Pass+Ind+Prt: hävethiin
+     hävetä+V+Act+Cond+Sg1: häpeäisin
+     hävetä+V+Act+Cond+Sg2: häpeäisit
+     hävetä+V+Act+Cond+Sg3: häpeäis
+     hävetä+V+Act+Cond+Pl1: [häpeäisimmä, häpeäisimä]
+     hävetä+V+Act+Cond+Pl2: häpeäisittä
+     hävetä+V+Act+Cond+Pl3: [häpeäisit, häpeäisivä]
+     hävetä+V+InfE+Ine: hävetessä
+     hävetä+V+InfE+Ins: häveten
+     hävetä+V+InfMa+Ill: [häpeähmään, häpeämhään]
+     hävetä+V+InfMa+Ine: häpeämässä
+     hävetä+V+InfMa+Ela: häpeämästä
+     hävetä+V+InfMa+Ade: häpeämällä
+     hävetä+V+InfMa+Abe: häpeämättä
+     hävetä+V+Act+PrsPrc+Sg+Nom: häpeävä
+     hävetä+V+Act+PrsPrc+Pl+Nom: häpeävät
+     hävetä+V+Pass+PrsPrc+Sg+Nom: hävettävä
+     hävetä+V+Pass+PrsPrc+Pl+Nom: hävettävät
+     hävetä+V+Act+PrfPrc+Sg+Nom: häveny
+     hävetä+V+Act+PrfPrc+Pl+Nom: [hävehneet, hävenheet]
+     hävetä+V+Pass+PrfPrc+Sg+Nom: hävetty
+     hävetä+V+Pass+PrfPrc+Pl+Nom: hävetyt
+     hävetä+V+Pass+Cond: [hävettäis, hävettäs]
+
+     #verb - leipota:leippo v2_uta - FYLL PÅ huomata v2_odd
+     leipota+V+Inf: leipota
+     leipota+V+Act+Ind+Prs+Sg1: leippoan
+     leipota+V+Act+Ind+Prs+Sg2: leippoat
+     leipota+V+Act+Ind+Prs+Sg3: leippoaa
+     leipota+V+Act+Ind+Prs+Pl1: [leippoama, leippoamma] #here
+     leipota+V+Act+Ind+Prs+Pl2: leippoatta
+     leipota+V+Act+Ind+Prs+Pl3: leippoava 
+     leipota+V+Pass+Ind+Prs:  leipothaan
+     leipota+V+Act+Ind+Prs+ConNeg: leippoa
+     leipota+V+Act+Ind+Prt+Sg1: leipposin
+     leipota+V+Act+Ind+Prt+Sg2: leipposit
+     leipota+V+Act+Ind+Prt+Sg3: [leippos, leipposi]
+     leipota+V+Act+Ind+Prt+Pl1: [leipposima, leipposimma]
+     leipota+V+Act+Ind+Prt+Pl2: leippositta
+     leipota+V+Act+Ind+Prt+Pl3: [leipothiin, leipposit, leipposiva]
+     leipota+V+Pass+Ind+Prt: leipothiin
+     leipota+V+Act+Cond+Sg1: leippoaisin
+     leipota+V+Act+Cond+Sg2: leippoaisit
+     leipota+V+Act+Cond+Sg3: leippoais
+     leipota+V+Act+Cond+Pl1: [leippoaisimma, leippoaisima]
+     leipota+V+Act+Cond+Pl2: leippoaisitta
+     leipota+V+Act+Cond+Pl3: [leippoaisit, leippoaisiva]
+     leipota+V+InfE+Ine: leipotessa
+     leipota+V+InfE+Ins: leipoten
+     leipota+V+InfMa+Ill: [leippoahmaan, leippoamhaan]
+     leipota+V+InfMa+Ine: leippoamassa
+     leipota+V+InfMa+Ela: leippoamasta
+     leipota+V+InfMa+Ade: leippoamalla
+     leipota+V+InfMa+Abe: leippoamatta
+     leipota+V+Act+PrsPrc+Sg+Nom: leippoava
+     leipota+V+Act+PrsPrc+Pl+Nom: leippoavat
+     leipota+V+Pass+PrsPrc+Sg+Nom: leipottava
+     leipota+V+Pass+PrsPrc+Pl+Nom: leipottavat
+     leipota+V+Act+PrfPrc+Sg+Nom: leiponu
+     leipota+V+Act+PrfPrc+Pl+Nom: [leipohneet, leiponheet]
+     leipota+V+Pass+PrfPrc+Sg+Nom: leipottu
+     leipota+V+Pass+PrfPrc+Pl+Nom: leipotut
+     leipota+V+Pass+Cond: [leipottais, leipottas]
