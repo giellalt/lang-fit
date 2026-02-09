@@ -371,6 +371,9 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 
 +V+Act+PrsPrc:%>v^A x3 ; 
 +V+Act+PrsPrc:%>vv^A x3 ; !TEST 6/2 kv
+!+V+Act+PrsPrc+Sg+Nom:%>v^A K ; !NY
+!+V+Act+PrsPrc+Sg+Nom:%>vv^A K ; !NY
++V+Act+PrsPrc+Pl+Nom:%>^v^At K ;
 +V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;
@@ -415,7 +418,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+Ind+Prs+Sg1:%>^An K ;
 +V+Act+Ind+Prs+Sg2:%>^At K ;
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ;
-+V+Act+Ind+Prs+Pl1:%>^Amm^A K ;
+!+V+Act+Ind+Prs+Pl1:%>^Amm^A K ; !doesnt work because *leipoamma, *arvaamma
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
 +V+Act+Ind+Prs+Pl3+Err/Orth:%>^Av^At K ; 
@@ -432,7 +435,6 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+Ind+Prt+Pl2:%>si3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>si3t K ;
 +V+Act+Ind+Prt+Pl3:%>si3v^A K ;
-+V+Act+Ind+Prt+Pl3:%>si3vv^A K ;!TEST 6/2
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>si3v^At K ;
 +V+Act+Ind+Prt+Pl3:%^WG%>thiin K ;
 +V+Pass+Ind+Prt:%^WG%>thiin K ;
@@ -453,7 +455,6 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+PrsPrc+Sg+Nom:%>^Av^A K ;
 +V+Act+PrsPrc+Pl+Nom:%>^Av^At K ;
 +V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Av^A K ;
-+V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !TEST 6/2
 +V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Av^At K ;
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
@@ -479,6 +480,10 @@ v2 ;
 +V+Act+Cond:%>i4s 2cond ;
 +V+Act+Cond+Pl1:%>i4s%>im^A K ; !CHECK
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
+!+V+Act+Ind+Prs+Pl1:%>^Amm^A K ; !planeeramma
+!+V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !TEST 6/2
+
+
 
 
 LEXICON v2_ata_odd !!≈ * **@CODE@** huomata etc
@@ -487,13 +492,10 @@ v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
 +V+Act+Cond:%>i4s 2cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
++V+Act+Ind+Prt+Pl3:%>si3vv^A K ;!TEST 6/2 huomaasivva
++V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !TEST 6/2
 
 
-!LEXICON v2_uta_odd !!≈ * **@CODE@** haluta etc, Prs+Sg3 halu/aa !LEXICON NOT NEEDED?
-!v2 ;
-!+V+Act+Ind+Prs+Sg3:%>^A^A K ;
-!+V+InfMa+Ade:%>^Am^Al^A K ; 
-!+V+Act+Cond:%>^Ai4s 2cond ;
 
 
 LEXICON v2_uta !!≈ * **@CODE@** haluta etc
