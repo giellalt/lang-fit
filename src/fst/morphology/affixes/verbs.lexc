@@ -76,9 +76,6 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Cond+Pl3:olis%>it K ;
 +V+Act+Cond+Pl3:olis%>iv^A K ;
 +V+Act+Cond+Pl3+Err/Orth:olis%>iv^At K ;
-
-
-! tsekkaa loput olla-muodot, ne on ottetu fkv-tiedostosta.
 +V+Pass+Ind+Prs:olhaan K ;
 +V+Pass+Ind+Prt:olthiin K ;  
 +V+Act+PrfPrc+Sg+Nom:ollu K ;
@@ -269,6 +266,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa
 
 +V+Act+PrsPrc:%>v^A x3 ;
 +V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
++V+Pass+PrsPrc:^AE^WG%>tt^Avv^A x3 ; !Test 9/2
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ; 
@@ -371,9 +369,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 
 +V+Act+PrsPrc:%>v^A x3 ; 
 +V+Act+PrsPrc:%>vv^A x3 ; !TEST 6/2 kv
-!+V+Act+PrsPrc+Sg+Nom:%>v^A K ; !NY
-!+V+Act+PrsPrc+Sg+Nom:%>vv^A K ; !NY
-+V+Act+PrsPrc+Pl+Nom:%>^v^At K ;
+!+V+Act+PrsPrc+Pl+Nom:%>^v^At K ;
 +V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^N^U K ;

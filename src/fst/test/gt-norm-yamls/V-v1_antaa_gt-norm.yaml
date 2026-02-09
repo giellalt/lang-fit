@@ -21,7 +21,7 @@ Tests:
      antaa+V+Act+Ind+Prs+Sg3: antaa
      antaa+V+Act+Ind+Prs+Pl1: annama
      antaa+V+Act+Ind+Prs+Pl2: annatta
-     antaa+V+Act+Ind+Prs+Pl3: [antava]
+     antaa+V+Act+Ind+Prs+Pl3: antava
      antaa+V+Pass+Ind+Prs: annethaan
      antaa+V+Act+Ind+Prs+ConNeg: anna
      antaa+V+Act+Ind+Prt+Sg1: annoin
@@ -36,8 +36,8 @@ Tests:
      antaa+V+Act+PrfPrc+Pl+Nom: [antanheet, antahneet]
      antaa+V+Act+PrsPrc+Sg+Nom: antava
      antaa+V+Act+PrsPrc+Pl+Nom: antavat
-     antaa+V+Pass+PrsPrc+Sg+Nom: annettava #check annettavva
-     antaa+V+Pass+PrsPrc+Pl+Nom: annettavat #check annettavvat
+     antaa+V+Pass+PrsPrc+Sg+Nom: [annettava, annettavva] #check 
+     antaa+V+Pass+PrsPrc+Pl+Nom: [annettavat, annettavvat] #check annettavvat
      antaa+V+Pass+Ind+Prt: annethiin
      antaa+V+Act+Cond+Sg1: [antaisin, antasin]
      antaa+V+Act+Cond+Sg2: [antaisit, antasit]
@@ -87,8 +87,8 @@ Tests:
      loppua+V+InfMa+Abe: loppumatta
      loppua+V+Act+PrsPrc+Sg+Nom: loppuva
      loppua+V+Act+PrsPrc+Pl+Nom: loppuvat
-     loppua+V+Pass+PrsPrc+Sg+Nom: loputtava #check vva?
-     loppua+V+Pass+PrsPrc+Pl+Nom: loputtavat #check vvat?
+     loppua+V+Pass+PrsPrc+Sg+Nom: [loputtava, loputtavva]  #check vva?
+     loppua+V+Pass+PrsPrc+Pl+Nom: [loputtavat, loputtavvat] #check vvat?
      loppua+V+Act+PrfPrc+Sg+Nom: loppunu
      loppua+V+Act+PrfPrc+Pl+Nom: [loppuhneet, loppunheet]
      loppua+V+Pass+PrfPrc+Sg+Nom: loputtu
@@ -251,8 +251,8 @@ Tests:
      tuntea+V+InfMa+Abe: tuntematta
      tuntea+V+Act+PrsPrc+Sg+Nom: tunteva
      tuntea+V+Act+PrsPrc+Pl+Nom: tuntevat
-     tuntea+V+Pass+PrsPrc+Sg+Nom: tunnettava
-     tuntea+V+Pass+PrsPrc+Pl+Nom: tunnettavat
+     tuntea+V+Pass+PrsPrc+Sg+Nom: [tunnettava, tunnettavva]
+     tuntea+V+Pass+PrsPrc+Pl+Nom: [tunnettavat, tunnettavvat]
      tuntea+V+Act+PrfPrc+Sg+Nom: tuntenu
      tuntea+V+Act+PrfPrc+Pl+Nom: [tuntehneet, tuntenheet]
      tuntea+V+Pass+PrfPrc+Sg+Nom: tunnettu
@@ -291,8 +291,8 @@ Tests:
      lukea+V+InfMa+Abe: lukematta
      lukea+V+Act+PrsPrc+Sg+Nom: lukeva
      lukea+V+Act+PrsPrc+Pl+Nom: lukevat
-     lukea+V+Pass+PrsPrc+Sg+Nom: luettava
-     lukea+V+Pass+PrsPrc+Pl+Nom: luettavat
+     lukea+V+Pass+PrsPrc+Sg+Nom: [luettava, luettavva]
+     lukea+V+Pass+PrsPrc+Pl+Nom: [luettavat, luettavvat]
      lukea+V+Act+PrfPrc+Sg+Nom: lukenu
      lukea+V+Act+PrfPrc+Pl+Nom: [lukehneet, lukenheet]
      lukea+V+Pass+PrfPrc+Sg+Nom: luettu
@@ -331,8 +331,8 @@ Tests:
      alkaa+V+InfMa+Abe: alkamatta
      alkaa+V+Act+PrsPrc+Sg+Nom: alkava
      alkaa+V+Act+PrsPrc+Pl+Nom: alkavat
-     alkaa+V+Pass+PrsPrc+Sg+Nom: alettava
-     alkaa+V+Pass+PrsPrc+Pl+Nom: alettavat
+     alkaa+V+Pass+PrsPrc+Sg+Nom: [alettava, alettavva]
+     alkaa+V+Pass+PrsPrc+Pl+Nom: [alettavat, alettavvat]
      alkaa+V+Act+PrfPrc+Sg+Nom: alkanu
      alkaa+V+Act+PrfPrc+Pl+Nom: [alkanheet, alkahneet]
      alkaa+V+Pass+PrfPrc+Sg+Nom: alettu
@@ -372,8 +372,8 @@ Tests:
      pittää+V+InfMa+Abe: pitämättä
      pittää+V+Act+PrsPrc+Sg+Nom: pitävä
      pittää+V+Act+PrsPrc+Pl+Nom: pitävät
-     pittää+V+Pass+PrsPrc+Sg+Nom: piettävä
-     pittää+V+Pass+PrsPrc+Pl+Nom: piettävät
+     pittää+V+Pass+PrsPrc+Sg+Nom: [piettävä, piettävvä]
+     pittää+V+Pass+PrsPrc+Pl+Nom: [piettävät, piettävvät]
      pittää+V+Act+PrfPrc+Sg+Nom: pitäny
      pittää+V+Act+PrfPrc+Pl+Nom: [pitähneet, pitänheet]
      pittää+V+Pass+PrfPrc+Sg+Nom: pietty
@@ -419,3 +419,43 @@ Tests:
      olla+V+Pass+PrfPrc+Sg+Nom: oltu 
      olla+V+Pass+PrfPrc+Pl+Nom: ollut
      olla+V+Pass+Cond: olis
+
+#Verb siirtyä - # meaning 'to be moved' - 'flytta sig/flyttas' - GOLD
+     siirtyä+V+Inf: siirtyä
+     siirtyä+V+Act+Ind+Prs+Sg1: siiryn
+     siirtyä+V+Act+Ind+Prs+Sg2: siiryt
+     siirtyä+V+Act+Ind+Prs+Sg3: siirtyy
+     siirtyä+V+Act+Ind+Prs+Pl1: siirymä
+     siirtyä+V+Act+Ind+Prs+Pl2: siiryttä
+     siirtyä+V+Act+Ind+Prs+Pl3: siirtyvä
+     siirtyä+V+Pass+Ind+Prs: siirythään
+     siirtyä+V+Act+Ind+Prs+ConNeg: siiry
+     siirtyä+V+Act+Ind+Prt+Sg1: siiryin
+     siirtyä+V+Act+Ind+Prt+Sg2: siiryit
+     siirtyä+V+Act+Ind+Prt+Sg3: [siirty, siirtyi]
+     siirtyä+V+Act+Ind+Prt+Pl1: siiryimä
+     siirtyä+V+Act+Ind+Prt+Pl2: siiryittä
+     siirtyä+V+Act+Ind+Prt+Pl3: [siiryit, siirythiin, siirtyivä]
+     siirtyä+V+Pass+Ind+Prt: siirythiin
+     siirtyä+V+Act+Cond+Sg1: [siirtyisin, siirtysin]
+     siirtyä+V+Act+Cond+Sg2: [siirtyisit, siirtysit]
+     siirtyä+V+Act+Cond+Sg3: [siirtyis, siirtys]
+     siirtyä+V+Act+Cond+Pl1: [siirtyisimmä, siirtysimmä, siirtyisimä, siirtysimä]
+     siirtyä+V+Act+Cond+Pl2: [siirtyisittä, siirtysittä]
+     siirtyä+V+Act+Cond+Pl3: [siirtyisit, siirtyisivä, siirtyisivvä, siirtysit, siirtysivä, siirtysivvä]
+     siirtyä+V+InfE+Ine: siirtyessä
+     siirtyä+V+InfE+Ins: siirtyen
+     siirtyä+V+InfMa+Ill: [siirthyyn, siirtyhmään, siirtymhään]
+     siirtyä+V+InfMa+Ine: siirtymässä
+     siirtyä+V+InfMa+Ela: siirtymästä
+     siirtyä+V+InfMa+Ade: siirtymällä
+     siirtyä+V+InfMa+Abe: siirtymättä
+     siirtyä+V+Act+PrsPrc+Sg+Nom: siirtyvä
+     siirtyä+V+Act+PrsPrc+Pl+Nom: siirtyvät
+     siirtyä+V+Pass+PrsPrc+Sg+Nom: [siiryttävä, siiryttävvä] #check siiryttävvä
+     siirtyä+V+Pass+PrsPrc+Pl+Nom: [siiryttävät, siiryttävvät] #check siiryttävvät
+     siirtyä+V+Act+PrfPrc+Sg+Nom: siirtyny
+     siirtyä+V+Act+PrfPrc+Pl+Nom: [siirtyhneet, siirtynheet]
+     siirtyä+V+Pass+PrfPrc+Sg+Nom: siirytty
+     siirtyä+V+Pass+PrfPrc+Pl+Nom: siirytyt
+     siirtyä+V+Pass+Cond: [siiryttäis, siiryttäs]
