@@ -1839,7 +1839,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v1_tietaa** tietää-lexicon
 
-* **LEXICON v1** sanoa, lukea, antaa 
+* **LEXICON v1** sanoa, lukea, antaa:anta 
 
 * **LEXICON v1_var** !Test mahtaa>mahtan & mahan !TBC - where does it occur?
 
