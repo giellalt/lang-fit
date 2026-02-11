@@ -2714,7 +2714,7 @@ This file documents [the file for Meänkieli adverbs](https://github.com/giellal
 
 The first part of the file adds tags, and the second lists the adverbs.
 
-### The tags
+### The tags:
 
 * LEXICON advx Still not checked, hence the x
 * +Adv: K ; 
