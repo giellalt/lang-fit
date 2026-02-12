@@ -3,4 +3,5 @@
 on:oon	2
 ollut:ollu	2
 minut:minun	2
+hän:hään 2
 

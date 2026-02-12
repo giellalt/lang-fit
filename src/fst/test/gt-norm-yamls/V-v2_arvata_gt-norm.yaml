@@ -180,3 +180,83 @@ Tests:
      leipota+V+Pass+PrfPrc+Sg+Nom: leipottu
      leipota+V+Pass+PrfPrc+Pl+Nom: leipotut
      leipota+V+Pass+Cond: [leipottais, leipottas]
+
+     #Verb myrskytä - # meaning '' - '' - GOLD  
+     myrskytä+V+Inf: myrskytä
+     myrskytä+V+Act+Ind+Prs+Sg1: myrskyän
+     myrskytä+V+Act+Ind+Prs+Sg2: myrskyät
+     myrskytä+V+Act+Ind+Prs+Sg3: myrskyää
+     myrskytä+V+Act+Ind+Prs+Pl1: [myrskyämmä, myrskyämä]
+     myrskytä+V+Act+Ind+Prs+Pl2: myrskyättä
+     myrskytä+V+Act+Ind+Prs+Pl3: myrskyävä
+     myrskytä+V+Pass+Ind+Prs: myrskythään
+     myrskytä+V+Act+Ind+Prs+ConNeg: myrskyä
+     myrskytä+V+Act+Ind+Prt+Sg1: myrskysin
+     myrskytä+V+Act+Ind+Prt+Sg2: myrskysit
+     myrskytä+V+Act+Ind+Prt+Sg3: [myrskys, myrskysi]
+     myrskytä+V+Act+Ind+Prt+Pl1: [myrskysimmä, myrskysimä]
+     myrskytä+V+Act+Ind+Prt+Pl2: myrskysittä
+     myrskytä+V+Act+Ind+Prt+Pl3: [myrskysit, myrskysivä, myrskythiin]
+     myrskytä+V+Pass+Ind+Prt: myrskythiin
+     myrskytä+V+Act+Cond+Sg1: myrskyäisin
+     myrskytä+V+Act+Cond+Sg2: myrskyäisit
+     myrskytä+V+Act+Cond+Sg3: myrskyäis
+     myrskytä+V+Act+Cond+Pl1: [myrskyäisimmä, myrskyäisimä]
+     myrskytä+V+Act+Cond+Pl2: myrskyäisittä
+     myrskytä+V+Act+Cond+Pl3: [myrskyäisit, myrskyäisivä]
+     myrskytä+V+InfE+Ine: myrskytessä
+     myrskytä+V+InfE+Ins: myrskyten
+     myrskytä+V+InfMa+Ill: [myrskyähmään, myrskyämhään]
+     myrskytä+V+InfMa+Ine: myrskyämässä
+     myrskytä+V+InfMa+Ela: myrskyämästä
+     myrskytä+V+InfMa+Ade: myrskyämällä
+     myrskytä+V+InfMa+Abe: myrskyämättä
+     myrskytä+V+Act+PrsPrc+Sg+Nom: myrskyävä
+     myrskytä+V+Act+PrsPrc+Pl+Nom: myrskyävät
+     myrskytä+V+Pass+PrsPrc+Sg+Nom: myrskyttävä
+     myrskytä+V+Pass+PrsPrc+Pl+Nom: myrskyttävät
+     myrskytä+V+Act+PrfPrc+Sg+Nom: myrskyny
+     myrskytä+V+Act+PrfPrc+Pl+Nom: [myrskyhneet, myrskynheet]
+     myrskytä+V+Pass+PrfPrc+Sg+Nom: myrskytty
+     myrskytä+V+Pass+PrfPrc+Pl+Nom: myrskytyt
+     myrskytä+V+Pass+Cond: [myrskyttäis, myrskyttäs]
+
+     #Verb 'haluta' - # meaning '' - '' - GOLD
+     haluta+V+Inf: haluta
+     haluta+V+Act+Ind+Prs+Sg1: haluan
+     haluta+V+Act+Ind+Prs+Sg2: haluat
+     haluta+V+Act+Ind+Prs+Sg3: haluaa
+     haluta+V+Act+Ind+Prs+Pl1: [haluama, haluamma]
+     haluta+V+Act+Ind+Prs+Pl2: haluatta
+     haluta+V+Act+Ind+Prs+Pl3: haluava
+     haluta+V+Pass+Ind+Prs: haluthaan
+     haluta+V+Act+Ind+Prs+ConNeg: halua
+     haluta+V+Act+Ind+Prt+Sg1: halusin
+     haluta+V+Act+Ind+Prt+Sg2: halusit
+     haluta+V+Act+Ind+Prt+Sg3: [halus, halusi]
+     haluta+V+Act+Ind+Prt+Pl1: [halusima, halusimma]
+     haluta+V+Act+Ind+Prt+Pl2: halusitta
+     haluta+V+Act+Ind+Prt+Pl3: [halusit, halusiva, haluthiin]
+     haluta+V+Pass+Ind+Prt: haluthiin
+     haluta+V+Act+Cond+Sg1: haluaisin
+     haluta+V+Act+Cond+Sg2: haluaisit
+     haluta+V+Act+Cond+Sg3: haluais
+     haluta+V+Act+Cond+Pl1: [haluaisima, haluaisimma]
+     haluta+V+Act+Cond+Pl2: haluaisitta
+     haluta+V+Act+Cond+Pl3: [haluaisit, haluaisiva]
+     haluta+V+InfE+Ine: halutessa
+     haluta+V+InfE+Ins: haluten
+     haluta+V+InfMa+Ill: [haluahmaan, haluamhaan]
+     haluta+V+InfMa+Ine: haluamassa
+     haluta+V+InfMa+Ela: haluamasta
+     haluta+V+InfMa+Ade: haluamalla
+     haluta+V+InfMa+Abe: haluamatta
+     haluta+V+Act+PrsPrc+Sg+Nom: haluava
+     haluta+V+Act+PrsPrc+Pl+Nom: haluavat
+     haluta+V+Pass+PrsPrc+Sg+Nom: haluttava
+     haluta+V+Pass+PrsPrc+Pl+Nom: haluttavat
+     haluta+V+Act+PrfPrc+Sg+Nom: halunu
+     haluta+V+Act+PrfPrc+Pl+Nom: [haluhneet, halunheet]
+     haluta+V+Pass+PrfPrc+Sg+Nom: haluttu
+     haluta+V+Pass+PrfPrc+Pl+Nom: halutut
+     haluta+V+Pass+Cond: [haluttais, haluttas]
