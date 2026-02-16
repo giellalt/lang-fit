@@ -145,6 +145,7 @@ maksaa:maksa v1 ;
 jaataa:jaata v1 ;
 kaataa:kaata v1 ;
 raataa:raata v1 ;
+pölkää:pölkä v1 ; !GEO CHECK
 paahtaa:paahta v1_var ;
 kahahtaa:kahahta v1_odd ;
 kiehahtaa:kiehahta v1_odd ;
@@ -432,6 +433,7 @@ viekastaa:viekasta v1_odd ;
 pakkastaa:pakkasta v1_odd ;
 nulkastaa:nulkasta v1_odd ;
 tarkastaa:tarkasta v1_odd ;
+tarkistaa:tarkista v1_odd ;
 kirkastaa:kirkasta v1_odd ;
 kalastaa:kalasta v1_odd ;
 kielastaa:kielasta v1_odd ;
