@@ -13,6 +13,7 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 # v2_ata, v2_ata_odd, v2_uta 
+#arvata, planeerata, hävetä, leipota, myrskytä, hävetä
 
 
 
@@ -260,3 +261,44 @@ Tests:
      haluta+V+Pass+PrfPrc+Sg+Nom: haluttu
      haluta+V+Pass+PrfPrc+Pl+Nom: halutut
      haluta+V+Pass+Cond: [haluttais, haluttas]
+
+
+     #Verb 'kohata' - # meaning '' - '' v2_ata_odd - GOLD
+     kohata+V+Inf: kohata
+     kohata+V+Act+Ind+Prs+Sg1: kohtaan
+     kohata+V+Act+Ind+Prs+Sg2: kohtaat
+     kohata+V+Act+Ind+Prs+Sg3: kohtaa
+     kohata+V+Act+Ind+Prs+Pl1: kohtaama
+     kohata+V+Act+Ind+Prs+Pl2: kohtaatta
+     kohata+V+Act+Ind+Prs+Pl3: kohtaava
+     kohata+V+Pass+Ind+Prs: kohathaan
+     kohata+V+Act+Ind+Prs+ConNeg: kohtaa
+     kohata+V+Act+Ind+Prt+Sg1: [kohasin, kohtasin]
+     kohata+V+Act+Ind+Prt+Sg2: [kohasit, kohtasit]
+     kohata+V+Act+Ind+Prt+Sg3: [kohas, kohasi, kohtas, kohtasi]
+     kohata+V+Act+Ind+Prt+Pl1: [kohasimma, kohasima, kohtasima, kohtasimma]
+     kohata+V+Act+Ind+Prt+Pl2: [kohasitta, kohtasitta]
+     kohata+V+Act+Ind+Prt+Pl3: [kohasit, kohasiva, kohasivva, kohathiin, kohtasit, kohtasiva, kohtasivva]
+     kohata+V+Pass+Ind+Prt: kohathiin
+     kohata+V+Act+Cond+Sg1: [kohaisin, kohtaisin]
+     kohata+V+Act+Cond+Sg2: [kohaisit, kohtaisit]
+     kohata+V+Act+Cond+Sg3: [kohais, kohtais]
+     kohata+V+Act+Cond+Pl1: [kohaisimma, kohtaisimma, kohtaisima, kohaisima]
+     kohata+V+Act+Cond+Pl2: [kohaisitta, kohtaisitta]
+     kohata+V+Act+Cond+Pl3: [kohaisit, kohaisiva, kohtaisit, kohtaisiva]
+     kohata+V+InfE+Ine: kohatessa
+     kohata+V+InfE+Ins: kohaten
+     kohata+V+InfMa+Ill: [kohtaahmaan, kohtaamhaan]
+     kohata+V+InfMa+Ine: kohtaamassa
+     kohata+V+InfMa+Ela: kohtaamasta
+     kohata+V+InfMa+Ade: kohtaamalla
+     kohata+V+InfMa+Abe: kohtaamatta
+     kohata+V+Act+PrsPrc+Sg+Nom: kohtaava
+     kohata+V+Act+PrsPrc+Pl+Nom: kohtaavat
+     kohata+V+Pass+PrsPrc+Sg+Nom: [kohattava, kohattavva]
+     kohata+V+Pass+PrsPrc+Pl+Nom: kohattavat
+     kohata+V+Act+PrfPrc+Sg+Nom: kohanu
+     kohata+V+Act+PrfPrc+Pl+Nom: [kohahneet, kohanheet]
+     kohata+V+Pass+PrfPrc+Sg+Nom: kohattu
+     kohata+V+Pass+PrfPrc+Pl+Nom: kohatut
+     kohata+V+Pass+Cond: [kohattais, kohattas]
