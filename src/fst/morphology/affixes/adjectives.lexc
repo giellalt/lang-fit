@@ -76,12 +76,15 @@ LEXICON a_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
 +A+Comp:pare 3comp ; 
++A+Comp+Pl+Gen:parempien K ;
 !!+A+Superl:para 3sup ; 
 +A+Superl+Sg+Nom:paras K ; 
 +A+Superl+Sg+Gen:par%>haan K ;
++A+Superl+Sg+Gen:par%>hhaan K ; !CHECK more of this type?
 +A+Superl+Sg+Gen+Err/Orth:par%>hain K ; !EK?
 +A+Superl+Sg+Par:par%>asta K ;
 +A+Superl+Sg+Ill:par%>haasheen K ;
++A+Superl+Sg+Ill:par%>hhaasheen K ;
 +A+Superl+Sg+Ine:par%>haassa K ;
 +A+Superl+Sg+Ela:par%>haasta K ;
 +A+Superl+Sg+Abl:par%>haalta K ;
