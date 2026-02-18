@@ -149,3 +149,71 @@ Tests:
     kova+A+Superl+Pl+Abl: [kovimilta, kovviimilta]
     kova+A+Superl+Pl+Ess: [kovimpinna, kovviimpinna]
     kova+A+Superl+Pl+Tra: [kovimiksi, kovviimiksi]
+
+  Adj - hyvä: #  -  GOLD (men behöver utredas vidare) 
+    hyvä+A+Sg+Nom: hyvä
+    hyvä+A+Sg+Gen: hyvän
+    hyvä+A+Sg+Par: hyvvää
+    hyvä+A+Sg+Ill: hyvhään
+    hyvä+A+Sg+Ine: hyvässä
+    hyvä+A+Sg+Ela: hyvästä
+    hyvä+A+Sg+All: hyväle
+    hyvä+A+Sg+Ade: hyvälä
+    hyvä+A+Sg+Abl: hyvältä
+    hyvä+A+Sg+Ess: hyvänä
+    hyvä+A+Sg+Tra: hyväksi
+    hyvä+A+Pl+Nom: hyvät
+    hyvä+A+Pl+Gen: [hyvitten, hyvien]
+    hyvä+A+Pl+Par: hyviä
+    hyvä+A+Pl+Ill: hyvhiin
+    hyvä+A+Pl+Ine: hyvissä
+    hyvä+A+Pl+Ela: hyvistä
+    hyvä+A+Pl+All: hyvile
+    hyvä+A+Pl+Ade: hyvilä
+    hyvä+A+Pl+Abl: hyviltä
+    hyvä+A+Pl+Ess: hyvinä
+    hyvä+A+Pl+Tra: hyviksi
+    hyvä+A+Comp+Sg+Nom: parempi
+    hyvä+A+Comp+Sg+Gen: pareman
+    hyvä+A+Comp+Sg+Par: parempaa
+    hyvä+A+Comp+Sg+Ill: paremphaan
+    hyvä+A+Comp+Sg+Ine: paremassa
+    hyvä+A+Comp+Sg+Ela: paremasta
+    hyvä+A+Comp+Sg+All: paremalle
+    hyvä+A+Comp+Sg+Ade: paremalla
+    hyvä+A+Comp+Sg+Abl: paremalta
+    hyvä+A+Comp+Sg+Ess: parempanna
+    hyvä+A+Comp+Sg+Tra: paremaksi
+    hyvä+A+Comp+Pl+Nom: paremat
+    hyvä+A+Comp+Pl+Gen: [paremitten, parempien]
+    hyvä+A+Comp+Pl+Par: parempia
+    hyvä+A+Comp+Pl+Ill: paremphiin
+    hyvä+A+Comp+Pl+Ine: paremissa
+    hyvä+A+Comp+Pl+Ela: paremista
+    hyvä+A+Comp+Pl+All: paremille
+    hyvä+A+Comp+Pl+Ade: paremilla
+    hyvä+A+Comp+Pl+Abl: paremilta
+    hyvä+A+Comp+Pl+Ess: parempinna
+    hyvä+A+Comp+Pl+Tra: paremiksi
+    hyvä+A+Superl+Sg+Nom: paras
+    hyvä+A+Superl+Sg+Gen: [parhaan, parhhaan]
+    hyvä+A+Superl+Sg+Par: parasta
+    hyvä+A+Superl+Sg+Ill: [parhaasheen, parhhaasheen]      
+    hyvä+A+Superl+Sg+Ine: parhaassa
+    hyvä+A+Superl+Sg+Ela: parhaasta
+    hyvä+A+Superl+Sg+All: parhaale
+    hyvä+A+Superl+Sg+Ade: parhaala
+    hyvä+A+Superl+Sg+Abl: parhaalta
+    hyvä+A+Superl+Sg+Ess: parhaana
+    hyvä+A+Superl+Sg+Tra: parhaaksi
+    hyvä+A+Superl+Pl+Nom: parhaat
+    hyvä+A+Superl+Pl+Gen: parhaitten
+    hyvä+A+Superl+Pl+Par: parhaita
+    hyvä+A+Superl+Pl+Ill: parhaishiin
+    hyvä+A+Superl+Pl+Ine: parhaissa
+    hyvä+A+Superl+Pl+Ela: parhaista
+    hyvä+A+Superl+Pl+All: parhaile
+    hyvä+A+Superl+Pl+Ade: parhaila
+    hyvä+A+Superl+Pl+Abl: parhailta
+    hyvä+A+Superl+Pl+Ess: parhaina
+    hyvä+A+Superl+Pl+Tra: parhaiksi

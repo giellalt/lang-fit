@@ -75,6 +75,7 @@ a1 ;
 LEXICON a_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
++A+Pl+Gen:hyvien K ;
 +A+Comp:pare 3comp ; 
 +A+Comp+Pl+Gen:parempien K ;
 !!+A+Superl:para 3sup ; 
