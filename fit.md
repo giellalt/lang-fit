@@ -1084,7 +1084,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a1_e** vanha, which has Err/Orth vanhee-, otherwise like a1
 
-**LEXICON a_hyva** for hyvä
+**LEXICON a1_hyva** for hyvä
+
+**LEXICON a1_pitka** for pitkä:pit
 
 **LEXICON a_vasen** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 
