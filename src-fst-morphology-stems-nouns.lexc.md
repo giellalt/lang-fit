@@ -14,6 +14,7 @@ This is an overview of the continuation lexicon types.
 ### Vowel stems
 * n0 = 1syll nouns: maa, suu, tie
 * n1 = 2syll ordinary nouns: talo
+* n1_jen = for the bisyallbic, pointing to sg, pl PLUS plural genitive ending -jen
 * n_e = e-nouns; liike, säe, including odd-syll: karpale > karpalheila (not -lla after 2 vow)
 * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
