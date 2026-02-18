@@ -72,7 +72,7 @@ a1 ;
 +A+Comp+Pl+Ill+Err/Orth:%^AEe%>mphiin K ;
 +A+Comp+Pl+Ade+Err/Orth:%^AEe%>milla K ;
 
-LEXICON a_hyva
+LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
 +A+Pl+Gen:hyvien K ;
@@ -104,6 +104,39 @@ LEXICON a_hyva
 +A+Superl+Pl+Ade:par%>haila K ;
 +A+Superl+Pl+Abl:par%>hailta K ;
 +A+Superl+Pl+Ess:par%>haina K ;
+
+LEXICON a1_pitka
+!! **LEXICON @LEXNAME@** for pitkä:pit
++A:tkä x1 ; 
++A+Pl+Gen:tkien K ;
++A+Comp:te 3comp ; 
++A+Comp+Pl+Ess:tempinä K ;
++A+Superl+Sg+Nom:sin K ; 
++A+Superl+Sg+Gen:simän K ;
++A+Superl+Sg+Par:sim%>ästä K ;
++A+Superl+Sg+Ill:sim%>heen K ;
++A+Superl+Sg+Ine:simässä K ;
++A+Superl+Sg+Ela:simästä K ;
++A+Superl+Sg+Abl:simältä K ;
++A+Superl+Sg+All:simälle K ;
++A+Superl+Sg+Ade:simällä K ;
++A+Superl+Sg+Ess:simpännä K ;
++A+Superl+Sg+Tra:simäksi K ;
++A+Superl+Pl+Nom:sim%>ät K ;
++A+Superl+Pl+Nom:ssiim%>ät K ;
++A+Superl+Pl+Nom:ssiimm%>ät K ;
++A+Superl+Pl+Gen:simpien K ;
++A+Superl+Pl+Gen:siimpien K ;
++A+Superl+Pl+Par:simpiä K ;
++A+Superl+Pl+Par:ssiimpiä K ;
++A+Superl+Pl+Tra:simiksi K ;
++A+Superl+Pl+Ill:simphiin K ;
++A+Superl+Pl+Ine:simpissä K ;
++A+Superl+Pl+Ela:simpistä K ;
++A+Superl+Pl+All:simhille K ;
++A+Superl+Pl+Ade:simpillä K ;
++A+Superl+Pl+Abl:simpiltä K ;
++A+Superl+Pl+Ess:simpinnä K ;
 
 LEXICON a_vasen
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.

@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tieto: # 7 x contlex sg par -- kontrollerad av Elina
+    tieto+N+Sg+Nom: tieto
+    tieto+N+Sg+Gen: tion
+    tieto+N+Sg+Par: tietoa
+    tieto+N+Sg+Tra: tioksi
+    tieto+N+Sg+Abe: tiotta
+    tieto+N+Sg+Ine: tiossa
+    tieto+N+Sg+Ela: tiosta
+    tieto+N+Sg+Ill: tiethoon
+    tieto+N+Sg+Ade: tiola
+    tieto+N+Sg+Abl: tiolta
+    tieto+N+Sg+All: tiole
+    tieto+N+Sg+Ess: tietona
+    tieto+N+Pl+Nom: tiot
+    tieto+N+Pl+Gen: [tioitten, tietojen]
+    tieto+N+Pl+Par: tietoja
+    tieto+N+Pl+Tra: tioiksi
+    tieto+N+Pl+Abe: tioitta
+    tieto+N+Pl+Ine: tioissa
+    tieto+N+Pl+Ela: tioista
+    tieto+N+Pl+Ill: tiethoin
+    tieto+N+Pl+Ade: tioila
+    tieto+N+Pl+Abl: tioilta
+    tieto+N+Pl+All: tioile
+    tieto+N+Pl+Ess: tietoina
