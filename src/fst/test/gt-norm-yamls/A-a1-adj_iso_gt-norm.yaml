@@ -217,3 +217,72 @@ Tests:
     hyvä+A+Superl+Pl+Abl: parhailta
     hyvä+A+Superl+Pl+Ess: parhaina
     hyvä+A+Superl+Pl+Tra: parhaiksi
+
+  Adj pitkä: #  sg ade --  kontrollerad av Elina 
+    pitkä+A+Sg+Nom: pitkä
+    pitkä+A+Sg+Gen: pitkän
+    pitkä+A+Sg+Par: pitkää
+    pitkä+A+Sg+Ill: pitkhään
+    pitkä+A+Sg+Ine: pitkässä
+    pitkä+A+Sg+Ela: pitkästä
+    pitkä+A+Sg+All: pitkäle
+    pitkä+A+Sg+Ade: pitkälä
+    pitkä+A+Sg+Abl: pitkältä
+    pitkä+A+Sg+Ess: pitkänä
+    pitkä+A+Sg+Tra: pitkäksi
+    pitkä+A+Pl+Nom: pitkät
+    pitkä+A+Pl+Gen: [pitkitten, pitkien]
+    pitkä+A+Pl+Par: pitkiä
+    pitkä+A+Pl+Ill: pitkhiin
+    pitkä+A+Pl+Ine: pitkissä
+    pitkä+A+Pl+Ela: pitkistä
+    pitkä+A+Pl+All: pitkile
+    pitkä+A+Pl+Ade: pitkilä
+    pitkä+A+Pl+Abl: pitkiltä
+    pitkä+A+Pl+Ess: pitkinä
+    pitkä+A+Pl+Tra: pitkiksi
+    pitkä+A+Comp+Sg+Nom: pitempi
+    pitkä+A+Comp+Sg+Gen: pitemän
+    pitkä+A+Comp+Sg+Par: pitempää
+    pitkä+A+Comp+Sg+Ill: pitemphään
+    pitkä+A+Comp+Sg+Ine: pitemässä
+    pitkä+A+Comp+Sg+Ela: pitemästä
+    pitkä+A+Comp+Sg+All: pitemälle
+    pitkä+A+Comp+Sg+Ade: pitemällä
+    pitkä+A+Comp+Sg+Abl: pitemältä
+    pitkä+A+Comp+Sg+Ess: [pitempännä, pitempänä]
+    pitkä+A+Comp+Sg+Tra: pitemäksi
+    pitkä+A+Comp+Pl+Nom: pitemät
+    pitkä+A+Comp+Pl+Gen: [pitemitten, pitempien]
+    pitkä+A+Comp+Pl+Par: pitempiä
+    pitkä+A+Comp+Pl+Ill: pitemphiin
+    pitkä+A+Comp+Pl+Ine: pitemissä
+    pitkä+A+Comp+Pl+Ela: pitemistä
+    pitkä+A+Comp+Pl+All: pitemille
+    pitkä+A+Comp+Pl+Ade: pitemillä
+    pitkä+A+Comp+Pl+Abl: pitemiltä
+    pitkä+A+Comp+Pl+Ess: pitempinnä
+    pitkä+A+Comp+Pl+Ess: [pitempinä, pitempinnä]
+    pitkä+A+Comp+Pl+Tra: pitemiksi
+    pitkä+A+Superl+Sg+Nom: [pisin, pissiin]
+    pitkä+A+Superl+Sg+Gen: [pisimän, pissiimän]
+    pitkä+A+Superl+Sg+Par: [pisimästä, pissiimästä]
+    pitkä+A+Superl+Sg+Ill: [pisimphään, pissiimphään]
+    pitkä+A+Superl+Sg+Ine: [pisimässä, pissiimässä]
+    pitkä+A+Superl+Sg+Ela: [pisimästä, pissiimästä]
+    pitkä+A+Superl+Sg+All: [pisimälle, pissiimälle]
+    pitkä+A+Superl+Sg+Ade: [pisimällä, pissiimällä]
+    pitkä+A+Superl+Sg+Abl: [pisimältä, pissiimältä]
+    pitkä+A+Superl+Sg+Ess: [pisimpännä, pisimpänä, pissiimpänä, pissiimpännä]
+    pitkä+A+Superl+Sg+Tra: [pisimäksi, pissiimäksi]
+    pitkä+A+Superl+Pl+Nom: [pisimät, pissiimät]
+    pitkä+A+Superl+Pl+Gen: [pisimpien, pissiimpien, pisimitten, pissiimitten]
+    pitkä+A+Superl+Pl+Par: [pisimpiä, pissiimpiä]
+    pitkä+A+Superl+Pl+Ill: [pisimphiin, pissiimphiin]
+    pitkä+A+Superl+Pl+Ine: [pisimissä, pissiimissä]
+    pitkä+A+Superl+Pl+Ela: [pisimistä, pissiimistä]
+    pitkä+A+Superl+Pl+All: [pisimille, pissiimille]
+    pitkä+A+Superl+Pl+Ade: [pisimillä, pissiimillä]
+    pitkä+A+Superl+Pl+Abl: [pisimiltä, pissiimiltä]
+    pitkä+A+Superl+Pl+Ess: [pisimpinnä, pisimpinä, pissiimpinnä, pissiimpinä]
+    pitkä+A+Superl+Pl+Tra: [pisimiksi, pissiimiksi]
