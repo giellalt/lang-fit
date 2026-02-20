@@ -244,7 +244,7 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t4:0"
 !! **RULE: @RULENAME@** where *t4* is *t* in *rt* that shall not become *rr* 
-t4:0 <=> Vow:+ [l|n|r] _ [Vow: - ä:0] WeakGrade ;
+t4:0 <=> Vow:+ [l|n|r] _ [Vow: - ä:0] (%^IDEL:0 %> :e) WeakGrade ;
          Vow   t       _ Vow:  [%^HMETA: |%^HMET2:] ;
 
 "t4:s"
