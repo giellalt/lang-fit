@@ -454,7 +454,7 @@ eri:eri ax ;
 nuori:nuor a5_moni ;
 hauri:hauri ax ;
 suuri:suur a_suuri ;
-jättiläissuuri:jättiläissuuri ax ;
+jättiläissuuri:jättiläis#suur a_suuri ;
 söötsyyri:söötsyyri ax ;
 preliminääri:preliminääri ax ;
 ensi:ensi ax ;

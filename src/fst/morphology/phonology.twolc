@@ -647,7 +647,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
 ä:0 <=>   Cns:* Vow:+ Cns:+ _ (WeakGrade) (%^IDEL:) %> [i2:|i3:|i8:|j] ; ! before i
                             _ [%^HMETA:|%^HMET2:]            ; ! before metathesis h
         ä                   _                       %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
-                            _                       %> i5: ; !selvä>selvimpiin ; adj superlativ
+                            _                       %> [i5: |i9:] ; !selvä>selvimpiin ; adj superlativ
 
 !! **Tests:**
 

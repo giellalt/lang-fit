@@ -2213,6 +2213,7 @@ vuolla:vuol v4_4lla ;
 !tulla:tul v4_4lla ;
 luulla:luul v4_4lla ;
 tuulla:tuul v4_4lla ;
+kuulla:kuul v4_4lla ; !CHECK Err/Orth?
 yytmoola:yytmool v4_3la ;
 kuola:kuol v4_3la ;
 nuola:nuol v4_3la ;

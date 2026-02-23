@@ -219,7 +219,7 @@ LEXICON a3
 +A+Pl+Nom:^WG%> t_PxK ;
 +A+Pl+Gen:%>i9tte n_PxK ; 
 +A+Pl+Gen:%>i9e n_PxK ;
-+A+Pl+Par:%>i9^A PxK ; 
++A+Pl+Par:%>i9t^A PxK ; 
 +A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
 +A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
 +A+Pl+Ine:^WG%>i9ss^A PxK ;
@@ -320,7 +320,8 @@ LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
 +A:e x5_sg ; !!≈ * @CODE@
 +A:e x5_pl ; 
-+A+Sg+Nom:i  PxK ; ! suuri
++A+Pl+Gen:%>ten K ;
++A+Sg+Nom:i  PxK ; ! suurten
 !+A+Pl+Ill:^E2I%>in      PxK ; ! 
 +A+Comp:e 3comp ; 
 +A+Comp+Pl+Gen:e%>mpien K ;
