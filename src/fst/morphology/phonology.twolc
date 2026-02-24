@@ -663,7 +663,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
 !! **RULE: @RULENAME@** deletes *-e-* in LNR stems as well as before -i-
 e:0 <=>                                                   _ (WeakGrade) h %> e ; ! säkheen del before h in e stems
                                                           _ [%^HMETA: | %^HMET2:] ; 
-                                                          _ (ä:0) [%^HMETA: | %^HMET2:] %> h: %^V: i9: ; !TEST 24/2
+                                                          _ (ä:0) [%^HMETA: | %^HMET2:] %> h: %^V: i2: ; !TEST 24/2
                          [.#.|#:] Cns:* Vow:+ [h|l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
                            [.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
@@ -853,7 +853,7 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:e <=> e: [%^HMETA: | %^HMET2:] %> (h:)    _ [:e|:i] ;
-          e: (ä:0) [%^HMETA: | %^HMET2:] %> h: _ i9: ; !TEST 24/2
+          e: (ä:0) [%^HMETA: | %^HMET2:] %> h: _ i2: ; !TEST 24/2
           e: (ä:0) [%^HMETA: | %^HMET2:] %> (h:) :e _    ;
           e         %>  (h)     _ [n|t|s|l|%>|.#.] ;
 
