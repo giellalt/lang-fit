@@ -222,6 +222,8 @@ LEXICON a3
 +A+Pl+Par:%>i9t^A PxK ; 
 +A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
 +A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
++A+Pl+Ill:^HMETA%>h^Vi2shii n_PxK ; !Test 24/2
+!+A+Pl+Ill:^HMETA%>hi2shii n_PxK ;
 +A+Pl+Ine:^WG%>i9ss^A PxK ;
 +A+Pl+Ela:^WG%>i9st^A PxK ;
 +A+Pl+All:^WG%>i9lle PxK ; 
