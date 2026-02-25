@@ -73,7 +73,7 @@ loppiainen:loppiai nen ;
 lantalainen:lantalai nen ;
 jauhot:jauho n1_pl ;
 airo:airo n1 ;
-sanatuuria:sana#tuuria n3 ;
+sanatuuria:sanatuuria n3 ;
 kuninkas:kunink2a nas ; ! ng/nk
 kalakuninkas:kalakunink2a nas ;
 talonvanhaa+Err/Orth:talov#vanhaa n1 ;
@@ -7089,7 +7089,7 @@ kalkkipruuki:kalkki#pruuki nx ;
 maanpruuki:maan#pruuki nx ;
 tervanpruuki:tervan#pruuki nx ;
 tuuki:tuuki nx ;
-hantuuki:hantuuki nx ;
+hantuuki:hantuuki n5_troppi_odd ;
 nuoruahantuuki:nuorua#hantuuki nx ;
 pellavahantuuki:pellava#hantuuki nx ;
 färihantuuki:färi#hantuuki nx ;
