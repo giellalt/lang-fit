@@ -314,7 +314,7 @@ LEXICON aas
 +A: xnas ; 
 +A+Sg+Nom:^WGs R ; !needed?
 +A+Sg+Gen:%>^Vn R ; !needed?
-+A+Comp:^HMETA%>hÂ5i5 3comp ;
++A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ;
 +A+Superl:e 3sup ; 
 

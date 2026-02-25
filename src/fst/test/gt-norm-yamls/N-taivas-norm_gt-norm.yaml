@@ -1,0 +1,67 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - taivas: # GOLD
+    taivas+N+Sg+Nom: taivas
+    taivas+N+Sg+Gen: [taihvaan, taivhaan]
+    taivas+N+Sg+Par: taivasta
+    taivas+N+Sg+Tra: [taihvaaksi, taivhaaksi]
+    taivas+N+Sg+Abe: [taihvaatta, taivhaatta]
+    taivas+N+Sg+Ine: [taihvaassa, taivhaassa]
+    taivas+N+Sg+Ela: [taihvaasta, taivhaasta]
+    taivas+N+Sg+Ill: [taihvaasheen, taivhaasheen]
+    taivas+N+Sg+Ade: [taihvaala, taivhaala]
+    taivas+N+Sg+Abl: [taihvaalta, taivhaalta]
+    taivas+N+Sg+All: [taihvaale, taivhaale]
+    taivas+N+Sg+Ess: [taihvaana, taivhaana]
+    taivas+N+Pl+Nom: taivhaat
+    taivas+N+Pl+Gen: [taihvaitten, taivhaitten]
+    taivas+N+Pl+Par: [taihvaita, taivhaita]
+    taivas+N+Pl+Tra: [taihvaiksi, taivhaiksi]
+    taivas+N+Pl+Abe: [taihvaitta, taivhaitta]
+    taivas+N+Pl+Ine: [taihvaissa, taivhaissa]
+    taivas+N+Pl+Ela: [taihvaista, taivhaista]
+    taivas+N+Pl+Ill: [taihvain, taivhain]
+    taivas+N+Pl+Ade: [taihvaila, taivhaila]
+    taivas+N+Pl+Abl: [taihvailta, taivhailta]
+    taivas+N+Pl+All: [taihvaile, taivhaile]
+    taivas+N+Pl+Ess: [taihvaina, taivhaina]
+
+Noun - tehas: # GOLD
+    tehas+N+Sg+Nom: tehas
+    tehas+N+Sg+Gen: tehthaan
+    tehas+N+Sg+Par: tehasta
+    tehas+N+Sg+Tra: tehthaaksi
+    tehas+N+Sg+Abe: tehthaatta
+    tehas+N+Sg+Ine: tehthaassa
+    tehas+N+Sg+Ela: tehthaasta
+    tehas+N+Sg+Ill: tehthaasheen
+    tehas+N+Sg+Ade: tehthaala
+    tehas+N+Sg+Abl: tehthaalta
+    tehas+N+Sg+All: tehthaale
+    tehas+N+Sg+Ess: tehthaana
+    tehas+N+Pl+Nom: tehthaat
+    tehas+N+Pl+Gen: tehthaitten
+    tehas+N+Pl+Par: tehthaita
+    tehas+N+Pl+Tra: tehthaiksi
+    tehas+N+Pl+Abe: tehthaitta
+    tehas+N+Pl+Ine: tehthaissa
+    tehas+N+Pl+Ela: tehthaista
+    tehas+N+Pl+Ill: tehthain
+    tehas+N+Pl+Ade: tehthaila
+    tehas+N+Pl+Abl: tehthailta
+    tehas+N+Pl+All: tehthaile
+    tehas+N+Pl+Ess: tehthaina
