@@ -1106,6 +1106,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON aas**  has no comparative or superlative , just points to xnas
 
+**LEXICON a_s** new subgroup for hias:hita etc !TBC!
+
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
 * +A:e x5_sg ;
 
