@@ -633,7 +633,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
         [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:|%^A2O:) %> i2: ; !3-syll with lnr
         (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
         (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
-        [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i:    Cns:+ (Cns:) _ (%^WG:|%^A2O:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
+        [.#.|#] ((Cns) Vow:+) (Cns) Vow:+  Cns:+ (Vow:) i:    Cns:* _ (%^WG:|%^A2O:) %> [i2:|j]; !; (flerstaviga) a>o after i !alkeija, taiteilija
         ![.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
 
 !! **Tests:**

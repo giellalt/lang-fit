@@ -302,8 +302,15 @@ LEXICON a5_auki
  +A+Sg+Par:e%>^A      PxK ; ! aukea
 
 LEXICON anen
-!! **LEXICON @LEXNAME@**   has no comparative or superlative , just points to xnen
+!! **LEXICON @LEXNAME@** for even-stem-nen-adjectives, points to xnen  
 +A: xnen ; !!≈ * @CODE@ #TODO: komparera!
++A+Comp+Sg+Nom:%>sempi PxK ;
++A+Comp:se 3comp ; !CHECK!
++A+Superl:s 3sup ; !CHECK! 
+
+LEXICON anen_odd 
+!! **LEXICON @LEXNAME@** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
++A: x3nen ; !!≈ * @CODE@ #TODO: komparera!
 +A+Comp+Sg+Nom:%>sempi PxK ;
 +A+Comp:se 3comp ; !CHECK!
 +A+Superl:s 3sup ; !CHECK! 

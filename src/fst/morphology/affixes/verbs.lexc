@@ -471,6 +471,7 @@ LEXICON v2_ata !!≈ * **@CODE@** masinata etc
 ! Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
 v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A K ; 
++V+Act+Ind+Prs+Pl3:%>^A K ; !variantform leekaava leekaa
 +V+InfMa+Ade:%>^Am^Al^A K ; 
 +V+InfMa+Ade:%>^Am^All^A K ; 
 +V+Act+Cond:%>i4s 2cond ;

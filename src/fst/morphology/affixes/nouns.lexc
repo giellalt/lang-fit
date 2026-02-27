@@ -209,7 +209,7 @@ LEXICON x1_pl
 LEXICON n_e
 !! **LEXICON @LEXNAME@**  vene, liike, säe
  +N: x_e ;
- +N+Nom: R ;
+ +N+Nom:^WG R ;
  +N+Gen:he%>en R ;
 
 LEXICON n_e_pl
@@ -274,7 +274,9 @@ LEXICON x_e_pl
 
 
 LEXICON n_vehke
-n_e ;
++N: x_e ;
++N+Nom: R ;
++N+Gen:he%>en R ;
 +N+Sg+Gen:%>e n_PxK ; 
 +N+Sg+Ill:%>eshee n_PxK ; !vehkeesheen
 +N+Sg+Ill:%>esee n_PxK ; !vehkeeseen

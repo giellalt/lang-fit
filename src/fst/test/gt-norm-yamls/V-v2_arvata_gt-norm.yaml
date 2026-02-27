@@ -302,3 +302,44 @@ Tests:
      kohata+V+Pass+PrfPrc+Sg+Nom: kohattu
      kohata+V+Pass+PrfPrc+Pl+Nom: kohatut
      kohata+V+Pass+Cond: [kohattais, kohattas]
+
+
+     #Verb 'leekata' - # meaning '' - '' v2_ata_odd - GOLD
+     leekata+V+Inf: leekata
+     leekata+V+Act+Ind+Prs+Sg1: leekaan
+     leekata+V+Act+Ind+Prs+Sg2: leekaat
+     leekata+V+Act+Ind+Prs+Sg3: leekaa
+     leekata+V+Act+Ind+Prs+Pl1: leekaama
+     leekata+V+Act+Ind+Prs+Pl2: leekaatta
+     leekata+V+Act+Ind+Prs+Pl3: [leekaava, leekaa]
+     leekata+V+Pass+Ind+Prs: leekathaan
+     leekata+V+Act+Ind+Prs+ConNeg: leekaa
+     leekata+V+Act+Ind+Prt+Sg1: leekasin
+     leekata+V+Act+Ind+Prt+Sg2: leekasit
+     leekata+V+Act+Ind+Prt+Sg3: [leekas, leekasi]
+     leekata+V+Act+Ind+Prt+Pl1: [leekasima, leekasimma]
+     leekata+V+Act+Ind+Prt+Pl2: leekasitta
+     leekata+V+Act+Ind+Prt+Pl3: [leekasit, leekasiva, leekasivva, leekathiin]
+     leekata+V+Pass+Ind+Prt: leekathiin
+     leekata+V+Act+Cond+Sg1: leekaisin
+     leekata+V+Act+Cond+Sg2: leekaisit
+     leekata+V+Act+Cond+Sg3: leekais
+     leekata+V+Act+Cond+Pl1: [leekaisima, leekaisimma]
+     leekata+V+Act+Cond+Pl2: leekaisitta
+     leekata+V+Act+Cond+Pl3: [leekaisit, leekaisiva]
+     leekata+V+InfE+Ine: leekatessa
+     leekata+V+InfE+Ins: leekaten
+     leekata+V+InfMa+Ill: [leekaahmaan, leekaamhaan]
+     leekata+V+InfMa+Ine: leekaamassa
+     leekata+V+InfMa+Ela: leekaamasta
+     leekata+V+InfMa+Ade: leekaamalla
+     leekata+V+InfMa+Abe: leekaamatta
+     leekata+V+Act+PrsPrc+Sg+Nom: leekaava
+     leekata+V+Act+PrsPrc+Pl+Nom: leekaavat
+     leekata+V+Pass+PrsPrc+Sg+Nom: [leekattava, leekattavva]
+     leekata+V+Pass+PrsPrc+Pl+Nom: leekattavat
+     leekata+V+Act+PrfPrc+Sg+Nom: leekanu
+     leekata+V+Act+PrfPrc+Pl+Nom: [leekahneet, leekanheet]
+     leekata+V+Pass+PrfPrc+Sg+Nom: leekattu
+     leekata+V+Pass+PrfPrc+Pl+Nom: leekatut
+     leekata+V+Pass+Cond: [leekattais, leekattas]
