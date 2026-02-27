@@ -143,7 +143,7 @@ LEXICON x0_pl
 LEXICON n1
 !! **LEXICON @LEXNAME@** for 2-syll ordinary nouns (*talo*)
  +N: x1 ;
- +N+Sg+Nom:       PxK ; !!≈ * @CODE@ Px separate
+ +N+Sg+Nom: PxK ; 
  +N+Nom: R ;
  +N+Sg+Gen:^WG%>n R ;
 
@@ -308,6 +308,8 @@ LEXICON n_vehke
 
 LEXICON n_et
 !!n_e ;
++N+Nom:t R ; !CHECK mars
++N+Gen:^WGn R ; !CHECK mars
 +N+Sg+Nom:%> t_PxK ; 
 +N+Sg+Gen:h%>ee n_PxK ; ! liikheen, säkheen, ainheen 
 +N+Sg+Gen:^HMET2%>hee n_PxK ; ! aihneen, liihkeen
@@ -334,6 +336,8 @@ LEXICON n_et
 
 LEXICON n_kevät
 !! **LEXICON @LEXNAME@** 
++N+Nom:t R ; !CHECK mars
++N+Gen:^WGn R ; !CHECK mars
 +N+Sg+Nom:%> t_PxK ; !v
 +N+Sg+Gen:^HMETAh%>ää n_PxK ; ! !v
 !!+N+Sg+Gen:^HMET2%>h^A^A n_PxK ; 
@@ -443,6 +447,8 @@ LEXICON x3_pl
 
  LEXICON n3_lma
  !! **LEXICON @LEXNAME@**
+ +N+Nom:a R ;
+ +N+Gen:a^WG%>n R ;
  +N:a x3_sg ;
  +N+Pl+Nom:a^WG%> t_PxK ;
  +N+Pl+Gen:%>i2tte n_PxK ;
@@ -574,6 +580,7 @@ n5_lumi ;
 LEXICON n5_vuosi
 !! **LEXICON @LEXNAME@** vuosi> vuoessa/vuessa, stem ELLER vu
  +N+Nom:osi R ;
+ +N+Gen:e%>n R ;
  +N:ote x5_kasi ;
  +N+Sg+Nom:osi       PxK ; ! vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
@@ -652,27 +659,13 @@ LEXICON n5_lapsi
 +N+Pl+Tra:psi TRA ;
 +N+Pl+Abe:ps%>itt^A PxK ;
 
-!LEXICON n5_ie
-!!! **LEXICON @LEXNAME@** for 2-syll ordinary nouns ending with -i; malmi, äiti, poiting to x5_i
-!x5_ie_sg ;
-!x5_ie_pl ;
-
-!LEXICON x5_ie_sg
-!+N: x1_sg ;
-!+N+Sg+Nom: PxK ; 
-!+N+Nom: R ;
-!+N+Sg+Gen:^WG%>n R ;
-
-!LEXICON x5_ie_pl 
-!+N: x5_i_pl ;
-!+N+Pl+Par:%>^A PxK ; !malmia, äitiä 
 
 LEXICON n5_ie_odd
 !! **LEXICON @LEXNAME@**
 !+N: x1_sg ;
 +N+Nom: R ;
-+N+Sg+Nom: PxK ; 
 +N+Sg+Gen:^WG%>n R ;
++N+Sg+Nom: PxK ; 
 +N+Sg+Gen:^WG%> n_PxK ; 
 +N+Sg+Par:%>^A PxK ; 
 +N+Sg+Ill:^HMETA%>h^V^V n_PxK ;  
@@ -737,13 +730,12 @@ LEXICON nen
 !! **LEXICON @LEXNAME@** bisyllabic nainen stem nai
 nen_sg ;
 nen_pl ;
++N+Nom:nen R ;
++N+Gen:s R ;
 
 LEXICON nen_sg
 !! **LEXICON @LEXNAME@**
 +N: xnen_sg ;
-!+N+Sg+Nom:s PxK ; #?
-!+N+Sg+Gen:s PxK ; #?
-+N+Sg+Gen:s R ;
 
 LEXICON nen_pl
 !! **LEXICON @LEXNAME@**
@@ -770,7 +762,8 @@ LEXICON xnen_pl
 LEXICON 3nen
 !! **LEXICON @LEXNAME@** odd-syllabic hevonen stem hevose
 +N: x3nen ;
-+N+Sg+Gen:s R ;
++N+Nom:nen R ;
++N+Gen:s R ;
 
 LEXICON x3nen
 !! **LEXICON @LEXNAME@**
