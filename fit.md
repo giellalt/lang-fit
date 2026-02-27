@@ -1249,7 +1249,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 **LEXICON x0_pl** for plural case forms
 
 **LEXICON n1** for 2-syll ordinary nouns (*talo*)
-* +N+Sg+Nom: PxK ; Px separate
 
 **LEXICON n1_pl** for the same plural words (*urut*)
 
