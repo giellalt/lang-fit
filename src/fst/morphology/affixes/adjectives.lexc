@@ -22,6 +22,8 @@ a1 ; ! ax
 LEXICON a1 
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A: x1 ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;  
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 +A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
@@ -42,6 +44,8 @@ a1 ;
 LEXICON a1_kova 
 !! **LEXICON @LEXNAME@** Like a1 but: 
 +A: x1 ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;  
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 +A+Comp:%^AE 3comp ; 
@@ -75,6 +79,8 @@ a1 ;
 LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;  
 +A+Pl+Gen:hyvien K ;
 +A+Comp:pare 3comp ; 
 +A+Comp+Pl+Gen:parempien K ;
@@ -108,6 +114,8 @@ LEXICON a1_hyva
 LEXICON a1_pitka
 !! **LEXICON @LEXNAME@** for pitkä:pit
 +A:tkä x1 ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;
 +A+Pl+Gen:tkien K ;
 +A+Comp:te 3comp ; 
 +A+Comp+Sg+Ess:tempänä K ;
@@ -169,7 +177,9 @@ LEXICON a1_pitka
 
 LEXICON a_vasen
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-+A+Sg+Nom:%>n       K ; 
++A+Sg+Nom:n R ; 
++A+Sg+Gen:%>m^An K ;  
++A+Sg+Nom:%>n K ; 
 +A+Sg+Gen:%>m^An K ; 
 +A+Sg+Par:%>nt^A K ; 
 +A+Sg+Ill:%>mph^A^An K ;  
@@ -214,7 +224,9 @@ LEXICON a_e
 
 LEXICON a3 
 !! **LEXICON @LEXNAME@** kamala gets +A and points to x3
-+A: x3_sg ;  !!≈ * @CODE@
++A+Sg+Nom:^E2I R ;
++A+Sg+Gen:^WG%>n R ;
++A: x3_sg ; 
 +A+Sg+Par+Err/Orth:%>t^A PxK ; !Kolla med Elina
 +A+Pl+Nom:^WG%> t_PxK ;
 +A+Pl+Gen:%>i9tte n_PxK ; 
@@ -319,8 +331,8 @@ LEXICON anen_odd
 LEXICON aas  
 !! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
 +A: xnas ; 
-+A+Sg+Nom:^WGs R ; !needed?
-+A+Sg+Gen:%>^Vn R ; !needed?
++A+Sg+Nom:^WGs R ; 
++A+Sg+Gen:%>^Vn R ; 
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ;
 +A+Superl:e 3sup ; 

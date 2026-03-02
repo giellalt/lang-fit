@@ -1083,6 +1083,8 @@ LEXICON nas_h_pl ! saaphaat !CHECK EK
 
 LEXICON 3mies
 !! **LEXICON @LEXNAME@**
+ +N+Sg+Nom:s R ;
+ +N+Sg+Gen:hen R ;
  +N+Sg+Nom:sh_PxK ;
  +N+Sg+Gen:he%> n_PxK ;
  +N+Sg+Par:s%>t^A PxK ;
@@ -1115,6 +1117,8 @@ LEXICON n_ien
 !! **LEXICON @LEXNAME@**
  n_ien_sg ;
  n_ien_pl ;
+ +N+Sg+Nom:^WGn R ;
+ +N+Sg+Gen:ne%>n R ;
 
 LEXICON n_ien_sg
 !! **LEXICON @LEXNAME@**
@@ -1250,6 +1254,7 @@ LEXICON 30n_lnr
 
 LEXICON TYÄR
 +N+Sg+Nom:tyär K ; 
++N+Sg+Nom:tyär R ; 
 +N+Sg+Par:tytärtä K ;
 +N+Sg+Par:tyärtä K ;
 +N+Pl+Gen:tyttäritten K ;
