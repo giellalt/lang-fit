@@ -79,8 +79,8 @@ a1 ;
 LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
-+A+Sg+Nom: R ; 
-+A+Sg+Gen:^WG%>n R ;  
++A+Sg+Nom:hyvä R ; 
++A+Sg+Gen:hyvän R ;  
 +A+Pl+Gen:hyvien K ;
 +A+Comp:pare 3comp ; 
 +A+Comp+Pl+Gen:parempien K ;
@@ -178,7 +178,7 @@ LEXICON a1_pitka
 LEXICON a_vasen
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A+Sg+Nom:n R ; 
-+A+Sg+Gen:%>m^An K ;  
++A+Sg+Gen:%>m^An R ;  
 +A+Sg+Nom:%>n K ; 
 +A+Sg+Gen:%>m^An K ; 
 +A+Sg+Par:%>nt^A K ; 
@@ -274,27 +274,33 @@ LEXICON a3
 
 
 LEXICON a4
-!! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
-+A: x4 ; !!≈ * @CODE@
- +A+Comp: 3comp ; !CHECK!
- +A+Superl: 3sup ; !CHECK! !TODO e-delete in nuorin etc (not nuorein)
+!! **LEXICON @LEXNAME@** 
++A: x4 ;
++A+Comp: 3comp ; !CHECK!
++A+Superl: 3sup ; !CHECK! !TODO e-delete in nuorin etc (not nuorein)
 
 LEXICON a5_moni
-! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+! **LEXICON @LEXNAME@** what is the difference from a4? moni:mon, nuori:nuor
+ +A+Nom:i R ;
+ +A+Sg+Gen:en R ;
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; ! s
  +A+Sg+Par:%>t^A      PxK ; 
  +A+Pl+Gen:ien PxK ; !monien
 
 LEXICON a5_uusi
-! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+! **LEXICON @LEXNAME@**  uusi:uu, täysi:täy etc
+ +A+Nom:si R ;
+ +A+Sg+Gen:en R ;
  :te a4 ; 
  +A+Sg+Nom:si       PxK ; ! s
  +A+Sg+Par:%>tt^A      PxK ; 
  +A+Pl+Gen:sien PxK ; !
 
- LEXICON a5_pieni
-! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+ LEXICON a5_pieni 
+! **LEXICON @LEXNAME@**  (only pieni:pien)
+ +A+Nom:i R ;
+ +A+Sg+Gen:en R ;
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; 
  +A+Sg+Par:%>t^A      PxK ; 
@@ -303,25 +309,31 @@ LEXICON a5_uusi
  +A+Comp+Pl+Gen:e%>mpi5en K ;
  !+A+Superl:i 3sup ;
  +A+Superl:i 3sup ; !variant pieniin, pieniimistä etc
- +A+Superl+Pl+Gen:i%>mpi5en K ;
- +A+Superl+Pl+Gen:ii%>mpi5en K ;
+ +A+Superl+Pl+Gen:i%>mpi5en K ; !variant
+ +A+Superl+Pl+Gen:ii%>mpi5en K ; !variant
 
 
 LEXICON a5_auki
-! **LEXICON @LEXNAME@** has no comparative or superlative , what is the difference from a4?
+! **LEXICON @LEXNAME@**  (only auki:auk2)
+ +A+Nom:i R ;
+ +A+Sg+Gen:en R ;
  :e a4 ; 
  +A+Sg+Nom:i       PxK ; ! 
  +A+Sg+Par:e%>^A      PxK ; ! aukea
 
 LEXICON anen
-!! **LEXICON @LEXNAME@** for even-stem-nen-adjectives, points to xnen  
-+A: xnen ; !!≈ * @CODE@ #TODO: komparera!
+!! **LEXICON @LEXNAME@** for even-stem-nen-adjectives, points to xnen punanen:puna
++A+Nom:s R ;
++A+Sg+Gen:sen R ;
++A: xnen ; 
 +A+Comp+Sg+Nom:%>sempi PxK ;
 +A+Comp:se 3comp ; !CHECK!
 +A+Superl:s 3sup ; !CHECK! 
 
 LEXICON anen_odd 
 !! **LEXICON @LEXNAME@** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
++A+Nom:s R ;
++A+Sg+Gen:sen R ;
 +A: x3nen ; !!≈ * @CODE@ #TODO: komparera!
 +A+Comp+Sg+Nom:%>sempi PxK ;
 +A+Comp:se 3comp ; !CHECK!
@@ -330,9 +342,11 @@ LEXICON anen_odd
 
 LEXICON aas  
 !! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
-+A: xnas ; 
-+A+Sg+Nom:^WGs R ; 
-+A+Sg+Gen:%>^Vn R ; 
++A: xnas ;
++A+Sg+Nom:^WGs R ;
++A+Sg+Gen:^HMETA%>h^V^Vn R ;
++A+Sg+Gen:^HMET2%>h^V^Vn R ;  
+!+A+Sg+Gen:%>^Vn R ; 
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ;
 +A+Superl:e 3sup ; 
@@ -340,15 +354,17 @@ LEXICON aas
 LEXICON a_s  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
 +A: xnas ; 
-+A+Sg+Nom:^WGs R ; !needed?
-+A+Sg+Gen:%>^Vn R ; !needed?
++A+Sg+Nom:^WGs R ; 
++A+Sg+Gen:^HMETA%>h^V^Vn R ;
++A+Sg+Gen:^HMET2%>h^V^Vn R ; 
+
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ;
 +A+Superl:e 3sup ; 
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
-+A:e x5_sg ; !!≈ * @CODE@
++A:e x5_sg ; ! including compoundstems!
 +A:e x5_pl ; 
 +A+Pl+Gen:%>ten K ;
 +A+Sg+Nom:i  PxK ; ! suurten
@@ -371,8 +387,10 @@ LEXICON a_suuri
 
 
 LEXICON a1_ton
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@** vihaton:vihat
 +A: x1_ton ; !!≈ * @CODE@
++A+Sg+Nom:on R ;
++A+Sg+Gen:toman R ;  
 
 LEXICON x1_ton
 !! **LEXICON @LEXNAME@** 

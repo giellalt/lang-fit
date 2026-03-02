@@ -1000,7 +1000,6 @@ LEXICON nas ! tehas
 !! **LEXICON @LEXNAME@**
  +N: xnas ;
  +N+Sg+Nom:^WGs R ;
- !+N+Sg+Gen:%>^Vn R ;
  +N+Sg+Gen:^HMETA%>h^V^Vn R ;
  +N+Sg+Gen:^HMET2%>h^V^Vn R ;
 
