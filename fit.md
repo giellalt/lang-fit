@@ -2951,7 +2951,7 @@ This is an overview of the continuation lexicon types.
 * 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
 * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 
-* 3n_ue = lakeus - lakeude
+* 3n_ue = lakheus - lakheue
 * 3n_ime = puhelin - puhelime
 * 3n_lnr = taimen, höyhen 
 * 3n_kymmen = kymmen 
