@@ -537,7 +537,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         [.#.|#] Cns:* Vow t _  :y (Dummy:) %>  :y ;
         [.#.|#] Cns:* Vow t _  :ä (Dummy:) %>  :ä ;
         [.#.|#] Cns:* Vow t _  :ö (Dummy:) %>  :ö ;
-        [.#.|#] Cns:* Vow t _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        ![.#.|#] Cns:* Vow t _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow t _ o   (Dummy:) %> (h) :o ;
 
 !! **Tests:**
