@@ -50,7 +50,7 @@
 !! * 4n_ks = even variants of 3n_ks; morahus:morahu > morahuksen, morahuksele
 !! * n_äes = identical to 3n_ks except N+Sg+Nom (äes:äke)
 
-!! * 3n_ue = lakeus - lakeude
+!! * 3n_ue = lakheus - lakheue
 !! * 3n_ime = puhelin - puhelime
 !! * 3n_lnr = taimen, höyhen 
 !! * 3n_kymmen = kymmen 
@@ -11544,7 +11544,7 @@ vares:vare 3n_ks ;
 teres:tere 3n_ks ;
 tores:tore 3n_ks ;
 diabeetes:diabeete 3n_ks ;
-jouttiäes:jouttiäke n_äes ;
+jouttiäes:joutti#äke n_äes ;
 hiljasuus:hiljasuu n_uus ;
 lais:lai 3n_ks ;
 maanalaisuus:maanalaisuu n_uus ;
@@ -12356,7 +12356,8 @@ jeelu:jeelu nx ;
 jääjielu:jääjielu nx ;
 nielu:nielu nx ;
 koskennielu:koskennielu nx ;
-sielu:sielu nx ;
+ylinensielu:ylinen#sielu n1 ;
+sielu:sielu n1 ;
 varjelus:varjelu 4n_ks ;
 kelu:kelu nx ;
 sukelus:sukelu 4n_ks ;

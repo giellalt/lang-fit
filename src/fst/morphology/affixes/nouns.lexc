@@ -730,8 +730,8 @@ LEXICON nen
 !! **LEXICON @LEXNAME@** bisyllabic nainen stem nai
 nen_sg ;
 nen_pl ;
-+N+Nom:nen R ;
-+N+Gen:s R ;
++N+Nom:s R ;
++N+Gen:sen R ;
 
 LEXICON nen_sg
 !! **LEXICON @LEXNAME@**
@@ -762,8 +762,10 @@ LEXICON xnen_pl
 LEXICON 3nen
 !! **LEXICON @LEXNAME@** odd-syllabic hevonen stem hevose
 +N: x3nen ;
-+N+Nom:nen R ;
-+N+Gen:s R ;
++N+Nom:s R ;
++N+Gen:sen R ;
+!+N+Nom:nen R ;
+!+N+Gen:s R ;
 
 LEXICON x3nen
 !! **LEXICON @LEXNAME@**
@@ -824,7 +826,7 @@ LEXICON 2cases
 LEXICON 3n_ks
 !! **LEXICON @LEXNAME@**
 +N: xn_ks ;
-+N+Sg+Nom:^WGs R ;
++N+Sg+Nom:s R ;
 +N+Sg+Gen:^WGkse%>n R ;
 
 LEXICON 3n_ks_pl
@@ -908,8 +910,8 @@ LEXICON 3n_ue
 !! **LEXICON @LEXNAME@**
 3x_ue ;
 +N+Sg+Nom:s R ;
-N+Sg+Gen:e%>n R ;
-+N+Sg+Nom:de%>n R ;
++N+Sg+Gen:e%>n R ;
+!+N+Sg+Nom:de%>n R ;
 
 LEXICON 3x_ue
 !! **LEXICON @LEXNAME@**
@@ -998,7 +1000,9 @@ LEXICON nas ! tehas
 !! **LEXICON @LEXNAME@**
  +N: xnas ;
  +N+Sg+Nom:^WGs R ;
- +N+Sg+Gen:%>^Vn R ;
+ !+N+Sg+Gen:%>^Vn R ;
+ +N+Sg+Gen:^HMETA%>h^V^Vn R ;
+ +N+Sg+Gen:^HMET2%>h^V^Vn R ;
 
 LEXICON xnas
 !! **LEXICON @LEXNAME@**
@@ -1065,7 +1069,9 @@ LEXICON xnas_pl
 !! **LEXICON @LEXNAME@**
  +N: xnas_sg ;
  +N+Sg+Nom:^WGs R ;
- +N+Sg+Gen:%>^Vn R ;
+ !+N+Sg+Gen:%>^Vn R ;
+ +N+Sg+Gen:^HMETA%>h^V^Vn R ; !
+ +N+Sg+Gen:^HMET2%>h^V^Vn R ; !
  +N+Sg+Nom:^HMETA%>h^V^V t_PxK ;
 
 LEXICON nas_h_pl ! saaphaat !CHECK EK
