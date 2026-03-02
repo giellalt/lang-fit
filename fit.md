@@ -1097,11 +1097,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a3** kamala gets +A and points to x3
 
-**LEXICON a4** has no comparative or superlative , just points to x4
-* +A: x4 ;
+**LEXICON a4** 
 
-**LEXICON anen** for even-stem-nen-adjectives, points to xnen  
-* +A: xnen ; #TODO: komparera!
+**LEXICON anen** for even-stem-nen-adjectives, points to xnen punanen:puna
 
 **LEXICON anen_odd** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
 * +A: x3nen ; #TODO: komparera!
@@ -1111,9 +1109,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 **LEXICON a_s** new subgroup for hias:hita etc !TBC!
 
 **LEXICON a_suuri** has no comparative or superlative , just points to x4
-* +A:e x5_sg ;
 
-**LEXICON a1_ton** 
+**LEXICON a1_ton** vihaton:vihat
 * +A: x1_ton ;
 
 **LEXICON x1_ton** 
