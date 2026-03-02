@@ -1096,7 +1096,6 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 * +A+Superl:ime 4sup;
 
 **LEXICON a3** kamala gets +A and points to x3
-* +A: x3_sg ;
 
 **LEXICON a4** has no comparative or superlative , just points to x4
 * +A: x4 ;
