@@ -353,14 +353,41 @@ LEXICON aas
 
 LEXICON a_s  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
-+A: xnas ; 
-+A+Sg+Nom:^WGs R ; 
-+A+Sg+Gen:^HMETA%>h^V^Vn R ;
-+A+Sg+Gen:^HMET2%>h^V^Vn R ; 
+!+A: xnas ;
++A+Sg+Nom:^WG%>s R ; 
++A+Sg+Gen:^HMETA%>h^V^Vn R ; !hithaan
 
-+A+Comp:^HMETA%>hi5i5 3comp ;
-+A+Comp:^HMET2%>hi5i5 3comp ;
-+A+Superl:e 3sup ; 
++A+Sg+Nom:^WG%>s K ; 
++A+Sg+Gen:^HMETA%>h^V^Vn K ; !hithaan
++A+Sg+Gen:^HMET2%>h^V^Vn K ; !
++A+Sg+Par:^WG%>sta K ; 
++A+Sg+Ill:^HMETA%>h^V^Vsheen K ;  
++A+Sg+Ine:^HMETA%>h^V^Vss^A K ;       
++A+Sg+Ela:^HMETA%>h^V^Vst^A K ;      
++A+Sg+All:^HMETA%>h^V^Vle K ;        
++A+Sg+Ade:^HMETA%>h^V^Vl^A K ;       
++A+Sg+Abl:^HMETA%>h^V^Vlt^A K ;      
++A+Sg+Tra:^HMETA%>h^V^Vksi K ;              
++A+Sg+Ess:^HMETA%>h^V^Vn^A K ;          
++A+Sg+Abe:^HMETA%>h^V^Vtt^A K ;  
+
++A+Pl+Nom:^HMETA%>h^V^Vt K ; 
++A+Pl+Gen:^HMETA%>h^Vitten K ; 
++A+Pl+Par:^HMETA%>h^Vit^A K; !hithaita
++A+Pl+Ill:^HMETA%>h^Vishiin K ;  
++A+Pl+Ine:^HMETA%>h^Viss^A K ;  
++A+Pl+Ela:^HMETA%>h^Vist^A K ;      
++A+Pl+All:^HMETA%>h^Vile K ;
++A+Pl+Ade:^HMETA%>h^Vil^A K ;       
++A+Pl+Abl:^HMETA%>h^Vilt^A K ;      
++A+Pl+Tra:^HMETA%>h^Viksi K ;              
++A+Pl+Ess:^HMETA%>h^Vin^A K ;          
++A+Pl+Abe:^HMETA%>h^Vitt^A K ;
+
++A+Comp:^HMETA%>h^V^V 3comp ;
++A+Comp:^HMET2%>h^V^V 3comp ;
++A+Superl:^HMETA%>h^V 3sup ; 
++A+Superl+Sg+Nom:^HMETA%>h^Vi5n K ;
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4

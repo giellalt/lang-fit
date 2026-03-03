@@ -798,7 +798,7 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i] ; ! sauhnaan
+%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i|(%>) i5:] ; ! sauhnaan
                             a: [%^HMETA:|%^HMET2:] %> h:  :a _      ; ! sauhnaan
 UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **conflict**
                                                 a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !noutta
