@@ -578,16 +578,19 @@ n5_lumi ;
 
 
 LEXICON n5_vuosi
-!! **LEXICON @LEXNAME@** vuosi> vuoessa/vuessa, stem ELLER vu
+!! **LEXICON @LEXNAME@** vuosi> vuoessa/vuessa, stem vu-
  +N+Nom:osi R ;
  +N+Gen:e%>n R ;
- +N:ote x5_kasi ;
+ +N:ote x5_kasi ; !gives vuotheen, vuoela etc
  +N+Sg+Nom:osi       PxK ; ! vuosi
  +N+Sg+Par:ot%>t^A      PxK ; ! vuotta
  +N+Sg+Ine:^WG%>ess^A PxK ; !
  +N+Sg+Ine:u%>ess^A PxK ;
  +N+Sg+Ela:^WG%>est^A PxK ;
  +N+Sg+Ela:u%>est^A PxK ;
+ +N+Sg+Ade:%>el^A PxK ;
+ +N+Sg+Abl:%>elt^A PxK ;
+ +N+Sg+All:%>ele PxK ;
  +N+Sg+Ess:o%>n^A PxK ;
  +N+Sg+Ess+Err/Orth:o%>nn^A PxK ;
  +N+Sg+Gen:e%> n_PxK ;

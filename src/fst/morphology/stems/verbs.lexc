@@ -2422,8 +2422,8 @@ kehata:kehta v2_ata_odd ;
 kihata:kiha v2_ata_odd ;
 sihata:sihta v2_ata_odd ;
 !vanhata:vanha v2_ata_odd ;
-kohata:kohta v2_ata_odd ;
-!kohata:koha v2_ata_odd ;
+!kohata:kohta v2_ata_odd ;
+kohata:kohta v2_Hata_odd ;
 puohata:puoha v2_ata_odd ;
 murhata:murha v2_ata_odd ;
 uhata:uhka v2_ata_odd ;
@@ -2476,9 +2476,9 @@ jaakata:jaakka v2_ata_odd ;
 kaakata:kaakka v2_ata_odd ;
 flaakata:flaakka v2_ata_odd ;
 naakata:naakka v2_ata_odd ;
-paakata:paakka v2_ata_odd ;
+paakata:paak2a v2_ata_odd ;!4/3 test blir det bättre tg?
 fraakata:fraakka v2_ata_odd ;
-traakata:traakka v2_ata_odd ;
+traakata:traak2a v2_ata_odd ; !4/3
 hakata:hakka v2_ata_odd ;
 kakata:kakka v2_ata_odd ;
 lakata:lakka v2_ata_odd ;
@@ -2491,10 +2491,10 @@ pakata:pakka v2_ata_odd ;
 leekata:leek2a v2_ata_odd ;
 pleekata:pleekka v2_ata_odd ;
 preekata:preekka v2_ata_odd ;
-treekata:treekka v2_ata_odd ;
+treekata:treek2a v2_ata_odd ; !4/3
 jiekata:jiekka v2_ata_odd ;
 jieskata:jieska v2_ata_odd ;
-kiekata:kiekka v2_ata_odd ;
+kiekata:kiek2a v2_ata_odd ; !4/3
 oihkata:oihkka v2_ata_odd ;
 uihkata:uihkka v2_ata_odd ;
 meuhkata:meuhkka v2_ata_odd ;
@@ -2528,7 +2528,7 @@ pilkata:pilkka v2_ata_odd ;
 tilkata:tilkka v2_ata_odd ;
 jolkata:jolkka v2_ata_odd ;
 kolkata:kolkka v2_ata_odd ;
-nulkata:nulkka v2_ata_odd ;
+nulkata:nulk2a v2_ata_odd ; !4/3
 jankata:jankka v2_ata_odd ;
 plankata:plankka v2_ata_odd ;
 tankata:tankka v2_ata_odd ;
@@ -2970,14 +2970,14 @@ mitata:mitta v2_ata_odd ;
 kuitata:kuitta v2_ata_odd ;
 kontaktata:kontakta v2_ata_odd ;
 kaltata:kaltta v2_ata_odd ;
-eltata:eltta v2_ata_odd ;
+eltata:elt2a v2_ata_odd ; !4/3
 meltata:meltta v2_ata_odd ;
 veltata:veltta v2_ata_odd ;
 pultata:pultta v2_ata_odd ;
 kantata:kantta v2_ata_odd ;
 plantata:plantta v2_ata_odd ;
 pantata:pantta v2_ata_odd ;
-rantata:rantta v2_ata_odd ;
+rantata:rant2a v2_ata_odd ; !4/3
 vantata:vantta v2_ata_odd ;
 pormentata:pormentta v2_ata_odd ;
 flintata:flintta v2_ata_odd ;
@@ -3044,7 +3044,7 @@ havata:hava v2_havata ;
 lavata:lava v2_ata_odd ;
 kravata:krava v2_ata_odd ;
 travata:trava v2_ata_odd ;
-tavata:tava v2_ata_odd ;
+tavata:tapa v2_ata_odd ;
 kahvata:kahva v2_ata_odd ;
 lyhvata:lyhva v2_ata_odd ;
 ivata:iva v2_ata_odd ;
@@ -4654,7 +4654,7 @@ pärjätä:pärjä v2_ata_odd ;
 mörjätä:mörjä v2_ata_odd ;
 läjätä:läjä v2_ata_odd ;
 vääjätä:vääjä v2_ata_odd ;
-löyhkätä:löyhkkä v2_ata_odd ;
+löyhkätä:löyh2kä v2_ata_odd ; !4/3
 kenkätä:kenkkä v2_ata_odd ;
 rynkätä:rynkkä v2_ata_odd ;
 mänkätä:mänkkä v2_ata_odd ;
