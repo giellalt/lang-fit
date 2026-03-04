@@ -61,6 +61,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v2_ata_odd** huomata etc
 
+* **LEXICON v2_Hata_odd** kohata etc
+
 * **LEXICON v2_uta** haluta etc
 
 * **LEXICON v2_havata** havata-paradigm 

@@ -166,7 +166,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_loimi** loimi, stem loi, som n5_lumi PLUS partitiv loimea
 
-**LEXICON n5_vuosi** vuosi> vuoessa/vuessa, stem ELLER vu
+**LEXICON n5_vuosi** vuosi> vuoessa/vuessa, stem vu-
 
 **LEXICON n5_kasi** käsi, stem kä
 

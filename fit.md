@@ -1323,7 +1323,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_loimi** loimi, stem loi, som n5_lumi PLUS partitiv loimea
 
-**LEXICON n5_vuosi** vuosi> vuoessa/vuessa, stem ELLER vu
+**LEXICON n5_vuosi** vuosi> vuoessa/vuessa, stem vu-
 
 **LEXICON n5_kasi** käsi, stem kä
 
@@ -1855,6 +1855,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * **LEXICON v2_ata** masinata etc
 
 * **LEXICON v2_ata_odd** huomata etc
+
+* **LEXICON v2_Hata_odd** kohata etc
 
 * **LEXICON v2_uta** haluta etc
 
@@ -3384,7 +3386,6 @@ This file documents [the file for Meänkieli pronouns](https://github.com/giella
 * molemin pronx ; 
 * nuot pronx ; 
 * muu:mu MUU ; 
-* mä pronx ;
 
 * * *
 
