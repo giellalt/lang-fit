@@ -26,17 +26,16 @@ This is an overview of the continuation lexicon types.
 
 ### Stems for -i-words, vowel AND consonant
 * n4 = i:e nouns: suomi:suome, kivi:kive (2syll)
-* n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll) (see also n5_kieli)
+* n5 = i:e nouns, cns stems: kieli:kiele > kielen > kieltä (2syll)
 * n5_kasi = käsi:kä > käden > kättä (2syll)
-* n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile
-* n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile)
+* n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
+* n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
 
 ### Special cases for -i-words
 * n5_lumi = lumi:lu > lumen > lunta (2syll)
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
-* n5_kieli = kieli:kiele like n5 PLUS Pl+Gen kielten
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types

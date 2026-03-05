@@ -23,11 +23,11 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 ### Stems for -i-words
-* n4 = i:e nouns: suomi:suome, kivi:kive > kiven > kiveä (2syll)
-* n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
+* n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
+* n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll) kieli!
 * n5_kasi = käsi:kä > käden > kättä (2syll)
-* n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile !PLUS i-stem?!?
-* n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile) !PLUS + i-stem?!? from ...
+* n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
+* n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
 * n5_i_pl = continuation lexicon for -i-words with e-stem in plural
 
 ### Special cases for -i-words
@@ -35,7 +35,6 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n5_lapsi = lapsi:la > lapsen > lasta
 * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
-* n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
 * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 ### Consonant stems of other types
@@ -146,7 +145,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 #### The i>e-family; kivi, kieli, käsi, lumi etc
 
-**LEXICON n4** kivi, stem kive
+**LEXICON n4** kivi, stem kive-
 
 **LEXICON x4**  veri
 
@@ -154,13 +153,11 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x4_sg** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
 
-**LEXICON x4_pl**
+**LEXICON x4_pl** shared lexica for n4, n5, n5_lumi/loimi/lapsi 
 
 **LEXICON n5** kieli, stem kiele
 
 **LEXICON n5** kieli, stem kiele
-
-**LEXICON n5_kieli** kieli, stem kiele
 
 **LEXICON n5_lumi** lumi, stem lu
 
