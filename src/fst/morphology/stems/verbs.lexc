@@ -5641,7 +5641,7 @@ huokaila:huokail v4_3la ;
 tursuta:tursu v2_uta ; 
 toeta:tote v2_uta ;
 osalistua:osalistu v1 ;
-taitaa:taita v1 ;
+taitaa:tai v1_taitaa ;
 riepahtaa:riepahta v1_odd ;
 siunaila:siunail v4_3la ;
 syljästä:syljäs v4_julkasta ;

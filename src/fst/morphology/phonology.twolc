@@ -28,7 +28,7 @@ i5:i      !!= * @CODE@ = superlative i of adjectives
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k !mettä > mettän etc
-t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s !t3 not in use?
+t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s !t3 not in use? >>pitää vetää sietää hoitaa
 k4:k      !!≈ * **@CODE@** = k to j in certain words
 t4:t      !!= * @CODE@  goes to 0 (ie rt goes to r) in imartelee : imarella
 n9:n      !!= * @CODE@ nouns that keep nn; juvanne
@@ -287,7 +287,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
               Vow           _ (:s)   e:0                     %> i2: %> [Cns|%^V:|%^A:] ; ! **)
               Vow [n|l|r]   _        e:0 (%^WG:0)   %^E2I:   %> i2: ; ! hirsiksi, hirsi (pl: gen par) 
               Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
-          [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0) %> i3: ;  ! löytää:löysi (ei sousi)  
+          [i|u|y|ö] [e|u|y] _ (:s) [a:0 |ä:0]  (%^AO:0) (%^WG:0) %> i3: ;  ! löytää:löysi (ei sousi)
               Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> [i3:|i8:] ;! 13/11
               Vow [n|l|r]   _ (:s) Vow:0  (%^WG:0)  (%^AO:0) %> i3: ;
                           i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
