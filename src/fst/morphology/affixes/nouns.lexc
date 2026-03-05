@@ -23,11 +23,11 @@
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
 !! ### Stems for -i-words
-!! * n4 = i:e nouns: suomi:suome, kivi:kive > kiven > kiveä (2syll)
-!! * n5 = i:e nouns, cns stems: lohi:lohe > lohen > lohta (2syll)
+!! * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
+!! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll) kieli!
 !! * n5_kasi = käsi:kä > käden > kättä (2syll)
-!! * n5_troppi = 2syll nouns with i-stem in plural PLUS e-stem only in plural: äiti:äiti>äitile, äiteile !PLUS i-stem?!?
-!! * n5_troppi_odd = odd-syll nouns of n5_troppi-type: alttari:alttari>alttarille (NB: alttareile) !PLUS + i-stem?!? from ...
+!! * n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
+!! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
 !! * n5_i_pl = continuation lexicon for -i-words with e-stem in plural
 
 !! ### Special cases for -i-words
@@ -35,7 +35,6 @@
 !! * n5_lapsi = lapsi:la > lapsen > lasta
 !! * n5_loimi = like n5_lumi PLUS Sg+Par loimea
 !! * n5_vuosi = like n5_kasi PLUS variant forms without -o-: Sg+Gen vuen/vuoen etc
-!! * n5_kieli = kieli:kiele like n5 PLUS Sg+Gen kielten
 !! * n5_nuoret_pl = like n1_pl except Pl+Gen: nuoret>nuorten
 
 !! ### Consonant stems of other types
@@ -486,14 +485,14 @@ LEXICON xnc
 !! #### The i>e-family; kivi, kieli, käsi, lumi etc
 
 LEXICON n4
-!! **LEXICON @LEXNAME@** kivi, stem kive
+!! **LEXICON @LEXNAME@** kivi, stem kive-
+ +N+Nom:^E2I      R ;
+ +N+Sg+Gen:^WG%>n R ;
  +N: x4 ;
  +N+Sg+Nom:^E2I   K ; ! kivi
  +N+Sg+Nom:       Px ; ! kivensä
  +N+Sg+Par:%>^A   PxK ; ! kiveä
- +N+Nom:^E2I      R ;
- +N+Sg+Gen:^WG%>n R ;
- +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+ +N+Pl+Gen:^E2Ie%> n_PxK ; !kivien
 
 
 LEXICON x4
@@ -510,25 +509,25 @@ LEXICON n4_pl
 LEXICON x4_sg
 !! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi EXCEPT SgNom, SgPar
 +Sg+Gen:^WG%> n_PxK ; ! veren
- +Sg+Ill:^HMETA%>h^V^V n_PxK ;
- +Sg+Ill:^HMET2%>h^V^V n_PxK ;
- +Sg+Ine:^WG%>ss^A PxK ;
- +Sg+Ela:^WG%>st^A PxK ;
- +Sg+All:^WG%>le PxxK ;
- +Sg+Ade:^WG%>l^A PxK ;
- +Sg+Abl:^WG%>lt^A PxK ;
- +Sg+Ess:%>n^A PxK ;
- +Sg+Tra:^WG TRA ;
- +Sg+Abe:^WG%>tt^A PxK;
++Sg+Ill:^HMETA%>h^V^V n_PxK ;
++Sg+Ill:^HMET2%>h^V^V n_PxK ;
++Sg+Ine:^WG%>ss^A PxK ;
++Sg+Ela:^WG%>st^A PxK ;
++Sg+All:^WG%>le PxxK ;
++Sg+Ade:^WG%>l^A PxK ;
++Sg+Abl:^WG%>lt^A PxK ;
++Sg+Ess:%>n^A PxK ;
++Sg+Tra:^WG TRA ;
++Sg+Abe:^WG%>tt^A PxK;
 
-LEXICON x4_pl
-!! **LEXICON @LEXNAME@**
+LEXICON x4_pl 
+!! **LEXICON @LEXNAME@** shared lexica for n4, n5, n5_lumi/loimi/lapsi 
  +Pl+Nom:^WG%> t_PxK ;
  +Pl+Gen:^E2I%>tte n_PxK ;
- +Pl+Par:^E2I%>^A PxK ;
+ +Pl+Par:^E2I%>^A PxK ; !kiviä
  +Pl+Ill:^HMETA%>hii n_PxK ;
  +Pl+Ill:^HMET2%>hii n_PxK ;
- +Pl+Ine:^WG^E2I%>ss^A PxK ; !NY ändr neråt
+ +Pl+Ine:^WG^E2I%>ss^A PxK ; 
  +Pl+Ela:^WG^E2I%>st^A PxK ;
  +Pl+All:^WG^E2I%>le PxxK ;
  +Pl+Ade:^WG^E2I%>l^A PxK ;
@@ -542,7 +541,8 @@ LEXICON n5
 !! **LEXICON @LEXNAME@** kieli, stem kiele
  +N: x5_sg ;
  +N: x5_pl ;
- +N+Pl+Gen:^E2Ie%> n_PxK ; !TEST moving from x4_pl
+ +N+Pl+Gen:^E2Ie%> n_PxK ; !kielien
+ +N+Pl+Gen:%>te n_PxK ; ! kielten
 
 
  LEXICON x5_sg
@@ -555,11 +555,6 @@ LEXICON n5
 
 LEXICON x5_pl
 x4_pl ;
-
-LEXICON n5_kieli
-!! **LEXICON @LEXNAME@** kieli, stem kiele
- n5 ;
- +N+Pl+Gen:%>te n_PxK ; ! kielten
 
 LEXICON n5_lumi
 !! **LEXICON @LEXNAME@** lumi, stem lu
