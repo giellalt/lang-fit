@@ -1,8 +1,9 @@
 # Add your error:correct string pairs here (not complete words, they have
 # a separate file), followed by TAB and the weight for the edit operation:
 
-la:al	     3
+
 aa:haa	2
+ai:a		4
 ai:aji	4
 ea:ee	2
 ee:ei	4
@@ -12,24 +13,27 @@ f:ff	1
 ff:f	4
 h:hh	1
 hh:h	4
-in:en	3
 i:ii	4
 ia:ii	2
 ia:ija	4
 ii:hii	2
 imf:inf		2
+in:en	3
 iä:ii	2
 j:jj	1
 jj:j	4
 k:kk	1
 kk:k	1
 l:ll	1
+la:al	     3
+le:lle		3
 ll:l	4
-mm:m	2
+lle:le		3
 m:mm	1
 maa:hmaa	2
 mee:hmee	2
 mii:hmii	2
+mm:m	2
 mm:m	4
 moo:hmoo	2
 muu:hmuu	2
@@ -43,15 +47,26 @@ nk:nkh	4
 nkh:nk	4
 nn:n	4
 oa:oo	2
+odi:oi		3
 oo:hoo	2
 p:pp	1
+paa:phaa	2
+pau:phau	2
+pau:phau	2
 pp:p	4
+pää:phää	2
 r:rr	1
 rr:r	4
 s:ss	1
+shan:shaan	2
+shan:shaan	2
+shen:sheen	2
+shin:shiin	2
+shän:shään	2
 ss:s	4
 t:tt	1
 tt:t	4
+u:uu	2
 ua:uu	2
 ue:uoe	4
 uu:huu	2
@@ -61,22 +76,8 @@ vv:v	4
 x:ks	1
 yy:hyy	2
 yä:yy	2
+ärrä:ärä	2
 ää:hää	2
 öä:öö	2
 öö:höö	2
 š:sj		1
-ai:a		4
-paa:phaa	2
-pau:phau	2
-pää:phää	2
-pau:phau	2
-shen:sheen	2
-shan:shaan	2
-shin:shiin	2
-shän:shään	2
-shan:shaan	2
-lle:le		3
-le:lle		3
-odi:oi		3
-ärrä:ärä	2
-
