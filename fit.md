@@ -1801,7 +1801,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 #### Continuation lexica for regular verbs
 * **v1** = even-syllable-stems of antaa-type; sanoa:sano
-* **v1_tietaa** = tietää:ti
+* **v1_tietaa** = tietää:ti because of changes in diftong (tiän>tiesin)
 * **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
@@ -1840,7 +1840,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v1_otta** otta-lexicon
 
-* **LEXICON v1_tietaa** tietää-lexicon
+* **LEXICON v1_tietaa** tietää-lexicon because of changes in diftong (tiän>tiesin)
 
 * **LEXICON v1** sanoa, lukea, antaa:anta 
 
@@ -1849,6 +1849,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * **LEXICON v1_odd** käsittää>käsittänny osv 
 
 * **LEXICON v1_odd_var** tapahtua >tapahtun & tapahun !TBC - where does it occur?
+
+* **LEXICON v1_taitaa** taitaa-lexicon because of t:s although no a:0 in suffix
 
 * **LEXICON v2** huomata, haluta övriga former 
 
@@ -1946,7 +1948,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i9:i       = plural-i of adjectives (kamalissa)
 * i8:i       = past tense of verbs that drops in past antaa : anto
 * p2:p t2:t k2:k     = always p t k !mettä > mettän etc
-* **t3:t** = t participating in gradation, but not in t:s !t3 not in use?
+* **t3:t** = t participating in gradation, but not in t:s !t3 not in use? >>pitää vetää sietää hoitaa
 * **k4:k** = k to j in certain words
 * t4:t        goes to 0 (ie rt goes to r) in imartelee : imarella
 * n9:n       nouns that keep nn; juvanne

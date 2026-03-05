@@ -25,7 +25,7 @@ This defines all symbols (letters, archiphonemes, triggers) to be used.
 * i9:i       = plural-i of adjectives (kamalissa)
 * i8:i       = past tense of verbs that drops in past antaa : anto
 * p2:p t2:t k2:k     = always p t k !mettä > mettän etc
-* **t3:t** = t participating in gradation, but not in t:s !t3 not in use?
+* **t3:t** = t participating in gradation, but not in t:s !t3 not in use? >>pitää vetää sietää hoitaa
 * **k4:k** = k to j in certain words
 * t4:t        goes to 0 (ie rt goes to r) in imartelee : imarella
 * n9:n       nouns that keep nn; juvanne

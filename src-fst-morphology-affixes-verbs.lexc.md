@@ -6,7 +6,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 ### Continuation lexica for regular verbs
 * **v1** = even-syllable-stems of antaa-type; sanoa:sano
-* **v1_tietaa** = tietää:ti
+* **v1_tietaa** = tietää:ti because of changes in diftong (tiän>tiesin)
 * **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
 * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
@@ -45,7 +45,7 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 
 * **LEXICON v1_otta** otta-lexicon
 
-* **LEXICON v1_tietaa** tietää-lexicon
+* **LEXICON v1_tietaa** tietää-lexicon because of changes in diftong (tiän>tiesin)
 
 * **LEXICON v1** sanoa, lukea, antaa:anta 
 
@@ -54,6 +54,8 @@ This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morpholo
 * **LEXICON v1_odd** käsittää>käsittänny osv 
 
 * **LEXICON v1_odd_var** tapahtua >tapahtun & tapahun !TBC - where does it occur?
+
+* **LEXICON v1_taitaa** taitaa-lexicon because of t:s although no a:0 in suffix
 
 * **LEXICON v2** huomata, haluta övriga former 
 
