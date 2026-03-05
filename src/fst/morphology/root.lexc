@@ -475,8 +475,8 @@ LEXICON K
 +Foc/haan:^HMETA%>h^A^An # ; ! kokonhaan
 +Foc/haan:^HMET2%>h^A^An # ; ! kokohnaan
 +Foc/han:%>h^An # ;   ! koirathan
-+Foc/han:^HMETA%>h^An # ;
-+Foc/han:^HMET2%>h^An # ;  
+!+Foc/han:^HMETA%>h^An # ; ! Gives kukka+N+Sg+Nom+Foc/han = kukhan
+!+Foc/han:^HMET2%>h^An # ; ! Gives kukka+N+Sg+Nom+Foc/han = kukhan 
 +Foc/pa:%>p^A # ;
 +Foc/pas:%>p^As # ;
 
