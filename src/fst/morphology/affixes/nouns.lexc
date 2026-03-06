@@ -24,11 +24,12 @@
 
 !! ### Stems for -i-words
 !! * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
-!! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll) kieli!
-!! * n5_kasi = käsi:kä > käden > kättä (2syll)
+!! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll)
+!! * n5_kasi = käsi:kä > käen > kättä (2syll)
 !! * n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
 !! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
-!! * n5_i_pl = continuation lexicon for -i-words with e-stem in plural
+!! * n5_toveri like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
+!! * n5_i_pl = plural continuation lexicon for -i-words with only e-stem in plural (ie like plural of n5_toveri)
 
 !! ### Special cases for -i-words
 !! * n5_lumi = lumi:lu > lumen > lunta (2syll)
@@ -658,8 +659,8 @@ LEXICON n5_lapsi
 +N+Pl+Abe:ps%>itt^A PxK ;
 
 
-LEXICON n5_ie_odd
-!! **LEXICON @LEXNAME@**
+LEXICON n5_toveri
+!! **LEXICON @LEXNAME@** like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
 !+N: x1_sg ;
 +N+Nom: R ;
 +N+Sg+Gen:^WG%>n R ;
@@ -678,11 +679,11 @@ LEXICON n5_ie_odd
 +N+Sg+Abe:^WG%>tt^A PxK ;    
 
 +N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Par:%>^A PxK ; !alttaria
-+N+Pl+Par:^IDEL%>e%>it^A PxK ; !alttareita
-+N+Pl+Gen:%>e n_PxK ; !alttarien
-+N+Pl+Gen:^WG%>tte n_PxK ;!alttaritten
-+N+Pl+Gen:^IDEL%>e%>itte n_PxK ;!alttareitten
++N+Pl+Par:%>^A PxK ; !toveria
++N+Pl+Par:^IDEL%>e%>it^A PxK ; !tovereita
++N+Pl+Gen:%>e n_PxK ; !toverien
+!+N+Pl+Gen:^WG%>tte n_PxK ;! NEEDED?
++N+Pl+Gen:^IDEL%>e%>itte n_PxK ;!tovereitten
 +N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill:^HMET2%>h^Vi n_PxK ;
 +N+Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
