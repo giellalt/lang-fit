@@ -24,11 +24,12 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 ### Stems for -i-words
 * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
-* n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll) kieli!
-* n5_kasi = käsi:kä > käden > kättä (2syll)
+* n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll)
+* n5_kasi = käsi:kä > käen > kättä (2syll)
 * n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
 * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
-* n5_i_pl = continuation lexicon for -i-words with e-stem in plural
+* n5_toveri like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
+* n5_i_pl = plural continuation lexicon for -i-words with only e-stem in plural (ie like plural of n5_toveri)
 
 ### Special cases for -i-words
 * n5_lumi = lumi:lu > lumen > lunta (2syll)
@@ -175,7 +176,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON n5_lapsi**
 
-**LEXICON n5_ie_odd**
+**LEXICON n5_toveri** like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
 
 **LEXICON n5_nuoret_pl** same as n1_pl except Pl+Gen: nuoret>nuorten 
 
