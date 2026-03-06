@@ -4096,6 +4096,7 @@ tarttua:tarttu v1 ;
 varttua:varttu v1 ;
 aiheuttua:aiheuttu v1_odd ;
 kuttua:kutt2u v1 ;
+kuttua+Err/Orth:kuttu v1 ;
 juuttua:juuttu v1 ;
 vakkuuttua:vakkuuttu v1_odd ;
 muuttua:muuttu v1 ;

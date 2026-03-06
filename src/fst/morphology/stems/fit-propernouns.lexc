@@ -60,6 +60,7 @@ Kellokkaa:Kellokkaa p_plc_3 ;
 Kirkkaanlamminkankaa:Kirkkaanlamminkankaa p_plc_0 ;
 Laihamaa:Laiha#maa p_sur_0 ;
 Lauhamaa:Lauha#maa p_sur_0 ;
+Meänmaa:Meän#maa p_sur_0 ;
 Ojamaa:Oja#maa p_sur_0 ;
 Majamaa:Maja#maa p_sur_0 ;
 Pihlajamaa:Pihlaja#maa p_sur_0 ;
@@ -14785,7 +14786,7 @@ Frantsi:Frantsi p_sur_1 ;
 Kuntsi:Kuntsi p_sur_1 ;
 Väntsi:Väntsi p_sur_1 ;
 Rotsi:Rotsi p_plc_1 ;
-Ruotsi:Ruotsi p_sur_1 ;
+!Ruotsi:Ruotsi p_sur_1 ; !confusion with Ruotti-misspelling
 Ison% Karhuniemen% autsi:Ison% Karhuniemen% autsi p_plc_1 ;
 Pikku% Karhuniemen% autsi:Pikku% Karhuniemen% autsi p_plc_1 ;
 Pattarliekinautsi:Pattarliekinautsi p_plc_1 ;
