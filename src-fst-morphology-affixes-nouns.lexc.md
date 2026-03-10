@@ -19,6 +19,7 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 * n_kevät = only kevät:kevä
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 * n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
+* n3_äö = odd-syllabic ordinary nouns with ä>ö-change in plural (tekijä>tekijöiltä)
 * n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
@@ -134,11 +135,15 @@ This file documents [`affixes/nouns.lexc`, the file for Meänkieli noun morpholo
 
 **LEXICON x3_pl**
 
-**LEXICON x3_pl**
+**LEXICON n3_äö**  odd-syllabic: kanava
 
-**LEXICON x3_pl**
+**LEXICON x3_äö_pl**  haalarit
 
-**LEXICON x3_pl**
+**LEXICON x3_äö_pl**
+
+**LEXICON x3_äö_pl**
+
+**LEXICON x3_äö_pl**
 
 **LEXICON 3nc**
 

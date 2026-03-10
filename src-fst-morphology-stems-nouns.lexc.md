@@ -20,6 +20,7 @@ This is an overview of the continuation lexicon types.
 * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 * n_kevät = only kevät:kevä
 * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
+* n3_äö = odd-syllabic ordinary nouns with ä>ö-change in plural (tekijä>tekijöiltä)
 * n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
 * n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
 * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
