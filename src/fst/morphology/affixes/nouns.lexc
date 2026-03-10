@@ -19,6 +19,7 @@
 !! * n_kevät = only kevät:kevä
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
 !! * n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
+!! * n3_äö = odd-syllabic ordinary nouns with ä>ö-change in plural (tekijä>tekijöiltä)
 !! * n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
@@ -409,11 +410,11 @@ LEXICON x3_oblique_sg
 LEXICON x3_pl
 !! **LEXICON @LEXNAME@**
  +Pl+Nom:^WG%> t_PxK ;
- +Pl+Gen:^A2O%>i2tte n_PxK ; !TBC: päärynöitten
+ +Pl+Gen:%>i2tte n_PxK ; 
  +Pl+Gen:%>i2tte n_PxK ;
  +Pl+Gen+Err/Orth:%>i2e n_PxK ;
- +Pl+Par:%>i2t^A PxK ; !asioita
- +Pl+Par:^A2O%>i2t^A PxK ; !TBC: päärynöitä
+ +Pl+Par:%>i2t^A PxK ; 
+ +Pl+Par:%>i2t^A PxK ;
  +Pl+Ill:^HMETA%>h^Vi2 n_PxK ;
  +Pl+Ill:^HMET2%>h^Vi2 n_PxK ;
  +Pl+Ine:^WG%>i2ss^A PxK ;
@@ -425,6 +426,33 @@ LEXICON x3_pl
  +Pl+Ess:%>i2n^A PxK ;
  +Pl+Abe:%>i2tt^A PxK ;
 
+ 
+LEXICON n3_äö 
+!! **LEXICON @LEXNAME@**  odd-syllabic: kanava
+ +N:ä  x3_sg ;
+ +N:  x3_äö_pl ;
+ +N+Nom:^E2I R ;
+ +N+Gen:^WG%>n R ;
+
+
+LEXICON x3_äö_pl
+!! **LEXICON @LEXNAME@**  haalarit
+ !x3_pl ;
+ +Pl+Nom:ä^WG%> t_PxK ; !tekijät
+ +Pl+Gen:%>öi2tte n_PxK ; !TBC: tekijöitten
+ +Pl+Par:%>öi2t^A PxK ; !tekijöitä
+ !+Pl+Ill:ö^HMETA%>h^Vi2 n_PxK ;
+ +Pl+Ill:ö%>i2hi2 n_PxK ;
+ +Pl+Ine:%>^WG%>öi2ss^A PxK ;
+ +Pl+Ela:%>^WG%>öi2st^A PxK ;
+ +Pl+All:%>^WG%>öi2lle PxK ;
+ +Pl+Ade:%>^WG%>öi2ll^A PxK ;
+ +Pl+Abl:%>^WG%>öi2lt^A PxK ;
+ +Pl+Tra:%>öi2 TRA ;
+ +Pl+Ess:%>öi2n^A PxK ;
+ +Pl+Abe:%>öi2tt^A PxK ;
+
+ 
  LEXICON n3_ta
  !! **LEXICON @LEXNAME@**
  +N+Nom: R ;
