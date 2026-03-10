@@ -377,7 +377,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 Vow (%^WG:) (%>) [Vow|i2:] (%>) _ [l|m|n|r|v|%^N:] (Vow:)  [%^HMET2:] (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
                 Vow (%>) VowNotI _ j Vow: %^HMET2: (%>) h: ; ! aluohjaan !Vow (%>) VowNotI _ j Vow: %^HMET2: (%>) h: ;
         !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
+                Vow+ Cns+ (Cns) Vow (%>) _ [j|l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään !Test j 10/3
                 Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!mostly verbs; tulehmaan, neuvottelehmaan
         !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
                 !![.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämhään/elähmään UTAN antahmaan
@@ -497,7 +497,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         Vow (%^WG:) (%>)  [Vow|i2:]  (%>) :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %> _ ; !aikoihnaan, sairaahlaan 
         Vow (%>) VowNotI   :h j Vow: %^HMET2: %> _ ; !aluohjaan  Vow (%>) VowNotI   :h j Vow: %^HMET2: %> _ ;
 !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-        Vow+ Cns+ Vow (%>) :h [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään
+        Vow+ Cns+ Vow (%>) :h [j|l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään !TEST j 10/3
         Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) :h [l|m|n|r|v|%^N:] _ Vow Vow ; !mostly verbs; neuvotele>hmaan, tulehmaan, olehmaan
 !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten syll; pe-sem-hään, ju-te-lem-haan men ej antahmaan)
         !![.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään !endast öppna stavelser
