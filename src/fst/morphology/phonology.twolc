@@ -611,10 +611,10 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   
+    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   
-         Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
+          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr 
  [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa 
  [.#.|#] Cns:* RndVow (Vow) Cns:+                                _ (%^WG:)  %> i3: ;   ! huutaa>huusin
@@ -629,7 +629,7 @@ a:0 <=>                                                          _ [%^HMETA: | %
 !! **RULE: @RULENAME@**
 a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
         [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|i3:|i8:|j] ; ! see fkv
-        [.#.|#] Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
+        [.#.|#] ((Cns) Vow:+) Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa, runoilija>runoilijoissa; 3-syll with last vow=i
         [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:|%^A2O:) %> i2: ; !3-syll with lnr
         (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
         (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
