@@ -44,9 +44,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a4** 
 
-**LEXICON anen** for even-stem-nen-adjectives, points to xnen punanen:puna
+**LEXICON anen_odd** for even-stem-nen-adjectives, points to xnen punanen:puna
 
-**LEXICON anen_odd** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
+**LEXICON anen_even** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
 * +A: x3nen ; #TODO: komparera!
 
 **LEXICON aas**  has no comparative or superlative , just points to xnas

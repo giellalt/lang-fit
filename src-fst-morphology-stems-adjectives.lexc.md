@@ -8,7 +8,8 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 * a3 = kolmitavuiset
 * a_e = vartalo -e
 * aas = tarmokas
-* anen = nen-adjektiivit
+* anen_odd = nen-adjektiivit odd syll arvolinen:arvoli ;
+* anen_even = even syll nen-adjektiivit näkönen:näkö ;
 
 ## The lemma list itself
 

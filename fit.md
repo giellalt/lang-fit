@@ -1099,9 +1099,9 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a4** 
 
-**LEXICON anen** for even-stem-nen-adjectives, points to xnen punanen:puna
+**LEXICON anen_odd** for even-stem-nen-adjectives, points to xnen punanen:puna
 
-**LEXICON anen_odd** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
+**LEXICON anen_even** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
 * +A: x3nen ; #TODO: komparera!
 
 **LEXICON aas**  has no comparative or superlative , just points to xnas
@@ -2704,7 +2704,8 @@ This file documents [the file for Meänkieli adjectives](https://github.com/giel
 * a3 = kolmitavuiset
 * a_e = vartalo -e
 * aas = tarmokas
-* anen = nen-adjektiivit
+* anen_odd = nen-adjektiivit odd syll arvolinen:arvoli ;
+* anen_even = even syll nen-adjektiivit näkönen:näkö ;
 
 ### The lemma list itself
 
