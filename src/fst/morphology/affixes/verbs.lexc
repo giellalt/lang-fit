@@ -1069,7 +1069,6 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+InfE+Ins:ten K ;
 +V+InfE+Ine:te%>ss^A K ; !CHECK! ACT
 +V+InfE+Ine:tae%>ss^A K ; !CHECK! PASS
-!+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ill:e%>%^HMET2mh^A^An K ;
 +V+InfMa+Ine:e%>m^Ass^A K ;
@@ -1077,16 +1076,13 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+InfMa+Ade:e%>m^All^A K ; 
 +V+InfMa+Abe:e%>m^Att^A K ;
 
-
 +V+Pass+Ind+Prs:%>th^A^An K ;
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>%^N^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>s^U K ;
-!+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>hee x3_obli ;
-!+V+Pass+PrfPrc:%>t^U x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !julkassu
 +V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
 

@@ -321,7 +321,7 @@ LEXICON a5_auki
  +A+Sg+Nom:i       PxK ; ! 
  +A+Sg+Par:e%>^A      PxK ; ! aukea
 
-LEXICON anen
+LEXICON anen_odd
 !! **LEXICON @LEXNAME@** for even-stem-nen-adjectives, points to xnen punanen:puna
 +A+Nom:s R ;
 +A+Sg+Gen:sen R ;
@@ -330,7 +330,7 @@ LEXICON anen
 +A+Comp:se 3comp ; !CHECK!
 +A+Superl:s 3sup ; !CHECK! 
 
-LEXICON anen_odd 
+LEXICON anen_even 
 !! **LEXICON @LEXNAME@** for odd-stem -nen-adjectives like näkönen:näköse-, points to x3nen
 +A+Nom:s R ;
 +A+Sg+Gen:sen R ;

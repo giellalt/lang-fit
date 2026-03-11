@@ -803,6 +803,7 @@ LEXICON x3nen_sg
 !! **LEXICON @LEXNAME@**
 +Sg:se 3cases ; ! Ade, All, Ess lla, lle, nna
 xnen_common_sg ;
++Der/suus:suu n_uus ;
 
 LEXICON x3nen_pl
 !! **LEXICON @LEXNAME@**

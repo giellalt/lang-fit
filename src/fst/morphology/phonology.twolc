@@ -611,7 +611,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:] ;   
+    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:|i9:] ; !usea>usei-  
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   
           Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr 
