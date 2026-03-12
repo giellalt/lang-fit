@@ -81,3 +81,12 @@ yä:yy	2
 öä:öö	2
 öö:höö	2
 š:sj		1
+aaa:aa		1
+eee:ee		1
+iii:ii		1
+ooo:oo		1
+uuu:uu		1
+äää:ää		1
+yyy:yy		1
+ööö:öö		1
+
