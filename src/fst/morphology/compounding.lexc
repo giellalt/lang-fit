@@ -1,17 +1,16 @@
 
 
 LEXICON R
-!+Cmp#:# # ; ! For turning off compounding during testing
-! +Cmp#:# NounRoot ;
- +Cmp#:0# NounRoot ;
- +Cmp/Hyph#:0#- ProperNoun ;
+ +Cmp#:# NounRoot ;          ! sanakirja, maa-aalto
+ +Cmp#:- NounRoot ;          ! sana-kirja, maa-aalto
+ +Cmp/Hyph#:#- ProperNoun ;  ! sananiekka-Bengt
 
 
 LEXICON RHyph
- +Cmp/Hyph#:0#- NounRoot ;
- +Cmp/Hyph#:0#- ProperNoun ;
+ +Cmp/Hyph#:#- NounRoot ;
+ +Cmp/Hyph#:#- ProperNoun ;
 
 LEXICON RNum
-      +Use/Circ+Cmp/Hyph#:%-# NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
+      +Use/Circ+Cmp/Hyph#:- NounRoot ; ! For Num Cmp Noun, vi vil ikke ha Num Cmp Num 
 
 
