@@ -1097,6 +1097,8 @@ In addition, each lexicon also points to comparative and superlative sublexica.
 
 **LEXICON a3** kamala gets +A and points to x3
 
+**LEXICON a3** like a3 except superlativ
+
 **LEXICON a4** 
 
 **LEXICON anen_odd** for even-stem-nen-adjectives, points to xnen punanen:puna
