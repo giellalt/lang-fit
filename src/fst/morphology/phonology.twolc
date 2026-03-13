@@ -914,5 +914,5 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 !       VowNotI        t _ e: h %> e           ;
 !      [VowNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti Quant Grad. Note h!
 
-!"maa-aalto"
-!%#:%- <=> VV _ VV ; where VV in Vow ;
+"maa-aalto"
+%#:%- <=> VV _ VV ; where VV in Vow ;
