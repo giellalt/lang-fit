@@ -247,7 +247,58 @@ LEXICON a3
 
 +A+Comp: 4comp ;
 
-!FRÅN 4sup och xsup
+!FRÅN 4sup och xsup men extra m
++A+Superl+Sg+Nom:^WG%>i5n # ; 
++A+Superl+Sg+Gen:%>i5mm^An K ; 
++A+Superl+Sg+Par:%>i5mp^A^A K ;
++A+Superl+Sg+Tra:%>i5mm^Aksi K ;
++A+Superl+Sg+Ill:%>i5mph^A^An K ;
++A+Superl+Sg+Ine:%>i5mm^Ass^A K ;
++A+Superl+Sg+Ela:%>i5mm^Ast^A K ;
++A+Superl+Sg+Abl:%>i5mm^Alt^A K ;
++A+Superl+Sg+All:%>i5mm^Ale K ; 
++A+Superl+Sg+Ade:%>i5mm^Al^A K ;
++A+Superl+Sg+Ess:%>i5mp^An^A K ;
+
++A+Superl+Pl+Nom:%>i5mm^At # ;
++A+Superl+Pl+Gen:%>i5mmitten K ;
++A+Superl+Pl+Par:%>i5mpi^A K ;
++A+Superl+Pl+Tra:%>i5mmiksi K ;
++A+Superl+Pl+Ill:%>i5mphiin K ;
++A+Superl+Pl+Ine:%>i5mmiss^A K ;
++A+Superl+Pl+Ela:%>i5mmist^A K ;
++A+Superl+Pl+Abl:%>i5mmilt^A K ;
++A+Superl+Pl+Ess:%>i5mpin^A K ;
++A+Superl+Pl+All:%>i5mmile K ;
++A+Superl+Pl+Ade:%>i5mmil^A K ;
+
+
+ LEXICON a3_VV 
+!! **LEXICON @LEXNAME@** like a3 except superlativ
++A+Sg+Nom:^E2I R ;
++A+Sg+Gen:^WG%>n R ;
++A: x3_sg ; 
++A+Sg+Par+Err/Orth:%>t^A PxK ; !Kolla med Elina
++A+Pl+Nom:^WG%> t_PxK ;
++A+Pl+Gen:%>i9tte n_PxK ; 
++A+Pl+Gen:%>i9e n_PxK ;
++A+Pl+Par:%>i9t^A PxK ; 
++A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
++A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
++A+Pl+Ill:^HMETA%>h^Vi2shii n_PxK ;
+!+A+Pl+Ill:^HMETA%>hi2shii n_PxK ;
++A+Pl+Ine:^WG%>i9ss^A PxK ;
++A+Pl+Ela:^WG%>i9st^A PxK ;
++A+Pl+All:^WG%>i9lle PxK ; 
++A+Pl+Ade:^WG%>i9ll^A PxK ;
++A+Pl+Abl:^WG%>i9lt^A PxK ;
++A+Pl+Tra:%>i9 TRA ;
++A+Pl+Ess:%>i9n^A PxK ;
++A+Pl+Abe:%>i9tt^A PxK ;
+
++A+Comp: 4comp ;
+
+!FRÅN 4sup och xsup !CHECK bara hänvisa dit??
 +A+Superl+Sg+Nom:^WG%>i5n # ; 
 +A+Superl+Sg+Gen:%>i5m^An K ; 
 +A+Superl+Sg+Par:%>i5mp^A^A K ;
