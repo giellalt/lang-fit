@@ -258,7 +258,7 @@ t4:s <=> Vow:+ [l|n|r] _ ä: (%^WG:0) %> [i3: | i8:] ; !preteritum ymmärtä>ymm
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
+t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 | WeakGrade | (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a:|ä:|i2:] (%^AE:0) WeakGrade [%> |%> [:Vow - :i] | Cns: | .#.] ; ! pitä>piän, piä; haitata
           u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
@@ -611,7 +611,7 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:|i9:] ; !usea>usei-  
+    [.#.|#] Cns:* RndVow (Vow:) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:|i9:] ; !usea>usei-  
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
  [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   
           Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr 
@@ -715,7 +715,7 @@ i:0 <=>
 "i:j"
 !! **RULE: @RULENAME@**
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
-        [o|ö] _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
+        [o|ö] _ k:0 Vow:0 %^WG: (Dummy:) %> :i ; ! pojissa
        [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan
       ! :Vow _ %> :Vow ; ! For i between vowels in suffix – paksu:paksujen
  
@@ -835,7 +835,7 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 %^V:i <=> i: [%^HMETA: | %^HMET2:] %> (h:)    _ :i ;
           i: [%^HMETA: | %^HMET2:] %> (h:) :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
-         [.#.|#] Cns:* RndVow+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
+         [.#.|#] Cns:* RndVow+ (Vow:) Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
          [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !silmä>silmhiin Pl+Ill
          !a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ [i9:i |i2:i ]; !after adjektiv or noun plural-i !5/2
          a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i !Testar att ta bort ovanstående för att få tillbaka seuhroin etc
@@ -914,5 +914,5 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 !       VowNotI        t _ e: h %> e           ;
 !      [VowNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti Quant Grad. Note h!
 
-"maa-aalto"
-%#:%- <=> VV _ VV ; where VV in Vow ;
+!"maa-aalto"
+!%#:%- <=> VV _ VV ; where VV in Vow ;
