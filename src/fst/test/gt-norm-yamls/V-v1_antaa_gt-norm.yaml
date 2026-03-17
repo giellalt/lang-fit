@@ -10,7 +10,7 @@ Config:
 Tests:
 
 # todo: Proofread the gold standard (below), then run analyser, then correct. 
-# Antaa Loppua Käsittää Tietää Ymmärtää Tuntea Lukea Alkaa Pittää Olla Siirtyä
+# Antaa Loppua Käsittää Tietää Ymmärtää Tuntea Lukea Alkaa Pittää Olla Siirtyä Käyttää
 # 
 
 
@@ -36,16 +36,16 @@ Tests:
      antaa+V+Act+PrfPrc+Pl+Nom: [antanheet, antahneet]
      antaa+V+Act+PrsPrc+Sg+Nom: antava
      antaa+V+Act+PrsPrc+Pl+Nom: antavat
-     antaa+V+Pass+PrsPrc+Sg+Nom: [annettava, annettavva]
-     antaa+V+Pass+PrsPrc+Pl+Nom: [annettavat, annettavvat]
+     antaa+V+Pass+PrsPrc+Sg+Nom: annettavva #annettava borttaget
+     antaa+V+Pass+PrsPrc+Pl+Nom: annettavvat #annettavat borttaget
      antaa+V+Pass+Ind+Prt: annethiin
-     antaa+V+Act+Cond+Sg1: [antaisin, antasin]
-     antaa+V+Act+Cond+Sg2: [antaisit, antasit]
-     antaa+V+Act+Cond+Sg3: [antais, antas]
-     antaa+V+Act+Cond+Pl1: [antaisimma, antasimma, antaisima, antasima]
-     antaa+V+Act+Cond+Pl2: [antaisitta, antasitta]
-     antaa+V+Act+Cond+Pl3: [antaisit, antaisiva, antaisivva, antasit, antasiva, antasivva]
-     antaa+V+Pass+Cond: [annettais, annettas]
+     antaa+V+Act+Cond+Sg1: antaisin #antasin
+     antaa+V+Act+Cond+Sg2: antaisit #antasit
+     antaa+V+Act+Cond+Sg3: antais #antas
+     antaa+V+Act+Cond+Pl1: [antaisimma, antaisima] # [antasimma, antasima]
+     antaa+V+Act+Cond+Pl2: antaisitta #antasitta
+     antaa+V+Act+Cond+Pl3: [antaisit, antaisiva, antaisivva] # [antasit, antasiva, antasivva]
+     antaa+V+Pass+Cond: annettais #annettas
      antaa+V+Act+Imprt+Sg2: anna
      antaa+V+Act+Imprt+Pl2: antakaa
      antaa+V+InfMa+Ine: antamassa
@@ -72,12 +72,12 @@ Tests:
      loppua+V+Act+Ind+Prt+Pl2: lopuitta
      loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin, loppuiva]
      loppua+V+Pass+Ind+Prt: loputhiin
-     loppua+V+Act+Cond+Sg1: [loppuisin, loppusin]
-     loppua+V+Act+Cond+Sg2: [loppuisit, loppusit]
-     loppua+V+Act+Cond+Sg3: [loppuis, loppus]
-     loppua+V+Act+Cond+Pl1: [loppuisimma, loppusimma, loppuisima, loppusima]
-     loppua+V+Act+Cond+Pl2: [loppuisitta, loppusitta]
-     loppua+V+Act+Cond+Pl3: [loppuisit, loppuisiva, loppuisivva, loppusit, loppusiva, loppusivva]
+     loppua+V+Act+Cond+Sg1: loppuisin #loppusin
+     loppua+V+Act+Cond+Sg2: loppuisit #loppusit
+     loppua+V+Act+Cond+Sg3: loppuis #loppus
+     loppua+V+Act+Cond+Pl1: loppuisimma #loppuisima, loppusima, loppusimma
+     loppua+V+Act+Cond+Pl2: loppuisitta #loppusitta
+     loppua+V+Act+Cond+Pl3: loppuisit, loppuisivva #loppuisiva, loppusit, loppusiva, loppusivva]
      loppua+V+InfE+Ine: loppuessa
      loppua+V+InfE+Ins: loppuen
      loppua+V+InfMa+Ill: [lophuun, loppuhmaan, loppumhaan]
@@ -87,13 +87,13 @@ Tests:
      loppua+V+InfMa+Abe: loppumatta
      loppua+V+Act+PrsPrc+Sg+Nom: loppuva
      loppua+V+Act+PrsPrc+Pl+Nom: loppuvat
-     loppua+V+Pass+PrsPrc+Sg+Nom: [loputtava, loputtavva]
-     loppua+V+Pass+PrsPrc+Pl+Nom: [loputtavat, loputtavvat]
+     loppua+V+Pass+PrsPrc+Sg+Nom: loputtavva #loputtava
+     loppua+V+Pass+PrsPrc+Pl+Nom: loputtavvat #loputtavat
      loppua+V+Act+PrfPrc+Sg+Nom: loppunu
      loppua+V+Act+PrfPrc+Pl+Nom: [loppuhneet, loppunheet]
      loppua+V+Pass+PrfPrc+Sg+Nom: loputtu
      loppua+V+Pass+PrfPrc+Pl+Nom: loputut
-     loppua+V+Pass+Cond: [loputtais, loputtas]
+     loppua+V+Pass+Cond: loputtais #loputtas
 
      
 #Verb - käsittää - v1_odd: # meaning 'understand'/'begripa' - GOLD
@@ -101,40 +101,40 @@ Tests:
      käsittää+V+Act+Ind+Prs+Sg1: käsitän
      käsittää+V+Act+Ind+Prs+Sg2: käsität
      käsittää+V+Act+Ind+Prs+Sg3: käsittää
-     käsittää+V+Act+Ind+Prs+Pl1: [käsitämmä, käsitämä]
+     käsittää+V+Act+Ind+Prs+Pl1: käsitämmä #käsitämä
      käsittää+V+Act+Ind+Prs+Pl2: käsitättä
-     käsittää+V+Act+Ind+Prs+Pl3: [käsittävä, käsittävvä]
+     käsittää+V+Act+Ind+Prs+Pl3: käsittävvä #käsittävä
      käsittää+V+Pass+Ind+Prs: käsitethään
      käsittää+V+Act+Ind+Prs+ConNeg: käsitä
      käsittää+V+Act+Ind+Prt+Sg1: käsitin
      käsittää+V+Act+Ind+Prt+Sg2: käsitit
      käsittää+V+Act+Ind+Prt+Sg3: käsitti
-     käsittää+V+Act+Ind+Prt+Pl1: [käsitimmä, käsitimä]
+     käsittää+V+Act+Ind+Prt+Pl1: käsitimmä #käsitimä
      käsittää+V+Act+Ind+Prt+Pl2: käsitittä
-     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin, käsittivä, käsittivvä]
+     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin, käsittivvä] #käsittivä
      käsittää+V+Pass+Ind+Prt: käsitethiin
-     käsittää+V+Act+Cond+Sg1: [käsittäisin, käsittäsin]
-     käsittää+V+Act+Cond+Sg2: [käsittäisit, käsittäsit]
-     käsittää+V+Act+Cond+Sg3: [käsittäis, käsittäs]
-     käsittää+V+Act+Cond+Pl1: [käsittäisimmä, käsittäisimä, käsittäsimmä, käsittäsimä]
-     käsittää+V+Act+Cond+Pl2: [käsittäisittä, käsittäsittä]
-     käsittää+V+Act+Cond+Pl3: [käsittäisit, käsittäisivä, käsittäsit, käsittäsivä]
+     käsittää+V+Act+Cond+Sg1: käsittäisin #käsittäsin
+     käsittää+V+Act+Cond+Sg2: käsittäisit #käsittäsit
+     käsittää+V+Act+Cond+Sg3: käsittäis #käsittäs
+     käsittää+V+Act+Cond+Pl1: käsittäisimä #[käsittäisimmä, käsittäsimmä, käsittäsimä]
+     käsittää+V+Act+Cond+Pl2: käsittäisittä #käsittäsittä
+     käsittää+V+Act+Cond+Pl3: [käsittäisit, käsittäisivä] #käsittäsit, käsittäsivä
      käsittää+V+InfE+Ine: käsittäessä
      käsittää+V+InfE+Ins: käsittäen
      käsittää+V+InfMa+Ill: [käsittähmään, käsittämhään, käsithään]
      käsittää+V+InfMa+Ine: käsittämässä
      käsittää+V+InfMa+Ela: käsittämästä
-     käsittää+V+InfMa+Ade: [käsittämällä, käsittämälä]
+     käsittää+V+InfMa+Ade: käsittämälä #käsittämällä
      käsittää+V+InfMa+Abe: käsittämättä
-     käsittää+V+Act+PrsPrc+Sg+Nom: [käsittävä, käsittävvä]
-     käsittää+V+Act+PrsPrc+Pl+Nom: [käsittävät, käsittävvät]
+     käsittää+V+Act+PrsPrc+Sg+Nom: käsittävvä #käsittävä
+     käsittää+V+Act+PrsPrc+Pl+Nom: käsittävvät #käsittävät
      käsittää+V+Pass+PrsPrc+Sg+Nom: käsitettävä
      käsittää+V+Pass+PrsPrc+Pl+Nom: käsitettävät
-     käsittää+V+Act+PrfPrc+Sg+Nom: [käsittänny, käsittäny]
+     käsittää+V+Act+PrfPrc+Sg+Nom: käsittänny #käsittäny
      käsittää+V+Act+PrfPrc+Pl+Nom: [käsittähneet, käsittänheet]
      käsittää+V+Pass+PrfPrc+Sg+Nom: käsitetty
      käsittää+V+Pass+PrfPrc+Pl+Nom: käsitetyt
-     käsittää+V+Pass+Cond: [käsitettäis, käsitettäs]
+     käsittää+V+Pass+Cond: käsitettäis #käsitettäs
 
 
 #Verb - tietää - v1_tietaa: #meaning 'know'/'veta' - GOLD

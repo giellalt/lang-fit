@@ -55,7 +55,7 @@ Tests:
      arvata+V+Act+PrfPrc+Pl+Nom: [arvahneet, arvanheet]
      arvata+V+Pass+PrfPrc+Sg+Nom: arvattu 
      arvata+V+Pass+PrfPrc+Pl+Nom: arvatut 
-     arvata+V+Pass+Cond: [arvattais, arvattas]   
+     arvata+V+Pass+Cond: arvattais   #arvattas
 
 
      #verb - planeerata:planeera - v2_ata - FYLL PÅ huomata v2_odd, leipota v2_uta
@@ -100,7 +100,7 @@ Tests:
      planeerata+V+Act+PrfPrc+Pl+Nom: [planeerahneet, planeeranheet]
      planeerata+V+Pass+PrfPrc+Sg+Nom: planeerattu
      planeerata+V+Pass+PrfPrc+Pl+Nom: planeeratut
-     planeerata+V+Pass+Cond: [planeerattais, planeerattas]
+     planeerata+V+Pass+Cond: planeerattais #planeerattas
 
      #verb - hävetä:häpe v2_uta
      hävetä+V+Inf: hävetä
@@ -140,7 +140,7 @@ Tests:
      hävetä+V+Act+PrfPrc+Pl+Nom: [hävehneet, hävenheet]
      hävetä+V+Pass+PrfPrc+Sg+Nom: hävetty
      hävetä+V+Pass+PrfPrc+Pl+Nom: hävetyt
-     hävetä+V+Pass+Cond: [hävettäis, hävettäs]
+     hävetä+V+Pass+Cond: hävettäis #hävettäs
 
      #verb - leipota:leippo v2_uta - FYLL PÅ huomata v2_odd
      leipota+V+Inf: leipota
@@ -180,7 +180,7 @@ Tests:
      leipota+V+Act+PrfPrc+Pl+Nom: [leipohneet, leiponheet]
      leipota+V+Pass+PrfPrc+Sg+Nom: leipottu
      leipota+V+Pass+PrfPrc+Pl+Nom: leipotut
-     leipota+V+Pass+Cond: [leipottais, leipottas]
+     leipota+V+Pass+Cond: leipottais #leipottas
 
      #Verb myrskytä - # meaning '' - '' - GOLD  
      myrskytä+V+Inf: myrskytä
@@ -220,7 +220,7 @@ Tests:
      myrskytä+V+Act+PrfPrc+Pl+Nom: [myrskyhneet, myrskynheet]
      myrskytä+V+Pass+PrfPrc+Sg+Nom: myrskytty
      myrskytä+V+Pass+PrfPrc+Pl+Nom: myrskytyt
-     myrskytä+V+Pass+Cond: [myrskyttäis, myrskyttäs]
+     myrskytä+V+Pass+Cond: myrskyttäis #myrskyttäs
 
      #Verb 'haluta' - # meaning '' - '' - GOLD
      haluta+V+Inf: haluta
@@ -260,7 +260,7 @@ Tests:
      haluta+V+Act+PrfPrc+Pl+Nom: [haluhneet, halunheet]
      haluta+V+Pass+PrfPrc+Sg+Nom: haluttu
      haluta+V+Pass+PrfPrc+Pl+Nom: halutut
-     haluta+V+Pass+Cond: [haluttais, haluttas]
+     haluta+V+Pass+Cond: haluttais #haluttas
 
 
      #Verb 'kohata' - # meaning '' - '' v2_ata_odd - GOLD
@@ -301,7 +301,7 @@ Tests:
      kohata+V+Act+PrfPrc+Pl+Nom: [kohahneet, kohanheet]
      kohata+V+Pass+PrfPrc+Sg+Nom: kohattu
      kohata+V+Pass+PrfPrc+Pl+Nom: kohatut
-     kohata+V+Pass+Cond: [kohattais, kohattas]
+     kohata+V+Pass+Cond: kohattais #kohattas
 
 
      #Verb 'leekata' - # meaning '' - '' v2_ata_odd - GOLD
@@ -342,7 +342,7 @@ Tests:
      leekata+V+Act+PrfPrc+Pl+Nom: [leekahneet, leekanheet]
      leekata+V+Pass+PrfPrc+Sg+Nom: leekattu
      leekata+V+Pass+PrfPrc+Pl+Nom: leekatut
-     leekata+V+Pass+Cond: [leekattais, leekattas]
+     leekata+V+Pass+Cond: leekattais #leekattas
 
      #Verb 'pakata' - # meaning '' - '' v2_ata_odd - GOLD
      pakata+V+Inf: pakata
@@ -382,4 +382,4 @@ Tests:
      pakata+V+Act+PrfPrc+Pl+Nom: [pakahneet, pakanheet]
      pakata+V+Pass+PrfPrc+Sg+Nom: pakattu
      pakata+V+Pass+PrfPrc+Pl+Nom: pakatut
-     pakata+V+Pass+Cond: [pakattais, pakattas]
+     pakata+V+Pass+Cond: pakattais #pakattas
