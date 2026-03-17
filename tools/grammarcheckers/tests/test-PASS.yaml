@@ -1,0 +1,7 @@
+Config:
+  Spec: ../pipespec.xml
+  Variants: [fitgram]
+
+Tests:
+  - "Hanskila oon kaksi {kala}£{kallaa}."
+  
