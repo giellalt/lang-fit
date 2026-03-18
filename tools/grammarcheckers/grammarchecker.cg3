@@ -3,7 +3,7 @@
 #%# # = merke for testing, kommentert ut parantesar og stavekontroll
 
 # Divvun & Giellatekno - open source grammars for Sámi and other languages
-# Copyright © 2000-2017 UiT The arctic University of Norway
+# Copyright © 2000-2026 UiT The arctic University of Norway
 # http://giellatekno.uit.no & http://divvun.no
 #
 # This program is free software; you can redistribute and/or modify
@@ -614,12 +614,16 @@ SECTION
 	 # Sg1 SUBJ
 
 ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET (V Act Sg3) IF
-	(*-1 ("mie" Pron Pers Sg1 Nom) BARRIER (V Sg1) OR SGNOM);
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
 COPY:msyn-agr-sg3-sg1 (Sg1 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg1;
-ADDRELATION:msyn-agr-sg3-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg3-sg1));
 
-#$ Mie tullee
-#% Mie tulen
+ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-sg3-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-sg3-sg1 ($2 LEFT) (V &msyn-agr-sg3-sg1) TO (*-1 (Pron &msyn-agr-sg3-sg1));
+
+	#$ Mie tullee.
+	#$ Mie nyt tullee.
+	#% Mie tulen
 
 ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
 	(-1C Pron + Sg1 + Nom)
