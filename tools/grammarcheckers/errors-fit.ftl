@@ -40,13 +40,13 @@ msyn-agr-pl3-sg3 = Verbi yksikössä, ei monikossa
 msyn-agr-prfprcsg-prfprcpl = Partisiipin monikkomuoto
     .desc = Jos partisiippi, kuten tässä {$1}, esiintyy monikossa, niin itse partisiipin on oltava monikossa.
 
-msyn-agr-pl3-pl1 = bla
+msyn-agr-pl3-pl1 = Verbi on väärässä persoonassa
     .desc = bla
 
-msyn-agr-sg3-sg1 = bla
+msyn-agr-sg3-sg1 = Verbi on väärässä persoonassa
     .desc = bla
 
-msyn-agr-sg2-sg1 = bla
+msyn-agr-sg2-sg1 = Verbi on väärässä persoonassa
     .desc = bla
 
 msyn-po-notgen = bla
