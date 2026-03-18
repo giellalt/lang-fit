@@ -466,7 +466,7 @@ LEXICON KK ! geminate clitics: selvästikki
 LEXICON K
 # ;
 +Qst:%>k^O # ;
-+Qst+Err/Orth:%>k^Os # ;
++Qst:%>k^Os # ; !variantform menenkös
 +Qst:%>ks # ;
 +Foc/kin:%>ki # ;
 +Foc/kin:%>kin # ;
