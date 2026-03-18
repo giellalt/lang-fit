@@ -1,0 +1,9 @@
+Config:
+  Spec: ../pipespec.xml
+  Variants: [fitgram-dev]
+
+Tests:
+  - "{Mie tullee}£{Mie tulen}."
+  - "{Mie nyt tullee}£{Mie nyt tulen}."
+  - "Mie tulen."
+  
