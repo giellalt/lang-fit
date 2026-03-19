@@ -16,7 +16,7 @@
 !! ## The lemma list itself
 
 LEXICON AdjectiveRoot !!≈ @CODE@
-
+tillf:tillf a1_e ;
 tuttu a1 ;  
 kuiva a1 ; 
 pruuni a1 ; 
@@ -26,13 +26,13 @@ kova a1 ;
 pitkä:pi a1_pitka ;
 fiini a1 ;
 paksu a1 ;
-vanha:vanha a1_e ;
+vanha:vanha a1 ;
 komea a3_VV ;  
 muikea a3_VV ; 
 privaatti a3 ;  
 pieni:pien a5_pieni ;  
 moni:mon a5_moni ;
-vanhaa:vanhaa a1_aa ;  
+vanhaa:vanha a1_aa ;  
 ikivanhaa:ikivanhaa ax ;
 vinhaa:vinhaa ax ;
 vajaa:vajaa ax ;
@@ -1762,7 +1762,7 @@ siivo:siivo ax ;
 luononsiivo:luononsiivo ax ;
 ahas:ahta aas ;
 vaitelihas:vaiteliha aas ;
-puhas:puha aas ;
+puhas:puhta aas ;
 hias:hita a_s ;
 puhelias:puhelia aas ;
 laulelias:laulelia aas ;

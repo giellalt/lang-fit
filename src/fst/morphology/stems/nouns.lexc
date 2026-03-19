@@ -14,7 +14,7 @@
 !! ### Vowel stems
 !! * n0 = 1syll nouns: maa, suu, tie
 !! * n1 = 2syll ordinary nouns: talo
-!! * n1_jen = for the bisyallbic, pointing to sg, pl PLUS plural genitive ending -jen
+!! * n1_jen = for the bisyallbic, pointing to sg, pl PLUS plural genitive ending -jen/ien
 !! * n_e = e-nouns; liike, säe, including odd-syll: karpale > karpalheila (not -lla after 2 vow)
 !! * n_vehke = n_e PLUS variant form without -h: vehkheen AND vehkeen
 !! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
@@ -1061,7 +1061,7 @@ lika:lika n1 ;
 pihalika:pihalika nx ;
 vesilika:vesilika nx ;
 niskanikama:niska#nikama n3 ;
-poika:poika n1 ;
+poika:poika n1_jen ;
 poikanen:poika 3nen ;
 vanhaapoika:vanhaa#poika n1 ;
 pinnapoika:pinna#poika n1 ;
@@ -9026,6 +9026,7 @@ peräsihti:perä#sihti n5_troppi ;
 lankavihti:lanka#vihti n5_troppi ;
 villavihti:villa#vihti n5_troppi ;
 vauhti:vauhti n5_troppi ;
+vauhti:vauht2i n5_troppi ;
 luhti:luhti n5_troppi ;
 jouhti:jouhti n5_troppi ;
 mouhti:mouhti n5_troppi ;
