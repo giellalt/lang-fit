@@ -450,15 +450,17 @@ LEXICON anen_even
 
 
 LEXICON aas  
-!! **LEXICON @LEXNAME@**  has no comparative or superlative , just points to xnas
+!! **LEXICON @LEXNAME@**  !TODO! Vilka ska ligga här, och hur ska Comp&Superlativ se ut?
 +A: xnas ;
 +A+Sg+Nom:^WGs R ;
 +A+Sg+Gen:^HMETA%>h^V^Vn R ;
 +A+Sg+Gen:^HMET2%>h^V^Vn R ;  
 !+A+Sg+Gen:%>^Vn R ; 
 +A+Comp:^HMETA%>hi5i5 3comp ;
-+A+Comp:^HMET2%>hi5i5 3comp ;
-+A+Superl:e 3sup ; 
++A+Comp:^HMET2%>hi5i5 3comp ; !kauhniimpia etc
++A+Comp:^HMETA%>h^Ai5 3comp ; !puhtaiman etc - another sublex?
++A+Comp:^HMET2%>h^Ai5 3comp ; 
++A+Superl:e 3sup ;  
 
 LEXICON a_s  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
