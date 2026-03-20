@@ -160,13 +160,19 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon because of changes in dift
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
 +V+Act+Cond+Sg1:etä%>i4si4n K ; ! 
++V+Act+Cond+Sg1+Err/Orth:etä%>si4n K ; ! 
 +V+Act+Cond+Sg2:etä%>i4si4t K ;
++V+Act+Cond+Sg2+Err/Orth:etä%>si4t K ;
 +V+Act+Cond+Sg3:etä%>i4s K ;
-+V+Act+Cond+Pl1+Err/Orth:e%>si4mm^A K ;
++V+Act+Cond+Sg3+Err/Orth:etä%>s K ;
++V+Act+Cond+Pl1+Err/Orth:etä%>si4mm^A K ;
 +V+Act+Cond+Pl1:etä%>i4si4mm^A K ;
 +V+Act+Cond+Pl2:etä%>i4si4tt^A K ;
++V+Act+Cond+Pl2+Err/Orth:etä%>si4tt^A K ;
 +V+Act+Cond+Pl3:etä%>i4si4t K ;
 +V+Act+Cond+Pl3:etä%>i4si4vv^A K ;
++V+Act+Cond+Pl3+Err/Orth:etä%>si4t K ;
++V+Act+Cond+Pl3+Err/Orth:etä%>si4vv^A K ;
 +V+Act+Cond+ConNeg:etä%>i4s K ;
 +V+Pass+Cond:e%>tt^A%>i4s K ; 
 
