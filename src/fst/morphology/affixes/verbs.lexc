@@ -441,9 +441,9 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 +V+Pass+Ind+Prt+ConNeg:%^WG%>t^U K ;
 
 +V+Act+Cond+Sg1:ta%>i4sin K ; !taitaisin
-+V+Act+Cond+Sg1:ta%>si4n K ; !taitasin
++V+Act+Cond+Sg1+Err/Orth:ta%>si4n K ; !taitasin
 +V+Act+Cond+Sg2:ta%>i4sit K ; !taitaisit
-+V+Act+Cond+Sg2:ta%>si4t K ;
++V+Act+Cond+Sg2+Err/Orth:ta%>si4t K ;
 +V+Act+Cond+Sg3:ta%>i4s K ;
 +V+Act+Cond+Sg3+Err/Orth:ta%>s K ;
 +V+Act+Cond+Sg3+Err/Orth:ta%>i4si K ; 
