@@ -1257,7 +1257,7 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 +V+Act+Ind+Prt+Pl3:%>thiin K ;
 
 +V+Act+Cond:%>i4s 2cond ;
-+V+Act+Cond+Pl1:>%i4s%>imm^A K ;
++V+Act+Cond+Pl1:%>i4s%>imm^A K ;
 +V+Act+Cond+Pl3:%>i4s%>it K ;
 +V+Act+Cond+Pl3:%>i4s%>iv^A K ;
 
