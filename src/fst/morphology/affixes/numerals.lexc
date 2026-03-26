@@ -615,14 +615,14 @@ LEXICON NUM_COMPOUND
 
 
 !LEXICON COLLTAG
-!          +N+Coll+Pl+Nom:%>%^DISIMPh       # ;
+!          +N+Coll+Pl+Nom:%>^DISIMPh       # ;
 !          +N+Coll+Pl+Acc:%>idie            # ;
-!          +N+Coll+Pl+Gen:%>%^DISIMPi       # ;
+!          +N+Coll+Pl+Gen:%>^DISIMPi       # ;
 !          +N+Coll+Pl+Ill:%>idie            # ;
 !          +N+Coll+Pl+Ine:%>inie            # ;
 !          +N+Coll+Pl+Ela:%>ijstie          # ;
-!          +N+Coll+Pl+Com:%>%^DISIMPigujmie # ;
-! +N+Coll+Pl+Com+Err/Orth:%>%^DISIMPigyjmie # ;
+!          +N+Coll+Pl+Com:%>^DISIMPigujmie # ;
+! +N+Coll+Pl+Com+Err/Orth:%>^DISIMPigyjmie # ;
 !             +N+Coll+Ess:%>inie            # ;
 
 LEXICON dateyearcase_nullsuff_w_dot

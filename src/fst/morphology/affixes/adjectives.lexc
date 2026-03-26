@@ -26,7 +26,7 @@ LEXICON a1
 +A+Sg+Gen:^WG%>n R ;  
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
-+A+Comp:%^AE 3comp ; !!≈ * @CODE@ 
++A+Comp:^AE 3comp ; !!≈ * @CODE@ 
 +A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a1_ta 
@@ -68,8 +68,8 @@ LEXICON a1_aa
 +A+Pl+Tra:%>i2 TRA ;
 +A+Pl+Ess:%>i2n^A PxK ; 
 +A+Pl+Abe:%>i2tt^A PxK ;
-+A+Comp:%^AEe 3comp ; 
-+A+Comp+Pl+Gen:%^AEempi2e n_PxK ;
++A+Comp:^AEe 3comp ; 
++A+Comp+Pl+Gen:^AEempi2e n_PxK ;
 
 +A+Superl+Sg+Nom:%>i5i5n # ; 
 +A+Superl+Sg+Ess:%>i5i5mp^Ann^A K ; !
@@ -106,8 +106,8 @@ LEXICON a1_kova
 +A+Sg+Gen:^WG%>n R ;  
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
-+A+Comp:%^AE 3comp ; 
-+A+Comp+Pl+Gen:%^AE%>mpi5en K ;
++A+Comp:^AE 3comp ; 
++A+Comp+Pl+Gen:^AE%>mpi5en K ;
 +A+Superl: 3sup ; 
 +A+Superl:%>i5 3sup ; 
 +A+Superl+Pl+Gen:%>i5%>i5mpien K ;
@@ -118,21 +118,21 @@ a1 ;
 +A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
 +A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
 +A+Pl+Par:^WG^IDEL%>i2t^A PxK ; ! även paksuita
-+A+Comp+Pl+Gen:%^AE%>mpi2en K ;
++A+Comp+Pl+Gen:^AE%>mpi2en K ;
 +A+Superl+Sg+Nom:^WG%>i5in K ; 
 +A+Superl+Pl+Gen:^WG%>i5mpien K ; 
 
-+A+Comp+Sg+Nom+Err/Orth:%^AEe%>mpi K ;
-+A+Comp+Sg+Gen+Err/Orth:%^AEe%>man K ;
-+A+Comp+Sg+Ade+Err/Orth:%^AEe%>malla K ;
-+A+Comp+Sg+Abl+Err/Orth:%^AEe%>malta K ;
-+A+Comp+Sg+Tra+Err/Orth:%^AEe%>maksi K ;
-+A+Comp+Sg+Tra+Err/Orth:%^AEe%>maks K ;
++A+Comp+Sg+Nom+Err/Orth:^AEe%>mpi K ;
++A+Comp+Sg+Gen+Err/Orth:^AEe%>man K ;
++A+Comp+Sg+Ade+Err/Orth:^AEe%>malla K ;
++A+Comp+Sg+Abl+Err/Orth:^AEe%>malta K ;
++A+Comp+Sg+Tra+Err/Orth:^AEe%>maksi K ;
++A+Comp+Sg+Tra+Err/Orth:^AEe%>maks K ;
 
-+A+Comp+Pl+Gen+Err/Orth:%^AEe%>mi2tten K ;
-+A+Comp+Pl+Par+Err/Orth:%^AEe%>mpi2a K ;
-+A+Comp+Pl+Ill+Err/Orth:%^AEe%>mphiin K ;
-+A+Comp+Pl+Ade+Err/Orth:%^AEe%>milla K ;
++A+Comp+Pl+Gen+Err/Orth:^AEe%>mi2tten K ;
++A+Comp+Pl+Par+Err/Orth:^AEe%>mpi2a K ;
++A+Comp+Pl+Ill+Err/Orth:^AEe%>mphiin K ;
++A+Comp+Pl+Ade+Err/Orth:^AEe%>milla K ;
 
 LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
@@ -265,7 +265,7 @@ LEXICON a_vasen
 +A+Pl+Ess:%>mpi2n^A K ; 
 +A+Pl+Abe:%>mi2tt^A K ; 
 
-!+A+Comp:%^AE 3comp ;
+!+A+Comp:^AE 3comp ;
 +A+Comp: 3comp ;
 +A+Comp+Sg+Ess:%>mp^An^A K ;
 +A+Comp+Pl+Gen:%>mpien K ; 

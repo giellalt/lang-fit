@@ -1448,18 +1448,18 @@ LEXICON Px
 !! **LEXICON @LEXNAME@**
  +PxSg1:%>ni    K ;
  +PxSg2:%>sti   K ;
- +PxSg3:%>ns%^A K ; !ns%^A varför %?
+ +PxSg3:%>ns^A K ; !ns^A varför %?
  +PxPl1:%>mm^A  K ; ! NB! -m^A ei hoidettu
  +PxPl2:%>nn^A  K ; ! NB! -n^A ei hoidettu
- +PxPl3:%>ns%^A K ; !ns%^A 
+ +PxPl3:%>ns^A K ; !ns^A 
 
 
 LEXICON Px-Vn
 !! **LEXICON @LEXNAME@**
- +PxSg3:%>%^Vn K ; ! 
+ +PxSg3:%>^Vn K ; ! 
  +PxSg3:^HMETA%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
  +PxSg3:^HMET2%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
- +PxPl3:%>%^Vn K ;
+ +PxPl3:%>^Vn K ;
 
 LEXICON n5_troppi
 !! **LEXICON @LEXNAME@**
