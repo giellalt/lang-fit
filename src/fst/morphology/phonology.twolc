@@ -25,6 +25,7 @@ i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
+i6:i      !!= * @CODE@ = i that doesn't change/drop (aika)
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k !mettä > mettän etc
@@ -50,7 +51,7 @@ Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^ID
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
-NeutralVowel   = e i               i2 i3 i4 i5 i9 i8 E I ;           !!= * @CODE@ 
+NeutralVowel   = e i               i2 i3 i4 i5 i6 i9 i8 E I ;           !!= * @CODE@ 
 FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ; !!= * @CODE@ 
 BackVowel      =           a o u å                       A O U Å   ; !!= * @CODE@ 
 RndVow   =     y   ö   o u å                 Y   Ö   O U Å   ; !!= * @CODE@ 
@@ -143,6 +144,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen 
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin
         ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
+        i6:i _ Vow: %^WG: ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
 
 "k4:j"
@@ -627,7 +629,7 @@ a:0 <=>                                                          _ [%^HMETA: | %
 
 "a:o when nonrounded root vowel and before i"
 !! **RULE: @RULENAME@**
-a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
+a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|i6:i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
         [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|i3:|i8:|j] ; ! see fkv
         [.#.|#] ((Cns) Vow:+) Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa, runoilija>runoilijoissa; 3-syll with last vow=i
         [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:|%^A2O:) %> i2: ; !3-syll with lnr
@@ -716,7 +718,7 @@ i:0 <=>
 !! **RULE: @RULENAME@**
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
         [o|ö] _ k:0 Vow:0 %^WG: (Dummy:) %> :i ; ! pojissa
-       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan
+       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan NB also variantform where aika:aijan!
       ! :Vow _ %> :Vow ; ! For i between vowels in suffix – paksu:paksujen
  
 "i2:j"
