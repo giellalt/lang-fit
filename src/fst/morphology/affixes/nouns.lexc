@@ -18,19 +18,18 @@
 !! * n_et = like n_e but including variant forms with -t in Sg+Nom; venet:vene, käärmet:käärme etc
 !! * n_kevät = only kevät:kevä
 !! * n3 = odd-syllabic ordinary nouns: hopea, ulvonta (NB: ulvonnoile but käräjille)
-!! * n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata
-!! * n3_äö = odd-syllabic ordinary nouns with ä>ö-change in plural (tekijä>tekijöiltä)
 !! * n3_ta = for 3-syll words ending with two different vowels not a/ä, like n3 EXCEPT sing partitive: huomio>huomiota
+!! * n3_asia = like n3 PLUS singular partitive -ta; asia > asiaa, asiata (= like n3_ta but both variants allowed)
+!! * n3_ä2ö = odd-syllabic ordinary nouns with ä>ö-change in plural (tekijä:tekij>tekijöiltä)
 !! * n3_lma = odd-syll nouns with a-drop in pl. AND double-cns (cf. sanonta>sanonoissa): ohjelma>ohjelmissa
 
-!! ### Stems for -i-words
+!! ### Stems for -i-words, vowel AND consonant
 !! * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
 !! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll)
 !! * n5_kasi = käsi:kä > käen > kättä (2syll)
-!! * n5_troppi = 2syll nouns with i-stem; merkki, väri, äiti; in plural BOTH i-stem and e-stem: äiti:äiti>äitile, äiteile
+!! * n5_troppi = 2syll nouns with i-stem; merkki:merkki, väri, äiti etc (in Pl+Gen & Pl+Par BOTH i-stem and e-stem)
 !! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
-!! * n5_toveri like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
-!! * n5_i_pl = plural continuation lexicon for -i-words with only e-stem in plural (ie like plural of n5_toveri)
+!! * n5_troppi_pl = plural continuation lexicon n5_troppi & -odd
 
 !! ### Special cases for -i-words
 !! * n5_lumi = lumi:lu > lumen > lunta (2syll)
@@ -427,7 +426,7 @@ LEXICON x3_pl
  +Pl+Abe:%>i2tt^A PxK ;
 
  
-LEXICON n3_äö 
+LEXICON n3_ä2ö 
 !! **LEXICON @LEXNAME@**  odd-syllabic: kanava
  +N:ä  x3_sg ;
  +N:  x3_äö_pl ;
@@ -686,50 +685,12 @@ LEXICON n5_lapsi
 +N+Pl+Tra:psi TRA ;
 +N+Pl+Abe:ps%>itt^A PxK ;
 
-
-LEXICON n5_toveri
-!! **LEXICON @LEXNAME@** like n5_troppi_odd in singular, but only one stem in plural #TODO: needed, and if so also even?
-!+N: x1_sg ;
-+N+Nom: R ;
-+N+Sg+Gen:^WG%>n R ;
-+N+Sg+Nom: PxK ; 
-+N+Sg+Gen:^WG%> n_PxK ; 
-+N+Sg+Par:%>^A PxK ; 
-+N+Sg+Ill:^HMETA%>h^V^V n_PxK ;  
-+N+Sg+Ill:^HMET2%>h^V^V n_PxK ;  
-+N+Sg+Ine:^WG%>ss^A PxK ;      
-+N+Sg+Ela:^WG%>st^A PxK ;      
-+N+Sg+All:^WG%>lle PxxK ;      
-+N+Sg+Ade:^WG%>ll^A PxK ;      
-+N+Sg+Abl:^WG%>lt^A PxK ;      
-+N+Sg+Tra:^WG TRA ;          
-+N+Sg+Ess:%>nn^A PxK ;       
-+N+Sg+Abe:^WG%>tt^A PxK ;    
-
-+N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Par:%>^A PxK ; !toveria
-+N+Pl+Par:^IDEL%>e%>it^A PxK ; !tovereita
-+N+Pl+Gen:%>e n_PxK ; !toverien
-!+N+Pl+Gen:^WG%>tte n_PxK ;! NEEDED?
-+N+Pl+Gen:^IDEL%>e%>itte n_PxK ;!tovereitten
-+N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
-+N+Pl+Ill:^HMET2%>h^Vi n_PxK ;
-+N+Pl+Ine:^IDEL%>e^WG%>iss^A PxK ;
-+N+Pl+Ela:^IDEL%>e^WG%>ist^A PxK ;
-+N+Pl+All:^IDEL%>e^WG%>ile PxxK ;
-+N+Pl+Ade:^IDEL%>e^WG%>il^A PxK ;
-+N+Pl+Abl:^IDEL%>e^WG%>ilt^A PxK ;
-+N+Pl+Tra:^IDEL%>e^WG%>i TRA ; 
-+N+Pl+Ess:^IDEL%>e%>in^A PxK ; !malmina, äitinä
-+N+Pl+Abe:^IDEL%>e^WG%>itt^A PxK ;
-
-
 LEXICON n5_nuoret_pl !Temp lexica?
 !! **LEXICON @LEXNAME@** same as n1_pl except Pl+Gen: nuoret>nuorten 
 :e n1_pl ;
 +N+Pl+Gen:%>te n_PxK ;
 
-LEXICON n5_i_pl
+LEXICON n5_troppi_pl
 !! **LEXICON @LEXNAME@** cont lexica for type n1-words ending with -i
 +N: x5_i_pl ;
 
@@ -1480,19 +1441,18 @@ LEXICON n5_troppi
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
 +N+Pl+Nom:^WG%> t_PxK ;
-!+N+Pl+Gen:^WG^IDEL%>i2tte n_PxK ; ! nu: troppitten rätt: tropitten
-!+N+Pl+Gen:^IDEL%>i2e n_PxK ;
 +N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
-+N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
-+N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine:^WG%>ss^A PxK ;
-+N+Pl+Ela:^WG%>st^A PxxK ;
-+N+Pl+All:^WG%>le PxK ;
-+N+Pl+Ade:^WG%>l^A PxK ;
-+N+Pl+Abl:^WG%>lt^A PxK ;
-+N+Pl+Tra:^WG%> TRA ;
-+N+Pl+Ess:%>n^A PxK ;     ! nu rätt: troppina
-+N+Pl+Abe:^WG%>tt^A PxK ;
+!Lägg in som Err/Orth:
++N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
++N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
++N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
++N+Pl+Ela+Err/Orth:^WG%>st^A PxxK ;
++N+Pl+All+Err/Orth:^WG%>le PxK ;
++N+Pl+Ade+Err/Orth:^WG%>l^A PxK ;
++N+Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
++N+Pl+Tra+Err/Orth:^WG%> TRA ;
++N+Pl+Ess+Err/Orth:%>n^A PxK ;     ! nu rätt: troppina
++N+Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
 
 !x5_ie_pl ; !PLUS variantform med e i plural!
 +N: x5_i_pl ;
@@ -1519,16 +1479,17 @@ LEXICON n5_troppi_odd
 +N+Pl+Nom:^WG%> t_PxK ;
 +N+Pl+Gen+Err/Orth:^IDEL%>i2e n_PxK ;
 +N+Pl+Par:%>^A PxK ; ! 
-+N+Pl+Ill:^HMETA%>h^Vi n_PxK ;
-+N+Pl+Ill:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine:^WG%>ss^A PxK ;
-+N+Pl+Ela:^WG%>st^A PxK ;
-+N+Pl+All:^WG%>lle PxxK ;
-+N+Pl+Ade:^WG%>ll^A PxK ;
-+N+Pl+Abl:^WG%>lt^A PxK ;
-+N+Pl+Tra:^WG%> TRA ;
-+N+Pl+Ess:%>nn^A PxK ;     !
-+N+Pl+Abe:^WG%>tt^A PxK ;
+!Lägg in som +Err/Orth:
++N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
++N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
++N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
++N+Pl+Ela+Err/Orth:^WG%>st^A PxK ;
++N+Pl+All+Err/Orth:^WG%>lle PxxK ;
++N+Pl+Ade+Err/Orth:^WG%>ll^A PxK ;
++N+Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
++N+Pl+Tra+Err/Orth:^WG%> TRA ;
++N+Pl+Ess+Err/Orth:%>nn^A PxK ;     !
++N+Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
 
 !x5_ie_pl ; !PLUS variantform med e i plural!
 +N: x5_i_pl ;

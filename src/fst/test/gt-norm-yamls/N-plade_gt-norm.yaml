@@ -72,26 +72,26 @@ Tests:
     asepuu+N+Pl+Ade: asepuila
     mäkivyöt+N+Pl+Ade: mäkivöilä
     takkaa-ajo+N+Pl+Ade: takkaa-ajoila
-    a-malmi+N+Pl+Ade: [a-malmila, a-malmeila]
+    a-malmi+N+Pl+Ade: a-malmeila #[a-malmila]
     ääkkä+N+Pl+Ade: ääkilä
     aalto+N+Pl+Ade: aaloila
-    abortti+N+Pl+Ade: [abortila, aborteila]
+    abortti+N+Pl+Ade: aborteila #[abortila]
     aho+N+Pl+Ade: ahoila
-    äijäfaari+N+Pl+Ade: [äijäfaarila, äijäfaareila]
+    äijäfaari+N+Pl+Ade: äijäfaareila #[äijäfaarila]
     hamut+N+Pl+Ade: hamuila
     aihe+N+Pl+Ade: aihheila
-    äile+N+Pl+Ade: [äilheilä, äihleilä]
-    aine+N+Pl+Ade: [ainheila, aihneila]
+    äile+N+Pl+Ade: [äihleilä, äilheilä]
+    aine+N+Pl+Ade: [aihneila, ainheila]
     alote+N+Pl+Ade: alotheila
     alue+N+Pl+Ade: aluheila
     ikenheet+N+Pl+Ade: [ikenheilä, ikehneilä]
     akleija+N+Pl+Ade: akleijoila
-    äkseerinki+N+Pl+Ade: [äkseeringilä, äkseerinkeilä]
+    äkseerinki+N+Pl+Ade: äkseerinkeilä #[äkseeringilä]
     almunakka+N+Pl+Ade: almunakoila
-    alttari+N+Pl+Ade: [alttarilla, alttareila]
+    alttari+N+Pl+Ade: alttareila #[alttarilla]
     ämmäkkö+N+Pl+Ade: ämmäköilä
     #ammunta+N+Pl+Ade: ammunoila
-    kamari+N+Pl+Ade: [kamarilla, kamareila]
+    kamari+N+Pl+Ade: kamareila #[kamarilla]
     ääri+N+Pl+Ade: äärilä
     äitiväki+N+Pl+Ade: äitiväilä
     ehontähti+N+Pl+Ade: ehontähilä
@@ -135,12 +135,12 @@ Tests:
     lippanen+N+Pl+Ade: lippasilla
     Antinpäivä+N+Pl+Ade: Antinpäivilä
     Kruunu+N+Pl+Ade: Kruunuila
-    Kyriiri+N+Pl+Ade: [Kyriirillä, Kyriireilä]
+    Kyriiri+N+Pl+Ade: Kyriireilä #[Kyriirillä]
     #Laurina+N+Pl+Ade: Laurinaila
     tavara+N+Pl+Ade: tavaroila
     Mikkelinpäivä+N+Pl+Ade: Mikkelinpäivilä
     norrlänska+N+Pl+Ade: norrlänskoila
-    TV-masti+N+Pl+Ade: [TV-mastila, TV-masteila]
+    TV-masti+N+Pl+Ade: TV-masteila #[TV-mastila]
     äänensävy+N+Pl+Ade: äänensävyilä
-    alunastifti+N+Pl+Ade: [alunastiftilä, alunastifteilä]
+    alunastifti+N+Pl+Ade: alunastifteilä #[alunastiftilä]
     romani chib+N+Pl+Ade: romani chibilä
