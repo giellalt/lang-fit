@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - käynti: # 7 x contlex sg par -- kontrollerad av Elina
+    käynti+N+Sg+Nom: käynti
+    käynti+N+Sg+Gen: käynin
+    käynti+N+Sg+Par: käyntiä
+    käynti+N+Sg+Tra: käyniksi
+    käynti+N+Sg+Abe: käynittä
+    käynti+N+Sg+Ine: käynissä
+    käynti+N+Sg+Ela: käynistä
+    käynti+N+Sg+Ill: käynthiin
+    käynti+N+Sg+Ade: käynilä
+    käynti+N+Sg+Abl: käyniltä
+    käynti+N+Sg+All: käynile
+    käynti+N+Sg+Ess: käyntinä
+    käynti+N+Pl+Nom: käynit
+    käynti+N+Pl+Gen: [käynitten, käyntien]
+    käynti+N+Pl+Par: [käyntejä, käyntiä]
+    käynti+N+Pl+Tra: käyneiksi
+    käynti+N+Pl+Abe: käyneittä
+    käynti+N+Pl+Ine: käyneissä
+    käynti+N+Pl+Ela: käyneistä
+    käynti+N+Pl+Ill: käynthein
+    käynti+N+Pl+Ade: käyneilä
+    käynti+N+Pl+Abl: käyneiltä
+    käynti+N+Pl+All: käyneile
+    käynti+N+Pl+Ess: käynteinä
