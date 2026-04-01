@@ -56,15 +56,15 @@ cat $MISSING | awk '{print ("^" $1 ":")}' > $FILTER
 
 echo ""
 echo '#### STEMS:'
-egrep --color -f $FILTER src/fst/stems/${TYPE}.lexc 
+egrep --color -f $FILTER src/fst/morphology/stems/${TYPE}.lexc 
 
 echo ""
 echo '#### CONTINUATION LEXICA:'
-egrep -f $FILTER src/fst/stems/${TYPE}.lexc | awk '{print $2}' | sort | uniq -c | sort -nr --key=1,1
+egrep -f $FILTER src/fst/morphology/stems/${TYPE}.lexc | awk '{print $2}' | sort | uniq -c | sort -nr --key=1,1
 
 ### save stem file
 OUT=test/src/morphology/missing_${TYPE}_lemmas_stems.txt
-egrep --color -f $FILTER src/fst/stems/${TYPE}.lexc > $OUT
+egrep --color -f $FILTER src/fst/morphology/stems/${TYPE}.lexc > $OUT
 
 echo ""
 echo ""
