@@ -5,35 +5,40 @@ on:
     branches:
       - 'main'
 jobs:
-  build-and-docs:
+  generate-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           repository: giellalt/giella-core
           path: giella-core
-      - uses: actions/checkout@v4
-        with:
-          repository: giellalt/giella-shared
-          path: giella-shared
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           path: lang
-      - name: Install dev dependencies
-        uses: divvun/actions/lang/install-deps@master
-        with:
-          sudo: true
-      - name: Build giella-core/giella-shared
-        uses: divvun/actions/lang/build@master
-        with:
-          spellers: false
-          fst: hfst
+
+      - name: Install minimal dependencies
+        run: sudo apt-get update && sudo apt-get install -y gawk bc autoconf
+
+      - name: Build giella-core
+        env:
+          TERM: dumb
+        run: cd giella-core && ./autogen.sh && ./configure --disable-configure-errors && make
+
+      - name: Generate docs
+        env:
+          TERM: dumb
+        run: |
+          cd lang
+          ./autogen.sh
+          mkdir -p build && cd build
+          ../configure --without-hfst --without-foma --disable-configure-errors
+          make -C docs
 
       # Mermaid processing starts here:
       - name: get list of files
         id: getfile
         run: |
-          echo "::set-output name=files::$(find lang/docs -name '*.md' | xargs)"
+          echo "files=$(find lang/docs -name '*.md' | xargs)" >> $GITHUB_OUTPUT
 
       - name: print list of files for debugging
         run: |
@@ -51,7 +56,7 @@ jobs:
           ABSOLUTE_IMAGE_LINKS:
           OUTPUT_FILE_TYPE: "svg"
 
-      - name: list generated svg fils
+      - name: list generated svg files
         run: |
           cd lang && ls -l docs/mermaid-svgs
       # Mermaid processing ends here

@@ -15,23 +15,25 @@ Alphabet
 a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö æ ø  !!= * @CODE@ = the letters
 %^WG:0    !!= * @CODE@ = weak grade
 %^E2I:0   !!= * @CODE@ = kiele- > kieli
-%^HMETA:0 !!= * @CODE@ = vow metathesis for ill
-%^HMET2:0 !!= * @CODE@ = vow metathesis for sauhnaan etc
+%^HMETA:0 !!= * @CODE@ = vow metathesis for ill (sauna+haan > saunhaan)
+%^HMET2:0 !!= * @CODE@ = vow metathesis for sauhnaan etc (sauna+haan > sauhnaan)
 %^AE:0    !!= * @CODE@ = a to e in otta- > otethaan
-%^IDEL:0  !!= * @CODE@ = trigger to delete i
+%^IDEL:0  !!= * @CODE@ = trigger to delete i 
 %>        !!= * @CODE@ = suffix boundary
+h2:h      !!= * @CODE@ = clitic hAAn 
 i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
+i6:i      !!= * @CODE@ = i that doesn't change/drop (aika)
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
-p2:p t2:t k2:k    !!= * @CODE@ = always p t k.
-t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s
+p2:p t2:t k2:k    !!= * @CODE@ = always p t k !mettä > mettän etc
+t3:t  	  !!≈ * **@CODE@** = t participating in gradation, but not in t:s !t3 not in use? >>pitää vetää sietää hoitaa
 k4:k      !!≈ * **@CODE@** = k to j in certain words
-t4:t      !!= * @CODE@  goes to 0 in imartelee : imarella
+t4:t      !!= * @CODE@  goes to 0 (ie rt goes to r) in imartelee : imarella
 n9:n      !!= * @CODE@ nouns that keep nn; juvanne
-%^A2O:0    !!= * @CODE@ = päärynä > päärynöitä
+%^A2O:0    !!= * @CODE@ = päärynä > päärynöitä 
 %^A:ä %^O:ö %^U:y !!= * @CODE@ vowel harmony archiphonemes
 %^V:a   %^V:e   %^V:o   %^V:u   %^V:y   %^V:i   %^V:ä   %^V:ö !!= * @CODE@ = for vowel lenghtening
 %^N:n !!= * @CODE@ for  participle -nut
@@ -49,7 +51,7 @@ Dummy          = %+ %^WG %^E2I %^HMETA %^HMET2 %^VDEL %^EDEL %^AE %^AO %^¤ %^ID
 DummyBorder    = Dummy %> ;                                          !!= * @CODE@
 ArchiVowel     = %^A %^O %^U ;                                       !!= * @CODE@ 
 SomeVowel      = %^V ;                                               !!= * @CODE@ 
-NeutralVowel   = e i               i2 i3 i4 i5 i9 i8 E I ;           !!= * @CODE@ 
+NeutralVowel   = e i               i2 i3 i4 i5 i6 i9 i8 E I ;           !!= * @CODE@ 
 FrontVowel     = e i y ä ö         ü  æ  ø     E I Y Ä Ö    Ü Æ Ø  ; !!= * @CODE@ 
 BackVowel      =           a o u å                       A O U Å   ; !!= * @CODE@ 
 RndVow   =     y   ö   o u å                 Y   Ö   O U Å   ; !!= * @CODE@ 
@@ -95,8 +97,6 @@ Rules
 !! **RULE: @RULENAME@**
 f:0 <=> Vow f _ Vow: [%^HMETA: |%^HMET2:] ;
 
-!!€ soffa^HMETA>h^V^Vn
-!!€ sof000>haan
 !€ s o f f:0 a:0 ^HMETA:0 > h ^V:a ^V:a n
 
 
@@ -115,8 +115,6 @@ k:g <=> Vow n _ Vow: WeakGrade ;
 
 !! **Tests:**
 
-!!€ kenkä^WG>n
-!!€ kengä0>n
 !€ k e n k:g ä ^WG:0 > n
 
 "k:0"
@@ -136,20 +134,9 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 
 !! **Tests:**
 
-!!€ takki^WG>n
-!!€ tak0i0>n
 !€ t a k k:0 i ^WG:0 > n
-
-!!€ johke^WG
-!!€ joh0e0
 !€ j o h k:0 e ^WG:0
-
-!!€ ääkkä^HMETA>h^V^Vn
-!!€ ääk000>hään
 !€ ä ä k k:0 ä:0 ^HMETA:0 > h ^V:ä ^V:ä n
-
-!!€ vaike^WG>t^A
-!!€ vai0e0>ta
 !€ v a i k:0 e ^WG:0 > t ^A:a
 
 "k:j"
@@ -157,6 +144,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen 
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin
         ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
+        i6:i _ Vow: %^WG: ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
 
 "k4:j"
@@ -164,28 +152,18 @@ k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen
 k4:j <=> Vow _ Vow: %^WG: ;   ! reijän
 
 !! **Tests:**
-
-!!€ sylke^WG>n
-!!€ sylje0>n
 !€ s y l k:j e ^WG:0 > n
-
-!!€ kehke^WG>t^A ! k3:j ?
-!!€ kehje0>tä
-!€ k e h k:j e ^WG:0 > t ^A:a
-
-!!€ vehke^WG  ! k:0?
-!!€ veh0e0
+! k e h k:j e ^WG:0 > t ^A:a
+! No rule for h k:j e ^WG. k3:j ?
 !€ v e h k:0 e ^WG:0
+ ! k:0?
  
 "k:v"
 !! **RULE: @RULENAME@**
 k:v <=> [u|y] _ [y|u] WeakGrade ;
 
 !! **Tests:**
-
-!!€ suku^WG>n
-!!€ suvu0>n
-!€ s u k:0 u ^WG:0 > n
+!€ s u k:v u ^WG:0 > n
 
 
 !! ### l rules
@@ -203,7 +181,7 @@ l:0 <=> Vow l _ Vow: [%^HMETA: |%^HMET2:| h %> e ] ; !No dubbel-cons before h
 !! **RULE: @RULENAME@**
 m:0 <=> Vow m _ Vow: [%^HMETA: |%^HMET2:] ;
         [#|.#.] (Cns) Vow+ Cns+ Vow+ _ p:m ; !two syll + mm >m 
-        Vow Vow _ p:m ; !TESTA
+        Vow Vow _ p:m ; 
 
 
 
@@ -229,8 +207,6 @@ p:0 <=> [Vow|l|m|r] p _ Vow: WeakGrade ; ! tärppä : tärpän
 
 !! **Tests:**
 
-!!€ appi^WG
-!!€ ap0i0
 !€ a p p:0 i ^WG:0
 
 "p:v"
@@ -239,14 +215,6 @@ p:v <=> [Vow|l]   _ Vow:  WeakGrade ;
         Vow r _ Vow WeakGrade ;
 
 !! **Tests:**
-
-!!€ papu^WG>n
-!!€ pavu0>n
-!€ p a p:v u ^WG:0 > n
-
-!!€ varpa^WGs
-!!€ varva0s
-!€ v a r p:v a ^WG:0 s
 
 "p:m"
 !! **RULE: @RULENAME@**
@@ -257,12 +225,11 @@ p:m <=> Vow m _ Vow: WeakGrade ;
 !! **RULE: @RULENAME@**
 "r:0"
 r:0 <=>                 Vow r _ Vow: [%^HMETA: |%^HMET2:] ;
- ![#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow  WeakGrade %> Cns (Cns Vow) .#.; !ymmärtää>ymmärän old rule
- [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
- [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
-                      Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
+! [#|.#.] (Cns) Vow+ Cns+ Vow+ _ t:r :Vow ; !ymmärtää>ymmärän
+! [#|.#.] (Cns) Vow Vow _ t:r Vow %^WG:0 ; ! siirtyä > mie siiryn
+!                     Vow Vow _ t:r :Vow WeakGrade ; !suorto>suoron
 
-!€ y m m ä r:0 t:r ä ^WG:0 > n
+!€ y m m ä r t4:0 ä ^WG:0 > n
 
 !! ### s rules
 !! **RULE: @RULENAME@**
@@ -279,23 +246,26 @@ t:j <=> [.#.|#:] Cns:* Vow:* i _ i     WeakGrade ;
 
 "t4:0"
 !! **RULE: @RULENAME@** where *t4* is *t* in *rt* that shall not become *rr* 
-t4:0 <=> Vow:+ [l|n|r] _ Vow:+ WeakGrade ;
+t4:0 <=> Vow:+ [l|n|r] _ [Vow: - ä:0] (%^IDEL:0 %> :e) WeakGrade ;
          Vow   t       _ Vow:  [%^HMETA: |%^HMET2:] ;
 
+"t4:s"
+!! **RULE: @RULENAME@** where *t4* becomes *s* in *rt* that shall not become *rr* 
+t4:s <=> Vow:+ [l|n|r] _ ä: (%^WG:0) %> [i3: | i8:] ; !preteritum ymmärtä>ymmärsi etc
+
 !! **Tests:**
-!!€ imart4el^WG>l^A
-!!€ imar0el0>la
+! i m a r t4:0 e l ^WG:0 > l ^A:a
 
 ! conflicts: t: 0/s, l/s, n/s, r/s, 
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^HMETA:|h %> e] ; !
+t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 | WeakGrade | (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a:|ä:|i2:] (%^AE:0) WeakGrade [%> |%> [:Vow - :i] | Cns: | .#.] ; ! pitä>piän, piä; haitata
-          u              _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
+          u      (h)     _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
                   i  h   _ e:      WeakGrade [%> :Vow - :i|Cns:] ;  ! sihata
-           VowNotIU (h)  _ Vow:      WeakGrade (%>) [%^E2I:0|Cns:|#|.#.] ; ! katu : kaun        
+           [VowNotIU | i e:0] (h)  _ Vow:      WeakGrade (%^IDEL:0) (%>) [%^E2I:0|i2:i|i4:i|Cns:|#|.#.] ; ! katu : kaun        tieto>tion?
          [ä|e]           _  i        WeakGrade [%> :Vow - :i|Cns:] ;
                        t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ; 
              Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
@@ -304,17 +274,9 @@ t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 |WeakGrade | %^HMET2: |%^
 
 
 !! **Tests:**
-!!€ motti^WG
-!!€ mot0i0
-!€ m o t t:0 i ^WG
-!!€ tehta^WGs
-!!€ teh0a0s
+!€ m o t t:0 i ^WG:0 > n
 !€ t e h t:0 a ^WG:0 s
-!!€ pitä^WGt
-!!€ pi0ä0t
 !€ p i t:0 ä ^WG:0 t
-!!€ tytär^WG
-!!€ ty0är0
 !€ t y t:0 ä r ^WG:0
 
 "t:s"
@@ -327,7 +289,7 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
               Vow           _ (:s)   e:0                     %> i2: %> [Cns|%^V:|%^A:] ; ! **)
               Vow [n|l|r]   _        e:0 (%^WG:0)   %^E2I:   %> i2: ; ! hirsiksi, hirsi (pl: gen par) 
               Vow ([n|l|r]) _        e:0 (%^AO:0) [%^HMETA:0| %^HMET2:0] %> h :i ;    ! jok uushiin
-          [i|u|y|ö] [e|u|y] _ (:s) Vow:  (%^AO:0) (%^WG:0) %> i3: ;  ! löytää:löysi (ei sousi)  
+          [i|u|y|ö] [e|u|y] _ (:s) [a:0 |ä:0]  (%^AO:0) (%^WG:0) %> i3: ;  ! löytää:löysi (ei sousi)
               Vow  n        _      Vow:0  [Dummy:* - %^WG:0] %> [i3:|i8:] ;! 13/11
               Vow [n|l|r]   _ (:s) Vow:0  (%^WG:0)  (%^AO:0) %> i3: ;
                           i _ k: 0: ä: %> i5:i  ; ! superlatiivi pitkä/pissiin
@@ -337,8 +299,6 @@ t:s <=> [Vow - i] ([l|n|r]) _ e:0 (WeakGrade) %> [i2:|i3:] ;
 
 
 !! **Tests:**
-!!€ hoito^WG>n
-!!€ hoijo0>n
 !€ h o i t:j o ^WG:0 > n
 
 
@@ -348,22 +308,17 @@ t:l <=> Vow:+ l: (%>) _ :Vow WeakGrade ;
         !Vow:+ l: (%>) _ :Vow WeakGrade [s|%> [\i2:i|\i3:i]|.#.] ; ! kulta : kullan
 
 !! **Tests:**
-!!€ kulta^WG>n
-!!€ kulla0>n
 !€ k u l t:l a ^WG:0 > n
 
 "t:n" 
 !! **RULE: @RULENAME@** for nt:nn 
 t:n <=> (Cns:*) Vow:+  [n:|n9:n] (%>) _ :Vow  WeakGrade ; ! kanta : kannan !Changed from [:Vow|Vow:] to get tuntea>tunsin etc
+        k u n _ a: WeakGrade ; !TODO kunta > kunnissa etc
 
 !! **Tests:**
 
-!!€ kanta^WG>n
-!!€ kanna0>n
 !€ k a n t:n a ^WG:0 > n
 
-!!€ kunta^WG>i2>st^A
-!!€ kunn00>i>sta
 !€ k u n t:n a:0 ^WG:0 > i2:i > s t ^A:a 
 
 
@@ -374,30 +329,20 @@ t:r <=>  Vow:+ r: _ :Vow (Cns) WeakGrade ; ! kerta : kerran , jukertel - jukerre
 
 !! **Tests:**
 
-!!€ jukertel^WG>l^A
-!!€ jukerrel0>la
 !€ j u k e r t:r e l ^WG:0 > l ^A:a
-!€       a r t:r a l ^WG:0
+!€       a r t:r e l ^WG:0
 
 !! **Tests:**
-!!€ vete^E2I
-!!€ vesi0
 !€ v e t:s e:i ^E2I:0
 
-!!€ vere^E2I
-!!€ veri0
 !€ v e r e:i ^E2I:0
 
-!!€ varte^E2I
-!!€ varsi0
 !€ v a r t:s e:i ^E2I:0
 
 !"t:v"
 !!! **RULE: @RULENAME@**
 !t:v <=> t a u _ Vow: WeakGrade ; !CHECK tauti
 
-!!!€ tauti^WG
-!!!€ tauvi^WG
 
 !! ### v rules
 "v:0"
@@ -434,7 +379,7 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
                 Vow (%^WG:) (%>) [Vow|i2:] (%>) _ [l|m|n|r|v|%^N:] (Vow:)  [%^HMET2:] (%>) h: ; !aikoihnaan, saarnaahmaan !HÄR in h
                 Vow (%>) VowNotI _ j Vow: %^HMET2: (%>) h: ; ! aluohjaan !Vow (%>) VowNotI _ j Vow: %^HMET2: (%>) h: ;
         !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-                Vow+ Cns+ (Cns) Vow (%>) _ [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään 
+                Vow+ Cns+ (Cns) Vow (%>) _ [j|l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  h: :Vow :Vow ; !mostly nouns; elämhään/elähmään !Test j 10/3
                 Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) _ [l|m|n|r|v|%^N:] h: Vow Vow ;!mostly verbs; tulehmaan, neuvottelehmaan
         !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten stavelse; pe-sem-hään)
                 !![.#.|#] (Cns) Vow Cns Vow _ [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  h: :Vow :Vow ; !nouns; elämhään/elähmään UTAN antahmaan
@@ -470,25 +415,21 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 !! **Tests:**
 
-!!€ tek0e>e
-!!€ tekke>e
 
 "Gemination 0:l"
 !! **RULE: @RULENAME@**
-0:l <=> [.#.|#] Cns:* Vow l _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
+0:l <=> [.#.|#] Cns:* Vow l _  :a (Dummy:*) %> (h) :a ;   ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow l _  :e (Dummy:) %> (h) :e ;
         [.#.|#] Cns:* Vow l _  :i (Dummy:) %> (h) :i ;
 !        [.#.|#] Cns:* Vow l _ i:  (Dummy:) %>  h  :i :i ;
         [.#.|#] Cns:* Vow l _ o   (Dummy:) %> (h) :o ;
         [.#.|#] Cns:* Vow l _  :u (Dummy:) %> (h) :u ;
         [.#.|#] Cns:* Vow l _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow l _  :ä (Dummy:) %> (h) :ä ;
+        [.#.|#] Cns:* Vow l _  :ä (Dummy:*) %> (h) :ä ;
         [.#.|#] Cns:* Vow l _  :ö (Dummy:) %> (h) :ö ;
 
 !! **Tests:**
 
-!!€ tul0e>e
-!!€ tulle>e
 
 "Gemination 0:m"
 !! **RULE: @RULENAME@**
@@ -515,30 +456,28 @@ v:0 <=> Vow v _ Vow: [%^HMETA: |%^HMET2:] ;
 
 "Gemination 0:p"
 !! **RULE: @RULENAME@**
-0:p <=> [.#.|#] Cns:* Vow p _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow p _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow p _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow p _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow p _  :u (Dummy:) %> (h) :u ;
-        [.#.|#] Cns:* Vow p _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow p _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow p _  :ö (Dummy:) %> (h) :ö ;
+0:p <=> [.#.|#] Cns:* Vow p _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow p _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow p _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow p _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow p _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow p _  :y (Dummy:) %> (h) [:y | i5:];
+        [.#.|#] Cns:* Vow p _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow p _  :ö (Dummy:) %> (h) [:ö | i5:] ;
 
 "Gemination 0:s"
 !! **RULE: @RULENAME@**
-0:s <=> [.#.|#] Cns:* Vow s _  :a (Dummy:) %> (h) :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow s _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow s _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow s _ o   (Dummy:) %> (h) :o ;
-        [.#.|#] Cns:* Vow s _  :u (Dummy:) %> (h) :u ;
-        [.#.|#] Cns:* Vow s _  :y (Dummy:) %> (h) :y ;
-        [.#.|#] Cns:* Vow s _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow s _  :ö (Dummy:) %> (h) :ö ;
+0:s <=> [.#.|#] Cns:* Vow s _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow s _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow s _  :i (Dummy:) %> (h) [:i | i5:] ;
+        [.#.|#] Cns:* Vow s _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow s _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow s _  :y (Dummy:) %> (h) [:y | i5:] ;
+        [.#.|#] Cns:* Vow s _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow s _  :ö (Dummy:) %> (h) [:ö | i5:] ;
 
 !! **Tests:**
 
-!!€ is0o^HMETA>h^V^Vn
-!!€ iss00>0oon
 
 
 
@@ -560,7 +499,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         Vow (%^WG:) (%>)  [Vow|i2:]  (%>) :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %> _ ; !aikoihnaan, sairaahlaan 
         Vow (%>) VowNotI   :h j Vow: %^HMET2: %> _ ; !aluohjaan  Vow (%>) VowNotI   :h j Vow: %^HMET2: %> _ ;
 !!Rules for metathesis type two, position 4-6 (pe-se/mhaan OCH an-tah/maan öppen/sluten betonad + kort obetonad)
-        Vow+ Cns+ Vow (%>) :h [l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään
+        Vow+ Cns+ Vow (%>) :h [j|l|m|n|r|v|%^N:] (Vow:) (%^WG:) %^HMET2: (%>)  _ :Vow :Vow ; !mostly nouns; elämä, elämhään/elähmään !TEST j 10/3
         Vow+ Cns+ Vow (%>) (%^WG:) %^HMET2: (%>) :h [l|m|n|r|v|%^N:] _ Vow Vow ; !mostly verbs; neuvotele>hmaan, tulehmaan, olehmaan
 !!Rules for metathesis type two, position 4 (efter kort bet öppen syll + kort sonorantsluten syll; pe-sem-hään, ju-te-lem-haan men ej antahmaan)
         !![.#.|#] (Cns) Vow Cns Vow :h [l|m|n|r|v|%^N:] (Vow:) %^HMET2: %>  _ :Vow :Vow ; !nouns; elämä, elämhään/elähmään !endast öppna stavelser
@@ -568,7 +507,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
        
 
 
-!!€ rasta^HMETA>h^Vn
+! rasta^HMETA>h^Vn
 
 ! issoon, sillhoon <== check this.
 
@@ -600,29 +539,28 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         [.#.|#] Cns:* Vow t _  :y (Dummy:) %>  :y ;
         [.#.|#] Cns:* Vow t _  :ä (Dummy:) %>  :ä ;
         [.#.|#] Cns:* Vow t _  :ö (Dummy:) %>  :ö ;
-        [.#.|#] Cns:* Vow t _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
+        ![.#.|#] Cns:* Vow t _ a:  (Dummy:) %> (h) :a :a ;  ! [:a|i2:|%^V:] ;
         [.#.|#] Cns:* Vow t _ o   (Dummy:) %> (h) :o ;
 
 !! **Tests:**
 
-!!€ pit0ä>^A
-!!€ pittä>ä
+!€ p i t 0:t ä > ^A:ä
 
 "Gemination 0:v"
 !! **RULE: @RULENAME@**
-0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h)  :a ;   ! [:a|i2:|%^V:] ;
-        [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) :e ;
-        [.#.|#] Cns:* Vow v _  :i (Dummy:) %> (h) :i ;
-        [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) :o  ;
-        [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) :u  ;
-        [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) :y  ;
-        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) :ä ;
-        [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) :ö ;
+0:v <=> [.#.|#] Cns:* Vow v _  :a (Dummy:) %> (h) [:a | i5:] ;   ! [:a|i2:|%^V:] ;
+        [.#.|#] Cns:* Vow v _  :e (Dummy:) %> (h) [:e | i5:] ;
+        [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) [:o | i5:] ;
+        [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) [:u | i5:] ;
+        [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
+        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) [:ö | i5:] ;
+        ![.#.|#] Cns:* Vow v _  a: (Dummy:) %>  h   :a :a     ;
+        [.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [i2: | i5:] (%^WG:) (%>) :i ;
+        ![.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [:i | i5:] :i ;
 !! **Tests:**
 
-!!€ kuv0a^HMETA>hiin
-!!€ kuvv00>hiin
-
+!!€ k u v 0:v a:0 ^HMETA:0 > h i i n !incorrect rule check!
 
 
 !! ### Assimilation rules
@@ -633,12 +571,11 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 "Alveolar assimilation for consonant stem l"
 !! **RULE: @RULENAME@**
 
- %^N:l <=> l: %> _ ;
+ %^N:l <=> l: %> _ :Vow ;
 
 !! **Tests:**
 
-!!€ tul>^N^U
-!!€ tul>lu
+!€ t u l > ^N:l ^U:u
 
 "Alveolar assimilation for consonant stem r"
 !! **RULE: @RULENAME@**
@@ -650,8 +587,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
 %^N:t <=> s %> _ [%^A:| e [s s|n]] ; ! noustessa, nousten, kusta, pestä, nousta
 !! **Tests:**
 
-!!€ häris>^N^A
-!!€ häris>tä
+!€ h ä r i s > ^N:t ^A:ä
 
 "Alveolar assimilation for consonant stem s in participles"
 !! **RULE: @RULENAME@**
@@ -677,39 +613,34 @@ a:e <=> _ %^AE: ;
 "a:0"
 !! **RULE: @RULENAME@** before metathesis h
 a:0 <=>                                                          _ [%^HMETA: | %^HMET2:] %> ;        ! 
-    [.#.|#] Cns:* RndVow (Vow) Cns:+ (:Cns) (Vow:)               _ (%^WG:)  %> [i2:|i3:|j|i8:] ;   ! kuva:kuvissa 10/12 added i8
+    [.#.|#] Cns:* RndVow (Vow:) Cns:+ (:Cns) (VowNotI:)               _ (%^WG:) (%^IDEL:)  %> [i2:|i3:|j|i8:|i9:] ; !usea>usei-  
                                                 a                _    %> [i2:|i3:|i4:|i5:] ; !shortening before i; saa:sai
- [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   !  13/11
-         Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR (i)                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr
+ [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:Cns) (i)                _ (%^WG:)  %> [i3: |i8:] ;   
+          Cns:* Vow:+ Cns:+ VowNotI:+ NonLNR                  _ (%^WG:)  %> i2: ; !3-syll nouns: NOT with last vow=i, not with lnr 
  [.#.|#] (Cns+ Vow+) Cns:* Vow:+ Cns:+ [Vow:+ Cns:+|Cns VowNotI] _ ([%^WG:|%^HMETA:|%^HMET2:])  %> (h) i: ; !3-syll 
- [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa !TEST 6/5
+ [.#.|#] Cns:* Vow:+ Cns:+ Vow:+ Cns:+ (:h)                      _ ([%^WG:|%^HMETA:|%^HMET2:]) %> (h:) (Vow) i9: ; !adjectives with plural-i; kamalissa 
  [.#.|#] Cns:* RndVow (Vow) Cns:+                                _ (%^WG:)  %> i3: ;   ! huutaa>huusin
                                                                  _  (%^WG:) (i m e:) %> i5: ; !kova>kovimpiin ; adj superlativ
 
 !! **Tests:**
-!!€ kuva>i2ss^A
-!!€ kuv0>issa
-!!€ kuv0a^HMETA>h^V^Vn
-!!€ kuvv00>haan
-!!€ saa>i3t
-!!€ sa0>it
+!€ k u v a:0 > i2:i s s ^A:a
+!€ k u v a:0 ^HMETA:0 > h ^V:a  ^V:a n
+!€ s a a:0 > i3:i t
 
 "a:o when nonrounded root vowel and before i"
 !! **RULE: @RULENAME@**
-a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
+a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|i6:i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (%^IDEL:) %> [i2:|i3:|i8:|j] ; !saunoissa, vanhoitten
         [.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|i3:|i8:|j] ; ! see fkv
-        [.#.|#] Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa; 3-syll with last vow=i  
+        [.#.|#] ((Cns) Vow:+) Cns:*   Vow:+       Cns:+  i Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) %> [i2:|j]; !lukijoissa, apinoissa, runoilija>runoilijoissa; 3-syll with last vow=i
         [.#.|#] Cns:* Vow:+ Cns:+ Vow    [l|n|r|Cns Cns:]     _ (%^WG:|%^A2O:) %> i2: ; !3-syll with lnr
         (Cns:+)   Vow:+ Cns:+ (Cns:) Vow:+  (Cns:) Cns: Cns: _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !almunakoissa; ammunoissa (flerst.) a>o eft. 2xCns
         (Cns:+) Vow:+ Cns:+ (Cns:) Vow:+ [l|n|r]              _ (%^WG:|%^HMETA:|%^HMET2:|%^A2O:) %> [i2:] ; !tavara (flerstaviga) a>o efter lnr
-        [.#.|#] Vow:+  Cns:+ (Cns:) (Vow:) i:    Cns:+ (Cns:) _ (%^WG:|%^A2O:) %> [i2:|j]; !; (flerstaviga) a>o efter i !NY alkeija
+        [.#.|#] ((Cns) Vow:+) (Cns) Vow:+  Cns:+ (Vow:) i:    Cns:* _ (%^WG:|%^A2O:) %> [i2:|j]; !; (flerstaviga) a>o after i !alkeija, taiteilija
         ![.#.|#] Cns:* UnRndVow:+ ([o|u])     Cns:+ (:Cns) (i) _ (%^WG:) %> [i2:|i3:|i8:|j] ; ! see fkv
 
 !! **Tests:**
-!!€ laatia>i2tten
-!!€ laatio>itten
-!!€ fankila>i2ss^A
-!!€ fankilo>issa
+!€ l a l t i a:o > i2:i t t e n
+!€ f a n k i l a:o > i2:i s s ^A:a
 
 !! ###  ä rules
 
@@ -718,21 +649,13 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
 ä:0 <=>   Cns:* Vow:+ Cns:+ _ (WeakGrade) (%^IDEL:) %> [i2:|i3:|i8:|j] ; ! before i
                             _ [%^HMETA:|%^HMET2:]            ; ! before metathesis h
         ä                   _                       %> [i2:|i3:|i5:|i8:]     ; ! jäädä : jäi
-                            _                       %> i5: ; !selvä>selvimpiin ; adj superlativ
+                            _         (%^WG:)              %> [i5: |i9:] ; !selvä>selvimpiin ; adj superlativ/plural
 
 !! **Tests:**
-!!€ sytyttä^WG>i3n
-!!€ sytyt000>in
-!!€ päivä>i2ss^A
-!!€ päiv0>issä
-!!€ pitä>i3
-!!€ pit0>i
-!!€ jää>i3n
-!!€ jä0>in
 
 "ä:e"
 !! **RULE: @RULENAME@**
-ä:e <=> _ %^AE: %^WG: %> t  ; !test remove h from 'WG: %> t h'
+ä:e <=> _ %^AE: %^WG: %> t  ; 
         _ %^AE: %> ; !adj comparative 
 
 
@@ -741,20 +664,20 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2O:) (
 "e:0"
 !! **RULE: @RULENAME@** deletes *-e-* in LNR stems as well as before -i-
 e:0 <=>                                                   _ (WeakGrade) h %> e ; ! säkheen del before h in e stems
-                                                          _ [%^HMETA: | %^HMET2:] ;
+                                                          _ [%^HMETA: | %^HMET2:] ; 
+                                                          _ (ä:0) [%^HMETA: | %^HMET2:] %> h: %^V: i2: ; !TEST 24/2
                          [.#.|#:] Cns:* Vow:+ [h|l|n|r|t] _ %> t [%^A:|%^U:]; ! tulta, tultu
                            [.#.|#:] Cns:* Vow:+ [l|n|r] t _ %> t [%^A:|%^U:]; ! tulta, tultu
                               [.#.|#] Cns:* [Vow Vow|u] l _ %> t e n ; ! kielten, puolten
                               [.#.|#] Cns:* [Vow Vow|e] r _ %> t e n ; ! merten, puolten
 [.#.|#|%-] Cns:* [i [e|i]|u ([u|o])|y y|ä ä|e (e)|a i] :n _ %> t e n ; !unten, lunten, sienten, lienten
                                                      Cns: _ (e) (WeakGrade) %> [i2:|i3:|i4:|i5:|i8:] ; !Shortening before i
+                                                t i _ t:0 o ; ! to get tieto > tiot etc (CHECK: expand?)
 !     k: s _ [.#.|#|t] ; ! look at this
 
 !! **Tests:**
 
-!!€ tule^WG>i2ss^A
-!!€ tul00>issa
-
+!€ t u l e:0 ^WG:0 > i2:i s s ^A:a
 
 "e:i"
 !! **RULE: @RULENAME@**
@@ -763,8 +686,7 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 
 !! **Tests:**
 
-!!€ ove^E2I
-!!€ ovi0
+!€ o v e:i ^E2I:0
 
 "ä:ö"
 !! **RULE: @RULENAME@**
@@ -773,9 +695,6 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 
 !! **Tests:**
 
-!!€ ove^E2I
-!!€ ovi0
-
 
 !! ###  i rules
 
@@ -783,33 +702,25 @@ e:i <=> Cns:* Vow:* Cns:* _ (%^WG:) (%>) %^E2I: ; !18 nov
 !! **RULE: @RULENAME@**
 i:0 <=>  
 !Vow (:Cns) Cns _ [%^HMETA: | %^HMET2:] ;               ! before metathesis h
-                  Cns   _ [e|i] %> [i2:|i3:|i4:|i5:] ; ! tie, pii, viedä
+                  Cns   _ [e|i] (%^WG:0) %> [i2:|i3:|i4:|i5:] ; ! tie, pii, viedä
           Cns [a|o|ö|ä] _       %> [i2:|i3:|i4:] ; ! hai, koi, naida, puida, vasikoida, käpelöidä
                         _ [%^HMETA:|%^HMET2:] ;               ! keppi : kepphiin
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
       [#|.#.] (Cns) Vow _ %> i3: ; ! uija>uin
-                  Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten !TEST FEB
+                  Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten 
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
+                   ![(^%HMETA: h: |%^HMET2: h:)] 
 
 !! **Tests:**
 
-!!€ sii0li^HMETA>h^V^Vn
-!!€ siihl00>0iin
-!!€ hai>i2t
-!!€ ha0>it
-!!€ vasikoi>i3n
-!!€ vasiko0>in
-!!€ vie>i3n
-!!€ v0e>in
-!!€ oppi>i3
-!!€ opp0>i
 
 "i:j"
 !! **RULE: @RULENAME@**
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
-        [o|ö] _ k:0 Vow:0 %^WG: %> :i ; ! pojissa
-       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan
-
+        [o|ö] _ k:0 Vow:0 %^WG: (Dummy:) %> :i ; ! pojissa
+       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan NB also variantform where aika:aijan!
+      ! :Vow _ %> :Vow ; ! For i between vowels in suffix – paksu:paksujen
+ 
 "i2:j"
 !! **RULE: @RULENAME@**
 i2:j <=> :Vow (Dummy:+) (%>) _ :Vow ;
@@ -818,26 +729,16 @@ i2:j <=> :Vow (Dummy:+) (%>) _ :Vow ;
 !! **RULE: @RULENAME@**
 i8:0 <=> :Vow Cns:+ [:o|u|y] %> _ [.#.|%>] ; !added u for tuntua>tuntu, y for kääntyä>käänty
 
-!!€ sano>i3
-!!€ sano>0
 
-!!€ alka>i3
-!!€ alko>0
 
-!!€ juo>i3
-!!€ j0o>i
 
 !! **Tests:**
 
-!!€ sana>i2^A
-!!€ sano>ja
 
 "i:e"
 !! **RULE: @RULENAME@**
 i:e <=> Cns _ %> i2: ;
 
-!!€ tukki>i2^A
-!!€ tukke>ja
 
 
 !! ###  o rules
@@ -849,8 +750,6 @@ o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h
 
 !! **Tests:**
 
-!!€ poro^HMETA>h^V^Vn
-!!€ por00>hoon
 
 !! ###  ö rules
 "ö:0"
@@ -862,8 +761,6 @@ o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h
 
 !! **Tests:**
 
-!!€ hölmö^HMETA>h^V^Vn
-!!€ hölm00>höön
 
 
 !! ###  u rules
@@ -877,8 +774,6 @@ u:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;           ! before metathesis h
 
 !! **Tests:**
 
-!!€ tuo>i3n
-!!€ t0o>in
 
 
 
@@ -892,8 +787,6 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 
 !! **Tests:**
 
-!!€ syy>i2ss^A
-!!€ s0y>issä
 
 
 
@@ -907,18 +800,14 @@ y:0 <=> [Cns|.#.|#] Vow (Cns) Cns _ %^HMETA: ;         ! deletion before h-metat
 
 "a copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i] ; ! sauhnaan !TEST med i
+%^V:a <=>                   a: [%^HMETA:|%^HMET2:] %> h:     _ [:a|i|(%>) i5:] ; ! sauhnaan
                             a: [%^HMETA:|%^HMET2:] %> h:  :a _      ; ! sauhnaan
 UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **conflict**
-                                                a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !TEST noutaa 
+                                                a  %> (h)    _ [n|t|s|l|%>|%^N:|.#.] ; !noutta
 
 !! **Tests:**
 
-!!€ hinta^HMETA>h^V^Vn
-!!€ hint00>haan
 
-!!€ maa>h^Vn
-!!€ maa>han
 
 
 "o copying for h metathesis"
@@ -932,8 +821,6 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 
 !! **Tests:**
 
-!!€ talo^HMETA>h^V^Vn
-!!€ tal00>hoon
 
 ! *** Warning: Unresolved <= conflict with respect to '^V:a' vs. '^V:o'
 !     between "a copying for h metathesis"
@@ -950,30 +837,28 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 %^V:i <=> i: [%^HMETA: | %^HMET2:] %> (h:)    _ :i ;
           i: [%^HMETA: | %^HMET2:] %> (h:) :i _    ;
          :i           %> (h)   _ [n|t|s|l|%>|.#.] ;
-         [.#.|#] Cns:* RndVow+ Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
+         [.#.|#] Cns:* RndVow+ (Vow:) Cns: (Cns:) (:Cns) a: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !muna>munhiin Pl+Ill h: _ [i2:] ;
          [.#.|#] Cns:* Vow+ Cns:+ (:Cns) (Cns) ä: (%^WG:|%^HMETA:|%^HMET2:)  %> (h:) _ [i2:] ;  !silmä>silmhiin Pl+Ill
-         a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i
+         !a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ [i9:i |i2:i ]; !after adjektiv or noun plural-i !5/2
+         a:0 ([%^HMETA:|%^HMET2:]) %> (h:) _ i9:i ; !after adjektiv plural-i !Testar att ta bort ovanstående för att få tillbaka seuhroin etc
 
 !! **Tests:**
 
-!!€ silli^HMETA>h^V^Vn
-!!€ sill00>hiin
 
 
 "ä copying for h metathesis"
 !! **RULE: @RULENAME@**
-%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ä|i] ; 
+%^V:ä <=> ä: [%^HMETA: | %^HMET2:] %> (h:)    _ [:ä|i] ; !Testade 24/2 [%^HMETA: | %^HMET2:| ^%WG:] %> (h:)    _ [:ä|i|i9:] 
           ä: [%^HMETA: | %^HMET2:] %> (h:) :ä _    ;
           ä           %> (h)   _ [n|t|s|l|%>|.#.] ;
           
 "e copying for h metathesis"
 !! **RULE: @RULENAME@**
 %^V:e <=> e: [%^HMETA: | %^HMET2:] %> (h:)    _ [:e|:i] ;
-          e: [%^HMETA: | %^HMET2:] %> (h:) :e _    ;
+          e: (ä:0) [%^HMETA: | %^HMET2:] %> h: _ i2: ; !TEST 24/2
+          e: (ä:0) [%^HMETA: | %^HMET2:] %> (h:) :e _    ;
           e         %>  (h)     _ [n|t|s|l|%>|.#.] ;
 
-!!€ puole^HMETA>h^V^Vn
-!!€ puol00>heen
 
 "ö copying for h metathesis"
 !! **RULE: @RULENAME@**
@@ -1009,16 +894,8 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 
 !! **Tests:**
 
-!!€ nais>i2lt^A
-!!€ nais>ilta
-!!€ puhu>^A
-!!€ puhu>a
-!!€ hinkka^WG>t^A
-!!€ hink0a0>ta
 !!$ katto^WG
 !!$ katto0
-!!€ keskus>t^A
-!!€ keskus>ta	
 
 
 
@@ -1029,8 +906,6 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 
 ! Test that deliberately fails.
 
-!!€ a
-!!€ b
 
 
 !t:0 
@@ -1040,3 +915,6 @@ UnRndVow (Vow) (:h) Cns:+ a: [%^HMETA:|%^HMET2:] %> h: _ [:a|i] ; ! was: :i  **c
 !       VowNotI (h)      _ [a|e|o|u] WeakGrade ; ! katu : kaun
 !       VowNotI        t _ e: h %> e           ;
 !      [VowNotI|l|n|r] t _ Vow:      WeakGrade ; ! motti Quant Grad. Note h!
+
+!"maa-aalto"
+!%#:%- <=> VV _ VV ; where VV in Vow ;

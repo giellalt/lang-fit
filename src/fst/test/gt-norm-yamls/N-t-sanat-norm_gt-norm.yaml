@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kevät: # GOLD
+    kevät+N+Sg+Nom: kevät
+    kevät+N+Sg+Gen: kevhään
+    kevät+N+Sg+Par: kevättä
+    kevät+N+Sg+Tra: kevhääksi
+    kevät+N+Sg+Abe: kevhäättä
+    kevät+N+Sg+Ine: kevhäässä
+    kevät+N+Sg+Ela: kevhäästä
+    kevät+N+Sg+Ill: kevhääsheen
+    kevät+N+Sg+Ade: kevhäälä
+    kevät+N+Sg+Abl: kevhäältä
+    kevät+N+Sg+All: kevhääle
+    kevät+N+Sg+Ess: kevhäänä
+    kevät+N+Pl+Nom: kevhäät
+    kevät+N+Pl+Gen: kevhäitten
+    kevät+N+Pl+Par: kevhäitä
+    kevät+N+Pl+Tra: kevhäiksi
+    kevät+N+Pl+Abe: kevhäittä
+    kevät+N+Pl+Ine: kevhäissä
+    kevät+N+Pl+Ela: kevhäistä
+    kevät+N+Pl+Ill: kevhäishiin
+    kevät+N+Pl+Ade: kevhäilä
+    kevät+N+Pl+Abl: kevhäiltä
+    kevät+N+Pl+All: kevhäile
+    kevät+N+Pl+Ess: kevhäinä

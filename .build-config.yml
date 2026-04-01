@@ -6,7 +6,7 @@ build:
   hyphenators: false
 check:
   analysers: true
-  spellers: true
+  spellers: false
   grammar-checkers: false
   tts-textproc: false
   hyphenators: false

@@ -1,0 +1,41 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - tekijä; sublexica n3_äö: # GOLD
+    tekijä+N+Sg+Nom: tekijä
+    tekijä+N+Sg+Gen: tekijän
+    tekijä+N+Sg+Par: tekijää
+    tekijä+N+Sg+Tra: tekijäksi
+    tekijä+N+Sg+Abe: tekijättä
+    tekijä+N+Sg+Ine: tekijässä
+    tekijä+N+Sg+Ela: tekijästä
+    tekijä+N+Sg+Ill: [tekijhään, tekihjään]
+    tekijä+N+Sg+Ade: tekijällä
+    tekijä+N+Sg+Abl: tekijältä
+    tekijä+N+Sg+All: tekijälle
+    tekijä+N+Sg+Ess: tekijännä
+    tekijä+N+Pl+Nom: tekijät
+    tekijä+N+Pl+Gen: tekijöitten
+    tekijä+N+Pl+Par: tekijöitä
+    tekijä+N+Pl+Tra: tekijöiksi
+    tekijä+N+Pl+Abe: tekijöittä
+    tekijä+N+Pl+Ine: tekijöissä
+    tekijä+N+Pl+Ela: tekijöistä
+    tekijä+N+Pl+Ill: tekijöihin
+    tekijä+N+Pl+Ade: tekijöilä
+    tekijä+N+Pl+Abl: tekijöiltä
+    tekijä+N+Pl+All: tekijöile
+    tekijä+N+Pl+Ess: tekijöinä

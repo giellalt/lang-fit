@@ -8,6 +8,7 @@ LEXICON Pronoun  !!≈ * @CODE@
 !! ## Persoonapronominit
 
 mie+Pron+Pers+Sg:m 12pronsg ; !!≈ * @CODE@ 
+mie+Pron+Pers+Sg+Err/Orth:mä K ;
 sie+Pron+Pers+Sg:s 12pronsg ; !!  * ...
 hään+Pron+Pers+Sg:  haan_pron ;
 se+Pron+Pers+Sg:  se_pron  ;
@@ -86,6 +87,7 @@ mikhään pronx ; !!≈ * @CODE@
 kumpiko pronx ; !!≈ * @CODE@ 
 molemat pronx ; !!≈ * @CODE@ 
 molemin pronx ; !!≈ * @CODE@ 
+molemilla pronx ; !Todo: continuation lexicon
 nuot pronx ; !!≈ * @CODE@ 
 muu:mu MUU ; !!≈ * @CODE@ 
-mä pronx ; !!≈ * @CODE@
+!mä pronx ; !!≈ * @CODE@

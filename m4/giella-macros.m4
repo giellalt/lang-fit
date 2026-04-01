@@ -43,14 +43,14 @@ AC_ARG_ENABLE([configure-errors],
 
 AC_DEFUN([gt_MSG_ERROR],
          [AS_IF([test x$enable_configure_errors != xno],
-                [tput setaf 1
-                 AC_MSG_ERROR([$1])
-                 tput sgr0],
+                [_red=`tput setaf 1`
+                 _reset=`tput sgr0`
+                 AC_MSG_ERROR([$_red $1 $_reset])],
                 [AC_MSG_NOTICE([ignored error: $1])])])
 AC_DEFUN([gt_MSG_WARN],
-         [tput setaf 3
-          AC_MSG_WARN([$1])
-          tput sgr0])
+         [_yellow=`tput setaf 3`
+          _reset=`tput sgr0`
+          AC_MSG_WARN([$_yellow $1 $_reset])])
 
 AC_DEFUN([gt_PROG_SCRIPTS_PATHS],
 [
@@ -111,7 +111,7 @@ AC_MSG_RESULT([$GIELLA_CORE])
 ###############################################################
 ### This is the version of the Giella Core that we require. ###
 ### UPDATE AS NEEDED.
-_giella_core_min_version=1.4.1
+_giella_core_min_version=1.5.0
 
 # GIELLA_CORE/GTCORE env. variable, required by the infrastructure to find scripts:
 AC_ARG_VAR([GIELLA_CORE], [directory for the Giella infra core scripts and other required resources])
@@ -243,6 +243,7 @@ AC_ARG_WITH([npm],
             [with_npm=no])
 AC_PATH_PROG([NPM], [npm], [], [$PATH$PATH_SEPARATOR$with_npm])
 AC_PATH_PROG([R], [R], [], [$PATH$PATH_SEPARATOR$with_R])
+# Check for the actual divvunspell and accuracy commands:
 AC_ARG_WITH([divvunspell],
             [AS_HELP_STRING([--with-divvunspell=DIRECTORY],
                             [search divvunspell in DIRECTORY @<:@default=PATH@:>@])],
@@ -250,8 +251,18 @@ AC_ARG_WITH([divvunspell],
             [with_divvunspell=no])
 AC_PATH_PROG([DIVVUNSPELL], [divvunspell], [false],
              [$PATH$PATH_SEPARATOR$with_divvunspell])
-AC_PATH_PROG([DIVVUN_ACCURACY], [accuracy], [false],
-             [$PATH$PATH_SEPARATOR$with_divvunspell])
+# Make sure that divvunspell is new enough:
+AS_IF([test "x$DIVVUNSPELL" != xfalse], [
+_divvunspell_min_version=m4_default([$1], [1.0.0-beta.11])
+AC_MSG_CHECKING([whether divvunspell is at least $_divvunspell_min_version])
+_divvunspell_version=$( ${DIVVUNSPELL} --version 2>&1 | cut -d' ' -f2 )
+AX_COMPARE_VERSION([$_divvunspell_version], [ge], [$_divvunspell_min_version],
+                   [divvunspell_version_ok=yes
+                    AC_MSG_RESULT([yes - $_divvunspell_version])
+                   ], [divvunspell_version_ok=no
+                    gt_MSG_ERROR([no - $_divvunspell_version, please update])
+                   ])
+])
 
 # Check for opennmt for neural models
 AC_ARG_WITH([opennmt-py],
@@ -349,6 +360,13 @@ AC_PATH_PROG([DIVVUN_RUNTIME], [divvun-runtime], [false], [$PATH$PATH_SEPARATOR$
 # Enable .drb support if divvun-runtime is available
 AM_CONDITIONAL([HAVE_DIVVUN_RUNTIME], [test x$DIVVUN_RUNTIME != xfalse])
 
+AC_PATH_PROG([HEAD], [head], [cat])
+AC_ARG_WITH([log-viewer],
+            [AS_HELP_STRING([--with-log-viewer=VIEWER],
+                            [open test logs in VIEWER @<:@default=head@:>@])],
+            [with_log_viewer=$withval],
+            [with_log_viewer=$ac_cv_path_HEAD])
+AC_SUBST([LOG_VIEWER], [$with_log_viewer])
 ]) # gt_PROG_SCRIPTS_PATHS
 
 
@@ -675,7 +693,7 @@ AS_IF([test "x$enable_grammarchecker" != "xno"],
         then: pipx install git+https://github.com/divvun/giellaltgramtools
       ])]),
     AC_MSG_RESULT([yes]))
-_gtgramtool_min_version=0.7.0
+_gtgramtool_min_version=1.9.0
 gtgramtool_too_old_message="gtgramtool needs to be updated.
     If you installed it with pipx, run:
         pipx upgrade GiellaLTGramTools"
@@ -702,12 +720,27 @@ AS_IF([test x$GTLEMMATEST = xfalse],
         pipx install git+https://github.com/divvun/giellaltlextools
       ])],
       AC_MSG_RESULT([yes]))
+_gtlextools_min_version=0.4.0
+gtlextools_too_old_message="gtlextools needs to be updated.
+    If you installed it with pipx, run:
+        pipx upgrade GiellaLTLexTools"
 AC_MSG_CHECKING([if gtlextools is up-to-date])
 AS_IF([test x$GTMULTICHARTEST = xfalse],
       [gt_MSG_ERROR([gtlextools is too old and missing some stuff, do:
         pipx upgrade giellaltlextools
       ])],
       AC_MSG_RESULT([yes]))
+AS_IF([test "x${GTLEMMATEST}" != xno],
+        [_gtlextools_version=$( "${GTLEMMATEST}" --version | sed -e 's/^.*gtlemmatest //')],
+        [_gtlextools_version=0])
+AC_MSG_RESULT([$_gtlextools_version])
+AC_MSG_CHECKING([whether the gtlextools version is at least $_gtlextools_min_version])
+AX_COMPARE_VERSION([$_gtlextools_version], [ge], [$_gtlextools_min_version],
+                   [gtlextools_version_ok=yes], [gtlextools_version_ok=no])
+AC_MSG_RESULT([$gtlextools_version_ok])
+AS_IF([test "x$enable_grammarchecker" != "xno"], 
+    AS_IF([test "x${gtlextools_version_ok}" != xno],,
+          [gt_MSG_ERROR([$gtlextools_too_old_message])]))
 
 
 # Enable all spellers - default is 'no'
@@ -952,6 +985,13 @@ AC_ARG_ENABLE([custom-fsts],
               [enable_custom_fsts=$enableval],
               [enable_custom_fsts=$DEFAULT_CUSTOM_FSTS])
 AM_CONDITIONAL([WANT_CUSTOM_FSTS], [test "x$enable_custom_fsts" != xno])
+
+AC_ARG_ENABLE([slow-tests],
+              [AS_HELP_STRING([--enable-slow-tests],
+                              [run slow tests in check @<:@default=no@:>@])],
+              [enable_slow_tests=$enableval],
+              [enable_slow_tests=no])
+AM_CONDITIONAL([WANT_SLOW_TESTS], [test "x$enable_slow_tests" != xno])
 
 ]) # gt_ENABLE_TARGETS
 

@@ -65,20 +65,20 @@ Tests:
     asepuu+N+Pl+Ill: asepuihin
     mäkivyöt+N+Pl+Ill: mäkivöihin
     takkaa-ajo+N+Pl+Ill: takkaa-ajhoin
-    a-malmi+N+Pl+Ill: [a-malhmiin, a-malmhiin, a-malmhein]
+    a-malmi+N+Pl+Ill: a-malmhein #[a-malhmiin, a-malmhiin]
     aalto+N+Pl+Ill: aalthoin
-    abortti+N+Pl+Ill: [aborthiin, abortthein]
+    abortti+N+Pl+Ill: abortthein #aborthiin
     aho+N+Pl+Ill: ahhoin
-    äijäfaari+N+Pl+Ill: [äijäfaahriin, äijäfaarhiin, äijäfaarhein]
+    äijäfaari+N+Pl+Ill: äijäfaarhein #[äijäfaahriin, äijäfaarhiin]
     aihe+N+Pl+Ill: aihheishiin
     äile+N+Pl+Ill: [äihleishiin, äilheishiin]
     aine+N+Pl+Ill: [aihneishiin, ainheishiin]
     alote+N+Pl+Ill: alotheishiin
     alue+N+Pl+Ill: aluheishiin
     ikenheet+N+Pl+Ill: [ikenhiin, ikehniin]
-    äkseerinki+N+Pl+Ill: [äkseerinkhiin, äkseerinkhein]
-    alttari+N+Pl+Ill: [alttarhiin, alttahriin, alttarhein]
-    kamari+N+Pl+Ill: [kamarhiin, kamahriin, kamarhein]
+    äkseerinki+N+Pl+Ill: äkseerinkhein #[äkseerinkhiin]
+    alttari+N+Pl+Ill: alttarhein #[alttarhiin, alttahriin]
+    kamari+N+Pl+Ill: kamarhein #[kamarhiin, kamahriin]
     ääri+N+Pl+Ill: [äähriin, äärhiin]
     äitiväki+N+Pl+Ill: äitiväkhiin
     ehontähti+N+Pl+Ill: ehontähthiin
@@ -120,7 +120,7 @@ Tests:
     jatkuvuus+N+Pl+Ill: jatkuvuukshiin
     evankeeljum+N+Pl+Ill: [evankeeljumhiin, evankeeljuhmiin]
     lippanen+N+Pl+Ill: lippashiin
-    Kyriiri+N+Pl+Ill: [Kyriihriin, Kyriirhiin, Kyriirhein]
-    TV-masti+N+Pl+Ill: [TV-masthiin, TV-masthein]
-    alunastifti+N+Pl+Ill: [alunastifthiin, alunastifthein]
+    Kyriiri+N+Pl+Ill: Kyriirhein #[Kyriihriin, Kyriirhiin]
+    TV-masti+N+Pl+Ill: TV-masthein #[TV-masthiin]
+    alunastifti+N+Pl+Ill: alunastifthein #[alunastifthiin]
     romani chib+N+Pl+Ill: romani chibhiin

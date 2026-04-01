@@ -4,10 +4,10 @@
 # change settings here:
 corpus=@abs_srcdir@/corpus.txt
 gold=@abs_srcdir@/corpus.gold.cg3text
-variant=@GLANG@-normaliser
+variant=@GLANG@-analyser
 tts_dir=@abs_builddir@/../
 tts_archive=$tts_dir/@GTLANG2@-tts.zpipe
-level=suffixed  # we only care about "phon
+level=tags
 threshold=99
 
 # avoid changing common scripts from here:
@@ -34,7 +34,7 @@ if ! test -f "$gold" ; then
     printf "%sskip%s missing gold corpus %s\n" "$light_blue" "$reset"\
         "$gold"
     echo "you can use divvun-checker to create initial gold data..."
-    exit 1
+    exit 77
 fi
 if ! test -f "$tts_archive" ; then
     printf "%sskip%s missing pipe archive %s\n" "$light_blue" "$reset" \

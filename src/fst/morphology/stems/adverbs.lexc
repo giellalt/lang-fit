@@ -4,7 +4,7 @@
 
 !! The first part of the file adds tags, and the second lists the adverbs.
 
-!! ## The tags
+!! ## The tags:
 
 LEXICON advx !!≈ * @CODE@ Still not checked, hence the x
 +Adv: K ; !!≈ * @CODE@ 
@@ -53,7 +53,7 @@ oikeasthaan adv ;
 mitenkä adv ;
 oikhein adv ; !CHECK EK
 oiken adv ;
-oikeen adv ; ! xxx???
+oikheen+Err/Orth:oikeen adv ; ! xxx ???
 oikheen adv ;
 oikhen adv ;
 mukana adv ;
@@ -252,6 +252,7 @@ alvarhiinsa advx ;
 alvarhiinsa advx ;
 pauhloinsa advx ;
 sekasinsa advx ;
+sekhaan advx ;
 valakhaassa advx ;
 seassa advx ;
 rauhassa advx ;
@@ -419,6 +420,7 @@ yhtäänne advx ;
 vasite advx ;
 toiste advx ;
 sitte advx ;
+sittemin advx ;
 nyh advx ;
 miksei advx ;
 maki advx ;
@@ -690,6 +692,7 @@ kerran advx ;
 tasan advx ;
 aivan advx ;
 siiheen advx ;
+siihheen advx ;
 veitalheen advx ;
 kontalheen advx ;
 kontulheen advx ;
@@ -725,7 +728,7 @@ välitellen advx ;
 yksitellen advx ;
 vuokotellen advx ;
 viimen advx ;
-huomen advx ;
+huomena advx ;
 aikhainen advx ;
 väliaikhainen advx ;
 samanaikhainen advx ;
@@ -853,6 +856,7 @@ lappein advx ;
 ussein advx ;
 usseita advx ;
 usseimiten advx ;
+usseimat advx ;
 kalpattein advx ;
 laihin advx ;
 järkhin advx ;
@@ -948,6 +952,7 @@ kesäsin advx ;
 myötäsin advx ;
 vesisin advx ;
 lähtösin advx ;
+lähtein advx ;
 hetin advx ;
 kolmenvartin advx ;
 tyystin advx ;
@@ -1085,6 +1090,8 @@ liikheelä advx ;
 lentheelä advx ;
 lähelä advx ;
 sielä advx ;
+sieltä advx ;
+ehkä advx ;
 vielä adv ;
 jäljelä advx ;
 järjelä advx ;
@@ -1264,9 +1271,8 @@ ennää advx ;
 enää advx ;
 täkempää advx ;
 hätänäppää advx ;
-hätänäppää advx ;
 lissää advx ;
-vastapäifhäää advx ;
+vastapäifhää advx ;
 tykö advpx ;
 tyköä adv ;
 ypö advx ;
@@ -1305,7 +1311,9 @@ totta adv ;
 likemäksi adv ;
 etheen adv ;
 etelheen+Err/Orth:etelheen adv ; !NB finskanpassning
+etelhän:etelhän adv ;
 tänäpänä adv ;
+tänhään adv ;
 mielelhään adv ;
 jouten:jouten adv ; !  ;
 aijemin adv ;
