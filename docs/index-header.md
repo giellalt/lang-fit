@@ -37,6 +37,7 @@ These pages document the work on the **[Meänkieli (Tornedalen Finnish) language
 - [H inserrtion](HInsertion.md)
 - [Kurs på ISOF april 2022](isof/index.md)
 - [Työlista toukokuu 2022 / Arbetslista maj 2022](tyolista.md)
+- [Accuracy report of spellers (for developers)](typosreport/index.html)
 - [Test diary](test-diary.md)
 
 
