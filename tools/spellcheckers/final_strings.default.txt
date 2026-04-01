@@ -3,6 +3,7 @@
 
 allä:alla	1
 altä:alta	1
+an:aan		1
 assä:assa	1
 astä:asta	1
 den:tten	1
@@ -18,6 +19,7 @@ kaan:khaan	1
 keen:kheen	1
 khan:khaan	1
 khen:kheen	1
+kielä:kielelä	2
 kk:kki		3
 kään:khään	1
 laan:hlaan	1

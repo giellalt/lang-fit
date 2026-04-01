@@ -97,4 +97,4 @@ v	k	4
 ## enabling swaps is computationally expensive. See note in
 ## Makefile.am.
 ## Change dh into hd with the weight 5:
-##d,h	h,d	5
+r,i	  i,r	  4
