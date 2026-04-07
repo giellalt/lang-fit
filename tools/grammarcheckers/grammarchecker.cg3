@@ -568,9 +568,13 @@ LIST &right-guillemet = &right-guillemet ;
 LIST &msyn-agr-pl3-sg3 = &msyn-agr-pl3-sg3 ;
 LIST &msyn-agr-pl3-pl1 = &msyn-agr-pl3-pl1 ;
 LIST &msyn-agr-prfprcsg-prfprcpl = &msyn-agr-prfprcsg-prfprcpl ;
-LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
+#LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
 LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
+LIST &msyn-agr-sg2-sg1 = &msyn-agr-sg2-sg1 ;
 LIST &msyn-agr-sg3-sg1 = &msyn-agr-sg3-sg1 ;
+LIST &msyn-agr-pl1-sg1 = &msyn-agr-pl1-sg1 ;
+LIST &msyn-agr-pl2-sg1 = &msyn-agr-pl2-sg1 ;
+LIST &msyn-agr-pl3-sg1 = &msyn-agr-pl3-sg1 ;
 LIST &msyn-agr-sg3-sg2 = &msyn-agr-sg3-sg2 ;
 LIST &msyn-negesubj-nom-par = &msyn-negesubj-nom-par ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
@@ -613,6 +617,7 @@ SECTION
 
 	 # Sg1 SUBJ
 
+#!!  **Agreement rule:** msyn-agr-sg3-sg1
 ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET (V Act Sg3) IF
 	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
 COPY:msyn-agr-sg3-sg1 (Sg1 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-sg1;
@@ -623,18 +628,70 @@ ADDRELATION:msyn-agr-sg3-sg1 ($2 LEFT) (V &msyn-agr-sg3-sg1) TO (*-1 (Pron &msyn
 
 	#$ Mie tullee.
 	#$ Mie nyt tullee.
-	#% Mie tulen
+	#% Mie tulen.
 
-ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
-	(-1C Pron + Sg1 + Nom)
-	(0 V + Act + Ind + Sg2)
-	(NEGATE 0 ("nähđä") LINK *1 Sg1 BARRIER NOT-V)
-	;
-COPY:msyn-agr-sg2-sg1 (Sg1 &SUGGEST) EXCEPT (Sg2 &msyn-agr-sg2-sg1) TARGET (V Ind &msyn-agr-sg2-sg1);
-ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1));
+#!!  **Agreement rule:** msyn-agr-sg2-sg1
+ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET (V Act Sg2) IF
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+COPY:msyn-agr-sg2-sg1 (Sg1 SUGGEST) EXCEPT (Sg2) TARGET &msyn-agr-sg2-sg1;
 
-#% Mie tulet.
-## Mie tulen.
+ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-sg2-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-sg2-sg1 ($2 LEFT) (V &msyn-agr-sg2-sg1) TO (*-1 (Pron &msyn-agr-sg2-sg1));
+
+	#$ Mie tulet.
+	#$ Mie nyt tulet.
+	#% Mie tulen.
+
+#!!  **Agreement rule:** msyn-agr-pl1-sg1
+ADD:msyn-agr-pl1-sg1 &msyn-agr-pl1-sg1 TARGET (V Act Pl1) IF
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+COPY:msyn-agr-pl1-sg1 (Sg1 SUGGEST) EXCEPT (Pl1) TARGET &msyn-agr-pl1-sg1;
+
+ADD:msyn-agr-pl1-sg1 &msyn-agr-pl1-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-pl1-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-pl1-sg1 ($2 LEFT) (V &msyn-agr-pl1-sg1) TO (*-1 (Pron &msyn-agr-pl1-sg1));
+
+	#$ Mie tulema.
+	#$ Mie nyt tulema.
+	#% Mie tulen.
+
+#!!  **Agreement rule:** msyn-agr-pl2-sg1
+ADD:msyn-agr-pl2-sg1 &msyn-agr-pl2-sg1 TARGET (V Act Pl2) IF
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+COPY:msyn-agr-pl2-sg1 (Sg1 SUGGEST) EXCEPT (Pl2) TARGET &msyn-agr-pl2-sg1;
+
+ADD:msyn-agr-pl2-sg1 &msyn-agr-pl2-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-pl2-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-pl2-sg1 ($2 LEFT) (V &msyn-agr-pl2-sg1) TO (*-1 (Pron &msyn-agr-pl2-sg1));
+
+	#$ Mie annatta.
+	#$ Mie nyt annatta.
+	#% Mie tulen.
+
+#!!  **Agreement rule:** msyn-agr-pl3-sg1
+ADD:msyn-agr-pl3-sg1 &msyn-agr-pl3-sg1 TARGET (V Act Pl3) IF
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+COPY:msyn-agr-pl3-sg1 (Sg1 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-sg1;
+
+ADD:msyn-agr-pl3-sg1 &msyn-agr-pl3-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-pl3-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-pl3-sg1 ($2 LEFT) (V &msyn-agr-pl3-sg1) TO (*-1 (Pron &msyn-agr-pl3-sg1));
+
+	#$ Mie tuleva.
+	#$ Mie nyt tuleva.
+	#% Mie tulen.
+
+
+##Check! What is this rule?
+# ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
+	#(-1C Pron + Sg1 + Nom)
+	#(0 V + Act + Ind + Sg2)
+	#(NEGATE 0 ("nähđä") LINK *1 Sg1 BARRIER NOT-V)
+	#;
+#COPY:msyn-agr-sg2-sg1 (Sg1 &SUGGEST) EXCEPT (Sg2 &msyn-agr-sg2-sg1) TARGET (V Ind &msyn-agr-sg2-sg1);
+#ADDRELATION:msyn-agr-sg2-sg1 ($2) (Pron Sg1) TO (*1 V LINK 0 (&msyn-agr-sg2-sg1));
+
 
 
 #!! ### Should be Sg2
