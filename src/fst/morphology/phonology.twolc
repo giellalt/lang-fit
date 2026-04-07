@@ -747,6 +747,7 @@ i:e <=> Cns _ %> i2: ;
 !! **RULE: @RULENAME@**
 o:0 <=> _ [%^HMETA: | %^HMET2:] ;  ! deletion before metathesis h
         o  _    %> [i2:|i3:|i4:|i5:] ; !shortening before i
+        .#. r _ u k:0 a %^WG:0 %> t ; ! ruoka>ruat
 
 !! **Tests:**
 

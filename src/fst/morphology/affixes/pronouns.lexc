@@ -84,6 +84,7 @@ LEXICON se_pron
 
 LEXICON MUU
 +Pron+Indef+Pl: netpronpl ;
++Pron+Indef+Pl+All:ile	KK ; !CHECK EK för alla?
 
 LEXICON netpronpl
 +Gen:itten K ; !!nii
