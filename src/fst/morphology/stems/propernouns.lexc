@@ -23433,6 +23433,7 @@ Laakso:Laakso p_sur_1 ;
 Laaksonen:Laakso p_sur_nen ;
 Tornionlaakso:Tornion#laakso p_plc_1 ;
 Tornionlaakso+Err/Orth:Toornion#laakso p_plc_1 ;
+Tornionlaakso+Err/Orth:Torniolaakso p_plc_1 ;
 Savilaakso:Savilaakso p_sur_1 ;
 Pöytälaakso:Pöytälaakso p_sur_1 ;
 Kottilakso:Kottilakso p_x ;
