@@ -3430,7 +3430,7 @@ mutista:mutis v4_julkasta ;
 rutista:rutis v4_julkasta ;
 tutista:tutis v4_julkasta ;
 nosta:nos v4 ;
-juosta:juos v4 ;
+juosta:juo v4_juosta ;
 kusta:kus v4 ;
 nousta:nous v4 ;
 vetasta:vetas v4_julkasta ;
