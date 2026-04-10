@@ -144,7 +144,7 @@ k:0 <=> [Vow|l|n|r] k _ Vow:        WeakGrade ; ! Quant Grad
 k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen 
         Vow [l|r] _ Vow:0  WeakGrade %> :i ; ! syljin
         ![#|.#.] r e i _ Vow: (%^WG:) %> ; !reikä, reijän FLER!
-        i6:i _ Vow: %^WG: ; !reikä, reijän FLER!
+        i6:i _ Vow: (%^AE:0) %^WG: ; !reikä, reijän FLER!
 	! e h _ [e:|i:] ;
 
 "k4:j"
