@@ -718,7 +718,7 @@ i:0 <=>
 !! **RULE: @RULENAME@**
 i:j <=> [o|ö] _ k:0 :Vow ; ! pojan
         [o|ö] _ k:0 Vow:0 %^WG: (Dummy:) %> :i ; ! pojissa
-       [.#.|#] a _ k:0 a %^WG: %> ; !aika:ajan NB also variantform where aika:aijan!
+       [.#.|#] a _ k:0 [a | a:o] %^WG: ; !aika:ajan 
       ! :Vow _ %> :Vow ; ! For i between vowels in suffix – paksu:paksujen
  
 "i2:j"
