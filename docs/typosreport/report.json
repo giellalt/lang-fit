@@ -48,34 +48,34 @@
     "completion-marker": null
   },
   "summary": {
-    "total_words": 163,
-    "first_position": 152,
-    "top_five": 159,
-    "any_position": 160,
+    "total_words": 176,
+    "first_position": 161,
+    "top_five": 169,
+    "any_position": 170,
     "no_suggestions": 0,
-    "only_wrong": 3,
-    "false_accept": 0,
-    "true_positive": 163,
-    "false_negative": 0,
+    "only_wrong": 4,
+    "false_accept": 1,
+    "true_positive": 174,
+    "false_negative": 1,
     "true_negative": 0,
     "slowest_lookup": {
       "secs": 0,
-      "subsec_nanos": 179128375
+      "subsec_nanos": 646913583
     },
     "fastest_lookup": {
       "secs": 0,
-      "subsec_nanos": 2013916
+      "subsec_nanos": 6166
     },
     "average_time": {
       "secs": 0,
-      "subsec_nanos": 36604062
+      "subsec_nanos": 56062165
     },
     "average_time_95pc": {
       "secs": 0,
-      "subsec_nanos": 31499538
+      "subsec_nanos": 46204792
     },
-    "average_position_of_correct": 1.0875,
-    "average_suggestions_for_correct": 9.95625
+    "average_position_of_correct": 1.1,
+    "average_suggestions_for_correct": 9.958823
   },
   "results": [
     {
@@ -197,7 +197,7 @@
       "position": null,
       "time": {
         "secs": 0,
-        "subsec_nanos": 41423958
+        "subsec_nanos": 53887083
       },
       "false_accept": false
     },
@@ -320,7 +320,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 34409250
+        "subsec_nanos": 29847292
       },
       "false_accept": false
     },
@@ -443,7 +443,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9373250
+        "subsec_nanos": 21878917
       },
       "false_accept": false
     },
@@ -566,7 +566,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 11456125
+        "subsec_nanos": 23607084
       },
       "false_accept": false
     },
@@ -689,7 +689,7 @@
       "position": 5,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10542875
+        "subsec_nanos": 30044584
       },
       "false_accept": false
     },
@@ -812,7 +812,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 21878000
+        "subsec_nanos": 70508792
       },
       "false_accept": false
     },
@@ -935,7 +935,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 109756833
+        "subsec_nanos": 25733500
       },
       "false_accept": false
     },
@@ -1058,7 +1058,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 38563541
+        "subsec_nanos": 56460917
       },
       "false_accept": false
     },
@@ -1181,7 +1181,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 37481833
+        "subsec_nanos": 58688042
       },
       "false_accept": false
     },
@@ -1304,7 +1304,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9762458
+        "subsec_nanos": 10391000
       },
       "false_accept": false
     },
@@ -1427,7 +1427,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 21553000
+        "subsec_nanos": 10253125
       },
       "false_accept": false
     },
@@ -1550,7 +1550,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 15775333
+        "subsec_nanos": 10434750
       },
       "false_accept": false
     },
@@ -1673,7 +1673,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12169875
+        "subsec_nanos": 28235250
       },
       "false_accept": false
     },
@@ -1796,7 +1796,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 3833709
+        "subsec_nanos": 4982833
       },
       "false_accept": false
     },
@@ -1919,7 +1919,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 26157750
+        "subsec_nanos": 54065333
       },
       "false_accept": false
     },
@@ -2042,7 +2042,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 27359333
+        "subsec_nanos": 21442834
       },
       "false_accept": false
     },
@@ -2165,7 +2165,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 34551750
+        "subsec_nanos": 26724542
       },
       "false_accept": false
     },
@@ -2288,7 +2288,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 36324291
+        "subsec_nanos": 55816542
       },
       "false_accept": false
     },
@@ -2411,7 +2411,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 16392250
+        "subsec_nanos": 22653417
       },
       "false_accept": false
     },
@@ -2534,7 +2534,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 7012791
+        "subsec_nanos": 5390167
       },
       "false_accept": false
     },
@@ -2657,7 +2657,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 6407416
+        "subsec_nanos": 12681625
       },
       "false_accept": false
     },
@@ -2780,7 +2780,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 80127167
+        "subsec_nanos": 117752875
       },
       "false_accept": false
     },
@@ -2903,7 +2903,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 120026541
+        "subsec_nanos": 203956000
       },
       "false_accept": false
     },
@@ -3026,7 +3026,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20795667
+        "subsec_nanos": 29630500
       },
       "false_accept": false
     },
@@ -3149,7 +3149,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10635791
+        "subsec_nanos": 5118833
       },
       "false_accept": false
     },
@@ -3272,7 +3272,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 15716417
+        "subsec_nanos": 13739042
       },
       "false_accept": false
     },
@@ -3395,7 +3395,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 8560459
+        "subsec_nanos": 24893375
       },
       "false_accept": false
     },
@@ -3518,7 +3518,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9268083
+        "subsec_nanos": 10951625
       },
       "false_accept": false
     },
@@ -3641,7 +3641,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 129236958
+        "subsec_nanos": 219455417
       },
       "false_accept": false
     },
@@ -3764,7 +3764,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 59543500
+        "subsec_nanos": 140257666
       },
       "false_accept": false
     },
@@ -3887,7 +3887,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14712250
+        "subsec_nanos": 30423708
       },
       "false_accept": false
     },
@@ -4010,7 +4010,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20046875
+        "subsec_nanos": 18730750
       },
       "false_accept": false
     },
@@ -4133,7 +4133,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14936417
+        "subsec_nanos": 12146083
       },
       "false_accept": false
     },
@@ -4256,7 +4256,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 16221417
+        "subsec_nanos": 51239625
       },
       "false_accept": false
     },
@@ -4379,7 +4379,130 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 91916541
+        "subsec_nanos": 66007667
+      },
+      "false_accept": false
+    },
+    {
+      "input": "hyvää",
+      "expected": "hyvvää",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "hyvvää",
+          "weight": 14.945648,
+          "weight_details": {
+            "lexicon_weight": 8.945648,
+            "mutator_weight": 1.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyvä",
+          "weight": 22.85491,
+          "weight_details": {
+            "lexicon_weight": 7.85491,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyviä",
+          "weight": 24.198645,
+          "weight_details": {
+            "lexicon_weight": 9.198645,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyvälä",
+          "weight": 25.615711,
+          "weight_details": {
+            "lexicon_weight": 10.615711,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyvänä",
+          "weight": 26.59654,
+          "weight_details": {
+            "lexicon_weight": 11.59654,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyväpä",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "hyvän",
+          "weight": 29.5171,
+          "weight_details": {
+            "lexicon_weight": 9.517099,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "hyvät",
+          "weight": 29.987103,
+          "weight_details": {
+            "lexicon_weight": 9.987102,
+            "mutator_weight": 10.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "hyvhään",
+          "weight": 37.82335,
+          "weight_details": {
+            "lexicon_weight": 10.82335,
+            "mutator_weight": 11.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "syvvää",
+          "weight": 38.28969,
+          "weight_details": {
+            "lexicon_weight": 12.289688,
+            "mutator_weight": 11.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 5327583
       },
       "false_accept": false
     },
@@ -4469,7 +4592,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 27860708
+        "subsec_nanos": 43942333
       },
       "false_accept": false
     },
@@ -4592,7 +4715,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 18929542
+        "subsec_nanos": 42181708
       },
       "false_accept": false
     },
@@ -4704,7 +4827,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 65129375
+        "subsec_nanos": 27640083
       },
       "false_accept": false
     },
@@ -4827,7 +4950,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 33959916
+        "subsec_nanos": 32657125
       },
       "false_accept": false
     },
@@ -4950,7 +5073,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 15677958
+        "subsec_nanos": 35335083
       },
       "false_accept": false
     },
@@ -5073,7 +5196,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 179128375
+        "subsec_nanos": 214473792
       },
       "false_accept": false
     },
@@ -5196,7 +5319,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10746750
+        "subsec_nanos": 16641875
       },
       "false_accept": false
     },
@@ -5319,7 +5442,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 7196667
+        "subsec_nanos": 3952750
       },
       "false_accept": false
     },
@@ -5442,7 +5565,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 15310583
+        "subsec_nanos": 4444584
       },
       "false_accept": false
     },
@@ -5565,7 +5688,7 @@
       "position": 1,
       "time": {
         "secs": 0,
-        "subsec_nanos": 11617333
+        "subsec_nanos": 12909667
       },
       "false_accept": false
     },
@@ -5688,7 +5811,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 15813375
+        "subsec_nanos": 29937834
       },
       "false_accept": false
     },
@@ -5811,7 +5934,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 37328083
+        "subsec_nanos": 13533875
       },
       "false_accept": false
     },
@@ -5934,7 +6057,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 17760542
+        "subsec_nanos": 12649375
       },
       "false_accept": false
     },
@@ -6057,9 +6180,132 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 2013916
+        "subsec_nanos": 2087041
       },
       "false_accept": false
+    },
+    {
+      "input": "kannateeko kannatteeko",
+      "expected": null,
+      "distance": 0,
+      "suggestions": [
+        {
+          "value": "kanateekokannatoeeko",
+          "weight": 112.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kanateekolkannatoeeko",
+          "weight": 112.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kanateekonkannatoeeko",
+          "weight": 112.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kanateekotkannatoeeko",
+          "weight": 112.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kahnateekokannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kahnateekolkannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kahnateekonkannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kahnateekotkannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kannaneekoakannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kannanteekokannatoeeko",
+          "weight": 118.69515,
+          "weight_details": {
+            "lexicon_weight": 73.69515,
+            "mutator_weight": 30.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": null,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 646913583
+      },
+      "false_accept": true
     },
     {
       "input": "kansaskorkeakoulu",
@@ -6180,7 +6426,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 91069292
+        "subsec_nanos": 130267791
       },
       "false_accept": false
     },
@@ -6303,7 +6549,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 4089000
+        "subsec_nanos": 14528542
       },
       "false_accept": false
     },
@@ -6426,7 +6672,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9839166
+        "subsec_nanos": 12736875
       },
       "false_accept": false
     },
@@ -6549,7 +6795,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 114842542
+        "subsec_nanos": 160910709
       },
       "false_accept": false
     },
@@ -6672,7 +6918,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 17031875
+        "subsec_nanos": 36226625
       },
       "false_accept": false
     },
@@ -6795,7 +7041,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 99314458
+        "subsec_nanos": 123978083
       },
       "false_accept": false
     },
@@ -6918,7 +7164,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 102099917
+        "subsec_nanos": 190316792
       },
       "false_accept": false
     },
@@ -7041,7 +7287,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 110163084
+        "subsec_nanos": 192993041
       },
       "false_accept": false
     },
@@ -7164,7 +7410,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 21027875
+        "subsec_nanos": 48594666
       },
       "false_accept": false
     },
@@ -7287,7 +7533,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 68259542
+        "subsec_nanos": 60980625
       },
       "false_accept": false
     },
@@ -7410,7 +7656,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 110126583
+        "subsec_nanos": 171499750
       },
       "false_accept": false
     },
@@ -7533,7 +7779,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 86816917
+        "subsec_nanos": 132622500
       },
       "false_accept": false
     },
@@ -7656,7 +7902,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 126898458
+        "subsec_nanos": 205275083
       },
       "false_accept": false
     },
@@ -7779,7 +8025,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9828167
+        "subsec_nanos": 35242708
       },
       "false_accept": false
     },
@@ -7902,7 +8148,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 11751792
+        "subsec_nanos": 17353584
       },
       "false_accept": false
     },
@@ -8025,7 +8271,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10653792
+        "subsec_nanos": 21021583
       },
       "false_accept": false
     },
@@ -8148,7 +8394,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 84735917
+        "subsec_nanos": 170473667
       },
       "false_accept": false
     },
@@ -8271,7 +8517,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 94995042
+        "subsec_nanos": 159910541
       },
       "false_accept": false
     },
@@ -8394,7 +8640,7 @@
       "position": 2,
       "time": {
         "secs": 0,
-        "subsec_nanos": 91506375
+        "subsec_nanos": 131242458
       },
       "false_accept": false
     },
@@ -8517,7 +8763,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 72626375
+        "subsec_nanos": 135161958
       },
       "false_accept": false
     },
@@ -8640,7 +8886,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 61148666
+        "subsec_nanos": 88009792
       },
       "false_accept": false
     },
@@ -8763,7 +9009,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 41592000
+        "subsec_nanos": 77266542
       },
       "false_accept": false
     },
@@ -8886,7 +9132,130 @@
       "position": null,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14431125
+        "subsec_nanos": 25830334
+      },
+      "false_accept": false
+    },
+    {
+      "input": "kuuelma",
+      "expected": "kuulema",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "kuelma",
+          "weight": 27.289688,
+          "weight_details": {
+            "lexicon_weight": 12.289688,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuuela",
+          "weight": 27.695152,
+          "weight_details": {
+            "lexicon_weight": 12.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuuelta",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuuemma",
+          "weight": 31.695152,
+          "weight_details": {
+            "lexicon_weight": 16.695152,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuuelamma",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 16.695152,
+            "mutator_weight": 11.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuuelemma",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 16.695152,
+            "mutator_weight": 11.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuula",
+          "weight": 38.981583,
+          "weight_details": {
+            "lexicon_weight": 8.98158,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kuunela",
+          "weight": 39.72474,
+          "weight_details": {
+            "lexicon_weight": 9.724738,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "jutelma",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kokoelma",
+          "weight": 44.596542,
+          "weight_details": {
+            "lexicon_weight": 11.59654,
+            "mutator_weight": 18.000002,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": null,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 18418208
       },
       "false_accept": false
     },
@@ -9009,7 +9378,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9349041
+        "subsec_nanos": 5882250
       },
       "false_accept": false
     },
@@ -9132,7 +9501,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 18723542
+        "subsec_nanos": 28836334
       },
       "false_accept": false
     },
@@ -9255,7 +9624,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 61566375
+        "subsec_nanos": 117743041
       },
       "false_accept": false
     },
@@ -9378,7 +9747,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 34445625
+        "subsec_nanos": 29289000
       },
       "false_accept": false
     },
@@ -9501,7 +9870,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 23917833
+        "subsec_nanos": 46579375
       },
       "false_accept": false
     },
@@ -9624,7 +9993,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 17798250
+        "subsec_nanos": 28082167
       },
       "false_accept": false
     },
@@ -9747,7 +10116,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20384875
+        "subsec_nanos": 38067125
       },
       "false_accept": false
     },
@@ -9870,7 +10239,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 13581500
+        "subsec_nanos": 38429750
       },
       "false_accept": false
     },
@@ -9993,7 +10362,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 3758458
+        "subsec_nanos": 14556875
       },
       "false_accept": false
     },
@@ -10116,7 +10485,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 3962417
+        "subsec_nanos": 4873250
       },
       "false_accept": false
     },
@@ -10239,7 +10608,142 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 33256750
+        "subsec_nanos": 41255916
+      },
+      "false_accept": false
+    },
+    {
+      "input": "liiman",
+      "expected": "liimaan",
+      "distance": 1,
+      "suggestions": [],
+      "position": null,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 6166
+      },
+      "false_accept": true
+    },
+    {
+      "input": "lopput",
+      "expected": "loput",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "loput",
+          "weight": 20.191074,
+          "weight_details": {
+            "lexicon_weight": 11.191075,
+            "mutator_weight": 4.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lopyt",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 4.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "loppu",
+          "weight": 29.293955,
+          "weight_details": {
+            "lexicon_weight": 9.293955,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "loppuu",
+          "weight": 30.555086,
+          "weight_details": {
+            "lexicon_weight": 10.555086,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "loppua",
+          "weight": 30.68025,
+          "weight_details": {
+            "lexicon_weight": 10.68025,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "liput",
+          "weight": 36.002007,
+          "weight_details": {
+            "lexicon_weight": 12.002005,
+            "mutator_weight": 14.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lopuit",
+          "weight": 36.002007,
+          "weight_details": {
+            "lexicon_weight": 12.002005,
+            "mutator_weight": 14.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lumput",
+          "weight": 36.002007,
+          "weight_details": {
+            "lexicon_weight": 12.002004,
+            "mutator_weight": 14.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lopun",
+          "weight": 39.49793,
+          "weight_details": {
+            "lexicon_weight": 10.497928,
+            "mutator_weight": 14.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "lopu",
+          "weight": 40.44239,
+          "weight_details": {
+            "lexicon_weight": 11.44239,
+            "mutator_weight": 14.000002,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 14760625
       },
       "false_accept": false
     },
@@ -10362,7 +10866,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12630250
+        "subsec_nanos": 23429542
       },
       "false_accept": false
     },
@@ -10485,7 +10989,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12252416
+        "subsec_nanos": 20620084
       },
       "false_accept": false
     },
@@ -10608,7 +11112,130 @@
       "position": 1,
       "time": {
         "secs": 0,
-        "subsec_nanos": 21832166
+        "subsec_nanos": 34528292
+      },
+      "false_accept": false
+    },
+    {
+      "input": "lähätäny",
+      "expected": "lähättänny",
+      "distance": 2,
+      "suggestions": [
+        {
+          "value": "lähättänny",
+          "weight": 22.169426,
+          "weight_details": {
+            "lexicon_weight": 10.169425,
+            "mutator_weight": 2.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lähätäty",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lähätän",
+          "weight": 30.903393,
+          "weight_details": {
+            "lexicon_weight": 10.903394,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "lähteny",
+          "weight": 33.34525,
+          "weight_details": {
+            "lexicon_weight": 9.345248,
+            "mutator_weight": 14.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lähettänny",
+          "weight": 33.695152,
+          "weight_details": {
+            "lexicon_weight": 12.695153,
+            "mutator_weight": 5.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "läkättänny",
+          "weight": 40.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 11.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "läpättänny",
+          "weight": 40.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 11.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "lähätä",
+          "weight": 46.085716,
+          "weight_details": {
+            "lexicon_weight": 11.085717,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "lähättää",
+          "weight": 50.5171,
+          "weight_details": {
+            "lexicon_weight": 9.5171,
+            "mutator_weight": 21.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "päättäny",
+          "weight": 50.65063,
+          "weight_details": {
+            "lexicon_weight": 9.65063,
+            "mutator_weight": 21.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 41852917
       },
       "false_accept": false
     },
@@ -10731,7 +11358,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 44124250
+        "subsec_nanos": 73178625
       },
       "false_accept": false
     },
@@ -10854,7 +11481,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 76831667
+        "subsec_nanos": 96402292
       },
       "false_accept": false
     },
@@ -10977,7 +11604,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 35026292
+        "subsec_nanos": 22207792
       },
       "false_accept": false
     },
@@ -11100,7 +11727,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 42747042
+        "subsec_nanos": 49933542
       },
       "false_accept": false
     },
@@ -11223,7 +11850,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 42879167
+        "subsec_nanos": 23949667
       },
       "false_accept": false
     },
@@ -11346,7 +11973,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 40388833
+        "subsec_nanos": 85560333
       },
       "false_accept": false
     },
@@ -11469,7 +12096,7 @@
       "position": null,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10606083
+        "subsec_nanos": 25264208
       },
       "false_accept": false
     },
@@ -11592,7 +12219,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 22482083
+        "subsec_nanos": 50173083
       },
       "false_accept": false
     },
@@ -11715,7 +12342,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 38261333
+        "subsec_nanos": 75345625
       },
       "false_accept": false
     },
@@ -11838,7 +12465,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 38010917
+        "subsec_nanos": 103222459
       },
       "false_accept": false
     },
@@ -11961,7 +12588,130 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 16713833
+        "subsec_nanos": 25985208
+      },
+      "false_accept": false
+    },
+    {
+      "input": "meäkielessä",
+      "expected": "meänkielessä",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "meänkielessä",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "jääkielessä",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "meänkielestä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "meänkielissä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "meänkielensä",
+          "weight": 46.695152,
+          "weight_details": {
+            "lexicon_weight": 16.695152,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "leikielessä",
+          "weight": 48.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "elekielessä",
+          "weight": 57.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "jääkielestä",
+          "weight": 57.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "jääkielissä",
+          "weight": 57.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "jäänkielessä",
+          "weight": 57.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 83570959
       },
       "false_accept": false
     },
@@ -12084,7 +12834,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 23553000
+        "subsec_nanos": 85342834
       },
       "false_accept": false
     },
@@ -12207,7 +12957,7 @@
       "position": 1,
       "time": {
         "secs": 0,
-        "subsec_nanos": 23297667
+        "subsec_nanos": 51364542
       },
       "false_accept": false
     },
@@ -12330,7 +13080,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 6127334
+        "subsec_nanos": 2979833
       },
       "false_accept": false
     },
@@ -12453,7 +13203,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 32819500
+        "subsec_nanos": 62630917
       },
       "false_accept": false
     },
@@ -12576,7 +13326,130 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 29291417
+        "subsec_nanos": 52603417
+      },
+      "false_accept": false
+    },
+    {
+      "input": "mööttissä",
+      "expected": "möötissä",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "möötissä",
+          "weight": 21.695154,
+          "weight_details": {
+            "lexicon_weight": 12.695153,
+            "mutator_weight": 4.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "mööteissä",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "möötessä",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "möötistä",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "mettissä",
+          "weight": 41.778862,
+          "weight_details": {
+            "lexicon_weight": 11.778862,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "nöötissä",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "söötissä",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "töötissä",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "nöötiissä",
+          "weight": 46.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 18.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "söötiissä",
+          "weight": 46.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 18.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 32036917
       },
       "false_accept": false
     },
@@ -12699,7 +13572,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12551209
+        "subsec_nanos": 5381625
       },
       "false_accept": false
     },
@@ -12822,7 +13695,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 32839292
+        "subsec_nanos": 51459292
       },
       "false_accept": false
     },
@@ -12945,7 +13818,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 6659459
+        "subsec_nanos": 9240917
       },
       "false_accept": false
     },
@@ -13068,7 +13941,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 80128084
+        "subsec_nanos": 76071083
       },
       "false_accept": false
     },
@@ -13191,7 +14064,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 45519834
+        "subsec_nanos": 101138708
       },
       "false_accept": false
     },
@@ -13314,7 +14187,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 138011209
+        "subsec_nanos": 211888459
       },
       "false_accept": false
     },
@@ -13437,7 +14310,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 39232167
+        "subsec_nanos": 44016417
       },
       "false_accept": false
     },
@@ -13560,7 +14433,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 38838000
+        "subsec_nanos": 58574875
       },
       "false_accept": false
     },
@@ -13683,7 +14556,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9794333
+        "subsec_nanos": 29278208
       },
       "false_accept": false
     },
@@ -13806,7 +14679,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10560042
+        "subsec_nanos": 28769500
       },
       "false_accept": false
     },
@@ -13929,7 +14802,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 21188042
+        "subsec_nanos": 54166792
       },
       "false_accept": false
     },
@@ -14052,7 +14925,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 4832541
+        "subsec_nanos": 18189041
       },
       "false_accept": false
     },
@@ -14175,7 +15048,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 165726625
+        "subsec_nanos": 209580667
       },
       "false_accept": false
     },
@@ -14298,7 +15171,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 63077875
+        "subsec_nanos": 126501708
       },
       "false_accept": false
     },
@@ -14421,7 +15294,253 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 98505042
+        "subsec_nanos": 133127791
+      },
+      "false_accept": false
+    },
+    {
+      "input": "pääisäistä",
+      "expected": "pääsiäistä",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "pääsiäistä",
+          "weight": 37.695156,
+          "weight_details": {
+            "lexicon_weight": 12.695153,
+            "mutator_weight": 20.000004,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pläiskäistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "präiskistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälimäistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälipäistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälisistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pääsyistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pääsöistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "periväistä",
+          "weight": 52.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pesiväistä",
+          "weight": 52.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 101487542
+      },
+      "false_accept": false
+    },
+    {
+      "input": "pääsisäistä",
+      "expected": "pääsiäistä",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "pääsiäistä",
+          "weight": 27.695154,
+          "weight_details": {
+            "lexicon_weight": 12.695153,
+            "mutator_weight": 10.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälimäistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälipäistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälisistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pääseväistä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pääsisittä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pääsiäisiä",
+          "weight": 43.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 20.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "paasisäistä",
+          "weight": 46.695152,
+          "weight_details": {
+            "lexicon_weight": 28.695152,
+            "mutator_weight": 8.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "pesiväistä",
+          "weight": 52.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "päälisestä",
+          "weight": 52.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 24.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 15.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 82149792
       },
       "false_accept": false
     },
@@ -14544,7 +15663,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9239000
+        "subsec_nanos": 4019792
       },
       "false_accept": false
     },
@@ -14667,7 +15786,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 4844291
+        "subsec_nanos": 2333958
       },
       "false_accept": false
     },
@@ -14790,7 +15909,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9461167
+        "subsec_nanos": 16563666
       },
       "false_accept": false
     },
@@ -14913,7 +16032,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 7375334
+        "subsec_nanos": 2931667
       },
       "false_accept": false
     },
@@ -15036,7 +16155,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 24384666
+        "subsec_nanos": 37114959
       },
       "false_accept": false
     },
@@ -15159,7 +16278,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14020750
+        "subsec_nanos": 33753667
       },
       "false_accept": false
     },
@@ -15282,7 +16401,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 43838500
+        "subsec_nanos": 27577708
       },
       "false_accept": false
     },
@@ -15405,7 +16524,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 25471583
+        "subsec_nanos": 21919292
       },
       "false_accept": false
     },
@@ -15528,7 +16647,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 13540833
+        "subsec_nanos": 41913166
       },
       "false_accept": false
     },
@@ -15651,7 +16770,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 70324250
+        "subsec_nanos": 108862083
       },
       "false_accept": false
     },
@@ -15774,7 +16893,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 69754708
+        "subsec_nanos": 146441875
       },
       "false_accept": false
     },
@@ -15897,7 +17016,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14748417
+        "subsec_nanos": 44524541
       },
       "false_accept": false
     },
@@ -16020,7 +17139,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 11836916
+        "subsec_nanos": 12513333
       },
       "false_accept": false
     },
@@ -16143,7 +17262,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 31826667
+        "subsec_nanos": 36621958
       },
       "false_accept": false
     },
@@ -16266,7 +17385,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 92589250
+        "subsec_nanos": 69037584
       },
       "false_accept": false
     },
@@ -16389,7 +17508,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 6979875
+        "subsec_nanos": 35368458
       },
       "false_accept": false
     },
@@ -16512,7 +17631,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 39323250
+        "subsec_nanos": 40507125
       },
       "false_accept": false
     },
@@ -16635,7 +17754,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 74552333
+        "subsec_nanos": 79400750
       },
       "false_accept": false
     },
@@ -16758,7 +17877,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 42976125
+        "subsec_nanos": 19025375
       },
       "false_accept": false
     },
@@ -16881,7 +18000,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 23206792
+        "subsec_nanos": 53750333
       },
       "false_accept": false
     },
@@ -17004,7 +18123,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 47663125
+        "subsec_nanos": 75463625
       },
       "false_accept": false
     },
@@ -17127,7 +18246,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 19113167
+        "subsec_nanos": 34289666
       },
       "false_accept": false
     },
@@ -17250,7 +18369,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12596250
+        "subsec_nanos": 40352709
       },
       "false_accept": false
     },
@@ -17373,7 +18492,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 9905750
+        "subsec_nanos": 13398500
       },
       "false_accept": false
     },
@@ -17496,7 +18615,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 27734084
+        "subsec_nanos": 35538042
       },
       "false_accept": false
     },
@@ -17619,7 +18738,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 10712458
+        "subsec_nanos": 38164167
       },
       "false_accept": false
     },
@@ -17742,7 +18861,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 5003750
+        "subsec_nanos": 4925916
       },
       "false_accept": false
     },
@@ -17865,7 +18984,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 28132208
+        "subsec_nanos": 58626583
       },
       "false_accept": false
     },
@@ -17988,7 +19107,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 27445041
+        "subsec_nanos": 42028208
       },
       "false_accept": false
     },
@@ -18111,7 +19230,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 82429750
+        "subsec_nanos": 36818458
       },
       "false_accept": false
     },
@@ -18234,7 +19353,130 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 5165541
+        "subsec_nanos": 3022542
+      },
+      "false_accept": false
+    },
+    {
+      "input": "uskotte",
+      "expected": "uskotta",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "uskotta",
+          "weight": 31.778862,
+          "weight_details": {
+            "lexicon_weight": 11.778863,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskotti",
+          "weight": 33.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskottu",
+          "weight": 33.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskot",
+          "weight": 34.680252,
+          "weight_details": {
+            "lexicon_weight": 10.680251,
+            "mutator_weight": 14.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskota",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskotu",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskittä",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695152,
+            "mutator_weight": 14.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "uskutta",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "yskittä",
+          "weight": 53.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 14.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "yskättä",
+          "weight": 53.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 14.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 10.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 12168917
       },
       "false_accept": false
     },
@@ -18357,7 +19599,130 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20763958
+        "subsec_nanos": 14103333
+      },
+      "false_accept": false
+    },
+    {
+      "input": "vaikutta",
+      "expected": "vaikuttaa",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "vaikuta",
+          "weight": 20.44239,
+          "weight_details": {
+            "lexicon_weight": 11.44239,
+            "mutator_weight": 4.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaikotta",
+          "weight": 22.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 3.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaivutta",
+          "weight": 22.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 3.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaikuttaa",
+          "weight": 23.945648,
+          "weight_details": {
+            "lexicon_weight": 8.945648,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vakkuutta",
+          "weight": 26.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 2.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "vaikutti",
+          "weight": 31.085716,
+          "weight_details": {
+            "lexicon_weight": 11.085715,
+            "mutator_weight": 10.000001,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "jakutta",
+          "weight": 32.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695152,
+            "mutator_weight": 4.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kakutta",
+          "weight": 32.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 3.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kaijutta",
+          "weight": 36.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695152,
+            "mutator_weight": 8.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kaikotta",
+          "weight": 36.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695152,
+            "mutator_weight": 8.0,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 3,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 5878750
       },
       "false_accept": false
     },
@@ -18480,7 +19845,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20801125
+        "subsec_nanos": 69392500
       },
       "false_accept": false
     },
@@ -18603,7 +19968,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 17329792
+        "subsec_nanos": 18182416
       },
       "false_accept": false
     },
@@ -18726,7 +20091,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12404250
+        "subsec_nanos": 29500958
       },
       "false_accept": false
     },
@@ -18849,7 +20214,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 58204083
+        "subsec_nanos": 87601750
       },
       "false_accept": false
     },
@@ -18972,7 +20337,7 @@
       "position": 2,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20922750
+        "subsec_nanos": 23676375
       },
       "false_accept": false
     },
@@ -19095,7 +20460,130 @@
       "position": 1,
       "time": {
         "secs": 0,
-        "subsec_nanos": 84923542
+        "subsec_nanos": 147863083
+      },
+      "false_accept": false
+    },
+    {
+      "input": "viikolla",
+      "expected": "viikola",
+      "distance": 1,
+      "suggestions": [
+        {
+          "value": "viikola",
+          "weight": 18.9871,
+          "weight_details": {
+            "lexicon_weight": 9.987101,
+            "mutator_weight": 4.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "viikoila",
+          "weight": 27.289686,
+          "weight_details": {
+            "lexicon_weight": 12.289686,
+            "mutator_weight": 10.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "viikolta",
+          "weight": 28.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 9.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "viikula",
+          "weight": 31.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 7.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "viikole",
+          "weight": 36.695152,
+          "weight_details": {
+            "lexicon_weight": 12.695152,
+            "mutator_weight": 14.0,
+            "reweight_start": 0.0,
+            "reweight_mid": 0.0,
+            "reweight_end": 10.0
+          }
+        },
+        {
+          "value": "vaikola",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "veikola",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "viikuila",
+          "weight": 37.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 0.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kivikolla",
+          "weight": 42.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 13.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 5.0,
+            "reweight_end": 0.0
+          }
+        },
+        {
+          "value": "kiikula",
+          "weight": 45.695152,
+          "weight_details": {
+            "lexicon_weight": 13.695153,
+            "mutator_weight": 11.999999,
+            "reweight_start": 10.0,
+            "reweight_mid": 10.0,
+            "reweight_end": 0.0
+          }
+        }
+      ],
+      "position": 0,
+      "time": {
+        "secs": 0,
+        "subsec_nanos": 44616375
       },
       "false_accept": false
     },
@@ -19218,7 +20706,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 20989459
+        "subsec_nanos": 70059209
       },
       "false_accept": false
     },
@@ -19341,7 +20829,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 12335708
+        "subsec_nanos": 15014625
       },
       "false_accept": false
     },
@@ -19464,7 +20952,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 11490500
+        "subsec_nanos": 27903792
       },
       "false_accept": false
     },
@@ -19587,7 +21075,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 14699833
+        "subsec_nanos": 12008166
       },
       "false_accept": false
     },
@@ -19710,7 +21198,7 @@
       "position": 1,
       "time": {
         "secs": 0,
-        "subsec_nanos": 18615042
+        "subsec_nanos": 35124916
       },
       "false_accept": false
     },
@@ -19833,7 +21321,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 78568750
+        "subsec_nanos": 61036209
       },
       "false_accept": false
     },
@@ -19956,7 +21444,7 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 25216500
+        "subsec_nanos": 13907083
       },
       "false_accept": false
     },
@@ -20046,17 +21534,17 @@
       "position": 0,
       "time": {
         "secs": 0,
-        "subsec_nanos": 7666625
+        "subsec_nanos": 7004042
       },
       "false_accept": false
     }
   ],
   "start_timestamp": {
-    "secs": 1775649427,
-    "subsec_nanos": 520043000
+    "secs": 1775803910,
+    "subsec_nanos": 144580000
   },
   "total_time": {
     "secs": 0,
-    "subsec_nanos": 549406125
+    "subsec_nanos": 870363625
   }
 }
