@@ -1,6 +1,8 @@
 # wrong:correct (in final position)
 
-
+a:ä		0
+aa:ää		0
+a:aa		0
 allä:alla	1
 altä:alta	1
 an:aan		1
