@@ -458,16 +458,17 @@ LEXICON aas
 !+A+Sg+Gen:%>^Vn R ; 
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ; !kauhniimpia etc
-+A+Comp:^HMETA%>h^Ai5 3comp ; !puhtaiman etc - another sublex?
-+A+Comp:^HMET2%>h^Ai5 3comp ; 
-+A+Superl:e 3sup ;  
++A+Comp:^HMETA%>h^A^A 3comp ; !puhtaiman etc - another sublex?
++A+Comp:^HMET2%>h^A^A 3comp ; 
++A+Superl:^HMETA%>h^V 3sup ;  !%>i5m^Alle
++A+Superl+Sg+Nom:%>i5n # ;
 
-LEXICON a_s  
+
+LEXICON a_ias  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
 !+A: xnas ;
 +A+Sg+Nom:^WG%>s R ; 
 +A+Sg+Gen:^HMETA%>h^V^Vn R ; !hithaan
-
 +A+Sg+Nom:^WG%>s K ; 
 +A+Sg+Gen:^HMETA%>h^V^Vn K ; !hithaan
 +A+Sg+Gen:^HMET2%>h^V^Vn K ; !
@@ -497,8 +498,12 @@ LEXICON a_s
 
 +A+Comp:^HMETA%>h^V^V 3comp ;
 +A+Comp:^HMET2%>h^V^V 3comp ;
++A+Comp+Pl+Gen:^HMETA%>h^V^Vmpien K; !hithaampien
++A+Comp+Pl+Gen:^HMET2%>h^V^Vmpien K;
 +A+Superl:^HMETA%>h^V 3sup ; 
-+A+Superl+Sg+Nom:^HMETA%>h^Vi5n K ;
++A+Superl+Sg+Nom:^HMETA%>h^Vi5n K ; !
++A+Superl+Pl+Gen:^HMETA%>h^Vi5mpien K ; !hithaimpien
++A+Superl+Pl+Gen:^HMET2%>h^Vi5mpien K ; !hithaimpien
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4

@@ -1764,8 +1764,9 @@ luononsiivo:luononsiivo ax ;
 ahas:ahta aas ;
 vaitelihas:vaiteliha aas ;
 puhas:puhta aas ;
-hias:hita a_s ;
-puhelias:puhelia aas ;
+hias:hita a_ias ;
+puhelias:puhelia a_ias ;
+!puhelias:puheXlia a_s ; !Test move to this group?
 laulelias:laulelia aas ;
 toimelias:toimelia aas ;
 kohtelias:kohtelia aas ;
