@@ -442,7 +442,7 @@ LEXICON Root    !!≈  **@CODE@**
  Abbreviation ;
  Acronym ;
  ARABICS ;
-! THIS_LEXICON_DOES_NOT_EXIST ; ! intentionally broken
+ THIS_LEXICON_DOES_NOT_EXIST ; ! intentionally broken
 
 ! Then to the next lexica.
 
