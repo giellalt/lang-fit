@@ -286,6 +286,8 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta
 +V+Act+Imprt+Sg:%>kh^O^On # ;
 +V+Act+Imprt+Pl2:%>k^A^A # ;
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ;
++V+Neg+Act+Imprt+Sg2:^WG # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:k^O # ; !plus älä (älkää antako)
 
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
@@ -392,7 +394,8 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 +V+Act+Imprt+Sg:%>kh^O^On # ;
 +V+Act+Imprt+Pl2:%>k^A^A # ;
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ;
-
++V+Neg+Act+Imprt+Sg2:^WG # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:k^O # ; !plus älä (älkää antako)
 
 ! ! Derivation
 +V+Der+Der/minen+N:mi xnen ;
@@ -488,7 +491,8 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 +V+Act+Imprt+Sg:ta%>kh^O^On # ;
 +V+Act+Imprt+Pl2:ta%>k^A^A # ;
 +V+Act+Imprt+Pl3:ta%>kh^O^Ot # ;
-
++V+Neg+Act+Imprt+Sg2:^WG # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:k^O # ; !plus älä (älkää antako)
 ! ! Derivation
 +V+Der+Der/minen+N:tami xnen ;
 
