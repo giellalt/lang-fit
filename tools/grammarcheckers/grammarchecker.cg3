@@ -576,6 +576,7 @@ LIST &msyn-agr-pl1-sg1 = &msyn-agr-pl1-sg1 ;
 LIST &msyn-agr-pl2-sg1 = &msyn-agr-pl2-sg1 ;
 LIST &msyn-agr-pl3-sg1 = &msyn-agr-pl3-sg1 ;
 LIST &msyn-agr-sg3-sg2 = &msyn-agr-sg3-sg2 ;
+LIST &msyn-agr-sg1-pl1 = &msyn-agr-sg1-pl1 ;
 LIST &msyn-negesubj-nom-par = &msyn-negesubj-nom-par ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
 LIST &msyn-po-asti = &msyn-po-asti ;
@@ -645,13 +646,13 @@ ADDRELATION:msyn-agr-sg2-sg1 ($2 LEFT) (V &msyn-agr-sg2-sg1) TO (*-1 (Pron &msyn
 
 #!!  **Agreement rule:** msyn-agr-pl1-sg1
 ADD:msyn-agr-pl1-sg1 &msyn-agr-pl1-sg1 TARGET (V Act Pl1) IF
-	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM LINK NEGATE -1 ("ja") LINK -1 (Pron Pers Nom) OR (N Nom) );
 COPY:msyn-agr-pl1-sg1 (Sg1 SUGGEST) EXCEPT (Pl1) TARGET &msyn-agr-pl1-sg1;
 
 ADD:msyn-agr-pl1-sg1 &msyn-agr-pl1-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-pl1-sg1) BARRIER (V Sg) OR SGNOM);
 	
 ADDRELATION:msyn-agr-pl1-sg1 ($2 LEFT) (V &msyn-agr-pl1-sg1) TO (*-1 (Pron &msyn-agr-pl1-sg1));
-
+	#% Hään ja mie menemä.
 	#$ Mie tulema.
 	#$ Mie nyt tulema.
 	#% Mie tulen.
@@ -682,6 +683,21 @@ ADDRELATION:msyn-agr-pl3-sg1 ($2 LEFT) (V &msyn-agr-pl3-sg1) TO (*-1 (Pron &msyn
 	#$ Mie nyt tuleva.
 	#% Mie tulen.
 
+	#% Hään ja mie nyt menemä 
+	#$ Hään ja mie nyt menen
+
+#!!  **Agreement rule:** msyn-agr-sg1-pl1
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
+	(*-1 ("met" Pron Pers Pl Nom) BARRIER (V Sg)) ;
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
+	(*-1 ("mie" Pron Pers Sg Nom) LINK -1 ("ja") LINK -1 (Pron Pers Nom) OR (N Nom)) ;
+COPY:msyn-agr-sg1-pl1 (Pl1 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-pl1 ;
+
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET ("met" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
+
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (Pron Pers Sg Nom) OR (N Nom) IF (1 ("ja") LINK 1 ("mie" Pron Pers Sg Nom) LINK *1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
+	
+ADDRELATION:msyn-agr-sg1-pl1 ($2 LEFT) (V &msyn-agr-sg1-pl1) TO (*-1 (Pron &msyn-agr-sg1-pl1));
 
 ##Check! What is this rule?
 # ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF

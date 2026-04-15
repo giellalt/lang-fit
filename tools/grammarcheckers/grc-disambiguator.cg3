@@ -792,9 +792,10 @@ REMOVE:prop_infrontof_kieli Prop (0 Gen OR Pron OR A LINK 1 ("kieli")) ;
 REMOVE:PropInit Prop (*-1 BOS BARRIER WORD)  ((0 CC) OR (0 Pr LINK 1 N)) ;
 	#$ Mutta kaikila kirjailiijoila
 
+SET NOT-PROP = (*) - Prop ;
 #!! * **Rule: PropNotInit** selects  propernoun if it is not in the beginning of a sentence
-SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) ;
-
+SELECT:PropNotInit Prop (NOT *-1 BOS BARRIER WORD) (NEGATE 0 NOT-PROP + ("<[a-z].*>"r) ) ;
+    #$ Mie annatta 
 
 #!! Possessive suffixes
 
