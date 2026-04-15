@@ -206,7 +206,7 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon because of changes in dift
 +V+Act+Imprt+Pl3:ä%>kh^O^Ot # ;
 
 ! ! Derivation
-+V+Der+Der/minen+N:mi xnen ;
++V+Der+Der/minen+N:etämi xnen ;
 
 LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta 
 +V+Inf:%>^A KK ;
@@ -491,8 +491,8 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 +V+Act+Imprt+Sg:ta%>kh^O^On # ;
 +V+Act+Imprt+Pl2:ta%>k^A^A # ;
 +V+Act+Imprt+Pl3:ta%>kh^O^Ot # ;
-+V+Neg+Act+Imprt+Sg2:^WG # ; !plus älä (älä anna)
-+V+Neg+Act+Imprt+Pl2:k^O # ; !plus älä (älkää antako)
++V+Neg+Act+Imprt+Sg2:a # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:tak^O # ; !plus älä (älkää antako)
 ! ! Derivation
 +V+Der+Der/minen+N:tami xnen ;
 
@@ -553,7 +553,10 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
 +V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
 
-+V+Der+Der/minen+N:%>^A^Ami xnen ;
++V+Neg+Act+Imprt+Sg2:^A # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:^Ak^O # ; !plus älä (älkää antako)
+
++V+Der+Der/minen+N:%>^Ami xnen ; !CHECK FOR WHICH?
 
 LEXICON v2_ata !!≈ * **@CODE@** masinata etc
 ! Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
@@ -567,6 +570,8 @@ v2 ;
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 !+V+Act+Ind+Prs+Pl1:%>^Amm^A K ; !planeeramma
 !+V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !TEST 6/2
+!
+
 
 
 
@@ -625,6 +630,7 @@ v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A^A K ;
 +V+Act+Cond:%>^Ai4s 2cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; 
++V+Der+Der/minen+N:%>^A^Ami xnen ;
 
 
 LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm 
@@ -841,6 +847,9 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 +V+Act+Cond+Pl3:%>i3s%>it K ;
 +V+Act+Cond+Pl3:%>i3s%>iv^A K ;
 +V+Der+Der/minen+N:mi xnen ;
+
++V+Neg+Act+Imprt+Sg2:^WG # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:k^O # ; !plus älä (älkää antako)
 
 
 LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä 
@@ -1073,6 +1082,8 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Act+Cond+Pl3:%>i4s%>iv^A K ;
 
 +V+Der+Der/minen+N:emi xnen ;
++V+Neg+Act+Imprt+Sg2:^N^A%>^WG # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+Pl2:^N^A%>k^O # ; !plus älä (älkää antako)
 
 
 LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
@@ -1099,6 +1110,7 @@ LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
 +V+Act+Cond+Pl3:ks%>i4s%>it K ;
 +V+Act+Cond+Pl3:ks%>i4s%>iv^A K ;
 
++V+Der+Der/minen+N:ksemi xnen ;
 !+V+Inf+Tra:%>^N^Akse PxK ;
 !+V+InfE+Ins:%>^Nen K ; !tullen
 !+V+InfE+Ine:%>^Ness^A K ; !tullessa, mennässä MEN noustessa ACT
