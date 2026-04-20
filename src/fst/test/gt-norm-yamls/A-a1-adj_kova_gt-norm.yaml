@@ -1,0 +1,289 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+#ISO kova hyvä pitkä
+
+  Adj - iso: #  sg ade --  kontrollerad av Elina 
+     iso+A+Sg+Nom: iso
+     iso+A+Sg+Gen: ison
+     iso+A+Sg+Par: isoa
+     iso+A+Sg+Ill: ishoon
+     iso+A+Sg+Ine: isossa
+     iso+A+Sg+Ela: isosta
+     iso+A+Sg+All: isole
+     iso+A+Sg+Ade: isola
+     iso+A+Sg+Abl: isolta
+     iso+A+Sg+Ess: isona
+     iso+A+Sg+Tra: isoksi
+     iso+A+Pl+Nom: isot
+     iso+A+Pl+Gen: [isoitten, isojen]
+     iso+A+Pl+Par: [isoja, isoita]
+     iso+A+Pl+Ill: ishoin
+     iso+A+Pl+Ine: isoissa
+     iso+A+Pl+Ela: isoista
+     iso+A+Pl+All: isoile
+     iso+A+Pl+Ade: isoila
+     iso+A+Pl+Abl: isoilta
+     iso+A+Pl+Ess: isoina
+     iso+A+Pl+Tra: isoiksi
+     iso+A+Comp+Sg+Nom: isompi
+     iso+A+Comp+Sg+Gen: isoman
+     iso+A+Comp+Sg+Par: isompaa
+     iso+A+Comp+Sg+Ill: isomphaan
+     iso+A+Comp+Sg+Ine: isomassa
+     iso+A+Comp+Sg+Ela: isomasta
+     iso+A+Comp+Sg+All: isomalle
+     iso+A+Comp+Sg+Ade: isomalla
+     iso+A+Comp+Sg+Abl: isomalta
+     iso+A+Comp+Sg+Ess: isompanna
+     iso+A+Comp+Sg+Tra: isomaksi
+     iso+A+Comp+Pl+Nom: isomat
+     iso+A+Comp+Pl+Gen: isomitten
+     iso+A+Comp+Pl+Par: isompia
+     iso+A+Comp+Pl+Ill: isomphiin
+     iso+A+Comp+Pl+Ine: isomissa
+     iso+A+Comp+Pl+Ela: isomista
+     iso+A+Comp+Pl+All: isomille
+     iso+A+Comp+Pl+Ade: isomilla
+     iso+A+Comp+Pl+Abl: isomilta
+     iso+A+Comp+Pl+Ess: isompinna
+     iso+A+Comp+Pl+Tra: isomiksi
+     iso+A+Superl+Sg+Nom: issoin
+     iso+A+Superl+Sg+Gen: issoiman
+     iso+A+Superl+Sg+Par: issoimpaa
+     iso+A+Superl+Sg+Ill: issoimphaan
+     iso+A+Superl+Sg+Ine: issoimassa
+     iso+A+Superl+Sg+Ela: issoimasta
+     iso+A+Superl+Sg+All: issoimalle
+     iso+A+Superl+Sg+Ade: issoimalla
+     iso+A+Superl+Sg+Abl: issoimalta
+     iso+A+Superl+Sg+Ess: issoimpanna
+     iso+A+Superl+Sg+Tra: issoimaksi
+     iso+A+Superl+Pl+Nom: issoimat
+     iso+A+Superl+Pl+Gen: issoimitten
+     iso+A+Superl+Pl+Par: issoimpia
+     iso+A+Superl+Pl+Ill: issoimphiin
+     iso+A+Superl+Pl+Ine: issoimissa
+     iso+A+Superl+Pl+Ela: issoimista
+     iso+A+Superl+Pl+All: issoimille
+     iso+A+Superl+Pl+Ade: issoimilla
+     iso+A+Superl+Pl+Abl: issoimilta
+     iso+A+Superl+Pl+Ess: issoimpinna
+     iso+A+Superl+Pl+Tra: issoimiksi
+
+  Adj - kova: #  sg ade --  kontrollerad av Elina 
+    kova+A+Sg+Nom: kova
+    kova+A+Sg+Gen: kovan
+    kova+A+Sg+Par: kovvaa  
+    kova+A+Sg+Ill: kovhaan
+    kova+A+Sg+Ine: kovassa
+    kova+A+Sg+Ela: kovasta
+    kova+A+Sg+All: kovale
+    kova+A+Sg+Ade: kovala
+    kova+A+Sg+Abl: kovalta
+    kova+A+Sg+Ess: kovana
+    kova+A+Sg+Tra: kovaksi
+    kova+A+Pl+Nom: kovat
+    kova+A+Pl+Gen: [kovitten, kovien]
+    kova+A+Pl+Par: kovia
+    kova+A+Pl+Ill: kovhiin
+    kova+A+Pl+Ine: kovissa
+    kova+A+Pl+Ela: kovista
+    kova+A+Pl+All: kovile
+    kova+A+Pl+Ade: kovila
+    kova+A+Pl+Abl: kovilta
+    kova+A+Pl+Ess: kovina
+    kova+A+Pl+Tra: koviksi
+    kova+A+Comp+Sg+Nom: kovempi
+    kova+A+Comp+Sg+Gen: koveman
+    kova+A+Comp+Sg+Par: kovempaa
+    kova+A+Comp+Sg+Ill: kovemphaan
+    kova+A+Comp+Sg+Ine: kovemassa
+    kova+A+Comp+Sg+Ela: kovemasta
+    kova+A+Comp+Sg+All: kovemalle
+    kova+A+Comp+Sg+Ade: kovemalla
+    kova+A+Comp+Sg+Abl: kovemalta
+    kova+A+Comp+Sg+Ess: kovempanna
+    kova+A+Comp+Sg+Tra: kovemaksi
+    kova+A+Comp+Pl+Nom: kovemat
+    kova+A+Comp+Pl+Gen: [kovemitten, kovempien]
+    kova+A+Comp+Pl+Par: kovempia
+    kova+A+Comp+Pl+Ill: kovemphiin
+    kova+A+Comp+Pl+Ine: kovemissa
+    kova+A+Comp+Pl+Ela: kovemista
+    kova+A+Comp+Pl+All: kovemille
+    kova+A+Comp+Pl+Ade: kovemilla
+    kova+A+Comp+Pl+Abl: kovemilta
+    kova+A+Comp+Pl+Ess: kovempinna
+    kova+A+Comp+Pl+Tra: kovemiksi
+    kova+A+Superl+Sg+Nom: [kovin, kovviin]
+    kova+A+Superl+Sg+Gen: [koviman, kovviiman]
+    kova+A+Superl+Sg+Par: [kovimpaa, kovviimpaa]
+    kova+A+Superl+Sg+Ill: [kovimphaan, kovviimphaan]
+    kova+A+Superl+Sg+Ine: [kovimassa, kovviimassa]
+    kova+A+Superl+Sg+Ela: [kovimasta, kovviimasta]
+    kova+A+Superl+Sg+All: [kovimalle, kovviimalle]
+    kova+A+Superl+Sg+Ade: [kovimalla, kovviimalla]
+    kova+A+Superl+Sg+Abl: [kovimalta, kovviimalta]
+    kova+A+Superl+Sg+Ess: [kovimpanna, kovviimpanna]
+    kova+A+Superl+Sg+Tra: [kovimaksi, kovviimaksi]
+    kova+A+Superl+Pl+Nom: [kovimat, kovviimat]
+    kova+A+Superl+Pl+Gen: [kovimitten, kovviimitten, kovviimpien]
+    kova+A+Superl+Pl+Par: [kovimpia, kovviimpia]
+    kova+A+Superl+Pl+Ill: [kovimphiin, kovviimphiin]
+    kova+A+Superl+Pl+Ine: [kovimissa, kovviimissa]
+    kova+A+Superl+Pl+Ela: [kovimista, kovviimista]
+    kova+A+Superl+Pl+All: [kovimille, kovviimille]
+    kova+A+Superl+Pl+Ade: [kovimilla, kovviimilla]
+    kova+A+Superl+Pl+Abl: [kovimilta, kovviimilta]
+    kova+A+Superl+Pl+Ess: [kovimpinna, kovviimpinna]
+    kova+A+Superl+Pl+Tra: [kovimiksi, kovviimiksi]
+
+  Adj - hyvä: #  -  GOLD (men behöver utredas vidare) 
+    hyvä+A+Sg+Nom: hyvä
+    hyvä+A+Sg+Gen: hyvän
+    hyvä+A+Sg+Par: hyvvää
+    hyvä+A+Sg+Ill: hyvhään
+    hyvä+A+Sg+Ine: hyvässä
+    hyvä+A+Sg+Ela: hyvästä
+    hyvä+A+Sg+All: hyväle
+    hyvä+A+Sg+Ade: hyvälä
+    hyvä+A+Sg+Abl: hyvältä
+    hyvä+A+Sg+Ess: hyvänä
+    hyvä+A+Sg+Tra: hyväksi
+    hyvä+A+Pl+Nom: hyvät
+    hyvä+A+Pl+Gen: [hyvitten, hyvien]
+    hyvä+A+Pl+Par: hyviä
+    hyvä+A+Pl+Ill: hyvhiin
+    hyvä+A+Pl+Ine: hyvissä
+    hyvä+A+Pl+Ela: hyvistä
+    hyvä+A+Pl+All: hyvile
+    hyvä+A+Pl+Ade: hyvilä
+    hyvä+A+Pl+Abl: hyviltä
+    hyvä+A+Pl+Ess: hyvinä
+    hyvä+A+Pl+Tra: hyviksi
+    hyvä+A+Comp+Sg+Nom: parempi
+    hyvä+A+Comp+Sg+Gen: pareman
+    hyvä+A+Comp+Sg+Par: parempaa
+    hyvä+A+Comp+Sg+Ill: paremphaan
+    hyvä+A+Comp+Sg+Ine: paremassa
+    hyvä+A+Comp+Sg+Ela: paremasta
+    hyvä+A+Comp+Sg+All: paremalle
+    hyvä+A+Comp+Sg+Ade: paremalla
+    hyvä+A+Comp+Sg+Abl: paremalta
+    hyvä+A+Comp+Sg+Ess: parempanna
+    hyvä+A+Comp+Sg+Tra: paremaksi
+    hyvä+A+Comp+Pl+Nom: paremat
+    hyvä+A+Comp+Pl+Gen: [paremitten, parempien]
+    hyvä+A+Comp+Pl+Par: parempia
+    hyvä+A+Comp+Pl+Ill: paremphiin
+    hyvä+A+Comp+Pl+Ine: paremissa
+    hyvä+A+Comp+Pl+Ela: paremista
+    hyvä+A+Comp+Pl+All: paremille
+    hyvä+A+Comp+Pl+Ade: paremilla
+    hyvä+A+Comp+Pl+Abl: paremilta
+    hyvä+A+Comp+Pl+Ess: parempinna
+    hyvä+A+Comp+Pl+Tra: paremiksi
+    hyvä+A+Superl+Sg+Nom: paras
+    hyvä+A+Superl+Sg+Gen: [parhaan, parhhaan]
+    hyvä+A+Superl+Sg+Par: parasta
+    hyvä+A+Superl+Sg+Ill: [parhaasheen, parhhaasheen]      
+    hyvä+A+Superl+Sg+Ine: parhaassa
+    hyvä+A+Superl+Sg+Ela: parhaasta
+    hyvä+A+Superl+Sg+All: parhaale
+    hyvä+A+Superl+Sg+Ade: parhaala
+    hyvä+A+Superl+Sg+Abl: parhaalta
+    hyvä+A+Superl+Sg+Ess: parhaana
+    hyvä+A+Superl+Sg+Tra: parhaaksi
+    hyvä+A+Superl+Pl+Nom: parhaat
+    hyvä+A+Superl+Pl+Gen: parhaitten
+    hyvä+A+Superl+Pl+Par: parhaita
+    hyvä+A+Superl+Pl+Ill: parhaishiin
+    hyvä+A+Superl+Pl+Ine: parhaissa
+    hyvä+A+Superl+Pl+Ela: parhaista
+    hyvä+A+Superl+Pl+All: parhaile
+    hyvä+A+Superl+Pl+Ade: parhaila
+    hyvä+A+Superl+Pl+Abl: parhailta
+    hyvä+A+Superl+Pl+Ess: parhaina
+    hyvä+A+Superl+Pl+Tra: parhaiksi
+
+  Adj pitkä: #  sg ade --  kontrollerad av Elina 
+    pitkä+A+Sg+Nom: pitkä
+    pitkä+A+Sg+Gen: pitkän
+    pitkä+A+Sg+Par: pitkää
+    pitkä+A+Sg+Ill: pitkhään
+    pitkä+A+Sg+Ine: pitkässä
+    pitkä+A+Sg+Ela: pitkästä
+    pitkä+A+Sg+All: pitkäle
+    pitkä+A+Sg+Ade: pitkälä
+    pitkä+A+Sg+Abl: pitkältä
+    pitkä+A+Sg+Ess: pitkänä
+    pitkä+A+Sg+Tra: pitkäksi
+    pitkä+A+Pl+Nom: pitkät
+    pitkä+A+Pl+Gen: [pitkitten, pitkien]
+    pitkä+A+Pl+Par: pitkiä
+    pitkä+A+Pl+Ill: pitkhiin
+    pitkä+A+Pl+Ine: pitkissä
+    pitkä+A+Pl+Ela: pitkistä
+    pitkä+A+Pl+All: pitkile
+    pitkä+A+Pl+Ade: pitkilä
+    pitkä+A+Pl+Abl: pitkiltä
+    pitkä+A+Pl+Ess: pitkinä
+    pitkä+A+Pl+Tra: pitkiksi
+    pitkä+A+Comp+Sg+Nom: pitempi
+    pitkä+A+Comp+Sg+Gen: pitemän
+    pitkä+A+Comp+Sg+Par: pitempää
+    pitkä+A+Comp+Sg+Ill: pitemphään
+    pitkä+A+Comp+Sg+Ine: pitemässä
+    pitkä+A+Comp+Sg+Ela: pitemästä
+    pitkä+A+Comp+Sg+All: pitemälle
+    pitkä+A+Comp+Sg+Ade: pitemällä
+    pitkä+A+Comp+Sg+Abl: pitemältä
+    pitkä+A+Comp+Sg+Ess: [pitempännä, pitempänä]
+    pitkä+A+Comp+Sg+Tra: pitemäksi
+    pitkä+A+Comp+Pl+Nom: pitemät
+    pitkä+A+Comp+Pl+Gen: [pitemitten, pitempien]
+    pitkä+A+Comp+Pl+Par: pitempiä
+    pitkä+A+Comp+Pl+Ill: pitemphiin
+    pitkä+A+Comp+Pl+Ine: pitemissä
+    pitkä+A+Comp+Pl+Ela: pitemistä
+    pitkä+A+Comp+Pl+All: pitemille
+    pitkä+A+Comp+Pl+Ade: pitemillä
+    pitkä+A+Comp+Pl+Abl: pitemiltä
+    pitkä+A+Comp+Pl+Ess: pitempinnä
+    pitkä+A+Comp+Pl+Ess: [pitempinä, pitempinnä]
+    pitkä+A+Comp+Pl+Tra: pitemiksi
+    pitkä+A+Superl+Sg+Nom: [pisin, pissiin]
+    pitkä+A+Superl+Sg+Gen: [pisimän, pissiimän]
+    pitkä+A+Superl+Sg+Par: [pisimästä, pissiimästä]
+    pitkä+A+Superl+Sg+Ill: [pisimphään, pissiimphään]
+    pitkä+A+Superl+Sg+Ine: [pisimässä, pissiimässä]
+    pitkä+A+Superl+Sg+Ela: [pisimästä, pissiimästä]
+    pitkä+A+Superl+Sg+All: [pisimälle, pissiimälle]
+    pitkä+A+Superl+Sg+Ade: [pisimällä, pissiimällä]
+    pitkä+A+Superl+Sg+Abl: [pisimältä, pissiimältä]
+    pitkä+A+Superl+Sg+Ess: [pisimpännä, pisimpänä, pissiimpänä, pissiimpännä]
+    pitkä+A+Superl+Sg+Tra: [pisimäksi, pissiimäksi]
+    pitkä+A+Superl+Pl+Nom: [pisimät, pissiimät]
+    pitkä+A+Superl+Pl+Gen: [pisimpien, pissiimpien, pisimitten, pissiimitten]
+    pitkä+A+Superl+Pl+Par: [pisimpiä, pissiimpiä]
+    pitkä+A+Superl+Pl+Ill: [pisimphiin, pissiimphiin]
+    pitkä+A+Superl+Pl+Ine: [pisimissä, pissiimissä]
+    pitkä+A+Superl+Pl+Ela: [pisimistä, pissiimistä]
+    pitkä+A+Superl+Pl+All: [pisimille, pissiimille]
+    pitkä+A+Superl+Pl+Ade: [pisimillä, pissiimillä]
+    pitkä+A+Superl+Pl+Abl: [pisimiltä, pissiimiltä]
+    pitkä+A+Superl+Pl+Ess: [pisimpinnä, pisimpinä, pissiimpinnä, pissiimpinä]
+    pitkä+A+Superl+Pl+Tra: [pisimiksi, pissiimiksi]
