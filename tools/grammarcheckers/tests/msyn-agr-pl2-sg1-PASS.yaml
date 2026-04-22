@@ -1,0 +1,11 @@
+Config:
+  Spec: ../pipespec.xml
+  Variants: [fitgram-dev]
+
+Tests:
+  - "{Mie tuletta}£{Mie tulen}."
+  - "{Mie nyt tuletta}£{Mie nyt tulen}."
+  - "{Mie rakastan sitä ja tuletta}£{Mie rakastan sitä ja tulen}"
+  - "Jos {mie jolleki annatta} sen synnit antheeksi£Jos {mie jolleki annan} sen synnit antheeksi}."
+  - "{Mie sanon hei kaikile ja sitte tuletta}£{Mie sanon hei kaikile ja sitte tulen}."
+  
