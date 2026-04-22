@@ -67,10 +67,10 @@ LIST Refl = Refl ;			   #!!≈ * @CODE@
 LIST PrsPrc = PrsPrc ;		   #!!≈ * @CODE@ 
 LIST NUMS = "yksi" Num;		   #!!≈ * @CODE@ 
 LIST Ord = Ord ;			   #!!≈ * @CODE@ 
-LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" ; 	  #!!≈ * @CODE@ 
-LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" "/" "," ;  #!!≈ * @CODE@ 
+LIST CC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmäkä" "ettäkä" "eikä" "/" ; 	  #!!≈ * @CODE@ 
+LIST CCC = CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmäkä" "ettäkä" "eikä" "/" "," ;  #!!≈ * @CODE@ 
 LIST CS = CS ; 																						  #!!≈ * @CODE@ 
-LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmekä" "ettekä" "eivätkä" ;	  #!!≈ * @CODE@ 
+LIST Conj = CS CC "enkä" "etkä" "eikä" ("ei" Foc/ka) ("ei" Foc_ka) "emmäkä" "ettäkä" "eikä" ;	  #!!≈ * @CODE@ 
 LIST Attr = Attr ; 			  #!!≈ * @CODE@ 
 LIST Rel = Rel ;			  #!!≈ * @CODE@ 
 LIST Interr = Interr ;		  #!!≈ * @CODE@ 
@@ -100,9 +100,9 @@ LIST PLa = Pl Pl1 Pl2 Pl3 ;  #!!≈ * @CODE@
 LIST NUMBER = Sg Pl ;	     #!!≈ * @CODE@ 
 SET SGPRON = Pron + SGa;     #!!≈ * @CODE@ 
 SET PLPRON = Pron + PLa;     #!!≈ * @CODE@ 
-SET ME = PLPRON + ("me") ;   #!!≈ * @CODE@ 
-SET TE = PLPRON + ("te") ;   #!!≈ * @CODE@ 
-SET HE = PLPRON + ("he") ;   #!!≈ * @CODE@ 
+SET ME = PLPRON + ("met") ;   #!!≈ * @CODE@ 
+SET TE = PLPRON + ("tet") ;   #!!≈ * @CODE@ 
+SET HE = PLPRON + ("het") ;   #!!≈ * @CODE@ 
 
 
 
@@ -409,12 +409,12 @@ SET NOT-NPMODADV = WORD - NPMODADV ; #!! * NOT-NPMODADV = these cannot modify a 
 LIST QVANT-ADV = "paljon" "vähän" "enämen" "vähemän" ;  #!! * QVANT-ADV = e.g. paljon, vähän
 LIST KUNKA = "kunka" "missä" ;  #!! * KUNKA = e.g. kunka missä (adverbs that start a sentence)
 
-LIST ETTA = "että" "<etten>" "<ettet>" "<ettei>" ; # vaillettä?
+LIST ETTA = "ette" "<etten>" "<ettet>" "<ettei>" ; # vaillettä?
 LIST VAIKKA_KUIN_JOS = "vaikka" "kuin" "jos" "ties" ; 
 LIST JOS_VAIKKA = "jos" "vaikka" ; 
 LIST JOS_KUN_KOSKA_VAIKKA = "jos" "kun" "koska" "vaikka" ; 
 
-LIST Compl = CS CC "<,>" Punct "joten" "jotta" "että" "jos" "kun" "koska" "vaikka" "kuin" ; 
+LIST Compl = CS CC "<,>" Punct "joten" "jotta" "ette" "jos" "kun" "koska" "vaikka" "kuin" ; 
 
 
 LIST MIKA = "mikä" ;

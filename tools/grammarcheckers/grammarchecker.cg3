@@ -618,6 +618,19 @@ SECTION
 
 	 # Sg1 SUBJ
 
+#!!  **Agreement rule:** msyn-agr-sg2-sg1
+ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET (V Act Sg2) IF
+	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
+COPY:msyn-agr-sg2-sg1 (Sg1 SUGGEST) EXCEPT (Sg2) TARGET &msyn-agr-sg2-sg1;
+
+ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-sg2-sg1) BARRIER (V Sg) OR SGNOM);
+	
+ADDRELATION:msyn-agr-sg2-sg1 ($2 LEFT) (V &msyn-agr-sg2-sg1) TO (*-1 (Pron &msyn-agr-sg2-sg1));
+
+	#$ Mie tulet.
+	#$ Mie nyt tulet.
+	#% Mie tulen.
+
 #!!  **Agreement rule:** msyn-agr-sg3-sg1
 ADD:msyn-agr-sg3-sg1 &msyn-agr-sg3-sg1 TARGET (V Act Sg3) IF
 	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
@@ -631,18 +644,7 @@ ADDRELATION:msyn-agr-sg3-sg1 ($2 LEFT) (V &msyn-agr-sg3-sg1) TO (*-1 (Pron &msyn
 	#$ Mie nyt tullee.
 	#% Mie tulen.
 
-#!!  **Agreement rule:** msyn-agr-sg2-sg1
-ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET (V Act Sg2) IF
-	(*-1 ("mie" Pron Pers Sg Nom) BARRIER (V Sg) OR SGNOM);
-COPY:msyn-agr-sg2-sg1 (Sg1 SUGGEST) EXCEPT (Sg2) TARGET &msyn-agr-sg2-sg1;
 
-ADD:msyn-agr-sg2-sg1 &msyn-agr-sg2-sg1 TARGET ("mie" Pron Pers Sg Nom) IF (*1 (V &msyn-agr-sg2-sg1) BARRIER (V Sg) OR SGNOM);
-	
-ADDRELATION:msyn-agr-sg2-sg1 ($2 LEFT) (V &msyn-agr-sg2-sg1) TO (*-1 (Pron &msyn-agr-sg2-sg1));
-
-	#$ Mie tulet.
-	#$ Mie nyt tulet.
-	#% Mie tulen.
 
 #!!  **Agreement rule:** msyn-agr-pl1-sg1
 ADD:msyn-agr-pl1-sg1 &msyn-agr-pl1-sg1 TARGET (V Act Pl1) IF
@@ -686,18 +688,6 @@ ADDRELATION:msyn-agr-pl3-sg1 ($2 LEFT) (V &msyn-agr-pl3-sg1) TO (*-1 (Pron &msyn
 	#% Hään ja mie nyt menemä 
 	#$ Hään ja mie nyt menen
 
-#!!  **Agreement rule:** msyn-agr-sg1-pl1
-ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
-	(*-1 ("met" Pron Pers Pl Nom) BARRIER (V Sg)) ;
-ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
-	(*-1 ("mie" Pron Pers Sg Nom) LINK -1 ("ja") LINK -1 (Pron Pers Nom) OR (N Nom)) ;
-COPY:msyn-agr-sg1-pl1 (Pl1 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-pl1 ;
-
-ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET ("met" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
-
-ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (Pron Pers Sg Nom) OR (N Nom) IF (1 ("ja") LINK 1 ("mie" Pron Pers Sg Nom) LINK *1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
-	
-ADDRELATION:msyn-agr-sg1-pl1 ($2 LEFT) (V &msyn-agr-sg1-pl1) TO (*-1 (Pron &msyn-agr-sg1-pl1));
 
 ##Check! What is this rule?
 # ADD:xmsyn-agr-sg2-sg1 (&msyn-agr-sg2-sg1) TARGET V IF
@@ -778,6 +768,20 @@ ADDRELATION:msyn-agr-sg3-pl3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg3-pl3)
 #$ Net tullee
 #% Net tulhaan
 
+#!! ### Should be Pl1
+
+#!!  **Agreement rule:** msyn-agr-sg1-pl1
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
+	(*-1 ("met" Pron Pers Pl Nom) BARRIER (V Sg)) ;
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (V Act Sg1) IF
+	(*-1 ("mie" Pron Pers Sg Nom) LINK -1 ("ja") LINK -1 (Pron Pers Nom) OR (N Nom)) ;
+COPY:msyn-agr-sg1-pl1 (Pl1 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-pl1 ;
+
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET ("met" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
+
+ADD:msyn-agr-sg1-pl1 &msyn-agr-sg1-pl1 TARGET (Pron Pers Sg Nom) OR (N Nom) IF (1 ("ja") LINK 1 ("mie" Pron Pers Sg Nom) LINK *1 (V &msyn-agr-sg1-pl1) BARRIER (V Pl) OR PLNOM);
+	
+ADDRELATION:msyn-agr-sg1-pl1 ($2 LEFT) (V &msyn-agr-sg1-pl1) TO (*-1 (Pron &msyn-agr-sg1-pl1));
 
 
 
