@@ -29,7 +29,7 @@ Tests:
      antaa+V+Act+Ind+Prt+Sg3: [antoi, anto]
      antaa+V+Act+Ind+Prt+Pl1: annoima
      antaa+V+Act+Ind+Prt+Pl2: annoitta
-     antaa+V+Act+Ind+Prt+Pl3: [annoit, antoiva, annethiin]
+     antaa+V+Act+Ind+Prt+Pl3: [annoit, annethiin] #antoiva
      antaa+V+Act+PrfPrc+Sg+Nom: antanu
      antaa+V+Pass+PrfPrc+Sg+Nom: annettu 
      antaa+V+Pass+PrfPrc+Pl+Nom: annetut
@@ -70,7 +70,7 @@ Tests:
      loppua+V+Act+Ind+Prt+Sg3: [loppu, loppui]
      loppua+V+Act+Ind+Prt+Pl1: lopuima
      loppua+V+Act+Ind+Prt+Pl2: lopuitta
-     loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin, loppuiva]
+     loppua+V+Act+Ind+Prt+Pl3: [lopuit, loputhiin] #loppuiva
      loppua+V+Pass+Ind+Prt: loputhiin
      loppua+V+Act+Cond+Sg1: loppuisin #loppusin
      loppua+V+Act+Cond+Sg2: loppuisit #loppusit
@@ -111,7 +111,7 @@ Tests:
      käsittää+V+Act+Ind+Prt+Sg3: käsitti
      käsittää+V+Act+Ind+Prt+Pl1: käsitimmä #käsitimä
      käsittää+V+Act+Ind+Prt+Pl2: käsitittä
-     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin, käsittivvä] #käsittivä
+     käsittää+V+Act+Ind+Prt+Pl3: [käsitit, käsitethiin] #käsittivä, käsittivvä
      käsittää+V+Pass+Ind+Prt: käsitethiin
      käsittää+V+Act+Cond+Sg1: käsittäisin #käsittäsin
      käsittää+V+Act+Cond+Sg2: käsittäisit #käsittäsit
@@ -152,7 +152,7 @@ Tests:
      tietää+V+Act+Ind+Prt+Sg3: tiesi
      tietää+V+Act+Ind+Prt+Pl1: tiesimä
      tietää+V+Act+Ind+Prt+Pl2: tiesittä
-     tietää+V+Act+Ind+Prt+Pl3: [tiesit, tiesivä, tiethiin]
+     tietää+V+Act+Ind+Prt+Pl3: [tiesit, tiethiin] #tiesivä
      tietää+V+Pass+Ind+Prt: tiethiin
      tietää+V+Act+Cond+Sg1: tietäisin
      tietää+V+Act+Cond+Sg2: tietäisit
@@ -193,7 +193,7 @@ Tests:
      ymmärtää+V+Act+Ind+Prt+Sg3: [ymmärsi]
      ymmärtää+V+Act+Ind+Prt+Pl1: ymmärsimmä #ymmärsimä
      ymmärtää+V+Act+Ind+Prt+Pl2: ymmärsittä
-     ymmärtää+V+Act+Ind+Prt+Pl3: [ymmärethiin, ymmärsit, ymmärsivvä] #ymmärsivä
+     ymmärtää+V+Act+Ind+Prt+Pl3: [ymmärethiin, ymmärsit] #ymmärsivä, ymmärsivvä
      ymmärtää+V+Pass+Ind+Prt: ymmärethiin
      ymmärtää+V+Act+Cond+Sg1: ymmärtäisin #ymmärtäsin
      ymmärtää+V+Act+Cond+Sg2: ymmärtäisit #ymmärtäsit
@@ -234,7 +234,7 @@ Tests:
      tuntea+V+Act+Ind+Prt+Sg3: tunsi
      tuntea+V+Act+Ind+Prt+Pl1: tunsima
      tuntea+V+Act+Ind+Prt+Pl2: tunsitta
-     tuntea+V+Act+Ind+Prt+Pl3: [tunnethiin, tunsit, tunsiva]
+     tuntea+V+Act+Ind+Prt+Pl3: [tunnethiin, tunsit] #tunsiva
      tuntea+V+Pass+Ind+Prt: tunnethiin
      tuntea+V+Act+Cond+Sg1: tuntisin
      tuntea+V+Act+Cond+Sg2: tuntisit
@@ -274,7 +274,7 @@ Tests:
      lukea+V+Act+Ind+Prt+Sg3: luki
      lukea+V+Act+Ind+Prt+Pl1: luima
      lukea+V+Act+Ind+Prt+Pl2: luitta
-     lukea+V+Act+Ind+Prt+Pl3: [luit, luethiin, lukiva]
+     lukea+V+Act+Ind+Prt+Pl3: [luit, luethiin] #lukiva
      lukea+V+Pass+Ind+Prt: luethiin
      lukea+V+Act+Cond+Sg1: lukisin
      lukea+V+Act+Cond+Sg2: lukisit
@@ -314,7 +314,7 @@ Tests:
      alkaa+V+Act+Ind+Prt+Sg3: [alko, alkoi]
      alkaa+V+Act+Ind+Prt+Pl1: aloima
      alkaa+V+Act+Ind+Prt+Pl2: aloitta
-     alkaa+V+Act+Ind+Prt+Pl3: [alethiin, aloit, alkoiva]
+     alkaa+V+Act+Ind+Prt+Pl3: [alethiin, aloit] #alkoiva
      alkaa+V+Pass+Ind+Prt: alethiin
      alkaa+V+Act+Cond+Sg1: alkaisin #alkasin
      alkaa+V+Act+Cond+Sg2: alkaisit
@@ -355,7 +355,7 @@ Tests:
      pittää+V+Act+Ind+Prt+Sg3: piti
      pittää+V+Act+Ind+Prt+Pl1: piimä
      pittää+V+Act+Ind+Prt+Pl2: piittä
-     pittää+V+Act+Ind+Prt+Pl3: [piit, piethiin, pitivä]
+     pittää+V+Act+Ind+Prt+Pl3: [piit, piethiin] #pitivä
      pittää+V+Pass+Ind+Prt: piethiin
      pittää+V+Act+Cond+Sg1: pitäisin
      pittää+V+Act+Cond+Sg2: pitäisit
@@ -435,7 +435,7 @@ Tests:
      siirtyä+V+Act+Ind+Prt+Sg3: [siirty, siirtyi]
      siirtyä+V+Act+Ind+Prt+Pl1: siiryimä
      siirtyä+V+Act+Ind+Prt+Pl2: siiryittä
-     siirtyä+V+Act+Ind+Prt+Pl3: [siiryit, siirythiin, siirtyivä]
+     siirtyä+V+Act+Ind+Prt+Pl3: [siiryit, siirythiin] #siirtyivä
      siirtyä+V+Pass+Ind+Prt: siirythiin
      siirtyä+V+Act+Cond+Sg1: siirtyisin
      siirtyä+V+Act+Cond+Sg2: siirtyisit
@@ -475,7 +475,7 @@ Tests:
      käyttää+V+Act+Ind+Prt+Sg3: käytti
      käyttää+V+Act+Ind+Prt+Pl1: käytimä
      käyttää+V+Act+Ind+Prt+Pl2: käytittä
-     käyttää+V+Act+Ind+Prt+Pl3: [käytit, käytethiin, käyttivä]
+     käyttää+V+Act+Ind+Prt+Pl3: [käytit, käytethiin] #käyttivä
      käyttää+V+Pass+Ind+Prt: käytethiin
      käyttää+V+Act+Cond+Sg1: käyttäisin
      käyttää+V+Act+Cond+Sg2: käyttäisit
@@ -515,7 +515,7 @@ Tests:
      taitaa+V+Act+Ind+Prt+Sg3: taisi
      taitaa+V+Act+Ind+Prt+Pl1: taisima
      taitaa+V+Act+Ind+Prt+Pl2: taisitta 
-     taitaa+V+Act+Ind+Prt+Pl3: [taiethiin, taisit, taisiva]
+     taitaa+V+Act+Ind+Prt+Pl3: [taiethiin, taisit] #taisiva
      taitaa+V+Pass+Ind+Prt: taiethiin
      taitaa+V+Act+Cond+Sg1: taitaisin
      taitaa+V+Act+Cond+Sg2: taitaisit

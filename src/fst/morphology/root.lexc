@@ -115,8 +115,9 @@ Multichar_Symbols
 +Inf     !!≈ * **@CODE@** = tA Infinitive
 +InfE    !!≈ * **@CODE@** = e Infinite
 +InfMa   !!≈ * **@CODE@** = mA Infinite
-+PrsPrc  !!≈ * **@CODE@** = 
-+PrfPrc  !!≈ * **@CODE@** = 
++PrsPrc  !!≈ * **@CODE@** = presens participe
++PrfPrc  !!≈ * **@CODE@** = perfect participe
++AgPrc   !!≈ * **@CODE@** = agent participe
 +ConNeg  !!≈ * **@CODE@** = 
 +Neg     !!≈ * **@CODE@** =
 
