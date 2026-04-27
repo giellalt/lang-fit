@@ -280,6 +280,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:^AE^WG%>t^Ut K ; 
++V+AgPrc:%>m^A K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg2+Err/Orth: # ; !armahta? CHECK EK
@@ -390,6 +391,8 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 +V+Pass+PrfPrc+Der/A+A:^AE^WG%>tt^U x3 ; 
 +V+Pass+PrfPrc+Pl+Nom:^AE^WG%>t^Ut K ;
 
++V+AgPrc:%>m^A K ;
+
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg2+Err/Orth: # ; !armahta? CHECK EK
 +V+Act+Imprt+Sg:%>kh^O^On # ;
@@ -486,6 +489,8 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 +V+Pass+PrfPrc+Sg+Nom:ta^AE^WG%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:ta^AE^WG%>t^Ut K ; 
 
++V+AgPrc:ta%>m^A K ;
+
 +V+Act+Imprt+Sg2:ta^WG # ;
 +V+Act+Imprt+Sg:ta%>kh^O^On # ;
 +V+Act+Imprt+Pl2:ta%>k^A^A # ;
@@ -546,6 +551,7 @@ LEXICON v2  !!≈ * **@CODE@** huomata, haluta övriga former
 +V+Act+PrfPrc+Pl+Nom:^WG%>hneet K ; 
 +V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
++V+AgPrc:^A%>m^A K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:^WG%>kh^O^On # ;
