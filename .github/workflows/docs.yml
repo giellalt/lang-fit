@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - local-docs
 
 permissions:
   contents: read
