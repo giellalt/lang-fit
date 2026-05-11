@@ -627,6 +627,7 @@ LEXICON n5_kasi
  +N+Sg+Par:t%>t^A      PxK ; ! kättä
  +N+Nom:si R ;
  +N+Gen:e%>n R ;
+ +N+Gen:sitte%>n R ; !CHECK EK
 
 LEXICON n5_kasi_pl
 !! **LEXICON @LEXNAME@**  continuation for kasi_pl
