@@ -1,18 +1,34 @@
 !! # Documenting the file for  *Meänkieli adjective morphology*
-
 !! This file documents  the file *affixes/adjectives.lexc* for Meänkieli adjective morphology.
 
-!! Most lexica here (*a1, a_e, ...*) add **+A**, and thereafter redirect to the 
-!! corresponding **x1, x_e, ...** lexicon in `affixes/nouns.lexc` for case inflection.
-!! The lexicon numbers correspond to the ones for nouns.
-
+!! Most lexica here (*a1, a_e, ...*) add **+A**, and thereafter redirect to the corresponding **x1, x_e, ...** lexicon in `affixes/nouns.lexc` for case inflection.
 !! In addition, each lexicon also points to comparative and superlative sublexica.
 
 !! * a1: pointing to x1, even syllable adjectives; kova, iso
-!! * a1_ta: as a1 plus plural partitive -ta: paksuita
+!! * a1_ta: as a1 plus plural partitive -ta; paksuita
+!! * a1_aa: even syll adj ending with -aa; vanhaa
+!! * a1_kova: just for kova 
+!! * a1_hyva: just for hyvä 
+!! * a1_pitka: just for pitkä 
+!! * a_vasen: just for vasen 
+!! * a_e: viime, terve
+!! * a3: sopiva:sopiva; 3-syll
+!! * a3_VV: komea:komea; 3-syll ending with two (differemt) vowels
+!! * a4: continuation lexica for a5-type
+!! * a5_moni: moni:mon (+villi, nuori)
+!! * a5_uusi: uusi:uus (+tosi, täysi)
+!! * a5_pieni pieni:pien
+!! * a5_auki auki:auk2
+!! * anen_odd: arvolinen:arvoli
+!! * anen_even tikitaalinen:tikitaali 
+!! * aas: utelias:utelia 
+!! * a_ias: hias:hita (puhelias:puhelia) 
+!! * a_as: continuation lexica for a_ias, a_has
+!! * a_has: puhas:puhta 
+!! * a_suuri: suuri:suur
+!! * a1_ton: naimaton:naimat
 
 !! ## Unassigned
-
 LEXICON ax
 !! **LEXICON @LEXNAME@** pointing to **a1**. It is for adjectives that have still not been classified.
 a1 ; ! ax
@@ -27,6 +43,7 @@ LEXICON a1
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 +A+Comp:^AE 3comp ; !!≈ * @CODE@ 
++A+Comp+Sg+Nom:^AE^WG%>mpi K ;
 +A+Superl: 3sup ; !!≈ * @CODE@
 
 LEXICON a1_ta 
@@ -69,6 +86,7 @@ LEXICON a1_aa
 +A+Pl+Ess:%>i2n^A PxK ; 
 +A+Pl+Abe:%>i2tt^A PxK ;
 +A+Comp:^AEe 3comp ; 
++A+Comp+Sg+Nom:^AEe^WG%>mpi K ;
 +A+Comp+Pl+Gen:^AEempi2e n_PxK ;
 
 +A+Superl+Sg+Nom:%>i5i5n # ; 
@@ -95,9 +113,6 @@ LEXICON a1_aa
 +A+Superl+Pl+All:%>i5i5mille K ; !
 +A+Superl+Pl+Ade:%>i5i5mill^A K ; !
 
-!+A+Superl: xsup ; ! common cases from here
-
-
 
 LEXICON a1_kova 
 !! **LEXICON @LEXNAME@** Like a1 but: 
@@ -107,32 +122,31 @@ LEXICON a1_kova
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 +A+Comp:^AE 3comp ; 
++A+Comp+Sg+Nom:^AE^WG%>mpi K ;
 +A+Comp+Pl+Gen:^AE%>mpi5en K ;
 +A+Superl: 3sup ; 
 +A+Superl:%>i5 3sup ; 
 +A+Superl+Pl+Gen:%>i5%>i5mpien K ;
 
-LEXICON a1_e 
+!LEXICON a1_e 
 !! **LEXICON @LEXNAME@** vanha, which has Err/Orth vanhee-, otherwise like a1
-a1 ;
-+A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
-+A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
-+A+Pl+Par:^WG^IDEL%>i2t^A PxK ; ! även paksuita
-+A+Comp+Pl+Gen:^AE%>mpi2en K ;
-+A+Superl+Sg+Nom:^WG%>i5in K ; 
-+A+Superl+Pl+Gen:^WG%>i5mpien K ; 
-
-+A+Comp+Sg+Nom+Err/Orth:^AEe%>mpi K ;
-+A+Comp+Sg+Gen+Err/Orth:^AEe%>man K ;
-+A+Comp+Sg+Ade+Err/Orth:^AEe%>malla K ;
-+A+Comp+Sg+Abl+Err/Orth:^AEe%>malta K ;
-+A+Comp+Sg+Tra+Err/Orth:^AEe%>maksi K ;
-+A+Comp+Sg+Tra+Err/Orth:^AEe%>maks K ;
-
-+A+Comp+Pl+Gen+Err/Orth:^AEe%>mi2tten K ;
-+A+Comp+Pl+Par+Err/Orth:^AEe%>mpi2a K ;
-+A+Comp+Pl+Ill+Err/Orth:^AEe%>mphiin K ;
-+A+Comp+Pl+Ade+Err/Orth:^AEe%>milla K ;
+!a1 ;
+!+A+Pl+Ill:^HMETA%>^Vi2shii n_PxK ; !för vilka?? tagit bort för paksu
+!+A+Pl+Ill:^HMETA%>^Vi2ssii n_PxK ; !för vilka?? tagit bort för paksu
+!+A+Pl+Par:^WG^IDEL%>i2t^A PxK ; ! även paksuita
+!+A+Comp+Pl+Gen:^AE%>mpi2en K ;
+!+A+Superl+Sg+Nom:^WG%>i5in K ; 
+!+A+Superl+Pl+Gen:^WG%>i5mpien K ; 
+!+A+Comp+Sg+Nom+Err/Orth:^AEe%>mpi K ;
+!+A+Comp+Sg+Gen+Err/Orth:^AEe%>man K ;
+!+A+Comp+Sg+Ade+Err/Orth:^AEe%>malla K ;
+!+A+Comp+Sg+Abl+Err/Orth:^AEe%>malta K ;
+!+A+Comp+Sg+Tra+Err/Orth:^AEe%>maksi K ;
+!+A+Comp+Sg+Tra+Err/Orth:^AEe%>maks K ;
+!+A+Comp+Pl+Gen+Err/Orth:^AEe%>mi2tten K ;
+!+A+Comp+Pl+Par+Err/Orth:^AEe%>mpi2a K ;
+!+A+Comp+Pl+Ill+Err/Orth:^AEe%>mphiin K ;
+!+A+Comp+Pl+Ade+Err/Orth:^AEe%>milla K ;
 
 LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
@@ -141,6 +155,7 @@ LEXICON a1_hyva
 +A+Sg+Gen:hyvän R ;  
 +A+Pl+Gen:hyvien K ;
 +A+Comp:pare 3comp ; 
++A+Comp+Sg+Nom:pare^WG%>mpi K ;
 +A+Comp+Pl+Gen:parempien K ;
 !!+A+Superl:para 3sup ; 
 +A+Superl+Sg+Nom:paras K ; 
@@ -176,6 +191,7 @@ LEXICON a1_pitka
 +A+Sg+Gen:^WG%>n R ;
 +A+Pl+Gen:tkien K ;
 +A+Comp:te 3comp ; 
++A+Comp+Sg+Nom:te^WG%>mpi K ;
 +A+Comp+Sg+Ess:tempänä K ;
 +A+Comp+Pl+Ess:tempinä K ;
 +A+Comp+Pl+Gen:tempien K ;
@@ -265,18 +281,17 @@ LEXICON a_vasen
 +A+Pl+Ess:%>mpi2n^A K ; 
 +A+Pl+Abe:%>mi2tt^A K ; 
 
-!+A+Comp:^AE 3comp ;
 +A+Comp: 3comp ;
++A+Comp+Sg+Nom:^WG%>mpi K ;
 +A+Comp+Sg+Ess:%>mp^An^A K ;
 +A+Comp+Pl+Gen:%>mpien K ; 
 +A+Comp+Pl+Ess:%>mpin^A K ;
-!+A+Superl:ime 3sup ; !!≈ * @CODE@
 +A+Superl:mmais 3sup ; 
-!+Sg+Nom:^WG%>i5n # ;
 
 LEXICON a_e
 !! **LEXICON @LEXNAME@** gets +A and goes to x_e.
 +A: x_e ; !!≈ * @CODE@
++A+Comp+Sg+Nom:^WG%>mpi K ;
 +A+Comp: 4comp ; !!≈ * @CODE@
 +A+Superl:ime 4sup; !!≈ * @CODE@
 
@@ -293,7 +308,6 @@ LEXICON a3
 +A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
 +A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
 +A+Pl+Ill:^HMETA%>h^Vi2shii n_PxK ; !Test 24/2
-!+A+Pl+Ill:^HMETA%>hi2shii n_PxK ;
 +A+Pl+Ine:^WG%>i9ss^A PxK ;
 +A+Pl+Ela:^WG%>i9st^A PxK ;
 +A+Pl+All:^WG%>i9lle PxK ; 
@@ -304,7 +318,7 @@ LEXICON a3
 +A+Pl+Abe:%>i9tt^A PxK ;
 
 +A+Comp: 4comp ;
-
++A+Comp+Sg+Nom:^WG%>mpi K ;
 !FRÅN 4sup och xsup men extra m
 +A+Superl+Sg+Nom:^WG%>i5n # ; 
 +A+Superl+Sg+Gen:%>i5mm^An K ; 
@@ -355,6 +369,7 @@ LEXICON a3
 +A+Pl+Abe:%>i9tt^A PxK ;
 
 +A+Comp: 4comp ;
++A+Comp+Sg+Nom:^WG%>mpi K ;
 
 !FRÅN 4sup och xsup !CHECK bara hänvisa dit??
 +A+Superl+Sg+Nom:^WG%>i5n # ; 
@@ -386,6 +401,7 @@ LEXICON a4
 !! **LEXICON @LEXNAME@** 
 +A: x4 ;
 +A+Comp: 3comp ; !CHECK!
++A+Comp+Sg+Nom:^WG%>mpi K ;
 +A+Superl: 3sup ; !CHECK! !TODO e-delete in nuorin etc (not nuorein)
 
 LEXICON a5_moni
@@ -414,7 +430,6 @@ LEXICON a5_uusi
  +A+Sg+Nom:i       PxK ; 
  +A+Sg+Par:%>t^A      PxK ; 
  +A+Pl+Gen:%>ten PxK ; 
- !+A+Comp:i 3comp ; !Finns redan comp i a4!
  +A+Comp+Pl+Gen:e%>mpi5en K ;
  !+A+Superl:i 3sup ;
  +A+Superl:i 3sup ; !variant pieniin, pieniimistä etc
@@ -437,6 +452,7 @@ LEXICON anen_odd
 +A: xnen ; 
 +A+Comp+Sg+Nom:%>sempi PxK ;
 +A+Comp:se 3comp ; !CHECK!
++A+Comp+Sg+Nom:se^WG%>mpi K ;
 +A+Superl:s 3sup ; !CHECK! 
 
 LEXICON anen_even 
@@ -446,6 +462,7 @@ LEXICON anen_even
 +A: x3nen ; !!≈ * @CODE@ #TODO: komparera!
 +A+Comp+Sg+Nom:%>sempi PxK ;
 +A+Comp:se 3comp ; !CHECK!
++A+Comp+Sg+Nom:se^WG%>mpi K ;
 +A+Superl:s 3sup ; !CHECK! 
 
 
@@ -456,6 +473,7 @@ LEXICON aas
 +A+Sg+Gen:^HMETA%>h^V^Vn R ;
 +A+Sg+Gen:^HMET2%>h^V^Vn R ;  
 !+A+Sg+Gen:%>^Vn R ; 
++A+Comp+Sg+Nom:^HMETA%>h^A^A%>mpi K ;
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ; !kauhniimpia etc
 +A+Comp:^HMETA%>h^A^A 3comp ; !puhtaiman etc - another sublex?
@@ -464,7 +482,7 @@ LEXICON aas
 +A+Superl+Sg+Nom:%>i5n # ;
 
 
-LEXICON a_ias  
+LEXICON a_as  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
 !+A: xnas ;
 +A+Sg+Nom:^WG%>s R ; 
@@ -496,6 +514,9 @@ LEXICON a_ias
 +A+Pl+Ess:^HMETA%>h^Vin^A K ;          
 +A+Pl+Abe:^HMETA%>h^Vitt^A K ;
 
+LEXICON a_ias  
+a_as ;
++A+Comp+Sg+Nom:^HMETA%>h^V^V^WG%>mpi K ;
 +A+Comp:^HMETA%>h^V^V 3comp ;
 +A+Comp:^HMET2%>h^V^V 3comp ;
 +A+Comp+Pl+Gen:^HMETA%>h^V^Vmpien K; !hithaampien
@@ -505,6 +526,40 @@ LEXICON a_ias
 +A+Superl+Pl+Gen:^HMETA%>h^Vi5mpien K ; !hithaimpien
 +A+Superl+Pl+Gen:^HMET2%>h^Vi5mpien K ; !hithaimpien
 
+LEXICON a_has  
+a_as ;
++A+Comp:%>i 3comp ;
++A+Comp+Sg+Nom:%>^Ampi K ;
+!+A+Comp+Pl+Gen:%>impien K; !hithaampien
+
+!+A+Superl:%>i5 3sup ; !NEDAN!
++A+Superl+Sg+Ess:%>imp^Ann^A K ; !!≈ * @CODE@
++A+Superl+Sg+All:%>im^Alle K ; !!≈ * @CODE@ etc.
++A+Superl+Sg+Ade:%>im^All^A K ;
++A+Superl+Pl+Ess:%>impinn^A K ;
++A+Superl+Pl+All:%>imille K ;
++A+Superl+Pl+Ade:%>imill^A K ;
++A+Superl+Sg+Nom:%>in K ; !
+
+!xsup ; ! common cases from here !NEDAN!
++A+Superl+Sg+Gen:%>im^An K ; 
++A+Superl+Sg+Par:%>imp^A^A K ;
++A+Superl+Sg+Tra:%>im^Aksi K ;
++A+Superl+Sg+Ill:%>imph^A^An K ;
++A+Superl+Sg+Ine:%>im^Ass^A K ;
++A+Superl+Sg+Ela:%>im^Ast^A K ;
++A+Superl+Sg+Abl:%>im^Alt^A K ;
++A+Superl+Pl+Nom:%>im^At K ;
++A+Superl+Pl+Gen:%>imitten K ;
++A+Superl+Pl+Gen:%>impien K ;
++A+Superl+Pl+Par:%>impi^A K ;
++A+Superl+Pl+Tra:%>imiksi K ;
++A+Superl+Pl+Ill:%>imphiin K ;
++A+Superl+Pl+Ine:%>imiss^A K ;
++A+Superl+Pl+Ela:%>imist^A K ;
++A+Superl+Pl+Abl:%>imilt^A K ;
+
+
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4
 +A:e x5_sg ; ! including compoundstems!
@@ -512,6 +567,7 @@ LEXICON a_suuri
 +A+Pl+Gen:%>ten K ;
 +A+Sg+Nom:i  PxK ; ! suurten
 !+A+Pl+Ill:^E2I%>in      PxK ; ! 
++A+Comp+Sg+Nom:e^WG%>mpi K ;
 +A+Comp:e 3comp ; 
 +A+Comp+Pl+Gen:e%>mpien K ;
 +A+Comp+Sg+Ess:e%>mp^An^A K ; !även suurempana
@@ -566,6 +622,7 @@ LEXICON x1_ton
  +Pl+Ess:t%>^Omi2n^A K ;          ! talona
  +Pl+Abe:t%>^Omi2tt^A K ;      ! talotta
 
++A+Comp+Sg+Nom:t%>^Om^WG%>mpi K ;
 +Comp:t%>^Om 3comp ; !!≈ * @CODE@ 
 +Superl: 3sup ; !!≈ * @CODE@
 
@@ -594,11 +651,9 @@ LEXICON 4comp
 xcomp ; ! common cases from here
 
 
-
-
 LEXICON xcomp  
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
-+Sg+Nom:^WG%>mpi # ; !!≈ * @CODE@
+!+A+Comp+Sg+Nom:^WG%>mpi # ; !!≈ * @CODE@
 +Sg+Gen:%>m^A%>n K ; !!≈ * @CODE@ etc.
 +Sg+Par:%>mp^A^A K ;
 +Sg+Tra:%>m^Aksi K ;
@@ -645,7 +700,8 @@ xsup ; ! common cases from here
 LEXICON xsup 
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
 !+Sg+Nom:%>i5mpi # ; 
-+Sg+Nom:^WG%>i5n # ; 
+!+Sg+Nom:^WG%>i5n # ; CHECK 12/5 Why #?
++Sg+Nom:^WG%>i5n K ; 
 +Sg+Gen:%>i5m^An K ; 
 +Sg+Par:%>i5mp^A^A K ;
 +Sg+Tra:%>i5m^Aksi K ;
@@ -653,7 +709,8 @@ LEXICON xsup
 +Sg+Ine:%>i5m^Ass^A K ;
 +Sg+Ela:%>i5m^Ast^A K ;
 +Sg+Abl:%>i5m^Alt^A K ;
-+Pl+Nom:%>i5m^At # ;
++Pl+Nom:%>i5m^At K ;
+!+Pl+Nom:%>i5m^At # ; CHECK 12/5 !Why #?
 +Pl+Gen:%>i5mitten K ;
 +Pl+Par:%>i5mpi^A K ;
 +Pl+Tra:%>i5miksi K ;
