@@ -704,6 +704,7 @@ enimäksheen advx ;
 etheen advx ;
 suhtheen advx ;
 yhtheen advx ;
+yhtheen+Err/Orth:yhteen advx ; !check
 hiitheen advx ;
 taltheen advx ;
 vastakyntheen advx ;
@@ -795,6 +796,7 @@ parhaiten advx ;
 parahiten advx ;
 lähiten advx ;
 enniiten advx ;
+enniiten+Err/Orth:eniiten advx ;
 kiireimiten advx ;
 virreimiten advx ;
 usseimiten advx ;
