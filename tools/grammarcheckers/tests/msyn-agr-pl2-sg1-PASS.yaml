@@ -5,7 +5,7 @@ Config:
 Tests:
   - "{Mie tuletta}£{Mie tulen}."
   - "{Mie nyt tuletta}£{Mie nyt tulen}."
-  - "{Mie rakastan sitä ja tuletta}£{Mie rakastan sitä ja tulen}" 
+  - "{Mie otan sen ja tuletta}£{Mie otan sen ja tulen}" 
   - "Jos {mie jolleki annatta}£{mie jolleki annan} synnit antheeksi." #Detta fel hittas ej...
   - "{Mie sanon hei kaikile ja sitte tuletta}£{Mie sanon hei kaikile ja sitte tulen}."
   - "Tet tuletta tänne ja annatta lahjan."
