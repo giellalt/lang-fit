@@ -1,4 +1,4 @@
-
+ 
 
 #   ================================= #
 #!! # Disambiguator for Meänkieli
@@ -100,11 +100,12 @@ LIST PLa = Pl Pl1 Pl2 Pl3 ;  #!!≈ * @CODE@
 LIST NUMBER = Sg Pl ;	     #!!≈ * @CODE@ 
 SET SGPRON = Pron + SGa;     #!!≈ * @CODE@ 
 SET PLPRON = Pron + PLa;     #!!≈ * @CODE@ 
-SET ME = PLPRON + ("met") ;   #!!≈ * @CODE@ 
-SET TE = PLPRON + ("tet") ;   #!!≈ * @CODE@ 
-SET HE = PLPRON + ("het") ;   #!!≈ * @CODE@ 
+SET ME = PLPRON + ("met") OR PLPRON + ("me") ;   #!!≈ * @CODE@ 
+SET TE = PLPRON + ("tet") OR PLPRON + ("te") ;   #!!≈ * @CODE@ 
+SET HE = PLPRON + ("het") OR PLPRON + ("he") ;   #!!≈ * @CODE@ 
 
-
+# Changed from PLPRON + ("hän") etc. - 20.01.2015 - FMT+KM
+    # Pron Pers instead?
 
 #!! ### Cases
 LIST Nom = Nom ; #!! * Nom
@@ -642,11 +643,6 @@ SET MINÄ = SGPRON + ("minä") ;
 SET SINÄ = SGPRON + ("sinä") ;
 SET HÄN = SGPRON + ("hän") ;
 
-# Changed from PLPRON + ("hän") etc. - 20.01.2015 - FMT+KM
-SET ME = PLPRON + ("me") ;
-SET TE = PLPRON + ("te") ;
-SET HE = PLPRON + ("he") ; 
-    # Pron Pers instead?
 
 SET FIRST_PersON_SG = MINÄ OR Sg1  OR PxSg1 ;
 SET SECOND_PersON_SG = SINÄ OR Sg2 OR PxSg2 ;
