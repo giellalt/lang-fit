@@ -18,7 +18,6 @@
     </blanktag>
     <cg><grammar n="mwe-dis.bin"/></cg>
     <mwesplit/>
-    <cg><grammar n="grc-disambiguator.bin"/></cg>
     <cg><grammar n="disambiguator.bin"/></cg>
     <cg><grammar n="grammarchecker.bin"/></cg>
     <suggest>
