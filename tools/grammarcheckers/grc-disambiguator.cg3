@@ -747,8 +747,18 @@ SELECT:Arab Arab IF (NOT 0 Ord OR Prop OR Arab + Err/Orth) ; # In Apertium we ge
 
 
 REMOVE:dyn  Arab (0 Prop) ; # foreløpig løsning, til vi har ny løsning for numerals.lexc
+
+	# idiosyncratic disambiguation rules
+	# ----------------------------------
 	
 REMOVE:Maria ("Mar") IF (0 ("Mari") OR ("Maria"));
+
+	# jolle (Sg Nom Foc/kin) vs. joka (Interr/Rel All)
+	
+REMOVE:joka_jolle ("jolle" N Sg Nom Foc/kin) IF (-1 (Sg Nom));
+	## Jos mie jolleki annama synnit antheeksi.
+
+
 
 SECTION
 #!! ## Disambiguation rules
