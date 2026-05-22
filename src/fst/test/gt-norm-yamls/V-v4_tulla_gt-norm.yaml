@@ -1,0 +1,59 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo: Proofread the gold standard (below), then run analyser, then correct. 
+# mennä 
+
+
+  Verb - antaa - paradigmgroup v1: # meaning 'to give'/'ge' - GOLD
+     mennä+V+Inf: mennä
+     mennä+V+Act+Ind+Prs+Sg1: menen
+     mennä+V+Act+Ind+Prs+Sg2: menet
+     mennä+V+Act+Ind+Prs+Sg3: mennee
+     mennä+V+Act+Ind+Prs+Pl1: menemä
+     mennä+V+Act+Ind+Prs+Pl2: menettä
+     mennä+V+Act+Ind+Prs+Pl3: [menevä, mennee]
+     mennä+V+Pass+Ind+Prs: menhään
+     mennä+V+Act+Ind+Prs+ConNeg: mene
+     mennä+V+Act+Ind+Prt+Sg1: menin
+     mennä+V+Act+Ind+Prt+Sg2: menit
+     mennä+V+Act+Ind+Prt+Sg3: meni
+     mennä+V+Act+Ind+Prt+Pl1: menimä
+     mennä+V+Act+Ind+Prt+Pl2: menittä
+     mennä+V+Act+Ind+Prt+Pl3: [menit, menthiin]
+     mennä+V+Pass+Ind+Prt: menthiin
+     mennä+V+Act+Cond+Sg1: menisin
+     mennä+V+Act+Cond+Sg2: menisit
+     mennä+V+Act+Cond+Sg3: menis
+     mennä+V+Act+Cond+Pl1: menisimmä
+     mennä+V+Act+Cond+Pl2: menisittä
+     mennä+V+Act+Cond+Pl3: [menisit, menisivvä, menisivä]
+     mennä+V+InfE+Ine: [mennessä, mentäessä]
+     mennä+V+InfE+Ins: mennen
+     mennä+V+InfMa+Ill: [menehmään, menemhään, menheen]
+     mennä+V+InfMa+Ine: menemässä
+     mennä+V+InfMa+Ela: menemästä
+     mennä+V+InfMa+Ade: menemällä
+     mennä+V+InfMa+Abe: menemättä
+     mennä+V+Act+PrsPrc+Sg+Nom: menevä
+     mennä+V+Act+PrsPrc+Pl+Nom: menevät
+     mennä+V+Pass+PrsPrc+Sg+Nom: mentävä
+     mennä+V+Pass+PrsPrc+Pl+Nom: mentävät
+     mennä+V+Act+PrfPrc+Sg+Nom: menny
+     mennä+V+Act+PrfPrc+Pl+Nom: menheet
+     mennä+V+Pass+PrfPrc+Sg+Nom: menty
+     mennä+V+Pass+PrfPrc+Pl+Nom: [mennyt, mentyt]
+     mennä+V+Pass+Cond: menis
+
+    
+#Verb - loppua - v1: # meaning 'to end'/'sluta' - GOLD
+     loppua+V+Inf: loppua
+     

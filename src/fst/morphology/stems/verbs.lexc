@@ -15,7 +15,8 @@
 !!  * **v2_uta** = Vta-verbs (except -ita); leipota:leippo (+^A^A i Sg3 (lankeaa))
 !!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 !!  * **v3** = syö'ä:syö 
-!!  * **v4** = nousta; tulla:tul
+!!  * **v4** = mennä:men ; tulla:tul
+!!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_3la** = varjela, varjelee
 !!  * **v4_4lla** = ajatella, ajattellee
 !!  * **v5** = tarvita:tarv
@@ -98,7 +99,7 @@ nähhä:nä v3_nahha ;  !!≈ * **@CODE@**
 nähä:nä v3_nahha ;
 
 !! v4 tulla, mennä
-tulla:tul v4 ;  !!≈ * **@CODE@** 
+tulla:tul v4_sta ;  !!≈ * **@CODE@** 
 mennä:men v4 ;  !!≈ * **@CODE@** 
 purra:pur v4 ;
 panna:pan v4 ;
@@ -3433,7 +3434,7 @@ tutista:tutis v4_julkasta ;
 nosta:nos v4 ;
 juosta:juo v4_juosta ;
 kusta:kus v4 ;
-nousta:nous v4 ;
+nousta:nous v4_sta ;
 vetasta:vetas v4_julkasta ;
 kaahittaa:kaahitta v1_odd ;
 venkaloittaa:venkaloitta v1 ;
