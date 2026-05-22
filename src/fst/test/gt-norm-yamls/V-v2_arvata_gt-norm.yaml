@@ -13,7 +13,7 @@ Tests:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct. 
 # v2_ata, v2_ata_odd, v2_uta 
-#arvata planeerata hävetä leipota myrskytä haluta kohata leekata pakata
+#arvata planeerata hävetä leipota myrskytä haluta kohata leekata pakata tarjota
 
 
 
@@ -31,20 +31,20 @@ Tests:
      arvata+V+Act+Ind+Prt+Sg1: arvasin
      arvata+V+Act+Ind+Prt+Sg2: arvasit
      arvata+V+Act+Ind+Prt+Sg3: [arvasi, arvas]
-     arvata+V+Act+Ind+Prt+Pl1: [arvasimma, arvasima]
+     arvata+V+Act+Ind+Prt+Pl1: arvasimma
      arvata+V+Act+Ind+Prt+Pl2: arvasitta
      arvata+V+Act+Ind+Prt+Pl3: [arvasit, arvathiin] #arvasiva, arvasivva
      arvata+V+Pass+Ind+Prt: arvathiin
      arvata+V+Act+Cond+Sg1: arvaisin
      arvata+V+Act+Cond+Sg2: arvaisit
      arvata+V+Act+Cond+Sg3: arvais
-     arvata+V+Act+Cond+Pl1: [arvaisimma, arvaisima]
+     arvata+V+Act+Cond+Pl1: arvaisimma
      arvata+V+Act+Cond+Pl2: arvaisitta
-     arvata+V+Act+Cond+Pl3: [arvaisit, arvaisiva] #check varför inte arvaisivva – pga lång vokal?
-     arvata+V+InfE+Ine: arvatessa 
+     arvata+V+Act+Cond+Pl3: [arvaisit, arvaisiva, arvaisivva] 
+     arvata+V+InfE+Ine: [arvatessa, arvattaessa] 
      arvata+V+InfE+Ins: arvaten
      arvata+V+InfMa+Ill: [arvaahmaan, arvaamhaan]
-     arvata+V+InfMa+Ine: arvaamassa  
+     arvata+V+InfMa+Ine: arvaamassa 
      arvata+V+InfMa+Ela: arvaamasta  
      arvata+V+InfMa+Ade: arvaamalla  
      arvata+V+InfMa+Abe: arvaamatta  
@@ -83,10 +83,10 @@ Tests:
      planeerata+V+Act+Cond+Sg1: planeeraisin
      planeerata+V+Act+Cond+Sg2: planeeraisit
      planeerata+V+Act+Cond+Sg3: planeerais
-     planeerata+V+Act+Cond+Pl1: [planeeraisimma, planeeraisima]
+     planeerata+V+Act+Cond+Pl1: planeeraisima
      planeerata+V+Act+Cond+Pl2: planeeraisitta
      planeerata+V+Act+Cond+Pl3: [planeeraisit, planeeraisiva]
-     planeerata+V+InfE+Ine: planeeratessa
+     planeerata+V+InfE+Ine: [planeeratessa, planeerattaessa]
      planeerata+V+InfE+Ins: planeeraten
      planeerata+V+InfMa+Ill: [planeeraahmaan, planeeraamhaan]
      planeerata+V+InfMa+Ine: planeeraamassa
@@ -108,25 +108,25 @@ Tests:
      hävetä+V+Act+Ind+Prs+Sg1: häpeän
      hävetä+V+Act+Ind+Prs+Sg2: häpeät
      hävetä+V+Act+Ind+Prs+Sg3: häpeää
-     hävetä+V+Act+Ind+Prs+Pl1: [häpeämä, häpeämmä]
+     hävetä+V+Act+Ind+Prs+Pl1: häpeämmä
      hävetä+V+Act+Ind+Prs+Pl2: häpeättä
-     hävetä+V+Act+Ind+Prs+Pl3: häpeävä #check planeeraa>häpeää?
+     hävetä+V+Act+Ind+Prs+Pl3: [häpeävä, häpeävvä, häpeää] #check planeeraa>häpeää?
      hävetä+V+Pass+Ind+Prs: hävethään
      hävetä+V+Act+Ind+Prs+ConNeg: häpeä
      hävetä+V+Act+Ind+Prt+Sg1: häpesin
      hävetä+V+Act+Ind+Prt+Sg2: häpesit
      hävetä+V+Act+Ind+Prt+Sg3: [häpes, häpesi]
-     hävetä+V+Act+Ind+Prt+Pl1: [häpesimmä, häpesimä]
+     hävetä+V+Act+Ind+Prt+Pl1: häpesimmä
      hävetä+V+Act+Ind+Prt+Pl2: häpesittä
      hävetä+V+Act+Ind+Prt+Pl3: [häpesit, hävethiin] #häpesivä
      hävetä+V+Pass+Ind+Prt: hävethiin
      hävetä+V+Act+Cond+Sg1: häpeäisin
      hävetä+V+Act+Cond+Sg2: häpeäisit
      hävetä+V+Act+Cond+Sg3: häpeäis
-     hävetä+V+Act+Cond+Pl1: [häpeäisimmä, häpeäisimä]
+     hävetä+V+Act+Cond+Pl1: häpeäisimä
      hävetä+V+Act+Cond+Pl2: häpeäisittä
      hävetä+V+Act+Cond+Pl3: [häpeäisit, häpeäisivä]
-     hävetä+V+InfE+Ine: hävetessä
+     hävetä+V+InfE+Ine: [hävetessä, häpettäessä]
      hävetä+V+InfE+Ins: häveten
      hävetä+V+InfMa+Ill: [häpeähmään, häpeämhään]
      hävetä+V+InfMa+Ine: häpeämässä
@@ -135,8 +135,8 @@ Tests:
      hävetä+V+InfMa+Abe: häpeämättä
      hävetä+V+Act+PrsPrc+Sg+Nom: häpeävä
      hävetä+V+Act+PrsPrc+Pl+Nom: häpeävät
-     hävetä+V+Pass+PrsPrc+Sg+Nom: hävettävä #check hävettävvä
-     hävetä+V+Pass+PrsPrc+Pl+Nom: hävettävät #testa hävettävvä
+     hävetä+V+Pass+PrsPrc+Sg+Nom: [hävettävä, hävettävvä] 
+     hävetä+V+Pass+PrsPrc+Pl+Nom: [hävettävät, hävettävvät]
      hävetä+V+Act+PrfPrc+Sg+Nom: häveny
      hävetä+V+Act+PrfPrc+Pl+Nom: [hävehneet, hävenheet]
      hävetä+V+Pass+PrfPrc+Sg+Nom: hävetty
@@ -148,25 +148,25 @@ Tests:
      leipota+V+Act+Ind+Prs+Sg1: leippoan
      leipota+V+Act+Ind+Prs+Sg2: leippoat
      leipota+V+Act+Ind+Prs+Sg3: leippoaa
-     leipota+V+Act+Ind+Prs+Pl1: [leippoama, leippoamma] 
+     leipota+V+Act+Ind+Prs+Pl1: leippoamma
      leipota+V+Act+Ind+Prs+Pl2: leippoatta
-     leipota+V+Act+Ind+Prs+Pl3: leippoava  #check planeeraa>leippoaa
+     leipota+V+Act+Ind+Prs+Pl3: [leippoava, leippoaa, leippoavva]  #check planeeraa>leippoaa
      leipota+V+Pass+Ind+Prs:  leipothaan
      leipota+V+Act+Ind+Prs+ConNeg: leippoa
      leipota+V+Act+Ind+Prt+Sg1: leipposin
      leipota+V+Act+Ind+Prt+Sg2: leipposit
      leipota+V+Act+Ind+Prt+Sg3: [leippos, leipposi]
-     leipota+V+Act+Ind+Prt+Pl1: [leipposima, leipposimma]
+     leipota+V+Act+Ind+Prt+Pl1: leipposimma
      leipota+V+Act+Ind+Prt+Pl2: leippositta
      leipota+V+Act+Ind+Prt+Pl3: [leipothiin, leipposit] #leipposiva #check härifrån!
      leipota+V+Pass+Ind+Prt: leipothiin
      leipota+V+Act+Cond+Sg1: leippoaisin
      leipota+V+Act+Cond+Sg2: leippoaisit
      leipota+V+Act+Cond+Sg3: leippoais
-     leipota+V+Act+Cond+Pl1: [leippoaisimma, leippoaisima]
+     leipota+V+Act+Cond+Pl1: leippoaisima
      leipota+V+Act+Cond+Pl2: leippoaisitta
      leipota+V+Act+Cond+Pl3: [leippoaisit, leippoaisiva]
-     leipota+V+InfE+Ine: leipotessa
+     leipota+V+InfE+Ine: [leipotessa, leippottaessa]
      leipota+V+InfE+Ins: leipoten
      leipota+V+InfMa+Ill: [leippoahmaan, leippoamhaan]
      leipota+V+InfMa+Ine: leippoamassa
@@ -175,8 +175,8 @@ Tests:
      leipota+V+InfMa+Abe: leippoamatta
      leipota+V+Act+PrsPrc+Sg+Nom: leippoava
      leipota+V+Act+PrsPrc+Pl+Nom: leippoavat
-     leipota+V+Pass+PrsPrc+Sg+Nom: leipottava #check
-     leipota+V+Pass+PrsPrc+Pl+Nom: leipottavat #check
+     leipota+V+Pass+PrsPrc+Sg+Nom: [leipottava, leipottavva]
+     leipota+V+Pass+PrsPrc+Pl+Nom: [leipottavat, leipottavvat]
      leipota+V+Act+PrfPrc+Sg+Nom: leiponu
      leipota+V+Act+PrfPrc+Pl+Nom: [leipohneet, leiponheet]
      leipota+V+Pass+PrfPrc+Sg+Nom: leipottu
@@ -188,25 +188,25 @@ Tests:
      myrskytä+V+Act+Ind+Prs+Sg1: myrskyän
      myrskytä+V+Act+Ind+Prs+Sg2: myrskyät
      myrskytä+V+Act+Ind+Prs+Sg3: myrskyää
-     myrskytä+V+Act+Ind+Prs+Pl1: [myrskyämmä, myrskyämä]
+     myrskytä+V+Act+Ind+Prs+Pl1: myrskyämmä
      myrskytä+V+Act+Ind+Prs+Pl2: myrskyättä
-     myrskytä+V+Act+Ind+Prs+Pl3: myrskyävä #Check myrskyää
+     myrskytä+V+Act+Ind+Prs+Pl3: [myrskyävä, myrskyää, myrskyävvä]
      myrskytä+V+Pass+Ind+Prs: myrskythään
      myrskytä+V+Act+Ind+Prs+ConNeg: myrskyä
      myrskytä+V+Act+Ind+Prt+Sg1: myrskysin
      myrskytä+V+Act+Ind+Prt+Sg2: myrskysit
      myrskytä+V+Act+Ind+Prt+Sg3: [myrskys, myrskysi]
-     myrskytä+V+Act+Ind+Prt+Pl1: [myrskysimmä, myrskysimä]
+     myrskytä+V+Act+Ind+Prt+Pl1: myrskysimmä
      myrskytä+V+Act+Ind+Prt+Pl2: myrskysittä
      myrskytä+V+Act+Ind+Prt+Pl3: [myrskysit, myrskythiin] #myrskysivä
      myrskytä+V+Pass+Ind+Prt: myrskythiin
      myrskytä+V+Act+Cond+Sg1: myrskyäisin
      myrskytä+V+Act+Cond+Sg2: myrskyäisit
      myrskytä+V+Act+Cond+Sg3: myrskyäis
-     myrskytä+V+Act+Cond+Pl1: [myrskyäisimmä, myrskyäisimä]
+     myrskytä+V+Act+Cond+Pl1: myrskyäisimä
      myrskytä+V+Act+Cond+Pl2: myrskyäisittä
      myrskytä+V+Act+Cond+Pl3: [myrskyäisit, myrskyäisivä]
-     myrskytä+V+InfE+Ine: myrskytessä
+     myrskytä+V+InfE+Ine: [myrskytessä, myrskyttäessä]
      myrskytä+V+InfE+Ins: myrskyten
      myrskytä+V+InfMa+Ill: [myrskyähmään, myrskyämhään]
      myrskytä+V+InfMa+Ine: myrskyämässä
@@ -215,8 +215,8 @@ Tests:
      myrskytä+V+InfMa+Abe: myrskyämättä
      myrskytä+V+Act+PrsPrc+Sg+Nom: myrskyävä
      myrskytä+V+Act+PrsPrc+Pl+Nom: myrskyävät
-     myrskytä+V+Pass+PrsPrc+Sg+Nom: myrskyttävä
-     myrskytä+V+Pass+PrsPrc+Pl+Nom: myrskyttävät
+     myrskytä+V+Pass+PrsPrc+Sg+Nom: [myrskyttävä, myrskyttävvä]
+     myrskytä+V+Pass+PrsPrc+Pl+Nom: [myrskyttävät, myrskyttävvät] 
      myrskytä+V+Act+PrfPrc+Sg+Nom: myrskyny
      myrskytä+V+Act+PrfPrc+Pl+Nom: [myrskyhneet, myrskynheet]
      myrskytä+V+Pass+PrfPrc+Sg+Nom: myrskytty
@@ -228,25 +228,25 @@ Tests:
      haluta+V+Act+Ind+Prs+Sg1: haluan
      haluta+V+Act+Ind+Prs+Sg2: haluat
      haluta+V+Act+Ind+Prs+Sg3: haluaa
-     haluta+V+Act+Ind+Prs+Pl1: [haluama, haluamma]
+     haluta+V+Act+Ind+Prs+Pl1: haluamma
      haluta+V+Act+Ind+Prs+Pl2: haluatta
-     haluta+V+Act+Ind+Prs+Pl3: haluava #haluaa?
+     haluta+V+Act+Ind+Prs+Pl3: [haluava, haluaa, haluavva]
      haluta+V+Pass+Ind+Prs: haluthaan
      haluta+V+Act+Ind+Prs+ConNeg: halua
      haluta+V+Act+Ind+Prt+Sg1: halusin
      haluta+V+Act+Ind+Prt+Sg2: halusit
      haluta+V+Act+Ind+Prt+Sg3: [halus, halusi]
-     haluta+V+Act+Ind+Prt+Pl1: [halusima, halusimma]
+     haluta+V+Act+Ind+Prt+Pl1: halusimma
      haluta+V+Act+Ind+Prt+Pl2: halusitta
      haluta+V+Act+Ind+Prt+Pl3: [halusit, haluthiin] #halusiva
      haluta+V+Pass+Ind+Prt: haluthiin
      haluta+V+Act+Cond+Sg1: haluaisin
      haluta+V+Act+Cond+Sg2: haluaisit
      haluta+V+Act+Cond+Sg3: haluais
-     haluta+V+Act+Cond+Pl1: [haluaisima, haluaisimma]
+     haluta+V+Act+Cond+Pl1: haluaisima
      haluta+V+Act+Cond+Pl2: haluaisitta
      haluta+V+Act+Cond+Pl3: [haluaisit, haluaisiva]
-     haluta+V+InfE+Ine: halutessa
+     haluta+V+InfE+Ine: [halutessa, haluttaessa]
      haluta+V+InfE+Ins: haluten
      haluta+V+InfMa+Ill: [haluahmaan, haluamhaan]
      haluta+V+InfMa+Ine: haluamassa
@@ -255,8 +255,8 @@ Tests:
      haluta+V+InfMa+Abe: haluamatta
      haluta+V+Act+PrsPrc+Sg+Nom: haluava
      haluta+V+Act+PrsPrc+Pl+Nom: haluavat
-     haluta+V+Pass+PrsPrc+Sg+Nom: haluttava
-     haluta+V+Pass+PrsPrc+Pl+Nom: haluttavat
+     haluta+V+Pass+PrsPrc+Sg+Nom: [haluttava, haluttavva]
+     haluta+V+Pass+PrsPrc+Pl+Nom: [haluttavat, haluttavvat]
      haluta+V+Act+PrfPrc+Sg+Nom: halunu
      haluta+V+Act+PrfPrc+Pl+Nom: [haluhneet, halunheet]
      haluta+V+Pass+PrfPrc+Sg+Nom: haluttu
@@ -277,17 +277,17 @@ Tests:
      kohata+V+Act+Ind+Prt+Sg1: [kohasin, kohtasin]
      kohata+V+Act+Ind+Prt+Sg2: [kohasit, kohtasit]
      kohata+V+Act+Ind+Prt+Sg3: [kohas, kohasi, kohtas, kohtasi]
-     kohata+V+Act+Ind+Prt+Pl1: [kohasimma, kohasima, kohtasima, kohtasimma]
+     kohata+V+Act+Ind+Prt+Pl1: [kohasimma, kohtasimma, kohtaisimma, kohaisimma]
      kohata+V+Act+Ind+Prt+Pl2: [kohasitta, kohtasitta]
      kohata+V+Act+Ind+Prt+Pl3: [kohasit, kohathiin, kohtasit] #kohasiva, kohasivva, kohtasiva, kohtasivva
      kohata+V+Pass+Ind+Prt: kohathiin
      kohata+V+Act+Cond+Sg1: [kohaisin, kohtaisin]
      kohata+V+Act+Cond+Sg2: [kohaisit, kohtaisit]
      kohata+V+Act+Cond+Sg3: [kohais, kohtais]
-     kohata+V+Act+Cond+Pl1: [kohaisimma, kohtaisimma, kohtaisima, kohaisima]
+     kohata+V+Act+Cond+Pl1: [kohtaisimma, kohaisimma]
      kohata+V+Act+Cond+Pl2: [kohaisitta, kohtaisitta]
-     kohata+V+Act+Cond+Pl3: [kohaisit, kohaisiva, kohtaisit, kohtaisiva]
-     kohata+V+InfE+Ine: kohatessa
+     kohata+V+Act+Cond+Pl3: [kohaisit, kohaisiva, kohtaisit, kohtaisiva, kohtaisivva]
+     kohata+V+InfE+Ine: [kohatessa, kohtattaessa]
      kohata+V+InfE+Ins: kohaten
      kohata+V+InfMa+Ill: [kohtaahmaan, kohtaamhaan]
      kohata+V+InfMa+Ine: kohtaamassa
@@ -318,17 +318,17 @@ Tests:
      leekata+V+Act+Ind+Prt+Sg1: leekasin
      leekata+V+Act+Ind+Prt+Sg2: leekasit
      leekata+V+Act+Ind+Prt+Sg3: [leekas, leekasi]
-     leekata+V+Act+Ind+Prt+Pl1: [leekasima, leekasimma]
+     leekata+V+Act+Ind+Prt+Pl1: leekasimma
      leekata+V+Act+Ind+Prt+Pl2: leekasitta
      leekata+V+Act+Ind+Prt+Pl3: [leekasit, leekathiin] #leekasiva, leekasivva, 
      leekata+V+Pass+Ind+Prt: leekathiin
      leekata+V+Act+Cond+Sg1: leekaisin
      leekata+V+Act+Cond+Sg2: leekaisit
      leekata+V+Act+Cond+Sg3: leekais
-     leekata+V+Act+Cond+Pl1: [leekaisima, leekaisimma]
+     leekata+V+Act+Cond+Pl1: leekaisimma
      leekata+V+Act+Cond+Pl2: leekaisitta
-     leekata+V+Act+Cond+Pl3: [leekaisit, leekaisiva]
-     leekata+V+InfE+Ine: leekatessa
+     leekata+V+Act+Cond+Pl3: [leekaisit, leekaisiva, leekaisivva]
+     leekata+V+InfE+Ine: [leekatessa, leekattaessa]
      leekata+V+InfE+Ins: leekaten
      leekata+V+InfMa+Ill: [leekaahmaan, leekaamhaan]
      leekata+V+InfMa+Ine: leekaamassa
@@ -358,17 +358,17 @@ Tests:
      pakata+V+Act+Ind+Prt+Sg1: pakkasin
      pakata+V+Act+Ind+Prt+Sg2: pakkasit
      pakata+V+Act+Ind+Prt+Sg3: [pakkas, pakkasi]
-     pakata+V+Act+Ind+Prt+Pl1: [pakkasima, pakkasimma]
+     pakata+V+Act+Ind+Prt+Pl1: pakkasimma
      pakata+V+Act+Ind+Prt+Pl2: pakkasitta
      pakata+V+Act+Ind+Prt+Pl3: [pakathiin, pakkasit] #pakkasiva, pakkasivva
      pakata+V+Pass+Ind+Prt: pakathiin
      pakata+V+Act+Cond+Sg1: pakkaisin
      pakata+V+Act+Cond+Sg2: pakkaisit
      pakata+V+Act+Cond+Sg3: pakkais
-     pakata+V+Act+Cond+Pl1: [pakkaisima, pakkaisimma]
+     pakata+V+Act+Cond+Pl1: pakkaisimma
      pakata+V+Act+Cond+Pl2: pakkaisitta
-     pakata+V+Act+Cond+Pl3: [pakkaisit, pakkaisiva]
-     pakata+V+InfE+Ine: pakatessa
+     pakata+V+Act+Cond+Pl3: [pakkaisit, pakkaisiva, pakkaisivva]
+     pakata+V+InfE+Ine: [pakatessa, pakkattaessa]
      pakata+V+InfE+Ins: pakaten
      pakata+V+InfMa+Ill: [pakkaahmaan, pakkaamhaan]
      pakata+V+InfMa+Ine: pakkaamassa
@@ -384,3 +384,43 @@ Tests:
      pakata+V+Pass+PrfPrc+Sg+Nom: pakattu
      pakata+V+Pass+PrfPrc+Pl+Nom: pakatut
      pakata+V+Pass+Cond: pakattais #pakattas
+
+     #Verb 'tarjota' - # meaning '' - ''- GOLD
+     tarjota+V+Inf: tarjota
+     tarjota+V+Act+Ind+Prs+Sg1: tarjoan
+     tarjota+V+Act+Ind+Prs+Sg2: tarjoat
+     tarjota+V+Act+Ind+Prs+Sg3: tarjoaa
+     tarjota+V+Act+Ind+Prs+Pl1: tarjoamma
+     tarjota+V+Act+Ind+Prs+Pl2: tarjoatta
+     tarjota+V+Act+Ind+Prs+Pl3: [tarjoaa, tarjoava, tarjoavva]
+     tarjota+V+Pass+Ind+Prs: tarjothaan
+     tarjota+V+Act+Ind+Prs+ConNeg: tarjoa
+     tarjota+V+Act+Ind+Prt+Sg1: tarjosin
+     tarjota+V+Act+Ind+Prt+Sg2: tarjosit
+     tarjota+V+Act+Ind+Prt+Sg3: [tarjos, tarjosi]
+     tarjota+V+Act+Ind+Prt+Pl1: tarjosimma
+     tarjota+V+Act+Ind+Prt+Pl2: tarjositta
+     tarjota+V+Act+Ind+Prt+Pl3: [tarjosit, tarjothiin]
+     tarjota+V+Pass+Ind+Prt: tarjothiin
+     tarjota+V+Act+Cond+Sg1: tarjoaisin
+     tarjota+V+Act+Cond+Sg2: tarjoaisit
+     tarjota+V+Act+Cond+Sg3: tarjoais
+     tarjota+V+Act+Cond+Pl1: tarjoaisima
+     tarjota+V+Act+Cond+Pl2: tarjoaisitta
+     tarjota+V+Act+Cond+Pl3: [tarjoaisit, tarjoaisiva]
+     tarjota+V+InfE+Ine: [tarjotessa, tarjottaessa]
+     tarjota+V+InfE+Ins: tarjoten
+     tarjota+V+InfMa+Ill: [tarjoahmaan, tarjoamhaan]
+     tarjota+V+InfMa+Ine: tarjoamassa
+     tarjota+V+InfMa+Ela: tarjoamasta
+     tarjota+V+InfMa+Ade: tarjoamalla
+     tarjota+V+InfMa+Abe: tarjoamatta
+     tarjota+V+Act+PrsPrc+Sg+Nom: tarjoava
+     tarjota+V+Act+PrsPrc+Pl+Nom: tarjoavat
+     tarjota+V+Pass+PrsPrc+Sg+Nom: [tarjottava, tarjottavva]
+     tarjota+V+Pass+PrsPrc+Pl+Nom: [tarjottavat, tarjottavvat]
+     tarjota+V+Act+PrfPrc+Sg+Nom: tarjonu
+     tarjota+V+Act+PrfPrc+Pl+Nom: [tarjohneet, tarjonheet]
+     tarjota+V+Pass+PrfPrc+Sg+Nom: tarjottu
+     tarjota+V+Pass+PrfPrc+Pl+Nom: tarjotut
+     tarjota+V+Pass+Cond: tarjottais
