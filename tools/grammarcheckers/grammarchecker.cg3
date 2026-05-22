@@ -733,7 +733,7 @@ COPY:msyn-agr-pl3-sg3 (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &msyn-agr-pl3-
 
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
 ADD:msyn-agr-pl3-pl1 (&msyn-agr-pl3-pl1) TARGET (V Act Pl3) IF
-	(*-1 ("met" Pron Pers Pl1 Nom) BARRIER (V Pl1));
+	(*-1 ("met" Pron Pers Pl1 Nom) BARRIER (V Pl1))(NEGATE 0 Pl1);
 COPY:msyn-agr-pl3-pl1 (Pl1 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-pl1;
 ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Pl1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
 
@@ -757,6 +757,7 @@ ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
 	(NOT *1 SGNOM BARRIER NOT-ADV)
 	(NEGATE -1 PLNOM LINK *1 Inf BARRIER N OR Pron);
+	
 ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
 	(0 ("olla"))
@@ -872,14 +873,18 @@ COPY:msyn-neg-posv (ConNeg &SUGGEST) EXCEPT (Sg3 &msyn-neg-posv) TARGET &msyn-ne
 #$ Mies ei tule.
 
 LIST tunteet = "nälkä" "jano" "hätä" ;
+
 #!! ## Negation e-subject rules
 ADD:msyn-negesubj-nom-par (&msyn-negesubj-nom-par) TARGET (N Nom) IF
 	(*-1 ConNeg LINK -1 (V Neg Sg3) LINK -1 Ade) 
 	(NOT 0 tunteet); 
-COPY:msyn-negesubj-nom-par (Par SUGGEST) EXCEPT (Nom &msyn-negesubj-nom-par ) TARGET (&msyn-negesubj-nom-par);	
+COPY:msyn-negesubj-nom-par (Par SUGGEST) EXCEPT (Nom &msyn-negesubj-nom-par) TARGET (&msyn-negesubj-nom-par);	
 #% Mulla ei ole koira.
 #$ Mulla ei ole koiraa.
 #$ Mulla ei ole nälkä.
+
+#Q: Kan det være et Adv mellom Neg og ConNeg?
+
 #!! Quantifier phrase rules
 
 
