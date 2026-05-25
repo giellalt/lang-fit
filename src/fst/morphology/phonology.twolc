@@ -554,7 +554,7 @@ h:0 <=>        Vow [p|t|k]                  _ e WeakGrade ;
         [.#.|#] Cns:* Vow v _ o   (Dummy:) %> (h) [:o | i5:] ;
         [.#.|#] Cns:* Vow v _  :u (Dummy:) %> (h) [:u | i5:] ;
         [.#.|#] Cns:* Vow v _  :y (Dummy:) %> (h) [:y | i5:] ;
-        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5:] ;
+        [.#.|#] Cns:* Vow v _  :ä (Dummy:) %> (h) [:ä | i5: | i n :ä] ; !also kevväinä
         [.#.|#] Cns:* Vow v _  :ö (Dummy:) %> (h) [:ö | i5:] ;
         ![.#.|#] Cns:* Vow v _  a: (Dummy:) %>  h   :a :a     ;
         [.#.|#] Cns:* Vow v _  a: (Dummy:) %> (h) [i2: | i5:] (%^WG:) (%>) :i ;
