@@ -1085,7 +1085,7 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Act+PrfPrc+Pl+Nom:^HMET2%>heet PxK ; 
 !+V+Pass+PrfPrc:%>t^U x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !noustu, menty 
-+V+Pass+PrfPrc+Pl+Nom:%>t2^U%>t K ; !noustut
++V+Pass+PrfPrc+Pl+Nom:%>t3^U%>t K ; !noustut TEST t3
 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
@@ -1109,7 +1109,8 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Pass+PrfPrc+Pl+Nom:%>^N^Ut K ;
 +V+AgPrc:%>em^A K ;
 
-LEXICON v4_sta !!≈ * **@CODE@** juosta TBC
+LEXICON v4_sta 
+!!≈ * **@CODE@** nousta TODO: compare v4_julkasta
 v4 ; 
 +V+Pass+Ind+Prs:%>th^A^An K ;
 
@@ -1187,6 +1188,7 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+InfMa+Abe:e%>m^Att^A K ;
 
 +V+Pass+Ind+Prs:%>th^A^An K ;
++V+Pass+Ind+Prs:%>h^A^An K ; !CHECK EK denna form också??
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Pass+Ind+Prs+ConNeg:%>^N^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;

@@ -363,6 +363,7 @@ LEXICON n_kevät
 +N+Pl+Abl:^HMETAh%>äi2lt^A PxK ;
 +N+Pl+Tra:^HMETA%>häi2 TRA ;
 +N+Pl+Ess:^HMETAh%>äi2n^A PxK ;
++N+Pl+Ess:%>in^A PxK ; !CHECK variantform kevväinä
 +N+Pl+Abe:^HMETAh%>äi2tt^A PxK  ;
 
 
@@ -1458,7 +1459,11 @@ LEXICON n5_troppi
 !x5_ie_pl ; !PLUS variantform med e i plural!
 +N: x5_i_pl ;
 
- 
+LEXICON n5_troppi_ta
+!! **LEXICON @LEXNAME@**
+n5_troppi ;
++N+Sg+Par:%>t^A PxK ; 
+
 LEXICON n5_troppi_odd
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:       PxK ; !! 

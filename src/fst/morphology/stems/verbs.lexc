@@ -99,7 +99,7 @@ nähhä:nä v3_nahha ;  !!≈ * **@CODE@**
 nähä:nä v3_nahha ;
 
 !! v4 tulla, mennä
-tulla:tul v4_sta ;  !!≈ * **@CODE@** 
+tulla:tul v4 ;  !!≈ * **@CODE@** 
 mennä:men v4 ;  !!≈ * **@CODE@** 
 purra:pur v4 ;
 panna:pan v4 ;
@@ -5047,7 +5047,8 @@ päätyä:pääty v1 ;
 yötyä:yöty v1 ;
 myötyä:myöty v1 ;
 vyötyä:vyöty v1 ;
-ellää:ellä v1 ;
+!ellää:ellä v1 ;
+ellää:elä v1 ;
 pieksää:pieksä v1 ;
 lämpsää:lämpsä v1 ;
 lypsää:lypsä v1 ;
