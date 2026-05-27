@@ -731,15 +731,25 @@ COPY:msyn-agr-pl3-sg3 (Sg3 &SUGGEST) EXCEPT Pl3 TARGET (V Ind Pl3 &msyn-agr-pl3-
 	
 #!! ### Should be Pl1
 
-#!!  **Agreement rule:** msyn-agr-sg3-pl3)
+#!! Testad 26/5 så här ska det se ut :) ungefär..
+
+#!!  **Agreement rule:** msyn-agr-pl3-pl1)
 ADD:msyn-agr-pl3-pl1 (&msyn-agr-pl3-pl1) TARGET (V Act Pl3) IF
-	(*-1 ("met" Pron Pers Pl1 Nom) BARRIER (V Pl1))(NEGATE 0 Pl1);
+	(*-1 ("met" Pron Pers Pl Nom) BARRIER (V Pl1))(NEGATE 0 Pl1);
 COPY:msyn-agr-pl3-pl1 (Pl1 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-pl1;
-ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Pl1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
+
+ADD:msyn-agr-pl3-pl1 &msyn-agr-pl3-pl1 TARGET ("met" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-pl3-pl1) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+##ADDRELATION:msyn-agr-pl3-pl1 ($2) (Pron Pl1) TO (*1 V LINK 0 (&msyn-agr-pl3-pl1));
+
+ADDRELATION:msyn-agr-pl3-pl1 ($2 LEFT) (V &msyn-agr-pl3-pl1) TO (*-1 (Pron &msyn-agr-pl3-pl1));
+
 
 #$ Met tulhaan
+#$ Met tuleva
 #% Met tulema
 
+#%Met näemä ette koirat tuleva
 
 
 #!! ### Should be Pl2
