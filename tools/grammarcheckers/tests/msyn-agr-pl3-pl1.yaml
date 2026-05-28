@@ -1,0 +1,8 @@
+Config:
+  Spec: ../pipespec.xml
+  Variants: [fitgram-dev]
+
+Tests:
+  - "Met näemä ette koirat tuleva"
+  - "{Met tuleva}£{Met tulema}."
+  - "Met tulema."

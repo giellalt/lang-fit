@@ -1,0 +1,13 @@
+Config:
+  Spec: ../pipespec.xml
+  Variants: [fitgram-dev]
+
+Tests:
+  - "Met kuulema ette koirat tuleva"
+  - "Met kuulema ette koirat tuleva ja juoksema"
+  - "Met kuulema koirat ja juoksema"
+  # dropped pronoun:
+  - "{Met kuulema koirat ja juokseva}£{Met kuulema koirat ja juoksema}"
+  - "{Met tuleva}£{Met tulema}."
+  - "{Met nyt tuleva}£{Met nyt tulema}."
+  - "Met tulema."
