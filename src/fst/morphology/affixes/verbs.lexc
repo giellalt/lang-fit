@@ -672,9 +672,16 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Act+Ind+Prs+Pl1:tt%>emm^A K ;
 +V+Act+Ind+Prs+Pl2:tt%>ett^A K ;
 +V+Act+Ind+Prs+Pl3:tt%>ev^A K ;
-+V+Act+Ind+Prs+Pl3:tt%>evv^A K ; !HERE?
-+V+Act+Ind+Prs+Pl3+Err/Orth:tt%>^ev^At K ;
++V+Act+Ind+Prs+Pl3:tt%>evv^A K ; 
++V+Act+Ind+Prs+Pl3:tt%>ee K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:tt%>ev^At K ;
 +V+Act+Ind+Prs+ConNeg:tt%>e K ;
++V+Pass+Ind+Prs:t%>h^A^An K ; 
+
+!havata+V+Neg+Act+Imprt+ConNeg+Sg2: 
+!havata+V+Neg+Act+Imprt+ConNeg+Pl2:
+!havata+V+Act+Imprt+Sg2:
+!havata+V+Act+Imprt+Pl2:
 
 +V+Act+Ind+Prt+Sg1:tt%>in K ;
 +V+Act+Ind+Prt+Sg2:tt%>it K ;
@@ -686,21 +693,49 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Act+Ind+Prt+Pl3+Err/Orth:tt%>ivv^A K ; !TEST 6/2
 +V+Act+Ind+Prt+Pl3+Err/Orth:tt%>iv^At K ;
 +V+Act+Ind+Prt+Pl3:^WG%>th^A^An K ;
++V+Pass+Ind+Prt:t%>hiin K ; 
 
++V+Act+Cond+Sg1:tt%>isin K ;
++V+Act+Cond+Sg2:tt%>isit K ;
++V+Act+Cond+Sg3:tt%>is K ;
++V+Act+Cond+Pl1:tt%>isima K ;
++V+Act+Cond+Pl2:tt%>isitta K ;
++V+Act+Cond+Pl3:tt%>isit K ;
++V+Act+Cond+Pl3:tt%>isiva K ;
++V+Pass+Cond:tt%>^Aishiin K ;
+
++V+Act+PrsPrc+Sg+Nom:t%>tevv^A K ;
++V+Act+PrsPrc+Sg+Nom:t%>tev^A K ;
++V+Act+PrsPrc+Pl+Nom:t%>tevv^At K ;
++V+Act+PrsPrc+Pl+Nom:t%>tev^At K ;
 +V+Pass+PrsPrc+Sg+Nom+Err/Orth:t%>t^Av^A K ;
 +V+Pass+PrsPrc+Sg+Nom:t%>t^Avv^A K ; !HERE?
 +V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ; !HERE?
 +V+Pass+PrsPrc+Pl+Nom:t%>t^Avv^At K ; !HERE?
 +V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ; !HERE?
 
++V+Act+PrfPrc+Sg+Nom:%>n^U K ;
++V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
++V+Act+PrfPrc+Pl+Nom:%>nheet K;
 +V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ; !havatut
+
+!+V+Inf+Tra:^WGt%>^Akse PxK ;
++V+InfE+Ins:t%>en K ;
++V+InfE+Ine:t%>ess^A K ;
++V+InfE+Ine:%>tt^Aess^A K ; !tCHECK
++V+InfMa+Ill:tte%>mh^A^An K ; 
++V+InfMa+Ill:tte%>hm^A^An K ;
++V+InfMa+Ine:tte%>m^Ass^A K ;
++V+InfMa+Ela:tte%>m^Ast^A K ;
++V+InfMa+Ade:tte%>m^Al^A K ;
++V+InfMa+Abe:tte%>m^Att^A K ;
+
 +V+AgPrc:ttema K ;
 
 !!DERIVATION
 +V+Der/minen+N:%>^Ami xnen ;
 
-!! derivation tested here
 
 LEXICON ptc_obl
  +Sg+Gen:%>n PxK ;
@@ -1151,7 +1186,7 @@ LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
 +V+InfMa+Ine:kse%>m^Ass^A K ;
 +V+InfMa+Ela:kse%>m^Ast^A K ;
 +V+InfMa+Ade:kse%>m^All^A K ; 
-+V+InfMa+Abe:ks%>m^Att^A K ;
++V+InfMa+Abe:kse%>m^Att^A K ;
 
 +V+Act+PrsPrc:kse%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>st^Av^A K ;
@@ -1166,7 +1201,7 @@ LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
 +V+Act+Ind+Prs+ConNeg:kse K ;
 +V+Act+Imprt+Sg2:kse # ;
 !+V+Act+Imprt+Sg:%>kh^O^On # ;
-+V+Act+Imprt+Pl2:%>skh^A^A # ;
++V+Act+Imprt+Pl2:%>sk^A^A # ;
 !+V+Act+Imprt+Pl2:%>k^A^A # ;
 !+V+Act+Imprt+Pl3:%>kh^O^Ot # ;
 
