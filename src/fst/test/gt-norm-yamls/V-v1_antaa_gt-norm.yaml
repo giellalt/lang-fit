@@ -21,7 +21,7 @@ Tests:
      antaa+V+Act+Ind+Prs+Sg3: antaa
      antaa+V+Act+Ind+Prs+Pl1: annama
      antaa+V+Act+Ind+Prs+Pl2: annatta
-     antaa+V+Act+Ind+Prs+Pl3: antava
+     antaa+V+Act+Ind+Prs+Pl3: [antava, antaa]
      antaa+V+Pass+Ind+Prs: annethaan
      antaa+V+Act+Ind+Prs+ConNeg: anna
      antaa+V+Act+Ind+Prt+Sg1: annoin
@@ -53,6 +53,7 @@ Tests:
      antaa+V+InfMa+Ill: [antamhaan, antahmaan, anthaan]
      antaa+V+InfMa+Ade: antamalla
      antaa+V+InfMa+Abe: antamatta
+     antaa+V+Der/minen+N+Sg+Nom: antaminen 
 
 
 #Verb - loppua - v1: # meaning 'to end'/'sluta' - GOLD
@@ -62,7 +63,7 @@ Tests:
      loppua+V+Act+Ind+Prs+Sg3: loppuu
      loppua+V+Act+Ind+Prs+Pl1: lopuma
      loppua+V+Act+Ind+Prs+Pl2: loputta
-     loppua+V+Act+Ind+Prs+Pl3: loppuva
+     loppua+V+Act+Ind+Prs+Pl3: [loppuva, loppuu]
      loppua+V+Pass+Ind+Prs: loputhaan
      loppua+V+Act+Ind+Prs+ConNeg: lopu
      loppua+V+Act+Ind+Prt+Sg1: lopuin
@@ -94,6 +95,7 @@ Tests:
      loppua+V+Pass+PrfPrc+Sg+Nom: loputtu
      loppua+V+Pass+PrfPrc+Pl+Nom: loputut
      loppua+V+Pass+Cond: loputtais #loputtas
+     loppua+V+Der/minen+N+Sg+Nom: loppuminen
 
      
 #Verb - käsittää - v1_odd: # meaning 'understand'/'begripa' - GOLD
@@ -103,7 +105,7 @@ Tests:
      käsittää+V+Act+Ind+Prs+Sg3: käsittää
      käsittää+V+Act+Ind+Prs+Pl1: käsitämmä #käsitämä
      käsittää+V+Act+Ind+Prs+Pl2: käsitättä
-     käsittää+V+Act+Ind+Prs+Pl3: [käsittävvä, käsittävä]
+     käsittää+V+Act+Ind+Prs+Pl3: [käsittävvä, käsittävä, käsittää]
      käsittää+V+Pass+Ind+Prs: käsitethään
      käsittää+V+Act+Ind+Prs+ConNeg: käsitä
      käsittää+V+Act+Ind+Prt+Sg1: käsitin
@@ -135,6 +137,7 @@ Tests:
      käsittää+V+Pass+PrfPrc+Sg+Nom: käsitetty
      käsittää+V+Pass+PrfPrc+Pl+Nom: käsitetyt
      käsittää+V+Pass+Cond: käsitettäis #käsitettäs
+     käsittää+V+Der/minen+N+Sg+Nom: käsittäminen
 
 
 #Verb - tietää - v1_tietaa: #meaning 'know'/'veta' - GOLD
@@ -144,7 +147,7 @@ Tests:
      tietää+V+Act+Ind+Prs+Sg3: tietää
      tietää+V+Act+Ind+Prs+Pl1: tiämä
      tietää+V+Act+Ind+Prs+Pl2: tiättä
-     tietää+V+Act+Ind+Prs+Pl3: tietävä
+     tietää+V+Act+Ind+Prs+Pl3: [tietävä, tietää]
      tietää+V+Pass+Ind+Prs: tiethään
      tietää+V+Act+Ind+Prs+ConNeg: tiä
      tietää+V+Act+Ind+Prt+Sg1: tiesin
@@ -176,6 +179,7 @@ Tests:
      tietää+V+Pass+PrfPrc+Sg+Nom: tietty
      tietää+V+Pass+PrfPrc+Pl+Nom: tietyt
      tietää+V+Pass+Cond: tiettäis
+     tietää+V+Der/minen+N+Sg+Nom: tietäminen
 
 
 #Verb ymmärtää meaning 'to understand' -'förstå' -- v1_odd med rt/r-växling - GOLD
@@ -185,7 +189,7 @@ Tests:
      ymmärtää+V+Act+Ind+Prs+Sg3: ymmärtää
      ymmärtää+V+Act+Ind+Prs+Pl1: ymmärämmä #ymmärämä
      ymmärtää+V+Act+Ind+Prs+Pl2: ymmärättä
-     ymmärtää+V+Act+Ind+Prs+Pl3: [ymmärtävvä, ymmärtävä]
+     ymmärtää+V+Act+Ind+Prs+Pl3: [ymmärtävvä, ymmärtävä, ymmärtää]
      ymmärtää+V+Pass+Ind+Prs: ymmärethään
      ymmärtää+V+Act+Ind+Prs+ConNeg: ymmärä
      ymmärtää+V+Act+Ind+Prt+Sg1: ymmärsin
@@ -217,6 +221,7 @@ Tests:
      ymmärtää+V+Pass+PrfPrc+Sg+Nom: ymmäretty
      ymmärtää+V+Pass+PrfPrc+Pl+Nom: ymmäretyt
      ymmärtää+V+Pass+Cond: ymmärettäis #ymmärettäs
+     ymmärtää+V+Der/minen+N+Sg+Nom: ymmärtäminen
 
 #Verb tuntea # meaning 'to feel' - 'känna' - GOLD
      tuntea+V+Inf: tuntea
@@ -226,7 +231,7 @@ Tests:
      tuntea+V+Act+Ind+Prs+Sg3: tuntee
      tuntea+V+Act+Ind+Prs+Pl1: tunnema
      tuntea+V+Act+Ind+Prs+Pl2: tunnetta
-     tuntea+V+Act+Ind+Prs+Pl3: tunteva
+     tuntea+V+Act+Ind+Prs+Pl3: [tunteva, tuntee]
      tuntea+V+Pass+Ind+Prs: tunnethaan
      tuntea+V+Act+Ind+Prs+ConNeg: tunne
      tuntea+V+Act+Ind+Prt+Sg1: tunsin
@@ -258,6 +263,7 @@ Tests:
      tuntea+V+Pass+PrfPrc+Sg+Nom: tunnettu
      tuntea+V+Pass+PrfPrc+Pl+Nom: tunnetut
      tuntea+V+Pass+Cond: tunnettais #tunnettas
+     tuntea+V+Der/minen+N+Sg+Nom: tunteminen
 
 #Verb lukea # meaning 'to read' - 'läsa' - GOLD
      lukea+V+Inf: lukea
@@ -266,7 +272,7 @@ Tests:
      lukea+V+Act+Ind+Prs+Sg3: lukkee
      lukea+V+Act+Ind+Prs+Pl1: luema
      lukea+V+Act+Ind+Prs+Pl2: luetta
-     lukea+V+Act+Ind+Prs+Pl3: lukeva
+     lukea+V+Act+Ind+Prs+Pl3: [lukeva, lukkee]
      lukea+V+Pass+Ind+Prs: luethaan
      lukea+V+Act+Ind+Prs+ConNeg: lue
      lukea+V+Act+Ind+Prt+Sg1: luin
@@ -298,6 +304,7 @@ Tests:
      lukea+V+Pass+PrfPrc+Sg+Nom: luettu
      lukea+V+Pass+PrfPrc+Pl+Nom: luetut
      lukea+V+Pass+Cond: luettais #luettas
+     lukea+V+Der/minen+N+Sg+Nom: lukeminen
 
 #Verb alkaa # meaning 'to begin' - 'börja' - GOLD
      alkaa+V+Inf: alkaa
@@ -306,7 +313,7 @@ Tests:
      alkaa+V+Act+Ind+Prs+Sg3: alkaa
      alkaa+V+Act+Ind+Prs+Pl1: alama
      alkaa+V+Act+Ind+Prs+Pl2: alatta
-     alkaa+V+Act+Ind+Prs+Pl3: alkava
+     alkaa+V+Act+Ind+Prs+Pl3: [alkava, alkaa]
      alkaa+V+Pass+Ind+Prs: alethaan
      alkaa+V+Act+Ind+Prs+ConNeg: ala
      alkaa+V+Act+Ind+Prt+Sg1: aloin
@@ -338,6 +345,7 @@ Tests:
      alkaa+V+Pass+PrfPrc+Sg+Nom: alettu
      alkaa+V+Pass+PrfPrc+Pl+Nom: aletut
      alkaa+V+Pass+Cond: alettais #alettas
+     alkaa+V+Der/minen+N+Sg+Nom: alkaminen
 
 
 #Verb pittää - # meaning 'have (to), think' - 'ha, vara tvungen, anse' - GOLD
@@ -347,7 +355,7 @@ Tests:
      pittää+V+Act+Ind+Prs+Sg3: pittää
      pittää+V+Act+Ind+Prs+Pl1: piämä
      pittää+V+Act+Ind+Prs+Pl2: piättä
-     pittää+V+Act+Ind+Prs+Pl3: pitävä
+     pittää+V+Act+Ind+Prs+Pl3: [pitävä, pittää]
      pittää+V+Pass+Ind+Prs: piethään
      pittää+V+Act+Ind+Prs+ConNeg: piä
      pittää+V+Act+Ind+Prt+Sg1: piin
@@ -379,6 +387,7 @@ Tests:
      pittää+V+Pass+PrfPrc+Sg+Nom: pietty
      pittää+V+Pass+PrfPrc+Pl+Nom: pietyt
      pittää+V+Pass+Cond: piettäis
+     pittää+V+Der/minen+N+Sg+Nom: pitäminen
 
 #Verb olla - # meaning 'to be' - 'vara' - GOLD
      olla+V+Inf: olla
@@ -419,6 +428,7 @@ Tests:
      olla+V+Pass+PrfPrc+Sg+Nom: oltu 
      olla+V+Pass+PrfPrc+Pl+Nom: ollut
      olla+V+Pass+Cond: olis
+     olla+V+Der/minen+N+Sg+Nom: oleminen
 
 #Verb siirtyä - # meaning 'to be moved' - 'flytta sig/flyttas' - GOLD
      siirtyä+V+Inf: siirtyä
@@ -427,7 +437,7 @@ Tests:
      siirtyä+V+Act+Ind+Prs+Sg3: siirtyy
      siirtyä+V+Act+Ind+Prs+Pl1: siirymä
      siirtyä+V+Act+Ind+Prs+Pl2: siiryttä
-     siirtyä+V+Act+Ind+Prs+Pl3: siirtyvä
+     siirtyä+V+Act+Ind+Prs+Pl3: [siirtyvä, siirtyy]
      siirtyä+V+Pass+Ind+Prs: siirythään
      siirtyä+V+Act+Ind+Prs+ConNeg: siiry
      siirtyä+V+Act+Ind+Prt+Sg1: siiryin
@@ -459,6 +469,7 @@ Tests:
      siirtyä+V+Pass+PrfPrc+Sg+Nom: siirytty
      siirtyä+V+Pass+PrfPrc+Pl+Nom: siirytyt
      siirtyä+V+Pass+Cond: siiryttäis
+     siirtyä+V+Der/minen+N+Sg+Nom: siirtyminen
 
 #Verb käyttää - # meaning 'to use' - 'använda' - GOLD     
      käyttää+V+Inf: käyttää
@@ -467,7 +478,7 @@ Tests:
      käyttää+V+Act+Ind+Prs+Sg3: käyttää
      käyttää+V+Act+Ind+Prs+Pl1: käytämä
      käyttää+V+Act+Ind+Prs+Pl2: käytättä
-     käyttää+V+Act+Ind+Prs+Pl3: käyttävä
+     käyttää+V+Act+Ind+Prs+Pl3: [käyttävä, käyttää]
      käyttää+V+Pass+Ind+Prs: käytethään
      käyttää+V+Act+Ind+Prs+ConNeg: käytä
      käyttää+V+Act+Ind+Prt+Sg1: käytin
@@ -499,6 +510,7 @@ Tests:
      käyttää+V+Pass+PrfPrc+Sg+Nom: käytetty
      käyttää+V+Pass+PrfPrc+Pl+Nom: käytetyt
      käyttää+V+Pass+Cond: käytettäis
+     käyttää+V+Der/minen+N+Sg+Nom: käyttäminen
 
 #Verb taitaa - # meaning '' - '' - GOLD
      taitaa+V+Inf: taitaa
@@ -507,7 +519,7 @@ Tests:
      taitaa+V+Act+Ind+Prs+Sg3: taitaa
      taitaa+V+Act+Ind+Prs+Pl1: taiama
      taitaa+V+Act+Ind+Prs+Pl2: taiatta
-     taitaa+V+Act+Ind+Prs+Pl3: taitava
+     taitaa+V+Act+Ind+Prs+Pl3: [taitava, taitaa]
      taitaa+V+Pass+Ind+Prs: taiethaan
      taitaa+V+Act+Ind+Prs+ConNeg: taia
      taitaa+V+Act+Ind+Prt+Sg1: taisin
@@ -539,3 +551,4 @@ Tests:
      taitaa+V+Pass+PrfPrc+Sg+Nom: taiettu
      taitaa+V+Pass+PrfPrc+Pl+Nom: taietut
      taitaa+V+Pass+Cond: taiettas
+     taitaa+V+Der/minen+N+Sg+Nom: taitaminen
