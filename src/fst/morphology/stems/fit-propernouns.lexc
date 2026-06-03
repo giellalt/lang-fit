@@ -24075,6 +24075,7 @@ Kars:Kar p_sur_41 ;
 Lars:Lar p_mal_41 ;
 Mar:Mar p_sur_3C ;
 Mars:Mar p_plc_41 ;
+Fors:For p_plc_41 ;
 Var:Var p_sur_3C ;
 Vars:Var p_sur_41 ;
 Paars:Paar p_sur_41 ;
@@ -27837,6 +27838,7 @@ Magnus:Magnu p_mal_41 ;
 Vishnu:Vishnu p_plc_1 ;
 Kainu:Kainu p_surplc_1 ;
 Kaihnuu:Kaihnuu p_surplc_1 ;
+Kaihnuu:Kaihnuu p_plc_1 ; !Test
 Vähäkainu:Vähäkainu p_sur_1 ;
 Marinus:Marinu p_surmal_41 ;
 Quirinus:Quirinu p_sur_41 ;

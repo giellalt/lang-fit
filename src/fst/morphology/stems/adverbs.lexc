@@ -962,6 +962,7 @@ hetin advx ;
 kolmenvartin advx ;
 tyystin advx ;
 nuin advx ;
+nuin+Err/Orth:noin advx ;
 itkusuin advx ;
 joutuin advx ;
 kovin advx ;
