@@ -13,7 +13,7 @@ Tests:
 # mennä 
 
 
-  Verb - antaa - paradigmgroup v1: # meaning 'to give'/'ge' - GOLD
+  Verb - mennä - paradigmgroup v4: # meaning 'to go'/'åka/gå' - GOLD
      mennä+V+Inf: mennä
      mennä+V+Act+Ind+Prs+Sg1: menen
      mennä+V+Act+Ind+Prs+Sg2: menet
@@ -55,7 +55,7 @@ Tests:
      mennä+V+Der/minen+N+Sg+Nom: meneminen
 
     
-#Verb - tulla - v1: # meaning 'to end'/'sluta' - GOLD
+#Verb - tulla - v1: # meaning 'to come'/'komma' - GOLD
      tulla+V+Inf: tulla
      tulla+V+Act+Ind+Prs+Sg1: tulen
      tulla+V+Act+Ind+Prs+Sg2: tulet
@@ -96,3 +96,50 @@ Tests:
      tulla+V+Pass+PrfPrc+Pl+Nom: tultut
      tulla+V+Pass+Cond: tulis
      tulla+V+Der/minen+N+Sg+Nom: tuleminen
+
+
+#Verb - juosta - v4: # meaning 'to run'/'springa' - GOLD
+     juosta+V+Inf: juosta
+     juosta+V+Act+Ind+Prs+Sg1: juoksen
+     juosta+V+Act+Ind+Prs+Sg2: juokset
+     juosta+V+Act+Ind+Prs+Sg3: juoksee
+     juosta+V+Act+Ind+Prs+Pl1: juoksema
+     juosta+V+Act+Ind+Prs+Pl2: juoksetta
+     juosta+V+Act+Ind+Prs+Pl3: [juoksee, juokseva]
+     juosta+V+Pass+Ind+Prs: juosthaan
+     juosta+V+Act+Ind+Prs+ConNeg: juokse
+     juosta+V+Act+Ind+Prt+Sg1: juoksin
+     juosta+V+Act+Ind+Prt+Sg2: juoksit
+     juosta+V+Act+Ind+Prt+Sg3: juoksi
+     juosta+V+Act+Ind+Prt+Pl1: juoksima
+     juosta+V+Act+Ind+Prt+Pl2: juoksitta
+     juosta+V+Act+Ind+Prt+Pl3: [juoksit, juosthaan]
+     juosta+V+Pass+Ind+Prt: juosthiin
+     juosta+V+Neg+Act+Imprt+ConNeg+Sg2: juokse
+     juosta+V+Neg+Act+Imprt+ConNeg+Pl2: juosko
+     juosta+V+Act+Imprt+Sg2: juokse
+     juosta+V+Act+Imprt+Pl2: juoskaa
+     juosta+V+Act+Cond+Sg1: juoksisin
+     juosta+V+Act+Cond+Sg2: juoksisit
+     juosta+V+Act+Cond+Sg3: juoksis
+     juosta+V+Act+Cond+Pl1: juoksisimma
+     juosta+V+Act+Cond+Pl2: juoksisitta
+     juosta+V+Act+Cond+Pl3: [juoksisit, juoksisiva, juoksisivva]
+     juosta+V+Act+PrsPrc+Sg+Nom: juokseva
+     juosta+V+Act+PrsPrc+Pl+Nom: juoksevat
+     juosta+V+Pass+PrsPrc+Sg+Nom:      juostava
+     juosta+V+Pass+PrsPrc+Pl+Nom:      juostavat
+     juosta+V+Act+PrfPrc+Sg+Nom: juossu
+     juosta+V+Act+PrfPrc+Pl+Nom: juosheet
+     juosta+V+Pass+PrfPrc+Sg+Nom: juostu
+     juosta+V+Pass+PrfPrc+Pl+Nom: juostut
+     juosta+V+AgPrc: juoksema
+     juosta+V+Pass+Cond: juoksis
+     juosta+V+InfE+Ine: [juostaessa, juostessa]
+     juosta+V+InfE+Ins: juosten
+     juosta+V+InfMa+Ill: [juoksehmaan, juoksemhaan, juoksheen]
+     juosta+V+InfMa+Ine: juoksemassa
+     juosta+V+InfMa+Ela: juoksemasta
+     juosta+V+InfMa+Ade: juoksemalla
+     juosta+V+InfMa+Abe: juoksematta
+     juosta+V+Der/minen+N+Sg+Nom: juokseminen
