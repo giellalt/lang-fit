@@ -5627,6 +5627,7 @@ tivistyä:tivisty v1_odd ;
 tiettyä:tietty v1 ; ! XXX ?
 siunaila:siunai v4_3la ; 
 ajatella:ajattel v4_4lla ;
+ajatellaX:ajattel v4 ; !test
 klaakottaa:klaakotta v1_odd ;
 kalkattaa:kalkatta v1_odd ;
 sylkeä:sylke v1 ;
