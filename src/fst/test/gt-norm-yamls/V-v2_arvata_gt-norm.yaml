@@ -25,7 +25,7 @@ Tests:
      arvata+V+Act+Ind+Prs+Sg3: arvaa
      arvata+V+Act+Ind+Prs+Pl1: arvaama 
      arvata+V+Act+Ind+Prs+Pl2: arvaatta
-     arvata+V+Act+Ind+Prs+Pl3: arvaava #check planeeraa >arvaa?
+     arvata+V+Act+Ind+Prs+Pl3: [arvaava, arvaa]
      arvata+V+Pass+Ind+Prs: arvathaan
      arvata+V+Act+Ind+Prs+ConNeg: arvaa
      arvata+V+Act+Ind+Prt+Sg1: arvasin
@@ -277,7 +277,7 @@ Tests:
      kohata+V+Act+Ind+Prs+Sg3: kohtaa
      kohata+V+Act+Ind+Prs+Pl1: kohtaama
      kohata+V+Act+Ind+Prs+Pl2: kohtaatta
-     kohata+V+Act+Ind+Prs+Pl3: kohtaava #kohtaa?
+     kohata+V+Act+Ind+Prs+Pl3: [kohtaava, kohtaa]
      kohata+V+Pass+Ind+Prs: kohathaan
      kohata+V+Act+Ind+Prs+ConNeg: kohtaa
      kohata+V+Act+Ind+Prt+Sg1: [kohasin, kohtasin]
@@ -319,7 +319,7 @@ Tests:
      leekata+V+Act+Ind+Prs+Sg3: leekaa
      leekata+V+Act+Ind+Prs+Pl1: leekaama
      leekata+V+Act+Ind+Prs+Pl2: leekaatta
-     leekata+V+Act+Ind+Prs+Pl3: leekaava #Check leekaa
+     leekata+V+Act+Ind+Prs+Pl3: [leekaava, leekaa]
      leekata+V+Pass+Ind+Prs: leekathaan
      leekata+V+Act+Ind+Prs+ConNeg: leekaa
      leekata+V+Act+Ind+Prt+Sg1: leekasin
@@ -360,7 +360,7 @@ Tests:
      pakata+V+Act+Ind+Prs+Sg3: pakkaa
      pakata+V+Act+Ind+Prs+Pl1: pakkaama
      pakata+V+Act+Ind+Prs+Pl2: pakkaatta
-     pakata+V+Act+Ind+Prs+Pl3: pakkaava #Check pakkaa
+     pakata+V+Act+Ind+Prs+Pl3: [pakkaava, pakkaa]
      pakata+V+Pass+Ind+Prs: pakathaan
      pakata+V+Act+Ind+Prs+ConNeg: pakkaa
      pakata+V+Act+Ind+Prt+Sg1: pakkasin
