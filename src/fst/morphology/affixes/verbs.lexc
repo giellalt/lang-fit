@@ -1121,8 +1121,8 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !noussu! menny etc
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^U K ; !CHECK needed? 
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
-+V+Act+PrfPrc+Pl+Nom:%>heet PxK ;
-+V+Act+PrfPrc+Pl+Nom:^HMET2%>heet PxK ; 
++V+Act+PrfPrc+Pl+Nom:%>heet K ;
++V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ; 
 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
@@ -1306,7 +1306,8 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Inf:^WG%>^A KK ;
 +V+Inf+Tra:^WG%>^Akse PxK ;
 +V+InfE+Ins:len K ;
-+V+InfE+Ine:t^Ae%>ss^A K ;
++V+InfE+Ine:%>ess^A K ;
++V+InfE+Ine:%>t^Aess^A K ;
 !+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:e%>^HMET2mh^A^An K ; ! 
 +V+InfMa+Ill:e%>mh^A^An K ; 
@@ -1321,10 +1322,12 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Pass+Ind+Prs+ConNeg:%>^A K ;
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
-+V+Act+PrfPrc+Sg+Nom:%>t^U K ;
++V+Act+PrfPrc+Sg+Nom:%>^U K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc:%>hee x3_oblique ;
++V+Act+PrfPrc:%>heet K ;
 +V+Act+PrfPrc:^HMET2%>hee x3_oblique ;
++V+Act+PrfPrc:^HMET2%>heet K ;
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
 
@@ -1333,7 +1336,7 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ; 
 +V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ; 
 
-+V+Pass+Cond:t^A%>i4s K ;
++V+Pass+Cond:%>t^Ai4s K ;
 
 +V+Act+Ind+Prs+ConNeg:e K ;
 +V+Act+Imprt+Sg2:e # ;
@@ -1385,6 +1388,7 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:^WGlen K ;
 +V+InfE+Ine:^WGle%>ss^A K ;
++V+InfE+Ine:^WGl%>t^Aess^A K ;
 +V+InfMa+Ill:e%>^HMET2mh^A^An K ; ! 
 +V+InfMa+Ill:e%>mh^A^An K ; 
 +V+InfMa+Ine:e%>m^Ass^A K ;
