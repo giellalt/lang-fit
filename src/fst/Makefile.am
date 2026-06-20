@@ -156,7 +156,7 @@ endif
 					filters/remove-derivation-position-tags.xfst \
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
-			    @\"filters/remove-usage-tags.hfst\" \
+			    @\"filters/remove-usage-tags.xfst\" \
 			.o. @\"filters/remove-norm-comp-tags.xfst\" \
 			.o. @\"filters/remove-derivation-position-tags.xfst\" \
 			.o. @\"$<\"                                         \
