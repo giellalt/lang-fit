@@ -278,6 +278,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta  GOLD
 
 +V+Pass+Cond:^AE^WG%>tt^A%>^E2Iis K ;  !+V+Pass+Cond+ConNeg but CHECK dictionary link
 +V+Pass+Cond+Err/Orth:^AE^WG%>tt^A%>s K ; 
++V+Pass+Cond+ConNeg:^AE^WG%>tt^A%>^E2Iis K ; 
 
 +V+InfE+Ine:%>^E2Iess^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
@@ -706,7 +707,7 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Act+Cond+Pl3:tt%>isit K ;
 +V+Act+Cond+Pl3:tt%>isiva K ;
 +V+Act+Cond+Pl3:tt%>is K ;
-+V+Pass+Cond:tt%>^Aishiin K ;
++V+Pass+Cond:tt%>^Aishi K ; !CHECK
 
 +V+Act+PrsPrc+Sg+Nom:t%>tevv^A K ;
 +V+Act+PrsPrc+Sg+Nom:t%>tev^A K ;
@@ -1391,7 +1392,7 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:^WGlen K ;
 +V+InfE+Ine:^WGle%>ss^A K ;
-+V+InfE+Ine:^WGl%>t^Aess^A K ;
++V+InfE+Ine:^WG%>t^Aess^A K ;
 +V+InfMa+Ill:e%>^HMET2mh^A^An K ; ! 
 +V+InfMa+Ill:e%>mh^A^An K ; 
 +V+InfMa+Ine:e%>m^Ass^A K ;
@@ -1464,66 +1465,84 @@ LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
 
 LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi  
 +V+Inf:t%>^A KK ;
-+V+Inf+Tra:t^A%>kse PxK ;
-+V+InfE+Ins:t%>^Aen K ;
-+V+InfE+Ine:t%>^Aess^A K ;
-+V+InfMa:%>tt^A 3infcase ;
-+V+InfMa+Ill:%>tt^Ahmaan K ;
++V+Act+Ind+Prs+Sg1:tt%>en K ;
++V+Act+Ind+Prs+Sg2:tt%>et K ;
++V+Act+Ind+Prs+Sg3:tt%>ee K ;
++V+Act+Ind+Prs+Pl1:tt%>emm^A K ;
++V+Act+Ind+Prs+Pl2:tt%>ett^A K ;
++V+Act+Ind+Prs+Pl3:tt%>ev^A K ;
++V+Act+Ind+Prs+Pl3:tt%>evv^A K ;
++V+Act+Ind+Prs+Pl3:tt%>ee K ;
++V+Act+Ind+Prs+Pl3+Err/Orth:tt%>ev^At K ;
 
-+V+Act+Ind+Prs+ConNeg:%>tt^A K ;
 +V+Pass+Ind+Prs:%>th^A^An K ;
++V+Act+Ind+Prs+ConNeg:%>t^A K ;
+
++V+Act+Ind+Prt+Sg1:tt%>in K ;
++V+Act+Ind+Prt+Sg2:tt%>it K ;
++V+Act+Ind+Prt+Sg3:tt%>i K ;
++V+Act+Ind+Prt+Pl1:tt%>imm^A K ;
++V+Act+Ind+Prt+Pl2:tt%>itt^A K ;
++V+Act+Ind+Prt+Pl3:tt%>it K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:tt%>iv^A K ;
++V+Act+Ind+Prt+Pl3+Err/Orth:tt%>iv^At K ;
++V+Act+Ind+Prt+Pl3:%>thiin K ;
+
 +V+Pass+Ind+Prt:%>thiin K ;
-+V+Pass+Ind+Prs+ConNeg:%>t^A K ;
-+V+Pass+Ind+Prt+ConNeg:t%>t^U K ;
-
-+V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
-+V+Act+PrfPrc:%>^Nhee x3_oblique ;
-!+V+Act+PrfPrc+Pl+Nom:^N^HMET2%>heet K ; !HÄR 3 ggr tarvihneet
-+V+Act+PrfPrc+Pl+Nom:%>hneet K ;
-+V+Pass+PrfPrc:t%>tee x3_oblique ;
-
-+V+Act+PrsPrc:%>tev^A x3 ;
-+V+Pass+PrsPrc:t%>t^Uv^A x3 ;
-
-+V+Pass+Cond:t%>i4si K ;
++V+Neg+Act+Imprt+ConNeg+Sg2:%>tte K ;
++V+Neg+Act+Imprt+ConNeg+Pl2:%>ttek^O K ;
 
 +V+Act+Imprt+Sg2:tte # ;
-+V+Act+Imprt+Sg:t%>kh^O^On # ;
-+V+Act+Imprt+Pl2:t%>kh^A^A # ;
-+V+Act+Imprt+Pl3:t%>kh^O^Ot # ;
++V+Act+Imprt+Sg:t%>kh^O^On # ; !CHECK EK
++V+Act+Imprt+Pl2:%>k^A^A # ;
++V+Act+Imprt+Pl3:t%>kh^O^Ot # ; !CHECK EK
 
-+V+Ind+Prs+Sg3:ttee K ; ! fix
-+V+Act+Ind+Prs+ConNeg:t%>^A K ;
-
-+V+Act+Ind+Prs+Sg1:t%>^An K ;
-+V+Act+Ind+Prs+Sg2:t%>^At K ;
-+V+Act+Ind+Prs+Sg3:t%>^A K ;
-+V+Act+Ind+Prs+Pl1:t%>^Amme K ;
-+V+Act+Ind+Prs+Pl2:t%>^Atte K ;
-+V+Act+Ind+Prs+Pl3:t%>^Av^A K ;
-+V+Act+Ind+Prs+Pl3:t%>^A K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:t%>^Av^At K ;
-
-+V+Act+Ind+Prt+Sg1:s%>in K ;
-+V+Act+Ind+Prt+Sg2:s%>it K ;
-+V+Act+Ind+Prt+Sg3:s%>i K ;
-+V+Act+Ind+Prt+Pl1:s%>imm^A K ;
-+V+Act+Ind+Prt+Pl2:s%>itt^A K ;
-+V+Act+Ind+Prt+Pl3:s%>it K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:s%>iv^A K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:s%>iv^At K ;
-+V+Act+Ind+Prt+Pl3:%>thiin K ;
-+V+Act+Cond:t%>^A%>i4s 2cond ;
-+V+Act+Cond+Pl1:t%>^A%>i4s%>imm^A K ;
-+V+Act+Cond+Pl3:t%>^A%>i4s%>it K ;
-+V+Act+Cond+Pl3:t%>^A%>i4s%>iv^A K ;
-
++V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+PrfPrc+Pl+Nom:%>hneet K ;
++V+Act+PrfPrc:%>^Nhee x3_oblique ;
+!+V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
+!+V+Pass+PrfPrc:t%>tee x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !havattu
-+V+Pass+PrfPrc+Pl+Nom:%>^t^Ut K ; !havatut
-+V+AgPrc:te%>m^A K ;
++V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ; !havatut
 
-+V+Der/minen+N:t%>^Ami xnen ;
++V+Act+Cond+Sg1:tt%>i4sin K ;
++V+Act+Cond+Sg2:tt%>i4sit K ;
++V+Act+Cond+Sg3:tt%>i4s K ;
++V+Act+Cond+Pl1:tt%>i4sim^A K ;
++V+Act+Cond+Pl2:tt%>i4sitt^A K ;
++V+Act+Cond+Pl3:tt%>i4sit K ;
++V+Act+Cond+Pl3:tt%>i4siv^A K ;
++V+Pass+Cond:t%>ai4s K ; !TARVITTAIS
++V+Pass+Cond:t%>as K ; !TARVITTAS
+
+!+V+InfMa:%>tte 3infcase ;
++V+InfMa+Ill:%>tte%>^HMETAmh^A^An K ; ! 
++V+InfMa+Ine:%>tte%>m^Ass^A K ;
++V+InfMa+Ela:%>tte%>m^Ast^A K ;
++V+InfMa+Ade:%>tte%>m^Al^A K ; 
++V+InfMa+Abe:%>tte%>m^Att^A K ;
++V+InfMa+Ill:%>tte%>hmaan K ;
++V+InfE+Ine:t%>ess^A K ;
++V+InfE+Ins:t%>en K ;
+
+
+
+!! DERIVATION and PARTICIPFORMS
++V+Der/minen+N:tt%>emi xnen ;
++V+Act+PrsPrc:%>ttev^A x3 ;
++V+Act+PrsPrc:%>ttevv^A x3 ;
+
++V+Pass+PrsPrc:t%>t^Av^A x3 ;
++V+Pass+PrsPrc:t%>t^Avv^A x3 ;
++V+AgPrc:tte%>m^A K ;
+
+
+!! Forms not used in dict
++V+Pass+Ind+Prt+ConNeg:t%>t^U K ;
++V+Pass+Ind+Prs+ConNeg:%>t^A K ;
++V+Act+Cond+ConNeg:%>^Ai4si K ; !CHECK
++V+Inf+Tra:t^A%>kse PxK ;
+
 
 LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki  
 +V+Inf:ki%>tä KK ;

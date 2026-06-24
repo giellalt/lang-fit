@@ -127,8 +127,8 @@ Tests:
      juosta+V+Act+Cond+Pl3: [juoksisit, juoksisiva, juoksisivva]
      juosta+V+Act+PrsPrc+Sg+Nom: juokseva
      juosta+V+Act+PrsPrc+Pl+Nom: juoksevat
-     juosta+V+Pass+PrsPrc+Sg+Nom:      juostava
-     juosta+V+Pass+PrsPrc+Pl+Nom:      juostavat
+     juosta+V+Pass+PrsPrc+Sg+Nom: juostava
+     juosta+V+Pass+PrsPrc+Pl+Nom: juostavat
      juosta+V+Act+PrfPrc+Sg+Nom: juossu
      juosta+V+Act+PrfPrc+Pl+Nom: juosheet
      juosta+V+Pass+PrfPrc+Sg+Nom: juostu
@@ -181,7 +181,7 @@ Tests:
      ajatella+V+Pass+PrfPrc+Pl+Nom: ajateltut
      ajatella+V+AgPrc: ajattelema
      ajatella+V+Pass+Cond: ajateltais
-     ajatella+V+InfE+Ine: ajatellessa
+     ajatella+V+InfE+Ine: [ajatellessa, ajateltaessa]
      ajatella+V+InfE+Ins: ajatellen
      ajatella+V+InfMa+Ill: [ajattelehmaan, ajattelemhaan]
      ajatella+V+InfMa+Ine: ajattelemassa
@@ -189,3 +189,50 @@ Tests:
      ajatella+V+InfMa+Ade: ajattelemalla
      ajatella+V+InfMa+Abe: ajattelematta
      ajatella+V+Der/minen+N+Sg+Nom: ajatteleminen
+
+
+#Verb - varjela - v4_4lla: # meaning 'to think'/'tänka' - GOLD
+     varjela+V+Inf: varjela
+     varjela+V+Act+Ind+Prs+Sg1: varjelen
+     varjela+V+Act+Ind+Prs+Sg2: varjelet
+     varjela+V+Act+Ind+Prs+Sg3: varjelee
+     varjela+V+Act+Ind+Prs+Pl1: varjelemma
+     varjela+V+Act+Ind+Prs+Pl2: varjeletta
+     varjela+V+Act+Ind+Prs+Pl3: [varjelee, varjeleva]
+     varjela+V+Pass+Ind+Prs: [varjehlaan, varjelhaan]
+     varjela+V+Act+Ind+Prs+ConNeg: varjele
+     varjela+V+Act+Ind+Prt+Sg1: varjelin
+     varjela+V+Act+Ind+Prt+Sg2: varjelit
+     varjela+V+Act+Ind+Prt+Sg3: varjeli
+     varjela+V+Act+Ind+Prt+Pl1: varjelimma
+     varjela+V+Act+Ind+Prt+Pl2: varjelitta
+     varjela+V+Act+Ind+Prt+Pl3: [varjelit, varjelthiin]
+     varjela+V+Pass+Ind+Prt: varjelthiin
+     varjela+V+Neg+Act+Imprt+ConNeg+Sg2: varjele
+     varjela+V+Neg+Act+Imprt+ConNeg+Pl2: varjelko
+     varjela+V+Act+Imprt+Sg2: varjele
+     varjela+V+Act+Imprt+Pl2: varjelkaa
+     varjela+V+Act+Cond+Sg1: varjelisin
+     varjela+V+Act+Cond+Sg2: varjelisit
+     varjela+V+Act+Cond+Sg3: varjelis
+     varjela+V+Act+Cond+Pl1: varjelisima
+     varjela+V+Act+Cond+Pl2: varjelisitta
+     varjela+V+Act+Cond+Pl3: [varjelisit, varjelisiva, varjelisivva]
+     varjela+V+Act+PrsPrc+Sg+Nom: varjeleva
+     varjela+V+Act+PrsPrc+Pl+Nom: varjelevat
+     varjela+V+Pass+PrsPrc+Sg+Nom: varjeltava
+     varjela+V+Pass+PrsPrc+Pl+Nom: varjeltavat
+     varjela+V+Act+PrfPrc+Sg+Nom: varjelu
+     varjela+V+Act+PrfPrc+Pl+Nom: [varjehleet, varjelheet]
+     varjela+V+Pass+PrfPrc+Sg+Nom: varjeltu
+     varjela+V+Pass+PrfPrc+Pl+Nom: varjeltut
+     varjela+V+AgPrc: varjelema
+     varjela+V+Pass+Cond: varjeltais
+     varjela+V+InfE+Ine: [varjelessa, varjeltaessa]
+     varjela+V+InfE+Ins: varjellen
+     varjela+V+InfMa+Ill: [varjelehmaan, varjelemhaan]
+     varjela+V+InfMa+Ine: varjelemassa
+     varjela+V+InfMa+Ela: varjelemasta
+     varjela+V+InfMa+Ade: varjelemalla
+     varjela+V+InfMa+Abe: varjelematta
+     varjela+V+Der/minen+N+Sg+Nom: varjeleminen

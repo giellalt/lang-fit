@@ -1,0 +1,60 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo: Proofread the gold standard (below), then run analyser, then correct. 
+# mennä 
+
+
+  Verb - tarvita - paradigmgroup v5: # meaning 'to need'/'behöva' - GOLD
+     tarvita+V+Inf: tarvita
+     tarvita+V+Act+Ind+Prs+Sg1: tarvitten
+     tarvita+V+Act+Ind+Prs+Sg2: tarvittet
+     tarvita+V+Act+Ind+Prs+Sg3: tarvittee
+     tarvita+V+Act+Ind+Prs+Pl1: tarvittemma
+     tarvita+V+Act+Ind+Prs+Pl2: tarvittetta
+     tarvita+V+Act+Ind+Prs+Pl3: [tarvittee, tarvitteva, tarvittevva]
+     tarvita+V+Pass+Ind+Prs: tarvithaan
+     tarvita+V+Act+Ind+Prs+ConNeg: tarvita
+     tarvita+V+Act+Ind+Prt+Sg1: tarvittin
+     tarvita+V+Act+Ind+Prt+Sg2: tarvittit
+     tarvita+V+Act+Ind+Prt+Sg3: tarvitti
+     tarvita+V+Act+Ind+Prt+Pl1: tarvittimma
+     tarvita+V+Act+Ind+Prt+Pl2: tarvittitta
+     tarvita+V+Act+Ind+Prt+Pl3: [tarvithiin, tarvittit]
+     tarvita+V+Pass+Ind+Prt: tarvithiin
+     tarvita+V+Neg+Act+Imprt+ConNeg+Sg2: tarvitte
+     tarvita+V+Neg+Act+Imprt+ConNeg+Pl2: tarvitteko
+     tarvita+V+Act+Imprt+Sg2: tarvitte
+     tarvita+V+Act+Imprt+Pl2: tarvikaa
+     tarvita+V+Act+Cond+Sg1: tarvittisin
+     tarvita+V+Act+Cond+Sg2: tarvittisit
+     tarvita+V+Act+Cond+Sg3: tarvittis
+     tarvita+V+Act+Cond+Pl1: tarvittisima
+     tarvita+V+Act+Cond+Pl2: tarvittisitta
+     tarvita+V+Act+Cond+Pl3: [tarvittisit, tarvittisiva]
+     tarvita+V+Act+PrsPrc+Sg+Nom: [tarvitteva, tarvittevva]
+     tarvita+V+Act+PrsPrc+Pl+Nom: [tarvittevat, tarvittevvat]
+     tarvita+V+Pass+PrsPrc+Sg+Nom: [tarvittava, tarvittavva]
+     tarvita+V+Pass+PrsPrc+Pl+Nom: [tarvittavat, tarvittavvat]
+     tarvita+V+Act+PrfPrc+Sg+Nom: tarvinu
+     tarvita+V+Act+PrfPrc+Pl+Nom: [tarvihneet, tarvinheet]
+     tarvita+V+Pass+PrfPrc+Sg+Nom: tarvittu
+     tarvita+V+Pass+PrfPrc+Pl+Nom: tarvitut
+     tarvita+V+AgPrc: tarvittema
+     tarvita+V+Pass+Cond: [tarvitais, tarvitas]
+     tarvita+V+InfE+Ine: tarvitessa
+     tarvita+V+InfE+Ins: tarviten
+     tarvita+V+InfMa+Ill: [tarvittemhaan, tarvittehmaan]
+     tarvita+V+InfMa+Ine: tarvittemassa
+     tarvita+V+InfMa+Ela: tarvittemasta
+     tarvita+V+InfMa+Ade: tarvittemala
+     tarvita+V+InfMa+Abe: tarvittematta
+     tarvita+V+Der/minen+N+Sg+Nom: tarvitteminen
