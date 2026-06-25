@@ -36,7 +36,7 @@ Tests:
      mennä+V+Act+Cond+Pl1: menisimmä
      mennä+V+Act+Cond+Pl2: menisittä
      mennä+V+Act+Cond+Pl3: [menisit, menisivvä, menisivä]
-     mennä+V+InfE+Ine: [mennessä, mentäessä]
+     mennä+V+InfE+Ine: mennessä
      mennä+V+InfE+Ins: mennen
      mennä+V+InfMa+Ill: [menehmään, menemhään, menheen]
      mennä+V+InfMa+Ine: menemässä
@@ -79,7 +79,7 @@ Tests:
      tulla+V+Act+Cond+Pl1: tulisimma
      tulla+V+Act+Cond+Pl2: tulisitta
      tulla+V+Act+Cond+Pl3: [tulisit, tulisiva, tulisivva]
-     tulla+V+InfE+Ine: [tullessa, tultaessa]
+     tulla+V+InfE+Ine: tullessa
      tulla+V+InfE+Ins: tullen
      tulla+V+InfMa+Ill: [tulehmaan, tulemhaan, tulheen]
      tulla+V+InfMa+Ine: tulemassa
@@ -135,7 +135,7 @@ Tests:
      juosta+V+Pass+PrfPrc+Pl+Nom: juostut
      juosta+V+AgPrc: juoksema
      juosta+V+Pass+Cond: juoksis
-     juosta+V+InfE+Ine: [juostaessa, juostessa]
+     juosta+V+InfE+Ine: juostessa
      juosta+V+InfE+Ins: juosten
      juosta+V+InfMa+Ill: [juoksehmaan, juoksemhaan, juoksheen]
      juosta+V+InfMa+Ine: juoksemassa
@@ -181,7 +181,7 @@ Tests:
      ajatella+V+Pass+PrfPrc+Pl+Nom: ajateltut
      ajatella+V+AgPrc: ajattelema
      ajatella+V+Pass+Cond: ajateltais
-     ajatella+V+InfE+Ine: [ajatellessa, ajateltaessa]
+     ajatella+V+InfE+Ine: ajatellessa
      ajatella+V+InfE+Ins: ajatellen
      ajatella+V+InfMa+Ill: [ajattelehmaan, ajattelemhaan]
      ajatella+V+InfMa+Ine: ajattelemassa
@@ -228,7 +228,7 @@ Tests:
      varjela+V+Pass+PrfPrc+Pl+Nom: varjeltut
      varjela+V+AgPrc: varjelema
      varjela+V+Pass+Cond: varjeltais
-     varjela+V+InfE+Ine: [varjelessa, varjeltaessa]
+     varjela+V+InfE+Ine: varjelessa
      varjela+V+InfE+Ins: varjellen
      varjela+V+InfMa+Ill: [varjelehmaan, varjelemhaan]
      varjela+V+InfMa+Ine: varjelemassa
