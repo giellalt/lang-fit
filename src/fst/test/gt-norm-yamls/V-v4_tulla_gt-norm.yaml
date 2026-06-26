@@ -236,3 +236,49 @@ Tests:
      varjela+V+InfMa+Ade: varjelemalla
      varjela+V+InfMa+Abe: varjelematta
      varjela+V+Der/minen+N+Sg+Nom: varjeleminen
+
+#Verb - varjela - v4_4lla: # meaning 'to think'/'tänka' - GOLD
+     purasta+V+Inf: purasta
+     purasta+V+Act+Ind+Prs+Sg1: purasen
+     purasta+V+Act+Ind+Prs+Sg2: puraset
+     purasta+V+Act+Ind+Prs+Sg3: purasee
+     purasta+V+Act+Ind+Prs+Pl1: purasemma
+     purasta+V+Act+Ind+Prs+Pl2: purasetta
+     purasta+V+Act+Ind+Prs+Pl3: [purasee, puraseva, purasevva]
+     purasta+V+Pass+Ind+Prs: [purashaan, purasthaan]
+     purasta+V+Act+Ind+Prs+ConNeg: purase
+     purasta+V+Act+Ind+Prt+Sg1: purasin
+     purasta+V+Act+Ind+Prt+Sg2: purasit
+     purasta+V+Act+Ind+Prt+Sg3: purasi
+     purasta+V+Act+Ind+Prt+Pl1: purasimma
+     purasta+V+Act+Ind+Prt+Pl2: purasitta
+     purasta+V+Act+Ind+Prt+Pl3: [purasit, purasthiin]
+     purasta+V+Pass+Ind+Prt: purasthiin
+     purasta+V+Neg+Act+Imprt+ConNeg+Sg2: purase
+     purasta+V+Neg+Act+Imprt+ConNeg+Pl2: purasko
+     purasta+V+Act+Imprt+Sg2: purase
+     purasta+V+Act+Imprt+Pl2: puraskhaa
+     purasta+V+Act+Cond+Sg1: purasisin
+     purasta+V+Act+Cond+Sg2: purasisit
+     purasta+V+Act+Cond+Sg3: purasis
+     purasta+V+Act+Cond+Pl1: purasisimma
+     purasta+V+Act+Cond+Pl2: purasisitta
+     purasta+V+Act+Cond+Pl3: [purasisit, purasisiva]
+     purasta+V+Act+PrsPrc+Sg+Nom: puraseva
+     purasta+V+Act+PrsPrc+Pl+Nom: purasevat
+     purasta+V+Pass+PrsPrc+Sg+Nom: purastava
+     purasta+V+Pass+PrsPrc+Pl+Nom: purastavat
+     purasta+V+Act+PrfPrc+Sg+Nom: purassu
+     purasta+V+Act+PrfPrc+Pl+Nom: purasheet
+     purasta+V+Pass+PrfPrc+Sg+Nom: purastu
+     purasta+V+Pass+PrfPrc+Pl+Nom: purastut
+     purasta+V+AgPrc: purasema
+     purasta+V+Pass+Cond: purasis
+     purasta+V+InfE+Ine: purastessa
+     purasta+V+InfE+Ins: purasten
+     purasta+V+InfMa+Ill: [purasehmaan, purasemhaan, purasheen]
+     purasta+V+InfMa+Ine: purasemassa
+     purasta+V+InfMa+Ela: purasemasta
+     purasta+V+InfMa+Ade: purasemala
+     purasta+V+InfMa+Abe: purasematta
+     purasta+V+Der/minen+N+Sg+Nom: puraseminen

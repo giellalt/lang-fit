@@ -575,13 +575,7 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
 +V+AgPrc:%>^Am^A K ;
 
-+V+Act+Imprt+Sg2:^WG # ;
-+V+Act+Imprt+Sg:^WG%>kh^O^On # ;
-+V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
-+V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
 
-+V+Neg+Act+Imprt+ConNeg+Sg2:%>^A # ; !plus älä (älä anna)
-+V+Neg+Act+Imprt+ConNeg+Pl2:%>^Ak^O # ; !plus älä (älkää antako)
 
 !+V+Der/minen+N:%>^Ami xnen ; !CHECK FOR WHICH?
 
@@ -598,6 +592,14 @@ v2 ;
 +V+Act+Cond:%>i4s 3cond ;
 +V+Act+Cond+Pl1:%>i4s%>im^A K ; !CHECK
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
+
++V+Act+Imprt+Sg2:^WG # ;
++V+Act+Imprt+Sg:^WG%>kh^O^On # ;
++V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
++V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
+
++V+Neg+Act+Imprt+ConNeg+Sg2:%>^A # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+ConNeg+Pl2:%>^Ak^O # ; !plus älä (älkää antako)
 
 !!DERIVATION
 +V+Der/minen+N:%>^Ami xnen ; !CHECK FOR WHICH?
@@ -627,6 +629,13 @@ v2 ;
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>si3v^At K ;
 +V+Act+Cond:%>i4s 2cond ;
 
++V+Act+Imprt+Sg2:^WG # ;
++V+Act+Imprt+Sg:^WG%>kh^O^On # ;
++V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
++V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
+
++V+Neg+Act+Imprt+ConNeg+Sg2:%>^A # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+ConNeg+Pl2:%>^Ak^O # ; !plus älä (älkää antako)
 !!DERIVATION
 +V+Der/minen+N:%>^Ami xnen ; !CHECK FOR WHICH?
 
@@ -668,6 +677,16 @@ v2 ;
 
 +V+Act+Cond:%>^Ai4s 3cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; 
+
++V+Act+Imprt+Sg2:^WG%>^A # ;
++V+Act+Imprt+Pl2:^WG%>kk^A^A # ;
++V+Act+Imprt+Sg:^WG%>kh^O^On # ;
+
++V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
+
++V+Neg+Act+Imprt+ConNeg+Sg2:%>^A # ; !plus älä (älä anna)
++V+Neg+Act+Imprt+ConNeg+Pl2:%>kk^O # ; !plus älä (älkää antako)
+
 !!DERIVATION
 +V+Der/minen+N:%>^Ami xnen ;
 
@@ -1506,8 +1525,10 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 
 +V+Act+Imprt+Sg2:tte # ;
 +V+Act+Imprt+Sg:t%>kh^O^On # ; !CHECK EK
-+V+Act+Imprt+Pl2:%>k^A^A # ;
++V+Act+Imprt+Sg:%>kh^O^On # ; !CHECK EK
++V+Act+Imprt+Pl2:%>kk^A^A # ;
 +V+Act+Imprt+Pl3:t%>kh^O^Ot # ; !CHECK EK
++V+Act+Imprt+Pl3:%>kh^O^Ot # ; !CHECK EK
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
 +V+Act+PrfPrc+Pl+Nom:%>hneet K ;
@@ -1524,8 +1545,8 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 +V+Act+Cond+Pl2:tt%>i4sitt^A K ;
 +V+Act+Cond+Pl3:tt%>i4sit K ;
 +V+Act+Cond+Pl3:tt%>i4siv^A K ;
-+V+Pass+Cond:t%>ai4s K ; !TARVITTAIS
-+V+Pass+Cond:t%>as K ; !TARVITTAS
++V+Pass+Cond:tt%>ai4s K ; !TARVITTAIS
++V+Pass+Cond+Err/Orth:t%>as K ; !TARVITTAS
 
 !+V+InfMa:%>tte 3infcase ;
 +V+InfMa+Ill:%>tte%>^HMETAmh^A^An K ; ! 
