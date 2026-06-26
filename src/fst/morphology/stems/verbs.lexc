@@ -4543,7 +4543,7 @@ kevitä:kevi v2_uta ; !CHECK THESE!
 levitä:levi v2_uta ;
 ihvitä:ihvi v2_uta ; !CHECK THESE!
 selvitä:selvi v2_uta ; !CHECK THESE!
-hävitä:hävi v5 ;
+hävitä:hävi v2_uta ;
 metelöitä:metelöi v5 ;
 piestä:pieks v4 ;
 pestä:pes v4 ;
