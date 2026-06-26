@@ -50,7 +50,7 @@ Tests:
      arvata+V+InfMa+Abe: arvaamatta  
      arvata+V+Act+PrsPrc+Sg+Nom: arvaava
      arvata+V+Act+PrsPrc+Pl+Nom: arvaavat
-     arvata+V+Pass+PrsPrc+Sg+Nom: [arvattava, arvattavva]
+     arvata+V+Pass+PrsPrc+Sg+Nom: arvattava #arvattavva
      arvata+V+Pass+PrsPrc+Pl+Nom: arvattavat #testa arvattavvat
      arvata+V+Act+PrfPrc+Sg+Nom: arvanu 
      arvata+V+Act+PrfPrc+Pl+Nom: [arvahneet, arvanheet]
@@ -137,8 +137,8 @@ Tests:
      hävetä+V+InfMa+Abe: häpeämättä
      hävetä+V+Act+PrsPrc+Sg+Nom: häpeävä
      hävetä+V+Act+PrsPrc+Pl+Nom: häpeävät
-     hävetä+V+Pass+PrsPrc+Sg+Nom: [hävettävä, hävettävvä] 
-     hävetä+V+Pass+PrsPrc+Pl+Nom: [hävettävät, hävettävvät]
+     hävetä+V+Pass+PrsPrc+Sg+Nom: hävettävä #hävettävvä
+     hävetä+V+Pass+PrsPrc+Pl+Nom: hävettävät #hävettävvät
      hävetä+V+Act+PrfPrc+Sg+Nom: häveny
      hävetä+V+Act+PrfPrc+Pl+Nom: [hävehneet, hävenheet]
      hävetä+V+Pass+PrfPrc+Sg+Nom: hävetty
@@ -178,8 +178,8 @@ Tests:
      leipota+V+InfMa+Abe: leippoamatta
      leipota+V+Act+PrsPrc+Sg+Nom: leippoava
      leipota+V+Act+PrsPrc+Pl+Nom: leippoavat
-     leipota+V+Pass+PrsPrc+Sg+Nom: [leipottava, leipottavva]
-     leipota+V+Pass+PrsPrc+Pl+Nom: [leipottavat, leipottavvat]
+     leipota+V+Pass+PrsPrc+Sg+Nom: leipottava #leipottavva
+     leipota+V+Pass+PrsPrc+Pl+Nom: leipottavat #leipottavvat
      leipota+V+Act+PrfPrc+Sg+Nom: leiponu
      leipota+V+Act+PrfPrc+Pl+Nom: [leipohneet, leiponheet]
      leipota+V+Pass+PrfPrc+Sg+Nom: leipottu
@@ -219,8 +219,8 @@ Tests:
      myrskytä+V+InfMa+Abe: myrskyämättä
      myrskytä+V+Act+PrsPrc+Sg+Nom: myrskyävä
      myrskytä+V+Act+PrsPrc+Pl+Nom: myrskyävät
-     myrskytä+V+Pass+PrsPrc+Sg+Nom: [myrskyttävä, myrskyttävvä]
-     myrskytä+V+Pass+PrsPrc+Pl+Nom: [myrskyttävät, myrskyttävvät] 
+     myrskytä+V+Pass+PrsPrc+Sg+Nom: myrskyttävä #myrskyttävvä
+     myrskytä+V+Pass+PrsPrc+Pl+Nom: myrskyttävät #myrskyttävvät
      myrskytä+V+Act+PrfPrc+Sg+Nom: myrskyny
      myrskytä+V+Act+PrfPrc+Pl+Nom: [myrskyhneet, myrskynheet]
      myrskytä+V+Pass+PrfPrc+Sg+Nom: myrskytty
@@ -260,8 +260,8 @@ Tests:
      haluta+V+InfMa+Abe: haluamatta
      haluta+V+Act+PrsPrc+Sg+Nom: haluava
      haluta+V+Act+PrsPrc+Pl+Nom: haluavat
-     haluta+V+Pass+PrsPrc+Sg+Nom: [haluttava, haluttavva]
-     haluta+V+Pass+PrsPrc+Pl+Nom: [haluttavat, haluttavvat]
+     haluta+V+Pass+PrsPrc+Sg+Nom: haluttava #haluttavva
+     haluta+V+Pass+PrsPrc+Pl+Nom: haluttavat #haluttavvat
      haluta+V+Act+PrfPrc+Sg+Nom: halunu
      haluta+V+Act+PrfPrc+Pl+Nom: [haluhneet, halunheet]
      haluta+V+Pass+PrfPrc+Sg+Nom: haluttu
@@ -302,7 +302,7 @@ Tests:
      kohata+V+InfMa+Abe: kohtaamatta
      kohata+V+Act+PrsPrc+Sg+Nom: kohtaava
      kohata+V+Act+PrsPrc+Pl+Nom: kohtaavat
-     kohata+V+Pass+PrsPrc+Sg+Nom: [kohattava, kohattavva]
+     kohata+V+Pass+PrsPrc+Sg+Nom: kohattava #kohattavva
      kohata+V+Pass+PrsPrc+Pl+Nom: kohattavat
      kohata+V+Act+PrfPrc+Sg+Nom: kohanu
      kohata+V+Act+PrfPrc+Pl+Nom: [kohahneet, kohanheet]
@@ -344,7 +344,7 @@ Tests:
      leekata+V+InfMa+Abe: leekaamatta
      leekata+V+Act+PrsPrc+Sg+Nom: leekaava
      leekata+V+Act+PrsPrc+Pl+Nom: leekaavat
-     leekata+V+Pass+PrsPrc+Sg+Nom: [leekattava, leekattavva]
+     leekata+V+Pass+PrsPrc+Sg+Nom: leekattava #leekattavva
      leekata+V+Pass+PrsPrc+Pl+Nom: leekattavat
      leekata+V+Act+PrfPrc+Sg+Nom: leekanu
      leekata+V+Act+PrfPrc+Pl+Nom: [leekahneet, leekanheet]
@@ -385,7 +385,7 @@ Tests:
      pakata+V+InfMa+Abe: pakkaamatta
      pakata+V+Act+PrsPrc+Sg+Nom: pakkaava
      pakata+V+Act+PrsPrc+Pl+Nom: pakkaavat
-     pakata+V+Pass+PrsPrc+Sg+Nom: [pakattava, pakattavva]
+     pakata+V+Pass+PrsPrc+Sg+Nom: pakattava #pakattavva
      pakata+V+Pass+PrsPrc+Pl+Nom: pakattavat
      pakata+V+Act+PrfPrc+Sg+Nom: pakanu
      pakata+V+Act+PrfPrc+Pl+Nom: [pakahneet, pakanheet]
@@ -426,8 +426,8 @@ Tests:
      tarjota+V+InfMa+Abe: tarjoamatta
      tarjota+V+Act+PrsPrc+Sg+Nom: tarjoava
      tarjota+V+Act+PrsPrc+Pl+Nom: tarjoavat
-     tarjota+V+Pass+PrsPrc+Sg+Nom: [tarjottava, tarjottavva]
-     tarjota+V+Pass+PrsPrc+Pl+Nom: [tarjottavat, tarjottavvat]
+     tarjota+V+Pass+PrsPrc+Sg+Nom: tarjottava #, tarjottavva
+     tarjota+V+Pass+PrsPrc+Pl+Nom: tarjottavat #, tarjottavvat]
      tarjota+V+Act+PrfPrc+Sg+Nom: tarjonu
      tarjota+V+Act+PrfPrc+Pl+Nom: [tarjohneet, tarjonheet]
      tarjota+V+Pass+PrfPrc+Sg+Nom: tarjottu
@@ -466,10 +466,10 @@ Tests:
      havata+V+InfMa+Ade: havattemala
      havata+V+InfMa+Abe: havattematta
      havata+V+Pass+Cond: havattais
-     havata+V+Act+PrsPrc+Sg+Nom: [havattevva, havatteva]
-     havata+V+Act+PrsPrc+Pl+Nom: [havattevvat, havattevat]
-     havata+V+Pass+PrsPrc+Sg+Nom: [havattavva, havattava]
-     havata+V+Pass+PrsPrc+Pl+Nom: [havattavvat, havattavat]
+     havata+V+Act+PrsPrc+Sg+Nom: havatteva # havattevva, 
+     havata+V+Act+PrsPrc+Pl+Nom: havattevat # havattevvat, 
+     havata+V+Pass+PrsPrc+Sg+Nom: havattava # havattavva, 
+     havata+V+Pass+PrsPrc+Pl+Nom: havattavat # havattavvat, 
      havata+V+Act+PrfPrc+Sg+Nom: havanu
      havata+V+Act+PrfPrc+Pl+Nom: [havanheet, havahneet]
      havata+V+Pass+PrfPrc+Sg+Nom: havattu

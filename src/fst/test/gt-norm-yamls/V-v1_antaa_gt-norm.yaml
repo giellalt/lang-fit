@@ -36,8 +36,8 @@ Tests:
      antaa+V+Act+PrfPrc+Pl+Nom: [antanheet, antahneet]
      antaa+V+Act+PrsPrc+Sg+Nom: antava
      antaa+V+Act+PrsPrc+Pl+Nom: antavat
-     antaa+V+Pass+PrsPrc+Sg+Nom: [annettavva, annettava]
-     antaa+V+Pass+PrsPrc+Pl+Nom: [annettavvat, annettavat]
+     antaa+V+Pass+PrsPrc+Sg+Nom: annettava #annettavva, 
+     antaa+V+Pass+PrsPrc+Pl+Nom: annettavat # annettavvat
      antaa+V+Pass+Ind+Prt: annethiin
      antaa+V+Act+Cond+Sg1: antaisin #antasin
      antaa+V+Act+Cond+Sg2: antaisit #antasit
@@ -88,8 +88,8 @@ Tests:
      loppua+V+InfMa+Abe: loppumatta
      loppua+V+Act+PrsPrc+Sg+Nom: loppuva
      loppua+V+Act+PrsPrc+Pl+Nom: loppuvat
-     loppua+V+Pass+PrsPrc+Sg+Nom: [loputtavva, loputtava]
-     loppua+V+Pass+PrsPrc+Pl+Nom: [loputtavvat, loputtavat]
+     loppua+V+Pass+PrsPrc+Sg+Nom: loputtava #loputtavva, 
+     loppua+V+Pass+PrsPrc+Pl+Nom: loputtavat # loputtavvat, 
      loppua+V+Act+PrfPrc+Sg+Nom: loppunu
      loppua+V+Act+PrfPrc+Pl+Nom: [loppuhneet, loppunheet]
      loppua+V+Pass+PrfPrc+Sg+Nom: loputtu
@@ -128,8 +128,8 @@ Tests:
      käsittää+V+InfMa+Ela: käsittämästä
      käsittää+V+InfMa+Ade: käsittämälä #käsittämällä
      käsittää+V+InfMa+Abe: käsittämättä
-     käsittää+V+Act+PrsPrc+Sg+Nom: [käsittävvä, käsittävä]
-     käsittää+V+Act+PrsPrc+Pl+Nom: [käsittävvät, käsittävät]
+     käsittää+V+Act+PrsPrc+Sg+Nom: käsittävä #käsittävvä, 
+     käsittää+V+Act+PrsPrc+Pl+Nom: käsittävät #käsittävvät
      käsittää+V+Pass+PrsPrc+Sg+Nom: käsitettävä
      käsittää+V+Pass+PrsPrc+Pl+Nom: käsitettävät
      käsittää+V+Act+PrfPrc+Sg+Nom: käsittänny #käsittäny
@@ -212,8 +212,8 @@ Tests:
      ymmärtää+V+InfMa+Ela: ymmärtämästä
      ymmärtää+V+InfMa+Ade: ymmärtämälä #ymmärtämällä
      ymmärtää+V+InfMa+Abe: ymmärtämättä
-     ymmärtää+V+Act+PrsPrc+Sg+Nom: [ymmärtävvä, ymmärtävä]
-     ymmärtää+V+Act+PrsPrc+Pl+Nom: [ymmärtävvät, ymmärtävät]
+     ymmärtää+V+Act+PrsPrc+Sg+Nom: ymmärtävä #ymmärtävvä
+     ymmärtää+V+Act+PrsPrc+Pl+Nom: ymmärtävät #ymmärtävvät
      ymmärtää+V+Pass+PrsPrc+Sg+Nom: ymmärettävä
      ymmärtää+V+Pass+PrsPrc+Pl+Nom: ymmärettävät
      ymmärtää+V+Act+PrfPrc+Sg+Nom: ymmärtänny #ymmärtäny
@@ -256,8 +256,8 @@ Tests:
      tuntea+V+InfMa+Abe: tuntematta
      tuntea+V+Act+PrsPrc+Sg+Nom: tunteva
      tuntea+V+Act+PrsPrc+Pl+Nom: tuntevat
-     tuntea+V+Pass+PrsPrc+Sg+Nom: [tunnettavva, tunnettava]
-     tuntea+V+Pass+PrsPrc+Pl+Nom: [tunnettavvat, tunnettavat]
+     tuntea+V+Pass+PrsPrc+Sg+Nom: tunnettava #tunnettavva, 
+     tuntea+V+Pass+PrsPrc+Pl+Nom: tunnettavat #tunnettavvat, 
      tuntea+V+Act+PrfPrc+Sg+Nom: tuntenu
      tuntea+V+Act+PrfPrc+Pl+Nom: [tuntehneet, tuntenheet]
      tuntea+V+Pass+PrfPrc+Sg+Nom: tunnettu
@@ -297,8 +297,8 @@ Tests:
      lukea+V+InfMa+Abe: lukematta
      lukea+V+Act+PrsPrc+Sg+Nom: lukeva
      lukea+V+Act+PrsPrc+Pl+Nom: lukevat
-     lukea+V+Pass+PrsPrc+Sg+Nom: [luettavva, luettava]
-     lukea+V+Pass+PrsPrc+Pl+Nom: [luettavvat, luettavat]
+     lukea+V+Pass+PrsPrc+Sg+Nom: luettava # luettavva, 
+     lukea+V+Pass+PrsPrc+Pl+Nom: luettavat # luettavvat, 
      lukea+V+Act+PrfPrc+Sg+Nom: lukenu
      lukea+V+Act+PrfPrc+Pl+Nom: [lukehneet, lukenheet]
      lukea+V+Pass+PrfPrc+Sg+Nom: luettu
@@ -338,8 +338,8 @@ Tests:
      alkaa+V+InfMa+Abe: alkamatta
      alkaa+V+Act+PrsPrc+Sg+Nom: alkava
      alkaa+V+Act+PrsPrc+Pl+Nom: alkavat
-     alkaa+V+Pass+PrsPrc+Sg+Nom: [alettavva, alettava]
-     alkaa+V+Pass+PrsPrc+Pl+Nom: [alettavvat, alettavat]
+     alkaa+V+Pass+PrsPrc+Sg+Nom: alettava # alettavva, 
+     alkaa+V+Pass+PrsPrc+Pl+Nom: alettavat # alettavvat, 
      alkaa+V+Act+PrfPrc+Sg+Nom: alkanu
      alkaa+V+Act+PrfPrc+Pl+Nom: [alkanheet, alkahneet]
      alkaa+V+Pass+PrfPrc+Sg+Nom: alettu
@@ -380,8 +380,8 @@ Tests:
      pittää+V+InfMa+Abe: pitämättä
      pittää+V+Act+PrsPrc+Sg+Nom: pitävä
      pittää+V+Act+PrsPrc+Pl+Nom: pitävät
-     pittää+V+Pass+PrsPrc+Sg+Nom: [piettävvä, piettävä]
-     pittää+V+Pass+PrsPrc+Pl+Nom: [piettävvät, piettävät]
+     pittää+V+Pass+PrsPrc+Sg+Nom: piettävä # piettävvä,
+     pittää+V+Pass+PrsPrc+Pl+Nom: piettävät # piettävvät, 
      pittää+V+Act+PrfPrc+Sg+Nom: pitäny
      pittää+V+Act+PrfPrc+Pl+Nom: [pitähneet, pitänheet]
      pittää+V+Pass+PrfPrc+Sg+Nom: pietty
@@ -462,8 +462,8 @@ Tests:
      siirtyä+V+InfMa+Abe: siirtymättä
      siirtyä+V+Act+PrsPrc+Sg+Nom: siirtyvä
      siirtyä+V+Act+PrsPrc+Pl+Nom: siirtyvät
-     siirtyä+V+Pass+PrsPrc+Sg+Nom: [siiryttävvä, siiryttävä]
-     siirtyä+V+Pass+PrsPrc+Pl+Nom: [siiryttävvät, siiryttävät]
+     siirtyä+V+Pass+PrsPrc+Sg+Nom: siiryttävä # siiryttävvä, 
+     siirtyä+V+Pass+PrsPrc+Pl+Nom: siiryttävät # siiryttävvät, 
      siirtyä+V+Act+PrfPrc+Sg+Nom: siirtyny
      siirtyä+V+Act+PrfPrc+Pl+Nom: [siirtyhneet, siirtynheet]
      siirtyä+V+Pass+PrfPrc+Sg+Nom: siirytty
@@ -503,8 +503,8 @@ Tests:
      käyttää+V+InfMa+Abe: käyttämättä
      käyttää+V+Act+PrsPrc+Sg+Nom: käyttävä
      käyttää+V+Act+PrsPrc+Pl+Nom: käyttävät
-     käyttää+V+Pass+PrsPrc+Sg+Nom: [käytettävvä, käytettävä]
-     käyttää+V+Pass+PrsPrc+Pl+Nom: [käytettävvät, käytettävät]
+     käyttää+V+Pass+PrsPrc+Sg+Nom: käytettävä # käytettävvä, 
+     käyttää+V+Pass+PrsPrc+Pl+Nom: käytettävät # käytettävvät, 
      käyttää+V+Act+PrfPrc+Sg+Nom: käyttäny
      käyttää+V+Act+PrfPrc+Pl+Nom: [käyttähneet, käyttänheet]
      käyttää+V+Pass+PrfPrc+Sg+Nom: käytetty
@@ -544,8 +544,8 @@ Tests:
      taitaa+V+InfMa+Abe: taitamatta
      taitaa+V+Act+PrsPrc+Sg+Nom: taitava
      taitaa+V+Act+PrsPrc+Pl+Nom: taitavat
-     taitaa+V+Pass+PrsPrc+Sg+Nom: [taiettavva, taiettava]
-     taitaa+V+Pass+PrsPrc+Pl+Nom: [taiettavvat, taiettavat]
+     taitaa+V+Pass+PrsPrc+Sg+Nom: taiettava # taiettavva, 
+     taitaa+V+Pass+PrsPrc+Pl+Nom: taiettavat # taiettavvat, 
      taitaa+V+Act+PrfPrc+Sg+Nom: [tainu, taitanu]
      taitaa+V+Act+PrfPrc+Pl+Nom: [taitahneet, taitanheet]
      taitaa+V+Pass+PrfPrc+Sg+Nom: taiettu

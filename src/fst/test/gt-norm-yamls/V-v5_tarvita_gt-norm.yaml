@@ -40,10 +40,10 @@ Tests:
      tarvita+V+Act+Cond+Pl1: tarvittisima
      tarvita+V+Act+Cond+Pl2: tarvittisitta
      tarvita+V+Act+Cond+Pl3: [tarvittisit, tarvittisiva]
-     tarvita+V+Act+PrsPrc+Sg+Nom: [tarvitteva, tarvittevva]
-     tarvita+V+Act+PrsPrc+Pl+Nom: [tarvittevat, tarvittevvat]
-     tarvita+V+Pass+PrsPrc+Sg+Nom: [tarvittava, tarvittavva]
-     tarvita+V+Pass+PrsPrc+Pl+Nom: [tarvittavat, tarvittavvat]
+     tarvita+V+Act+PrsPrc+Sg+Nom: tarvitteva #, tarvittevva
+     tarvita+V+Act+PrsPrc+Pl+Nom: tarvittevat # tarvittevvat
+     tarvita+V+Pass+PrsPrc+Sg+Nom: tarvittava #tarvittavva
+     tarvita+V+Pass+PrsPrc+Pl+Nom: tarvittavat #tarvittavvat
      tarvita+V+Act+PrfPrc+Sg+Nom: tarvinu
      tarvita+V+Act+PrfPrc+Pl+Nom: [tarvihneet, tarvinheet]
      tarvita+V+Pass+PrfPrc+Sg+Nom: tarvittu

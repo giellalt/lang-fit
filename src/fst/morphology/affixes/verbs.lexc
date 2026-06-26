@@ -298,7 +298,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta  GOLD
 +V+Der/minen:mi nen ; 
 +V+Act+PrsPrc:%>v^A x3 ;
 +V+Pass+PrsPrc+Err/Orth:^AE^WG%>tt^Av^A x3 ; 
-+V+Pass+PrsPrc:^AE^WG%>tt^Avv^A x3 ; 
++V+Pass+PrsPrc+Err/Orth:^AE^WG%>tt^Avv^A x3 ; 
 +V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
 +V+AgPrc:%>m^A K ;
 
@@ -397,7 +397,7 @@ LEXICON v1_odd  !!≈ * **@CODE@** käsittää>käsittänny osv
 +V+InfMa+Abe:%>m^Att^A K ;
 
 +V+Act+PrsPrc+Err/Orth:%>v^A x3 ; 
-+V+Act+PrsPrc:%>vv^A x3 ; !HERE?
++V+Act+PrsPrc+Err/Orth:%>vv^A x3 ; !HERE?
 +V+Act+PrsPrc:%>v^A x3 ; !HERE?
 +V+Pass+PrsPrc+Err/Orth:^AE^WG%>tt^Avv^A x3 ;
 +V+Pass+PrsPrc:^AE^WG%>tt^Av^A x3 ; 
@@ -501,7 +501,7 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 
 +V+Act+PrsPrc:ta%>v^A x3 ;
 +V+Pass+PrsPrc:ta^AE^WG%>tt^Av^A x3 ; 
-+V+Pass+PrsPrc:ta^AE^WG%>tt^Avv^A x3 ; !HERE?
++V+Pass+PrsPrc+Err/Orth:ta^AE^WG%>tt^Avv^A x3 ; !HERE?
 
 +V+Act+PrfPrc+Sg+Nom:ta%>^N^U K ; 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
@@ -611,7 +611,7 @@ v2 ;
 +V+Act+Ind+Prs+Pl3:%>^A K ; 
 +V+Act+Cond:%>i4s 2cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; ! TODO -la / -lla
-+V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !HERE?
++V+Pass+PrsPrc+Sg+Nom+Err/Orth:^WGt%>t^Avv^A K ; !HERE?
 +V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Av^A K ; !HERE?
 +V+Act+Ind+Prt+Sg1:%>si3n K ;
 +V+Act+Ind+Prt+Sg2:%>si3t K ;
@@ -662,9 +662,9 @@ v2 ;
 +V+Act+Ind+Prs+Sg3:%>^A^A K ; !tarjoaa
 +V+Act+Ind+Prs+Pl3:%>^A^A K ; !tarjoaa 
 +V+Act+Ind+Prs+Pl3:%>^Avv^A K ; !variation
-!+V+Act+Ind+Prt+Pl3:%>si3vv^A K ; !variation
-+V+Pass+PrsPrc+Sg+Nom:^WGt%>t^Avv^A K ; !variation
-+V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Avv^At K ; !variation
++V+Act+Ind+Prt+Pl3+Err/Orth:%>si3vv^A K ; !variation
++V+Pass+PrsPrc+Sg+Nom+Err/Orth:^WGt%>t^Avv^A K ; !variation
++V+Pass+PrsPrc+Pl+Nom+Err/Orth:^WGt%>t^Avv^At K ; !variation
 
 +V+Act+Cond:%>^Ai4s 3cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; 
@@ -714,14 +714,14 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Act+Cond+Pl3:tt%>is K ;
 +V+Pass+Cond:tt%>^Ais K ; !
 
-+V+Act+PrsPrc+Sg+Nom:t%>tevv^A K ;
++V+Act+PrsPrc+Sg+Nom+Err/Orth:t%>tevv^A K ;
 +V+Act+PrsPrc+Sg+Nom:t%>tev^A K ;
-+V+Act+PrsPrc+Pl+Nom:t%>tevv^At K ;
++V+Act+PrsPrc+Pl+Nom+Err/Orth:t%>tevv^At K ;
 +V+Act+PrsPrc+Pl+Nom:t%>tev^At K ;
 +V+Pass+PrsPrc+Sg+Nom+Err/Orth:t%>t^Av^A K ;
-+V+Pass+PrsPrc+Sg+Nom:t%>t^Avv^A K ; !HERE?
++V+Pass+PrsPrc+Sg+Nom+Err/Orth:t%>t^Avv^A K ; !HERE?
 +V+Pass+PrsPrc+Sg+Nom:t%>t^Av^A K ; !HERE?
-+V+Pass+PrsPrc+Pl+Nom:t%>t^Avv^At K ; !HERE?
++V+Pass+PrsPrc+Pl+Nom+Err/Orth:t%>t^Avv^At K ; !HERE?
 +V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ; !HERE?
 
 +V+Act+PrfPrc+Sg+Nom:%>n^U K ;
@@ -1264,11 +1264,11 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 !+V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
 
 +V+Act+PrsPrc:e%>v^A x3 ;
-+V+Act+PrsPrc:e%>vv^A x3 ; !variantform vv
++V+Act+PrsPrc+Err/Orth:e%>vv^A x3 ; !variantform vv
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
-+V+Pass+PrsPrc+Sg+Nom:%>t^Avv^A K ;
++V+Pass+PrsPrc+Sg+Nom+Err/Orth:%>t^Avv^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ;
-+V+Pass+PrsPrc+Pl+Nom:%>t^Avv^At K ;
++V+Pass+PrsPrc+Pl+Nom+Err/Orth:%>t^Avv^At K ;
 
 +V+Pass+Cond:%>i4s K ;
 
@@ -1543,10 +1543,10 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 !! DERIVATION and PARTICIPFORMS
 +V+Der/minen+N:tt%>emi xnen ;
 +V+Act+PrsPrc:%>ttev^A x3 ;
-+V+Act+PrsPrc:%>ttevv^A x3 ;
++V+Act+PrsPrc+Err/Orth:%>ttevv^A x3 ;
 
 +V+Pass+PrsPrc:t%>t^Av^A x3 ;
-+V+Pass+PrsPrc:t%>t^Avv^A x3 ;
++V+Pass+PrsPrc+Err/Orth:t%>t^Avv^A x3 ;
 +V+AgPrc:tte%>m^A K ;
 
 
