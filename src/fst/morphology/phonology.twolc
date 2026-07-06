@@ -151,11 +151,11 @@ k:j <=> Vow [l|r] _ [:i|e]  WeakGrade ;   ! syljen
 "k4:j"
 !! **RULE: @RULENAME@**
 k4:j <=> Vow _ Vow: %^WG: ;   ! reijän
+         h   _ Vow: %^WG: ;     ! kehjetä
 
 !! **Tests:**
 !€ s y l k:j e ^WG:0 > n
-! k e h k:j e ^WG:0 > t ^A:a
-! No rule for h k:j e ^WG. k3:j ?
+!€ k e h k4:j e ^WG:0 > t ^A:ä
 !€ v e h k:0 e ^WG:0
  ! k:0?
  
