@@ -43,6 +43,7 @@ LEXICON a1
 +A+Pl+Gen:^WG^IDEL%>i2e n_PxK ; ! även kovien
 +A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
 +A+Comp:^AE 3comp ; !!≈ * @CODE@ 
++A+Comp+Pl+Gen:^AE%>mpien K ;
 +A+Comp+Sg+Nom:^AE^WG%>mpi K ;
 +A+Superl: 3sup ; !!≈ * @CODE@
 

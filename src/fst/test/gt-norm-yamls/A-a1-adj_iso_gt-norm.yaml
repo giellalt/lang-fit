@@ -49,7 +49,7 @@ Tests:
      iso+A+Comp+Sg+Ess: isompanna
      iso+A+Comp+Sg+Tra: isomaksi
      iso+A+Comp+Pl+Nom: isomat
-     iso+A+Comp+Pl+Gen: isomitten
+     iso+A+Comp+Pl+Gen: [isomitten, isompien] #EK
      iso+A+Comp+Pl+Par: isompia
      iso+A+Comp+Pl+Ill: isomphiin
      iso+A+Comp+Pl+Ine: isomissa
