@@ -657,7 +657,7 @@ a:o <=> [.#.|#] Cns:* UnRndVow:+ ([u|i|i6:i|e|a]) Cns:+ (:Cns) (i) _ (%^WG:|%^A2
 "ä:e"
 !! **RULE: @RULENAME@**
 ä:e <=> _ %^AE: %^WG: %> t  ; 
-        _ %^AE: %> ; !adj comparative 
+        _ %^AE: (%^WG:) %> ; !adj comparative !TEST 30/7 med wg
 
 
 !! ###  e rules
