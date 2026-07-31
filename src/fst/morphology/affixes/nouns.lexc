@@ -1249,6 +1249,7 @@ LEXICON TYÄR
 +N+Sg+Par:tyärtä K ;
 +N+Pl+Gen:tyttäritten K ;
          :tyttär 3xn_lnr ;
++N+Pl+Par+Err/Orth:tyttär%>i^A PxK ;
 
 LEXICON n_kasuven !!FIXA 
 !! **LEXICON @LEXNAME@** 
