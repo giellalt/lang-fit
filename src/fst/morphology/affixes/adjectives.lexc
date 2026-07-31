@@ -306,8 +306,9 @@ LEXICON a3
 +A+Pl+Gen:%>i9tte n_PxK ; 
 +A+Pl+Gen:%>i9e n_PxK ;
 +A+Pl+Par:%>i9t^A PxK ; 
-+A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
-+A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
++A+Pl+Par:%>i9^A PxK ; !31/7 tillägg, kolla EK
++A+Pl+Ill:^HMETA%>hii9 n_PxK ; !31/7 ändrat
++A+Pl+Ill:^HMET2%>hii9 n_PxK ;
 +A+Pl+Ill:^HMETA%>h^Vi2shii n_PxK ; !Test 24/2
 +A+Pl+Ine:^WG%>i9ss^A PxK ;
 +A+Pl+Ela:^WG%>i9st^A PxK ;
@@ -418,15 +419,40 @@ LEXICON a5_uusi
 ! **LEXICON @LEXNAME@**  uusi:uu, täysi:täy etc
  +A+Nom:si R ;
  +A+Sg+Gen:en R ;
- :te a4 ; 
+ +A:te x4 ;
+ +A+Comp:te 3comp ;
+ +A+Comp+Sg+Nom:te^WG%>mpi K ;
  +A+Sg+Nom:si       PxK ; ! s
  +A+Sg+Par:%>tt^A      PxK ; 
  +A+Pl+Gen:sien PxK ; !
  +A+Pl+Gen:sien PxK ; !
- +A+Comp+Pl+Gen:te^WG%>mpien PxK ; !30/7
- +A+Superl+Pl+Gen:si^WG%>mpien PxK ; !30/7
+ +A+Comp+Pl+Gen:te^WG%>mpien PxK ;
+ +A+Superl+Sg+Nom:%>si5n PxK ; 
+ +A+Superl+Sg+Ess:te%>i5mp^Ann^A K ; !!≈ * @CODE@
+ +A+Superl+Sg+All:te%>i5m^Alle K ; !!≈ * @CODE@ etc.
+ +A+Superl+Sg+Ade:te%>i5m^All^A K ;
+ +A+Superl+Sg+Gen:te%>i5m^An PxK ; 
+ +A+Superl+Sg+Par:te%>i5mp^A^A PxK ;
+ +A+Superl+Sg+Tra:te%>i5m^Aksi PxK ;
+ +A+Superl+Sg+Ill:te%>i5mph^A^An PxK ;
+ +A+Superl+Sg+Ine:te%>i5m^Ass^A PxK ;
+ +A+Superl+Sg+Ela:te%>i5m^Ast^A PxK ;
+ +A+Superl+Sg+Abl:te%>i5m^Alt^A PxK ;
+ +A+Superl+Pl+Ess:te%>i5mpinn^A K ;
+ +A+Superl+Pl+All:te%>i5mille K ;
+ +A+Superl+Pl+Ade:te%>i5mill^A K ;
+ +A+Superl+Pl+Nom:te%>i5m^At PxK ;
+ +A+Superl+Pl+Gen:te%>i5mitten PxK ;
+ +A+Superl+Pl+Gen:si%>mpien PxK ; 
+ +A+Superl+Pl+Par:te%>i5mpi^A PxK ;
+ +A+Superl+Pl+Tra:te%>i5miksi PxK ;
+ +A+Superl+Pl+Ill:te%>i5mphiin PxK ;
+ +A+Superl+Pl+Ine:te%>i5miss^A PxK ;
+ +A+Superl+Pl+Ela:te%>i5mist^A PxK ;
+ +A+Superl+Pl+Abl:te%>i5milt^A PxK ;
 
- LEXICON a5_pieni 
+
+LEXICON a5_pieni 
 ! **LEXICON @LEXNAME@**  (only pieni:pien)
  +A+Nom:i R ;
  +A+Sg+Gen:en R ;
@@ -532,6 +558,7 @@ a_as ;
 
 LEXICON a_has  
 a_as ;
++A+Pl+Ill:^HMETA%>h^Ai5n K ;  !puhthain 
 +A+Comp:%>i 3comp ;
 +A+Comp+Sg+Nom:%>^Ampi K ;
 !+A+Comp+Pl+Gen:%>impien K; !hithaampien
