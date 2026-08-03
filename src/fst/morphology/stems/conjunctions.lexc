@@ -31,7 +31,6 @@ sekä cc ; !!≈ * @CODE@
 ette cc_agr ; !!≈ * @CODE@ 
 eli cc ; !! ... and some 20 more
 taikka cc ;
-ja conjx ;
 vaikka conjx ;
 koska conjx ;
 jopa conjx ;
@@ -47,7 +46,8 @@ niin conjx ;
 siis conjx ;
 jos conjx ;
 niinku conjx ;
-niinko+Err/Orth:niinko conjx ;
+niinku+Err/Orth:niinko conjx ;
+ja+Err/Lex:och conjx ; !CHECK TT
 kuten conjx ;
 elikkä conjx ;
 että conjx ;

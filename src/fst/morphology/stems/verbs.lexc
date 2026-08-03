@@ -19,7 +19,7 @@
 !!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_3la** = varjela, varjelee
 !!  * **v4_4lla** = ajatella, ajattellee
-!!  * **v5** = tarvita:tarv
+!!  * **v5** = tarvita:tarv > tarvittee
 !!  * **v6** = paeta:pake
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
@@ -32,7 +32,9 @@
 !!  * **NEG**
 !!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
 !!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
-
+!!  * **v3_ja** ! 
+!!  * **v3_viä** ! 
+!!  * **v3_ta** ! 
 
 !! ## The verb lexica themselves
 
@@ -1673,11 +1675,11 @@ tarvehtia:tarvehti vx ;
 varvehtia:varvehti vx ;
 turvehtia:turvehti vx ;
 loihtia:loihti vx ;
-pohtia:pohti vx ;
-tohtia:tohti vx ;
+pohtia:pohti v1 ;
+tohtia:tohti v1 ;
 lavohtia:lavohti vx ;
 valtia:valti vx ;
-luntia:lunti vx ;
+luntia:lunti v1 ;
 lotia:loti vx ;
 sotia:soti vx ;
 luistia:luisti vx ;
@@ -3129,7 +3131,7 @@ vaiketa:vaikke v6 ;
 nalketa:nalkke v6 ;
 laisketa:laiske v6 ;
 posketa:poske v6 ;
-katketa:katke v2_uta ; !CHECK THESE!
+katketa:katke v2_uta ; 
 ratketa:ratke v6 ;
 aleta:ale v6 ;
 vaaleta:vaale v6 ;
@@ -3161,10 +3163,10 @@ kolveta:kolve v6 ;
 koveta:kove v6 ;
 torveta:torve v6 ;
 ruveta:ruve v6 ;
-vanhaita:vanhai v2_uta ; !CHECK THESE!
+!vanhaita:vanhai v2_uta ; !CHECK!
 ansaita:ansai v5 ;
 fangita:fangi v5 ; 
-tohita:tohi v2_uta ; !CHECK THESE!
+!tohita:tohi v2_uta ; !CHECK!
 kuohita:kuohi v5 ;
 karhita:karhi v5 ;
 palkita:palki v5 ;
@@ -3173,13 +3175,13 @@ valita:vali v5 ; ! xxx
 talita:tali v5 ;
 hallita:halli v5 ;
 kallita:kalli v5 ; !CHECK EK
-mullita:mulli v2_uta ; !CHECK THESE!
-solmita:solmi v2_uta ; !CHECK THESE!
+mullita:mulli v2_uta ; 
+solmita:solmi v2_uta ; 
 tuomita:tuomi v5 ; 
 mainita:maini v5 ;
 punnita:punni v5 ;
-mutikoita:mutikoi v2_uta ; !CHECK THESE!
-!ateroita:ateroi v2_uta ; !CHECK THESE!
+mutikoita:mutikoi v2_uta ; !CHECK!
+!ateroita:ateroi v2_uta ; !CHECK!
 kaupita:kaupi v5 ;
 kaarita:kaari v5 ;
 vaatita:vaati v5 ; 
@@ -4516,33 +4518,33 @@ pilvetä:pilve v6 ;
 tyvetä:tyve v6 ;
 hävetä:häpe v2_uta ;
 kyetä:kyke v6 ;
-kehitä:kehi v2_uta ; !CHECK THESE!
-vihitä:vihi v2_uta ; !CHECK THESE!
-liekitä:lieki v2_uta ; !CHECK THESE!
-leikitä:leiki v2_uta ; !CHECK THESE!
-tilkitä:tilki v2_uta ; !CHECK THESE!
-pälkitä:pälki v2_uta ; !CHECK THESE!
-kenkitä:kenki v2_uta ; !CHECK THESE!
+kehitä:kehi v2_uta ; 
+vihitä:vihi v2_uta ; 
+liekitä:liek2i v2_uta ; 
+leikitä:leik2i v2_uta ; 
+tilkitä:tilki v5 ; 
+pälkitä:pälk2i v2_uta ; 
+kenkitä:kenki v2_uta ; 
 merkitä:merki v5 ;
 hillitä:hilli v5 ;
 villitä:villi v5 ;
-pehmitä:pehmi v2_uta ; !CHECK THESE!
-pimitä:pimi v2_uta ; !CHECK THESE!
-vilmitä:vilmi v2_uta ; !CHECK THESE!
-lämmitä:lämmi v2_uta ; !CHECK THESE!
-fiinitä:fiini v2_uta ; !CHECK THESE!
-kiepitä:kiepi v2_uta ; !CHECK THESE!
-vieritä:vieri v2_uta ; !CHECK THESE!
+pehmitä:pehmi v2_uta ; 
+pimitä:pimi v2_uta ; 
+vilmitä:vilmi v2_uta ; 
+lämmitä:lämpi v2_uta ; 
+fiinitä:fiini v2_uta ; 
+kiepitä:kiepi v2_uta ; 
+vieritä:vieri v2_uta ; 
 keritä:ker v5_keritä ;
 häiritä:häiri v5 ;
-vihtitä:vihti v2_uta ; !CHECK THESE!
-lititä:liti v2_uta ; !CHECK THESE!
-ristitä:risti v2_uta ; !CHECK THESE!
-kyytitä:kyyti v2_uta ; !CHECK THESE!
-kevitä:kevi v2_uta ; !CHECK THESE!
+vihtitä:vihti v2_uta ; 
+lititä:liti v2_uta ; 
+ristitä:risti v2_uta ; 
+kyytitä:kyyti v2_uta ; 
+kevitä:kevi v2_uta ; 
 levitä:levi v2_uta ;
-ihvitä:ihvi v2_uta ; !CHECK THESE!
-selvitä:selvi v2_uta ; !CHECK THESE!
+ihvitä:ihvi v2_uta ; 
+selvitä:selvi v2_uta ; 
 hävitä:hävi v2_uta ;
 metelöitä:metelöi v5 ;
 piestä:pieks v4 ;
@@ -4783,7 +4785,7 @@ käävätä:käävä v2_ata_odd ;
 väävätä:väävä v2_ata_odd ;
 kryyätä:kryyä v2_ata_odd ;
 myöätä:myöä v2_ata_odd ;
-vihitä:vihki v2_uta ; !CHECK THESE!
+vihitä:vihki v2_uta ; 
 köhötä:köhö v2_uta ;
 kärrötä:kärrö v2_uta ;
 hösötä:hösö v2_uta ;

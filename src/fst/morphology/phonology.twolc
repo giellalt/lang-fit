@@ -26,7 +26,7 @@ i2:i      !!= * @CODE@ = plural of nouns
 i3:i      !!= * @CODE@ = past tense of verbs
 i4:i      !!= * @CODE@ = i in conditional of isi
 i5:i      !!= * @CODE@ = superlative i of adjectives
-i6:i      !!= * @CODE@ = i that doesn't change/drop (aika)
+i6:i      !!= * @CODE@ = i that doesn't change/drop (aika) and doesn't lead to i>j in weak grade (hoito, hoion)
 i9:i      !!= * @CODE@ = plural-i of adjectives (kamalissa)
 i8:i      !!= * @CODE@ = past tense of verbs that drops in past antaa : anto
 p2:p t2:t k2:k    !!= * @CODE@ = always p t k !mettä > mettän etc
@@ -271,6 +271,7 @@ t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 | WeakGrade | (WeakGrade)
                        t _ Vow: %^HMETA: %> h [i i|%^V: %^V:|%^V: i] ; 
              Vow [t|t2:] _ e: (%^WG:)  h     %> Vow       ; ! tth > th
              Vow  (Cns)  _ [t|t2:] Vow: [%^HMETA: | %^HMET2:] ; !mettä>methään
+             i6: _ Vow WeakGrade ; !hoito>hoion
          ![u|a] u        _   [a|e]   WeakGrade [%> :Vow - :i|Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa !ändrar till Vow för att få tauin
 
 
