@@ -13,7 +13,15 @@
 !!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
 !!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-!!  * **v3** = syö'ä:syö 
+!!  * **v3** = continuationlexicon for v3-types
+!!  * **v3_tehha**
+!!  * **v3_nahha**
+!!  * **v3_kaya**
+!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
+!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
+!!  * **v3_ja** ! 
+!!  * **v3_viä** ! 
+!!  * **v3_ta** ! 
 !!  * **v4** = nousta; tulla:tul
 !!  * **v4_3la** = varjela, varjelee
 !!  * **v4_4lla** = ajatella, ajattellee
@@ -22,14 +30,11 @@
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
-!! ### Continuation lexica for irregular verbs
-!!  * **v3_tehha**
-!!  * **v3_nahha**
-!!  * **v3_kaya**
+!! ### Irregular verbs
 !!  * **OLLA**
 !!  * **NEG**
-!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
-!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
+
+
 !! ## The verb lexica themselves
 
 
@@ -939,7 +944,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä 
 +V+Inf:y%>^A KK ; ! 
 +V+Act+Ind+Prs:y^WG v12pers_short ;
-+V+Act+Ind+Prs+Sg2:%>t KK ; !TEST 22/4 käytkö>käykkö
++V+Act+Ind+Prs+Sg2:y%>t KK ; !TEST 22/4 käytkö>käykkö
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Sg3:y%>pii K ;
 +V+Act+Ind+Prs+Pl3:y%>vä K ; ! 
@@ -998,6 +1003,7 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 
 LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä 
 +V+Inf:h%>h^A KK ; ! 
++V+Inf:h%>j^A KK ; ! 
 +V+Inf:%>h^A KK ; ! 
 +V+Act+Ind+Prs:e^WG v12pers_short ;
 +V+Act+Ind+Prs+Err/Orth:je^WG v12pers_short ;
@@ -1054,6 +1060,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 
 LEXICON v3_tehha !!≈ * **@CODE@** tehä:te 
 +V+Inf:h%>h^A KK ; ! xxx
++V+Inf:h%>j^A KK ; ! xxx
 +V+Inf:h%>^A KK ;  ! xxx 
 
 +V+Act+Ind+Prs:he v12pers_short ;

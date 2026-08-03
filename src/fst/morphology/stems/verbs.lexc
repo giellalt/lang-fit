@@ -14,7 +14,15 @@
 !!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3 (huomaa), InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs (except -ita); leipota:leippo (+^A^A i Sg3 (lankeaa))
 !!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-!!  * **v3** = syö'ä:syö 
+!!  * **v3** = continuationlexicon for v3-types below
+!!  * **v3_tehha**
+!!  * **v3_nahha**
+!!  * **v3_kaya**
+!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
+!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
+!!  * **v3_ja** ! 
+!!  * **v3_viä** ! 
+!!  * **v3_ta** ! 
 !!  * **v4** = mennä:men ; tulla:tul
 !!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_3la** = varjela, varjelee
@@ -24,24 +32,16 @@
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
-!! ### Continuation lexica for irregular verbs
-!!  * **v3_tehha**
-!!  * **v3_nahha**
-!!  * **v3_kaya**
+!! ### Irregular verbs
 !!  * **OLLA**
 !!  * **NEG**
-!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
-!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
-!!  * **v3_ja** ! 
-!!  * **v3_viä** ! 
-!!  * **v3_ta** ! 
+
 
 !! ## The verb lexica themselves
 
 !! The rest of the file contains some 5500 verbs.
 
 LEXICON VerbRoot !!≈ * **@CODE@** = The verb list 
-
 
 !! Irregular verbs
 olla: OLLA ; !!≈ * **@CODE@** 
@@ -96,9 +96,11 @@ uloslyä:ulos#ly v3_syä ;
 
 tehä:te v3_tehha ;  !!≈ * **@CODE@** 
 tehhä:te v3_tehha ;  !!≈ * **@CODE@** 
-käyä:kä v3_kaya ;  !!≈ * **@CODE@**  
+tehjä:te v3_tehha ;
 nähhä:nä v3_nahha ;  !!≈ * **@CODE@** 
 nähä:nä v3_nahha ;
+nähjä:nä v3_nahha ;
+käyä:kä v3_kaya ;  !!≈ * **@CODE@**  
 
 !! v4 tulla, mennä
 tulla:tul v4 ;  !!≈ * **@CODE@** 
@@ -4288,8 +4290,6 @@ viä:vi vx ;
 räiviä:räivi vx ;
 mylviä:mylvi vx ;
 nirviä:nirvi vx ;
-tehjä:te v3_tehha ;
-nähjä:nä v3_nahha ;
 metelöijä:metelöi v2_uta ;
 kipenöijä:kipenöi v2_uta ;
 höperöijä:höperöi v2_uta ;
