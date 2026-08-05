@@ -598,7 +598,11 @@ LIST &msyn-agr-sg3-pl2 = &msyn-agr-sg3-pl2 ;
 LIST &msyn-agr-pl1-pl2 = &msyn-agr-pl1-pl2 ;
 LIST &msyn-agr-pl3-pl2 = &msyn-agr-pl3-pl2 ;
 
+LIST &msyn-agr-sg1-pl3 = &msyn-agr-sg1-pl3 ;
+LIST &msyn-agr-sg2-pl3 = &msyn-agr-sg2-pl3 ;
 LIST &msyn-agr-sg3-pl3 = &msyn-agr-sg3-pl3 ;
+LIST &msyn-agr-pl1-pl3 = &msyn-agr-pl1-pl3 ;
+LIST &msyn-agr-pl2-pl3 = &msyn-agr-pl2-pl3 ;
 
 LIST &msyn-negesubj-nom-par = &msyn-negesubj-nom-par ;
 LIST &msyn-neg-posv = &msyn-neg-posv ;
@@ -764,45 +768,45 @@ ADDRELATION:msyn-agr-pl3-sg2 ($2) (Pron Sg2) TO (*1 V LINK 0 (&msyn-agr-pl3-sg2)
 
 #!!  **Agreement rule:** msyn-agr-sg1-sg3
 ADD:msyn-agr-sg1-sg3 &msyn-agr-sg1-sg3 TARGET (V Act Sg1) IF
-    (*-1 (”hään” Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
+    (*-1 ("hään" Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
     (NEGATE *-1 COMMA BARRIER (V Act Sg3) LINK *-1 ("joka"))
-    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER (”hään” Pron Pers Sg Nom));
+    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("hään" Pron Pers Sg Nom));
 COPY:msyn-agr-sg1-sg3 (Sg3 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-sg3;
 ADDRELATION:msyn-agr-sg1-sg3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg1-sg3));
 
 
 #!!  **Agreement rule:** msyn-agr-sg2-sg3
 ADD:msyn-agr-sg2-sg3 &msyn-agr-sg2-sg3 TARGET (V Act Sg2) IF
-    (*-1 (”hään” Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
+    (*-1 ("hään" Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
     (NEGATE *-1 COMMA BARRIER (V Act Sg3) LINK *-1 ("joka"))
-    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER (”hään” Pron Pers Sg Nom));
+    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("hään" Pron Pers Sg Nom));
 COPY:msyn-agr-sg2-sg3 (Sg3 SUGGEST) EXCEPT (Sg2) TARGET &msyn-agr-sg2-sg3;
 ADDRELATION:msyn-agr-sg2-sg3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-sg2-sg3));
 
 
 #!!  **Agreement rule:** msyn-agr-pl1-sg3
 ADD:msyn-agr-pl1-sg3 &msyn-agr-pl1-sg3 TARGET (V Act Pl1) IF
-    (*-1 (”hään” Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
+    (*-1 ("hään" Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
     (NEGATE *-1 COMMA BARRIER (V Act Sg3) LINK *-1 ("joka"))
-    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER (”hään” Pron Pers Sg Nom));
+    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("hään" Pron Pers Sg Nom));
 COPY:msyn-agr-pl1-sg3 (Sg3 SUGGEST) EXCEPT (Pl1) TARGET &msyn-agr-pl1-sg3;
 ADDRELATION:msyn-agr-pl1-sg3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-pl1-sg3));
 
 
 #!!  **Agreement rule:** msyn-agr-pl2-sg3
 ADD:msyn-agr-pl2-sg3 &msyn-agr-pl2-sg3 TARGET (V Act Pl2) IF
-    (*-1 (”hään” Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
+    (*-1 ("hään" Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
     (NEGATE *-1 COMMA BARRIER (V Act Sg3) LINK *-1 ("joka"))
-    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER (”hään” Pron Pers Sg Nom));
+    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("hään" Pron Pers Sg Nom));
 COPY:msyn-agr-pl2-sg3 (Sg3 SUGGEST) EXCEPT (Pl2) TARGET &msyn-agr-pl2-sg3;
 ADDRELATION:msyn-agr-pl2-sg3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-pl2-sg3));
 
 
 #!!  **Agreement rule:** msyn-agr-pl3-sg3
 ADD:msyn-agr-pl3-sg3 &msyn-agr-pl3-sg3 TARGET (V Act Pl3) IF
-    (*-1 (”hään” Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
+    (*-1 ("hään" Pron Pers Sg Nom) BARRIER (V Sg3) OR SGNOM OR S-BOUNDARY)
     (NEGATE *-1 COMMA BARRIER (V Act Sg3) LINK *-1 ("joka"))
-    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER (”hään” Pron Pers Sg Nom));
+    (NEGATE 1 SGNOM LINK *-1 Ade BARRIER ("hään" Pron Pers Sg Nom));
 COPY:msyn-agr-pl3-sg3 (Sg3 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-sg3;
 ADDRELATION:msyn-agr-pl3-sg3 ($2) (Pron Sg3) TO (*1 V LINK 0 (&msyn-agr-pl3-sg3));
 
@@ -869,7 +873,7 @@ ADDRELATION:msyn-agr-pl3-pl1 ($2 LEFT) (V &msyn-agr-pl3-pl1) TO (*-1 (Pron &msyn
 
 #!!  **Agreement rule:** msyn-agr-sg1-pl2)
 ADD:msyn-agr-sg1-pl2 (&msyn-agr-sg1-pl2) TARGET (V Act Sg1) IF
-    (*-1 (”tet” Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
+    (*-1 ("tet" Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
 COPY:msyn-agr-sg1-pl2 (Pl2 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-pl2;
 
 ADD:msyn-agr-sg1-pl2 &msyn-agr-sg1-pl2 TARGET ("tet" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg1-pl2) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
@@ -899,7 +903,7 @@ ADDRELATION:msyn-agr-sg3-pl2 ($2 LEFT) (V &msyn-agr-sg3-pl2) TO (*-1 (Pron &msyn
 
 #!!  **Agreement rule:** msyn-agr-pl1-pl2)
 ADD:msyn-agr-pl1-pl2 (&msyn-agr-pl1-pl2) TARGET (V Act Pl1) IF
-    (*-1 (”tet” Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
+    (*-1 ("tet" Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
 COPY:msyn-agr-pl1-pl2 (Pl2 SUGGEST) EXCEPT (Pl1) TARGET &msyn-agr-pl1-pl2;
 
 ADD:msyn-agr-pl1-pl2 &msyn-agr-pl1-pl2 TARGET ("tet" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-pl1-pl2) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
@@ -908,25 +912,76 @@ ADDRELATION:msyn-agr-pl1-pl2 ($2 LEFT) (V &msyn-agr-pl1-pl2) TO (*-1 (Pron &msyn
 
 #!!  **Agreement rule:** msyn-agr-pl3-pl2)
 ADD:msyn-agr-pl3-pl2 (&msyn-agr-pl3-pl2) TARGET (V Act Pl3) IF
-    (*-1 (”tet” Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
+    (*-1 ("tet" Pron Pers Pl Nom) BARRIER (V Pl2))(NEGATE 0 Pl2);
 COPY:msyn-agr-pl3-pl2 (Pl2 SUGGEST) EXCEPT (Pl3) TARGET &msyn-agr-pl3-pl2;
 
 ADD:msyn-agr-pl3-pl2 &msyn-agr-pl3-pl2 TARGET ("tet" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-pl3-pl2) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
 
 ADDRELATION:msyn-agr-pl3-pl2 ($2 LEFT) (V &msyn-agr-pl3-pl2) TO (*-1 (Pron &msyn-agr-pl3-pl2)) ;
 
+
+#!! ### Should be Pl3
+
+#!!  **Agreement rule:** msyn-agr-sg1-pl3)
+ADD:msyn-agr-sg1-pl3 (&msyn-agr-sg1-pl3) TARGET (V Act Sg1) IF
+    (*-1 ("net" Pron Pers Pl Nom) BARRIER (V Pl3))(NEGATE 0 Pl3);
+COPY:msyn-agr-sg1-pl3 (Pl3 SUGGEST) EXCEPT (Sg1) TARGET &msyn-agr-sg1-pl3;
+
+ADD:msyn-agr-sg1-pl3 &msyn-agr-sg1-pl3 TARGET ("net" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg1-pl3) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+ADDRELATION:msyn-agr-sg1-pl3 ($2 LEFT) (V &msyn-agr-sg1-pl3) TO (*-1 (Pron &msyn-agr-sg1-pl3)) ;
+
+
+#!!  **Agreement rule:** msyn-agr-sg2-pl3)
+ADD:msyn-agr-sg2-pl3 (&msyn-agr-sg2-pl3) TARGET (V Act Sg2) IF
+    (*-1 ("net" Pron Pers Pl Nom) BARRIER (V Pl3))(NEGATE 0 Pl3);
+COPY:msyn-agr-sg2-pl3 (Pl3 SUGGEST) EXCEPT (Sg2) TARGET &msyn-agr-sg2-pl3;
+
+ADD:msyn-agr-sg2-pl3 &msyn-agr-sg2-pl3 TARGET ("net" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg2-pl3) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+ADDRELATION:msyn-agr-sg2-pl3 ($2 LEFT) (V &msyn-agr-sg2-pl3) TO (*-1 (Pron &msyn-agr-sg2-pl3));
+
+
+#!!  **Agreement rule:** msyn-agr-sg3-pl3)
+ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
+    (*-1 ("net" Pron Pers Pl Nom) BARRIER (V Pl3))(NEGATE 0 Pl3);
+COPY:msyn-agr-sg3-pl3 (Pl3 SUGGEST) EXCEPT (Sg3) TARGET &msyn-agr-sg3-pl3;
+
+ADD:msyn-agr-sg3-p32 &msyn-agr-sg3-pl3 TARGET ("net" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-sg3-pl3) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+ADDRELATION:msyn-agr-sg3-pl3 ($2 LEFT) (V &msyn-agr-sg3-pl3) TO (*-1 (Pron &msyn-agr-sg3-pl3));
+
+
+#!!  **Agreement rule:** msyn-agr-pl1-pl3)
+ADD:msyn-agr-pl1-pl3 (&msyn-agr-pl1-pl3) TARGET (V Act Pl1) IF
+    (*-1 ("net" Pron Pers Pl Nom) BARRIER (V Pl3))(NEGATE 0 Pl3);
+COPY:msyn-agr-pl1-pl3 (Pl3 SUGGEST) EXCEPT (Pl1) TARGET &msyn-agr-pl1-pl3;
+
+ADD:msyn-agr-pl1-pl3 &msyn-agr-pl1-pl3 TARGET ("net" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-pl1-pl3) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+ADDRELATION:msyn-agr-pl1-pl3 ($2 LEFT) (V &msyn-agr-pl1-pl3) TO (*-1 (Pron &msyn-agr-pl1-pl3)) ;
+
+#!!  **Agreement rule:** msyn-agr-pl2-pl3)
+ADD:msyn-agr-pl2-pl3 (&msyn-agr-pl2-pl3) TARGET (V Act Pl2) IF
+    (*-1 ("net" Pron Pers Pl Nom) BARRIER (V Pl3))(NEGATE 0 Pl3);
+COPY:msyn-agr-pl2-pl3 (Pl3 SUGGEST) EXCEPT (Pl2) TARGET &msyn-agr-pl2-pl3;
+
+ADD:msyn-agr-pl2-pl3 &msyn-agr-pl2-pl3 TARGET ("net" Pron Pers Pl Nom) IF (*1 (V &msyn-agr-pl2-pl3) BARRIER VFIN OR PLNOM OR S-BOUNDARY);
+
+ADDRELATION:msyn-agr-pl2-pl3 ($2 LEFT) (V &msyn-agr-pl2-pl3) TO (*-1 (Pron &msyn-agr-pl2-pl3));
+
 #!! ### Should be Pl3
 #HERE NOT FINISHED
     
 #!!  **Agreement rule:** msyn-agr-sg3-pl3)
-ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
-	(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM OR S-BOUNDARY)
-	(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
-	(NOT 0 ("olla") OR Pl3)
-	(NEGATE 0 TV LINK -1 PLNOM LINK -1 Adv OR ADVLCASE)
-	(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
-	(NOT *1 SGNOM BARRIER NOT-ADV)
-	(NEGATE -1 PLNOM LINK *1 Inf BARRIER N OR Pron);
+#ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
+	#(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM OR S-BOUNDARY)
+	#(NEGATE *-1 Ine OR Ade BARRIER PLNOM LINK *1 SGNOM)
+	#(NOT 0 ("olla") OR Pl3)
+	#(NEGATE 0 TV LINK -1 PLNOM LINK -1 Adv OR ADVLCASE)
+	#(NEGATE -1 CS OR ("ko") LINK 2 PLNOM)
+	#(NOT *1 SGNOM BARRIER NOT-ADV)
+	#(NEGATE -1 PLNOM LINK *1 Inf BARRIER N OR Pron);
 	
 #ADD:msyn-agr-sg3-pl3 (&msyn-agr-sg3-pl3) TARGET (V Act Sg3) IF
 	#(*-1 ("net" Pron Pers Pl3 Nom) BARRIER (V Pl3) OR SGNOM)
