@@ -25,8 +25,8 @@
 !!  * **v4** = tulla:tul
 !!  * **v4_sta** = nousta:nous
 !!  * **v4_juosta** = juos:juo
-!!  * **v4_3la** = varjela, varjelee
-!!  * **v4_4lla** = ajatella, ajattellee
+!!  * **v4_la** = varjela, varjelee
+!!  * **v4_lla** = ajatella, ajattellee
 !!  * **v5** = tarvita:tarv
 !!  * **v6** = paeta:pake
 !!  * **v_vanheta** = vanheta
@@ -1345,19 +1345,54 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+Neg+Act+Imprt+ConNeg+Sg2:^WGe # ; !plus älä (älä anna)
 +V+Neg+Act+Imprt+ConNeg+Pl2:%>k^O # ; !plus älä (älkää antako)
 
+LEXICON v4_la_odd
+v4_la ; !general contlex
++V+InfMa+Ade:le%>m^Al^A K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Pl+Nom:l%>t^Av^At K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Sg+Nom:l%>t^Avv^A K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Pl+Nom:l%>t^Avv^At K ; ! TODO -la / -lla
++V+Act+Ind+Prs+Pl1:le%>mm^A K ; ! TODO -la / -lla
++V+Act+Ind+Prs+Pl3:le%>v^A K ;  !TODO -la / -lla
++V+Act+Ind+Prs+Pl3:le%>vv^A K ;  !TODO -la / -lla
++V+Act+Ind+Prt+Pl1:l%>i3mm^A K ; ! TODO -la / -lla
++V+Act+Ind+Prt+Pl3+Err/Orth:l%>i3v^A K ; ! TODO -la / -lla
++V+Act+Cond+Pl1:l%>i4s%>im^A K ; ! TODO -la / -lla
++V+Act+Cond+Pl3:l%>i4s%>iv^A K ; ! TODO -la / -lla
++V+AgPrc:le%>mm^A K ; ! TODO -la / -lla
++V+Act+PrsPrc+Sg+Nom:le%>v^A K ; ! TODO -la / -lla
++V+Act+PrsPrc+Pl+Nom:le%>v^At K ; ! TODO -la / -lla
++V+Act+PrsPrc+Sg+Nom:le%>vv^A K ; ! TODO -la / -lla
++V+Act+PrsPrc+Pl+Nom:le%>vv^At K ; ! TODO -la / -lla
 
-LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
+LEXICON v4_la_even
+v4_la ; !general contlex
++V+InfMa+Ade:le%>m^All^A K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
++V+Pass+PrsPrc+Pl+Nom:l%>t^Av^At K ; ! TODO -la / -lla
++V+Act+Ind+Prs+Pl1:le%>m^A K ; ! TODO -la / -lla
++V+Act+Ind+Prs+Pl3:le%>v^A K ;  !TODO -la / -lla
++V+Act+Ind+Prt+Pl1:l%>i3m^A K ; ! TODO -la / -lla
++V+Act+Ind+Prt+Pl3+Err/Orth:l%>i3v^A K ; ! TODO -la / -lla
++V+Act+Ind+Prt+Pl3+Err/Orth:l%>i3vv^A K ; ! TODO -la / -lla
++V+Act+Cond+Pl1:l%>i4s%>imm^A K ; ! TODO -la / -lla
++V+Act+Cond+Pl3:l%>i4s%>iv^A K ; ! TODO -la / -lla
++V+Act+Cond+Pl3:l%>i4s%>ivv^A K ; ! TODO -la / -lla
++V+AgPrc:le%>m^A K ; ! TODO -la / -lla
++V+Act+PrsPrc+Sg+Nom:le%>v^A K ; ! TODO -la / -lla
++V+Act+PrsPrc+Pl+Nom:le%>v^At K ; ! TODO -la / -lla
+
+LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Inf:^WG%>l^A KK ;
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:len K ;
 +V+InfE+Ine:l%>ess^A K ;
 +V+Pass+InfE+Ine:l%>t^Aess^A K ;
-!+V+InfMa:e 3infcase ;
 +V+InfMa+Ill:le%>^HMET2mh^A^An K ; ! 
 +V+InfMa+Ill:le%>mh^A^An K ; 
 +V+InfMa+Ine:le%>m^Ass^A K ;
 +V+InfMa+Ela:le%>m^Ast^A K ;
-+V+InfMa+Ade:le%>m^Al^A K ; ! TODO -la / -lla
+!+V+InfMa+Ade:le%>m^Al^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:le%>m^Att^A K ;
 
 +V+Pass+Ind+Prs:l%>h^A^An K ;
@@ -1369,18 +1404,13 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+PrfPrc+Sg+Nom:l%>^U K ; 
 +V+Act+PrfPrc:%>lhee x3_oblique ;
 +V+Act+PrfPrc:%>hlee x3_oblique ;
-!+V+Act+PrfPrc:l^HMET2%>hee x3_oblique ;
-!+V+Act+PrfPrc:l^HMET2%>heet K ;
-!+V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Pass+PrfPrc+Sg+Nom:l%>t^U K ;
-!+V+Pass+PrfPrc+Pl+Nom:l%>t^Ut K ;
 +V+Pass+PrfPrc:^WG%>lt^U x3_oblique ;
 
-+V+Act+PrsPrc+Sg+Nom:le%>v^A K ;
-+V+Act+PrsPrc+Pl+Nom:le%>v^At K ;
-+V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; 
-+V+Pass+PrsPrc+Pl+Nom:l%>t^Av^At K ; 
-
+!+V+Act+PrsPrc+Sg+Nom:le%>v^A K ; ! TODO -la / -lla
+!+V+Act+PrsPrc+Pl+Nom:le%>v^At K ; ! TODO -la / -lla
+!+V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
+!+V+Pass+PrsPrc+Pl+Nom:l%>t^Av^At K ; ! TODO -la / -lla
 +V+Pass+Cond:l%>t^Ai4s K ;
 
 +V+Act+Ind+Prs+ConNeg:le K ;
@@ -1391,42 +1421,38 @@ LEXICON v4_3la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+Ind+Prs+Sg1:le%>n K ;
 +V+Act+Ind+Prs+Sg2:le%>t K ;
 +V+Act+Ind+Prs+Sg3:le%>e K ;
-+V+Act+Ind+Prs+Pl1:le%>mm^A K ;
+!+V+Act+Ind+Prs+Pl1:le%>mm^A K ; ! TODO -la / -lla
 +V+Act+Ind+Prs+Pl2:le%>tt^A K ;
-+V+Act+Ind+Prs+Pl3:le%>v^A K ; ! K&P p. 95.  without -t
+!+V+Act+Ind+Prs+Pl3:le%>v^A K ;  !TODO -la / -lla
 +V+Act+Ind+Prs+Pl3:le%>e K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:le%>v^At K ; ! K&P p. 95.  without -t
++V+Act+Ind+Prs+Pl3+Err/Orth:le%>v^At K ; 
 
 +V+Act+Ind+Prt+Sg1:l%>i3n K ;
 +V+Act+Ind+Prt+Sg2:l%>i3t K ;
 +V+Act+Ind+Prt+Sg3:l%>i3 K ;
-+V+Act+Ind+Prt+Pl1:l%>i3mm^A K ;
+!+V+Act+Ind+Prt+Pl1:l%>i3mm^A K ; ! TODO -la / -lla
 +V+Act+Ind+Prt+Pl2:l%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:l%>i3t K ;
-+V+Act+Ind+Prt+Pl3+Err/Orth:l%>i3v^A K ;
+!+V+Act+Ind+Prt+Pl3+Err/Orth:l%>i3v^A K ; ! TODO -la / -lla
 +V+Act+Ind+Prt+Pl3:l%>thiin K ;
 
-
-!+V+Act+Cond:%>i4s 2cond ;
 +V+Act+Cond+Sg1:l%>i4sin K ; ! 
 +V+Act+Cond+Sg2:l%>i4sit K ;
 +V+Act+Cond+Sg3:l%>i4s K ;
-+V+Act+Cond+Pl1+Err/Orth:l%>i4simm^A K ;
-+V+Act+Cond+Pl1:l%>i4s%>im^A K ;
+!+V+Act+Cond+Pl1+Err/Orth:l%>i4simm^A K ;
+!+V+Act+Cond+Pl1:l%>i4s%>im^A K ; ! TODO -la / -lla
 +V+Act+Cond+Pl2:l%>i4s%>itt^A K ;
 +V+Act+Cond+Pl3:l%>i4s%>it K ;
-+V+Act+Cond+Pl3:l%>i4s%>iv^A K ;
-!+V+Pass+PrfPrc+Sg+Nom:%>t^U K ; 
-!+V+Pass+PrfPrc+Pl+Nom:%>^N^Ut K ; 
+!+V+Act+Cond+Pl3:l%>i4s%>iv^A K ; ! TODO -la / -lla
 
-+V+AgPrc:le%>mm^A K ;
+!+V+AgPrc:le%>mm^A K ; ! TODO -la / -lla
 +V+Der/minen+N:lemi xnen ;
 
 +V+Neg+Act+Imprt+ConNeg+Sg2:le # ;
 +V+Neg+Act+Imprt+ConNeg+Pl2:l%>k^O # ;
 
 
-LEXICON v4_4lla  !!≈ * **@CODE@** lauleskella etc
+LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
 +V+Inf:^WG%>l^A KK ;
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:^WGlen K ;
