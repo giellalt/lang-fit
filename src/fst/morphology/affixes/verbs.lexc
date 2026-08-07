@@ -1010,6 +1010,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Act+Ind+Prs:e^WG v12pers_short ;
 +V+Act+Ind+Prs+Err/Orth:je^WG v12pers_short ;
 +V+Act+Ind+Prs+Sg3:kke%>e K ;
++V+Act+Ind+Prs+Pl3:ke%>v^A K ;  
 +V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! 
 +V+Pass+Ind+Prs:h%>h^A^An K ; ! 
 
@@ -1021,6 +1022,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>ki3v^At K ;
 +V+Act+Ind+Prt+Pl3:h%>thiin K ;
 +V+Act+Ind+Prt+ConNeg+Sg:h%>^N^U K ;
++V+Act+Ind+Prt+ConNeg+Pl:h%>k^O K ;
 +V+Pass+Ind+Prt:h%>thiin K ;
 
 +V+Act+Cond:%>ki4s 2cond ;
@@ -1028,6 +1030,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Inf+Tra:h%>h^Akse PxK ; ! 
 +V+Inf+Err/Orth:h%>h^A K ; ! 
 +V+InfE+Ins:h%>hen K ;
++V+InfE+Ins:h%>en K ;
 +V+InfE+Ine:h%>hess^A K ;
 +V+Pass+InfE+Ine:h%>hess^A K ; !CHECK
 
@@ -1044,20 +1047,23 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Act+Ind+Prs+ConNeg:e K ;
 
 +V+Act+PrfPrc+Sg+Nom:h%>^N^U K ;
-+V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
-+V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ;
+!+V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
+!+V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ;
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
 +V+Act+PrfPrc+Pl+Nom:h%>^Neet K ; 
 
-+V+Act+Imprt+Sg2:je K   ;
++V+Act+Imprt+Sg2:e K   ;
 +V+Act+Imprt+Pl2:h%>k^A^A K ;
-+V+Act+Imprt+Pl2:h%>k^A^As K ;
 +V+Pass+PrfPrc+Sg+Nom:%>ht^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:%>ht^Ut K ; !havatut
 +V+AgPrc:kem^A K ;
 
-+V+Der/minen+N:kkemi xnen ;
++V+Der/minen+N:kemi xnen ;
+!+V+Der/minen+N:kkemi xnen ;
++V+Neg+Act+Imprt+ConNeg+Sg2:e # ; 
++V+Neg+Act+Imprt+ConNeg+Pl2:hk^O # ; 
+
 
 
 LEXICON v3_tehha !!≈ * **@CODE@** tehä:te 
@@ -1083,10 +1089,6 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 +V+Act+Inf+Prt+ConNeg+Sg:h%>^n^U K ;
 
 +V+Act+Cond:k%>i4s 2cond ;
-+V+Act+Cond+Pl1:k%>i4s%>imm^A K ;
-+V+Act+Cond+Pl3:k%>i4s%>it K ;
-!+V+Act+Cond+Pl3:k%>i4s%>iv^A K ; !TILLF borta
-+V+Pass+Cond:htä%>i4s K ;
 +V+Pass+Cond:htä%>s K ;
 
 +V+Act+PrsPrc:ke%>v^A x3 ;
@@ -1116,11 +1118,12 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 +V+Act+Imprt+Sg2:he K   ;
 +V+Act+Imprt+Pl2:h%>k^A^A K ;
 
-+V+Der/minen+N:kkemi xnen ;
 +V+Pass+PrfPrc+Sg+Nom:%>ht^U K ;
 +V+Pass+PrfPrc+Pl+Nom:%>ht^Ut K ; 
 +V+AgPrc:kem^A K ;
-
++V+Neg+Act+Imprt+ConNeg+Sg2:he # ; 
++V+Neg+Act+Imprt+ConNeg+Pl2:hk^O # ; 
++V+Der/minen+N:kemi xnen ;
 
 LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Act+Ind+Prs+Sg1:e%>n K ;
