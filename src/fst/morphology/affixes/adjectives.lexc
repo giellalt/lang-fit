@@ -355,7 +355,7 @@ LEXICON a3
 +A+Sg+Par+Err/Orth:%>t^A PxK ; !Kolla med Elina
 +A+Pl+Nom:^WG%> t_PxK ;
 +A+Pl+Gen:%>i9tte n_PxK ; 
-+A+Pl+Gen:%>i9e n_PxK ;
++A+Pl+Gen+Err/Orth:%>i9e n_PxK ;
 +A+Pl+Par:%>i9t^A PxK ; 
 +A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
 +A+Pl+Ill:^HMET2%>h^Vi9 n_PxK ;
@@ -363,8 +363,8 @@ LEXICON a3
 !+A+Pl+Ill:^HMETA%>hi2shii n_PxK ;
 +A+Pl+Ine:^WG%>i9ss^A PxK ;
 +A+Pl+Ela:^WG%>i9st^A PxK ;
-+A+Pl+All:^WG%>i9lle PxK ; 
-+A+Pl+Ade:^WG%>i9ll^A PxK ;
++A+Pl+All:^WG%>i9le PxK ; 
++A+Pl+Ade:^WG%>i9l^A PxK ;
 +A+Pl+Abl:^WG%>i9lt^A PxK ;
 +A+Pl+Tra:%>i9 TRA ;
 +A+Pl+Ess:%>i9n^A PxK ;
@@ -382,9 +382,9 @@ LEXICON a3
 +A+Superl+Sg+Ine:%>i5m^Ass^A K ;
 +A+Superl+Sg+Ela:%>i5m^Ast^A K ;
 +A+Superl+Sg+Abl:%>i5m^Alt^A K ;
-+A+Superl+Sg+All:%>i5m^Ale K ; 
++A+Superl+Sg+All:%>i5m^Alle K ; 
 +A+Superl+Sg+Ade:%>i5m^Al^A K ;
-+A+Superl+Sg+Ess:%>i5mp^An^A K ;
++A+Superl+Sg+Ess:%>i5mp^Ann^A K ;
 
 +A+Superl+Pl+Nom:%>i5m^At # ;
 +A+Superl+Pl+Gen:%>i5mitten K ;
@@ -394,8 +394,8 @@ LEXICON a3
 +A+Superl+Pl+Ine:%>i5miss^A K ;
 +A+Superl+Pl+Ela:%>i5mist^A K ;
 +A+Superl+Pl+Abl:%>i5milt^A K ;
-+A+Superl+Pl+Ess:%>i5mpin^A K ;
-+A+Superl+Pl+All:%>i5mile K ;
++A+Superl+Pl+Ess:%>i5mpinn^A K ;
++A+Superl+Pl+All:%>i5mille K ;
 +A+Superl+Pl+Ade:%>i5mil^A K ;
 
 
@@ -559,8 +559,10 @@ a_as ;
 LEXICON a_has  
 a_as ;
 +A+Pl+Ill:^HMETA%>h^Ai5n K ;  !puhthain 
-+A+Comp:%>i 3comp ;
-+A+Comp+Sg+Nom:%>^Ampi K ;
+!+A+Comp:%>i 3comp ;
++A+Comp:^HMETA%>h^Ai 3comp ; !TEST
++A+Comp+Sg+Nom:^HMETA%>h^A^Ampi K ;
++A+Comp+Sg+Gen:^HMETA%>h^Aim^An K ;
 !+A+Comp+Pl+Gen:%>impien K; !hithaampien
 
 !+A+Superl:%>i5 3sup ; !NEDAN!

@@ -685,14 +685,14 @@ v2 ;
 +V+Act+Cond:%>^Ai4s 3cond ;
 +V+InfMa+Ade:%>^Am^All^A K ; 
 
-+V+Act+Imprt+Sg2:^WG%>^A # ;
++V+Act+Imprt+Sg2:%>^A # ;
 +V+Act+Imprt+Pl2:^WG%>kk^A^A # ;
 +V+Act+Imprt+Sg:^WG%>kh^O^On # ;
 
 +V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
 
 +V+Neg+Act+Imprt+ConNeg+Sg2:%>^A # ; !plus älä (älä anna)
-+V+Neg+Act+Imprt+ConNeg+Pl2:%>kk^O # ; !plus älä (älkää antako)
++V+Neg+Act+Imprt+ConNeg+Pl2:^WG%>kk^O # ; !plus älä (älkää antako)
 
 !!DERIVATION
 +V+Der/minen+N:%>^Ami xnen ;

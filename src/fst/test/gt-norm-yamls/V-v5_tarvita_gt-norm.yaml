@@ -10,7 +10,7 @@ Config:
 Tests:
 
 # todo: Proofread the gold standard (below), then run analyser, then correct. 
-# mennä 
+# tarvita, valita, kiepitä
 
 
   Verb - tarvita - paradigmgroup v5: # meaning 'to need'/'behöva' - GOLD
@@ -31,7 +31,7 @@ Tests:
      tarvita+V+Act+Ind+Prt+Pl3: [tarvithiin, tarvittit]
      tarvita+V+Pass+Ind+Prt: tarvithiin
      tarvita+V+Neg+Act+Imprt+ConNeg+Sg2: tarvitte
-     tarvita+V+Neg+Act+Imprt+ConNeg+Pl2: tarvitteko
+     tarvita+V+Neg+Act+Imprt+ConNeg+Pl2: tarvikko
      tarvita+V+Act+Imprt+Sg2: tarvitte
      tarvita+V+Act+Imprt+Pl2: tarvikkaa
      tarvita+V+Act+Cond+Sg1: tarvittisin
@@ -59,7 +59,7 @@ Tests:
      tarvita+V+InfMa+Abe: tarvittematta
      tarvita+V+Der/minen+N+Sg+Nom: tarvitteminen
 
-  Verb - tarvita - paradigmgroup v5: # meaning 'to need'/'behöva' - GOLD
+  Verb - valita - paradigmgroup v5: # meaning ''/'' - GOLD
      valita+V+Inf: valita
      valita+V+Act+Ind+Prs+Sg1: valitten
      valita+V+Act+Ind+Prs+Sg2: valittet
@@ -77,7 +77,7 @@ Tests:
      valita+V+Act+Ind+Prt+Pl3: [valithiin, valittit]
      valita+V+Pass+Ind+Prt: valithiin
      valita+V+Neg+Act+Imprt+ConNeg+Sg2: valitte
-     valita+V+Neg+Act+Imprt+ConNeg+Pl2: valitteko
+     valita+V+Neg+Act+Imprt+ConNeg+Pl2: valikko
      valita+V+Act+Imprt+Sg2: valitte
      valita+V+Act+Imprt+Pl2: valikkaa
      valita+V+Act+Cond+Sg1: valittisin
@@ -104,3 +104,49 @@ Tests:
      valita+V+InfMa+Ade: valittemala
      valita+V+InfMa+Abe: valittematta
      valita+V+Der/minen+N+Sg+Nom: valitteminen
+
+  Verb - kiepitä - paradigmgroup v5: # meaning ''/'' - GOLD
+     kiepitä+V+Inf: [kiepitä]
+     kiepitä+V+Act+Ind+Prs+Sg1: [kiepitten]
+     kiepitä+V+Act+Ind+Prs+Sg2: [kiepittet]
+     kiepitä+V+Act+Ind+Prs+Sg3: [kiepittee]
+     kiepitä+V+Act+Ind+Prs+Pl1: [kiepittemmä]
+     kiepitä+V+Act+Ind+Prs+Pl2: [kiepittettä]
+     kiepitä+V+Act+Ind+Prs+Pl3: [kiepittee, kiepittevvä, kiepittevä]
+     kiepitä+V+Pass+Ind+Prs: [kiepithään]
+     kiepitä+V+Act+Ind+Prs+ConNeg: [kiepitä]
+     kiepitä+V+Act+Ind+Prt+Sg1: [kiepittin]
+     kiepitä+V+Act+Ind+Prt+Sg2: [kiepittit]
+     kiepitä+V+Act+Ind+Prt+Sg3: [kiepitti]
+     kiepitä+V+Act+Ind+Prt+Pl1: [kiepittimmä]
+     kiepitä+V+Act+Ind+Prt+Pl2: [kiepittittä]
+     kiepitä+V+Act+Ind+Prt+Pl3: [kiepithiin, kiepittit]
+     kiepitä+V+Pass+Ind+Prt: [kiepithiin]
+     kiepitä+V+Neg+Act+Imprt+ConNeg+Sg2: [kiepitte]
+     kiepitä+V+Neg+Act+Imprt+ConNeg+Pl2: [kiepikkö]
+     kiepitä+V+Act+Imprt+Sg2: [kiepitte]
+     kiepitä+V+Act+Imprt+Pl2: [kiepikkää]
+     kiepitä+V+Act+Cond+Sg1: [kiepittisin]
+     kiepitä+V+Act+Cond+Sg2: [kiepittisit]
+     kiepitä+V+Act+Cond+Sg3: [kiepittis]
+     kiepitä+V+Act+Cond+Pl1: [kiepittisimä]
+     kiepitä+V+Act+Cond+Pl2: [kiepittisittä]
+     kiepitä+V+Act+Cond+Pl3: [kiepittisit, kiepittisivä]
+     kiepitä+V+Act+PrsPrc+Sg+Nom: [kiepittevä]
+     kiepitä+V+Act+PrsPrc+Pl+Nom: [kiepittevät]
+     kiepitä+V+Pass+PrsPrc+Sg+Nom: [kiepittävä]
+     kiepitä+V+Pass+PrsPrc+Pl+Nom: [kiepittävät]
+     kiepitä+V+Act+PrfPrc+Sg+Nom: [kiepiny]
+     kiepitä+V+Act+PrfPrc+Pl+Nom: [kiepihneet, kiepinheet]
+     kiepitä+V+Pass+PrfPrc+Sg+Nom: [kiepitty]
+     kiepitä+V+Pass+PrfPrc+Pl+Nom: [kiepityt]
+     kiepitä+V+AgPrc: [kiepittemä]
+     kiepitä+V+Pass+Cond: [kiepittäis]
+     kiepitä+V+InfE+Ine: [kiepitessä]
+     kiepitä+V+InfE+Ins: [kiepiten]
+     kiepitä+V+InfMa+Ill: [kiepittehmään, kiepittemhään]
+     kiepitä+V+InfMa+Ine: [kiepittemässä]
+     kiepitä+V+InfMa+Ela: [kiepittemästä]
+     kiepitä+V+InfMa+Ade: [kiepittemälä]
+     kiepitä+V+InfMa+Abe: [kiepittemättä]
+     kiepitä+V+Der/minen+N+Sg+Nom: [kiepitteminen]

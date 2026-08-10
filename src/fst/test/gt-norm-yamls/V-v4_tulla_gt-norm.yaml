@@ -218,8 +218,8 @@ Tests:
      varjela+V+Act+Cond+Pl1: varjelisima
      varjela+V+Act+Cond+Pl2: varjelisitta
      varjela+V+Act+Cond+Pl3: [varjelisit, varjelisiva]
-     varjela+V+Act+PrsPrc+Sg+Nom: [varjeleva, varjelevva]
-     varjela+V+Act+PrsPrc+Pl+Nom: [varjelevat, varjelevat]
+     varjela+V+Act+PrsPrc+Sg+Nom: varjeleva
+     varjela+V+Act+PrsPrc+Pl+Nom: varjelevat
      varjela+V+Pass+PrsPrc+Sg+Nom: varjeltava
      varjela+V+Pass+PrsPrc+Pl+Nom: varjeltavat
      varjela+V+Act+PrfPrc+Sg+Nom: varjelu
