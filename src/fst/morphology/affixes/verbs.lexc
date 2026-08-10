@@ -1353,8 +1353,8 @@ v4_la ; !general contlex
 +V+InfMa+Ade:le%>m^Al^A K ; ! TODO -la / -lla
 +V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
 +V+Pass+PrsPrc+Pl+Nom:l%>t^Av^At K ; ! TODO -la / -lla
-+V+Pass+PrsPrc+Sg+Nom:l%>t^Avv^A K ; ! TODO -la / -lla
-+V+Pass+PrsPrc+Pl+Nom:l%>t^Avv^At K ; ! TODO -la / -lla
+!+V+Pass+PrsPrc+Sg+Nom:l%>t^Avv^A K ; ! TODO -la / -lla !Ej variation i participformer
+!+V+Pass+PrsPrc+Pl+Nom:l%>t^Avv^At K ; ! TODO -la / -lla !Ej variation i participformer
 +V+Act+Ind+Prs+Pl1:le%>mm^A K ; ! TODO -la / -lla
 +V+Act+Ind+Prs+Pl3:le%>v^A K ;  !TODO -la / -lla
 +V+Act+Ind+Prs+Pl3:le%>vv^A K ;  !TODO -la / -lla
@@ -1365,8 +1365,8 @@ v4_la ; !general contlex
 +V+AgPrc:le%>mm^A K ; ! TODO -la / -lla
 +V+Act+PrsPrc+Sg+Nom:le%>v^A K ; ! TODO -la / -lla
 +V+Act+PrsPrc+Pl+Nom:le%>v^At K ; ! TODO -la / -lla
-+V+Act+PrsPrc+Sg+Nom:le%>vv^A K ; ! TODO -la / -lla
-+V+Act+PrsPrc+Pl+Nom:le%>vv^At K ; ! TODO -la / -lla
+!+V+Act+PrsPrc+Sg+Nom:le%>vv^A K ; ! TODO -la / -lla !Ej variation i participformer
+!+V+Act+PrsPrc+Pl+Nom:le%>vv^At K ; ! TODO -la / -lla !Ej variation i participformer
 
 LEXICON v4_la_even
 v4_la ; !general contlex
@@ -1558,7 +1558,9 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 
 +V+Pass+Ind+Prt:%>thiin K ;
 +V+Neg+Act+Imprt+ConNeg+Sg2:%>tte K ;
-+V+Neg+Act+Imprt+ConNeg+Pl2:%>ttek^O K ;
++V+Neg+Act+Imprt+ConNeg+Pl2:%>kk^O K ;
+!+V+Neg+Act+Imprt+ConNeg+Pl2:%>ttek^O K ;
+
 
 +V+Act+Imprt+Sg2:tte # ;
 +V+Act+Imprt+Sg:t%>kh^O^On # ; !CHECK EK
@@ -1582,7 +1584,7 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 +V+Act+Cond+Pl2:tt%>i4sitt^A K ;
 +V+Act+Cond+Pl3:tt%>i4sit K ;
 +V+Act+Cond+Pl3:tt%>i4siv^A K ;
-+V+Pass+Cond:tt%>ai4s K ; !TARVITTAIS
++V+Pass+Cond:tt%>^Ai4s K ; !TARVITTAIS
 +V+Pass+Cond+Err/Orth:t%>as K ; !TARVITTAS
 
 !+V+InfMa:%>tte 3infcase ;
@@ -1591,7 +1593,7 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 +V+InfMa+Ela:%>tte%>m^Ast^A K ;
 +V+InfMa+Ade:%>tte%>m^Al^A K ; 
 +V+InfMa+Abe:%>tte%>m^Att^A K ;
-+V+InfMa+Ill:%>tte%>hmaan K ;
++V+InfMa+Ill:%>tte%>hm^A^An K ;
 +V+InfE+Ine:t%>ess^A K ;
 +V+Pass+InfE+Ine:tt%>^Aess^A K ;
 +V+InfE+Ins:t%>en K ;

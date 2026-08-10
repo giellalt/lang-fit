@@ -27,7 +27,7 @@
 !!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_la_odd** = varjela, varjelee
 !!  * **v4_lla** = ajatella, ajattellee
-!!  * **v5** = tarvita:tarv > tarvittee
+!!  * **v5** = tarvita:tarvi > tarvittee
 !!  * **v6** = paeta:pake
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
@@ -2325,6 +2325,7 @@ teippoa:teippo v1 ;
 kippoa:kippo v1 ;
 lippoa:lippo v1 ;
 klimppoa:klimppo v1 ;
+solmia:solmia v1 ;
 noppoa:noppo v1 ;
 tarpoa:tarpo v1 ;
 kurpoa:kurpo v1 ;
@@ -3179,7 +3180,7 @@ talita:tali v5 ;
 hallita:halli v5 ;
 kallita:kalli v5 ; !CHECK EK
 mullita:mulli v2_uta ; 
-solmita:solmi v2_uta ; 
+solmita:solmi v5 ; 
 tuomita:tuomi v5 ; 
 mainita:maini v5 ;
 punnita:punni v5 ;
@@ -4534,14 +4535,14 @@ pimitä:pimi v2_uta ;
 vilmitä:vilmi v2_uta ; 
 lämmitä:lämpi v2_uta ; 
 fiinitä:fiini v2_uta ; 
-kiepitä:kiepi v2_uta ; 
+kiepitä:kiepi v5 ; 
 vieritä:vieri v2_uta ; 
 keritä:ker v5_keritä ;
 häiritä:häiri v5 ;
 vihtitä:vihti v2_uta ; 
 lititä:liti v2_uta ; 
 ristitä:risti v2_uta ; 
-kyytitä:kyyti v2_uta ; 
+kyytitä:kyyti v5 ; 
 kevitä:kevi v2_uta ; 
 levitä:levi v2_uta ;
 ihvitä:ihvi v2_uta ; 

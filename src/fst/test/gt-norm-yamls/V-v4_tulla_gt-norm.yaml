@@ -198,7 +198,7 @@ Tests:
      varjela+V+Act+Ind+Prs+Sg3: varjelee
      varjela+V+Act+Ind+Prs+Pl1: varjelemma
      varjela+V+Act+Ind+Prs+Pl2: varjeletta
-     varjela+V+Act+Ind+Prs+Pl3: [varjelee, varjeleva]
+     varjela+V+Act+Ind+Prs+Pl3: [varjelee, varjeleva, varjelevva]
      varjela+V+Pass+Ind+Prs: [varjehlaan, varjelhaan]
      varjela+V+Act+Ind+Prs+ConNeg: varjele
      varjela+V+Act+Ind+Prt+Sg1: varjelin
@@ -217,23 +217,23 @@ Tests:
      varjela+V+Act+Cond+Sg3: varjelis
      varjela+V+Act+Cond+Pl1: varjelisima
      varjela+V+Act+Cond+Pl2: varjelisitta
-     varjela+V+Act+Cond+Pl3: [varjelisit, varjelisiva, varjelisivva]
-     varjela+V+Act+PrsPrc+Sg+Nom: varjeleva
-     varjela+V+Act+PrsPrc+Pl+Nom: varjelevat
+     varjela+V+Act+Cond+Pl3: [varjelisit, varjelisiva]
+     varjela+V+Act+PrsPrc+Sg+Nom: [varjeleva, varjelevva]
+     varjela+V+Act+PrsPrc+Pl+Nom: [varjelevat, varjelevat]
      varjela+V+Pass+PrsPrc+Sg+Nom: varjeltava
      varjela+V+Pass+PrsPrc+Pl+Nom: varjeltavat
      varjela+V+Act+PrfPrc+Sg+Nom: varjelu
      varjela+V+Act+PrfPrc+Pl+Nom: [varjehleet, varjelheet]
      varjela+V+Pass+PrfPrc+Sg+Nom: varjeltu
      varjela+V+Pass+PrfPrc+Pl+Nom: varjeltut
-     varjela+V+AgPrc: varjelema
+     varjela+V+AgPrc: varjelemma
      varjela+V+Pass+Cond: varjeltais
      varjela+V+InfE+Ine: varjelessa
-     varjela+V+InfE+Ins: varjellen
+     varjela+V+InfE+Ins: varjelen
      varjela+V+InfMa+Ill: [varjelehmaan, varjelemhaan]
      varjela+V+InfMa+Ine: varjelemassa
      varjela+V+InfMa+Ela: varjelemasta
-     varjela+V+InfMa+Ade: varjelemalla
+     varjela+V+InfMa+Ade: varjelemala
      varjela+V+InfMa+Abe: varjelematta
      varjela+V+Der/minen+N+Sg+Nom: varjeleminen
 
