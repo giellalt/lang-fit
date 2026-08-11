@@ -15,14 +15,14 @@
 !!  * **v2_uta** = Vta-verbs (except -ita); leipota:leippo (+^A^A i Sg3 (lankeaa))
 !!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
 !!  * **v3** = continuationlexicon for v3-types below
-!!  * **v3_tehha**
-!!  * **v3_nahha**
-!!  * **v3_kaya**
 !!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
 !!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
 !!  * **v3_ja** ! 
 !!  * **v3_viä** ! 
 !!  * **v3_ta** ! 
+!!  * **v3_tehha** = only tehhä, tehä, tehjä
+!!  * **v3_nahha** = only nähhä, nähä, nähjä
+!!  * **v3_kaya** = only käyä
 !!  * **v4** = mennä:men ; tulla:tul
 !!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_la_odd** = varjela, varjelee
@@ -2385,9 +2385,9 @@ teutoa:teuto v1 ;
 kutoa:kuto v1 ;
 sauoa:sauo v1 ;
 neuoa:neuo v1 ;
-juoa:juo v1 ;
-luoa:luo v1 ;
-tuoa:tuo v1 ;
+!juoa:juo v1 ;
+!luoa:luo v1 ;
+!tuoa:tuo v1 ;
 tihvoa:tihvo v1 ;
 nivoa:nivo v1 ;
 toivoa:toivo v1 ;
