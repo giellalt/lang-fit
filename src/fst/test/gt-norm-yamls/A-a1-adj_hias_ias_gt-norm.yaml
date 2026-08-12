@@ -32,7 +32,7 @@ Tests:
      puhas+A+Pl+Nom: puhthaat
      puhas+A+Pl+Gen: puhthaitten
      puhas+A+Pl+Par: puhthaita
-     puhas+A+Pl+Ill: puhthaishiin
+     puhas+A+Pl+Ill: [puhthaishiin, puhthain]
      puhas+A+Pl+Ine: puhthaissa
      puhas+A+Pl+Ela: puhthaista
      puhas+A+Pl+All: puhthaile
@@ -40,28 +40,28 @@ Tests:
      puhas+A+Pl+Abl: puhthailta
      puhas+A+Pl+Ess: puhthaina
      puhas+A+Pl+Tra: puhthaiksi
-     puhas+A+Comp+Sg+Nom: puhtaampi
-     puhas+A+Comp+Sg+Gen: puhtaiman
-     puhas+A+Comp+Sg+Par: puhtaimpaa
-     puhas+A+Comp+Sg+Ill: puhtaimphaan
-     puhas+A+Comp+Sg+Ine: puhtaimassa
-     puhas+A+Comp+Sg+Ela: puhtaimasta
-     puhas+A+Comp+Sg+All: puhtaimalle
-     puhas+A+Comp+Sg+Ade: puhtaimalla
-     puhas+A+Comp+Sg+Abl: puhtaimalta
-     puhas+A+Comp+Sg+Ess: puhtaimpanna
-     puhas+A+Comp+Sg+Tra: puhtaimaksi
-     puhas+A+Comp+Pl+Nom: puhtaimat
-     puhas+A+Comp+Pl+Gen: puhtaimitten
-     puhas+A+Comp+Pl+Par: puhtaimpia
-     puhas+A+Comp+Pl+Ill: puhtaimphiin
-     puhas+A+Comp+Pl+Ine: puhtaimissa
-     puhas+A+Comp+Pl+Ela: puhtaimista
-     puhas+A+Comp+Pl+All: puhtaimille
-     puhas+A+Comp+Pl+Ade: puhtaimilla
-     puhas+A+Comp+Pl+Abl: puhtaimilta
-     puhas+A+Comp+Pl+Ess: puhtaimpinna
-     puhas+A+Comp+Pl+Tra: puhtaimiksi
+     puhas+A+Comp+Sg+Nom: puhthaampi
+     puhas+A+Comp+Sg+Gen: puhthaiman
+     puhas+A+Comp+Sg+Par: puhthaimpaa
+     puhas+A+Comp+Sg+Ill: puhthaimphaan
+     puhas+A+Comp+Sg+Ine: puhthaimassa
+     puhas+A+Comp+Sg+Ela: puhthaimasta
+     puhas+A+Comp+Sg+All: puhthaimalle
+     puhas+A+Comp+Sg+Ade: puhthaimalla
+     puhas+A+Comp+Sg+Abl: puhthaimalta
+     puhas+A+Comp+Sg+Ess: puhthaimpanna
+     puhas+A+Comp+Sg+Tra: puhthaimaksi
+     puhas+A+Comp+Pl+Nom: puhthaimat
+     puhas+A+Comp+Pl+Gen: puhthaimitten
+     puhas+A+Comp+Pl+Par: puhthaimpia
+     puhas+A+Comp+Pl+Ill: puhthaimphiin
+     puhas+A+Comp+Pl+Ine: puhthaimissa
+     puhas+A+Comp+Pl+Ela: puhthaimista
+     puhas+A+Comp+Pl+All: puhthaimille
+     puhas+A+Comp+Pl+Ade: puhthaimilla
+     puhas+A+Comp+Pl+Abl: puhthaimilta
+     puhas+A+Comp+Pl+Ess: puhthaimpinna
+     puhas+A+Comp+Pl+Tra: puhthaimiksi
      puhas+A+Superl+Sg+Nom: puhtain
      puhas+A+Superl+Sg+Gen: puhtaiman
      puhas+A+Superl+Sg+Par: puhtaimpaa
