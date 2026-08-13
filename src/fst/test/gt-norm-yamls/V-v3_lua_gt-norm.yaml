@@ -1,0 +1,109 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo: Proofread the gold standard (below), then run analyser, then correct. 
+# mennä 
+
+
+  Verb - lua - paradigmgroup v3: # meaning ''/'' - GOLD
+     lua+V+Inf: [lua, luoa, luoja]
+     lua+V+Act+Ind+Prs+Sg1: [luon]
+     lua+V+Act+Ind+Prs+Sg2: [luot]
+     lua+V+Act+Ind+Prs+Sg3: [luo, luopi, luopii]
+     lua+V+Act+Ind+Prs+Pl1: [luoma]
+     lua+V+Act+Ind+Prs+Pl2: [luotta]
+     lua+V+Act+Ind+Prs+Pl3: [luo, luova]
+     lua+V+Pass+Ind+Prs: [luohaan, luothaan]
+     lua+V+Act+Ind+Prs+ConNeg: [luo]
+     lua+V+Act+Ind+Prt+Sg1: [loin]
+     lua+V+Act+Ind+Prt+Sg2: [loit]
+     lua+V+Act+Ind+Prt+Sg3: [loi]
+     lua+V+Act+Ind+Prt+Pl1: [loima]
+     lua+V+Act+Ind+Prt+Pl2: [loitta]
+     lua+V+Act+Ind+Prt+Pl3: [loit, luothiin]
+     lua+V+Pass+Ind+Prt: [luothiin]
+     lua+V+Neg+Act+Imprt+ConNeg+Sg2: [luo]
+     lua+V+Neg+Act+Imprt+ConNeg+Pl2: [luoko]
+     lua+V+Act+Imprt+Sg2: [luo]
+     lua+V+Act+Imprt+Pl2: [luokaa]
+     lua+V+Act+Cond+Sg1: [loisin]
+     lua+V+Act+Cond+Sg2: [loisit]
+     lua+V+Act+Cond+Sg3: [lois]
+     lua+V+Act+Cond+Pl1: [loisima]
+     lua+V+Act+Cond+Pl2: [loisitta]
+     lua+V+Act+Cond+Pl3: [loisit, loisiva]
+     lua+V+Act+PrsPrc+Sg+Nom: [luova]
+     lua+V+Act+PrsPrc+Pl+Nom: [luovat]
+     lua+V+Pass+PrsPrc+Sg+Nom: [luotava]
+     lua+V+Pass+PrsPrc+Pl+Nom: [luotavat]
+     lua+V+Act+PrfPrc+Sg+Nom: [luonu]
+     lua+V+Act+PrfPrc+Pl+Nom: [luohneet, luonheet]
+     lua+V+Pass+PrfPrc+Sg+Nom: [luotu]
+     lua+V+Pass+PrfPrc+Pl+Nom: [luotut]
+     lua+V+AgPrc: [luoma]
+     lua+V+Pass+Cond: [lois]
+     lua+V+InfE+Ine: [luessa, luoessa]
+     lua+V+InfE+Ins: [luoen]
+     lua+V+InfMa+Ill: [luomhaan, luohmaan]
+     lua+V+InfMa+Ine: [luomassa]
+     lua+V+InfMa+Ela: [luomasta]
+     lua+V+InfMa+Ade: [luomala]
+     lua+V+InfMa+Abe: [luomatta]
+     lua+V+Der/minen+N+Sg+Nom: [luominen]
+
+
+#Verb - syä - v4_4lla: # meaning ''/'' - GOLD
+     syä+V+Inf: syä
+     syä+V+Act+Ind+Prs+Sg1: [syön]
+     syä+V+Act+Ind+Prs+Sg2: [syöt]
+     syä+V+Act+Ind+Prs+Sg3: [syö, syöpi, syöpii]
+     syä+V+Act+Ind+Prs+Pl1: [syömä]
+     syä+V+Act+Ind+Prs+Pl2: [syöttä]
+     syä+V+Act+Ind+Prs+Pl3: [syö, syövä]
+     syä+V+Pass+Ind+Prs: [syöhään, syöthään]
+     syä+V+Act+Ind+Prs+ConNeg: [syö]
+     syä+V+Act+Ind+Prt+Sg1: [söin]
+     syä+V+Act+Ind+Prt+Sg2: [söit]
+     syä+V+Act+Ind+Prt+Sg3: [söi]
+     syä+V+Act+Ind+Prt+Pl1: [söimä]
+     syä+V+Act+Ind+Prt+Pl2: [söittä]
+     syä+V+Act+Ind+Prt+Pl3: [söit, syöthiin]
+     syä+V+Pass+Ind+Prt: [syöthiin]
+     syä+V+Neg+Act+Imprt+ConNeg+Sg2: [syö]
+     syä+V+Neg+Act+Imprt+ConNeg+Pl2: [syökö]
+     syä+V+Act+Imprt+Sg2: [syö]
+     syä+V+Act+Imprt+Pl2: [syökää]
+     syä+V+Act+Cond+Sg1: [söisin]
+     syä+V+Act+Cond+Sg2: [söisit]
+     syä+V+Act+Cond+Sg3: [söis]
+     syä+V+Act+Cond+Pl1: [söisimä]
+     syä+V+Act+Cond+Pl2: [söisittä]
+     syä+V+Act+Cond+Pl3: [söisit, söisivä]
+     syä+V+Act+PrsPrc+Sg+Nom: [syövä]
+     syä+V+Act+PrsPrc+Pl+Nom: [syövät]
+     syä+V+Pass+PrsPrc+Sg+Nom: [syötävä]
+     syä+V+Pass+PrsPrc+Pl+Nom: [syötävät]
+     syä+V+Act+PrfPrc+Sg+Nom: [syöny]
+     syä+V+Act+PrfPrc+Pl+Nom: [syöhneet, syönheet]
+     syä+V+Pass+PrfPrc+Sg+Nom: [syöty]
+     syä+V+Pass+PrfPrc+Pl+Nom: [syötyt]
+     syä+V+AgPrc: [syömä]
+     syä+V+Pass+Cond: [söis]
+     syä+V+InfE+Ine: [syessä, syöessä]
+     syä+V+InfE+Ins: [syöen]
+     syä+V+InfMa+Ill: [syömhään, syöhmään]
+     syä+V+InfMa+Ine: [syömässä]
+     syä+V+InfMa+Ela: [syömästä]
+     syä+V+InfMa+Ade: [syömälä]
+     syä+V+InfMa+Abe: [syömättä]
+     syä+V+Der/minen+N+Sg+Nom: [syöminen]
+
+     
