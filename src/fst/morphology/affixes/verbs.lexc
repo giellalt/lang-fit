@@ -806,12 +806,13 @@ LEXICON v3_syä  !!≈ * **@CODE@** syä, myä, lyä .#.
 +V+Inf+Err/Orth:y%>jä KK ;
 :ö v3_other ;
 +V+InfMa:ö 3infcase_odd ;
++V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
 +V+Inf+Tra:%>^Akse PxK ;
 +V+InfE+Ins:ö%>en K ; ! xxx
 +V+InfE+Ine:ö%>ess^A K ;
 +V+InfE+Ine:%>ess^A K ;
 +V+Pass+InfE+Ine:ö%>ess^A K ; !CHECK
-+V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
+
 
 LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 +V+Inf:%>a KK ;
@@ -956,11 +957,16 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 
 LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä 
 +V+Inf:y%>^A KK ; ! 
-+V+Act+Ind+Prs:y^WG v12pers_short ;
++V+Act+Ind+Prs+Sg1:y%>n K ;
 +V+Act+Ind+Prs+Sg2:y%>t KK ; !TEST 22/4 käytkö>käykkö
++V+Act+Ind+Prs+Sg2:y%>t K ; !also käytkö
++V+Act+Ind+Prs+Sg3:y K ; 
 +V+Act+Ind+Prs+Sg3:y%>pi K ;
 +V+Act+Ind+Prs+Sg3:y%>pii K ;
++V+Act+Ind+Prs+Pl1:y%>mä K ; 
++V+Act+Ind+Prs+Pl2:y%>ttä K ; 
 +V+Act+Ind+Prs+Pl3:y%>vä K ; ! 
++V+Act+Ind+Prs+Pl3:y K ; ! 
 +V+Act+Ind+Prs+Pl3:y%>hään K ; !GEO!
 +V+Act+Ind+Prs+ConNeg:y K ;
 
@@ -971,6 +977,8 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+Act+Ind+Prt+Pl3:y%>thiin K ;
 +V+Act+Ind+Prt+Sg3:v%>i3 K ;
 +V+Act+Ind+Prt+ConNeg+Sg:y%>^N^U K ;
++V+Neg+Act+Imprt+ConNeg+Sg2:y # ;
++V+Neg+Act+Imprt+ConNeg+Pl2:y%>k^O # ;
 
 +V+Inf+Tra:y%>^Akse PxK ; ! 
 +V+Inf+Err/Orth:y%>d^A K ; ! d
@@ -988,17 +996,15 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+Act+PrfPrc+Pl+Nom:y%>^Nheet K ;
 +V+Act+PrfPrc+Pl+Nom:y%>^N^HMET2%>heet K ;
 !+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
-+V+Pass+PrfPrc+Pl+Nom:y’%>^U%>t K ; 
-+V+Pass+PrfPrc+Sg+Nom:y%>t^U K ;
+!+V+Pass+PrfPrc+Pl+Nom:y’%>^U%>t K ; 
+
 
 +V+Act+Cond:v%>i4s 2cond ;
-+V+Act+Cond+Sg3:v%>i4si K ;
-!+V+Act+Cond+Pl1:v%>i4s%>im^A K ;
 +V+Pass+Cond:y%>t^A%>i4s K ;
 +V+Pass+Cond:y%>t^A%>s K ;
 
 +V+Act+Imprt+Sg2:y K   ;
-+V+Act+Imprt+Pl2:y%>kk^A^A K ;
++V+Act+Imprt+Pl2:y%>k^A^A K ;
 
 +V+InfMa+Ine:y%>m^Ass^A K ;
 +V+InfMa+Ela:y%>m^Ast^A K ;
@@ -1007,9 +1013,10 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+InfMa+Ade:y%>m^Al^A K ;
 +V+InfMa+Abe:y%>m^Att^A K ;
 !+V+InfMa:y%>m^A MATONodd ;
-+V+Pass+PrfPrc+Sg+Nom:%>yt^U K ; !havattu
-+V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ; !havatut
-+V+AgPrc:m^A K ;
++V+Pass+PrfPrc+Sg+Nom:y%>t^U K ; 
+!+V+Pass+PrfPrc+Sg+Nom:%>yt^U K ; !havattu
++V+Pass+PrfPrc+Pl+Nom:y%>t^Ut K ; !havatut
++V+AgPrc:ym^A K ;
 
 +V+Der/minen:ymi nen ;
 

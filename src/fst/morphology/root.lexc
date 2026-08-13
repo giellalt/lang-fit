@@ -460,6 +460,7 @@ Acronym-smi ;
 LEXICON KK ! geminate clitics: selvästikki
 # ;
 +Qst:%>kk^O # ;
++Qst:%>kk^Os # ; !variantform menenkös
 +Qst:%>ks # ;
 +Foc/kin:%>kki # ;
 +Foc/kin:%>kkin # ;

@@ -72,7 +72,8 @@ viejä:vie v3_ja ; ! testing _ja
 viä:vi v3_viä ; 
 saaja:saa v3_ja ;
 saa’a:saa v3_ja ;
-!saa:saa v3_ja ; ! xxx Onko tämä totta? Mie haluan saa?? 
+!saa:saa v3_ja ; 
+!jää:jää v3_ja ;
 voija:voi v3_ja ;
 naija:nai v3_ja ;
 uija:ui v3_ja ;
@@ -4287,7 +4288,6 @@ plänttiä:pläntti vx ;
 plättiä:plätti vx ;
 läättiä:läätti vx ;
 tööttiä:töötti vx ;
-viä:vi vx ;
 äiviä:äivi vx ;
 räiviä:räivi vx ;
 mylviä:mylvi vx ;
@@ -4296,7 +4296,6 @@ metelöijä:metelöi v2_uta ;
 kipenöijä:kipenöi v2_uta ;
 höperöijä:höperöi v2_uta ;
 ikävöijä:ikävöi v5 ;
-jääjä:jää v3_ja ;
 vetelä:vete v4_la_odd  ;
 liielä:liie v4_la_odd ;
 riielä:riie v4_la_odd ;
