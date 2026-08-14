@@ -204,6 +204,7 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon because of changes in dift
 +V+Pass+PrsPrc:e%>tt^Av^A x3 ; 
 
 +V+Act+PrfPrc+Sg+Nom:e%>^N^U K ; 
++V+Act+PrfPrc+Sg+Nom+Err/Orth:e%>^N^Ut K ; 
 +V+Act+PrfPrc+Sg+Nom:et%>^A^N^U K ; 
 +V+Act+PrfPrc+Pl+Nom:e%>hneet K ;
 +V+Act+PrfPrc+Pl+Nom:e%>nheet K ; 
@@ -259,6 +260,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta  GOLD
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ; !CHECK all verbgroups -- when used?
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^Ut K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ; 
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Pass+PrfPrc+Sg+Nom:^AE^WG%>tt^U K ; 
@@ -513,6 +515,8 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 
 +V+Act+PrfPrc+Sg+Nom:ta%>^N^U K ; 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:ta%>^N^Ut K ; 
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^Ut K ;
 +V+Act+PrfPrc:ta%>^Nhee x3_oblique ; 
 +V+Act+PrfPrc+Pl+Nom:ta%>n^HMET2%>heet K;
 +V+Pass+PrfPrc+Sg+Nom:ta^AE^WG%>tt^U K ; 
@@ -576,6 +580,7 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 +V+Pass+PrsPrc+Pl+Nom:^WGt%>t^Av^At K ;
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>^N^Ut K ;
 !+V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
 +V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
 +V+Act+PrfPrc+Pl+Nom:^WG%>hneet K ; 
@@ -600,6 +605,7 @@ v2 ;
 +V+Act+Cond:%>i4s 3cond ;
 +V+Act+Cond+Pl1:%>i4s%>im^A K ; !CHECK
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>^N^N^Ut K ;
 
 +V+Act+Imprt+Sg2:^WG # ;
 +V+Act+Imprt+Sg:^WG%>kh^O^On # ;
@@ -752,6 +758,7 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Pass+PrsPrc+Pl+Nom:t%>t^Av^At K ; !HERE?
 
 +V+Act+PrfPrc+Sg+Nom:%>n^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>n^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
 +V+Act+PrfPrc+Pl+Nom:%>nheet K;
 +V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !havattu
@@ -1011,6 +1018,7 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+Act+PrsPrc:yv%>^A x3 ;
 +V+Pass+PrsPrc:y%>t^A%>v^A x3 ;
 +V+Act+PrfPrc+Sg+Nom:y%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:y%>^N^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:y%>^Nheet K ;
 +V+Act+PrfPrc+Pl+Nom:y%>^N^HMET2%>heet K ;
 !+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
@@ -1083,6 +1091,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Act+Ind+Prs+ConNeg:e K ;
 
 +V+Act+PrfPrc+Sg+Nom:h%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:h%>^N^Ut K ;
 !+V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
 !+V+Pass+PrfPrc+Pl+Nom:h%>n^U%>t K ;
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
@@ -1131,6 +1140,7 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 +V+Pass+PrsPrc:h%>t^A%>v^A x3 ;
 
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:h%>^n^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:h%>neet K ; 
 !+V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
@@ -1202,7 +1212,7 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ; !noussu! menny etc
-+V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^U K ; !CHECK needed? 
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^Ut K ; !CHECK needed? 
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc+Pl+Nom:%>heet K ;
 +V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ; 
@@ -1279,6 +1289,7 @@ LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
 +V+Pass+PrsPrc+Pl+Nom:%>st^Av^At K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>ss^U K ; !noussu! menny etc
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>ss^Ut K ; !noussu! menny etc
 +V+Act+PrfPrc+Pl+Nom:%>sheet PxK ;
 +V+Pass+PrfPrc+Sg+Nom:%>st^U K ; !noustu, menty 
 +V+Pass+PrfPrc+Pl+Nom:%>st^U%>t K ;
@@ -1326,6 +1337,7 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+Pass+Ind+Prt+ConNeg:%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:%>s^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>s^Ut K ;
 +V+Act+PrfPrc:%>hee x3_obli ;
 !+V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !julkassu
 !+V+Pass+PrfPrc+Pl+Nom:%>t^U%>t K ;
@@ -1441,6 +1453,7 @@ LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Pass+Ind+Prt+ConNeg:l%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:l%>^U K ; 
++V+Act+PrfPrc+Sg+Nom+Err/Orth:l%>^Ut K ; 
 +V+Act+PrfPrc:%>lhee x3_oblique ;
 +V+Act+PrfPrc:%>hlee x3_oblique ;
 +V+Pass+PrfPrc+Sg+Nom:l%>t^U K ;
@@ -1511,6 +1524,7 @@ LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
 +V+Pass+Ind+Prt+ConNeg:^WG%>t^U K ;
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>l^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>l^Ut K ;
 +V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
 +V+Act+PrfPrc+Pl+Nom:^WG%>heet K ;
 !+V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ;
@@ -1606,6 +1620,7 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 +V+Act+Imprt+Pl3:%>kh^O^Ot # ; !CHECK EK
 
 +V+Act+PrfPrc+Sg+Nom:%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:%>hneet K ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ;
 !+V+Pass+PrfPrc+Sg+Nom:t%>t^U K ;
@@ -1704,6 +1719,7 @@ LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki
 
 
 +V+Act+PrfPrc+Sg+Nom:i%>^N^U K ; !keriny
++V+Act+PrfPrc+Sg+Nom+Err/Orth:i%>^N^Ut K ; !kerinyt
 +V+Act+PrfPrc+Pl+Nom:i%>hneet K ;
 +V+Act+PrfPrc+Pl+Nom:i%>nheet K ; 
 +V+Pass+PrfPrc+Sg+Nom:i%>tt^U K ; 
@@ -1740,6 +1756,7 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
++V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>^N^Ut K ;
 +V+Act+PrfPrc:^WG%>^Nhee x3_oblique ;
 +V+Act+PrfPrc+Pl+Nom:%>^N^HMET2heet K ;
 
