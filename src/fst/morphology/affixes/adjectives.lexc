@@ -566,31 +566,31 @@ a_as ;
 !+A+Comp+Pl+Gen:%>impien K; !hithaampien
 
 !+A+Superl:%>i5 3sup ; !NEDAN!
-+A+Superl+Sg+Ess:%>imp^Ann^A K ; !!≈ * @CODE@
-+A+Superl+Sg+All:%>im^Alle K ; !!≈ * @CODE@ etc.
-+A+Superl+Sg+Ade:%>im^All^A K ;
-+A+Superl+Pl+Ess:%>impinn^A K ;
-+A+Superl+Pl+All:%>imille K ;
-+A+Superl+Pl+Ade:%>imill^A K ;
-+A+Superl+Sg+Nom:%>in K ; !
++A+Superl+Sg+Ess:^HMETA%>h^Aimp^Ann^A K ; !!≈ * @CODE@
++A+Superl+Sg+All:^HMETA%>h^Aim^Alle K ; !!≈ * @CODE@ etc.
++A+Superl+Sg+Ade:^HMETA%>h^Aim^All^A K ;
++A+Superl+Pl+Ess:^HMETA%>h^Aimpinn^A K ;
++A+Superl+Pl+All:^HMETA%>h^Aimille K ;
++A+Superl+Pl+Ade:^HMETA%>h^Aimill^A K ;
++A+Superl+Sg+Nom:^HMETA%>h^Ain K ; !
 
 !xsup ; ! common cases from here !NEDAN!
-+A+Superl+Sg+Gen:%>im^An K ; 
-+A+Superl+Sg+Par:%>imp^A^A K ;
-+A+Superl+Sg+Tra:%>im^Aksi K ;
-+A+Superl+Sg+Ill:%>imph^A^An K ;
-+A+Superl+Sg+Ine:%>im^Ass^A K ;
-+A+Superl+Sg+Ela:%>im^Ast^A K ;
-+A+Superl+Sg+Abl:%>im^Alt^A K ;
-+A+Superl+Pl+Nom:%>im^At K ;
-+A+Superl+Pl+Gen:%>imitten K ;
-+A+Superl+Pl+Gen:%>impien K ;
-+A+Superl+Pl+Par:%>impi^A K ;
-+A+Superl+Pl+Tra:%>imiksi K ;
-+A+Superl+Pl+Ill:%>imphiin K ;
-+A+Superl+Pl+Ine:%>imiss^A K ;
-+A+Superl+Pl+Ela:%>imist^A K ;
-+A+Superl+Pl+Abl:%>imilt^A K ;
++A+Superl+Sg+Gen:^HMETA%>h^Aim^An K ; 
++A+Superl+Sg+Par:^HMETA%>h^Aimp^A^A K ;
++A+Superl+Sg+Tra:^HMETA%>h^Aim^Aksi K ;
++A+Superl+Sg+Ill:^HMETA%>h^Aimph^A^An K ;
++A+Superl+Sg+Ine:^HMETA%>h^Aim^Ass^A K ;
++A+Superl+Sg+Ela:^HMETA%>h^Aim^Ast^A K ;
++A+Superl+Sg+Abl:^HMETA%>h^Aim^Alt^A K ;
++A+Superl+Pl+Nom:^HMETA%>h^Aim^At K ;
++A+Superl+Pl+Gen:^HMETA%>h^Aimitten K ;
++A+Superl+Pl+Gen:^HMETA%>h^Aimpien K ;
++A+Superl+Pl+Par:^HMETA%>h^Aimpi^A K ;
++A+Superl+Pl+Tra:^HMETA%>h^Aimiksi K ;
++A+Superl+Pl+Ill:^HMETA%>h^Aimphiin K ;
++A+Superl+Pl+Ine:^HMETA%>h^Aimiss^A K ;
++A+Superl+Pl+Ela:^HMETA%>h^Aimist^A K ;
++A+Superl+Pl+Abl:^HMETA%>h^Aimilt^A K ;
 
 
 LEXICON a_suuri
