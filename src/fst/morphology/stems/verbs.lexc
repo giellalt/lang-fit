@@ -18,7 +18,7 @@
 !!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
 !!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
 !!  * **v3_ja** ! 
-!!  * **v3_viä** ! 
+!!  * **v3_ja_short** ! viejä etc, to get inf.form viä
 !!  * **v3_ta** ! 
 !!  * **v3_tehha** = only tehhä, tehä, tehjä
 !!  * **v3_nahha** = only nähhä, nähä, nähjä
@@ -68,9 +68,9 @@ hourata:houra v2_ata_odd ;
 !! v3 syödä, juoda
 syä:sy v3_syä ;  !!≈ * **@CODE@** 
 jua:ju v3_jua ;   !!≈ * **@CODE@** 
-viejä:vie v3_ja ; ! testing _ja
-viä:vi v3_viä ; 
-saaja:saa v3_ja ;
+viejä:vi v3_ja_short ; ! testing _ja
+!viä:vi v3_viä ; 
+saaja:saa v3_ha ;
 saa’a:saa v3_ja ;
 !saa:saa v3_ja ; 
 !jää:jää v3_ja ;
@@ -83,7 +83,7 @@ sua:su v3_jua ;
 tua:tu v3_jua ;
 
 myä:my v3_syä ;
-jääjä:jää v3_ja ;
+jääjä:jää v3_ha ;
 lyä:ly v3_syä ;
 soija:soi v3_ja ;
 myyta:myy v3_ta ;
