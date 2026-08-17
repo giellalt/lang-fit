@@ -20,7 +20,7 @@ Tests:
      mennä+V+Act+Ind+Prs+Sg3: mennee
      mennä+V+Act+Ind+Prs+Pl1: menemä
      mennä+V+Act+Ind+Prs+Pl2: menettä
-     mennä+V+Act+Ind+Prs+Pl3: [menevä, mennee]
+     mennä+V+Act+Ind+Prs+Pl3: [menevä, mennee, menhään]
      mennä+V+Pass+Ind+Prs: [menhään, menthään]
      mennä+V+Act+Ind+Prs+ConNeg: mene
      mennä+V+Act+Ind+Prt+Sg1: menin
@@ -63,7 +63,7 @@ Tests:
      tulla+V+Act+Ind+Prs+Sg3: tullee
      tulla+V+Act+Ind+Prs+Pl1: tulema
      tulla+V+Act+Ind+Prs+Pl2: tuletta
-     tulla+V+Act+Ind+Prs+Pl3: [tuleva, tullee]
+     tulla+V+Act+Ind+Prs+Pl3: [tuleva, tullee, tulhaan]
      tulla+V+Pass+Ind+Prs: [tulhaan, tulthaan]
      tulla+V+Act+Ind+Prs+ConNeg: tule
      tulla+V+Act+Ind+Prt+Sg1: tulin
@@ -105,7 +105,7 @@ Tests:
      juosta+V+Act+Ind+Prs+Sg3: juoksee
      juosta+V+Act+Ind+Prs+Pl1: juoksema
      juosta+V+Act+Ind+Prs+Pl2: juoksetta
-     juosta+V+Act+Ind+Prs+Pl3: [juoksee, juokseva]
+     juosta+V+Act+Ind+Prs+Pl3: [juoksee, juokseva, juosthaan]
      juosta+V+Pass+Ind+Prs: juosthaan
      juosta+V+Act+Ind+Prs+ConNeg: juokse
      juosta+V+Act+Ind+Prt+Sg1: juoksin
@@ -151,7 +151,7 @@ Tests:
      ajatella+V+Act+Ind+Prs+Sg3: ajattellee
      ajatella+V+Act+Ind+Prs+Pl1: ajattelema
      ajatella+V+Act+Ind+Prs+Pl2: ajatteletta
-     ajatella+V+Act+Ind+Prs+Pl3: [ajattelee, ajatteleva]
+     ajatella+V+Act+Ind+Prs+Pl3: [ajattelee, ajatteleva, ajatelhaan]
      ajatella+V+Pass+Ind+Prs: ajatelhaan
      ajatella+V+Act+Ind+Prs+ConNeg: ajattele
      ajatella+V+Act+Ind+Prt+Sg1: ajattelin
@@ -198,7 +198,7 @@ Tests:
      varjela+V+Act+Ind+Prs+Sg3: varjelee
      varjela+V+Act+Ind+Prs+Pl1: varjelemma
      varjela+V+Act+Ind+Prs+Pl2: varjeletta
-     varjela+V+Act+Ind+Prs+Pl3: [varjelee, varjeleva, varjelevva]
+     varjela+V+Act+Ind+Prs+Pl3: [varjelee, varjeleva, varjelevva, varjehlaan, varjelhaan]
      varjela+V+Pass+Ind+Prs: [varjehlaan, varjelhaan]
      varjela+V+Act+Ind+Prs+ConNeg: varjele
      varjela+V+Act+Ind+Prt+Sg1: varjelin
@@ -244,7 +244,7 @@ Tests:
      purasta+V+Act+Ind+Prs+Sg3: purasee
      purasta+V+Act+Ind+Prs+Pl1: purasemma
      purasta+V+Act+Ind+Prs+Pl2: purasetta
-     purasta+V+Act+Ind+Prs+Pl3: [purasee, puraseva, purasevva]
+     purasta+V+Act+Ind+Prs+Pl3: [purasee, puraseva, purasevva, purasthaan]
      purasta+V+Pass+Ind+Prs: [purashaan, purasthaan]
      purasta+V+Act+Ind+Prs+ConNeg: purase
      purasta+V+Act+Ind+Prt+Sg1: purasin

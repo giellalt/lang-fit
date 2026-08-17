@@ -21,7 +21,7 @@ Tests:
      antaa+V+Act+Ind+Prs+Sg3: antaa
      antaa+V+Act+Ind+Prs+Pl1: annama
      antaa+V+Act+Ind+Prs+Pl2: annatta
-     antaa+V+Act+Ind+Prs+Pl3: [antava, antaa]
+     antaa+V+Act+Ind+Prs+Pl3: [antava, antaa, annethaan]
      antaa+V+Pass+Ind+Prs: annethaan
      antaa+V+Act+Ind+Prs+ConNeg: anna
      antaa+V+Act+Ind+Prt+Sg1: annoin
@@ -63,7 +63,7 @@ Tests:
      loppua+V+Act+Ind+Prs+Sg3: loppuu
      loppua+V+Act+Ind+Prs+Pl1: lopuma
      loppua+V+Act+Ind+Prs+Pl2: loputta
-     loppua+V+Act+Ind+Prs+Pl3: [loppuva, loppuu]
+     loppua+V+Act+Ind+Prs+Pl3: [loppuva, loppuu, loputhaan]
      loppua+V+Pass+Ind+Prs: loputhaan
      loppua+V+Act+Ind+Prs+ConNeg: lopu
      loppua+V+Act+Ind+Prt+Sg1: lopuin
@@ -105,7 +105,7 @@ Tests:
      käsittää+V+Act+Ind+Prs+Sg3: käsittää
      käsittää+V+Act+Ind+Prs+Pl1: käsitämmä #käsitämä
      käsittää+V+Act+Ind+Prs+Pl2: käsitättä
-     käsittää+V+Act+Ind+Prs+Pl3: [käsittävvä, käsittävä, käsittää]
+     käsittää+V+Act+Ind+Prs+Pl3: [käsittävvä, käsittävä, käsittää, käsitethään]
      käsittää+V+Pass+Ind+Prs: käsitethään
      käsittää+V+Act+Ind+Prs+ConNeg: käsitä
      käsittää+V+Act+Ind+Prt+Sg1: käsitin
@@ -147,7 +147,7 @@ Tests:
      tietää+V+Act+Ind+Prs+Sg3: tietää
      tietää+V+Act+Ind+Prs+Pl1: tiämä
      tietää+V+Act+Ind+Prs+Pl2: tiättä
-     tietää+V+Act+Ind+Prs+Pl3: [tietävä, tietää]
+     tietää+V+Act+Ind+Prs+Pl3: [tietävä, tietää, tiethään]
      tietää+V+Pass+Ind+Prs: tiethään
      tietää+V+Act+Ind+Prs+ConNeg: tiä
      tietää+V+Act+Ind+Prt+Sg1: tiesin
@@ -189,7 +189,7 @@ Tests:
      ymmärtää+V+Act+Ind+Prs+Sg3: ymmärtää
      ymmärtää+V+Act+Ind+Prs+Pl1: ymmärämmä #ymmärämä
      ymmärtää+V+Act+Ind+Prs+Pl2: ymmärättä
-     ymmärtää+V+Act+Ind+Prs+Pl3: [ymmärtävvä, ymmärtävä, ymmärtää]
+     ymmärtää+V+Act+Ind+Prs+Pl3: [ymmärtävvä, ymmärtävä, ymmärtää, ymmärethään]
      ymmärtää+V+Pass+Ind+Prs: ymmärethään
      ymmärtää+V+Act+Ind+Prs+ConNeg: ymmärä
      ymmärtää+V+Act+Ind+Prt+Sg1: ymmärsin
@@ -231,7 +231,7 @@ Tests:
      tuntea+V+Act+Ind+Prs+Sg3: tuntee
      tuntea+V+Act+Ind+Prs+Pl1: tunnema
      tuntea+V+Act+Ind+Prs+Pl2: tunnetta
-     tuntea+V+Act+Ind+Prs+Pl3: [tunteva, tuntee]
+     tuntea+V+Act+Ind+Prs+Pl3: [tunteva, tuntee, tunnethaan]
      tuntea+V+Pass+Ind+Prs: tunnethaan
      tuntea+V+Act+Ind+Prs+ConNeg: tunne
      tuntea+V+Act+Ind+Prt+Sg1: tunsin
@@ -272,7 +272,7 @@ Tests:
      lukea+V+Act+Ind+Prs+Sg3: lukkee
      lukea+V+Act+Ind+Prs+Pl1: luema
      lukea+V+Act+Ind+Prs+Pl2: luetta
-     lukea+V+Act+Ind+Prs+Pl3: [lukeva, lukkee]
+     lukea+V+Act+Ind+Prs+Pl3: [lukeva, lukkee, luethaan]
      lukea+V+Pass+Ind+Prs: luethaan
      lukea+V+Act+Ind+Prs+ConNeg: lue
      lukea+V+Act+Ind+Prt+Sg1: luin
@@ -313,7 +313,7 @@ Tests:
      alkaa+V+Act+Ind+Prs+Sg3: alkaa
      alkaa+V+Act+Ind+Prs+Pl1: alama
      alkaa+V+Act+Ind+Prs+Pl2: alatta
-     alkaa+V+Act+Ind+Prs+Pl3: [alkava, alkaa]
+     alkaa+V+Act+Ind+Prs+Pl3: [alkava, alkaa, alethaan]
      alkaa+V+Pass+Ind+Prs: alethaan
      alkaa+V+Act+Ind+Prs+ConNeg: ala
      alkaa+V+Act+Ind+Prt+Sg1: aloin
@@ -355,7 +355,7 @@ Tests:
      pittää+V+Act+Ind+Prs+Sg3: pittää
      pittää+V+Act+Ind+Prs+Pl1: piämä
      pittää+V+Act+Ind+Prs+Pl2: piättä
-     pittää+V+Act+Ind+Prs+Pl3: [pitävä, pittää]
+     pittää+V+Act+Ind+Prs+Pl3: [pitävä, pittää, piethään]
      pittää+V+Pass+Ind+Prs: piethään
      pittää+V+Act+Ind+Prs+ConNeg: piä
      pittää+V+Act+Ind+Prt+Sg1: piin
@@ -437,7 +437,7 @@ Tests:
      siirtyä+V+Act+Ind+Prs+Sg3: siirtyy
      siirtyä+V+Act+Ind+Prs+Pl1: siirymä
      siirtyä+V+Act+Ind+Prs+Pl2: siiryttä
-     siirtyä+V+Act+Ind+Prs+Pl3: [siirtyvä, siirtyy]
+     siirtyä+V+Act+Ind+Prs+Pl3: [siirtyvä, siirtyy, siirythään]
      siirtyä+V+Pass+Ind+Prs: siirythään
      siirtyä+V+Act+Ind+Prs+ConNeg: siiry
      siirtyä+V+Act+Ind+Prt+Sg1: siiryin
@@ -478,7 +478,7 @@ Tests:
      käyttää+V+Act+Ind+Prs+Sg3: käyttää
      käyttää+V+Act+Ind+Prs+Pl1: käytämä
      käyttää+V+Act+Ind+Prs+Pl2: käytättä
-     käyttää+V+Act+Ind+Prs+Pl3: [käyttävä, käyttää]
+     käyttää+V+Act+Ind+Prs+Pl3: [käyttävä, käyttää, käytethään]
      käyttää+V+Pass+Ind+Prs: käytethään
      käyttää+V+Act+Ind+Prs+ConNeg: käytä
      käyttää+V+Act+Ind+Prt+Sg1: käytin
@@ -519,7 +519,7 @@ Tests:
      taitaa+V+Act+Ind+Prs+Sg3: taitaa
      taitaa+V+Act+Ind+Prs+Pl1: taiama
      taitaa+V+Act+Ind+Prs+Pl2: taiatta
-     taitaa+V+Act+Ind+Prs+Pl3: [taitava, taitaa]
+     taitaa+V+Act+Ind+Prs+Pl3: [taitava, taitaa, taiethaan]
      taitaa+V+Pass+Ind+Prs: taiethaan
      taitaa+V+Act+Ind+Prs+ConNeg: taia
      taitaa+V+Act+Ind+Prt+Sg1: taisin
@@ -560,7 +560,7 @@ Tests:
      aikoa+V+Act+Ind+Prs+Sg3: aikoo
      aikoa+V+Act+Ind+Prs+Pl1: [aioma, aijoma]
      aikoa+V+Act+Ind+Prs+Pl2: [aiotta, aijotta]
-     aikoa+V+Act+Ind+Prs+Pl3: [aikova, aikoo]
+     aikoa+V+Act+Ind+Prs+Pl3: [aikova, aikoo, aiothaan, aijothaan]
      aikoa+V+Pass+Ind+Prs: [aiothaan, aijothaan]
      aikoa+V+Act+Ind+Prs+ConNeg: [aio, aijo]
      aikoa+V+Act+Ind+Prt+Sg1: [aioin, aijoin]

@@ -25,7 +25,7 @@ Tests:
      arvata+V+Act+Ind+Prs+Sg3: arvaa
      arvata+V+Act+Ind+Prs+Pl1: arvaama 
      arvata+V+Act+Ind+Prs+Pl2: arvaatta
-     arvata+V+Act+Ind+Prs+Pl3: [arvaava, arvaa]
+     arvata+V+Act+Ind+Prs+Pl3: [arvaava, arvaa, arvathaan]
      arvata+V+Pass+Ind+Prs: arvathaan
      arvata+V+Act+Ind+Prs+ConNeg: arvaa
      arvata+V+Act+Ind+Prt+Sg1: arvasin
@@ -71,7 +71,7 @@ Tests:
      planeerata+V+Act+Ind+Prs+Sg3: planeeraa
      planeerata+V+Act+Ind+Prs+Pl1: planeeraama
      planeerata+V+Act+Ind+Prs+Pl2: planeeraatta
-     planeerata+V+Act+Ind+Prs+Pl3: [planeeraava, planeeraa] #check planeeraa
+     planeerata+V+Act+Ind+Prs+Pl3: [planeeraava, planeeraa, planeerathaan] #check planeeraa
      planeerata+V+Pass+Ind+Prs: planeerathaan
      planeerata+V+Act+Ind+Prs+ConNeg: planeeraa
      planeerata+V+Act+Ind+Prt+Sg1: planeerasin
@@ -112,7 +112,7 @@ Tests:
      hävetä+V+Act+Ind+Prs+Sg3: häpeää
      hävetä+V+Act+Ind+Prs+Pl1: häpeämmä
      hävetä+V+Act+Ind+Prs+Pl2: häpeättä
-     hävetä+V+Act+Ind+Prs+Pl3: [häpeävä, häpeävvä, häpeää] #check planeeraa>häpeää?
+     hävetä+V+Act+Ind+Prs+Pl3: [häpeävä, häpeävvä, häpeää, hävethään] #check planeeraa>häpeää?
      hävetä+V+Pass+Ind+Prs: hävethään
      hävetä+V+Act+Ind+Prs+ConNeg: häpeä
      hävetä+V+Act+Ind+Prt+Sg1: häpesin
@@ -153,7 +153,7 @@ Tests:
      leipota+V+Act+Ind+Prs+Sg3: leippoaa
      leipota+V+Act+Ind+Prs+Pl1: leippoamma
      leipota+V+Act+Ind+Prs+Pl2: leippoatta
-     leipota+V+Act+Ind+Prs+Pl3: [leippoava, leippoaa, leippoavva]  #check planeeraa>leippoaa
+     leipota+V+Act+Ind+Prs+Pl3: [leippoava, leippoaa, leippoavva, leipothaan]  #check planeeraa>leippoaa
      leipota+V+Pass+Ind+Prs:  leipothaan
      leipota+V+Act+Ind+Prs+ConNeg: leippoa
      leipota+V+Act+Ind+Prt+Sg1: leipposin
@@ -194,7 +194,7 @@ Tests:
      myrskytä+V+Act+Ind+Prs+Sg3: myrskyää
      myrskytä+V+Act+Ind+Prs+Pl1: myrskyämmä
      myrskytä+V+Act+Ind+Prs+Pl2: myrskyättä
-     myrskytä+V+Act+Ind+Prs+Pl3: [myrskyävä, myrskyää, myrskyävvä]
+     myrskytä+V+Act+Ind+Prs+Pl3: [myrskyävä, myrskyää, myrskyävvä, myrskythään]
      myrskytä+V+Pass+Ind+Prs: myrskythään
      myrskytä+V+Act+Ind+Prs+ConNeg: myrskyä
      myrskytä+V+Act+Ind+Prt+Sg1: myrskysin
@@ -235,7 +235,7 @@ Tests:
      haluta+V+Act+Ind+Prs+Sg3: haluaa
      haluta+V+Act+Ind+Prs+Pl1: haluamma
      haluta+V+Act+Ind+Prs+Pl2: haluatta
-     haluta+V+Act+Ind+Prs+Pl3: [haluava, haluaa, haluavva]
+     haluta+V+Act+Ind+Prs+Pl3: [haluava, haluaa, haluavva, haluthaan]
      haluta+V+Pass+Ind+Prs: haluthaan
      haluta+V+Act+Ind+Prs+ConNeg: halua
      haluta+V+Act+Ind+Prt+Sg1: halusin
@@ -277,7 +277,7 @@ Tests:
      kohata+V+Act+Ind+Prs+Sg3: kohtaa
      kohata+V+Act+Ind+Prs+Pl1: kohtaama
      kohata+V+Act+Ind+Prs+Pl2: kohtaatta
-     kohata+V+Act+Ind+Prs+Pl3: [kohtaava, kohtaa]
+     kohata+V+Act+Ind+Prs+Pl3: [kohtaava, kohtaa, kohathaan]
      kohata+V+Pass+Ind+Prs: kohathaan
      kohata+V+Act+Ind+Prs+ConNeg: kohtaa
      kohata+V+Act+Ind+Prt+Sg1: [kohasin, kohtasin]
@@ -319,7 +319,7 @@ Tests:
      leekata+V+Act+Ind+Prs+Sg3: leekaa
      leekata+V+Act+Ind+Prs+Pl1: leekaama
      leekata+V+Act+Ind+Prs+Pl2: leekaatta
-     leekata+V+Act+Ind+Prs+Pl3: [leekaava, leekaa]
+     leekata+V+Act+Ind+Prs+Pl3: [leekaava, leekaa, leekathaan]
      leekata+V+Pass+Ind+Prs: leekathaan
      leekata+V+Act+Ind+Prs+ConNeg: leekaa
      leekata+V+Act+Ind+Prt+Sg1: leekasin
@@ -360,7 +360,7 @@ Tests:
      pakata+V+Act+Ind+Prs+Sg3: pakkaa
      pakata+V+Act+Ind+Prs+Pl1: pakkaama
      pakata+V+Act+Ind+Prs+Pl2: pakkaatta
-     pakata+V+Act+Ind+Prs+Pl3: [pakkaava, pakkaa]
+     pakata+V+Act+Ind+Prs+Pl3: [pakkaava, pakkaa, pakathaan]
      pakata+V+Pass+Ind+Prs: pakathaan
      pakata+V+Act+Ind+Prs+ConNeg: pakkaa
      pakata+V+Act+Ind+Prt+Sg1: pakkasin
@@ -401,7 +401,7 @@ Tests:
      tarjota+V+Act+Ind+Prs+Sg3: tarjoaa
      tarjota+V+Act+Ind+Prs+Pl1: tarjoamma
      tarjota+V+Act+Ind+Prs+Pl2: tarjoatta
-     tarjota+V+Act+Ind+Prs+Pl3: [tarjoaa, tarjoava, tarjoavva]
+     tarjota+V+Act+Ind+Prs+Pl3: [tarjoaa, tarjoava, tarjoavva, tarjothaan]
      tarjota+V+Pass+Ind+Prs: tarjothaan
      tarjota+V+Act+Ind+Prs+ConNeg: tarjoa
      tarjota+V+Act+Ind+Prt+Sg1: tarjosin
@@ -442,7 +442,7 @@ Tests:
      havata+V+Act+Ind+Prs+Sg3: havattee
      havata+V+Act+Ind+Prs+Pl1: havattemma
      havata+V+Act+Ind+Prs+Pl2: havattetta
-     havata+V+Act+Ind+Prs+Pl3: [havattee, havatteva,  havattevva]
+     havata+V+Act+Ind+Prs+Pl3: [havattee, havatteva,  havattevva, havathaan]
      havata+V+Pass+Ind+Prs: havathaan
      havata+V+Act+Ind+Prs+ConNeg: havatte
      havata+V+Act+Ind+Prt+Sg1: havattin

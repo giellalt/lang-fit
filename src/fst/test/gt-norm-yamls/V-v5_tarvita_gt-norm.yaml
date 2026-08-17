@@ -20,7 +20,7 @@ Tests:
      tarvita+V+Act+Ind+Prs+Sg3: tarvittee
      tarvita+V+Act+Ind+Prs+Pl1: tarvittemma
      tarvita+V+Act+Ind+Prs+Pl2: tarvittetta
-     tarvita+V+Act+Ind+Prs+Pl3: [tarvittee, tarvitteva, tarvittevva]
+     tarvita+V+Act+Ind+Prs+Pl3: [tarvittee, tarvitteva, tarvittevva, tarvithaan]
      tarvita+V+Pass+Ind+Prs: tarvithaan
      tarvita+V+Act+Ind+Prs+ConNeg: tarvita
      tarvita+V+Act+Ind+Prt+Sg1: tarvittin
@@ -66,7 +66,7 @@ Tests:
      valita+V+Act+Ind+Prs+Sg3: valittee
      valita+V+Act+Ind+Prs+Pl1: valittemma
      valita+V+Act+Ind+Prs+Pl2: valittetta
-     valita+V+Act+Ind+Prs+Pl3: [valittee, valitteva, valittevva]
+     valita+V+Act+Ind+Prs+Pl3: [valittee, valitteva, valittevva, valithaan]
      valita+V+Pass+Ind+Prs: valithaan
      valita+V+Act+Ind+Prs+ConNeg: valita
      valita+V+Act+Ind+Prt+Sg1: valittin
@@ -112,7 +112,7 @@ Tests:
      kiepitä+V+Act+Ind+Prs+Sg3: [kiepittee]
      kiepitä+V+Act+Ind+Prs+Pl1: [kiepittemmä]
      kiepitä+V+Act+Ind+Prs+Pl2: [kiepittettä]
-     kiepitä+V+Act+Ind+Prs+Pl3: [kiepittee, kiepittevvä, kiepittevä]
+     kiepitä+V+Act+Ind+Prs+Pl3: [kiepittee, kiepittevvä, kiepittevä, kiepithään]
      kiepitä+V+Pass+Ind+Prs: [kiepithään]
      kiepitä+V+Act+Ind+Prs+ConNeg: [kiepitä]
      kiepitä+V+Act+Ind+Prt+Sg1: [kiepittin]
