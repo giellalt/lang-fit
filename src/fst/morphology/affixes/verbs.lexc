@@ -1518,7 +1518,7 @@ LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Neg+Act+Imprt+ConNeg+Pl2:l%>k^O # ;
 
 
-LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
+LEXICON v4_lla  !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
 +V+Inf:^WG%>l^A KK ;
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:^WGlen K ;
@@ -1528,7 +1528,6 @@ LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
 +V+InfMa+Ill:e%>mh^A^An K ; 
 +V+InfMa+Ine:e%>m^Ass^A K ;
 +V+InfMa+Ela:e%>m^Ast^A K ;
-+V+InfMa+Ade:e%>m^All^A K ; ! TODO -la / -lla
 +V+InfMa+Abe:e%>m^Att^A K ;
 
 !+V+Pass+Ind+Prs:^WG^HMET2%>h^A^An K ;
@@ -1560,17 +1559,14 @@ LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
 +V+Act+Ind+Prs+Sg2:e%>t K ;
 !+V+Act+Ind+Prs+Sg3:e%>e K ; ! viekottelee
 +V+Act+Ind+Prs+Sg3:le%>e K ;! viekottellee
-+V+Act+Ind+Prs+Pl1:e%>m^A K ;
 +V+Act+Ind+Prs+Pl2:e%>tt^A K ;
 +V+Act+Ind+Prs+Pl3:e%>e K ; ! viekottelee
-+V+Act+Ind+Prs+Pl3:e%>v^A K ; ! K&P p. 95.  without -t
 +V+Act+Ind+Prs+Pl3:^WG%>h^A^An K ;
-+V+Act+Ind+Prs+Pl3+Err/Orth:e%>v^At K ; ! K&P p. 95.  without -t
++V+Act+Ind+Prs+Pl3+Err/Orth:e%>v^At K ; 
 
 +V+Act+Ind+Prt+Sg1:%>i3n K ;
 +V+Act+Ind+Prt+Sg2:%>i3t K ;
 +V+Act+Ind+Prt+Sg3:%>i3 K ;
-+V+Act+Ind+Prt+Pl1:%>i3m^A K ;
 +V+Act+Ind+Prt+Pl2:%>i3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>i3t K ;
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>i3v^A K ;
@@ -1581,19 +1577,40 @@ LEXICON v4_lla  !!≈ * **@CODE@** lauleskella etc
 +V+Act+Cond+Sg1:%>i4sin K ; ! 
 +V+Act+Cond+Sg2:%>i4sit K ;
 +V+Act+Cond+Sg3:i4s K ;
-+V+Act+Cond+Pl1:%>i4s%>imm^A K ;
 +V+Act+Cond+Pl2:%>i4s%>itt^A K ;
 +V+Act+Cond+Pl3:%>i4s%>it K ;
 +V+Act+Cond+Pl3:%>i4s%>iv^A K ;
-+V+Act+Cond+Pl3:%>i4s%>ivv^A K ;
 
 +V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:^WG%>t^Ut K ; !havatut
-+V+AgPrc:e%>m^A K ;
+
 +V+Neg+Act+Imprt+ConNeg+Sg2:%>e # ;
 +V+Neg+Act+Imprt+ConNeg+Pl2:^WG%>k^O # ;
 
 +V+Der/minen:emi nen ;
+
+LEXICON v4_lla_even  !!≈ * **@CODE@** ajatella etc
+v4_lla ;
++V+Act+Ind+Prs+Pl1:e%>m^A K ;
++V+Act+Ind+Prs+Pl3:e%>v^A K ; 
++V+Act+Ind+Prt+Pl1:%>i3m^A K ;
++V+Act+Cond+Pl1:%>i4s%>imm^A K ;
++V+Act+Cond+Pl3:%>i4s%>ivv^A K ;
++V+AgPrc:e%>m^A K ;
++V+InfMa+Ade:e%>m^All^A K ; 
+
+
+LEXICON v4_lla_odd  !!≈ * **@CODE@** lauella etc
+v4_lla ;
++V+Act+Ind+Prs+Pl1:e%>mm^A K ;
++V+Act+Ind+Prs+Pl3:e%>vv^A K ; 
++V+Act+Ind+Prs+Pl3:e%>v^A K ; 
++V+Act+Ind+Prt+Pl1:%>i3mm^A K ;
++V+Act+Cond+Pl1:%>i4s%>im^A K ;
++V+AgPrc:e%>mm^A K ;
++V+InfMa+Ade:e%>m^Al^A K ; 
+
+
 
 
 LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi  
