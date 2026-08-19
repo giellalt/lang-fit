@@ -1431,8 +1431,6 @@ LEXICON n5_troppi
 +N+Cmp/SgNom: R ;
 +N+Cmp/SgGen:^WG%>n R ;
 +N+Sg+Gen:^WG%> n_PxK ; !! tropin
-+N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
-+N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
 +N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
 +N+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
 +N+Sg+All:^WG%>le PxK ;        ! tropile
@@ -1442,9 +1440,7 @@ LEXICON n5_troppi
 +N+Sg+Ess:%>n^A PxK ;           ! troppina
 +N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
 
-+N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Par:%>^A PxK ; ! nu: --- rätt (kanske samma som Sg?) :	troppia?
-!Lägg in som Err/Orth:
++N+Pl+Nom:^WG%> t_PxK ; 
 +N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
 +N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
 +N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
@@ -1462,12 +1458,33 @@ LEXICON n5_troppi
 LEXICON n5_troppi_even
 !! **LEXICON @LEXNAME@**
 +N+Sg+Par:%>^A PxK ; ! troppia
++N+Pl+Par:%>^A PxK ;
++N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
 n5_troppi ; !for all the other forms
+
 
 LEXICON n5_troppi_ta
 !! **LEXICON @LEXNAME@**
-+N+Sg+Par:%>t^A PxK ; 
-n5_troppi ; !for all the other forms
++N+Sg+Nom:i PxK ;
++N+Cmp/SgNom:i R ;
++N+Cmp/SgGen:i^WG%>n R ;+N+Sg+Par:i%>t^A PxK ; 
+
++N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++N+Sg+Gen:i^WG%> n_PxK ; !! tropin
++N+Sg+Ine:i^WG%>ss^A PxK ;       ! tropissa
++N+Sg+Ela:i^WG%>st^A PxxK ;       ! tropista
++N+Sg+All:i^WG%>le PxK ;        ! tropile
++N+Sg+Ade:i^WG%>l^A PxK ;        ! tropila
++N+Sg+Abl:i^WG%>lt^A PxK ;       ! tropilta
++N+Sg+Tra:i^WG TRA ;             ! tropiksi
++N+Sg+Ess:i%>n^A PxK ;           ! troppina
++N+Sg+Abe:i^WG%>tt^A PxK ;       ! tropitta
+ !:i n5_troppi ; !for all the other forms
++N: x5_i_pl ;
++N+Pl+Nom:%>it PxK ;
++N+Pl+Gen:%>ien PxK ;
++N+Pl+Par:i%>t^A PxK ;
 
 
 LEXICON n5_troppi_odd
