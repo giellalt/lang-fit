@@ -17,7 +17,7 @@
 !!  * **v3** = continuationlexicon for v3-types below
 !!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
 !!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
-!!  * **v3_ja** ! saaja etc
+!!  * **v3_ja** ! voija, uija, palmikoija etc
 !!  * **v3_a** ! saa’a
 !!  * **v3_ja_short** ! viejä etc, to get inf.form viä
 !!  * **v3_ta** ! 
@@ -88,7 +88,7 @@ jääjä:jää v3_ha ;
 lyä:ly v3_syä ;
 soija:soi v3_ja ;
 myyta:myy v3_ta ;
-myytä:myy v3_ta ;
+!myytä:myy v3_ta ;
 loppuunmyytä:loppuun#myy v3_ta ;
 
 

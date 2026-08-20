@@ -842,11 +842,14 @@ LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 +V+Pass+InfE+Ine:%>ess^A K ; !CHECK
 
 LEXICON v3_ja !!≈ * **@CODE@** for inf like saaja
-+V+Inf:%>’^A K ;
-+V+InfE+Ine:%>’ess^A K ;
-+V+Pass+InfE+Ine:%>’ess^A K ; !CHECK
-+V+Pass+PrfPrc+Pl+Nom:%>’^Ut K ;
-+V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ;
+!+V+Inf:%>’^A K ; !not for this group?
++V+Inf:%>^A K ;
++V+InfE+Ine:%>ess^A K ;
++V+InfE+Ine+Err/Orth:%>’ess^A K ;
++V+Pass+InfE+Ine+Err/Orth:%>’ess^A K ; !CHECK
++V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
++V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>’^Ut K ;
++V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>j^Ut K ; !perhaps used for other than uija?
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
 v3_j ;
 
@@ -857,6 +860,7 @@ LEXICON v3_a !!≈ * **@CODE@** for inf with ’a; saaja
 +V+InfE+Ine:%>’ess^A K ;
 +V+InfE+Ine:%>ess^A K ;
 +V+Pass+InfE+Ine:%>’ess^A K ; !CHECK
++V+InfE+Ins:%>’en K ; 
 +V+Pass+PrfPrc+Pl+Nom:%>’^Ut K ;
 +V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
@@ -864,13 +868,15 @@ v3_j ;
 
 LEXICON v3_ta  !!≈ * **@CODE@** maata
 v3_other ;
-+V+Inf:%>t^A K ;
-+V+InfE+Ine:%>tess^A K ;
++V+Inf:%>t^A K ; !myytä
++V+Inf:%>ta K ; !myyta
++V+Inf:%>^A K ; !myyä
 +V+Pass+InfE+Ine:%>tess^A K ; !CHECK
-+V+InfMa: 3infcase ;
-+V+InfMa+Ill:m^HMET2%>h^A^An K ; ! also hm 
++V+InfMa:  3infcase_odd ;
++V+InfMa+Ill:%>hm^A^An K ; ! also hm 
 +V+Inf+Tra:%>t^Akse PxK ;
-+V+InfE+Ins:%>ten K ;
++V+InfE+Ine:%>ess^A K ;
++V+InfE+Ins:%>en K ;
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
 
 LEXICON v3_ha !!≈ * **@CODE@** like v3_ja but also inf.form saaHA etc
@@ -881,6 +887,7 @@ v3_j ;
 +V+Inf: K ; 
 +V+InfE+Ine:%>’ess^A K ;
 +V+Pass+InfE+Ine:%>’ess^A K ; !CHECK
++V+InfE+Ins:%>’en K ; 
 +V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>’^Ut K ;
 +V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>j^Ut K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
@@ -924,7 +931,7 @@ v3_other ;
 +V+InfMa+Ill:h%>m^A^An K ; !viehmään en gång
 +V+Inf+Tra:%>j^Akse PxK ;
 +V+InfE+Ins:%>jen K ;
-+V+InfE+Ins:%>’en K ;
+!+V+InfE+Ins+Err/Orth:%>’en K ; !should it be here?
 +V+InfE+Ins:en K ; 
 +V+InfE+Ine:%>jess^A K ;
 +V+Pass+InfE+Ine+Err/Orth:%>jess^A K ; !CHECK

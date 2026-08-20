@@ -1464,7 +1464,7 @@ LEXICON n5_troppi_even
 n5_troppi ; !for all the other forms
 
 
-LEXICON n5_troppi_ta
+LEXICON n5_troppi_ii
 !! **LEXICON @LEXNAME@**
 +N+Sg+Nom:i PxK ;
 +N+Cmp/SgNom:i R ;
@@ -1481,10 +1481,22 @@ LEXICON n5_troppi_ta
 +N+Sg+Ess:i%>n^A PxK ;           ! troppina
 +N+Sg+Abe:i^WG%>tt^A PxK ;       ! tropitta
  !:i n5_troppi ; !for all the other forms
-+N: x5_i_pl ;
+!+N: x5_i_pl ;
 +N+Pl+Nom:%>it PxK ;
 +N+Pl+Gen:%>ien PxK ;
++N+Pl+Gen:%>itten PxK ;
 +N+Pl+Par:i%>t^A PxK ;
++N+Pl+Par:%>i2^A PxK ;
+!FIXA!
++N+Pl+Ill:^HMETA%>hei2 n_PxK ;
++N+Pl+Ine:%>i2^WG%>ss^A PxK ;
++N+Pl+Ela:%>i2^WG%>st^A PxK ;
++N+Pl+All:%>i2^WG%>lle PxxK ;
++N+Pl+Ade:%>i2^WG%>ll^A PxK ;
++N+Pl+Abl:%>i2^WG%>lt^A PxK ;
++N+Pl+Tra:%>i2^WG%> TRA ;
++N+Pl+Ess:%>i2%>n^A PxK ;     !
++N+Pl+Abe:%>i2^WG%>tt^A PxK ;
 
 
 LEXICON n5_troppi_odd
