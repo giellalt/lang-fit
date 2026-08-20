@@ -4487,7 +4487,7 @@ lyhetä:lyhe v6 ;
 löyhetä:löyhe v6 ;
 lähetä:lähe v6 ;
 vähetä:vähe v6 ;
-hietä:hie v6 ;
+hietä:hie v6 ; !CHECK paradigm
 liietä:liie v6 ;
 pietä:pike v6 ;
 kehjetä:kehk4e v6 ;
