@@ -819,6 +819,7 @@ LEXICON v3_syä  !!≈ * **@CODE@** syä, myä, lyä .#.
 +V+Inf+Err/Orth:y%>ä KK ;
 +V+Inf+Err/Orth:y%>jä KK ;
 :ö v3_other ;
++V+Pass+Cond:ö%>i3s K ;
 +V+InfMa:ö 3infcase_odd ;
 +V+InfMa+Ill:öm^HMET2%>h^A^An K ; ! also hm 
 +V+Inf+Tra:%>^Akse PxK ;
@@ -833,6 +834,7 @@ LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 +V+Inf:o%>a KK ;
 +V+Inf:o%>ja KK ;
 :o v3_other ;
++V+Pass+Cond:o%>i3s K ;
 +V+InfMa:o 3infcase_odd ;
 +V+InfMa+Ill:om^HMET2%>h^A^An K ; ! also hm 
 +V+Inf+Tra:%>^Akse PxK ;
@@ -849,9 +851,14 @@ LEXICON v3_ja !!≈ * **@CODE@** for inf like saaja
 +V+Pass+InfE+Ine+Err/Orth:%>’ess^A K ; !CHECK
 +V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
 +V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>’^Ut K ;
-+V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>j^Ut K ; !perhaps used for other than uija?
++V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>j^Ut K ; !perhaps used for other than uija? palmikoijut?
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
 v3_j ;
++V+Pass+Cond:t%>^Ai3s K ;
+
+LEXICON v3_ja_long
+v3_ja ;
++V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ; !palmikoijut!
 
 LEXICON v3_a !!≈ * **@CODE@** for inf with ’a; saaja
 +V+Inf:%>’^A K ;
@@ -865,9 +872,11 @@ LEXICON v3_a !!≈ * **@CODE@** for inf with ’a; saaja
 +V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
 v3_j ;
++V+Pass+Cond:%>i3s K ;
 
 LEXICON v3_ta  !!≈ * **@CODE@** maata
 v3_other ;
++V+Pass+Cond:%>i3s K ;
 +V+Inf:%>t^A K ; !myytä
 +V+Inf:%>ta K ; !myyta
 +V+Inf:%>^A K ; !myyä
@@ -882,6 +891,7 @@ v3_other ;
 LEXICON v3_ha !!≈ * **@CODE@** like v3_ja but also inf.form saaHA etc
 !v3_ja ;
 v3_j ;
++V+Pass+Cond:%>i3s K ;
 +V+Inf:%>’^A K ;
 +V+Inf:%>h^A K ; 
 +V+Inf: K ; 
@@ -904,6 +914,7 @@ LEXICON v3_ja_short !!≈ * **@CODE@** like v3_ja but also short inf.form viä e
 +V+Pass+PrfPrc+Pl+Nom:e%>j^Ut K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:e%>^N^N^U K ;
 :e v3_other ;
++V+Pass+Cond:e%>i3s K ;
 +V+InfMa+Ill:e%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:e%>m^Ass^A K ;
 +V+InfMa+Ela:e%>m^Ast^A K ;
@@ -919,9 +930,8 @@ LEXICON v3_ja_short !!≈ * **@CODE@** like v3_ja but also short inf.form viä e
 
 LEXICON v3_j  !!≈ * **@CODE@** contlex for viejä mfl
 +V+Inf:%>j^A KK ;
-!+V+Inf:’%>^A KK ; !not working, why?
 v3_other ;
-!+V+Act+Ind+Prt+Sg3+Err/Orth:t%>i3 K ; !FOR WHAT?
+!+V+Pass+Cond:%>i3s K ; !moved
 +V+InfMa+Ill:%>^HMETAmh^A^An K ; ! 
 +V+InfMa+Ine:%>m^Ass^A K ;
 +V+InfMa+Ela:%>m^Ast^A K ;
@@ -975,8 +985,7 @@ LEXICON v3_other !!≈ * **@CODE@** contlex för v3-type (saaja, syöjä)
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^Ut K ;
 +V+Act+PrfPrc:%>h^Nee x3_oblique ;
 +V+Act+PrfPrc:%>^Nhee x3_oblique ;
-
-+V+Pass+Cond:%>i3s K ;
+!+V+Pass+Cond:%>i3s K ; !moved
 
 +V+Act+Imprt+Sg2: # ;
 +V+Act+Imprt+Sg:%>kh^O^On # ;
