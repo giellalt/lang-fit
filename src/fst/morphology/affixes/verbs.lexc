@@ -1,33 +1,45 @@
 !! # Meänkieli verbs
 
-!! This file documents [`affixes/verbs.lexc`, the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
+!! This file documents ['affixes/verbs.lexc', the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
 
 
 !! ## Overview over the continuation classes
 
 !! ### Continuation lexica for regular verbs
-!!  * **v1** = even-syllable-stems of antaa-type; sanoa:sano
+!!  * **v1** = general even-syll-stems of antaa-type; sanoa:sano
+!!  * **v1_odd** = odd-syll-stem of antaa-type; herättää:herättä, like v1 except PrfPrc+Sg herättänny 
+!!  * **v1_otta** = kirjottaa etc (to make Err/Orth-form)
 !!  * **v1_tietaa** = tietää:ti because of changes in diftong (tiän>tiesin)
-!!  * **v1_odd** = odd-syll-stem, herättää:herättä, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+!!  * **v1_var** = mahtaa:mahta>mahtan AND mahan !TBC - where does it occur?
+!!  * **v1_odd_var** = tapahtua:tapahtu>tapahtun AND tapahun !TBC - where does it occur?
+!!  * **v1_taitaa** = taitaa:taita lexicon because of t:s (although no a:0 in suffix)
+
+!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_odd and v2_uta
 !!  * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
-!!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
-!!  * **v2_uta** = Vta-verbs; leipota:leippo (+^A^A i Sg3)
-!!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-!!  * **v3** = continuationlexicon for v3-types
-!!  * **v3_tehha**
-!!  * **v3_nahha**
-!!  * **v3_kaya**
-!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
-!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
-!!  * **v3_ja** ! 
-!!  * **v3_ja_short** ! viejä etc, to get inf.form viä
-!!  * **v3_ta** ! 
-!!  * **v3_ha** ! saaja, jääjä etc
+!!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+!!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
+
+!!  * **v3_ja** = voija:voi, uija etc
+!!  * **v3_ja_short** = viejä:vi etc, to get inf.form viä
+!!  * **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
+!!  * **v3_ha** = saaja, jääjä etc
+!!  * **v3_jua** = jua:ju, lua, sua, tua
+!!  * **v3_syä** syä:sy, myä, lyä
+!!  * **v3_tehha** = ONLY tehhä:te, tehä, tehjä
+!!  * **v3_nahha** = ONLY nähhä:nä, nähä, nähjä
+!!  * **v3_kaya** = ONLY käyä:kä
+!!  * **v3_ta** = ONLY myyta:my
+!!  * **v3_a** = for infinitive forms with 'a; saa'a:saa
+!!  * **v3_j** = cont lex 
+!!  * **v3_other** = cont lex 
+
+!!TBC
 !!  * **v4** = tulla:tul
 !!  * **v4_sta** = nousta:nous
 !!  * **v4_juosta** = juos:juo
 !!  * **v4_la** = varjela, varjelee
 !!  * **v4_lla** = ajatella, ajattellee
+
 !!  * **v5** = tarvita:tarv
 !!  * **v6** = paeta:pake
 !!  * **v_vanheta** = vanheta
@@ -534,7 +546,7 @@ LEXICON v1_taitaa !!≈ * **@CODE@** taitaa-lexicon because of t:s although no a
 +V+Act+Imprt+Pl3:ta%>kh^O^Ot # ;
 +V+Neg+Act+Imprt+ConNeg+Sg2:a # ; !plus älä (älä anna)
 +V+Neg+Act+Imprt+ConNeg+Pl2:ta%>k^O # ; !plus älä (älkää antako)
-! ! Derivation
+!! Derivation
 +V+Der/minen:tami nen ;
 
 
@@ -542,8 +554,6 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 +V+Inf:^WG%>t^A K ;
 +V+Act+Ind+Prs+Sg1:%>^An K ;
 +V+Act+Ind+Prs+Sg2:%>^At K ;
-!+V+Act+Ind+Prs+Pl1:%>^Am^A K ; !doesnt work because *leipoamma, *arvaamma
-!+V+Act+Ind+Prs+Pl1:%>^Amm^A K ; !doesnt work because *leipoamma, *arvaamma
 +V+Act+Ind+Prs+Pl2:%>^Att^A K ;
 +V+Act+Ind+Prs+Pl3:%>^Av^A K ;
 +V+Act+Ind+Prs+Pl3:^WG%>th^A^An K ;
@@ -560,8 +570,6 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 +V+Act+Ind+Prt+Pl1+Err/Orth:%>si3m^A K ;
 +V+Act+Ind+Prt+Pl2:%>si3tt^A K ;
 +V+Act+Ind+Prt+Pl3:%>si3t K ;
-!+V+Act+Ind+Prt+Pl3:%>si3v^A K ;
-!+V+Act+Ind+Prt+Pl3+Err/Orth:%>si3v^At K ;
 +V+Act+Ind+Prt+Pl3:^WG%>thiin K ;
 +V+Pass+Ind+Prt:^WG%>thiin K ;
 +V+Pass+Ind+Prt+ConNeg:^WG%>t^U K ;
@@ -889,7 +897,6 @@ v3_other ;
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
 
 LEXICON v3_ha !!≈ * **@CODE@** like v3_ja but also inf.form saaHA etc
-!v3_ja ;
 v3_j ;
 +V+Pass+Cond:%>i3s K ;
 +V+Inf:%>’^A K ;
@@ -1924,7 +1931,7 @@ LEXICON v12pers_short
  +Pl1:%>m^A K ;
  v12pers ;
 
-LEXICON v12pers !!≈ @CODE@ Only sg12, pl12 so far
+LEXICON v12pers !!≈ @CODE@ Only Sg12, Pl1 so far
  +Sg1:%>n K ;
  +Sg2:%>t K ;
  +Pl2:%>tt^A K ;

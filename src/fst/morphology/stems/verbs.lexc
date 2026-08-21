@@ -7,23 +7,33 @@
 !! ## Overview over the continuation lexica
 
 !! ### Continuation lexica for regular verbs
-!!  * **v1** = antaa-type, even stem; sanoa:sano
-!!  * **v1_tietaa** = tietää:ti
-!!  * **v1_odd** = odd-syll-stem; suurentaa:suurenta, like v1 except PrfPrc+Sg: tapahtua>tapahtunnu 
+!!  * **v1** = general even-syll-stems of antaa-type; sanoa:sano
+!!  * **v1_odd** = odd-syll-stem of antaa-type; herättää:herättä, like v1 except PrfPrc+Sg herättänny 
+!!  * **v1_otta** = kirjottaa etc (to make Err/Orth-form)
+!!  * **v1_tietaa** = tietää:ti because of changes in diftong (tiän>tiesin)
+!!  * **v1_var** = mahtaa:mahta>mahtan AND mahan !TBC - where does it occur?
+!!  * **v1_odd_var** = tapahtua:tapahtu>tapahtun AND tapahun !TBC - where does it occur?
+!!  * **v1_taitaa** = taitaa:taita lexicon because of t:s (although no a:0 in suffix)
+
+!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_odd and v2_uta
 !!  * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
-!!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata, tryykätä:tryykkä (+^A i Sg3 (huomaa), InfMa+Ade huomaamalla)
-!!  * **v2_uta** = Vta-verbs (except -ita); leipota:leippo (+^A^A i Sg3 (lankeaa))
-!!  * **v2** = continuationlexicon for v2_ata, v2_ata_odd and v2_uta
-!!  * **v3** = continuationlexicon for v3-types below
-!!  * **v3_jua** ! No juoJa-form, stem ju-, otherwise like v3 
-!!  * **v3_syä** ! No syöJä-form, stem sy-, otherwise like v3
-!!  * **v3_ja** ! voija, uija, palmikoija etc
-!!  * **v3_a** ! saa’a
-!!  * **v3_ja_short** ! viejä etc, to get inf.form viä
-!!  * **v3_ta** ! 
-!!  * **v3_tehha** = only tehhä, tehä, tehjä
-!!  * **v3_nahha** = only nähhä, nähä, nähjä
-!!  * **v3_kaya** = only käyä
+!!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+!!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
+
+!!  * **v3_ja** = voija:voi, uija etc
+!!  * **v3_ja_short** = viejä:vi etc, to get inf.form viä
+!!  * **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
+!!  * **v3_ha** = saaja, jääjä etc
+!!  * **v3_jua** = jua:ju, lua, sua, tua
+!!  * **v3_syä** syä:sy, myä, lyä
+!!  * **v3_tehha** = ONLY tehhä:te, tehä, tehjä
+!!  * **v3_nahha** = ONLY nähhä:nä, nähä, nähjä
+!!  * **v3_kaya** = ONLY käyä:kä
+!!  * **v3_ta** = ONLY myyta:my
+!!  * **v3_a** = for infinitive forms with 'a; saa'a:saa
+!!  * **v3_j** = cont lex 
+!!  * **v3_other** = cont lex 
+!!TBC
 !!  * **v4** = mennä:men ; tulla:tul
 !!  * **v4_sta** = v4 plus V+Pass+Ind+Prs nousThaan
 !!  * **v4_la_odd** = varjela, varjelee
@@ -138,7 +148,7 @@ jatkaa:jatka v1 ;
 kaalaa:kaala v1 ;
 kahlaa:kahla v1 ;
 pallaa:palla v1 ;
-pala:pala v1 ; !GEO CHECK
+pala:pala v1 ; !GEO?
 vallaa:valla v1 ;
 sullaa:sulla v1 ;
 laulaa:laula v1 ;
@@ -152,7 +162,7 @@ maksaa:maksa v1 ;
 jaataa:jaata v1 ;
 kaataa:kaata v1 ;
 raataa:raata v1 ;
-pölkää:pölkä v1 ; !GEO CHECK
+pölkää:pölkä v1 ; !GEO?
 paahtaa:paahta v1_var ;
 kahahtaa:kahahta v1_odd ;
 kiehahtaa:kiehahta v1_odd ;
@@ -1700,29 +1710,28 @@ kovia:kovi v1 ;
 juovia:juovi v1 ;
 kuovia:kuovi v1 ;
 karvia:karvi v1 ;
-naija:nai v3_ja ;
 palmikoija:palmikoi v3_ja_long ;
-vasikoija:vasikoi v3_ja ;
-haarukoija:haarukoi v3_ja ;
-kapaloija:kapaloi v3_ja ;
-kromeloija:kromeloi v3_ja ;
-kaaveloija:kaaveloi v3_ja ;
-koveloija:koveloi v3_ja ;
-kupuloija:kupuloi v3_ja ;
-salamoija:salamoi v3_ja ;
-puikkaroija:puikkaroi v3_ja ;
-jolkkaroija:jolkkaroi v3_ja ;
-mookaroija:mookaroi v3_ja ;
-koparoija:koparoi v3_ja ;
-veivaroija:veivaroi v3_ja ;
-koperoija:koperoi v3_ja ;
-kompuroija:kompuroi v3_ja ;
-kippuroija:kippuroi v3_ja ;
-tantturoija:tantturoi v3_ja ;
-tentturoija:tentturoi v3_ja ;
-karittoija:karittoi v3_ja ;
-palavoija:palavoi v3_ja ;
-haravoija:haravoi v3_ja ;
+vasikoija:vasikoi v3_ja_long ;
+haarukoija:haarukoi v3_ja_long ;
+kapaloija:kapaloi v3_ja_long ;
+kromeloija:kromeloi v3_ja_long ;
+kaaveloija:kaaveloi v3_ja_long ;
+koveloija:koveloi v3_ja_long ;
+kupuloija:kupuloi v3_ja_long ;
+salamoija:salamoi v3_ja_long ;
+puikkaroija:puikkaroi v3_ja_long ;
+jolkkaroija:jolkkaroi v3_ja_long ;
+mookaroija:mookaroi v3_ja_long ;
+koparoija:koparoi v3_ja_long ;
+veivaroija:veivaroi v3_ja_long ;
+koperoija:koperoi v3_ja_long ;
+kompuroija:kompuroi v3_ja_long ;
+kippuroija:kippuroi v3_ja_long ;
+tantturoija:tantturoi v3_ja_long ;
+tentturoija:tentturoi v3_ja_long ;
+karittoija:karittoi v3_ja_long ;
+palavoija:palavoi v3_ja_long ;
+haravoija:haravoi v3_ja_long ;
 yytraaka:yytraak vx ;
 kaaela:kaae v4_la_odd ;
 laela:lae v4_la_odd ;
