@@ -527,7 +527,7 @@ varmistaa:varmista v1_odd ;
 lannistaa:lannista v1_odd ;
 luonnistaa:luonnista v1_odd ;
 tunnistaa:tunnista v1_odd ;
-kaunistaa:kaunista v1 ;
+kaunistaa:kaunista v1_odd ;
 loistaa:loista v1 ;
 toistaa:toista v1 ;
 krapistaa:krapista v1_odd ;
@@ -1710,28 +1710,28 @@ kovia:kovi v1 ;
 juovia:juovi v1 ;
 kuovia:kuovi v1 ;
 karvia:karvi v1 ;
-palmikoija:palmikoi v3_ja_long ;
-vasikoija:vasikoi v3_ja_long ;
-haarukoija:haarukoi v3_ja_long ;
-kapaloija:kapaloi v3_ja_long ;
-kromeloija:kromeloi v3_ja_long ;
-kaaveloija:kaaveloi v3_ja_long ;
-koveloija:koveloi v3_ja_long ;
-kupuloija:kupuloi v3_ja_long ;
-salamoija:salamoi v3_ja_long ;
-puikkaroija:puikkaroi v3_ja_long ;
-jolkkaroija:jolkkaroi v3_ja_long ;
-mookaroija:mookaroi v3_ja_long ;
-koparoija:koparoi v3_ja_long ;
-veivaroija:veivaroi v3_ja_long ;
-koperoija:koperoi v3_ja_long ;
-kompuroija:kompuroi v3_ja_long ;
-kippuroija:kippuroi v3_ja_long ;
-tantturoija:tantturoi v3_ja_long ;
-tentturoija:tentturoi v3_ja_long ;
-karittoija:karittoi v3_ja_long ;
-palavoija:palavoi v3_ja_long ;
-haravoija:haravoi v3_ja_long ;
+palmikoija:palmikoi v3_ja ; !Former v3_ja_long
+vasikoija:vasikoi v3_ja ; !Former v3_ja_long
+haarukoija:haarukoi v3_ja ; !Former v3_ja_long
+kapaloija:kapaloi v3_ja ; !Former v3_ja_long
+kromeloija:kromeloi v3_ja ; !Former v3_ja_long
+kaaveloija:kaaveloi v3_ja ; !Former v3_ja_long
+koveloija:koveloi v3_ja ; !Former v3_ja_long
+kupuloija:kupuloi v3_ja ; !Former v3_ja_long
+salamoija:salamoi v3_ja ; !Former v3_ja_long
+puikkaroija:puikkaroi v3_ja ; !Former v3_ja_long
+jolkkaroija:jolkkaroi v3_ja ; !Former v3_ja_long
+mookaroija:mookaroi v3_ja ; !Former v3_ja_long
+koparoija:koparoi v3_ja ; !Former v3_ja_long
+veivaroija:veivaroi v3_ja ; !Former v3_ja_long
+koperoija:koperoi v3_ja ; !Former v3_ja_long
+kompuroija:kompuroi v3_ja ; !Former v3_ja_long
+kippuroija:kippuroi v3_ja ; !Former v3_ja_long
+tantturoija:tantturoi v3_ja ; !Former v3_ja_long
+tentturoija:tentturoi v3_ja ; !Former v3_ja_long
+karittoija:karittoi v3_ja ; !Former v3_ja_long
+palavoija:palavoi v3_ja ; !Former v3_ja_long
+haravoija:haravoi v3_ja ; !Former v3_ja_long
 yytraaka:yytraak vx ;
 kaaela:kaae v4_la_odd ;
 laela:lae v4_la_odd ;
@@ -2202,7 +2202,7 @@ vihotella:vihottel v4_lla_even ;
 kaivella:kaivel v4_lla_odd ;
 kuivella:kuivel v4_lla_odd ;
 juvella:juvel v4_lla_odd ;
-maijailla:maijail v4_lla_odd ;
+maijailla:maijail v4_lla_odd ; !Err/Orth CHECK t o m 2227
 leijailla:leijail v4_lla_odd ;
 loikkailla:loikkail v4_lla_odd ;
 kaalailla:kaalail v4_lla_odd ;
@@ -2225,13 +2225,13 @@ loitoilla:loitoil v4_lla_odd ;
 loijuilla:loijuil v4_lla_odd ;
 muijjuilla:muijjuil v4_lla_odd ;
 loikolla:loikkol v4_lla_odd ;
-kuolla:kuol v4_lla_even ;
-nuolla:nuol v4_lla_even ;
-vuolla:vuol v4_lla_even ;
+kuola+Err/Orth:kuol v4_lla_even ;
+nuola+Err/Orth:nuol v4_lla_even ;
+vuola+Err/Orth:vuol v4_lla_even ;
 !tulla:tul v4_lla_even ;
-luulla:luul v4_lla_even ;
-tuulla:tuul v4_lla_even ;
-kuulla:kuul v4_lla_even ; !CHECK Err/Orth?
+luula+Err/Orth:luul v4_lla_even ;
+tuula+Err/Orth:tuul v4_lla_even ;
+kuula+Err/Orth:kuul v4_lla_even ; !CHECK Err/Orth?
 yytmoola:yytmoo v4_la_odd ;
 kuola:kuo v4_la_even ;
 nuola:nuo v4_la_even ;

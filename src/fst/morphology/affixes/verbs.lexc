@@ -853,20 +853,20 @@ LEXICON v3_jua  !!≈ * **@CODE@** jua, lua, sua, tua .#.
 
 LEXICON v3_ja !!≈ * **@CODE@** for inf like saaja
 !+V+Inf:%>’^A K ; !not for this group?
-+V+Inf:%>^A K ;
-+V+InfE+Ine:%>ess^A K ;
++V+Inf:%>^A K ; !OR Use/NG?
++V+InfE+Ine:%>ess^A K ; !OR Use/NG?
 +V+InfE+Ine+Err/Orth:%>’ess^A K ;
 +V+Pass+InfE+Ine+Err/Orth:%>’ess^A K ; !CHECK
-+V+Pass+PrfPrc+Pl+Nom:%>^Ut K ;
++V+Pass+PrfPrc+Pl+Nom:%>^Ut K ; !OR Use/NG?
 +V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>’^Ut K ;
-+V+Pass+PrfPrc+Pl+Nom+Err/Orth:%>j^Ut K ; !perhaps used for other than uija? palmikoijut?
++V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ; !
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>^N^N^U K ;
-v3_j ;
+v3_j ; !(f ex inf form -ja)
 +V+Pass+Cond:t%>^Ai3s K ;
 
-LEXICON v3_ja_long
-v3_ja ;
-+V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ; !palmikoijut!
+!LEXICON v3_ja_long
+!v3_ja ;
+!+V+Pass+PrfPrc+Pl+Nom:%>j^Ut K ; !palmikoijut!
 
 LEXICON v3_a !!≈ * **@CODE@** for inf with ’a; saaja
 +V+Inf:%>’^A K ;
