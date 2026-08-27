@@ -21,7 +21,6 @@
 
 !!  * **v3_ja** = voija:voi, uija etc
 !!  * **v3_ja_short** = viejä:vi etc, to get inf.form viä
-!!  * **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
 !!  * **v3_ha** = saaja, jääjä etc
 !!  * **v3_jua** = jua:ju, lua, sua, tua
 !!  * **v3_syä** syä:sy, myä, lyä
@@ -32,6 +31,8 @@
 !!  * **v3_a** = for infinitive forms with 'a; saa'a:saa
 !!  * **v3_j** = cont lex 
 !!  * **v3_other** = cont lex 
+
+!REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
 
 !!TBC
 !!  * **v4** = tulla:tul

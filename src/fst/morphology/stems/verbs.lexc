@@ -22,7 +22,6 @@
 
 !!  * **v3_ja** = voija:voi, uija etc
 !!  * **v3_ja_short** = viejä:vi etc, to get inf.form viä
-!!  * **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
 !!  * **v3_ha** = saaja, jääjä etc
 !!  * **v3_jua** = jua:ju, lua, sua, tua
 !!  * **v3_syä** syä:sy, myä, lyä
@@ -47,6 +46,7 @@
 !!  * **OLLA**
 !!  * **NEG**
 
+!REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
 
 !! ## The verb lexica themselves
 
@@ -3195,7 +3195,7 @@ solmita:solmi v5 ;
 tuomita:tuomi v5 ; 
 mainita:maini v5 ;
 punnita:punni v5 ;
-mutikoita:mutikoi v2_uta ; !CHECK!
+!mutikoita:mutikoi v2_uta ; !CHECK!
 !ateroita:ateroi v2_uta ; !CHECK!
 kaupita:kaupi v5 ;
 kaarita:kaari v5 ;
@@ -4302,10 +4302,10 @@ tööttiä:töötti v1 ;
 räiviä:räivi v1 ;
 mylviä:mylvi v1 ;
 nirviä:nirvi v1 ;
-metelöijä:metelöi v2_uta ;
-kipenöijä:kipenöi v2_uta ;
-höperöijä:höperöi v2_uta ;
-ikävöijä:ikävöi v5 ;
+metelöijä:metelöi v3_ja ;
+kipenöijä:kipenöi v3_ja ;
+höperöijä:höperöi v3_ja ;
+ikävöijä:ikävöi v3_ja ;
 vetelä:vete v4_la_odd  ;
 liielä:liie v4_la_odd ;
 riielä:riie v4_la_odd ;
