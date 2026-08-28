@@ -24,7 +24,7 @@ iso a1_ta ;
 pitkä:pi a1_pitka ;
 fiini a1 ;
 paksu a1 ;
-vanha:vanha a1 ;
+vanha:vanha a1_vanha ;
 komea a3_VV ;  
 muikea a3_VV ; 
 privaatti a3 ; 

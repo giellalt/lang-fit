@@ -14,10 +14,12 @@
 !!  * **v1_odd_var** = tapahtua:tapahtu>tapahtun AND tapahun !TBC - where does it occur?
 !!  * **v1_taitaa** = taitaa:taita lexicon because of t:s (although no a:0 in suffix)
 
-!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_odd and v2_uta
-!!  * **v2_ata** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
-!!  * **v2_ata_odd** = odd-syll -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
+!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_even and v2_uta
+!!  * **v2_ata_odd** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
+!!  * **v2_ata_even** = even-stem -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
+!!  * **v2_havata** = havata:hava
+!!  * **v2_Hata_even** = kohata:kohta
 
 !!  * **v3_ja** = voija:voi, uija etc
 !!  * **v3_ja_short** = viejä:vi etc, to get inf.form viä
@@ -38,10 +40,17 @@
 !!  * **v4** = tulla:tul
 !!  * **v4_sta** = nousta:nous
 !!  * **v4_juosta** = juos:juo
-!!  * **v4_la** = varjela, varjelee
-!!  * **v4_lla** = ajatella, ajattellee
+!!  * **v4_la_odd** = mairiskela:mairiske, nuola:nuo
+!!  * **v4_la_even** = varjela:varje >varjelee
+!!  * **v4_la** = cont lexica for v4_la_odd/even
+!!  * **v4_lla_odd** = levahella:levahtel
+!!  * **v4_lla_even** = kaaella:kaatel
+!!  * **v4_lla** = cont lexica for v4_lla_odd/even
+!!  * **v4_julkasta** = rangasta:rangas etc
+!!  * **v4_julkas** = cont lexica for v4_julkasta
 
 !!  * **v5** = tarvita:tarv
+!!  * **v5_keritä** = keritä:ker
 !!  * **v6** = paeta:pake
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
@@ -606,7 +615,7 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 
 !+V+Der/minen:%>^Ami nen ; !CHECK FOR WHICH?
 
-LEXICON v2_ata !!≈ * **@CODE@** masinata etc
+LEXICON v2_ata_odd !!≈ * **@CODE@** masinata etc
 ! Prs+Sg3 masina/a, InfMa+Ade masinaamala, masinannu
 v2 ;
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ; 
@@ -633,7 +642,7 @@ v2 ;
 +V+Der/minen:%>^Ami nen ; !CHECK FOR WHICH?
 
 
-LEXICON v2_ata_odd !!≈ * **@CODE@** huomata etc
+LEXICON v2_ata_even !!≈ * **@CODE@** huomata etc
 !För Prs+Sg3 huoma/a, InfMa+Ade huomaamalla
 v2 ;
 +V+Act+Ind+Prs+Pl1:%>^Am^A K ; 
@@ -668,9 +677,8 @@ v2 ;
 +V+Der/minen:%>^Ami nen ; !CHECK FOR WHICH?
 
 
-LEXICON v2_Hata_odd !!≈ * **@CODE@** kohata etc
-!Testar införa nedanstående från v2_Hata_odd i alla (=v2_Hata onödig)
-v2_ata_odd ;
+LEXICON v2_Hata_even !!≈ * **@CODE@** kohata etc
+v2_ata_even ;
 +V+Act+Ind+Prt+Sg1:^WG%>si3n K ;
 +V+Act+Ind+Prt+Sg2:^WG%>si3t K ;
 +V+Act+Ind+Prt+Sg3:^WG%>si3 K ;
@@ -1443,7 +1451,7 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+Neg+Act+Imprt+ConNeg+Sg2:^WGe # ; !plus älä (älä anna)
 +V+Neg+Act+Imprt+ConNeg+Pl2:%>k^O # ; !plus älä (älkää antako)
 
-LEXICON v4_la_odd
+LEXICON v4_la_even
 v4_la ; !general contlex
 +V+InfMa+Ade:le%>m^Al^A K ; ! TODO -la / -lla
 +V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
@@ -1464,7 +1472,7 @@ v4_la ; !general contlex
 !+V+Act+PrsPrc+Sg+Nom:le%>vv^A K ; ! TODO -la / -lla !Ej variation i participformer
 !+V+Act+PrsPrc+Pl+Nom:le%>vv^At K ; ! TODO -la / -lla !Ej variation i participformer
 
-LEXICON v4_la_even
+LEXICON v4_la_odd
 v4_la ; !general contlex
 +V+InfMa+Ade:le%>m^All^A K ; ! TODO -la / -lla
 +V+Pass+PrsPrc+Sg+Nom:l%>t^Av^A K ; ! TODO -la / -lla
@@ -1554,7 +1562,7 @@ LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Neg+Act+Imprt+ConNeg+Pl2:l%>k^O # ;
 
 
-LEXICON v4_lla  !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
+LEXICON v4_lla !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
 +V+Inf:^WG%>l^A KK ;
 +V+Inf+Tra:^WG%>l^Akse PxK ;
 +V+InfE+Ins:^WGlen K ;
@@ -1625,7 +1633,7 @@ LEXICON v4_lla  !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
 
 +V+Der/minen:emi nen ;
 
-LEXICON v4_lla_even  !!≈ * **@CODE@** ajatella etc
+LEXICON v4_lla_odd  !!≈ * **@CODE@** ajatella etc
 v4_lla ;
 +V+Act+Ind+Prs+Pl1:e%>m^A K ;
 +V+Act+Ind+Prs+Pl3:e%>v^A K ; 
@@ -1636,7 +1644,7 @@ v4_lla ;
 +V+InfMa+Ade:e%>m^All^A K ; 
 
 
-LEXICON v4_lla_odd  !!≈ * **@CODE@** lauella etc
+LEXICON v4_lla_even   !!≈ * **@CODE@** lauella etc
 v4_lla ;
 +V+Act+Ind+Prs+Pl1:e%>mm^A K ;
 +V+Act+Ind+Prs+Pl3:e%>vv^A K ; 

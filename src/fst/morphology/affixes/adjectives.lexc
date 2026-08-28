@@ -149,6 +149,18 @@ LEXICON a1_kova
 !+A+Comp+Pl+Ill+Err/Orth:^AEe%>mphiin K ;
 !+A+Comp+Pl+Ade+Err/Orth:^AEe%>milla K ;
 
+LEXICON a1_vanha
+!! **LEXICON @LEXNAME@** for hyvä
+a1 ;
++A+Sg+Ill:^HMETA%>hh^A^A n_PxK ; !vanhhaan
++A+Pl+Ill:^HMETA%>hhoi2 n_PxK ; !vanhhoin 
++A+Pl+Par:^HMETA%>h^Vi2t^A PxK ; !vanhhaan
++A+Pl+Ill:^HMETA%>hoi2shii n_PxK ; ! 
++A+Pl+Ill:^HMETA%>hoi2hi n_PxK ; !vanhhoin K
++A+Superl+Sg+Nom:^WG%>i5i n_PxK ;    !vanhiin ^WG%>i5n K ; 
++A+Superl+Pl+Gen:^HMETA%>himpien PxK ;
+
+
 LEXICON a1_hyva
 !! **LEXICON @LEXNAME@** for hyvä
 +A:hyvä x1 ; 
