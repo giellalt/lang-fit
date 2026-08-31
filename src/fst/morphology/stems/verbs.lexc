@@ -15,11 +15,11 @@
 !!  * **v1_odd_var** = tapahtua:tapahtu>tapahtun AND tapahun !TBC - where does it occur?
 !!  * **v1_taitaa** = taitaa:taita lexicon because of t:s (although no a:0 in suffix)
 
-!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_even and v2_uta
+!!  * **v2** = cont lex for general forms from v2_ata, v2_ata_even and v2_uta
 !!  * **v2_ata_odd** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 !!  * **v2_ata_even** = even-stem -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
-!!  * **v2_havata** = havata:hava
+!!  * **v2_havata** = ONLY havata:hava
 !!  * **v2_Hata_even** = kohata:kohta
 
 !!  * **v3_ja** = voija:voi, uija etc
@@ -30,25 +30,22 @@
 !!  * **v3_tehha** = ONLY tehhä:te, tehä, tehjä
 !!  * **v3_nahha** = ONLY nähhä:nä, nähä, nähjä
 !!  * **v3_kaya** = ONLY käyä:kä
-!!  * **v3_ta** = ONLY myyta:my
+!!  * **v3_ta** = myyta:my
 !!  * **v3_a** = for infinitive forms with 'a; saa'a:saa
-!!  * **v3_j** = cont lex 
-!!  * **v3_other** = cont lex 
+!!  * **v3_j** = cont lex for v3_ja, v3_a, v3_ha
+!!  * **v3_other** = cont lex for all v3; prs-forms, prt-forms etc.
 
-!REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
-
-!!TBC
 !!  * **v4** = tulla:tul
 !!  * **v4_sta** = nousta:nous
 !!  * **v4_juosta** = juos:juo
 !!  * **v4_la_odd** = mairiskela:mairiske, nuola:nuo
 !!  * **v4_la_even** = varjela:varje >varjelee
-!!  * **v4_la** = cont lexica for v4_la_odd/even
+!!  * **v4_la** = cont lexicon for v4_la_odd/even
 !!  * **v4_lla_odd** = levahella:levahtel
 !!  * **v4_lla_even** = kaaella:kaatel
-!!  * **v4_lla** = cont lexica for v4_lla_odd/even
+!!  * **v4_lla** = cont lexicon for v4_lla_odd/even
 !!  * **v4_julkasta** = rangasta:rangas etc
-!!  * **v4_julkas** = cont lexica for v4_julkasta
+!!  * **v4_julkas** = cont lexicon for v4_julkasta
 
 !!  * **v5** = tarvita:tarv
 !!  * **v5_keritä** = keritä:ker
@@ -56,11 +53,12 @@
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
+!(REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut)
+
 !! ### Irregular verbs
 !!  * **OLLA**
 !!  * **NEG**
 
-!REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
 
 !! ## The verb lexica themselves
 
@@ -69,13 +67,13 @@
 LEXICON VerbRoot !!≈ * **@CODE@** = The verb list 
 
 !! Irregular verbs
-olla: OLLA ; !!≈ * **@CODE@** 
-ei: NEG ;    !!≈ * **@CODE@** 
+olla: OLLA ; 
+ei: NEG ;    
 
 
 !! v1 sanoa, lukea
-sanoa:sano v1 ;  !!≈ * **@CODE@** 
-hukkua:hukku v1 ;  !!≈ * **@CODE@** 
+sanoa:sano v1 ; 
+hukkua:hukku v1 ;  
 syyttää:syyttä v1 ;
 freistaa:freista v1 ;
 sopia:sopi v1 ;
@@ -85,20 +83,18 @@ käyttää:käyttä v1 ;
 
 
 !! v2 tryykätä
-hypätä:hyppä v2_ata_even ;  !!≈ * **@CODE@** 
-tryykätä:tryykkä v2_ata_even ;  !!≈ * **@CODE@** 
+hypätä:hyppä v2_ata_even ;  
+tryykätä:tryykkä v2_ata_even ; 
 hourata:houra v2_ata_even ;
 
 
 !! v3 syödä, juoda
-syä:sy v3_syä ;  !!≈ * **@CODE@** 
-jua:ju v3_jua ;   !!≈ * **@CODE@** 
-viejä:vi v3_ja_short ; ! testing _ja
+syä:sy v3_syä ;  
+jua:ju v3_jua ;  
+viejä:vi v3_ja_short ;
 !viä:vi v3_viä ; 
 saaja:saa v3_ha ;
 saa’a:saa v3_a ;
-!saa:saa v3_ja ; 
-!jää:jää v3_ja ;
 voija:voi v3_ja ;
 naija:nai v3_ja ;
 uija:ui v3_ja ;
@@ -2216,7 +2212,7 @@ vihotella:vihottel v4_lla_odd ;
 kaivella:kaivel v4_lla_even  ;
 kuivella:kuivel v4_lla_even  ;
 juvella:juvel v4_lla_even  ;
-maijailla:maijail v4_lla_even  ; !Err/Orth CHECK t o m 2227
+maijailla:maijail v4_lla_even  ; !Err/Orth CHECK t o m 2230
 leijailla:leijail v4_lla_even  ;
 loikkailla:loikkail v4_lla_even  ;
 kaalailla:kaalail v4_lla_even  ;
@@ -2239,13 +2235,12 @@ loitoilla:loitoil v4_lla_even  ;
 loijuilla:loijuil v4_lla_even  ;
 muijjuilla:muijjuil v4_lla_even  ;
 loikolla:loikkol v4_lla_even  ;
-kuola+Err/Orth:kuol v4_lla_odd ;
+kuola+Err/Orth:kuol v4_lla_odd ;! Err/Orth; should be kuola:kuo etc
 nuola+Err/Orth:nuol v4_lla_odd ;
 vuola+Err/Orth:vuol v4_lla_odd ;
-!tulla:tul v4_lla_odd ;
 luula+Err/Orth:luul v4_lla_odd ;
 tuula+Err/Orth:tuul v4_lla_odd ;
-kuula+Err/Orth:kuul v4_lla_odd ; !CHECK Err/Orth?
+kuula+Err/Orth:kuul v4_lla_odd ; ! Err/Orth; should be kuula:kuu etc
 yytmoola:yytmoo v4_la_even ;
 kuola:kuo v4_la_odd ;
 nuola:nuo v4_la_odd ;
@@ -2584,7 +2579,7 @@ krookata:krookka v2_ata_even ;
 pokata:pokka v2_ata_even ;
 krokata:krokka v2_ata_even ;
 huokata:huokka v2_ata_even ;
-huokata+Err/Orth:huoka v2_ata_even ; !CHECK EK
+huokata+Err/Orth:huoka v2_ata_even ;
 juokata:juokka v2_ata_even ;
 muokata:muokka v2_ata_even ;
 parkata:parkka v2_ata_even ;
@@ -3191,15 +3186,15 @@ kolveta:kolve v6 ;
 koveta:kove v6 ;
 torveta:torve v6 ;
 ruveta:ruve v6 ;
-!vanhaita:vanhai v2_uta ; !CHECK!
+!vanhaita:vanhai v2_uta ; 
 ansaita:ansai v5 ;
 fangita:fangi v5 ; 
-!tohita:tohi v2_uta ; !CHECK!
+!tohita:tohi v2_uta ;
 kuohita:kuohi v5 ;
 karhita:karhi v5 ;
 palkita:palki v5 ;
 parkita:parki v5 ;
-valita:vali v5 ; ! xxx
+valita:vali v5 ; 
 talita:tali v5 ;
 hallita:halli v5 ;
 kallita:kalli v5 ; !CHECK EK
@@ -3208,8 +3203,8 @@ solmita:solmi v5 ;
 tuomita:tuomi v5 ; 
 mainita:maini v5 ;
 punnita:punni v5 ;
-!mutikoita:mutikoi v2_uta ; !CHECK!
-!ateroita:ateroi v2_uta ; !CHECK!
+mutikoita:mutikoi v3_ta ; 
+ateroita:ateroi v3_ta ; 
 kaupita:kaupi v5 ;
 kaarita:kaari v5 ;
 vaatita:vaati v5 ; 
@@ -4570,7 +4565,7 @@ levitä:levi v2_uta ;
 ihvitä:ihvi v2_uta ; 
 selvitä:selvi v2_uta ; 
 hävitä:hävi v2_uta ;
-metelöitä:metelöi v5 ;
+metelöitä:metelöi v3_ta ;
 piestä:pieks v4 ;
 pestä:pes v4 ;
 pyhkästä:pyhkäs v4_julkasta ;
@@ -4684,7 +4679,7 @@ pärjätä:pärjä v2_ata_even ;
 mörjätä:mörjä v2_ata_even ;
 läjätä:läjä v2_ata_even ;
 vääjätä:vääjä v2_ata_even ;
-löyhkätä:löyh2kä v2_ata_even ; !4/3
+löyhkätä:löyh2kä v2_ata_even ;
 kenkätä:kenkkä v2_ata_even ;
 rynkätä:rynkkä v2_ata_even ;
 mänkätä:mänkkä v2_ata_even ;
@@ -4868,7 +4863,7 @@ typehtyä:typehty v1_odd ;
 erehtyä:erehty v1_odd ;
 perehtyä:perehty v1_odd ;
 kirrehtyä:kirrehty v1_odd ;
-yrehtyä:yrehty v1_odd ; !H9
+yrehtyä:yrehty v1_odd ; 
 kiihtyä:kiihty v1 ;
 viihtyä:viihty v1 ;
 kihtyä:kihty v1 ;
@@ -5131,7 +5126,7 @@ heitähtää:heitähtä v1_odd ;
 levähtää:levähtä v1_odd ;
 nyrvähtää:nyrvähtä v1_odd ;
 siitää:siitä v1 ;
-sisältää:sisältä v1_odd ; ! -mmä?
+sisältää:sisältä v1_odd ; 
 peheltää:peheltä v1_odd ;
 viheltää:viheltä v1_odd ;
 kieltää:kielt4ä v1 ;
@@ -5433,7 +5428,7 @@ töylyttää:töylyttä v1_odd ;
 vihelyttää:vihelyttä v1 ;
 köhmyttää:köhmyttä v1_odd ;
 hämyttää:hämyttä v1_odd ;
-nyttää:nyttä v1 ; !H10 och 10024.txt
+nyttää:nyttä v1 ;
 pienenyttää:pienenyttä v1 ;
 venyttää:venyttä v1_odd ;
 kyhnyttää:kyhnyttä v1_odd ;
@@ -5650,10 +5645,9 @@ lemmehtyä:lemmehty v1_odd ;
 mettäintyä:mettäinty v1_odd ;
 vertyä:verty v1 ;
 tivistyä:tivisty v1_odd ;
-tiettyä:tietty v1 ; ! XXX ?
+tiettyä:tietty v1 ; 
 siunaila:siunai v4_la_even ; 
 ajatella:ajattel v4_lla_odd ;
-ajatellaX:ajattel v4 ; !test
 klaakottaa:klaakotta v1_odd ;
 kalkattaa:kalkatta v1_odd ;
 sylkeä:sylke v1 ;

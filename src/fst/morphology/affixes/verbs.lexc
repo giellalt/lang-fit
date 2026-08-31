@@ -2,7 +2,6 @@
 
 !! This file documents ['affixes/verbs.lexc', the file for Meänkieli verb morphology](http://github.com/giellalt/lang-fit/blob/main/src/fst/affixes/verbs.lexc)  
 
-
 !! ## Overview over the continuation classes
 
 !! ### Continuation lexica for regular verbs
@@ -14,11 +13,11 @@
 !!  * **v1_odd_var** = tapahtua:tapahtu>tapahtun AND tapahun !TBC - where does it occur?
 !!  * **v1_taitaa** = taitaa:taita lexicon because of t:s (although no a:0 in suffix)
 
-!!  * **v2** = cont lex, general forms for v2_ata, v2_ata_even and v2_uta
+!!  * **v2** = cont lex for general forms from v2_ata, v2_ata_even and v2_uta
 !!  * **v2_ata_odd** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 !!  * **v2_ata_even** = even-stem -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
 !!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
-!!  * **v2_havata** = havata:hava
+!!  * **v2_havata** = ONLY havata:hava
 !!  * **v2_Hata_even** = kohata:kohta
 
 !!  * **v3_ja** = voija:voi, uija etc
@@ -29,25 +28,22 @@
 !!  * **v3_tehha** = ONLY tehhä:te, tehä, tehjä
 !!  * **v3_nahha** = ONLY nähhä:nä, nähä, nähjä
 !!  * **v3_kaya** = ONLY käyä:kä
-!!  * **v3_ta** = ONLY myyta:my
+!!  * **v3_ta** =  myyta:my, 
 !!  * **v3_a** = for infinitive forms with 'a; saa'a:saa
-!!  * **v3_j** = cont lex 
-!!  * **v3_other** = cont lex 
+!!  * **v3_j** = cont lex for v3_ja, v3_a, v3_ha
+!!  * **v3_other** = cont lex for all v3; prs-forms, prt-forms etc.
 
-!REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut
-
-!!TBC
 !!  * **v4** = tulla:tul
 !!  * **v4_sta** = nousta:nous
 !!  * **v4_juosta** = juos:juo
 !!  * **v4_la_odd** = mairiskela:mairiske, nuola:nuo
 !!  * **v4_la_even** = varjela:varje >varjelee
-!!  * **v4_la** = cont lexica for v4_la_odd/even
+!!  * **v4_la** = cont lexicon for v4_la_odd/even
 !!  * **v4_lla_odd** = levahella:levahtel
 !!  * **v4_lla_even** = kaaella:kaatel
-!!  * **v4_lla** = cont lexica for v4_lla_odd/even
+!!  * **v4_lla** = cont lexicon for v4_lla_odd/even
 !!  * **v4_julkasta** = rangasta:rangas etc
-!!  * **v4_julkas** = cont lexica for v4_julkasta
+!!  * **v4_julkas** = cont lexicon for v4_julkasta
 
 !!  * **v5** = tarvita:tarv
 !!  * **v5_keritä** = keritä:ker
@@ -55,13 +51,14 @@
 !!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
+!(REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut)
+
 !! ### Irregular verbs
 !!  * **OLLA**
 !!  * **NEG**
 
 
 !! ## The verb lexica themselves
-
 
 LEXICON vx !!≈ * **@CODE@**
 !! **LEXICON @LEXNAME@** pointing to *v1*
@@ -230,7 +227,8 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon because of changes in dift
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:e%>^N^Ut K ; 
 +V+Act+PrfPrc+Sg+Nom:et%>^A^N^U K ; 
 +V+Act+PrfPrc+Pl+Nom:e%>hneet K ;
-+V+Act+PrfPrc+Pl+Nom:e%>nheet K ; 
++V+Act+PrfPrc+Pl+Nom:e%>nheet K ; !Ta bort pga nedan?
++V+Act+PrfPrc:e%>nhee ptc_obl ;!Test 31/8
 +V+Act+PrfPrc+Pl+Nom:et%>^Ahneet K ; 
 +V+Act+PrfPrc+Pl+Nom:et%>^Anheet K ;
 +V+Pass+PrfPrc+Sg+Nom:e%>tt^U K ; 
@@ -605,7 +603,7 @@ LEXICON v2  !!≈ * **@CODE@** continuation lexica for huomata, haluta övriga f
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>^N^Ut K ;
 !+V+Act+PrfPrc+Sg+Nom:^WG%>^N^N^U K ;
-+V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! CHECK använder bara Pl+Nom
++V+Act+PrfPrc:^WG%>nhee ptc_obl ; ! 
 +V+Act+PrfPrc+Pl+Nom:^WG%>hneet K ; 
 +V+Pass+PrfPrc+Sg+Nom:^WGt%>t^U K ;
 +V+Pass+PrfPrc+Pl+Nom:^WGt%>^Ut K ;
@@ -783,7 +781,8 @@ LEXICON v2_havata  !!≈ * **@CODE@** havata-paradigm havata:hava
 +V+Act+PrfPrc+Sg+Nom:%>n^U K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>n^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:%>n^HMET2%>heet K;
-+V+Act+PrfPrc+Pl+Nom:%>nheet K;
++V+Act+PrfPrc+Pl+Nom:%>nheet K ;
++V+Act+PrfPrc:%>nhee ptc_obl ;
 +V+Pass+PrfPrc+Sg+Nom:%>tt^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ; !havatut
 
@@ -817,7 +816,7 @@ LEXICON ptc_obl
  +Sg+Ess:%>n^A PxK ;   
  +Sg+Abe:%>tt^A PxK ;  
  +Pl+Nom:%>t PxK ;
- +Pl+Nom+Err/Orth:%> PxK ; !test 29/10
+ +Pl+Nom+Err/Orth:%> PxK ; 
  +Pl+Gen:%>itten PxK ;
  +Pl+Par:%>itt^A PxK ;
  +Pl+Ill:%>isii n_PxK ; 
@@ -1071,6 +1070,7 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:y%>^N^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:y%>^Nheet K ;
 +V+Act+PrfPrc+Pl+Nom:y%>^N^HMET2%>heet K ;
++V+Act+PrfPrc:y%>^Nhee x3_oblique ;
 !+V+Act+PrfPrc:yn%> PRFPRC_OBL  ;
 !+V+Pass+PrfPrc+Pl+Nom:y’%>^U%>t K ; 
 
@@ -1148,6 +1148,7 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 !+V+Act+PrfPrc:h%>^Nhee PRFPRC_OBL ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
 +V+Act+PrfPrc+Pl+Nom:h%>^Neet K ; 
++V+Act+PrfPrc:h%>^Nhee x3_oblique ;
 
 +V+Act+Imprt+Sg2:e K   ;
 +V+Act+Imprt+Pl2:h%>k^A^A K ;
@@ -1193,7 +1194,8 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:h%>^n^Ut K ;
-+V+Act+PrfPrc+Pl+Nom:h%>neet K ; 
++V+Act+PrfPrc+Pl+Nom:h%>neet K ;
++V+Act+PrfPrc:h%>^Nhee x3_oblique ; 
 !+V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
 !+V+Pass+PrfPrc:h%>y PRFPRC_OBL ;
