@@ -1,37 +1,32 @@
 # Lemma-tests for *verbs* in ...`verbs.lexc`
 
 
-**lititä** failures:
+**sihata** failures:
 
-* `lititä+V+Inf` => `lijitä`
-* `lititä` has no analyses either
+* `sihata+V+Inf` => `sihtata`
+* `sihata` has no analyses either
 
-**vetää** failures:
+**ei** failures:
 
-* `vetää+V+Inf` => `vettää`
-* `vetää` has no analyses either
+* `ei+V+Inf` does not generate!
+* `ei` has following analyses:
+  * `ei+V+Neg+Act+Prs+Pl3`
+  * `ei+V+Neg+Act+Prs+Sg3`
+
+**rueta** failures:
+
+* `rueta+V+Inf` => `ruveta`
+* `rueta` has no analyses either
+
+**kenkitä** failures:
+
+* `kenkitä+V+Inf` => `kengitä`
+* `kenkitä` has no analyses either
 
 **jakaa** failures:
 
 * `jakaa+V+Inf` => `jakkaa`
 * `jakaa` has no analyses either
-
-**jakata** failures:
-
-* `jakata+V+Inf` => `jaata`
-* `jakata` has following analyses:
-  * `jakkaa+V+Pass+Ind+Prs+ConNeg`
-
-**kipenöijä** failures:
-
-* `kipenöijä+V+Inf` => `kipenöitä`
-* `kipenöijä` has no analyses either
-
-**myyta** failures:
-
-* `myyta+V+Inf` => `myytä`
-* `myyta` has following analyses:
-  * `myytata+V+Act+Imprt+Sg2`
 
 **piestä** failures:
 
@@ -40,15 +35,100 @@
   * `Pike+N+Prop+Sem/Sur+Sg+Ela`
   * `piki+N+Sg+Ela`
 
+**vaihtela** failures:
+
+* `vaihtela+V+Inf` => `vaihela`
+* `vaihtela` has following analyses:
+  * `vaihtela+V+Pass+Ind+Prs+ConNeg`
+
+**vetelä** failures:
+
+* `vetelä+V+Inf` => `veelä`
+* `vetelä` has following analyses:
+  * `vetelä+A+Sg+Nom`
+  * `vetelä+V+Pass+Ind+Prs+ConNeg`
+
+**levennellä** failures:
+
+* `levennellä+V+Inf` => `levenellä`
+* `levennellä` has no analyses either
+
+**solmia** failures:
+
+* `solmia+V+Inf` => `solmiaa`
+* `solmia` has following analyses:
+  * `solmia+V+Act+Ind+Prs+ConNeg`
+  * `solmia+V+Neg+Act+Imprt+ConNeg+Sg2`
+  * `solmi+N+Sg+Par`
+  * `solmia+V+Act+Imprt+Sg2`
+
+**vaihtella** failures:
+
+* `vaihtella+V+Inf` => `vaihella`
+* `vaihtella` has following analyses:
+  * `vaihtella+V+Pass+Ind+Prs+ConNeg`
+
+**latela** failures:
+
+* `latela+V+Inf` => `laela`
+* `latela` has following analyses:
+  * `latela+V+Pass+Ind+Prs+ConNeg`
+
+**vetää** failures:
+
+* `vetää+V+Inf` => `vettää`
+* `vetää` has no analyses either
+
+**kiemurtella** failures:
+
+* `kiemurtella+V+Inf` => `kiemurrella`
+* `kiemurtella` has no analyses either
+
+**utela** failures:
+
+* `utela+V+Inf` => `uela`
+* `utela` has following analyses:
+  * `utela+V+Pass+Ind+Prs+ConNeg`
+
 **pala** failures:
 
 * `pala+V+Inf` => `pallaa`
 * `pala` has following analyses:
+  * `pala+V+Neg+Act+Imprt+ConNeg+Sg2`
   * `pala+V+Act+Ind+Prs+ConNeg`
   * `palata+V+Act+Imprt+Sg2`
   * `pala+V+Act+Imprt+Sg2`
-  * `pala+V+Neg+Act+Imprt+ConNeg+Sg2`
   * `pala+N+Sg+Nom`
+
+**liennellä** failures:
+
+* `liennellä+V+Inf` => `lienellä`
+* `liennellä` has no analyses either
+
+**keritä** failures:
+
+* `keritä+V+Inf` => `kerkitä`
+* `keritä` has following analyses:
+  * `kerittää+V+Act+Imprt+Sg2`
+  * `keriä+V+Pass+Ind+Prs+ConNeg`
+  * `kerittää+V+Neg+Act+Imprt+ConNeg+Sg2`
+  * `kerittää+V+Act+Ind+Prs+ConNeg`
+
+**jakata** failures:
+
+* `jakata+V+Inf` => `jaata`
+* `jakata` has following analyses:
+  * `jakkaa+V+Pass+Ind+Prs+ConNeg`
+
+**lititä** failures:
+
+* `lititä+V+Inf` => `lijitä`
+* `lititä` has no analyses either
+
+**menennellä** failures:
+
+* `menennellä+V+Inf` => `menenellä`
+* `menennellä` has no analyses either
 
 **totea** failures:
 
@@ -58,131 +138,9 @@
   * `toeta+V+Act+Ind+Prs+ConNeg`
   * `toeta+V+Act+Imprt+Sg2`
 
-**menennellä** failures:
-
-* `menennellä+V+Inf` => `menenellä`
-* `menennellä` has no analyses either
-
-**metelöijä** failures:
-
-* `metelöijä+V+Inf` => `metelöitä`
-* `metelöijä` has no analyses either
-
-**rueta** failures:
-
-* `rueta+V+Inf` => `ruveta`
-* `rueta` has no analyses either
-
-**myyä** failures:
-
-* `myyä+V+Inf` => `myyjä`
-* `myyä+V+Inf` => `myyhä`
-* `myyä+V+Inf` => `myy’ä`
-* `myyä` has following analyses:
-  * `myyta+V+Pass+Ind+Prs+ConNeg`
-  * `myä+V+Inf`
-  * `myyä+V+Pass+Ind+Prs+ConNeg`
-  * `myytä+V+Pass+Ind+Prs+ConNeg`
-
-**keritä** failures:
-
-* `keritä+V+Inf` => `kerkitä`
-* `keritä` has following analyses:
-  * `keriä+V+Pass+Ind+Prs+ConNeg`
-  * `kerittää+V+Act+Imprt+Sg2`
-  * `kerittää+V+Neg+Act+Imprt+ConNeg+Sg2`
-  * `kerittää+V+Act+Ind+Prs+ConNeg`
-
-**sihata** failures:
-
-* `sihata+V+Inf` => `sihtata`
-* `sihata` has no analyses either
-
-**latela** failures:
-
-* `latela+V+Inf` => `laela`
-* `latela` has following analyses:
-  * `latela+V+Pass+Ind+Prs+ConNeg`
-
-**levennellä** failures:
-
-* `levennellä+V+Inf` => `levenellä`
-* `levennellä` has no analyses either
-
-**vaihtela** failures:
-
-* `vaihtela+V+Inf` => `vaihela`
-* `vaihtela` has following analyses:
-  * `vaihtela+V+Pass+Ind+Prs+ConNeg`
-
-**utela** failures:
-
-* `utela+V+Inf` => `uela`
-* `utela` has following analyses:
-  * `utela+V+Pass+Ind+Prs+ConNeg`
-
-**ajatellaX** failures:
-
-* `ajatellaX+V+Inf` => `ajattella`
-* `ajatellaX` has no analyses either
-
-**solmia** failures:
-
-* `solmia+V+Inf` => `solmiaa`
-* `solmia` has following analyses:
-  * `solmi+N+Sg+Par`
-  * `solmia+V+Neg+Act+Imprt+ConNeg+Sg2`
-  * `solmia+V+Act+Ind+Prs+ConNeg`
-  * `solmia+V+Act+Imprt+Sg2`
-
-**liennellä** failures:
-
-* `liennellä+V+Inf` => `lienellä`
-* `liennellä` has no analyses either
-
-**kenkitä** failures:
-
-* `kenkitä+V+Inf` => `kengitä`
-* `kenkitä` has no analyses either
-
-**ikävöijä** failures:
-
-* `ikävöijä+V+Inf` => `ikävöitä`
-* `ikävöijä` has no analyses either
-
-**vetelä** failures:
-
-* `vetelä+V+Inf` => `veelä`
-* `vetelä` has following analyses:
-  * `vetelä+V+Pass+Ind+Prs+ConNeg`
-  * `vetelä+A+Sg+Nom`
-
-**vaihtella** failures:
-
-* `vaihtella+V+Inf` => `vaihella`
-* `vaihtella` has following analyses:
-  * `vaihtella+V+Pass+Ind+Prs+ConNeg`
-
-**kiemurtella** failures:
-
-* `kiemurtella+V+Inf` => `kiemurrella`
-* `kiemurtella` has no analyses either
-
-**ei** failures:
-
-* `ei+V+Inf` does not generate!
-* `ei` has following analyses:
-  * `ei+V+Neg+Act+Prs+Sg3`
-  * `ei+V+Neg+Act+Prs+Pl3`
-
-**höperöijä** failures:
-
-* `höperöijä+V+Inf` => `höperöitä`
-* `höperöijä` has no analyses either
-
 ## Lemma statistics
-* 5535 lemmas
-* 99.43992773261066 % success
+* 5524 lemmas
+* 99.56553222302679 % success
 
 ## Settings used
 

@@ -1271,7 +1271,7 @@ LEXICON v4  !!≈ * **@CODE@** tulla, mennä etc
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ;
 +V+Act+PrfPrc+Pl+Nom:%>heet K ;
 +V+Act+PrfPrc+Pl+Nom:^HMET2%>heet K ; 
-
++V+Act+PrfPrc:^HMET2%>hee x3_oblique ; 
 +V+Act+PrsPrc:e%>v^A x3 ;
 +V+Pass+PrsPrc+Sg+Nom:%>t^Av^A K ;
 +V+Pass+PrsPrc+Pl+Nom:%>t^Av^At K ;
