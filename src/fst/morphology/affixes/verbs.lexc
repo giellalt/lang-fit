@@ -126,7 +126,7 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Pl2+Err/Orth:olette K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:ollut K ;
 +V+Act+Ind+Prt+ConNeg+Sg+Err/Orth:ollut K ;
-+V+Act+PrfPrc+Err/Orth:ollee ptc_obl ;
+!+V+Act+PrfPrc+Err/Orth:ollee ptc_obl ; !THIS GETS GENERATED with hdfit!!
 +V+Act+Ind+Prt+ConNeg+Pl+Err/Orth:olleet K ;
 
 +V+Act+Imprt+Sg1:ole # ;
@@ -1835,8 +1835,8 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 
 +V+Act+PrfPrc+Sg+Nom:^WG%>^N^U K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>^N^Ut K ;
-+V+Act+PrfPrc:^WG%>^Nhee x3_oblique ;
-+V+Act+PrfPrc+Pl+Nom:%>^N^HMET2heet K ;
++V+Act+PrfPrc:^WG%>^Nhee x3_oblique ; !kyenheet etc
++V+Act+PrfPrc+Pl+Nom:^WG%>hneet K ;
 
 +V+Act+PrsPrc:n%>ev^A x3 ;
 +V+Pass+PrsPrc:^WGt%>t^Av^A x3 ;
@@ -1844,13 +1844,13 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 !+V+Pass+PrfPrc+Sg+Nom:%>tt^U K ;
 !+V+Pass+PrfPrc+Pl+Nom:%>t^Ut K ;
 
-+V+Act+Imprt+Sg2:^WG%>ne # ;
++V+Act+Imprt+Sg2:%>ne # ;
 !+V+Act+Imprt+Sg:%>t^Akh^O^On # ;
 +V+Act+Imprt+Pl2:^WG%>kk^A^A # ;
 +V+Act+Imprt+Pl3:^WG%>t^A%>kh^O^Ot # ;
 
-+V+Neg+Act+Imprt+ConNeg+Sg2:^WG%>ne K ;
-+V+Neg+Act+Imprt+ConNeg+Pl2:%>kk^O K ;
++V+Neg+Act+Imprt+ConNeg+Sg2:%>ne K ;
++V+Neg+Act+Imprt+ConNeg+Pl2:^WG%>kk^O K ;
 
 +V+Act+Ind+Prs+Sg1:ne%>n K ;
 +V+Act+Ind+Prs+Sg2:ne%>t K ;
