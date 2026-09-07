@@ -1348,7 +1348,7 @@ LEXICON v4_juosta  !!≈ * **@CODE@** juosta TBC
 +V+Act+PrfPrc+Sg+Nom:%>ss^U K ; !noussu! menny etc
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:%>ss^Ut K ; !noussu! menny etc
 +V+Act+PrfPrc+Pl+Nom:%>sheet PxK ;
-+V+Act+PrfPrc:shee x3_oblique ; !7/9 eem
++V+Act+PrfPrc:shee x3_oblique ; 
 +V+Pass+PrfPrc+Sg+Nom:%>st^U K ; !noustu, menty 
 +V+Pass+PrfPrc+Pl+Nom:%>st^U%>t K ;
 +V+Pass+Cond:%>ksi4s K ;
@@ -1516,7 +1516,7 @@ LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+PrfPrc+Sg+Nom:l%>^U K ; 
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:l%>^Ut K ; 
 +V+Act+PrfPrc:%>lhee x3_oblique ;
-+V+Act+PrfPrc:%>hlee x3_oblique ; !7/9 eem
++V+Act+PrfPrc:%>hlee x3_oblique ; 
 +V+Pass+PrfPrc+Sg+Nom:l%>t^U K ;
 +V+Pass+PrfPrc:^WG%>lt^U x3_oblique ;
 
@@ -1585,7 +1585,7 @@ LEXICON v4_lla !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:^WG%>l^Ut K ;
 +V+Pass+PrfPrc+Sg+Nom:^WG%>t^U K ;
 +V+Act+PrfPrc+Pl+Nom:^WG%>heet K ;
-+V+Act+PrfPrc:hee x3_oblique ; !7/9 eem
++V+Act+PrfPrc:hee x3_oblique ; 
 +V+Act+PrfPrc:^HMET2%>hee x3_oblique ;
 +V+Pass+PrfPrc:^WG%>t^U x3_oblique ;
 
@@ -1802,8 +1802,8 @@ LEXICON v5_keritä !!≈ * **@CODE@**  keritä:kerki
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:i%>^N^Ut K ; !kerinyt
 +V+Act+PrfPrc+Pl+Nom:i%>hneet K ;
 +V+Act+PrfPrc+Pl+Nom:i%>nheet K ; 
-+V+Act+PrfPrc:i%>hnee x3_oblique ; !7/9 em
-+V+Act+PrfPrc:i%>nhee x3_oblique ; !7/9 em
++V+Act+PrfPrc:i%>hnee x3_oblique ; 
++V+Act+PrfPrc:i%>nhee x3_oblique ; 
 +V+Pass+PrfPrc+Sg+Nom:i%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:i%>t^Ut K ; 
 
