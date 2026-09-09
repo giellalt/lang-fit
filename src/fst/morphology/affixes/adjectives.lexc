@@ -4,7 +4,7 @@
 !! Most lexica here (*a1, a_e, ...*) add **+A**, and thereafter redirect to the corresponding **x1, x_e, ...** lexicon in `affixes/nouns.lexc` for case inflection.
 !! In addition, each lexicon also points to comparative and superlative sublexica.
 
-!! * a1: pointing to x1, even syllable adjectives; kova, iso
+!! * a1: pointing to x1, even syllable adjectives; hullu, iso
 !! * a1_ta: as a1 plus plural partitive -ta; paksuita
 !! * a1_aa: even syll adj ending with -aa; vanhaa
 !! * a1_kova: just for kova 
@@ -45,7 +45,7 @@ LEXICON a1
 +A+Comp:^AE 3comp ; !!≈ * @CODE@ 
 +A+Comp+Pl+Gen:^AE%>mpien K ;
 +A+Comp+Sg+Nom:^AE^WG%>mpi K ; !30/7 flyttat tillbaka wg till före gräns
-+A+Superl: 3sup ; !!≈ * @CODE@
++A+Superl: 3sup ; 
 
 LEXICON a1_ta 
 !! **LEXICON @LEXNAME@** vanhaa !TODO!
@@ -116,7 +116,7 @@ LEXICON a1_aa
 
 
 LEXICON a1_kova 
-!! **LEXICON @LEXNAME@** Like a1 but: 
+!! **LEXICON @LEXNAME@** Like a1 but: also kovviiman, kovviin, kovviimphaan
 +A: x1 ; 
 +A+Sg+Nom: R ; 
 +A+Sg+Gen:^WG%>n R ;  
@@ -422,10 +422,20 @@ LEXICON a5_moni
 ! **LEXICON @LEXNAME@** what is the difference from a4? moni:mon, nuori:nuor
  +A+Nom:i R ;
  +A+Sg+Gen:en R ;
- :e a4 ; 
+ :e a4 ; !andra grundformer + all comperative, superlative
  +A+Sg+Nom:i       PxK ; ! s
  +A+Sg+Par:%>t^A      PxK ; 
  +A+Pl+Gen:ien PxK ; !monien
+
+LEXICON a5
+!! **LEXICON @LEXNAME@** moni, stem mone-
+ +A: x5_sg ;
+ +A: x5_pl ;
+ +A+Pl+Gen:^E2Ie%> n_PxK ; !monien
+ +A+Pl+Gen:%>te n_PxK ; ! monten
+ +A+Comp: 3comp ; !CHECK!
+ +A+Comp+Sg+Nom:^WG%>mpi K ;
+ +A+Superl: 3sup ; !CHECK! !TODO e-delete in nuorin etc (not nuorein)
 
 LEXICON a5_uusi
 ! **LEXICON @LEXNAME@**  uusi:uu, täysi:täy etc

@@ -24099,6 +24099,7 @@ Solccar+OLang/UND:Solccar p_plc_3C ; !FIN
 Oscar:Oscar p_mal_3C ;
 Idar:Idar p_mal_3C ;
 Hadar:Hadar p_fem_3C ;
+Nour:Nour p_fem_3C ;
 Zadar:Zadar p_plc_1C ;
 Bedar:Bedar p_mal_3C ;
 Cedar:Cedar p_plc_1C ;

@@ -453,7 +453,7 @@ LEXICON x3_äö_pl
  +Pl+Abe:%>öi2tt^A PxK ;
 
  
- LEXICON n3_ta
+LEXICON n3_ta
  !! **LEXICON @LEXNAME@**
  +N+Cmp/SgNom: R ;
  +N+Cmp/SgGen:^WG%>n R ;
@@ -473,7 +473,7 @@ LEXICON x3_äö_pl
 
  +N: x3_pl ;
 
- LEXICON n3_lma
+LEXICON n3_lma
  !! **LEXICON @LEXNAME@**
  +N+Cmp/SgNom:a R ;
  +N+Cmp/SgGen:a^WG%>n R ;
@@ -493,7 +493,7 @@ LEXICON x3_äö_pl
  +N+Pl+Ess:%>i2n^A PxK ;
  +N+Pl+Abe:%>i2tt^A PxK ;
 
- LEXICON n3_asia
+LEXICON n3_asia
  !! **LEXICON @LEXNAME@**
  n3 ;
  +N+Sg+Par:%>t^A PxK ; !asiata
@@ -574,7 +574,7 @@ LEXICON n5
  +N+Pl+Gen:%>te n_PxK ; ! kielten
 
 
- LEXICON x5_sg
+LEXICON x5_sg
 !! **LEXICON @LEXNAME@** kieli, stem kiele
  x4_sg ;
  +Sg+Nom:^E2I       PxK ; ! kieli
