@@ -710,6 +710,7 @@ i:0 <=>
 	               Cns: _ (WeakGrade) %>  [i3:|i8:] ; ! sopia : sopi, oppia : oppi removed i2
       [#|.#.] (Cns) Vow _ %> i3: ; ! uija>uin
                   Cns: _ (%^WG:) %^IDEL: %> [i2:|e:] ; ! tukki : tukkitten 
+                  _ %^IDEL:0 (%^WG:) e (%^WG:) %> i5: ; !i:0 before superlative
                    ! tarkista: xxx "i to e in plural" i:e <=> Cns: _ ([Dummy: - %^HMETA:]) %> i2: ;
                    ![(^%HMETA: h: |%^HMET2: h:)] 
 

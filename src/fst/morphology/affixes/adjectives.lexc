@@ -694,6 +694,18 @@ LEXICON x1_ton
 +Superl: 3sup ; !!≈ * @CODE@
 
 
+LEXICON a5_odd 
+!! **LEXICON @LEXNAME@** normaali etc
++A: x5_troppi_odd ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;  
++A+Pl+Gen:^WG^IDEL%>i2e n_PxK ;
++A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
++A+Comp: 4comp ;  
++A+Comp+Pl+Gen:%>mpien K ;
++A+Comp+Sg+Nom:^WG%>mpi K ; 
++A+Superl:^IDELe 4sup ; 
+
 !! ## Comparative inflection
 !  ----------------------
 

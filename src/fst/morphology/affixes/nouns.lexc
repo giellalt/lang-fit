@@ -1498,40 +1498,43 @@ LEXICON n5_troppi_ii
 +N+Pl+Ess:%>i%>n^A PxK ;     !
 +N+Pl+Abe:%>i^WG%>tt^A PxK ;
 
-
 LEXICON n5_troppi_odd
 !! **LEXICON @LEXNAME@**
-+N+Sg+Nom:       PxK ; !! 
-+N+Cmp/SgNom: R ;
-+N+Cmp/SgGen:^WG%>n R ;
-+N+Sg+Gen:^WG%> n_PxK ; !! 
-+N+Sg+Par:%>^A PxK ; !! 
-+N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! 
-+N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! 
-+N+Sg+Ine:^WG%>ss^A PxK ;       ! 
-+N+Sg+Ela:^WG%>st^A PxK ;       ! 
-+N+Sg+All:^WG%>lle PxxK ;        ! sapattille
-+N+Sg+Ade:^WG%>ll^A PxK ;        ! 
-+N+Sg+Abl:^WG%>lt^A PxK ;       ! 
-+N+Sg+Tra:^WG TRA ;             ! 
-+N+Sg+Ess:%>nn^A PxK ;           ! 
-+N+Sg+Abe:^WG%>tt^A PxK ;       ! 
++N: x5_troppi_odd ;
 
-+N+Pl+Nom:^WG%> t_PxK ;
-+N+Pl+Gen+Err/Orth:^IDEL%>i2e n_PxK ;
-+N+Pl+Par:%>^A PxK ; ! 
+LEXICON x5_troppi_odd
+!! **LEXICON @LEXNAME@**
++Sg+Nom:       PxK ; !! 
++Cmp/SgNom: R ;
++Cmp/SgGen:^WG%>n R ;
++Sg+Gen:^WG%> n_PxK ; !! 
++Sg+Par:%>^A PxK ; !! 
++Sg+Ill:^HMETA%>h^V^V n_PxK ; ! 
++Sg+Ill:^HMET2%>h^V^V n_PxK ; ! 
++Sg+Ine:^WG%>ss^A PxK ;       ! 
++Sg+Ela:^WG%>st^A PxK ;       ! 
++Sg+All:^WG%>lle PxxK ;        ! sapattille
++Sg+Ade:^WG%>ll^A PxK ;        ! 
++Sg+Abl:^WG%>lt^A PxK ;       ! 
++Sg+Tra:^WG TRA ;             ! 
++Sg+Ess:%>nn^A PxK ;           ! 
++Sg+Abe:^WG%>tt^A PxK ;       ! 
+
++Pl+Nom:^WG%> t_PxK ;
++Pl+Gen+Err/Orth:^IDEL%>i2e n_PxK ;
++Pl+Par:%>^A PxK ; ! 
 !Lägg in som +Err/Orth:
-+N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
-+N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
-+N+Pl+Ela+Err/Orth:^WG%>st^A PxK ;
-+N+Pl+All+Err/Orth:^WG%>lle PxxK ;
-+N+Pl+Ade+Err/Orth:^WG%>ll^A PxK ;
-+N+Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
-+N+Pl+Tra+Err/Orth:^WG%> TRA ;
-+N+Pl+Ess+Err/Orth:%>nn^A PxK ;     !
-+N+Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
++Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
++Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
++Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
++Pl+Ela+Err/Orth:^WG%>st^A PxK ;
++Pl+All+Err/Orth:^WG%>lle PxxK ;
++Pl+Ade+Err/Orth:^WG%>ll^A PxK ;
++Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
++Pl+Tra+Err/Orth:^WG%> TRA ;
++Pl+Ess+Err/Orth:%>nn^A PxK ;     !
++Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
 
 !x5_ie_pl ; !PLUS variantform med e i plural!
-+N: x5_i_pl ;
-+N+Pl+Par:%>^A PxK ; !malmia, äitiä 
+x5_i_pl ;
++Pl+Par:%>^A PxK ; !malmia, äitiä 

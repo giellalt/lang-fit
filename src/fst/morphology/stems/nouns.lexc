@@ -9165,6 +9165,8 @@ saanti:saant4i n5_troppi_even ;
 maansaanti:maan#saant4i n5_troppi_even ;
 panti:panti n5_troppi_even ;
 entinen:enti 3nen ;
+hyvävointinen:hyvä#voint4i 3nen ;
+huonovointinen:huono#voint4i 3nen ;
 vienti:vient4i n5_troppi_even ;
 stipenti:stipent2i n5_troppi_odd ;
 arenti:arenti n5_troppi_even ;
