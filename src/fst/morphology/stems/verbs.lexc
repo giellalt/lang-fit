@@ -3125,7 +3125,7 @@ pluuvvata:pluuvva v2_ata_even ;
 väävata:vääva v2_ata_even ;
 inttervjyyata:inttervjyya v2_ata_even ;
 laaeta:laae v6 ;
-paeta:pae v6 ;
+!paeta:pae v6 ;
 vaieta:vaike v6 ;
 langeta:lanke v2_uta ;
 tungeta:tunge v6 ;

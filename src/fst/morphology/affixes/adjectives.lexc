@@ -47,6 +47,18 @@ LEXICON a1
 +A+Comp+Sg+Nom:^AE^WG%>mpi K ; !30/7 flyttat tillbaka wg till före gräns
 +A+Superl: 3sup ; 
 
+LEXICON a1_long 
+!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); huomattava:huomattava
++A: x1 ; 
++A+Sg+Nom: R ; 
++A+Sg+Gen:^WG%>n R ;  
++A+Pl+Gen:^WG^IDEL%>i2e n_PxK ;
++A+Pl+Ill+Err/Orth:^HMETA%>^Vi2hi n_PxK ; !Check should this be Err/Orth?
++A+Comp: 3comp ;  
++A+Comp+Pl+Gen:%>mpien K ;
++A+Comp+Sg+Nom:^WG%>mpi K ; 
++A+Superl: 3sup ; 
+
 LEXICON a1_ta 
 !! **LEXICON @LEXNAME@** vanhaa !TODO!
 a1 ;
