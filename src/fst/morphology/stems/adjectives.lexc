@@ -2,16 +2,33 @@
 
 !! This file documents [the file for Meänkieli adjectives](https://github.com/giellalt/lang-fit/blob/main/src/fst/stems/adjectives.lexc).
 
-
-!! ## The continuation lexicon types
-
-!! * a1 = kaksitavuiset
-!! * a3 = kolmitavuiset
-!! * a_e = vartalo -e
-!! * aas = tarmokas
-!! * anen_odd = nen-adjektiivit odd syll arvolinen:arvoli ;
-!! * anen_even = even syll nen-adjektiivit näkönen:näkö ;
-
+!! * ax: unclassified, pointing to a1
+!! * a1: for 2-syll adjectives (ie adj where a/ä>e in comp); hullu:hullu (pointing to x1)
+!! * a_long: for 4-syll adjectives (ie NOT AE in Comp); huomattava:huomattava
+!! * a1_ta: a1 plus plural partitive -ta; paksuita
+!! * a1_aa: even syll adj ending with -aa; vanhaa, kuumaa
+!! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan)
+!! * a1_hyva: only hyvä (parempi paremmin)
+!! * a1_pitka: only pitkä (pitempi etc)
+!! * a_vasen: just for vasen 
+!! * a_e: for stems ending w -e: viime:viime, terve:terve
+!! * a3: for 3-syll stems sopiva:sopiva
+!! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
+!! * a4: continuation lexica for a5-type
+!! * a5_nuori: nuori:nuore (like kieli>kieltä; pointing to x5)
+!! * a5_uusi: uusi:uus (+tosi, täysi)
+!! * a5_pieni: pieni:pien
+!! * a5_auki: auki:auk2
+!! * a5_even: even-syll i-ending of troppi-type; ratikaali (points to n5_troppi_even)
+!! * a5_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
+!! * anen_odd: arvolinen:arvoli, pointing to xnen
+!! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
+!! * aas: utelias:utelia 
+!! * a_ias: hias:hita (puhelias:puhelia) 
+!! * a_as: continuation lexica for a_ias, a_has
+!! * a_has: puhas:puhta 
+!! * a_suuri: suuri:suur
+!! * a_ton: naimaton:naimat
 
 !! ## The lemma list itself
 
@@ -30,8 +47,7 @@ muikea a3_VV ;
 privaatti a5_odd ; 
 privaatti+Err/Orth:privatti a5_odd ;
 pieni:pien a5_pieni ;  
-Xmoni:mon a5_moni ;
-moni:mone a5 ; 
+moni:mone a5_nuori ;
 vanhaa:vanha a1_aa ;  
 ikivanhaa:ikivanha a1_aa ;
 vinhaa:vinha a1_aa ;
@@ -420,7 +436,7 @@ viriili:viriili a5_odd ;
 vili:vili ax ;
 aktyelli:aktyelli a5_even ; 
 killi:killi ax ;
-villi:vill a5_moni ;
+villi:ville a5_nuori ;
 nooli:nooli ax ;
 snooli:snooli ax ;
 raikuli:raikuli a5_odd ;
@@ -452,7 +468,7 @@ klaari:klaari ax ;
 naari:naari ax ;
 pauhari:pauhari a5_odd ;
 eri:eri ax ;
-nuori:nuor a5_moni ;
+nuori:nuore a5_nuori ;
 hauri:hauri ax ;
 suuri:suur a_suuri ;
 jättiläissuuri:jättiläis#suur a_suuri ;
