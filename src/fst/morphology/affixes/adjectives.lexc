@@ -620,14 +620,23 @@ a_as ;
 LEXICON a_ton
 !! **LEXICON @LEXNAME@** vihaton:vihat
 +A: x1_ton ; !!≈ * @CODE@
-+A+Sg+Nom:on R ;
-+A+Sg+Gen:toman R ;  
+A+Sg+Nom:on R ;
+A+Sg+Nom:%>^On       K ; 
+A+Sg+Par:%>^Ont^A K ; 
+A+Superl: 3sup ; 
+
+LEXICON a_ston
+!! **LEXICON @LEXNAME@** alaston:alas
++A: x1_ton ; !!≈ * @CODE@
+A+Sg+Nom:ton R ;
+A+Sg+Nom:t%>^On K ; 
+A+Sg+Par:t%>^Ont^A K ; 
+A+Superl:t 3sup ; 
 
 LEXICON x1_ton
 !! **LEXICON @LEXNAME@** 
- +Sg+Nom:%>^On       K ; !!≈ * @CODE@
+ +Sg+Gen:toman R ;  
  +Sg+Gen:t%>^Om^An K ; !!≈ * @CODE@
- +Sg+Par:%>^Ont^A K ; !!≈ * @CODE@
  +Sg+Ill:t%>h^Om^A^An K ;  !!≈ * @CODE@
  +Sg+Ine:t%>^Om^Ass^A K ;       !!≈ * @CODE@ etc.
  +Sg+Ela:t%>^Om^Ast^A K ;      
