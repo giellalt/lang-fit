@@ -1425,43 +1425,73 @@ LEXICON Px-Vn
  +PxSg3:^HMET2%>h^V^Vn K ; ! TEST FEB paikoilheen/paikoihleen
  +PxPl3:%>^Vn K ;
 
-LEXICON n5_troppi
-!! **LEXICON @LEXNAME@**
-+N+Sg+Nom: PxK ;
-+N+Cmp/SgNom: R ;
-+N+Cmp/SgGen:^WG%>n R ;
-+N+Sg+Gen:^WG%> n_PxK ; !! tropin
-+N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
-+N+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
-+N+Sg+All:^WG%>le PxK ;        ! tropile
-+N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
-+N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
-+N+Sg+Tra:^WG TRA ;             ! tropiksi
-+N+Sg+Ess:%>n^A PxK ;           ! troppina
-+N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
-
-+N+Pl+Nom:^WG%> t_PxK ; 
-+N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
-+N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
-+N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
-+N+Pl+Ela+Err/Orth:^WG%>st^A PxxK ;
-+N+Pl+All+Err/Orth:^WG%>le PxK ;
-+N+Pl+Ade+Err/Orth:^WG%>l^A PxK ;
-+N+Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
-+N+Pl+Tra+Err/Orth:^WG%> TRA ;
-+N+Pl+Ess+Err/Orth:%>n^A PxK ;     ! nu rätt: troppina
-+N+Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
-
-!x5_ie_pl ; !PLUS variantform med e i plural!
-+N: x5_i_pl ;
+!LEXICON n5_troppi
+!!! **LEXICON @LEXNAME@**
+!+N+Sg+Nom: PxK ;
+!+N+Cmp/SgNom: R ;
+!+N+Cmp/SgGen:^WG%>n R ;
+!+N+Sg+Gen:^WG%> n_PxK ; !! tropin
+!+N+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
+!+N+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
+!+N+Sg+All:^WG%>le PxK ;        ! tropile
+!+N+Sg+Ade:^WG%>l^A PxK ;        ! tropila
+!+N+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
+!+N+Sg+Tra:^WG TRA ;             ! tropiksi
+!+N+Sg+Ess:%>n^A PxK ;           ! troppina
+!+N+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
+!
+!+N+Pl+Nom:^WG%> t_PxK ; 
+!+N+Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
+!+N+Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
+!+N+Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
+!+N+Pl+Ela+Err/Orth:^WG%>st^A PxxK ;
+!+N+Pl+All+Err/Orth:^WG%>le PxK ;
+!+N+Pl+Ade+Err/Orth:^WG%>l^A PxK ;
+!+N+Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
+!+N+Pl+Tra+Err/Orth:^WG%> TRA ;
+!+N+Pl+Ess+Err/Orth:%>n^A PxK ;     ! nu rätt: troppina
+!+N+Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
+!
+!!x5_ie_pl ; !PLUS variantform med e i plural!
+!+N: x5_i_pl ;
 
 LEXICON n5_troppi_even
 !! **LEXICON @LEXNAME@**
-+N+Sg+Par:%>^A PxK ; ! troppia
-+N+Pl+Par:%>^A PxK ;
-+N+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
-+N+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
-n5_troppi ; !for all the other forms
++N: x5_troppi_even ;
+
+LEXICON x5_troppi_even
+!! **LEXICON @LEXNAME@**
++Sg+Par:%>^A PxK ; ! troppia
++Pl+Par:%>^A PxK ;
++Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
+!!!! n5_troppi ; !BELOW for all the other forms
++Sg+Nom: PxK ;
++Cmp/SgNom: R ;
++Cmp/SgGen:^WG%>n R ;
++Sg+Gen:^WG%> n_PxK ; !! tropin
++Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
++Sg+Ela:^WG%>st^A PxxK ;       ! tropista
++Sg+All:^WG%>le PxK ;        ! tropile
++Sg+Ade:^WG%>l^A PxK ;        ! tropila
++Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
++Sg+Tra:^WG TRA ;             ! tropiksi
++Sg+Ess:%>n^A PxK ;           ! troppina
++Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
++Pl+Nom:^WG%> t_PxK ; 
++Pl+Ill+Err/Orth:^HMETA%>h^Vi n_PxK ;
++Pl+Ill+Err/Orth:^HMET2%>h^Vi n_PxK ;  
++Pl+Ine+Err/Orth:^WG%>ss^A PxK ;
++Pl+Ela+Err/Orth:^WG%>st^A PxxK ;
++Pl+All+Err/Orth:^WG%>le PxK ;
++Pl+Ade+Err/Orth:^WG%>l^A PxK ;
++Pl+Abl+Err/Orth:^WG%>lt^A PxK ;
++Pl+Tra+Err/Orth:^WG%> TRA ;
++Pl+Ess+Err/Orth:%>n^A PxK ;     ! nu rätt: troppina
++Pl+Abe+Err/Orth:^WG%>tt^A PxK ;
+
+!x5_ie_pl ; !PLUS variantform med e i plural!
+x5_i_pl ;
 
 
 LEXICON n5_troppi_ii
