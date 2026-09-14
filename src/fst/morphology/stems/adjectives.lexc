@@ -447,6 +447,7 @@ kälmi:kälmi ax ;
 laakomi:laakomi a5_odd ;
 kleini:kleini a5_even ;
 karvanfiini:karvan#fiini a5_even ;
+fiini:fiini a5_even ;
 hiuksenfiini:hiuksen#fiini a5_even ;
 pruuni:pruuni a5_even ;
 nahkapruuni:nahka#pruuni a5_even ;
