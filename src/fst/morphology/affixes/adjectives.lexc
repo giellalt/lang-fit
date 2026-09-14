@@ -12,7 +12,6 @@
 !! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan) 
 !! * a1_hyva: only hyvä (parempi paremmin)
 !! * a1_pitka: only pitkä (pitempi etc)
-!! * a_vasen: just for vasen !CHECK
 !! * a_e: for stems ending w -e: viime:viime, terve:terve
 !! * a3: for 3-syll stems sopiva:sopiva
 !! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
@@ -31,6 +30,9 @@
 !! * a_has: puhas:puhta 
 !! * a_suuri: suuri:suur
 !! * a_ton: naimaton:naimat
+!! * a_ime: for avon>avome-type like avon:avo/avoin:avoi
+!! * a_ma: for vasen>vasema-; lähin:lähi 
+
 
 !! ## Unassigned
 LEXICON ax
@@ -258,13 +260,13 @@ LEXICON a1_pitka
 +A+Superl+Pl+Ess:simpinä K ;
 +A+Superl+Pl+Ess:ssiimpinä K ;
 
-LEXICON a_vasen
+LEXICON a_ma
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
-+A+Sg+Nom:n R ; 
++A+Sg+Nom:^WGn R ; 
 +A+Sg+Gen:%>m^An R ;  
 +A+Sg+Nom:%>n K ; 
 +A+Sg+Gen:%>m^An K ; 
-+A+Sg+Par:%>nt^A K ; 
++A+Sg+Par:^WG%>nt^A K ; 
 +A+Sg+Ill:%>mph^A^An K ;  
 +A+Sg+Ine:%>m^Ass^A K ;       
 +A+Sg+Ela:%>m^Ast^A K ;       
@@ -272,7 +274,7 @@ LEXICON a_vasen
 +A+Sg+Ade:%>m^All^A K ;      
 +A+Sg+Abl:%>m^Alt^A K ;       
 +A+Sg+Tra:%>m^Aksi K ;        
-+A+Sg+Ess:%>mp^An^A K ;
++A+Sg+Ess:%>mp^An^A K ; !CHECK
 +A+Sg+Ess:%>mp^Ann^A K ;        
 +A+Sg+Abe:%>m^Att^A K ;      
 
@@ -287,15 +289,15 @@ LEXICON a_vasen
 +A+Pl+Ade:%>mi2ll^A K ; 
 +A+Pl+Abl:%>mi2lt^A K ; 
 +A+Pl+Tra:%>mi2ksi K ;  
-+A+Pl+Ess:%>mpi2n^A K ; 
++A+Pl+Ess:%>mpi2nn^A K ; 
 +A+Pl+Abe:%>mi2tt^A K ; 
 
 +A+Comp: 3comp ;
-+A+Comp+Sg+Nom:^WG%>mpi K ;
-+A+Comp+Sg+Ess:%>mp^An^A K ;
++A+Comp+Sg+Nom:%>mpi K ;
++A+Comp+Sg+Ess:%>mp^An^A K ;!CHECK
 +A+Comp+Pl+Gen:%>mpien K ; 
 +A+Comp+Pl+Ess:%>mpin^A K ;
-+A+Superl:mmais 3sup ; 
++A+Superl:mm^Ais 3sup ; 
 
 LEXICON a_e
 !! **LEXICON @LEXNAME@** gets +A and goes to x_e.
@@ -614,24 +616,30 @@ a_as ;
 +A+Superl+Pl+Abl:^HMETA%>h^Aimilt^A K ;
 
 
-
+LEXICON a_ime
+!! **LEXICON @LEXNAME@** for adj of type avon>avomet etc; avon:avo
++A: x_ime_sg ; 
++A: x_ime_pl ; 
++A+Comp: 3comp ; 
++A+Superl: 3sup ; 
 
 
 LEXICON a_ton
 !! **LEXICON @LEXNAME@** vihaton:vihat
-+A: x1_ton ; !!≈ * @CODE@
-A+Sg+Nom:on R ;
-A+Sg+Nom:%>^On       K ; 
-A+Sg+Par:%>^Ont^A K ; 
-A+Superl: 3sup ; 
++A: x1_ton ; 
++A+Sg+Nom:on R ;
++A+Sg+Nom:%>^On       K ; 
++A+Sg+Par:%>^Ont^A K ; 
++A+Comp: 3comp ; 
++A+Superl: 3sup ; 
 
 LEXICON a_ston
 !! **LEXICON @LEXNAME@** alaston:alas
 +A: x1_ton ; !!≈ * @CODE@
-A+Sg+Nom:ton R ;
-A+Sg+Nom:t%>^On K ; 
-A+Sg+Par:t%>^Ont^A K ; 
-A+Superl:t 3sup ; 
++A+Sg+Nom:ton R ;
++A+Sg+Nom:t%>^On K ; 
++A+Sg+Par:t%>^Ont^A K ; 
++A+Superl:t 3sup ; 
 
 LEXICON x1_ton
 !! **LEXICON @LEXNAME@** 

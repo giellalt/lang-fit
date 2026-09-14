@@ -10,7 +10,6 @@
 !! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan)
 !! * a1_hyva: only hyvä (parempi paremmin)
 !! * a1_pitka: only pitkä (pitempi etc)
-!! * a_vasen: just for vasen 
 !! * a_e: for stems ending w -e: viime:viime, terve:terve
 !! * a3: for 3-syll stems sopiva:sopiva
 !! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
@@ -29,17 +28,19 @@
 !! * a_has: puhas:puhta 
 !! * a_suuri: suuri:suur
 !! * a_ton: naimaton:naimat
+!! * a_ime: for avon>avome-type like avon:avo/avoin:avoi
+!! * a_ma: for vasen>vasema-; lähin:lähi 
 
 !! ## The lemma list itself
 
 LEXICON AdjectiveRoot !!≈ @CODE@
 tuttu a1 ;  
 kuiva a1 ; 
-pruuni a1 ; 
-kleini a1 ;
+pruuni a5_even ; 
+kleini a5_even ;
 iso a1_ta ;
 pitkä:pi a1_pitka ;
-fiini a1 ;
+fiini a5_even ;
 paksu a1 ;
 vanha:vanha a1_vanha ;
 komea a3_VV ;  
@@ -444,11 +445,9 @@ hööli:hööli ax ;
 viimi:viimi ax ;
 kälmi:kälmi ax ;
 laakomi:laakomi a5_odd ;
-kleini:kleini ax ;
-fiini:fiini a5_even ;
-karvanfiini:karvanfiini a5_even ;
-hiuksenfiini:hiuksenfiini a5_even ;
-kiini:kiini ax ;
+kleini:kleini a5_even ;
+karvanfiini:karvan#fiini a5_even ;
+hiuksenfiini:hiuksen#fiini a5_even ;
 pruuni:pruuni a5_even ;
 nahkapruuni:nahka#pruuni a5_even ;
 maksanpruuni:maksan#pruuni a5_even ;
@@ -1476,34 +1475,32 @@ vähänäkönen:vähä#näkö anen_even ;
 tämmönen:tämmö anen_even ;
 kröppönen:kröppö anen_even ;
 vähäpätönen:vähäpätö anen_even ;
-vasen:vase a_vasen ;
+vasen:vase a_ma ;
 tyven:tyven ax ;
 tyen:tyen ax ;
 !parhain:parhain ax ;
-irtain:irtain ax ;
+irtain:irtai a_ime ;
 avoaukein:avoaukein ax ;
-lähin:lähin ax ;
-vähin:vähin ax ;
+lähin:lähi a_ma ;
+vähin:vähi a_ma ;
 lähhiin:lähhiin ax ;
 likkhiin:likkhiin ax ;
 jälkhiin:jälkhiin ax ;
 värstiin:värstiin ax ;
-pitkin:pitkin ax ;
-matalin:matalin ax ;
-ylin:ylin ax ;
-lämmin:lämmin ax ;
-kropanlämmin:kropanlämmin ax ;
-keskikesänlämmin:keskikesänlämmin ax ;
-aurinkolämmin:aurinkolämmin ax ;
-tunkkulämmin:tunkkulämmin ax ;
-nisälämmin:nisälämmin ax ;
-paikoin:paikoin ax ;
-avoin:avoin ax ;
+!matalin:matalin ax ;
+lämmin:lämpi a_ma ;
+kropanlämmin:kropan#lämpi a_ma ;
+keskikesänlämmin:keskikesän#lämpi a_ma ;
+aurinkolämmin:aurinko#lämpi a_ma ;
+tunkkulämmin:tunkku#lämpi a_ma ;
+nisälämmin:nisä#lämpi a_ma ;
+paikoin:paikoi a_ime ;
+avoin:avoi a_ime ;
 ylölisin:ylölisin ax ;
 pisin:pisin ax ;
 värstin:värstin ax ;
 ylöspäin:ylöspäin ax ;
-paikon:paikon ax ;
+paikon:paiko a_ime ;
 
 julkijumalaton:julkijumalat a_ton ;
 korjaamaton:korjaamat a_ton ;
@@ -1650,9 +1647,8 @@ kuuton:kuut a_ton ;
 luuton:luut a_ton ;
 vastuuton:vastuut a_ton ;
 kivuton:kivut a_ton ;
-avon:avon ax ;
+avon:avo a_ime ;
 millänsäkhään:millänsäkhään ax ;
-vastapäihvään:vastapäihvään ax ;
 terfheetön:terfheet a_ton ;
 hengetön:henget a_ton ;
 miehetön:miehet a_ton ;
