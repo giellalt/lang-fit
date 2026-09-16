@@ -261,7 +261,7 @@ t4:s <=> Vow:+ [l|n|r] _ ä: (%^WG:0) %> [i3: | i8:] ; !preteritum ymmärtä>ymm
 
 "t:0"
 !! **RULE: @RULENAME@**
-t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 | WeakGrade | (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
+t:0 <=>  Vow ([l|n|r]) t _ Vow:+ [%^IDEL:0 %> e %^WG:0 | WeakGrade | (Cns:) (WeakGrade) %^HMET2: |%^HMETA:|h %> e] ; !
   [.#.|#] (Cns) (:Vow) i _ [a:|ä:|i2:] (%^AE:0) WeakGrade [%> |%> [:Vow - :i] | Cns: | .#.] ; ! pitä>piän, piä; haitata
           u      (h)     _ Vow       WeakGrade [%> :Vow - :i|(%>) Cns:] ; ! huutaa>huua, (kausi>)kaute>kauessa 
          [a|e|y|ä|ö] h   _ Vow:      WeakGrade [%> |%> [:Vow - :i]|Cns:] (%>) i3: ; ! för att få lähen, lähin 
