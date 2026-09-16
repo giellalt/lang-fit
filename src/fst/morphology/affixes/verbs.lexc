@@ -237,11 +237,13 @@ LEXICON v1_tietaa !!≈ * **@CODE@** tietää-lexicon because of changes in dift
 +V+Act+PrfPrc+Pl+Nom:et%>^Anheet K ;
 +V+Pass+PrfPrc+Sg+Nom:e%>tt^U K ; 
 +V+Pass+PrfPrc+Pl+Nom:e%>t^Ut K ; 
++V+Neg+Act+Imprt+ConNeg+Sg2:ä K ;
++V+Neg+Act+Imprt+ConNeg+Pl2:etä%>kö K; 
 
-+V+Act+Imprt+Sg2: # ;
++V+Act+Imprt+Sg2:ä # ;
 +V+Act+Imprt+Sg:ä%>kh^O^On # ;
 ! Pl 1 borda vara presens Pl1 !Check
-+V+Act+Imprt+Pl2:ä%>k^A^A # ;
++V+Act+Imprt+Pl2:etä%>k^A^A # ;
 +V+Act+Imprt+Pl3:ä%>kh^O^Ot # ;
 +V+AgPrc:et%>^Am^A K ;
 

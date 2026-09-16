@@ -1904,7 +1904,7 @@ nutkahella:nutkahte v4_lla_odd ;
 pukahella:pukahte v4_lla_odd ;
 leimahella:leimahte v4_lla_odd ;
 nopahella:nopahte v4_lla_odd ;
-parahella:parahe v4_lla_odd ;
+parahella:parahte v4_lla_odd ;
 levahella:levahte v4_lla_odd ;
 nuhella:nuhe v4_lla_even  ;
 voijella:voije v4_lla_even  ; ! xxx check
@@ -2067,7 +2067,7 @@ toivotella:toivotte v4_lla_odd ;
 kilvotella:kilvotte v4_lla_odd ;
 virvotella:virvotte v4_lla_odd ;
 neuvotella:neuvotte v4_lla_odd ;
-nakertella:nakert2e v4_lla_odd ; ! nakerrella ???
+nakertella:nakert2e v4_lla_odd ; ! nakerrella/nakerella ???
 punertella:punert2e v4_lla_odd ;
 hoipertella:hoipert2e v4_lla_odd ;
 kiemurtella:kiemurte v4_lla_odd ;
@@ -4532,7 +4532,7 @@ revetä:repe v6 ;
 kiivetä:kiive v6 ;
 liivetä:liive v6 ;
 kliivetä:kliive v6 ;
-kivetä:kive v6 ;
+kivetä:kive v2_uta ;
 pilvetä:pilve v6 ;
 tyvetä:tyve v6 ;
 hävetä:häpe v2_uta ;

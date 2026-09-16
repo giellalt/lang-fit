@@ -397,7 +397,7 @@ Tests:
      olla+V+Act+Ind+Prs+Pl1: olema
      olla+V+Act+Ind+Prs+Pl2: oletta
      olla+V+Act+Ind+Prs+Pl3: oon
-     olla+V+Pass+Ind+Prs: olhaan
+     olla+V+Pass+Ind+Prs: [olhaan, olthaan]
      olla+V+Act+Ind+Prs+ConNeg: ole
      olla+V+Act+Ind+Prt+Sg1: olin
      olla+V+Act+Ind+Prt+Sg2: olit
