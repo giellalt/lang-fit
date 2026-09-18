@@ -2700,6 +2700,7 @@ sulata:sula v2_ata_even ;
 juulata:juula v2_ata_even ;
 spuulata:spuula v2_ata_even ;
 anmäälata:anmääla v2_ata_odd ;
+representeerata:representeera v2_ata_odd ;
 kraamata:kraama v2_ata_even ;
 klaamata:klaama v2_ata_even ;
 praamata:praama v2_ata_even ;
