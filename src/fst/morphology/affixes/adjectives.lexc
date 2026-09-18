@@ -700,6 +700,48 @@ LEXICON a5_even
 +A+Comp+Sg+Nom:^WG%>mpi K ; 
 +A+Superl:^IDELe 3sup ; 
 
+LEXICON a5_fiini 
+!! **LEXICON @LEXNAME@** intresantti etc
+!+A: x5_troppi_even ; 
++A+Sg+Nom: R ; 
++A+Cmp/SgNom: R ;
++A+Cmp/SgGen:^WG%>n R ;
+
++A+Sg+Nom: PxK ;
++A+Sg+Gen:^WG%> n_PxK ;  
++A+Sg+Par:^IDEL%>t^A PxK ; !fiintä
++A+Sg+Par:%>^A PxK ; ! fiiniä
++A+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++A+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
++A+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
++A+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
++A+Sg+All:^WG%>le PxK ;        ! tropile
++A+Sg+Ade:^WG%>l^A PxK ;        ! tropila
++A+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
++A+Sg+Tra:^WG TRA ;             ! tropiksi
++A+Sg+Ess:%>n^A PxK ;           ! troppina
++A+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
++A+Pl+Nom: t_PxK ;
++A+Pl+Gen:%>e n_PxK ;  
++A+Pl+Gen:%>tte n_PxK ;
++A+Pl+Par:%>^A PxK ;  
++A+Pl+Par:%>i2^A PxK ;
++A+Pl+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
++A+Pl+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
++A+Pl+Ine:^WG%>ss^A PxK ;       ! tropissa
++A+Pl+Ela:^WG%>st^A PxxK ;       ! tropista
++A+Pl+All:^WG%>le PxK ;        ! tropile
++A+Pl+Ade:^WG%>l^A PxK ;        ! tropila
++A+Pl+Abl:^WG%>lt^A PxK ;       ! tropilta
++A+Pl+Tra:^WG TRA ;             ! tropiksi
++A+Pl+Ess:%>n^A PxK ;           ! troppina
++A+Pl+Abe:^WG%>tt^A PxK ;       ! tropitta
++A+Comp: 3comp ;  
++A+Comp+Sg+Nom:^WG%>mpi K ; 
++A+Comp+Pl+Gen:%>mpien K ;
++A+Superl: 3sup ; 
++A+Superl+Sg+Nom:%>i2 n_PxK ;
+
 !! ## Comparative inflection
 !  ----------------------
 

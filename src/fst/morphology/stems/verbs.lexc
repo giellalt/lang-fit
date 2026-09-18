@@ -2867,6 +2867,7 @@ justeerata:justeera v2_ata_odd ;
 kuitteerata:kuitteera v2_ata_odd ;
 asfaltteerata:asfaltteera v2_ata_even ;
 hantteerata:hantteera v2_ata_odd ;
+hanteerata:hant2eera v2_ata_odd ;
 plantteerata:plantteera v2_ata_odd ;
 montteerata:montteera v2_ata_odd ;
 raportteerata:raportteera v2_ata_even ;

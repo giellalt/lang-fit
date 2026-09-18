@@ -68,9 +68,9 @@
 !! The lemma list
 LEXICON NounRoot !!≈ * **@CODE@**
 tammikuu:tammi#kuu n0 ;
-janyaari:janyaari n5_troppi_odd ;
+janyaari:janyaari n5_troppi_even ;
 helmikuu:helmi#kuu n0 ;
-fepryaari:fepryaari n5_troppi_odd ;
+fepryaari:fepryaari n5_troppi_even ;
 maaliskuu:maalis#kuu n0 ;
 marsi:marsi n5_troppi_even ;
 huhtikuu:huhti#kuu n0 ; 
@@ -8183,7 +8183,6 @@ hektaari:hektaari n5_troppi_even ;
 kommentaari:kommentaari n5_troppi_even ;
 vaari:vaari n5_troppi_even ;
 vaarin:vaari 3n_ime ;
-janyaari:janyaari n5_troppi_even ;
 lyffari:lyffari n3 ;
 viinalangari:viinalangari n3 ;
 hengari:hengari n3 ;
