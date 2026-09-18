@@ -421,7 +421,11 @@ LEXICON a4
 LEXICON a5_nuori
 !! **LEXICON @LEXNAME@** ist för a5_moni?
 a4 ;
-+A+Pl+Gen:^E2I%>en PxK ; !nuorien
++A+Pl+Gen:^E2I%>en PxK ; !nuorien 
++A+Pl+Gen:%>te n_PxK ; !nuorten
++A+Comp+Pl+Gen:mpie n_PxK ;
++A+Superl+Sg+Nom:^E2I%>i n_PxK ; !nuoriin
++A+Superl+Pl+Gen:^E2I%>mpie n_PxK ; !nuorimpien
 
 LEXICON a_suuri
 !! **LEXICON @LEXNAME@** has no comparative or superlative , just points to x4

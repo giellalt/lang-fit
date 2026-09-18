@@ -10,8 +10,8 @@ Config:
 Tests:
 
 # todo: Proofread the gold standard (below), then run analyser, then correct. 
-# Antaa Loppua Käsittää Tietää Ymmärtää Tuntea Lukea Alkaa Pittää Olla Siirtyä Käyttää
-# 
+# Antaa* Loppua Käsittää Tietää* Ymmärtää Tuntea* Lukea* Alkaa Pittää Olla* Siirtyä Käyttää
+# * = paradigm shown in Meänkielen sanakirja
 
 
   Verb - antaa - paradigmgroup v1: # meaning 'to give'/'ge' - GOLD
