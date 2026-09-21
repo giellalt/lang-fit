@@ -133,7 +133,7 @@ Tests:
      hävetä+V+InfMa+Ill: [häpeähmään, häpeämhään]
      hävetä+V+InfMa+Ine: häpeämässä
      hävetä+V+InfMa+Ela: häpeämästä
-     hävetä+V+InfMa+Ade: häpeämällä
+     hävetä+V+InfMa+Ade: häpeämälä
      hävetä+V+InfMa+Abe: häpeämättä
      hävetä+V+Act+PrsPrc+Sg+Nom: häpeävä
      hävetä+V+Act+PrsPrc+Pl+Nom: häpeävät
@@ -174,7 +174,7 @@ Tests:
      leipota+V+InfMa+Ill: [leippoahmaan, leippoamhaan]
      leipota+V+InfMa+Ine: leippoamassa
      leipota+V+InfMa+Ela: leippoamasta
-     leipota+V+InfMa+Ade: leippoamalla
+     leipota+V+InfMa+Ade: leippoamala
      leipota+V+InfMa+Abe: leippoamatta
      leipota+V+Act+PrsPrc+Sg+Nom: leippoava
      leipota+V+Act+PrsPrc+Pl+Nom: leippoavat
@@ -215,7 +215,7 @@ Tests:
      myrskytä+V+InfMa+Ill: [myrskyähmään, myrskyämhään]
      myrskytä+V+InfMa+Ine: myrskyämässä
      myrskytä+V+InfMa+Ela: myrskyämästä
-     myrskytä+V+InfMa+Ade: myrskyämällä
+     myrskytä+V+InfMa+Ade: myrskyämälä
      myrskytä+V+InfMa+Abe: myrskyämättä
      myrskytä+V+Act+PrsPrc+Sg+Nom: myrskyävä
      myrskytä+V+Act+PrsPrc+Pl+Nom: myrskyävät
@@ -256,7 +256,7 @@ Tests:
      haluta+V+InfMa+Ill: [haluahmaan, haluamhaan]
      haluta+V+InfMa+Ine: haluamassa
      haluta+V+InfMa+Ela: haluamasta
-     haluta+V+InfMa+Ade: haluamalla
+     haluta+V+InfMa+Ade: haluamala
      haluta+V+InfMa+Abe: haluamatta
      haluta+V+Act+PrsPrc+Sg+Nom: haluava
      haluta+V+Act+PrsPrc+Pl+Nom: haluavat
@@ -422,7 +422,7 @@ Tests:
      tarjota+V+InfMa+Ill: [tarjoahmaan, tarjoamhaan]
      tarjota+V+InfMa+Ine: tarjoamassa
      tarjota+V+InfMa+Ela: tarjoamasta
-     tarjota+V+InfMa+Ade: tarjoamalla
+     tarjota+V+InfMa+Ade: tarjoamala
      tarjota+V+InfMa+Abe: tarjoamatta
      tarjota+V+Act+PrsPrc+Sg+Nom: tarjoava
      tarjota+V+Act+PrsPrc+Pl+Nom: tarjoavat

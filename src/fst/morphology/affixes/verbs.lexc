@@ -667,7 +667,8 @@ v2 ;
 +V+Act+Ind+Prt+Pl3+Err/Orth:%>si3v^At K ;
 +V+Act+Cond:%>i4s 2cond ;
 
-+V+Act+Imprt+Sg2:^WG # ;
++V+Act+Imprt+Sg2:^A # ;
++V+Act+Imprt+Sg2+Err/Orth:^WG # ;
 +V+Act+Imprt+Sg:^WG%>kh^O^On # ;
 +V+Act+Imprt+Pl2:^WG%>kh^A^A # ;
 +V+Act+Imprt+Pl3:^WG%>kh^O^Ot # ;
@@ -1137,7 +1138,9 @@ LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:h%>^N^Ut K ;
 +V+Act+PrfPrc:h%>^N PRFPRC_OBL ;
 +V+Act+PrfPrc+Pl+Nom:h%>^Neet K ; 
++V+Act+PrfPrc:h%>^Nee x3_oblique ;
 +V+Act+PrfPrc:h%>^Nhee x3_oblique ;
+
 
 +V+Act+Imprt+Sg2:e K   ;
 +V+Act+Imprt+Pl2:h%>k^A^A K ;
@@ -1162,6 +1165,7 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 +V+Act+Ind+Prs+Pl3:kke%>e K ;
 +V+Act+Ind+Prs+Pl3:k%>ev^A K ; 
 +V+Act+Ind+Prs+Pl3:h%>h^A^An K ; ! 
++V+Act+Ind+Prs+Pl3:ht%>h^A^An K ; ! 
 +V+Pass+Ind+Prs:h%>h^A^An K ; ! 
 +V+Pass+Ind+Prs:ht%>h^A^An K ; ! 
 +V+Act+Ind+Prs+ConNeg:he K ;
@@ -1184,6 +1188,7 @@ LEXICON v3_tehha !!≈ * **@CODE@** tehä:te
 +V+Act+PrfPrc+Sg+Nom:h%>^n^U K ;
 +V+Act+PrfPrc+Sg+Nom+Err/Orth:h%>^n^Ut K ;
 +V+Act+PrfPrc+Pl+Nom:h%>neet K ;
++V+Act+PrfPrc:h%>^Nee x3_oblique ; 
 +V+Act+PrfPrc:h%>^Nhee x3_oblique ; 
 !+V+Act+PrfPrc:h%>nee PRFPRC_OBL ;
 +V+Pass+PrfPrc+Sg+Nom:h%>t^U K ;
