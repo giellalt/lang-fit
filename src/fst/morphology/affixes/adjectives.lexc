@@ -22,6 +22,7 @@
 !! * a5_auki: auki:auk2 !CHECK
 !! * a5_even: even-syll i-ending of troppi-type; ratikaali (points to n5_troppi_even)
 !! * a5_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
+!! * a5_fiini: odd/even – normaali, fiini etc; plural forms with -i-
 !! * anen_odd: arvolinen:arvoli, pointing to xnen
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
 !! * aas: utelias:utelia 
@@ -710,41 +711,126 @@ LEXICON a5_fiini
 +A+Sg+Nom: R ; 
 +A+Cmp/SgNom: R ;
 +A+Cmp/SgGen:^WG%>n R ;
-
 +A+Sg+Nom: PxK ;
 +A+Sg+Gen:^WG%> n_PxK ;  
-+A+Sg+Par:^IDEL%>t^A PxK ; !fiintä
-+A+Sg+Par:%>^A PxK ; ! fiiniä
-+A+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
-+A+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
-+A+Sg+Ine:^WG%>ss^A PxK ;       ! tropissa
-+A+Sg+Ela:^WG%>st^A PxxK ;       ! tropista
-+A+Sg+All:^WG%>le PxK ;        ! tropile
-+A+Sg+Ade:^WG%>l^A PxK ;        ! tropila
-+A+Sg+Abl:^WG%>lt^A PxK ;       ! tropilta
+!+A+Sg+Par:^IDEL%>t^A PxK ; !
++A+Sg+Par:%>^A PxK ; ! 
++A+Sg+Ill:^HMETA%>h^V^V n_PxK ; ! 
++A+Sg+Ill:^HMET2%>h^V^V n_PxK ; ! 
++A+Sg+Ine:^WG%>ss^A PxK ;       ! 
++A+Sg+Ela:^WG%>st^A PxxK ;       ! 
++A+Sg+Abl:^WG%>lt^A PxK ;       ! 
 +A+Sg+Tra:^WG TRA ;             ! tropiksi
-+A+Sg+Ess:%>n^A PxK ;           ! troppina
-+A+Sg+Abe:^WG%>tt^A PxK ;       ! tropitta
-+A+Pl+Nom: t_PxK ;
++A+Sg+Abe:^WG%>tt^A PxK ;       ! 
++A+Pl+Nom:^WG t_PxK ;
 +A+Pl+Gen:%>e n_PxK ;  
-+A+Pl+Gen:%>tte n_PxK ;
++A+Pl+Gen:^WG%>tte n_PxK ;
 +A+Pl+Par:%>^A PxK ;  
 +A+Pl+Par:%>i2^A PxK ;
 +A+Pl+Ill:^HMETA%>h^V^V n_PxK ; ! trophiin
 +A+Pl+Ill:^HMET2%>h^V^V n_PxK ; ! trophiin
 +A+Pl+Ine:^WG%>ss^A PxK ;       ! tropissa
 +A+Pl+Ela:^WG%>st^A PxxK ;       ! tropista
-+A+Pl+All:^WG%>le PxK ;        ! tropile
-+A+Pl+Ade:^WG%>l^A PxK ;        ! tropila
 +A+Pl+Abl:^WG%>lt^A PxK ;       ! tropilta
 +A+Pl+Tra:^WG TRA ;             ! tropiksi
-+A+Pl+Ess:%>n^A PxK ;           ! troppina
 +A+Pl+Abe:^WG%>tt^A PxK ;       ! tropitta
-+A+Comp: 3comp ;  
 +A+Comp+Sg+Nom:^WG%>mpi K ; 
 +A+Comp+Pl+Gen:%>mpien K ;
-+A+Superl: 3sup ; 
 +A+Superl+Sg+Nom:%>i2 n_PxK ;
+
+LEXICON a5_fiini_even
+!! **LEXICON @LEXNAME@** fiini etc
+a5_fiini ;
++A+Sg+Ess:%>n^A PxK ;           ! troppina
++A+Sg+All:^WG%>le PxK ;        ! tropile
++A+Sg+Ade:^WG%>l^A PxK ;        ! tropila
++A+Pl+All:^WG%>le PxK ;        ! tropile
++A+Pl+Ade:^WG%>l^A PxK ;        ! tropila
++A+Pl+Ess:%>n^A PxK ;           ! troppina
++A+Comp: 3comp ; 
+!+A+Superl: 3sup ; 
+!3sup ; !Pl All Superl normaalimmile
++A+Superl+Sg+Nom:%>n K ; 
++A+Superl+Sg+Gen:%>m^An K ; 
++A+Superl+Sg+Par:%>mp^A^A K ;
++A+Superl+Sg+Tra:%>m^Aksi K ;
++A+Superl+Sg+Ill:%>mph^A^An K ;
++A+Superl+Sg+Ine:%>m^Ass^A K ;
++A+Superl+Sg+Ela:%>m^Ast^A K ;
++A+Superl+Sg+Abl:%>m^Alt^A K ;
++A+Superl+Sg+Ess:%>mp^Ann^A K ; 
++A+Superl+Sg+All:%>m^Alle K ; !normaalimmale
++A+Superl+Sg+Ade:%>m^All^A K ;
++A+Superl+Pl+Ess:%>mpinn^A K ;
++A+Superl+Pl+All:%>mille K ; !normaalimmile
++A+Superl+Pl+Ade:%>mill^A K ;
++A+Superl+Pl+Nom:%>m^At K ;
++A+Superl+Pl+Nom:%>i2m^At K ; !CHECK EK variant?
++A+Superl+Pl+Gen:%>mitten K ;
++A+Superl+Pl+Par:%>mpi^A K ;
++A+Superl+Pl+Tra:%>miksi K ;
++A+Superl+Pl+Ill:%>mphiin K ;
++A+Superl+Pl+Ine:%>miss^A K ;
++A+Superl+Pl+Ela:%>mist^A K ;
++A+Superl+Pl+Abl:%>milt^A K ;
+
+
+
+LEXICON a5_fiini_odd
+!! **LEXICON @LEXNAME@** normaali etc
+a5_fiini ;
++A+Sg+Ess:^WG%>nn^A PxK ;           ! troppina
++A+Sg+All:^WG%>lle PxK ;        ! tropile
++A+Sg+Ade:^WG%>ll^A PxK ;        ! tropila
++A+Pl+All:^WG%>lle PxK ;        ! tropile
++A+Pl+Ade:^WG%>ll^A PxK ;        ! tropila
++A+Pl+Ess:^WG%>nn^A PxK ;           ! troppina
++A+Comp+Sg+Gen:%>mm^A%>n K ; 
++A+Comp+Sg+Par:%>mp^A^A K ;
++A+Comp+Sg+Tra:%>mm^Aksi K ;
++A+Comp+Sg+Ill:%>mph^A^An K ;
++A+Comp+Sg+Ine:%>mm^Ass^A K ;
++A+Comp+Sg+Ela:%>mm^Ast^A K ;
++A+Comp+Sg+Ess:%>mp^An^A K ; 
++A+Comp+Sg+All:%>m^Alle K ; 
++A+Comp+Sg+Ade:%>m^All^A K ;
++A+Comp+Sg+Abl:%>mm^Alt^A K ;
++A+Comp+Pl+Nom:%>mm^At # ;
++A+Comp+Pl+Gen:%>mmitten K ;
++A+Comp+Pl+Par:%>mpi^A K ;
++A+Comp+Pl+Tra:%>mmiksi K ;
++A+Comp+Pl+Ill:%>mphiin K ;
++A+Comp+Pl+Ine:%>mmiss^A K ;
++A+Comp+Pl+Ela:%>mmist^A K ;
++A+Comp+Pl+Abl:%>mmilt^A K ;
++A+Comp+Pl+Ess:%>mpin^A K ;
++A+Comp+Pl+All:%>mmile K ;
++A+Comp+Pl+Ade:%>mmil^A K ;
+
+!3sup ; !Pl All Superl normaalimmile
++A+Superl+Sg+Nom:%>n K ; 
++A+Superl+Sg+Gen:%>mm^An K ; 
++A+Superl+Sg+Par:%>mp^A^A K ;
++A+Superl+Sg+Tra:%>mm^Aksi K ;
++A+Superl+Sg+Ill:%>mph^A^An K ;
++A+Superl+Sg+Ine:%>mm^Ass^A K ;
++A+Superl+Sg+Ela:%>mm^Ast^A K ;
++A+Superl+Sg+Abl:%>mm^Alt^A K ;
++A+Superl+Sg+Ess:%>mp^An^A K ; 
++A+Superl+Sg+All:%>mm^Ale K ; !normaalimmale
++A+Superl+Sg+Ade:%>mm^Al^A K ;
++A+Superl+Pl+Ess:%>mpin^A K ;
++A+Superl+Pl+All:%>mmile K ; !normaalimmile
++A+Superl+Pl+Ade:%>mmil^A K ;
++A+Superl+Pl+Nom:%>mm^At K ;
++A+Superl+Pl+Gen:%>mmitten K ;
++A+Superl+Pl+Par:%>mpi^A K ;
++A+Superl+Pl+Tra:%>mmiksi K ;
++A+Superl+Pl+Ill:%>mphiin K ;
++A+Superl+Pl+Ine:%>mmiss^A K ;
++A+Superl+Pl+Ela:%>mmist^A K ;
++A+Superl+Pl+Abl:%>mmilt^A K ;
+
 
 !! ## Comparative inflection
 !  ----------------------
@@ -774,7 +860,6 @@ LEXICON xcomp
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
 !+A+Comp+Sg+Nom:^WG%>mpi # ; !!≈ * @CODE@
 +Sg+Gen:^WG%>m^A%>n K ; !TEST 30/7
-!+Sg+Gen:%>m^A%>n K ; !tidigare
 +Sg+Par:%>mp^A^A K ;
 +Sg+Tra:%>m^Aksi K ;
 +Sg+Ill:%>mph^A^An K ;
@@ -819,8 +904,6 @@ xsup ; ! common cases from here
 
 LEXICON xsup 
 !! **LEXICON @LEXNAME@**   common for 2syll and 3syll
-!+Sg+Nom:%>i5mpi # ; 
-!+Sg+Nom:^WG%>i5n # ; CHECK 12/5 Why #?
 +Sg+Nom:^WG%>i5n K ; 
 +Sg+Gen:%>i5m^An K ; 
 +Sg+Par:%>i5mp^A^A K ;
@@ -830,7 +913,6 @@ LEXICON xsup
 +Sg+Ela:%>i5m^Ast^A K ;
 +Sg+Abl:%>i5m^Alt^A K ;
 +Pl+Nom:%>i5m^At K ;
-!+Pl+Nom:%>i5m^At # ; CHECK 12/5 !Why #?
 +Pl+Gen:%>i5mitten K ;
 +Pl+Par:%>i5mpi^A K ;
 +Pl+Tra:%>i5miksi K ;
