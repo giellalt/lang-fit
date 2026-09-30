@@ -5,7 +5,7 @@
 !! ## Overview over the continuation classes
 
 !! ### Continuation lexica for regular verbs
-!!  * **v1** = general even-syll-stems of antaa-type; sanoa:sano
+!!  * **v1** = general even-syll-stems of antaa-type; sanoa:sano & antaa:anta
 !!  * **v1_odd** = odd-syll-stem of antaa-type; herättää:herättä, like v1 except PrfPrc+Sg herättänny 
 !!  * **v1_otta** = kirjottaa etc (to make Err/Orth-form)
 !!  * **v1_tietaa** = tietää:ti because of changes in diftong (tiän>tiesin)

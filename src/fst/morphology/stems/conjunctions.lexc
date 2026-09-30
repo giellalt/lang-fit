@@ -47,9 +47,12 @@ siis conjx ;
 jos conjx ;
 niinku conjx ;
 niinku+Err/Orth:niinko conjx ;
-ja+Err/Lex:och conjx ; !CHECK TT
 kuten conjx ;
 elikkä conjx ;
 että conjx ;
 ko conjx ; !CHECK EK
 ku conjx ; !CHECK EK
+
+!! ## Other languages
+ja+Err/Orth:och conjx ; 
+ja+Err/Lex:and conjx ; !CHECK TT
