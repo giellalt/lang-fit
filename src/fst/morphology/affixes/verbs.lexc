@@ -74,6 +74,8 @@ LEXICON OLLA !!≈ * **@CODE@**
 +V+Act+Ind+Prs+Sg2:olet K ;
 +V+Act+Ind+Prs+Sg3:oon K ;
 +V+Act+Ind+Prs+Sg3+Err/Orth:soon K ; !
++V+Act+Ind+Prs+Sg3+Err/Lex:är K ; !
++V+Act+Ind+Prs+Sg3+Err/Lex:is K ; !
 +V+Act+Ind+Prs+Pl1:olema K ;
 +V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;
@@ -316,8 +318,9 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta  GOLD
 +V+Act+Cond+Pl3+Err/Orth:%>^E2Isiv^A K ;
 +V+Act+Cond+Pl3+Err/Orth:%>^E2Isivv^A K ; 
 
-+V+Pass+Cond:^AE^WG%>tt^A%>^E2Iis K ;  !+V+Pass+Cond+ConNeg but CHECK dictionary link
-+V+Pass+Cond+Err/Orth:^AE^WG%>tt^A%>s K ; 
++V+Pass+Cond:^AE^WG%>tt^A%>^E2Iis K ;  !=annettais, correct
+!+V+Pass+Cond+ConNeg but CHECK dictionary link
++V+Pass+Cond+Err/Orth:^AE^WG%>tt^A%>s K ; !=annettas
 +V+Pass+Cond+ConNeg:^AE^WG%>tt^A%>^E2Iis K ; 
 
 +V+InfE+Ine:%>^E2Iess^A K ;
@@ -343,7 +346,7 @@ LEXICON v1  !!≈ * **@CODE@** sanoa, lukea, antaa:anta  GOLD
 !! Forms not used in dictionary
 +V+Pass+Ind+Prs+ConNeg:^WG%>t^A K ; !"ei annetta" CHECK a>e
 +V+Pass+Ind+Prt+ConNeg:^WG%>t^U K ; !"ei annettu" CHECK a>e
-+V+Act+Cond+ConNeg:%>^E2Iisi K ; !CHECK EK same as +V+Act+Cond+Sg3?
++V+Act+Cond+ConNeg:%>^E2Iis K ; !CHECK EK same as +V+Act+Cond+Sg3?!Ändrat till antais
 +V+Inf+Tra:%>^Akse PxK ; !CHECK EK used?
 
 

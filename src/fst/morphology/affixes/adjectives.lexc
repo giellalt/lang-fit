@@ -40,6 +40,10 @@ LEXICON ax
 !! **LEXICON @LEXNAME@** pointing to a1; for adjectives that have not been classified
 a1 ; ! ax
 
+LEXICON a_nomorph
+!! **LEXICON @LEXNAME@** for uninflected adj
++A: K ; 
+
 !! ## Regular lexica
 
 LEXICON a1 
@@ -449,36 +453,36 @@ LEXICON a5_uusi
  +A+Nom:si R ;
  +A+Sg+Gen:en R ;
  +A:te x4 ;
- +A+Comp:te 3comp ;
- +A+Comp+Sg+Nom:te^WG%>mpi K ;
+ +A+Comp:e 3comp ;
+ +A+Comp+Sg+Nom:e^WG%>mpi K ;
  +A+Sg+Nom:si       PxK ; ! s
  +A+Sg+Par:%>tt^A      PxK ; 
  +A+Pl+Gen:sien PxK ; !
  +A+Pl+Gen:sien PxK ; !
- +A+Comp+Pl+Gen:te^WG%>mpien PxK ;
+ +A+Comp+Pl+Gen:e^WG%>mpien PxK ;
  +A+Superl+Sg+Nom:%>si5n PxK ; 
- +A+Superl+Sg+Ess:te%>i5mp^Ann^A K ; !!≈ * @CODE@
- +A+Superl+Sg+All:te%>i5m^Alle K ; !!≈ * @CODE@ etc.
- +A+Superl+Sg+Ade:te%>i5m^All^A K ;
- +A+Superl+Sg+Gen:te%>i5m^An PxK ; 
- +A+Superl+Sg+Par:te%>i5mp^A^A PxK ;
- +A+Superl+Sg+Tra:te%>i5m^Aksi PxK ;
- +A+Superl+Sg+Ill:te%>i5mph^A^An PxK ;
- +A+Superl+Sg+Ine:te%>i5m^Ass^A PxK ;
- +A+Superl+Sg+Ela:te%>i5m^Ast^A PxK ;
- +A+Superl+Sg+Abl:te%>i5m^Alt^A PxK ;
- +A+Superl+Pl+Ess:te%>i5mpinn^A K ;
- +A+Superl+Pl+All:te%>i5mille K ;
- +A+Superl+Pl+Ade:te%>i5mill^A K ;
- +A+Superl+Pl+Nom:te%>i5m^At PxK ;
- +A+Superl+Pl+Gen:te%>i5mitten PxK ;
+ +A+Superl+Sg+Ess:si%>i5mp^Ann^A K ; !!≈ * @CODE@
+ +A+Superl+Sg+All:si%>i5m^Alle K ; !!≈ * @CODE@ etc.
+ +A+Superl+Sg+Ade:si%>i5m^All^A K ;
+ +A+Superl+Sg+Gen:si%>i5m^An PxK ; 
+ +A+Superl+Sg+Par:si%>i5mp^A^A PxK ;
+ +A+Superl+Sg+Tra:si%>i5m^Aksi PxK ;
+ +A+Superl+Sg+Ill:si%>i5mph^A^An PxK ;
+ +A+Superl+Sg+Ine:si%>i5m^Ass^A PxK ;
+ +A+Superl+Sg+Ela:si%>i5m^Ast^A PxK ;
+ +A+Superl+Sg+Abl:si%>i5m^Alt^A PxK ;
+ +A+Superl+Pl+Ess:si%>i5mpinn^A K ;
+ +A+Superl+Pl+All:si%>i5mille K ;
+ +A+Superl+Pl+Ade:si%>i5mill^A K ;
+ +A+Superl+Pl+Nom:si%>m^At PxK ;
+ +A+Superl+Pl+Gen:si%>i5mitten PxK ;
  +A+Superl+Pl+Gen:si%>mpien PxK ; 
- +A+Superl+Pl+Par:te%>i5mpi^A PxK ;
- +A+Superl+Pl+Tra:te%>i5miksi PxK ;
- +A+Superl+Pl+Ill:te%>i5mphiin PxK ;
- +A+Superl+Pl+Ine:te%>i5miss^A PxK ;
- +A+Superl+Pl+Ela:te%>i5mist^A PxK ;
- +A+Superl+Pl+Abl:te%>i5milt^A PxK ;
+ +A+Superl+Pl+Par:si%>i5mpi^A PxK ;
+ +A+Superl+Pl+Tra:si%>i5miksi PxK ;
+ +A+Superl+Pl+Ill:si%>i5mphiin PxK ;
+ +A+Superl+Pl+Ine:si%>i5miss^A PxK ;
+ +A+Superl+Pl+Ela:si%>i5mist^A PxK ;
+ +A+Superl+Pl+Abl:si%>i5milt^A PxK ;
 
 
 LEXICON a5_pieni 
@@ -765,7 +769,7 @@ a5_fiini ;
 +A+Superl+Pl+All:%>mille K ; !normaalimmile
 +A+Superl+Pl+Ade:%>mill^A K ;
 +A+Superl+Pl+Nom:%>m^At K ;
-+A+Superl+Pl+Nom:%>i2m^At K ; !CHECK EK variant?
+!+A+Superl+Pl+Nom:%>i2m^At K ; !CHECK EK variant?
 +A+Superl+Pl+Gen:%>mitten K ;
 +A+Superl+Pl+Par:%>mpi^A K ;
 +A+Superl+Pl+Tra:%>miksi K ;
@@ -831,6 +835,9 @@ a5_fiini ;
 +A+Superl+Pl+Ela:%>mmist^A K ;
 +A+Superl+Pl+Abl:%>mmilt^A K ;
 
+LEXICON a5_fiini_ta 
+a5_fiini_even ;
++A+Sg+Par:%^IDEL%>t^A PxK ; !
 
 !! ## Comparative inflection
 !  ----------------------
