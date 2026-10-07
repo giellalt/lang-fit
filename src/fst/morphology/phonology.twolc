@@ -740,7 +740,7 @@ i8:0 <=> :Vow Cns:+ [:o|u|y] %> _ [.#.|%>] ; !added u for tuntua>tuntu, y for k√
 
 "i:e"
 !! **RULE: @RULENAME@**
-i:e <=> Cns _ %> i2: ;
+i:e <=> Cns _ (Dummy:) %> i2: ;
 
 
 

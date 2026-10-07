@@ -18,7 +18,7 @@
 !! * a5_uusi: uusi:uus (+tosi, täysi)
 !! * a5_pieni: pieni:pien
 !! * a5_auki: auki:auk2
-!! * a5_fiini_even: even-syll i-ending of troppi-type; ratikaali (points to n5_troppi_even)
+!! * a5_fiini_even: even-syll i-ending of troppi-type; xx (points to n5_troppi_even)
 !! * a5_fiini_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
 !! * anen_odd: arvolinen:arvoli, pointing to xnen
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
@@ -423,7 +423,7 @@ auki:auk2 a5_auki ;
 ilta-auki:ilta-auk2 a5_auki ;
 hiuki:hiuki ax ;
 faali:faali ax ;
-ratikaali:ratikaali a5_fiini_even ; 
+ratikaali:ratikaali a5_ratikaali ; 
 normaali:normaali a5_fiini_odd ;
 tikitaali:tikitaali a5_fiini_even ; 
 arvolinen:arvoli anen_odd ;

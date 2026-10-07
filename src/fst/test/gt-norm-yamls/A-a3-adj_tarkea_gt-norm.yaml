@@ -1,0 +1,84 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+# Adjectives: tärkeä, 
+
+
+  Adj - tärkeä: #  GOLD --  kontrollerad av Elina 
+     tärkeä+A+Sg+Nom: [tärkeä]
+     tärkeä+A+Sg+Gen: [tärkeän]
+     tärkeä+A+Sg+Par: [tärkeää]
+     tärkeä+A+Sg+Ill: [tärkehään]
+     tärkeä+A+Sg+Ine: [tärkeässä]
+     tärkeä+A+Sg+Ela: [tärkeästä]
+     tärkeä+A+Sg+All: [tärkeälle]
+     tärkeä+A+Sg+Ade: [tärkeällä]
+     tärkeä+A+Sg+Abl: [tärkeältä]
+     tärkeä+A+Sg+Ess: [tärkeännä]
+     tärkeä+A+Sg+Tra: [tärkeäksi]
+     tärkeä+A+Pl+Nom: [tärkeät]
+     tärkeä+A+Pl+Gen: [tärkeitten]
+     tärkeä+A+Pl+Par: [tärkeitä]
+     tärkeä+A+Pl+Ill: [tärkheishiin]
+     tärkeä+A+Pl+Ine: [tärkeissä]
+     tärkeä+A+Pl+Ela: [tärkeistä]
+     tärkeä+A+Pl+All: [tärkeile]
+     tärkeä+A+Pl+Ade: [tärkeilä]
+     tärkeä+A+Pl+Abl: [tärkeiltä]
+     tärkeä+A+Pl+Ess: [tärkeinä]
+     tärkeä+A+Pl+Tra: [tärkeiksi]
+     tärkeä+A+Comp+Sg+Nom: [tärkeämpi]
+     tärkeä+A+Comp+Sg+Gen: [tärkeämän]
+     tärkeä+A+Comp+Sg+Par: [tärkeämpää]
+     tärkeä+A+Comp+Sg+Ill: [tärkeämphään]
+     tärkeä+A+Comp+Sg+Ine: [tärkeämässä]
+     tärkeä+A+Comp+Sg+Ela: [tärkeämästä]
+     tärkeä+A+Comp+Sg+All: [tärkeämäle]
+     tärkeä+A+Comp+Sg+Ade: [tärkeämälä]
+     tärkeä+A+Comp+Sg+Abl: [tärkeämältä]
+     tärkeä+A+Comp+Sg+Ess: [tärkeämpänä]
+     tärkeä+A+Comp+Sg+Tra: [tärkeämäksi]
+     tärkeä+A+Comp+Pl+Nom: [tärkeämät]
+     tärkeä+A+Comp+Pl+Gen: [tärkeämitten]
+     tärkeä+A+Comp+Pl+Par: [tärkeämpiä]
+     tärkeä+A+Comp+Pl+Ill: [tärkeämphiin]
+     tärkeä+A+Comp+Pl+Ine: [tärkeämissä]
+     tärkeä+A+Comp+Pl+Ela: [tärkeämistä]
+     tärkeä+A+Comp+Pl+All: [tärkeämile]
+     tärkeä+A+Comp+Pl+Ade: [tärkeämilä]
+     tärkeä+A+Comp+Pl+Abl: [tärkeämiltä]
+     tärkeä+A+Comp+Pl+Ess: [tärkeämpinä]
+     tärkeä+A+Comp+Pl+Tra: [tärkeämiksi]
+     tärkeä+A+Superl+Sg+Nom: [tärkein]
+     tärkeä+A+Superl+Sg+Gen: [tärkeimän]
+     tärkeä+A+Superl+Sg+Par: [tärkeimpää]
+     tärkeä+A+Superl+Sg+Ill: [tärkeimphään]
+     tärkeä+A+Superl+Sg+Ine: [tärkeimässä]
+     tärkeä+A+Superl+Sg+Ela: [tärkeimästä]
+     tärkeä+A+Superl+Sg+All: [tärkeimälle]
+     tärkeä+A+Superl+Sg+Ade: [tärkeimälä]
+     tärkeä+A+Superl+Sg+Abl: [tärkeimältä]
+     tärkeä+A+Superl+Sg+Ess: [tärkeimpännä]
+     tärkeä+A+Superl+Sg+Tra: [tärkeimäksi]
+     tärkeä+A+Superl+Pl+Nom: [tärkeimät]
+     tärkeä+A+Superl+Pl+Gen: [tärkeimitten]
+     tärkeä+A+Superl+Pl+Par: [tärkeimpiä]
+     tärkeä+A+Superl+Pl+Ill: [tärkeimphiin]
+     tärkeä+A+Superl+Pl+Ine: [tärkeimissä]
+     tärkeä+A+Superl+Pl+Ela: [tärkeimistä]
+     tärkeä+A+Superl+Pl+All: [tärkeimille]
+     tärkeä+A+Superl+Pl+Ade: [tärkeimilä]
+     tärkeä+A+Superl+Pl+Abl: [tärkeimiltä]
+     tärkeä+A+Superl+Pl+Ess: [tärkeimpinnä]
+     tärkeä+A+Superl+Pl+Tra: [tärkeimiksi]
