@@ -467,7 +467,7 @@ hööpi:hööpi ax ;
 klaari:klaari a5_fiini_even ;
 naari:naari ax ;
 pauhari:pauhari a5_fiini_odd ;
-eri:eri ax ;
+eri:eri a_eri ;
 nuori:nuore a5_nuori ;
 hauri:hauri ax ;
 suuri:suur a_suuri ;

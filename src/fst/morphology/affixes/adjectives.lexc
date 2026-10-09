@@ -266,6 +266,41 @@ LEXICON a1_pitka
 +A+Superl+Pl+Ess:simpinä K ;
 +A+Superl+Pl+Ess:ssiimpinä K ;
 
+
+LEXICON a_eri 
+!! **LEXICON @LEXNAME@** vanhaa !TODO!
++A+Sg+Nom: R ; 
++A+Sg+Nom: K ;
++A+Sg+Gen:%> n_PxK ; 
++A+Sg+Par:%>^A PxK ; 
++A+Sg+Ill:^HMETA%>h^V^V n_PxK ; 
++A+Sg+Ine:%>ss^A PxK ;    
++A+Sg+Ela:%>st^A PxK ;     
++A+Sg+All:%>le PxxK ;      
++A+Sg+Ade:%>l^A PxK ;      
++A+Sg+Abl:%>lt^A PxK ;      
++A+Sg+Tra: TRA ;       
++A+Sg+Ess:%>n^A PxK ;       
++A+Sg+Abe:%>tt^A PxK ;    
++A+Sg+All:%>le K ; 
++A+Sg+Ade:%>l^A K ; 
+
++A+Pl+Nom:%> t_PxK ;
++A+Pl+Gen:%>tte n_PxK ; !
++A+Pl+Gen:%>e n_PxK ; !
++A+Pl+Par:%>^A PxK ; 
++A+Pl+Par:^IDEL%>ei2^A PxK ; ! erejä 
++A+Pl+Ill:^HMETA%>h^Vi2 n_PxK ;  !
++A+Pl+Ine:%>ss^A PxK ; !
++A+Pl+Ela:%>st^A PxK ;
++A+Pl+All:%>le PxxK ;
++A+Pl+Ade:%>l^A PxK ;
++A+Pl+Abl:%>lt^A PxK ;
++A+Pl+Tra:%> TRA ;
++A+Pl+Ess:%>n^A PxK ; 
++A+Pl+Abe:%>tt^A PxK ;
+
+
 LEXICON a_ma
 !! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
 +A+Sg+Nom:^WGn R ; 
@@ -539,9 +574,9 @@ LEXICON aas
 +A+Comp+Sg+Nom:^HMETA%>h^A^A%>mpi K ;
 +A+Comp:^HMETA%>hi5i5 3comp ;
 +A+Comp:^HMET2%>hi5i5 3comp ; !kauhniimpia etc
-+A+Comp:^HMETA%>h^A^A 3comp ; !puhtaiman etc - another sublex?
-+A+Comp:^HMET2%>h^A^A 3comp ; 
-+A+Superl:^HMETA%>h^V 3sup ;  !%>i5m^Alle
++A+Comp:^HMETA%>h^A^A 3comp ; !puhtaiman etc - another sublex? TESTADE ATT STRYKA 7/10 kaunis!
++A+Comp:^HMET2%>h^A^A 3comp ; !puhtaiman etc - another sublex? TESTADE ATT STRYKA 7/10 kaunis!
++A+Superl:^HMETA%>h^V 3sup ;  !%>i5m^Alle SKA DET VARA HMETA
 +A+Superl+Sg+Nom:%>i5n # ;
 
 
