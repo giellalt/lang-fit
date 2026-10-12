@@ -27,8 +27,8 @@
 !! * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
 !! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll)
 !! * n5_kasi = käsi:kä > käen > kättä (2syll)
-!! * n5_troppi = 2syll nouns with i-stem; merkki:merkki, väri, äiti etc (in Pl+Gen & Pl+Par BOTH i-stem and e-stem)
-!! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: alttareile)
+!! * n5_troppi_even = even syll nouns with i-stem; merkki:merkki, väri, äiti etc (in Pl+Gen & Pl+Par BOTH i-stem and e-stem)
+!! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: plural altareissa, alttareile )
 !! * n5_troppi_pl = plural continuation lexicon n5_troppi & -odd
 
 !! ### Special cases for -i-words

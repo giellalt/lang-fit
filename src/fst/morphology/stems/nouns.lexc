@@ -29,9 +29,9 @@
 !! * n4 = i:e nouns with same stem in Sg+Par: kivi:kive > kiven > kiveä (2syll)
 !! * n5 = i:e nouns, like n4 but with cns-stem in Sg+Par: kieli:kiele>kieltä (2syll)
 !! * n5_kasi = käsi:kä > käen > kättä (2syll)
-!! * n5_troppi_even = 2syll nouns with i-stem; merkki:merkki, väri, äiti etc (in Pl+Gen & Pl+Par BOTH i-stem and e-stem)
-!! * n5_troppi_odd = like n5_troppi_even but odd-stem; alttari:alttari>alttarille (NB: alttareile)
-!! * n5_troppi_pl = plural continuation lexicon n5_troppi_even & -odd
+!! * n5_troppi_even = even syll nouns with i-stem; merkki:merkki, väri, äiti etc (in Pl+Gen & Pl+Par BOTH i-stem and e-stem)
+!! * n5_troppi_odd = like n5_troppi but odd-stem; alttari:alttari>alttarille (NB: plural altareissa, alttareile )
+!! * n5_troppi_pl = plural continuation lexicon n5_troppi & -odd
 
 !! ### Special cases for -i-words
 !! * n5_lumi = lumi:lu > lumen > lunta (2syll)
@@ -8777,24 +8777,24 @@ viisäyrinen:viisäyri 3nen ;
 tortinnöyri:tortinnöyri nx ;
 färi:färi n5_troppi_even ;
 pohjafäri:pohja#färi n5_troppi_even ;
-punafäri:puna#färi n5_troppi_even ;
-voinfärinen:voinfäri nen ;
+punafäri:punafäri n5_troppi_even ;
+voinfärinen:voinfäri n5_troppi_odd ;
 plyyvittifäri:plyyvitti#färi n5_troppi_even ;
-värkkäri:värkkäri nx ;
-trykkäri:trykkäri nx ;
-pykäri:pykäri nx ;
+värkkäri:värkkäri n5_troppi_odd ;
+trykkäri:trykkäri n5_troppi_odd ;
+pykäri:pykäri n5_troppi_odd ;
 nypykäri:nypykäri nx ;
 prykäri:prykäri nx ;
-pyykäri:pyykäri nx ;
-jääkäri:jääkäri nx ;
-kruununjääkäri:kruununjääkäri nx ;
-kruunujääkäri:kruunujääkäri nx ;
-lääkäri:lääkäri nx ;
-hammaslääkäri:hammas#lääkäri n3 ;
-ylilääkäri:ylilääkäri nx ;
-keukotautilääkäri:keuko#tautilääkäri nx ;
-syänlääkäri:syänlääkäri nx ;
-leikkolääkäri:leikkolääkäri nx ;
+pyykäri:pyykäri n5_troppi_odd ;
+jääkäri:jääkäri n5_troppi_odd ;
+kruununjääkäri:kruunun#jääkäri n5_troppi_odd ;
+kruunujääkäri:kruunu#jääkäri n5_troppi_odd ;
+lääkäri:lääkäri n5_troppi_odd ;
+hammaslääkäri:hammas#lääkäri n5_troppi_odd ;
+ylilääkäri:yli#lääkäri n5_troppi_odd ;
+keukotautilääkäri:keukotauti#lääkäri n5_troppi_odd ;
+syänlääkäri:syän#lääkäri n5_troppi_odd ;
+leikkolääkäri:leikko#lääkäri n5_troppi_odd ;
 höökäri:höökäri nx ;
 köökäri:köökäri nx ;
 mylläri:mylläri nx ;
@@ -23280,29 +23280,32 @@ vukaaliääni:vukaali#ääne n5 ;
 vorot:vorot nx ;
 veittenvarsi:veittenvarsi nx ;
 daami:daami nx ;
-diakonissa:diakonissa nx ;
+diakonissa:diakonissa n1_jen ;
 doppinki:doppinki n5_troppi_odd ;
-diktatyyri:diktatyyri nx ;
-delikatessi:delikatessi nx ;
-dekkari:dekkari nx ;
-dollari:dollari nx ;
-delfiini:delfiini nx ;
-demukraatti:demukraatti nx ;
+diktatyyri:diktatyyri n5_troppi_even ;
+delikatessi:delikatessi n5_troppi_odd ;
+dekkari:dekkari n5_troppi_odd ;
+dollari:dollari n5_troppi_odd ;
+delfiini:delfiini n5_troppi_odd ;
+demukraatti:demukraatti n5_troppi_odd ;
+demukrati:demukrati n5_troppi_odd ;
 devalveerinki:devalveerinki n5_troppi_odd ;
-draama:draama nx ;
-diapusitiivi:diapusitiivi nx ;
-dyssi:dyssi nx ;
-diaari:diaari nx ;
-dalmaattikka:dalmaattikka nx ;
+montteri:montteri n5_troppi_odd ;
+draama:draama n1 ;
+diapusitiivi:diapusitiivi n5_troppi_even ;
+tiapusitiivi:tiapusitiivi n5_troppi_even ;
+dyssi:dyssi n5_troppi_odd ;
+diaari:diaari n5_troppi_odd ;
+dalmaattikka:dalmaattikka n1 ;
 diakonii:diakoni n5_troppi_ii ;
 diakoniilaitos:diakoniilaito 3n_ks ;
-diakooninvihkimismessu:diakooninvihkimismessu nx ;
-delegasuuni:delegasuuni nx ;
-demunstrasjuuni:demunstrasjuuni nx ;
-dispansi:dispansi nx ;
-diskonttu:diskonttu nx ;
-driksi:driksi nx ;
-diamantti:diamantti nx ;
+diakooninvihkimismessu:diakooninvihkimismessu n1 ;
+delegasuuni:delegasuuni n5_troppi_even ;
+demunstrasjuuni:demunstrasjuuni n5_troppi_even ;
+dispansi:dispansi n5_troppi_odd ;
+diskonttu:diskonttu n5_troppi_odd ;
+driksi:driksi n5_troppi_even ;
+diamantti:diamantti n5_troppi_even ;
 diskys:disky 3n_ks ;
 drinkki:drinkki n5_troppi_even ;
 diskbrokki:disk#brokki n5_troppi_even ;
@@ -23312,16 +23315,17 @@ distriktisysteri:distriktisysteri nx ;
 dirigentti:dirigentti nx ;
 diskjokki:disk#jokki n5_troppi_even ;
 diskuteekki:diskuteekki n5_troppi_even ;
-diktaameni:diktaameni nx ;
-diktaatturi:diktaatturi nx ;
+diktaameni:diktaameni n5_troppi_even ;
+diktaatturi:diktaatturi n5_troppi_even ;
 damasti:damasti nx ;
-debatti:debatti nx ;
-debyytti:debyytti nx ;
-dekaali:dekaali nx ;
-demunstrantti:demunstrantti nx ;
-desibelli:desibelli nx ;
-diagnoosi:diagnoosi nx ;
-dialoogi:dialoogi nx ;
+debatti:debatti n5_troppi_odd ;
+debyytti:debyytti n5_troppi_odd ;
+dekaali:dekaali n5_troppi_odd ;
+demunstrantti:demunstrantti n5_troppi_even ;
+desibelli:desibelli n5_troppi_even ;
+diagnoosi:diagnoosi n5_troppi_even ;
+dialoogi:dialoogi n5_troppi_even ;
+tialooki:tialooki n5_troppi_even ;
 diiseli:diiseli nx ;
 diiseliöljy:diiseliöljy nx ;
 diplumaatti:diplumaatti nx ;
