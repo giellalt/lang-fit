@@ -6,7 +6,7 @@
 
 !! * ax: unclassified, pointing to a1
 !! * a1: for 2-syll adjectives (ie adj where a/ä>e in comp); hullu:hullu (pointing to x1)
-!! * a_long: for 4-syll adjectives (ie NOT AE in Comp); huomattava:huomattava
+!! * a1_long: for 4-syll adjectives (ie NOT AE in Comp); huomattava:huomattava
 !! * a1_ta: a1 plus plural partitive -ta; paksuita
 !! * a1_aa: even syll adj ending with -aa; vanhaa, kuumaa
 !! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan) 
@@ -154,7 +154,7 @@ LEXICON a1_kova
 +A+Superl+Pl+Gen:%>i5%>i5mpien K ;
 
 LEXICON a1_vanha
-!! **LEXICON @LEXNAME@** for hyvä
+!! **LEXICON @LEXNAME@** for vanha
 a1 ;
 +A+Sg+Ill:^HMETA%>hh^A^A n_PxK ; !vanhhaan
 +A+Pl+Ill:^HMETA%>hhoi2 n_PxK ; !vanhhoin 
@@ -268,7 +268,7 @@ LEXICON a1_pitka
 
 
 LEXICON a_eri 
-!! **LEXICON @LEXNAME@** vanhaa !TODO!
+!! **LEXICON @LEXNAME@** eri
 +A+Sg+Nom: R ; 
 +A+Sg+Nom: K ;
 +A+Sg+Gen:%> n_PxK ; 
@@ -302,7 +302,7 @@ LEXICON a_eri
 
 
 LEXICON a_ma
-!! **LEXICON @LEXNAME@** adding **+A** and sending to **x1**, and to *3comp, 3sup*.
+!! **LEXICON @LEXNAME@** lähin:lähimä- etc
 +A+Sg+Nom:^WGn R ; 
 +A+Sg+Gen:%>m^An R ;  
 +A+Sg+Nom:%>n K ; 
@@ -579,7 +579,7 @@ LEXICON aas
 +A+Superl:^HMETA%>h^V 3sup ;  !%>i5m^Alle SKA DET VARA HMETA
 +A+Superl+Sg+Nom:%>i5n # ;
 
-LEXICON iis  
+LEXICON a_is  
 !! **LEXICON @LEXNAME@**  !TODO! Vilka ska ligga här, och hur ska Comp&Superlativ se ut?
 +A: xnas ;
 +A+Sg+Nom:^WGs R ;
