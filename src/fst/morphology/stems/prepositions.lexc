@@ -10,7 +10,8 @@ LEXICON prx
 
 LEXICON pr
 !!≈ __@LEXNAME@__  also tag +Pr for yli, ennen, ympäri, ..
-+Pr: K ; !!≈ * @CODE@ 
++Pr: K ; !!≈ * @CODE@  
++Pr+Cmp/Pr: R ; !TEST
 
 LEXICON prKK
 !!≈ __@LEXNAME@__  for endings with kk
@@ -38,7 +39,7 @@ kaikki prx ;
 poikki prx ;
 joki prx ;
 ittekuki prx ;
-kiini prx ;
+kiini pr ;
 muutampi prx ;
 jokayksi prx ;
 tasasesti prx ;

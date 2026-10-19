@@ -16771,7 +16771,8 @@ jälkilaine:jälkilaine nx ;
 jymppakenkä:jymppakenkä nx ;
 jitarri:jitarri nx ;
 jauhut:jauhu n_et ;
-jalkapallu:jalkapallu nx ;
+jalkapallu:jalka#pallu n1 ; !GEO
+jalkapallo:jalka#pallo n1 ;
 janu:janu nx ;
 johanesaurinku:johanesaurinku nx ;
 jänkkäniittu:jänkkäniittu nx ;
