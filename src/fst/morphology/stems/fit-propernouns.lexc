@@ -12685,6 +12685,7 @@ Weymouth:Weymouth p_plc_1C ;
 Plymouth:Plymouth p_plc_1C ;
 Aberystwyth:Aberystwyth p_plc_1C ;
 Ruotti:Ruott2i p_plc_1 ;
+Ruotti+Err/Lex:Sweden # ;
 Ai:Ai vanha_nocmp_prop_surplc_1 ;
 Li:Li vanha_nocmp_prop_1 ;
 Lis:Li p_sur_41 ;

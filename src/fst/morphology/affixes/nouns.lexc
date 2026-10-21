@@ -757,6 +757,10 @@ LEXICON 3nen
 !+N+Cmp/SgNom:nen R ;
 !+N+Cmp/SgGen:s R ;
 
+LEXICON 3nen_t
+!! **LEXICON @LEXNAME@** odd-syllabic hevonen stem hevose
++Pl+Gen:s%>te n_PxK ;
+
 LEXICON x3nen
 !! **LEXICON @LEXNAME@**
 x3nen_sg ;

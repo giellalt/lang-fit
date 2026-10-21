@@ -28,7 +28,7 @@
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
 !! * aas: utelias:utelia 
 !! * a_ias: hias:hita (puhelias:puhelia) 
-!! * a_as: continuation lexica for a_ias, a_has
+!! * a_Xas: continuation lexica for a_ias, a_has
 !! * a_has: puhas:puhta 
 !! * a_suuri: suuri:suur
 !! * a_ton: naimaton:naimat
@@ -564,7 +564,7 @@ LEXICON anen_even
 +A+Superl:s 3sup ; !CHECK! 
 
 
-LEXICON aas  
+LEXICON a_as  
 !! **LEXICON @LEXNAME@**  !TODO! Vilka ska ligga här, och hur ska Comp&Superlativ se ut?
 +A: xnas ;
 +A+Sg+Nom:^WGs R ;
@@ -621,7 +621,7 @@ LEXICON a_is
 +A+Superl+Pl+Nom:^HMETA%>h^Vi5m^At # ;
 +A+Superl+Pl+Nom:^HMET2%>h^Vi5m^At # ;
 
-LEXICON a_as  
+LEXICON a_Xas  
 !! **LEXICON @LEXNAME@** new subgroup for hias:hita etc !TBC!
 !+A: xnas ;
 +A+Sg+Nom:^WG%>s R ; 
@@ -654,7 +654,7 @@ LEXICON a_as
 +A+Pl+Abe:^HMETA%>h^Vitt^A K ;
 
 LEXICON a_ias  
-a_as ;
+a_Xas ;
 +A+Comp+Sg+Nom:^HMETA%>h^V^V^WG%>mpi K ;
 +A+Comp:^HMETA%>h^V^V 3comp ;
 +A+Comp:^HMET2%>h^V^V 3comp ;
@@ -666,7 +666,7 @@ a_as ;
 +A+Superl+Pl+Gen:^HMET2%>h^Vi5mpien K ; !hithaimpien
 
 LEXICON a_has  
-a_as ;
+a_Xas ;
 +A+Pl+Ill:^HMETA%>h^Ai5n K ;  !puhthain 
 !+A+Comp:%>i 3comp ;
 +A+Comp:^HMETA%>h^Ai 3comp ; !TEST
