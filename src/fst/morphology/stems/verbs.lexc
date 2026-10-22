@@ -144,6 +144,7 @@ lehathaa:lehatha v1_odd ;   !!≈ * **@CODE@**
 jauhaa:jauha v1 ;    !! * ...
 kutiaa:kutia v1_odd ;
 aijaa:aija v1 ;
+aijaa+Err/Orth:aja v1 ;
 vauhkaa:vauhka v1 ;
 jakkaa:jakka v1 ;
 jakaa:jaka v1 ;
@@ -2420,6 +2421,7 @@ kuovoa:kuovo v1 ;
 harvoa:harvo v1 ;
 karvoa:karvo v1 ;
 neuvoa:neuvo v1 ;
+poistaa:poista v1 ;
 kusettaa:kusetta v1_odd ;
 suunistaa:suunista v1_odd ;
 !kilpa:kilpa vx ; ! ajaa kilpaa
