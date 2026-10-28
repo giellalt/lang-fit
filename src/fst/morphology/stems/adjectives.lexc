@@ -1224,6 +1224,7 @@ aggressiivinen:aggressiivi anen_even ;
 negatiivinen:negatiivi anen_even ;
 nekatiivinen:nekatiivi anen_even ;
 pusitiivinen:pusitiivi anen_even ;
+positiivinen:positiivi anen_even ;
 aktiivinen:aktiivi anen_odd ;
 kivinen:kivi anen_even ;
 talvinen:talvi anen_even ;
