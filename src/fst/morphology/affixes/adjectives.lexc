@@ -8,7 +8,9 @@
 !! * a1: for 2-syll adjectives (ie adj where a/ä>e in comp); hullu:hullu (pointing to x1)
 !! * a1_long: for 4-syll adjectives (ie NOT AE in Comp); huomattava:huomattava
 !! * a1_ta: a1 plus plural partitive -ta; paksuita
-!! * a1_aa: even syll adj ending with -aa; vanhaa, kuumaa
+!! * a1_vanha: only vanha
+!! * a1_vanhaa: even syll adj ending with -aa; vanhaa, kuumaa
+!! * a1_aa: even syll adj ending with -aa; vapaa, vaajaa
 !! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan) 
 !! * a1_hyva: only hyvä (parempi paremmin)
 !! * a1_pitka: only pitkä (pitempi etc)
@@ -17,6 +19,10 @@
 !! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
 !! * a4: continuation lexica for a5-type
 !! * a_eri: only eri 
+!! * a_e: for stems ending w -e: viime:viime, terve:terve
+!! * a3: for 3-syll stems sopiva:sopiva
+!! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
+!! * a4: continuation lexica for a5-type
 !! * a5_nuori: nuori:nuore (like kieli>kieltä; pointing to x5)
 !! * a5_uusi: uusi:uus (+tosi, täysi)
 !! * a5_pieni: pieni:pien; special variants with -ii- in superlative
@@ -24,14 +30,18 @@
 !! * a5_even: even-syll i-ending of troppi-type; krovi (points to n5_troppi_even)
 !! * a5_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
 !! * a5_fiini: odd/even – normaali, fiini etc; plural forms with -i-
+!! * a5_fiini_ta: a5_fiini_even plus -ta in partitive
+!! * a5_fiini_pl: cont lexica for a5_fiini-type
 !! * a5_ratikaali: ratikaali:ratikaali, plural forms with -e- (NB: Comp & Superl only for Sg+Nom, Pl+Nom to begin with) 
 !! * anen_odd: arvolinen:arvoli, pointing to xnen
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
-!! * a_ias: hias:hita (puhelias:puhelia) 
+!! * a_as: utelias 
+!! * a_is: kallis 
 !! * a_Xas: continuation lexica for a_ias, a_has
 !! * a_has: puhas:puhta 
 !! * a_suuri: suuri:suur
 !! * a_ton: naimaton:naimat
+!! * a_ston: alaston
 !! * a_ime: for avon>avome-type like avon:avo/avoin:avoi
 !! * a_ma: for vasen>vasema-; lähin:lähi 
 
@@ -71,13 +81,49 @@ LEXICON a1_long
 +A+Comp+Sg+Nom:^WG%>mpi K ; 
 +A+Superl: 3sup ; 
 
+LEXICON a1_aa 
+!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); huomattava:huomattava
++A+Sg+Nom:a R ; 
++A+Sg+Gen:a^WG%>n R ;  
++A+Sg+Nom:a PxK ; 
++A+Sg+Gen:a^WG%> n_PxK ; !!≈ * @CODE@ ! lagt till underscore
++A+Sg+Par:a%>t^A PxK ; !!≈ * @CODE@
++A+Sg+Ill:a%>see n_PxK ; !!≈ * @CODE@ saunhaan 
++A+Sg+Ine:a%>ss^A PxK ;      !!≈ * @CODE@  etc.
++A+Sg+Ela:a%>st^A PxK ;      ! talosta
++A+Sg+All:a%>le PxxK ;        ! talole
++A+Sg+Ade:a%>l^A PxK ;       ! talola
++A+Sg+Abl:a%>lt^A PxK ;      ! talolta
++A+Sg+Tra:a TRA ;          ! taloksi
++A+Sg+Ess:a%>n^A PxK ;          ! talona
++A+Sg+Abe:a%>tt^A PxK ;      ! talotta
+
++A+Pl+Nom:a%> t_PxK ;
++A+Pl+Gen:%>itte n_PxK ;
++A+Pl+Gen:%>je n_PxK ;
++A+Pl+Par:%>it^A PxK ; 
++A+Pl+Ill:i%>sii n_PxK ;  ! vajaisiin 
++A+Pl+Ine:%>iss^A PxK ;
++A+Pl+Ela:%>ist^A PxK ;
++A+Pl+All:%>ile PxxK ;
++A+Pl+Ade:%>il^A PxK ;
++A+Pl+Abl:%>ilt^A PxK ;
++A+Pl+Tra:%>i TRA ;
++A+Pl+Ess:%>in^A PxK ; 
++A+Pl+Abe:%>itt^A PxK ;
+
++A+Comp:a 3comp ;  
++A+Comp+Pl+Gen:a%>mpien K ;
++A+Comp+Sg+Nom:a^WG%>mpi K ; 
++A+Superl:a 3sup ; 
+
 LEXICON a1_ta 
 !! **LEXICON @LEXNAME@** vanhaa !TODO!
 a1 ;
 +A+Pl+Par:^WG^IDEL%>i2ta PxK ; !  also paksuita TODO: dela upp, vilka ska ha -ta-variant?
 
-LEXICON a1_aa
-!! **LEXICON @LEXNAME@** vanhaa !TODO! vanhaa:vanhaa a1_aa ;  
+LEXICON a1_vanhaa
+!! **LEXICON @LEXNAME@** vanhaa  
 +A+Sg+Nom:a R ; 
 +A+Sg+Nom:a K ;
 +A+Sg+Gen:a%> n_PxK ; 
