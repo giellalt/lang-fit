@@ -22,7 +22,6 @@
 !! * a5_fiini_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
 !! * anen_odd: arvolinen:arvoli, pointing to xnen
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
-!! * aas: utelias:utelia 
 !! * a_ias: hias:hita (puhelias:puhelia) 
 !! * a_Xas: continuation lexica for a_ias, a_has
 !! * a_has: puhas:puhta 
@@ -1778,8 +1777,6 @@ ahas:ahta a_as ;
 vaitelihas:vaiteliha a_as ;
 puhas:puhta a_has ;
 hias:hita a_as ;
-Xhias:Xhita a_ias ;
-Xpuhelias:Xpuhelia a_ias ;
 puhelias:puhelia a_as ;
 laulelias:laulelia a_as ;
 toimelias:toimelia a_as ;

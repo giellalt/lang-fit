@@ -16,17 +16,17 @@
 !! * a3: for 3-syll stems sopiva:sopiva
 !! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
 !! * a4: continuation lexica for a5-type
+!! * a_eri: only eri 
 !! * a5_nuori: nuori:nuore (like kieli>kieltä; pointing to x5)
 !! * a5_uusi: uusi:uus (+tosi, täysi)
 !! * a5_pieni: pieni:pien; special variants with -ii- in superlative
 !! * a5_auki: auki:auk2 !CHECK
-!! * a5_even: even-syll i-ending of troppi-type; ratikaali (points to n5_troppi_even)
+!! * a5_even: even-syll i-ending of troppi-type; krovi (points to n5_troppi_even)
 !! * a5_odd: odd-syll i-ending of troppi-type; privaatti (points to n5_troppi_odd)
 !! * a5_fiini: odd/even – normaali, fiini etc; plural forms with -i-
 !! * a5_ratikaali: ratikaali:ratikaali, plural forms with -e- (NB: Comp & Superl only for Sg+Nom, Pl+Nom to begin with) 
 !! * anen_odd: arvolinen:arvoli, pointing to xnen
 !! * anen_even tikitaalinen:tikitaali, pointing to x3nen 
-!! * aas: utelias:utelia 
 !! * a_ias: hias:hita (puhelias:puhelia) 
 !! * a_Xas: continuation lexica for a_ias, a_has
 !! * a_has: puhas:puhta 
@@ -653,17 +653,17 @@ LEXICON a_Xas
 +A+Pl+Ess:^HMETA%>h^Vin^A K ;          
 +A+Pl+Abe:^HMETA%>h^Vitt^A K ;
 
-LEXICON a_ias  
-a_Xas ;
-+A+Comp+Sg+Nom:^HMETA%>h^V^V^WG%>mpi K ;
-+A+Comp:^HMETA%>h^V^V 3comp ;
-+A+Comp:^HMET2%>h^V^V 3comp ;
-+A+Comp+Pl+Gen:^HMETA%>h^V^Vmpien K; !hithaampien
-+A+Comp+Pl+Gen:^HMET2%>h^V^Vmpien K;
-+A+Superl:^HMETA%>h^V 3sup ; 
-+A+Superl+Sg+Nom:^HMETA%>h^Vi5n K ; !
-+A+Superl+Pl+Gen:^HMETA%>h^Vi5mpien K ; !hithaimpien
-+A+Superl+Pl+Gen:^HMET2%>h^Vi5mpien K ; !hithaimpien
+!LEXICON a_ias  
+!a_Xas ;
+!+A+Comp+Sg+Nom:^HMETA%>h^V^V^WG%>mpi K ;
+!+A+Comp:^HMETA%>h^V^V 3comp ;
+!+A+Comp:^HMET2%>h^V^V 3comp ;
+!+A+Comp+Pl+Gen:^HMETA%>h^V^Vmpien K; !hithaampien
+!+A+Comp+Pl+Gen:^HMET2%>h^V^Vmpien K;
+!+A+Superl:^HMETA%>h^V 3sup ; 
+!+A+Superl+Sg+Nom:^HMETA%>h^Vi5n K ; !
+!+A+Superl+Pl+Gen:^HMETA%>h^Vi5mpien K ; !hithaimpien
+!+A+Superl+Pl+Gen:^HMET2%>h^Vi5mpien K ; !hithaimpien
 
 LEXICON a_has  
 a_Xas ;
