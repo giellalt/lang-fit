@@ -1292,6 +1292,7 @@ LEXICON 3n_lnr_inteill
  +N+Pl+Nom:e%> t_PxK ;
  +N+Pl+Gen:^WG%>te n_PxK ;
  +N+Pl+Par:e%>it^A PxK ;
+ +N+Pl+Par:he%>it^A PxK ; !CHECK EK
  +N+Pl+Ill:%>hii n_PxK ;
  +N+Pl+Ill:^HMET2%>hii n_PxK ;
  +N+Pl+Ine:%>iss^A PxK ;
