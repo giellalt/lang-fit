@@ -436,6 +436,7 @@ ratikaali:ratikaali a5_ratikaali ;
 normaali:normaali a5_fiini_odd ;
 tikitaali:tikitaali a5_fiini_even ; 
 arvolinen:arvoli anen_odd ;
+sisälinen:sisäli anen_odd ;
 alueelinen:alueeli anen_even ;
 tikitaalinen:tikitaali anen_even ;
 krongeli:krongeli a5_fiini_odd ;

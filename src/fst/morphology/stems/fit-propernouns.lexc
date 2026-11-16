@@ -22311,6 +22311,8 @@ Saarnio:Saarnio p_sur_1 ;
 Tornio:Tornio p_22oi ;
 Ala-Toornio:Ala-Toornio p_x ;
 Yli-Toornio:Yli-Toornio p_x ;
+Alatoornio:Alatoornio p_x ;
+Ylitoornio:Ylitoornio p_x ;
 Aunio:Aunio p_sur_1 ;
 Raunio:Raunio p_sur_1 ;
 Tapio:Tapio p_mal_1 ;

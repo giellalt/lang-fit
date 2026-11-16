@@ -72,10 +72,11 @@ LEXICON OLLA !!≈ * **@CODE@**
 
 +V+Act+Ind+Prs+Sg1:olen K ;
 +V+Act+Ind+Prs+Sg2:olet K ;
++V+Act+Ind+Prs+Sg2:ole KK ;
 +V+Act+Ind+Prs+Sg3:oon K ;
 +V+Act+Ind+Prs+Sg3+Err/Orth:soon K ; !
-+V+Act+Ind+Prs+Sg3+Err/Lex:är K ; !
-+V+Act+Ind+Prs+Sg3+Err/Lex:is K ; !
++V+Act+Ind+Prs+Sg3+Err/Lex:är # ; !
++V+Act+Ind+Prs+Sg3+Err/Lex:is # ; !
 +V+Act+Ind+Prs+Pl1:olema K ;
 +V+Act+Ind+Prs+Pl2:oletta K ;
 +V+Act+Ind+Prs+Pl3:oon K ;
