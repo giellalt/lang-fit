@@ -81,42 +81,42 @@ LEXICON a1_long
 +A+Comp+Sg+Nom:^WG%>mpi K ; 
 +A+Superl: 3sup ; 
 
-LEXICON a1_aa 
-!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); huomattava:huomattava
-+A+Sg+Nom:a R ; 
-+A+Sg+Gen:a^WG%>n R ;  
-+A+Sg+Nom:a PxK ; 
-+A+Sg+Gen:a^WG%> n_PxK ; !!≈ * @CODE@ ! lagt till underscore
-+A+Sg+Par:a%>t^A PxK ; !!≈ * @CODE@
-+A+Sg+Ill:a%>see n_PxK ; !!≈ * @CODE@ saunhaan 
-+A+Sg+Ine:a%>ss^A PxK ;      !!≈ * @CODE@  etc.
-+A+Sg+Ela:a%>st^A PxK ;      ! talosta
-+A+Sg+All:a%>le PxxK ;        ! talole
-+A+Sg+Ade:a%>l^A PxK ;       ! talola
-+A+Sg+Abl:a%>lt^A PxK ;      ! talolta
-+A+Sg+Tra:a TRA ;          ! taloksi
-+A+Sg+Ess:a%>n^A PxK ;          ! talona
-+A+Sg+Abe:a%>tt^A PxK ;      ! talotta
-
-+A+Pl+Nom:a%> t_PxK ;
-+A+Pl+Gen:%>itte n_PxK ;
-+A+Pl+Gen:%>je n_PxK ;
-+A+Pl+Par:%>it^A PxK ; 
-+A+Pl+Ill:i%>sii n_PxK ;  ! vajaisiin 
-+A+Pl+Ine:%>iss^A PxK ;
-+A+Pl+Ela:%>ist^A PxK ;
-+A+Pl+All:%>ile PxxK ;
-+A+Pl+Ade:%>il^A PxK ;
-+A+Pl+Abl:%>ilt^A PxK ;
-+A+Pl+Tra:%>i TRA ;
-+A+Pl+Ess:%>in^A PxK ; 
-+A+Pl+Abe:%>itt^A PxK ;
-
-+A+Comp:a 3comp ;  
-+A+Comp+Pl+Gen:a%>mpien K ;
-+A+Comp+Sg+Nom:a^WG%>mpi K ; 
-+A+Superl:a 3sup ; 
-
+!LEXICON a1_aa 
+!!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); huomattava:huomattava
+!+A+Sg+Nom:a R ; 
+!+A+Sg+Gen:a^WG%>n R ;  
+!+A+Sg+Nom:a PxK ; 
+!+A+Sg+Gen:a^WG%> n_PxK ; !!≈ * @CODE@ ! lagt till underscore
+!+A+Sg+Par:a%>t^A PxK ; !!≈ * @CODE@
+!+A+Sg+Ill:a%>see n_PxK ; !!≈ * @CODE@ saunhaan 
+!+A+Sg+Ine:a%>ss^A PxK ;      !!≈ * @CODE@  etc.
+!+A+Sg+Ela:a%>st^A PxK ;      ! talosta
+!+A+Sg+All:a%>le PxxK ;        ! talole
+!+A+Sg+Ade:a%>l^A PxK ;       ! talola
+!+A+Sg+Abl:a%>lt^A PxK ;      ! talolta
+!+A+Sg+Tra:a TRA ;          ! taloksi
+!+A+Sg+Ess:a%>n^A PxK ;          ! talona
+!+A+Sg+Abe:a%>tt^A PxK ;      ! talotta
+!
+!+A+Pl+Nom:a%> t_PxK ;
+!+A+Pl+Gen:%>itte n_PxK ;
+!+A+Pl+Gen:%>je n_PxK ;
+!+A+Pl+Par:%>it^A PxK ; 
+!+A+Pl+Ill:i%>sii n_PxK ;  ! vajaisiin 
+!+A+Pl+Ine:%>iss^A PxK ;
+!+A+Pl+Ela:%>ist^A PxK ;
+!+A+Pl+All:%>ile PxxK ;
+!+A+Pl+Ade:%>il^A PxK ;
+!+A+Pl+Abl:%>ilt^A PxK ;
+!+A+Pl+Tra:%>i TRA ;
+!+A+Pl+Ess:%>in^A PxK ; 
+!+A+Pl+Abe:%>itt^A PxK ;
+!
+!+A+Comp:a 3comp ;  
+!+A+Comp+Pl+Gen:a%>mpien K ;
+!+A+Comp+Sg+Nom:a^WG%>mpi K ; 
+!+A+Superl:a 3sup ; 
+!
 LEXICON a1_ta 
 !! **LEXICON @LEXNAME@** vanhaa !TODO!
 a1 ;

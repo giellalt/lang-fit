@@ -7188,9 +7188,9 @@ tryski:tryski nx ;
 fjäski:fjäski nx ;
 fläski:fläski nx ;
 mäski:mäski nx ;
-sääski:sääski nx ;
-kalasääski:kala#sääski nx ;
-kirsisääski:kirsi#sääski nx ;
+sääski:sääske n4 ;
+kalasääski:kala#sääske n4 ;
+kirsisääski:kirsi#sääske n4 ;
 hetkinen:hetki 3nen ;
 muki:muk2i n5_troppi_even ; !CHECK EK
 muumimuki:muumi#muk2i n5_troppi_even ; !CHECK EK
