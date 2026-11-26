@@ -7,7 +7,7 @@
 !! * a_long: for 4-syll adjectives (ie NOT AE in Comp); huomattava:huomattava
 !! * a1_ta: a1 plus plural partitive -ta; paksuita
 !! * a1_vanha: only vanha
-!! * a1_vanhaa: even syll adj ending with -aa; vanhaa, kuumaa, vapaa, vaajaa
+!! * a1_aa: even syll adj ending with -aa; vanhaa, kuumaa, vapaa, vaajaa
 !! * a1_kova: only kova (like a1 plus kovviiman, kovviin, kovviimphaan)
 !! * a1_hyva: only hyvä (parempi paremmin)
 !! * a1_pitka: only pitkä (pitempi etc)
@@ -57,13 +57,12 @@ privaatti a5_fiini_odd ;
 privaatti+Err/Orth:privatti a5_fiini_odd ;
 pieni:pien a5_pieni ;  
 moni:mone a5_nuori ;
-vanhaa:vanha a1_vanhaa ;  
-ikivanhaa:ikivanha a1_vanhaa ;
-vinhaa:vinha a1_vanhaa ; 
-vajaa:vaja a1_vanhaa ; !
-!pajaa:vaja a1_vanhaa ; !test!
-kuumaa:kuuma a1_vanhaa ;
-vapaa:vapa a1_vanhaa ; !X
+vanhaa:vanha a1_aa ;  
+ikivanhaa:ikivanha a1_aa ;
+vinhaa:vinha a1_aa ; 
+vajaa:vaja a1_aa ; !
+kuumaa:kuuma a1_aa ;
+vapaa:vapa a1_aa ; !X
 krahea:krahea a3_VV ; 
 kuohea:kuohea a3_VV ;
 kauhea:kauhea a3_VV ;

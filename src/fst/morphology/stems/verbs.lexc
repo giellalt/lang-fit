@@ -50,7 +50,6 @@
 !!  * **v5** = tarvita:tarv
 !!  * **v5_keritä** = keritä:ker
 !!  * **v6** = paeta:pake
-!!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
 !(REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut)

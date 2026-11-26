@@ -48,7 +48,6 @@
 !!  * **v5** = tarvita:tarv
 !!  * **v5_keritä** = keritä:ker
 !!  * **v6** = paeta:pake
-!!  * **v_vanheta** = vanheta
 !!  * **vx** = unassigned
 
 !(REMOVED: **v3_ja_long** = palmikoija:palmikoi; like v3_ja except Pass+PrfPrc+Pl+Nom:palmikoijut)
@@ -1108,7 +1107,7 @@ LEXICON v3_kaya  !!≈ * **@CODE@** käyä:kä
 +V+Pass+PrfPrc+Pl+Nom:y%>t^Ut K ; !havatut
 +V+AgPrc:ym^A K ;
 
-+V+Der/minen:ymi nen ;
++V+Der/minen:ymi 3nen ;
 
 
 LEXICON v3_nahha !!≈ * **@CODE@** nähä:nä 
@@ -1472,7 +1471,7 @@ LEXICON v4_julkas  !!≈ * **@CODE@** julkasta etc
 +V+Pass+PrfPrc+Sg+Nom:%>t^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:t%>^Ut K ; !TEST
 +V+AgPrc:e%>m^A K ;
-+V+Der/minen:emi nen ;
++V+Der/minen:emi 3nen ;
 +V+Neg+Act+Imprt+ConNeg+Sg2:^WGe # ; !plus älä (älä anna)
 +V+Neg+Act+Imprt+ConNeg+Pl2:%>k^O # ; !plus älä (älkää antako)
 
@@ -1493,6 +1492,8 @@ v4_la ; !general contlex
 +V+Act+PrsPrc+Sg+Nom:le%>v^A K ;  
 +V+Act+PrsPrc+Pl+Nom:le%>v^At K ;  
 
++V+Der/minen:lemi 3nen ;
+
 
 LEXICON v4_la_odd
 v4_la ; !general contlex
@@ -1510,6 +1511,7 @@ v4_la ; !general contlex
 +V+AgPrc:le%>m^A K ;  
 +V+Act+PrsPrc+Sg+Nom:le%>v^A K ;  
 +V+Act+PrsPrc+Pl+Nom:le%>v^At K ;  
++V+Der/minen:lemi nen ;
 
 LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Inf:^WG%>l^A KK ;
@@ -1565,7 +1567,7 @@ LEXICON v4_la  !!≈ * **@CODE@** varjela:varjel
 +V+Act+Cond+Pl2:l%>i4s%>itt^A K ;
 +V+Act+Cond+Pl3:l%>i4s%>it K ;
 
-+V+Der/minen:lemi nen ;
+!+V+Der/minen:lemi nen ;
 
 +V+Neg+Act+Imprt+ConNeg+Sg2:le # ;
 +V+Neg+Act+Imprt+ConNeg+Pl2:l%>k^O # ;
@@ -1639,7 +1641,7 @@ LEXICON v4_lla !!≈ * **@CODE@** cont lexica v4_lla-type ajatella etc
 +V+Neg+Act+Imprt+ConNeg+Sg2:l%>e # ;
 +V+Neg+Act+Imprt+ConNeg+Pl2:^WGl%>k^O # ;
 
-+V+Der/minen:lemi nen ;
+!+V+Der/minen:lemi nen ;
 
 LEXICON v4_lla_odd  !!≈ * **@CODE@** ajatella etc
 v4_lla ;
@@ -1651,6 +1653,8 @@ v4_lla ;
 +V+AgPrc:le%>m^A K ;
 +V+InfMa+Ade:le%>m^All^A K ; 
 
++V+Der/minen:lemi nen ;
+
 
 LEXICON v4_lla_even   !!≈ * **@CODE@** lauella etc
 v4_lla ;
@@ -1661,6 +1665,8 @@ v4_lla ;
 +V+Act+Cond+Pl1:l%>i4s%>im^A K ;
 +V+AgPrc:le%>mm^A K ;
 +V+InfMa+Ade:le%>m^Al^A K ; 
+
++V+Der/minen:lemi 3nen ;
 
 
 
@@ -1732,7 +1738,7 @@ LEXICON v5 !!≈ * **@CODE@**  tarvita:tarvi
 +V+InfE+Ins:t%>en K ;
 
 !! DERIVATION and PARTICIPFORMS
-+V+Der/minen:tt%>emi nen ;
++V+Der/minen:tt%>emi 3nen ;
 +V+Act+PrsPrc:%>ttev^A x3 ;
 +V+Act+PrsPrc+Err/Orth:%>ttevv^A x3 ;
 
@@ -1877,7 +1883,7 @@ LEXICON v6 !!≈ * **@CODE@** =  paeta:pake
 +V+Pass+PrfPrc+Sg+Nom:^WG%>tt^U K ; !havattu
 +V+Pass+PrfPrc+Pl+Nom:^WG%>^t^Ut K ; !havatut
 +V+AgPrc:ne%>m^A K ; 
-+V+Der/minen:nemi nen ;
++V+Der/minen:nemi 3nen ;
 
 
 !! ## Subparadigms
