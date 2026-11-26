@@ -27,7 +27,7 @@ Tests:
     taivas+N+Sg+Abl: [taihvaalta, taivhaalta]
     taivas+N+Sg+All: [taihvaale, taivhaale]
     taivas+N+Sg+Ess: [taihvaana, taivhaana]
-    taivas+N+Pl+Nom: taivhaat
+    taivas+N+Pl+Nom: [taivhaat, taihvaat]
     taivas+N+Pl+Gen: [taihvaitten, taivhaitten]
     taivas+N+Pl+Par: [taihvaita, taivhaita]
     taivas+N+Pl+Tra: [taihvaiksi, taivhaiksi]
