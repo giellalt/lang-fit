@@ -18,7 +18,7 @@
 !!  * **v2** = cont lex for general forms from v2_ata, v2_ata_even and v2_uta
 !!  * **v2_ata_odd** = -ata-verbs; masinata:masina (+^A i Sg3, InfMa+Ade masinaamala)
 !!  * **v2_ata_even** = even-stem -ata-verbs; huomata:huoma, tryykätä:tryykkä (+^A i Sg3, InfMa+Ade huomaamalla)
-!!  * **v2_uta** = Vta-verbs; leipota:leippo, mullita:mulli (+^A^A i Sg3)
+!!  * **v2_uta** = Vta-verbs (even-stem); leipota:leippo, mullita:mulli (+^A^A i Sg3)
 !!  * **v2_havata** = ONLY havata:hava
 !!  * **v2_Hata_even** = kohata:kohta
 
