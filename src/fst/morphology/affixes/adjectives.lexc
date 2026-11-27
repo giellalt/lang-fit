@@ -15,6 +15,7 @@
 !! * a1_pitka: only pitkä (pitempi etc)
 !! * a_e: for stems ending w -e: viime:viime, terve:terve
 !! * a3: for 3-syll stems sopiva:sopiva
+!! * a3_ttu: a1 plus plural partitive -ta; 3-syll-stem suosittu
 !! * a3_VV: 3-syll stems with two (different) vowels; komea:komea
 !! * a4: continuation lexica for a5-type
 !! * a_eri: only eri 
@@ -96,7 +97,7 @@ LEXICON a1_ava
  +A+Pl+Abe:^WG%>itt^A PxK ;
 
 LEXICON a1_aja 
-!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); huomattava:huomattava
+!! **LEXICON @LEXNAME@** for four syllable adjectives (ie not AE in Comp); hongankolistaja
 +A: x1 ; 
 +A+Sg+Nom: R ; 
 +A+Sg+Gen:^WG%>n R ;  
@@ -468,8 +469,35 @@ LEXICON a3
 +A+Superl+Pl+All:%>i5mmile K ;
 +A+Superl+Pl+Ade:%>i5mmil^A K ;
 
+LEXICON a3_ttu 
+!! **LEXICON @LEXNAME@** kamala gets +A and points to x3
+!! **LEXICON @LEXNAME@** kamala gets +A and points to x3
++A+Sg+Nom:^E2I R ;
++A+Sg+Gen:^WG%>n R ;
++A: x3_sg ; 
++A+Sg+Par+Err/Orth:%>t^A PxK ; !Kolla med Elina
++A+Pl+Nom:^WG%> t_PxK ;
++A+Pl+Gen:^WG%>itte n_PxK ; !puljetuitten
++A+Pl+Gen:%>je n_PxK ; !poljettujen
++A+Pl+Par:%>j^A PxK ; 
++A+Pl+Par:^WG%>it^A PxK ; 
++A+Pl+Ill:^HMETA%>h^Vi9 n_PxK ; 
++A+Pl+Ine:^WG%>i9ss^A PxK ;
++A+Pl+Ela:^WG%>i9st^A PxK ;
++A+Pl+All:^WG%>i9le PxK ; 
++A+Pl+Ade:^WG%>i9l^A PxK ;
++A+Pl+Abl:^WG%>i9lt^A PxK ;
++A+Pl+Tra:%>i9 TRA ;
++A+Pl+Ess:%>i9n^A PxK ;
++A+Pl+Abe:%>i9tt^A PxK ;
 
- LEXICON a3_VV 
++A+Comp+Sg+Nom:^WG%>mpi K ;
++A+Comp+Pl+Nom:^WG%>mmat K ;
++A+Superl+Sg+Nom:^WG%>i5n # ;
++A+Superl+Pl+Nom:^WG%>i5m^At # ;
+
+
+LEXICON a3_VV 
 !! **LEXICON @LEXNAME@** like a3 except superlativ
 +A+Sg+Nom:^E2I R ;
 +A+Sg+Gen:^WG%>n R ;
